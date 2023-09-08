@@ -1,7 +1,5 @@
-Course XXXX-XXXX
+Course 2023-2024
 ================
-
-**Note to those forking this repository: Replace XXXX-XXXX with the years of the course everywhere here so that everything works**
 
 This is the repository that we will use for our collaborative work and for uploading all the assignments for our course.
 
@@ -11,7 +9,7 @@ This is the normal process that you will have to follow in order to interact wit
 * If you had already forked the repository some time ago, you may want to sync your repository to the latest version that is now available. This is done by [configuring the remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork) and [syncing your fork](https://help.github.com/articles/syncing-a-fork). Basically, you have to:
  * Establish remote: 
  
-        git remote add upstream https://github.com/FacultadInformatica-LinkedData/CursoXXXX-XXXX
+        git remote add upstream https://github.com/FacultadInformatica-LinkedData/Curso2023-2024-ODKG
 
  * Fetch any changes to it: 
  
