@@ -1,0 +1,12 @@
+1) Get all the properties that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?properties
+WHERE{
+	?s rdf:type <http://dbpedia.org/ontology/Politician>.
+	?s ?properties ?o
+}
+LIMIT 100
+
+
+Resultado:
+https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+DISTINCT+%3Fproperties%0D%0AWHERE%7B%0D%0A%09%3Fs+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A%09%3Fs+%3Fproperties+%3Fo%0D%0A%7D%0D%0ALIMIT+100&format=text%2Fhtml&timeout=30000&signal_void=on&signal_unconnected=on
