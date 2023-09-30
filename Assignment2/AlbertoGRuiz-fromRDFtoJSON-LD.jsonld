@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "event1": "http://www.ontogrid.net/StickyNote#event1",
+    "event2": "http://www.ontogrid.net/StickyNote#event2",
+    "event3": "http://www.ontogrid.net/StickyNote#event3",
+    "event4": "http://www.ontogrid.net/StickyNote#event4",
+    "event5": "http://www.ontogrid.net/StickyNote#event5",
+    "PinarAlper": "http://www.ontogrid.net/StickyNote#PinarAlper",
+    "CaroleGoble": "http://www.ontogrid.net/StickyNote#CaroleGoble",
+    "OscarCorcho": "http://www.ontogrid.net/StickyNote#OscarCorcho",
+    "involves": {
+      "@id": "http://www.ontogrid.net/StickyNote#involves",
+      "@type": "@id"
+    },
+    "eventDate": {
+      "@id": "http://www.ontogrid.net/StickyNote#eventDate",
+      "@type": "xsd:date"
+    }
+  },
+  "@id": "http://www.ontogrid.net/StickyNote#",
+  "@graph": [
+    {
+      "@id": "event1"
+    },
+    {
+      "@id": "event2"
+    },
+    {
+      "@id": "event3",
+      "involves": [
+        "PinarAlper",
+        "CaroleGoble"
+      ],
+      "eventDate": "2006-05-15"
+    },
+    {
+      "@id": "event4",
+      "involves": "OscarCorcho",
+      "eventDate": "2006-05-16"
+    },
+    {
+      "@id": "event5",
+      "involves": "CaroleGoble",
+      "eventDate": "2006-05-15"
+    },
+    {
+      "@id": "PinarAlper"
+    },
+    {
+      "@id": "CaroleGoble"
+    },
+    {
+      "@id": "OscarCorcho"
+    }
+  ]
+}
