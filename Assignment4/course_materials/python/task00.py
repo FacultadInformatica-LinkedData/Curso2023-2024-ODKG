@@ -11,7 +11,7 @@ Original file is located at
 Instalamos las dependencias necesarias en nuestro entorno. `pip` es el gestor de paquetes de Python.
 """
 
-!pip install rdflib
+#!pip install rdflib
 
 """Del paquete rdflib importamos las clases necesarias para la tarea"""
 

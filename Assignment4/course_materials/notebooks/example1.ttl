@@ -1,0 +1,18 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://somewhere/JohnSmith> vcard:FN "John Smith"^^xsd:string ;
+    vcard:Family "Smith"^^xsd:string ;
+    vcard:Given "John"^^xsd:string .
+
+<http://somewhere/MattJones> vcard:FN "Matt Jones"^^xsd:string ;
+    vcard:Family "Jones"^^xsd:string ;
+    vcard:Given "Matt"^^xsd:string ;
+    foaf:knows <http://somewhere/JaneSmith> .
+
+<http://somewhere/SarahJones> vcard:FN "Sarah Jones"^^xsd:string ;
+    vcard:Family "Jones"^^xsd:string ;
+    vcard:Given "Sarah"^^xsd:string ;
+    foaf:email "sJones@somewhere.com"^^xsd:string .
+

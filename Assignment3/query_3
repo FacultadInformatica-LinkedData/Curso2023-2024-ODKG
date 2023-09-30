@@ -1,0 +1,9 @@
+
+       SELECT
+         distinct ?property ?name
+        WHERE
+       {
+          ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+          ?politician ?property ?value.
+          ?politician <http://xmlns.com/foaf/0.1/name> ?name.
+        }
