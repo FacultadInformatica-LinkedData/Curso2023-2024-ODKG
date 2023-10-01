@@ -1,0 +1,113 @@
+
+subjects 
+	name
+	tacher
+	descriptioi
+	
+{
+"@context":{
+    "name": "http://schema.org/name",
+    "mother": {
+      "@id": "http://schema.org/mother",
+      "@type": "@id"
+    },
+    "father": {
+      "@id": "http://schema.org/father",
+      "@type": "@id"
+    },
+    "teachers": {
+      "@id": "http://schema.org/employee",
+      "@type": "@id"
+    },
+    "subjects": {
+      "@id": "http://schema.org/Course",
+      "@type": "@id"
+    },
+    "description": "http://schema.org/description",
+    "age": "http://schema.org/age",
+    "hometown": "http://schema.org/addressLocality",
+    "almaMater": "http://schema.org/alumniOf"
+	},
+	"@id":"http//ex.org/carlos.glaredo",
+	"@type": "http://schema.org/Person",
+	"name": "Carlos González-Almansa Laredo",
+	"hometown": {
+	"@id":"http://ex.org/places/CiudadReal/Valdepeñas",
+	"name": "Valdepeñas"
+	},
+	"age":23,
+	"almaMater":{
+		"@id":"http.ex.org/UPM",
+		"name":"Universidad Politécnica de Madrid"
+	},
+	"parents": {
+    "mother": {
+      "@id": "http://ex.org/BegoñaLaredo",
+      "@type": "http://schema.org/Person",
+      "name": "Begoña Laredo Muñoz"
+    },
+    "father": {
+      "@id": "http://ex.org/CarlosGal",
+      "@type": "http://schema.org/Person",
+      "name": "Carlos González-Almansa Hidalgo"
+    }
+  },
+   "subjects": [
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Big data",
+      "teachers": [
+        {
+        "@id": "http://ex.org/person/antonio1",
+        "@type": "http://schema.org/Person",
+        "name": "Antonio Latorre De La Fuente"
+        },
+        {
+        "@id": "http://ex.org/person/julian1",
+        "@type": "http://schema.org/Person",
+        "name": "Julian Arenas Guerrero"
+        },
+        {
+        "@id": "http://ex.org/person/jorge1",
+        "@type": "http://schema.org/Person",
+        "name": "Jorge Acosta Hernandez"
+        }
+      ],
+      "description": "The subject aims to teach how to (be able to) use large datasets, which are inherently challenging to process, analyzing them to extract insights and aid in our decision-making."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Open Data and Knowledge Graphs",
+      "teachers": [
+        {
+        "@id": "http://ex.org/person/oscar1",
+        "@type": "http://schema.org/Person",
+        "name": "Oscar Corcho Garcia"
+        },
+        {
+        "@id": "http://ex.org/person/raul1",
+        "@type": "http://schema.org/Person",
+        "name": "Raul Garcia Castro"
+        }
+      ],
+      "description": "The subject aims to provide an introduction to the various ways of structuring, connecting, retrieving and publishing (interlinked) data from/to the web as part of an effort to make data more accessible, usable, and discoverable."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Machine Learning",
+      "teachers": [
+        {
+        "@id": "http://ex.org/person/pedro1",
+        "@type": "http://schema.org/Person",
+        "name": "Pedro Larranga Múgica"
+        },
+		{
+		"@id": "http://ex.org/person/Concha1",
+		"type": "http://schema.org/Person",
+		"name": "Concha Bielza Lozoya"
+		}
+      ],
+      "description": "The subject aims to provide an introduction to the world of robotics, from kinematics, to manipulators, 3D transformations, autonomous robots, control theory, and more."
+    }
+  ]
+}
