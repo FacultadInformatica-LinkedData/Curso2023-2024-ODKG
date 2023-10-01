@@ -1,0 +1,76 @@
+1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+Query:
+SELECT DISTINCT ?properties
+WHERE {
+   ?s a <http://dbpedia.org/ontology/Politician> .
+   ?s ?properties ?z .
+}
+
+---------------------------------------------------------------------------
+Result:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fproperties%0D%0AWHERE+%7B%0D%0A+++%3Fs+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fs+%3Fproperties+%3Fz+.%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=1000&debug=on&run=+Run+Query+
+
+________________________________________________________________________________________________________________
+
+2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+SELECT DISTINCT ?properties
+WHERE {
+   ?s a <http://dbpedia.org/ontology/Politician> .
+   ?s ?properties ?z .
+   FILTER (?properties != rdf:type)
+}
+
+---------------------------------------------------------------------------
+Result:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fproperties%0D%0AWHERE+%7B%0D%0A+++%3Fs+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fs+%3Fproperties+%3Fz+.%0D%0A+++FILTER+%28%3Fproperties+%21%3D+rdf%3Atype%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=1000&debug=on&run=+Run+Query+
+
+________________________________________________________________________________________________________________
+
+3. Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+
+SELECT DISTINCT ?properties ?values
+WHERE {
+   ?s a <http://dbpedia.org/ontology/Politician> .
+   ?s ?properties ?values .
+   FILTER (?properties != rdf:type)
+}
+
+---------------------------------------------------------------------------
+Result:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fproperties+%3Fvalues%0D%0AWHERE+%7B%0D%0A+++%3Fs+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fs+%3Fproperties+%3Fvalues+.%0D%0A+++FILTER+%28%3Fproperties+%21%3D+rdf%3Atype%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=1000&debug=on&run=+Run+Query+
+
+________________________________________________________________________________________________________________
+
+4. For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+
+SELECT ?properties 
+(GROUP_CONCAT(DISTINCT ?z; SEPARATOR="; ") AS ?count) 
+WHERE {
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?properties ?z.
+	FILTER (?properties!= rdf:type)
+} 
+GROUP BY ?properties
+
+---------------------------------------------------------------------------
+Result:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+%3Fproperties+%0D%0A%28GROUP_CONCAT%28DISTINCT+%3Fz%3B+SEPARATOR%3D%22%3B+%22%29+AS+%3Fcount%29+%0D%0AWHERE+%7B%0D%0A%09%3Fx+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%09%3Fx+%3Fproperties+%3Fz.%0D%0A%09FILTER+%28%3Fproperties%21%3D+rdf%3Atype%29%0D%0A%7D+%0D%0AGROUP+BY+%3Fproperties&should-sponge=&format=text%2Fhtml&timeout=1000&debug=on&run=+Run+Query+
+
+________________________________________________________________________________________________________________
+
+5. For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
+
+SELECT ?properties (COUNT(?z) AS ?count)
+WHERE {
+   ?s a <http://dbpedia.org/ontology/Politician> .
+   ?s ?properties ?z .
+   FILTER (?properties != rdf:type)
+}
+GROUP BY ?properties
+ORDER BY ASC(?properties)
+
+---------------------------------------------------------------------------
+Result:
+https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+%3Fproperties+%28COUNT%28%3Fz%29+AS+%3Fcount%29%0D%0AWHERE+%7B%0D%0A+++%3Fs+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fs+%3Fproperties+%3Fz+.%0D%0A+++FILTER+%28%3Fproperties+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0AGROUP+BY+%3Fproperties%0D%0AORDER+BY+ASC%28%3Fproperties%29&should-sponge=&format=text%2Fhtml&timeout=1000&debug=on&run=+Run+Query+
