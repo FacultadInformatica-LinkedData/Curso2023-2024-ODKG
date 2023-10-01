@@ -1,7 +1,13 @@
 PREFIX db: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-SELECT DISTINCT ?prop
+
+# Query: Select all distinct predicates that are used as properties of subjects of type Politician
+SELECT DISTINCT ?predicate_properties
 WHERE {
-    ?ins a db:Politician .
-    ?ins ?prop ?val .
+    # 1. Get all subjects of (rdf:)type Politician
+    ?subject a db:Politician .
+    
+    # 2. For each subject of type Politician, retrieve all predicates (and objects -albeit unused)
+    ?subject ?predicate_properties ?object_placeholder .
 }
+
