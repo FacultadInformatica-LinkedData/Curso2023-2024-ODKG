@@ -1,6 +1,19 @@
 PREFIX db: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+# First 10 results:
+# predicate_properties	                        object_values
+# http://www.w3.org/2000/01/rdf-schema#label	"Adame Ba Konaré"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Adriano Sánchez Roa"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Adrián Ward"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Agustín Haya de la Torre de la Rosa"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Agustín Molina Martínez"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Ahmed Hilmi Pasha"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Aileen Baviera"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Aisha Musa el-Said"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Akua Asabea Ayisi"@es
+# http://www.w3.org/2000/01/rdf-schema#label	"Alain Vivien"@es
+
 # Query: Select all distinct (object) values for each predicate -excluding rdf:type- that is used as a property of a subject of type Politician
 SELECT DISTINCT ?predicate_properties ?object_values
 WHERE {
