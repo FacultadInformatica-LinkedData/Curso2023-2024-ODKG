@@ -2,17 +2,17 @@ PREFIX db: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 # First 10 results:
-# predicate_properties	                        count_values
-# http://es.dbpedia.org/property/pieFoto	    1
-# http://es.dbpedia.org/property/almamáter	    2142
-# http://es.dbpedia.org/property/lugarMuerte	9
-# http://es.dbpedia.org/property/sitioInternet	1
-# http://es.dbpedia.org/property/fortuna	    44
-# http://es.dbpedia.org/property/cupación	    2
-# http://es.dbpedia.org/property/ideología	    5
-# http://es.dbpedia.org/property/líder	        1
-# http://dbpedia.org/property/knownFor        	2
-# http://es.dbpedia.org/property/wikidata     	15
+# predicate_properties	           	            	 	count_values
+# http://es.dbpedia.org/property/pieFoto			1
+# http://es.dbpedia.org/property/almamáter			2142
+# http://es.dbpedia.org/property/lugarMuerte			9
+# http://es.dbpedia.org/property/sitioInternet			1
+# http://es.dbpedia.org/property/fortuna			44
+# http://es.dbpedia.org/property/cupación			2
+# http://es.dbpedia.org/property/ideología			5
+# http://es.dbpedia.org/property/líder				1
+# http://dbpedia.org/property/knownFor				2
+# http://es.dbpedia.org/property/wikidata			15
 
 # Query: Select all distinct predicates -excluding rdf:type- AND number of (distinct) object values if those predicates are a property of subjects of type Politician
 SELECT ?predicate_properties (COUNT(DISTINCT ?object_values) AS ?count_values)
