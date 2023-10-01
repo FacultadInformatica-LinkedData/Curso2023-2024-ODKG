@@ -1,6 +1,19 @@
 PREFIX db: <http://dbpedia.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
+# First 10 results:
+# predicate_properties
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+# http://www.w3.org/2000/01/rdf-schema#label
+# http://www.w3.org/2000/01/rdf-schema#comment
+# http://www.w3.org/2002/07/owl#sameAs
+# http://xmlns.com/foaf/0.1/name
+# http://xmlns.com/foaf/0.1/topic
+# http://www.w3.org/2007/05/powder-s#describedby
+# http://xmlns.com/foaf/0.1/homepage
+# http://purl.org/dc/terms/subject
+# http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+
 # Query: Select all distinct predicates that are used as properties of subjects of type Politician
 SELECT DISTINCT ?predicate_properties
 WHERE {
