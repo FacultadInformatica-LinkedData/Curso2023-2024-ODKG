@@ -1,0 +1,16 @@
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Query: Select all distinct (object) values for each predicate -excluding rdf:type- that is used as a property of a subject of type Politician
+SELECT DISTINCT ?predicate_properties ?object_values
+WHERE {
+    # 1. Get all subjects of type Politician
+    ?subject a db:Politician .
+    
+    # 2. For each subject of type Politician, retrieve all predicates AND objects
+    # Note that: predicate === property
+    ?subject ?predicate_properties ?object_values .
+    
+    # 3. And exclude rdf:type
+    FILTER(?predicate_properties != rdf:type)
+}
