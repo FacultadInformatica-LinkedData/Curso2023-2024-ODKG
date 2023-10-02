@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "http://example.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "includes": { "@type": "@id" },
+    "hasMeasurement": { "@type": "@id" },
+    "atTime": { "@type": "xsd:dateTime" },
+    "hasTemperature": { "@type": "xsd:integer" },
+    "hasOwner": { "@type": "@id" },
+    "hasName": { "@type": "xsd:string" }
+  },
+  
+  "@id": "Class01",
+  "includes": ["Sensor029", "Computer101"],
+  "Sensor029": {
+    "hasMeasurement": "Measurement8401"
+  },
+  
+  "Measurement8401": {
+    "hasTemperature": 29,
+    "atTime": "2010-06-12T12:00:12"
+  },
+  "User10A": {
+    "hasName": "Pedro"
+  },
+  
+  "Computer101": {
+    "hasOwner": "User10A"
+  }
+  
+  
+}
