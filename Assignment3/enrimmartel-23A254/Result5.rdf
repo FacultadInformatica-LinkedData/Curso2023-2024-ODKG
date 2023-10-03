@@ -1,9 +1,0 @@
-<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:nodeID="rset">
-<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
-    <res:resultVariable>callret-0</res:resultVariable>
-    <res:solution rdf:nodeID="r0">
-      <res:binding rdf:nodeID="r0c0"><res:variable>callret-0</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">190163</res:value></res:binding>
-    </res:solution>
-  </rdf:Description>
-</rdf:RDF>
