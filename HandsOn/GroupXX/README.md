@@ -2,10 +2,10 @@
 
 ## Members information
 
-| Name                  |Github username|
-|---|---|
-| Cesar Pantoja Rosales | CesarPRinso |
-| Andres de Vicente     |  |
-| Javier                |  |
-| Jorge Silva           |  |
+| Name                          |Github username|
+|-------------------------------|---|
+| César Pantoja Rosales         | CesarPRinso |
+| Andres Roman de Vicente Muñoz | andresroman1999 |
+| Javier                        |  |
+| Jorge Silva                   |  |
 
