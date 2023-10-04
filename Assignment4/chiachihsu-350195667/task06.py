@@ -37,7 +37,6 @@ for s, p, o in g:
 g.add((ns.University, RDF.type, RDFS.Class))
 for s, p, o in g.triples((ns.University,None,None)):
   print(s,p,o)
-print(g.serialize(format="ttl"))
 
 """**TASK 6.2: Add "Researcher" as a subclass of "Person"**"""
 
@@ -47,7 +46,6 @@ g.add((ns.Researcher, RDF.type, RDFS.Class))
 g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
 for s, p, o in g.triples((None,None,ns.Person)):
   print(s,p,o)
-print(g.serialize(format="ttl"))
 
 """**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
 
@@ -56,7 +54,6 @@ print(g.serialize(format="ttl"))
 g.add((ns.JaneSmith, RDF.type, ns.Researcher))
 for s, p, o in g.triples((None,None,ns.Researcher)):
   print(s,p,o)
-print(g.serialize(format="ttl"))
 
 """**TASK 6.4: Add to the individual JaneSmith the email address, fullName, given and family names**"""
 
@@ -69,7 +66,6 @@ g.add((ns.JaneSmith, vcard.Given, Literal("Jane")))
 g.add((ns.JaneSmith, vcard.Family, Literal("Smith")))
 for s, p, o in g.triples((ns.JaneSmith,None,None)):
   print(s,p,o)
-print(g.serialize(format="ttl"))
 
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 
@@ -81,7 +77,6 @@ g.add((ns.JohnSmith, ns.workplace, ns.UPM ))
 
 for s, p, o in g.triples((ns.JohnSmith,None,None)):
     print(s,p,o)
-print(g.serialize(format="ttl"))
 
 """**Task 6.6: Add that Jown knows Jane using the FOAF vocabulary**"""
 
@@ -93,4 +88,3 @@ g.add((ns.John, FOAF.knows, ns.Jane))
 
 for s, p, o in g.triples((None,FOAF.knows,None)):
     print(s,p,o)
-print(g.serialize(format="ttl"))

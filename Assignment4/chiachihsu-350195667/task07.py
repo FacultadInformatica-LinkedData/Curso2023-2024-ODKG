@@ -39,8 +39,6 @@ q1 = prepareQuery('''
 for r in g.query(q1):
  print(r)
 
-print(g.serialize(format="ttl"))
-
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
