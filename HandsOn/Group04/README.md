@@ -1,9 +1,7 @@
-﻿STUDENTS (GitHub usernames)
-
-Regina López Entrena (reginalopezentrena)
-
-Laura Ramírez Moraleda (LauraRamirezM)
-
-Berta García Heras (bertagh)
-
-Adrián Rejas Llamera (AdriRejas)
+Group members
+==================
+NAME - GITHUB USER
+1. Regina López Entrena - reginalopezentrena
+2. Laura Ramírez Moraleda - LauraRamirezM
+3. Berta García Heras -bertagh 
+4. Adrián Rejas Llamera - AdriRejas
