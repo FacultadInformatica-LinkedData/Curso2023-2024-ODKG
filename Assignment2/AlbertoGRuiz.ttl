@@ -1,25 +1,12 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <http://example.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.ontogrid.net/StickyNote#event1> rdf:type rdf:Description.
+:Class01 :includes :Sensor029; 
+                   :Computer101.
 
-<http://www.ontogrid.net/StickyNote#event2> rdf:type rdf:Description.
+:Sensor029 :hasMeasurement :Measurement8401.
+:Measurement8401 :hasTemperature 29^^xsd:integer;
+                 :atTime "2010-06-12T12:00:12"^^xsd:dateTime.
 
-<http://www.ontogrid.net/StickyNote#event3> rdf:type rdf:Description;
-    <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#PinarAlper>,
-        <http://www.ontogrid.net/StickyNote#CaroleGoble>;
-    <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-15"^^xsd:date.
-
-<http://www.ontogrid.net/StickyNote#event4> rdf:type rdf:Description;
-    <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#OscarCorcho>;
-    <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-16"^^xsd:date.
-
-<http://www.ontogrid.net/StickyNote#event5> rdf:type rdf:Description;
-    <http://www.ontogrid.net/StickyNote#involves> <http://www.ontogrid.net/StickyNote#CaroleGoble>;
-    <http://www.ontogrid.net/StickyNote#eventDate> "2006-05-15"^^xsd:date.
-
-<http://www.ontogrid.net/StickyNote#OscarCorcho> rdf:type rdf:Description.
-
-<http://www.ontogrid.net/StickyNote#PinarAlper> rdf:type rdf:Description.
-
-<http://www.ontogrid.net/StickyNote#CaroleGoble> rdf:type rdf:Description.
+:Computer101 :hasOwner :User10A.
+:User10A :hasName "Pedro"^^xsd:string.
