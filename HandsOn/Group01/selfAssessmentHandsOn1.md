@@ -4,7 +4,7 @@
 
 **The “README.md” file:**
 
-- [] Includes the names and GitHub users of all the members of the group
+- [v] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
 
@@ -19,7 +19,7 @@
 
 **The "applicationRequirements.html” file:**
 
-- [] Includes a description of the application user interface
+- [v] Includes a description of the application user interface
 
 ## Comments on the self-assessment
 _(If required)_
