@@ -1,4 +1,4 @@
 Lucia Fabbri - luciafabbri
 Paul Faschingbauer - PabloPaulGenius
-Jonah
-Zaki
+Jonah Wenzel - jonwenz1
+Zaki 
