@@ -1,0 +1,33 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://miciudadamiga.madrid/map/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://miciudadamiga.madrid/map/resource/DayCenter/10047540> a ns:DayCenter ;
+    ns:accessByBusLines "8, 20." ;
+    ns:belongsToMadridDistrict <http://miciudadamiga.madrid/map/resource/MadridDistrict/14> ;
+    ns:belongsToMadridNeighborhood <http://miciudadamiga.madrid/map/resource/MadridNeighborhood/FONTARRON> ;
+    ns:hasAccesibility true ;
+    ns:hasMetroAccess <http://miciudadamiga.madrid/map/resource/SubwayStop/%20Pavones> ;
+    sch:address "CALLE ENCOMIENDA DE PALACIOS, 190, 28030 MADRID" ;
+    sch:description "Documentación a aportar:   - Solicitud en impreso específico. - Informe médico donde se indique el diagnóstico o enfermedad. - Certificación de pensiones expedida por el servicio competente (seguridad social, ministerio de hacienda, etc) sobre el percibo de pensiones. - Fotocopia de la última declaración de la renta, o certificación negativa de la agencia tributaria, tanto del solicitante como del cónyuge o pareja de hecho, en su caso.  Información complementaria:  - Presentación de la solicitud en el centro de servicios sociales correspondiente al distrito municipal donde esté empadronado o resida el solicitante. - Valoración y propuesta por parte del trabajador social municipal. - Alta del servicio: Una vez valorada la idoneidad de la prestación del servicio por los técnicos municipales, la ocupación de la plaza vendrá determinada por la disponibilidad de plazas vacantes." ;
+    sch:latitude "40.398886698528045"^^xsd:number ;
+    sch:longitude "-3.6420364042780338"^^xsd:number ;
+    sch:name "Nicanor Barroso" ;
+    sch:openingHours "De 8:15 a 18 horas de Lunes a Viernes." ;
+    sch:telephone "918 429 849" ;
+    sch:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=378cf0e738334510VgnVCM1000001d4a900aRCRD"^^xsd:uRI .
+
+<http://miciudadamiga.madrid/map/resource/MadridDistrict/14> a ns:MadridDistrict ;
+    ns:hasCode 14 ;
+    ns:hasName "MORATALAZ" .
+
+<http://miciudadamiga.madrid/map/resource/MadridNeighborhood/FONTARRON> a ns:MadridNeighborhood ;
+    ns:hasName "FONTARRON" ;
+    ns:isInMadridDistrict <http://miciudadamiga.madrid/map/resource/MadridDistrict/14> .
+
+<http://miciudadamiga.madrid/map/resource/SubwayStop/%20Pavones> a ns:SubwayStop ;
+    ns:hasName " Pavones" .
