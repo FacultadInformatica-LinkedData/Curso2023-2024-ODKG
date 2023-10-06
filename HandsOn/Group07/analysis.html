@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 07 Dataset Analysis</title>
+    <style>
+      table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 5px;
+          text-align: left;
+      }
+  </style>
+</head>
+<body>
+    <h1>Group 07 Dataset Analysis</h1>
+
+    <h2>Overview of the Dataset</h2>
+    <ul>
+        <li><strong>Size</strong>: 
+            <ul>
+                <li>Rows (Entries): 385</li>
+                <li>Columns: 9</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+      <li><strong>Station Name:</strong> The name of the charging station.</li>
+      <li><strong>Street Address:</strong> The street address of the charging station.</li>
+      <li><strong>City:</strong> The city in which the charging station is located.</li>
+      <li><strong>Access Days Time:</strong> The operating hours of the charging station.</li>
+      <li><strong>EV Level1 EVSE Num:</strong> The number of Level 1 Electric Vehicle Supply Equipment (EVSE) available at the station.</li>
+      <li><strong>EV Level2 EVSE Num:</strong> The number of Level 2 EVSE available at the station.</li>
+      <li><strong>EV DC Fast Count:</strong> The number of DC Fast chargers available at the station.</li>
+      <li><strong>EV Other Info:</strong> Additional information about other types of chargers or related info.</li>
+      <li><strong>New Georeferenced Column:</strong> The geographical coordinates of the charging station.</li>
+    </ul>
+
+
+    <h2>Quantitative Analysis</h2>
+    <h4>Distribution of Charging Stations by City</h4>
+    <table>
+        <tr>
+            <th>City</th>
+            <th>Number of Stations</th>
+        </tr>
+
+        <tr>
+            <td>Stamford</td>
+            <td>21</td>
+        </tr>
+    
+        <tr>
+            <td>Hartford</td>
+            <td>20</td>
+        </tr>
+    
+        <tr>
+            <td>Fairfield</td>
+            <td>20</td>
+        </tr>
+    
+        <tr>
+            <td>New Haven</td>
+            <td>13</td>
+        </tr>
+    
+        <tr>
+            <td>Danbury</td>
+            <td>12</td>
+        </tr>
+    
+        <tr>
+            <td>Milford</td>
+            <td>11</td>
+        </tr>
+    
+        <tr>
+            <td>Westport</td>
+            <td>10</td>
+        </tr>
+    
+        <tr>
+            <td>Middletown</td>
+            <td>9</td>
+        </tr>
+    
+        <tr>
+            <td>New Britain</td>
+            <td>9</td>
+        </tr>
+    
+        <tr>
+            <td>Norwalk</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <h4>Distribution of Charger Types</h4>
+    <table>
+        <tr>
+            <th>Charger Type</th>
+            <th>Number of Stations</th>
+        </tr>
+
+            <tr>
+                <td>EV Level1 EVSE (NONE)</td>
+                <td>376</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level1 EVSE (1)</td>
+                <td>5</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level1 EVSE (2)</td>
+                <td>2</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level1 EVSE (4)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level1 EVSE (8)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (2)</td>
+                <td>179</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (1)</td>
+                <td>89</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (NONE)</td>
+                <td>44</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (4)</td>
+                <td>29</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (3)</td>
+                <td>29</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (10)</td>
+                <td>3</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (5)</td>
+                <td>3</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (6)</td>
+                <td>2</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (8)</td>
+                <td>2</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (14)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (7)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (11)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (17)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV Level2 EVSE (12)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (NONE)</td>
+                <td>331</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (1)</td>
+                <td>26</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (8)</td>
+                <td>8</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (4)</td>
+                <td>5</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (2)</td>
+                <td>4</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (10)</td>
+                <td>4</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (6)</td>
+                <td>3</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (12)</td>
+                <td>2</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (16)</td>
+                <td>1</td>
+            </tr>
+        
+            <tr>
+                <td>EV DC Fast Count (14)</td>
+                <td>1</td>
+            </tr>
+        </table>
+</body>
+</html>
