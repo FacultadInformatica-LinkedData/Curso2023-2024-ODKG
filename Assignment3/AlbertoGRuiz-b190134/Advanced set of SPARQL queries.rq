@@ -1,0 +1,43 @@
+#1.-
+SELECT DISTINCT ?p 
+WHERE 
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?p ?z .
+}
+
+#2.-
+SELECT DISTINCT ?p
+WHERE
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?p ?z.
+	FILTER(?p != rdf:type)
+}
+
+#3.- 
+SELECT DISTINCT ?p ?z 
+WHERE
+{
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?p ?z.
+	FILTER(?p != rdf:type)
+}
+
+#4.-
+SELECT ?p 
+(GROUP_CONCAT(DISTINCT ?z; SEPARATOR="; ") AS ?z_values) 
+WHERE {
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?p ?z.
+	FILTER (?p!= rdf:type)
+} GROUP BY ?p
+
+#5.-
+SELECT ?p 
+(COUNT(DISTINCT ?z) AS ?z_number) 
+WHERE {
+	?x a <http://dbpedia.org/ontology/Politician> .
+	?x ?p ?z.
+	FILTER (?p!= rdf:type)
+} GROUP BY ?p
