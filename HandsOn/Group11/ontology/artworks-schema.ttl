@@ -45,7 +45,7 @@
     rdfs:domain :Artwork ;
     rdfs:range xsd:string .
 
-:hasArtist rdf:type owl:DatatypeProperty ;
+:hasArtist rdf:type owl:ObjectProperty ;
     rdfs:domain :Artwork ;
     rdfs:range dbo:Animal.
 
@@ -65,7 +65,7 @@
     rdfs:domain :Artwork ;
     rdfs:range xsd:string .
 
-:hasMedium rdf:type owl:DatatypeProperty ;
+:hasMedium rdf:type owl:ObjectProperty ;
     rdfs:domain :Artwork ;
     rdfs:range owl:Thing.
 
@@ -81,7 +81,7 @@
     rdfs:domain :Artwork ;
     rdfs:range xsd:integer .
 
-:hasDimension rdf:type owl:DatatypeProperty ;
+:hasDimension rdf:type owl:ObjectProperty ;
     rdfs:domain :Artwork ;
     rdfs:range :ArtworkDimension .
 
