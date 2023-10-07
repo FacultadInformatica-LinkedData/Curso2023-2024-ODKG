@@ -1,0 +1,52 @@
+{
+   "@context": {
+	"odkg": "http://www.example.org/",
+	"classes": "http://www.example.org/classes#",
+	"properties": "http://www.example.org/properties#"
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+	"xsd": "http://www.w3.org/2001/XMLSchema#"
+   }
+   "classes: class"
+   {
+   	"@id": "http://www.example.org/classes/class#class01",
+	"@type": "class",
+	"properties: includes": [
+		"s:Sensor029",
+		"pc:Computer101
+	]
+   }
+   "classes: sensor"   
+   {
+  	"@id": "http://www.example.org/classes/sensor#sensor029",
+	"@type": "class",
+	"properties: "hasMeasurement": [
+		"m:Measurement8401"
+	]
+   }
+   "classes: measurement"
+   {
+	"@id": "http://www.example.org/classes/measurement#measurement8401",
+	"@type": "class",
+	"properties": "hasTemperature": [
+		29
+	]
+	"properties": "atTime": [
+		"2010-06-12T12:00:12"^^xsd:dateTime
+	]
+   "classes: computer"
+   {
+	"@id": "http://www.example.org/classes/computer#computer101",
+	"@type": "class",
+	"properties": "hasOwner": [
+		"u:User10A"
+	]
+   }
+   "classes: user"
+   {
+	"@id: "http://www.example.org/classes/user#user10A",
+	"@type: "class"
+	"properties": "hasName": [
+		"Pedro"
+	]
+   }
+}

@@ -1,0 +1,80 @@
+{
+   "@context": {
+   	"schema": "http://www.schema.org/"
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"xsd": "http://www.w3.org/2001/XMLSchema#",
+	"full_name": "rdfs:label"
+	"hometown": "rdfs:label"
+	"age": "xsd:integer"
+	"parents": {"@type": "@id","@type"}
+	"subjects": {"@type: "@id","@type", "name", "teachers", "brief_description"}
+	"teachers": {"@type": "@id","@type"}
+	"brief_description": rdfs: comment"}
+   },
+   "@id": "http://www.schema.org/person#jonahwenzel"
+   "@type": "schema:person"
+   "full_name": "Jonah Wenzel",
+   "hometown": "Essen",
+   "age": 27,
+   "parents": [
+	{"@id": "http://www.schema.org/person#erika","@type": "schema:person"},
+	{"@id": "http://www.schema.org/person#max", "@type": "schema:person"}	
+   ]
+   "subjects": [
+	{
+	   "@id": "http://www.schema.org/subject#Innovation_And_Entrepeneurship_Study",
+   	   "@type": "schema: subject",
+	   "name": "Innovation And Entrepeneurship Study".
+	   "teachers": [
+		{"@id": "http://www.schema.org/person#Federico_Garcia-Linares_Fontes","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Raul_Gutierrez_Sanchis","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Sergio_Jose_Rios_Aguilar","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Jorge_Pablo_Diaz_Velilla","@type": "schema:person"},
+	   ]
+	   "brief_description": "This course covers a study about a specific business case."
+	}
+	{
+	   "@id": "http://www.schema.org/subject#Open_Data_and_Knowledge_Graphs",
+   	   "@type": "schema: subject",
+	   "name": "Open Data and Knowledge Graphs".
+	   "teachers": [
+		{"@id": "http://www.schema.org/person#Oscar_Corcho_Garcia","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Raul_Garcia_Castro","@type": "schema:person"},
+	   ]
+	   "brief_description": "This course covers the fundamentals of open data and knowledge graphs."
+	}
+	{
+	   "@id": "http://www.schema.org/subject#Programming_of_User_Interfaces",
+   	   "@type": "schema: subject",
+	   "name": "Programming of User Interfaces".
+	   "teachers": [
+		{"@id": "http://www.schema.org/person#Angel_Lucas_Gonzalez_Martinez","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Raul_Alonso_Calvo","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Guillermo_Roman_Diez","@type": "schema:person"},
+	   ]
+	   "brief_description": "This course is about programming three different User Interfaces (Web, Desktop, Android)."
+	}
+	{
+	   "@id": "http://www.schema.org/subject#User_Experience_and_Mobile_Interaction",
+   	   "@type": "schema: subject",
+	   "name": "User Experience and Mobile Interaction".
+	   "teachers": [
+		{"@id": "http://www.schema.org/person#Ricardo_Imbert_Paredes","@type": "schema:person"},
+		{"@id": "http://www.schema.org/person#Jose_Maria_Barambones_Ramirez","@type": "schema:person"},
+	   ]
+	   "brief_description": "This course covers how to design software with high User Experience."
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

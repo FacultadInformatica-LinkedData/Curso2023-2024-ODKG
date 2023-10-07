@@ -1,0 +1,19 @@
+@prefix m: <http://example.org/measurement#> .
+@prefix cl: <http://example.org/class#> .
+@prefix s: <http://example.org/sensor#> .
+@prefix pc: <http://example.org/computer#> .
+@prefix u: <http://example.org/user#> .
+
+m:Measurement8401 a m:Measurement .
+cl:Class01 a cl:Class .
+s:Sensor029 a s:Sensor .
+pc:Computer101 a pc:Computer .
+u:User10A a u:User .
+
+cl:Class01 c:includes s:Sensor029 .
+cl:Class01 c:includes pc:Computer101 .
+s:Sensor029 c:hasMeasurement m:Measurement8401 .
+m:Measurement8401 c:hasTemperature 29 .
+m:Measurement8401 c:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+pc:Computer101 c:hasOwner u:User10A .
+u:User10A c:hasName "Pedro" .
