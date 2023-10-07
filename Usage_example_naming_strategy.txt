@@ -1,0 +1,77 @@
+#------------------------- Defining Namespace, Classes, and Properties:-------------#
+
+
+@prefix domain: <http://melbourneparking.org/> .
+@prefix ontology: <http://melbourneparking.org/ontology/> .
+@prefix class: <http://melbourneparking.org/ontology/classes/> .
+@prefix property: <http://melbourneparking.org/ontology/properties/> .
+@prefix individual: <http://melbourneparking.org/ontology/individuals/> .
+@prefix data: <http://melbourneparking.org/ontology/data/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+#-------------------------------- Classes---------------------------------------------#
+class:ParkingBay rdf:type owl:Class .
+class:Zone rdf:type owl:Class .
+class:Status rdf:type owl:Class .
+
+#-------------------------------- Properties ---------------------------------------------#
+property:lastUpdated rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:ParkingBay ;
+    rdfs:range xsd:dateTime .
+
+property:statusTimestamp rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Status ;
+    rdfs:range xsd:dateTime .
+
+property:statusDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Status ;
+    rdfs:range xsd:string .
+
+property:coordinates rdf:type owl:ObjectProperty ;
+    rdfs:domain class:ParkingBay ;
+    rdfs:range geo:Geometry .
+
+property:hasZoneNumber rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:ParkingBay ;
+    rdfs:range xsd:integer .
+    
+
+property:locatedIn rdf:type owl:ObjectProperty ;
+    rdfs:domain class:ParkingBay ;
+    rdfs:range class:Zone .
+    
+
+
+property:zoneNumber rdf:type owl:DatatypeProperty ;
+    rdfs:domain class:Zone ;
+    rdfs:range xsd:integer .
+
+
+#------------------------------- Creating individuels (Making statements) sOME EXAMPLES TO SEE HOW TO USE THE NAMING STRATEGY FOR RDF STATEMENST (HERE IN TURTLE)-----------------------#
+
+individual:Zone_7360 rdf:type class:Zone ;
+    property:zoneNumber "7360"^^xsd:integer .
+
+individual:ParkingBay_6283 rdf:type class:ParkingBay ;
+    property:lastUpdated "2023-07-27T02:44:35+02:00"^^xsd:dateTime ;
+    property:locatedInZone individual:Zone_7360 ;
+    property:coordinates individual:Location_6283 .
+    
+
+individual:Location_6283 rdf:type geo:Point ;
+    geo:lat "-37.813777354420296"^^xsd:decimal ;
+    geo:long "144.97210804500946"^^xsd:decimal .
+
+individual:Status_6283 rdf:type class:Status ;
+    property:statusTimestamp "2023-07-26T22:34:02+02:00"^^xsd:dateTime ;
+    property:statusDescription "Unoccupied"^^xsd:string .
+
+
+
+
+
+
