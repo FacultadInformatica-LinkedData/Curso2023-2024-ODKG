@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Requirements Assessment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .checklist {
+            padding: 20px;
+            border: 1px dashed gray;
+            margin: 0 auto;
+            list-style-type: none;
+        }
+
+        .checklist li:before {
+            content: '\2713';
+            /* This is a checkmark */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="description">
+        <h1>Parking History Analytics Dataset Requirements</h1>
+        <p>This document aims to assess if our dataset meets the specific requirements needed for our project. The following checklist provides a summary of each requirement, and a brief description of how our dataset satisfies them.</p>
+    </div>
+
+    <div class="checklist">
+        <li><b>R1. Data are in the smart cities domain:</b> Sensors in parking bays that provide real-time data on parking availability are a prime example of how digital technology can improve smart cities, as they can help manage traffic flow, reduce congestion,
+            and improve urban planning.</li><br>
+        <li><b>R2. Data are available as a CSV file:</b> The data has been downloaded in a CSV format from <a href="https://data.melbourne.vic.gov.au/explore/dataset/on-street-parking-bay-sensors/information/">The City of Melbourne Open Data Website.</a></li><br>
+        <li><b>R3. Data have an open license so it can be published:</b> Their license is <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0 LEGAL CODE</a> (Creative Commons).</li><br>
+        <li><b>R4. Data can be easily linked with generic real-world entities (e.g., locations):</b> The Location column provides spatial coordinates that correspond to real-world locations.</li><br>
+        <li><b>R5. Documentation exists for the data (optional):</b> Further information about City of Melbourne's parking sensors can be found <a href="https://www.melbourne.vic.gov.au/parking-and-transport/parking/Pages/parking-faqs.aspx">here.</a></li><br>
+        <li><b>R6. Data can come from multiple data sources (optional):</b> There are three datasets that make up the live parking sensor release. They are the on-street parking bay sensors, on-street parking bays and the on-street car park bay restrictions.</li>
+    </div>
+</body>
+
+</html>
