@@ -67,7 +67,7 @@
 
 :hasMedium rdf:type owl:DatatypeProperty ;
     rdfs:domain :Artwork ;
-    rdfs:range ? owl:Thing.
+    rdfs:range owl:Thing.
 
 :hasCreditLine rdf:type owl:DatatypeProperty ;
     rdfs:domain :Artwork ;
