@@ -1,15 +1,12 @@
  @prefix base: <http://madridwastemanagement.org/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix nscl: <http://madridwastemanagement.org/group01/ontology/classes/> .
-@prefix nspor: <http://www.owl-ontologies.com/nspor#> .
 @prefix nspr: <http://madridwastemanagement.org/group01/ontology/properties/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-
-
-<http://madridwastemanagement.org/group01/ontology> : a owl:Ontology ;
+<http://madridwastemanagement.org/group01/ontology/>: a owl:Ontology ;
     dc:creator "group01" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Madrid Waste Management" ;
@@ -25,6 +22,11 @@ nspr:hasResidue a owl:ObjectProperty ;
     rdfs:domain nscl:District ;
     rdfs:range nscl:WasteType .
 
+nspr:hasTotal a owl:ObjectProperty ;
+    rdfs:label "has total" ;
+    rdfs:domain nscl:WasteType ;
+    rdfs:range nscl:Total .
+
 nspr:id a owl:DatatypeProperty ;
     rdfs:label "id" ;
     rdfs:domain nscl:District ;
@@ -35,15 +37,15 @@ nspr:month a owl:DatatypeProperty ;
     rdfs:domain nscl:Total ;
     rdfs:range xsd:string .
 
+nspr:referedTo a owl:ObjectProperty ;
+    rdfs:label "refered to" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range nscl:District .
+
 nspr:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain nscl:Total ;
     rdfs:range xsd:integer .
-
-nspor:hasTotal a owl:ObjectProperty ;
-    rdfs:label "has total" ;
-    rdfs:domain nscl:WasteType ;
-    rdfs:range nscl:Total .
 
 nscl:Zone a owl:Class ;
     rdfs:label "Zone" .
