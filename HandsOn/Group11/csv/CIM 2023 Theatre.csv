@@ -1,0 +1,290 @@
+﻿name,address1,address2,address3,borough_name,website,os_addressbase_uprn,borough_code,ward_2022_name,ward_2022_code,latitude,longitude,easting,northing
+Troubadour Wembley Park Theatre,3 Fulton Road,Wembley Park,Wembley,Brent,https://www.troubadourtheatres.com/wembley-park,202228835,E09000005,Wembley Park,E05013516,51.56085054,-0.281788454,519201.39969999995,186061.74090000056
+"Assembly Rooms, Surbiton",138 Maple Road, Surbiton,,Kingston upon Thames,NA,128012933,E09000021,St Mark's & Seething Wells,E05013943,51.39623937,-0.308425963,517777.9526000004,167713.3855000008
+George Wood Theatre ,Goldsmith's College, University of London,,Lewisham,NA,100023238053,E09000023,Deptford,E05013719,51.47568861,-0.037712479,536373.0966999996,177017.40990000032
+Greenwich & Lewisham Young People's Theatre,The Tramshed, 51-53 Woolwich New Road,,Greenwich,http://www.glypt.co.uk/,100023246054,E09000011,Woolwich Arsenal,E05014092,51.49001293,0.066393079,543557.3782000002,178809.16740000062
+Piccadilly Theatre,16 Denman St, Soho,,Westminster,https://www.piccadillytheatre.org/,100023472891,E09000033,West End,E05013808,51.51156529,-0.136980332,529378.1476999996,180826.82269999944
+Bacon's College Theatre,Timber Pond Road, Rotherhithe,,Southwark,NA,200003413985,E09000028,Rotherhithe,E05011112,51.50287556,-0.043862524,535865.1903999997,180029.14130000025
+Courtyard Theatre,40 Pitfield Street,,,Hackney,NA,10091002509,E09000012,Hoxton West,E05009378,51.52838974,-0.084962889,532938.5301000001,182790.88570000045
+Dugdale Arts Centre,39 London Road, Enfield,,Enfield,https://www.dugdalecentre.co.uk/,207007119,E09000010,Grange Park,E05013681,51.65033225,-0.082311783,532766.6771999998,196356.1163999997
+Bloomsbury Theatre,15 Gordon St, Bloomsbury,,Camden,https://www.thebloomsbury.com/,5007085,E09000007,Bloomsbury,E05013653,51.52583301,-0.134581862,529504.1073000003,182417.64800000004
+Etcetera Theatre,265 Camden High St,,,Camden,http://www.etceteratheatre.com/,5007472,E09000007,Camden Town,E05013655,51.54065446,-0.145554108,528701.2098000003,184046.46910000034
+KOKO,1A Camden High St, Kings Cross,,Camden,http://www.koko.uk.com/,5023741,E09000007,Regent's Park,E05013668,51.53549102,-0.140876459,529040.1732000001,183480.51930000074
+Phoenix Theatre,110 Charing Cross Road,,,Westminster,NA,5037592,E09000033,West End,E05013808,51.51517556,-0.131318258,529760.7699999996,181238.30409999937
+Shaftesbury Theatre,210 Shaftesbury Ave,,,Camden,http://www.shaftesburytheatre.com/,5038488,E09000007,Holborn & Covent Garden,E05013662,51.51678597,-0.127702349,530007.0661000004,181423.79509999976
+Conway Hall,25 Red Lion Square,,,Camden,https://conwayhall.org.uk/,5048256,E09000007,Holborn & Covent Garden,E05013662,51.52030279,-0.1199192,530537.0082999999,181828.71040000021
+Theatro Technis,26 Crowndale Rd, Kings Cross,,Camden,http://www.theatrotechnis.com/,5061419,E09000007,St Pancras & Somers Town,E05013669,51.53604907,-0.135763985,529393.1501000002,183551.59530000016
+Tristan Bates Theatre,1A Tower St, London,,Westminster,https://www.tristanbatestheatre.co.uk/,5077305,E09000033,West End,E05013808,51.51379621,-0.129684093,529878.0743000004,181087.81519999914
+Lion and Unicorn Theatre,42-44 Gaisford St, Kentish Town,,Camden,http://www.lionandunicorntheatre.co.uk/,5082943,E09000007,Kentish Town South,E05013664,51.54861882,-0.141422724,528965.1853999998,184939.3853999991
+Dominion Theatre,268-269 Tottenham Court Rd, Fitzrovia,,Camden,https://www.nederlander.co.uk/dominion-theatre,5083050,E09000007,Bloomsbury,E05013653,51.51747184,-0.131248013,529759.1196999997,181493.77740000002
+Shaw Theatre,100-110 Euston Rd, Kings Cross,,Camden,https://www.shaw-theatre.com/,5083194,E09000007,St Pancras & Somers Town,E05013669,51.5291548,-0.129717428,529832.0893000001,182795.64599999972
+Embassy Theatre,The Royal Central School of Speech and Drama, 62-64 Eton Ave,,Camden,https://www.cssd.ac.uk/content/facilities,5084778,E09000007,Belsize,E05013652,51.5448335,-0.175782191,526593.4801000003,184458.49560000002
+Cambridge Theatre,31 Earlham Street,,,Camden,http://www.reallyusefultheatres.co.uk/our-theatres/cambridge,5089373,E09000007,Holborn & Covent Garden,E05013662,51.51402122,-0.127988264,529995.0980000002,181115.84469999932
+Haverstock School Theatre ,Haverstock School, 24 Haverstock Hill,,Camden,NA,5090679,E09000007,Haverstock,E05013660,51.54480979,-0.155023519,528032.9049000004,184491.94940000027
+St Martin's Theatre,West St,,,Westminster,https://www.the-mousetrap.co.uk/,5090739,E09000033,West End,E05013808,51.51335016,-0.129215629,529911.8470000001,181039.04470000044
+Roundhouse,Chalk Farm Rd, Camden Town,,Camden,http://www.roundhouse.org.uk/,5109516,E09000007,Camden Town,E05013655,51.54354905,-0.15289144,528184.2796,184355.48289999925
+Ambassadors Theatre,West St,,,Westminster,https://www.theambassadorstheatre.co.uk/Online/,5110511,E09000033,West End,E05013808,51.51350874,-0.129569398,529886.8498,181056.0515999999
+Bridge House Theatre,2 High St,,,Bromley,https://www.bhtheatre.com/,100020437216,E09000006,Crystal Palace & Anerley,E05013995,51.41858406,-0.062230219,534838.4951999998,170622.07579999976
+Lauderdale House,Waterlow Park, Highgate Hill,,Camden,http://lauderdalehouse.org.uk/,5132343,E09000007,Highgate,E05013661,51.57016551,-0.14491124,528662.5437000003,187329.30890000053
+Hampstead Theatre,Eton Avenue, Swiss Cottage,,Camden,https://www.hampsteadtheatre.com/,5134828,E09000007,Belsize,E05013652,51.54456256,-0.173976362,526719.4446,184431.49000000022
+Donmar Warehouse,41 Earlham St,,,Camden,https://www.donmarwarehouse.com/,5147687,E09000007,Holborn & Covent Garden,E05013662,51.51456818,-0.127317341,530040.0921,181177.85810000077
+New Diorama Theatre,15-16 Triton St,Regent's Place,,Camden,http://www.newdiorama.com/,5155688,E09000007,Regent's Park,E05013668,51.52541488,-0.143924929,528857.1935,182354.67300000042
+Gillian Lynne Theatre,166 Drury Ln,,,Camden,http://www.reallyusefultheatres.co.uk/our-theatres/new-london,5157611,E09000007,Holborn & Covent Garden,E05013662,51.51594211,-0.12437866,530240.0696,181335.86130000092
+Camden People's Theatre,58-60 Hampstead Rd, Kings Cross,,Camden,https://www.cptheatre.co.uk/,5158137,E09000007,Regent's Park,E05013668,51.52689881,-0.139972353,529127.1744999997,182526.64919999987
+Pentameters Theatre,The Horseshoe, 28 Heath St,,Camden,http://www.pentameters.co.uk/,5162760,E09000007,Frognal,E05013657,51.5562823,-0.180041195,526266.4913999997,185724.28219999932
+Upstairs at The Gatehouse,1 North Road,,,Haringey,http://www.upstairsatthegatehouse.com/,5166442,E09000014,Highgate,E05013592,51.57246809,-0.151935655,528169.2899000002,187573.04619999975
+Platform Theatre,Central Saint Martin's, 1 Handyside St, Kings Cross,Camden,NA,5167112,E09000007,King's Cross,E05013666,51.53743115,-0.125196079,530122.1025999999,183724.00789999962
+Wiltons Music Hall,1 Graces Alley, Whitechapel,,Tower Hamlets,https://www.wiltons.org.uk/,6006845,E09000030,Whitechapel,E05009336,51.51112423,-0.068550982,534127.5850999998,180900.89039999992
+Half Moon Young People's Theatre,43 White Horse Road,,,Tower Hamlets,http://www.halfmoon.org.uk/,6044554,E09000030,Stepney Green,E05009334,51.51423921,-0.042220553,535945.3195000002,181295.83940000087
+The Half Moon,10 Half Moon Lane, Herne Hill,,Southwark,http://www.halfmoonhernehill.co.uk/,6044554,E09000028,Dulwich Village,E05011100,51.45339185,-0.097891172,532258.5193999996,174427.68200000003
+The Space,269 Westferry Rd, Isle of Dogs,,Tower Hamlets,https://space.org.uk/,6060149,E09000030,Island Gardens,E05009324,51.49268043,-0.0258169,537148.1585999997,178929.09640000015
+The Yard Theatre,Unit 2A, Queens Yard,White Post Lane,Tower Hamlets,https://theyardtheatre.co.uk/,6077552,E09000030,Bow East,E05009319,51.54300956,-0.024359022,537098.1818000004,184528.4282000009
+Chisenhale Dance Space,64-84 Chisenhale Rd,,,Tower Hamlets,http://www.chisenhaledancespace.co.uk/,6146768,E09000030,Bow West,E05009320,51.53413799,-0.04006913,536035.2874999996,183512.6216000002
+Toynbee Studios,28 Commercial St,,,Tower Hamlets,https://www.artsadmin.co.uk/toynbee-studios,6183707,E09000030,Spitalfields & Banglatown,E05009333,51.51700362,-0.073923593,533737.5761000002,181544.85170000046
+Rich Mix,35-47 Bethl Green Rd, London,,Tower Hamlets,https://www.richmix.org.uk/,6192962,E09000030,Weavers,E05009335,51.52474282,-0.075412607,533611.6232000003,182402.7407000009
+Grange Court Theatre ,Drama Studio London, Grange Court,,Ealing,NA,12084359,E09000009,Ealing Common,E05013521,51.50991716,-0.305456884,517692.0466,180359.4902999997
+The Questors Theatre,12 Mattock Ln,,,Ealing,http://www.questors.org.uk/,12084402,E09000009,Walpole,E05013541,51.51221678,-0.31124231,517284.67700000014,180605.9458000008
+Lyric Hammersmith,Lyric Square, King St,,Hammersmith and Fulham,https://lyric.co.uk/,34027053,E09000013,Grove,E05013740,51.49375939,-0.227877123,523118.9422000004,178690.1428999994
+Eventim Apollo,45 Queen Caroline Street, Hammersmith,,Hammersmith and Fulham,NA,34030384,E09000013,Hammersmith Broadway,E05013741,51.49099869,-0.22701033,523186.55090000015,178384.60400000028
+Shepherds Bush Empire,211 Shepherd's Bush Green,,,Hammersmith and Fulham,https://academymusicgroup.com/o2shepherdsbushempire/,34030760,E09000013,Shepherd's Bush Green,E05013748,51.50393746,-0.226070492,523216.9056000002,179825.00280000083
+Bush Theatre,7 Uxbridge Rd, Shepherd's Bush,,Hammersmith and Fulham,https://www.bushtheatre.co.uk/,34032421,E09000013,Shepherd's Bush Green,E05013748,51.5055343,-0.227045431,523144.9406000003,180000.9355999995
+Barons Court Theatre,28a Comeragh Rd,,,Hammersmith and Fulham,http://www.offwestend.com/index.php/theatres/view/42,34128758,E09000013,West Kensington,E05013751,51.48963907,-0.212337518,524208.82919999957,178258.17989999987
+The Bhavan Centre,4A Castletown Rd, Hammersmith,,Hammersmith and Fulham,http://www.bhavan.net/,34140084,E09000013,West Kensington,E05013751,51.48990812,-0.208193931,524495.7516999999,178295.13010000065
+Riverside Studios,101 Queen Caroline Street, Hammersmith,,Hammersmith and Fulham,http://www.riversidestudios.co.uk/,34153945,E09000013,West Kensington,E05013751,51.48990812,-0.208193931,524495.7516999999,178295.13010000065
+Sainsbury Theatre,LAMDA,155 Talgarth Rd,,Hammersmith and Fulham,https://www.lamda.ac.uk/hire-our-spaces,34160370,E09000013,Avonmore,E05013734,51.49106288,-0.215523255,523983.80790000036,178411.1152999997
+Teatr Polski,Polish Centre, 238-46 King Street,,Hammersmith and Fulham,http://www.posk.org/c5/en/home/,34160956,E09000013,Ravenscourt,E05013746,51.49403514,-0.239015056,522345.0585000003,178702.15740000084
+New Wimbledon Theatre,93 The Broadway, Wimbledon,,Merton,http://www.atgtickets.com/venues/new-wimbledon-theatre/,48008413,E09000024,Wimbledon Town & Dundonald,E05013829,51.41980863,-0.202895753,525054.7531000003,170509.01830000058
+Polka Theatre,240 The Broadway, Wimbledon,,Merton,https://polkatheatre.com/,48008566,E09000024,Wimbledon Town & Dundonald,E05013829,51.42019874,-0.196078435,525527.6801000005,170564.03949999996
+Merton Arts Space,Compton Rd, Wimbledon,,Merton,https://arena.yourlondonlibrary.net/web/merton/merton-arts-space-wimbledon,48017144,E09000024,Hillside,E05013816,51.42374316,-0.208465413,524656.8121999996,170937.06069999933
+Collyer Hall Theatre,King's College School, Southside, Wimbledon Common,Merton,https://www.kcs.org.uk/the-kings-community/venue-hire/performance-venues,48065710,E09000024,Village,E05013825,51.42244793,-0.227707485,523322.5445999997,170760.5081999991
+Lantern Arts Centre,Tolverne Road, Raynes Park,,Merton,https://www.lanternarts.org/,48111953,E09000024,Raynes Park,E05013823,51.41189908,-0.231459924,523089.99060000014,169581.1333000008
+The Colour House Theatre,Merton Abbey Mills, Watermill Way,,Merton,http://www.colourhousetheatre.co.uk/,48112460,E09000024,Abbey,E05013810,51.41351461,-0.184766213,526332.5928999996,169840.17940000072
+Bridewell Theatre,14 Bride Ln, Fleet St,,City of London,http://www.sbf.org.uk/venue-hire/bridewell-theatre/,95511225,E09000001,Castle Baynard,E05009297,51.51401962,-0.106603389,531478.8720000004,181153.83220000006
+The Red Hedgehog,255 - 257 Archway Road, Highgate,,Haringey,http://www.theredhedgehog.co.uk/,10022938228,E09000014,Highgate,E05013592,51.57665107,-0.145578588,528598.0096000005,188049.35869999975
+Milton Court,1 Milton Street,,,City of London,https://www.barbican.org.uk/hire/venue-hire/venues/milton-court-concert-hall,95511391,E09000001,Cripplegate,E05009302,51.52054719,-0.092682898,532425.8022999996,181904.78309999965
+Barbican Theatre,Silk St,,,City of London,https://www.barbican.org.uk/,95512046,E09000001,Aldersgate,E05009288,51.52047017,-0.095713605,532215.7744000005,181890.73819999956
+The Broadway,Broadway, Barking,,Barking and Dagenham,https://www.thebroadwaybarking.com/,100058301,E09000002,Abbey,E05014053,51.53639032,0.075702276,544057.3222000003,183984.56990000047
+Tara Theatre,356 Garratt Ln,,,Wandsworth,https://www.tara-arts.com/,121011012,E09000032,Wandle,E05014026,51.44228795,-0.189439175,525928.6031,173031.7366000004
+Battersea Arts Centre,Lavender Hill,,,Wandsworth,https://www.bac.org.uk/,121015942,E09000032,Shaftesbury & Queenstown,E05014019,51.4656784,-0.162414822,527741.3687000005,175679.5044999998
+Rose Theatre,24-26 High St, Kingston upon Thames,,Richmond upon Thames,https://www.rosetheatrekingston.org/,128029778,E09000027,Hampton Wick & South Teddington,E05013780,51.40877768,-0.309291192,517685.6501000002,169106.24230000004
+The Bull Theatre,68 High St, Barnet,,Barnet,https://www.thebulltheatre.com/,200148795,E09000003,High Barnet,E05013644,51.6536034,-0.200963858,524549.7297,196511.0223999992
+artsdepot,5 Nether St, Tally Ho Corner, North Finchley,Barnet,https://www.artsdepot.co.uk/,200198999,E09000003,West Finchley,E05013648,51.61346127,-0.177899683,526256.4722999996,192086.52690000087
+The Kiln,269 Kilburn High Rd, Kilburn,,Brent,https://kilntheatre.com/,202124574,E09000005,Kilburn,E05013503,51.54423111,-0.201993562,524777.6868000003,184346.51579999924
+Millfield Theatre,Silver St, Edmonton,,Enfield,https://www.millfieldtheatre.co.uk/,207016763,E09000010,Haselbury,E05013682,51.61670068,-0.079904458,533031.6235999996,192620.55700000003
+Intimate Theatre,521 Green Lanes, Palmers Green,,Enfield,http://www.smptheatre.co.uk/faqs/the-intimate-theatre/,207035876,E09000010,Winchmore Hill,E05013696,51.62504172,-0.105149434,531259.8663999997,193502.45639999956
+Chickenshed Theatre,290 Chase Side, Southgate,,Enfield,https://www.chickenshed.org.uk/,207078080,E09000010,Cockfosters,E05013678,51.644931,-0.146851799,528317.2328000003,195640.20659999922
+Chelsea Theatre,7 World's End Place, King's Rd, Chelsea,Kensington and Chelsea,http://www.chelseatheatre.org.uk/,217005389,E09000020,Stanley,E05009405,51.48215635,-0.18123719,526388.5308999997,177479.25909999944
+Opera Holland Park Theatre,Ilchester Place, Kensington,,Kensington and Chelsea,http://www.operahollandpark.com/,217038848,E09000020,Holland,E05009397,51.50115652,-0.204449343,524725.0085000005,179552.34160000086
+The Playground Theatre,8 Latimer Industrial Estate, Latimer Rd,,Hammersmith and Fulham,http://theplaygroundtheatre.london/,217052352,E09000013,College Park & Old Oak,E05013736,51.51831412,-0.226001748,523182.9018000001,181423.83640000038
+The Coronet,103 Notting Hill Gate, Kensington,,Kensington and Chelsea,https://www.the-print-room.org/,217059398,E09000020,Pembridge,E05009400,51.50899645,-0.200485076,524978.6995000001,180430.91310000047
+The Tabercle W11,34-35 Powis Square,,,Kensington and Chelsea,https://www.tabernaclew11.com/,217070132,E09000020,Colville,E05009392,51.51721063,-0.203143963,524771.7537000002,181339.81450000033
+Royal Court Theatre,Sloane Square, Chelsea,,Kensington and Chelsea,https://royalcourttheatre.com/,217078033,E09000020,Royal Hospital,E05009403,51.49312267,-0.157998904,527971.3488999996,178739.06530000083
+Cadogan Hall,5 Sloane Terrace, Belgravia,,Kensington and Chelsea,https://www.cadoganhall.com/,217078765,E09000020,Royal Hospital,E05009403,51.49394058,-0.159103815,527892.3624999998,178828.08880000003
+Drayton Arms Theatre,153 Old Brompton Road,,,Kensington and Chelsea,http://www.thedraytonarmstheatre.co.uk/index.php,217101579,E09000020,Redcliffe,E05009402,51.49115439,-0.185157211,526091.5519000003,178473.10679999925
+Gate Theatre,11 Pembridge Rd, Notting Hill,,Kensington and Chelsea,https://www.gatetheatre.co.uk/,217105236,E09000020,Pembridge,E05009400,51.51003837,-0.199262214,525060.7045999998,180548.8635000009
+Finborough Theatre,118 Finborough Road, Kensington,,Kensington and Chelsea,http://www.finboroughtheatre.co.uk/,217112560,E09000020,Redcliffe,E05009402,51.48666973,-0.191110467,525690.6087999996,177964.1777999997
+Almeida Theatre,Almeida St, Islington,,Islington,https://almeida.co.uk/,5300001086,E09000019,St Mary's & St James',E05013710,51.53995318,-0.105570065,531475.8695999999,184039.52300000004
+Young Actors Theatre,70-72 Barnsbury Road,,,Islington,NA,5300006610,E09000019,Barnsbury,E05013698,51.5366392,-0.112533377,531002.5155999996,183658.51669999957
+Union Chapel,19b Compton Terrace,,,Islington,http://www.unionchapel.org.uk/,5300023057,E09000019,Laycock,E05013708,51.54477969,-0.104331307,531547.8545000004,184578.46920000017
+The Little Angel Theatre,14 Dagmar Passage, Islington,,Islington,https://littleangeltheatre.com/,5300026580,E09000019,St Mary's & St James',E05013710,51.53952325,-0.102877318,531663.8362999996,183996.5563999992
+Sadler's Wells Theatre,Rosebery Ave, Clerkenwell,,Islington,https://www.sadlerswells.com/,5300080047,E09000019,Clerkenwell,E05013702,51.52993712,-0.107874625,531344.8801999995,182921.5870999992
+Rosemary Branch Theatre,2 Shepperton Rd,,,Islington,http://www.rosemarybranchtheatre.co.uk/,5300082551,E09000019,Canonbury,E05013701,51.53813039,-0.088545651,532661.71,183867.56000000052
+Old Red Lion,418 St John St, Clerkenwell,,Islington,http://www.oldredliontheatre.co.uk/,5300085363,E09000019,Barnsbury,E05013698,51.53191794,-0.107460709,531367.8891000003,183142.59889999963
+Hen and Chickens Theatre,109 St Paul's Road,,,Islington,https://www.thehenandchickenstheatrebar.co.uk/,5300086694,E09000019,Highbury,E05013704,51.5465405,-0.103133475,531625.8278999999,184776.4310999997
+Kings Head Theatre,115 Upper St, Islington,,Islington,http://www.kingsheadtheatre.com/,5300094557,E09000019,St Mary's & St James',E05013710,51.53849633,-0.104477141,531555.8573000003,183879.48299999908
+The Hope Theatre,207 Upper Street,,,Islington,http://www.thehopetheatre.com/,5300094879,E09000019,Laycock,E05013708,51.54408176,-0.105095213,531496.8992999997,184499.4838999994
+Theatre Peckham,221 Havil St, Camberwell,,Southwark,https://www.theatrepeckham.co.uk/,10000811503,E09000028,St Giles,E05011115,51.47751843,-0.085306286,533062.7368000001,177133.33510000072
+Hampton Hill Theatre,90 High St, Hampton Hill, Hampton,Richmond upon Thames,http://www.hamptonhilltheatre.org.uk/,10002251133,E09000027,Fulwell & Hampton Hill,E05013776,51.42763905,-0.356547716,514352.08550000004,171128.9366999995
+Richmond Theatre,Little Green, Richmond,,Richmond upon Thames,http://www.atgtickets.com/venues/richmond-theatre/,10002264543,E09000027,South Richmond,E05013786,51.46257947,-0.305388877,517818.59640000015,175095.5195000004
+The Beck Theatre,Grange Rd, Hayes,,Hillingdon,https://becktheatre.org.uk/,10003001360,E09000017,Wood End,E05013582,51.52155421,-0.423374127,509481.6480999999,181470.74340000004
+Alexandra Palace Theatre,Alexandra Palace, Alexandra Palace Way,,Haringey,http://www.alexandrapalace.com/,10003974918,E09000014,Alexandra Park,E05013585,51.59498395,-0.132110964,529479.1091,190111.80650000088
+Theatre N16 ,5 Ashley Road,,,Haringey,https://www.theatren16.co.uk/,10003979036,E09000014,Tottenham Hale,E05013602,51.59065971,-0.062745649,534296.2435999997,189756.08400000073
+Rose Lipman Building,43 De Beauvoir Rd,,,Hackney,http://www.themillcoproject.co.uk/spaces/the-rose-lipman-building/,10008241945,E09000012,De Beauvoir,E05009371,51.5394745,-0.083199392,533028.5376000004,184026.74090000056
+Hackney Arts Centre - EartH (Evolutiory Arts Hackney),11-17 Stoke Newington Road, Stoke Newington,,Hackney,https://www.hackneyartscentre.org/,10008300562,E09000012,Shacklewell,E05009382,51.55140177,-0.076999466,533423.6151,185364.4012000002
+Shoreditch Town Hall,380 Old St,,,Hackney,https://shoreditchtownhall.com/,10008305130,E09000012,Hoxton East & Shoreditch,E05009377,51.52759052,-0.081289113,533195.6801000005,182708.6933999993
+Church Street Theatre ,St Mary’s Centre, Church Street,Stoke Newington,Hackney,NA,10008310096,E09000012,Clissold,E05009369,51.5616175,-0.086015172,532768.8757999996,186483.99420000054
+Arcola Theatre,24 Ashwin St, Dalston,,Islington,https://www.arcolatheatre.com/,10008321023,E09000019,Mildmay,E05013709,51.54760619,-0.076943219,533438.6005999995,184942.4285000004
+Network Theatre,246A Lower Rd, Waterloo,,Lambeth,https://networktheatre.org/,10008787031,E09000022,Waterloo & South Bank,E05014118,51.50274612,-0.113888522,531005.7229000004,179887.16200000048
+Brick Lane Music Hall,443 North Woolwich Road,,,Newham,https://www.bricklanemusichall.co.uk/,10008988100,E09000025,Royal Albert,E05013922,51.50293962,0.041183788,541767.2598000001,180197.50469999947
+Stratford Circus Arts Centre,Theatre Square, Stratford,,Newham,https://stratford-circus.com/,10008996899,E09000025,Stratford Olympic Park,E05013925,51.54344506,-0.000157784,538774.9709000001,184622.43889999948
+Theatre Royal Stratford East,Gerry Raffles Square,,,Newham,http://www.stratfordeast.com/,10009003230,E09000025,Stratford Olympic Park,E05013925,51.5430221,-0.000637702,538742.9787999997,184574.49489999935
+Unicorn Theatre,147 Tooley St,,,Southwark,https://www.unicorntheatre.com/,10009804074,E09000028,London Bridge & West Bermondsey,E05011104,51.50458886,-0.082889513,533151.7147000004,180147.96409999952
+Greenwich Theatre,Crooms Hill,,,Greenwich,https://www.greenwichtheatre.org.uk/,10010200382,E09000011,Greenwich Park,E05014081,51.47998282,-0.00924372,538337.0371000003,177548.30890000053
+Edward Alderton Theatre,5 Brampton Rd, Bexleyheath,,Bexley,http://www.edwardalderton.org/,10011844980,E09000004,Crook Log,E05011223,51.46207495,0.125228844,547731.8883999996,175819.4480000008
+Ralph Richardson Memorial Studios ,Mountview Theatre School, 104 Crouch Hill,,Haringey,NA,100021171230,E09000014,Crouch End,E05013588,51.57658777,-0.123488188,530128.824,188081.36070000008
+Rose Theatre,Lamorbey House, Burnt Oak Lane,,Bexley,https://www.bruford.ac.uk/,10011845091,E09000004,Blackfen & Lamorbey,E05011220,51.43979204,0.104842345,546387.0696,173300.72890000045
+Erith Playhouse,38-40 Erith High St, Erith,,Bexley,http://www.playhouse.org.uk/,10011845592,E09000004,Erith,E05011225,51.48217556,0.179388845,551427.3987999996,178165.1754999999
+Pleasance Theatre,Carpenters Mews, North Rd,,Islington,https://www.pleasance.co.uk/,10012788835,E09000019,Holloway,E05013706,51.5492461,-0.123196566,530227.0444,185041.39719999954
+Platform,Hornsey Road Baths, 2 Tiltman Place,,Islington,NA,10012794343,E09000019,Tollington,E05013712,51.5617735,-0.11716881,530609.0906999996,186445.21990000084
+Applecart Arts,170 Harold Rd,,,Newham,http://www.applecartarts.com/,10012836969,E09000025,Plaistow North,E05013918,51.53441802,0.025974218,540614.7690000003,183668.5343999993
+The Scoop,Queen's Walk,,,Lambeth,https://www.visitlondon.com/things-to-do/place/3720745-scoop,10013532078,E09000022,Waterloo & South Bank,E05014118,51.50417225,-0.120831813,530519.7774,180033.35539999977
+Broadway Theatre,Catford Broadway,Catford,,Lewisham,https://www.broadwaytheatre.org.uk/,10023226829,E09000023,Rushey Green,E05013730,51.44572095,-0.022921983,537490.1535999998,173712.6813999992
+Stockwell Playhouse,208 Wandsworth Road,,,Lambeth,http://www.stockwellph.com/,10023851231,E09000022,Stockwell West & Larkhall,E05014111,51.47648579,-0.132823448,529766.0931000002,176933.2890000008
+Battersea Barge,Nine Elms Lane,,,Wandsworth,http://www.batterseabarge.com/bbevents/,10025500313,E09000032,Nine Elms,E05014015,51.48265903,-0.139325265,529297.1684999997,177608.27300000004
+London Palladium,1-4 Argyll Street,,,Westminster,http://london-palladium.co.uk/,10033529083,E09000033,West End,E05013808,51.51436,-0.14022,529145.4522000002,181131.88099999912
+Britten Opera Theatre,Royal College of Music, Prince Consort Road,,Westminster,NA,10033558053,E09000033,Knightsbridge & Belgravia,E05013797,51.49979219,-0.178465057,526532.2033000002,179445.18040000089
+Jermyn Street Theatre,16B Jermyn St, St. James's,,Westminster,http://www.jermynstreettheatre.co.uk/,10033536763,E09000033,West End,E05013808,51.50967047,-0.136510341,529416.1272999998,180616.94669999927
+Harold Pinter Theatre,Panton St,,,Westminster,http://www.atgtickets.com/venues/harold-pinter-theatre/,10033540343,E09000033,St James's,E05013806,51.50983451,-0.133275661,529640.1184999999,180640.90780000016
+Gielgud Theatre,Shaftesbury Ave, Soho,,Westminster,https://www.delfontmackintosh.co.uk/theatres/gielgud-theatre/,10033543105,E09000033,West End,E05013808,51.51252024,-0.134808564,529526.1341000004,180936.85219999962
+Vaudeville Theatre,404 Strand,,,Westminster,https://www.nimaxtheatres.com/theatres/vaudeville-theatre/,10033544051,E09000033,St James's,E05013806,51.51085658,-0.124083583,530275.0458000004,180770.8705000002
+Royal Opera House,Bow St,,,Westminster,http://www.roh.org.uk/,10033547198,E09000033,St James's,E05013806,51.51355733,-0.124260621,530255.0598999998,181070.88150000013
+Institute of Contemporary Arts,The Mall, St. James's,,Westminster,https://www.ica.art/,10033548625,E09000033,St James's,E05013806,51.50714179,-0.131915742,529742.1309000002,180343.88209999911
+Apollo Theatre,Shaftesbury Ave, Soho,,Westminster,https://www.nimaxtheatres.com/theatres/apollo-theatre/,10033548808,E09000033,West End,E05013808,51.51201028,-0.134987535,529515.1618999997,180879.82760000043
+May Fair Theatre ,The May Fair Hotel, Stratton Street, Mayfair,Westminster,http://www.themayfairhotel.co.uk/en/may-fair-theatre.html,10033549456,E09000033,West End,E05013808,51.50802526,-0.14548366,528798.0998,180418.18260000087
+Palace Theatre,Shaftesbury Ave, Soho,,Westminster,https://www.nimaxtheatres.com/theatres/palace-theatre/,10033553103,E09000033,West End,E05013808,51.5135962,-0.131233936,529771.1075999998,181062.82699999958
+Soho Theatre,21 Dean Street,,,Westminster,https://sohotheatre.com/,10033554562,E09000033,West End,E05013808,51.51488794,-0.134513511,529539.8916999996,181200.66489999928
+Theatre Royal Drury Lane ,Catherine St,,,Westminster,http://www.reallyusefultheatres.co.uk/our-theatres/theatre-royal,10033555899,E09000033,St James's,E05013806,51.51338539,-0.121947845,530416.0221999995,181055.87659999914
+Puppet Theatre Barge,Blomfield Road (opposite 35),,,Westminster,http://www.puppetbarge.com/Controllers/homepage.php,10033556397,E09000033,Little Venice,E05013799,51.52224162,-0.18632704,525924.6354999999,181928.05010000058
+The Other Palace,12 Palace St, Westminster,,Westminster,https://www.theotherpalace.co.uk/,10033568019,E09000033,St James's,E05013806,51.49923634,-0.143692437,528947.199,179443.9955000002
+The Lyceum Theatre,21 Wellington St,,,Westminster,https://www.thelyceumtheatre.com/,10033572107,E09000033,St James's,E05013806,51.51193352,-0.121719838,530435.9881999996,180894.83349999972
+Charing Cross Theatre,The Arches, Villiers St,,Westminster,http://www.charingcrosstheatre.co.uk/,10033582545,E09000033,St James's,E05013806,51.50859876,-0.125703378,530169.0834999997,180516.91929999925
+Criterion Theatre,218-223 Piccadilly, St. James's,,Westminster,https://www.criterion-theatre.co.uk/,10033582954,E09000033,West End,E05013808,51.51020844,-0.135292471,529499.1111000003,180678.92190000042
+Sarah Siddons Theatre,City of Westminster College, Paddington Green Campus,,Westminster,https://www.cwc.ac.uk/private-hire/sarah-siddons-theatre,10033614767,E09000033,Little Venice,E05013799,51.5213937,-0.176027204,526641.5072999997,181851.51810000092
+Novello Theatre,Aldwych, London,,Westminster,http://www.novellotheatrelondon.info/,10033615106,E09000033,St James's,E05013806,51.51301144,-0.121040927,530480.0169000002,181015.90809999965
+Normansfield Theatre,The Langdon Down Centre, Normansfield, 2A Langdon Park,Richmond upon Thames,https://langdondowncentre.org.uk/normansfield-theatre/,10070711098,E09000027,Hampton Wick & South Teddington,E05013780,51.41950034,-0.315912836,517197.7355000004,170288.04590000026
+QEH Southbank Centre,Belvedere Rd, Lambeth,,Lambeth,https://www.southbankcentre.co.uk/venues/queen-elizabeth-hall,10090198178,E09000022,Waterloo & South Bank,E05014118,51.50717504,-0.117552648,530738.7551999995,180373.11510000005
+"St Johns, Waterloo",73 Waterloo Rd, Lambeth,,Lambeth,NA,10090199534,E09000022,Waterloo & South Bank,E05014118,51.50499811,-0.113579398,531020.7188999997,180138.13749999925
+Park Theatre,Clifton Terrace, Finsbury Park,,Islington,https://www.parktheatre.co.uk/,10090266645,E09000019,Finsbury Park,E05013703,51.56617243,-0.110020818,531091.9041999998,186947.18510000035
+Blue Elephant Theatre,59A Bethwin Rd, Camberwell,,Southwark,http://www.blueelephanttheatre.co.uk/,10090283293,E09000028,Camberwell Green,E05011096,51.48065992,-0.099891942,532040.8502000002,177456.2809999995
+Cada Water Theatre,21 Surrey Quays Road,,,Southwark,http://canadawaterculturespace.org.uk/,10090284129,E09000028,Rotherhithe,E05011112,51.49832275,-0.050768479,535399.4066000003,179510.0781999994
+Theatre Utopia,1 Matthews Yard, Croydon,,Croydon,http://www.matthewsyard.com/,10090382144,E09000008,Fairfield,E05011468,51.37268811,-0.102698376,532156.8982999995,165444.7195999995
+The Bridge Theatre,3 Potters Fields Park,,,Southwark,https://bridgetheatre.co.uk/,10090749570,E09000028,London Bridge & West Bermondsey,E05011104,51.50414492,-0.078830885,533434.6701999996,180105.98980000056
+The CLF Art Café,Block A, Bussey Building, 133 Rye Lane,Southwark,https://www.clfartcafe.org/theatre,10090750261,E09000028,Rye Lane,E05011113,51.47042121,-0.069824735,534158.5809000004,176372.36810000055
+Sam Wamaker Playhouse,21 New Globe Walk,,,Southwark,http://www.shakespearesglobe.com/theatre/whats-on/sam-wanamaker-playhouse,10090750983,E09000028,Borough & Bankside,E05011095,51.50862325,-0.098181097,532078.8447000002,180568.90440000035
+The Vaults,Leake Street,Lambeth,,Lambeth,https://www.thevaults.london/,10091121720,E09000022,Waterloo & South Bank,E05014118,51.50247048,-0.117556057,530751.9808999998,179849.95859999955
+Cervantes Theatre,Arch 26, Old Union Arches, 229 Union Street,Southwark,http://www.cervantestheatre.com/,10091668523,E09000028,Borough & Bankside,E05011095,51.5038606,-0.103379478,531731.8481999999,180029.9375
+Hackney Showroom,Hackney Downs Studios, Amhurst Terrace,,Hackney,NA,10091775026,E09000012,Stoke Newington,E05009385,51.55496024,-0.069737442,533916.6425999999,185773.38829999976
+Bernie Grant Arts Centre,Town Hall Approach Rd, Tottenham Green,,Haringey,https://www.berniegrantcentre.co.uk/,10091817474,E09000014,Tottenham Central,E05013601,51.58808293,-0.074008677,533523.6184,189448.89890000038
+London Theatre,443 New Cross Rd, New Cross,,Lewisham,http://www.thelondontheatre.com/,10091838199,E09000023,Deptford,E05013719,51.47634389,-0.03180711,536781.2147000004,177101.28940000013
+Theatre503,503 Battersea Park Rd,,,Wandsworth,https://theatre503.com/,10091845630,E09000032,St Mary's,E05014018,51.47244361,-0.167282835,527384.4341000002,176423.3378999997
+Chiswick Playhouse,2 Bath Rd, Chiswick,,Hounslow,http://tabardtheatre.co.uk/,10091854897,E09000018,Chiswick Homefields,E05013610,51.49643256,-0.255056571,521225.1730000004,178942.10339999944
+The Place,17 Duke's Rd, Bloomsbury,,Camden,https://www.theplace.org.uk/,10091861254,E09000007,St Pancras & Somers Town,E05013669,51.52781091,-0.130565311,529777.0987999998,182644.70160000026
+Kings Place,90 York Way, Kings Cross,,Camden,https://www.kingsplace.co.uk/,10091871351,E09000007,King's Cross,E05013666,51.53474842,-0.123577178,530242.0256000003,183428.56340000033
+Battersea Power Station Village Hall,188 Kirtling St,,,Wandsworth,https://www.bac.org.uk/content/40704/to_archive/consultation_sessions_circus_west_village_hall_battersea,10091874090,E09000032,Nine Elms,E05014015,51.48170708,-0.142272912,529095.1920999996,177497.21759999916
+Regents Park Open Air Theatre,Inner Circle,,,Westminster,https://openairtheatre.com/,10091898189,E09000033,Regent's Park,E05013805,51.52880735,-0.156039804,528007.3098999998,182710.67650000006
+Waterloo East Theatre,Brad St, Lambeth,,Lambeth,https://www.waterlooeast.co.uk/,10091908867,E09000022,Waterloo & South Bank,E05014118,51.50460339,-0.111517693,531164.9293999998,180097.93370000087
+Katzpace,Katzenjammers, 24 Southwark Street,,Southwark,https://www.katzpace.co.uk/,10093339191,E09000028,Borough & Bankside,E05011095,51.50540364,-0.092624576,532473.7573999995,180220.91740000062
+Bunker Theatre,53A Southwark St,,,Southwark,https://www.bunkertheatre.com/,10093341165,E09000028,Borough & Bankside,E05011095,51.5051726,-0.096077229,532234.8223000001,180188.9877000004
+Ryan Theatre,5 Yew Walk, Harrow,,Harrow,https://www.tagvenue.com/rooms/middlesex/1654/harrow-school/ryan-theatre,100021296924,E09000015,Harrow on the Hill,E05013547,51.57331899,-0.341300733,515044.9071000004,187353.1587000005
+The Bread & Roses Theatre,68 Clapham Manor St,,,Lambeth,https://www.breadandrosestheatre.co.uk/,100021824058,E09000022,Clapham Town,E05014102,51.46690969,-0.138482219,529400.1925999997,175858.40450000018
+The Royal Vauxhall Tavern,372 Kennington Lane, Vauxhall,,Lambeth,http://www.vauxhalltavern.com/,100021856165,E09000022,Vauxhall,E05014117,51.4870039,-0.121405222,530528.9941999996,178123.19830000028
+White Bear Theatre,138 Kennington Park Rd, Kennington,,Lambeth,https://www.whitebeartheatre.co.uk/,100021856679,E09000022,Kennington,E05014105,51.48722009,-0.109658371,531343.8974000001,178168.22880000062
+Landor Space,70 Landor Rd, Clapham North,,Lambeth,https://www.landorspace.com/,100021861916,E09000022,Clapham East,E05014100,51.46618085,-0.127632228,530155.8562000003,175796.5672999993
+Fellowship Inn,Randlesdown Rd,,,Lewisham,https://www.phoenixch.org.uk/community/fellowship-inn,100021998208,E09000023,Bellingham,E05013714,51.43323126,-0.021849412,537602.1754999999,172325.8457999993
+Deaton Theatre,Forest School, College Place,,Waltham Forest,https://www.forest.org.uk/senior-school/news-events/facility-hire/,100022574448,E09000031,Upper Walthamstow,E05013900,51.58609345,0.007758792,539193.7467999998,189380.11370000057
+The Yaa Centre,1 Chippenham Mews,,,Westminster,NA,100022735260,E09000033,Harrow Road,E05013795,51.52406349,-0.196666428,525202.3744000001,182112.92090000026
+Churchill Theatre,High Street, Bromley,,Bromley,https://churchilltheatre.co.uk/,100023034034,E09000006,Bromley Town,E05013991,51.40428912,0.012855665,540102.8403000003,169173.19779999927
+Bromley Little Theatre,North Street, Bromley,,Bromley,http://bromleylittletheatre.org/,100022887041,E09000006,Bromley Town,E05013991,51.40821467,0.013632498,540144.8650000002,169611.1992000006
+Theatre 62,Wickham Theatre Centre, Corkscrew Hill, West Wickham,Bromley,https://theatre62.wordpress.com/,100022897636,E09000006,West Wickham,E05014008,51.37342259,-0.011943755,538470.9907999998,165693.7064999994
+Ashcroft Theatre (Fairfield Halls),Park Lane,,,Croydon,https://en.wikipedia.org/wiki/Ashcroft_Theatre,100022917675,E09000008,Fairfield,E05011468,51.37305115,-0.097382917,532525.7984999996,165494.67669999972
+Geoffrey Whitworth Theatre,Beech Walk, Crayford,,Bexley,http://www.thegwt.org.uk/,100022918313,E09000004,Crayford,E05011222,51.45605783,0.188377569,552138.3113000002,175279.55069999956
+Nursery Theatre,2  Finsbury Avenue ,,,Islington,http://thenurserytheatre.com/theatre/,100022933575,E09000019,Bunhill,E05013699,51.51992929,-0.086814449,532834.7143999999,181846.70830000006
+Winterflood Theatre,City of London School, Queen Victoria Street,,City of London,https://www.cityoflondonschool.org.uk/school-life/drama/winterflood-theatre,100022936607,E09000001,Castle Baynard,E05009297,51.51153824,-0.100945095,531878.6303000003,180888.07230000012
+CentrE17,1 Church Hill,,,Waltham Forest,https://thecentre17.com/,100022978993,E09000031,High Street,E05013891,51.58584388,-0.019990926,537272.1358000003,189299.88979999907
+"Mirth, Marvel and Maud",186 Hoe St, Walthamstow,,Waltham Forest,http://mirthmarvelandmaud.com/,100022979833,E09000031,High Street,E05013891,51.58700167,-0.022018906,537128.1708000004,189424.83909999952
+Redbridge Drama Centre,Churchfields, South Woodford,,Redbridge,http://www.redbridgedramacentre.co.uk/,100022987836,E09000026,Churchfields,E05011238,51.5987895,0.025399644,540376.7187000001,190825.68840000033
+Hackney Empire,291 Mare St,,,Hackney,https://hackneyempire.co.uk/,100023014084,E09000012,Hackney Central,E05009372,51.54657726,-0.057085172,534818.4540999997,184864.4327000007
+Chats Palace,42-44 Brooksby's Road,,,Hackney,https://chatspalace.com/,100023020798,E09000012,Homerton,E05009376,51.5506371,-0.044378545,535687.3761,185339.35950000025
+Winston Churchill Theatre,Manor Farm, Pinn Way, Ruislip,Hillingdon,http://www.hillingdontheatres.uk/index.php/hire/our-spaces/wct/,100023034034,E09000017,Ruislip,E05013577,51.57944316,-0.430318955,508861.66309999954,187898.0264999997
+Kenneth More Theatre,Oakfield Road, Ilford,,Redbridge,https://www.kmtheatre.co.uk/,100023043000,E09000026,Ilford Town,E05011246,51.56052556,0.071015406,543656.3244000003,186659.21189999953
+the cornerHOUSE Community Arts Centre,116 Douglas Rd, Surbiton,,Kingston upon Thames,http://www.thech.org/,100023066827,E09000021,Tolworth,E05013945,51.38140612,-0.295613257,518707.5692999996,166084.55739999935
+Cockpit Theatre,Gateforth St, Marylebone,,Westminster,http://thecockpit.org.uk/,100023121790,E09000033,Church Street,E05013794,51.52495745,-0.170869276,526989.4179999996,182256.7444000002
+tiol Centre for Circus Arts ,Coronet Street,,,Hackney,NA,100023135567,E09000012,Hoxton West,E05009378,51.52803008,-0.083867984,533015.5221999995,182752.8811000008
+Hoxton Hall,130 Hoxton St,,,Hackney,https://www.hoxtonhall.co.uk/,100023135707,E09000012,Hoxton East & Shoreditch,E05009377,51.53232501,-0.081609167,533159.6687000003,183234.59500000067
+Tower Theatre ,16 Northwold Road,,,Hackney,http://www.towertheatre.org.uk/relo.htm,100023160491,E09000012,Stoke Newington,E05009385,51.56332345,-0.073542349,533628.4044000003,186696.42960000038
+Jacksons Lane,Jacksons Lane,269a Archway Road ,,Haringey,https://www.jacksonslane.org.uk/,100023196841,E09000014,Highgate,E05013592,51.57761261,-0.147975292,528429.2366000004,188152.07919999957
+Arthouse,159A Tottenham Lane,,,Haringey,NA,100023208418,E09000014,Hornsey,E05013593,51.58233814,-0.12154867,530246.7949999999,188724.28160000034
+Queen's Theatre Hornchurch ,Billet Ln, Hornchurch,,Havering,http://www.queens-theatre.co.uk/,100023213219,E09000016,St Andrew's,E05013982,51.56571994,0.217790544,553812.0571999997,187535.0850000009
+Young Vic,66 The Cut, Waterloo,,Lambeth,https://www.youngvic.org/,100023226258,E09000022,Waterloo & South Bank,E05014118,51.50378941,-0.108874737,531350.6857000003,180012.15410000086
+Blackheath Halls,23 Lee Rd, Blackheath,,Lewisham,NA,100023269695,E09000023,Blackheath,E05013715,51.46530269,0.007909575,539572.8855999997,175948.39939999953
+The Brockley Jack Theatre,410 Brockley Rd,,,Lewisham,http://www.brockleyjack.co.uk/,100023271625,E09000023,Crofton Park,E05013718,51.45394088,-0.040139485,536269.2937000003,174594.57459999993
+Bob Hope Theatre,2 Wythfield Rd, Eltham,,Greenwich,http://www.bobhopetheatre.co.uk/,100023284254,E09000011,Eltham Town & Avery Hill,E05014079,51.4500002,0.048885259,542466.5214,174325.59039999917
+Putney Arts Theatre,Raven Rd, Putney,,Wandsworth,http://www.putneyartstheatre.org.uk/,100023314898,E09000032,West Putney,E05014030,51.46102652,-0.221703171,523635.89639999997,175060.58860000037
+Trafalgar Studios,14 Whitehall, Westminster,,Westminster,http://trafalgarentertainment.com/about-us/trafalgar-studios/,100023336992,E09000033,St James's,E05013806,51.50697186,-0.129113012,529937.1083000004,180329.9531999994
+Apollo Victoria,17 Wilton Rd, Pimlico,,Westminster,https://www.theapollovictoria.com/,100023340605,E09000033,Pimlico North,E05013802,51.49628761,-0.144258315,528916.2407999998,179115.09789999947
+Her Majesty's Theatre,Haymarket, St. James's,,Westminster,http://www.reallyusefultheatres.co.uk/our-theatres/her-majestys,100023349365,E09000033,St James's,E05013806,51.50863462,-0.133612605,529620.1423000004,180506.88240000047
+Streatham Space Project,Sternhold Avenue,,,Lambeth,https://www.streathamspaceproject.co.uk/,100023353203,E09000022,Streatham Hill West & Thornton,E05014114,51.43917354,-0.128474733,530174.0559999999,172791.85089999996
+Omnibus Theatre,1 Clapham Common North Side,,,Lambeth,https://omnibus-clapham.org/,100023362765,E09000022,Clapham Town,E05014102,51.46366993,-0.144545405,528988.1908,175487.45099999942
+The Mary Wallace Theatre,The Embankment, Twickenham,,Richmond upon Thames,http://www.richmondshakespeare.org.uk/,100023392165,E09000027,Twickenham Riverside,E05013789,51.44699383,-0.327664261,516310.84810000006,173326.75960000046
+St Mary's University ,Waldegrave Road, Twickenham,,Richmond upon Thames,NA,100023392499,E09000027,South Twickenham,E05013787,51.43617234,-0.333044849,515964.37200000044,172114.81980000064
+Paul Robeson Theatre (The Arts Centre Hounslow),Treaty Centre, High St,,Hounslow,http://www.hounslowartscentre.co.uk/,100023402396,E09000018,Hounslow Central,E05013620,51.46864496,-0.364605576,513690.1275000004,175676.51479999907
+Isleworth Public Hall,South Street, Isleworth,,Hounslow,http://www.fusion-lifestyle.com/centres/isleworth-public-hall,100023407252,E09000018,Isleworth,E05013625,51.46928924,-0.327225027,516284.7472000001,175806.80189999938
+Watermans Art Centre,40 High St, Brentford,,Hounslow,https://www.watermans.org.uk/,100023407377,E09000018,Brentford East,E05013607,51.48627849,-0.299628859,518157.5499,177740.1679999996
+Orange Tree Theatre,1 Clarence St, Richmond,,Richmond upon Thames,https://www.orangetreetheatre.co.uk/,100023410248,E09000027,North Richmond,E05013784,51.46489827,-0.303460207,517946.5993999997,175356.4779000003
+Compass Theatre,Glebe Ave, Ickenham,,Hillingdon,http://www.hillingdontheatres.uk/,100023413466,E09000017,Ickenham & South Harefield,E05013573,51.56134887,-0.441442996,508133.78220000025,185869.3191999998
+Peacock Theatre,Portugal St,,,Camden,http://peacocktheatre.com/,100023430213,E09000007,Holborn & Covent Garden,E05013662,51.51513727,-0.119599115,530573.9809999997,181254.87109999917
+Aldwych Theatre,49 Aldwych,,,Westminster,https://www.nederlander.co.uk/aldwych-theatre,10033615106,E09000033,St James's,E05013806,51.51358639,-0.120469995,530517.9885999998,181080.86009999923
+Fortune Theatre,Russell St,,,Westminster,https://www.londontheatredirect.com/venue/52/fortune-theatre.aspx,100023430729,E09000033,St James's,E05013806,51.51375935,-0.122321817,530389.0066999998,181096.79549999908
+Duchess Theatre,3-5 Catherine St,,,Westminster,https://www.nimaxtheatres.com/theatres/duchess-theatre/,100023430731,E09000033,St James's,E05013806,51.51270146,-0.121341891,530460.0196000002,180980.90210000053
+Adelphi Theatre,Strand, London,,Westminster,http://www.reallyusefultheatres.co.uk/our-theatres/adelphi,100023430793,E09000033,St James's,E05013806,51.5106376,-0.124424545,530252.0113000004,180745.91339999996
+Iris Theatre,St Paul's Church, Bedford Street, Covent Garden,Westminster,http://iristheatre.com/,100023431320,E09000033,St James's,E05013806,51.51209234,-0.125333186,530184.8152999999,180906.06670000032
+Wyndham's Theatre,Charing Cross Rd,,,Westminster,https://www.delfontmackintosh.co.uk/theatres/wyndhams-theatre/,100023431358,E09000033,St James's,E05013806,51.51156841,-0.129818035,529875.1149000004,180839.8440000005
+Garrick Theatre,2 Charing Cross Rd,,,Westminster,https://www.nimaxtheatres.com/theatres/garrick-theatre/,100023431359,E09000033,St James's,E05013806,51.51045553,-0.129388054,529908.1151999999,180716.85309999995
+Arts Theatre,6-7 Great Newport St, London,,Westminster,https://artstheatrewestend.co.uk/,100023431531,E09000033,St James's,E05013806,51.51264433,-0.129054132,529925.0601000004,180960.8421
+Leicester Square Theatre,6 Leicester Pl,,,Westminster,http://www.leicestersquaretheatre.com/,100023431690,E09000033,St James's,E05013806,51.51185035,-0.131679857,529745.1264000004,180867.8967000004
+Duke of York's Theatre,St Martin's Ln,,,Westminster,http://www.atgtickets.com/venues/duke-of-yorks/,100023432454,E09000033,St James's,E05013806,51.51071651,-0.128787118,529949.0713999998,180746.94019999914
+London Coliseum ,St Martin's Ln,,,Westminster,https://www.eno.org/,100023432456,E09000033,St James's,E05013806,51.51042255,-0.127877202,530013.0462999996,180715.86610000022
+Noel Coward Theatre,85-88 St Martin's Ln,,,Westminster,http://www.noelcowardtheatre.co.uk/,100023432653,E09000033,St James's,E05013806,51.51131046,-0.128820128,529945.0911999997,180812.92950000055
+Playhouse theatre,Northumberland Ave,,,Westminster,https://www.playhousetheatrelondon.com/,100023432701,E09000033,St James's,E05013806,51.50747687,-0.125288396,530201.0773999998,180392.90159999952
+Prince Edward Theatre,Old Compton St, Soho,,Westminster,http://www.princeedwardtheatre.co.uk/,100023472518,E09000033,West End,E05013808,51.51426411,-0.132532821,529679.0886000004,181134.79900000058
+Prince of Wales Theatre,Coventry St,,,Westminster,https://www.delfontmackintosh.co.uk/theatres/prince-of-wales-theatre/,100023472712,E09000033,St James's,E05013806,51.51051045,-0.133377664,529631.1222999999,180715.89250000007
+The Sondheim Theatre,51 Shaftesbury Ave, Soho,,Westminster,http://www.queenstheatre.co.uk/,100023472885,E09000033,West End,E05013808,51.51251524,-0.134506592,529547.1009999998,180936.83019999973
+Lyric Theatre,29 Shaftesbury Ave, Soho,,Westminster,https://www.nimaxtheatres.com/theatres/lyric-theatre/,100023472887,E09000033,West End,E05013808,51.51178329,-0.135400491,529487.1514999997,180853.8560000006
+Cal Cafe,2 Delamere Terrace,,,Westminster,https://canalcafetheatre.com/,100023485550,E09000033,Westbourne,E05013809,51.5216805,-0.186277705,525929.6053999998,181865.73729999922
+Brookside Theatre,21A Eastern Rd, Romford,,Havering,http://www.brooksidetheatre.com/,100023516699,E09000016,St Edward's,E05013983,51.57665762,0.183602281,551406.3514999999,188679.98139999993
+Trinity Laban / Laban Theatre,Laban Building, 30 Creekside,,Lewisham,https://www.trinitylaban.ac.uk/whats-on/our-venues/laban-theatre,100023569221,E09000023,Deptford,E05013719,51.47906872,-0.021681215,537476.1741000004,177423.2469999995
+Sydenham Centre,44a Sydenham Road,,,Lewisham,https://www.lewisham.gov.uk/inmyarea/Pages/venue-detail.aspx?directoryid=5081,100023570375,E09000023,Sydenham,E05013731,51.42641139,-0.053283626,535437.4282999998,171508.9600000009
+South London Theatre,The Old Fire Station, 2A Norwood High Street,,Croydon,http://www.southlondontheatre.co.uk/,100023572270,E09000008,South Norwood,E05011485,51.4009191,-0.077179031,533850.6681000004,168630.30460000038
+Theatre Royal Haymarket,18 Suffolk St,,,Westminster,http://www.trh.co.uk/,10009003230,E09000033,St James's,E05013806,51.50934257,-0.132848692,529671.1424000002,180586.9592000004
+Savoy Theatre,Savoy Court, Strand,,Westminster,http://www.atg.co.uk/venues/london/savoy-theatre/,0 10009003230,E09000033,St James's,E05013806,51.51067863,-0.122476737,530387.051,180753.94109999947
+The Albany,Douglas Way,,,Lewisham,https://www.thealbany.org.uk/,100023679663,E09000023,Deptford,E05013719,51.47839273,-0.029025428,536968.2389000002,177334.31680000015
+London Theatre Workshop,88 Gracechurch Street Leadenhall Market,,,City of London,http://londontheatreworkshop.co.uk/,200000069827,E09000001,Cornhill,E05009301,51.51334897,-0.085764417,532926.7105999999,181116.8752999995
+Harrow Arts Centre,171 Uxbridge road, Hatch End,,Harrow,https://harrowarts.com/,200000319916,E09000015,Hatch End,E05013549,51.60897493,-0.364087228,513377.1310999999,191282.64939999953
+Above The Stag Theatre,72 Albert Embankment, Vauxhall,,Wandsworth,http://www.abovethestag.com/,200000453260,E09000032,Nine Elms,E05014015,51.48312519,-0.127382453,530125.0530000003,177681.24990000017
+Ovalhouse,52-54 Kennington Oval, London,,Lambeth,http://www.ovalhouse.com/,200000468066,E09000022,Oval,E05014108,51.48427322,-0.118752358,530720.9702000003,177824.27219999954
+The Old Vic,The Cut, Lambeth,,Lambeth,https://www.oldvictheatre.com/,200000486294,E09000022,Waterloo & South Bank,E05014118,51.5024496,-0.110626736,531232.9457999999,179860.02669999935
+tiol Theatre,Upper Ground, Lambeth,,Lambeth,NA,200000523951,E09000022,Waterloo & South Bank,E05014118,51.50737705,-0.115668338,530868.9370999997,180398.94329999946
+Walthamstow Assembly Hall,Town Hall, Forest Rd, Walthamstow,Waltham Forest,http://www.forestvenues.london/venues/walthamstow-assembly-hall-wah17,200001418714,E09000031,Chapel End,E05013884,51.59167049,-0.01509178,537593.9483000003,189957.0524000004
+Ye Olde Rose and Crown,53 Hoe Street, Walthamstow,,Waltham Forest,http://www.yeolderoseandcrowntheatrepub.co.uk/,200001421119,E09000031,William Morris,E05013902,51.58748661,-0.021954959,537131.1434000004,189478.88749999925
+Victoria Palace,Victoria St, Westminster,,Westminster,http://www.victoriapalacetheatre.co.uk/,200002349882,E09000033,St James's,E05013806,51.49751449,-0.143949372,528934.2236000001,179252.0719000008
+Andrew Lloyd Webber Foundation Theatre,Arts Ed, 14 Bath Rd, Chiswick,Hounslow,http://www.reallyusefultheatres.co.uk/our-group/andrew-lloyd-webber,200002818756,E09000018,Chiswick Homefields,E05013610,51.49647058,-0.254003676,521298.1556000002,178948.07330000028
+Union Theatre,Old Union Arches, 229 Union St,,Southwark,http://www.uniontheatre.biz/,200003354927,E09000028,Borough & Bankside,E05011095,51.5038606,-0.103379478,531731.8481999999,180029.9375
+LSMT,London School of Musical Theatre, 83 Borough Rd,,Southwark,https://www.lsmt.co.uk/,200003356644,E09000028,St George's,E05011114,51.49951306,-0.100289685,531958.8312999997,179552.04990000091
+Southwark Playhouse,77-85 Newington Causeway, London,,Southwark,http://southwarkplayhouse.co.uk/,200003374411,E09000028,St George's,E05011114,51.49821019,-0.099781703,531997.8512000004,179408.08530000038
+The Calder Bookshop & Theatre,51 The Cut,,,Lambeth,http://calderbookshop.com/,200003375676,E09000022,Waterloo & South Bank,E05014118,51.50354554,-0.108319985,531389.8864000002,179986.0304000005
+Shakespeares Globe,21 New Globe Walk,,,Southwark,http://www.shakespearesglobe.com/,200003377200,E09000028,Borough & Bankside,E05011095,51.50862325,-0.098181097,532078.8447000002,180568.90440000035
+The Rose Playhouse,56 Park St,,,Southwark,http://www.roseplayhouse.org.uk/,200003377328,E09000028,Borough & Bankside,E05011095,51.50781833,-0.09786911,532102.8213,180479.95979999937
+The MCT,Alleyn's School, Townley Road,,Southwark,https://mct.alleyns.org.uk/,200003440977,E09000028,Goose Green,E05011103,51.45529878,-0.083576692,533247.4966000002,174665.66589999944
+"The Old Library, Theatre Deli",39 Wells Way,,,Southwark,https://www.theatredeli.co.uk/about-the-old-library,200003453340,E09000028,Faraday,E05011102,51.48312388,-0.087174361,532916.7367000002,177753.2697999999
+Greenwood Theatre,55 Weston St,,,Southwark,https://www.kcl.ac.uk/greenwood/index.aspx,200003496919,E09000028,London Bridge & West Bermondsey,E05011104,51.50311795,-0.087504035,532835.7518999996,179976.0189999994
+Menier Chocolate Factory,53 Southwark St,,,Southwark,https://www.menierchocolatefactory.com/,200003500280,E09000028,Borough & Bankside,E05011095,51.5051726,-0.096077229,532234.8223000001,180188.9877000004
+Chiswick House,Chiswick House and Gardens, Burlington Lane, Chiswick,Hounslow,http://chiswickhouseandgardens.org.uk/,200003971248,E09000018,Chiswick Homefields,E05013610,51.48660867,-0.258922667,520982.80879999977,177843.2751000002
+OSO Arts Centre,49 Station Rd,,,Richmond upon Thames,http://www.osoarts.org.uk/,200002811148 ,E09000027,Mortlake & Barnes Common,E05013783,51.47279383,-0.248428132,521748.14190000016,176324.41650000028
+The Tramshed,41 Woolwich New Road,,,Greenwich,https://www.tramshed.org/,100023245449,E09000011,Woolwich Arsenal,E05014092,51.489729,0.068609625,543712.1404999997,178781.94079999998
+Mountview,120 Peckham Hill Street,,,Southwark,https://www.mountview.org.uk/,10094742520 ,E09000028,Peckham,E05011110,51.47487,-0.069915779,534139.2189999996,176866.90350000001
+Applecart Arts,The Passmore Edwards Library,207 Plashet Grove,,Newham,https://applecartarts.com/our_venue.php#the_theatre,10008996260,E09000025,Plashet,E05013921,51.539588,0.045359576,541943.1404999997,184280.89220000058
+Hackney Showroom,4 Murrain Road,Kings Crescent Estate,,Hackney,https://www.hackneyshowroom.com/,10008343497,E09000012,Brownswood,E05009367,51.56253,-0.092479079,532318.2026000004,186573.7441000007
+Brixton House,385 Coldharbour Lane,Brixton,,Lambeth,https://brixtonhouse.co.uk/,10094957510,E09000022,Brixton Windrush,E05014098,51.461917,-0.11110208,531316.2185000004,175351.91449999996
+Theatre Deli,2 Finsbury Avenue,,,City of London,https://www.theatredeli.co.uk/,100022933575,E09000001,Bishopsgate,E05009292,51.519961,-0.08487465,532969.1944000004,181853.7575000003
+Immersive LDN (UNIT HQ),1-8 Davies Mews,,,Westminster,https://www.immersivedoctorwho.com/event/doctor-who-time-fracture,100023474930,E09000033,West End,E05013808,51.513235,-0.14819517,528595.2725999998,180992.74860000052
+Wildcard Theatre Company,18 Balderton Street,,,Westminster,https://www.wildcardtheatre.co.uk/,100023474860 ,E09000033,West End,E05013808,51.513277,-0.15254592,528293.2758,180989.79020000063
+Graeae Theatre Company,138 Kingsland Road,,,Hackney,https://graeae.org/event/,100022990986 ,E09000012,Haggerston,E05009375,51.532797,-0.07683844,533489.1629999997,183295.78109999932
+Southwark Park Galleries ,1 Park Approach,Southwark Park,,Southwark,https://southwarkparkgalleries.org/,10000811264 ,E09000028,Rotherhithe,E05011112,51.494147,-0.053931951,535192.1914999997,179039.88859999925
+Michael Frayn Theatre ,70 London Road,,,Kingston upon Thames,https://www.michaelfrayntheatre.com/,No UPRN,E09000021,Kingston Town,E05013938,51.41049,-0.29582,518618.0728000002,169318.36419999972
+The Hammond Theatre,Hanworth Rd,Hampton,,Richmond upon Thames,https://www.thehammondtheatre.co.uk/,No UPRN,E09000027,Hampton North,E05013779,51.42877,-0.37191,513281.3312999997,171230.84950000048
+Stanley Arts,12 South Norwood Hill,South Norwood,,Croydon,https://stanleyarts.org/,100023536211,E09000008,South Norwood,E05011485,51.400257,-0.075329996,533981.2138,168560.05680000037
+Oxford House Theatre,87 Derbyshire Street,,,Tower Hamlets,http://www.oxfordhouse.org.uk,6089004,E09000030,St Peter's,E05009331,51.526367,-0.061510951,534571.1484000003,182608.83770000003
+Jazzbourne,443 New Cross Road,,,Lewisham,https://www.jazzbourne.com/,100023238425,E09000023,Deptford,E05013719,51.475828,-0.030216617,536893.2038000003,177046.89509999938
+RADA,Malet Street,,,Camden,https://www.rada.ac.uk/about-us/venue-hire/bar-and-cafe/,5110590,E09000007,Bloomsbury,E05013653,51.521704,-0.13157747,529724.2396999998,181963.81479999982
+RADA Studios,16 Chenies Street,,,Camden,https://www.rada.ac.uk/about-us/venue-hire/rooms/,5087921,E09000007,Bloomsbury,E05013653,51.520667,-0.13258564,529657.2448000005,181846.71419999935
+New London Performing Arts Centre,76 St James Lane,Muswell Hill,,Haringey,https://nlpac.co.uk/,10003973500,E09000014,Muswell Hill,E05013594,51.588142,-0.13965084,528976.2308,189337.63069999963
+Seven Dials Playhouse ,1A Tower St,London,,Camden,https://www.sevendialsplayhouse.co.uk/,5077305 ,E09000007,Holborn & Covent Garden,E05013662,51.513361,-0.12833025,529973.2482000003,181041.8206999991
+PunchDrunk,1 Cartridge Place,Royal Arsel,Woolwich,Greenwich,https://www.punchdrunk.com/,10010229733 ,E09000011,Woolwich Arsenal,E05014092,51.493857,0.070611723,543838.1369000003,179244.90110000037
+Immersive LDN (Gatsby's Mansion),56 Davies Street,,,Westminster,https://immersivegatsby.com/event/the-great-gatsby,100023619874 ,E09000033,West End,E05013808,51.513392,-0.14846263,528576.2729000002,181009.73780000024
+Bold Elephant ,21 St.George’s Road,Elephant and Castle,,Southwark,https://boldtheatre.com/,200003374921 ,E09000028,St George's,E05011114,51.495296,-0.10269216,531804.2466000002,179078.78639999963
+The Big House Theatre Company,151 Englefield Rd,,,Islington,https://thebighouse.uk.com/#!/,5300031052 ,E09000019,Canonbury,E05013701,51.543494,-0.089814048,532558.1700999998,184461.71509999968
+The Pen Theatre ,"Unit 22b, Perth Centre",Perth Street,South Bermondsey,Southwark,https://thepentheatre.com/,200003494996,E09000028,Old Kent Road,E05011109,51.483309,-0.054955072,535153.2152000004,177832.8225999996
+Golden Goose Theatre ,146 Camberwell New Road,Camberwell,London,Lambeth,www.goldengoosetheatre.co.uk,100023273349,E09000022,Myatt's Fields,E05014107,51.478006,-0.10342414,531803.2330999998,177154.8030999992
+Shipwright,The Master Shipwrights House,Watergate Street,Deptford,Lewisham,https://www.theshipwright.co.uk/,100023280441,E09000023,Evelyn,E05013721,51.485378,-0.025354435,537202.1794999996,178117.94209999964
+Studio 3 Arts ,Boundary Road,,,Barking and Dagenham,https://www.studio3arts.org.uk/ ,100053573 ,E09000002,Gascoigne,E05014061,51.530484,0.080289716,544394.1272999998,183336.82310000062
+Tall Stories Theatre Company,"68 Holloway Road, London N7 8JL",,,Islington,https://www.tallstories.org.uk/,10094610014,E09000019,Highbury,E05013704,51.549148,-0.10740465,531322.1862000003,185058.71160000004
