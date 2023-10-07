@@ -4,3 +4,7 @@ HandsOn/.DS_Store
 HandsOn/Group01/.DS_Store
 
 .DS_Store
+
+*.bkp
+
+*.dtmp
