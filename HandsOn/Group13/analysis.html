@@ -33,20 +33,22 @@
         <li><strong>Audience:</strong> Includes information about the type of audience suitable for each event, e.g., /Familias: <strong>String</strong></li>
     </ul>
 
-    <h2>Strategy Resource Naming</h2>
+    <h2>Resource Naming Strategy</h2>
     <blockquote>
         <strong>URI Form:</strong> Our URI's are based in HTTP: 
         <ul>
-            <li><strong>MadridEncuentra:</strong> http://madrid.encuentra.es/resource</li>
+            <li><strong>MadridEncuentra:</strong> http://madrid.encuentra.es/</li>
         </ul>
         <br>
         <strong>URI Domain:</strong> Our ontology gonna be hosted in http://madrid.encuentra.es
         <br>
-        <strong>Path Structure:</strong>  We gonna use a path with the form /event/{event_name} for events and /facility/{facility_name} in Facility and inside them we have all the resource.
+        <strong>Ontology URI:</strong>The schema will be located at http://madrid.encuentra.es/rdf-schema#
+        <br>
+        <strong>Path Structure:</strong>  We gonna use a path with the form resource/event/{event_name} for events and resource/facility/{facility_name} for Facilities.
         <br>
         <strong>Namespace Prefixes:</strong> In the practical work , we use the following namespaces for define the URI's:
         <ul>
-            <li><strong>me:</strong> http://madrid.encuentra.es/resource</li>
+            <li><strong>me:</strong> http://madrid.encuentra.es/rdf-schema#</li>
             <li><strong>rdfs:</strong> http://www.w3.org/2000/01/rdf-schema#</li>
             <li><strong>skos:</strong> http://www.w3.org/2004/02/skos/core#</li>
             <li><strong>schema:</strong> http://schema.org/</li>
