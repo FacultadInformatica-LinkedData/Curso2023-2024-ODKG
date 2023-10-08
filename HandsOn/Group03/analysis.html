@@ -154,6 +154,40 @@
             <td>We have activities that we do not know if they are made for older people or another type of audience.</td>
         </tr>
       </table>
+      <p>The following table describes the analysis of the dataset: "AREAS_MAYORES_2023.csv"</p>
+      <table>
+        <caption>Áreas de actividades para mayores</caption>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Comments/Range (rounded)</th>
+            <th>Problems</th>
+        </tr>
+        <tr>
+            <td>MXASSETNUM,C,12</td>
+            <td>CHAR</td>
+            <td>Unique</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DESCRIPTIO,C,105</td>
+            <td>STRING</td>
+            <td>Unique</td>
+            <td>The first part "M...-MAYORES" looks like an identifier but it isn't useful so it will be removed</td>
+        </tr>
+        <tr>
+            <td>NOMBRE_DIS,C,25</td>
+            <td>STRING</td>
+            <td>Not unique, 1 empty value</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NOMBRE_BAR,C,50</td>
+            <td>STRING</td>
+            <td>Not unique, 1 empty value</td>
+            <td></td>
+        </tr>
+      </table>
     </div>
     <div class="wrapper">
 
