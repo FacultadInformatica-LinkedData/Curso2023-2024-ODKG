@@ -1,9 +1,8 @@
- @prefix base: <http://vocab.linkeddataassignment-group13.com/Ontology/culturalagenda#> .
+@prefix me: <http://madrid.encuentra.es/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix esAgenda: <http://www.owl-ontologies.com/esAgenda#> .
 @prefix esagenda: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#> .
 @prefix esequip: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#> .
-@prefix me: <http://madrid.encuentra.es/rdf-schema#> .
 @prefix ns: <http://www.owl-ontologies.com/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
