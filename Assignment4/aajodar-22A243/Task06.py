@@ -6,7 +6,7 @@
 # In[1]:
 
 
-get_ipython().system('pip install rdflib')
+# get_ipython().system('pip install rdflib')
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
 
 
