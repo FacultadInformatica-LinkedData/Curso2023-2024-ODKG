@@ -33,6 +33,31 @@
         <li><strong>Audience:</strong> Includes information about the type of audience suitable for each event, e.g., /Familias: <strong>String</strong></li>
     </ul>
 
+    <h2>Strategy Resource Naming</h2>
+    <blockquote>
+        <strong>URI Form:</strong> Our URI's are based in HTTP: 
+        <ul>
+            <li><strong>MadridEncuentra:</strong> http://madrid.encuentra.es/resource</li>
+        </ul>
+        <br>
+        <strong>URI Domain:</strong> Our ontology gonna be hosted in http://madrid.encuentra.es
+        <br>
+        <strong>Path Structure:</strong>  We gonna use a path with the form /event/{event_name} for events and /facility/{facility_name} in Facility and inside them we have all the resource.
+        <br>
+        <strong>Namespace Prefixes:</strong> In the practical work , we use the following namespaces for define the URI's:
+        <ul>
+            <li><strong>me:</strong> http://madrid.encuentra.es/resource</li>
+            <li><strong>rdfs:</strong> http://www.w3.org/2000/01/rdf-schema#</li>
+            <li><strong>skos:</strong> http://www.w3.org/2004/02/skos/core#</li>
+            <li><strong>schema:</strong> http://schema.org/</li>
+            <li><strong>esquip:</strong> http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#</li>
+            <li><strong>esagenda:</strong> http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda</li>
+        </ul>
+        <br>
+        <strong>Content Negotiation::</strong> It's possible use JSON-LD, RDF/XML, and HTML to represent the data and his schema, but we use RDF/Turtle (.ttl) 
+        <br>
+        </blockquote>
+
     <h2>Data Source License</h2>
     <p>The data source used in this analysis is subject to the following license:</p>
     <blockquote>
@@ -45,8 +70,6 @@
         The general conditions allow the re-use of documents for commercial and non-commercial purposes. This includes activities such as copying, disseminating, modifying, adapting, extracting and combining information.
         <br>
         Intellectual property rights of the documents are granted for reuse, such as not distorting the information, citing the source, mentioning the date of update and not implying the endorsement of Madrid City Council.
-        <br>
-        <strong>Our license:</strong> The idea of our licence would be based on the same basis as the licence pertaining to the dataset with the condition that it would be a commercial licence.
     </blockquote>
 </body>
 </html>
