@@ -4,10 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida Activa en Madrid</title>
-    <link rel="stylesheet" href="requirements/styles/applicationRequirements.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="wrapper">
+      <h1>1. Analyse Data Set</h1>
+      <p>The following table describes the analysis of the dataset: "300107-0-agenda-actividades-eventos.csv"</p>
+      <table>
+        <caption>Agenda de actividades y eventos</caption>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Comments/Range (rounded)</th>
+            <th>Problems</th>
+        </tr>
+        <tr>
+            <td>ID-EVENTO</td>
+            <td>CHAR</td>
+            <td>Unique</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TITULO</td>
+            <td>STRING</td>
+            <td>Not unique</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LARGA-DURACION</td>
+            <td>BOOLEAN</td>
+            <td>1: If it is an event that develops over time <br>0: in other case</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DIAS-SEMANA</td>
+            <td>CHAR</td>
+            <td>They are the initials of each day of the week in which the event takes place. L,M,X,J,V,S,D. If it is empty it lasts for a specific day</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FECHA</td>
+            <td>DATE</td>
+            <td>2019-01-19 01:00:00 — 2024-07-12 02:00:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FECHA-FIN</td>
+            <td>DATE</td>
+            <td>2023-10-06 01:59:00 — 2030-02-03 00:59:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>HORA</td>
+            <td>TIME</td>
+            <td>Empty values</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DESCRIPCION</td>
+            <td>STRING</td>
+            <td>Not unique, empty values</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CONTENT-URL</td>
+            <td>STRING</td>
+            <td>Not unique</td>
+            <td></td>
+
+      </table>
+    </div>
+    <div class="wrapper">
+
         <h1>2. Analyze Licensing of the Data Source</h1>
         <ul>
             <li><h2>Publisher:</h2> 
