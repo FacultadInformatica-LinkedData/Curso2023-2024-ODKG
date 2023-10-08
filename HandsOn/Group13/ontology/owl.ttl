@@ -22,7 +22,7 @@ me:CentroCultural a owl:Class ;
 schema:workPerformed a owl:ObjectProperty ;
     rdfs:label "work performed" ;
     rdfs:domain schema:Event ;
-    rdfs:range schema:creativeWork .
+    rdfs:range schema:CreativeWork .
 
 esagenda:medioTransporte a owl:ObjectProperty ;
     rdfs:label "medio transporte" ;
