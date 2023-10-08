@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title> Application Requiments</title>
-
-
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
         body {
             margin: 3%;
@@ -15,17 +15,73 @@
         }
     </style>
 </head>
+<body>
+    <div>
+    <h1>Datasets analysis</h1>
 
-<h1>Dataset License Analisys</h1>
+    </div>
+    <br>
+    <br>
+    <div>
+    <h3>US Colleges and Universities</h3>
+    <p>The path to the dataset can be found <a href = https://public.opendatasoft.com/explore/dataset/us-colleges-and-universities/table/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InVzLWNvbGxlZ2VzLWFuZC11bml2ZXJzaXRpZXMiLCJvcHRpb25zIjp7fX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6ImNvbHVtbiIsImZ1bmMiOiJDT1VOVCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNGRjUxNUEifV0sInhBeGlzIjoiY2l0eSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9 >HERE</a></p>
+    <p> This dataset provides all Post Secondary Education facilities such as Doctoral/Research Universities, Masters Colleges and Universities, Baccalaureate Colleges and more.</p> 
+    <p> This dataset contains 6559 instances with the variables chosen for our dataset being:</p>
 
-<p>We have three datasets sources with this license: </p>
-<ul>
-
-    <li> https://opendatacommons.org/licenses/dbcl/1-0/</li>
-    <li> https://creativecommons.org/publicdomain/zero/1.0/</li>
-    <li> Data files © Original Authors</li>
-</ul>
-
-
-
+    <ul>
+        <li><strong>IPEDSID (PK):</strong> The dataset includes the Integrated Postsecondary Education Data System's ID number making it possible to easily merge them with our other datasets.
+        As key, there are no missing values and 6474 unique values. </li>
+        <li><strong>Name (String):</strong> This column provides the names of the universities. There are 6349 different universities or colleges and there are no missing values.</li>
+        <li><strong>Description (String):</strong> This column gives the North American Industry Classification System description for the institution. There are 9 possible
+        descriptions applicable and every institution has one."COLLEGES,UNIVERSITIES,AND PROFESSIONAL SCHOOLS" makes up to 39% of the descriptions followed by "JUNIOR COLLEGES" with 24%.</li>
+        <li><strong>Website (String):</strong> This column provides the url of the institution. There are 118 missing values.</li>
+        <li><strong>Address (String):</strong> This column provides the street where the institution is located. There are 12 missing values and 6394 unique values since some adresses have the name 
+            of the campus where more than one institution can be located.</li>
+        <li><strong>Latitude (Float) :</strong>  This column provides the latitude coordinate of the location of the institution.Since this dataset contains primarly north american institutions,
+            the most common values are found in the interval [24,49] having a 97% of apperance in the dataset. </li>
+        <li><strong>Longitud (Float) :</strong>  This column provides the longitud coordinate of the location of the institution. As well as the latitide, in the [-130,-60] interval you can find
+             99% of the values. </li>
+        <li><strong>City (String) :</strong>  This column provides the name of the city where the institution is located. There are 2351 unique cities where these institutions are located. </li>
+        <li><strong>State (String) :</strong>  This column provides the name of the state where the institution is located. There are 59 unique states where these institutions are located.
+            The state with the majority of institutions in this dataset is "California" with 11% followed by "New York" and "Texas" with 6%. </li>
+        <li><strong>County (String) :</strong>  This column provides the name of the counties where the institutions are located. There are 1409 unique counties where these institutions are located being 
+        "Los Angeles" with the most institutions having 3% of them followed by "COOK" and "ORANGE" with 2%.</li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h3>US University & College Rankings</h3>
+        <p>The path to the dataset can be found <a href = https://www.kaggle.com/datasets/joebeachcapital/university-and-college-rankings-us-news >HERE</a></p>
+        <p> This dataset provides the rankings for the top 150 US universities and top 250 colleges since 1983.</p>
+        <p> This dataset contains 528 instances with some of the data being incomplete, specially in the earlier years. The variables chosen for our dataset are:</p>  
+        <ul>
+            <li><strong>IPEDSID (PK):</strong> As mentioned before, this column contains the ID Number to merge with the other datasets. There are no missing values and each value is unique.</li>
+            <li><strong>Years(String):</strong> There are 38 different columns, with their name being the year in which the ranking was made, containing the positions in which the university or
+                college ended up. This column is a string instead of an integer because for the college rankings, the colleges ranked below 100, depending of the year, are ranked in intervals such as 
+            "T3 (81-120)" or "T4 (121-160)". The most recent years don't have almost any missing values but, for example, in the universities ranking, before 1996, there are a 85% of missing values.</li>
+        </li>
+        </ul>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h3>American University Data</h3>
+            <p>The path to the dataset can be found <a href = https://www.kaggle.com/datasets/sumithbhongale/american-university-data-ipeds-dataset?select=IPEDS_data.xlsx >HERE</a></p>
+            <p> This dataset provides the enrollment and graduation rate for most american institutions.</p>
+            <p> This dataset contains 1534 instances and the variables we have chosen for our dataset are:</p>
+            <ul>
+                <li><strong>ID Number (PK):</strong> As every dataset we have chosen, this column contains the IPEDSID number to merge with the other datasets. There are no missing values
+                with each value being unique.</li>
+                <li><strong>Applicants total (Integer):</strong> This column provides the number of applicants in a university per year. The dataset is missing 10% of the values and the mean 
+                of applicants is 6391 while the values range from 0 to 72676.</li>
+                <li><strong>Enrolled total (Integer):</strong> This column provides the number of enrolled students in a university per year. The dataset is missing 10% of the values and the mean 
+                    of enrolled students is 1043 while the values range from 0 to 10241.</li>
+                <li><strong>Admissions total (Integer):</strong> This column provides the number of admited students in a university per year.  The dataset is missing 10% of the values and the mean 
+                    of enrolled students is 3554 while the values range from 0 to 35815.</li>
+                <li><strong>Graduation rate (Integer):</strong> There are 3 different columns, where each one refers to the graduation rate depending on the years of completion of the degree (4,5 or 6). 
+                    These columns have the same number of missing values which is 4% and their values range from 0 to 100 having an average of 47 graduates per university per year.</li>
+            </ul>
+            </div>
+</body>
 </html>
