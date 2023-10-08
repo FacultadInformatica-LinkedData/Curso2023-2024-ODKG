@@ -1,0 +1,36 @@
+{
+    "@context": {
+      "ex": "http://exercise1b/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "ex:Class01",
+    "rdfs:label": "Class01",
+    "ex:includes": [
+      {
+        "@id": "ex:Sensor029",
+        "ex:hasMeasurement": {
+          "@id": "ex:Measurement8401",
+          "ex:hasTemperature": {
+            "@type": "xsd:int",
+            "@value": "29"
+          },
+          "ex:atTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2010-06-12T12:00:12"
+          }
+        }
+      },
+      {
+        "@id": "ex:Computer101",
+        "ex:hasOwner": {
+          "@id": "ex:User10A",
+          "ex:hasName": {
+            "@type": "xsd:string",
+            "@value": "Pedro"
+          }
+        }
+      }
+    ]
+  }
+  
