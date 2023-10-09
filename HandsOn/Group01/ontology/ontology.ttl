@@ -42,10 +42,18 @@ nspr:referedTo a owl:ObjectProperty ;
     rdfs:domain nscl:Total ;
     rdfs:range nscl:District .
 
+nspr:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:float .
+
 nspr:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain nscl:Total ;
     rdfs:range xsd:integer .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
 
 nscl:Zone a owl:Class ;
     rdfs:label "Zone" .

@@ -13,7 +13,7 @@
 #WasteType
 <http://madridwastemanagement.org/group01/resource/wastetype/paper_centro> a nscl: WasteType;
  rdfs:label "Paper".
- nspr:hasTotal <http://madridwastemanagement.org/group01/resource/total/total>
+ nspr:hasTotal <http://madridwastemanagement.org/group01/resource/total/centro_paper_jan21>
 
 #District
 <http://madridwastemanagement.org/group01/resource/district/centro> a nscl: District;
