@@ -5,7 +5,7 @@
 **The “analysis.html” file:**
 
 - [x] Includes the potential license of the dataset to be generated
-- [ ] Includes the resource naming strategy
+- [x] Includes the resource naming strategy
 
 **The resource naming strategy:**
 
