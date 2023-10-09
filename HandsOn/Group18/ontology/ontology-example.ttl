@@ -1,0 +1,58 @@
+@base <http://MadridTransit.com/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://MadridTransit.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<ns:Accidents/2023S000001> a ns:Accident;
+    ns:occuredOn "01/01/2023-1:15:00"^^xsd:dateTime;
+    ns:num_Expediente "2023S000001"^^xsd:string;
+    ns:typeOfAccident "Alcance"^^xsd:string;
+    ns:alcoholInfluence "true"^^xsd:boolean;
+    ns:drugInfluence "true"^^xsd:boolean;
+    ns:vehicleInvolved <ns:Vehicles/Tourism>;
+    ns:weatherCondition <ns:Weathers/Clear>;
+    ns:personInvolved <ns:Person/1>;
+    ns:locatedAt <ns:Address/1>;
+    ns:coordinates <ns:Coordinates/1>;
+    ns:physicalDamages <ns:InjuryTypes/14>.
+
+<ns:Vehicles/Tourism> a ns:Vehicle;
+    ns:typeOfVehicle "Tourism"^^xsd:string.
+
+<ns:Weathers/Clear> a ns:Weather;
+    ns:weatherType "Clear"^^xsd:string.
+
+<ns:Person/1> a ns:Person;
+    ns:gender "Male"^^xsd:string;
+    ns:rangeOfAge "De 20 a 30"^^xsd:string;
+    ns:typeOfPerson "Driver"^^xsd:string.
+
+
+<ns:Address/1> a ns:Address;
+    ns:Number "88"^^xsd:integer;
+	ns:hasRoad <ns:Roads/Rainbow>.
+
+
+
+<ns:RoadTypes/Avenue> a ns:RoadType;
+		ns:roadTypeName "Avenue"^^xsd:string.
+
+<ns:Roads/Rainbow> a ns:Road;
+        ns:name "Rainbow"^^xsd:string;
+        rdfs:type <ns:RoadTypes/Avenue>;
+	ns:belongsToDistrict <ns:Districts/5>.
+
+<ns:Districts/5> a ns:District;
+		ns:name "Tetuan"^^xsd:string;
+		ns:districtCode "5"^^xsd:integer.
+
+
+<ns:InjuryTypes/14> a ns:InjuryType;
+    ns:code "14"^^xsd:integer;
+    ns:description "Sin asistencia sanitaria"^^xsd:string.
+
+<ns:Coordinates/1> a ns:Coordinates;
+    ns:latitude "443397166"^^xsd:float;
+    ns:lontgitude "4478129388"^^xsd:float.
