@@ -1,0 +1,36 @@
+@prefix clase: <http://madridalfresco.es/lcc/ontology/locales#> .
+@prefix rec: <http://madridalfresco.es/lcc/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Instance Terraza
+<rec:Terraza/7>
+	rdf:type owl:Terraza ;
+	:numeroMesasAutorizadas 5 ;
+	:numeroSillasAutorizadas 10 ;
+	:perteneceALocal <rec:Local/280067128> .
+
+# Instance Local
+<rec:Local/280067128>
+	rdf:type owl:Local ;
+	:rotulo "SR" ;
+	:tieneTerraza 7 ;
+	:coordenadaX 448900,55 ;
+	:coordenadaY 4474755,41 ;
+	:horaApertura 10:00:00 ;
+	:horaCierre 00:00:00 ;
+	:situacion "Abierto" ;
+	:perteneceADistrito <rec:idDistrito/20> .
+
+# Instance Distrito
+<rec:Distrito/20>
+	rdf:type owl:Distrito;
+	:distrito "SAN BLAS-CANILLEJAS " ;
+	:barrio "ORCASITAS" ;
+	:tipoVia "PLAZA" ;
+	:nombreCalle "MIL DELEGADOS" ;
+	:portal 177 ;
+	:codPostal 28022 .
