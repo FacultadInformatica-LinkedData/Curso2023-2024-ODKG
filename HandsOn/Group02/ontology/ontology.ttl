@@ -80,6 +80,11 @@ clase:situacion a owl:DatatypeProperty ;
     rdfs:domain clase:Local ;
     rdfs:range xsd:string .
 
+clase:superficie a owl:DatatypeProperty ;
+    rdfs:label "superficie" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:float .
+
 clase:tieneTerraza a owl:ObjectProperty ;
     rdfs:label "tiene terraza" ;
     rdfs:domain clase:Local ;

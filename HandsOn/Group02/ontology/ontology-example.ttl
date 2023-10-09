@@ -11,6 +11,7 @@
 	rdf:type owl:Terraza ;
 	:numeroMesasAutorizadas 5 ;
 	:numeroSillasAutorizadas 10 ;
+	:superficie 7,2 ;
 	:perteneceALocal <rec:Local/280067128> .
 
 # Instance Local
