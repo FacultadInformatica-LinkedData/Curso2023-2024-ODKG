@@ -3,11 +3,15 @@ ns:HarvardScore a ns:Score ;
     ns:score 3 ;
     ns:publisher "" .
 
-ns:HarvardRate a ns:Rate ;
-    ns:totalAdmitted 2047;
+ns:HarvardEnrollmentRate a ns:EnrollmentRate ;
+    ns:totalEnrolled 1559;
     ns:totalApplicants 35023 ;
-    ns:totalEnrolled 1659 ;
-    ns:value 6 .
+    ns:value 4.45
+
+ns:HarvardAdmissionRate a ns:AdmissionRate;
+    ns:totalApplicants 35023 ;
+    ns:totalAdmitted 2047;
+    ns:value 5.84 .
 
 ns:Harvard a ns:University ;
     ns:ipedsIs 166027 ;
@@ -15,5 +19,6 @@ ns:Harvard a ns:University ;
     ns:description "" ;
     ns:website "www.harvard.edu/" ;
     ns:locationCity <https://dbpedia.org/page/Cambridge,_Massachusetts> ;
-    ns:hasRate ns:HarvardRate ;
+    ns:hasRate ns:HarvardEnrollmentRate ;
+    ns:hasRate ns:HarvardAdmissionRate;
     ns:hasRanking ns:HarvardScore .
