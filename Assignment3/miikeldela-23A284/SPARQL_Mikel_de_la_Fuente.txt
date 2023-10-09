@@ -1,0 +1,51 @@
+Advanced set of SPARQL queries,
+1.-Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+2.-Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+3.-Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+4.-For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+5.-For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
+
+SOLUTIONS
+1.-
+select ?property
+where
+{ 
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?property ?z
+}
+
+2.-
+select ?property
+where
+{ 
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?property ?z
+FILTER (?property!=rdf:type)
+}
+
+ 3.-
+ select distinct ?z
+where
+{ 
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?property ?z
+FILTER (?property!=rdf:type)
+}
+
+4.-
+select distinct ?property ?z
+where
+{ 
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?property ?z
+FILTER (?property!=rdf:type)
+}
+
+5.-
+select COUNT distinct ?z
+where
+{ 
+?x a <http://dbpedia.org/ontology/Politician>.
+?x ?property ?z .
+FILTER (?property!=rdf:type)
+}
