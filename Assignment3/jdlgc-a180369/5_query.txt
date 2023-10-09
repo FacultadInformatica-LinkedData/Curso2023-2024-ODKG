@@ -1,0 +1,7 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?prop COUNT(?y) WHERE {
+  ?value rdf:type dbo:Politician .
+  ?value ?prop ?y .
+  FILTER(?prop != rdf:type)
+}

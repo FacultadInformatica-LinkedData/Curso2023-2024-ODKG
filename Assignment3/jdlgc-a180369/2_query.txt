@@ -1,0 +1,6 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT * WHERE {
+  dbo:Politician ?prop ?value .
+  FILTER(?prop != rdf:type)
+}
