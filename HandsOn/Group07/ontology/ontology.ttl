@@ -2,10 +2,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix ont: <http://www.chargeup.com/group07/ontology#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
 
 
-<http://www.chargeup.com/group07/ontology#> rdf:type owl:Ontology .
+<https://www.chargeup.io/group07/ontology#> rdf:type owl:Ontology .
 
 # Define the class for Charging Stations
 ont:ChargingStation a owl:Class
@@ -62,7 +62,22 @@ ont:evOtherInfo a owl:DatatypeProperty ;
 ont:newGeoreferencedColumn a owl:DatatypeProperty ;
     rdfs:label "New Georeferenced Column" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range xds:string .
+    rdfs:range xsd:string .
+
+ont:counties a owl:DatatypeProperty ;
+    rdfs:label "Counties" ;
+    rdfs:domain ont:City ;
+    rdfs:range xsd:integer .
+
+ont:zipCode a owl:DatatypeProperty ;
+    rdfs:label "ZipCode" ;
+    rdfs:domain ont:Address ;
+    rdfs:range xsd:integer .
+
+ont:townIndex a owl:DatatypeProperty ;
+    rdfs:label "Town Index" ;
+    rdfs:domain ont:City ;
+    rdfs:range xsd:integer .
 
 
 
