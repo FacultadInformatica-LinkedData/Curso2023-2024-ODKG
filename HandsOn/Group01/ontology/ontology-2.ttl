@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://madridwastemanagement.org/group01/ontology/>: a owl:Ontology ;
+<http://madridwastemanagement.org/group01/ontology/> a owl:Ontology ;
     dc:creator "group01" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Madrid Waste Management" ;
@@ -42,10 +42,18 @@ nspr:referedTo a owl:ObjectProperty ;
     rdfs:domain nscl:Total ;
     rdfs:range nscl:District .
 
+nspr:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:float .
+
 nspr:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain nscl:Total ;
     rdfs:range xsd:integer .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
 
 nscl:Zone a owl:Class ;
     rdfs:label "Zone" .
