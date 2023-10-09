@@ -6,6 +6,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
 @base <http://MadridTransit.com/> .
 
 <http://MadridTransit.com/> rdf:type owl:Ontology ;
@@ -21,9 +23,6 @@ dcat:catalog a dcat:Catalog;
     dct:creator "Grupo 18";
     dct:created "09/10/2023"^^xsd:date.
 
-#################################################################
-#    Object Properties
-#################################################################
 
 #################################################################
 #    Annotation properties
@@ -155,8 +154,7 @@ ns:longitude rdf:type owl:DatatypeProperty ;
 
 ###  http://MadridTransit.com/name
 ns:name rdf:type owl:DatatypeProperty ;
-        rdfs:domain ns:District ,
-                    ns:Road ;
+        rdfs:domain ns:District ;
         rdfs:range xsd:string ;
         rdfs:label "name" .
 
@@ -187,6 +185,12 @@ ns:rangeOfAge rdf:type owl:DatatypeProperty ;
               rdfs:domain ns:Person ;
               rdfs:range xsd:string ;
               rdfs:label "range of age" .
+
+
+###  http://MadridTransit.com/roadName
+ns:roadName rdf:type owl:DatatypeProperty ;
+            rdfs:domain ns:Road ;
+            rdfs:range xsd:string .
 
 
 ###  http://MadridTransit.com/roadTypeName
