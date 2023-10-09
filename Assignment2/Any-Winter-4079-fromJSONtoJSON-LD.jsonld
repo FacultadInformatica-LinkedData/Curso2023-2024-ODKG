@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "name": "http://schema.org/name",
+    "mother": {
+      "@id": "http://schema.org/mother",
+      "@type": "@id"
+    },
+    "father": {
+      "@id": "http://schema.org/father",
+      "@type": "@id"
+    },
+    "teachers": {
+      "@id": "http://schema.org/employee",
+      "@type": "@id"
+    },
+    "subjects": {
+      "@id": "http://schema.org/Course",
+      "@type": "@id"
+    },
+    "description": "http://schema.org/description",
+    "age": "http://schema.org/age",
+    "hometown": "http://schema.org/addressLocality",
+    "almaMater": "http://schema.org/alumniOf"
+  },
+  "@id": "http://example.org/person/eduardo1",
+  "@type": "http://schema.org/Person",
+  "name": "Eduardo Ariño Pelegrín",
+  "parents": {
+    "mother": {
+      "@id": "http://example.org/person/concepcion1",
+      "@type": "http://schema.org/Person",
+      "name": "Concepción Pelegrín"
+    },
+    "father": {
+      "@id": "http://example.org/person/joaquin1",
+      "@type": "http://schema.org/Person",
+      "name": "Joaquín Ariño"
+    }
+  },
+  "subjects": [
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Big data",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/antonio1",
+        "@type": "http://schema.org/Person",
+        "name": "Antonio Latorre De La Fuente"
+        },
+        {
+        "@id": "http://example.org/person/julian1",
+        "@type": "http://schema.org/Person",
+        "name": "Julian Arenas Guerrero"
+        },
+        {
+        "@id": "http://example.org/person/jorge1",
+        "@type": "http://schema.org/Person",
+        "name": "Jorge Acosta Hernandez"
+        }
+      ],
+      "description": "The subject aims to teach how to (be able to) use large datasets, which are inherently challenging to process, analyzing them to extract insights and aid in our decision-making."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Dirección de Empresas de TI",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/antonio2",
+        "@type": "http://schema.org/Person",
+        "name": "Antonio Martín Marcos"
+        }
+      ],
+      "description": "The subject aims to teach how organizations structure, measure and adapt themselves to cater the market in an attempt to differenciate themselves and (try to) stay ahead of their comopetitors."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Ingeniería lingüística",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/mariano1",
+        "@type": "http://schema.org/Person",
+        "name": "Dr. Mariano Rico"
+        },
+        {
+        "@id": "http://example.org/person/igor1",
+        "@type": "http://schema.org/Person",
+        "name": "Dr. Igor Boguslavskiy"
+        }
+      ],
+      "description": "The subject aims to teach how to analyze, understand, and generate human language by shaping linguistic knowledge into computer algorithms."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Open Data and Knowledge Graphs",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/oscar1",
+        "@type": "http://schema.org/Person",
+        "name": "Oscar Corcho Garcia"
+        },
+        {
+        "@id": "http://example.org/person/raul1",
+        "@type": "http://schema.org/Person",
+        "name": "Raul Garcia Castro"
+        }
+      ],
+      "description": "The subject aims to provide an introduction to the various ways of structuring, connecting, retrieving and publishing (interlinked) data from/to the web as part of an effort to make data more accessible, usable, and discoverable."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Negocio en TI",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/juancarlos1",
+        "@type": "http://schema.org/Person",
+        "name": "Juan Carlos Crespo"
+        },
+        {
+        "@id": "http://example.org/person/jorge2",
+        "@type": "http://schema.org/Person",
+        "name": "Jorge Antonio Ruiz Mayor"
+        }
+      ],
+      "description": "The subject aims to teach how to deliver TIC services, from opportunity analysis to service delivery methods and more, with a strong focus on tenders."
+    },
+    {
+      "@type": "http://schema.org/Course",
+      "name": "Robótica",
+      "teachers": [
+        {
+        "@id": "http://example.org/person/javier1",
+        "@type": "http://schema.org/Person",
+        "name": "Javier de Lope"
+        }
+      ],
+      "description": "The subject aims to provide an introduction to the world of robotics, from kinematics, to manipulators, 3D transformations, autonomous robots, control theory, and more."
+    }
+  ],
+  "hometown": "Madrid",
+  "almaMater": "Universidad Politécnica de Madrid"
+}
+
