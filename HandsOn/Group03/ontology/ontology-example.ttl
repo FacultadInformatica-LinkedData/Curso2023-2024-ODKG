@@ -1,0 +1,24 @@
+@prefix data: <http://vidaactivamadrid.es/info/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://vidaactivamadrid.es/info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#District
+<http://vidaactivamadrid.es/info/ontology/District> a ns:District;
+    ns:name "FUENCARRAL-EL PARDO"^^xsd:string .
+
+#Neighborhood 
+<http://vidaactivamadrid.es/info/ontology/Neighborhood> a ns:Neighborhood;
+    ns:name "EL PILAR"^^xsd:string;
+    ns:isSubclassOf <http://vidaactivamadrid.es/info/ontology/District/FUENCARRAL-EL%20PARDO> .
+
+
+#Address
+<http://vidaactivamadrid.es/info/ontology/Address> a ns:Address;
+    ns:name "Paseo Vaguada 13"^^xsd:string;
+    ns:zipCode "28029"^^xsd:string;
+    ns:latitude "40.48016602"^^xsd:string;
+    ns:longitude "-3.711297805"^^xsd:string;
+    ns:isInNeighborhood <http://vidaactivamadrid.es/info/ontology/Neighborhood/EL%20PILAR> .
