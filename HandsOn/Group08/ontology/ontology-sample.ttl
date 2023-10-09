@@ -1,0 +1,18 @@
+ns:HarvardScore a ns:score ;
+    ns:yearPublished "2023" ;
+    ns:value 3 ;
+    ns:publisher "" .
+
+ns:HarvardRate a ns:Rate ;
+    ns:totalAdmitted 2047;
+    ns:totalApplicants 35023 ;
+    ns:value 6 .
+
+ns:Harvard a ns:University ;
+    ns:ipedsIs 166027 ;
+    ns:name "Harvard University" ;
+    ns:description "" ;
+    ns:website "www.harvard.edu/" ;
+    ns:locationCity <https://dbpedia.org/page/Cambridge,_Massachusetts> ;
+    ns:hasRate ns:HarvardRate ;
+    ns:hasRanking ns:HarvardScore .
