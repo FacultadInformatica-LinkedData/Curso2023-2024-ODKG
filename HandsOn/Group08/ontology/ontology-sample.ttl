@@ -1,11 +1,12 @@
-ns:HarvardScore a ns:score ;
+ns:HarvardScore a ns:Score ;
     ns:yearPublished "2023" ;
-    ns:value 3 ;
+    ns:score 3 ;
     ns:publisher "" .
 
 ns:HarvardRate a ns:Rate ;
     ns:totalAdmitted 2047;
     ns:totalApplicants 35023 ;
+    ns:totalEnrolled 1659 ;
     ns:value 6 .
 
 ns:Harvard a ns:University ;
