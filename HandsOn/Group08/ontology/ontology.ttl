@@ -68,6 +68,10 @@
 # Score properties #
 ####################
 
+:hasPublishedBy a rdf:Property ;
+        rdfs:domain dbo:Score .
+        rdfs:range :Organization .
+
 :hasYearPublished a rdf:Property ;
         rdfs:domain dbo:Score .
         rdfs:range rdfs:Literal .
@@ -80,15 +84,13 @@
 # Student properties #
 ######################
 
-# TODO revisar
-:hasPublishedBy a rdf:Property ;
+:hasStudiedIn a rdf:Property ;
         rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
-# FIN_TODO
+        rdfs:range rdfs:Location .
 
 :hasId a rdf:Property ;
         rdfs:domain dbo:Student .
-        rdfs:range dbo:Location .
+        rdfs:range rdfs:Literal .
 
 :hasGender a rdf:Property ;
         rdfs:domain dbo:Student .
