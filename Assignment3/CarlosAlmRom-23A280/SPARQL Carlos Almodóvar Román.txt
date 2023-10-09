@@ -1,0 +1,55 @@
+1º: Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>):
+SELECT ?property
+WHERE {
+  ?instance rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?instance ?property ?value.
+}
+
+URL Solution: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fproperty%0D%0AWHERE+%7B%0D%0A++%3Finstance+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A++%3Finstance+%3Fproperty+%3Fvalue.%0D%0A%7D%0D%0A%0D%0A&format=text%2Fhtml&timeout=10000&signal_void=on&signal_unconnected=on
+
+
+2º: Get all the properties, except rdf:type, that can be applied to instances of the Politician class:
+SELECT ?property
+WHERE {
+  ?instance rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?instance ?property ?value.
+  FILTER (?property!= rdf:type)
+}
+
+URL Solution: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fproperty%0D%0AWHERE+%7B%0D%0A++%3Finstance+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A++%3Finstance+%3Fproperty+%3Fvalue.%0D%0A++FILTER+%28%3Fproperty%21%3D+rdf%3Atype%29%0D%0A%7D&format=text%2Fhtml&timeout=10000&signal_void=on&signal_unconnected=on
+
+
+3º: Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?:
+SELECT DISTINCT ?value
+WHERE {
+  ?instance rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?instance ?property ?value.
+  FILTER (?property != rdf:type)
+}
+
+URL Solution: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+DISTINCT+%3Fvalue%0D%0AWHERE+%7B%0D%0A++%3Finstance+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A++%3Finstance+%3Fproperty+%3Fvalue.%0D%0A++FILTER+%28%3Fproperty+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=10000&signal_void=on&signal_unconnected=on
+
+
+4º: For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?:
+SELECT ?property (GROUP_CONCAT(DISTINCT ?value; separator=", ") AS ?uniqueValues)
+WHERE {
+  ?instance rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?instance ?property ?value.
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+
+URL Solution: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fproperty+%28GROUP_CONCAT%28DISTINCT+%3Fvalue%3B+separator%3D%22%2C+%22%29+AS+%3FuniqueValues%29%0D%0AWHERE+%7B%0D%0A++%3Finstance+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A++%3Finstance+%3Fproperty+%3Fvalue.%0D%0A++FILTER+%28%3Fproperty+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0AGROUP+BY+%3Fproperty%0D%0A%0D%0A%0D%0A&format=text%2Fhtml&timeout=10000&signal_void=on&signal_unconnected=on
+
+
+5º: For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?:
+SELECT ?property (COUNT(DISTINCT ?value) AS ?count)
+WHERE {
+  ?x rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?x ?property ?z.
+  ?z ?property2 ?value.
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+
+URL Solution: https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=SELECT+%3Fproperty+%28COUNT%28DISTINCT+%3Fvalue%29+AS+%3Fcount%29%0D%0AWHERE+%7B%0D%0A++%3Fx+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E.%0D%0A++%3Fx+%3Fproperty+%3Fz.%0D%0A++%3Fz+%3Fproperty2+%3Fvalue.%0D%0A++FILTER+%28%3Fproperty+%21%3D+rdf%3Atype%29%0D%0A%7D%0D%0AGROUP+BY+%3Fproperty%0D%0A&format=text%2Fhtml&timeout=10000&signal_void=on&signal_unconnected=on
