@@ -1,174 +1,135 @@
 @base <http://www.semanticweb.org/upm/opendata/group08/ontologies/h02/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xds: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix schema: <https://schema.org/> .
+
+
+###########
+# Ontology #
+###########
+ns: a owl:Ontology ;
+    dc:creator "Group08" ;
+    dc:description "Ontology code created by Group 08" ;
+    dc:title "University Ontology" ;
+    owl:versionInfo "0.0.1" .
 
 ###########
 # Classes #
 ###########
+ns:AdmissionRate a owl:Class ;
+    rdfs:label "Admission Rate" ;
+    rdfs:subClassOf ns:Rate .
 
-:EducationAttainment a rdfs:Class .
-:EducationExpenditure a rdfs:Class .
-:Organization a rdfs:Class .
-:BscStudent a rdfs:Class ;
-    rdfs:SubClassOf dbo:Student .
-:MscStudent a rdfs:Class ;
-        rdfs:SubClassOf dbo:Student .
+ns:AverageGraduationRate a owl:Class ;
+    rdfs:label "Average Graduation Rate" ;
+    rdfs:subClassOf ns:Rate .
 
-#########################
-# University properties #
-#########################
+ns:EnrollmentRate a owl:Class ;
+    rdfs:label "Enrollment Rate" ;
+    rdfs:subClassOf ns:Rate .
 
-:locatedIn a rdf:Property ;
-    rdfs:domain dbo:University .
-    rdfs:range dbo:Location .
+schema:CollegeORUniversity a owl:Class ;
+    rdfs:label "College O R University" .
 
-:hasScore a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range dbo:Score .
+ns:Score a owl:Class ;
+    rdfs:label "Score" .
 
-:hasName a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
+schema:City a owl:Class ;
+    rdfs:label "City" .
 
-:hasAcronym a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
+ns:Rate a owl:Class ;
+    rdfs:label "Rate" .
 
-:hasWorldRank a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasNationalRank a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasNumStudents a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasEstablished a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasEduQuality a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasType a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-:hasIncome a rdf:Property ;
-        rdfs:domain dbo:University .
-        rdfs:range rdfs:Literal .
-
-####################
-# Score properties #
-####################
-
-:hasPublishedBy a rdf:Property ;
-        rdfs:domain dbo:Score .
-        rdfs:range :Organization .
-
-:hasYearPublished a rdf:Property ;
-        rdfs:domain dbo:Score .
-        rdfs:range rdfs:Literal .
-
-:hasValue a rdf:Property ;
-        rdfs:domain dbo:Score .
-        rdfs:range rdfs:Literal .
-
-######################
-# Student properties #
-######################
-
-:hasStudiedIn a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Location .
-
-:hasId a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
-
-:hasGender a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
-
-:hasAge a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
-
-:hasDoesWork a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
-
-:hasSalary a rdf:Property ;
-        rdfs:domain dbo:Student .
-        rdfs:range rdfs:Literal .
+ns:University a owl:Class ;
+    rdfs:label "University" ;
+    rdfs:subClassOf schema:CollegeORUniversity .
 
 #########################
-# BscStudent properties #
+# Object properties #
+#########################
+ns:hasRanking a owl:ObjectProperty ;
+    rdfs:label "has ranking" ;
+    rdfs:domain ns:University ;
+    rdfs:range ns:Score .
+
+ns:hasRate a owl:ObjectProperty ;
+    rdfs:label "has rate" ;
+    rdfs:domain ns:University ;
+    rdfs:range ns:Rate .
+
+dbo:locationCity a owl:ObjectProperty ;
+    rdfs:label "location city" ;
+    rdfs:domain ns:University ;
+    rdfs:range schema:City .
+
+#########################
+# Rate properties #
 #########################
 
-:hasDegree a rdf:Property ;
-        rdfs:domain :BscStudent .
-        rdfs:range rdfs:Literal .
+ns:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain ns:Rate ;
+    rdfs:range rdfs:Literal .
+
+ns:TotalAdmitted a owl:DatatypeProperty ;
+    rdfs:label "total admitted" ;
+    rdfs:domain ns:AdmissionRate ;
+    rdfs:range rdfs:Literal .
+
+ns:TotalApplicants a owl:DatatypeProperty ;
+    rdfs:label "total applicants" ;
+    rdfs:domain ns:Rate ;
+    rdfs:range rdfs:Literal .
+
+ns:TotalEnrolled a owl:DatatypeProperty ;
+    rdfs:label "total enrolled" ;
+    rdfs:domain ns:EnrollmentRate ;
+    rdfs:range rdfs:Literal .
 
 #########################
-# MscStudent properties #
+#   University properties #
+#########################
+ns:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:domain ns:University ;
+    rdfs:range rdfs:Literal .
+
+ns:ipedsId a owl:DatatypeProperty ;
+    rdfs:label "ipeds id" ;
+    rdfs:domain ns:University ;
+    rdfs:range rdfs:Literal .
+
+ns:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain ns:University ;
+    rdfs:range rdfs:Literal .
+
+ns:website a owl:DatatypeProperty ;
+    rdfs:label "website" ;
+    rdfs:domain ns:University ;
+    rdfs:range rdfs:Literal .
+
+#########################
+#   Score properties   #
 #########################
 
-:hasMaster a rdf:Property ;
-        rdfs:domain :MscStudent .
-        rdfs:range rdfs:Literal .
+ns:publisher a owl:DatatypeProperty ;
+    rdfs:label "publisher" ;
+    rdfs:domain ns:Score ;
+    rdfs:range rdfs:Literal .
 
-###########################
-# Organization properties #
-###########################
+ns:yearPublished a owl:DatatypeProperty ;
+    rdfs:label "year published" ;
+    rdfs:domain ns:Score ;
+    rdfs:range rdfs:Literal .
 
-:hasName a rdf:Property ;
-        rdfs:domain :Organization .
-        rdfs:range rdfs:Literal .
+ns:score a owl:DatatypeProperty ;
+    rdfs:label "score" ;
+    rdfs:domain ns:Score ;
+    rdfs:range rdfs:Literal .
 
-##################################
-# EducationAttainment properties #
-##################################
 
-:hasValue a rdf:Property ;
-        rdfs:domain :EducationAttainment .
-        rdfs:range rdfs:Literal .
-
-:hasYear a rdf:Property ;
-        rdfs:domain :EducationAttainment .
-        rdfs:range rdfs:Literal .
-
-:hasSeriesName a rdf:Property ;
-        rdfs:domain :EducationAttainment .
-        rdfs:range rdfs:Literal .
-
-###################################
-# EducationExpenditure properties #
-###################################
-
-:hasValue a rdf:Property ;
-        rdfs:domain :EducationExpenditure .
-        rdfs:range rdfs:Literal .
-
-:hasYear a rdf:Property ;
-        rdfs:domain :EducationExpenditure .
-        rdfs:range rdfs:Literal .
-
-######################
-# Country properties #
-######################
-
-:hasExpent a rdf:Property ;
-        rdfs:domain dbo:Country .
-        rdfs:range :EducationExpenditure .
-
-:hasAttainment a rdf:Property ;
-        rdfs:domain dbo:Country .
-        rdfs:range :EducationAttainment .
 
