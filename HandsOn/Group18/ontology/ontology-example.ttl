@@ -40,7 +40,7 @@
 		ns:roadTypeName "Avenue"^^xsd:string.
 
 <ns:Roads/Rainbow> a ns:Road;
-        ns:name "Rainbow"^^xsd:string;
+        ns:roadName "Rainbow"^^xsd:string;
         rdfs:type <ns:RoadTypes/Avenue>;
 	ns:belongsToDistrict <ns:Districts/5>.
 
