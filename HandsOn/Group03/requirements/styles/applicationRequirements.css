@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.title {
+  text-align: center;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.wrapper li {
+  margin-left: 20px;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 10px 0;
+}
