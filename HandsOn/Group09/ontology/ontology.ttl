@@ -1,0 +1,86 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix : <http://example.org/bike-rentals#>.
+
+# Classes
+:DateTime a rdfs:Class;
+    rdfs:label "DateTime";
+    rdfs:comment "Represents the date and time of bike rentals.".
+
+:Season a rdfs:Class;
+    rdfs:label "Season";
+    rdfs:comment "Represents the season of bike rentals.".
+
+:Weather a rdfs:Class;
+    rdfs:label "Weather";
+    rdfs:comment "Represents the weather conditions during bike rentals.".
+
+# Properties
+:hasDateTime a owl:ObjectProperty;
+    rdfs:label "hasDateTime";
+    rdfs:comment "Relates a bike rental to its date and time.";
+    rdfs:domain :BikeRental;
+    rdfs:range :DateTime.
+
+:hasSeason a owl:ObjectProperty;
+    rdfs:label "hasSeason";
+    rdfs:comment "Relates a bike rental to its season.";
+    rdfs:domain :BikeRental;
+    rdfs:range :Season.
+
+:hasWeather a owl:ObjectProperty;
+    rdfs:label "hasWeather";
+    rdfs:comment "Relates a bike rental to its weather conditions.";
+    rdfs:domain :BikeRental;
+    rdfs:range :Weather.
+
+:hasHoliday a owl:DatatypeProperty;
+    rdfs:label "hasHoliday";
+    rdfs:comment "Indicates whether a holiday was observed during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:boolean.
+
+:hasWorkingDay a owl:DatatypeProperty;
+    rdfs:label "hasWorkingDay";
+    rdfs:comment "Indicates whether it was a working day during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:boolean.
+
+:hasTemperature a owl:DatatypeProperty;
+    rdfs:label "hasTemperature";
+    rdfs:comment "Represents the temperature during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:float.
+
+:hasApparentTemperature a owl:DatatypeProperty;
+    rdfs:label "hasApparentTemperature";
+    rdfs:comment "Represents the apparent temperature during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:float.
+
+:hasHumidity a owl:DatatypeProperty;
+    rdfs:label "hasHumidity";
+    rdfs:comment "Represents the humidity level during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:float.
+
+:hasWindSpeed a owl:DatatypeProperty;
+    rdfs:label "hasWindSpeed";
+    rdfs:comment "Represents the wind speed during the bike rental.";
+    rdfs:domain :BikeRental;
+    rdfs:range xsd:float.
+
+# Individuals
+:rental1 a :BikeRental;
+    :hasDateTime "2023-09-08T14:30:00"^^xsd:dateTime;
+    :hasSeason "Summer";
+    :hasHoliday false;
+    :hasWorkingDay true;
+    :hasWeather "Clear";
+    :hasTemperature 25.5;
+    :hasApparentTemperature 26.0;
+    :hasHumidity 60.0;
+    :hasWindSpeed 12.5.
+
