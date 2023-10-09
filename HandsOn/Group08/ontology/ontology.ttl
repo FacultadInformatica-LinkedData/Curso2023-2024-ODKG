@@ -1,0 +1,172 @@
+@base <http://www.semanticweb.org/upm/opendata/group08/ontologies/h02/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xds: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+###########
+# Classes #
+###########
+
+:EducationAttainment a rdfs:Class .
+:EducationExpenditure a rdfs:Class .
+:Organization a rdfs:Class .
+:BscStudent a rdfs:Class ;
+    rdfs:SubClassOf dbo:Student .
+:MscStudent a rdfs:Class ;
+        rdfs:SubClassOf dbo:Student .
+
+#########################
+# University properties #
+#########################
+
+:locatedIn a rdf:Property ;
+    rdfs:domain dbo:University .
+    rdfs:range dbo:Location .
+
+:hasScore a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range dbo:Score .
+
+:hasName a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasAcronym a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasWorldRank a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasNationalRank a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasNumStudents a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasEstablished a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasEduQuality a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasType a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+:hasIncome a rdf:Property ;
+        rdfs:domain dbo:University .
+        rdfs:range rdfs:Literal .
+
+####################
+# Score properties #
+####################
+
+:hasYearPublished a rdf:Property ;
+        rdfs:domain dbo:Score .
+        rdfs:range rdfs:Literal .
+
+:hasValue a rdf:Property ;
+        rdfs:domain dbo:Score .
+        rdfs:range rdfs:Literal .
+
+######################
+# Student properties #
+######################
+
+# TODO revisar
+:hasPublishedBy a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range rdfs:Literal .
+# FIN_TODO
+
+:hasId a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range dbo:Location .
+
+:hasGender a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range rdfs:Literal .
+
+:hasAge a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range rdfs:Literal .
+
+:hasDoesWork a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range rdfs:Literal .
+
+:hasSalary a rdf:Property ;
+        rdfs:domain dbo:Student .
+        rdfs:range rdfs:Literal .
+
+#########################
+# BscStudent properties #
+#########################
+
+:hasDegree a rdf:Property ;
+        rdfs:domain :BscStudent .
+        rdfs:range rdfs:Literal .
+
+#########################
+# MscStudent properties #
+#########################
+
+:hasMaster a rdf:Property ;
+        rdfs:domain :MscStudent .
+        rdfs:range rdfs:Literal .
+
+###########################
+# Organization properties #
+###########################
+
+:hasName a rdf:Property ;
+        rdfs:domain :Organization .
+        rdfs:range rdfs:Literal .
+
+##################################
+# EducationAttainment properties #
+##################################
+
+:hasValue a rdf:Property ;
+        rdfs:domain :EducationAttainment .
+        rdfs:range rdfs:Literal .
+
+:hasYear a rdf:Property ;
+        rdfs:domain :EducationAttainment .
+        rdfs:range rdfs:Literal .
+
+:hasSeriesName a rdf:Property ;
+        rdfs:domain :EducationAttainment .
+        rdfs:range rdfs:Literal .
+
+###################################
+# EducationExpenditure properties #
+###################################
+
+:hasValue a rdf:Property ;
+        rdfs:domain :EducationExpenditure .
+        rdfs:range rdfs:Literal .
+
+:hasYear a rdf:Property ;
+        rdfs:domain :EducationExpenditure .
+        rdfs:range rdfs:Literal .
+
+######################
+# Country properties #
+######################
+
+:hasExpent a rdf:Property ;
+        rdfs:domain dbo:Country .
+        rdfs:range :EducationExpenditure .
+
+:hasAttainment a rdf:Property ;
+        rdfs:domain dbo:Country .
+        rdfs:range :EducationAttainment .
+
