@@ -22,4 +22,4 @@
 - [x] Includes a description of the application user interface
 
 ## Comments on the self-assessment
-This is only the fist prototype
+TODO desing more views of the aplication interface
