@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking History Analytics Dashboard Requirements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .mockup {
+            border: 1px dashed gray;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Parking History Analytics Dashboard Requirements</h1>
+        <p>This application requirements for the Parking History Analytics Dashboard based on the "On-street Parking Bay Sensors"</p>
+
+        <h2>Functional Requirements:</h2>
+        <ol>
+            <li>Display parking patterns over various time frames, such as daily, weekly, monthly, and annually.</li>
+            <li>Show graphs/charts for:
+                <ul>
+                    <li>Peak parking times</li>
+                    <li>Most frequently occupied spots</li>
+                    <li>Zone-wise occupancy trends</li>
+                </ul>
+            </li>
+            <li>Allow data filtering by "Zone_Number" to enable more granular insights.</li>
+            <li>Provide a user-friendly date range filter for custom date analysis.</li>
+        </ol>
+
+
+        <h2>Mock-ups:</h2>
+
+        <div class="mockup">
+            <h3>Dashboard Main View:</h3>
+            <p>A clean layout with a navigation bar on the top with options such as "Daily", "Weekly", "Monthly", "Annual", and "Custom" views. Below this, a date range picker allows users to select custom date ranges. The main content area displays interactive charts showing parking data patterns, and on the side, a panel allows users to select specific "Zone_Number" for focused analysis.</p>
+            <!-- <img src="#" alt="Mockup image for Dashboard Main View"> -->
+        </div>
+
+        <div class="mockup">
+            <h3>Zone-Specific Analysis:</h3>
+            <p>Upon selecting a specific "Zone_Number", the charts and graphs update to reflect data specific to that zone. Below the main charts, a list of the most frequently occupied spots within the zone is displayed, potentially with links to their exact locations or additional details.</p>
+            <!-- <img src="#" alt="Mockup image for Zone-Specific Analysis"> -->
+        </div>
+    </div>
+</body>
+</html>
