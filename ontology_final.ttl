@@ -1,0 +1,51 @@
+@prefix base: <http://madridwastemanagement.org/> .
+@prefix nsp: <http://madridwastemanagement.org/group01>
+@prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix nscl: <http://madridwastemanagement.org/group01/ontology/classes/> .
+@prefix nspr: <http://madridwastemanagement.org/group01/ontology/properties/> .
+@prefix nsdata: <http://madridwastemanagement.org/group01/data/ontology/classes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nso: a owl:Ontology ;
+    dc:creator "group01" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Madrid Waste Management" ;
+    owl:versionInfo "0.0.1" .
+    
+    
+#Class    
+nscl:District a rdfs:Class ;
+    rdfs:label "District"@en ;
+    rdfs:comment "Information regarding waste collected in different zones and districts of Madrid" .
+    
+
+# Properties 
+nspr:date a rdf:Property ;
+    rdfs:label "date" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:date .
+
+nspr:zone a rdf:Property ;
+    rdfs:label "zone" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:integer .
+
+nspr:wasteType a rdf:Property ;
+    rdfs:label "waste type" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:string .
+
+nspr:name a rdf:Property ;
+    rdfs:label "name" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:string .
+
+nspr:total a rdf:Property ;
+    rdfs:label "total" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:integer .
+
+
