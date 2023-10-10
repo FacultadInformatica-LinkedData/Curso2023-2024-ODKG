@@ -11,7 +11,7 @@
 
 nso: a owl:Ontology ;
     dc:creator "group01" ;
-    dc:description "Ontology code created by Chowlk" ;
+    dc:description "Ontology code created by group01" ;
     dc:title "Madrid Waste Management" ;
     owl:versionInfo "0.0.1" .
     
