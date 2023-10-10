@@ -21,8 +21,65 @@ nscl:District a rdfs:Class ;
     rdfs:label "District"@en ;
     rdfs:comment "Information regarding waste collected in different zones and districts of Madrid" .
     
+nscl:Zone a owl:Class ;
+    rdfs:label "Zone"@en .
 
-# Properties 
+nscl:WasteType a owl:Class ;
+    rdfs:label "Waste Type"@en .
+
+nscl:District a owl:Class ;
+    rdfs:label "District"@en .
+
+nscl:Total a owl:Class ;
+    rdfs:label "Total"@en .
+    
+# Properties
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
+    
+    
+nspr:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain nscl:Zone ;
+    rdfs:range nscl:District .
+
+nspr:hasResidue a owl:ObjectProperty ;
+    rdfs:label "has residue" ;
+    rdfs:domain nscl:District ;
+    rdfs:range nscl:WasteType .
+
+nspr:hasTotal a owl:ObjectProperty ;
+    rdfs:label "has total" ;
+    rdfs:domain nscl:WasteType ;
+    rdfs:range nscl:Total .
+    
+    
+nspr:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:integer .
+
+nspr:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:string .
+
+nspr:referedTo a owl:ObjectProperty ;
+    rdfs:label "refered to" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range nscl:District .
+
+nspr:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:float .
+
+nspr:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:integer .
+
 nspr:date a rdf:Property ;
     rdfs:label "date" ;
     rdfs:domain nscl:District ;
