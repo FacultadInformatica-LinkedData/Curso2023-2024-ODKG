@@ -1,0 +1,9 @@
+
+
+SELECT
+    DISTINCT ?property ?value
+WHERE {
+  ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?politician ?property ?value.
+  FILTER (?property != rdf:type)
+}
