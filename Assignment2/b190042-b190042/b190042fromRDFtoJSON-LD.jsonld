@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "class": "http://example.org/classes#",
+        "property": "http://example.org/properties#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "class:Class01",
+    "property:includes": [
+        "class:Sensor029",
+        "class:Computer101"
+    ],
+    "class:Sensor029": {
+        "property:hasMeasurement": "class:Measurement8401"
+    },
+    "class:Computer101": {
+        "property:hasOwner": "class:User10A"
+    },
+    "class:Measurement8401": {
+        "property:hasTemperature": {
+            "@type": "xsd:integer",
+            "@value": 29
+        },
+        "property:atTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2010-06-12T12:00:12"
+        }
+    },
+    "class:User10A": {
+        "property:hasName": "Pedro"
+    }
+}
