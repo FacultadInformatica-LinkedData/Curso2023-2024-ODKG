@@ -1,0 +1,121 @@
+@prefix base: <http://madridwastemanagement.org/> .
+@prefix nsp: <http://madridwastemanagement.org/group01>
+@prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix nscl: <http://madridwastemanagement.org/group01/ontology/classes/> .
+@prefix nspr: <http://madridwastemanagement.org/group01/ontology/properties/> .
+@prefix nsdata: <http://madridwastemanagement.org/group01/data/ontology/classes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nso: a owl:Ontology ;
+    dc:creator "group01" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Madrid Waste Management" ;
+    owl:versionInfo "0.0.1" .
+    
+    
+    
+# Classes
+nscl:Authorization a owl:Class ;
+    rdfs:label "Authorization" .
+
+nscl:Company a owl:Class ;
+    rdfs:label "Company" ;
+    rdfs:subClassOf org:FormalOrganization .
+
+nscl:Address a owl:Class ;
+    rdfs:label "Address" ;
+    rdfs:subClassOf vcard:Address .
+
+nscl:Contact a owl:Class ;
+    rdfs:label "Contact" ;
+    rdfs:subClassOf vcard:Kind .
+
+nscl:Zone a owl:Class ;
+    rdfs:label "Zone" .
+
+nscl:WasteType a owl:Class ;
+    rdfs:label "Waste Type" .
+
+nscl:District a owl:Class ;
+    rdfs:label "District" .
+
+nscl:Total a owl:Class ;
+    rdfs:label "Total" .
+
+
+# Properties 
+nspr:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain nscl:Zone ;
+    rdfs:range nscl:District .
+
+nspr:hasResidue a owl:ObjectProperty ;
+    rdfs:label "has residue" ;
+    rdfs:domain nscl:District ;
+    rdfs:range nscl:WasteType .
+
+nspr:hasTotal a owl:ObjectProperty ;
+    rdfs:label "has total" ;
+    rdfs:domain nscl:WasteType ;
+    rdfs:range nscl:Total .
+
+nspr:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain nscl:District ;
+    rdfs:range xsd:integer .
+
+nspr:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:string .
+
+nspr:referedTo a owl:ObjectProperty ;
+    rdfs:label "refered to" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range nscl:District .
+
+nspr:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:float .
+
+nspr:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain nscl:Total ;
+    rdfs:range xsd:integer .
+
+# Usage example
+nscl:AAI-MD-G16-08038 a nscl:Authorization ;
+    nspr:registroNumero "AAI/MD/G16/08038" ;
+    nspr:registroTipo "AUTORIZACION GESTION RESIDUOS NO PELIGROSOS" ;
+    nspr:belongsToCompany nscl:ROCA-SANITARIO-SA ;
+    dc:creator "group01" .
+
+nscl:ROCA-SANITARIO-SA a nscl:Company ;
+    foaf:name "ROCA SANITARIO S. A." ;
+    org:hasPrimarySite nscl:005A0133 ;
+    vcard:hasTelephone nscl:918878800 ;
+    vcard:hasFax nscl:913504954 ;
+    dc:creator "group01" .
+
+nscl:005A0133 a nscl:Address ;
+    vcard:street-address "CALLE CAMARMILLA" ;
+    vcard:locality "Alcalá de Henares" ;
+    vcard:region "Madrid" ;
+    vcard:postal-code "28806" ;
+    dc:creator "group01" .
+
+nscl:918878800 a nscl:Contact ;
+    vcard:telephone "918878800" ;
+    dc:creator "group01" .
+
+nscl:913504954 a nscl:Contact ;
+    vcard:fax "913504954" ;
+    dc:creator "group01" .
