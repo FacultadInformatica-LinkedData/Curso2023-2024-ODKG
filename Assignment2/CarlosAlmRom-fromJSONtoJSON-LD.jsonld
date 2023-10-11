@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "names": "http://www.namespace.es/names/",
+        "person": "names:person",
+        "fullName": "names:fullName",
+        "homeTown": "names:homeTown",
+        "age": "names:age",
+        "almaMater": "names:almaMater",
+        "parents": "names:parents",
+        "subjects": "names:subjects",
+        "subjectName": "names:subjects",
+        "teacher": "names:subjects",
+        "description": "names:description"
+    },
+    "@id": "names:CarlosAlmRom",
+    "@type": "person",
+    "fullName": "Carlos Almodovar Roman",
+    "hometown": "Villarrubia de los Ojos",
+    "age": 23,
+    "almaMater":
+        "Universidad Politecnica de Madrid",
+
+    "parents": [
+        "Jesus Carlos",
+        "Rosa Maria"
+    ],
+    "subjects": [
+        {
+            "@id": "names:OpenDataAndKnowledgeGraphs",
+            "@type": "subject",
+            "subjectName": "Open Data and Knowledge Graphs",
+            "teacher":
+                "Oscar Corcho",
+
+            "description": "Open Data and Knowledge Graphs are essential components of modern data-driven systems, enabling the sharing, integration, and analysis of structured and unstructured information. This course explores the concepts, techniques, and practical applications of open data and knowledge graph technologies."
+        },
+	{
+            "@id": "names:DataVisualization",
+            "@type": "subject",
+            "subjectName": "Data Visualization",
+            "teacher": 
+                "Pablo Toharia",
+
+            "description": "Data Visualization will allow the student to gain the fundamentals for the visualization of all kinds of information. With an eminently practical approach, the technologies and fundamentals necessary to create successful information visualization tools will be presente"
+        },
+	{
+            "@id": "names:IntelligentSystems",
+            "@type": "subject",
+            "subjectName": "Intelligent Systems",
+            "teacher": 
+                "Asuncion De Maria Gomez",
+
+            "description": "Intelligent Systems describes the foundations of artificial neural networks, which have been used with great success, for example, in problems related to perception or classification. Next, the course presents methods for building ontologies that are useful, for example, for symbolic knowledge representation and knowledge integration. Finally, the course explains natural language processing methods that are useful to facilitate a more effective human-machine interaction"
+        },
+        {
+            "@id": "names:StatisticalDataAnalysis",
+            "@type": "subject",
+            "subjectName": "Statistical Data Analysis",
+            "teacher": 
+                "Pedro Larranaga",
+
+            "description": "Statistical Data Analysis is intended to be a non-exhaustive survey of techinques to turn multivariate data into useful information so that informed decisions can be made."
+        }
+
+    ]
+}
