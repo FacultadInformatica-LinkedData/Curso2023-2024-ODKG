@@ -23,40 +23,39 @@ g2.parse(github_storage+"resources/data02.rdf", format="xml")
 from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://data.org#")
 
-#get all instances of Person in g1
-q1 = prepareQuery('''
-  SELECT ?Subject WHERE{
-    ?Subject a ns:Person
+# Get all instances of Person in g1
+query_person = prepareQuery('''
+  SELECT ?person WHERE {
+    ?person a ns:Person
   }
   ''',
-  initNs={"ns" : ns}
+  initNs={"ns": ns}
 )
 
-#visualize graph before additions
-for r in (g1.query(q1)):
-  for s,p,o in g1.triples((r.Subject, None, None)):
-    print(s,p,o)
+# Visualize the graph before additions
+for result in (g1.query(query_person)):
+    for subject, predicate, object_ in g1.triples((result.person, None, None)):
+        print(subject, predicate, object_)
 
-#for each Person in g1, query g2 for additional fields and add them to g1
-fields_final = []
+# For each Person in g1, query g2 for additional fields and add them to g1
+additional_fields = []
 
-for r in g1.query(q1):
-  person = r.Subject
-  
-  fields = [(s,p,o) for s,p,o in g2.triples((person, None, None))]
-  for i in fields:
-    fields_final.append(i)
+for result in g1.query(query_person):
+    person = result.person
+
+    fields = [(subject, predicate, object_) for subject, predicate, object_ in g2.triples((person, None, None))]
+    for field in fields:
+        additional_fields.append(field)
 
 print("---")
 
-for i in range(0, len(fields_final)):
-  g1.add((fields_final[i][0], fields_final[i][1], fields_final[i][2]))
-  print("ADDED: (", fields_final[i][0], fields_final[i][1], fields_final[i][2], ")")
+for i in range(0, len(additional_fields)):
+    g1.add((additional_fields[i][0], additional_fields[i][1], additional_fields[i][2]))
+    print("ADDED: (", additional_fields[i][0], additional_fields[i][1], additional_fields[i][2], ")")
 
-#no worries about duplicates, thankfully...
-#visualize results
+# Visualize the results
 print("---")
 
-for r in (g1.query(q1)):
-  for s,p,o in g1.triples((r.Subject, None, None)):
-    print(s,p,o)
+for result in (g1.query(query_person)):
+    for subject, predicate, object_ in g1.triples((result.person, None, None)):
+        print(subject, predicate, object_)

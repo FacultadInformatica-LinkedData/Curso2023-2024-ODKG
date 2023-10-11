@@ -29,37 +29,37 @@ from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://data.three.org#")
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
-#Find identities in the 2 graphs:
-#1. Get all instances of Person in Graph 1
-q1 = prepareQuery('''
-                  SELECT ?Subject WHERE{
-                    ?Subject a ns:Person
+# Find identities in the 2 graphs:
+# 1. Get all instances of Person in Graph 1
+query_person_g1 = prepareQuery('''
+                  SELECT ?person WHERE{
+                    ?person a ns:Person
                   }
                   ''', initNs={"ns" : ns}
                   )
 
-#2. For each Person in Graph 1, check Given and Family Name
+# 2. For each Person in Graph 1, check Given and Family Name
 names_list = []
-for r in g1.query(q1):
-  given = g1.value(r.Subject, VCARD.Given, None)
-  fn = g1.value(r.Subject, VCARD.FN, None)
-  names_list.append((r.Subject, given, fn))
+for result in g1.query(query_person_g1):
+    given_name = g1.value(result.person, VCARD.Given, None)
+    family_name = g1.value(result.person, VCARD.FN, None)
+    names_list.append((result.person, given_name, family_name))
 
-#3. For each Person in Graph 1, check if anyone in Graph 2 has the same Given and FN
-q2 = prepareQuery('''
-                  SELECT ?Subject WHERE{
-                    ?Subject VCARD:Given ?Given .
-                    ?Subject VCARD:FN ?FN
+# 3. For each Person in Graph 1, check if anyone in Graph 2 has the same Given and FN
+query_person_g2 = prepareQuery('''
+                  SELECT ?person WHERE{
+                    ?person VCARD:Given ?Given .
+                    ?person VCARD:FN ?FN
                   }
                   ''', initNs={"ns" : ns, "VCARD" : VCARD}
                   )
 
-for i in names_list:
-  for r in g2.query(q2, initBindings = {'?Given' : Literal(i[1] , datatype=XSD.string), '?FN' : Literal(i[2] , datatype=XSD.string)}):
-    #Create triples connecting the identities and insert in g3
-    g3.add((i[0], OWL.sameAs, r.Subject))
+for identity in names_list:
+    for result in g2.query(query_person_g2, initBindings={'?Given': Literal(identity[1], datatype=XSD.string), '?FN': Literal(identity[2], datatype=XSD.string)}):
+        # Create triples connecting the identities and insert in g3
+        g3.add((identity[0], OWL.sameAs, result.person))
 
-#Visualize the result
+# Visualize the result
 print("GRAPH 3:\n")
-for s,p,o in g3:
-  print(s,p,o)
+for subject, predicate, object_ in g3:
+    print(subject, predicate, object_)
