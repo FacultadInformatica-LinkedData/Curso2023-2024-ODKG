@@ -1064,5 +1064,219 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column rotulo using expression grel:if(value.contains(\"ROTULO\"), \"SIN ROTULO\", value)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "distrito",
+    "newColumnName": "nombreDistrito",
+    "description": "Rename column distrito to nombreDistrito"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordenadaX",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column coordenadaX using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordenadaY",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column coordenadaY using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "portal",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column portal using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "codPostal",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column codPostal using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "superficie",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column superficie using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "mesas",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column mesas using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sillas",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sillas using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_terraza",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_terraza using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:cells[\"rotulo\"].value + \"-X\" + round(cells[\"coordenadaX\"].value) + \"Y-\" + round(cells[\"coordenadaY\"].value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:cells[\"rotulo\"].value + \"-X\" + round(cells[\"coordenadaX\"].value) + \"Y-\" + round(cells[\"coordenadaY\"].value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nombreDistrito",
+    "expression": "grel:value.replace(\"-\", \" - \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column nombreDistrito using expression grel:value.replace(\"-\", \" - \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_terraza",
+    "expression": "grel:\"A\"+cells[\"superficie\"].value+\"_S\"+cells[\"sillas\"].value+\"_M\"+cells[\"mesas\"].value+\"_I\"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_terraza using expression grel:\"A\"+cells[\"superficie\"].value+\"_S\"+cells[\"sillas\"].value+\"_M\"+cells[\"mesas\"].value+\"_I\"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:forEach(cells[\"rotulo\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('') + \"-X\" + cells[\"coordenadaX\"].value.replace(\",\", \".\").toNumber().round().toString() + \"-Y\" + cells[\"coordenadaY\"].value.replace(\",\", \".\").toNumber().round().toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:forEach(cells[\"rotulo\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('') + \"-X\" + cells[\"coordenadaX\"].value.replace(\",\", \".\").toNumber().round().toString() + \"-Y\" + cells[\"coordenadaY\"].value.replace(\",\", \".\").toNumber().round().toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:value.replace(\"-\",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:value.replace(\"-\",\"_\")"
   }
 ]
