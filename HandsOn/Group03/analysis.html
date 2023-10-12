@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Activa en Madrid</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+      <h1>1. Analyse Data Set</h1>
+      <p>The following table describes the analysis of the dataset: "300107-0-agenda-actividades-eventos.csv"</p>
+      <table>
+        <caption>"Agenda de actividades y eventos"</caption>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+			<th>Turtle Name</th>
+            <th>Comments/Range (rounded)</th>
+            <th>Problems</th>
+        </tr>
+        <tr>
+            <td>ID-EVENTO</td>
+            <td>CHAR</td>
+			<td><center> - - - </center></td>
+            <td>Indentifier.
+				<br>Unique.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TITULO</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Title of the activity.
+				<br>Not unique.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LARGA-DURACION</td>
+            <td>BOOLEAN</td>
+			<td>ns:longEvent</td>
+            <td>1: If it is an event that develops over time. 
+				<br>0: in other case.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DIAS-SEMANA</td>
+            <td>CHAR</td>
+			<td>ns:dayOfWeek</td>
+            <td>They are the initials of each day of the week in which the event takes place. L,M,X,J,V,S,D. 
+				<br>If it is empty it lasts for a specific day.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FECHA</td>
+            <td>DATE</td>
+			<td>ns:startDate</td>
+            <td>Activity start date.
+				<br>2019-01-19 01:00:00 — 2024-07-12 02:00:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FECHA-FIN</td>
+            <td>DATE</td>
+			<td>ns:endDate</td>
+            <td>Activity end date.
+				<br>2023-10-06 01:59:00 — 2030-02-03 00:59:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>HORA</td>
+            <td>TIME</td>
+			<td>ns:time</td>
+            <td>Activity start time.
+				<br>Empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DESCRIPCION</td>
+            <td>STRING</td>
+			<td>ns:description</td>
+            <td>Description of the activity.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CONTENT-URL</td>
+            <td>STRING</td>
+			<td>ns:contentURL</td>
+            <td>URL of the activity.
+				<br>Not unique.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>URL-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:facilityURL</td>
+            <td>URL of the facility.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NOMBRE-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:facilityName</td>
+            <td>Name of the facility.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ACCESIBILIDAD-INSTALACION</td>
+            <td>CHAR</td>
+			<td>ns:accessibility</td>
+            <td>0 = Not accessible.
+				</br>1 = Accessible.
+				</br>2 = Facility partially accessible for people with reduced mobility.
+				</br>3 = No information on accessibility for people with reduced mobility.
+				</br>4 = Sign language.
+				</br>5 = Podotactile signage.
+				</br>6 = Magnetic induction loop.
+				</br>Empty values.
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CLASE-VIAL-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Road type, for example: street, avenue,...
+				</br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NOMBRE-VIA-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Name of the road type.
+				</br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NUM-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Number of the road.
+				</br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DISTRITO-INSTALACION</td>
+            <td>STRING</td>
+            <td>ns:name</td>
+            <td>District name.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>BARRIO-INSTALACION</td>
+            <td>STRING</td>
+            <td>ns:name</td>
+            <td>Neighborhood name.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CODIGO-POSTAL-INSTALACION</td>
+            <td>STRING</td>
+			<td>ns:zipCode</td>
+            <td>Postal code of the facility.
+				<br>Not unique, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LATITUD</td>
+            <td>Decimal</td>
+			<td>ns:latitude</td>
+            <td>Latitude of the facility.
+				<br>40.33 — 40.52, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LONGITUD</td>
+            <td>Decimal</td>
+            <td>ns:longitude</td>
+            <td>Longitude of the facility.
+				<br>-3.79 — -3.57, empty values.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TIPO</td>
+            <td>STRING</td>
+			<td>ns:typeOfActivity</td>
+            <td>Type of the activity.
+				<br>Not unique, empty values</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>AUDIENCIA</td>
+            <td>STRING</td>
+			<td><center> - - - </center></td>
+            <td>Type of audience to which the activity is directed. We will only select the activities aimed at older people.
+				<br>Not unique</td>
+            <td>We have activities that we do not know if they are made for older people or another type of audience.</td>
+        </tr>
+      </table>
+      <p>The following table describes the analysis of the dataset: "AREAS_MAYORES_2023.csv"</p>
+      <table>
+        <caption>"Áreas de actividades para mayores"</caption>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+			<th>Turtle Name</th>
+            <th>Comments/Range (rounded)</th>
+            <th>Problems</th>
+        </tr>
+        <tr>
+            <td>MXASSETNUM,C,12</td>
+            <td>CHAR</td>
+			<td><center> - - - </center></td>
+            <td>Identifier.
+				<br>Unique.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DESCRIPTIO,C,105</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Park name or location of the park. 
+				<br>Unique.</td>
+            <td>The first part "M...-MAYORES" looks like an identifier but it isn't useful so it will be removed.</td>
+        </tr>
+        <tr>
+            <td>NOMBRE_DIS,C,25</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>District name.
+				<br>Not unique, 1 empty value.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NOMBRE_BAR,C,50</td>
+            <td>STRING</td>
+			<td>ns:name</td>
+            <td>Neighborhood name.
+				<br>Not unique, 1 empty value.</td>
+            <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="wrapper">
+
+        <h1>2. Analyze Licensing of the Data Source</h1>
+        <ul>
+            <li><h2>Publisher:</h2> 
+                <p>Both data source are own by Ayuntamiento de Madrid. However, they're managed by different department.</p>
+                <ul>
+                    <li><h3>Agenda de actividades y eventos: </h3><p>Dirección General de Atención a la Ciudadanía</p>
+                    </li>
+                    <li><h3>Áreas de actividades para mayores: </h3><p>Dirección General de Servicios de Limpieza y Residuos
+
+                    </p>
+                    </li>
+                </ul>
+            </li>
+            <li><h2>Condition of use:</h2>
+                <p>Since the data sources are in public domain they don't have a specific license. However, there are terms of use set by the Ayuntamiento de Madrid that have to be followed: </p>
+                <ul>
+                    <li>We can reuse all the documents and data for commercial and non-commercial purposes.</li>
+                    <li>It is forbidden to distort the meaning of the information.</li>
+                    <li>Citation is required.</li>
+                    <li>The latest update date has to be mentioned.</li>
+                    <li>We can not suggest or insinuate that Ayuntamiento de Madrid participates or support the reuse of the information.</li>
+                    <li>The terms of use can't be altered.</li>
+                    <li>It's expressly prohibited to carry out re-identificaiton of inidividuals, in case of information containing personal data.</li>
+
+                </ul>
+
+            </li>
+            <li><h2>License to be used:</h2>
+            <p>Since the data source is in the public domain, we must adhere to the terms of use set by the Ayuntamiento de Madrid regarding the data's use for application development. This stipulates that we have to submit a form on their website to obtain approval to publish the application.</p>
+        </li>
+        </ul>
+        <h1>3. Define Resource Naming Strategy</h1>
+        <p>For the URIs, we'll use separate paths for ontology resources and individuals, using hash for ontological terms and slash for individuals.</p>
+        <h3>URI for Ontological resources:</h3>
+        <img src="./img/OntologyURI.PNG"/>
+        <h3>URI for Individuals:</h3>
+        <img src="./img/IndividualURI.PNG"/>
+        
+</body>
+</html>
