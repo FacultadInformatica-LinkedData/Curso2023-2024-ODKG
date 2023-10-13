@@ -108,12 +108,8 @@ peaton:DISTRITO a owl:DatatypeProperty ;
     rdfs:label "d i s t r i t o" ;
     rdfs:range xsd:String .
 
-peaton:FECHA a owl:DatatypeProperty ;
+peaton:FECHAHORA a owl:DatatypeProperty ;
     rdfs:label "f e c h a" ;
-    rdfs:range xsd:DateTime .
-
-peaton:HORA a owl:DatatypeProperty ;
-    rdfs:label "h o r a" ;
     rdfs:range xsd:DateTime .
 
 peaton:IDENTIFICADOR a owl:DatatypeProperty ;
@@ -142,7 +138,7 @@ peaton:NUMERO_DISTRITO a owl:DatatypeProperty ;
 
 peaton:OBSERVACIONES_DIRECCION a owl:DatatypeProperty ;
     rdfs:label "o b s e r v a c i o n e s_ d i r e c c i o n" ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:String .
 
 peaton:PEATONES a owl:DatatypeProperty ;
     rdfs:label "p e a t o n e s" ;
