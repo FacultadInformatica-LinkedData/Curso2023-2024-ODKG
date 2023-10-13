@@ -65,18 +65,6 @@ distrito:COD_DIS a owl:DatatypeProperty ;
     rdfs:label "c o d_ d i s" ;
     rdfs:range xsd:Integer .
 
-distrito:COD_DIS_TX a owl:DatatypeProperty ;
-    rdfs:label "c o d_ d i s_ t x" ;
-    rdfs:range xsd:Integer .
-
-distrito:DISTRI_MAY a owl:DatatypeProperty ;
-    rdfs:label "d i s t r i_ m a y" ;
-    rdfs:range xsd:String .
-
-distrito:DISTRI_MT a owl:DatatypeProperty ;
-    rdfs:label "d i s t r i_ m t" ;
-    rdfs:range xsd:String .
-
 distrito:Distrito a owl:Class ;
     rdfs:label "Distrito" .
 
@@ -86,7 +74,7 @@ distrito:NOMBRE a owl:DatatypeProperty ;
 
 distrito:OBJECTID a owl:DatatypeProperty ;
     rdfs:label "o b j e c t i d" ;
-    rdfs:range xsd:Integer .
+    rdfs:range xsd:String .
 
 distrito:Shape_Area a owl:DatatypeProperty ;
     rdfs:label "shape_ area" ;
