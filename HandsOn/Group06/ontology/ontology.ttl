@@ -1,8 +1,6 @@
  @prefix : <http://opendataandkg.org/group06/bicicletas/> .
 @prefix bicicleta: <http://www.owl-ontologies.com/bicicleta#> .
 @prefix bicicletas: <http://opendataandkg.org/group06/bicicletas#> .
-@prefix calidad_aire: <http://opendataandkg.org/group06/calidadaire#> .
-@prefix calidadaire: <http://www.owl-ontologies.com/calidadaire#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix distrito: <http://www.owl-ontologies.com/distrito#> .
 @prefix distritos: <http://opendataandkg.org/group06/distritos#> .
@@ -20,9 +18,6 @@ bicicletas:Bicicleta a owl:Class ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Madrid city heatmap Ontology" ;
     owl:versionInfo "0.0.1" .
-
-calidad_aire:CalidadAire a owl:Class ;
-    rdfs:label "Calidad Aire" .
 
 distritos:Distrito a owl:Class ;
     rdfs:label "Distrito" .
@@ -69,49 +64,6 @@ bicicleta:NUMERO_DISTRITO a owl:DatatypeProperty ;
 bicicleta:OBSERVACIONES_DIRECCION a owl:DatatypeProperty ;
     rdfs:label "o b s e r v a c i o n e s_ d i r e c c i o n" ;
     rdfs:range xsd:Integer .
-
-calidadaire:ANO a owl:DatatypeProperty ;
-    rdfs:label "a n o" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:CalidadAire a owl:Class ;
-    rdfs:label "Calidad Aire" .
-
-calidadaire:DIA a owl:DatatypeProperty ;
-    rdfs:label "d i a" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:ESTACION a owl:DatatypeProperty ;
-    rdfs:label "e s t a c i o n" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:HXX a owl:DatatypeProperty ;
-    rdfs:label "h x x" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:MAGNITUD a owl:DatatypeProperty ;
-    rdfs:label "m a g n i t u d" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:MES a owl:DatatypeProperty ;
-    rdfs:label "m e s" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:MUNICIPIO a owl:DatatypeProperty ;
-    rdfs:label "m u n i c i p i o" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:PROVINCIA a owl:DatatypeProperty ;
-    rdfs:label "p r o v i n c i a" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:PUNTO_MUESTREO a owl:DatatypeProperty ;
-    rdfs:label "p u n t o_ m u e s t r e o" ;
-    rdfs:range xsd:Integer .
-
-calidadaire:VXX a owl:DatatypeProperty ;
-    rdfs:label "v x x" ;
-    rdfs:range xsd:String .
 
 distrito:COD_DIS a owl:DatatypeProperty ;
     rdfs:label "c o d_ d i s" ;
