@@ -4,6 +4,13 @@ path = "/home/alvaro/Desktop/OpenData&KG/ODKG/HandsOn/Group08/csv2/us-colleges-a
 
 df = pd.read_csv(path)
 
+duplicados = df['IPEDSID'].duplicated(keep=False)
+print("Number of dups",len(df[duplicados]))
+
+print("Old:", len(df))
+
 df = df.drop_duplicates(subset="IPEDSID", keep="last")
 
-df.to_csv(path+"edited.csv")
+
+print("New:",len(df))
+df.to_csv(path[:-4]+"-edited.csv")
