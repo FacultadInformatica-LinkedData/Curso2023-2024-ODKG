@@ -1,0 +1,55 @@
+Cabin_Number,Longitude,Latitude,Street_Name,District_Number,District_Name,Neighbourhood_Number,Neighbourhood_Name,Contaminant_Code
+4,2.2045,41.4039, Lope de Vega,10,Sant Marti,68,el Poblenou,8
+4,2.2045,41.4039, Lope de Vega,10,Sant Marti,68,el Poblenou,10
+4,2.2045,41.4039, Lope de Vega,10,Sant Marti,68,el Poblenou,7
+4,2.2045,41.4039, Lope de Vega,10,Sant Marti,68,el Poblenou,12
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuic,18,Sants,8
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuic,18,Sants,7
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuic,18,Sants,12
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,8
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,9
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,14
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,10
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,1
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,6
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,7
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,9,la Nova Esquerra de l'Eixample,12
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,8
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,14
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,10
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,1
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,6
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,7
+44,2.1534,41.3987, Travessera de Gràcia,6,Gracia,31,la Vila de Gracia,12
+50,2.1874,41.3864,,1,Ciutat Vella,4,"Sant Pere, Santa Caterina i la Ribera",8
+50,2.1874,41.3864,,1,Ciutat Vella,4,"Sant Pere, Santa Caterina i la Ribera",14
+50,2.1874,41.3864,,1,Ciutat Vella,4,"Sant Pere, Santa Caterina i la Ribera",7
+50,2.1874,41.3864,,1,Ciutat Vella,4,"Sant Pere, Santa Caterina i la Ribera",12
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,8
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,14
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,10
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,1
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,6
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,12
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardo,41,la Vall d'Hebron,7
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,8
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,14
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,10
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,1
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,6
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,7
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,12
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,108
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,114
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,110
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,101
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,106
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,107
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,112
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,9
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,21,Pedralbes,109
+58,2.1239,41.41843,,5,Sarria-Sant Gervasi,22,Vallvidrera-el Tibidabo-les Planes,8
+58,2.1239,41.41843,,5,Sarria-Sant Gervasi,22,Vallvidrera-el Tibidabo-les Planes,14
+58,2.1239,41.41843,,5,Sarria-Sant Gervasi,22,Vallvidrera-el Tibidabo-les Planes,10
+58,2.1239,41.41843,,5,Sarria-Sant Gervasi,22,Vallvidrera-el Tibidabo-les Planes,7
+58,2.1239,41.41843,,5,Sarria-Sant Gervasi,22,Vallvidrera-el Tibidabo-les Planes,12
