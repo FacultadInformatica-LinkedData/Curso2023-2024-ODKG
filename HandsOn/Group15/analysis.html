@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <p>
+        <span style="text-decoration: underline;"><strong>Licensing of the data source</strong></span>
+    </p>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>Name of dataset</strong></td>
+                    <td><strong>Link to dataset</strong></td>
+                    <td><strong>Who is the publisher and the rightsholder?</strong></td>
+                    <td><strong>What is the licence?</strong></td>
+                </tr>
+                <tr>
+                    <td>2022_qualitat_aire_estacions.csv</td>
+                    <td><a href="https://opendata-ajuntament.barcelona.cat/data/en/dataset/qualitat-aire-estacions-bcn" target="_blank" rel="noopener">link</a></td>
+                    <td>In this case, both publisher and rightsholder is the Barcelona's City Hall</td>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a></td>
+                </tr>
+                <tr>
+                    <td>2022_4T_OD_Arbrat_Zona_BCN.csv</td>
+                    <td><a href="https://opendata-ajuntament.barcelona.cat/data/en/dataset/arbrat-zona" target="_blank" rel="noopener">link</a></td>
+                    <td>In this case, both publisher and rightsholder is the Barcelona's City Hall</td>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a></td>
+                </tr>
+                <tr>
+                    <td>2022_tramer_pm10_mapa_qualitat_aire_bcn.csv</td>
+                    <td><a href="https://opendata-ajuntament.barcelona.cat/data/en/dataset/mapes-immissio-qualitat-aire" target="_blank" rel="noopener">link</a></td>
+                    <td>In this case, both publisher and rightsholder is the Barcelona's City Hall</td>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a></td>
+                </tr>
+                <tr>
+                    <td>qualitat_aire_contaminants.csv</td>
+                    <td><a href="https://opendata-ajuntament.barcelona.cat/data/en/dataset/mapes-immissio-qualitat-aire" target="_blank" rel="noopener">link</a></td>
+                    <td>In this case, both publisher and rightsholder is the Barcelona's City Hall</td>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a></td>
+                </tr>
+                <tr>
+                    <td>temperaturesbarcelonadesde1780_format_long.csv</td>
+                    <td><a href="https://opendata-ajuntament.barcelona.cat/data/en/dataset/temperatures-hist-bcn" target="_blank" rel="noopener">link</a></td>
+                    <td>In this case, both publisher and rightsholder is the Barcelona's City Hall</td>
+                    <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>All of these datasets are under the same licence and we will publish our data under this same licence, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0 Deed</a>. This licence allows users to share and adapt, even for commercial purposes, as long as credit is given appropriately. Because we are using these datasets, we will make sure to provide the correct credit to Barcelona&rsquo;s City Hall.</p>
+    <p><span style="text-decoration: underline;"><strong>Resource naming strategy</strong></span></p>
+    <ul>
+        <li>Domain: https://www.barca_environmental_monitoring.es&nbsp;</li>
+        <li>Ontology path: https://www.barca_environmental_monitoring.es/ontology</li>
+        <li>Classes: https://www.barca_environmental_monitoring.es/class#[className]</li>
+        <li>Properties: https://www.barca_environmental_monitoring.es/property#[propertyName]</li>
+        <li>Individual path:&nbsp; https://www.barca_environmental_monitoring.es/resource/</li>
+        <li>Instances: https://www.barca_environmental_monitoring.es/resource/[className]/[identifier]</li>
+    </ul>
+    <p><span style="text-decoration: underline;"><strong>Data analysis</strong></span></p>
+    <p>We have selected 5 different CSV files regarding measurements and the environment in the city of Barcelona. Each one will be analysed individually.</p>
+    <p><span style="text-decoration: underline;">Temperaturesbarcelonadesde1780.csv</span></p>
+    <ul>
+        <li>There are 243 rows in the CSV file. Each one is complete with no missing data.</li>
+        <li>The schema for this data is very simple. Each row is self-contained and has average temperature measurements for each month of that year.</li>
+        <li>The first column is called &lsquo;Any&rsquo; but it refers to the years for the measurements. Every integer from 1780 to 2022 (inclusive) is present in ascending order.</li>
+        <li>The remaining columns are numeric, float values recording the average temperature for the year.</li>
+    </ul>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>Column name</strong></td>
+                    <td><strong>Month</strong></td>
+                    <td><strong>Temperature range</strong></td>
+                </tr>
+                <tr>
+                    <td>Temp_Mitjana_Gener</td>
+                    <td>January</td>
+                    <td>3.4 - 10.7</td>
+                </tr>
+                <tr>
+                    <td>Temp_Mitjana_Febrer</td>
+                    <td>February</td>
+                    <td>2.5 - 12.5</td>
+                </tr>
+                <tr>
+                    <td>Temp_Mitjana_Marc</td>
+                    <td>March</td>
+                    <td>6.1 - 14.8</td>
+                </tr>
+                <tr>
+                    <td>Temp_Mitjana_Abril</td>
+                    <td>April</td>
+                    <td>9.4 - 15.9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</html>
+    <tr>
+    <td>Temp_Mitjana_Maig</td>
+    <td>May</td>
+    <td>11.5 - 20.7</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Juny</td>
+    <td>June</td>
+    <td>15.7 - 25.6</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Juliol</td>
+    <td>July</td>
+    <td>18.4 - 27.1</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Agost</td>
+    <td>August</td>
+    <td>18.8 - 28.5</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Setembre</td>
+    <td>September</td>
+    <td>16.0 - 23.9</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Octubre</td>
+    <td>October</td>
+    <td>11.0 - 20.7</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Novembre</td>
+    <td>November</td>
+    <td>7.3 - 15.2</td>
+    </tr>
+    <tr>
+    <td>Temp_Mitjana_Desembre</td>
+    <td>December</td>
+    <td>4.4 - 12.6</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    <p><span style="text-decoration: underline;">qualitat_aire_contaminants.csv</span></p>
+    <ul>
+    <li>There are 3 columns and 21 rows in this CSV file. It is a small CSV with a very simple schema, just listing the code, description and units for each row of contaminant.</li>
+    <li>The first column is &ldquo;Codi_Contaminant&rdquo;, storing an integer code to identify each contaminant. These values are all unique and have the range 1 - 999.</li>
+    <li>The second column is &ldquo;Desc_Contaminant&rdquo;, containing a string description of the contaminant. This is usually its chemical symbol e.g. CO but occasionally consists of words e.g. &ldquo;Black Carbon&rdquo;.&nbsp;</li>
+    <li>The third column is &ldquo;Unitats&rdquo;, storing the units for each measurement. There are 3 units used here, &micro;g/m&sup3; (the most common unit with 15 occurrences), mg/m&sup3; and %. There are 3 rows about flow which are missing a unit.</li>
+    </ul>
+    <p><span style="text-decoration: underline;">OD_Arbrat_Zona_BCN.csv</span></p>
+    <ul>
+    <li>This is a large CSV file with 42944 rows describing trees in Barcelona.</li>
+    <li>The first column is &ldquo;codi&rdquo; with a unique 9 character string identifier.</li>
+    <li>The second and third columns are &lsquo;x_etrs89&rsquo; and &lsquo;y_etrs89&rsquo;</li>
+    <li>The fourth and fifth columns are &lsquo;latitud&rsquo; and &lsquo;longitud&rsquo;, storing the latitude and longitude of the tree.</li>
+    <li>The sixth column is &ldquo;tipus_element&rdquo; where there are only 2 possible string categories: &ldquo;ARBRE_ZONA&rdquo; (the most common) and &ldquo;PALMERA_ZONA&rdquo; for tree and palm tree zones respectively.</li>
+    <li>The seventh column is &ldquo;espai_verde&rdquo;, the green space where the tree is located in textual format. These can be duplicated.</li>
+    <li>The eighth column is &ldquo;adreca&rdquo;, the address of where the tree is in textual format. A few values here are incomplete such as a number with a comma.</li>
+    <li>The ninth column is &ldquo;cat_especie_id&rdquo;, a numeric identifier for the species of tree and the corresponding scientific name is in the tenth column &ldquo;nom_cientific&rdquo; as a string. Likewise, the corresponding popular names in Spanish and Catalan are in the eleventh and twelfth columns respectively (&ldquo;nom_castella&rdquo; and &ldquo;nom_catala&rdquo;) as a string.</li>
+    <li>The thirteenth column is &ldquo;categoria_arbrat&rdquo; with a tree category: &ldquo;PRIMERA&rdquo;, &ldquo;SEGONA&rdquo; or &ldquo;TERCERA&rdquo;.</li>
+    <li>The fourteenth column is &ldquo;data_plantacio&rdquo; with the date at which the tree was planted in the string format &ldquo;YYYY-MM-DD&rdquo;. This column has many missing entries.&nbsp;</li>
+    <li>The fifteenth column is &ldquo;tipus_aigua&rdquo; with the type of water: &ldquo;FREATICA&rdquo;, &ldquo;POTABLE&rdquo;, &ldquo;REGENERADA&rdquo;. This column has mostly missing entries.</li>
+    <li>The sixteenth column is &ldquo;tipus_reg&rdquo;, storing the category for the irrigation type. There are 8 text choices for this and a few entries are missing values for this column.</li>
+    <li>The seventeenth column is &ldquo;geom&rdquo;, representing the location of the tree in the POINT format.</li>
+    <li>The eighteenth column is &ldquo;catalogocio&rdquo;: it either has the value &ldquo;INTERES LOCAL&rdquo; or is missing a value.</li>
+    <li>The nineteenth column is &ldquo;codi_barri&rdquo; with an integer identifier for the neighbourhood, accompanied by the name in text in the twentieth column &ldquo;nom_barri&rdquo;.</li>
+    <li>The twenty first column is &ldquo;codi_districte&rdquo; with an integer identifier for the district, accompanied by the name in text in the twenty second and last column &ldquo;nom_districte&rdquo;.</li>
+    </ul>
+    <p><span style="text-decoration: underline;">2023_qualitat_aire_estacions.csv</span></p>
+    <ul>
+    <li>This is relatively small for a CSV with 54 rows tracking air station measurements.</li>
+    <li>The first column &ldquo;Estacio&rdquo; records an integer number in the range 4 - 59 which identifies the station. The second column &ldquo;nom_cabina&rdquo; is the neighbourhood where the station is positioned, stored as a string. The third column &ldquo;codi_dtes&rdquo; records a 2 letter string code for the station, with IZ as the most common one with 21 occurrences. There are 7 distinct values here.</li>
+    <li>The fourth column is &ldquo;zqa&rdquo; where every row has the integer value 1.</li>
+    <li>The fifth column is &ldquo;codi_eoi&rdquo;, a 7 digit number. This corresponds to the address in the eighth column &ldquo;ubicacio&rdquo;.</li>
+    <li>The sixth and seventh columns are floats for &ldquo;Longitud&rdquo; and &ldquo;Latitud&rdquo;, storing the longitude and latitude to 4 decimal places.</li>
+    <li>The ninth column is &ldquo;Code_districte&rdquo;, storing an integer code for the district and the corresponding name is in the tenth column &ldquo;Nom_districte&rdquo;. These codes are in the range 1 - 10.</li>
+    <li>The eleventh column is &ldquo;Code_barri&rdquo;, storing an integer code for the area and the corresponding name is in the twelfth column &ldquo;Nom_barri&rdquo;. These codes are in the range 4- 69.</li>
+    <li>The thirteenth column is &ldquo;Clas_1&rdquo;, identifying the type of area between &ldquo;Suburbana&rdquo; and &ldquo;Urbana&rdquo;, suburban and urban areas.</li>
+    <li>The fourteenth column is &ldquo;Clas_2&rdquo;, identifying background and traffic respectively with the 2 options, &ldquo;Fons&rdquo; and &ldquo;Tr&agrave;nsit&rdquo;.</li>
+    <li>The fifteenth and last column is &ldquo;Codi_Contaminant&rdquo;. This stores an identifier for the contaminant which can be linked to the column of the same name in qualitat_aire_contaminants.csv.</li>
+    </ul>
+    <p><span style="text-decoration: underline;">2022_tramer_pm10_mapa_qualitat_aire_bcn_csv</span></p>
+    <ul>
+    <li>This CSV has 15041 rows and 3 columns.</li>
+    <li>The first column is &ldquo;TRAM&rdquo;, a unique string identifier for a street section code. It is a 7 character string, starting with a &ldquo;T&rdquo;, followed by 5 numbers and a letter such as &ldquo;T04719W&rdquo;.</li>
+    <li>The second column is &ldquo;Rang&rdquo;, storing the range of the air quality measurement. There are 6 categories: 15-20, 20-25, 25-30, 30-35, 35-40 and &gt;40&micro;g/m&sup3;.&nbsp;</li>
+    <li>The third column is GEOM_WKT, containing a 4-tuple of locational information in a MultiLine. This is a &ldquo;Well-Known Text&rdquo; format which represents the two end points of a line, i.e. a street, with the X and Y coordinates for both endpoints as the 4 numbers.</li>
+    </ul>
+</html>
