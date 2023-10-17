@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "namespace": "http://www.example.org/#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "Class01",
+    "namespace:includes": [
+        {
+            "@id": "Sensor029",
+            "namespace:hasMeasurement": {
+                "@id": "Measurement8401",
+                "namespace:hasTemperature": {
+                    "@type": "xsd:integer",
+                    "@value": "29"
+                },
+                "namespace:atTime": {
+                    "@type": "xsd:dateTime",
+                    "@value": "2010-06-12T12:00:12"
+                }
+            }
+        },
+        {
+            "@id": "Computer101",
+            "namespace:hasOwner": {
+                "@id": "User10A",
+                "namespace:hasName": {
+                    "@type": "xsd:string",
+                    "@value": "Pedro"
+                }
+            }
+        }
+    ]
+}
