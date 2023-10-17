@@ -1,0 +1,9 @@
+
+2.-  Get all the properties, except rdf:type, that can be applied to instances of the Politician class:
+	SELECT
+	    DISTINCT ?property
+	WHERE {
+	    ?s a <http://dbpedia.org/ontology/Politician> .
+	    ?s ?property ?o .
+	FILTER
+	    (?property != rdf:type) }

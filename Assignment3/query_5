@@ -1,0 +1,10 @@
+
+
+SELECT
+    ?property (COUNT(DISTINCT ?value) AS ?distinctValuesCount)
+WHERE {
+  ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?politician ?property ?value.
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property

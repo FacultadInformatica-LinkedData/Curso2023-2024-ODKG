@@ -1,0 +1,9 @@
+1.-  Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+	SELECT
+          distinct ?property
+        WHERE
+       {
+          ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+          ?politician ?property ?value
+        }

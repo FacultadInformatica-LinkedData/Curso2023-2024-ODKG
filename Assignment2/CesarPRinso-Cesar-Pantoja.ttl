@@ -1,0 +1,14 @@
+@prefix vocab: <http://www.ontologies.org/ontologies/example#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vocab:Class01 vocab:includes vocab:Sensor029 ;
+              vocab:includes vocab:Computer101 .
+
+vocab:Sensor029 vocab:hasMeasurement vocab:Measurement8401 .
+
+vocab:Measurement8401 vocab:hasTemperature 29 ;
+                      vocab:atTime "2010-06-12T12:00:12"^^xsd:datetime .
+
+vocab:Computer101 vocab:hasOwner vocab:User10A .
+
+vocab:User10A vocab:hasName "Pedro" .
