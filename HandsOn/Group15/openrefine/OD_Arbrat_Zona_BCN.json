@@ -1,0 +1,222 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "codi",
+    "newColumnName": "Code",
+    "description": "Rename column codi to Code"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "x_etrs89",
+    "description": "Remove column x_etrs89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "y_etrs89",
+    "description": "Remove column y_etrs89"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipus_element",
+    "description": "Remove column tipus_element"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "espai_verd",
+    "description": "Remove column espai_verd"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "latitud",
+    "newColumnName": "Latitude",
+    "description": "Rename column latitud to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "longitud",
+    "newColumnName": "Longitude",
+    "description": "Rename column longitud to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cat_especie_id",
+    "newColumnName": "Tree_Species_ID",
+    "description": "Rename column cat_especie_id to Tree_Species_ID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "nom_cientific",
+    "newColumnName": "Tree_Species_Name",
+    "description": "Rename column nom_cientific to Tree_Species_Name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_castella",
+    "description": "Remove column nom_castella"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_catala",
+    "description": "Remove column nom_catala"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "categoria_arbrat",
+    "description": "Remove column categoria_arbrat"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipus_aigua",
+    "description": "Remove column tipus_aigua"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "tipus_reg",
+    "description": "Remove column tipus_reg"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "data_plantacio",
+    "description": "Remove column data_plantacio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "geom",
+    "description": "Remove column geom"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "catalogacio",
+    "description": "Remove column catalogacio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "adreca",
+    "newColumnName": "Address",
+    "description": "Rename column adreca to Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " , "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " , 0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " , 1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " , 56"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Address"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "codi_districte",
+    "newColumnName": "District_Number",
+    "description": "Rename column codi_districte to District_Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "nom_districte",
+    "newColumnName": "District_Name",
+    "description": "Rename column nom_districte to District_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "codi_barri",
+    "newColumnName": "Neighbourhood_Number",
+    "description": "Rename column codi_barri to Neighbourhood_Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "nom_barri",
+    "newColumnName": "Neighbourhood_Name",
+    "description": "Rename column nom_barri to Neighbourhood_Name"
+  }
+]
