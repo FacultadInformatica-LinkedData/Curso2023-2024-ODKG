@@ -1,0 +1,95 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GEOM_WKT",
+    "expression": "grel:value.replace(\"MultiLineString ((\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GEOM_WKT using expression grel:value.replace(\"MultiLineString ((\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GEOM_WKT",
+    "expression": "grel:value.replace(\"))\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GEOM_WKT using expression grel:value.replace(\"))\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GEOM_WKT",
+    "expression": "grel:value.split(\",\")[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GEOM_WKT using expression grel:value.split(\",\")[0]"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GEOM_WKT",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column GEOM_WKT by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "GEOM_WKT 1",
+    "newColumnName": "X_Coordinate",
+    "description": "Rename column GEOM_WKT 1 to X_Coordinate"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "GEOM_WKT 2",
+    "newColumnName": "Y_Coordinate",
+    "description": "Rename column GEOM_WKT 2 to Y_Coordinate"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Rang",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Rang by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Rang 2",
+    "newColumnName": "Unit",
+    "description": "Rename column Rang 2 to Unit"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Rang 1",
+    "newColumnName": "Measurement",
+    "description": "Rename column Rang 1 to Measurement"
+  }
+]
