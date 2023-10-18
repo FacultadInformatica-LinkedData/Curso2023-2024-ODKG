@@ -1,0 +1,366 @@
+[
+    {
+      "op": "core/column-removal",
+      "columnName": "EQUIPAMIENTO",
+      "description": "Remove column EQUIPAMIENTO"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DESCRIPCION-ENTIDAD",
+      "expression": "join ([cells['DESCRIPCION-ENTIDAD'].value,cells['DESCRIPCION'].value],' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression join ([cells['DESCRIPCION-ENTIDAD'].value,cells['DESCRIPCION'].value],' ')"
+    },
+    {
+      "op": "core/column-reorder",
+      "columnNames": [
+        "PK",
+        "NOMBRE",
+        "DESCRIPCION-ENTIDAD",
+        "HORARIO",
+        "TRANSPORTE",
+        "ACCESIBILIDAD",
+        "CONTENT-URL",
+        "NOMBRE-VIA",
+        "CLASE-VIAL",
+        "TIPO-NUM",
+        "NUM",
+        "PLANTA",
+        "PUERTA",
+        "ESCALERAS",
+        "ORIENTACION",
+        "LOCALIDAD",
+        "PROVINCIA",
+        "CODIGO-POSTAL",
+        "COD-BARRIO",
+        "BARRIO",
+        "COD-DISTRITO",
+        "DISTRITO",
+        "COORDENADA-X",
+        "COORDENADA-Y",
+        "LATITUD",
+        "LONGITUD",
+        "TELEFONO",
+        "FAX",
+        "EMAIL",
+        "TIPO",
+        "Column"
+      ],
+      "description": "Reorder columns"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "TIPO-NUM",
+      "description": "Remove column TIPO-NUM"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PLANTA",
+      "description": "Remove column PLANTA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PUERTA",
+      "description": "Remove column PUERTA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "ESCALERAS",
+      "description": "Remove column ESCALERAS"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "ORIENTACION",
+      "description": "Remove column ORIENTACION"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "LOCALIDAD",
+      "description": "Remove column LOCALIDAD"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PROVINCIA",
+      "description": "Remove column PROVINCIA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "CODIGO-POSTAL",
+      "description": "Remove column CODIGO-POSTAL"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COD-BARRIO",
+      "description": "Remove column COD-BARRIO"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COD-DISTRITO",
+      "description": "Remove column COD-DISTRITO"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "BARRIO",
+      "description": "Remove column BARRIO"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COORDENADA-X",
+      "description": "Remove column COORDENADA-X"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COORDENADA-Y",
+      "description": "Remove column COORDENADA-Y"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "FAX",
+      "description": "Remove column FAX"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "Column",
+      "description": "Remove column Column"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "CLASE-VIAL",
+      "expression": "join ([coalesce(cells['CLASE-VIAL'].value,''),coalesce(cells['NOMBRE-VIA'].value,'')],'_')",
+      "onError": "keep-original",
+      "newColumnName": "DIRECCION",
+      "columnInsertIndex": 9,
+      "description": "Create column DIRECCION at index 9 based on column CLASE-VIAL using expression join ([coalesce(cells['CLASE-VIAL'].value,''),coalesce(cells['NOMBRE-VIA'].value,'')],'_')"
+    },
+    {
+      "op": "core/column-reorder",
+      "columnNames": [
+        "PK",
+        "NOMBRE",
+        "DESCRIPCION-ENTIDAD",
+        "HORARIO",
+        "TRANSPORTE",
+        "ACCESIBILIDAD",
+        "CONTENT-URL",
+        "DIRECCION",
+        "NUM",
+        "DISTRITO",
+        "LATITUD",
+        "LONGITUD",
+        "TELEFONO",
+        "EMAIL",
+        "TIPO"
+      ],
+      "description": "Reorder columns"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRITO",
+      "expression": "value.replace(\" \",\"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DISTRITO using expression value.replace(\" \",\"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TIPO",
+      "expression": "value.replace(\"/contenido/entidadesYorganismos/\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TIPO using expression value.replace(\"/contenido/entidadesYorganismos/\",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TIPO",
+      "expression": "value.replace(\"CentrosAtencionSocial/\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TIPO using expression value.replace(\"CentrosAtencionSocial/\",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"0\",\"NOT_ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"0\",\"NOT_ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"1\",\"ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"1\",\"ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"2\",\"PARTIALLY_ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"2\",\"PARTIALLY_ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"3\",\"NO_INFORMATION\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"3\",\"NO_INFORMATION\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"4\",\"SIGN_LANGUAGE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"4\",\"SIGN_LANGUAGE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"5\",\"TACTILE_PAVING\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"5\",\"TACTILE_PAVING\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"6\",\"MAGNETIC_LOOP\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"6\",\"MAGNETIC_LOOP\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TRANSPORTE",
+      "expression": "jython:value = value.replace(u\"Metro\", \"METRO\")\nvalue = value.replace(u\"Bus\", \" | BUS\")\nvalue = value.replace(u\"Buses\", \" | BUS\")\nvalue = value.replace(u\"Autobus\", \" | BUS\")\nvalue = value.replace(u\"Autobús\", \" | BUS\")\nvalue = value.replace(u\"Autobuses\", \" | BUS\")\n\nvalue = value.replace(u\"Bicimad\", \" | BICIMAD\")\nvalue = value.replace(u\"Aparcamientos\", \"| APARCAMIENTOS\")\nvalue = value.replace(u\"Parking\", \"| APARCAMIENTOS\")\n\nvalue = value.replace(u\"Cercanías Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Cercanías\", \"| RENFE\")\nvalue = value.replace(u\"Cercanias Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Cercanias\", \"| RENFE\")\n\nreturn value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TRANSPORTE using expression jython:value = value.replace(u\"Metro\", \"METRO\")\nvalue = value.replace(u\"Bus\", \" | BUS\")\nvalue = value.replace(u\"Buses\", \" | BUS\")\nvalue = value.replace(u\"Autobus\", \" | BUS\")\nvalue = value.replace(u\"Autobús\", \" | BUS\")\nvalue = value.replace(u\"Autobuses\", \" | BUS\")\n\nvalue = value.replace(u\"Bicimad\", \" | BICIMAD\")\nvalue = value.replace(u\"Aparcamientos\", \"| APARCAMIENTOS\")\nvalue = value.replace(u\"Parking\", \"| APARCAMIENTOS\")\n\nvalue = value.replace(u\"Cercanías Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Cercanías\", \"| RENFE\")\nvalue = value.replace(u\"Cercanias Renfe\", \"| RENFE\")\nvalue = value.replace(u\"Cercanias\", \"| RENFE\")\n\nreturn value"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"RENFE\" in l:\n  return l.replace(\"RENFE: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "RENFE",
+      "columnInsertIndex": 5,
+      "description": "Create column RENFE at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"RENFE\" in l:\n  return l.replace(\"RENFE: \", \"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TRANSPORTE",
+      "expression": "jython:return value.replace(u\"METRO\", \"| METRO\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TRANSPORTE using expression jython:return value.replace(u\"METRO\", \"| METRO\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"BUS\" in l:\n  return l.replace(\"BUS: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "BUS",
+      "columnInsertIndex": 5,
+      "description": "Create column BUS at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"BUS\" in l:\n  return l.replace(\"BUS: \", \"\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"METRO\" in l:\n  return l.replace(\"METRO: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "METRO",
+      "columnInsertIndex": 5,
+      "description": "Create column METRO at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"METRO\" in l:\n  return l.replace(\"METRO: \", \"\")"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "TRANSPORTE",
+      "description": "Remove column TRANSPORTE"
+    }
+  ]
