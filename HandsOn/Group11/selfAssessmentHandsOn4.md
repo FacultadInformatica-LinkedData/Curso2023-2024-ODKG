@@ -16,7 +16,7 @@
 
 **The "SPARQL” file:**
 
-- [x] Includes a description of the application user interface
+- [x] SPARQL file for queries on transformed dataset
 
 ## Comments on the self-assessment
 _(If required)_
