@@ -1,0 +1,27 @@
+prefixes:
+base: http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#
+rr: http://www.w3.org/ns/r2rml#
+rml: http://semweb.mmlab.be/ns/rml#
+dbo: https://dbpedia.org/ontology/
+dc: http://purl.org/dc/elements/1.1/
+ns: http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#
+owl: http://www.w3.org/2002/07/owl#
+rdfs: http://www.w3.org/2000/01/rdf-schema#
+foaf: http://xmlns.com/foaf/0.1/
+schema: https://schema.org/
+mappings:
+UniversityMapping:
+sources:
+  - [csv2/us-colleges-and-universities-modified.csv~csv]
+s: base:$(IPEDSID)
+po:
+  - [a, ns:University]
+  - [foaf:name, $(NAME)]
+  - [schema:latitude, $(LATITUDE)]
+  - [schema:longitude, $(LONGITUDE)]
+  - [dbo:city, https://dbpedia.org/page/$(CITY)]
+  - [ns:website, $(WEBSITE)]
+  - [owl:sameAs, https://dbpedia.org/page/$(NAME)]
+  - [dbo:country, https://dbpedia.org/page/$(COUNTRY)]
+  - [dbo:county, https://dbpedia.org/page/$(COUNTY)]
+  - [ns:state, $(STATE)]
