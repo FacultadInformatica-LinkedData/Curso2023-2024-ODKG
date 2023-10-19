@@ -12,7 +12,7 @@ WHERE {
 
 #Result: (rdflib.term.Literal('5127', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
 
-#The first 5 districts with street
+#The first 5 districts with no avenues
 SELECT (?Distrito as ?o)
 WHERE {
   ?Distrito rdf:type madridonc:Distrito;
@@ -28,8 +28,9 @@ WHERE {
 
 #Name of the restaurants in Salamanca district
 SELECT DISTINCT ?obj ?ndir WHERE {
-  ?loc madridonc:rotulo ?obj .
-  ?loc madridonc:perteneceADistrito ?dist .
+  ?loc rdf:type madridonc:Local ;
+       madridonc:rotulo ?obj ;
+       madridonc:perteneceADistrito ?dist .
   ?dist madridonc:nombreDistrito ?ndir
   FILTER(?ndir = "SALAMANCA")
 }
@@ -420,8 +421,9 @@ SELECT DISTINCT ?obj ?ndir WHERE {
 
 #Name of the restaurants and the street names
 SELECT DISTINCT ?obj ?ndir WHERE {
-  ?loc madridonc:rotulo ?obj .
-  ?loc madridonc:perteneceADistrito ?dist .
+  ?loc rdf:type madridonc:Local ;
+       madridonc:rotulo ?obj ;
+       madridonc:perteneceADistrito ?dist .
   ?dist madridonc:nombreCalle ?ndir.
 } LIMIT 4
 

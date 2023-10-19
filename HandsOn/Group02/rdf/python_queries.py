@@ -48,8 +48,9 @@ print("Q3")
 q3 = prepareQuery('''
     SELECT DISTINCT ?obj ?ndir 
     WHERE {
-        ?loc madridonc:rotulo ?obj .
-        ?loc madridonc:perteneceADistrito ?dist .
+        ?loc rdf:type madridonc:Local ;
+            madridonc:rotulo ?obj ;
+            madridonc:perteneceADistrito ?dist .
         ?dist madridonc:nombreDistrito ?ndir
         FILTER(?ndir = "SALAMANCA")
     }
@@ -63,9 +64,10 @@ print("Q4")
 q4 = prepareQuery('''
     SELECT DISTINCT ?obj ?ndir 
     WHERE {
-        ?loc madridonc:rotulo ?obj .
-        ?loc madridonc:perteneceADistrito ?dist .
-        ?dist madridonc:nombreCalle ?ndir.
+      ?loc rdf:type madridonc:Local ;
+      madridonc:rotulo ?obj ;
+      madridonc:perteneceADistrito ?dist .
+      ?dist madridonc:nombreCalle ?ndir.
     } LIMIT 4
   ''',
   initNs = { "madridonc": madridonc}
