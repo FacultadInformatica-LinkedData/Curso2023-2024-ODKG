@@ -7,7 +7,7 @@ g = Graph()
 
 print('Parse rdf')
 
-g.parse("rdf_with_rules.rml.ttl", format="ttl")
+g.parse("rdf_with_rules.ttl", format="ttl")
 
 '''print('Print rdf')
 print(g.serialize(format="ttl"))'''
