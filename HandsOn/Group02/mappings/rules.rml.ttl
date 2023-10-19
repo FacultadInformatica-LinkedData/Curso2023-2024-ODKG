@@ -2,8 +2,8 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix clase: <http://localizalocales.es/lcc/ontology/locales#>.
-@prefix clase2: <http://localizalocales.es/lcc/resource/>.
+@prefix clase: <http://madridalfresco.es/lcc/ontology/locales#>.
+@prefix clase2: <http://madridalfresco.es/lcc/resource/>.
 
 
 #############################################Local resource#############################################
@@ -13,7 +13,7 @@ clase2:Local
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://localizalocales.es/lcc/resource/Local/{id_local}";
+    rr:template "http://madridalfresco.es/lcc/resource/Local/{id_local}";
     rr:class clase:Local
   ];
 #####datatype properties
@@ -64,13 +64,13 @@ clase2:Local
   rr:predicateObjectMap [
     rr:predicate clase:tieneTerraza;
     rr:objectMap [
-       rr:template "http://localizalocales.es/lcc/resource/Terraza/{id_terraza}";
+       rr:template "http://madridalfresco.es/lcc/resource/Terraza/{id_terraza}";
     ]
   ];
  rr:predicateObjectMap [
     rr:predicate clase:perteneceADistrito;
     rr:objectMap [
-       rr:template "http://localizalocales.es/lcc/resource/Distrito/{id_distrito},{id_local}";
+       rr:template "http://madridalfresco.es/lcc/resource/Distrito/{id_distrito}";
     ]
   ].
 #####object properties
@@ -84,7 +84,7 @@ clase2:Terraza
   ];
 
   rr:subjectMap [
-    rr:template "http://localizalocales.es/lcc/resource/Terraza/{id_terraza}";
+    rr:template "http://madridalfresco.es/lcc/resource/Terraza/{id_terraza}";
     rr:class clase:Terraza
   ];
 #####datatype properties
@@ -92,21 +92,21 @@ clase2:Terraza
     rr:predicate clase:mesas;
     rr:objectMap [
       rml:reference "mesas";
-      rr:datatype xsd:int
+      rr:datatype xsd:integer
     ]
   ];
   rr:predicateObjectMap [
     rr:predicate clase:sillas;
     rr:objectMap [
       rml:reference "sillas";
-      rr:datatype xsd:int
+      rr:datatype xsd:integer
     ]
   ];
   rr:predicateObjectMap [
     rr:predicate clase:superficie;
     rr:objectMap [
       rml:reference "superficie";
-      rr:datatype xsd:int
+      rr:datatype xsd:float
     ]
   ];
 #####datatype properties
@@ -114,7 +114,7 @@ clase2:Terraza
   rr:predicateObjectMap [
     rr:predicate clase:perteneceALocal;
     rr:objectMap [
-       rr:template "http://localizalocales.es/lcc/resource/Local/{id_local}";
+       rr:template "http://madridalfresco.es/lcc/resource/Local/{id_local}";
     ]
   ].
 #####object properties
@@ -127,7 +127,7 @@ clase2:Distrito
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "http://localizalocales.es/lcc/resource/Distrito/{id_distrito},{id_local}";
+    rr:template "http://madridalfresco.es/lcc/resource/Distrito/{id_distrito}";
     rr:class clase:Distrito
   ];
 #####datatype properties
