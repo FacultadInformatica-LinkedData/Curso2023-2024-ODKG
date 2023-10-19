@@ -1,0 +1,117 @@
+ @prefix : <http://grupo12_open_data.org#> .
+@prefix datex: <http://datex.org/> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gp: <http://grupo12_open_data.org#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org#> .
+
+: a owl:Ontology ;
+    dc:creator "grupo_12" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Ontology parkings" ;
+    owl:versionInfo "0.0.1" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+
+gp:average_price a owl:DatatypeProperty ;
+    rdfs:label "average_price" ;
+    rdfs:domain schema:ParkingFacility .
+
+gp:end_concession a owl:DatatypeProperty ;
+    rdfs:label "end_concession" ;
+    rdfs:domain mv:ParkingSpace .
+
+gp:estimationDate a owl:DatatypeProperty ;
+    rdfs:label "estimation date" ;
+    rdfs:domain schema:PriceSpecification .
+
+gp:id_parking a owl:DatatypeProperty ;
+    rdfs:label "id_parking" ;
+    rdfs:domain mv:ParkingSpace .
+
+gp:level a owl:DatatypeProperty ;
+    rdfs:label "level" ;
+    rdfs:domain mv:ParkingSpace .
+
+mv:rateOfOccupancy a owl:DatatypeProperty ;
+    rdfs:label "rate of occupancy" ;
+    rdfs:domain datex:ParkingOccupancy .
+
+schema:additionalType a owl:DatatypeProperty ;
+    rdfs:label "additional type" ;
+    rdfs:domain schema:ParkingFacility .
+
+schema:identifier a owl:DatatypeProperty ;
+    rdfs:label "identifier" ;
+    rdfs:domain schema:ParkingFacility .
+
+schema:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain schema:ParkingFacility .
+
+dbpedia-owl:codeDistrict a owl:DatatypeProperty ;
+    rdfs:label "code district" ;
+    rdfs:domain dbpedia-owl:District .
+
+dbpedia-owl:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain datex:ParkingOccupancy .
+
+dbpedia-owl:numberOfParkingSpaces a owl:DatatypeProperty ;
+    rdfs:label "number of parking spaces" ;
+    rdfs:domain schema:ParkingFacility .
+
+dbpedia-owl:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain datex:ParkingOccupancy .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+gp:parkingSpace a owl:ObjectProperty ;
+    rdfs:label "parking space" ;
+    rdfs:domain schema:ParkingFacility ;
+    rdfs:range mv:ParkingSpace .
+
+gp:hasOccupancy a owl:ObjectProperty ;
+    rdfs:label "has occupancy" ;
+    rdfs:domain schema:ParkingFacility ;
+    rdfs:range datex:ParkingOccupancy .
+
+schema:price a owl:ObjectProperty ;
+    rdfs:label "price" ;
+    rdfs:domain mv:ParkingSpace ;
+    rdfs:range schema:PriceSpecification .
+
+dbpedia-owl:district a owl:ObjectProperty ;
+    rdfs:label "district" ;
+    rdfs:domain schema:ParkingFacility ;
+    rdfs:range dbpedia-owl:District .
+
+#################################################################
+#    Classes
+#################################################################
+
+schema:PriceSpecification a owl:Class ;
+    rdfs:label "Price Specification" .
+
+dbpedia-owl:District a owl:Class ;
+    rdfs:label "District" .
+
+datex:ParkingOccupancy a owl:Class ;
+    rdfs:label "Parking Occupancy" .
+
+mv:ParkingSpace a owl:Class ;
+    rdfs:label "Parking Space" .
+
+schema:ParkingFacility a owl:Class ;
+    rdfs:label "Parking Facility" .
+
