@@ -1,0 +1,5 @@
+##Query 1. Select all the possible values of the property dbo:city of the entities that belong to class n:University
+SELECT ?value WHERE {
+        ?individual dbo:city ?value .
+        ?individual rdf:type ns:University.
+    }    

@@ -19,9 +19,16 @@ po:
   - [foaf:name, $(NAME)]
   - [schema:latitude, $(LATITUDE)]
   - [schema:longitude, $(LONGITUDE)]
-  - [dbo:city, https://dbpedia.org/page/$(CITY)]
+  - [
+      dbo:city,
+      http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#$(CITY),
+    ]
   - [ns:website, $(WEBSITE)]
-  - [owl:sameAs, https://dbpedia.org/page/$(NAME)]
-  - [dbo:country, https://dbpedia.org/page/$(COUNTRY)]
-  - [dbo:county, https://dbpedia.org/page/$(COUNTY)]
-  - [ns:state, $(STATE)]
+  - [
+      dbo:country,
+      http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#$(COUNTRY),
+    ]
+  - [
+      ns:state,
+      http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#$(STATE),
+    ]

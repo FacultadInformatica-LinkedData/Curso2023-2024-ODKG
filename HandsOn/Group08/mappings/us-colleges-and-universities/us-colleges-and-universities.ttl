@@ -9,9 +9,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <https://schema.org/> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
 
 <#UniversityMapping>
  rml:logicalSource [ 
@@ -21,77 +19,58 @@
  rr:subjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{IPEDSID}";
-    rr:termType rr:IRI;
-    rr:class ns:University;
+    rr:termType rr:IRI; 
+    rr:class ns:University
   ];
   rr:predicateObjectMap [ 
   rr:predicate foaf:name; 
   rr:objectMap [ 
   rml:reference "NAME"; 
- rr:termType rr:Literal;
- rr:datatype xsd:string;
- ] 
-  ];
-     rr:predicateObjectMap [ 
-  rr:predicate rdf:type; 
-  rr:objectMap [ 
-   rr:constant ns:University;
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
  ] 
   ];
   rr:predicateObjectMap [ 
   rr:predicate schema:latitude; 
   rr:objectMap [ 
   rml:reference "LATITUDE"; 
- rr:termType rr:Literal;
- rr:datatype xsd:string;
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
  ] 
   ];
   rr:predicateObjectMap [ 
-  rr:predicate schema:longitude;
+  rr:predicate schema:longitude; 
   rr:objectMap [ 
-  rml:reference "LONGITUDE";
- rr:termType rr:Literal;
+  rml:reference "LONGITUDE"; 
+ rr:termType rr:Literal ;
  rr:datatype xsd:string
  ] 
   ];
   rr:predicateObjectMap [ 
   rr:predicate dbo:city; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{CITY}";
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{CITY}"; 
 ] 
 ];
 rr:predicateObjectMap [ 
-  rr:predicate ns:Website;
+  rr:predicate ns:website; 
   rr:objectMap [ 
   rml:reference "WEBSITE";
   rr:termType rr:Literal;
   rr:datatype xsd:string
 ] 
 ];
+
 rr:predicateObjectMap [ 
-  rr:predicate owl:sameAs;
+  rr:predicate dbo:country; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{NAME}";
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{COUNTRY}"; 
 ] 
 ];
-rr:predicateObjectMap [ 
-  rr:predicate dbo:country;
-  rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{COUNTRY}";
-] 
-];
+
 rr:predicateObjectMap [
-  rr:predicate dbo:county; 
+  rr:predicate dbo:state; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{COUNTY}";
-] 
-];
-rr:predicateObjectMap [
-  rr:predicate ns:state; 
-  rr:objectMap [ 
-    rml:reference "WEBSITE";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string;
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{STATE}"
 ] 
 ].
- 

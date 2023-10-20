@@ -48,7 +48,7 @@
   rr:predicateObjectMap [ 
   rr:predicate dbo:city; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{CITY}"; 
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{CITY}"; 
 ] 
 ];
 rr:predicateObjectMap [ 
@@ -59,29 +59,17 @@ rr:predicateObjectMap [
   rr:datatype xsd:string
 ] 
 ];
-rr:predicateObjectMap [ 
-  rr:predicate owl:sameAs; 
-  rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{NAME}"; 
-] 
-];
+
 rr:predicateObjectMap [ 
   rr:predicate dbo:country; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{COUNTRY}"; 
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{COUNTRY}"; 
 ] 
 ];
+
 rr.predicateObjectMap [
-  rr:predicate dbo:county; 
+  rr:predicate dbo:state; 
   rr:objectMap [ 
-  rr:template "https://dbpedia.org/page/{COUNTY}"; 
-] 
-];
-rr.predicateObjectMap [
-  rr:predicate ns:state; 
-  rr:objectMap [ 
-    rml:reference "WEBSITE";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{STATE}"
 ] 
 ];
