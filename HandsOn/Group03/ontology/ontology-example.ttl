@@ -12,7 +12,7 @@
 #Neighborhood 
 <http://vidaactivamadrid.es/info/ontology/Neighborhood> a ns:Neighborhood;
     ns:name "EL PILAR"^^xsd:string;
-    ns:isSubclassOf <http://vidaactivamadrid.es/info/ontology/District/FUENCARRAL-EL%20PARDO> .
+    ns:isInDistrict <http://vidaactivamadrid.es/info/ontology/District/FUENCARRAL-EL%20PARDO> .
 
 
 #Address

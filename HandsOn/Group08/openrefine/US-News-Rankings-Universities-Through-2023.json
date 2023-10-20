@@ -1,0 +1,541 @@
+[
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "IPEDS ID",
+      "2023",
+      "2022",
+      "2021",
+      "2020",
+      "2019",
+      "2018",
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010",
+      "2009",
+      "2008",
+      "2007",
+      "2006",
+      "2005",
+      "2004",
+      "2003",
+      "2002",
+      "2001",
+      "2000",
+      "1999",
+      "1998",
+      "1997",
+      "1996",
+      "1995",
+      "1994",
+      "1993",
+      "1992",
+      "1991",
+      "1990",
+      "1989",
+      "1988",
+      "1986",
+      "1984"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2023",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2023 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2019",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2019 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2020",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2020 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2022",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2022 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2018",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2018 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2021",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2021 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2014",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2014 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2015",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2015 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2016",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2016 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2017",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2017 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2009",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2009 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2010",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2010 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2011",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2011 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2012",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2012 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2013",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2013 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2004",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2004 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2005",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2005 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2006",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2006 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2007",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2007 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2008",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2008 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1999",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1999 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2000",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2000 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2001",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2001 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2002",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2002 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "2003",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 2003 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1995",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1995 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1996",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1996 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1997",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1997 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1998",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1998 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1991",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1991 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1992",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1992 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1993",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1993 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1994",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1994 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1986",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1986 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1988",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1988 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1989",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1989 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1990",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1990 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "1984",
+    "expression": "jython:if value == None:\n return \">150\"\nelse:\n return value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 1984 using expression jython:if value == None:\n return \">150\"\nelse:\n return value"
+  }
+]
