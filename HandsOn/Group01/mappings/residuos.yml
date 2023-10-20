@@ -1,0 +1,61 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://example.org#
+  nso: http://madridwastemanagement.org/group01/ontology/
+  
+mappings:
+  zonemap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Zone/$(Zone)
+    po:
+      - [a, nso:Zone]
+      - [nso:zoneID,$(Zone)~xsd:integer]
+      - [vocab:property3,$(integer-column),xsd:integer]
+      - p: nso:hasDistrict
+        o:
+          mapping: districtmap
+
+  districtmap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/District/$(District)
+    po:
+      - [a, nso:District]
+      - [nso:districtID,$(District),xsd:integer]
+      - p: nso:hasResidue
+        o:
+          mapping: wastetypemap
+
+    wastetypemap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/WasteType/$(WasteType)
+    po:
+      - [a, nso:WasteType]
+      - [nso:wasteName,$(WasteType),xsd:string]
+      - p: nso:hasTotal
+        o:
+          mapping: totalmap
+
+    totalmap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Total/$(Total)_$(WasteType))_$(District)_$(Year)_$(Month)
+    po:
+      - [a, nso:Total]
+      - [nso:value,$(Total),xsd:float]
+      - [nso:year,$(Year),xsd:integer]
+      - [nso:month,$(Month),xsd:string]
+      - p: nso:referedTo
+        o:
+          mapping: districtmap
