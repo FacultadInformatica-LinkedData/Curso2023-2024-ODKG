@@ -32,10 +32,12 @@ mappings:
     po:
       - [a, nso:District]
       - [nso:districtID,$(District),xsd:integer]
-      - [nso:districtName,$(Name),xsd:string]
       - p: nso:hasResidue
         o:
           mapping: wastetypemap
+      - p: nso:districtName
+        o:
+          mapping: namemap
 
   wastetypemap:
     sources:
@@ -51,12 +53,40 @@ mappings:
   totalmap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/Total/$(Total)_$(WasteType)_$(District)_$(Year)_$(Month)
+    s: http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)
     po:
       - [a, nso:Total]
       - [nso:value,$(Total),xsd:float]
-      - [nso:year,$(Year),xsd:integer]
-      - [nso:month,$(Month),xsd:string]
       - p: nso:referedTo
         o:
           mapping: districtmap
+      - p: nso:hasYear
+        o:
+          mapping: yearmap
+      - p: nso:hasMonth
+        o:
+          mapping: monthmap
+
+  namemap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Name/$(Name)
+    po:
+      - [a, nso:Name]
+      - [nso:value,$(Name),xsd:string]
+
+  yearmap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Year/$(Year)
+    po:
+      - [a, nso:Year]
+      - [nso:value,$(Year),xsd:integer]
+
+  monthmap:
+    sources:
+      - [Residuos_2021_2023-updated.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Month/$(Month)
+    po:
+      - [a, nso:Year]
+      - [nso:value,$(Year),xsd:string]
