@@ -21,7 +21,6 @@ mappings:
     po:
       - [a, nso:Zone]
       - [nso:zoneID,$(Zone),xsd:integer]
-      - [vocab:property3,$(integer-column),xsd:integer]
       - p: nso:hasDistrict
         o:
           mapping: districtmap
