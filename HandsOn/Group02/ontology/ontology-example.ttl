@@ -7,15 +7,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # Instance Terraza
-<rec:Terraza/7>
+<rec:Terraza/A7.2_S10_M5_I7>
 	rdf:type owl:Terraza ;
 	:numeroMesasAutorizadas 5 ;
 	:numeroSillasAutorizadas 10 ;
 	:superficie 7,2 ;
-	:perteneceALocal <rec:Local/280067128> .
+	:perteneceALocal <rec:Local/SR-X448901Y-4474755> .
 
 # Instance Local
-<rec:Local/280067128>
+<rec:Local/S_X448901Y_4474755>
 	rdf:type owl:Local ;
 	:rotulo "SR" ;
 	:tieneTerraza 7 ;
@@ -24,12 +24,12 @@
 	:horaApertura 10:00:00 ;
 	:horaCierre 00:00:00 ;
 	:situacion "Abierto" ;
-	:perteneceADistrito <rec:idDistrito/20> .
+	:perteneceADistrito <rec:Distrito/SBC> .
 
 # Instance Distrito
-<rec:Distrito/20>
+<rec:Distrito/SBC>
 	rdf:type owl:Distrito;
-	:distrito "SAN BLAS-CANILLEJAS " ;
+	:nombreDistrito "SAN BLAS-CANILLEJAS " ;
 	:barrio "ORCASITAS" ;
 	:tipoVia "PLAZA" ;
 	:nombreCalle "MIL DELEGADOS" ;
