@@ -50,6 +50,11 @@ clase:nombreCalle a owl:DatatypeProperty ;
     rdfs:domain clase:Distrito ;
     rdfs:range xsd:string .
 
+clase:nombreDistrito a owl:DatatypeProperty ;
+    rdfs:label "nombre distrito" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:string .
+
 clase:perteneceADistrito a owl:ObjectProperty ;
     rdfs:label "pertenece a distrito" ;
     rdfs:domain clase:Local ;
