@@ -1,0 +1,111 @@
+@prefix clase: <http://madridalfresco.es/lcc/ontology/locales#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clase: a owl:Ontology ;
+    dc:creator "Group02" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "HandsOn2" ;
+    owl:versionInfo "0.0.1" .
+
+clase:barrio a owl:DatatypeProperty ;
+    rdfs:label "barrio" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:string .
+
+clase:codPostal a owl:DatatypeProperty ;
+    rdfs:label "cod postal" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:integer .
+
+clase:coordenadaX a owl:DatatypeProperty ;
+    rdfs:label "coordenada x" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:float .
+
+clase:coordenadaY a owl:DatatypeProperty ;
+    rdfs:label "coordenada y" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:float .
+
+clase:horaApertura a owl:DatatypeProperty ;
+    rdfs:label "hora apertura" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:time .
+
+clase:horaCierre a owl:DatatypeProperty ;
+    rdfs:label "hora cierre" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:time .
+
+clase:mesas a owl:DatatypeProperty ;
+    rdfs:label "mesas" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:integer .
+
+clase:nombreCalle a owl:DatatypeProperty ;
+    rdfs:label "nombre calle" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:string .
+
+clase:nombreDistrito a owl:DatatypeProperty ;
+    rdfs:label "nombre distrito" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:string .
+
+clase:perteneceADistrito a owl:ObjectProperty ;
+    rdfs:label "pertenece a distrito" ;
+    rdfs:domain clase:Local ;
+    rdfs:range clase:Distrito .
+
+clase:perteneceALocal a owl:ObjectProperty ;
+    rdfs:label "pertenece a local" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range clase:Local .
+
+clase:portal a owl:DatatypeProperty ;
+    rdfs:label "portal" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:integer .
+
+clase:rotulo a owl:DatatypeProperty ;
+    rdfs:label "rotulo" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:string .
+
+clase:sillas a owl:DatatypeProperty ;
+    rdfs:label "sillas" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:integer .
+
+clase:situacion a owl:DatatypeProperty ;
+    rdfs:label "situacion" ;
+    rdfs:domain clase:Local ;
+    rdfs:range xsd:string .
+
+clase:superficie a owl:DatatypeProperty ;
+    rdfs:label "superficie" ;
+    rdfs:domain clase:Terraza ;
+    rdfs:range xsd:float .
+
+clase:tieneTerraza a owl:ObjectProperty ;
+    rdfs:label "tiene terraza" ;
+    rdfs:domain clase:Local ;
+    rdfs:range clase:Terraza .
+
+clase:tipoVia a owl:DatatypeProperty ;
+    rdfs:label "tipo via" ;
+    rdfs:domain clase:Distrito ;
+    rdfs:range xsd:string .
+
+clase:Terraza a owl:Class ;
+    rdfs:label "Terraza" .
+
+clase:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
+clase:Local a owl:Class ;
+    rdfs:label "Local" .
+

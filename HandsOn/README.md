@@ -26,3 +26,6 @@ This is the directory where students have to upload their materials related to t
 * /ontology/*.ttl - An OWL file (using the Turtle syntax) with the ontology developed, according to the resource naming strategy defined.
 * /ontology/*-example.ttl - An RDF file with a sample instantiation of the ontology, following the resource naming strategy, and using the Turtle syntax.
 * /selfAssessmentHandsOn2.md - A Markdown document with the hands-on 2 self-assessment
+* /openrefine/*.json - A JSON file with the operations performed over the data for fixing and transforming them.
+* /csv/*-updated.csv - An CSV file with the updated versions of the datasets.
+* /selfAssessmentHandsOn3.md - A Markdown document with the hands-on 3 self-assessment.

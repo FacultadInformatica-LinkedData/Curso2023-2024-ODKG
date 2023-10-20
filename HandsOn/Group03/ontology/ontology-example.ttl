@@ -1,0 +1,49 @@
+@prefix data: <http://vidaactivamadrid.es/info/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://vidaactivamadrid.es/info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#District
+<http://vidaactivamadrid.es/info/ontology/District> a ns:District;
+    ns:name "FUENCARRAL-EL PARDO"^^xsd:string .
+
+#Neighborhood 
+<http://vidaactivamadrid.es/info/ontology/Neighborhood> a ns:Neighborhood;
+    ns:name "EL PILAR"^^xsd:string;
+    ns:isInDistrict <http://vidaactivamadrid.es/info/ontology/District/FUENCARRAL-EL%20PARDO> .
+
+
+#Address
+<http://vidaactivamadrid.es/info/ontology/Address> a ns:Address;
+    ns:name "Paseo Vaguada 13"^^xsd:string;
+    ns:zipCode "28029"^^xsd:string;
+    ns:latitude "40.48016602"^^xsd:string;
+    ns:longitude "-3.711297805"^^xsd:string;
+    ns:isInNeighborhood <http://vidaactivamadrid.es/info/ontology/Neighborhood/EL%20PILAR> .
+
+#Facility 
+<http://vidaactivamadrid.es/info/ontology/Facility> a ns:Facility;
+    ns:name "Auditorio al aire libre Parque de la Vaguada"^^xsd:string;
+    ns:accessibility "0"^^xsd:string;
+    ns:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e537b503a71c010VgnVCM1000000b205a0aRCRD";
+    ns:hasAddress <http://vidaactivamadrid.es/info/ontology/Address/Paseo%20Vaguada%2013> .
+
+#Activity
+<http://vidaactivamadrid.es/info/ontology/Activity> a ns:Activity;
+    ns:name "Baile con la ORQUESTA DIAMANTE"^^xsd:string;
+    ns:longEvent "0"^^xsd:boolean;
+    ns:dayOfWeek "D"^^xsd:string;
+    ns:startDate "2023-10-12 0:00:00"^^xsd:dateTime;
+    ns: endDate "2023-10-12 23:59:00"^^xsd:dateTime;
+    ns:time "20:00"^^xsd:string;
+    ns:description "Baile"^^xsd:string;
+    ns:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e40ff514d86fa810VgnVCM1000001d4a900aRCRD ";
+    ns:typeOfActivity "Fiestas"^^xsd:string;
+    ns:TakesPlaceIn <http://vidaactivamadrid.es/info/ontology/Facility/Auditorio%20al%20aire%20libre%20Parque%20de%20la%20Vaguada> .
+ 
+#Park
+<http://vidaactivamadrid.es/info/ontology/Park> a ns:Park;
+    ns:name "PARQUE DE LA VAGUADA"^^xsd:string;
+    ns:isInNeighborhood <http://vidaactivamadrid.es/info/ontology/Neighborhood/EL%20PILAR> .
