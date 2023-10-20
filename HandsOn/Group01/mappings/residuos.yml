@@ -19,7 +19,7 @@ mappings:
     s: http://madridwastemanagement.org/group01/data/Zone/$(Zone)
     po:
       - [a, nso:Zone]
-      - [nso:zoneID,$(Zone)~xsd:integer]
+      - [nso:zoneID,$(Zone),xsd:integer]
       - [vocab:property3,$(integer-column),xsd:integer]
       - p: nso:hasDistrict
         o:
