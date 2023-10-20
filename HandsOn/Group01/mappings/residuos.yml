@@ -33,6 +33,7 @@ mappings:
     po:
       - [a, nso:District]
       - [nso:districtID,$(District),xsd:integer]
+      - [nso:districtName,$(Name),xsd:string]
       - p: nso:hasResidue
         o:
           mapping: wastetypemap
