@@ -378,5 +378,65 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Sin descripción\", value)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EVENTO LARGO",
+    "newColumnName": "EVENTO_LARGO",
+    "description": "Rename column EVENTO LARGO to EVENTO_LARGO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIAS DE SEMANA",
+    "newColumnName": "DIAS_DE_SEMANA",
+    "description": "Rename column DIAS DE SEMANA to DIAS_DE_SEMANA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA INICIO",
+    "newColumnName": "FECHA_INICIO",
+    "description": "Rename column FECHA INICIO to FECHA_INICIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA FIN",
+    "newColumnName": "FECHA_FIN",
+    "description": "Rename column FECHA FIN to FECHA_FIN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URL CONTENIDO",
+    "newColumnName": "URL_CONTENIDO",
+    "description": "Rename column URL CONTENIDO to URL_CONTENIDO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INSTALACION URL",
+    "newColumnName": "INSTALACION_URL",
+    "description": "Rename column INSTALACION URL to INSTALACION_URL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE INSTALACION",
+    "newColumnName": "NOMBRE_INSTALACION",
+    "description": "Rename column NOMBRE INSTALACION to NOMBRE_INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ACCESIBILIDAD INSTALACION",
+    "newColumnName": "ACCESIBILIDAD_INSTALACION",
+    "description": "Rename column ACCESIBILIDAD INSTALACION to ACCESIBILIDAD_INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO POSTAL",
+    "newColumnName": "CODIGO_POSTAL",
+    "description": "Rename column CODIGO POSTAL to CODIGO_POSTAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE ACTIVIDAD",
+    "newColumnName": "TIPO_DE_ACTIVIDAD",
+    "description": "Rename column TIPO DE ACTIVIDAD to TIPO_DE_ACTIVIDAD"
   }
 ]
