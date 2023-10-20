@@ -13,6 +13,7 @@ prefixes:
   nso: http://madridwastemanagement.org/group01/ontology/
   
 mappings:
+
   zonemap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
@@ -36,7 +37,7 @@ mappings:
         o:
           mapping: wastetypemap
 
-    wastetypemap:
+  wastetypemap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
     s: http://madridwastemanagement.org/group01/data/WasteType/$(WasteType)
@@ -47,7 +48,7 @@ mappings:
         o:
           mapping: totalmap
 
-    totalmap:
+  totalmap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
     s: http://madridwastemanagement.org/group01/data/Total/$(Total)_$(WasteType)_$(District)_$(Year)_$(Month)
