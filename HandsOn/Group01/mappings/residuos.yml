@@ -50,7 +50,7 @@ mappings:
     totalmap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/Total/$(Total)_$(WasteType))_$(District)_$(Year)_$(Month)
+    s: http://madridwastemanagement.org/group01/data/Total/$(Total)_$(WasteType)_$(District)_$(Year)_$(Month)
     po:
       - [a, nso:Total]
       - [nso:value,$(Total),xsd:float]
