@@ -1,0 +1,7 @@
+Sea ha cambiado en python la estructura del csv "US-News-Rankings-Universities-Through-2023-updated" 
+y "US-News-Rankings-Liberal-Arts-Colleges-Through-2023-updated" 
+para que coincida con la ontología previamente definida.Además, a ambos csv les hemos cambiado el
+nombre de la columna "IPEDS ID" a "IPEDSID".
+
+Comando para modificar estructura csv:
+df.melt(id_vars=['IPEDS ID'], var_name='Year', value_name='Ranking')
