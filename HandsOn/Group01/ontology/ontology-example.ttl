@@ -10,7 +10,7 @@
 <http://madridwastemanagement.org/group01/data/WasteType/Paper> a nso: WasteType;
  rdfs:label "WasteType"^^xsd:string;
  nso:wasteName "Paper"^^xsd:string;
- nso:hasTotal <http://madridwastemanagement.org/group01/data/Total/320.59_Paper_1_2021_January>.
+ nso:hasTotal <http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January>.
 
 #District
 <http://madridwastemanagement.org/group01/data/District/1> a nso: District;
@@ -20,7 +20,7 @@
  nso: hasResidue <http://madridwastemanagement.org/group01/data/WasteType/Paper>.
 
 #Total
-<http://madridwastemanagement.org/group01/data/Total/320.59_Paper_1_2021_January> a nso: Total;
+<http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January> a nso: Total;
  rdfs:label "Total"^^xsd:string;
  nso:value "320,59"^^xsd:float;
  nso:year "2021"^^xsd:integer;
