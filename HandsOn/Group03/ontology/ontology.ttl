@@ -16,7 +16,7 @@ ns:accessibility a owl:DatatypeProperty ;
 
 ns:contentURL a owl:DatatypeProperty ;
     rdfs:label "content u r l" ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:anyURI .
 
 ns:dayOfWeek a owl:DatatypeProperty ;
     rdfs:label "day of week" ;
@@ -32,7 +32,7 @@ ns:endDate a owl:DatatypeProperty ;
 
 ns:facilityURL a owl:DatatypeProperty ;
     rdfs:label "facility u r l" ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:anyURI .
 
 ns:hasAddress a owl:ObjectProperty ;
     rdfs:label "has address" ;
@@ -52,7 +52,7 @@ ns:isInNeighborhood a owl:ObjectProperty ;
 
 ns:latitude a owl:DatatypeProperty ;
     rdfs:label "latitude" ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:double .
 
 ns:longEvent a owl:DatatypeProperty ;
     rdfs:label "long event" ;
@@ -60,7 +60,7 @@ ns:longEvent a owl:DatatypeProperty ;
 
 ns:longitude a owl:DatatypeProperty ;
     rdfs:label "longitude" ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:double .
 
 ns:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
