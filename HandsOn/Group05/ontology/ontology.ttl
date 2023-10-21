@@ -39,7 +39,7 @@
 #################################################################
 
 ###   http://healthcentersmadrid.es/locations/ontology/ont#name
-:pk rdf:type owl:DatatypeProperty ;
+:name rdf:type owl:DatatypeProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range xsd:string .
 
