@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17573f33-eab7-4eeb-905c-5166aa949c9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mappings/residuos.rml.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/mappings/residuos.rml.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mappings/residuos.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mappings/residuos.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ontology/ontology-example.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ontology/ontology-example.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ontology/ontology.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/ontology/ontology.ttl" afterDir="false" />
-    </list>
+    <list default="true" id="17573f33-eab7-4eeb-905c-5166aa949c9e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +64,7 @@
       <updated>1697814869068</updated>
       <workItem from="1697814870200" duration="751000" />
       <workItem from="1697815652321" duration="20518000" />
-      <workItem from="1697843203946" duration="7382000" />
+      <workItem from="1697843203946" duration="7735000" />
     </task>
     <servers />
   </component>
