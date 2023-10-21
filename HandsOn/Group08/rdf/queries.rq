@@ -1,5 +1,19 @@
-##Query 1. Select all the possible values of the property dbo:city of the entities that belong to class n:University
+## Query 1. Select all the possible values of the property dbo:city of the entities that belong to class n:University
 SELECT ?value WHERE {
         ?individual dbo:city ?value .
         ?individual rdf:type ns:University.
+    }    
+## Query 2 : Select all the values and years of all the Liberal Arts Colleges
+  SELECT ?value ?year WHERE {
+        ?ranking ns:score ?value.
+        ?ranking ns:yearPublished ?year.
+        ?individual ns:hasLiberalArtsRanking  ?ranking .
+        ?individual rdf:type ns:University.
+    }    
+
+## Query 3: Select the values of admission rate of all the entities of type University
+SELECT ?value WHERE {
+        ?individual rdf:type ns:University.
+        ?individual ns:hasAdmisionRate ?rate .
+        ?rate ns:value ?value
     }    

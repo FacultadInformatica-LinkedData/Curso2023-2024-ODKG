@@ -1,7 +1,6 @@
-ns:HarvardScore a ns:Score ;
+ns:HarvardScore a ns:LiberalArtsRanking ;
     ns:yearPublished "2023" ;
-    ns:score 3 ;
-    ns:publisher "" .
+    ns:score 3 .
 
 ns:HarvardEnrollmentRate a ns:EnrollmentRate ;
     ns:totalEnrolled 1559;
@@ -22,6 +21,6 @@ ns:Harvard a ns:University ;
     ns:country ns:United States;
     ns:hasRate ns:HarvardEnrollmentRate ;
     ns:hasRate ns:HarvardAdmissionRate;
-    ns:hasRanking ns:HarvardScore .
+    ns:hasRanking ns:HarvardRanking .
     schema:latitude 48.515148421
     schema:longitude 87.23564818
