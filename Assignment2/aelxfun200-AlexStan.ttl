@@ -3,18 +3,29 @@
 @prefix vocab_2: <http://www.oeg-upm.net/ontologies/class/sensor#> .
 @prefix vocab_3: <http://www.oeg-upm.net/ontologies/class/measurement#> .
 @prefix vocab_4: <http://www.oeg-upm.net/ontologies/class/user#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-:Class01	vocab_2:includes :Sensor029 ;
-			vocab_1:includes :Computer101 .
+<#class01>	
+	vocab_2:includes <#Sensor029> ;
+	foaf:name "Class01" ;
+	vocab_1:includes <#Computer101> .
 
-vocab_2:Sensor029 vocab_3:hasMeasurement Measurement8401 .
+<#Sensor029> 
+	vocab_3:hasMeasurement <#Measurement8401> ;
+	foaf:name "Sensor029" .
 
-vocab_3:Measurement8401 vocab_3:hasTemperature "29"^^xsd:decimal ;
-						vocab_3:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+<#Measurement8401> 
+	vocab_3:hasTemperature "#29" ;
+	foaf:name "Measurement8401" ;
+	vocab_3:atTime "#2010-06-12T12:00:12".
 
-vocab_1:Computer101 vocab_4:hasOwner User10A .
+<#Computer101> 
+	vocab_4:hasOwner <#User10A> ;
+	foaf:name "Computer101" .
 
-vocab_4:User10A vocab_4:hasName "Pedro"^^xsd:string .
+<#User10A> 
+	vocab_4:hasName "Pedro" ;
+	foaf:name "User10A" .
 
 
 		 

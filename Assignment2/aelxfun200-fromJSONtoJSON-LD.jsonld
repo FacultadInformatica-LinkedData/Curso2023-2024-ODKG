@@ -1,0 +1,36 @@
+{
+	"@context":{
+			"student": "http://www.oeg-upm.net/ontologies/person/",
+			"parents": "http://www.oeg-upm.net/ontologies/person/parents#",
+			"subjects": "http://www.oeg-upm.net/ontologies/subjects#",
+			"hometown": "http://www.oeg-upm.net/ontologies/hometown#",
+			"alma_mater": "http://www.oeg-upm.net/ontologies/universities#",
+			"name": "rdfs:label",
+			"age": "http://www.oeg-upm.net/ontologies/person/age#",
+
+			"title": "subjects:title",
+			"teachers": "subjects:teachers",
+			"description": "subjects:comment",
+			"country": "hometown:country"
+	},
+	"@id":"http://www.oeg-upm.net/ontologies/person/z170201",
+	"@type":"student:person",
+	"hometown":{
+		"@id":"http://www.oeg-upm.net/ontologies/Oradea",
+		"@type":"hometown:city",
+		"country": "Romania"
+	},
+	"age":"21",
+	"alma_mater":{
+		"@id":"http://www.oeg-upm.net/ontologies/universities/PolitecnicadeMadrid",
+		"@type":"alma_mater:Name"
+	},
+	"parents":["Nico","Flor"],
+	"subjects":{
+			"@id":"http://www.oeg-upm.net/ontologies/subjects/SemanticWeb",
+			"@type":"subjects:name",
+			"teachers":["Oscar", "David", "Paola"],
+			"description":"The subject is about how data is conected in the Web"
+	}
+
+}
