@@ -84,8 +84,8 @@
         rdfs:range xsd:string .
 
 
-###  http://healthcentersmadrid.es/locations/ontology/ont#neighborhood
-:neighborhood rdf:type owl:DatatypeProperty ;
+###  http://healthcentersmadrid.es/locations/ontology/ont#neighbourhood
+:neighbourhood rdf:type owl:DatatypeProperty ;
         rdfs:domain :Address ;
         rdfs:range xsd:string .
 
