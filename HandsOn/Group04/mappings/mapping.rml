@@ -12,8 +12,55 @@
 @prefix v: <http://rdf.data-vocabulary.org/#> .
 @prefix schema: <http://schema.org/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix vocab: <http://www.madculturalevents.es/group04/resources/> .
 @prefix group04: <http://www.madculturalevents.es/group04/ontology/madculturalevents#> .
+
+map:jc_000 rr:child "ID-EVENTO" ;
+	rr:parent "ID-EVENTO" .
+
+map:jc_001 rr:child "ID-EVENTO" ;
+	rr:parent "ID-EVENTO" .
+
+map:jc_002 rr:child "NOMBRE-INSTALACION" ;
+	rr:parent "NOMBRE" .
+
+map:jc_003 rr:child "NOMBRE-INSTALACION" ;
+	rr:parent "NOMBRE" .
+
+map:jc_004 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_005 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_006 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_007 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_008 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_009 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_010 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_011 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_012 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_013 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_014 rr:child "PK" ;
+	rr:parent "PK" .
+
+map:jc_015 rr:child "PK" ;
+	rr:parent "PK" .
 
 map:map_Address_000 rml:logicalSource map:source_007 ;
 	rdf:type rr:TriplesMap ;
@@ -85,208 +132,253 @@ map:om_000 rdf:type rr:ObjectMap ;
 	rr:constant group04:CulturalEvent ;
 	rr:termType rr:IRI .
 
-map:om_001 rdf:type rr:ObjectMap ;
-	rr:template "{DESCRIPCION}xsd:string" ;
+map:om_001 rml:reference "DESCRIPCION" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_002 rdf:type rr:ObjectMap ;
-	rr:template "{GRATUITO}xsd:boolean" ;
+map:om_002 rml:reference "GRATUITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_003 rdf:type rr:ObjectMap ;
-	rr:template "{FECHA}xsd:dateTime" ;
+map:om_003 rml:reference "FECHA" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:dateTime ;
 	rr:termType rr:Literal .
 
-map:om_004 rdf:type rr:ObjectMap ;
-	rr:template "{FECHA-FIN}xsd:dateTime" ;
+map:om_004 rml:reference "FECHA-FIN" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:dateTime ;
 	rr:termType rr:Literal .
 
-map:om_005 rdf:type rr:ObjectMap ;
-	rr:template "{TITULO}xsd:string" ;
+map:om_005 rml:reference "TITULO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_006 rdf:type rr:ObjectMap ;
-	rr:template "{ACCESIBILIDAD-INSTALACION}xsd:string" ;
+map:om_006 rml:reference "ACCESIBILIDAD-INSTALACION" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_007 rdf:type rr:ObjectMap ;
-	rr:template "{CONTENT-URL}xsd:string" ;
+map:om_007 rml:reference "CONTENT-URL" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_008 rdf:type rr:ObjectMap ;
 	rr:constant group04:Concept ;
 	rr:termType rr:IRI .
 
-map:om_009 rdf:type rr:ObjectMap ;
-	rr:template "{TIPO}xsd:string" ;
+map:om_009 rml:reference "TIPO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_010 rdf:type rr:ObjectMap ;
 	rr:constant group04:Audience ;
 	rr:termType rr:IRI .
 
-map:om_011 rdf:type rr:ObjectMap ;
-	rr:template "{TIPO}xsd:string" ;
+map:om_011 rml:reference "TIPO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_012 rdf:type rr:ObjectMap ;
 	rr:constant group04:Facility ;
 	rr:termType rr:IRI .
 
-map:om_013 rdf:type rr:ObjectMap ;
-	rr:template "{NOMBRE}xsd:string" ;
+map:om_013 rml:reference "NOMBRE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_014 rdf:type rr:ObjectMap ;
-	rr:template "{CONTENT-URL}xsd:string" ;
+map:om_014 rml:reference "CONTENT-URL" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_015 rdf:type rr:ObjectMap ;
-	rr:template "{METRO}xsd:string" ;
+map:om_015 rml:reference "METRO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_016 rdf:type rr:ObjectMap ;
-	rr:template "{BUS}xsd:string" ;
+map:om_016 rml:reference "BUS" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_017 rdf:type rr:ObjectMap ;
-	rr:template "{RENFE}xsd:string" ;
+map:om_017 rml:reference "RENFE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_018 rdf:type rr:ObjectMap ;
 	rr:constant group04:Facility ;
 	rr:termType rr:IRI .
 
-map:om_019 rdf:type rr:ObjectMap ;
-	rr:template "{NOMBRE}xsd:string" ;
+map:om_019 rml:reference "NOMBRE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_020 rdf:type rr:ObjectMap ;
-	rr:template "{CONTENT-URL}xsd:string" ;
+map:om_020 rml:reference "CONTENT-URL" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_021 rdf:type rr:ObjectMap ;
-	rr:template "{METRO}xsd:string" ;
+map:om_021 rml:reference "METRO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_022 rdf:type rr:ObjectMap ;
-	rr:template "{BUS}xsd:string" ;
+map:om_022 rml:reference "BUS" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_023 rdf:type rr:ObjectMap ;
-	rr:template "{RENFE}xsd:string" ;
+map:om_023 rml:reference "RENFE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_024 rdf:type rr:ObjectMap ;
 	rr:constant group04:Geometry ;
 	rr:termType rr:IRI .
 
-map:om_025 rdf:type rr:ObjectMap ;
-	rr:template "{LONGITUD}xsd:float" ;
+map:om_025 rml:reference "LONGITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
 	rr:termType rr:Literal .
 
-map:om_026 rdf:type rr:ObjectMap ;
-	rr:template "{LATITUD}xsd:float" ;
+map:om_026 rml:reference "LATITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
 	rr:termType rr:Literal .
 
 map:om_027 rdf:type rr:ObjectMap ;
 	rr:constant group04:Geometry ;
 	rr:termType rr:IRI .
 
-map:om_028 rdf:type rr:ObjectMap ;
-	rr:template "{LONGITUD}xsd:float" ;
+map:om_028 rml:reference "LONGITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
 	rr:termType rr:Literal .
 
-map:om_029 rdf:type rr:ObjectMap ;
-	rr:template "{LATITUD}xsd:float" ;
+map:om_029 rml:reference "LATITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
 	rr:termType rr:Literal .
 
 map:om_030 rdf:type rr:ObjectMap ;
 	rr:constant group04:Address ;
 	rr:termType rr:IRI .
 
-map:om_031 rdf:type rr:ObjectMap ;
-	rr:template "{NUM}xsd:integer" ;
+map:om_031 rml:reference "NUM" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
 	rr:termType rr:Literal .
 
-map:om_032 rdf:type rr:ObjectMap ;
-	rr:template "{DIRECCION}xsd:string" ;
+map:om_032 rml:reference "DIRECCION" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_033 rdf:type rr:ObjectMap ;
 	rr:constant group04:Address ;
 	rr:termType rr:IRI .
 
-map:om_034 rdf:type rr:ObjectMap ;
-	rr:template "{NUM}xsd:integer" ;
+map:om_034 rml:reference "NUM" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
 	rr:termType rr:Literal .
 
-map:om_035 rdf:type rr:ObjectMap ;
-	rr:template "{DIRECCION}xsd:string" ;
+map:om_035 rml:reference "DIRECCION" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_036 rdf:type rr:ObjectMap ;
 	rr:constant group04:District ;
 	rr:termType rr:IRI .
 
-map:om_037 rdf:type rr:ObjectMap ;
-	rr:template "{DISTRITO}xsd:string" ;
+map:om_037 rml:reference "DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_038 rdf:type rr:ObjectMap ;
 	rr:constant group04:District ;
 	rr:termType rr:IRI .
 
-map:om_039 rdf:type rr:ObjectMap ;
-	rr:template "{DISTRITO}xsd:string" ;
+map:om_039 rml:reference "DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
 map:om_040 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_000 ;
 	rr:parentTriplesMap map:map_Concept_000 .
 
 map:om_041 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_001 ;
 	rr:parentTriplesMap map:map_Audience_000 .
 
 map:om_042 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_002 ;
 	rr:parentTriplesMap map:map_Facility_000 .
 
 map:om_043 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_003 ;
 	rr:parentTriplesMap map:map_Facility_001 .
 
 map:om_044 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_004 ;
 	rr:parentTriplesMap map:map_Geometry_000 .
 
 map:om_045 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_005 ;
 	rr:parentTriplesMap map:map_Geometry_001 .
 
 map:om_046 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_006 ;
 	rr:parentTriplesMap map:map_Address_000 .
 
 map:om_047 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_007 ;
 	rr:parentTriplesMap map:map_Address_001 .
 
 map:om_048 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_008 ;
 	rr:parentTriplesMap map:map_Geometry_000 .
 
 map:om_049 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_009 ;
 	rr:parentTriplesMap map:map_Geometry_001 .
 
 map:om_050 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_010 ;
 	rr:parentTriplesMap map:map_Address_000 .
 
 map:om_051 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_011 ;
 	rr:parentTriplesMap map:map_Address_001 .
 
 map:om_052 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_012 ;
 	rr:parentTriplesMap map:map_District_000 .
 
 map:om_053 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_013 ;
 	rr:parentTriplesMap map:map_District_001 .
 
 map:om_054 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_014 ;
 	rr:parentTriplesMap map:map_District_000 .
 
 map:om_055 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_015 ;
 	rr:parentTriplesMap map:map_District_001 .
 
 map:pm_000 rdf:type rr:PredicateMap ;
@@ -636,37 +728,37 @@ map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_Address_000, map
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
 
 map:s_000 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/event/{ID-EVENTO}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/event/{ID-EVENTO}" .
 
 map:s_001 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/concept/{ID-EVENTO}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/concept/{ID-EVENTO}" .
 
 map:s_002 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/audience/{ID-EVENTO}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/audience/{ID-EVENTO}" .
 
 map:s_003 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/facility/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/facility/{PK}" .
 
 map:s_004 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/facility/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/facility/{PK}" .
 
 map:s_005 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/geometry/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/geometry/{PK}" .
 
 map:s_006 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/geometry/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/geometry/{PK}" .
 
 map:s_007 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/address/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/address/{PK}" .
 
 map:s_008 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/address/{PK}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/address/{PK}" .
 
 map:s_009 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/district/{DISTRITO}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/district/{DISTRITO}" .
 
 map:s_010 rdf:type rr:SubjectMap ;
-	rr:template "http://www.madculturalevents.es/group04/resources/district/{DISTRITO}~iri" .
+	rr:template "http://www.madculturalevents.es/group04/resources/district/{DISTRITO}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
 	rml:source "agenda-eventos-culturales-100-updated.csv" ;
