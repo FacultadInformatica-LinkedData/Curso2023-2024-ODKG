@@ -2,7 +2,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX madridonc: <http://madridalfresco.es/lcc/ontology/locales#>
 PREFIX madridrec: <http://madridalfresco.es/lcc/resource/>
 
-#Número de terrazas con más de 20 sillas.
+#Number of terraces with more or 20 chairs.
 SELECT (count(?Terraza) as ?o) 
 WHERE { 
     ?Terraza a madridonc:Terraza;
