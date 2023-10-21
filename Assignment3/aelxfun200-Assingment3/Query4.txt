@@ -1,4 +1,4 @@
-4. For each of these properties, except for rdf:type, which different values do they take in those instances?
+4. For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
 
 		Query:
 		select distinct ?properties ?value

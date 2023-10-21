@@ -1,4 +1,4 @@
-3. Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+3. Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
 
 		Query:
 		select distinct ?value

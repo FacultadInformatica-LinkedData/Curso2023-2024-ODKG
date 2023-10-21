@@ -1,4 +1,4 @@
-5. For each of the properties, except for rdf:type, how many distinct values do they take?
+5. For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
 
 		Query: 
 
