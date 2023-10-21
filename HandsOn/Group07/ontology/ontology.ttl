@@ -7,19 +7,19 @@
 
 <https://www.chargeup.io/group07/ontology#> rdf:type owl:Ontology .
 
-# Define the class for Charging Stations
+# Define Classes
+
 ont:ChargingStation a owl:Class
     rdfs:label "Charging Station" .
 
-
-# Define the class for City
 ont:City a owl:Class
     rdfs:label "City" .
 
-
-# Define the class for Address
 ont:Address a owl:Class
     rdfs:label "Address" .
+
+ont:County a owl:Class
+    rdfs:label "County" .
 
 
 
@@ -88,3 +88,13 @@ ont:city a owl:ObjectProperty ;
     rdfs:label "City" ;
     rdfs:domain ont:Address ;
     rdfs:range ont:City .
+
+ont:isLocatedInCity a owl:ObjectProperty ;
+    rdfs:label "Located In City" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range ont:City .
+
+ont:isLocatedInCounty a owl:ObjectProperty ;
+    rdfs:label "is located in county" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range ont:County .
