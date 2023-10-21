@@ -5,9 +5,10 @@ import morph_kgc
 import pandas as pd
 
 # %% Eliminar duplicados
-path = "HandsOn/Group08/csv2/us-colleges-and-universities.csv"
 
-csv = pd.read_csv(path)
+PATH = "csv2/us-colleges-and-universities.csv"
+
+csv = pd.read_csv(PATH)
 
 duplicados = csv['IPEDSID'].duplicated(keep=False)
 print("Number of dups", len(csv[duplicados]))
@@ -36,18 +37,26 @@ csv['CITY'] = columna2
 csv['COUNTRY'] = columna4
 
 
-csv.to_csv(
-    'HandsOn/Group08/csv2/us-colleges-and-universities-modified.csv', index=False)
+csv.to_csv('csv2/us-colleges-and-universities-modified.csv', index=False)
 
+# %% Preprocesado sergio
+data = pd.read_csv("csv2/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-updated.csv")
+data = data.melt(id_vars=['IPEDSID'], var_name='Year', value_name='Ranking')
+data.to_csv('csv2/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-updated-2.csv', index=False)
+
+# %% Preprocesado adri
+data_2 = pd.read_csv("csv2/US-News-Rankings-Universities-Through-2023-updated.csv")
+data_2 = data_2.melt(id_vars=['IPEDSID'], var_name='Year', value_name='Ranking')
+data_2.to_csv('csv2/US-News-Rankings-Universities-Through-2023-updated2.csv', index=False)
 
 # %% Crear grafo en formato RDF
 print(RDF)
 
 config = """
     [CONFIGURATION]
-    output_file= HandsOn/Group08/rdf/us-colleges-and-universities.ttl
+    output_file= rdf/us-colleges-and-universities.ttl
     [DataSource1]
-    mappings= HandsOn/Group08/mappings/us-colleges-and-universities/us-colleges-and-universities.ttl
+    mappings= mappings/us-colleges-and-universities/us-colleges-and-universities.ttl
          """
 g = morph_kgc.materialize(config)
 
@@ -88,3 +97,43 @@ query = prepareQuery(query_text, initNs={"ns": ns, "dbo": dbo, "rdf": RDF})
 # Visualize the results
 for row in g.query(query):
     print(f'City: {row}')
+    
+print("\n\n", "-"*40, "\n\n")
+
+query_text2 = """    
+    SELECT ?value ?year WHERE {
+        ?ranking ns:score ?value.
+        ?ranking ns:yearPublished ?year.
+        ?individual ns:hasLiberalArtsRanking  ?ranking .
+        ?individual rdf:type ns:University.
+    }    
+"""
+
+
+# Prepare the query
+query = prepareQuery(query_text, initNs={"ns": ns, "dbo": dbo, "rdf": RDF})
+
+# Execute the query
+# Visualize the results
+for row in g.query(query):
+    print(f': {row[0]}')
+    
+print("\n\n", "-"*40, "\n\n")
+
+
+query_text3 = """    
+    SELECT ?value WHERE {
+        ?individual rdf:type ns:University.
+        ?individual ns:hasAdmisionRate ?rate
+        ?rate ns:value ?value
+    }    
+"""
+# Prepare the query
+query = prepareQuery(query_text3, initNs={"ns": ns, "rdf": RDF})
+
+# Execute the query
+# Visualize the results
+for row in g.query(query):
+    print(f'Rate: {row}')
+    
+print("\n\n", "-"*40, "\n\n")

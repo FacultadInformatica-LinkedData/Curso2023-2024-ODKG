@@ -57,13 +57,24 @@ ns:University a owl:Class ;
     rdfs:label "University" ;
     rdfs:subClassOf schema:CollegeORUniversity .
 
+ns:Ranking a owl:Class;
+    rdfs:label "Ranking";
+
+ns:LiberalArtsRanking a owl:Class;
+    rdfs:label "LiberalArtsRanking"
+    rdfs:subClassOf ns:Ranking.
+
+ns:USNewsRanking a owl:Class;
+    rdfs:label "USNewsRanking"
+    rdfs:subClassOf ns:Ranking.
+
 #########################
 # Object properties #
 #########################
 ns:hasRanking a owl:ObjectProperty ;
     rdfs:label "has ranking" ;
     rdfs:domain ns:University ;
-    rdfs:range ns:Score .
+    rdfs:range ns:Ranking .
 
 ns:hasRate a owl:ObjectProperty ;
     rdfs:label "has rate" ;
@@ -73,7 +84,7 @@ ns:hasRate a owl:ObjectProperty ;
 dbo:state a owl:ObjectProperty ;
     rdfs:label "location state" ;
     rdfs:domain ns:University ;
-    rdfs:range ns:City .
+    rdfs:range ns:State .
 
 dbo:city a owl:ObjectProperty ;
     rdfs:label "location city" ;
@@ -144,11 +155,6 @@ schema:longitude a owl:DatatypeProperty;
 #########################
 #   Score properties   #
 #########################
-
-ns:publisher a owl:DatatypeProperty ;
-    rdfs:label "publisher" ;
-    rdfs:domain ns:Score ;
-    rdfs:range rdfs:Literal .
 
 ns:yearPublished a owl:DatatypeProperty ;
     rdfs:label "year published" ;

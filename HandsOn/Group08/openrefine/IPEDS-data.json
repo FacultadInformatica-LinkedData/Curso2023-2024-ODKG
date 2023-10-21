@@ -931,5 +931,16 @@
       "mode": "row-based"
     },
     "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Name",
+    "description": "Remove column Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID number",
+    "newColumnName": "IPEDSID",
+    "description": "Rename column ID number to IPEDSID"
   }
 ]
