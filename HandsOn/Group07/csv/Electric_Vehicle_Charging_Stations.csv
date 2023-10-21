@@ -1,0 +1,386 @@
+Station Name,Street Address,City,Access Days Time,EV Level1 EVSE Num,EV Level2 EVSE Num,EV DC Fast Count,EV Other Info,New Georeferenced Column,Counties,Zip Code,Town Index,Planning Regions
+BMW OF DARIEN,138-142 Ledge Rd,Darien,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4764687 41.072882),1040,5,35,9
+Dunkin’ - Tesla Supercharger,893 E Main St,Meriden,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-72.773473 41.527367),1044,199,80,7
+Town of Beacon Falls - Commuter Lot,105 N Main St,Beacon Falls,24 hours daily,NONE,1,NONE,NONE,POINT (-73.065583 41.44548100000001),1044,138,6,4
+OLD SAYBROOK VW,319 Middlesex Turnpike,Old Saybrook,24 hours daily,NONE,2,NONE,NONE,POINT (-72.3825 41.3102778),1043,56,106,3
+Fairfield Rail Station,80 Mill Plain Rd,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.264511 41.143125),1040,111,51,2
+FOUNDRY66,50 Franklin St,Norwich,24 hours daily,NONE,2,NONE,NONE,POINT (-72.0741188 41.525611),1045,14,104,8
+Corbins Corner Shopping Center - Tesla Supercharger,1445 New Britain Ave.,West Hartford,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-72.759717 41.722672),1041,213,155,1
+GLASTONBURYEV,2327-2333 Main St,Glastonbury,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6086744 41.711717),1041,90,54,1
+Whole Foods Market,150 Ledge Rd,Darien,8am-10pm daily; for customer use only,4,NONE,NONE,NONE,POINT (-73.476189 41.072919),1040,5,35,9
+Mystic Marriott Hotel and Spa,625 North Rd,Groton,24 hours daily; guest use only; see front desk for access,NONE,1,NONE,NONE,POINT (-72.026147 41.365973),1045,243,59,8
+Brass Mill Center - Shoppers World,495 Union St,Waterbury,6am-12am daily,NONE,2,NONE,NONE,POINT (-73.025659 41.550922),1044,194,151,4
+University of Connecticut Health - Center Garage,263 Farmington Ave,Farmington,24 hours daily,NONE,4,NONE,NONE,POINT (-72.79061800000001 41.730405),1041,254,52,1
+D'Addario Nissan,329 Bridgeport Ave,Shelton,Dealership business hours,NONE,1,1,NONE,POINT (-73.106051 41.299792),1040,217,126,4
+CT RAIL,198 N Cherry St,Wallingford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.8231924 41.4618954),1044,195,148,7
+Hampton Inn & Suites Rocky Hill - Hartford South - Tesla Destination,685 Cromwell Ave,Rocky Hill,24 hours daily; for customer use only; see front desk for access,NONE,2,NONE,NONE,POINT (-72.679679 41.650999),1041,189,119,1
+Goodwives Shopping Center,25 Old Kings Hwy,Darien,24 hours daily,NONE,NONE,1,NONE,POINT (-73.466318 41.078282),1040,5,35,9
+City of New Haven - Union Station Garage,50 Union Ave,New Haven,24 hours daily; pay lot,NONE,3,NONE,NONE,POINT (-72.926722 41.297487000000004),1044,132,93,7
+Easton Public Library,691 Morehouse Rd,Easton,24 hours daily,NONE,2,NONE,NONE,POINT (-73.297822 41.251966),1040,42,46,2
+The Plaza at Buckland Hills - Tesla Supercharger,1470 Pleasant Valley Road,Manchester,24 hours daily; for Tesla use only,NONE,NONE,16,NONE,POINT (-72.562282 41.80452),1041,161,77,1
+Greenlots - 92367,204 Stillman Hill Rd,Colebrook,24 hours daily,NONE,2,NONE,NONE,POINT (-73.138786 41.988528),1042,49,29,6
+Mystic Diner Restaurant - Tesla Destination,253 Greenmanville  Ave,Mystic,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-71.961361 41.37356200000001),1045,135,137,8
+Connecticut Airport Authority - Bradley Airport,Cell Phone Lot,Windsor Locks,24 hours daily,NONE,4,NONE,NONE,POINT (-72.670609 41.929342),1041,21,165,1
+University of Connecticut - Motor Pool,9 Discovery Dr,Storrs,8am-3pm M-F,NONE,1,NONE,NONE,POINT (-72.261825 41.811817),38,33,78,1
+Hammonasset Beach State Park - South,1288 Boston Post Rd,Madison,24 hours daily,NONE,4,NONE,NONE,POINT (-72.560456 41.263416),1044,134,76,7
+Schaller Mitsubishi,25 Veterans Dr,New Britain,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.770648 41.649365),1041,17,89,1
+Mansfield Public Library,54 Warrenville Rd,Mansfield,24 hours daily,NONE,1,NONE,NONE,POINT (-72.195701 41.768396),38,32,78,1
+WESTLODGE,811 Burr Mountain Rd,Torrington,24 hours daily,NONE,2,NONE,NONE,POINT (-73.1049768 41.8750604),1042,122,143,6
+TOWNHALL,100 Bentley Dr,Harwinton,24 hours daily,NONE,2,NONE,NONE,POINT (-73.070231 41.7640244),1042,228,66,6
+University of Connecticut - Avery Point,1084 Shennecossett Rd,Groton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.065994 41.317722),,243,59,8
+Middletown School District - Lawrence Elementary School,Kaplan Dr,Middletown,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6824246 41.5871612),1043,236,83,3
+Fairfield Mitsubishi,421 Tunxis Hill Rd,Fairfield,Dealership business hours,NONE,1,NONE,NONE,POINT (-73.230597 41.176442),1040,174,51,2
+Gates Nissan,143 Boston Post Rd,North Windham,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.188445 41.728247),39,258,163,8
+Water's Edge Resort and Spa - Tesla Destination,1525 Boston Post Rd,Westbrook,24 hours daily,NONE,3,NONE,NONE,POINT (-72.43786 41.28006),1043,127,154,3
+North Haven PaviIion,100 Universal Dr,North Haven,24 hours daily,NONE,NONE,6,NONE,POINT (-72.870574 41.353572),1044,168,101,7
+UNION STATION,Union Ave and Union Station,New Haven,24 hours daily,NONE,10,NONE,NONE,POINT (-72.9270748 41.2975353),1044,132,93,7
+Torrington Town Hall,140 Main St,Torrington,24 hours daily,NONE,1,NONE,NONE,POINT (-73.12122300000001 41.803497),1042,122,143,6
+Crowley Nissan,1451 Farmington Ave,Bristol,Dealership business hours,NONE,2,1,NONE,POINT (-72.894672 41.699374),1041,219,17,4
+Parthenon Diner Restaurant - Tesla Destination,374 E Main St,Branford,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-72.781436 41.296212),1044,170,14,7
+Town of Mansfield - Community Center,10 S Eagleville Rd,Mansfield,24 hours daily,NONE,1,NONE,NONE,POINT (-72.242231 41.800421),38,33,78,1
+Manchester City Nissan,30 Tolland Turnpike,Manchester,Dealership business hours,NONE,2,NONE,NONE,POINT (-72.507845 41.814316),1041,161,77,1
+City of Meriden - City Hall,142 E Main St,Meriden,24 hours daily,NONE,4,NONE,NONE,POINT (-72.797226 41.536236),1044,199,80,7
+City of New Haven - Sherman Tyler Lot,60 N Frontage Rd,New Haven,24 hours daily; permit lot,NONE,2,NONE,NONE,POINT (-72.948514 41.306474),1044,132,93,7
+City of Meriden - Meriden Public Library,105 Miller St,Meriden,24 hours daily,NONE,2,NONE,NONE,POINT (-72.796702 41.537218),1044,199,80,7
+Blogoslawski Parking Garage,10 Franklin Square,New Britain,24 hours daily,NONE,2,NONE,NONE,POINT (-72.7788286 41.664356600000005),1041,17,89,1
+Comfort Inn Guilford - Tesla Destination,300 Boston Post Rd,Guilford,24 hours daily; for customer use only; see front desk for access,NONE,2,NONE,NONE,POINT (-72.657682 41.287164),1044,201,60,7
+Brass Mill Center - Entrance 5,495 Union St,Waterbury,6am-12pm daily,NONE,2,NONE,NONE,POINT (-73.02614 41.549361),1044,194,151,4
+Town of Simsbury - Town Hall,933 Hopmeadow St,Simsbury,24 hours daily,NONE,2,NONE,NONE,POINT (-72.489406 41.983904),38,143,129,1
+Connecticut Legislative Parking Garage,240 Capitol Ave,Hartford,7am-7pm M-F,NONE,5,NONE,NONE,POINT (-72.684758 41.765434),1041,182,64,1
+Middletown School District - Moody School,300 Country Club Rd,Middletown,24 hours daily,NONE,2,NONE,NONE,POINT (-72.711926 41.563917),1043,236,83,3
+Barberino Nissan,505 N Colony St,Wallingford,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.817586 41.467376),1044,195,148,7
+CityPlace Garage,185 Asylum St,Hartford,Garage business hours,NONE,2,NONE,NONE,POINT (-72.676489 41.766656),1041,82,64,1
+CURRAN VOLKSWAG,2774-2788 CT-113,Stratford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.132624 41.198568),1040,218,138,2
+"Inn at Stonington, a Select Registry Property - Tesla Destination",60 Water St,Stonington,24 hours daily; for customer use only,NONE,3,NONE,NONE,POINT (-71.906918 41.331744),,139,137,8
+"Westport Town Hall 110 Myrtle Ave Westport, CT 06880",110 Myrtle Avenue,Westport,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,2,NONE,NONE,POINT (-73.35947443366 41.145215689458),1040,179,158,9
+STARWOOD,1 Star Point,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5318605 41.0409048),1040,7,135,9
+Popeyes Kitchen - Fairfield Pizza,200 E Main St,Stratford,24 hours daily,NONE,NONE,1,NONE,POINT (-73.117486 41.202742),1040,218,138,2
+Dunkin' Donuts - Tesla Supercharger,160 Kukas Lane,Waterbury,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-73.005613 41.53713),1044,194,151,4
+Crest Ford,218 Flanders Rd,Niantic,24 hours daily,NONE,1,NONE,NONE,POINT (-72.211435 41.354043),1045,31,45,8
+Central Connecticut State University - Sheridan Dorm Lot,65 Wells St,New Britain,24 hours daily,NONE,1,NONE,NONE,POINT (-72.762739 41.692973),1041,110,89,1
+LIBRARY KIOSK,24 Main St,New Milford,24 hours daily,NONE,1,NONE,NONE,POINT (-73.41116 41.5785572),1042,88,96,9
+Hotel HiHo - Tesla Destination,4180 Black Rock Tpke,Fairfield,24 hours daily; for customer use only,NONE,3,NONE,NONE,POINT (-73.271401 41.203858),1040,111,51,2
+Summer Street Garage,100 Summer St,Stamford,Restricted to garage hours; pay lot,NONE,3,NONE,NONE,POINT (-73.541625 41.054155),1040,7,135,9
+MUNICIP STATION,3 Primrose St,Newtown,24 hours daily,NONE,2,NONE,NONE,POINT (-73.2847962 41.4007757),1040,153,97,9
+PURDUE PHARMA,201 Tresser Blvd,Stamford,24 hours daily,NONE,4,NONE,NONE,POINT (-73.53779 41.050574),1040,203,135,9
+Hartford High School,55 Forest St,Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.701271 41.765034),1041,10,64,1
+Bloomfield Town Hall,800 Bloomfield Avenue,Bloomfield,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,NONE,2,NONE,NONE,POINT (-72.7373929 41.8298475),1041,224,11,1
+GUNNERY,16 Kirby Rd,Washington,24 hours daily,NONE,2,NONE,NONE,POINT (-73.3124 41.628033),1042,191,150,6
+University of Connecticut - Storrs Center Garage,33 Royce Cir,Storrs,24 hours daily,NONE,4,NONE,NONE,POINT (-72.2442218 41.8041965),38,69,78,1
+JAGLRNH,521 Washington Ave,North Haven,24 hours daily,NONE,2,NONE,NONE,POINT (-72.8415278 41.4168397),1044,168,101,7
+Town of Stafford - Town Hall,1 Main St,Stafford Springs,24 hours daily,NONE,4,NONE,NONE,POINT (-72.303231 41.953668),38,34,134,1
+Charter Oak International Academy,425 Oakwood Ave,West Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.722829 41.742975),1041,213,155,1
+Town of Newington - Market Square,90 Market Square,Newington,24 hours daily,NONE,4,NONE,NONE,POINT (-72.7214 41.6972),1041,86,94,1
+Riverfield School,1625 Mill Plain Rd,Fairfield,School hours,NONE,2,NONE,NONE,POINT (-73.267585 41.162306),1040,111,51,2
+Capital Regional Development Authority (CRDA),105 Columbus Blvd,Hartford,6am-12am daily,NONE,2,NONE,NONE,POINT (-72.670165 41.763287),1041,82,64,1
+The SoNo Collection,100 N Water St,Norwalk,6am-12am,NONE,10,NONE,NONE,POINT (-73.418883 41.104791),1040,155,103,9
+City of New Haven - Whalley Blake Parking Lot,919 Whalley Ave,New Haven,24 hours daily; pay lot,NONE,2,NONE,NONE,POINT (-72.960178 41.327848),1044,240,93,7
+Riverview Cinemas 8 and Playhouse - Tesla Destination,690 Main St S,Southbury,24 hours daily; for customer use only,NONE,4,NONE,NONE,POINT (-73.230644 41.465044),1044,99,130,4
+The Ridgefield Playhouse,80 E Ridge Rd,Ridgefield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.492605 41.282264),1040,43,118,9
+Meriden Station Garage,24 Colony St,Meriden,24 hours daily,NONE,3,NONE,NONE,POINT (-72.802667 41.539218),1044,226,80,7
+HONDA WESTPORT,1372 Post Rd E,Westport,24 hours daily,NONE,3,NONE,NONE,POINT (-73.317072 41.138623),1040,179,158,9
+FOXWOODS,350 Trolley Line Blvd,Mashantucket,24 hours daily,NONE,2,NONE,NONE,POINT (-71.9600027 41.4733521),1045,66,72,8
+TOWN HALL LOT,740 Main St,East Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6446905 41.7660404),1041,119,43,1
+FOXWOODS,350 Trolley Line Blvd,Ledyard,24 hours daily,NONE,2,NONE,NONE,POINT (-71.9600034 41.4733358),1045,66,72,8
+Plainville High School,47 Robert Holcomb Way,Plainville,24 hours daily,NONE,1,NONE,NONE,POINT (-72.8580302 41.6659341),1041,260,110,1
+Connecticut Welcome Center - Tesla Supercharger,1 West Ave.,Darien,24 hours daily; for Tesla use only,NONE,NONE,4,NONE,POINT (-73.504917 41.067306),1040,5,35,9
+Whole Foods Market,350 Grasmere Ave,Fairfield,8am-10pm daily; for customer use only; see inside for access,NONE,1,NONE,NONE,POINT (-73.240315 41.157925),1040,111,51,2
+Tamarack Country Club - Tesla Destination,55 Locust Rd,Greenwich,24 hours daily; for member use only; see valet for access,NONE,3,NONE,NONE,POINT (-73.709755 41.094294),1040,215,57,9
+Madison Beach Hotel - Tesla Destination,94 W Wharf Rd,Madison,24 hours daily; overnight valet fee,NONE,2,NONE,NONE,POINT (-72.608573 41.27077),1044,134,76,7
+Newington Electric,72 Pane Rd,Newington,24 hours daily,NONE,3,NONE,NONE,POINT (-72.729203 41.65514),1041,86,94,1
+Premier Kia,205 N Main St,Branford,24 hours daily; priority for customer use,NONE,1,NONE,NONE,POINT (-72.809324 41.289894),1044,170,14,7
+The Shoppes at Fox Run 1,25 Welles St # 55,Glastonbury,24 hours daily,NONE,NONE,2,NONE,POINT (-72.608292 41.714088),1041,90,54,1
+NBCSG,98 Maher Rd,Stamford,24 hours daily,NONE,14,NONE,NONE,POINT (-73.516045 41.054321),1040,7,135,9
+EDENS BISHOPS,345 N Main St,West Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.7479436 41.784487),1041,181,155,1
+Propark - Water Street Garage,161 Water St,New London,Restricted to garage hours; pay lot,8,4,NONE,1 Conductive 120V,POINT (-72.093784 41.355486),1045,144,95,8
+Connecticut Post Mall - Tesla Supercharger,1201 Boston Post Road,Milford,24 hours daily; for Tesla use only,NONE,NONE,14,NONE,POINT (-73.036133 41.238119),1044,193,84,7
+Manchester Honda,24 Adams St,Manchester,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.552974 41.795898),1041,161,77,1
+New London Mall - Tesla Supercharger,369 N Frontage Rd,New London,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-72.119376 41.370726),1045,144,95,8
+Plainville Municipal Center,1 Central Square,Plainville,24 hours daily,NONE,1,NONE,NONE,POINT (-72.8670212999999 41.6717114),1041,260,110,1
+The Study at Yale - Tesla Destination,1157 Chapel St,New Haven,24 hours daily; see valet for access,NONE,2,NONE,NONE,POINT (-72.932698 41.308741),1044,275,93,7
+Connecticut Science Center,250 Columbus Blvd,Hartford,6am-6pm daily,NONE,2,NONE,NONE,POINT (-72.668833 41.764376),1041,82,64,1
+Windham High School,355 High St,Windham,24 hours daily,NONE,2,NONE,NONE,POINT (-72.214432 41.723169),38,207,163,8
+BIG Y FOODS,401 Bridgeport Ave,Shelton,24 hours daily,NONE,2,NONE,NONE,POINT (-73.11066 41.29434),1040,217,126,4
+WHOLE FOODS MKT,5 Sugar Hollow Rd,Danbury,24 hours daily,NONE,1,NONE,NONE,POINT (-73.475576 41.3777667),1040,1,34,9
+I-95 Madison NB Service Plaza - Tesla Supercharger,I-95 North Ave,Madison,24 hours daily; Tesla users only,NONE,NONE,10,NONE,POINT (-72.5804966772461 41.2904885216395),1044,134,76,7
+Canton Town Hall,4 Market St,Canton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.923177 41.811022),1041,80,23,1
+UNION STATION,50 Union Ave,New Haven,24 hours daily,NONE,2,NONE,NONE,POINT (-72.9263108 41.2974027),1044,132,93,7
+TOD,120 Main St,Durham,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6809263 41.472228),1043,270,38,3
+Delamar Southport - Tesla Destination,275 Old Post Rd,Fairfield,24 hours daily; for customer use only; see valet for access,NONE,3,NONE,NONE,POINT (-73.245943 41.146162),1040,111,51,2
+Andrew Ward School,755 Melville Ave,Fairfield,School hours,NONE,2,NONE,NONE,POINT (-73.234423 41.185685),1040,174,51,2
+Connecticut Department of Energy and Environmental Protection,79 Elm St,Hartford,8:30am-4:30pm M-F,NONE,2,NONE,NONE,POINT (-72.678633 41.763294),1041,182,64,1
+Arapahoe Parking Lot,105 LaSalle Rd,West Hartford,Garage business hours; pay lot,NONE,1,NONE,NONE,POINT (-72.744596 41.759108000000005),1041,158,155,1
+Southington Public Library,255 Main St,Southington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.877465 41.596225),1041,176,131,1
+NBCSG,84 Maher Rd,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5160406 41.053776),1040,7,135,9
+Paul Miller Nissan,930 Kings Hwy E,Fairfield,Dealership business hours,NONE,1,1,NONE,POINT (-73.233711 41.167407),1040,174,51,2
+Town of New Fairfield - Town Hall,4 Brush Hill Rd,New Fairfield,24 hours daily,NONE,1,NONE,NONE,POINT (-73.487032 41.465514),1040,45,91,9
+Chip's Family Restaurant - Tesla Destination,321  Boston Post Rd,Orange,24 hours daily; for customer use only,NONE,2,NONE,NONE,POINT (-73.004741 41.2645),1044,196,107,7
+George Harte Nissan,426 Derby Ave,West Haven,Dealership business hours,NONE,2,1,NONE,POINT (-72.968506 41.307602),1044,11,156,7
+STOP SHOP,148 Heights Rd,Darien,24 hours daily,NONE,NONE,1,NONE,POINT (-73.4948097 41.070243),1040,5,35,9
+East Shore District Health Department,688 E Main St,Branford,24 hours daily; 2 hour limit,NONE,6,NONE,NONE,POINT (-72.756902 41.305071),1044,170,14,7
+Ridgefield BMW,746 Danbury Rd,Ridgefield,Dealership business hours; for customer use only,NONE,2,NONE,NONE,POINT (-73.472615 41.331117),1040,43,118,9
+Big Y,22 Spencer Plain Rd,Old Saybrook,24 hours daily,NONE,1,NONE,NONE,POINT (-72.416634 41.28648200000001),1043,56,106,3
+Green Farms Plaza,1460 Post Rd E,Westport,24 hours daily,NONE,NONE,1,NONE,POINT (-73.314364 41.138478),1040,179,158,9
+Bridgeport Hospital,267 Grant St,Bridgeport,24 hours daily,NONE,2,NONE,NONE,POINT (-73.166282 41.190701),1040,41,15,2
+Town of Stafford - Community Center,3 Buckley Hwy,Stafford Springs,24 hours daily,NONE,1,NONE,NONE,POINT (-72.289249 41.956727),38,34,134,1
+Constitution Plaza - South,109 Constitution Plaza,Hartford,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,NONE,1,NONE,NONE,POINT (-72.670032 41.767185),1041,82,64,1
+Coventry Town Hall,1712 Main St,Coventry,24 hours daily,NONE,2,NONE,NONE,POINT (-72.312334 41.780058),38,145,32,1
+Curran Volkswagen,2785 Main St,Stratford,Dealership business hours,NONE,1,NONE,NONE,POINT (-73.131808 41.198467),1040,218,138,2
+644 West Putnam,644 West Putnam Avenue,Greenwich,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,3,NONE,NONE,POINT (-73.6476069 41.016928),1040,6,57,9
+Grove Street Parking Garage,65 Grove Street,New Haven,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,2,NONE,NONE,POINT (-72.9217309 41.3103893),1044,275,93,7
+Mohegan Sun - Tesla Destination,1 Mohegan Sun Blvd,Uncasville,24 hours daily; for customer use only; see valet for access,NONE,5,NONE,NONE,POINT (-72.08668800000001 41.488423),1045,15,86,8
+CVS West Haven,355 Campbell Ave,West Haven,24 hours daily,NONE,NONE,1,NONE,POINT (-72.948327 41.268415),1044,11,156,7
+Central Connecticut State University - Vance Garage,150 Paul Manafort Sr. Dr,New Britain,After 5pm daily,NONE,2,NONE,NONE,POINT (-72.766414 41.690789),1041,110,89,1
+City of New Haven - Crown Street Parking Garage,213 Crown St,New Haven,24 hours daily; pay lot,NONE,2,NONE,NONE,POINT (-72.928864 41.305993),1044,133,93,7
+Figaro Restaurant,90 Elm St,Enfield,Restaurant business hours; for guest use only,NONE,1,NONE,NONE,POINT (-72.583384 41.997588),1041,108,49,1
+Middletown School District - Board of Education,311 Hunting Hill Ave,Middletown,24 hours daily,NONE,2,NONE,NONE,POINT (-72.647076 41.541535),1043,236,83,3
+Mansfield Parking Garage,9 Dog Ln,Storrs,Garage business hours; pay lot,NONE,4,NONE,NONE,POINT (-72.243355 41.804877),38,33,78,1
+Brass Mill Center - Entrance 6,495 Union St,Waterbury,6am-12pm daily,NONE,2,NONE,NONE,POINT (-73.026799 41.55022),1044,194,151,4
+Ellington Town Hall,55 Main St,Ellington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.467484 41.903582),38,142,48,1
+Fairfield Tennis Center,210 Old Dam Rd,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.2665157 41.1247386999999),1040,111,51,2
+Trinity College,18-60 Crescent St,Hartford,24 hours daily,NONE,4,NONE,NONE,POINT (-72.689438 41.745582),1041,182,64,1
+Saugatuck Fire Station,Railroad Place,Westport,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,7,NONE,NONE,POINT (-73.370496 41.119206),1040,179,158,9
+COMCAST,222 New Park Dr,Berlin,24 hours daily,NONE,4,NONE,NONE,POINT (-72.749512 41.597163),1041,253,7,1
+Kent Town Hall,41 Kent Green Blvd,Kent,24 hours daily,NONE,2,NONE,NONE,POINT (-73.47251 41.727419),1042,52,68,6
+Dunkin' Donuts,1205 Tolland Tpke,Manchester,24 hours daily,NONE,NONE,1,NONE,POINT (-72.555059 41.797073),1041,161,77,1
+County Line Nissan - North,522 Winsted Rd,Torrington,Dealership business hours,NONE,1,NONE,NONE,POINT (-73.1107105 41.8269547),1042,122,143,6
+TOWN OF MADISON,761 Boston Post Rd,Madison,24 hours daily,NONE,2,NONE,NONE,POINT (-72.595184 41.28028400000001),1044,134,76,7
+Rocky Neck State Park,244 W Main St,Niantic,Dawn to dusk,NONE,2,NONE,NONE,POINT (-72.24323 41.300883),1045,31,45,8
+ELEMENT STATION,111 Morgan St,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5370682 41.0631099),1040,84,135,9
+Saybrook Point Marina,2 Bridge St,Old Saybrook,24 hours daily,NONE,1,NONE,NONE,POINT (-72.351019 41.283487),1043,56,106,3
+Town of Groton - Town Hall,45 Fort Hill Rd,Groton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.033489 41.345816),1045,243,59,8
+Harte Nissan,165 W Service Rd,Hartford,Dealership business hours,NONE,1,1,NONE,POINT (-72.656681 41.791382000000006),1041,79,64,1
+Highland Park Market,317 Highland St,Manchester,24 hours daily,NONE,2,NONE,NONE,POINT (-72.490259 41.766005),1041,263,77,1
+Nissan - Norwich,691 W Thames St,Norwich,Dealership business hours; contact 860-892-6000 for more information,NONE,1,NONE,NONE,POINT (-72.097938 41.498591),1045,14,104,8
+Wesleyan University,56 Hamlin Ct,MIddletown,24 hours daily,2,NONE,NONE,NONE,POINT (-72.65242 41.557262),1043,236,83,3
+HAMPTON INN,129 Plains Rd,Milford,24 hours daily,NONE,NONE,4,NONE,POINT (-73.076682 41.22269),1044,28,84,7
+Aitoro Appliance,401 Westport Ave,Norwalk,Store business hours; see inside for access,NONE,1,NONE,NONE,POINT (-73.390319 41.126373),1040,87,103,9
+Putnam Downtown Municipal Parking Lot,165 Kennedy Dr,Putnam,24 hours daily,NONE,1,NONE,NONE,POINT (-71.9105761999999 41.914329),39,39,116,5
+NYALA GAR 3,400 Nyala Farms Rd,Westport,24 hours daily,NONE,2,NONE,NONE,POINT (-73.3269248 41.1223426),1040,179,158,9
+WHOLE FOODS MKT,5c Sugar Hollow Rd,Danbury,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4755929 41.3781241),1040,1,34,9
+East Norwalk Library,51 Van Zant St,Norwalk,24 hours daily,NONE,4,NONE,NONE,POINT (-73.40565000000001 41.102079),1040,247,103,9
+Greenwich Southbound Travel Plaza - Tesla Supercharger,2000 Merritt Parkway,Greenwich,24 hours daily; for Tesla use only,NONE,NONE,4,NONE,POINT (-73.673445 41.040555),1040,215,57,9
+Propark America - Omni Hotel Chapel Square Garage,155 Temple St,New Haven,24 hours daily; pay lot,2,2,NONE,1 Tesla Conductive,POINT (-72.927405 41.305794),1044,133,93,7
+Mystic Marriott Hotel and Spa - Tesla Destination,625 North Rd,Groton,24 hours daily; for customer use only; see front desk for access,NONE,2,NONE,NONE,POINT (-72.025954 41.365919),1045,243,59,8
+Connecticut Post Mall - Target,1201 Boston Post Rd,Milford,6am-12pm daily,NONE,2,NONE,NONE,POINT (-73.038159 41.235232),1044,193,84,7
+SPIREP,1 N Water St,Norwalk,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4165867 41.0999699),1040,155,103,9
+Town of Norfolk - Town Clerk,19 Maple Ave,Norfolk,24 hours daily,NONE,2,NONE,NONE,POINT (-73.197598 41.990635),1042,117,98,6
+Waterford Commons,915 Hartford Turnpike,Waterford,24 hours daily,NONE,NONE,6,NONE,POINT (-72.150349 41.380138),1045,140,152,8
+Clinton Town Hall,54 E Main St,Clinton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.524041 41.276743),1043,271,27,3
+Cargill Chevrolet,23 Livery St,Putnam,24 hours daily,NONE,3,NONE,NONE,POINT (-71.90810200000001 41.916161),39,39,116,5
+Bedford Street Garage,17 Forest St,Stamford,Restricted to garage hours; pay lot,NONE,4,NONE,NONE,POINT (-73.537286 41.056092),1040,203,135,9
+Pomfret Town Hall,5 Haven Rd,Pomfret,24 hours daily,NONE,2,NONE,NONE,POINT (-71.9986079999999 41.859648),39,148,112,5
+Delamar Greenwich Harbor - Tesla Destination,500 Steamboat Rd,Greenwich,24 hours daily; for customer use only; see valet for access,NONE,3,NONE,NONE,POINT (-73.623525 41.017757),1040,6,57,9
+East Hartford Public Schools - Department of Facilities,734 Tolland St,East Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.602704 41.784813),1041,119,43,1
+Windham Municipal Parking Lot,48 Church St,Willimantic,24 hours daily,NONE,2,NONE,NONE,POINT (-72.211716 41.712492),39,207,163,8
+Heritage Hotel - Tesla Destination,522 Heritage Rd,Southbury,24 hours daily; for customer use only; see front desk for access,NONE,2,NONE,NONE,POINT (-73.225707 41.491538),1044,99,130,4
+Tri-Town Teachers Federal Credit Union,61 Jessup Rd,Westport,24 hours daily,NONE,2,NONE,NONE,POINT (-73.358893 41.140188),1040,179,158,9
+Morgan Street Garage,155 Morgan St,Hartford,24 hours daily,NONE,4,NONE,NONE,POINT (-72.672545 41.769974),1041,79,64,1
+NBCSG,Unnamed Road,Stamford,24 hours daily,NONE,8,NONE,NONE,POINT (-73.5160366 41.0532451),1040,7,135,9
+Napoli Nissan,688 Bridgeport Ave,Milford,Dealership business hours,NONE,1,NONE,NONE,POINT (-73.083686 41.209761),1044,193,84,7
+Congregational Church of Somersville,22 Maple St,Somersville,24 hours daily,NONE,2,NONE,NONE,POINT (-72.489406 41.983904),38,143,129,1
+I-95 Darien NB Service Plaza - Tesla Supercharger,1 E Trail,Darien,24 hours daily; Tesla users only,NONE,NONE,10,NONE,POINT (-73.462202 41.079848),1040,5,35,9
+Town of Hamden - Spring Glen Municipal Parking Lot,1665 Whitney Ave,Hamden,24 hours daily,NONE,2,NONE,NONE,POINT (-72.909054 41.359826),1044,198,62,7
+City of Milford - Parsons Government Center,70 W River St,Milford,24 hours daily,NONE,1,NONE,NONE,POINT (-73.062364 41.226575),1044,193,84,7
+Hoffman Nissan,46 Albany Turnpike,West Simsbury,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.869319 41.820371),1041,186,128,1
+Premier Chevrolet,512 Providence Rd,Brooklyn,Dealership business hours,NONE,1,NONE,NONE,POINT (-71.906607 41.798222),39,37,19,5
+The Wallingford Victorian Inn - Tesla Destination,245 N Main St,Wallingford,24 hours daily; for customer use only,NONE,2,NONE,NONE,POINT (-72.815676 41.45749),1044,195,148,7
+HONDADANBURY,102 Federal Rd,Danbury,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4232598 41.4158651),1040,1,34,9
+Village Center,87 Main St,East Hampton,24 hours daily,NONE,1,NONE,NONE,POINT (-72.501947 41.575311),1043,273,42,3
+Connecticut Department of Corrections,38 Wolcott Hill Rd,Wethersfield,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6724543999999 41.725002),1041,261,159,1
+Stamford Marriott Hotel - Tesla Destination,243 Tresser Blvd,Stamford,24 hours daily; for customer use only,NONE,3,NONE,NONE,POINT (-73.53513900000002 41.051614),1040,203,135,9
+Woodbridge Town Library,10 Newton Rd,Woodbridge,24 hours daily,NONE,2,NONE,NONE,POINT (-73.011407 41.353582),1044,61,167,7
+Waterworks - Tesla Destination,60 Backus Ave,Danbury,24 hours daily; for customer use only,NONE,2,NONE,NONE,POINT (-73.491965 41.370291),1040,1,34,9
+Town of East Haven,250 Main St,East Haven,24 hours daily,NONE,1,NONE,NONE,POINT (-72.871663 41.277368),1044,130,44,7
+DECORMIER NISS,30 Tolland Turnpike,Manchester,24 hours daily,NONE,NONE,1,NONE,POINT (-72.5090873 41.813843),1041,161,77,1
+Lia Nissan - Enfield,10 Palomba Dr,Enfield,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.574713 41.997574),1041,108,49,1
+North Canaan Shopping Center - Tesla Supercharger,11 E Main St,North Canaan,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-73.322808 42.024351),1042,233,100,6
+Lombard Ford,385 New Hartford Rd,Barkhamsted,Dealership business hours; customer use only,NONE,2,NONE,NONE,POINT (-73.042576 41.909753),1042,48,5,6
+Danbury Fair Mall,7 Backus Ave,Danbury,24 hours daily,NONE,NONE,2,NONE,POINT (-73.47904 41.380158),1040,1,34,9
+City of Milford - Public Library,57 New Haven Ave,Milford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.053647 41.221934),1044,193,84,7
+Public Parking Lot,1 Morse Ct,New Canaan,Parking lot hours,NONE,1,NONE,NONE,POINT (-73.4924 41.1464),1040,180,90,9
+Milford Travel Plaza - Tesla Supercharger,I-95 Milford,Milford,24 hours daily; for Tesla use only,NONE,NONE,2,NONE,POINT (-73.009059 41.245823),1044,193,84,7
+TS,1 American Ln,Greenwich,24 hours daily,NONE,2,NONE,NONE,POINT (-73.7226456 41.0983971),1040,215,57,9
+Russell Mercier Senior Center,14 Stonecroft Dr,Hebron,24 hours daily,NONE,2,NONE,NONE,POINT (-72.367191 41.65659),38,68,67,1
+Roger Ludlowe School,689 Unquowa Rd,Fairfield,School hours,NONE,2,NONE,NONE,POINT (-73.261769 41.148757),1040,111,51,2
+Town of Hebron,15 Gilead St,Hebron,24 hours daily,NONE,2,NONE,NONE,POINT (-72.366742 41.658572),38,68,67,1
+Southington Municipal Center,200 N Main St,Southington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.87939 41.606301),1041,176,131,1
+Middletown School District - Middletown High School,200 LaRosa Ln,Middletown,24 hours daily,NONE,2,NONE,NONE,POINT (-72.681921 41.576716),1043,236,83,3
+Town of Groton - Town Hall Annex,134 Groton Long Point Rd,Groton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.009806 41.341893000000006),1045,243,59,8
+TOWN HALL,31 Park Street,Guilford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.6798002 41.2832367),1044,201,60,7
+TRUMBULL MALL,5065 Main Street,Trumbull,24 hours daily,NONE,2,NONE,NONE,POINT (-73.2246399 41.2286526),1040,76,144,2
+Parthenon Diner of Old Saybrook - Tesla Destination,809 Boston Post Rd,Old Saybrook,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-72.38345 41.292172),1043,56,106,3
+Western Connecticut State University,43 Lake Ave Extension,Danbury,24 hours daily,NONE,1,NONE,NONE,POINT (-73.492801 41.394446),1040,60,34,9
+BIG Y FOODS,224 Salem Turnpike,Norwich,24 hours daily,NONE,2,NONE,NONE,POINT (-72.12423 41.505790000000005),1045,14,104,8
+Ridgeway Shopping Center,2202 Bedford St,Stamford,24 hours daily,NONE,NONE,1,NONE,POINT (-73.545939 41.068654),1040,84,135,9
+Clark Memorial Library,538 Amity Rd,Bethany,24 hours daily,NONE,2,NONE,NONE,POINT (-72.99499 41.427276),1044,64,8,7
+City of New Haven - Orchard Sherman Parking Lot,102 N Frontage Rd,New Haven,24 hours daily; pay lot,NONE,2,NONE,NONE,POINT (-72.944576 41.306583),1044,275,93,7
+Town of Westport - Westport Metro North,1 Railroad Pl,Westport,24 hours daily; pay lot,1,1,NONE,NONE,POINT (-73.369266 41.119291),1040,179,158,9
+Greenwich Northbound Travel Plaza - Tesla Supercharger,3000 Merritt Parkway,Greenwich,24 hours daily; for Tesla use only,NONE,NONE,4,NONE,POINT (-73.671661 41.041538),1040,215,57,9
+Central Connecticut State University- Welte Garage,39 Ella Grasso Blvd,New Britain,24 hours daily,NONE,3,NONE,NONE,POINT (-72.769268 41.692299),1041,110,89,1
+Isham Garage,17 Isham Rd,West Hartford,Garage business hours; pay lot,NONE,1,NONE,NONE,POINT (-72.740521 41.760873),1041,158,155,1
+GENE LANGAN VW,816 New London Turnpike,Glastonbury,24 hours daily,NONE,2,NONE,NONE,POINT (-72.593366 41.704415),1041,90,54,1
+I-91 Tech Park,845 Brook St,Rocky Hill,24 hours daily; priority for Connecticut Green Bank employees,NONE,2,NONE,NONE,POINT (-72.676125 41.641774),1041,189,119,1
+Homestead Inn - Tesla Destination,5 Elm St,New Milford,24 hours daily; for customer use only; see front desk for access,NONE,2,NONE,NONE,POINT (-73.411005 41.580889),1042,88,96,9
+Western Connecticut State University,179 White St,Danbury,24 hours daily,NONE,2,NONE,NONE,POINT (-73.44475 41.399432),1040,1,34,9
+Grace Mayflower Inn and Spa - Tesla Destination,118 Woodbury Rd,"Rte 47, Washington",24 hours daily; for customer use only; see front desk for access,NONE,3,NONE,NONE,POINT (-73.305987 41.628601),1042,191,150,6
+I-95 Madison SB Service Plaza - Tesla Supercharger,I-95 South Bound,Madison,24 hours daily; Tesla users only,NONE,NONE,10,NONE,POINT (-72.5793623215072 41.291902304928),1044,134,76,7
+Bishop's Orchards Farm Market,1355 Boston Post Rd,Guilford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.695702 41.290395),1044,201,60,7
+Campus at Greenhill,108 Leigus Road,Wallingford,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,NONE,4,NONE,NONE,POINT (-72.775522 41.478889),1044,195,148,7
+Connecticut Department of Motor Vehicles,1365 Highland Ave,Cheshire,9am-5pm M-F,NONE,1,NONE,NONE,POINT (-72.8935933 41.5374181),1044,63,25,4
+Town of Glastonbury - Town Hall,2155 Main St,Glastonbury,24 hours daily,NONE,1,NONE,NONE,POINT (-72.611655 41.706856),1041,90,54,1
+Green’s Farms Railroad Station,2 Post Office Ln,Westport,24 hours daily,NONE,1,NONE,NONE,POINT (-73.315136 41.122442),1040,179,158,9
+Connecticut Insurance Exchange of Southington,1133 Meriden-Waterbury Turnpike,Plantsville,24 hours daily,NONE,1,NONE,NONE,POINT (-72.88305 41.564358),1041,185,131,1
+HOFFMAN HONDA 1,40 Albany Turnpike,Simsbury,24 hours daily,NONE,4,NONE,NONE,POINT (-72.869331 41.818224),1041,186,128,1
+CT RAIL,51 Depot Rd,Berlin,24 hours daily,NONE,2,NONE,NONE,POINT (-72.7653384 41.6356154),1041,253,7,1
+Three Rivers Community College,574 New London Turnpike,Norwich,24 hours daily,NONE,2,NONE,NONE,POINT (-72.10451 41.510596),1045,14,104,8
+Town of Stafford - Public Works Garage,210 E St,Stafford Springs,24 hours daily,NONE,1,NONE,NONE,POINT (-72.290233 41.984164),38,34,134,1
+Woodbridge Town Hall,11 Meetinghouse Ln,Woodbridge,24 hours daily,NONE,2,NONE,NONE,POINT (-73.014176 41.354138),1044,61,167,7
+Steelpointe Harbor,255 East Main Street,Bridgeport,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,4,NONE,NONE,POINT (-73.18122320000002 41.1781223),1040,2,15,2
+COMM LOT STA 1,5 Depot Pl,Bethel,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4145557 41.3703626),1040,77,9,9
+The Promenade Shops at Evergreen Walk - Tesla Destination,401 Evergreen Wy,South Windsor,24 hours daily,NONE,2,NONE,NONE,POINT (-72.556345 41.812203),1041,89,132,1
+TOWN OF PUTNAM,1-73 Canal St,Putnam,24 hours daily,NONE,2,NONE,NONE,POINT (-71.9098896 41.914513),39,39,116,5
+Maritime Garage,11 North Water Street,Norwalk,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,NONE,1,NONE,NONE,POINT (-73.418955 41.104278),1040,155,103,9
+GE WS - Price Chopper #243 Storrs CT 2,1220  Storrs Rd,Mansfield,24 hours daily,NONE,1,NONE,NONE,POINT (-72.241315 41.801976),38,33,78,1
+Stratford Square,411 Barnum Ave Cutoff,Stratford,24 hours daily,NONE,NONE,8,NONE,POINT (-73.122342 41.198018),1040,178,138,2
+Cumberland Farms,471 New Park Ave,West Hartford,24 hours daily,NONE,NONE,1,NONE,POINT (-72.718112 41.741696),1041,213,155,1
+City of New Haven - Air Rights Garage,60 York St,New Haven,24 hours daily; pay lot,NONE,5,NONE,NONE,POINT (-72.934141 41.305265),1044,275,93,7
+Lime Rock Park - Tesla Destination,60 White Hollow Rd,Lakeville,24 hours daily; for customer use only,NONE,11,NONE,NONE,POINT (-73.389367 41.930342),1042,91,122,6
+Danbury Fair Mall - Tesla Supercharger,7 Backus Ave,Danbury,24 hours daily; for Tesla use only,NONE,NONE,10,NONE,POINT (-73.477961 41.379441),1040,1,34,9
+Western Connecticut State University,198 White St,Danbury,24 hours daily,NONE,4,NONE,NONE,POINT (-73.443485 41.398492),1040,1,34,9
+Coventry High School,78 Ripley Hill Rd,Coventry,24 hours daily,NONE,2,NONE,NONE,POINT (-72.313767 41.782923),38,145,32,1
+Bell Street Garage,28 Bell St,Stamford,Restricted to garage hours; pay lot,NONE,3,NONE,NONE,POINT (-73.540733 41.052215),1040,203,135,9
+Groton New London Airport,155 Tower Ave,Groton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.044683 41.332527),1045,243,59,8
+TEN TEN WASH,1010 Washington Blvd,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5431681 41.0535888),1040,203,135,9
+RSI EAST,1115 West St,Southington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.8973437 41.618456),1041,176,131,1
+University of Connecticut - School of Law,55 Elizabeth St,Hartford,Lot business hours,NONE,2,NONE,NONE,POINT (-72.70705 41.772484),1041,10,64,1
+CROWLEY VW,245 New Britain Ave,Plainville,24 hours daily,NONE,2,NONE,NONE,POINT (-72.8411522 41.6771741),1041,260,110,1
+Homewood Suites,99 Marsh Hill Rd,Orange,For guest use only,NONE,8,NONE,NONE,POINT (-72.998271 41.252117),1044,196,107,7
+Asnuntuck Community College,170 Elm St,Enfield,24 hours daily,NONE,3,NONE,NONE,POINT (-72.5697849 42.0000268),1041,108,49,1
+Fairfield NB - Tesla Supercharger,165 Round Hill Road,Fairfield,24 hours daily; for Tesla use only,NONE,NONE,12,NONE,POINT (-73.257123 41.146214),1040,111,51,2
+Connecticut Department of Energy and Environmental Protection - Marine Headquarters,333 Ferry Rd,Old Lyme,24 hours daily,NONE,2,NONE,NONE,POINT (-72.345572 41.312148),1045,136,105,3
+Precision Motors of Mystic,2400 Gold Star Hwy,Mystic,24 hours daily,NONE,2,NONE,NONE,POINT (-71.988657 41.390465),1045,135,59,8
+Wesleyan University,161 Cross St,Middletown,24 hours daily,NONE,4,NONE,NONE,POINT (-72.662214 41.550883),1043,236,83,3
+BMW BRIDGEPORT,43 North Ave,Bridgeport,24 hours daily,NONE,2,NONE,NONE,POINT (-73.1897466 41.2020685),1040,74,15,2
+Connecticut State Capitol,210 Capitol Ave,Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.682868 41.764759),1041,182,64,1
+Executive Nissan,900 Universal Dr N,North Haven,Dealership business hours,NONE,1,1,NONE,POINT (-72.870997 41.360892),1044,168,101,7
+Propark Harbor Point Gateway Garage - Tesla Destination,406-424 Washington Blvd,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.543258 41.045384000000006),1040,7,135,9
+Wallingford Shopping Center,930 N Colony Rd,Wallingford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.807124 41.483774),1044,195,148,7
+Fairfield Parks and Recreation Center,75 Mill Plain Rd,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.263962 41.142152),1040,111,51,2
+The Westport Library,20 Jesup Road,Westport,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,2,NONE,NONE,POINT (-73.3613829 41.1396711),1040,179,158,9
+Homestead Inn - Thomas Henkelmann - Tesla Destination,420 Field Point Rd,Greenwich,24 hours daily; for customer use only; see front desk for access,NONE,3,NONE,NONE,POINT (-73.634045 41.015276),1040,6,57,9
+MORSCHES FF,95 Reef Rd,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.2564712 41.1399023),1040,111,51,2
+Panera Bread,1129 Silas Deane Hwy,Wethersfield,24 hours daily,NONE,1,NONE,NONE,POINT (-72.656507 41.691611),1041,261,159,1
+Hoffman Toyota,36 Albany Turnpike,West Simsbury,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.867973 41.818345),1041,186,128,1
+Ferguson Library - Harry Bennett Branch,115 Vine Rd,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.544039 41.099044),1040,84,135,9
+City of Hartford - Department of Public Works,50 Jennings Rd,Hartford,24 hours daily,NONE,1,NONE,NONE,POINT (-72.652406 41.785974),1041,79,64,1
+Hammonasset Beach State Park - North,1288 Boston Post Rd,Madison,24 hours daily,NONE,4,NONE,NONE,POINT (-72.561988 41.26449),1044,134,76,7
+Metro Center Garage,1 Station Place,Stamford,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,1,NONE,NONE,POINT (-73.54198740000001 41.0457112),1040,7,135,9
+Middletown Nissan,1153 Newfield St,Middletown,Dealership business hours,NONE,3,1,NONE,POINT (-72.676141 41.59054),1043,236,83,3
+Wesleyan University,Lawn Ave & High St,Middletown,24 hours daily,1,2,NONE,NONE,POINT (-72.65395 41.553597),1043,236,83,3
+Newington Town Center - Municipal Parking Lot,83 Market Square,Newington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.721392 41.696446),1041,86,94,1
+Ridgeway Shopping Center - Tesla Supercharger,2233 Summer Street,Stamford,24 hours daily; for Tesla use only,NONE,NONE,12,NONE,POINT (-73.546435 41.068704),1040,84,135,9
+Connecticut Post Mall - NW Entrance,1201 Boston Post Rd,Milford,6am-12pm daily,NONE,2,NONE,NONE,POINT (-73.036899 41.23608),1044,193,84,7
+Girard Nissan,425 Gold Star Hwy,Groton,Dealership business hours,NONE,1,NONE,NONE,POINT (-72.054118 41.370989),1045,243,59,8
+Milford Travel Plaza - Tesla Supercharger,I-95 Milford,Milford,24 hours daily; for Tesla use only,NONE,NONE,2,NONE,POINT (-73.010522 41.246242),1044,193,84,7
+Goodwin University,211 Riverside Dr,East Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.640075 41.743194),1041,24,43,1
+Greater Hartford Transit District - Spruce Street Lot,1 Union Pl,Hartford,24 hours daily; pay lot,1,1,NONE,NONE,POINT (-72.68182500000002 41.769417),1041,82,64,1
+Illiano's Restaurant,257 W Town St,Yantic,11am-10pm daily,NONE,1,NONE,NONE,POINT (-72.113144 41.55775),1045,14,104,8
+Town of Hamden - Police Department,2900 Dixwell Ave,Hamden,24 hours daily,NONE,2,NONE,NONE,POINT (-72.903596 41.384051),1044,100,62,7
+Fairfield Senior Center,100 Mona Terrace,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.26088 41.132277),1040,111,51,2
+Butler Street Parking Lot,30 Butler St,Meriden,24 hours daily,NONE,2,NONE,NONE,POINT (-72.805988 41.53697),1044,226,80,7
+Propark - 777 Main,777 Main St,Hartford,Restricted to garage hours; pay lot,NONE,17,1,NONE,POINT (-72.67363400000002 41.766034),1041,82,64,1
+JOHN ST CHARGER,234 John St,Bridgeport,24 hours daily,NONE,2,NONE,NONE,POINT (-73.1911131 41.1772308),1040,172,15,2
+Peck Lane Plaza Shopping Center,550 Boston Post Rd,Orange,24 hours daily,NONE,NONE,1,NONE,POINT (-73.017784 41.251801),1044,196,107,7
+PRESTIGE VW,42-46 W Broad St,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5464906 41.0553525),1040,7,135,9
+Fairfield Recreation Center,75 Mill Plain Rd,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.264636 41.14221200000001),1040,111,51,2
+Norwalk Community College,188 Richards Ave,Norwalk,"7am-10pm M-F, 8am-5pm Sat",NONE,2,NONE,NONE,POINT (-73.452539 41.102848),1040,204,103,9
+LAZ Fly Airport Parking,24 Ella Grasso Turnpike,Windsor Locks,24 hours daily,NONE,2,NONE,NONE,POINT (-72.672748 41.918347),1041,21,165,1
+CT RAIL,60 State St,Meriden,24 hours daily,NONE,2,NONE,NONE,POINT (-72.8007814 41.5394301),1044,199,80,7
+Killingly Town Hall,172 Main St,Killingly,24 hours daily,NONE,1,NONE,NONE,POINT (-71.88232300000001 41.80577),39,71,69,5
+Central Connecticut State University - Welte Hall Parking Lot,105 Ella Grasso Blvd,New Britain,24 hours daily,NONE,3,NONE,NONE,POINT (-72.768107 41.693501),1041,110,89,1
+The Inn at Woodstock Hill,94 Plaine Hill Rd,Woodstock,24 hours daily,1,1,NONE,NONE,POINT (-71.97262186000002 41.94378281),39,70,169,5
+Wilton Public Library,137 Old Ridgefield Rd,Wilton,"10am-8pm M-Th, 10am-6pm F, 10am-5pm Sat, 1pm-5pm Sun (Sunday hours in winter only)",NONE,1,NONE,NONE,POINT (-73.43124 41.192802),1040,212,161,9
+HAJJAR,213 Court St,Middletown,24 hours daily,NONE,2,NONE,NONE,POINT (-72.65018090000001 41.5590961),1043,236,83,3
+Goodwin University,403 Main St,East Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.639362 41.749499),1041,24,43,1
+Stony Creek Brewery - Tesla Destination,5 Indian Neck Ave,Branford,24 hours daily,NONE,1,NONE,NONE,POINT (-72.812491 41.274658),1044,170,,
+Big Y,1021 Main St,Cheshire,24 hours daily,NONE,2,NONE,NONE,POINT (-72.907523 41.476271),1044,63,25,4
+Connecticut Post Mall - Dave & Buster's,1201 Boston Post Rd,Milford,6am-12am daily,NONE,2,NONE,NONE,POINT (-73.033472 41.23636),1044,193,84,7
+City of Middletown - Mellili Plaza Public Parking,245 DeKoven Dr,Middletown,24 hours daily,NONE,12,NONE,NONE,POINT (-72.648056 41.561647),1043,236,83,3
+Ford of Branford,301 E Main St,Branford,Dealership business hours; Ford use only,NONE,2,NONE,NONE,POINT (-72.789844 41.292505000000006),1044,170,14,7
+Morton Government Center,239 John St,Bridgeport,24 hours daily,NONE,1,NONE,NONE,POINT (-73.191423 41.177007),1040,172,15,2
+Town of Groton - Public Library,52 Newtown Rd,Groton,24 hours daily,NONE,2,NONE,NONE,POINT (-72.028928 41.347552),1045,243,59,8
+Burlington Library,34 Library Ln,Burlington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.967327 41.771305),1041,107,20,6
+Bruce Bennett Nissan,978 Danbury Rd,Wilton,Dealership business hours,NONE,1,1,NONE,POINT (-73.435546 41.258992),1040,212,161,9
+Park 'N Fly - Bradley International Airport,1186 South St,Suffield,24 hours daily; pay lot; see attendant for access,NONE,2,NONE,NONE,POINT (-72.663078 41.951328),1041,115,139,1
+Van Wilgen's Garden Center,51 Valley Rd,North Branford,9am-5pm M-F,NONE,1,NONE,NONE,POINT (-72.766102 41.306955),1044,131,99,7
+REYNOLDS SUBARU,272 Hamburg Rd,Lyme,24 hours daily,NONE,2,NONE,NONE,POINT (-72.3518219 41.3890729),1045,136,75,3
+Tingue Dam Bypass Channel - Wakeley Street Parking Lot,37 Wakeley St,Seymour,24 hours daily,NONE,2,NONE,NONE,POINT (-73.075525 41.394315000000006),1044,239,124,4
+Mohegan Sun,1 Mohegan Sun Blvd,Uncasville,24 hours daily,NONE,4,NONE,NONE,POINT (-72.091456 41.491597),1045,15,86,8
+COMCAST,90 Phoenix Ave,Enfield,24 hours daily,NONE,4,NONE,NONE,POINT (-72.581611 41.977252),1041,108,49,1
+Greenlots - 92143,665 Commerce Dr,Fairfield,24 hours daily,NONE,2,NONE,NONE,POINT (-73.23358 41.163146),1040,111,51,2
+777 Main Street - Tesla Supercharger,777 Main Street,Hartford,24 hours daily; for Tesla use only,NONE,NONE,6,NONE,POINT (-72.674129 41.766493),1041,82,64,1
+BMW RIDGEFIELD,746 Danbury Rd,Ridgefield,24 hours daily,NONE,NONE,1,NONE,POINT (-73.4722156 41.3305782),1040,43,118,9
+"DoubleTree by Hilton - Norwalk, CT - Tesla Destination",789 Connecticut Ave,Norwalk,24 hours daily; see front desk for access,NONE,1,NONE,NONE,POINT (-73.453043 41.092037),1040,155,103,9
+BIG Y FOODS,140 suit A West Rd,Ellington,24 hours daily,NONE,2,NONE,NONE,POINT (-72.46388 41.888958),38,142,48,1
+Wrap N Shine Auto Spa - Tesla Destination,97 Bridgeport Ave #10,Shelton,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-73.097982 41.310498),1040,217,126,4
+Western Connecticut State University,190 White St,Danbury,24 hours daily,NONE,3,NONE,NONE,POINT (-73.442053 41.39936),1040,1,34,9
+MINI OF FFD CTY,154 US-1 154 post rd,Darien,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4569573 41.089032),1040,5,35,9
+Delamar West Hartford - Tesla Destination,1 Memorial Rd,West Hartford,24 hours daily; for customer use only,NONE,3,NONE,NONE,POINT (-72.737672 41.760566),1041,251,155,1
+Connecticut Department of Motor Vehicles,60 State St,Wethersfield,8am-5pm M-F,NONE,1,NONE,NONE,POINT (-72.655754 41.71866250000001),1041,261,159,1
+Mill Plain Diner - Tesla Destination,14 Mill Plain Rd,Danbury,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-73.494706 41.38756),1040,60,34,9
+Sherman Green,1451 Post Rd,Fairfield,24 hours daily,NONE,1,NONE,NONE,POINT (-73.256774 41.140584),1040,111,51,2
+Stamford Government Center Garage,888 Washington Blvd,Stamford,24 hours daily,NONE,3,NONE,NONE,POINT (-73.542499 41.051637),1040,203,135,9
+Z Airport Parking,3 International Dr,East Granby,24 hours daily,NONE,1,NONE,NONE,POINT (-72.709138 41.928233),1041,225,40,1
+Hyatt Regency Greenwich - Tesla Destination,1800 E Putnam Ave,Greenwich,24 hours daily; for customer use only,NONE,2,NONE,NONE,POINT (-73.566753 41.046329),1040,250,57,9
+Surface Parking Lot,121 Main St,New Britain,24 hours daily,NONE,2,NONE,NONE,POINT (-72.781161 41.666233),1041,17,89,1
+Deep River Library,150 Main St,Deep River,24 hours daily; see code on the face of charger or ask librarian to initiate charge,1,1,NONE,NONE,POINT (-72.43670100000001 41.386805),1043,272,36,3
+State House Square,10-90 State House Square,Hartford,24 hours daily,NONE,1,NONE,NONE,POINT (-72.671417 41.766822),1041,82,64,1
+City of Milford - Train Station Parking,1 Railroad Ave,Milford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.060012 41.222682),1044,193,84,7
+Hammonasset Beach State Park - Meig's Point Nature Center,1288 Boston Post Rd,Madison,24 hours daily,NONE,4,NONE,NONE,POINT (-72.546017 41.251952),,134,76,7
+Grossman Nissan,295 Middlesex Turnpike,Old Saybrook,Dealership business hours,NONE,1,1,NONE,POINT (-72.383105 41.309276),1043,56,106,3
+"Saybrook Point Inn, Spa & Marina - Tesla Destination",2 Bridge St,Old Saybrook,24 hours daily; for customer use only,NONE,4,NONE,NONE,POINT (-72.351072 41.28331),1043,56,106,3
+Fairfield Train Station Overflow Lot,140 Mill Plain Rd,Fairfield,24 hours daily; pay lot,NONE,1,NONE,NONE,POINT (-73.264399 41.142923),1040,111,51,2
+Metro Center 1,One Station Place,Stamford,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,NONE,1,NONE,NONE,POINT (-73.542177 41.046112),1040,7,135,9
+Dinosaur State Park and Arboretum,400 West St,Rockyhill,Park business hours,NONE,2,NONE,NONE,POINT (-72.658514 41.651179),1041,189,119,1
+Staples High School,70 North Avenue,Westport,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,2,NONE,NONE,POINT (-73.3304754 41.1526176),1040,179,158,9
+Windham Town Hall,979 Main St,Windham,24 hours daily,NONE,2,NONE,NONE,POINT (-72.217506 41.71292),39,207,163,8
+West Hartford - Town Hall,50 S Main St,West Hartford,Parking lot business hours,NONE,2,NONE,NONE,POINT (-72.741204 41.758754),1041,158,155,1
+Connecticut Welcome Center - Tesla Supercharger,1 E Trail,Darien,24 hours daily; for Tesla use only,NONE,NONE,4,NONE,POINT (-73.46135 41.080103),1040,5,35,9
+City of New Haven - Temple Street Garage,1 Temple St,New Haven,24 hours daily; pay lot,NONE,3,NONE,NONE,POINT (-72.928369 41.304245),1044,133,93,7
+Minor Memorial Library,23 South St,Roxbury,24 hours daily,NONE,1,NONE,NONE,POINT (-73.30764000000002 41.55358),1042,95,120,6
+Szczesny Parking Garage,31 Bank St,New Britain,24 hours daily,NONE,2,NONE,NONE,POINT (-72.78037 41.666879),1041,17,89,1
+GE WS - Price Chopper #243 Storrs CT 1,1220  Storrs Rd,Mansfield,24 hours daily,NONE,1,NONE,NONE,POINT (-72.241254 41.80199700000001),38,33,78,1
+AAMCO EV,133 Pitkin St,East Hartford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.65266880000001 41.7632299),1041,119,43,1
+Winvian Farm - Tesla Destination,155 Alain White Rd,Morris,24 hours daily; for customer use only; see front desk for access,NONE,3,NONE,NONE,POINT (-73.201059 41.697035),1042,120,87,6
+Brass Mill Center - Entrance 3,495 Union St,Waterbury,6am-12pm daily,NONE,4,NONE,NONE,POINT (-73.023973 41.549008),1044,194,151,4
+COMM LOT STA 1,13 Durant Ave.,Bethel,24 hours daily,NONE,2,NONE,NONE,POINT (-73.4178034 41.3762377),1040,77,9,9
+Waterbury-Oxford Airport,300 Christian St,Oxford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.146142 41.477151000000006),1044,12,108,4
+Shagbark Lumber and Farm Supply,1 Mt Parnassus Millington Rd,East Haddam,24 hours daily,NONE,1,NONE,NONE,POINT (-72.442533 41.463278),1043,192,41,3
+Metro Green Residential Parking - Tesla Destination,717  Atlantic St,Stamford,24 hours daily,NONE,3,NONE,NONE,POINT (-73.540098 41.04514),1040,7,135,9
+Hartford Road Henny Penny,969 Hartford Road,Waterford,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,NONE,2,NONE,NONE,POINT (-72.1591426 41.3874871),1045,140,152,8
+FOXWOODS,101 Trolley Line Blvd,Mashantucket,24 hours daily,NONE,2,NONE,NONE,POINT (-71.9523342 41.469981700000005),1045,66,72,8
+Convention Center - Hartford,100 Columbus Blvd,Hartford,24 hours daily; pay lot,NONE,6,NONE,NONE,POINT (-72.668973 41.762852),1041,82,64,1
+County Line Buick-Nissan,2191 Straits Turnpike,Middlebury,Dealership business hours,NONE,1,NONE,NONE,POINT (-73.098764 41.568122),1044,200,81,4
+MYSTIC AQUARIUM,55 Coogan Blvd,Mystic,24 hours daily,NONE,NONE,1,NONE,POINT (-71.954088 41.373074),1045,135,137,8
+University of Connecticut - Waterbury,99 E Main St,Waterbury,24 hours daily,NONE,2,NONE,NONE,POINT (-73.038135 41.555816),1044,167,151,4
+Danbury Parking Authority,21 Delay St,Danbury,Garage business hours,NONE,2,NONE,NONE,POINT (-73.451059 41.396042),1040,1,34,9
+INFINITYGREEN,201 Commons Park S,Stamford,24 hours daily,NONE,2,NONE,NONE,POINT (-73.5405387 41.040838),1040,7,135,9
+City of Hartford - City Hall,35 Arch St,Hartford,24 hours daily,NONE,1,NONE,NONE,POINT (-72.672842 41.762206),1041,82,64,1
+White Hart Inn - Tesla Destination,15 Undermountain Rd,Salisbury,24 hours daily; for customer use only,NONE,1,NONE,NONE,POINT (-73.42219800000001 41.98483),1042,268,122,6
+Premier Subaru,155 N Main St,Branford,24 hours daily,NONE,2,NONE,NONE,POINT (-72.813257 41.287914),1044,170,14,7
+Central Connecticut State University - Student Center Parking Garage,165 Ella Grasso Blvd,New Britain,24 hours daily,NONE,3,NONE,NONE,POINT (-72.7663278757019 41.6938875513217),1041,110,89,1
+University of Connecticut - South Parking Garage,505 Jim Calhoun Way,Storrs,Garage business hours,NONE,2,NONE,NONE,POINT (-72.253601 41.805152),38,69,78,1
+Carter Chevrolet,175 Hartford Turnpike,Vernon,Dealership business hours,NONE,2,1,NONE,POINT (-72.5009065449829 41.8218766595564),38,248,146,1
+Dunkin' Donuts,189 Forbes Ave,New Haven,24 hours daily,NONE,NONE,1,NONE,POINT (-72.9 41.294167),1044,130,93,7
+Bloomfield Human Services Center,330 Park Avenue,Bloomfield,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,NONE,2,NONE,NONE,POINT (-72.712466 41.8234945),1041,224,11,1
+Grand Central Fashion Plaza Shopping Center - Tesla Supercharger,1145 High Ridge Rd,North Stamford,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-73.546513 41.107722),1040,84,135,9
+University of Connecticut - North Parking Garage,103 N Eagleville Rd,Storrs,Garage business hours,NONE,2,NONE,NONE,POINT (-72.258277 41.809176),38,69,78,1
+Fairfield SB - Tesla Supercharger,267 Round Hill Road,Fairfield,24 hours daily; for Tesla use only,NONE,NONE,8,NONE,POINT (-73.255573 41.14807),1040,111,51,2
+Fairfield Woods Library,1147 Fairfield Woods Rd,Fairfield,24 hours daily,NONE,1,NONE,NONE,POINT (-73.250024 41.187855),1040,174,51,2
+Yankee Doodle,10 Burnell Boulevard,Norwalk,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,NONE,1,NONE,NONE,POINT (-73.414932 41.11803),1040,204,103,9
+Lee Partyka Chevrolet Mazda Isuzu,200 Skiff St,Hamden,Dealership business hours,NONE,3,NONE,NONE,POINT (-72.9100121 41.3729709),1044,198,62,7
+777 MAIN ST,71 Asylum St,Hartford,24 hours daily,NONE,10,1,NONE,POINT (-72.674468 41.766676),1041,82,64,1
+Norwich Public Utilities,173 N Main St,Norwich,24 hours daily,NONE,4,NONE,NONE,POINT (-72.063516 41.52757900000001),1045,14,104,8
+Fairfield Plaza,116 Danbury Rd,New Milford,24 hours daily,NONE,NONE,1,NONE,POINT (-73.41763 41.55735),1042,88,96,9
+Eastern Connecticut State University - Shakespeare Parking Garage,24 Charger Oak Dr,Willimantic,24 hours daily,NONE,4,NONE,NONE,POINT (-72.208134 41.7385909),38,32,78,1

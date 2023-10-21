@@ -1,0 +1,90 @@
+@prefix me: <http://madrid.encuentra.es/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix esAgenda: <http://www.owl-ontologies.com/esAgenda#> .
+@prefix esagenda: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#> .
+@prefix esequip: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+me:Biblioteca a owl:Class ;
+    rdfs:label "Biblioteca" ;
+    rdfs:subClassOf me:Facility .
+
+me:CentroCultural a owl:Class ;
+    rdfs:label "Centro Cultural" ;
+    rdfs:subClassOf me:Facility .
+
+schema:workPerformed a owl:ObjectProperty ;
+    rdfs:label "work performed" ;
+    rdfs:domain schema:Event ;
+    rdfs:range schema:CreativeWork .
+
+esagenda:medioTransporte a owl:ObjectProperty ;
+    rdfs:label "medio transporte" ;
+    rdfs:domain me:Facility ;
+    rdfs:range xsd:string .
+
+esequip:equipamiento a owl:ObjectProperty ;
+    rdfs:label "equipamiento" ;
+    rdfs:domain me:Facility ;
+    rdfs:range esequip:Equipamiento .
+
+base: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+<http://vocab.linkeddataassignment-group13.com/Ontology/culturalagenda#esAgenda> a owl:DatatypeProperty ;
+    rdfs:label "es agenda" .
+
+<http://vocab.linkeddataassignment-group13.com/Ontology/culturalagenda#esagenda> a owl:DatatypeProperty ;
+    rdfs:label "esagenda" .
+
+<http://vocab.linkeddataassignment-group13.com/Ontology/culturalagenda#me> a owl:DatatypeProperty ;
+    rdfs:label "me" .
+
+<http://vocab.linkeddataassignment-group13.com/Ontology/culturalagenda#rdfs> a owl:DatatypeProperty ;
+    rdfs:label "rdfs" ;
+    rdfs:domain esAgenda:Evento .
+
+esAgenda:tipoPublico a owl:ObjectProperty ;
+    rdfs:label "tipo publico" ;
+    rdfs:domain esAgenda:Evento ;
+    rdfs:range skos:Concept .
+
+ns:takesPlaceIn a owl:ObjectProperty ;
+    rdfs:label "takes place in" ;
+    rdfs:domain esAgenda:Evento ;
+    rdfs:range me:Facility .
+
+schema:Place a owl:Class,
+        owl:ObjectProperty ;
+    rdfs:label "Place",
+        "place" ;
+    rdfs:domain schema:Event ;
+    rdfs:range schema:Place .
+
+schema:creativeWork a owl:Class ;
+    rdfs:label "creative Work" .
+
+esequip:Equipamiento a owl:Class ;
+    rdfs:label "Equipamiento" .
+
+xsd:string a owl:Class ;
+    rdfs:label "string" .
+
+skos:Concept a owl:Class ;
+    rdfs:label "Concept" .
+
+schema:Event a owl:Class ;
+    rdfs:label "Event" .
+
+esAgenda:Evento a owl:Class ;
+    rdfs:label "Evento" ;
+    rdfs:subClassOf schema:Event .
+
+me:Facility a owl:Class ;
+    rdfs:label "Facility" .
+
