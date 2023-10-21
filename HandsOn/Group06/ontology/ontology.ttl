@@ -13,6 +13,12 @@
     dc:title "Madrid city heatmap Ontology" ;
     owl:versionInfo "0.0.1" .
 
+
+peaton:id_aforoPeatones a owl:DatatypeProperty ;
+    rdfs:label "p e a t o n e s" ;
+    rdfs:range xsd:Integer .
+
+
 peaton:CODIGO_POSTAL a owl:DatatypeProperty ;
     rdfs:label "c o d i g o_ p o s t a l" ;
     rdfs:range xsd:Integer .
@@ -52,10 +58,6 @@ peaton:NUMERO_DISTRITO a owl:DatatypeProperty ;
 peaton:OBSERVACIONES_DIRECCION a owl:DatatypeProperty ;
     rdfs:label "o b s e r v a c i o n e s_ d i r e c c i o n" ;
     rdfs:range xsd:String .
-
-peaton:PEATONES a owl:DatatypeProperty ;
-    rdfs:label "p e a t o n e s" ;
-    rdfs:range xsd:Integer .
 
 peaton:Peaton a owl:Class ;
     rdfs:label "Peaton" .
