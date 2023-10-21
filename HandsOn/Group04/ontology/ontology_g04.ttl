@@ -39,13 +39,13 @@
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAddress
 :hasAddress rdf:type owl:ObjectProperty ;
             rdfs:domain :Facility ;
-            rdfs:range :PostalAddress .
+            rdfs:range :Address .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasPostalAddress
 :hasPostalAddress rdf:type owl:ObjectProperty ;
-                  rdfs:domain :PostalAddress ;
-                  rdfs:range :Address .
+                  rdfs:domain :Address ;
+                  rdfs:range :PostalAddressAddress .
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#belongsTo
 :belongsTo rdf:type owl:ObjectProperty ;

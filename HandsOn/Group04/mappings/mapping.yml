@@ -1,0 +1,102 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  vocab: http://www.madculturalevents.es/group04/resources/
+  group04: http://www.madculturalevents.es/group04/ontology/madculturalevents#
+  
+mappings:
+  culturalEvents:
+    sources:
+      - [agenda-eventos-culturales-100-updated.csv~csv]
+    s: vocab:event/$(ID-EVENTO)~iri
+    po:
+      - [a, group04:CulturalEvent]
+      - [group04:eventDescription,$(DESCRIPCION)xsd:string]
+      - [group04:price,$(GRATUITO)xsd:boolean]
+      - [group04:startDate,$(FECHA)xsd:dateTime]
+      - [group04:endDate,$(FECHA-FIN)xsd:dateTime]
+      - [group04:eventName,$(TITULO)xsd:string]
+      - [group04:accesibility,$(ACCESIBILIDAD-INSTALACION)xsd:string]
+      - [group04:eventUrl,$(CONTENT-URL)xsd:string]
+      - p: group04:hasEventType
+        o:
+          mapping: Concept
+      - p: group04:hasAudienceType
+        o:
+          mapping: Audience
+      - p: group04:hasPlace
+        o:
+          mapping: Facility
+
+
+  Concept:
+    sources:
+      - [agenda-eventos-culturales-100-updated.csv~csv]
+    s: vocab:concept/$(ID-EVENTO)~iri
+    po:
+      - [a, group04:Concept]
+      - [group04:eventType, $(TIPO)xsd:string]
+
+  Audience:
+    sources:
+      - [agenda-eventos-culturales-100-updated.csv~csv]
+    s: vocab:audience/$(ID-EVENTO)~iri
+    po:
+      - [a, group04:Audience]
+      - [group04:audienceType, $(TIPO)xsd:string]
+  Facility:
+    sources:
+      - [museos-updated.csv~csv]
+      - [centros-culturales-updated.csv~csv]
+    s: vocab:facility/$(PK)~iri
+    po:
+      - [a, group04:Facility]
+      - [group04:facilityName,$(NOMBRE)xsd:string]
+      - [group04:facilityUrl,$(CONTENT-URL)xsd:string]
+      - [group04:metro,$(METRO)xsd:string]
+      - [group04:bus,$(BUS)xsd:string]
+      - [group04:train,$(RENFE)xsd:string]
+      - p: group04:ubicatedIn
+        o:
+          mapping: Geometry
+      - p: group04:hasAddress
+        o:
+          mapping: Address
+  Geometry:
+    sources:
+      - [museos-updated.csv~csv]
+      - [centros-culturales-updated.csv~csv]
+    s: vocab:geometry/$(PK)~iri
+    po:
+      - [a, group04:Geometry]
+      - [group04:hasLong, $(LONGITUD)xsd:float] 
+      - [group04:hasLat, $(LATITUD)xsd:float]         
+  Address:
+    sources:
+      - [museos-updated.csv~csv]
+      - [centros-culturales-updated.csv~csv]
+    s: vocab:address/$(PK)~iri
+    po:
+      - [a, group04:Address]
+      - [group04:number, $(NUM)xsd:integer] 
+      - [group04:addressName, $(DIRECCION)xsd:string]
+      - p: group04:belongsTo
+        o: 
+          mapping: District
+  District:
+    sources:
+      - [museos-updated.csv~csv]
+      - [centros-culturales-updated.csv~csv]
+    s: vocab:district/$(DISTRITO)~iri
+    po:
+      - [a, group04:District]
+      - [group04:districtName, $(DISTRITO)xsd:string]
+
