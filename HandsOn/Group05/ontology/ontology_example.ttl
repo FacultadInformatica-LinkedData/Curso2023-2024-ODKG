@@ -17,6 +17,7 @@
 
 ### http://healthcentersmadrid.es/locations/resource/HealthCentre/pk
 :11864 a ont:HealthCentre;
+	ont:pk 11864^^xsd:int;
 	ont:name "Centro de Atención a las Adicciones (CAD) de Vallecas"^^xsd:string;
 	ont:typeCenter “Centros Asistencia Drogodependientes”^^xsd:string;
 	ont:isLocated :Location001;
