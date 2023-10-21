@@ -38,6 +38,11 @@
 #    Data properties
 #################################################################
 
+###   http://healthcentersmadrid.es/locations/ontology/ont#pk
+:pk rdf:type owl:DatatypeProperty ;
+        rdfs:domain :HealthCentre ;
+        rdfs:range xsd:int .
+
 ###   http://healthcentersmadrid.es/locations/ontology/ont#name
 :name rdf:type owl:DatatypeProperty ;
         rdfs:domain :HealthCentre ;
@@ -80,7 +85,7 @@
 
 
 ###  http://healthcentersmadrid.es/locations/ontology/ont#neighborhood
-:latitude rdf:type owl:DatatypeProperty ;
+:neighborhood rdf:type owl:DatatypeProperty ;
         rdfs:domain :Address ;
         rdfs:range xsd:string .
 
