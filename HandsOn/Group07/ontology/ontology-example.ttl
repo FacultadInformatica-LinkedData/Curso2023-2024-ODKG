@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
+
+
+<https://www.chargeup.io/group07/ontology#> rdf:type owl:Ontology .
+
+
+# https://www.chargeup.io/group07/resource/ChargingStation/BMW%20OF%20DARIEN
+https://www.chargeup.io/group07/resource/ChargingStation/BMW%20OF%20DARIEN a ont:ChargingStation
+    ont:stationName "BMW OF DARIEN"^^xsd:string;
+    ont:streetAddress <https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd>
+    ont:accessDaysTime "24 hours daily"^^xsd:string;
+    ont:evLevel2EVSENum 2^^xsd:integer;
+    ont:newGeoreferencedColumn "POINT (-73.4764687 41.072882)"^^xsd:string;
+    ont:city <https://www.chargeup.io/group07/resource/City/Darien> .
+
+
+# https://www.chargeup.io/group07/resource/City/Darien
+https://www.chargeup.io/group07/resource/City/Darien a ont:City;
+    ont:counties 1040^^xsd:integer;
+    ont:townIndex 35^^xsd:integer;
+
+
+# https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd
+https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd a ont:Address;
+    ont:zipCode 35^^xsd:integer;
