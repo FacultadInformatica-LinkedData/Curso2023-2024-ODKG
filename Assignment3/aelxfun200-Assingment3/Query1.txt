@@ -7,3 +7,4 @@
 		  ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
 		  ?politician ?properties ?x.
 		} 
+		

@@ -9,3 +9,4 @@
 		  ?politician ?properties ?value .
 		  FILTER(?properties != rdf:type)
 		} 
+		
