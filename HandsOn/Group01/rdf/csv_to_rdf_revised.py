@@ -53,7 +53,6 @@ def add_classes_to_graph(g, nso):
     Total = nso.Total
     Year = nso.Year
     Month = nso.Month
-    Name = nso.Name  # Add the Name class
 
     # Zone
     g.add((Zone, RDF.type, RDFS.Class))
@@ -73,8 +72,6 @@ def add_classes_to_graph(g, nso):
     # Month
     g.add((Month, RDF.type, RDFS.Class))
 
-    # Name
-    g.add((Name, RDF.type, RDFS.Class))
 
 
 def add_properties_to_graph(g, nso):
@@ -90,7 +87,6 @@ def add_properties_to_graph(g, nso):
     referedTo = nso.referedTo
     hasYear = nso.hasYear
     hasMonth = nso.hasMonth
-    label = RDFS.label
 
     # Now, add property definitions to the graph:
 
@@ -142,17 +138,12 @@ def add_properties_to_graph(g, nso):
     # hasYear
     g.add((hasYear, RDF.type, RDF.Property))
     g.add((hasYear, RDFS.domain, nso.Total))
-    g.add((hasYear, RDFS.range, XSD.integer))
+    g.add((hasYear, RDFS.range, nso.Year))
 
     # hasMonth
     g.add((hasMonth, RDF.type, RDF.Property))
     g.add((hasMonth, RDFS.domain, nso.Total))
     g.add((hasMonth, RDFS.range, nso.Month))
-
-    # label
-    g.add((label, RDF.type, RDF.Property))  # Add the property definition
-    g.add((label, RDFS.domain, nso.Name))
-    g.add((label, RDFS.range, XSD.string))  # Assume Name is of type string
 
 
 def create_triples(df, g, nso):
@@ -181,8 +172,14 @@ def create_triples(df, g, nso):
 
         if not (district_uri, nso['districtID'], district_id_literal) in g:
             g.add((district_uri, nso['districtID'], district_id_literal))
-            g.add((district_uri, RDFS.label, Literal(f"District {row['District']}")))
-            g.add((district_uri, RDFS.label, Literal(row['Name'], datatype=XSD.string)))  # Use RDFS.label for Name
+
+
+        district_name_literal = Literal(row['Name'], datatype=XSD.string)
+
+        if not (district_uri, nso['districtName'], district_name_literal) in g:
+            g.add((district_uri, nso['districtName'], district_name_literal))
+            g.add((district_uri, RDFS.label, Literal(f'District {district_id_literal}')))
+
 
         # WasteType data properties
         wasteType_literal = Literal(row['WasteType'], datatype=XSD.string)
@@ -199,13 +196,14 @@ def create_triples(df, g, nso):
         if not (total_uri, nso['value'], None) in g:
             g.add((total_uri, nso['value'], total_value_literal))
             g.add((total_uri, RDFS.label, total_label_literal))
-            g.add((total_uri, nso['hasYear'], Literal(row['Year'], datatype=XSD.integer)))
+            g.add((total_uri, nso['hasYear'], year_uri))
             g.add((total_uri, nso['hasMonth'], month_uri))
 
         # Year data properties
         year_literal = Literal(row['Year'], datatype=XSD.integer)
 
-        if not (year_uri, RDFS.label, year_literal) in g:
+        if not (year_uri, RDF.type, nso['Year']) in g.triples((year_uri, RDF.type, None)):
+            g.add((year_uri, RDF.type, nso['Year']))
             g.add((year_uri, RDFS.label, year_literal))
 
         # Month data properties
@@ -215,11 +213,7 @@ def create_triples(df, g, nso):
             g.add((month_uri, RDF.type, nso['Month']))
             g.add((month_uri, RDFS.label, month_label))
 
-        # Name data properties
-        name_value_literal = Literal(row['Name'], datatype=XSD.string)  # Use RDFS.label for Name
 
-        if not (name_uri, RDFS.label, name_value_literal) in g:  # Use RDFS.label for Name
-            g.add((name_uri, RDFS.label, name_value_literal))  # Use RDFS.label for Name
 
         """----------------------Entity relationships---------------------------------"""
 
@@ -246,8 +240,6 @@ def create_triples(df, g, nso):
         # Month relationships
         g.add((month_uri, RDF.type, nso['Month']))
 
-        # Name relationships
-        g.add((name_uri, RDF.type, nso['Name']))
 
 
 def main():
@@ -255,7 +247,7 @@ def main():
     csv_path = "Residuos_2021_2023-updated.csv"
 
     try:
-        print("Serialization in progress")
+        print("Serialization  1 in progress")
         df = pd.read_csv(csv_path)
 
         g, nso = create_rdf_graph()
@@ -269,6 +261,24 @@ def main():
         # Save RDF graph to a file
         rdf_path = "Residuos_2021_2023-updated_3.ttl"  # Change extension to .ttl for Turtle format
         g.serialize(destination=rdf_path, format="turtle")  # Use 'turtle' format
+        print(f"RDF graph saved to {rdf_path}")
+    except FileNotFoundError:
+        print("Please try again with a valid path.")
+    try:
+        print("Serialization 2 in progress")
+        df = pd.read_csv(csv_path)
+
+        g, nso = create_rdf_graph()
+
+        add_classes_to_graph(g, nso)
+
+        add_properties_to_graph(g, nso)
+
+        create_triples(df, g, nso)
+
+        # Save RDF graph to a file
+        rdf_path = "Residuos_2021_2023-updated_3.nt"  # Change extension to .nt for N-Triples format
+        g.serialize(destination=rdf_path, format="nt")  # Use 'nt' format
         print(f"RDF graph saved to {rdf_path}")
     except FileNotFoundError:
         print("Please try again with a valid path.")
