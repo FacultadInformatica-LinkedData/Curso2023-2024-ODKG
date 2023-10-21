@@ -58,7 +58,6 @@
                   rdfs:domain :Facility ;
                   rdfs:range :Geometry .
 
-
 #################################################################
 #    Data properties
 #################################################################
@@ -176,7 +175,6 @@
 :id rdf:type owl:DatatypeProperty ;
             rdfs:domain :District ;
             rdfs:range xsd:int .
-
 
 #################################################################
 #    Classes
