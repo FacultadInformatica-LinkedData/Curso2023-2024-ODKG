@@ -1,0 +1,11 @@
+5. For each of the properties, except for rdf:type, how many distinct values do they take?
+
+		Query: 
+
+		select distinct ?properties count(?value)
+		where 
+		{
+		  ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		  ?politician ?properties ?value .
+		  FILTER(?properties != rdf:type)
+		} 

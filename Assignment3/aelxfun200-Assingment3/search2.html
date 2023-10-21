@@ -1,0 +1,4729 @@
+
+<!-- saved from url=(0426)https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=select+distinct+%3Fproperties%0D%0Awhere+%0D%0A%7B%0D%0A%09%3Fpolitician+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A%09%3Fpolitician+%3Fproperties+%3Fx+.%0D%0A%09FILTER%28%3Fproperties+%21%3D+rdf%3Atype%29%0D%0A%7D+&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query+ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><table class="sparql" border="1">
+  <tbody><tr>
+    <th>properties</th>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#label">http://www.w3.org/2000/01/rdf-schema#label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#comment">http://www.w3.org/2000/01/rdf-schema#comment</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2002/07/owl#differentFrom">http://www.w3.org/2002/07/owl#differentFrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2000/01/rdf-schema#seeAlso">http://www.w3.org/2000/01/rdf-schema#seeAlso</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2002/07/owl#sameAs">http://www.w3.org/2002/07/owl#sameAs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/deathPlace">http://dbpedia.org/ontology/deathPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathPlace">http://dbpedia.org/property/deathPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/deathDate">http://dbpedia.org/ontology/deathDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/birthPlace">http://dbpedia.org/ontology/birthPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/birthDate">http://dbpedia.org/ontology/birthDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.org/dc/terms/subject">http://purl.org/dc/terms/subject</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/wikiPageID">http://dbpedia.org/ontology/wikiPageID</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/wikiPageRevisionID">http://dbpedia.org/ontology/wikiPageRevisionID</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/wikiPageExternalLink">http://dbpedia.org/ontology/wikiPageExternalLink</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/name">http://xmlns.com/foaf/0.1/name</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/homepage">http://xmlns.com/foaf/0.1/homepage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/name">http://dbpedia.org/property/name</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/depiction">http://xmlns.com/foaf/0.1/depiction</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.org/dc/terms/description">http://purl.org/dc/terms/description</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/givenName">http://xmlns.com/foaf/0.1/givenName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/gender">http://xmlns.com/foaf/0.1/gender</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf">http://xmlns.com/foaf/0.1/isPrimaryTopicOf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/surname">http://xmlns.com/foaf/0.1/surname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/thumbnail">http://dbpedia.org/ontology/thumbnail</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/ns/prov#wasDerivedFrom">http://www.w3.org/ns/prov#wasDerivedFrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/abstract">http://dbpedia.org/ontology/abstract</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/activeYearsEndDate">http://dbpedia.org/ontology/activeYearsEndDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/activeYearsStartDate">http://dbpedia.org/ontology/activeYearsStartDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/almaMater">http://dbpedia.org/ontology/almaMater</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/award">http://dbpedia.org/ontology/award</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/battle">http://dbpedia.org/ontology/battle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/birthName">http://dbpedia.org/ontology/birthName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/child">http://dbpedia.org/ontology/child</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/country">http://dbpedia.org/ontology/country</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/deputy">http://dbpedia.org/ontology/deputy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/governorGeneral">http://dbpedia.org/ontology/governorGeneral</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/militaryBranch">http://dbpedia.org/ontology/militaryBranch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/militaryRank">http://dbpedia.org/ontology/militaryRank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/militaryUnit">http://dbpedia.org/ontology/militaryUnit</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/monarch">http://dbpedia.org/ontology/monarch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/nationality">http://dbpedia.org/ontology/nationality</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/occupation">http://dbpedia.org/ontology/occupation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/office">http://dbpedia.org/ontology/office</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/orderInOffice">http://dbpedia.org/ontology/orderInOffice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/otherParty">http://dbpedia.org/ontology/otherParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/party">http://dbpedia.org/ontology/party</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/president">http://dbpedia.org/ontology/president</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/primeMinister">http://dbpedia.org/ontology/primeMinister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/profession">http://dbpedia.org/ontology/profession</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/region">http://dbpedia.org/ontology/region</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/relation">http://dbpedia.org/ontology/relation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/religion">http://dbpedia.org/ontology/religion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/residence">http://dbpedia.org/ontology/residence</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/restingPlace">http://dbpedia.org/ontology/restingPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/serviceEndYear">http://dbpedia.org/ontology/serviceEndYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/serviceStartYear">http://dbpedia.org/ontology/serviceStartYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/spouse">http://dbpedia.org/ontology/spouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/successor">http://dbpedia.org/ontology/successor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/vicePresident">http://dbpedia.org/ontology/vicePresident</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/after">http://dbpedia.org/property/after</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/align">http://dbpedia.org/property/align</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alongside">http://dbpedia.org/property/alongside</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/authorlink">http://dbpedia.org/property/authorlink</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/b">http://dbpedia.org/property/b</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/before">http://dbpedia.org/property/before</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthDate">http://dbpedia.org/property/birthDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthName">http://dbpedia.org/property/birthName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/by">http://dbpedia.org/property/by</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/caption">http://dbpedia.org/property/caption</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/children">http://dbpedia.org/property/children</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/citizenship">http://dbpedia.org/property/citizenship</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/class">http://dbpedia.org/property/class</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constituency">http://dbpedia.org/property/constituency</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/creation">http://dbpedia.org/property/creation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/date">http://dbpedia.org/property/date</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/direction">http://dbpedia.org/property/direction</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/district">http://dbpedia.org/property/district</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ethnicity">http://dbpedia.org/property/ethnicity</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/first">http://dbpedia.org/property/first</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/footer">http://dbpedia.org/property/footer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/footerAlign">http://dbpedia.org/property/footerAlign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headerAlign">http://dbpedia.org/property/headerAlign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honorificPrefix">http://dbpedia.org/property/honorificPrefix</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honorificSuffix">http://dbpedia.org/property/honorificSuffix</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/id">http://dbpedia.org/property/id</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/image">http://dbpedia.org/property/image</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageName">http://dbpedia.org/property/imageName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imagesize">http://dbpedia.org/property/imagesize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/jr/sr">http://dbpedia.org/property/jr/sr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/knownFor">http://dbpedia.org/property/knownFor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/labels">http://dbpedia.org/property/labels</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/last">http://dbpedia.org/property/last</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/module">http://dbpedia.org/property/module</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/n">http://dbpedia.org/property/n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nationality">http://dbpedia.org/property/nationality</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nativeNameLang">http://dbpedia.org/property/nativeNameLang</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/no">http://dbpedia.org/property/no</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/number">http://dbpedia.org/property/number</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/occupation">http://dbpedia.org/property/occupation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherDevice">http://dbpedia.org/property/otherDevice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/p">http://dbpedia.org/property/p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parliament">http://dbpedia.org/property/parliament</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partner">http://dbpedia.org/property/partner</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/party">http://dbpedia.org/property/party</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pic">http://dbpedia.org/property/pic</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/piccap">http://dbpedia.org/property/piccap</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/picsize">http://dbpedia.org/property/picsize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/poj">http://dbpedia.org/property/poj</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/preceded">http://dbpedia.org/property/preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecessor">http://dbpedia.org/property/predecessor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/premier">http://dbpedia.org/property/premier</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/profession">http://dbpedia.org/property/profession</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/relations">http://dbpedia.org/property/relations</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/restingPlace">http://dbpedia.org/property/restingPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ribbon">http://dbpedia.org/property/ribbon</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rows">http://dbpedia.org/property/rows</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/s">http://dbpedia.org/property/s</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/second">http://dbpedia.org/property/second</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/signature">http://dbpedia.org/property/signature</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/signatureAlt">http://dbpedia.org/property/signatureAlt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sname">http://dbpedia.org/property/sname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sopt">http://dbpedia.org/property/sopt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spouse">http://dbpedia.org/property/spouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/state">http://dbpedia.org/property/state</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/succeeded">http://dbpedia.org/property/succeeded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/successor">http://dbpedia.org/property/successor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/t">http://dbpedia.org/property/t</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/term">http://dbpedia.org/property/term</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termEnd">http://dbpedia.org/property/termEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termStart">http://dbpedia.org/property/termStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/title">http://dbpedia.org/property/title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/type">http://dbpedia.org/property/type</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/url">http://dbpedia.org/property/url</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/v">http://dbpedia.org/property/v</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/viaf">http://dbpedia.org/property/viaf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/w">http://dbpedia.org/property/w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/width">http://dbpedia.org/property/width</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wikt">http://dbpedia.org/property/wikt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wstitle">http://dbpedia.org/property/wstitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/years">http://dbpedia.org/property/years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/englisg">http://dbpedia.org/property/englisg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicegovernor">http://dbpedia.org/property/vicegovernor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wordnet_type">http://dbpedia.org/property/wordnet_type</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://purl.org/linguistics/gold/hypernym">http://purl.org/linguistics/gold/hypernym</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/associate">http://dbpedia.org/ontology/associate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/governor">http://dbpedia.org/ontology/governor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/imdbId">http://dbpedia.org/ontology/imdbId</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/partner">http://dbpedia.org/ontology/partner</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/seniority">http://dbpedia.org/ontology/seniority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/networth">http://dbpedia.org/property/networth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/author">http://dbpedia.org/property/author</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bgcolor">http://dbpedia.org/property/bgcolor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/blank">http://dbpedia.org/property/blank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constituencyMp">http://dbpedia.org/property/constituencyMp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/data">http://dbpedia.org/property/data</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathDate">http://dbpedia.org/property/deathDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/education">http://dbpedia.org/property/education</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governor">http://dbpedia.org/property/governor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/height">http://dbpedia.org/property/height</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageSize">http://dbpedia.org/property/imageSize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/leader">http://dbpedia.org/property/leader</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/monarch">http://dbpedia.org/property/monarch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/office">http://dbpedia.org/property/office</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/order">http://dbpedia.org/property/order</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parents">http://dbpedia.org/property/parents</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/primeminister">http://dbpedia.org/property/primeminister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/quote">http://dbpedia.org/property/quote</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/reason">http://dbpedia.org/property/reason</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/source">http://dbpedia.org/property/source</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/with">http://dbpedia.org/property/with</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthPlace">http://dbpedia.org/property/birthPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/electionMajority">http://dbpedia.org/ontology/electionMajority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/lieutenant">http://dbpedia.org/ontology/lieutenant</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/agriculture">http://dbpedia.org/property/agriculture</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/agricultureEnd">http://dbpedia.org/property/agricultureEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/agricultureStart">http://dbpedia.org/property/agricultureStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/c">http://dbpedia.org/property/c</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commerce">http://dbpedia.org/property/commerce</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commerceEnd">http://dbpedia.org/property/commerceEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commerceStart">http://dbpedia.org/property/commerceStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commons">http://dbpedia.org/property/commons</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/externalLinks">http://dbpedia.org/property/externalLinks</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interior">http://dbpedia.org/property/interior</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorDate">http://dbpedia.org/property/interiorDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorEnd">http://dbpedia.org/property/interiorEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorStart">http://dbpedia.org/property/interiorStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/justice">http://dbpedia.org/property/justice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/justiceEnd">http://dbpedia.org/property/justiceEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/justiceStart">http://dbpedia.org/property/justiceStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/labor">http://dbpedia.org/property/labor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/laborEnd">http://dbpedia.org/property/laborEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/laborStart">http://dbpedia.org/property/laborStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister">http://dbpedia.org/property/minister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/navy">http://dbpedia.org/property/navy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/navyEnd">http://dbpedia.org/property/navyEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/navyStart">http://dbpedia.org/property/navyStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pages">http://dbpedia.org/property/pages</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post">http://dbpedia.org/property/post</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/postDate">http://dbpedia.org/property/postDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/postEnd">http://dbpedia.org/property/postEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/postStart">http://dbpedia.org/property/postStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/president">http://dbpedia.org/property/president</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/presidentEnd">http://dbpedia.org/property/presidentEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/presidentStart">http://dbpedia.org/property/presidentStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/q">http://dbpedia.org/property/q</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/relatives">http://dbpedia.org/property/relatives</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/religion">http://dbpedia.org/property/religion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/salign">http://dbpedia.org/property/salign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateEnd">http://dbpedia.org/property/stateEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateStart">http://dbpedia.org/property/stateStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treasury">http://dbpedia.org/property/treasury</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treasuryEnd">http://dbpedia.org/property/treasuryEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treasuryStart">http://dbpedia.org/property/treasuryStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicePresident">http://dbpedia.org/property/vicePresident</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicePresidentEnd">http://dbpedia.org/property/vicePresidentEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicePresidentStart">http://dbpedia.org/property/vicePresidentStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/volume">http://dbpedia.org/property/volume</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/war">http://dbpedia.org/property/war</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warEnd">http://dbpedia.org/property/warEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warStart">http://dbpedia.org/property/warStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alongsidea">http://dbpedia.org/property/alongsidea</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/committee">http://dbpedia.org/ontology/committee</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/militaryCommand">http://dbpedia.org/ontology/militaryCommand</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/viafId">http://dbpedia.org/ontology/viafId</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/allegiance">http://dbpedia.org/property/allegiance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alt">http://dbpedia.org/property/alt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/altstyle">http://dbpedia.org/property/altstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/battles">http://dbpedia.org/property/battles</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dipstyle">http://dbpedia.org/property/dipstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electorate">http://dbpedia.org/property/electorate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/end">http://dbpedia.org/property/end</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/list">http://dbpedia.org/property/list</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mawards">http://dbpedia.org/property/mawards</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/offstyle">http://dbpedia.org/property/offstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/riding">http://dbpedia.org/property/riding</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateSenate">http://dbpedia.org/property/stateSenate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/unit">http://dbpedia.org/property/unit</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyColour">http://dbpedia.org/property/partyColour</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/auto">http://dbpedia.org/property/auto</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/att">http://dbpedia.org/property/att</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/branch">http://dbpedia.org/property/branch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathCause">http://dbpedia.org/property/deathCause</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lieutenantGovernor">http://dbpedia.org/property/lieutenantGovernor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nativeName">http://dbpedia.org/property/nativeName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post1followed">http://dbpedia.org/property/post1followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post1preceded">http://dbpedia.org/property/post1preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post1years">http://dbpedia.org/property/post1years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post2followed">http://dbpedia.org/property/post2followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post2preceded">http://dbpedia.org/property/post2preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post2years">http://dbpedia.org/property/post2years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post3followed">http://dbpedia.org/property/post3followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post3note">http://dbpedia.org/property/post3note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post3preceded">http://dbpedia.org/property/post3preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post3years">http://dbpedia.org/property/post3years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post4followed">http://dbpedia.org/property/post4followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post4note">http://dbpedia.org/property/post4note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post4preceded">http://dbpedia.org/property/post4preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post4years">http://dbpedia.org/property/post4years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dead">http://dbpedia.org/property/dead</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appointer">http://dbpedia.org/property/appointer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicwhip">http://dbpedia.org/property/publicwhip</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/theywork">http://dbpedia.org/property/theywork</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/districtOrd">http://dbpedia.org/property/districtOrd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bot">http://dbpedia.org/property/bot</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fixAttempted">http://dbpedia.org/property/fixAttempted</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/residence">http://dbpedia.org/property/residence</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/titlestyle">http://dbpedia.org/property/titlestyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/numberOfTerms">http://dbpedia.org/property/numberOfTerms</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/description">http://dbpedia.org/property/description</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/float">http://dbpedia.org/property/float</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/label">http://dbpedia.org/property/label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latDeg">http://dbpedia.org/property/latDeg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latDir">http://dbpedia.org/property/latDir</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latMin">http://dbpedia.org/property/latMin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lonDeg">http://dbpedia.org/property/lonDeg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lonDir">http://dbpedia.org/property/lonDir</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lonMin">http://dbpedia.org/property/lonMin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/position">http://dbpedia.org/property/position</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/smallimage">http://dbpedia.org/property/smallimage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/start">http://dbpedia.org/property/start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nolist">http://dbpedia.org/property/nolist</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post1note">http://dbpedia.org/property/post1note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post2note">http://dbpedia.org/property/post2note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2003/01/geo/wgs84_pos#lat">http://www.w3.org/2003/01/geo/wgs84_pos#lat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2003/01/geo/wgs84_pos#long">http://www.w3.org/2003/01/geo/wgs84_pos#long</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.w3.org/2003/01/geo/wgs84_pos#geometry">http://www.w3.org/2003/01/geo/wgs84_pos#geometry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/surge">http://dbpedia.org/property/surge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.georss.org/georss/point">http://www.georss.org/georss/point</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cSpan">http://dbpedia.org/property/cSpan</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/congbio">http://dbpedia.org/property/congbio</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/father">http://dbpedia.org/property/father</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fec">http://dbpedia.org/property/fec</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/govtrack">http://dbpedia.org/property/govtrack</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/legistorm">http://dbpedia.org/property/legistorm</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ontheissues">http://dbpedia.org/property/ontheissues</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/opencong">http://dbpedia.org/property/opencong</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/opensecrets">http://dbpedia.org/property/opensecrets</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/restingplace">http://dbpedia.org/property/restingplace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/votesmart">http://dbpedia.org/property/votesmart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearsActive">http://dbpedia.org/property/yearsActive</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/followthemoney">http://dbpedia.org/property/followthemoney</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateHouse">http://dbpedia.org/property/stateHouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/birthYear">http://dbpedia.org/ontology/birthYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/deathYear">http://dbpedia.org/ontology/deathYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/stateOfOrigin">http://dbpedia.org/ontology/stateOfOrigin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/candidate">http://dbpedia.org/property/candidate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/change">http://dbpedia.org/property/change</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/movement">http://dbpedia.org/property/movement</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/percentage">http://dbpedia.org/property/percentage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeofburial">http://dbpedia.org/property/placeofburial</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rank">http://dbpedia.org/property/rank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/votes">http://dbpedia.org/property/votes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lieutenant">http://dbpedia.org/property/lieutenant</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/appointer">http://dbpedia.org/ontology/appointer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/termPeriod">http://dbpedia.org/ontology/termPeriod</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bloomberg">http://dbpedia.org/property/bloomberg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/employer">http://dbpedia.org/property/employer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/as">http://dbpedia.org/property/as</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/assets">http://dbpedia.org/property/assets</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ballot">http://dbpedia.org/property/ballot</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/congress">http://dbpedia.org/property/congress</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cspan">http://dbpedia.org/property/cspan</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/footnotes">http://dbpedia.org/property/footnotes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homeTown">http://dbpedia.org/property/homeTown</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/link">http://dbpedia.org/property/link</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nndb">http://dbpedia.org/property/nndb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nominator">http://dbpedia.org/property/nominator</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rollcall">http://dbpedia.org/property/rollcall</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/serviceyears">http://dbpedia.org/property/serviceyears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/washpo">http://dbpedia.org/property/washpo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coronet">http://dbpedia.org/property/coronet</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/crest">http://dbpedia.org/property/crest</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/escutcheon">http://dbpedia.org/property/escutcheon</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/motto">http://dbpedia.org/property/motto</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notes">http://dbpedia.org/property/notes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/portal">http://dbpedia.org/property/portal</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/supporters">http://dbpedia.org/property/supporters</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/symbolism">http://dbpedia.org/property/symbolism</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearAdopted">http://dbpedia.org/property/yearAdopted</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/congresses">http://dbpedia.org/property/congresses</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dated">http://dbpedia.org/property/dated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1blankname">http://dbpedia.org/property/1blankname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1namedata">http://dbpedia.org/property/1namedata</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/jr/srAndState">http://dbpedia.org/property/jr/srAndState</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://xmlns.com/foaf/0.1/nick">http://xmlns.com/foaf/0.1/nick</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bbc">http://dbpedia.org/property/bbc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMater">http://dbpedia.org/property/almaMater</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/restingPlacePosition">http://dbpedia.org/ontology/restingPlacePosition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pinyin">http://dbpedia.org/property/pinyin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wg">http://dbpedia.org/property/wg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/kingdom">http://dbpedia.org/property/kingdom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/simp">http://dbpedia.org/property/simp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/trad">http://dbpedia.org/property/trad</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/zi">http://dbpedia.org/property/zi</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/activeYearsEndYear">http://dbpedia.org/ontology/activeYearsEndYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/activeYearsStartYear">http://dbpedia.org/ontology/activeYearsStartYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/chancellor">http://dbpedia.org/ontology/chancellor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/networth">http://dbpedia.org/ontology/networth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/boards">http://dbpedia.org/property/boards</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/awards">http://dbpedia.org/property/awards</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/color">http://dbpedia.org/property/color</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fullName">http://dbpedia.org/property/fullName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governorGeneral">http://dbpedia.org/property/governorGeneral</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mr">http://dbpedia.org/property/mr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rr">http://dbpedia.org/property/rr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hangulho">http://dbpedia.org/property/hangulho</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mrho">http://dbpedia.org/property/mrho</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politician">http://dbpedia.org/property/politician</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rrho">http://dbpedia.org/property/rrho</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/serviceYears">http://dbpedia.org/property/serviceYears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tablewidth">http://dbpedia.org/property/tablewidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sex">http://dbpedia.org/property/sex</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/breed">http://dbpedia.org/property/breed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/colour">http://dbpedia.org/property/colour</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/country">http://dbpedia.org/property/country</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/trainer">http://dbpedia.org/property/trainer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/breeder">http://dbpedia.org/property/breeder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/damsire">http://dbpedia.org/property/damsire</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/foaled">http://dbpedia.org/property/foaled</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/grandsire">http://dbpedia.org/property/grandsire</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/horsename">http://dbpedia.org/property/horsename</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sire">http://dbpedia.org/property/sire</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dam">http://dbpedia.org/property/dam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parliamen">http://dbpedia.org/property/parliamen</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hometown">http://dbpedia.org/property/hometown</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateDelegate">http://dbpedia.org/property/stateDelegate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/subdistrict">http://dbpedia.org/property/subdistrict</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/age">http://dbpedia.org/property/age</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeofburialLabel">http://dbpedia.org/property/placeofburialLabel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/swing">http://dbpedia.org/property/swing</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/winner">http://dbpedia.org/property/winner</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputy">http://dbpedia.org/property/deputy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hansard">http://dbpedia.org/property/hansard</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/journalisted">http://dbpedia.org/property/journalisted</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/record">http://dbpedia.org/property/record</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/convocation">http://dbpedia.org/property/convocation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputyfrom">http://dbpedia.org/property/deputyfrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hansardcurr">http://dbpedia.org/property/hansardcurr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termend">http://dbpedia.org/property/termend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termstart">http://dbpedia.org/property/termstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/languagesspoken">http://dbpedia.org/property/languagesspoken</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentHolder">http://dbpedia.org/property/currentHolder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/education">http://dbpedia.org/ontology/education</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appointed">http://dbpedia.org/property/appointed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/d">http://dbpedia.org/property/d</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imdb">http://dbpedia.org/property/imdb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/m">http://dbpedia.org/property/m</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mw">http://dbpedia.org/property/mw</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nyt">http://dbpedia.org/property/nyt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politifact">http://dbpedia.org/property/politifact</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/species">http://dbpedia.org/property/species</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/voy">http://dbpedia.org/property/voy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fullname">http://dbpedia.org/property/fullname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headline">http://dbpedia.org/property/headline</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/length">http://dbpedia.org/property/length</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/note">http://dbpedia.org/property/note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/website">http://dbpedia.org/property/website</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/writingCredits">http://dbpedia.org/property/writingCredits</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/child">http://dbpedia.org/property/child</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/born">http://dbpedia.org/property/born</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/worldcat">http://dbpedia.org/property/worldcat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/knownFor">http://dbpedia.org/ontology/knownFor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/family">http://dbpedia.org/property/family</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/generalSecretary">http://dbpedia.org/property/generalSecretary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/majority">http://dbpedia.org/property/majority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heir">http://dbpedia.org/property/heir</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heirType">http://dbpedia.org/property/heirType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/military">http://dbpedia.org/property/military</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/opponent">http://dbpedia.org/property/opponent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/charity">http://dbpedia.org/property/charity</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mother">http://dbpedia.org/property/mother</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termEnding">http://dbpedia.org/property/termEnding</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/blp">http://dbpedia.org/property/blp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lawSchool">http://dbpedia.org/property/lawSchool</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/brother">http://dbpedia.org/property/brother</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageCaption">http://dbpedia.org/property/imageCaption</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/monuments">http://dbpedia.org/property/monuments</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wars">http://dbpedia.org/property/wars</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/revision">http://dbpedia.org/property/revision</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sourcearticle">http://dbpedia.org/property/sourcearticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sourcepath">http://dbpedia.org/property/sourcepath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/num">http://dbpedia.org/property/num</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/burialPlace">http://dbpedia.org/property/burialPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/next">http://dbpedia.org/property/next</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/citizenship">http://dbpedia.org/ontology/citizenship</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/portfolio">http://dbpedia.org/ontology/portfolio</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageWidth">http://dbpedia.org/property/imageWidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/servicenumber">http://dbpedia.org/property/servicenumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parlinfo">http://dbpedia.org/property/parlinfo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/openparl">http://dbpedia.org/property/openparl</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecesssor">http://dbpedia.org/property/predecesssor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/guardian">http://dbpedia.org/property/guardian</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/shield">http://dbpedia.org/property/shield</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/viceGovernor">http://dbpedia.org/property/viceGovernor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/primeMinister">http://dbpedia.org/property/primeMinister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alias">http://dbpedia.org/property/alias</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherNames">http://dbpedia.org/property/otherNames</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termStar">http://dbpedia.org/property/termStar</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/100s/50s">http://dbpedia.org/property/100s/50s</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/batAvg">http://dbpedia.org/property/batAvg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/batting">http://dbpedia.org/property/batting</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bestBowling">http://dbpedia.org/property/bestBowling</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bowlAvg">http://dbpedia.org/property/bowlAvg</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bowling">http://dbpedia.org/property/bowling</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/catches/stumpings">http://dbpedia.org/property/catches/stumpings</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/club">http://dbpedia.org/property/club</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/column">http://dbpedia.org/property/column</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/columns">http://dbpedia.org/property/columns</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deliveries">http://dbpedia.org/property/deliveries</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fivefor">http://dbpedia.org/property/fivefor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/matches">http://dbpedia.org/property/matches</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/runs">http://dbpedia.org/property/runs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tenfor">http://dbpedia.org/property/tenfor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/topScore">http://dbpedia.org/property/topScore</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wickets">http://dbpedia.org/property/wickets</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year">http://dbpedia.org/property/year</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educationalBackground">http://dbpedia.org/property/educationalBackground</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicepresident">http://dbpedia.org/property/vicepresident</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/header">http://dbpedia.org/property/header</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/units">http://dbpedia.org/property/units</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/languagesSpoken">http://dbpedia.org/property/languagesSpoken</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hangul">http://dbpedia.org/property/hangul</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ministerFrom">http://dbpedia.org/property/ministerFrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ontheissuespath">http://dbpedia.org/property/ontheissuespath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/beehive">http://dbpedia.org/property/beehive</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hangulja">http://dbpedia.org/property/hangulja</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mrja">http://dbpedia.org/property/mrja</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherParty">http://dbpedia.org/property/otherParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/precessor">http://dbpedia.org/property/precessor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rrja">http://dbpedia.org/property/rrja</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/orders">http://dbpedia.org/property/orders</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appointedby">http://dbpedia.org/property/appointedby</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/compartment">http://dbpedia.org/property/compartment</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/grandchildren">http://dbpedia.org/property/grandchildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bats">http://dbpedia.org/property/bats</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/br">http://dbpedia.org/property/br</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/brm">http://dbpedia.org/property/brm</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cube">http://dbpedia.org/property/cube</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/debutdate">http://dbpedia.org/property/debutdate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/debutleague">http://dbpedia.org/property/debutleague</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/debutyear">http://dbpedia.org/property/debutyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fangraphs">http://dbpedia.org/property/fangraphs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/finaldate">http://dbpedia.org/property/finaldate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/finalleague">http://dbpedia.org/property/finalleague</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/finalteam">http://dbpedia.org/property/finalteam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/finalyear">http://dbpedia.org/property/finalyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat1label">http://dbpedia.org/property/stat1label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat1value">http://dbpedia.org/property/stat1value</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat2label">http://dbpedia.org/property/stat2label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat2value">http://dbpedia.org/property/stat2value</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat3label">http://dbpedia.org/property/stat3label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat3value">http://dbpedia.org/property/stat3value</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat4label">http://dbpedia.org/property/stat4label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat4value">http://dbpedia.org/property/stat4value</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat5label">http://dbpedia.org/property/stat5label</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stat5value">http://dbpedia.org/property/stat5value</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/statleague">http://dbpedia.org/property/statleague</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/teams">http://dbpedia.org/property/teams</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/throws">http://dbpedia.org/property/throws</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/denomination">http://dbpedia.org/property/denomination</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/salary">http://dbpedia.org/property/salary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/grandson.l">http://dbpedia.org/property/grandson.l</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherparty">http://dbpedia.org/property/otherparty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ntlTeam">http://dbpedia.org/property/ntlTeam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/failed">http://dbpedia.org/property/failed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/function">http://dbpedia.org/property/function</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/successo">http://dbpedia.org/property/successo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2blankname">http://dbpedia.org/property/2blankname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2namedata">http://dbpedia.org/property/2namedata</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3blankname">http://dbpedia.org/property/3blankname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3namedata">http://dbpedia.org/property/3namedata</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electionDate">http://dbpedia.org/property/electionDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/language">http://dbpedia.org/property/language</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/othername">http://dbpedia.org/property/othername</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/phoneNo">http://dbpedia.org/property/phoneNo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeOfDeath">http://dbpedia.org/property/placeOfDeath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/electionDate">http://dbpedia.org/ontology/electionDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/incumbent">http://dbpedia.org/ontology/incumbent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/opponent">http://dbpedia.org/ontology/opponent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecessors">http://dbpedia.org/property/predecessors</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chairman">http://dbpedia.org/property/chairman</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headquarters">http://dbpedia.org/property/headquarters</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ideology">http://dbpedia.org/property/ideology</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/international">http://dbpedia.org/property/international</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nameNative">http://dbpedia.org/property/nameNative</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyLogo">http://dbpedia.org/property/partyLogo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/runningmate">http://dbpedia.org/property/runningmate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/facebook">http://dbpedia.org/property/facebook</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/twitter">http://dbpedia.org/property/twitter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mayor">http://dbpedia.org/property/mayor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateAssembly">http://dbpedia.org/property/stateAssembly</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/careerNumber">http://dbpedia.org/property/careerNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/careerPosition">http://dbpedia.org/property/careerPosition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/charge">http://dbpedia.org/property/charge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/conviction">http://dbpedia.org/property/conviction</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/convictionPenalty">http://dbpedia.org/property/convictionPenalty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/convictionStatus">http://dbpedia.org/property/convictionStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/draftPick">http://dbpedia.org/property/draftPick</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/draftRound">http://dbpedia.org/property/draftRound</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heightFt">http://dbpedia.org/property/heightFt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heightIn">http://dbpedia.org/property/heightIn</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/highlights">http://dbpedia.org/property/highlights</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/motive">http://dbpedia.org/property/motive</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/text">http://dbpedia.org/property/text</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/accessdate">http://dbpedia.org/property/accessdate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rotoruaElectorateOffice">http://dbpedia.org/property/rotoruaElectorateOffice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tePukeElectorateOffice">http://dbpedia.org/property/tePukeElectorateOffice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ambassadorFrom">http://dbpedia.org/property/ambassadorFrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commonsSearch">http://dbpedia.org/property/commonsSearch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dSearch">http://dbpedia.org/property/dSearch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post5followed">http://dbpedia.org/property/post5followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post5preceded">http://dbpedia.org/property/post5preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post5years">http://dbpedia.org/property/post5years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rose">http://dbpedia.org/property/rose</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeOfOrigin">http://dbpedia.org/property/placeOfOrigin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/colwidth">http://dbpedia.org/property/colwidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/daughter">http://dbpedia.org/property/daughter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/children.">http://dbpedia.org/property/children.</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/college">http://dbpedia.org/property/college</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/department">http://dbpedia.org/property/department</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/new">http://dbpedia.org/property/new</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pfr">http://dbpedia.org/property/pfr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spouse(s)_">http://dbpedia.org/property/spouse(s)_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/totalWidth">http://dbpedia.org/property/totalWidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateCreated">http://dbpedia.org/property/dateCreated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateDerogated">http://dbpedia.org/property/dateDerogated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/datePromulgated">http://dbpedia.org/property/datePromulgated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateRatified">http://dbpedia.org/property/dateRatified</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/documentName">http://dbpedia.org/property/documentName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/italicTitle">http://dbpedia.org/property/italicTitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/j">http://dbpedia.org/property/j</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/locationOfDocument">http://dbpedia.org/property/locationOfDocument</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/purpose">http://dbpedia.org/property/purpose</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/signatories">http://dbpedia.org/property/signatories</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/writer">http://dbpedia.org/property/writer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/architecture">http://dbpedia.org/property/architecture</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/area">http://dbpedia.org/property/area</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coordDisplay">http://dbpedia.org/property/coordDisplay</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governingBody">http://dbpedia.org/property/governingBody</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latDegrees">http://dbpedia.org/property/latDegrees</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latDirection">http://dbpedia.org/property/latDirection</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latMinutes">http://dbpedia.org/property/latMinutes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/latSeconds">http://dbpedia.org/property/latSeconds</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/locmapin">http://dbpedia.org/property/locmapin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/longDegrees">http://dbpedia.org/property/longDegrees</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/longDirection">http://dbpedia.org/property/longDirection</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/longMinutes">http://dbpedia.org/property/longMinutes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/longSeconds">http://dbpedia.org/property/longSeconds</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/regent">http://dbpedia.org/property/regent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/architectOrBuilder">http://dbpedia.org/property/architectOrBuilder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post6followed">http://dbpedia.org/property/post6followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post6preceded">http://dbpedia.org/property/post6preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post6years">http://dbpedia.org/property/post6years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/startrows">http://dbpedia.org/property/startrows</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chancellor">http://dbpedia.org/property/chancellor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/page">http://dbpedia.org/property/page</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/masters">http://dbpedia.org/property/masters</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pga">http://dbpedia.org/property/pga</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/usopen">http://dbpedia.org/property/usopen</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coa">http://dbpedia.org/property/coa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/more">http://dbpedia.org/property/more</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nobleFamily">http://dbpedia.org/property/nobleFamily</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/open">http://dbpedia.org/property/open</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/status">http://dbpedia.org/property/status</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/britamateur">http://dbpedia.org/property/britamateur</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/usamateur">http://dbpedia.org/property/usamateur</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/finance">http://dbpedia.org/property/finance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/financeEnd">http://dbpedia.org/property/financeEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/financeStart">http://dbpedia.org/property/financeStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorForeignAffairs">http://dbpedia.org/property/interiorForeignAffairs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorForeignAffairsEnd">http://dbpedia.org/property/interiorForeignAffairsEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/interiorForeignAffairsStart">http://dbpedia.org/property/interiorForeignAffairsStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warNavy">http://dbpedia.org/property/warNavy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warNavyEnd">http://dbpedia.org/property/warNavyEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warNavyStart">http://dbpedia.org/property/warNavyStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hononrificSuffix">http://dbpedia.org/property/hononrificSuffix</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/above">http://dbpedia.org/property/above</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/abovestyle">http://dbpedia.org/property/abovestyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bodystyle">http://dbpedia.org/property/bodystyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/content">http://dbpedia.org/property/content</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/contentstyle">http://dbpedia.org/property/contentstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/navbar">http://dbpedia.org/property/navbar</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mutupoTribe">http://dbpedia.org/property/mutupoTribe</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/col">http://dbpedia.org/property/col</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/inaccurate">http://dbpedia.org/property/inaccurate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/soundRecording">http://dbpedia.org/ontology/soundRecording</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hanja">http://dbpedia.org/property/hanja</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ref">http://dbpedia.org/property/ref</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/ethnicity">http://dbpedia.org/ontology/ethnicity</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/personFunction">http://dbpedia.org/ontology/personFunction</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/predecessor">http://dbpedia.org/ontology/predecessor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/title">http://dbpedia.org/ontology/title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notableWorks">http://dbpedia.org/property/notableWorks</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/village">http://dbpedia.org/property/village</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/statsend">http://dbpedia.org/property/statsend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachgames(wins)_">http://dbpedia.org/property/coachgames(wins)_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/games(goals)_">http://dbpedia.org/property/games(goals)_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/clubs">http://dbpedia.org/property/clubs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachyears">http://dbpedia.org/property/coachyears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachclubs">http://dbpedia.org/property/coachclubs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/langcode">http://dbpedia.org/property/langcode</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherarticle">http://dbpedia.org/property/otherarticle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/captureStatus">http://dbpedia.org/property/captureStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rewardAmount">http://dbpedia.org/property/rewardAmount</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wantedBy">http://dbpedia.org/property/wantedBy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wantedSince">http://dbpedia.org/property/wantedSince</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/criminalCharge">http://dbpedia.org/property/criminalCharge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/era">http://dbpedia.org/property/era</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/influenced">http://dbpedia.org/property/influenced</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/influences">http://dbpedia.org/property/influences</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mainInterests">http://dbpedia.org/property/mainInterests</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notableIdeas">http://dbpedia.org/property/notableIdeas</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partners">http://dbpedia.org/property/partners</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/region">http://dbpedia.org/property/region</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/works">http://dbpedia.org/property/works</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/creed">http://dbpedia.org/property/creed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fiqh">http://dbpedia.org/property/fiqh</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mainWorks">http://dbpedia.org/property/mainWorks</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notability">http://dbpedia.org/property/notability</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMate">http://dbpedia.org/property/almaMate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/replacing">http://dbpedia.org/property/replacing</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachTeam">http://dbpedia.org/property/coachTeam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachYears">http://dbpedia.org/property/coachYears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/playerTeam">http://dbpedia.org/property/playerTeam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/playerYears">http://dbpedia.org/property/playerYears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sport">http://dbpedia.org/property/sport</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentTeam">http://dbpedia.org/property/currentTeam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentTitle">http://dbpedia.org/property/currentTitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/viceMayor">http://dbpedia.org/property/viceMayor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/profesion">http://dbpedia.org/property/profesion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/father&#39;sName">http://dbpedia.org/property/father'sName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/industry">http://dbpedia.org/property/industry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/hometown">http://dbpedia.org/ontology/hometown</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyPosition">http://dbpedia.org/property/partyPosition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tama%C3%B1o">http://dbpedia.org/property/tamaño</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imagen">http://dbpedia.org/property/imagen</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pieimagen">http://dbpedia.org/property/pieimagen</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/formationDate">http://dbpedia.org/ontology/formationDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/formationYear">http://dbpedia.org/ontology/formationYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/headquarter">http://dbpedia.org/ontology/headquarter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/ideology">http://dbpedia.org/ontology/ideology</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/colorcode">http://dbpedia.org/property/colorcode</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/seats1Title">http://dbpedia.org/property/seats1Title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/seats2Title">http://dbpedia.org/property/seats2Title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/seats3Title">http://dbpedia.org/property/seats3Title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/Subheader">http://dbpedia.org/property/Subheader</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/blank1Title">http://dbpedia.org/property/blank1Title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/blank2Title">http://dbpedia.org/property/blank2Title</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electionsDab">http://dbpedia.org/property/electionsDab</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partiesDab">http://dbpedia.org/property/partiesDab</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cargo">http://dbpedia.org/property/cargo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fechamuerte">http://dbpedia.org/property/fechamuerte</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fechanac">http://dbpedia.org/property/fechanac</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/inicio">http://dbpedia.org/property/inicio</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lugarmuerte">http://dbpedia.org/property/lugarmuerte</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lugarnac">http://dbpedia.org/property/lugarnac</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/profesi%C3%B3n">http://dbpedia.org/property/profesión</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coat">http://dbpedia.org/property/coat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/expiry">http://dbpedia.org/property/expiry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/small">http://dbpedia.org/property/small</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almam%C3%A1ter">http://dbpedia.org/property/almamáter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/final">http://dbpedia.org/property/final</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partido">http://dbpedia.org/property/partido</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/presidente">http://dbpedia.org/property/presidente</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lords">http://dbpedia.org/property/lords</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tl">http://dbpedia.org/property/tl</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/y">http://dbpedia.org/property/y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/criminalPenalty">http://dbpedia.org/property/criminalPenalty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/parent">http://dbpedia.org/ontology/parent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/group">http://dbpedia.org/property/group</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/death">http://dbpedia.org/property/death</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birth">http://dbpedia.org/property/birth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/grid">http://dbpedia.org/property/grid</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/article">http://dbpedia.org/property/article</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/badge">http://dbpedia.org/property/badge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/work">http://dbpedia.org/property/work</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/battles/wars">http://dbpedia.org/property/battles/wars</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/service/branch">http://dbpedia.org/property/service/branch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/altname">http://dbpedia.org/property/altname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hanjaho">http://dbpedia.org/property/hanjaho</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/servedAlongside">http://dbpedia.org/property/servedAlongside</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/findagrave">http://dbpedia.org/property/findagrave</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/df">http://dbpedia.org/property/df</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/school">http://dbpedia.org/property/school</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ft">http://dbpedia.org/property/ft</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honours">http://dbpedia.org/property/honours</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/in">http://dbpedia.org/property/in</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cap">http://dbpedia.org/property/cap</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/photos">http://dbpedia.org/property/photos</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/survey">http://dbpedia.org/property/survey</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nfldraftedround">http://dbpedia.org/property/nfldraftedround</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nfldraftedyear">http://dbpedia.org/property/nfldraftedyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/playingTeam">http://dbpedia.org/property/playingTeam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/playingYears">http://dbpedia.org/property/playingYears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/campaign">http://dbpedia.org/property/campaign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/affiliation">http://dbpedia.org/property/affiliation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/keyPeople">http://dbpedia.org/property/keyPeople</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/candId">http://dbpedia.org/property/candId</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/committee">http://dbpedia.org/property/committee</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/receipts">http://dbpedia.org/property/receipts</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMeter">http://dbpedia.org/property/almaMeter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/caste">http://dbpedia.org/property/caste</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educationalQualifications">http://dbpedia.org/property/educationalQualifications</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/edition">http://dbpedia.org/property/edition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gr">http://dbpedia.org/property/gr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termLabel">http://dbpedia.org/property/termLabel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2ndGrandChildren">http://dbpedia.org/property/2ndGrandChildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coLeader">http://dbpedia.org/property/coLeader</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/portrait">http://dbpedia.org/property/portrait</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/noprescript">http://dbpedia.org/property/noprescript</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constituencyAm">http://dbpedia.org/property/constituencyAm</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/doctoralAdvisor">http://dbpedia.org/property/doctoralAdvisor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/field">http://dbpedia.org/property/field</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/workInstitution">http://dbpedia.org/property/workInstitution</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/statesurge">http://dbpedia.org/property/statesurge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/nominee">http://dbpedia.org/ontology/nominee</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/runningMate">http://dbpedia.org/ontology/runningMate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/binomialAuthority">http://dbpedia.org/ontology/binomialAuthority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/class">http://dbpedia.org/ontology/class</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/conservationStatus">http://dbpedia.org/ontology/conservationStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/conservationStatusSystem">http://dbpedia.org/ontology/conservationStatusSystem</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/family">http://dbpedia.org/ontology/family</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/genus">http://dbpedia.org/ontology/genus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/kingdom">http://dbpedia.org/ontology/kingdom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/order">http://dbpedia.org/ontology/order</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/phylum">http://dbpedia.org/ontology/phylum</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/binomial">http://dbpedia.org/property/binomial</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/officialresidence">http://dbpedia.org/property/officialresidence</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/speaker">http://dbpedia.org/ontology/speaker</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/swornBy">http://dbpedia.org/property/swornBy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherWork">http://dbpedia.org/property/otherWork</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gender">http://dbpedia.org/property/gender</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageHeight">http://dbpedia.org/property/imageHeight</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/uig">http://dbpedia.org/property/uig</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ethnicGroup">http://dbpedia.org/property/ethnicGroup</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ministers">http://dbpedia.org/property/ministers</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/postNoms">http://dbpedia.org/property/postNoms</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/size">http://dbpedia.org/property/size</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/militaryBlank">http://dbpedia.org/property/militaryBlank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/militaryData">http://dbpedia.org/property/militaryData</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notableworks">http://dbpedia.org/property/notableworks</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pos">http://dbpedia.org/property/pos</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/subject">http://dbpedia.org/property/subject</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/summary">http://dbpedia.org/property/summary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bsize">http://dbpedia.org/property/bsize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cat">http://dbpedia.org/property/cat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cheight">http://dbpedia.org/property/cheight</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/collapsible">http://dbpedia.org/property/collapsible</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cwidth">http://dbpedia.org/property/cwidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/en">http://dbpedia.org/property/en</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lang">http://dbpedia.org/property/lang</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/location">http://dbpedia.org/property/location</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/oleft">http://dbpedia.org/property/oleft</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherTitles">http://dbpedia.org/property/otherTitles</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otop">http://dbpedia.org/property/otop</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tenure">http://dbpedia.org/property/tenure</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/verticalAlign">http://dbpedia.org/property/verticalAlign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/reference">http://dbpedia.org/property/reference</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/religious">http://dbpedia.org/property/religious</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/officialWebsite">http://dbpedia.org/property/officialWebsite</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spoken">http://dbpedia.org/property/spoken</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sure">http://dbpedia.org/property/sure</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/book">http://dbpedia.org/property/book</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/onlinebooks">http://dbpedia.org/property/onlinebooks</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sSearch">http://dbpedia.org/property/sSearch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/video">http://dbpedia.org/property/video</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/genre">http://dbpedia.org/property/genre</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/confirmed">http://dbpedia.org/property/confirmed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicalParty">http://dbpedia.org/property/politicalParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/battle">http://dbpedia.org/property/battle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ev">http://dbpedia.org/property/ev</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pv">http://dbpedia.org/property/pv</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pvPct">http://dbpedia.org/property/pvPct</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/toWin">http://dbpedia.org/property/toWin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vpName">http://dbpedia.org/property/vpName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vpState">http://dbpedia.org/property/vpState</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMatter">http://dbpedia.org/property/almaMatter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fields">http://dbpedia.org/property/fields</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/primeminster">http://dbpedia.org/property/primeminster</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/lccnId">http://dbpedia.org/ontology/lccnId</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/user">http://dbpedia.org/property/user</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/audio">http://dbpedia.org/property/audio</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sign">http://dbpedia.org/property/sign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/torse">http://dbpedia.org/property/torse</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coatOfArms">http://dbpedia.org/property/coatOfArms</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/loser">http://dbpedia.org/property/loser</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/descendants">http://dbpedia.org/property/descendants</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dates">http://dbpedia.org/property/dates</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/firstminister">http://dbpedia.org/property/firstminister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/militaryService">http://dbpedia.org/property/militaryService</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/houseType">http://dbpedia.org/property/houseType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spouseType">http://dbpedia.org/property/spouseType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/titles">http://dbpedia.org/property/titles</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/succededBy">http://dbpedia.org/property/succededBy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateOfBirth">http://dbpedia.org/property/dateOfBirth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateOfDeath">http://dbpedia.org/property/dateOfDeath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeOfBirth">http://dbpedia.org/property/placeOfBirth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pr%C3%A9d%C3%A9cesseur">http://dbpedia.org/property/prédécesseur</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/charte">http://dbpedia.org/property/charte</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/relative">http://dbpedia.org/ontology/relative</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageAlt">http://dbpedia.org/property/imageAlt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/border">http://dbpedia.org/property/border</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/qalign">http://dbpedia.org/property/qalign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/whImage">http://dbpedia.org/property/whImage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/margin">http://dbpedia.org/property/margin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/priorTerm">http://dbpedia.org/property/priorTerm</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/issue">http://dbpedia.org/property/issue</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/startpage">http://dbpedia.org/property/startpage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/totalLength">http://dbpedia.org/property/totalLength</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/32a">http://dbpedia.org/property/32a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/6pp">http://dbpedia.org/property/6pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/6y">http://dbpedia.org/property/6y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/7a">http://dbpedia.org/property/7a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/7p">http://dbpedia.org/property/7p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/7y">http://dbpedia.org/property/7y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1a">http://dbpedia.org/property/1a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1p">http://dbpedia.org/property/1p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1pp">http://dbpedia.org/property/1pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/1y">http://dbpedia.org/property/1y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2a">http://dbpedia.org/property/2a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2p">http://dbpedia.org/property/2p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2pp">http://dbpedia.org/property/2pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/2y">http://dbpedia.org/property/2y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3a">http://dbpedia.org/property/3a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3p">http://dbpedia.org/property/3p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3pp">http://dbpedia.org/property/3pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3y">http://dbpedia.org/property/3y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4a">http://dbpedia.org/property/4a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4p">http://dbpedia.org/property/4p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4pp">http://dbpedia.org/property/4pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4y">http://dbpedia.org/property/4y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/5a">http://dbpedia.org/property/5a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/5p">http://dbpedia.org/property/5p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/5pp">http://dbpedia.org/property/5pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/5y">http://dbpedia.org/property/5y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/6a">http://dbpedia.org/property/6a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/6p">http://dbpedia.org/property/6p</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pp">http://dbpedia.org/property/pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/7pp">http://dbpedia.org/property/7pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/8a">http://dbpedia.org/property/8a</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/8pp">http://dbpedia.org/property/8pp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/8y">http://dbpedia.org/property/8y</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/schoolTradition">http://dbpedia.org/property/schoolTradition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/civilPartner">http://dbpedia.org/property/civilPartner</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homeDistrict">http://dbpedia.org/property/homeDistrict</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/resingplace">http://dbpedia.org/property/resingplace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/university">http://dbpedia.org/property/university</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/secretaryGeneral">http://dbpedia.org/property/secretaryGeneral</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constituencyMla">http://dbpedia.org/property/constituencyMla</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/signatureSize">http://dbpedia.org/property/signatureSize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/altText">http://dbpedia.org/property/altText</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/eMail">http://dbpedia.org/property/eMail</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/greatGrandchildrem">http://dbpedia.org/property/greatGrandchildrem</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/relief">http://dbpedia.org/property/relief</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/project">http://dbpedia.org/property/project</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/grandChildren">http://dbpedia.org/property/grandChildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wife">http://dbpedia.org/property/wife</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/causeDeath">http://dbpedia.org/property/causeDeath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyColor">http://dbpedia.org/property/partyColor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/buc">http://dbpedia.org/property/buc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/showflag">http://dbpedia.org/property/showflag</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/asOf">http://dbpedia.org/property/asOf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/formation">http://dbpedia.org/property/formation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/inaugural">http://dbpedia.org/property/inaugural</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/incumbent">http://dbpedia.org/property/incumbent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/incumbentsince">http://dbpedia.org/property/incumbentsince</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/free">http://dbpedia.org/property/free</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/freeLabel">http://dbpedia.org/property/freeLabel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ancestry">http://dbpedia.org/property/ancestry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/laterwork">http://dbpedia.org/property/laterwork</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hofdate">http://dbpedia.org/property/hofdate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hofmethod">http://dbpedia.org/property/hofmethod</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hoftype">http://dbpedia.org/property/hoftype</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearsactive">http://dbpedia.org/property/yearsactive</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/warning">http://dbpedia.org/property/warning</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post5note">http://dbpedia.org/property/post5note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/halign">http://dbpedia.org/property/halign</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/siblings">http://dbpedia.org/property/siblings</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notableRole">http://dbpedia.org/property/notableRole</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/captio">http://dbpedia.org/property/captio</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/serviceNumber">http://dbpedia.org/property/serviceNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/flag">http://dbpedia.org/property/flag</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/shortDescription">http://dbpedia.org/property/shortDescription</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/needsphoto">http://dbpedia.org/property/needsphoto</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/noimage">http://dbpedia.org/property/noimage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/criminalStatus">http://dbpedia.org/property/criminalStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/landscape">http://dbpedia.org/property/landscape</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/origin">http://dbpedia.org/property/origin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tp">http://dbpedia.org/property/tp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/restingpalce">http://dbpedia.org/property/restingpalce</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/allegance">http://dbpedia.org/property/allegance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherFamilies">http://dbpedia.org/property/otherFamilies</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/books">http://dbpedia.org/property/books</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/estate">http://dbpedia.org/property/estate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/founder">http://dbpedia.org/property/founder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/foundingYear">http://dbpedia.org/property/foundingYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/members">http://dbpedia.org/property/members</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthplace">http://dbpedia.org/property/birthplace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/permanentAddress">http://dbpedia.org/property/permanentAddress</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/presentAddress">http://dbpedia.org/property/presentAddress</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/contactNumber">http://dbpedia.org/property/contactNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/officeend">http://dbpedia.org/property/officeend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/officestart">http://dbpedia.org/property/officestart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/baptism">http://dbpedia.org/property/baptism</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/magnumOpus">http://dbpedia.org/property/magnumOpus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthYear">http://dbpedia.org/property/birthYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathYear">http://dbpedia.org/property/deathYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cabinet">http://dbpedia.org/property/cabinet</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/degree">http://dbpedia.org/property/degree</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/maritalStatus">http://dbpedia.org/property/maritalStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/member">http://dbpedia.org/property/member</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bpmf">http://dbpedia.org/property/bpmf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gap">http://dbpedia.org/property/gap</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/background">http://dbpedia.org/property/background</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherName">http://dbpedia.org/property/otherName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/subjectName">http://dbpedia.org/property/subjectName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/alias">http://dbpedia.org/ontology/alias</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headerstyle">http://dbpedia.org/property/headerstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/labelstyle">http://dbpedia.org/property/labelstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyLeader">http://dbpedia.org/property/partyLeader</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/z">http://dbpedia.org/property/z</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/short">http://dbpedia.org/property/short</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/professions">http://dbpedia.org/property/professions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/refs">http://dbpedia.org/property/refs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honors">http://dbpedia.org/property/honors</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/abbr">http://dbpedia.org/property/abbr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/databasefootball">http://dbpedia.org/property/databasefootball</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nfldraftedpick">http://dbpedia.org/property/nfldraftedpick</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/weightLb">http://dbpedia.org/property/weightLb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/natjournal">http://dbpedia.org/property/natjournal</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homepage">http://dbpedia.org/property/homepage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/faculty">http://dbpedia.org/property/faculty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMater(s)_">http://dbpedia.org/property/almaMater(s)_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/logo">http://dbpedia.org/property/logo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputyprimeminister">http://dbpedia.org/property/deputyprimeminister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherPositions">http://dbpedia.org/property/otherPositions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/positionInTheParty">http://dbpedia.org/property/positionInTheParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spouse.">http://dbpedia.org/property/spouse.</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mothertongue">http://dbpedia.org/property/mothertongue</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherPary">http://dbpedia.org/property/otherPary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/elected">http://dbpedia.org/property/elected</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spokenLanguage">http://dbpedia.org/property/spokenLanguage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/organization">http://dbpedia.org/property/organization</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/advocate">http://dbpedia.org/property/advocate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyAffiliation">http://dbpedia.org/property/partyAffiliation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/category">http://dbpedia.org/property/category</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/opponents">http://dbpedia.org/property/opponents</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/experience">http://dbpedia.org/property/experience</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/precededBy">http://dbpedia.org/property/precededBy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/legislature">http://dbpedia.org/property/legislature</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bcs">http://dbpedia.org/property/bcs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bowloutcome">http://dbpedia.org/property/bowloutcome</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/conf">http://dbpedia.org/property/conf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/conference">http://dbpedia.org/property/conference</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/confrecord">http://dbpedia.org/property/confrecord</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/endyear">http://dbpedia.org/property/endyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/legend">http://dbpedia.org/property/legend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/overall">http://dbpedia.org/property/overall</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/poll">http://dbpedia.org/property/poll</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ranking">http://dbpedia.org/property/ranking</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/startyear">http://dbpedia.org/property/startyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bowl">http://dbpedia.org/property/bowl</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hiddencols">http://dbpedia.org/property/hiddencols</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/no.OfChildren">http://dbpedia.org/property/no.OfChildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/weight">http://dbpedia.org/property/weight</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almameter">http://dbpedia.org/property/almameter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termBegin">http://dbpedia.org/property/termBegin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imagew">http://dbpedia.org/property/imagew</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/son">http://dbpedia.org/property/son</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/restingPlaced">http://dbpedia.org/property/restingPlaced</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spouses">http://dbpedia.org/property/spouses</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nominated">http://dbpedia.org/property/nominated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/political">http://dbpedia.org/property/political</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pseudonym">http://dbpedia.org/property/pseudonym</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/period">http://dbpedia.org/property/period</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/indent">http://dbpedia.org/property/indent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wayback">http://dbpedia.org/property/wayback</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mandateperiod">http://dbpedia.org/property/mandateperiod</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/webside">http://dbpedia.org/property/webside</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/election">http://dbpedia.org/property/election</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/flagBorder">http://dbpedia.org/property/flagBorder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/jurisdiction">http://dbpedia.org/property/jurisdiction</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lastElection">http://dbpedia.org/property/lastElection</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/previous">http://dbpedia.org/property/previous</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/legislatureStatus">http://dbpedia.org/property/legislatureStatus</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister1Party">http://dbpedia.org/property/minister1Party</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister1Termend">http://dbpedia.org/property/minister1Termend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister1Termstart">http://dbpedia.org/property/minister1Termstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister2Party">http://dbpedia.org/property/minister2Party</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister2Termend">http://dbpedia.org/property/minister2Termend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/minister2Termstart">http://dbpedia.org/property/minister2Termstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/oppositionLeader">http://dbpedia.org/property/oppositionLeader</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/oppositionParty">http://dbpedia.org/property/oppositionParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cabinetName">http://dbpedia.org/property/cabinetName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cabinetNumber">http://dbpedia.org/property/cabinetNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateDissolved">http://dbpedia.org/property/dateDissolved</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dateFormed">http://dbpedia.org/property/dateFormed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governmentHead">http://dbpedia.org/property/governmentHead</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/stateHead">http://dbpedia.org/property/stateHead</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/buried">http://dbpedia.org/property/buried</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award">http://dbpedia.org/property/award</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award4n">http://dbpedia.org/property/award4n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award4w">http://dbpedia.org/property/award4w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award5n">http://dbpedia.org/property/award5n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award5w">http://dbpedia.org/property/award5w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award6n">http://dbpedia.org/property/award6n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award6w">http://dbpedia.org/property/award6w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award1n">http://dbpedia.org/property/award1n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award1w">http://dbpedia.org/property/award1w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award2n">http://dbpedia.org/property/award2n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award2w">http://dbpedia.org/property/award2w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award3n">http://dbpedia.org/property/award3n</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/award3w">http://dbpedia.org/property/award3w</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nominations">http://dbpedia.org/property/nominations</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/city">http://dbpedia.org/property/city</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educate">http://dbpedia.org/property/educate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/past">http://dbpedia.org/property/past</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/timestamp">http://dbpedia.org/property/timestamp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/day">http://dbpedia.org/property/day</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/help">http://dbpedia.org/property/help</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/month">http://dbpedia.org/property/month</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/substed">http://dbpedia.org/property/substed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lastdate">http://dbpedia.org/property/lastdate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/role">http://dbpedia.org/property/role</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/debutagainst">http://dbpedia.org/property/debutagainst</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/debutfor">http://dbpedia.org/property/debutfor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/jurisprudence">http://dbpedia.org/property/jurisprudence</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lastagainst">http://dbpedia.org/property/lastagainst</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lastfor">http://dbpedia.org/property/lastfor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lastyear">http://dbpedia.org/property/lastyear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nativePlace">http://dbpedia.org/property/nativePlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/onetype">http://dbpedia.org/property/onetype</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sufiOrder">http://dbpedia.org/property/sufiOrder</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headerimage">http://dbpedia.org/property/headerimage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nativeLang">http://dbpedia.org/property/nativeLang</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ceo">http://dbpedia.org/property/ceo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/council">http://dbpedia.org/property/council</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sl">http://dbpedia.org/property/sl</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/employer">http://dbpedia.org/ontology/employer</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/previousVersions">http://dbpedia.org/property/previousVersions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/event">http://dbpedia.org/property/event</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hoflink">http://dbpedia.org/property/hoflink</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hofvote">http://dbpedia.org/property/hofvote</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mlb">http://dbpedia.org/property/mlb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pb">http://dbpedia.org/property/pb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/showMedals">http://dbpedia.org/property/showMedals</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/team">http://dbpedia.org/property/team</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/collegeteam">http://dbpedia.org/property/collegeteam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electedMemberFor">http://dbpedia.org/property/electedMemberFor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electedMemberSince">http://dbpedia.org/property/electedMemberSince</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/speakerOfKuwaitNationalAssembly">http://dbpedia.org/property/speakerOfKuwaitNationalAssembly</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nominee">http://dbpedia.org/property/nominee</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicalOrientation">http://dbpedia.org/property/politicalOrientation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/body">http://dbpedia.org/property/body</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/insignia">http://dbpedia.org/property/insignia</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/insigniacaption">http://dbpedia.org/property/insigniacaption</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/insigniasize">http://dbpedia.org/property/insigniasize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/style">http://dbpedia.org/property/style</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termlength">http://dbpedia.org/property/termlength</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/artikel">http://dbpedia.org/property/artikel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/autor">http://dbpedia.org/property/autor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/band">http://dbpedia.org/property/band</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/spalten">http://dbpedia.org/property/spalten</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/netWorth">http://dbpedia.org/property/netWorth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gradSchool">http://dbpedia.org/property/gradSchool</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sucType">http://dbpedia.org/property/sucType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/training">http://dbpedia.org/property/training</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicepremier">http://dbpedia.org/property/vicepremier</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dance">http://dbpedia.org/property/dance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/viceChief">http://dbpedia.org/property/viceChief</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/house">http://dbpedia.org/property/house</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/king">http://dbpedia.org/property/king</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pretendFrom">http://dbpedia.org/property/pretendFrom</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/relationship">http://dbpedia.org/property/relationship</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/throne">http://dbpedia.org/property/throne</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mlcts">http://dbpedia.org/property/mlcts</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/my">http://dbpedia.org/property/my</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deployment">http://dbpedia.org/property/deployment</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/policeService">http://dbpedia.org/property/policeService</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/policerank">http://dbpedia.org/property/policerank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honorifixSuffix">http://dbpedia.org/property/honorifixSuffix</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notMilitaryJobs">http://dbpedia.org/property/notMilitaryJobs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/battlesLabel">http://dbpedia.org/property/battlesLabel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/confstanding">http://dbpedia.org/property/confstanding</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cfbdwid">http://dbpedia.org/property/cfbdwid</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/birthdate">http://dbpedia.org/property/birthdate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/playerPositions">http://dbpedia.org/property/playerPositions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentOccupation">http://dbpedia.org/property/currentOccupation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constiuency">http://dbpedia.org/property/constiuency</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/ingredient">http://dbpedia.org/ontology/ingredient</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/ingredientName">http://dbpedia.org/ontology/ingredientName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/type">http://dbpedia.org/ontology/type</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/placeOfBurial">http://dbpedia.org/property/placeOfBurial</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hero">http://dbpedia.org/property/hero</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/concern">http://dbpedia.org/property/concern</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/uly">http://dbpedia.org/property/uly</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governmentParliamentaryCommittees">http://dbpedia.org/property/governmentParliamentaryCommittees</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/home">http://dbpedia.org/property/home</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publisher">http://dbpedia.org/property/publisher</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almamater">http://dbpedia.org/property/almamater</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fontsize">http://dbpedia.org/property/fontsize</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post7followed">http://dbpedia.org/property/post7followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post7preceded">http://dbpedia.org/property/post7preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post7years">http://dbpedia.org/property/post7years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post8followed">http://dbpedia.org/property/post8followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post8preceded">http://dbpedia.org/property/post8preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post8years">http://dbpedia.org/property/post8years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/religon">http://dbpedia.org/property/religon</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post7note">http://dbpedia.org/property/post7note</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post9followed">http://dbpedia.org/property/post9followed</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post9preceded">http://dbpedia.org/property/post9preceded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/post9years">http://dbpedia.org/property/post9years</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/row">http://dbpedia.org/property/row</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/smallImage">http://dbpedia.org/property/smallImage</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heightft">http://dbpedia.org/property/heightft</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heightinch">http://dbpedia.org/property/heightinch</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicalAdvisor(s)_">http://dbpedia.org/property/politicalAdvisor(s)_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nicknames">http://dbpedia.org/property/nicknames</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/languages">http://dbpedia.org/property/languages</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/updated">http://dbpedia.org/property/updated</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headOfParliament">http://dbpedia.org/property/headOfParliament</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/board">http://dbpedia.org/ontology/board</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hanjaja">http://dbpedia.org/property/hanjaja</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chiefMinister">http://dbpedia.org/property/chiefMinister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/kids">http://dbpedia.org/property/kids</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/citation">http://dbpedia.org/property/citation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notableAct">http://dbpedia.org/property/notableAct</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/websiteCaption">http://dbpedia.org/property/websiteCaption</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/partyElection">http://dbpedia.org/property/partyElection</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/studiedAt">http://dbpedia.org/property/studiedAt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imagesiz">http://dbpedia.org/property/imagesiz</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/convener">http://dbpedia.org/property/convener</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/causeIs">http://dbpedia.org/property/causeIs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/aircraftType">http://dbpedia.org/property/aircraftType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cause">http://dbpedia.org/property/cause</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/crew">http://dbpedia.org/property/crew</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/occurrenceType">http://dbpedia.org/property/occurrenceType</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/operator">http://dbpedia.org/property/operator</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherElements">http://dbpedia.org/property/otherElements</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/outcome">http://dbpedia.org/property/outcome</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/passengers">http://dbpedia.org/property/passengers</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/site">http://dbpedia.org/property/site</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/survivors">http://dbpedia.org/property/survivors</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tailNumber">http://dbpedia.org/property/tailNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/plainlink">http://dbpedia.org/property/plainlink</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/footnoteMarker">http://dbpedia.org/property/footnoteMarker</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/onthissues">http://dbpedia.org/property/onthissues</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educationEnd">http://dbpedia.org/property/educationEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educationStart">http://dbpedia.org/property/educationStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/health">http://dbpedia.org/property/health</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/police">http://dbpedia.org/property/police</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/transportation">http://dbpedia.org/property/transportation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/transportationEnd">http://dbpedia.org/property/transportationEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/transportationStart">http://dbpedia.org/property/transportationStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/attygen">http://dbpedia.org/property/attygen</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/attygenEnd">http://dbpedia.org/property/attygenEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/attygenStart">http://dbpedia.org/property/attygenStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/banking">http://dbpedia.org/property/banking</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bankingEnd">http://dbpedia.org/property/bankingEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bankingStart">http://dbpedia.org/property/bankingStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/childrenandfam">http://dbpedia.org/property/childrenandfam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/childrenandfamEnd">http://dbpedia.org/property/childrenandfamEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/childrenandfamStart">http://dbpedia.org/property/childrenandfamStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/civilservice">http://dbpedia.org/property/civilservice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/civilserviceEnd">http://dbpedia.org/property/civilserviceEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/civilserviceStart">http://dbpedia.org/property/civilserviceStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/comaffairs">http://dbpedia.org/property/comaffairs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/comaffairsEnd">http://dbpedia.org/property/comaffairsEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/comaffairsStart">http://dbpedia.org/property/comaffairsStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/corrections">http://dbpedia.org/property/corrections</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/correctionsEnd">http://dbpedia.org/property/correctionsEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/correctionsStart">http://dbpedia.org/property/correctionsStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dmv">http://dbpedia.org/property/dmv</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dmvEnd">http://dbpedia.org/property/dmvEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/dmvStart">http://dbpedia.org/property/dmvStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ecgrowth">http://dbpedia.org/property/ecgrowth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ecgrowthEnd">http://dbpedia.org/property/ecgrowthEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ecgrowthStart">http://dbpedia.org/property/ecgrowthStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/environment">http://dbpedia.org/property/environment</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/environmentEnd">http://dbpedia.org/property/environmentEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/environmentStart">http://dbpedia.org/property/environmentStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governorEnd">http://dbpedia.org/property/governorEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/governorStart">http://dbpedia.org/property/governorStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/healthEnd">http://dbpedia.org/property/healthEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/healthStart">http://dbpedia.org/property/healthStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homeland">http://dbpedia.org/property/homeland</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homelandEnd">http://dbpedia.org/property/homelandEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homelandStart">http://dbpedia.org/property/homelandStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hserv">http://dbpedia.org/property/hserv</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hservEnd">http://dbpedia.org/property/hservEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hservStart">http://dbpedia.org/property/hservStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mil">http://dbpedia.org/property/mil</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/milEnd">http://dbpedia.org/property/milEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/milStart">http://dbpedia.org/property/milStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/policeEnd">http://dbpedia.org/property/policeEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/policeStart">http://dbpedia.org/property/policeStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicService">http://dbpedia.org/property/publicService</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicServiceEnd">http://dbpedia.org/property/publicServiceEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicServiceStart">http://dbpedia.org/property/publicServiceStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicutil">http://dbpedia.org/property/publicutil</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicutilEnd">http://dbpedia.org/property/publicutilEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/publicutilStart">http://dbpedia.org/property/publicutilStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treas">http://dbpedia.org/property/treas</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treasEnd">http://dbpedia.org/property/treasEnd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/treasStart">http://dbpedia.org/property/treasStart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/below">http://dbpedia.org/property/below</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/quoted">http://dbpedia.org/property/quoted</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/associatedBand">http://dbpedia.org/ontology/associatedBand</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/associatedMusicalArtist">http://dbpedia.org/ontology/associatedMusicalArtist</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/background">http://dbpedia.org/ontology/background</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/genre">http://dbpedia.org/ontology/genre</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/instrument">http://dbpedia.org/ontology/instrument</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/recordLabel">http://dbpedia.org/ontology/recordLabel</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commonscat">http://dbpedia.org/property/commonscat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hide">http://dbpedia.org/property/hide</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecessor%25_">http://dbpedia.org/property/predecessor%25_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tstyle">http://dbpedia.org/property/tstyle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appearances">http://dbpedia.org/property/appearances</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/goals">http://dbpedia.org/property/goals</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/points">http://dbpedia.org/property/points</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/retired">http://dbpedia.org/property/retired</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appearancesa">http://dbpedia.org/property/appearancesa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appearancesb">http://dbpedia.org/property/appearancesb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appearancesc">http://dbpedia.org/property/appearancesc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/appearancesd">http://dbpedia.org/property/appearancesd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fieldgoals">http://dbpedia.org/property/fieldgoals</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fieldgoalsa">http://dbpedia.org/property/fieldgoalsa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fieldgoalsb">http://dbpedia.org/property/fieldgoalsb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fieldgoalsc">http://dbpedia.org/property/fieldgoalsc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/fieldgoalsd">http://dbpedia.org/property/fieldgoalsd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/goalsa">http://dbpedia.org/property/goalsa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/goalsb">http://dbpedia.org/property/goalsb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/goalsc">http://dbpedia.org/property/goalsc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/goalsd">http://dbpedia.org/property/goalsd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pointsa">http://dbpedia.org/property/pointsa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pointsb">http://dbpedia.org/property/pointsb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pointsc">http://dbpedia.org/property/pointsc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pointsd">http://dbpedia.org/property/pointsd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/teama">http://dbpedia.org/property/teama</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/teamb">http://dbpedia.org/property/teamb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/teamc">http://dbpedia.org/property/teamc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/teamd">http://dbpedia.org/property/teamd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tries">http://dbpedia.org/property/tries</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/triesa">http://dbpedia.org/property/triesa</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/triesb">http://dbpedia.org/property/triesb</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/triesc">http://dbpedia.org/property/triesc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/triesd">http://dbpedia.org/property/triesd</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year1end">http://dbpedia.org/property/year1end</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year1start">http://dbpedia.org/property/year1start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year2end">http://dbpedia.org/property/year2end</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year2start">http://dbpedia.org/property/year2start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year3end">http://dbpedia.org/property/year3end</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year3start">http://dbpedia.org/property/year3start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearaend">http://dbpedia.org/property/yearaend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearastart">http://dbpedia.org/property/yearastart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearbstart">http://dbpedia.org/property/yearbstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearcend">http://dbpedia.org/property/yearcend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearcstart">http://dbpedia.org/property/yearcstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yeardstart">http://dbpedia.org/property/yeardstart</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecesso">http://dbpedia.org/property/predecesso</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/honorifiSuffix">http://dbpedia.org/property/honorifiSuffix</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/h">http://dbpedia.org/property/h</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/%23ntheissues">http://dbpedia.org/property/%23ntheissues</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/taoiseach">http://dbpedia.org/property/taoiseach</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecesor">http://dbpedia.org/property/predecesor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4blankname">http://dbpedia.org/property/4blankname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/4namedata">http://dbpedia.org/property/4namedata</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/display">http://dbpedia.org/property/display</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wuu">http://dbpedia.org/property/wuu</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/keywords">http://dbpedia.org/property/keywords</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ordination">http://dbpedia.org/property/ordination</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/firstLady">http://dbpedia.org/property/firstLady</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/endDate">http://dbpedia.org/property/endDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chlid">http://dbpedia.org/property/chlid</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/generalsecretary">http://dbpedia.org/property/generalsecretary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/indic">http://dbpedia.org/property/indic</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/trans">http://dbpedia.org/property/trans</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicalViews">http://dbpedia.org/property/politicalViews</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/religiousViews">http://dbpedia.org/property/religiousViews</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sons">http://dbpedia.org/property/sons</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ocupation">http://dbpedia.org/property/ocupation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/deathCause">http://dbpedia.org/ontology/deathCause</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathPl">http://dbpedia.org/property/deathPl</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/retrieved">http://dbpedia.org/property/retrieved</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sabr">http://dbpedia.org/property/sabr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/tifDhaxalAbahiis">http://dbpedia.org/property/tifDhaxalAbahiis</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chiefExecutive">http://dbpedia.org/property/chiefExecutive</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/successro">http://dbpedia.org/property/successro</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/headOfState">http://dbpedia.org/property/headOfState</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/greatGrandchildren">http://dbpedia.org/property/greatGrandchildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/died">http://dbpedia.org/property/died</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpFastestLaps">http://dbpedia.org/property/gpFastestLaps</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpFirstRace">http://dbpedia.org/property/gpFirstRace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpLastRace">http://dbpedia.org/property/gpLastRace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpPodiums">http://dbpedia.org/property/gpPodiums</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpPoles">http://dbpedia.org/property/gpPoles</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpRaceStarts">http://dbpedia.org/property/gpRaceStarts</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpRaceWins">http://dbpedia.org/property/gpRaceWins</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/gpActiveYears">http://dbpedia.org/property/gpActiveYears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/eligion">http://dbpedia.org/property/eligion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/othernames">http://dbpedia.org/property/othernames</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/coachSport">http://dbpedia.org/property/coachSport</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/succeededBy">http://dbpedia.org/property/succeededBy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/constituencyMayor">http://dbpedia.org/property/constituencyMayor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/serviceyeras">http://dbpedia.org/property/serviceyeras</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/l">http://dbpedia.org/property/l</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mon">http://dbpedia.org/property/mon</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/monr">http://dbpedia.org/property/monr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termStar1t">http://dbpedia.org/property/termStar1t</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/othertparty">http://dbpedia.org/property/othertparty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alternative">http://dbpedia.org/property/alternative</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/eductaion">http://dbpedia.org/property/eductaion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hp">http://dbpedia.org/property/hp</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMatar">http://dbpedia.org/property/almaMatar</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/brance">http://dbpedia.org/property/brance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lovers">http://dbpedia.org/property/lovers</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pary">http://dbpedia.org/property/pary</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/costituency">http://dbpedia.org/property/costituency</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imageChildren">http://dbpedia.org/property/imageChildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/resting+place">http://dbpedia.org/property/resting+place</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lgovernor">http://dbpedia.org/property/lgovernor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/years&#39;&#39;&#39;_">http://dbpedia.org/property/years'''_</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/yearbend">http://dbpedia.org/property/yearbend</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentConference">http://dbpedia.org/property/currentConference</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/firstMinister">http://dbpedia.org/property/firstMinister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputyMayor">http://dbpedia.org/property/deputyMayor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicemayor">http://dbpedia.org/property/vicemayor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hangulgye">http://dbpedia.org/property/hangulgye</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mrgye">http://dbpedia.org/property/mrgye</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/rrgye">http://dbpedia.org/property/rrgye</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/educational">http://dbpedia.org/property/educational</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/occupatiopn">http://dbpedia.org/property/occupatiopn</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/office1Dates">http://dbpedia.org/property/office1Dates</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/office2Dates">http://dbpedia.org/property/office2Dates</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/20religion">http://dbpedia.org/property/20religion</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wsj">http://dbpedia.org/property/wsj</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/assembly">http://dbpedia.org/property/assembly</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/vicePrimeMinister">http://dbpedia.org/ontology/vicePrimeMinister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parent">http://dbpedia.org/property/parent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/skatingClub">http://dbpedia.org/property/skatingClub</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/workplaces">http://dbpedia.org/property/workplaces</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/delhiAddress">http://dbpedia.org/property/delhiAddress</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentOffice">http://dbpedia.org/property/currentOffice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/chiefminister">http://dbpedia.org/property/chiefminister</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/service">http://dbpedia.org/property/service</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/agent">http://dbpedia.org/property/agent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/jefe">http://dbpedia.org/property/jefe</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/succsessor">http://dbpedia.org/property/succsessor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sucecssor">http://dbpedia.org/property/sucecssor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/c%C3%B3nyuge">http://dbpedia.org/property/cónyuge</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/escudo">http://dbpedia.org/property/escudo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/hijos">http://dbpedia.org/property/hijos</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/certain">http://dbpedia.org/property/certain</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/result">http://dbpedia.org/property/result</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/candidate2Party">http://dbpedia.org/property/candidate2Party</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/candidate2Percent">http://dbpedia.org/property/candidate2Percent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/candidate2Votes">http://dbpedia.org/property/candidate2Votes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electionNote">http://dbpedia.org/property/electionNote</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electionTitle">http://dbpedia.org/property/electionTitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/loserParty">http://dbpedia.org/property/loserParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/turnoutVotes">http://dbpedia.org/property/turnoutVotes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/winnerParty">http://dbpedia.org/property/winnerParty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/winnerPercent">http://dbpedia.org/property/winnerPercent</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/winnerVotes">http://dbpedia.org/property/winnerVotes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/3rdSpouse">http://dbpedia.org/property/3rdSpouse</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ward">http://dbpedia.org/property/ward</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/succeeding">http://dbpedia.org/property/succeeding</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/about">http://dbpedia.org/property/about</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/leutenant">http://dbpedia.org/property/leutenant</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/creationDate">http://dbpedia.org/property/creationDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecesso1r">http://dbpedia.org/property/predecesso1r</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/serviceDates">http://dbpedia.org/property/serviceDates</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/leader.">http://dbpedia.org/property/leader.</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/baptismDate">http://dbpedia.org/property/baptismDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/baptismPlace">http://dbpedia.org/property/baptismPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vie">http://dbpedia.org/property/vie</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/brothers">http://dbpedia.org/property/brothers</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/confederation">http://dbpedia.org/property/confederation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/league">http://dbpedia.org/property/league</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/internationalrole">http://dbpedia.org/property/internationalrole</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/internationalyears">http://dbpedia.org/property/internationalyears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otheroccupation">http://dbpedia.org/property/otheroccupation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/areaOfResponsibility">http://dbpedia.org/property/areaOfResponsibility</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/niece">http://dbpedia.org/property/niece</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/amlaMater">http://dbpedia.org/property/amlaMater</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/memberOf">http://dbpedia.org/property/memberOf</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/distrcit">http://dbpedia.org/property/distrcit</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/servingwith">http://dbpedia.org/property/servingwith</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cols">http://dbpedia.org/property/cols</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/section">http://dbpedia.org/property/section</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/langTitle">http://dbpedia.org/property/langTitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/prpresident">http://dbpedia.org/property/prpresident</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/term2End">http://dbpedia.org/property/term2End</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/term2Start">http://dbpedia.org/property/term2Start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/longside">http://dbpedia.org/property/longside</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/causeOfDeath">http://dbpedia.org/property/causeOfDeath</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/credits">http://dbpedia.org/property/credits</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/doughter">http://dbpedia.org/property/doughter</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bgcolour">http://dbpedia.org/property/bgcolour</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nationalty">http://dbpedia.org/property/nationalty</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentPoliticalAffiliation">http://dbpedia.org/property/currentPoliticalAffiliation</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecessort">http://dbpedia.org/property/predecessort</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cy">http://dbpedia.org/property/cy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/other">http://dbpedia.org/property/other</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/vicePresidentOfTheIranianResistance">http://dbpedia.org/property/vicePresidentOfTheIranianResistance</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/footnote">http://dbpedia.org/property/footnote</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deathOlace">http://dbpedia.org/property/deathOlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ethnicOrigin">http://dbpedia.org/property/ethnicOrigin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/usy">http://dbpedia.org/property/usy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/uyy">http://dbpedia.org/property/uyy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/term3End">http://dbpedia.org/property/term3End</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/term3Start">http://dbpedia.org/property/term3Start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/links">http://dbpedia.org/property/links</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/highSchool">http://dbpedia.org/property/highSchool</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/bbr">http://dbpedia.org/property/bbr</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cbbaskhofYear">http://dbpedia.org/property/cbbaskhofYear</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/offices">http://dbpedia.org/property/offices</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/statsLeague">http://dbpedia.org/property/statsLeague</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/otherOffices">http://dbpedia.org/property/otherOffices</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/championship">http://dbpedia.org/property/championship</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/empasB">http://dbpedia.org/property/empasB</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/empasK">http://dbpedia.org/property/empasK</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/naver">http://dbpedia.org/property/naver</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputy.">http://dbpedia.org/property/deputy.</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/commandsHeld">http://dbpedia.org/property/commandsHeld</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/universityChancellory">http://dbpedia.org/property/universityChancellory</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/favouriteCheese">http://dbpedia.org/property/favouriteCheese</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/preName">http://dbpedia.org/property/preName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/postName">http://dbpedia.org/property/postName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/boxWidth">http://dbpedia.org/property/boxWidth</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/viceChairman">http://dbpedia.org/property/viceChairman</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/actingGovernor">http://dbpedia.org/property/actingGovernor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/alternativeNames">http://dbpedia.org/property/alternativeNames</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/accidentPlace">http://dbpedia.org/property/accidentPlace</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/countyCouncil">http://dbpedia.org/property/countyCouncil</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/labelName">http://dbpedia.org/property/labelName</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ministry">http://dbpedia.org/property/ministry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/place">http://dbpedia.org/property/place</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/monarchs">http://dbpedia.org/property/monarchs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predecesso2r">http://dbpedia.org/property/predecesso2r</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/knownAs">http://dbpedia.org/property/knownAs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/childrenLink">http://dbpedia.org/property/childrenLink</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/captionLeft">http://dbpedia.org/property/captionLeft</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/captionRight">http://dbpedia.org/property/captionRight</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/homeState">http://dbpedia.org/property/homeState</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/captions">http://dbpedia.org/property/captions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wptFinalTables">http://dbpedia.org/property/wptFinalTables</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wptMoneyFinishes">http://dbpedia.org/property/wptMoneyFinishes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wptTitles">http://dbpedia.org/property/wptTitles</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wsopBraceletCount">http://dbpedia.org/property/wsopBraceletCount</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wsopMainEventBestFinishRank">http://dbpedia.org/property/wsopMainEventBestFinishRank</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/wsopMoneyFinishes">http://dbpedia.org/property/wsopMoneyFinishes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/areaRange">http://dbpedia.org/property/areaRange</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentNumber">http://dbpedia.org/property/currentNumber</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/populationRange">http://dbpedia.org/property/populationRange</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/startDate">http://dbpedia.org/property/startDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/territory">http://dbpedia.org/property/territory</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/previousTitle">http://dbpedia.org/property/previousTitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruNationalcaps">http://dbpedia.org/property/ruNationalcaps</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruNationalteam">http://dbpedia.org/property/ruNationalteam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruNationalyears">http://dbpedia.org/property/ruNationalyears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruPosition">http://dbpedia.org/property/ruPosition</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruProclubs">http://dbpedia.org/property/ruProclubs</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruProvince">http://dbpedia.org/property/ruProvince</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/eletionDate">http://dbpedia.org/property/eletionDate</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/lcheading">http://dbpedia.org/property/lcheading</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/committees">http://dbpedia.org/property/committees</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/mna">http://dbpedia.org/property/mna</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/domesticPartner">http://dbpedia.org/property/domesticPartner</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/county">http://dbpedia.org/property/county</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/cc">http://dbpedia.org/property/cc</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/pretitle">http://dbpedia.org/property/pretitle</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/institutions">http://dbpedia.org/property/institutions</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/heightweight">http://dbpedia.org/property/heightweight</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/originalteam">http://dbpedia.org/property/originalteam</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year4end">http://dbpedia.org/property/year4end</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/year4start">http://dbpedia.org/property/year4start</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/currentPost">http://dbpedia.org/property/currentPost</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nickNames">http://dbpedia.org/property/nickNames</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/speaker">http://dbpedia.org/property/speaker</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/husband">http://dbpedia.org/property/husband</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/notablePrizes">http://dbpedia.org/property/notablePrizes</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/childern">http://dbpedia.org/property/childern</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/imagealt">http://dbpedia.org/property/imagealt</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/allblackid">http://dbpedia.org/property/allblackid</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/allblackno">http://dbpedia.org/property/allblackno</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruProvincecaps">http://dbpedia.org/property/ruProvincecaps</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/ruProvinceyears">http://dbpedia.org/property/ruProvinceyears</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/predeccessor">http://dbpedia.org/property/predeccessor</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/deputyGovernorAndAGovernmentSpy">http://dbpedia.org/property/deputyGovernorAndAGovernmentSpy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/termEnded">http://dbpedia.org/property/termEnded</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/servingWith">http://dbpedia.org/property/servingWith</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/almaMata">http://dbpedia.org/property/almaMata</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/successorTo">http://dbpedia.org/property/successorTo</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electedOffice">http://dbpedia.org/property/electedOffice</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/electedTerm">http://dbpedia.org/property/electedTerm</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/nickname">http://dbpedia.org/property/nickname</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/job">http://dbpedia.org/property/job</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parties">http://dbpedia.org/property/parties</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/greatGreatGrandchildren">http://dbpedia.org/property/greatGreatGrandchildren</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/parliamentaryGrouping">http://dbpedia.org/property/parliamentaryGrouping</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/legislativecouncil">http://dbpedia.org/property/legislativecouncil</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/descriere">http://dbpedia.org/property/descriere</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/for">http://dbpedia.org/property/for</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/activepol">http://dbpedia.org/property/activepol</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicianPriority">http://dbpedia.org/property/politicianPriority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/politicianWorkGroup">http://dbpedia.org/property/politicianWorkGroup</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sportsPriority">http://dbpedia.org/property/sportsPriority</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/sportsWorkGroup">http://dbpedia.org/property/sportsWorkGroup</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/listas">http://dbpedia.org/property/listas</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/living">http://dbpedia.org/property/living</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/few">http://dbpedia.org/property/few</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/property/incat">http://dbpedia.org/property/incat</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://dbpedia.org/ontology/wikiPageRedirects">http://dbpedia.org/ontology/wikiPageRedirects</a></td>
+  </tr>
+</tbody></table></body></html>
