@@ -13,7 +13,7 @@
 
 <#UniversityMapping>
  rml:logicalSource [ 
- rml:source "../csv2/us-colleges-and-universities-modified.csv";
+ rml:source "csv/us-colleges-and-universities-final.csv";
  rml:referenceFormulation ql:CSV
  ];
  rr:subjectMap [
@@ -129,10 +129,9 @@ rr:predicateObjectMap [
 
 
 
-
 <#UniversityEnrollmentRateMapping>
  rml:logicalSource [ 
- rml:source "../csv2/IPEDS-data.csv";
+ rml:source "csv/IPEDS-data-final.csv";
  rml:referenceFormulation ql:CSV
  ];
 
@@ -172,7 +171,7 @@ rr:predicateObjectMap [
 
 <#UniversiteAverageGraduationRateMapping>
  rml:logicalSource [ 
- rml:source "../csv2/IPEDS-data.csv";
+ rml:source "csv/IPEDS-data-final.csv";
  rml:referenceFormulation ql:CSV
  ];
 
@@ -213,7 +212,7 @@ rr:predicateObjectMap [
 
 <#UniversiteAdmisionRateMapping>
  rml:logicalSource [ 
- rml:source "../csv2/IPEDS-data.csv";
+ rml:source "csv/IPEDS-data-final.csv";
  rml:referenceFormulation ql:CSV
  ];
 
@@ -245,7 +244,7 @@ rr:predicateObjectMap [
 
 <#UniversityRankingMappingLiberalArts>
  rml:logicalSource [ 
- rml:source "../csv2/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-updated-2.csv";
+ rml:source "csv/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-final.csv";
  rml:referenceFormulation ql:CSV
  ];
  rr:subjectMap [
@@ -281,7 +280,7 @@ rr:predicateObjectMap [
 
 <#UniversityRankingMappingUSNews>
  rml:logicalSource [ 
- rml:source "../csv2/US-News-Rankings-Universities-Through-2023-updated2.csv";
+ rml:source "csv/US-News-Rankings-Universities-Through-2023-final.csv";
  rml:referenceFormulation ql:CSV
  ];
  rr:subjectMap [

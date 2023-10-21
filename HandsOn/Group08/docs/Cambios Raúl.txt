@@ -1,8 +1,0 @@
-- Cambios en 'ontology.ttl'
-	- He añadido las propiedades y clases que faltaban(County, Country, latitude,lobngitude..)
-	- He corregido el prefijo base: y ns: que estaban mal puestos
-- Cambios en 'us-university-college-csv'
-	-Todas las celdas estaban en mayuscula. He cambiado al formato adecuado para que el mapeo con dbpedia funcione.
-	- Ver procesado.py
-- Ademas
-	- He creado el rml, yaml, rdf y queries(con rdflib) del csv us-university college.
