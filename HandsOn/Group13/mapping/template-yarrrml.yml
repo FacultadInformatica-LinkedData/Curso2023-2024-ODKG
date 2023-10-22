@@ -1,0 +1,56 @@
+prefixes:
+  base: <http://madrid.encuentra.es/resource/>
+  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  xml: <http://www.w3.org/2001/XMLSchema#>
+  skos: <http://www.w3.org/2004/02/skos/core#>
+  schema: <http://schema.org/>
+  me: <http://madrid.encuentra.es/resource/>
+  esequip: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#>
+  esagenda: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda>
+  
+mappings:
+  eventMap:
+    sources:
+      - [agenda_evento_madrid.csv~csv]
+    s: http://madrid.encuentra.es/resource/Evento/$(idEvento)
+    po:
+      - [a, esagendfa:Evento]
+      - [me:name, $(TITULO)]
+      - [me:description,$(DESCRIPCION),xsd:string]
+      - [esAgenda:fechaInicio,$(FECHA),xsd:date]
+      - [esAgenda:fechaFin,$(FECHA-FIN),xsd:date]
+      - [esAgenda:horaInicio,$(HORA),xsd:date]
+        [me:id,$(HORA),xsd:string]  
+      - p: me:facility
+        o:
+          mapping: facilityMap
+
+  facilityMap:
+    sources:
+      -[centro_evento.csv~csv]
+    s: "http://madrid.encuentra.es/resource/Facility/$(PK)"
+    po:
+      - [a, me:Facility]
+      - [me:name, $(NOMBRE), xsd:string]
+      - [me:descripcion, $(DESCRIPCION-ENTIDAD), xsd:string]
+      - [me:horario, $(HORARIO), xsd:string]
+      - [me:accesible, $(ACCESIBILIDAD), xsd:string]
+      - [me:contentURL, $(CONTENT-URL), xsd:anyURI]
+      - [vocab:nombreVia, $(NOMBRE-VIA), xsd:string]
+      - [vocab:claseVial, $(CLASE-VIAL), xsd:string]
+      - [vocab:tipoNum, $(TIPO-NUM), xsd:string]
+      - [vocab:num, $(NUM), xsd:string]
+      - [vocab:localidad, $(LOCALIDAD), xsd:string]
+      - [vocab:provincia, $(PROVINCIA), xsd:string]
+      - [vocab:codigoPostal, $(CODIGO-POSTAL), xsd:string]
+      - [vocab:codBarrio, $(COD-BARRIO), xsd:string]
+      - [vocab:barrio, $(BARRIO), xsd:string]
+      - [vocab:codDistrito, $(COD-DISTRITO), xsd:string]
+      - [vocab:distrito, $(DISTRITO), xsd:string]
+      - [vocab:coordenadaX, $(COORDENADA-X), xsd:double]
+      - [vocab:coordenadaY, $(COORDENADA-Y), xsd:double]
+      - [vocab:latitud, $(LATITUD), xsd:double]
+      - [vocab:longitud, $(LONGITUD), xsd:double]
+      - [esagenda:Evento, "http://madrid.encuentra.es/resource/Evento/$(Evento)"]
+
+
