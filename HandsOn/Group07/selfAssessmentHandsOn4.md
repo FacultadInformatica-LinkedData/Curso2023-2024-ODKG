@@ -28,4 +28,6 @@
 - [x] Uses the correct datatype (e.g., values of 0-1 may be booleans and not integers, not every string made of numbers is a number)
 
 ## Comments on the self-assessment
-_(If required)_
+- RDFs are in .ttl format, as requested on Moodle. As such, they are not serialized as NTriples
+- The only double slashes ("//") in the URIs are after the protocol ("http(s)://...")
+
