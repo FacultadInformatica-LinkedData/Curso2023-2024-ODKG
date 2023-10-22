@@ -1,0 +1,31 @@
+@base <http://www.oeg-upm.net/ontologies/class/> .
+@prefix vocab_1: <http://www.oeg-upm.net/ontologies/class/computer#> .
+@prefix vocab_2: <http://www.oeg-upm.net/ontologies/class/sensor#> .
+@prefix vocab_3: <http://www.oeg-upm.net/ontologies/class/measurement#> .
+@prefix vocab_4: <http://www.oeg-upm.net/ontologies/class/user#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#class01>	
+	vocab_2:includes <#Sensor029> ;
+	foaf:name "Class01" ;
+	vocab_1:includes <#Computer101> .
+
+<#Sensor029> 
+	vocab_3:hasMeasurement <#Measurement8401> ;
+	foaf:name "Sensor029" .
+
+<#Measurement8401> 
+	vocab_3:hasTemperature "#29" ;
+	foaf:name "Measurement8401" ;
+	vocab_3:atTime "#2010-06-12T12:00:12".
+
+<#Computer101> 
+	vocab_4:hasOwner <#User10A> ;
+	foaf:name "Computer101" .
+
+<#User10A> 
+	vocab_4:hasName "Pedro" ;
+	foaf:name "User10A" .
+
+
+		 

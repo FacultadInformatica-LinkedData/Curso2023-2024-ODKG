@@ -1,0 +1,11 @@
+4. For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+
+		Query:
+		select distinct ?properties ?value
+		where 
+		{
+		  ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		  ?politician ?properties ?value .
+		  FILTER(?properties != rdf:type)
+		} 
+		

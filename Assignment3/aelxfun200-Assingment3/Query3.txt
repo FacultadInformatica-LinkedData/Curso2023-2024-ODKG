@@ -1,0 +1,11 @@
+3. Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+
+		Query:
+		select distinct ?value
+		where 
+		{
+		  ?politician rdf:type <http://dbpedia.org/ontology/Politician> .
+		  ?politician ?properties ?value .
+		   FILTER(?properties != rdf:type)
+		}
+		
