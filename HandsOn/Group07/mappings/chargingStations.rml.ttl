@@ -21,11 +21,11 @@
 	rr:predicateObjectMap :pom_000, :pom_001, :pom_002, :pom_003, :pom_004, :pom_005, :pom_006, :pom_007, :pom_008, :pom_009 .
 
 :source_000 rdf:type rml:LogicalSource ;
-	rml:source "Electric_Vehicle_Charging_Stations-updated.csv" ;
+	rml:source "Electric-Vehicle-Charging-Stations-update.csv";
 	rml:referenceFormulation ql:CSV .
 
 :s_000 rdf:type rr:SubjectMap ;
-	rr:template "https://www.chargeup.io/group07/resource/ChargingStation/{Station-Name}" .
+	rr:template "https://www.chargeup.io/group07/resource/ChargingStation/{Station Name}" .
 
 :pom_000 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_000 ;
@@ -135,7 +135,7 @@
 
 :pom_009 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_009 ;
-	rr:objectMap :om_016 .
+	rr:objectMap :om_009 .
 
 :pm_009 rdf:type rr:PredicateMap ;
 	rr:constant <ont:streetAddress> .
@@ -147,11 +147,11 @@
 	rr:predicateObjectMap :pom_010, :pom_011, :pom_012, :pom_013 .
 
 :source_001 rdf:type rml:LogicalSource ;
-	rml:source "Electric_Vehicle_Charging_Stations-updated.csv" ;
+	rml:source "Electric-Vehicle-Charging-Stations-update.csv";
 	rml:referenceFormulation ql:CSV .
 
 :s_001 rdf:type rr:SubjectMap ;
-	rr:template "https://www.chargeup.io/group07/resource/Address/{Street-Address}" .
+	rr:template "https://www.chargeup.io/group07/resource/Address/{Street Address}" .
 
 :pom_010 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_010 ;
@@ -189,7 +189,7 @@
 
 :pom_013 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_013 ;
-	rr:objectMap :om_017 .
+	rr:objectMap :om_013 .
 
 :pm_013 rdf:type rr:PredicateMap ;
 	rr:constant <ont:city> .
@@ -201,7 +201,7 @@
 	rr:predicateObjectMap :pom_014, :pom_015, :pom_016, :pom_017 .
 
 :source_002 rdf:type rml:LogicalSource ;
-	rml:source "Electric_Vehicle_Charging_Stations-updated.csv" ;
+	rml:source "Electric-Vehicle-Charging-Stations-update.csv";
 	rml:referenceFormulation ql:CSV .
 
 :s_002 rdf:type rr:SubjectMap ;
