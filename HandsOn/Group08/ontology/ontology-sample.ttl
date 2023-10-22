@@ -1,7 +1,6 @@
-ns:HarvardScore a ns:Score ;
+ns:HarvardScore a ns:LiberalArtsRanking ;
     ns:yearPublished "2023" ;
-    ns:score 3 ;
-    ns:publisher "" .
+    ns:score 3 .
 
 ns:HarvardEnrollmentRate a ns:EnrollmentRate ;
     ns:totalEnrolled 1559;
@@ -16,9 +15,12 @@ ns:HarvardAdmissionRate a ns:AdmissionRate;
 ns:Harvard a ns:University ;
     ns:ipedsIs 166027 ;
     ns:name "Harvard University" ;
-    ns:description "" ;
     ns:website "www.harvard.edu/" ;
-    ns:locationCity <https://dbpedia.org/page/Cambridge,_Massachusetts> ;
+    ns:city  ns:Masachusetts;
+    ns:state ns:FL;
+    ns:country ns:United States;
     ns:hasRate ns:HarvardEnrollmentRate ;
     ns:hasRate ns:HarvardAdmissionRate;
-    ns:hasRanking ns:HarvardScore .
+    ns:hasRanking ns:HarvardRanking .
+    schema:latitude 48.515148421
+    schema:longitude 87.23564818
