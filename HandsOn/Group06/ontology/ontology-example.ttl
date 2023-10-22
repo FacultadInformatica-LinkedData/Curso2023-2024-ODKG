@@ -14,12 +14,12 @@
 	:longitud -3.700891722 ;
 	:fechaHora 2021-01-01T00:00:00Z ;
 	:observacionesDireccion "Calle peatonal" ;
+	:numPeatones 110 ;
 	:perteneceACalle <rec:Distrito/Calle Fuencarral> .
 
 # Instance Calle
 <rec:Calle/Calle Fuencarral>
 	rdf:type owl:Calle;
 	:id_calle "Calle Fuencarral" ;
-	:numPeatones 110 ;
 	:distrito "Centro" ;
 	:codigoPostal 28004 .
