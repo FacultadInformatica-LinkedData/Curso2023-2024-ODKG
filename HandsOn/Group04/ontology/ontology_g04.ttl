@@ -13,13 +13,13 @@
 #################################################################
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasEventType
-:eventType rdf:type owl:ObjectProperty ;
+:hasEventType rdf:type owl:ObjectProperty ;
            rdfs:domain :CulturalEvent ;
            rdfs:range :Concept .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAudienceType
-:audienceType rdf:type owl:ObjectProperty ;
+:hasAudienceType rdf:type owl:ObjectProperty ;
               rdfs:domain :CulturalEvent ;
               rdfs:range :Audience .
 
@@ -63,13 +63,13 @@
 #################################################################
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventType
-:eventtype rdf:type owl:DatatypeProperty ;
+:eventType rdf:type owl:DatatypeProperty ;
            rdfs:domain :Concept ;
            rdfs:range xsd:string .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#audienceType
-:audiencetype rdf:type owl:DatatypeProperty ;
+:audienceType rdf:type owl:DatatypeProperty ;
               rdfs:domain :Audience ;
               rdfs:range xsd:string .
 
