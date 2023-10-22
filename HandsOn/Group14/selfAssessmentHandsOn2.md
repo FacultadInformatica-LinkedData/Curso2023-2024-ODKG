@@ -31,4 +31,4 @@
 - [x] Contains at least one class that will be used to link to other entities
 
 ## Comments on the self-assessment
-_(If required)_
+We tried to use chowlk again because we updated our ontology hence we needed a new owl file on 22nd of October, but for some reason it did not work even though I tried the old xml file of the old ontology that we used to generate it.

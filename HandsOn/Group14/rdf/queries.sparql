@@ -1,0 +1,53 @@
+# Query to retrieve all Bikes and their IDs
+PREFIX ns: <http://smart-cities-Dublin.org/bikeshare/about/Bike#>
+SELECT ?bike ?bikeID WHERE {
+    ?bike a ns:Bike ;
+          ns:hasBikeID ?bikeID .
+}
+
+# Query to retrieve all Bikes and their types
+SELECT ?bike ?bikeType WHERE {
+    ?bike a ns:Bike ;
+          ns:hasBikeType ?bikeType .
+}
+
+# Query to retrieve all Bikes and their last rental start times
+SELECT ?bike ?lastRentalStart WHERE {
+    ?bike a ns:Bike ;
+          ns:LastRentalStart ?lastRentalStart .
+}
+
+# Query to retrieve all Coordinates: Latitude and Longitude
+SELECT ?coords ?latitude ?longitude WHERE {
+    ?coords a ns:Coordinates ;
+            ns:hasLatitude ?latitude ;
+            ns:hasLongitude ?longitude .
+}
+
+# Query to retrieve all Batteries and the amount left
+SELECT ?battery ?amountLeft WHERE {
+    ?battery a ns:Battery ;
+             ns:batteryLeft ?amountLeft .
+}
+
+# Query to retrieve all Batteries and their last GPS usage time
+SELECT ?battery ?lastGPSTime WHERE {
+    ?battery a ns:Battery ;
+             ns:wasLastUsed ?lastGPSTime .
+}
+
+# Query to get Bikes and their location coordinates
+SELECT ?bike ?latitude ?longitude WHERE {
+    ?bike a ns:Bike ;
+          ns:isLocatedAt ?coords .
+    ?coords ns:hasLatitude ?latitude ;
+           ns:hasLongitude ?longitude .
+}
+
+# Query to get Bikes and their battery details
+SELECT ?bike ?batteryLeft ?lastGPSTime WHERE {
+    ?bike a ns:Bike ;
+          ns:hasBattery ?battery .
+    ?battery ns:batteryLeft ?batteryLeft ;
+            ns:wasLastUsed ?lastGPSTime .
+}
