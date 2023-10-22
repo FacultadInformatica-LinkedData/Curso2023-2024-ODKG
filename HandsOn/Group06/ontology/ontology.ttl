@@ -47,7 +47,7 @@ clase:perteneceACalle a owl:ObjectProperty ;
 
 clase:numPeatones a owl:DatatypeProperty ;
     rdfs:label "numero de peatones" ;
-    rdfs:domain clase:Calle ;
+    rdfs:domain clase:Peaton ;
     rdfs:range xsd:integer .
 
 clase:id_aforoPeaton a owl:DatatypeProperty ;
