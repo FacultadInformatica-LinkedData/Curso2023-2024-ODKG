@@ -8,7 +8,7 @@ mappings:
   event:
     sources:
       - ['datacsv.csv~csv']
-    s: http://madrid.encuentra.es/Evento/$(ID-EVENTO)
+    s: http://madrid.encuentra.es/resource/Evento/$(ID-EVENTO)
     po:
       - [a, esagenda:Evento]
       - [me:name, $(TITULO), xsd:string]
@@ -28,7 +28,7 @@ mappings:
   facility:
     sources:
       - ['data2.json~jsonpath','$.data[*]']
-    s: http://madrid.encuentra.es/Facility/$(PK)
+    s: http://madrid.encuentra.es/resource/Facility/$(PK)
     po:
       - [a, me:Facility]
       - [me:name, $(NOMBRE), xsd:string]
