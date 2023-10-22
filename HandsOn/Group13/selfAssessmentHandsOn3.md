@@ -4,12 +4,12 @@
 
 **Every resource described in the CSV file:**
 
-- [ ] Has a unique identifier in a column (not an auto-increased integer)
-- [ ] Is related to a class in the ontology
+- [x] Has a unique identifier in a column (not an auto-increased integer)
+- [x] Is related to a class in the ontology
 
 **Every class in the ontology:**
 
-- [ ] Is related to a resource described in the CSV file
+- [x] Is related to a resource described in the CSV file
 
 **Every column in the CSV file:**
 
@@ -19,7 +19,7 @@
 
 **Every property in the ontology:**
 
-- [ ] Is related to a column in the CSV file
+- [x] Is related to a column in the CSV file
 
 ## Comments on the self-assessment
 _(If required)_
