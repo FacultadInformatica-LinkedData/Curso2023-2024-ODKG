@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Application Requiments</title>
+
+
+    <style>
+        body {
+            margin: 3%;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+
+<h1> First Idea</h1>
+
+We have introduced a full-stack Python web application, utilizing <a href="https://streamlit.io/">Streamlit </a> for the front end and RDFlib for ontology handling.
+
+Through our ontology, we have the capability to generate queries that establish connections between universities.
+
+<h2> Requirements First Prototype</h2>
+<ul>
+    <li><strong>R1:</strong> Create an Ontology of  the concept University that can relate to universities with their assigned global ranking</li>
+    <li><strong>R2:</strong> Convert the csv data to the ontology creating a KG</li>
+    <li><strong>R3:</strong> Exploit the KG with SparQL queries that:</li>
+    <ul>
+        <li><strong>R3.1:</strong>Allows users to search  for the top ranked universities on a specific location</li>
+        <li><strong>R3.2:</strong>Allows users to search for the career paths that yield the highest empleability on a specific university</li>
+    </ul>
+    <li><strong>R5:</strong> Deploy a user-friendly web service to the users can see the exploited information</li>
+</ul>
+
+<h2>Prototypes</h2>
+<img src="./mockups/application.png" style="width: 40vw;"/> 
+
+</html>

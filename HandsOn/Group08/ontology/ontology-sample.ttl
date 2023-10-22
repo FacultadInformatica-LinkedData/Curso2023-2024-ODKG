@@ -1,0 +1,26 @@
+ns:HarvardScore a ns:LiberalArtsRanking ;
+    ns:yearPublished "2023" ;
+    ns:score 3 .
+
+ns:HarvardEnrollmentRate a ns:EnrollmentRate ;
+    ns:totalEnrolled 1559;
+    ns:totalApplicants 35023 ;
+    ns:value 4.45
+
+ns:HarvardAdmissionRate a ns:AdmissionRate;
+    ns:totalApplicants 35023 ;
+    ns:totalAdmitted 2047;
+    ns:value 5.84 .
+
+ns:Harvard a ns:University ;
+    ns:ipedsIs 166027 ;
+    ns:name "Harvard University" ;
+    ns:website "www.harvard.edu/" ;
+    ns:city  ns:Masachusetts;
+    ns:state ns:FL;
+    ns:country ns:United States;
+    ns:hasRate ns:HarvardEnrollmentRate ;
+    ns:hasRate ns:HarvardAdmissionRate;
+    ns:hasRanking ns:HarvardRanking .
+    schema:latitude 48.515148421
+    schema:longitude 87.23564818
