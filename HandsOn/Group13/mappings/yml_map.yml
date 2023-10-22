@@ -1,8 +1,8 @@
 prefixes:
-  me: http://madrid.encuentra.es/resource/
-  esagenda: http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
-  vocab: http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda
-  xsd: <http://www.w3.org/2001/XMLSchema#>
+  me: 'http://madrid.encuentra.es/resource/'
+  esagenda: 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda'
+  vocab: 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda'
+  xsd: 'http://www.w3.org/2001/XMLSchema#'
 
 mappings:
   event:
