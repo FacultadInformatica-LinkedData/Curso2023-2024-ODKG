@@ -1,0 +1,135 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  transit: http://vocab.org/transit/terms#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#
+  vocab: http://healthcentersmadrid.es/locations/ontology/ont#
+
+mappings:
+  - name: HealthCenter
+    logicalSource:
+      source: centros_atencion_medica-updated.csv
+      referenceFormulation: ql:CSV
+    subjectMap:
+      template: "https://sample.com/resource/HealthCenter{PK}"
+      termType: rr:IRI
+      class: vocab:HealthCenter
+    predicateObjectMaps:
+      - predicate: vocab:name
+        objectMap:
+          reference: NOMBRE
+          termType: rr:Literal
+          datatype: xsd:string
+      - predicate: vocab:hasType
+        objectMap:
+          reference: TIPO
+          datatype: xsd:string
+      - predicate: vocab:Information
+        objectMap:
+          template: "https://sample.com/resource/Information{PK}"
+      - predicate: vocab:Location
+        objectMap:
+          template: "https://sample.com/resource/Location{PK}"
+
+  - name: Location
+    logicalSource:
+      source: centros_atencion_medica-updated.csv
+      referenceFormulation: ql:CSV
+    subjectMap:
+      template: "https://sample.com/resource/Location{PK}"
+      termType: rr:IRI
+      class: vocab:Location
+    predicateObjectMaps:
+      - predicate: vocab:longitude
+        objectMap:
+          reference: LONGITUD
+          datatype: xsd:real
+      - predicate: vocab:latitude
+        objectMap:
+          reference: LATITUD
+          datatype: xsd:real
+      - predicate: vocab:coordinatex
+        objectMap:
+          reference: COORDENADA-X
+          datatype: xsd:int
+      - predicate: vocab:coordenatey
+        objectMap:
+          reference: COORDENADA-Y
+          datatype: xsd:int
+      - predicate: vocab:Address
+        objectMap:
+          template: "https://sample.com/resource/Address{PK}"
+
+  - name: Information
+    logicalSource:
+      source: centros_atencion_medica-updated.csv
+      referenceFormulation: ql:CSV
+    subjectMap:
+      template: "https://sample.com/resource/Information{PK}"
+      termType: rr:IRI
+      class: vocab:Information
+    predicateObjectMaps:
+      - predicate: vocab:openingHours
+        objectMap:
+          reference: HORARIO
+          datatype: xsd:string
+      - predicate: vocab:accesibility
+        objectMap:
+          reference: ACCESIBILIDAD
+          datatype: xsd:int
+      - predicate: vocab:transport
+        objectMap:
+          reference: TRANSPORTE
+
+  - name: Address
+    logicalSource:
+      source: centros_atencion_medica-updated.csv
+      referenceFormulation: ql:CSV
+    subjectMap:
+      template: "https://sample.com/resource/Address{PK}"
+      termType: rr:IRI
+      class: vocab:Address
+    predicateObjectMaps:
+      - predicate: vocab:street
+        objectMap:
+          reference: NOMBRE-VIA
+          datatype: xsd:string
+      - predicate: vocab:neighbourhood
+        objectMap:
+          reference: BARRIO
+          datatype: xsd:string
+      - predicate: vocab:district
+        objectMap:
+          reference: DISTRITO
+          datatype: xsd:string
+      - predicate: vocab:number
+        objectMap:
+          reference: NUM
+          datatype: xsd:int
+      - predicate: vocab:postalCode
+        objectMap:
+          reference: CODIGO-POSTAL
+          datatype: xsd:int
+      - predicate: vocab:city
+        objectMap:
+          reference: LOCALIDAD
+
+  - name: Contact
+    logicalSource:
+      source: centros_atencion_medica-updated.csv
+      referenceFormulation: ql:CSV
+    subjectMap:
+      template: "https://sample.com/resource/Contact{PK}"
+      termType: rr:IRI
+      class: vocab:Contact
+    predicateObjectMaps:
+      - predicate: vocab:web
+        objectMap:
+          reference: CONTENT-URL
+          datatype: xsd:string
+      - predicate: vocab:phoneNumber
+        objectMap:
+          reference: TELEFONO
+          datatype: xsd:string
