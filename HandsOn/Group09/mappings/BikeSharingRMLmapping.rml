@@ -7,11 +7,12 @@
 
 <#BikeSharing> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "train_bikes_updated.csv" ;
+    rml:source "../csv/train_bikes_updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
+
   rr:subjectMap [
-    rr:template "http://subjectUri/"datetime";
+    rr:template "http://subjectUri/{datetime}";
     rr:class vocab:bike_shared
   ];
 
@@ -40,7 +41,7 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate vocab:weather
+    rr:predicate vocab:weather;
     rr:objectMap [
       rml:reference "weather";
       rr:datatype xsd:integer
@@ -85,5 +86,4 @@
       rml:reference "count";
       rr:datatype xsd:integer
     ]
-  ];
-
+  ];.
