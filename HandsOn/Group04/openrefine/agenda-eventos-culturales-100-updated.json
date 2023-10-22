@@ -545,5 +545,96 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Sin información\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.replace(\" \", \"T\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA using expression grel:value.replace(\" \", \"T\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.replace(\" \", \"T\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.replace(\" \", \"T\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TITULO",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TITULO using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-INSTALACION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AUDIENCIA",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AUDIENCIA using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
   }
 ]
