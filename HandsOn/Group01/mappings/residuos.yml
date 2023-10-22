@@ -5,7 +5,8 @@ prefixes:
   rml: http://semweb.mmlab.be/ns/rml#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   nso: http://madridwastemanagement.org/group01/ontology/
-  
+  ql: http://semweb.mmlab.be/ns/ql#
+
 mappings:
 
   zonemap:
