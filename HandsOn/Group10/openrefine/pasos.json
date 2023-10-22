@@ -1,0 +1,190 @@
+[
+  {
+    "op": "core/project-creation",
+    "description": "Create project"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "Nº_Distrito",
+    "expression": "join ([coalesce(cells['Nº_Distrito'].value,''),coalesce(cells['MINTDISTRI,C,20'].value,'')],'')",
+    "description": "Text transform on 159 cells in column Nº_Distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPTIO,C,105",
+    "description": "Remove column DESCRIPTIO,C,105"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "INSTALLDAT,D",
+    "description": "Remove column INSTALLDAT,D"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNUMERO,C,25",
+    "description": "Remove column MINTNUMERO,C,25"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNDP,C,20",
+    "description": "Remove column MINTNDP,C,20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO,C,254",
+    "description": "Remove column TIPO,C,254"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TOTAL_ELEM,N,10,0",
+    "description": "Remove column TOTAL_ELEM,N,10,0"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESTADO,C,50",
+    "description": "Remove column ESTADO,C,50"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "﻿Nombre_distrito",
+    "expression": "value.toUppercase()",
+    "description": "Text transform on 49 cells in column ﻿Nombre_distrito"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "NOMBRE_DIS,C,25",
+    "expression": "value.toUppercase()",
+    "description": "Text transform on 0 cells in column NOMBRE_DIS,C,25"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "﻿Nombre_distrito",
+    "expression": "join ([coalesce(cells['﻿Nombre_distrito'].value,''),coalesce(cells['NOMBRE_DIS,C,25'].value,'')],'')",
+    "description": "Text transform on 156 cells in column ﻿Nombre_distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTDISTRI,C,20",
+    "description": "Remove column MINTDISTRI,C,20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE_DIS,C,25",
+    "description": "Remove column NOMBRE_DIS,C,25"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column3",
+    "description": "Remove column Column3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column4",
+    "description": "Remove column Column4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿MXASSETNUM,C,12",
+    "newColumnName": "ID_Parque_Canino",
+    "description": "Rename column ﻿MXASSETNUM,C,12 to ID_Parque_Canino"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MINTBARRIO,C,10",
+    "newColumnName": "Nº_Barrio",
+    "description": "Rename column MINTBARRIO,C,10 to Nº_Barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_BAR,C,50",
+    "newColumnName": "Nombre_Barrio",
+    "description": "Rename column NOMBRE_BAR,C,50 to Nombre_Barrio"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('CALLE','CALLE ')",
+    "description": "Text transform on 98 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('AVENIDA','AVENIDA ')",
+    "description": "Text transform on 17 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('CAMINO','CAMINO ')",
+    "description": "Text transform on 3 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('PASEO','PASEO ')",
+    "description": "Text transform on 3 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('CALLE JON','CALLEJON ')",
+    "description": "Text transform on 1 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('PLAZA','PLAZA ')",
+    "description": "Text transform on 6 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('RONDA','RONDA ')",
+    "description": "Text transform on 2 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "value.replace('CARRETERA','CARRETERA ')",
+    "description": "Text transform on 1 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/text-transform",
+    "columnName": "MINTTIPOVI,C,15",
+    "expression": "join ([coalesce(cells['MINTTIPOVI,C,15'].value,''),coalesce(cells['MINTNOMBRE,C,254'].value,'')],'')",
+    "description": "Text transform on 419 cells in column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNOMBRE,C,254",
+    "description": "Remove column MINTNOMBRE,C,254"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MINTTIPOVI,C,15",
+    "newColumnName": "Dirección",
+    "description": "Rename column MINTTIPOVI,C,15 to Dirección"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_ESPECIE",
+    "newColumnName": "Nombre_Especie",
+    "description": "Rename column NOMBRE_ESPECIE to Nombre_Especie"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿Nombre_distrito",
+    "newColumnName": "Nombre_Distrito",
+    "description": "Rename column ﻿Nombre_distrito to Nombre_Distrito"
+  }
+]
