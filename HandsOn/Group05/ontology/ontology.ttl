@@ -14,22 +14,22 @@
 #    Object Properties  
 #################################################################
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#isLocated
+###   http://healthcentersmadrid.es/locations/ontology/ont#Location
 :isLocated rdf:type owl:ObjectProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range :Location .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#hasOtherInformation
+###   http://healthcentersmadrid.es/locations/ontology/ont#Information
 :hasOtherInformation rdf:type owl:ObjectProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range :Information .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#hasAddress
+###   http://healthcentersmadrid.es/locations/ontology/ont#Address
 :hasAddress rdf:type owl:ObjectProperty ;
         rdfs:domain :Location ;
         rdfs:range :Address .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#hasContact
+###   http://healthcentersmadrid.es/locations/ontology/ont#Contact
 :hasContact rdf:type owl:ObjectProperty ;
         rdfs:domain :Information ;
         rdfs:range :Contact .
