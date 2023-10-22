@@ -12,13 +12,13 @@
 @prefix property: <http://vidaactivamadrid.es/info/ontology/property#> .
 
 map:jc_000 rr:child "NOMBRE_INSTALACION" ;
-	rr:parent "name" .
+	rr:parent "NOMBRE_INSTALACION" .
 
 map:jc_001 rr:child "DIRECCION" ;
-	rr:parent "name" .
+	rr:parent "DIRECCION" .
 
 map:jc_002 rr:child "BARRIO" ;
-	rr:parent "name" .
+	rr:parent "BARRIO" .
 
 map:map_Activity_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
