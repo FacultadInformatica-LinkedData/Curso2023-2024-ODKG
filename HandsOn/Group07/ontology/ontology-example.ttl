@@ -26,4 +26,4 @@ https://www.chargeup.io/group07/resource/City/Darien a ont:City;
 # https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd
 https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd a ont:Address;
     ont:city <https://www.chargeup.io/group07/resource/City/Darien>;
-    ont:zipCode 5^^xsd:string .
+    ont:zipCode "00005"^^xsd:string .
