@@ -20,8 +20,8 @@
 	ont:pk 11864^^xsd:int;
 	ont:name "Centro de Atención a las Adicciones (CAD) de Vallecas"^^xsd:string;
 	ont:typeCenter “Centros Asistencia Drogodependientes”^^xsd:string;
-	ont:isLocated :Location11864;
-	ont:hasOtherInformation :Information11864.
+	ont:Location :Location11864;
+	ont:Information :Information11864.
 
 
 ### http://healthcentersmadrid.es/locations/resource/Location{PK}
@@ -30,7 +30,7 @@
 	ont:longitude -3665565995938500^^xsd:real;
 	ont:Coordinatex 404163721753529^^xsd:int;
 	ont:Coordinatey 404163721753529^^xsd:int;
-	ont:hasAddress: Address11864.
+	ont:Address: Address11864.
 
 
 ### http://healthcentersmadrid.es/locations/resource/Address{PK}
@@ -47,7 +47,7 @@
 	ont:openingHours “L-J: 8:30-19:30, V: 8:30-14:30”^^xsd:string;
 	ont:accesibility “1”^^xsd:int;
 	ont:transport “Bus: 10, 24, 54, 57, 58, 111, 136, 140, 310 Metro: Nueva Numancia (L1)”^^xsd:string;
-ont:hasContact: Contact11864.
+ont:Contact: Contact11864.
 
 
 ### http://healthcentersmadrid.es/locations/resource/Contact{PK}
