@@ -1,0 +1,139 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Estacio",
+    "newColumnName": "Cabin_Number",
+    "description": "Rename column Estacio to Cabin_Number"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_cabina",
+    "description": "Remove column nom_cabina"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "codi_dtes",
+    "description": "Remove column codi_dtes"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "zqa",
+    "description": "Remove column zqa"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "codi_eoi",
+    "description": "Remove column codi_eoi"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Longitud",
+    "newColumnName": "Longitude",
+    "description": "Rename column Longitud to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Latitud",
+    "newColumnName": "Latitude",
+    "description": "Rename column Latitud to Latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Codi_districte",
+    "newColumnName": "District_Number",
+    "description": "Rename column Codi_districte to District_Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nom_districte",
+    "newColumnName": "District_Name",
+    "description": "Rename column Nom_districte to District_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Codi_Contaminant",
+    "newColumnName": "Contaminant_Code",
+    "description": "Rename column Codi_Contaminant to Contaminant_Code"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Codi_barri",
+    "newColumnName": "Neighbourhood_Number",
+    "description": "Rename column Codi_barri to Neighbourhood_Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nom_barri",
+    "newColumnName": "Neighbourhood_Name",
+    "description": "Rename column Nom_barri to Neighbourhood_Name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Clas_1",
+    "description": "Remove column Clas_1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Clas_2",
+    "description": "Remove column Clas_2"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ubicacio",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column ubicacio by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ubicacio 2",
+    "newColumnName": "Street_Name",
+    "description": "Rename column ubicacio 2 to Street_Name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street_Name",
+    "expression": "grel:value.replace(\")\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street_Name using expression grel:value.replace(\")\", \"\")"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ubicacio 1",
+    "description": "Remove column ubicacio 1"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street_Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "s/n"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Street_Name"
+  }
+]

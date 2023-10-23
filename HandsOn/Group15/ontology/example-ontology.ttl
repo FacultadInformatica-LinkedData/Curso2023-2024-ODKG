@@ -1,0 +1,110 @@
+ 
+@prefix : <https://www.barca_environmental_monitoring.es/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Tree Species
+:treeSpecies1 a ns:TreeSpecies;
+    ns:code "TS001";
+    rdfs:label "Oak" .
+
+:treeSpecies2 a ns:TreeSpecies;
+    ns:code "TS002";
+    rdfs:label "Maple" .
+
+# Air Contaminants
+:airContaminant1 a ns:AirContaminants;
+    ns:unit "µg/m³";
+    rdfs:label "SO2" .
+
+:airContaminant2 a ns:AirContaminants;
+    ns:unit "mg/m³";
+    rdfs:label "CO" .
+
+# City
+:barcelona a ns:City;
+    rdfs:label "Barcelona";
+    ns:hasDistrict :district1;
+    ns:hasDistrict :district2;
+    ns:hasTemperature :temperature1;
+    ns:hasTemperature :temperature2;
+    ns:hasMeasured :airQualityCabin1;
+    ns:hasMeasured :airQualityCabin2;
+    ns:hasMeasured :airQualityCabin3;
+    rdfs:label "Barcelona" .
+
+# District
+:district1 a ns:District;
+    ns:districtCode 1;
+    rdfs:label "District 1" .
+
+:district2 a ns:District;
+    ns:districtCode 2;
+    rdfs:label "District 2" .
+
+# Neighborhood
+:neighborhood1 a ns:Neighborhood;
+    ns:neighborhoodCode 101;
+    rdfs:label "Neighborhood 101" .
+
+:neighborhood2 a ns:Neighborhood;
+    ns:neighborhoodCode 102;
+    rdfs:label "Neighborhood 102" .
+
+# Temperature
+:temperature1 a ns:Temperature;
+    ns:temperature 22.5;
+    ns:measuredOn "2023-10-01"^^xsd:date;
+    rdfs:label "Temperature 1" .
+
+:temperature2 a ns:Temperature;
+    ns:temperature 21.2;
+    ns:measuredOn "2023-10-02"^^xsd:date;
+    rdfs:label "Temperature 2" .
+
+# Air Quality Cabin
+:airQualityCabin1 a ns:AirQualityCabin;
+    ns:cabinCode 1;
+    ns:cabinNumber 101;
+    ns:longitude 2.1874;
+    ns:latitude 41.3864;
+    ns:stationedAt :address1;
+    rdfs:label "Air Quality Cabin 1" .
+
+:airQualityCabin2 a ns:AirQualityCabin;
+    ns:cabinCode 2;
+    ns:cabinNumber 102;
+    ns:longitude 2.1538;
+    ns:latitude 41.3853;
+    ns:stationedAt :address2;
+    rdfs:label "Air Quality Cabin 2" .
+
+:airQualityCabin3 a ns:AirQualityCabin;
+    ns:cabinCode 3;
+    ns:cabinNumber 103;
+    ns:longitude 2.1658;
+    ns:latitude 41.3857;
+    ns:stationedAt :address3;
+    rdfs:label "Air Quality Cabin 3" .
+
+# Address
+:address1 a ns:Address;
+    ns:houseNumber "1";
+    ns:streetName "Parc de la Ciutadella";
+    ns:locatedInNeighborhood :neighborhood1;
+    rdfs:label "Address 1" .
+
+:address2 a ns:Address;
+    ns:houseNumber "5";
+    ns:streetName "Av. Roma - c/ Comte Urgell";
+    ns:locatedInNeighborhood :neighborhood2;
+    rdfs:label "Address 2" .
+
+:address3 a ns:Address;
+    ns:houseNumber "94";
+    ns:streetName "C/ Vilalba dels Arcs";
+    ns:locatedInNeighborhood :neighborhood1;
+    rdfs:label "Address 3" .
+
