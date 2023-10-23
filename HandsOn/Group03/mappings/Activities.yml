@@ -1,0 +1,77 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#
+  vama: http://vidaactivamadrid.es/info/ontology/class#
+  property: http://vidaactivamadrid.es/info/ontology/property#
+
+mappings:
+
+  Activity:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-updated.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Activity/$(ID)
+    po:
+      - [a, vama:Activity]
+      - [property:id, $(ID)]
+      - [property:name, $(NOMBRE)]
+      - [property:longEvent, $(EVENTO_LARGO), xsd:boolean]
+      - [property:dayOfWeek, $(DIAS_DE_SEMANA)]
+      - [property:startDate, $(FECHA_INICIO), xsd:dateTime]
+      - [property:endDate, $(FECHA_FIN), xsd:dateTime]
+      - [property:time, $(HORA)]
+      - [property:description, $(DESCRIPCION)]
+      - [property:contentURL, $(URL_CONTENIDO)]
+      - [property:typeOfActivity, $(TIPO_DE_ACTIVIDAD)]
+      - p: property:takesPlaceIn
+        o:
+          - mapping: Facility
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(NOMBRE_INSTALACION)]
+              - [str2, $(NOMBRE_INSTALACION)]
+
+  Facility:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-updated.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Facility/$(NOMBRE_INSTALACION)"
+    po:
+      - [a, vama:Facility]
+      - [property:name, $(NOMBRE_INSTALACION)]
+      - [property:accessibility, $(ACCESIBILIDAD_INSTALACION)]
+      - [property:facilityURL, $(INSTALACION_URL)]
+      - p: property:hasAddress
+        o:
+          - mapping: Address
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DIRECCION)]
+              - [str2, $(DIRECCION)]
+  
+  Address:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-updated.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Address/$(DIRECCION)"
+    po:
+      - [a, vama:Address]
+      - [property:name, $(DIRECCION)]
+      - [property:zipCode, $(CODIGO_POSTAL)]
+      - [property:latitude, $(LATITUD), xsd:double]
+      - [property:longitude, $(LONGITUD), xsd:double]
+      - p: property:isInNeighborhood
+        o:
+          - mapping: Neighborhood2
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(BARRIO)]
+              - [str2, $(BARRIO)]
+
+  Neighborhood2:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-updated.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)"
+    po:
+      - [a, vama:Neighborhood2]
+      - [property:name, $(BARRIO)]
