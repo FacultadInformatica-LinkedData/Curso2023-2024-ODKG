@@ -13,7 +13,7 @@
 
 **Every column in the CSV file:**
 
-- [x] Is trimmed
+- [x] Is trimmed.
 - [x] Is properly encoded (e.g., dates, booleans)
 - [x] Is related to a property in the ontology
 
