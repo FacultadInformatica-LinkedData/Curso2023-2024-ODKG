@@ -1,0 +1,29 @@
+PREFIX ns: <http://MadridTransit.com/>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+
+#Returns every type of accident in the dataset
+SELECT ?tipodeaccidente WHERE {
+    ?acc ns:typeOfAccident ?tipodeaccidente .
+  }
+
+
+#Returns a list of accidents occured in Carabanchel
+SELECT ?acc WHERE{
+  ?acc ns:locatedAt ?address .
+  ?addres ns:district ?d .
+  ?d ns:name "CARABANCHEL" .
+}
+
+
+#Lists all the properties
+SELECT DISTINCT ?p WHERE{
+  ?s ?p ?o .
+}
+
+#Returns the total number of passengers involved in the dataset accidents
+SELECT (COUNT(?person) AS ?count)
+WHERE {
+  ?s your-prefix:yourProperty ?yourVariable .
+  ?person rdf:type ns:Person .
+  ?person ns:typeOfPerson "Pasajero" .
+}
