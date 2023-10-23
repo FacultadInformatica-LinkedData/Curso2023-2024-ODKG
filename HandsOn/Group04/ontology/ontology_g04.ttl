@@ -12,21 +12,21 @@
 #    Object Properties
 #################################################################
 
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventType
-:eventType rdf:type owl:ObjectProperty ;
-           rdfs:domain :Event ;
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasEventType
+:hasEventType rdf:type owl:ObjectProperty ;
+           rdfs:domain :CulturalEvent ;
            rdfs:range :Concept .
 
 
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#audienceType
-:audienceType rdf:type owl:ObjectProperty ;
-              rdfs:domain :Event ;
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAudienceType
+:hasAudienceType rdf:type owl:ObjectProperty ;
+              rdfs:domain :CulturalEvent ;
               rdfs:range :Audience .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasPlace
 :hasPlace rdf:type owl:ObjectProperty ;
-          rdfs:domain :Event ;
+          rdfs:domain :CulturalEvent ;
           rdfs:range :Facility .
 
 
@@ -35,17 +35,17 @@
         rdfs:domain :Facility ;
         rdfs:range :Place .
 
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#subClassOf
+:subClassOff rdf:type owl:ObjectProperty ;
+        rdfs:domain :CulturalEvent ;
+        rdfs:range :Event .
+
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAddress
 :hasAddress rdf:type owl:ObjectProperty ;
             rdfs:domain :Facility ;
-            rdfs:range :PostalAddress .
+            rdfs:range :Address .
 
-
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasPostalAddress
-:hasPostalAddress rdf:type owl:ObjectProperty ;
-                  rdfs:domain :PostalAddress ;
-                  rdfs:range :Address .
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#belongsTo
 :belongsTo rdf:type owl:ObjectProperty ;
@@ -53,56 +53,66 @@
                   rdfs:range :District .
 
 
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn
+:ubicatedIn rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Facility ;
+                  rdfs:range :Geometry .
+
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventtype
-:eventtype rdf:type owl:DatatypeProperty ;
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventType
+:eventType rdf:type owl:DatatypeProperty ;
            rdfs:domain :Concept ;
            rdfs:range xsd:string .
 
 
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#audiencetype
-:audiencetype rdf:type owl:DatatypeProperty ;
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#audienceType
+:audienceType rdf:type owl:DatatypeProperty ;
               rdfs:domain :Audience ;
               rdfs:range xsd:string .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventName
 :eventName rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Event ;
+           rdfs:domain :CulturalEvent ;
            rdfs:range xsd:string .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventDescription
 :eventDescription rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :Event ;
+                  rdfs:domain :CulturalEvent ;
                   rdfs:range xsd:string .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#startDate
 :startDate rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Event ;
+           rdfs:domain :CulturalEvent ;
            rdfs:range xsd:dateTime .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#endDate
 :endDate rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Event ;
+         rdfs:domain :CulturalEvent ;
          rdfs:range xsd:dateTime .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#eventUrl
 :eventUrl rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Event ;
+          rdfs:domain :CulturalEvent ;
+          rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#accesibility
+:accesibility rdf:type owl:DatatypeProperty ;
+          rdfs:domain :CulturalEvent ;
           rdfs:range xsd:string .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#price
 :price rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Event ;
-       rdfs:range xsd:float .
+       rdfs:domain :CulturalEvent ;
+       rdfs:range xsd:boolean .
 
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName
@@ -116,6 +126,20 @@
                    rdfs:domain :Facility ;
                    rdfs:range xsd:string .
 
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#metro
+:metro rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#train
+:train rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#bus
+:bus rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasLat
 :hasLat rdf:type owl:DatatypeProperty ;
@@ -152,7 +176,6 @@
             rdfs:domain :District ;
             rdfs:range xsd:int .
 
-
 #################################################################
 #    Classes
 #################################################################
@@ -160,26 +183,23 @@
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Event
 :Event rdf:type owl:Class .
 
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#CulturalEvent
+:CulturalEvent rdf:type owl:Class .
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility
 :Facility rdf:type owl:Class .
 
-
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Place
 :Place rdf:type owl:Class .
 
-
-###  http://www.madculturalevents.es/group04/ontology/madculturalevents#PostalAddress
-:PostalAddress rdf:type owl:Class .
-
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Geometry
+:Geometry rdf:type owl:Class .
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Address
 :Address rdf:type owl:Class .
 
-
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#District
 :District rdf:type owl:Class .
-
 
 ###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Concept
 :Concept rdf:type owl:Class .
