@@ -15,25 +15,26 @@
 
 
 
-### http://healthcentersmadrid.es/locations/resource/HealthCentre/Centro de Atención a las Adicciones (CAD) de Vallecas
-:Centro de Atención a las Adicciones (CAD) de Vallecas a ont:HealthCentre;
+### http://healthcentersmadrid.es/locations/resource/HealthCentre{PK}
+:HealthCenter11864 a ont:HealthCentre;
 	ont:pk 11864^^xsd:int;
+	ont:name "Centro de Atención a las Adicciones (CAD) de Vallecas"^^xsd:string;
 	ont:typeCenter “Centros Asistencia Drogodependientes”^^xsd:string;
-	ont:isLocated :Location001;
-	ont:hasOtherInformation :Information001.
+	ont:Location :Location11864;
+	ont:Information :Information11864.
 
 
-### http://healthcentersmadrid.es/locations/resource/Location/Location001
-:Location001 a ont:Location;
+### http://healthcentersmadrid.es/locations/resource/Location{PK}
+:Location11864 a ont:Location;
 	ont:latitude 4039501488341380^^xsd:real;
 	ont:longitude -3665565995938500^^xsd:real;
 	ont:Coordinatex 404163721753529^^xsd:int;
 	ont:Coordinatey 404163721753529^^xsd:int;
-	ont:hasAddress: Address001.
+	ont:Address: Address11864.
 
 
-### http://healthcentersmadrid.es/locations/resource/Address/Address001
-:Address001 a ont:Address;
+### http://healthcentersmadrid.es/locations/resource/Address{PK}
+:Address11864 a ont:Address;
 	ont:street “Calle Concordia”^^xsd:string;
 	ont neighbourhood “San Diego”^^xsd:string;
 	ont:district “Puente de Vallecas”^^xsd:string;
@@ -41,16 +42,16 @@
 	ont:postalCode 28053^^xsd:int;
 	ont:city “Madrid”^^xsd:string.
 
-### http://healthcentersmadrid.es/locations/resource/Information/Information001
-:Information001 a ont:Information;
+### http://healthcentersmadrid.es/locations/resource/Information{PK}
+:Information11864 a ont:Information;
 	ont:openingHours “L-J: 8:30-19:30, V: 8:30-14:30”^^xsd:string;
 	ont:accesibility “1”^^xsd:int;
 	ont:transport “Bus: 10, 24, 54, 57, 58, 111, 136, 140, 310 Metro: Nueva Numancia (L1)”^^xsd:string;
-ont:hasContact: Contact001.
+ont:Contact: Contact11864.
 
 
-### http://healthcentersmadrid.es/locations/resource/Contact/Contact001
-:Contact001 a ont:Contact;
+### http://healthcentersmadrid.es/locations/resource/Contact{PK}
+:Contact11864 a ont:Contact;
 	ont:web “http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e35d4985261c010VgnVCM1000000b205a0aRCRD”^^xsd:string;
 	ont:phoneNumber “914 801 486”^^xsd:string;
 	ont:mail “cadvallecas@madrid.es”^^xsd:string;

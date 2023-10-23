@@ -1,136 +1,67 @@
- @prefix : <http://opendataandkg.org/group06/bicicletas/> .
-@prefix bicicleta: <http://www.owl-ontologies.com/bicicleta#> .
-@prefix bicicletas: <http://opendataandkg.org/group06/bicicletas#> .
+@prefix clase: <http://opendataandkg.org/group06/ontology/peatones#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix distrito: <http://www.owl-ontologies.com/distrito#> .
-@prefix distritos: <http://opendataandkg.org/group06/distritos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix peaton: <http://www.owl-ontologies.com/peaton#> .
-@prefix peatoness: <http://www.owl-ontologies.com/peatoness#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-bicicletas:Bicicleta a owl:Class ;
-    rdfs:label "Bicicleta" .
-
-: a owl:Ontology ;
+clase: a owl:Ontology ;
     dc:creator "Group06" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "Madrid city heatmap Ontology" ;
     owl:versionInfo "0.0.1" .
 
-distritos:Distrito a owl:Class ;
-    rdfs:label "Distrito" .
+clase:id_calle a owl:DatatypeProperty ;
+    rdfs:label "id calle" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:string .
 
-bicicleta:Bicicleta a owl:Class ;
-    rdfs:label "Bicicleta" .
+clase:codigoPostal a owl:DatatypeProperty ;
+    rdfs:label "codigo postal" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:integer .
 
-bicicleta:CODIGO_POSTAL a owl:DatatypeProperty ;
-    rdfs:label "c o d i g o_ p o s t a l" ;
-    rdfs:range xsd:Integer .
+clase:latitud a owl:DatatypeProperty ;
+    rdfs:label "latitud" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:float .
 
-bicicleta:DISTRITO a owl:DatatypeProperty ;
-    rdfs:label "d i s t r i t o" ;
-    rdfs:range xsd:String .
+clase:longitud a owl:DatatypeProperty ;
+    rdfs:label "longitud" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:float .
 
-bicicleta:FECHAHORA a owl:DatatypeProperty ;
-    rdfs:label "f e c h a" ;
-    rdfs:range xsd:DateTime .
+clase:fechaHora a owl:DatatypeProperty ;
+    rdfs:label "fecha hora" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:dateTime .
 
-bicicleta:IDENTIFICADOR a owl:DatatypeProperty ;
-    rdfs:label "i d e n t i f i c a d o r" ;
-    rdfs:range xsd:String .
+clase:distrito a owl:DatatypeProperty ;
+    rdfs:label "distrito" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:string .
 
-bicicleta:LATITUD a owl:DatatypeProperty ;
-    rdfs:label "l a t i t u d" ;
-    rdfs:range xsd:Integer .
+clase:perteneceACalle a owl:ObjectProperty ;
+    rdfs:label "pertenece a calle" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range clase:Calle .
 
-bicicleta:LONGITUD a owl:DatatypeProperty ;
-    rdfs:label "l o n g i t u d" ;
-    rdfs:range xsd:Integer .
+clase:numPeatones a owl:DatatypeProperty ;
+    rdfs:label "numero de peatones" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:float .
 
-bicicleta:NOMBRE_VIAL a owl:DatatypeProperty ;
-    rdfs:label "n o m b r e_ v i a l" ;
-    rdfs:range xsd:String .
+clase:id_aforoPeaton a owl:DatatypeProperty ;
+    rdfs:label "id Peaton" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:string .
 
-bicicleta:NUMERO_DISTRITO a owl:DatatypeProperty ;
-    rdfs:label "n u m e r o_ d i s t r i t o" ;
-    rdfs:range xsd:Integer .
+clase:observacionesDireccion a owl:DatatypeProperty ;
+    rdfs:label "observaciones direccion" ;
+    rdfs:domain clase:Peaton ;
+    rdfs:range xsd:string .
 
-bicicleta:OBSERVACIONES_DIRECCION a owl:DatatypeProperty ;
-    rdfs:label "o b s e r v a c i o n e s_ d i r e c c i o n" ;
-    rdfs:range xsd:String .
+clase:Calle a owl:Class ;
+    rdfs:label "Calle" .
 
-distrito: a owl:DatatypeProperty ;
-    rdfs:label "c o d_ d i s" ;
-    rdfs:range xsd:Integer .
-
-distrito:Distrito a owl:Class ;
-    rdfs:label "Distrito" .
-
-distrito:NOMBRE a owl:DatatypeProperty ;
-    rdfs:label "n o m b r e" ;
-    rdfs:range xsd:String .
-
-distrito:OBJECTID a owl:DatatypeProperty ;
-    rdfs:label "o b j e c t i d" ;
-    rdfs:range xsd:String .
-
-distrito:Shape_Area a owl:DatatypeProperty ;
-    rdfs:label "shape_ area" ;
-    rdfs:range xsd:Integer .
-
-distrito:Shape_leng a owl:DatatypeProperty ;
-    rdfs:label "shape_leng" ;
-    rdfs:range xsd:Integer .
-
-peaton:CODIGO_POSTAL a owl:DatatypeProperty ;
-    rdfs:label "c o d i g o_ p o s t a l" ;
-    rdfs:range xsd:Integer .
-
-peaton:DISTRITO a owl:DatatypeProperty ;
-    rdfs:label "d i s t r i t o" ;
-    rdfs:range xsd:String .
-
-peaton:FECHAHORA a owl:DatatypeProperty ;
-    rdfs:label "f e c h a" ;
-    rdfs:range xsd:DateTime .
-
-peaton:IDENTIFICADOR a owl:DatatypeProperty ;
-    rdfs:label "i d e n t i f i c a d o r" ;
-    rdfs:range xsd:String .
-
-peaton:LATITUD a owl:DatatypeProperty ;
-    rdfs:label "l a t i t u d" ;
-    rdfs:range xsd:Integer .
-
-peaton:LONGITUD a owl:DatatypeProperty ;
-    rdfs:label "l o n g i t u d" ;
-    rdfs:range xsd:Integer .
-
-peaton:NOMBRE_VIAL a owl:DatatypeProperty ;
-    rdfs:label "n o m b r e_ v i a l" ;
-    rdfs:range xsd:String .
-
-peaton:NUMERO a owl:DatatypeProperty ;
-    rdfs:label "n u m e r o" ;
-    rdfs:range xsd:Integer .
-
-peaton:NUMERO_DISTRITO a owl:DatatypeProperty ;
-    rdfs:label "n u m e r o_ d i s t r i t o" ;
-    rdfs:range xsd:Integer .
-
-peaton:OBSERVACIONES_DIRECCION a owl:DatatypeProperty ;
-    rdfs:label "o b s e r v a c i o n e s_ d i r e c c i o n" ;
-    rdfs:range xsd:String .
-
-peaton:PEATONES a owl:DatatypeProperty ;
-    rdfs:label "p e a t o n e s" ;
-    rdfs:range xsd:Integer .
-
-peaton:Peaton a owl:Class ;
+clase:Peaton a owl:Class ;
     rdfs:label "Peaton" .
-
-peatoness:Peaton a owl:Class ;
-    rdfs:label "Peaton" .
-
