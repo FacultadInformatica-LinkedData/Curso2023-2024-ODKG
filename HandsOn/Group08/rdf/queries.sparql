@@ -7,18 +7,30 @@
         ?individual rdf:type ns:University.
     }    
 
-#Query 2: Select all the values and years of all the Liberal Arts Colleges    
+#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Orlando    
     SELECT ?value ?year WHERE {
         ?ranking ns:score ?value.
         ?ranking ns:yearPublished ?year.
-        ?individual ns:hasLiberalArtsRanking  ?ranking .
+        ?individual ns:hasRanking  ?ranking .
         ?individual rdf:type ns:University.
+        ?individual dbo:state ns:State.
     }    
 
 #Query 3: Select the values of admission rate of all the entities of type University    
     SELECT ?name ?value WHERE {
         ?university rdf:type ns:University .
 
-        ?university ns:hasAdmisionRate ?rate .
+        ?university ns:hasRate ?rate .
+        ?rate rdf:type ns:AdmissionRate .
         ?rate ns:value ?value
+    }    
+
+#Query 4: Retrieve the coordinates of the University which ranked first on the USNews Ranking     
+    SELECT ?longitude ?latitude WHERE {
+        ?university schema:longitude ?longitude .
+        ?university schema:latitude ?latitude .
+        ?university rdf:type ns:University .
+        ?university ns:hasRanking ?ranking .
+        ?ranking rdf:type ns:USNewsRanking .
+        ?ranking ns:score '1'
     }    

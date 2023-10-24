@@ -18,7 +18,7 @@
  ];
  rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/University#{IPEDSID}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/University/{IPEDSID}";
     rr:termType rr:IRI; 
     rr:class ns:University
   ];
@@ -81,7 +81,7 @@ rr:predicateObjectMap [
 ]
 ];
 rr:predicateObjectMap [ 
- rr:predicate ns:hasUSNewsRanking;
+ rr:predicate ns:hasRanking;
  rr:objectMap [ 
  rr:parentTriplesMap <#UniversityRankingMappingUSNews>;
  rr:joinCondition [
@@ -91,9 +91,9 @@ rr:predicateObjectMap [
 ];
 
  rr:predicateObjectMap [ 
-  rr:predicate ns:hasLiberalArtsRanking;
+  rr:predicate ns:hasRanking;
   rr:objectMap [ 
-    rr:parentTriplesMap <#UniversityRankingMappingLiberalArts>;
+    rr:parentTriplesMap <#UniversityRankingLiberalArtsMapping>;
     rr:joinCondition [
     rr:child "IPEDSID"; rr:parent "IPEDSID"; 
     ]
@@ -101,7 +101,7 @@ rr:predicateObjectMap [
   ];
 
  rr:predicateObjectMap [ 
-  rr:predicate ns:hasEnrollmentRate;
+  rr:predicate ns:hasRate;
   rr:objectMap [ 
   rr:parentTriplesMap <#UniversityEnrollmentRateMapping>;
   rr:joinCondition [
@@ -110,7 +110,7 @@ rr:predicateObjectMap [
   ];
 
   rr:predicateObjectMap [ 
-  rr:predicate ns:hasAdmisionRate;
+  rr:predicate ns:hasRate;
   rr:objectMap [ 
   rr:parentTriplesMap <#UniversiteAdmisionRateMapping>;
   rr:joinCondition [
@@ -119,7 +119,7 @@ rr:predicateObjectMap [
   ];
 
   rr:predicateObjectMap [ 
-  rr:predicate ns:hasGraduationRate;
+  rr:predicate ns:hasRate;
   rr:objectMap [ 
   rr:parentTriplesMap <#UniversiteAverageGraduationRateMapping>;
   rr:joinCondition [
@@ -201,7 +201,7 @@ rr:predicateObjectMap [
 
 
   rr:predicateObjectMap [ 
-  rr:predicate ns:hasAvgGradutionRate;
+  rr:predicate ns:hasRate;
   rr:objectMap [ 
   rr:parentTriplesMap <#UniversityRankingMappingUSNews>;
   rr:joinCondition [
@@ -220,6 +220,7 @@ rr:predicateObjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/admision-rate#{IPEDSID}";
     rr:termType rr:IRI;
+    rr:class ns:UniversiteAdmisionRate
   ];
     
   rr:predicateObjectMap [
@@ -241,8 +242,7 @@ rr:predicateObjectMap [
   ].
 
 
-
-<#UniversityRankingMappingLiberalArts>
+<#UniversityRankingLiberalArtsMapping>
  rml:logicalSource [ 
  rml:source "csv/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-final.csv";
  rml:referenceFormulation ql:CSV
@@ -251,6 +251,7 @@ rr:predicateObjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/LiberalArtsRanking#{IPEDSID}-{Year}";
     rr:termType rr:IRI;
+    rr:class ns:UniversityRankingLiberalArts
   ];
     
   rr:predicateObjectMap [ 
@@ -287,6 +288,7 @@ rr:predicateObjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/USNewsRanking#{IPEDSID}-{Year}";
     rr:termType rr:IRI;
+    rr:class rr:RankingUSNews
   ];
     rr:predicateObjectMap [ 
   rr:predicate ns:yearPublished; 
