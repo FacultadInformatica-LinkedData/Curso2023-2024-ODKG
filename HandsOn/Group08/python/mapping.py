@@ -5,11 +5,12 @@ from rdflib.query import Result
 import morph_kgc
 
 
-def dump2json(filename:str, result:Result):
-     with open(filename+"result.csv", "wb") as f:
+def dump2json(filename: str, result: Result):
+    with open(filename+"result.csv", "wb") as f:
         f.write(result.serialize(format="csv"))
 
 # PATHS
+
 
 QUERYS_SPARQL = "rdf/queries.sparql"
 CONFIG_MAPPING = "mappings/config.ini"
@@ -72,14 +73,15 @@ dump2json(OUT_QUERY+"1", results_q1)
 
 
 # Query 2 :
-queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges"""
+queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Orlando"""
 
 query_text2 = """    
     SELECT ?value ?year WHERE {
         ?ranking ns:score ?value.
         ?ranking ns:yearPublished ?year.
-        ?individual ns:hasLiberalArtsRanking  ?ranking .
+        ?individual ns:hasRanking  ?ranking .
         ?individual rdf:type ns:University.
+        ?individual dbo:state ns:State/FL.
     }    
 """
 
@@ -98,7 +100,8 @@ query_text3 = """
     SELECT ?name ?value WHERE {
         ?university rdf:type ns:University .
 
-        ?university ns:hasAdmisionRate ?rate .
+        ?university ns:hasRate ?rate .
+        ?rate rdf:type ns:AdmissionRate .
         ?rate ns:value ?value
     }    
 """
@@ -111,10 +114,35 @@ results_q3 = g.query(prepareQuery(query_text3, initNs=INIT_NS))
 
 dump2json(OUT_QUERY+"3", results_q3)
 
+
+# Query 4:
+
+queries += "\n#Query 4: Retrieve the coordinates of the University which ranked first on the USNews Ranking "
+
+#        ?unversity ns:name ?name .
+query_text4 = """    
+    SELECT ?longitude ?latitude WHERE {
+        ?university schema:longitude ?longitude .
+        ?university schema:latitude ?latitude .
+        ?university rdf:type ns:University .
+        ?university ns:hasRanking ?ranking .
+        ?ranking rdf:type ns:USNewsRanking .
+        ?ranking ns:score '1'
+    }    
+"""
+
+queries += query_text4
+
+
+results_q4 = g.query(prepareQuery(query_text3, initNs=INIT_NS))
+
+
+dump2json(OUT_QUERY+"4", results_q4)
+
 # Write queries
 with open(QUERYS_SPARQL, "w") as f:
     f.write(queries)
 
 # Write Ontology
 with open(OUT_GRAPH, "w") as f:
-     f.write(g.serialize(format="turtle"))
+    f.write(g.serialize(format="turtle"))
