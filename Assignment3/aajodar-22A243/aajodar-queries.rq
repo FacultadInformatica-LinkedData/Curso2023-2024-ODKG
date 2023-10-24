@@ -1,0 +1,60 @@
+# 1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>) 
+
+PREFIX db: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property
+WHERE {
+  ?instance a db:Politician .
+  ?instance ?property ?value .
+}
+
+
+
+# 2. Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+PREFIX db: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property
+WHERE {
+  ?instance a db:Politician .
+  ?instance ?property ?value .
+  FILTER (?property != rdf:type)
+}
+
+
+
+# 3. Which different values exist for the properties, except rdf:type, of the instances of the Politician class?
+
+PREFIX db: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property ?value
+WHERE {
+  ?instance a db:Politician .
+  ?instance ?property ?value .
+  FILTER (?property != rdf:type)
+}
+
+
+
+# 4. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, which different values do they take in those instances?
+
+PREFIX db: <http://dbpedia.org/ontology/>
+SELECT ?property (GROUP_CONCAT(DISTINCT ?value; separator=" , ") AS ?distinctValues)
+WHERE {
+  ?instance a db:Politician .
+  ?instance ?property ?value .
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+
+
+
+# 5. For each of the properties, except rdf:type, that can be applied to instances of the Politician class, how many distinct values do they take in those instances?
+
+PREFIX db: <http://dbpedia.org/ontology/>
+SELECT ?property (COUNT(DISTINCT ?value) AS ?countDistinctValues)
+WHERE {
+  ?instance a db:Politician .
+  ?instance ?property ?value .
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+
+
