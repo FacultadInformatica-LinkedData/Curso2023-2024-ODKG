@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import rdflib
 import re
-from rdflib import RDF, RDFS, XSD, Literal, OWL
+from rdflib import RDF, RDFS, XSD, Literal
 from tqdm import tqdm
 
 
@@ -15,15 +15,7 @@ def split_camel_case(text):
 
 
 
-def preprocess_columns(dtf):
-    # Fill "N/A" values in the specified column(s) with "Not found"
-    columns_to_fill = ["same_as_wikidata_wastetype", "same_as_wikidata_district"]  # Replace with the actual column name(s)
 
-    # Loop through the specified columns and fill N/A values with "Not found"
-    for column in columns_to_fill:
-        dtf[column].fillna("Not found", inplace=True)
-
-    return dtf
 
 def preprocess_for_uri(value):
     # Split camel case
@@ -164,17 +156,7 @@ def create_triples(df, g, nso):
             f"{nso}data/Total/{preprocess_for_uri(row['WasteType'])}_{preprocess_for_uri(row['District'])}_{preprocess_for_uri(row['Year'])}_{preprocess_for_uri(row['Month'])}")
         year_uri = rdflib.URIRef(f"{nso}data/Year/{preprocess_for_uri(row['Year'])}")
         month_uri = rdflib.URIRef(f"{nso}data/Month/{preprocess_for_uri(row['Month'])}")
-
-        """----------------------WIKI DATA LINKING---------------------------------"""
-        # For the 'same_as_wikidata_district' column
-        if row['same_as_wikidata_wastetype'] != "Not found":
-            wikidata_district_uri = rdflib.URIRef(row['same_as_wikidata_district'])
-            g.add((district_uri, OWL.sameAs, wikidata_district_uri))
-
-        # For the 'same_as_wikidata_wastetype' column
-        if row['same_as_wikidata_wastetype'] != "Not found":
-            wikidata_wastetype_uri = rdflib.URIRef(row['same_as_wikidata_wastetype'])
-            g.add((wasteType_uri, OWL.sameAs, wikidata_wastetype_uri))
+        name_uri = rdflib.URIRef(f"{nso}data/Name/{preprocess_for_uri(row['Name'])}")  # Add URI for Name
 
         """----------------------Data properties---------------------------------"""
 
@@ -262,12 +244,11 @@ def create_triples(df, g, nso):
 
 def main():
     # Load and preprocess data
-    csv_path = "Residuos_2021_2023-updated-with-links.csv"
+    csv_path = "Residuos_2021_2023-updated.csv"
 
     try:
         print("Serialization  1 in progress")
         df = pd.read_csv(csv_path)
-        df = preprocess_columns(df)
 
         g, nso = create_rdf_graph()
 
@@ -286,7 +267,6 @@ def main():
     try:
         print("Serialization 2 in progress")
         df = pd.read_csv(csv_path)
-        df = preprocess_columns(df)
 
         g, nso = create_rdf_graph()
 
