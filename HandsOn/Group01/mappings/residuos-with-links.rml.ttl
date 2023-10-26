@@ -18,7 +18,7 @@
     void:exampleResource :map_zonemap_000.
 :map_zonemap_000 rml:logicalSource :source_000.
 :source_000 a rml:LogicalSource;
-    rml:source "Residuos_2021_2023-updated-with-links";
+    rml:source "Residuos_2021_2023-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_zonemap_000 a rr:TriplesMap;
     rdfs:label "zonemap".
@@ -52,7 +52,7 @@
 :rules_000 void:exampleResource :map_districtmap_000.
 :map_districtmap_000 rml:logicalSource :source_001.
 :source_001 a rml:LogicalSource;
-    rml:source "Residuos_2021_2023-updated-with-links";
+    rml:source "Residuos_2021_2023-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_districtmap_000 a rr:TriplesMap;
     rdfs:label "districtmap".
@@ -105,7 +105,7 @@
 :rules_000 void:exampleResource :map_wastetypemap_000.
 :map_wastetypemap_000 rml:logicalSource :source_002.
 :source_002 a rml:LogicalSource;
-    rml:source "Residuos_2021_2023-updated-with-links";
+    rml:source "Residuos_2021_2023-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_wastetypemap_000 a rr:TriplesMap;
     rdfs:label "wastetypemap".
@@ -148,7 +148,7 @@
 :rules_000 void:exampleResource :map_totalmap_000.
 :map_totalmap_000 rml:logicalSource :source_003.
 :source_003 a rml:LogicalSource;
-    rml:source "Residuos_2021_2023-updated-with-links";
+    rml:source "Residuos_2021_2023-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_totalmap_000 a rr:TriplesMap;
     rdfs:label "totalmap".

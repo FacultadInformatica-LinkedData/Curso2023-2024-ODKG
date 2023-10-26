@@ -14,7 +14,7 @@ mappings:
 
   zonemap:
     sources:
-      - [Residuos_2021_2023-updated-with-links~csv]
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/Zone/$(Zone)
     po:
       - [a, nso:Zone]
@@ -25,7 +25,7 @@ mappings:
 
   districtmap:
     sources:
-      - [Residuos_2021_2023-updated-with-links~csv]
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/District/$(District)
     po:
       - [a, nso:District]
@@ -38,7 +38,7 @@ mappings:
 
   wastetypemap:
     sources:
-      - [Residuos_2021_2023-updated-with-links~csv]
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/WasteType/$(WasteType)
     po:
       - [a, nso:WasteType]
@@ -50,7 +50,7 @@ mappings:
 
   totalmap:
     sources:
-      - [Residuos_2021_2023-updated-with-links~csv]
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)
     po:
       - [a, nso:Total]
