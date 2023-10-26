@@ -2,7 +2,7 @@ from rdflib.plugins.sparql import prepareQuery
 from rdflib.namespace import RDF, RDFS, FOAF
 from rdflib import Graph, Namespace
 from rdflib.query import Result
-import os
+
 
 #  Namespaces
 NS = Namespace(
@@ -14,16 +14,15 @@ DBP = Namespace("https://dbpedia.org/page/")
 INIT_NS = {"ns": NS, "dbo": DBO, "rdf": RDF}
 
 # PATHS
-QUERYS_SPARQL = os.path.join("rdf", "queries.sparql")
-CONFIG_MAPPING = os.path.join("mappings", "config.ini")
-OUT_QUERY = os.path.join("rdf", "query-")
-OUT_GRAPH = os.path.join("rdf", "University.ttl")
+QUERYS_SPARQL = "rdf/queries.sparql"
+CONFIG_MAPPING = "mappings/config.ini"
+OUT_QUERY = "rdf/query-"
+OUT_GRAPH = "rdf/University.ttl"
 
 
 def dump2csv(filename: str, result: Result):
     with open(filename+"result.csv", "wb") as f:
         f.write(result.serialize(format="csv"))
-        f.close()
 
 
 if __name__ == "__main__":
@@ -63,7 +62,7 @@ if __name__ == "__main__":
     dump2csv(OUT_QUERY+"1", results_q1)
 
     # Query 2 :
-    queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Florida"""
+    queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Orlando"""
 
     query_text2 = """    
         SELECT ?value ?year WHERE {
@@ -71,7 +70,7 @@ if __name__ == "__main__":
             ?ranking ns:yearPublished ?year.
             ?individual ns:hasRanking  ?ranking .
             ?individual rdf:type ns:University.
-            ?individual dbo:state ns:State/FL.
+            ?individual dbo:state ns:State.
         }    
     """
 
@@ -124,10 +123,10 @@ if __name__ == "__main__":
 
     dump2csv(OUT_QUERY+"4", results_q4)
 
-# Write queries
-with open(QUERYS_SPARQL, "w") as f:
-    f.write(queries)
+    # Write queries
+    with open(QUERYS_SPARQL, "w") as f:
+        f.write(queries)
 
-# Write Ontology
-with open(OUT_GRAPH, "w") as f:
-    f.write(g.serialize(format="turtle"))
+    # Write Ontology
+    with open(OUT_GRAPH, "w") as f:
+        f.write(g.serialize(format="turtle"))

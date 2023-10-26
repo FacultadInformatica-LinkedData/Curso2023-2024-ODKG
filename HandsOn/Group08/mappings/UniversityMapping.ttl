@@ -18,7 +18,7 @@
  ];
  rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#University/{IPEDSID}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/University/{IPEDSID}";
     rr:termType rr:IRI; 
     rr:class ns:University
   ];
@@ -49,7 +49,7 @@
   rr:predicateObjectMap [ 
   rr:predicate dbo:city; 
   rr:objectMap [ 
-  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#City/{CITY}"; 
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{CITY}"; 
    rr:termType rr:IRI; 
     rr:class ns:City
 ] 
@@ -66,7 +66,7 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [ 
   rr:predicate dbo:country; 
   rr:objectMap [ 
-  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#Country/{COUNTRY}"; 
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/Country#{COUNTRY}"; 
    rr:termType rr:IRI; 
     rr:class ns:Country
 ] 
@@ -75,7 +75,7 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [
   rr:predicate dbo:state; 
   rr:objectMap [ 
-  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#State/{STATE}";
+  rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/State#{STATE}";
    rr:termType rr:IRI; 
     rr:class ns:State
 ]
@@ -137,7 +137,7 @@ rr:predicateObjectMap [
 
   rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#enrollment-rate/{IPEDSID}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/enrollment-rate#{IPEDSID}";
     rr:termType rr:IRI;
   ];
     
@@ -177,7 +177,7 @@ rr:predicateObjectMap [
 
   rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#average-graduation-rate/{IPEDSID}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/average-graduation-rate#{IPEDSID}";
     rr:termType rr:IRI;
   ];
     
@@ -197,8 +197,17 @@ rr:predicateObjectMap [
     rr:termType rr:Literal;
     rr:datatype xsd:integer;
   ]
-  ].
+  ];
 
+
+  rr:predicateObjectMap [ 
+  rr:predicate ns:hasRate;
+  rr:objectMap [ 
+  rr:parentTriplesMap <#UniversityRankingMappingUSNews>;
+  rr:joinCondition [
+  rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+  ]
+  ].
 
 
 <#UniversiteAdmisionRateMapping>
@@ -209,7 +218,7 @@ rr:predicateObjectMap [
 
   rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#admision-rate/{IPEDSID}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/admision-rate#{IPEDSID}";
     rr:termType rr:IRI;
     rr:class ns:UniversiteAdmisionRate
   ];
@@ -218,15 +227,6 @@ rr:predicateObjectMap [
   rr:predicate ns:value; 
   rr:objectMap [ 
     rml:reference "Admission rate"; 
-    rr:termType rr:Literal;
-    rr:datatype xsd:number;
-  ]
-  ];
-
-      rr:predicateObjectMap [
-  rr:predicate ns:value; 
-  rr:objectMap [ 
-    rml:reference "Applicants total"; 
     rr:termType rr:Literal;
     rr:datatype xsd:number;
   ]
@@ -249,7 +249,7 @@ rr:predicateObjectMap [
  ];
  rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#LiberalArtsRanking/{IPEDSID}-{Year}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/LiberalArtsRanking#{IPEDSID}-{Year}";
     rr:termType rr:IRI;
     rr:class ns:UniversityRankingLiberalArts
   ];
@@ -257,7 +257,7 @@ rr:predicateObjectMap [
   rr:predicateObjectMap [ 
   rr:predicate ns:university; 
   rr:objectMap [ 
-    rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#University{IPEDSID}";
+    rr:template "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#{IPEDSID}";
  ]
  ];
   
@@ -286,7 +286,7 @@ rr:predicateObjectMap [
  ];
  rr:subjectMap [
     rr:template
-      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#USNewsRanking/{IPEDSID}-{Year}";
+      "http://www.semanticweb.org/upm/opendata/group08/ontologies/ns/USNewsRanking#{IPEDSID}-{Year}";
     rr:termType rr:IRI;
     rr:class rr:RankingUSNews
   ];
