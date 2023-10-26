@@ -1,0 +1,42 @@
+{
+	"fullName":{
+		"firstName":"Alvaro",
+		"familyName":"Fontecha"
+	},
+	"hometown":"Leon",
+	"age":24,
+	"almaMater":"UAM",
+	"parents":{
+		"mother":"Ana",
+		"father":"Seve"
+	},
+	"subjects":[
+		{
+			"name":"Open Data and Knowledge Graphs",
+			"description":"Course on open data, ontologies and knowledge graph serializations based on RDF."
+			"teachers":[
+				{
+					"Oscar Corcho"
+				},
+				{
+					"Raul Garcia"
+				},
+				{
+					"Daniel Garijo"
+				}
+			]
+		},
+{
+			"name":"Machine Learning",
+			"description":"Course on the main machine learning models, theoretical foundations and practical assignemnts."
+			"teachers":[
+				{
+					"Pedro Larrañaga"
+				},
+				{
+					"Concha Bielza"
+				}
+			]
+		}
+	]
+}
