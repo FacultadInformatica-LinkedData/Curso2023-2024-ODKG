@@ -1,12 +1,11 @@
 
 import morph_kgc
+from globals import CONFIG_MAPPING, OUT_GRAPH
 
-CONFIG_MAPPING = "mappings/config.ini"
-OUT_GRAPH = "rdf/University.ttl"
 
 # Create a Graph
 g = morph_kgc.materialize(CONFIG_MAPPING)
 
 # Write Graph
 with open(OUT_GRAPH, "w") as f:
-    f.write(g.serialize(format="turtle"))
+    f.write(g.serialize(format="nt"))

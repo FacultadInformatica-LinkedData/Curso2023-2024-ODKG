@@ -1,23 +1,21 @@
 from rdflib.plugins.sparql import prepareQuery
 from rdflib.namespace import RDF, RDFS, FOAF
-from rdflib import Graph, Namespace
+from rdflib import Graph, Namespace, Literal, XSD
 from rdflib.query import Result
 
+from globals import OUT_GRAPH, OUT_QUERY, QUERYS_SPARQL
 
-#  Namespaces
-NS = Namespace(
-    'http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#')
+# Namespaces
+
 SCHEMA = Namespace("https://schema.org/")
 DBO = Namespace("https://dbpedia.org/ontology/")
 DBP = Namespace("https://dbpedia.org/page/")
 
-INIT_NS = {"ns": NS, "dbo": DBO, "rdf": RDF}
+NS = Namespace(
+    "http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#")
+RS = Namespace("http://www.semanticweb.org/upm/opendata/group08/resource/")
 
-# PATHS
-QUERYS_SPARQL = "rdf/queries.sparql"
-CONFIG_MAPPING = "mappings/config.ini"
-OUT_QUERY = "rdf/query-"
-OUT_GRAPH = "rdf/University.ttl"
+INIT_NS = {"ns": NS, "rs": RS, "dbo": DBO, "rdf": RDF}
 
 
 def dump2csv(filename: str, result: Result):
@@ -32,6 +30,7 @@ if __name__ == "__main__":
     # Binding the prefixes
     g.bind('rdfs', RDFS)
     g.bind('ns', NS)
+    g.bind('rs', RS)
     g.bind('foaf', FOAF)
     g.bind('rdf', RDF)
     g.bind('dbo', DBO)
@@ -39,7 +38,7 @@ if __name__ == "__main__":
     g.bind('schema', SCHEMA)
 
     # Load Graph
-    g.parse(OUT_GRAPH, format="turtle")
+    g.parse(OUT_GRAPH, format="nt")
 
     queries = ""
 
@@ -49,9 +48,11 @@ if __name__ == "__main__":
     # dbo:city of the entities that belong to class n:University \n"""
 
     query_text = """    
-        SELECT ?individual ?value WHERE {
+        SELECT  DISTINCT ?name ?uniname WHERE {
+            ?value rdf:label ?name.
             ?individual dbo:city ?value .
             ?individual rdf:type ns:University.
+            ?individual rdf:label ?uniname. 
         }    
     """
 
@@ -62,7 +63,7 @@ if __name__ == "__main__":
     dump2csv(OUT_QUERY+"1", results_q1)
 
     # Query 2 :
-    queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Orlando"""
+    queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Florida"""
 
     query_text2 = """    
         SELECT ?value ?year WHERE {
@@ -70,15 +71,17 @@ if __name__ == "__main__":
             ?ranking ns:yearPublished ?year.
             ?individual ns:hasRanking  ?ranking .
             ?individual rdf:type ns:University.
-            ?individual dbo:state ns:State.
+            ?individual ns:state ?florida.
+            ?florida rdf:label ?floridaname.           
         }    
     """
 
     queries += query_text2
 
-    results_q2 = g.query(prepareQuery(query_text2, initNs=INIT_NS))
+    #results_q2 = g.query(prepareQuery(query_text2, initNs=INIT_NS), initBindings={
+    #                     '?floridaname': Literal('FL', datatype=XSD.string)})
 
-    dump2csv(OUT_QUERY+"2", results_q2)
+    #dump2csv(OUT_QUERY+"2", results_q2)
 
     # Query 3:
 
@@ -86,12 +89,12 @@ if __name__ == "__main__":
 
     #        ?unversity ns:name ?name .
     query_text3 = """    
-        SELECT ?name ?value WHERE {
+        SELECT ?rate WHERE {
             ?university rdf:type ns:University .
 
             ?university ns:hasRate ?rate .
-            ?rate rdf:type ns:AdmissionRate .
-            ?rate ns:value ?value
+            ?rate rdf:type ns:EnrollmentRate.
+            
         }    
     """
 
@@ -123,10 +126,10 @@ if __name__ == "__main__":
 
     dump2csv(OUT_QUERY+"4", results_q4)
 
-    # Write queries
-    with open(QUERYS_SPARQL, "w") as f:
-        f.write(queries)
+# Write queries
+with open(QUERYS_SPARQL, "w") as f:
+    f.write(queries)
 
-    # Write Ontology
-    with open(OUT_GRAPH, "w") as f:
-        f.write(g.serialize(format="turtle"))
+# Write Ontology
+with open(OUT_GRAPH, "w") as f:
+    f.write(g.serialize(format="turtle"))
