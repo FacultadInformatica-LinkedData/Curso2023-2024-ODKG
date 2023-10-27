@@ -1,0 +1,1570 @@
+<http://base.itree.com/barrio/183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Barrio> .
+<http://base.itree.com/barrio/31> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/barrio/103> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/barrio/94> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/barrio/181> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/barrio/32> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/barrio/141> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/barrio/165> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/barrio/204> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/barrio/117> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/112> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/75> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/barrio/86> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/barrio/44> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/barrio/152> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/barrio/121> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/barrio/151> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/barrio/33> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/barrio/183> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/barrio/154> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/barrio/206> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/barrio/191> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/barrio/36> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/barrio/26> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/barrio/173> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/barrio/104> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/barrio/136> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/barrio/43> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/barrio/115> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/123> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/barrio/171> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/barrio/133> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/barrio/65> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/barrio/85> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/barrio/193> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/barrio/166> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/barrio/192> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/barrio/116> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/114> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/131> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/barrio/175> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/barrio/64> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/barrio/143> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/barrio/213> <http://base.itree.com/hasDistrito> "21" .
+<http://base.itree.com/barrio/162> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/barrio/72> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/barrio/205> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/barrio/12> <http://base.itree.com/hasDistrito> "1" .
+<http://base.itree.com/barrio/146> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/barrio/135> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/barrio/93> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/barrio/134> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/barrio/25> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/barrio/83> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/barrio/62> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/barrio/102> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/barrio/24> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/barrio/145> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/barrio/22> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/barrio/126> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/barrio/63> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/barrio/113> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/barrio/54> <http://base.itree.com/hasDistrito> "5" .
+<http://base.itree.com/barrio/97> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/barrio/95> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/barrio/207> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/barrio/164> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/barrio/84> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/barrio/107> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/barrio/159> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/barrio/174> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/barrio/153> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/barrio/76> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/distrito/2/Melia%20azedarach> <http://base.itree.com/hasUnidades> "1096" .
+<http://base.itree.com/distrito/10/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1118" .
+<http://base.itree.com/distrito/15/Otros> <http://base.itree.com/hasUnidades> "16236" .
+<http://base.itree.com/distrito/6/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "4619" .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "2592" .
+<http://base.itree.com/distrito/4/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1808" .
+<http://base.itree.com/distrito/12/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "3697" .
+<http://base.itree.com/distrito/7/Cercis%20siliquastrum> <http://base.itree.com/hasUnidades> "203" .
+<http://base.itree.com/distrito/12/Platanus%20orientalis> <http://base.itree.com/hasUnidades> "596" .
+<http://base.itree.com/distrito/8/Melia%20azedarach> <http://base.itree.com/hasUnidades> "2209" .
+<http://base.itree.com/distrito/8/Populus%20x%20canadensis> <http://base.itree.com/hasUnidades> "1257" .
+<http://base.itree.com/distrito/18/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "5025" .
+<http://base.itree.com/distrito/21/Pinus%20halepensis> <http://base.itree.com/hasUnidades> "572" .
+<http://base.itree.com/distrito/8/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "4918" .
+<http://base.itree.com/distrito/14/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "5742" .
+<http://base.itree.com/distrito/8/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "9427" .
+<http://base.itree.com/distrito/3/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "934" .
+<http://base.itree.com/distrito/7/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "5735" .
+<http://base.itree.com/distrito/8/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1007" .
+<http://base.itree.com/distrito/11/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "2738" .
+<http://base.itree.com/distrito/6/Pinus%20pinea> <http://base.itree.com/hasUnidades> "496" .
+<http://base.itree.com/distrito/18/Celtis%20australis> <http://base.itree.com/hasUnidades> "2887" .
+<http://base.itree.com/distrito/1/Cercis%20siliquastrum> <http://base.itree.com/hasUnidades> "316" .
+<http://base.itree.com/distrito/1/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "503" .
+<http://base.itree.com/distrito/12/Otros> <http://base.itree.com/hasUnidades> "10987" .
+<http://base.itree.com/distrito/15/Acer%20negundo> <http://base.itree.com/hasUnidades> "1329" .
+<http://base.itree.com/distrito/4/Otros> <http://base.itree.com/hasUnidades> "5714" .
+<http://base.itree.com/distrito/2/Acer%20negundo> <http://base.itree.com/hasUnidades> "1174" .
+<http://base.itree.com/distrito/2/Otros> <http://base.itree.com/hasUnidades> "7597" .
+<http://base.itree.com/distrito/13/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "3455" .
+<http://base.itree.com/distrito/19/Otros> <http://base.itree.com/hasUnidades> "14726" .
+<http://base.itree.com/distrito/17/Acer%20negundo> <http://base.itree.com/hasUnidades> "1201" .
+<http://base.itree.com/distrito/4/Acer%20negundo> <http://base.itree.com/hasUnidades> "387" .
+<http://base.itree.com/distrito/4/Melia%20azedarach> <http://base.itree.com/hasUnidades> "362" .
+<http://base.itree.com/distrito/21/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "3051" .
+<http://base.itree.com/distrito/11/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "2197" .
+<http://base.itree.com/distrito/21/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "778" .
+<http://base.itree.com/distrito/19/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "1180" .
+<http://base.itree.com/distrito/19/Platanus%20orientalis> <http://base.itree.com/hasUnidades> "1749" .
+<http://base.itree.com/distrito/6/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "680" .
+<http://base.itree.com/distrito/16/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "4529" .
+<http://base.itree.com/distrito/1/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "419" .
+<http://base.itree.com/distrito/10/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "4022" .
+<http://base.itree.com/distrito/21/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "954" .
+<http://base.itree.com/distrito/16/Celtis%20australis> <http://base.itree.com/hasUnidades> "3218" .
+<http://base.itree.com/distrito/12/Celtis%20australis> <http://base.itree.com/hasUnidades> "1496" .
+<http://base.itree.com/distrito/17/Catalpa%20bignonioides> <http://base.itree.com/hasUnidades> "1054" .
+<http://base.itree.com/distrito/10/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1798" .
+<http://base.itree.com/distrito/6/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "791" .
+<http://base.itree.com/distrito/9/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "5114" .
+<http://base.itree.com/distrito/18/Acer%20negundo> <http://base.itree.com/hasUnidades> "2170" .
+<http://base.itree.com/distrito/11/Melia%20azedarach> <http://base.itree.com/hasUnidades> "776" .
+<http://base.itree.com/distrito/14/Celtis%20australis> <http://base.itree.com/hasUnidades> "1708" .
+<http://base.itree.com/distrito/11/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "947" .
+<http://base.itree.com/distrito/3/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1884" .
+<http://base.itree.com/distrito/2/Celtis%20australis> <http://base.itree.com/hasUnidades> "1668" .
+<http://base.itree.com/distrito/10/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1578" .
+<http://base.itree.com/distrito/8/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "1238" .
+<http://base.itree.com/distrito/15/Pinus%20halepensis> <http://base.itree.com/hasUnidades> "984" .
+<http://base.itree.com/distrito/15/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1684" .
+<http://base.itree.com/distrito/14/Acer%20negundo> <http://base.itree.com/hasUnidades> "1217" .
+<http://base.itree.com/distrito/10/Otros> <http://base.itree.com/hasUnidades> "13589" .
+<http://base.itree.com/distrito/17/Pinus%20halepensis> <http://base.itree.com/hasUnidades> "1545" .
+<http://base.itree.com/distrito/20/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1139" .
+<http://base.itree.com/distrito/2/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "3449" .
+<http://base.itree.com/distrito/8/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1846" .
+<http://base.itree.com/distrito/20/Celtis%20australis> <http://base.itree.com/hasUnidades> "2629" .
+<http://base.itree.com/distrito/21/Melia%20azedarach> <http://base.itree.com/hasUnidades> "651" .
+<http://base.itree.com/distrito/3/Pinus%20pinea> <http://base.itree.com/hasUnidades> "779" .
+<http://base.itree.com/distrito/18/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1822" .
+<http://base.itree.com/distrito/18/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1847" .
+<http://base.itree.com/distrito/20/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1101" .
+<http://base.itree.com/distrito/20/Ulmus%20sp> <http://base.itree.com/hasUnidades> "1408" .
+<http://base.itree.com/distrito/3/Cupressus%20arizonica> <http://base.itree.com/hasUnidades> "333" .
+<http://base.itree.com/distrito/13/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "3408" .
+<http://base.itree.com/distrito/7/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "1729" .
+<http://base.itree.com/distrito/12/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1320" .
+<http://base.itree.com/distrito/13/Otros> <http://base.itree.com/hasUnidades> "14954" .
+<http://base.itree.com/distrito/3/Liquidambar%20styraciflua> <http://base.itree.com/hasUnidades> "368" .
+<http://base.itree.com/distrito/19/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "1878" .
+<http://base.itree.com/distrito/7/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "265" .
+<http://base.itree.com/distrito/7/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "610" .
+<http://base.itree.com/distrito/15/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "1021" .
+<http://base.itree.com/distrito/9/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1742" .
+<http://base.itree.com/distrito/9/Catalpa%20bignonioides> <http://base.itree.com/hasUnidades> "955" .
+<http://base.itree.com/distrito/5/Melia%20azedarach> <http://base.itree.com/hasUnidades> "760" .
+<http://base.itree.com/distrito/16/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1447" .
+<http://base.itree.com/distrito/4/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "5843" .
+<http://base.itree.com/distrito/11/Gleditsia%20triacanthos> <http://base.itree.com/hasUnidades> "1391" .
+<http://base.itree.com/distrito/6/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "497" .
+<http://base.itree.com/distrito/15/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "4439" .
+<http://base.itree.com/distrito/7/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "251" .
+<http://base.itree.com/distrito/14/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1957" .
+<http://base.itree.com/distrito/12/Pinus%20pinea> <http://base.itree.com/hasUnidades> "2042" .
+<http://base.itree.com/distrito/17/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "2132" .
+<http://base.itree.com/distrito/19/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1637" .
+<http://base.itree.com/distrito/14/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "1986" .
+<http://base.itree.com/distrito/2/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "2373" .
+<http://base.itree.com/distrito/13/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "3034" .
+<http://base.itree.com/distrito/11/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "945" .
+<http://base.itree.com/distrito/17/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "5298" .
+<http://base.itree.com/distrito/4/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "2438" .
+<http://base.itree.com/distrito/1/Pyrus%20calleryana%20%27Chanticleer%27> <http://base.itree.com/hasUnidades> "400" .
+<http://base.itree.com/distrito/16/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1856" .
+<http://base.itree.com/distrito/11/Otros> <http://base.itree.com/hasUnidades> "13159" .
+<http://base.itree.com/distrito/5/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "909" .
+<http://base.itree.com/distrito/16/Otros> <http://base.itree.com/hasUnidades> "23960" .
+<http://base.itree.com/distrito/4/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "491" .
+<http://base.itree.com/distrito/3/Cupressus%20x%20leylandii> <http://base.itree.com/hasUnidades> "418" .
+<http://base.itree.com/distrito/5/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1115" .
+<http://base.itree.com/distrito/10/Acer%20negundo> <http://base.itree.com/hasUnidades> "1006" .
+<http://base.itree.com/distrito/11/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "2660" .
+<http://base.itree.com/distrito/16/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "2108" .
+<http://base.itree.com/distrito/10/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "5270" .
+<http://base.itree.com/distrito/5/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "6070" .
+<http://base.itree.com/distrito/1/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "1412" .
+<http://base.itree.com/distrito/3/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "549" .
+<http://base.itree.com/distrito/4/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "855" .
+<http://base.itree.com/distrito/9/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "796" .
+<http://base.itree.com/distrito/10/Pinus%20pinea> <http://base.itree.com/hasUnidades> "2239" .
+<http://base.itree.com/distrito/7/Koelreuteria%20paniculata> <http://base.itree.com/hasUnidades> "274" .
+<http://base.itree.com/distrito/5/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "2535" .
+<http://base.itree.com/distrito/9/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "2741" .
+<http://base.itree.com/distrito/21/Acer%20negundo> <http://base.itree.com/hasUnidades> "381" .
+<http://base.itree.com/distrito/17/Melia%20azedarach> <http://base.itree.com/hasUnidades> "1907" .
+<http://base.itree.com/distrito/5/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "3709" .
+<http://base.itree.com/distrito/13/Acer%20negundo> <http://base.itree.com/hasUnidades> "2229" .
+<http://base.itree.com/distrito/21/Gleditsia%20triacanthos> <http://base.itree.com/hasUnidades> "362" .
+<http://base.itree.com/distrito/5/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "927" .
+<http://base.itree.com/distrito/11/Acer%20negundo> <http://base.itree.com/hasUnidades> "1544" .
+<http://base.itree.com/distrito/2/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1269" .
+<http://base.itree.com/distrito/12/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1979" .
+<http://base.itree.com/distrito/3/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "416" .
+<http://base.itree.com/distrito/7/Melia%20azedarach> <http://base.itree.com/hasUnidades> "513" .
+<http://base.itree.com/distrito/13/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "2090" .
+<http://base.itree.com/distrito/17/Celtis%20australis> <http://base.itree.com/hasUnidades> "3392" .
+<http://base.itree.com/distrito/9/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "1203" .
+<http://base.itree.com/distrito/15/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1415" .
+<http://base.itree.com/distrito/4/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "538" .
+<http://base.itree.com/distrito/7/Otros> <http://base.itree.com/hasUnidades> "1983" .
+<http://base.itree.com/distrito/15/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1629" .
+<http://base.itree.com/distrito/20/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1139" .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum%20%27Variegatum%27> <http://base.itree.com/hasUnidades> "300" .
+<http://base.itree.com/distrito/19/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1941" .
+<http://base.itree.com/distrito/20/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "8230" .
+<http://base.itree.com/distrito/3/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "2616" .
+<http://base.itree.com/distrito/9/Cupressus%20arizonica> <http://base.itree.com/hasUnidades> "685" .
+<http://base.itree.com/distrito/15/Pinus%20pinea> <http://base.itree.com/hasUnidades> "4130" .
+<http://base.itree.com/distrito/13/Platanus%20orientalis> <http://base.itree.com/hasUnidades> "4342" .
+<http://base.itree.com/distrito/6/Celtis%20australis> <http://base.itree.com/hasUnidades> "497" .
+<http://base.itree.com/distrito/9/Celtis%20australis> <http://base.itree.com/hasUnidades> "881" .
+<http://base.itree.com/distrito/19/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1497" .
+<http://base.itree.com/distrito/17/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "3048" .
+<http://base.itree.com/distrito/16/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "2462" .
+<http://base.itree.com/distrito/13/Pinus%20pinea> <http://base.itree.com/hasUnidades> "2449" .
+<http://base.itree.com/distrito/21/Otros> <http://base.itree.com/hasUnidades> "7322" .
+<http://base.itree.com/distrito/8/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "2401" .
+<http://base.itree.com/distrito/15/Prunus%20dulcis> <http://base.itree.com/hasUnidades> "935" .
+<http://base.itree.com/distrito/2/Gleditsia%20triacanthos> <http://base.itree.com/hasUnidades> "670" .
+<http://base.itree.com/distrito/17/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1684" .
+<http://base.itree.com/distrito/19/Pyrus%20calleryana> <http://base.itree.com/hasUnidades> "1923" .
+<http://base.itree.com/distrito/17/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "1583" .
+<http://base.itree.com/distrito/9/Acer%20negundo> <http://base.itree.com/hasUnidades> "1746" .
+<http://base.itree.com/distrito/6/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "901" .
+<http://base.itree.com/distrito/12/Acer%20negundo> <http://base.itree.com/hasUnidades> "1143" .
+<http://base.itree.com/distrito/19/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1416" .
+<http://base.itree.com/distrito/11/Celtis%20australis> <http://base.itree.com/hasUnidades> "2067" .
+<http://base.itree.com/distrito/17/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1650" .
+<http://base.itree.com/distrito/18/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "996" .
+<http://base.itree.com/distrito/6/Otros> <http://base.itree.com/hasUnidades> "5000" .
+<http://base.itree.com/distrito/1/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1579" .
+<http://base.itree.com/distrito/14/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "748" .
+<http://base.itree.com/distrito/21/Catalpa%20bignonioides> <http://base.itree.com/hasUnidades> "704" .
+<http://base.itree.com/distrito/3/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "2347" .
+<http://base.itree.com/distrito/19/Celtis%20australis> <http://base.itree.com/hasUnidades> "2331" .
+<http://base.itree.com/distrito/20/Pinus%20halepensis> <http://base.itree.com/hasUnidades> "4882" .
+<http://base.itree.com/distrito/16/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1856" .
+<http://base.itree.com/distrito/8/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "1172" .
+<http://base.itree.com/distrito/1/Otros> <http://base.itree.com/hasUnidades> "3958" .
+<http://base.itree.com/distrito/5/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "645" .
+<http://base.itree.com/distrito/12/Prunus%20cerasifera> <http://base.itree.com/hasUnidades> "606" .
+<http://base.itree.com/distrito/6/Melia%20azedarach> <http://base.itree.com/hasUnidades> "521" .
+<http://base.itree.com/distrito/1/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "332" .
+<http://base.itree.com/distrito/14/Platanus%20orientalis> <http://base.itree.com/hasUnidades> "1067" .
+<http://base.itree.com/distrito/5/Otros> <http://base.itree.com/hasUnidades> "6068" .
+<http://base.itree.com/distrito/13/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "1080" .
+<http://base.itree.com/distrito/9/Otros> <http://base.itree.com/hasUnidades> "11711" .
+<http://base.itree.com/distrito/13/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "4434" .
+<http://base.itree.com/distrito/11/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "7507" .
+<http://base.itree.com/distrito/18/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "1196" .
+<http://base.itree.com/distrito/21/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "711" .
+<http://base.itree.com/distrito/14/Otros> <http://base.itree.com/hasUnidades> "8512" .
+<http://base.itree.com/distrito/11/Pinus%20pinea> <http://base.itree.com/hasUnidades> "4598" .
+<http://base.itree.com/distrito/15/Celtis%20australis> <http://base.itree.com/hasUnidades> "1420" .
+<http://base.itree.com/distrito/10/Cupressus%20sempervirens> <http://base.itree.com/hasUnidades> "957" .
+<http://base.itree.com/distrito/20/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1846" .
+<http://base.itree.com/distrito/13/Celtis%20australis> <http://base.itree.com/hasUnidades> "1349" .
+<http://base.itree.com/distrito/8/Morus%20alba> <http://base.itree.com/hasUnidades> "1404" .
+<http://base.itree.com/distrito/4/Pinus%20pinea> <http://base.itree.com/hasUnidades> "728" .
+<http://base.itree.com/distrito/13/Melia%20azedarach> <http://base.itree.com/hasUnidades> "1015" .
+<http://base.itree.com/distrito/18/Otros> <http://base.itree.com/hasUnidades> "14955" .
+<http://base.itree.com/distrito/3/Otros> <http://base.itree.com/hasUnidades> "2944" .
+<http://base.itree.com/distrito/18/Melia%20azedarach> <http://base.itree.com/hasUnidades> "1230" .
+<http://base.itree.com/distrito/20/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "1489" .
+<http://base.itree.com/distrito/12/Cedrus%20deodara> <http://base.itree.com/hasUnidades> "773" .
+<http://base.itree.com/distrito/21/Celtis%20australis> <http://base.itree.com/hasUnidades> "914" .
+<http://base.itree.com/distrito/12/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "4955" .
+<http://base.itree.com/distrito/9/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "2219" .
+<http://base.itree.com/distrito/16/Acer%20negundo> <http://base.itree.com/hasUnidades> "2109" .
+<http://base.itree.com/distrito/7/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "810" .
+<http://base.itree.com/distrito/14/Melia%20azedarach> <http://base.itree.com/hasUnidades> "671" .
+<http://base.itree.com/distrito/16/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "1593" .
+<http://base.itree.com/distrito/18/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1139" .
+<http://base.itree.com/distrito/5/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1254" .
+<http://base.itree.com/distrito/14/Catalpa%20bignonioides> <http://base.itree.com/hasUnidades> "578" .
+<http://base.itree.com/distrito/7/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "306" .
+<http://base.itree.com/distrito/5/Celtis%20australis> <http://base.itree.com/hasUnidades> "1197" .
+<http://base.itree.com/distrito/18/Pinus%20halepensis> <http://base.itree.com/hasUnidades> "2706" .
+<http://base.itree.com/distrito/16/Populus%20alba> <http://base.itree.com/hasUnidades> "1232" .
+<http://base.itree.com/distrito/3/Celtis%20australis> <http://base.itree.com/hasUnidades> "502" .
+<http://base.itree.com/distrito/8/Pinus%20pinea> <http://base.itree.com/hasUnidades> "3078" .
+<http://base.itree.com/distrito/16/Ulmus%20minor> <http://base.itree.com/hasUnidades> "1171" .
+<http://base.itree.com/distrito/8/Acer%20negundo> <http://base.itree.com/hasUnidades> "1587" .
+<http://base.itree.com/distrito/5/Populus%20alba%20%27Bolleana%27> <http://base.itree.com/hasUnidades> "563" .
+<http://base.itree.com/distrito/16/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "1213" .
+<http://base.itree.com/distrito/16/Pinus%20pinea> <http://base.itree.com/hasUnidades> "4213" .
+<http://base.itree.com/distrito/11/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "993" .
+<http://base.itree.com/distrito/2/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1253" .
+<http://base.itree.com/distrito/3/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "287" .
+<http://base.itree.com/distrito/17/Pinus%20pinea> <http://base.itree.com/hasUnidades> "1811" .
+<http://base.itree.com/distrito/7/Celtis%20australis> <http://base.itree.com/hasUnidades> "783" .
+<http://base.itree.com/distrito/17/Otros> <http://base.itree.com/hasUnidades> "12482" .
+<http://base.itree.com/distrito/8/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1704" .
+<http://base.itree.com/distrito/12/Melia%20azedarach> <http://base.itree.com/hasUnidades> "730" .
+<http://base.itree.com/distrito/15/Platanus%20x%20hispanica> <http://base.itree.com/hasUnidades> "4680" .
+<http://base.itree.com/distrito/3/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "296" .
+<http://base.itree.com/distrito/6/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "453" .
+<http://base.itree.com/distrito/20/Acer%20negundo> <http://base.itree.com/hasUnidades> "1910" .
+<http://base.itree.com/distrito/2/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1236" .
+<http://base.itree.com/distrito/8/Celtis%20australis> <http://base.itree.com/hasUnidades> "3988" .
+<http://base.itree.com/distrito/10/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "1515" .
+<http://base.itree.com/distrito/16/Melia%20azedarach> <http://base.itree.com/hasUnidades> "1189" .
+<http://base.itree.com/distrito/9/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "671" .
+<http://base.itree.com/distrito/2/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1224" .
+<http://base.itree.com/distrito/14/Acer%20pseudoplatanus> <http://base.itree.com/hasUnidades> "595" .
+<http://base.itree.com/distrito/8/Otros> <http://base.itree.com/hasUnidades> "19696" .
+<http://base.itree.com/distrito/9/Robinia%20pseudoacacia> <http://base.itree.com/hasUnidades> "1204" .
+<http://base.itree.com/distrito/10/Celtis%20australis> <http://base.itree.com/hasUnidades> "1793" .
+<http://base.itree.com/distrito/21/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "504" .
+<http://base.itree.com/distrito/20/Otros> <http://base.itree.com/hasUnidades> "17262" .
+<http://base.itree.com/distrito/19/Ulmus%20pumila> <http://base.itree.com/hasUnidades> "1214" .
+<http://base.itree.com/distrito/4/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "666" .
+<http://base.itree.com/distrito/6/Styphnolobium%20japonicum> <http://base.itree.com/hasUnidades> "533" .
+<http://base.itree.com/distrito/12/Ligustrum%20japonicum> <http://base.itree.com/hasUnidades> "613" .
+<http://base.itree.com/distrito/2/Prunus%20cerasifera%20subsp.%20pissardii> <http://base.itree.com/hasUnidades> "674" .
+<http://base.itree.com/distrito/13/Catalpa%20bignonioides> <http://base.itree.com/hasUnidades> "1090" .
+<http://base.itree.com/distrito/21/Pinus%20pinea> <http://base.itree.com/hasUnidades> "572" .
+<http://base.itree.com/distrito/20/Pinus%20pinea> <http://base.itree.com/hasUnidades> "4095" .
+<http://base.itree.com/distrito/10/Aesculus%20hippocastanum> <http://base.itree.com/hasUnidades> "915" .
+<http://base.itree.com/distrito/7/Fraxinus%20angustifolia> <http://base.itree.com/hasUnidades> "176" .
+<http://base.itree.com/barrio/181> <http://www.w3.org/2000/01/rdf-schemalabel> "CASCO H.VALLECAS" .
+<http://base.itree.com/barrio/134> <http://www.w3.org/2000/01/rdf-schemalabel> "PALOMERAS SURESTE" .
+<http://base.itree.com/barrio/141> <http://www.w3.org/2000/01/rdf-schemalabel> "PAVONES" .
+<http://base.itree.com/barrio/63> <http://www.w3.org/2000/01/rdf-schemalabel> "CASTILLEJOS" .
+<http://base.itree.com/barrio/143> <http://www.w3.org/2000/01/rdf-schemalabel> "MARROQUINA" .
+<http://base.itree.com/barrio/25> <http://www.w3.org/2000/01/rdf-schemalabel> "DELICIAS" .
+<http://base.itree.com/barrio/183> <http://www.w3.org/2000/01/rdf-schemalabel> "ENSANCHE DE VALLECAS" .
+<http://base.itree.com/barrio/152> <http://www.w3.org/2000/01/rdf-schemalabel> "PUEBLO NUEVO" .
+<http://base.itree.com/barrio/65> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDEACEDERAS" .
+<http://base.itree.com/barrio/131> <http://www.w3.org/2000/01/rdf-schemalabel> "ENTREVIAS" .
+<http://base.itree.com/barrio/24> <http://www.w3.org/2000/01/rdf-schemalabel> "LEGAZPI" .
+<http://base.itree.com/barrio/103> <http://www.w3.org/2000/01/rdf-schemalabel> "LUCERO" .
+<http://base.itree.com/barrio/164> <http://www.w3.org/2000/01/rdf-schemalabel> "PINAR DEL REY" .
+<http://base.itree.com/barrio/93> <http://www.w3.org/2000/01/rdf-schemalabel> "CIUDAD UNIVERSITARIA" .
+<http://base.itree.com/barrio/85> <http://www.w3.org/2000/01/rdf-schemalabel> "LA PAZ" .
+<http://base.itree.com/barrio/104> <http://www.w3.org/2000/01/rdf-schemalabel> "ALUCHE" .
+<http://base.itree.com/barrio/116> <http://www.w3.org/2000/01/rdf-schemalabel> "BUENAVISTA" .
+<http://base.itree.com/barrio/107> <http://www.w3.org/2000/01/rdf-schemalabel> "LAS AGUILAS" .
+<http://base.itree.com/barrio/133> <http://www.w3.org/2000/01/rdf-schemalabel> "PALOMERAS BAJAS" .
+<http://base.itree.com/barrio/84> <http://www.w3.org/2000/01/rdf-schemalabel> "EL PILAR" .
+<http://base.itree.com/barrio/151> <http://www.w3.org/2000/01/rdf-schemalabel> "VENTAS" .
+<http://base.itree.com/barrio/54> <http://www.w3.org/2000/01/rdf-schemalabel> "HISPANOAMERICA" .
+<http://base.itree.com/barrio/191> <http://www.w3.org/2000/01/rdf-schemalabel> "CASCO H.VICALVARO" .
+<http://base.itree.com/barrio/83> <http://www.w3.org/2000/01/rdf-schemalabel> "PEÑA GRANDE" .
+<http://base.itree.com/barrio/86> <http://www.w3.org/2000/01/rdf-schemalabel> "VALVERDE" .
+<http://base.itree.com/barrio/162> <http://www.w3.org/2000/01/rdf-schemalabel> "PIOVERA" .
+<http://base.itree.com/barrio/44> <http://www.w3.org/2000/01/rdf-schemalabel> "GUINDALERA" .
+<http://base.itree.com/barrio/136> <http://www.w3.org/2000/01/rdf-schemalabel> "NUMANCIA" .
+<http://base.itree.com/barrio/171> <http://www.w3.org/2000/01/rdf-schemalabel> "VILLAVERDE ALTO C.H." .
+<http://base.itree.com/barrio/205> <http://www.w3.org/2000/01/rdf-schemalabel> "ROSAS" .
+<http://base.itree.com/barrio/165> <http://www.w3.org/2000/01/rdf-schemalabel> "APOSTOL SANTIAGO" .
+<http://base.itree.com/barrio/43> <http://www.w3.org/2000/01/rdf-schemalabel> "FUENTE DEL BERRO" .
+<http://base.itree.com/barrio/114> <http://www.w3.org/2000/01/rdf-schemalabel> "VISTA ALEGRE" .
+<http://base.itree.com/barrio/145> <http://www.w3.org/2000/01/rdf-schemalabel> "FONTARRON" .
+<http://base.itree.com/barrio/12> <http://www.w3.org/2000/01/rdf-schemalabel> "EMBAJADORES" .
+<http://base.itree.com/barrio/206> <http://www.w3.org/2000/01/rdf-schemalabel> "REJAS" .
+<http://base.itree.com/barrio/123> <http://www.w3.org/2000/01/rdf-schemalabel> "SAN FERMIN" .
+<http://base.itree.com/barrio/213> <http://www.w3.org/2000/01/rdf-schemalabel> "CASCO H.BARAJAS" .
+<http://base.itree.com/barrio/173> <http://www.w3.org/2000/01/rdf-schemalabel> "BUTARQUE" .
+<http://base.itree.com/barrio/94> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDEZARZA" .
+<http://base.itree.com/barrio/36> <http://www.w3.org/2000/01/rdf-schemalabel> "NIÑO JESUS" .
+<http://base.itree.com/barrio/22> <http://www.w3.org/2000/01/rdf-schemalabel> "ACACIAS" .
+<http://base.itree.com/barrio/102> <http://www.w3.org/2000/01/rdf-schemalabel> "PUERTA DEL ANGEL" .
+<http://base.itree.com/barrio/26> <http://www.w3.org/2000/01/rdf-schemalabel> "PALOS DE LA FRONTERA" .
+<http://base.itree.com/barrio/97> <http://www.w3.org/2000/01/rdf-schemalabel> "ARAVACA" .
+<http://base.itree.com/barrio/193> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDERRIVAS" .
+<http://base.itree.com/barrio/166> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDEFUENTES" .
+<http://base.itree.com/barrio/33> <http://www.w3.org/2000/01/rdf-schemalabel> "ESTRELLA" .
+<http://base.itree.com/barrio/32> <http://www.w3.org/2000/01/rdf-schemalabel> "ADELFAS" .
+<http://base.itree.com/barrio/72> <http://www.w3.org/2000/01/rdf-schemalabel> "ARAPILES" .
+<http://base.itree.com/barrio/174> <http://www.w3.org/2000/01/rdf-schemalabel> "LOS ROSALES" .
+<http://base.itree.com/barrio/153> <http://www.w3.org/2000/01/rdf-schemalabel> "QUINTANA" .
+<http://base.itree.com/barrio/75> <http://www.w3.org/2000/01/rdf-schemalabel> "RIOS ROSAS" .
+<http://base.itree.com/barrio/31> <http://www.w3.org/2000/01/rdf-schemalabel> "PACIFICO" .
+<http://base.itree.com/barrio/135> <http://www.w3.org/2000/01/rdf-schemalabel> "PORTAZGO" .
+<http://base.itree.com/barrio/112> <http://www.w3.org/2000/01/rdf-schemalabel> "OPAÑEL" .
+<http://base.itree.com/barrio/175> <http://www.w3.org/2000/01/rdf-schemalabel> "LOS ANGELES" .
+<http://base.itree.com/barrio/95> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDEMARIN" .
+<http://base.itree.com/barrio/126> <http://www.w3.org/2000/01/rdf-schemalabel> "ZOFIO" .
+<http://base.itree.com/barrio/204> <http://www.w3.org/2000/01/rdf-schemalabel> "ARCOS" .
+<http://base.itree.com/barrio/121> <http://www.w3.org/2000/01/rdf-schemalabel> "ORCASITAS" .
+<http://base.itree.com/barrio/64> <http://www.w3.org/2000/01/rdf-schemalabel> "ALMENARA" .
+<http://base.itree.com/barrio/62> <http://www.w3.org/2000/01/rdf-schemalabel> "CUATRO CAMINOS" .
+<http://base.itree.com/barrio/115> <http://www.w3.org/2000/01/rdf-schemalabel> "PUERTA BONITA" .
+<http://base.itree.com/barrio/146> <http://www.w3.org/2000/01/rdf-schemalabel> "VINATEROS" .
+<http://base.itree.com/barrio/76> <http://www.w3.org/2000/01/rdf-schemalabel> "VALLEHERMOSO" .
+<http://base.itree.com/barrio/207> <http://www.w3.org/2000/01/rdf-schemalabel> "CANILLEJAS" .
+<http://base.itree.com/barrio/117> <http://www.w3.org/2000/01/rdf-schemalabel> "ABRANTES" .
+<http://base.itree.com/barrio/113> <http://www.w3.org/2000/01/rdf-schemalabel> "SAN ISIDRO" .
+<http://base.itree.com/barrio/159> <http://www.w3.org/2000/01/rdf-schemalabel> "COSTILLARES" .
+<http://base.itree.com/barrio/192> <http://www.w3.org/2000/01/rdf-schemalabel> "VALDEBERNARDO" .
+<http://base.itree.com/barrio/154> <http://www.w3.org/2000/01/rdf-schemalabel> "CONCEPCION" .
+<http://base.itree.com/distrito/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Distrito> .
+<http://base.itree.com/distrito/4/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Populus%20alba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Catalpa%20bignonioides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Catalpa%20bignonioides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Platanus%20orientalis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Morus%20alba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Cedrus%20deodara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Pinus%20halepensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Pyrus%20calleryana%20%27Chanticleer%27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Prunus%20cerasifera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Populus%20alba%20%27Bolleana%27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Pinus%20halepensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Catalpa%20bignonioides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Catalpa%20bignonioides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Cercis%20siliquastrum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Platanus%20orientalis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Pinus%20halepensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Gleditsia%20triacanthos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum%20%27Variegatum%27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Pinus%20halepensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Catalpa%20bignonioides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Platanus%20orientalis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Platanus%20orientalis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Cupressus%20x%20leylandii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Ulmus%20minor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Cupressus%20arizonica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Populus%20x%20canadensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Cercis%20siliquastrum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Gleditsia%20triacanthos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Acer%20pseudoplatanus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Pinus%20halepensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Gleditsia%20triacanthos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Koelreuteria%20paniculata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Prunus%20dulcis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/16/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Platanus%20x%20hispanica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/14/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Ulmus%20sp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Cupressus%20sempervirens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/10/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/4/Acer%20negundo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Pyrus%20calleryana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/13/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/19/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/12/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/2/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/17/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/11/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/8/Ligustrum%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Melia%20azedarach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/21/Robinia%20pseudoacacia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/1/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/20/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/18/Ulmus%20pumila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Liquidambar%20styraciflua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/3/Cupressus%20arizonica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Pinus%20pinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/5/Aesculus%20hippocastanum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/7/Fraxinus%20angustifolia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/9/Celtis%20australis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/6/Styphnolobium%20japonicum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/distrito/15/Otros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Arbol> .
+<http://base.itree.com/parques/4996556> <http://base.itree.com/hasDireccion> "CALLE TANGER" .
+<http://base.itree.com/parques/4996575> <http://base.itree.com/hasDireccion> "CALLE TROLE" .
+<http://base.itree.com/parques/4997994> <http://base.itree.com/hasDireccion> "AVENIDA VALDEMARIN" .
+<http://base.itree.com/parques/4996549> <http://base.itree.com/hasDireccion> "CALLE CAMINO DE LOS VINATEROS" .
+<http://base.itree.com/parques/4996547> <http://base.itree.com/hasDireccion> "CALLE CABEZA MESADA" .
+<http://base.itree.com/parques/5235589> <http://base.itree.com/hasDireccion> "CALLE PUERTO DE COSTABONA" .
+<http://base.itree.com/parques/4996484> <http://base.itree.com/hasDireccion> "CALLEJON MAGALLANES" .
+<http://base.itree.com/parques/4996525> <http://base.itree.com/hasDireccion> "PLAZA JUAN CARLOS ONETTI" .
+<http://base.itree.com/parques/4997993> <http://base.itree.com/hasDireccion> "AVENIDA EUROPA" .
+<http://base.itree.com/parques/3575535> <http://base.itree.com/hasDireccion> "AVENIDA MANOTERAS" .
+<http://base.itree.com/parques/3580436> <http://base.itree.com/hasDireccion> "AVENIDA GUADALAJARA" .
+<http://base.itree.com/parques/5215845> <http://base.itree.com/hasDireccion> "CALLE SANCHO DAVILA" .
+<http://base.itree.com/parques/4996986> <http://base.itree.com/hasDireccion> "PASEO INFANTA ISABEL" .
+<http://base.itree.com/parques/4997995> <http://base.itree.com/hasDireccion> "CALLE OFELIA NIETO" .
+<http://base.itree.com/parques/3580440> <http://base.itree.com/hasDireccion> "CALLE ARCOS DEL JALON" .
+<http://base.itree.com/parques/4996530> <http://base.itree.com/hasDireccion> "CALLE AFLUENTES" .
+<http://base.itree.com/parques/4997956> <http://base.itree.com/hasDireccion> "CALLE VALLE DE ARAN" .
+<http://base.itree.com/parques/4997300> <http://base.itree.com/hasDireccion> "CALLE VALMOJADO" .
+<http://base.itree.com/parques/4996532> <http://base.itree.com/hasDireccion> "PLAZA GOMEZ ACEBO" .
+<http://base.itree.com/parques/4996545> <http://base.itree.com/hasDireccion> "CAMINO SUERTE" .
+<http://base.itree.com/parques/3575534> <http://base.itree.com/hasDireccion> "CALLE SOMONTIN" .
+<http://base.itree.com/parques/4996520> <http://base.itree.com/hasDireccion> "CAMINO VIEJO DE VICALVARO" .
+<http://base.itree.com/parques/5003500> <http://base.itree.com/hasDireccion> "AVENIDA ASTURIAS" .
+<http://base.itree.com/parques/4996553> <http://base.itree.com/hasDireccion> "CALLE ARROYO FONTARRON" .
+<http://base.itree.com/parques/5003458> <http://base.itree.com/hasDireccion> "CALLE CASINO" .
+<http://base.itree.com/parques/5214758> <http://base.itree.com/hasDireccion> "CALLE RECTOR ROYO-VILLANOVA" .
+<http://base.itree.com/parques/4996548> <http://base.itree.com/hasDireccion> "CALLE HACIENDA DE PAVONES" .
+<http://base.itree.com/parques/4996495> <http://base.itree.com/hasDireccion> "CALLE PINGÜINO" .
+<http://base.itree.com/parques/4997999> <http://base.itree.com/hasDireccion> "CALLE GOLONDRINA" .
+<http://base.itree.com/parques/3580433> <http://base.itree.com/hasDireccion> "CALLE GONZALO TORRENTE BALLESTER" .
+<http://base.itree.com/parques/5003496> <http://base.itree.com/hasDireccion> "CALLE SAN GERMAN" .
+<http://base.itree.com/parques/3570067> <http://base.itree.com/hasDireccion> "CALLE PEPE ISBERT" .
+<http://base.itree.com/parques/4996498> <http://base.itree.com/hasDireccion> "RONDA COOPERATIVAS" .
+<http://base.itree.com/parques/4996518> <http://base.itree.com/hasDireccion> "CALLE LADERA DE LOS ALMENDROS" .
+<http://base.itree.com/parques/4996500> <http://base.itree.com/hasDireccion> "CAMINO CRUCES" .
+<http://base.itree.com/parques/5214741> <http://base.itree.com/hasDireccion> "CALLE LOS YEBENES" .
+<http://base.itree.com/parques/3580432> <http://base.itree.com/hasDireccion> "CALLE DEYANIRA" .
+<http://base.itree.com/parques/5003497> <http://base.itree.com/hasDireccion> "AVENIDA BRASIL" .
+<http://base.itree.com/parques/4996526> <http://base.itree.com/hasDireccion> "AVENIDA RAFAELA YBARRA" .
+<http://base.itree.com/parques/4996536> <http://base.itree.com/hasDireccion> "CALLE FAROLILLO" .
+<http://base.itree.com/parques/5005553> <http://base.itree.com/hasDireccion> "CALLE CAÑAVERAL" .
+<http://base.itree.com/parques/4996519> <http://base.itree.com/hasDireccion> "AVENIDA DAROCA" .
+<http://base.itree.com/parques/5214761> <http://base.itree.com/hasDireccion> "AVENIDA PLANETARIO" .
+<http://base.itree.com/parques/7872635> <http://base.itree.com/hasDireccion> "CALLE PICO DE MAJALASNA" .
+<http://base.itree.com/parques/4996524> <http://base.itree.com/hasDireccion> "CALLE LADERA DE LOS ALMENDROS" .
+<http://base.itree.com/parques/3575532> <http://base.itree.com/hasDireccion> "CARRETERA ESTACION DE HORTALEZA" .
+<http://base.itree.com/parques/4998011> <http://base.itree.com/hasDireccion> "CALLE CERRO NEGRO" .
+<http://base.itree.com/parques/3575539> <http://base.itree.com/hasDireccion> "CALLE SANTA ADELA" .
+<http://base.itree.com/parques/3580441> <http://base.itree.com/hasDireccion> "AVENIDA CANILLEJAS A VICALVARO" .
+<http://base.itree.com/parques/5003401> <http://base.itree.com/hasDireccion> "PLAZA CONDE DEL VALLE DE SUCHIL" .
+<http://base.itree.com/parques/4996540> <http://base.itree.com/hasDireccion> "CALLE CONDE DE MORPHY" .
+<http://base.itree.com/parques/4997032> <http://base.itree.com/hasDireccion> "CALLE ANUNCIACION" .
+<http://base.itree.com/parques/5005554> <http://base.itree.com/hasDireccion> "CALLE VEZA" .
+<http://base.itree.com/parques/5000253> <http://base.itree.com/hasDireccion> "CALLE FRAY JOSE CERDEIRIÑA" .
+<http://base.itree.com/parques/7243273> <http://base.itree.com/hasDireccion> "CALLE CEA BERMUDEZ" .
+<http://base.itree.com/parques/3570070> <http://base.itree.com/hasDireccion> "AVENIDA MARQUES DE CORBERA" .
+<http://base.itree.com/parques/4996497> <http://base.itree.com/hasDireccion> "CALLE CORINDON" .
+<http://base.itree.com/parques/3570068> <http://base.itree.com/hasDireccion> "CALLE CALERUEGA" .
+<http://base.itree.com/parques/5183029> <http://base.itree.com/hasDireccion> "CALLE SANGENJO" .
+<http://base.itree.com/parques/4997212> <http://base.itree.com/hasDireccion> "CALLE FLORESTAN AGUILAR" .
+<http://base.itree.com/parques/4997997> <http://base.itree.com/hasDireccion> "AVENIDA LAS AGUILAS" .
+<http://base.itree.com/parques/8781349> <http://base.itree.com/hasDireccion> "CALLE EZEQUIEL SOLANA" .
+<http://base.itree.com/parques/5203827> <http://base.itree.com/hasDireccion> "PASEO ERMITA" .
+<http://base.itree.com/parques/4996660> <http://base.itree.com/hasDireccion> "CALLE ARGANDA" .
+<http://base.itree.com/parques/3580437> <http://base.itree.com/hasDireccion> "AVENIDA CANILLEJAS A VICALVARO" .
+<http://base.itree.com/parques/4996521> <http://base.itree.com/hasDireccion> "CALLE PINILLAS" .
+<http://base.itree.com/parques/4996528> <http://base.itree.com/hasDireccion> "AVENIDA LOS ROSALES" .
+<http://base.itree.com/parques/6293496> <http://base.itree.com/hasDireccion> "CALLE PIRRA" .
+<http://base.itree.com/parques/4996554> <http://base.itree.com/hasDireccion> "CALLE FERNANDO GIRALDEZ" .
+<http://base.itree.com/parques/3580434> <http://base.itree.com/hasDireccion> "CALLE GONZALO TORRENTE BALLESTER" .
+<http://base.itree.com/parques/4997200> <http://base.itree.com/hasDireccion> "CALLE BERLIN" .
+<http://base.itree.com/parques/5107681> <http://base.itree.com/hasDireccion> "CALLE MANUEL MARIA ARRILLAGA" .
+<http://base.itree.com/parques/3570075> <http://base.itree.com/hasDireccion> "CALLE ANTONIO PIRALA" .
+<http://base.itree.com/parques/5003498> <http://base.itree.com/hasDireccion> "CALLE GENERAL RAMIREZ DE MADRID" .
+<http://base.itree.com/parques/3575533> <http://base.itree.com/hasDireccion> "CALLE MACUAJE" .
+<http://base.itree.com/parques/5003407> <http://base.itree.com/hasDireccion> "CALLE FERNANDEZ DE LA HOZ" .
+<http://base.itree.com/parques/4996533> <http://base.itree.com/hasDireccion> "PASEO MARCELINO CAMACHO" .
+<http://base.itree.com/parques/7872577> <http://base.itree.com/hasDireccion> "CALLE ISLAS JARVI" .
+<http://base.itree.com/parques/4998023> <http://base.itree.com/hasDireccion> "CALLE CARAMUEL" .
+<http://base.itree.com/parques/4996578> <http://base.itree.com/hasDireccion> "AVENIDA ABRANTES" .
+<http://base.itree.com/parques/3570072> <http://base.itree.com/hasDireccion> "CALLE GERARDO CORDON" .
+<http://base.itree.com/parques/7872575> <http://base.itree.com/hasDireccion> "CALLE VILLACASTIN" .
+<http://base.itree.com/parques/4996537> <http://base.itree.com/hasDireccion> "CALLE PORTALEGRE" .
+<http://base.itree.com/parques/4997996> <http://base.itree.com/hasDireccion> "CALLE VALDERREY" .
+<http://base.itree.com/parques/5068828> <http://base.itree.com/hasDireccion> "CALLE RAYO VALLECANO DE MADRID" .
+<http://base.itree.com/parques/4991235> <http://base.itree.com/hasDireccion> "CALLE NAVARIDAS" .
+<http://base.itree.com/parques/4996539> <http://base.itree.com/hasDireccion> "CALLE ANTONIO ROMERO" .
+<http://base.itree.com/parques/4996522> <http://base.itree.com/hasDireccion> "CALLE MERCURIO" .
+<http://base.itree.com/parques/4997998> <http://base.itree.com/hasDireccion> "CALLE FERMIN CABALLERO" .
+<http://base.itree.com/parques/5148516> <http://base.itree.com/hasDireccion> "CALLE COCHERAS" .
+<http://base.itree.com/parques/4996562> <http://base.itree.com/hasDireccion> "CALLE VIRIDIANA" .
+<http://base.itree.com/parques/4996586> <http://base.itree.com/hasDireccion> "CALLE PUERTO DE BEJAR" .
+<http://base.itree.com/parques/3570069> <http://base.itree.com/hasDireccion> "CALLE NICOLAS SALMERON" .
+<http://base.itree.com/parques/4998010> <http://base.itree.com/hasDireccion> "CALLE ANTOLIN GARCIA" .
+<http://base.itree.com/parques/4997227> <http://base.itree.com/hasDireccion> "CALLE COLOMBIA" .
+<http://base.itree.com/parques/3569404> <http://base.itree.com/hasDireccion> "CALLE VIRGEN DE LLUC" .
+<http://base.itree.com/parques/3580439> <http://base.itree.com/hasDireccion> "CALLE CIRCE" .
+<http://base.itree.com/parques/3569057> <http://base.itree.com/hasDireccion> "AVENIDA LOGROÑO" .
+<http://base.itree.com/parques/4997144> <http://base.itree.com/hasDireccion> "PLAZA AMERICA ESPAÑOLA" .
+<http://base.itree.com/parques/4996559> <http://base.itree.com/hasDireccion> "RONDA SUR" .
+<http://base.itree.com/parques/5003417> <http://base.itree.com/hasDireccion> "CALLE GALILEO" .
+<http://base.itree.com/parques/4996523> <http://base.itree.com/hasDireccion> "PLAZA ROSA CHACEL" .
+<http://base.itree.com/parques/3570073> <http://base.itree.com/hasDireccion> "CALLE GOLFO DE SALONICA" .
+<http://base.itree.com/parques/4996517> <http://base.itree.com/hasDireccion> "PLAZA JUAN ROF CARBALLO" .
+<http://base.itree.com/parques/3575537> <http://base.itree.com/hasDireccion> "CALLE CAPITAN CORTES" .
+<http://base.itree.com/parques/4996550> <http://base.itree.com/hasDireccion> "CALLE VALDEBERNARDO" .
+<http://base.itree.com/parques/5003499> <http://base.itree.com/hasDireccion> "CALLE GABRIEL PORTADALES" .
+<http://base.itree.com/parques/4998041> <http://base.itree.com/hasDireccion> "CALLE JUAN ESPLANDIU" .
+<http://base.itree.com/parques/4996591> <http://base.itree.com/hasDireccion> "CALLE TOMAS BRETON" .
+<http://base.itree.com/parques/4997902> <http://base.itree.com/hasDireccion> "CALLE VALLE DE MENA" .
+<http://base.itree.com/parques/3575536> <http://base.itree.com/hasDireccion> "CALLE FLORENCIO CASTILLO" .
+<http://base.itree.com/parques/4996529> <http://base.itree.com/hasDireccion> "CALLE COALICION" .
+<http://base.itree.com/parques/3570074> <http://base.itree.com/hasDireccion> "CALLE LUIS RUIZ" .
+<http://base.itree.com/parques/4996527> <http://base.itree.com/hasDireccion> "CALLE MENASALBAS" .
+<http://base.itree.com/parques/5003681> <http://base.itree.com/hasDireccion> "CALLE SINESIO DELGADO" .
+<http://base.itree.com/parques/4996514> <http://base.itree.com/hasDireccion> "CALLE MINERVA" .
+<http://base.itree.com/parques/4996493> <http://base.itree.com/hasDireccion> "CALLE SEGURA" .
+<http://base.itree.com/parques/4996516> <http://base.itree.com/hasDireccion> "CALLE AMBROZ" .
+<http://base.itree.com/parques/3575538> <http://base.itree.com/hasDireccion> "CALLE MONOVAR" .
+<http://base.itree.com/parques/4997171> <http://base.itree.com/hasDireccion> "AVENIDA AMERICA" .
+<http://base.itree.com/parques/5003319> <http://base.itree.com/hasDireccion> "CALLE FRAY JOSE CERDEIRIÑA" .
+<http://base.itree.com/parques/4996676> <http://base.itree.com/hasDireccion> "CALLE CANARIAS" .
+<http://base.itree.com/parques/4996531> <http://base.itree.com/hasDireccion> "CALLE SANTIAGO AMON" .
+<http://base.itree.com/parques/3570066> <http://base.itree.com/hasDireccion> "CALLE ARTURO SORIA" .
+<http://base.itree.com/parques/4998027> <http://base.itree.com/hasDireccion> "CALLE MARCELO USERA" .
+<http://base.itree.com/parques/4996551> <http://base.itree.com/hasDireccion> "CALLE ENCOMIENDA DE PALACIOS" .
+<http://base.itree.com/parques/5003208> <http://base.itree.com/hasDireccion> "CALLE JOAQUIN LORENZO" .
+<http://base.itree.com/parques/4996546> <http://base.itree.com/hasDireccion> "CALLE VILLAR DEL POZO" .
+<http://base.itree.com/parques/3580438> <http://base.itree.com/hasDireccion> "CALLE ARCOS DEL JALON" .
+<http://base.itree.com/parques/3569403> <http://base.itree.com/hasDireccion> "CALLE VIRGEN DE NURIA" .
+<http://base.itree.com/parques/5005553> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/5214758> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/5215845> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/parques/4997227> <http://base.itree.com/hasDistrito> "5" .
+<http://base.itree.com/parques/4998027> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/parques/3580440> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996548> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/5003681> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/4997996> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/5148516> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/parques/5003497> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/4996556> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/4997997> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/5203827> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/5003319> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/4998011> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/parques/3570074> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/3575532> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/3570069> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4996549> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/4996591> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/parques/6293496> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996526> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/parques/3570072> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/3575536> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4996562> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/4997144> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/parques/4996551> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/3580438> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996521> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4996527> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/3580437> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/5003496> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/4996516> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/5003499> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/3570066> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4997032> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/parques/5003208> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/4997998> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/4996537> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/4996525> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4997995> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/3575539> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4996546> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/parques/4996524> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4996530> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/4996531> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/4996575> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/5000253> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/4996986> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/parques/4996495> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/3569057> <http://base.itree.com/hasDistrito> "21" .
+<http://base.itree.com/parques/3575535> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4997994> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/4996522> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4996529> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/4998041> <http://base.itree.com/hasDistrito> "3" .
+<http://base.itree.com/parques/3580439> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996498> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/parques/4997999> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/7163446> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/4996586> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/parques/3580434> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/3570070> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/3575533> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4996547> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/parques/5211510> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/4996540> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/4996514> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4996517> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/3569404> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4998023> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/5214761> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/parques/4996528> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/3580441> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/5214741> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/7872575> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/4996519> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/3580433> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/3575538> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4996545> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/parques/7872635> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/5003401> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/4996554> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/7872577> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/4996536> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/3570073> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/5107681> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/4996500> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/4997171> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/parques/4996550> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/3570067> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/5003458> <http://base.itree.com/hasDistrito> "1" .
+<http://base.itree.com/parques/4996553> <http://base.itree.com/hasDistrito> "14" .
+<http://base.itree.com/parques/4996520> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4997956> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/4996539> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/4997902> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/3575534> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/5005554> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/7243273> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/3570075> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4996660> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/parques/5003498> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/3569403> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4996523> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/4997212> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/parques/4996532> <http://base.itree.com/hasDistrito> "17" .
+<http://base.itree.com/parques/4997200> <http://base.itree.com/hasDistrito> "4" .
+<http://base.itree.com/parques/4996533> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/4996484> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/4997993> <http://base.itree.com/hasDistrito> "9" .
+<http://base.itree.com/parques/4996676> <http://base.itree.com/hasDistrito> "2" .
+<http://base.itree.com/parques/5068828> <http://base.itree.com/hasDistrito> "18" .
+<http://base.itree.com/parques/4996493> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/parques/5003417> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/4997300> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/8781349> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/4996497> <http://base.itree.com/hasDistrito> "12" .
+<http://base.itree.com/parques/3570068> <http://base.itree.com/hasDistrito> "15" .
+<http://base.itree.com/parques/3575537> <http://base.itree.com/hasDistrito> "16" .
+<http://base.itree.com/parques/4996578> <http://base.itree.com/hasDistrito> "11" .
+<http://base.itree.com/parques/5183029> <http://base.itree.com/hasDistrito> "8" .
+<http://base.itree.com/parques/5235589> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/5003407> <http://base.itree.com/hasDistrito> "7" .
+<http://base.itree.com/parques/4996518> <http://base.itree.com/hasDistrito> "19" .
+<http://base.itree.com/parques/5003500> <http://base.itree.com/hasDistrito> "6" .
+<http://base.itree.com/parques/3580432> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996559> <http://base.itree.com/hasDistrito> "13" .
+<http://base.itree.com/parques/4998010> <http://base.itree.com/hasDistrito> "10" .
+<http://base.itree.com/parques/4991235> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/3580436> <http://base.itree.com/hasDistrito> "20" .
+<http://base.itree.com/parques/4996550> <http://base.itree.com/hasBarrio> "141" .
+<http://base.itree.com/parques/4996529> <http://base.itree.com/hasBarrio> "174" .
+<http://base.itree.com/parques/4996527> <http://base.itree.com/hasBarrio> "175" .
+<http://base.itree.com/parques/5203827> <http://base.itree.com/hasBarrio> "97" .
+<http://base.itree.com/parques/5003407> <http://base.itree.com/hasBarrio> "75" .
+<http://base.itree.com/parques/3580436> <http://base.itree.com/hasBarrio> "204" .
+<http://base.itree.com/parques/4996493> <http://base.itree.com/hasBarrio> "121" .
+<http://base.itree.com/parques/4996498> <http://base.itree.com/hasBarrio> "121" .
+<http://base.itree.com/parques/5003458> <http://base.itree.com/hasBarrio> "12" .
+<http://base.itree.com/parques/4996537> <http://base.itree.com/hasBarrio> "112" .
+<http://base.itree.com/parques/3580441> <http://base.itree.com/hasBarrio> "205" .
+<http://base.itree.com/parques/4996578> <http://base.itree.com/hasBarrio> "115" .
+<http://base.itree.com/parques/4996519> <http://base.itree.com/hasBarrio> "191" .
+<http://base.itree.com/parques/5003208> <http://base.itree.com/hasBarrio> "83" .
+<http://base.itree.com/parques/4996549> <http://base.itree.com/hasBarrio> "143" .
+<http://base.itree.com/parques/5148516> <http://base.itree.com/hasBarrio> "31" .
+<http://base.itree.com/parques/4997032> <http://base.itree.com/hasBarrio> "36" .
+<http://base.itree.com/parques/5235589> <http://base.itree.com/hasBarrio> "133" .
+<http://base.itree.com/parques/4996575> <http://base.itree.com/hasBarrio> "134" .
+<http://base.itree.com/parques/6293496> <http://base.itree.com/hasBarrio> "206" .
+<http://base.itree.com/parques/3569057> <http://base.itree.com/hasBarrio> "213" .
+<http://base.itree.com/parques/4996530> <http://base.itree.com/hasBarrio> "171" .
+<http://base.itree.com/parques/5003499> <http://base.itree.com/hasBarrio> "65" .
+<http://base.itree.com/parques/4996536> <http://base.itree.com/hasBarrio> "113" .
+<http://base.itree.com/parques/3580433> <http://base.itree.com/hasBarrio> "207" .
+<http://base.itree.com/parques/5214758> <http://base.itree.com/hasBarrio> "93" .
+<http://base.itree.com/parques/4996548> <http://base.itree.com/hasBarrio> "146" .
+<http://base.itree.com/parques/4998010> <http://base.itree.com/hasBarrio> "103" .
+<http://base.itree.com/parques/5003496> <http://base.itree.com/hasBarrio> "62" .
+<http://base.itree.com/parques/3570073> <http://base.itree.com/hasBarrio> "159" .
+<http://base.itree.com/parques/5003498> <http://base.itree.com/hasBarrio> "62" .
+<http://base.itree.com/parques/3580440> <http://base.itree.com/hasBarrio> "204" .
+<http://base.itree.com/parques/4996516> <http://base.itree.com/hasBarrio> "191" .
+<http://base.itree.com/parques/4997956> <http://base.itree.com/hasBarrio> "93" .
+<http://base.itree.com/parques/8781349> <http://base.itree.com/hasBarrio> "152" .
+<http://base.itree.com/parques/3570067> <http://base.itree.com/hasBarrio> "152" .
+<http://base.itree.com/parques/4996523> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/5214741> <http://base.itree.com/hasBarrio> "104" .
+<http://base.itree.com/parques/4997212> <http://base.itree.com/hasBarrio> "44" .
+<http://base.itree.com/parques/3570069> <http://base.itree.com/hasBarrio> "152" .
+<http://base.itree.com/parques/5003401> <http://base.itree.com/hasBarrio> "72" .
+<http://base.itree.com/parques/7872575> <http://base.itree.com/hasBarrio> "86" .
+<http://base.itree.com/parques/4996545> <http://base.itree.com/hasBarrio> "181" .
+<http://base.itree.com/parques/3569403> <http://base.itree.com/hasBarrio> "154" .
+<http://base.itree.com/parques/4996520> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/5214761> <http://base.itree.com/hasBarrio> "24" .
+<http://base.itree.com/parques/4996556> <http://base.itree.com/hasBarrio> "135" .
+<http://base.itree.com/parques/4996553> <http://base.itree.com/hasBarrio> "141" .
+<http://base.itree.com/parques/5003319> <http://base.itree.com/hasBarrio> "107" .
+<http://base.itree.com/parques/3569404> <http://base.itree.com/hasBarrio> "153" .
+<http://base.itree.com/parques/4996514> <http://base.itree.com/hasBarrio> "193" .
+<http://base.itree.com/parques/4996586> <http://base.itree.com/hasBarrio> "24" .
+<http://base.itree.com/parques/3575534> <http://base.itree.com/hasBarrio> "165" .
+<http://base.itree.com/parques/5003417> <http://base.itree.com/hasBarrio> "72" .
+<http://base.itree.com/parques/4996559> <http://base.itree.com/hasBarrio> "131" .
+<http://base.itree.com/parques/4996484> <http://base.itree.com/hasBarrio> "76" .
+<http://base.itree.com/parques/5068828> <http://base.itree.com/hasBarrio> "183" .
+<http://base.itree.com/parques/3575532> <http://base.itree.com/hasBarrio> "165" .
+<http://base.itree.com/parques/4996539> <http://base.itree.com/hasBarrio> "117" .
+<http://base.itree.com/parques/4997902> <http://base.itree.com/hasBarrio> "83" .
+<http://base.itree.com/parques/3575535> <http://base.itree.com/hasBarrio> "166" .
+<http://base.itree.com/parques/4996525> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/4997200> <http://base.itree.com/hasBarrio> "44" .
+<http://base.itree.com/parques/4996551> <http://base.itree.com/hasBarrio> "145" .
+<http://base.itree.com/parques/4996676> <http://base.itree.com/hasBarrio> "26" .
+<http://base.itree.com/parques/4998041> <http://base.itree.com/hasBarrio> "33" .
+<http://base.itree.com/parques/4996497> <http://base.itree.com/hasBarrio> "123" .
+<http://base.itree.com/parques/4997994> <http://base.itree.com/hasBarrio> "95" .
+<http://base.itree.com/parques/4996533> <http://base.itree.com/hasBarrio> "114" .
+<http://base.itree.com/parques/3570074> <http://base.itree.com/hasBarrio> "152" .
+<http://base.itree.com/parques/4991235> <http://base.itree.com/hasBarrio> "206" .
+<http://base.itree.com/parques/3575537> <http://base.itree.com/hasBarrio> "164" .
+<http://base.itree.com/parques/3570066> <http://base.itree.com/hasBarrio> "154" .
+<http://base.itree.com/parques/4996532> <http://base.itree.com/hasBarrio> "171" .
+<http://base.itree.com/parques/4996547> <http://base.itree.com/hasBarrio> "181" .
+<http://base.itree.com/parques/3580437> <http://base.itree.com/hasBarrio> "204" .
+<http://base.itree.com/parques/7163446> <http://base.itree.com/hasBarrio> "76" .
+<http://base.itree.com/parques/5211510> <http://base.itree.com/hasBarrio> "65" .
+<http://base.itree.com/parques/5183029> <http://base.itree.com/hasBarrio> "85" .
+<http://base.itree.com/parques/3580439> <http://base.itree.com/hasBarrio> "207" .
+<http://base.itree.com/parques/4997300> <http://base.itree.com/hasBarrio> "104" .
+<http://base.itree.com/parques/3575538> <http://base.itree.com/hasBarrio> "165" .
+<http://base.itree.com/parques/5003681> <http://base.itree.com/hasBarrio> "64" .
+<http://base.itree.com/parques/4996531> <http://base.itree.com/hasBarrio> "175" .
+<http://base.itree.com/parques/4996562> <http://base.itree.com/hasBarrio> "133" .
+<http://base.itree.com/parques/4996517> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/4998023> <http://base.itree.com/hasBarrio> "102" .
+<http://base.itree.com/parques/5215845> <http://base.itree.com/hasBarrio> "43" .
+<http://base.itree.com/parques/3570075> <http://base.itree.com/hasBarrio> "151" .
+<http://base.itree.com/parques/4996526> <http://base.itree.com/hasBarrio> "126" .
+<http://base.itree.com/parques/3570068> <http://base.itree.com/hasBarrio> "159" .
+<http://base.itree.com/parques/4996546> <http://base.itree.com/hasBarrio> "181" .
+<http://base.itree.com/parques/4996660> <http://base.itree.com/hasBarrio> "22" .
+<http://base.itree.com/parques/7243273> <http://base.itree.com/hasBarrio> "76" .
+<http://base.itree.com/parques/4997999> <http://base.itree.com/hasBarrio> "97" .
+<http://base.itree.com/parques/4996591> <http://base.itree.com/hasBarrio> "25" .
+<http://base.itree.com/parques/4996986> <http://base.itree.com/hasBarrio> "31" .
+<http://base.itree.com/parques/3580434> <http://base.itree.com/hasBarrio> "207" .
+<http://base.itree.com/parques/7872577> <http://base.itree.com/hasBarrio> "86" .
+<http://base.itree.com/parques/3575539> <http://base.itree.com/hasBarrio> "164" .
+<http://base.itree.com/parques/4997171> <http://base.itree.com/hasBarrio> "44" .
+<http://base.itree.com/parques/4998011> <http://base.itree.com/hasBarrio> "32" .
+<http://base.itree.com/parques/3580438> <http://base.itree.com/hasBarrio> "204" .
+<http://base.itree.com/parques/4997993> <http://base.itree.com/hasBarrio> "97" .
+<http://base.itree.com/parques/5005554> <http://base.itree.com/hasBarrio> "65" .
+<http://base.itree.com/parques/5107681> <http://base.itree.com/hasBarrio> "145" .
+<http://base.itree.com/parques/3570072> <http://base.itree.com/hasBarrio> "151" .
+<http://base.itree.com/parques/3575533> <http://base.itree.com/hasBarrio> "164" .
+<http://base.itree.com/parques/4997144> <http://base.itree.com/hasBarrio> "43" .
+<http://base.itree.com/parques/3575536> <http://base.itree.com/hasBarrio> "162" .
+<http://base.itree.com/parques/5005553> <http://base.itree.com/hasBarrio> "64" .
+<http://base.itree.com/parques/4996524> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/4996495> <http://base.itree.com/hasBarrio> "114" .
+<http://base.itree.com/parques/4996521> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/3570070> <http://base.itree.com/hasBarrio> "151" .
+<http://base.itree.com/parques/4997995> <http://base.itree.com/hasBarrio> "94" .
+<http://base.itree.com/parques/4996540> <http://base.itree.com/hasBarrio> "115" .
+<http://base.itree.com/parques/4997998> <http://base.itree.com/hasBarrio> "84" .
+<http://base.itree.com/parques/4996528> <http://base.itree.com/hasBarrio> "173" .
+<http://base.itree.com/parques/7872635> <http://base.itree.com/hasBarrio> "83" .
+<http://base.itree.com/parques/3580432> <http://base.itree.com/hasBarrio> "206" .
+<http://base.itree.com/parques/4997997> <http://base.itree.com/hasBarrio> "107" .
+<http://base.itree.com/parques/4996522> <http://base.itree.com/hasBarrio> "191" .
+<http://base.itree.com/parques/4997996> <http://base.itree.com/hasBarrio> "94" .
+<http://base.itree.com/parques/5003500> <http://base.itree.com/hasBarrio> "64" .
+<http://base.itree.com/parques/5003497> <http://base.itree.com/hasBarrio> "63" .
+<http://base.itree.com/parques/4996554> <http://base.itree.com/hasBarrio> "136" .
+<http://base.itree.com/parques/4996518> <http://base.itree.com/hasBarrio> "192" .
+<http://base.itree.com/parques/5000253> <http://base.itree.com/hasBarrio> "107" .
+<http://base.itree.com/parques/4997227> <http://base.itree.com/hasBarrio> "54" .
+<http://base.itree.com/parques/4998027> <http://base.itree.com/hasBarrio> "126" .
+<http://base.itree.com/parques/4996500> <http://base.itree.com/hasBarrio> "116" .
+<http://base.itree.com/parques/4997200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4998011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4998023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5214758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3569403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/8781349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4998010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4998027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3569057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/7872635> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4998041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/7872577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5235589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/7872575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5005554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5211510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5214741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/7163446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996556> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5215845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5107681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5214761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5148516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5000253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/7243273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3569404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5068828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4991235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3575532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4997902> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3580432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/6293496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5203827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5005553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5003497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/3570068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/5183029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/parques/4996518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://base.itree.com/Parque_Canino> .
+<http://base.itree.com/distrito/12/Cedrus%20deodara> <http://www.w3.org/2000/01/rdf-schemalabel> "Cedrus deodara" .
+<http://base.itree.com/distrito/12> <http://www.w3.org/2000/01/rdf-schemalabel> "USERA" .
+<http://base.itree.com/distrito/16> <http://www.w3.org/2000/01/rdf-schemalabel> "HORTALEZA" .
+<http://base.itree.com/distrito/17/Catalpa%20bignonioides> <http://www.w3.org/2000/01/rdf-schemalabel> "Catalpa bignonioides" .
+<http://base.itree.com/distrito/3/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/10/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/21/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/11/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/12/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/10/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/11/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/2/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/13/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/6/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/7/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/13/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/11/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/11/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/17/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/5> <http://www.w3.org/2000/01/rdf-schemalabel> "CHAMARTIN" .
+<http://base.itree.com/distrito/19/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/15/Prunus%20dulcis> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus dulcis" .
+<http://base.itree.com/distrito/15/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/1/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/5/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/8/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/17/Pinus%20halepensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus halepensis" .
+<http://base.itree.com/distrito/16/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/16/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/20/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/21/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/10/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/3/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/5/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/12/Platanus%20orientalis> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus orientalis" .
+<http://base.itree.com/distrito/18/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/20/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/7/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/2/Gleditsia%20triacanthos> <http://www.w3.org/2000/01/rdf-schemalabel> "Gleditsia triacanthos" .
+<http://base.itree.com/distrito/1/Pyrus%20calleryana%20%27Chanticleer%27> <http://www.w3.org/2000/01/rdf-schemalabel> "Pyrus calleryana \'Chanticleer\'" .
+<http://base.itree.com/distrito/18/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/16/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/16/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/14/Acer%20pseudoplatanus> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer pseudoplatanus" .
+<http://base.itree.com/distrito/3/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/6/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/13/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/11/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/20/Pinus%20halepensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus halepensis" .
+<http://base.itree.com/distrito/21/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/3/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/8/Populus%20x%20canadensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Populus x canadensis" .
+<http://base.itree.com/distrito/13/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/4/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/15/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/18/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/4/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/21> <http://www.w3.org/2000/01/rdf-schemalabel> "BARAJAS" .
+<http://base.itree.com/distrito/3/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/6> <http://www.w3.org/2000/01/rdf-schemalabel> "TETUAN" .
+<http://base.itree.com/distrito/6/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/12/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/19> <http://www.w3.org/2000/01/rdf-schemalabel> "VICÁLVARO" .
+<http://base.itree.com/distrito/4/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/13/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/1/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/10/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/3/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/12/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/7/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/20/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/2/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/1/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/8/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/13/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/16/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/19> <http://www.w3.org/2000/01/rdf-schemalabel> "VICALVARO" .
+<http://base.itree.com/distrito/2/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/7/Cercis%20siliquastrum> <http://www.w3.org/2000/01/rdf-schemalabel> "Cercis siliquastrum" .
+<http://base.itree.com/distrito/5/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/1/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/4/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/21/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/1/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/13/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/2/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/14/Platanus%20orientalis> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus orientalis" .
+<http://base.itree.com/distrito/6/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/17/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/15/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/19/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/10/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/3/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/8/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/14/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/21/Pinus%20halepensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus halepensis" .
+<http://base.itree.com/distrito/14/Catalpa%20bignonioides> <http://www.w3.org/2000/01/rdf-schemalabel> "Catalpa bignonioides" .
+<http://base.itree.com/distrito/4/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/9/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/7/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/18/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/17> <http://www.w3.org/2000/01/rdf-schemalabel> "VILLAVERDE" .
+<http://base.itree.com/distrito/9/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/8/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/21/Catalpa%20bignonioides> <http://www.w3.org/2000/01/rdf-schemalabel> "Catalpa bignonioides" .
+<http://base.itree.com/distrito/16/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/18/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/21/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/15/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/5/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/12/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/15/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/8> <http://www.w3.org/2000/01/rdf-schemalabel> "FUENCARRAL-EL PARDO" .
+<http://base.itree.com/distrito/20/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/14/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/19/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/8/Morus%20alba> <http://www.w3.org/2000/01/rdf-schemalabel> "Morus alba" .
+<http://base.itree.com/distrito/4/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/13/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/7/Fraxinus%20angustifolia> <http://www.w3.org/2000/01/rdf-schemalabel> "Fraxinus angustifolia" .
+<http://base.itree.com/distrito/18/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/15/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/2> <http://www.w3.org/2000/01/rdf-schemalabel> "ARGANZUELA" .
+<http://base.itree.com/distrito/14/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/4> <http://www.w3.org/2000/01/rdf-schemalabel> "SALAMANCA" .
+<http://base.itree.com/distrito/13/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/5/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/14/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/18/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/2/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/11/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/17/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/19/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/9/Catalpa%20bignonioides> <http://www.w3.org/2000/01/rdf-schemalabel> "Catalpa bignonioides" .
+<http://base.itree.com/distrito/2/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/12/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/7/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/5/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/17/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/10/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/16/Populus%20alba> <http://www.w3.org/2000/01/rdf-schemalabel> "Populus alba" .
+<http://base.itree.com/distrito/16/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/5/Populus%20alba%20%27Bolleana%27> <http://www.w3.org/2000/01/rdf-schemalabel> "Populus alba \'Bolleana\'" .
+<http://base.itree.com/distrito/20/Ulmus%20sp> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus sp" .
+<http://base.itree.com/distrito/8/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/5/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/11/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/4/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/10/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/6/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/12/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/13/Catalpa%20bignonioides> <http://www.w3.org/2000/01/rdf-schemalabel> "Catalpa bignonioides" .
+<http://base.itree.com/distrito/7> <http://www.w3.org/2000/01/rdf-schemalabel> "CHAMBERÍ" .
+<http://base.itree.com/distrito/19/Pyrus%20calleryana> <http://www.w3.org/2000/01/rdf-schemalabel> "Pyrus calleryana" .
+<http://base.itree.com/distrito/5/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/8/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/8/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/3/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/21/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/20> <http://www.w3.org/2000/01/rdf-schemalabel> "SAN BLAS-CANILLEJAS" .
+<http://base.itree.com/distrito/18/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/10/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/13/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/2/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/19/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/17/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/13/Platanus%20orientalis> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus orientalis" .
+<http://base.itree.com/distrito/7/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/7/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/18/Pinus%20halepensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus halepensis" .
+<http://base.itree.com/distrito/10/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/5/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/5/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/8/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/4/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/9/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/6> <http://www.w3.org/2000/01/rdf-schemalabel> "TETUÁN" .
+<http://base.itree.com/distrito/2/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/14/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/16/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/20/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/21/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/3> <http://www.w3.org/2000/01/rdf-schemalabel> "RETIRO" .
+<http://base.itree.com/distrito/9/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/3/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/6/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/11/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/20/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/2/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/19/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/1/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/6/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/16/Ulmus%20minor> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus minor" .
+<http://base.itree.com/distrito/20/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/8/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/18> <http://www.w3.org/2000/01/rdf-schemalabel> "VILLA DE VALLECAS" .
+<http://base.itree.com/distrito/20/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/2/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/4/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/9/Cupressus%20arizonica> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus arizonica" .
+<http://base.itree.com/distrito/14/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/21/Gleditsia%20triacanthos> <http://www.w3.org/2000/01/rdf-schemalabel> "Gleditsia triacanthos" .
+<http://base.itree.com/distrito/14/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/18/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/5/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/8/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/11> <http://www.w3.org/2000/01/rdf-schemalabel> "CARABANCHEL" .
+<http://base.itree.com/distrito/16/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/19/Celtis%20australis> <http://www.w3.org/2000/01/rdf-schemalabel> "Celtis australis" .
+<http://base.itree.com/distrito/3/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/20/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/4/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/20> <http://www.w3.org/2000/01/rdf-schemalabel> "SAN BLAS - CANILLEJAS" .
+<http://base.itree.com/distrito/17/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/11/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/9/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/11/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/12/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/8/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/7> <http://www.w3.org/2000/01/rdf-schemalabel> "CHAMBERI" .
+<http://base.itree.com/distrito/10/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/16/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/19/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/12/Prunus%20cerasifera> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera" .
+<http://base.itree.com/distrito/15/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/1/Cercis%20siliquastrum> <http://www.w3.org/2000/01/rdf-schemalabel> "Cercis siliquastrum" .
+<http://base.itree.com/distrito/9> <http://www.w3.org/2000/01/rdf-schemalabel> "MONCLOA-ARAVACA" .
+<http://base.itree.com/distrito/6/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/9/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/17/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/1> <http://www.w3.org/2000/01/rdf-schemalabel> "CENTRO" .
+<http://base.itree.com/distrito/16/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/3/Liquidambar%20styraciflua> <http://www.w3.org/2000/01/rdf-schemalabel> "Liquidambar styraciflua" .
+<http://base.itree.com/distrito/19/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/11/Gleditsia%20triacanthos> <http://www.w3.org/2000/01/rdf-schemalabel> "Gleditsia triacanthos" .
+<http://base.itree.com/distrito/7/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/12/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/7/Koelreuteria%20paniculata> <http://www.w3.org/2000/01/rdf-schemalabel> "Koelreuteria paniculata" .
+<http://base.itree.com/distrito/21/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/9/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/12/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/8/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/3/Cupressus%20x%20leylandii> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus x leylandii" .
+<http://base.itree.com/distrito/9/Ulmus%20pumila> <http://www.w3.org/2000/01/rdf-schemalabel> "Ulmus pumila" .
+<http://base.itree.com/distrito/19/Platanus%20orientalis> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus orientalis" .
+<http://base.itree.com/distrito/5> <http://www.w3.org/2000/01/rdf-schemalabel> "CHAMARTÍN" .
+<http://base.itree.com/distrito/4/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/16/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/17/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/15/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/13/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/15/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/17/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/17/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/18/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/3/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/8/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/17/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/15> <http://www.w3.org/2000/01/rdf-schemalabel> "CIUDAD LINEAL" .
+<http://base.itree.com/distrito/1/Ligustrum%20japonicum%20%27Variegatum%27> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum \'Variegatum\'" .
+<http://base.itree.com/distrito/9/Acer%20negundo> <http://www.w3.org/2000/01/rdf-schemalabel> "Acer negundo" .
+<http://base.itree.com/distrito/10/Styphnolobium%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Styphnolobium japonicum" .
+<http://base.itree.com/distrito/6/Cupressus%20sempervirens> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus sempervirens" .
+<http://base.itree.com/distrito/14/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/9/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/21/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/11/Melia%20azedarach> <http://www.w3.org/2000/01/rdf-schemalabel> "Melia azedarach" .
+<http://base.itree.com/distrito/10/Aesculus%20hippocastanum> <http://www.w3.org/2000/01/rdf-schemalabel> "Aesculus hippocastanum" .
+<http://base.itree.com/distrito/7/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/15/Pinus%20halepensis> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus halepensis" .
+<http://base.itree.com/distrito/3/Cupressus%20arizonica> <http://www.w3.org/2000/01/rdf-schemalabel> "Cupressus arizonica" .
+<http://base.itree.com/distrito/9/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/21/Robinia%20pseudoacacia> <http://www.w3.org/2000/01/rdf-schemalabel> "Robinia pseudoacacia" .
+<http://base.itree.com/distrito/7/Prunus%20cerasifera%20subsp.%20pissardii> <http://www.w3.org/2000/01/rdf-schemalabel> "Prunus cerasifera subsp. pissardii" .
+<http://base.itree.com/distrito/6/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/6/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/12/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/13> <http://www.w3.org/2000/01/rdf-schemalabel> "PUENTE DE VALLECAS" .
+<http://base.itree.com/distrito/15/Pinus%20pinea> <http://www.w3.org/2000/01/rdf-schemalabel> "Pinus pinea" .
+<http://base.itree.com/distrito/20/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/10> <http://www.w3.org/2000/01/rdf-schemalabel> "LATINA" .
+<http://base.itree.com/distrito/2/Ligustrum%20japonicum> <http://www.w3.org/2000/01/rdf-schemalabel> "Ligustrum japonicum" .
+<http://base.itree.com/distrito/11/Platanus%20x%20hispanica> <http://www.w3.org/2000/01/rdf-schemalabel> "Platanus x hispanica" .
+<http://base.itree.com/distrito/16/Otros> <http://www.w3.org/2000/01/rdf-schemalabel> "Otros" .
+<http://base.itree.com/distrito/8> <http://www.w3.org/2000/01/rdf-schemalabel> "FUENCARRAL - EL PARDO" .
+<http://base.itree.com/distrito/14> <http://www.w3.org/2000/01/rdf-schemalabel> "MORATALAZ" .
