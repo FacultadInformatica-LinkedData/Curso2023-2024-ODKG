@@ -8,4 +8,4 @@ g = morph_kgc.materialize(CONFIG_MAPPING)
 
 # Write Graph
 with open(OUT_GRAPH, "w") as f:
-    f.write(g.serialize(format="nt"))
+    f.write(g.serialize(format="ttl"))

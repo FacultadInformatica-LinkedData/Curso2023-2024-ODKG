@@ -31,6 +31,12 @@ rr:subjectMap [
  rr:termType rr:Literal ;
  rr:datatype xsd:string
  ] 
+  ];
+    rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "{same_as_wikidata_state}"
+ ] 
   ].
 
 <#CountryMapping>
@@ -50,6 +56,12 @@ rr:subjectMap [
   rml:reference "COUNTRY"; 
  rr:termType rr:Literal ;
  rr:datatype xsd:string
+ ] 
+  ];
+    rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "{same_as_wikidata_country}"
  ] 
   ].
 
@@ -72,8 +84,13 @@ rr:subjectMap [
  rr:termType rr:Literal ;
  rr:datatype xsd:string
  ] 
+  ];
+rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "{same_as_wikidata_city}"
+ ] 
   ].
-
 
 <#UniversityMapping>
  rml:logicalSource [ 
@@ -189,6 +206,12 @@ rr:predicateObjectMap [
   rr:joinCondition [
   rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
   ]
+  ];
+    rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "{same_as_wikidata_name}"
+ ] 
   ].
 
 
