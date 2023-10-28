@@ -1,40 +1,45 @@
 PREFIX nso: <http://madridwastemanagement.org/group01/ontology/>
-
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 # Qurey 1:  Give all districts and their waste amount yearly
-SELECT ?district ?year (SUM(?totalValue) AS ?totalAmount)
+SELECT ?districtInstance ?year (SUM(?total) as ?yearlyWasteAmount)
 WHERE {
-    ?total nso:referedTo ?district ;
-           nso:hasYear ?year ;
-           nso:value ?totalValue .
+  ?totalInstance a nso:Total ;
+                 nso:referedTo ?districtInstance ;
+                 nso:year ?year ;
+                 nso:value ?total .
+
 }
-GROUP BY ?district ?year
-ORDER BY ?district ?year
+GROUP BY ?districtInstance ?year
+ORDER BY ?districtInstance ?year
+
 
 
 # Query 2: Give all districts and their waste amount monthly
 SELECT ?district ?year ?month (SUM(?totalValue) AS ?totalAmount)
 WHERE {
-    ?total nso:referedTo ?district ;
-           nso:hasYear ?year ;
-           nso:hasMonth ?month;
-           nso:value ?totalValue .
+      ?totalInstance a nso:Total ;
+                 nso:referedTo ?district ;
+                 nso:year ?year ;
+                 nso:month ?month;
+                 nso:value ?totalValue .
 }
 GROUP BY ?district ?year ?month
 ORDER BY ?district ?year 
 
 # Query 3: Give all the waste type name
-SELECT DISTINCT ?wasteName
+SELECT DISTINCT ?wasteTypeName
 WHERE {
-  ?s nso:hasResidue ?wasteType .
-  ?wasteType nso:wasteName ?wasteName
+  ?wasteTypeInstance a nso:WasteType ;
+                     rdfs:label ?wasteTypeName .
 }
+ORDER BY ?wasteTypeName
 
 # Query 4: Give the total amount by the waste type
 SELECT ?wasteName (SUM(?totalValue) AS ?totalAmount)
 WHERE {
     ?district nso:hasResidue ?wasteType .
-    ?wasteType nso:wasteName ?wasteName .
+    ?wasteType rdfs:label ?wasteName .
     ?wasteType nso:hasTotal ?total .
     ?total nso:value ?totalValue .
 }
@@ -43,20 +48,15 @@ ORDER BY ?wasteName
 
 
 # Query 5: Give details of the waste type in 2023
-SELECT ?wasteName ?yearValue (SUM(?totalValue) AS ?totalAmount)
+SELECT ?wasteTypeName (SUM(?totalValue) AS ?totalAmount)
 WHERE {
-    ?district nso:hasResidue ?wasteType .
-    ?wasteType nso:wasteName ?wasteName .
-    ?wasteType nso:hasTotal ?total .
-    ?total nso:value ?totalValue .
-    
-    ?total nso:hasYear ?yearURI .       
-    ?yearURI rdfs:label ?yearValue . 
-    FILTER (STRSTARTS(STR(?yearValue), "2023"))
-    
+  ?wasteTypeInstance a nso:WasteType ;
+                     rdfs:label ?wasteTypeName ;
+                     nso:hasTotal ?totalInstance.
+  ?totalInstance nso:value ?totalValue ;
+                 nso:year 2023.
 }
-GROUP BY ?wasteName ?yearValue
-ORDER BY ?wasteName ?yearValue
+GROUP BY ?wasteTypeName
 
 
 
