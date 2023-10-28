@@ -31,6 +31,13 @@ rr:subjectMap [
  rr:termType rr:Literal ;
  rr:datatype xsd:string
  ] 
+  ];
+     rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "https://wikidata.org/entity/{same_as_wikidata_state}";
+  rr:termType rr:IRI
+ ] 
   ].
 
 <#CountryMapping>
@@ -55,7 +62,7 @@ rr:subjectMap [
     rr:predicateObjectMap [ 
   rr:predicate owl:sameAs; 
   rr:objectMap [ 
-  rr:template "{same_as_wikidata_country}";
+  rr:template "https://wikidata.org/entity/{same_as_wikidata_country}";
   rr:termType rr:IRI
  ] 
   ].
@@ -78,6 +85,13 @@ rr:subjectMap [
   rml:reference "CITY"; 
  rr:termType rr:Literal ;
  rr:datatype xsd:string
+ ] 
+  ];
+     rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "https://wikidata.org/entity/{same_as_wikidata_city}";
+  rr:termType rr:IRI
  ] 
   ].
 
@@ -195,6 +209,13 @@ rr:predicateObjectMap [
   rr:joinCondition [
   rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
   ]
+  ];
+     rr:predicateObjectMap [ 
+  rr:predicate owl:sameAs; 
+  rr:objectMap [ 
+  rr:template "https://wikidata.org/entity/{same_as_wikidata_name}";
+  rr:termType rr:IRI
+ ] 
   ].
 
 
