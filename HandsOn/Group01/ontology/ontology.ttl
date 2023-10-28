@@ -61,11 +61,6 @@ nso:districtID a owl:DatatypeProperty ;
     rdfs:domain nso:District ;
     rdfs:range xsd:integer .
 
-nso:wasteName a owl:DatatypeProperty ;
-    rdfs:label "wasteName" ;
-    rdfs:domain nso:WasteType ;
-    rdfs:range xsd:string .
-
 nso:districtName a owl:DatatypeProperty ;
     rdfs:label "districtName" ;
     rdfs:domain nso:District ;
