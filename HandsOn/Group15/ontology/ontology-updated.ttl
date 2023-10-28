@@ -1,0 +1,167 @@
+ @prefix : <https://www.barca_environmental_monitoring.es/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns:contaminantCode a owl:DatatypeProperty ;
+    rdfs:label "contaminant code" ;
+    rdfs:domain ns:AirContaminant ;
+    rdfs:range xsd:Integer .
+
+ns:contaminantName a owl:DatatypeProperty ;
+    rdfs:label "contaminant name" ;
+    rdfs:domain ns:AirContaminant ;
+    rdfs:range xsd:String .
+
+ns:cabinNumber a owl:DatatypeProperty ;
+    rdfs:label "cabin number" ;
+    rdfs:domain ns:AirQualityCabin ;
+    rdfs:range xsd:Integer .
+
+ns:cabinLatitude a owl:DatatypeProperty ;
+    rdfs:label "cabin latitude" ;
+    rdfs:domain ns:AirQualityCabin ;
+    rdfs:range xsd:Decimal .
+
+ns:cabinLongitude a owl:DatatypeProperty ;
+    rdfs:label "cabin longitude" ;
+    rdfs:domain ns:AirQualityCabin ;
+    rdfs:range xsd:Decimal .
+
+ns:cityName a owl:DatatypeProperty ;
+    rdfs:label "city name" ;
+    rdfs:domain ns:City ;
+    rdfs:range xsd:String .
+
+ns:districtNumber a owl:DatatypeProperty ;
+    rdfs:label "district number" ;
+    rdfs:domain ns:District ;
+    rdfs:range xsd:Integer .
+
+ns:districtName a owl:DatatypeProperty ;
+    rdfs:label "district name" ;
+    rdfs:domain ns:District ;
+    rdfs:range xsd:String .
+
+ns:inCity a owl:ObjectProperty ;
+    rdfs:label "in city" ;
+    rdfs:domain ns:District ;
+    rdfs:range ns:City .
+
+ns:hasMeasured a owl:ObjectProperty ;
+    rdfs:label "has measured" ;
+    rdfs:domain ns:AirQualityCabin ;
+    rdfs:range ns:AirContaminant .
+
+ns:hasNeighbourhood a owl:ObjectProperty ;
+    rdfs:label "in neighbourhood" ;
+    rdfs:domain ns:District ;
+    rdfs:range ns:Neighbourhood .
+
+ns:recordedIn a owl:ObjectProperty ;
+    rdfs:label "has temperature" ;
+    rdfs:domain ns:Temperature ;
+    rdfs:range ns:City .
+
+ns:inNeighbourhood a owl:ObjectProperty ;
+    rdfs:label "in neighbourhood" ;
+    rdfs:domain ns:Address ;
+    rdfs:range ns:Neighbourhood .
+
+ns:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain ns:Temperature ;
+    rdfs:range xsd:String .
+
+ns:neighbourhoodNumber a owl:DatatypeProperty ;
+    rdfs:label "neighbourhood number" ;
+    rdfs:domain ns:Neighbourhood ;
+    rdfs:range xsd:Integer .
+
+ns:neighbourhoodName a owl:DatatypeProperty ;
+    rdfs:label "neighbourhood name" ;
+    rdfs:domain ns:Neighbourhood ;
+    rdfs:range xsd:String .
+
+ns:plantedAt a owl:ObjectProperty ;
+    rdfs:label "planted at" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range ns:Address .
+
+ns:stationedAt a owl:ObjectProperty ;
+    rdfs:label "stationed at" ;
+    rdfs:domain ns:AirQualityCabin ;
+    rdfs:range ns:Address .
+
+ns:addressName a owl:DatatypeProperty ;
+    rdfs:label "address name" ;
+    rdfs:domain ns:Address ;
+    rdfs:range xsd:String .
+
+ns:temperature a owl:DatatypeProperty ;
+    rdfs:label "temperature" ;
+    rdfs:domain ns:Temperature ;
+    rdfs:range xsd:Decimal .
+
+ns:treeCode a owl:DatatypeProperty ;
+    rdfs:label "tree code" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:String .
+
+ns:treeLatitude a owl:DatatypeProperty ;
+    rdfs:label "tree latitude" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:Decimal .
+
+ns:treeLongitude a owl:DatatypeProperty ;
+    rdfs:label "tree longitude" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:Decimal .
+
+ns:treeSpecies a owl:DatatypeProperty ;
+    rdfs:label "tree species" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:String .
+
+ns:unit a owl:DatatypeProperty ;
+    rdfs:label "unit" ;
+    rdfs:domain ns:AirContaminant ;
+    rdfs:range xsd:String .
+
+ns:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain ns:Temperature ;
+    rdfs:range xsd:Integer .
+
+: a owl:Ontology ;
+    dc:creator "Group 15" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Template Ontology" ;
+    owl:versionInfo "2.0" .
+
+ns:City a owl:Class ;
+    rdfs:label "City" .
+
+ns:District a owl:Class ;
+    rdfs:label "District" .
+
+ns:AirContaminant a owl:Class ;
+    rdfs:label "Air Contaminant" .
+
+ns:Neighbourhood a owl:Class ;
+    rdfs:label "Neighbourhood" .
+
+ns:Temperature a owl:Class ;
+    rdfs:label "Temperature" .
+
+ns:Tree a owl:Class ;
+    rdfs:label "Tree" .
+
+ns:Address a owl:Class ;
+    rdfs:label "Address" .
+
+ns:AirQualityCabin a owl:Class ;
+    rdfs:label "Air Quality Cabin" .
+

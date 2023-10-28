@@ -2,10 +2,24 @@
 
 ## Checklist
 
-**The openrefine directory:**
+**Every resource described in the CSV file:**
 
-- [X] contains a JSON file with the operations performed over the data for fixing and transforming them
-  
-**The csv directory:**
+- [x] Has a unique identifier in a column (not an auto-increased integer)
+- [x] Is related to a class in the ontology
 
-- [X] Contains a CSV file with the updated version of the dataset (“*-updated.csv”)
+**Every class in the ontology:**
+
+- [x] Is related to a resource described in the CSV file
+
+**Every column in the CSV file:**
+
+- [x] Is trimmed
+- [x] Is properly encoded (e.g., dates, booleans)
+- [x] Is related to a property in the ontology
+
+**Every property in the ontology:**
+
+- [x] Is related to a column in the CSV file
+
+## Comments on the self-assessment
+_(If required)_
