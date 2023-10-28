@@ -13,36 +13,32 @@ mappings:
   zonemap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/Zone/$(Zone)
+    s: http://madridwastemanagement.org/group01/data/Zone/Zone_$(Zone)
     po:
       - [a, nso:Zone]
+      - [rdfs:label,Zone_$(Zone),xsd:string]
       - [nso:zoneID,$(Zone),xsd:integer]
-      - p: nso:hasDistrict
-        o:
-          mapping: districtmap
+      - [nso:hasDistrict, http://madridwastemanagement.org/group01/data/District/District_$(District)]
 
   districtmap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/District/$(District)
+    s: http://madridwastemanagement.org/group01/data/District/District_$(District)
     po:
       - [a, nso:District]
+      - [rdfs:label,District_$(District),xsd:string]
       - [nso:districtID,$(District),xsd:integer]
       - [nso:districtName,$(Name),xsd:string]
-      - p: nso:hasResidue
-        o:
-          mapping: wastetypemap
+      - [nso:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)]
 
   wastetypemap:
     sources:
       - [Residuos_2021_2023-updated.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/WasteType/$(WasteType)
+    s: http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)
     po:
       - [a, nso:WasteType]
-      - [nso:wasteName,$(WasteType),xsd:string]
-      - p: nso:hasTotal
-        o:
-          mapping: totalmap
+      - [rdfs:label,$(WasteType),xsd:string]
+      - [nso:hasTotal, http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)]
 
   totalmap:
     sources:
@@ -53,6 +49,4 @@ mappings:
       - [nso:value,$(Total),xsd:float]
       - [nso:year,$(Year),xsd:integer]
       - [nso:month,$(Month),xsd:string]
-      - p: nso:referedTo
-        o:
-          mapping: districtmap
+      - [nso:referedTo, http://madridwastemanagement.org/group01/data/District/District_$(District)]
