@@ -15,7 +15,7 @@
 
 <#StateMapping>
  rml:logicalSource [ 
- rml:source "csv/us-colleges-and-universities-final-with-links.csv";
+ rml:source "csv/us-colleges-and-universities-final-with-links-unquoted.csv";
  rml:referenceFormulation ql:CSV
  ];
 rr:subjectMap [
@@ -70,7 +70,7 @@ rr:subjectMap [
 
 <#CityMapping>
  rml:logicalSource [ 
- rml:source "csv/us-colleges-and-universities-final-with-links.csv";
+ rml:source "csv/us-colleges-and-universities-final-with-links-unquoted.csv";
  rml:referenceFormulation ql:CSV
  ];
 rr:subjectMap [
@@ -97,7 +97,7 @@ rr:subjectMap [
 
 <#UniversityMapping>
  rml:logicalSource [ 
- rml:source "csv/us-colleges-and-universities-final-with-links.csv";
+ rml:source "csv/us-colleges-and-universities-final-with-links-unquoted.csv";
  rml:referenceFormulation ql:CSV
  ];
  rr:subjectMap [
