@@ -5,9 +5,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,January,1,CDW,8,Fuencarral - El Pardo,59.325
 2021,January,1,CDW,9,Moncloa - Aravaca,180.275
 2021,January,1,CDW,10,Latina,51.44
-2021,January,1,Clean points,8,Fuencarral - El Pardo,92.68
-2021,January,1,Clean points,9,Moncloa - Aravaca,170.6
-2021,January,1,Clean points,10,Latina,146.08
+2021,January,1,cleanPoints,8,Fuencarral - El Pardo,92.68
+2021,January,1,cleanPoints,9,Moncloa - Aravaca,170.6
+2021,January,1,cleanPoints,10,Latina,146.08
 2021,January,1,Clinicians,1,Centro,142.62
 2021,January,1,Clinicians,6,Tetuán,12.92
 2021,January,1,Clinicians,8,Fuencarral - El Pardo,271.96
@@ -20,7 +20,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,January,1,Glass,8,Fuencarral - El Pardo,440.3
 2021,January,1,Glass,9,Moncloa - Aravaca,207.18
 2021,January,1,Glass,10,Latina,223.04
-2021,January,1,Horse bed,9,Moncloa - Aravaca,54.45
+2021,January,1,horseBed,9,Moncloa - Aravaca,54.45
 2021,January,1,Organic,1,Centro,399.22
 2021,January,1,Organic,6,Tetuán,538.04
 2021,January,1,Organic,7,Chamberí,523.76
@@ -54,14 +54,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,January,2,CDW,19,Vicálvaro,17.66
 2021,January,2,CDW,20,San Blas - Canillejas,9.28
 2021,January,2,CDW,21,Barajas,9.54
-2021,January,2,Clean points,3,Retiro,4.6
-2021,January,2,Clean points,5,Chamartín,93.46
-2021,January,2,Clean points,14,Moratalaz,30.4
-2021,January,2,Clean points,15,Ciudad Lineal,50.02
-2021,January,2,Clean points,16,Hortaleza,50.92
-2021,January,2,Clean points,19,Vicálvaro,25.54
-2021,January,2,Clean points,20,San Blas - Canillejas,47.22
-2021,January,2,Clean points,21,Barajas,24.98
+2021,January,2,cleanPoints,3,Retiro,4.6
+2021,January,2,cleanPoints,5,Chamartín,93.46
+2021,January,2,cleanPoints,14,Moratalaz,30.4
+2021,January,2,cleanPoints,15,Ciudad Lineal,50.02
+2021,January,2,cleanPoints,16,Hortaleza,50.92
+2021,January,2,cleanPoints,19,Vicálvaro,25.54
+2021,January,2,cleanPoints,20,San Blas - Canillejas,47.22
+2021,January,2,cleanPoints,21,Barajas,24.98
 2021,January,2,Clinicians,3,Retiro,176.66
 2021,January,2,Clinicians,4,Salamanca,96.56
 2021,January,2,Clinicians,15,Ciudad Lineal,95.54
@@ -118,12 +118,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,January,3,CDW,13,Puente de Vallecas,17.89
 2021,January,3,CDW,17,Villaverde,35.86
 2021,January,3,CDW,18,Villa de Vallecas,32.96
-2021,January,3,Clean points,2,Arganzuela,61.36
-2021,January,3,Clean points,11,Carabanchel,24.52
-2021,January,3,Clean points,12,Usera,34.14
-2021,January,3,Clean points,13,Puente de Vallecas,33.2
-2021,January,3,Clean points,17,Villaverde,22.36
-2021,January,3,Clean points,18,Villa de Vallecas,64.74
+2021,January,3,cleanPoints,2,Arganzuela,61.36
+2021,January,3,cleanPoints,11,Carabanchel,24.52
+2021,January,3,cleanPoints,12,Usera,34.14
+2021,January,3,cleanPoints,13,Puente de Vallecas,33.2
+2021,January,3,cleanPoints,17,Villaverde,22.36
+2021,January,3,cleanPoints,18,Villa de Vallecas,64.74
 2021,January,3,Clinicians,12,Usera,153.06
 2021,January,3,Clinicians,13,Puente de Vallecas,29.86
 2021,January,3,Glass,2,Arganzuela,326.92
@@ -161,9 +161,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,February,1,CDW,8,Fuencarral - El Pardo,127.445
 2021,February,1,CDW,9,Moncloa - Aravaca,126.57
 2021,February,1,CDW,10,Latina,93.85
-2021,February,1,Clean points,8,Fuencarral - El Pardo,137.8
-2021,February,1,Clean points,9,Moncloa - Aravaca,369.76
-2021,February,1,Clean points,10,Latina,105.58
+2021,February,1,cleanPoints,8,Fuencarral - El Pardo,137.8
+2021,February,1,cleanPoints,9,Moncloa - Aravaca,369.76
+2021,February,1,cleanPoints,10,Latina,105.58
 2021,February,1,Clinicians,1,Centro,147.5
 2021,February,1,Clinicians,6,Tetuán,12.1
 2021,February,1,Clinicians,8,Fuencarral - El Pardo,273.68
@@ -175,7 +175,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,February,1,Glass,8,Fuencarral - El Pardo,413.26
 2021,February,1,Glass,9,Moncloa - Aravaca,187.06
 2021,February,1,Glass,10,Latina,178.48
-2021,February,1,Horse bed,9,Moncloa - Aravaca,43.23
+2021,February,1,horseBed,9,Moncloa - Aravaca,43.23
 2021,February,1,Organic,1,Centro,616.04
 2021,February,1,Organic,6,Tetuán,748.42
 2021,February,1,Organic,7,Chamberí,757.76
@@ -209,14 +209,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,February,2,CDW,19,Vicálvaro,28.54
 2021,February,2,CDW,20,San Blas - Canillejas,43.86
 2021,February,2,CDW,21,Barajas,16.82
-2021,February,2,Clean points,3,Retiro,2.48
-2021,February,2,Clean points,5,Chamartín,109.76
-2021,February,2,Clean points,14,Moratalaz,52.0
-2021,February,2,Clean points,15,Ciudad Lineal,68.84
-2021,February,2,Clean points,16,Hortaleza,70.56
-2021,February,2,Clean points,19,Vicálvaro,35.66
-2021,February,2,Clean points,20,San Blas - Canillejas,65.98
-2021,February,2,Clean points,21,Barajas,36.88
+2021,February,2,cleanPoints,3,Retiro,2.48
+2021,February,2,cleanPoints,5,Chamartín,109.76
+2021,February,2,cleanPoints,14,Moratalaz,52.0
+2021,February,2,cleanPoints,15,Ciudad Lineal,68.84
+2021,February,2,cleanPoints,16,Hortaleza,70.56
+2021,February,2,cleanPoints,19,Vicálvaro,35.66
+2021,February,2,cleanPoints,20,San Blas - Canillejas,65.98
+2021,February,2,cleanPoints,21,Barajas,36.88
 2021,February,2,Clinicians,3,Retiro,169.78
 2021,February,2,Clinicians,4,Salamanca,105.52
 2021,February,2,Clinicians,15,Ciudad Lineal,111.88
@@ -271,12 +271,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,February,3,CDW,13,Puente de Vallecas,68.04
 2021,February,3,CDW,17,Villaverde,51.52
 2021,February,3,CDW,18,Villa de Vallecas,70.42
-2021,February,3,Clean points,2,Arganzuela,87.14
-2021,February,3,Clean points,11,Carabanchel,39.28
-2021,February,3,Clean points,12,Usera,35.12
-2021,February,3,Clean points,13,Puente de Vallecas,40.7
-2021,February,3,Clean points,17,Villaverde,49.88
-2021,February,3,Clean points,18,Villa de Vallecas,84.36
+2021,February,3,cleanPoints,2,Arganzuela,87.14
+2021,February,3,cleanPoints,11,Carabanchel,39.28
+2021,February,3,cleanPoints,12,Usera,35.12
+2021,February,3,cleanPoints,13,Puente de Vallecas,40.7
+2021,February,3,cleanPoints,17,Villaverde,49.88
+2021,February,3,cleanPoints,18,Villa de Vallecas,84.36
 2021,February,3,Clinicians,12,Usera,142.92
 2021,February,3,Clinicians,13,Puente de Vallecas,31.9
 2021,February,3,Clothes,2,Arganzuela,0.18
@@ -316,9 +316,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,March,1,CDW,8,Fuencarral - El Pardo,161.4
 2021,March,1,CDW,9,Moncloa - Aravaca,126.935
 2021,March,1,CDW,10,Latina,107.385
-2021,March,1,Clean points,8,Fuencarral - El Pardo,152.22
-2021,March,1,Clean points,9,Moncloa - Aravaca,178.62
-2021,March,1,Clean points,10,Latina,85.76
+2021,March,1,cleanPoints,8,Fuencarral - El Pardo,152.22
+2021,March,1,cleanPoints,9,Moncloa - Aravaca,178.62
+2021,March,1,cleanPoints,10,Latina,85.76
 2021,March,1,Clinicians,1,Centro,175.96
 2021,March,1,Clinicians,6,Tetuán,12.4
 2021,March,1,Clinicians,8,Fuencarral - El Pardo,317.44
@@ -331,7 +331,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,March,1,Glass,8,Fuencarral - El Pardo,460.3
 2021,March,1,Glass,9,Moncloa - Aravaca,241.8
 2021,March,1,Glass,10,Latina,205.46
-2021,March,1,Horse bed,9,Moncloa - Aravaca,57.41
+2021,March,1,horseBed,9,Moncloa - Aravaca,57.41
 2021,March,1,Organic,1,Centro,706.58
 2021,March,1,Organic,6,Tetuán,809.38
 2021,March,1,Organic,7,Chamberí,828.12
@@ -364,14 +364,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,March,2,CDW,19,Vicálvaro,5.97
 2021,March,2,CDW,20,San Blas - Canillejas,27.16
 2021,March,2,CDW,21,Barajas,10.52
-2021,March,2,Clean points,3,Retiro,6.36
-2021,March,2,Clean points,5,Chamartín,129.74
-2021,March,2,Clean points,14,Moratalaz,64.26
-2021,March,2,Clean points,15,Ciudad Lineal,74.76
-2021,March,2,Clean points,16,Hortaleza,75.32
-2021,March,2,Clean points,19,Vicálvaro,33.5
-2021,March,2,Clean points,20,San Blas - Canillejas,83.72
-2021,March,2,Clean points,21,Barajas,43.48
+2021,March,2,cleanPoints,3,Retiro,6.36
+2021,March,2,cleanPoints,5,Chamartín,129.74
+2021,March,2,cleanPoints,14,Moratalaz,64.26
+2021,March,2,cleanPoints,15,Ciudad Lineal,74.76
+2021,March,2,cleanPoints,16,Hortaleza,75.32
+2021,March,2,cleanPoints,19,Vicálvaro,33.5
+2021,March,2,cleanPoints,20,San Blas - Canillejas,83.72
+2021,March,2,cleanPoints,21,Barajas,43.48
 2021,March,2,Clinicians,3,Retiro,188.72
 2021,March,2,Clinicians,4,Salamanca,119.92
 2021,March,2,Clinicians,15,Ciudad Lineal,123.16
@@ -426,12 +426,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,March,3,CDW,13,Puente de Vallecas,61.85
 2021,March,3,CDW,17,Villaverde,58.16
 2021,March,3,CDW,18,Villa de Vallecas,86.1
-2021,March,3,Clean points,2,Arganzuela,83.72
-2021,March,3,Clean points,11,Carabanchel,53.84
-2021,March,3,Clean points,12,Usera,47.82
-2021,March,3,Clean points,13,Puente de Vallecas,39.9
-2021,March,3,Clean points,17,Villaverde,46.6
-2021,March,3,Clean points,18,Villa de Vallecas,86.58
+2021,March,3,cleanPoints,2,Arganzuela,83.72
+2021,March,3,cleanPoints,11,Carabanchel,53.84
+2021,March,3,cleanPoints,12,Usera,47.82
+2021,March,3,cleanPoints,13,Puente de Vallecas,39.9
+2021,March,3,cleanPoints,17,Villaverde,46.6
+2021,March,3,cleanPoints,18,Villa de Vallecas,86.58
 2021,March,3,Clinicians,12,Usera,161.9
 2021,March,3,Clinicians,13,Puente de Vallecas,35.88
 2021,March,3,Clothes,2,Arganzuela,0.36
@@ -471,9 +471,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,April,1,CDW,8,Fuencarral - El Pardo,152.14
 2021,April,1,CDW,9,Moncloa - Aravaca,158.42
 2021,April,1,CDW,10,Latina,117.875
-2021,April,1,Clean points,8,Fuencarral - El Pardo,145.36
-2021,April,1,Clean points,9,Moncloa - Aravaca,205.94
-2021,April,1,Clean points,10,Latina,76.76
+2021,April,1,cleanPoints,8,Fuencarral - El Pardo,145.36
+2021,April,1,cleanPoints,9,Moncloa - Aravaca,205.94
+2021,April,1,cleanPoints,10,Latina,76.76
 2021,April,1,Clinicians,1,Centro,169.78
 2021,April,1,Clinicians,6,Tetuán,11.78
 2021,April,1,Clinicians,8,Fuencarral - El Pardo,295.04
@@ -488,7 +488,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,April,1,Glass,8,Fuencarral - El Pardo,437.94
 2021,April,1,Glass,9,Moncloa - Aravaca,182.48
 2021,April,1,Glass,10,Latina,185.06
-2021,April,1,Horse bed,9,Moncloa - Aravaca,54.985
+2021,April,1,horseBed,9,Moncloa - Aravaca,54.985
 2021,April,1,Organic,1,Centro,690.72
 2021,April,1,Organic,6,Tetuán,795.7
 2021,April,1,Organic,7,Chamberí,797.36
@@ -522,14 +522,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,April,2,CDW,19,Vicálvaro,31.86
 2021,April,2,CDW,20,San Blas - Canillejas,51.64
 2021,April,2,CDW,21,Barajas,24.4
-2021,April,2,Clean points,3,Retiro,2.3
-2021,April,2,Clean points,5,Chamartín,122.02
-2021,April,2,Clean points,14,Moratalaz,56.06
-2021,April,2,Clean points,15,Ciudad Lineal,75.32
-2021,April,2,Clean points,16,Hortaleza,77.54
-2021,April,2,Clean points,19,Vicálvaro,26.34
-2021,April,2,Clean points,20,San Blas - Canillejas,89.7
-2021,April,2,Clean points,21,Barajas,38.22
+2021,April,2,cleanPoints,3,Retiro,2.3
+2021,April,2,cleanPoints,5,Chamartín,122.02
+2021,April,2,cleanPoints,14,Moratalaz,56.06
+2021,April,2,cleanPoints,15,Ciudad Lineal,75.32
+2021,April,2,cleanPoints,16,Hortaleza,77.54
+2021,April,2,cleanPoints,19,Vicálvaro,26.34
+2021,April,2,cleanPoints,20,San Blas - Canillejas,89.7
+2021,April,2,cleanPoints,21,Barajas,38.22
 2021,April,2,Clinicians,3,Retiro,174.28
 2021,April,2,Clinicians,4,Salamanca,114.78
 2021,April,2,Clinicians,15,Ciudad Lineal,115.9
@@ -584,12 +584,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,April,3,CDW,13,Puente de Vallecas,62.64
 2021,April,3,CDW,17,Villaverde,38.64
 2021,April,3,CDW,18,Villa de Vallecas,63.535
-2021,April,3,Clean points,2,Arganzuela,73.58
-2021,April,3,Clean points,11,Carabanchel,45.2
-2021,April,3,Clean points,12,Usera,47.54
-2021,April,3,Clean points,13,Puente de Vallecas,42.3
-2021,April,3,Clean points,17,Villaverde,55.44
-2021,April,3,Clean points,18,Villa de Vallecas,76.48
+2021,April,3,cleanPoints,2,Arganzuela,73.58
+2021,April,3,cleanPoints,11,Carabanchel,45.2
+2021,April,3,cleanPoints,12,Usera,47.54
+2021,April,3,cleanPoints,13,Puente de Vallecas,42.3
+2021,April,3,cleanPoints,17,Villaverde,55.44
+2021,April,3,cleanPoints,18,Villa de Vallecas,76.48
 2021,April,3,Clinicians,12,Usera,142.58
 2021,April,3,Clinicians,13,Puente de Vallecas,34.52
 2021,April,3,Glass,2,Arganzuela,309.44
@@ -628,9 +628,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,May,1,CDW,8,Fuencarral - El Pardo,182.815
 2021,May,1,CDW,9,Moncloa - Aravaca,136.495
 2021,May,1,CDW,10,Latina,85.345
-2021,May,1,Clean points,8,Fuencarral - El Pardo,143.04
-2021,May,1,Clean points,9,Moncloa - Aravaca,182.52
-2021,May,1,Clean points,10,Latina,65.38
+2021,May,1,cleanPoints,8,Fuencarral - El Pardo,143.04
+2021,May,1,cleanPoints,9,Moncloa - Aravaca,182.52
+2021,May,1,cleanPoints,10,Latina,65.38
 2021,May,1,Clinicians,1,Centro,168.74
 2021,May,1,Clinicians,6,Tetuán,15.52
 2021,May,1,Clinicians,8,Fuencarral - El Pardo,298.54
@@ -643,7 +643,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,May,1,Glass,8,Fuencarral - El Pardo,422.7
 2021,May,1,Glass,9,Moncloa - Aravaca,179.04
 2021,May,1,Glass,10,Latina,214.32
-2021,May,1,Horse bed,9,Moncloa - Aravaca,59.015
+2021,May,1,horseBed,9,Moncloa - Aravaca,59.015
 2021,May,1,Organic,1,Centro,763.32
 2021,May,1,Organic,6,Tetuán,850.78
 2021,May,1,Organic,7,Chamberí,884.12
@@ -675,14 +675,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,May,2,CDW,16,Hortaleza,17.84
 2021,May,2,CDW,20,San Blas - Canillejas,15.44
 2021,May,2,CDW,21,Barajas,11.7
-2021,May,2,Clean points,3,Retiro,3.06
-2021,May,2,Clean points,5,Chamartín,105.44
-2021,May,2,Clean points,14,Moratalaz,55.7
-2021,May,2,Clean points,15,Ciudad Lineal,74.48
-2021,May,2,Clean points,16,Hortaleza,66.2
-2021,May,2,Clean points,19,Vicálvaro,32.78
-2021,May,2,Clean points,20,San Blas - Canillejas,77.02
-2021,May,2,Clean points,21,Barajas,34.24
+2021,May,2,cleanPoints,3,Retiro,3.06
+2021,May,2,cleanPoints,5,Chamartín,105.44
+2021,May,2,cleanPoints,14,Moratalaz,55.7
+2021,May,2,cleanPoints,15,Ciudad Lineal,74.48
+2021,May,2,cleanPoints,16,Hortaleza,66.2
+2021,May,2,cleanPoints,19,Vicálvaro,32.78
+2021,May,2,cleanPoints,20,San Blas - Canillejas,77.02
+2021,May,2,cleanPoints,21,Barajas,34.24
 2021,May,2,Clinicians,3,Retiro,180.0
 2021,May,2,Clinicians,4,Salamanca,116.74
 2021,May,2,Clinicians,15,Ciudad Lineal,116.22
@@ -737,12 +737,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,May,3,CDW,13,Puente de Vallecas,64.61
 2021,May,3,CDW,17,Villaverde,48.97
 2021,May,3,CDW,18,Villa de Vallecas,167.35
-2021,May,3,Clean points,2,Arganzuela,80.96
-2021,May,3,Clean points,11,Carabanchel,39.56
-2021,May,3,Clean points,12,Usera,33.48
-2021,May,3,Clean points,13,Puente de Vallecas,43.1
-2021,May,3,Clean points,17,Villaverde,58.82
-2021,May,3,Clean points,18,Villa de Vallecas,80.82
+2021,May,3,cleanPoints,2,Arganzuela,80.96
+2021,May,3,cleanPoints,11,Carabanchel,39.56
+2021,May,3,cleanPoints,12,Usera,33.48
+2021,May,3,cleanPoints,13,Puente de Vallecas,43.1
+2021,May,3,cleanPoints,17,Villaverde,58.82
+2021,May,3,cleanPoints,18,Villa de Vallecas,80.82
 2021,May,3,Clinicians,12,Usera,159.54
 2021,May,3,Clinicians,13,Puente de Vallecas,33.58
 2021,May,3,Glass,2,Arganzuela,315.14
@@ -781,9 +781,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,June,1,CDW,8,Fuencarral - El Pardo,155.895
 2021,June,1,CDW,9,Moncloa - Aravaca,176.62
 2021,June,1,CDW,10,Latina,108.155
-2021,June,1,Clean points,8,Fuencarral - El Pardo,144.68
-2021,June,1,Clean points,9,Moncloa - Aravaca,155.38
-2021,June,1,Clean points,10,Latina,134.94
+2021,June,1,cleanPoints,8,Fuencarral - El Pardo,144.68
+2021,June,1,cleanPoints,9,Moncloa - Aravaca,155.38
+2021,June,1,cleanPoints,10,Latina,134.94
 2021,June,1,Clinicians,1,Centro,178.74
 2021,June,1,Clinicians,6,Tetuán,13.36
 2021,June,1,Clinicians,8,Fuencarral - El Pardo,307.82
@@ -795,7 +795,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,June,1,Glass,8,Fuencarral - El Pardo,417.18
 2021,June,1,Glass,9,Moncloa - Aravaca,179.18
 2021,June,1,Glass,10,Latina,199.46
-2021,June,1,Horse bed,9,Moncloa - Aravaca,57.23
+2021,June,1,horseBed,9,Moncloa - Aravaca,57.23
 2021,June,1,Organic,1,Centro,772.74
 2021,June,1,Organic,6,Tetuán,827.54
 2021,June,1,Organic,7,Chamberí,875.26
@@ -829,14 +829,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,June,2,CDW,19,Vicálvaro,71.35
 2021,June,2,CDW,20,San Blas - Canillejas,25.71
 2021,June,2,CDW,21,Barajas,18.39
-2021,June,2,Clean points,3,Retiro,0.64
-2021,June,2,Clean points,5,Chamartín,113.28
-2021,June,2,Clean points,14,Moratalaz,70.86
-2021,June,2,Clean points,15,Ciudad Lineal,77.3
-2021,June,2,Clean points,16,Hortaleza,83.38
-2021,June,2,Clean points,19,Vicálvaro,27.5
-2021,June,2,Clean points,20,San Blas - Canillejas,77.0
-2021,June,2,Clean points,21,Barajas,36.44
+2021,June,2,cleanPoints,3,Retiro,0.64
+2021,June,2,cleanPoints,5,Chamartín,113.28
+2021,June,2,cleanPoints,14,Moratalaz,70.86
+2021,June,2,cleanPoints,15,Ciudad Lineal,77.3
+2021,June,2,cleanPoints,16,Hortaleza,83.38
+2021,June,2,cleanPoints,19,Vicálvaro,27.5
+2021,June,2,cleanPoints,20,San Blas - Canillejas,77.0
+2021,June,2,cleanPoints,21,Barajas,36.44
 2021,June,2,Clinicians,3,Retiro,185.7
 2021,June,2,Clinicians,4,Salamanca,130.6
 2021,June,2,Clinicians,15,Ciudad Lineal,122.66
@@ -891,12 +891,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,June,3,CDW,13,Puente de Vallecas,50.87
 2021,June,3,CDW,17,Villaverde,36.74
 2021,June,3,CDW,18,Villa de Vallecas,365.19
-2021,June,3,Clean points,2,Arganzuela,88.02
-2021,June,3,Clean points,11,Carabanchel,47.42
-2021,June,3,Clean points,12,Usera,31.28
-2021,June,3,Clean points,13,Puente de Vallecas,46.2
-2021,June,3,Clean points,17,Villaverde,49.2
-2021,June,3,Clean points,18,Villa de Vallecas,74.44
+2021,June,3,cleanPoints,2,Arganzuela,88.02
+2021,June,3,cleanPoints,11,Carabanchel,47.42
+2021,June,3,cleanPoints,12,Usera,31.28
+2021,June,3,cleanPoints,13,Puente de Vallecas,46.2
+2021,June,3,cleanPoints,17,Villaverde,49.2
+2021,June,3,cleanPoints,18,Villa de Vallecas,74.44
 2021,June,3,Clinicians,12,Usera,164.76
 2021,June,3,Clinicians,13,Puente de Vallecas,38.54
 2021,June,3,Glass,2,Arganzuela,275.24
@@ -935,9 +935,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,July,1,CDW,8,Fuencarral - El Pardo,152.845
 2021,July,1,CDW,9,Moncloa - Aravaca,112.615
 2021,July,1,CDW,10,Latina,104.345
-2021,July,1,Clean points,8,Fuencarral - El Pardo,143.1
-2021,July,1,Clean points,9,Moncloa - Aravaca,184.44
-2021,July,1,Clean points,10,Latina,187.76
+2021,July,1,cleanPoints,8,Fuencarral - El Pardo,143.1
+2021,July,1,cleanPoints,9,Moncloa - Aravaca,184.44
+2021,July,1,cleanPoints,10,Latina,187.76
 2021,July,1,Clinicians,1,Centro,158.14
 2021,July,1,Clinicians,6,Tetuán,12.02
 2021,July,1,Clinicians,8,Fuencarral - El Pardo,290.08
@@ -949,7 +949,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,July,1,Glass,8,Fuencarral - El Pardo,394.58
 2021,July,1,Glass,9,Moncloa - Aravaca,169.82
 2021,July,1,Glass,10,Latina,185.92
-2021,July,1,Horse bed,9,Moncloa - Aravaca,52.99
+2021,July,1,horseBed,9,Moncloa - Aravaca,52.99
 2021,July,1,Organic,1,Centro,750.28
 2021,July,1,Organic,6,Tetuán,733.34
 2021,July,1,Organic,7,Chamberí,764.1
@@ -981,14 +981,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,July,2,CDW,19,Vicálvaro,32.665
 2021,July,2,CDW,20,San Blas - Canillejas,46.375
 2021,July,2,CDW,21,Barajas,8.83
-2021,July,2,Clean points,3,Retiro,3.88
-2021,July,2,Clean points,5,Chamartín,112.04
-2021,July,2,Clean points,14,Moratalaz,47.74
-2021,July,2,Clean points,15,Ciudad Lineal,76.62
-2021,July,2,Clean points,16,Hortaleza,83.56
-2021,July,2,Clean points,19,Vicálvaro,32.38
-2021,July,2,Clean points,20,San Blas - Canillejas,74.16
-2021,July,2,Clean points,21,Barajas,39.5
+2021,July,2,cleanPoints,3,Retiro,3.88
+2021,July,2,cleanPoints,5,Chamartín,112.04
+2021,July,2,cleanPoints,14,Moratalaz,47.74
+2021,July,2,cleanPoints,15,Ciudad Lineal,76.62
+2021,July,2,cleanPoints,16,Hortaleza,83.56
+2021,July,2,cleanPoints,19,Vicálvaro,32.38
+2021,July,2,cleanPoints,20,San Blas - Canillejas,74.16
+2021,July,2,cleanPoints,21,Barajas,39.5
 2021,July,2,Clinicians,3,Retiro,174.46
 2021,July,2,Clinicians,4,Salamanca,107.46
 2021,July,2,Clinicians,15,Ciudad Lineal,108.36
@@ -1037,12 +1037,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,July,2,Rest,19,Vicálvaro,1964.74
 2021,July,2,Rest,20,San Blas - Canillejas,2404.0
 2021,July,2,Rest,21,Barajas,768.74
-2021,July,3,Clean points,2,Arganzuela,68.28
-2021,July,3,Clean points,11,Carabanchel,42.16
-2021,July,3,Clean points,12,Usera,40.32
-2021,July,3,Clean points,13,Puente de Vallecas,40.66
-2021,July,3,Clean points,17,Villaverde,41.06
-2021,July,3,Clean points,18,Villa de Vallecas,96.14
+2021,July,3,cleanPoints,2,Arganzuela,68.28
+2021,July,3,cleanPoints,11,Carabanchel,42.16
+2021,July,3,cleanPoints,12,Usera,40.32
+2021,July,3,cleanPoints,13,Puente de Vallecas,40.66
+2021,July,3,cleanPoints,17,Villaverde,41.06
+2021,July,3,cleanPoints,18,Villa de Vallecas,96.14
 2021,July,3,Clinicians,12,Usera,150.64
 2021,July,3,Clinicians,13,Puente de Vallecas,36.16
 2021,July,3,Glass,2,Arganzuela,240.3
@@ -1081,9 +1081,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,August,1,CDW,8,Fuencarral - El Pardo,136.565
 2021,August,1,CDW,9,Moncloa - Aravaca,147.725
 2021,August,1,CDW,10,Latina,113.175
-2021,August,1,Clean points,8,Fuencarral - El Pardo,120.24
-2021,August,1,Clean points,9,Moncloa - Aravaca,127.72
-2021,August,1,Clean points,10,Latina,93.16
+2021,August,1,cleanPoints,8,Fuencarral - El Pardo,120.24
+2021,August,1,cleanPoints,9,Moncloa - Aravaca,127.72
+2021,August,1,cleanPoints,10,Latina,93.16
 2021,August,1,Clinicians,1,Centro,129.72
 2021,August,1,Clinicians,6,Tetuán,12.3
 2021,August,1,Clinicians,8,Fuencarral - El Pardo,254.36
@@ -1095,7 +1095,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,August,1,Glass,8,Fuencarral - El Pardo,315.3
 2021,August,1,Glass,9,Moncloa - Aravaca,140.76
 2021,August,1,Glass,10,Latina,139.48
-2021,August,1,Horse bed,9,Moncloa - Aravaca,51.55
+2021,August,1,horseBed,9,Moncloa - Aravaca,51.55
 2021,August,1,Organic,1,Centro,678.34
 2021,August,1,Organic,6,Tetuán,632.52
 2021,August,1,Organic,7,Chamberí,506.08
@@ -1129,14 +1129,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,August,2,CDW,19,Vicálvaro,11.3
 2021,August,2,CDW,20,San Blas - Canillejas,29.58
 2021,August,2,CDW,21,Barajas,13.34
-2021,August,2,Clean points,3,Retiro,3.8
-2021,August,2,Clean points,5,Chamartín,84.8
-2021,August,2,Clean points,14,Moratalaz,54.16
-2021,August,2,Clean points,15,Ciudad Lineal,60.7
-2021,August,2,Clean points,16,Hortaleza,64.6
-2021,August,2,Clean points,19,Vicálvaro,25.2
-2021,August,2,Clean points,20,San Blas - Canillejas,56.7
-2021,August,2,Clean points,21,Barajas,34.62
+2021,August,2,cleanPoints,3,Retiro,3.8
+2021,August,2,cleanPoints,5,Chamartín,84.8
+2021,August,2,cleanPoints,14,Moratalaz,54.16
+2021,August,2,cleanPoints,15,Ciudad Lineal,60.7
+2021,August,2,cleanPoints,16,Hortaleza,64.6
+2021,August,2,cleanPoints,19,Vicálvaro,25.2
+2021,August,2,cleanPoints,20,San Blas - Canillejas,56.7
+2021,August,2,cleanPoints,21,Barajas,34.62
 2021,August,2,Clinicians,3,Retiro,150.58
 2021,August,2,Clinicians,4,Salamanca,77.3
 2021,August,2,Clinicians,15,Ciudad Lineal,87.0
@@ -1191,12 +1191,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,August,3,CDW,13,Puente de Vallecas,53.69
 2021,August,3,CDW,17,Villaverde,51.98
 2021,August,3,CDW,18,Villa de Vallecas,98.65
-2021,August,3,Clean points,2,Arganzuela,59.46
-2021,August,3,Clean points,11,Carabanchel,29.92
-2021,August,3,Clean points,12,Usera,32.82
-2021,August,3,Clean points,13,Puente de Vallecas,35.7
-2021,August,3,Clean points,17,Villaverde,44.56
-2021,August,3,Clean points,18,Villa de Vallecas,60.6
+2021,August,3,cleanPoints,2,Arganzuela,59.46
+2021,August,3,cleanPoints,11,Carabanchel,29.92
+2021,August,3,cleanPoints,12,Usera,32.82
+2021,August,3,cleanPoints,13,Puente de Vallecas,35.7
+2021,August,3,cleanPoints,17,Villaverde,44.56
+2021,August,3,cleanPoints,18,Villa de Vallecas,60.6
 2021,August,3,Clinicians,12,Usera,138.84
 2021,August,3,Clinicians,13,Puente de Vallecas,31.62
 2021,August,3,Glass,2,Arganzuela,219.28
@@ -1235,9 +1235,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,September,1,CDW,8,Fuencarral - El Pardo,96.37
 2021,September,1,CDW,9,Moncloa - Aravaca,163.23
 2021,September,1,CDW,10,Latina,75.48
-2021,September,1,Clean points,8,Fuencarral - El Pardo,148.82
-2021,September,1,Clean points,9,Moncloa - Aravaca,159.86
-2021,September,1,Clean points,10,Latina,176.32
+2021,September,1,cleanPoints,8,Fuencarral - El Pardo,148.82
+2021,September,1,cleanPoints,9,Moncloa - Aravaca,159.86
+2021,September,1,cleanPoints,10,Latina,176.32
 2021,September,1,Clinicians,1,Centro,168.56
 2021,September,1,Clinicians,6,Tetuán,10.14
 2021,September,1,Clinicians,8,Fuencarral - El Pardo,285.48
@@ -1250,7 +1250,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,September,1,Glass,8,Fuencarral - El Pardo,333.82
 2021,September,1,Glass,9,Moncloa - Aravaca,166.4
 2021,September,1,Glass,10,Latina,163.46
-2021,September,1,Horse bed,9,Moncloa - Aravaca,47.99
+2021,September,1,horseBed,9,Moncloa - Aravaca,47.99
 2021,September,1,Organic,1,Centro,828.24
 2021,September,1,Organic,6,Tetuán,774.2
 2021,September,1,Organic,7,Chamberí,802.18
@@ -1284,14 +1284,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,September,2,CDW,19,Vicálvaro,22.72
 2021,September,2,CDW,20,San Blas - Canillejas,21.1
 2021,September,2,CDW,21,Barajas,50.68
-2021,September,2,Clean points,3,Retiro,6.52
-2021,September,2,Clean points,5,Chamartín,124.52
-2021,September,2,Clean points,14,Moratalaz,53.82
-2021,September,2,Clean points,15,Ciudad Lineal,65.8
-2021,September,2,Clean points,16,Hortaleza,75.34
-2021,September,2,Clean points,19,Vicálvaro,24.3
-2021,September,2,Clean points,20,San Blas - Canillejas,88.18
-2021,September,2,Clean points,21,Barajas,35.5
+2021,September,2,cleanPoints,3,Retiro,6.52
+2021,September,2,cleanPoints,5,Chamartín,124.52
+2021,September,2,cleanPoints,14,Moratalaz,53.82
+2021,September,2,cleanPoints,15,Ciudad Lineal,65.8
+2021,September,2,cleanPoints,16,Hortaleza,75.34
+2021,September,2,cleanPoints,19,Vicálvaro,24.3
+2021,September,2,cleanPoints,20,San Blas - Canillejas,88.18
+2021,September,2,cleanPoints,21,Barajas,35.5
 2021,September,2,Clinicians,3,Retiro,169.96
 2021,September,2,Clinicians,4,Salamanca,108.5
 2021,September,2,Clinicians,15,Ciudad Lineal,112.08
@@ -1346,12 +1346,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,September,3,CDW,13,Puente de Vallecas,40.98
 2021,September,3,CDW,17,Villaverde,52.19
 2021,September,3,CDW,18,Villa de Vallecas,115.27
-2021,September,3,Clean points,2,Arganzuela,75.62
-2021,September,3,Clean points,11,Carabanchel,40.14
-2021,September,3,Clean points,12,Usera,32.42
-2021,September,3,Clean points,13,Puente de Vallecas,42.12
-2021,September,3,Clean points,17,Villaverde,46.96
-2021,September,3,Clean points,18,Villa de Vallecas,63.26
+2021,September,3,cleanPoints,2,Arganzuela,75.62
+2021,September,3,cleanPoints,11,Carabanchel,40.14
+2021,September,3,cleanPoints,12,Usera,32.42
+2021,September,3,cleanPoints,13,Puente de Vallecas,42.12
+2021,September,3,cleanPoints,17,Villaverde,46.96
+2021,September,3,cleanPoints,18,Villa de Vallecas,63.26
 2021,September,3,Clinicians,12,Usera,145.6
 2021,September,3,Clinicians,13,Puente de Vallecas,36.56
 2021,September,3,Clothes,18,Villa de Vallecas,0.18
@@ -1391,9 +1391,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,October,1,CDW,8,Fuencarral - El Pardo,114.54
 2021,October,1,CDW,9,Moncloa - Aravaca,91.88
 2021,October,1,CDW,10,Latina,65.185
-2021,October,1,Clean points,8,Fuencarral - El Pardo,144.16
-2021,October,1,Clean points,9,Moncloa - Aravaca,87.5
-2021,October,1,Clean points,10,Latina,135.78
+2021,October,1,cleanPoints,8,Fuencarral - El Pardo,144.16
+2021,October,1,cleanPoints,9,Moncloa - Aravaca,87.5
+2021,October,1,cleanPoints,10,Latina,135.78
 2021,October,1,Clinicians,1,Centro,177.72
 2021,October,1,Clinicians,6,Tetuán,15.6
 2021,October,1,Clinicians,8,Fuencarral - El Pardo,320.76
@@ -1407,7 +1407,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,October,1,Glass,8,Fuencarral - El Pardo,397.38
 2021,October,1,Glass,9,Moncloa - Aravaca,170.82
 2021,October,1,Glass,10,Latina,188.2
-2021,October,1,Horse bed,9,Moncloa - Aravaca,43.525
+2021,October,1,horseBed,9,Moncloa - Aravaca,43.525
 2021,October,1,Organic,1,Centro,945.14
 2021,October,1,Organic,6,Tetuán,787.14
 2021,October,1,Organic,7,Chamberí,892.52
@@ -1441,14 +1441,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,October,2,CDW,19,Vicálvaro,27.66
 2021,October,2,CDW,20,San Blas - Canillejas,31.74
 2021,October,2,CDW,21,Barajas,31.06
-2021,October,2,Clean points,3,Retiro,2.62
-2021,October,2,Clean points,5,Chamartín,107.76
-2021,October,2,Clean points,14,Moratalaz,45.98
-2021,October,2,Clean points,15,Ciudad Lineal,74.82
-2021,October,2,Clean points,16,Hortaleza,70.16
-2021,October,2,Clean points,19,Vicálvaro,23.7
-2021,October,2,Clean points,20,San Blas - Canillejas,69.48
-2021,October,2,Clean points,21,Barajas,32.72
+2021,October,2,cleanPoints,3,Retiro,2.62
+2021,October,2,cleanPoints,5,Chamartín,107.76
+2021,October,2,cleanPoints,14,Moratalaz,45.98
+2021,October,2,cleanPoints,15,Ciudad Lineal,74.82
+2021,October,2,cleanPoints,16,Hortaleza,70.16
+2021,October,2,cleanPoints,19,Vicálvaro,23.7
+2021,October,2,cleanPoints,20,San Blas - Canillejas,69.48
+2021,October,2,cleanPoints,21,Barajas,32.72
 2021,October,2,Clinicians,3,Retiro,179.38
 2021,October,2,Clinicians,4,Salamanca,118.7
 2021,October,2,Clinicians,15,Ciudad Lineal,124.34
@@ -1503,12 +1503,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,October,3,CDW,13,Puente de Vallecas,40.57
 2021,October,3,CDW,17,Villaverde,43.57
 2021,October,3,CDW,18,Villa de Vallecas,95.53
-2021,October,3,Clean points,2,Arganzuela,63.14
-2021,October,3,Clean points,11,Carabanchel,42.22
-2021,October,3,Clean points,12,Usera,32.12
-2021,October,3,Clean points,13,Puente de Vallecas,32.94
-2021,October,3,Clean points,17,Villaverde,47.7
-2021,October,3,Clean points,18,Villa de Vallecas,84.0
+2021,October,3,cleanPoints,2,Arganzuela,63.14
+2021,October,3,cleanPoints,11,Carabanchel,42.22
+2021,October,3,cleanPoints,12,Usera,32.12
+2021,October,3,cleanPoints,13,Puente de Vallecas,32.94
+2021,October,3,cleanPoints,17,Villaverde,47.7
+2021,October,3,cleanPoints,18,Villa de Vallecas,84.0
 2021,October,3,Clinicians,12,Usera,159.78
 2021,October,3,Clinicians,13,Puente de Vallecas,37.46
 2021,October,3,Glass,2,Arganzuela,256.18
@@ -1547,9 +1547,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,November,1,CDW,8,Fuencarral - El Pardo,107.59
 2021,November,1,CDW,9,Moncloa - Aravaca,90.99
 2021,November,1,CDW,10,Latina,90.17
-2021,November,1,Clean points,8,Fuencarral - El Pardo,122.62
-2021,November,1,Clean points,9,Moncloa - Aravaca,82.96
-2021,November,1,Clean points,10,Latina,124.14
+2021,November,1,cleanPoints,8,Fuencarral - El Pardo,122.62
+2021,November,1,cleanPoints,9,Moncloa - Aravaca,82.96
+2021,November,1,cleanPoints,10,Latina,124.14
 2021,November,1,Clinicians,1,Centro,182.36
 2021,November,1,Clinicians,6,Tetuán,13.12
 2021,November,1,Clinicians,8,Fuencarral - El Pardo,324.92
@@ -1561,7 +1561,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,November,1,Glass,8,Fuencarral - El Pardo,419.08
 2021,November,1,Glass,9,Moncloa - Aravaca,171.44
 2021,November,1,Glass,10,Latina,195.0
-2021,November,1,Horse bed,9,Moncloa - Aravaca,47.93
+2021,November,1,horseBed,9,Moncloa - Aravaca,47.93
 2021,November,1,Organic,1,Centro,959.4
 2021,November,1,Organic,6,Tetuán,764.5
 2021,November,1,Organic,7,Chamberí,876.1
@@ -1595,14 +1595,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,November,2,CDW,19,Vicálvaro,39.26
 2021,November,2,CDW,20,San Blas - Canillejas,75.74
 2021,November,2,CDW,21,Barajas,88.42
-2021,November,2,Clean points,3,Retiro,2.02
-2021,November,2,Clean points,5,Chamartín,95.92
-2021,November,2,Clean points,14,Moratalaz,57.88
-2021,November,2,Clean points,15,Ciudad Lineal,62.9
-2021,November,2,Clean points,16,Hortaleza,66.64
-2021,November,2,Clean points,19,Vicálvaro,19.34
-2021,November,2,Clean points,20,San Blas - Canillejas,58.52
-2021,November,2,Clean points,21,Barajas,35.06
+2021,November,2,cleanPoints,3,Retiro,2.02
+2021,November,2,cleanPoints,5,Chamartín,95.92
+2021,November,2,cleanPoints,14,Moratalaz,57.88
+2021,November,2,cleanPoints,15,Ciudad Lineal,62.9
+2021,November,2,cleanPoints,16,Hortaleza,66.64
+2021,November,2,cleanPoints,19,Vicálvaro,19.34
+2021,November,2,cleanPoints,20,San Blas - Canillejas,58.52
+2021,November,2,cleanPoints,21,Barajas,35.06
 2021,November,2,Clinicians,3,Retiro,178.64
 2021,November,2,Clinicians,4,Salamanca,123.42
 2021,November,2,Clinicians,15,Ciudad Lineal,125.08
@@ -1657,12 +1657,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,November,3,CDW,13,Puente de Vallecas,51.69
 2021,November,3,CDW,17,Villaverde,49.8
 2021,November,3,CDW,18,Villa de Vallecas,113.32
-2021,November,3,Clean points,2,Arganzuela,62.9
-2021,November,3,Clean points,11,Carabanchel,39.64
-2021,November,3,Clean points,12,Usera,23.24
-2021,November,3,Clean points,13,Puente de Vallecas,33.14
-2021,November,3,Clean points,17,Villaverde,33.92
-2021,November,3,Clean points,18,Villa de Vallecas,55.44
+2021,November,3,cleanPoints,2,Arganzuela,62.9
+2021,November,3,cleanPoints,11,Carabanchel,39.64
+2021,November,3,cleanPoints,12,Usera,23.24
+2021,November,3,cleanPoints,13,Puente de Vallecas,33.14
+2021,November,3,cleanPoints,17,Villaverde,33.92
+2021,November,3,cleanPoints,18,Villa de Vallecas,55.44
 2021,November,3,Clinicians,12,Usera,158.56
 2021,November,3,Clinicians,13,Puente de Vallecas,40.5
 2021,November,3,Glass,2,Arganzuela,284.06
@@ -1701,9 +1701,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,December,1,CDW,8,Fuencarral - El Pardo,60.18
 2021,December,1,CDW,9,Moncloa - Aravaca,53.06
 2021,December,1,CDW,10,Latina,44.72
-2021,December,1,Clean points,8,Fuencarral - El Pardo,109.44
-2021,December,1,Clean points,9,Moncloa - Aravaca,67.4
-2021,December,1,Clean points,10,Latina,110.28
+2021,December,1,cleanPoints,8,Fuencarral - El Pardo,109.44
+2021,December,1,cleanPoints,9,Moncloa - Aravaca,67.4
+2021,December,1,cleanPoints,10,Latina,110.28
 2021,December,1,Clinicians,1,Centro,164.72
 2021,December,1,Clinicians,6,Tetuán,14.38
 2021,December,1,Clinicians,8,Fuencarral - El Pardo,319.12
@@ -1715,7 +1715,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,December,1,Glass,8,Fuencarral - El Pardo,433.44
 2021,December,1,Glass,9,Moncloa - Aravaca,249.86
 2021,December,1,Glass,10,Latina,177.92
-2021,December,1,Horse bed,9,Moncloa - Aravaca,44.535
+2021,December,1,horseBed,9,Moncloa - Aravaca,44.535
 2021,December,1,Organic,1,Centro,977.26
 2021,December,1,Organic,6,Tetuán,774.42
 2021,December,1,Organic,7,Chamberí,891.52
@@ -1749,14 +1749,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,December,2,CDW,19,Vicálvaro,33.38
 2021,December,2,CDW,20,San Blas - Canillejas,54.42
 2021,December,2,CDW,21,Barajas,14.965
-2021,December,2,Clean points,3,Retiro,0.7
-2021,December,2,Clean points,5,Chamartín,91.72
-2021,December,2,Clean points,14,Moratalaz,43.98
-2021,December,2,Clean points,15,Ciudad Lineal,61.5
-2021,December,2,Clean points,16,Hortaleza,61.14
-2021,December,2,Clean points,19,Vicálvaro,19.46
-2021,December,2,Clean points,20,San Blas - Canillejas,57.76
-2021,December,2,Clean points,21,Barajas,19.84
+2021,December,2,cleanPoints,3,Retiro,0.7
+2021,December,2,cleanPoints,5,Chamartín,91.72
+2021,December,2,cleanPoints,14,Moratalaz,43.98
+2021,December,2,cleanPoints,15,Ciudad Lineal,61.5
+2021,December,2,cleanPoints,16,Hortaleza,61.14
+2021,December,2,cleanPoints,19,Vicálvaro,19.46
+2021,December,2,cleanPoints,20,San Blas - Canillejas,57.76
+2021,December,2,cleanPoints,21,Barajas,19.84
 2021,December,2,Clinicians,3,Retiro,180.16
 2021,December,2,Clinicians,4,Salamanca,113.12
 2021,December,2,Clinicians,15,Ciudad Lineal,117.06
@@ -1811,12 +1811,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2021,December,3,CDW,13,Puente de Vallecas,49.28
 2021,December,3,CDW,17,Villaverde,40.0
 2021,December,3,CDW,18,Villa de Vallecas,68.8
-2021,December,3,Clean points,2,Arganzuela,63.08
-2021,December,3,Clean points,11,Carabanchel,24.94
-2021,December,3,Clean points,12,Usera,30.98
-2021,December,3,Clean points,13,Puente de Vallecas,23.8
-2021,December,3,Clean points,17,Villaverde,37.66
-2021,December,3,Clean points,18,Villa de Vallecas,63.66
+2021,December,3,cleanPoints,2,Arganzuela,63.08
+2021,December,3,cleanPoints,11,Carabanchel,24.94
+2021,December,3,cleanPoints,12,Usera,30.98
+2021,December,3,cleanPoints,13,Puente de Vallecas,23.8
+2021,December,3,cleanPoints,17,Villaverde,37.66
+2021,December,3,cleanPoints,18,Villa de Vallecas,63.66
 2021,December,3,Clinicians,12,Usera,154.46
 2021,December,3,Clinicians,13,Puente de Vallecas,37.84
 2021,December,3,Glass,2,Arganzuela,352.62
@@ -1855,9 +1855,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,January,1,CDW,8,Fuencarral - El Pardo,96.135
 2022,January,1,CDW,9,Moncloa - Aravaca,54.33
 2022,January,1,CDW,10,Latina,58.635
-2022,January,1,Clean points,8,Fuencarral - El Pardo,123.68
-2022,January,1,Clean points,9,Moncloa - Aravaca,55.98
-2022,January,1,Clean points,10,Latina,105.44
+2022,January,1,cleanPoints,8,Fuencarral - El Pardo,123.68
+2022,January,1,cleanPoints,9,Moncloa - Aravaca,55.98
+2022,January,1,cleanPoints,10,Latina,105.44
 2022,January,1,Clinicians,1,Centro,154.82
 2022,January,1,Clinicians,6,Tetuán,11.9
 2022,January,1,Clinicians,8,Fuencarral - El Pardo,292.94
@@ -1869,7 +1869,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,January,1,Glass,8,Fuencarral - El Pardo,452.58
 2022,January,1,Glass,9,Moncloa - Aravaca,261.9
 2022,January,1,Glass,10,Latina,227.58
-2022,January,1,Horse bed,9,Moncloa - Aravaca,51.91
+2022,January,1,horseBed,9,Moncloa - Aravaca,51.91
 2022,January,1,Organic,1,Centro,892.96
 2022,January,1,Organic,6,Tetuán,768.58
 2022,January,1,Organic,7,Chamberí,799.66
@@ -1903,14 +1903,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,January,2,CDW,19,Vicálvaro,23.5
 2022,January,2,CDW,20,San Blas - Canillejas,45.93
 2022,January,2,CDW,21,Barajas,32.83
-2022,January,2,Clean points,3,Retiro,2.44
-2022,January,2,Clean points,5,Chamartín,100.48
-2022,January,2,Clean points,14,Moratalaz,44.86
-2022,January,2,Clean points,15,Ciudad Lineal,65.62
-2022,January,2,Clean points,16,Hortaleza,63.78
-2022,January,2,Clean points,19,Vicálvaro,22.5
-2022,January,2,Clean points,20,San Blas - Canillejas,55.08
-2022,January,2,Clean points,21,Barajas,34.0
+2022,January,2,cleanPoints,3,Retiro,2.44
+2022,January,2,cleanPoints,5,Chamartín,100.48
+2022,January,2,cleanPoints,14,Moratalaz,44.86
+2022,January,2,cleanPoints,15,Ciudad Lineal,65.62
+2022,January,2,cleanPoints,16,Hortaleza,63.78
+2022,January,2,cleanPoints,19,Vicálvaro,22.5
+2022,January,2,cleanPoints,20,San Blas - Canillejas,55.08
+2022,January,2,cleanPoints,21,Barajas,34.0
 2022,January,2,Clinicians,3,Retiro,175.54
 2022,January,2,Clinicians,4,Salamanca,101.84
 2022,January,2,Clinicians,15,Ciudad Lineal,106.04
@@ -1966,12 +1966,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,January,3,CDW,13,Puente de Vallecas,41.85
 2022,January,3,CDW,17,Villaverde,44.62
 2022,January,3,CDW,18,Villa de Vallecas,105.56
-2022,January,3,Clean points,2,Arganzuela,57.58
-2022,January,3,Clean points,11,Carabanchel,25.58
-2022,January,3,Clean points,12,Usera,36.1
-2022,January,3,Clean points,13,Puente de Vallecas,33.06
-2022,January,3,Clean points,17,Villaverde,39.56
-2022,January,3,Clean points,18,Villa de Vallecas,60.84
+2022,January,3,cleanPoints,2,Arganzuela,57.58
+2022,January,3,cleanPoints,11,Carabanchel,25.58
+2022,January,3,cleanPoints,12,Usera,36.1
+2022,January,3,cleanPoints,13,Puente de Vallecas,33.06
+2022,January,3,cleanPoints,17,Villaverde,39.56
+2022,January,3,cleanPoints,18,Villa de Vallecas,60.84
 2022,January,3,Clinicians,12,Usera,163.92
 2022,January,3,Clinicians,13,Puente de Vallecas,33.8
 2022,January,3,Glass,2,Arganzuela,320.7
@@ -2010,9 +2010,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,February,1,CDW,8,Fuencarral - El Pardo,94.16
 2022,February,1,CDW,9,Moncloa - Aravaca,70.635
 2022,February,1,CDW,10,Latina,59.76
-2022,February,1,Clean points,8,Fuencarral - El Pardo,119.42
-2022,February,1,Clean points,9,Moncloa - Aravaca,75.98
-2022,February,1,Clean points,10,Latina,79.06
+2022,February,1,cleanPoints,8,Fuencarral - El Pardo,119.42
+2022,February,1,cleanPoints,9,Moncloa - Aravaca,75.98
+2022,February,1,cleanPoints,10,Latina,79.06
 2022,February,1,Clinicians,1,Centro,161.76
 2022,February,1,Clinicians,6,Tetuán,14.02
 2022,February,1,Clinicians,8,Fuencarral - El Pardo,290.84
@@ -2028,7 +2028,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,February,1,Glass,8,Fuencarral - El Pardo,399.56
 2022,February,1,Glass,9,Moncloa - Aravaca,176.52
 2022,February,1,Glass,10,Latina,165.2
-2022,February,1,Horse bed,9,Moncloa - Aravaca,55.03
+2022,February,1,horseBed,9,Moncloa - Aravaca,55.03
 2022,February,1,Organic,1,Centro,887.14
 2022,February,1,Organic,6,Tetuán,709.86
 2022,February,1,Organic,7,Chamberí,776.8
@@ -2062,14 +2062,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,February,2,CDW,19,Vicálvaro,108.62
 2022,February,2,CDW,20,San Blas - Canillejas,56.28
 2022,February,2,CDW,21,Barajas,23.98
-2022,February,2,Clean points,3,Retiro,2.06
-2022,February,2,Clean points,5,Chamartín,91.46
-2022,February,2,Clean points,14,Moratalaz,51.16
-2022,February,2,Clean points,15,Ciudad Lineal,58.46
-2022,February,2,Clean points,16,Hortaleza,58.1
-2022,February,2,Clean points,19,Vicálvaro,19.96
-2022,February,2,Clean points,20,San Blas - Canillejas,48.74
-2022,February,2,Clean points,21,Barajas,29.1
+2022,February,2,cleanPoints,3,Retiro,2.06
+2022,February,2,cleanPoints,5,Chamartín,91.46
+2022,February,2,cleanPoints,14,Moratalaz,51.16
+2022,February,2,cleanPoints,15,Ciudad Lineal,58.46
+2022,February,2,cleanPoints,16,Hortaleza,58.1
+2022,February,2,cleanPoints,19,Vicálvaro,19.96
+2022,February,2,cleanPoints,20,San Blas - Canillejas,48.74
+2022,February,2,cleanPoints,21,Barajas,29.1
 2022,February,2,Clinicians,3,Retiro,167.8
 2022,February,2,Clinicians,4,Salamanca,111.62
 2022,February,2,Clinicians,15,Ciudad Lineal,108.66
@@ -2125,12 +2125,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,February,3,CDW,13,Puente de Vallecas,59.92
 2022,February,3,CDW,17,Villaverde,53.19
 2022,February,3,CDW,18,Villa de Vallecas,70.01
-2022,February,3,Clean points,2,Arganzuela,58.6
-2022,February,3,Clean points,11,Carabanchel,25.84
-2022,February,3,Clean points,12,Usera,31.18
-2022,February,3,Clean points,13,Puente de Vallecas,35.02
-2022,February,3,Clean points,17,Villaverde,37.14
-2022,February,3,Clean points,18,Villa de Vallecas,74.52
+2022,February,3,cleanPoints,2,Arganzuela,58.6
+2022,February,3,cleanPoints,11,Carabanchel,25.84
+2022,February,3,cleanPoints,12,Usera,31.18
+2022,February,3,cleanPoints,13,Puente de Vallecas,35.02
+2022,February,3,cleanPoints,17,Villaverde,37.14
+2022,February,3,cleanPoints,18,Villa de Vallecas,74.52
 2022,February,3,Clinicians,12,Usera,150.84
 2022,February,3,Clinicians,13,Puente de Vallecas,35.92
 2022,February,3,Glass,2,Arganzuela,163.86
@@ -2169,9 +2169,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,March,1,CDW,8,Fuencarral - El Pardo,99.815
 2022,March,1,CDW,9,Moncloa - Aravaca,68.535
 2022,March,1,CDW,10,Latina,55.315
-2022,March,1,Clean points,8,Fuencarral - El Pardo,125.1
-2022,March,1,Clean points,9,Moncloa - Aravaca,56.44
-2022,March,1,Clean points,10,Latina,121.94
+2022,March,1,cleanPoints,8,Fuencarral - El Pardo,125.1
+2022,March,1,cleanPoints,9,Moncloa - Aravaca,56.44
+2022,March,1,cleanPoints,10,Latina,121.94
 2022,March,1,Clinicians,1,Centro,186.42
 2022,March,1,Clinicians,6,Tetuán,14.0
 2022,March,1,Clinicians,8,Fuencarral - El Pardo,317.04
@@ -2185,7 +2185,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,March,1,Glass,8,Fuencarral - El Pardo,441.72
 2022,March,1,Glass,9,Moncloa - Aravaca,200.94
 2022,March,1,Glass,10,Latina,180.4
-2022,March,1,Horse bed,9,Moncloa - Aravaca,69.485
+2022,March,1,horseBed,9,Moncloa - Aravaca,69.485
 2022,March,1,Organic,1,Centro,1013.14
 2022,March,1,Organic,6,Tetuán,811.58
 2022,March,1,Organic,7,Chamberí,868.62
@@ -2219,14 +2219,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,March,2,CDW,19,Vicálvaro,68.86
 2022,March,2,CDW,20,San Blas - Canillejas,89.68
 2022,March,2,CDW,21,Barajas,22.82
-2022,March,2,Clean points,3,Retiro,1.68
-2022,March,2,Clean points,5,Chamartín,88.54
-2022,March,2,Clean points,14,Moratalaz,48.66
-2022,March,2,Clean points,15,Ciudad Lineal,74.76
-2022,March,2,Clean points,16,Hortaleza,61.22
-2022,March,2,Clean points,19,Vicálvaro,25.5
-2022,March,2,Clean points,20,San Blas - Canillejas,71.88
-2022,March,2,Clean points,21,Barajas,36.82
+2022,March,2,cleanPoints,3,Retiro,1.68
+2022,March,2,cleanPoints,5,Chamartín,88.54
+2022,March,2,cleanPoints,14,Moratalaz,48.66
+2022,March,2,cleanPoints,15,Ciudad Lineal,74.76
+2022,March,2,cleanPoints,16,Hortaleza,61.22
+2022,March,2,cleanPoints,19,Vicálvaro,25.5
+2022,March,2,cleanPoints,20,San Blas - Canillejas,71.88
+2022,March,2,cleanPoints,21,Barajas,36.82
 2022,March,2,Clinicians,3,Retiro,189.02
 2022,March,2,Clinicians,4,Salamanca,132.9
 2022,March,2,Clinicians,15,Ciudad Lineal,131.18
@@ -2281,12 +2281,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,March,3,CDW,13,Puente de Vallecas,29.63
 2022,March,3,CDW,17,Villaverde,56.8
 2022,March,3,CDW,18,Villa de Vallecas,100.49
-2022,March,3,Clean points,2,Arganzuela,67.96
-2022,March,3,Clean points,11,Carabanchel,40.18
-2022,March,3,Clean points,12,Usera,39.92
-2022,March,3,Clean points,13,Puente de Vallecas,32.12
-2022,March,3,Clean points,17,Villaverde,47.18
-2022,March,3,Clean points,18,Villa de Vallecas,69.96
+2022,March,3,cleanPoints,2,Arganzuela,67.96
+2022,March,3,cleanPoints,11,Carabanchel,40.18
+2022,March,3,cleanPoints,12,Usera,39.92
+2022,March,3,cleanPoints,13,Puente de Vallecas,32.12
+2022,March,3,cleanPoints,17,Villaverde,47.18
+2022,March,3,cleanPoints,18,Villa de Vallecas,69.96
 2022,March,3,Clinicians,12,Usera,165.16
 2022,March,3,Clinicians,13,Puente de Vallecas,40.1
 2022,March,3,Clothes,17,Villaverde,0.18
@@ -2326,9 +2326,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,April,1,CDW,8,Fuencarral - El Pardo,99.905
 2022,April,1,CDW,9,Moncloa - Aravaca,60.65
 2022,April,1,CDW,10,Latina,59.07
-2022,April,1,Clean points,8,Fuencarral - El Pardo,108.92
-2022,April,1,Clean points,9,Moncloa - Aravaca,66.7
-2022,April,1,Clean points,10,Latina,109.0
+2022,April,1,cleanPoints,8,Fuencarral - El Pardo,108.92
+2022,April,1,cleanPoints,9,Moncloa - Aravaca,66.7
+2022,April,1,cleanPoints,10,Latina,109.0
 2022,April,1,Clinicians,1,Centro,162.26
 2022,April,1,Clinicians,6,Tetuán,12.3
 2022,April,1,Clinicians,8,Fuencarral - El Pardo,294.68
@@ -2342,7 +2342,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,April,1,Glass,8,Fuencarral - El Pardo,397.8
 2022,April,1,Glass,9,Moncloa - Aravaca,158.68
 2022,April,1,Glass,10,Latina,187.36
-2022,April,1,Horse bed,9,Moncloa - Aravaca,63.95
+2022,April,1,horseBed,9,Moncloa - Aravaca,63.95
 2022,April,1,Organic,1,Centro,1014.58
 2022,April,1,Organic,6,Tetuán,771.6
 2022,April,1,Organic,7,Chamberí,794.32
@@ -2376,14 +2376,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,April,2,CDW,19,Vicálvaro,36.51
 2022,April,2,CDW,20,San Blas - Canillejas,57.5
 2022,April,2,CDW,21,Barajas,22.06
-2022,April,2,Clean points,3,Retiro,2.04
-2022,April,2,Clean points,5,Chamartín,85.64
-2022,April,2,Clean points,14,Moratalaz,43.2
-2022,April,2,Clean points,15,Ciudad Lineal,64.94
-2022,April,2,Clean points,16,Hortaleza,62.28
-2022,April,2,Clean points,19,Vicálvaro,30.96
-2022,April,2,Clean points,20,San Blas - Canillejas,60.62
-2022,April,2,Clean points,21,Barajas,26.92
+2022,April,2,cleanPoints,3,Retiro,2.04
+2022,April,2,cleanPoints,5,Chamartín,85.64
+2022,April,2,cleanPoints,14,Moratalaz,43.2
+2022,April,2,cleanPoints,15,Ciudad Lineal,64.94
+2022,April,2,cleanPoints,16,Hortaleza,62.28
+2022,April,2,cleanPoints,19,Vicálvaro,30.96
+2022,April,2,cleanPoints,20,San Blas - Canillejas,60.62
+2022,April,2,cleanPoints,21,Barajas,26.92
 2022,April,2,Clinicians,3,Retiro,172.96
 2022,April,2,Clinicians,4,Salamanca,117.46
 2022,April,2,Clinicians,15,Ciudad Lineal,115.42
@@ -2439,12 +2439,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,April,3,CDW,13,Puente de Vallecas,32.93
 2022,April,3,CDW,17,Villaverde,51.91
 2022,April,3,CDW,18,Villa de Vallecas,169.045
-2022,April,3,Clean points,2,Arganzuela,52.86
-2022,April,3,Clean points,11,Carabanchel,46.78
-2022,April,3,Clean points,12,Usera,15.62
-2022,April,3,Clean points,13,Puente de Vallecas,36.86
-2022,April,3,Clean points,17,Villaverde,48.1
-2022,April,3,Clean points,18,Villa de Vallecas,58.92
+2022,April,3,cleanPoints,2,Arganzuela,52.86
+2022,April,3,cleanPoints,11,Carabanchel,46.78
+2022,April,3,cleanPoints,12,Usera,15.62
+2022,April,3,cleanPoints,13,Puente de Vallecas,36.86
+2022,April,3,cleanPoints,17,Villaverde,48.1
+2022,April,3,cleanPoints,18,Villa de Vallecas,58.92
 2022,April,3,Clinicians,12,Usera,151.14
 2022,April,3,Clinicians,13,Puente de Vallecas,36.1
 2022,April,3,Glass,2,Arganzuela,197.78
@@ -2483,9 +2483,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,May,1,CDW,8,Fuencarral - El Pardo,114.5
 2022,May,1,CDW,9,Moncloa - Aravaca,65.225
 2022,May,1,CDW,10,Latina,65.325
-2022,May,1,Clean points,8,Fuencarral - El Pardo,127.9
-2022,May,1,Clean points,9,Moncloa - Aravaca,73.62
-2022,May,1,Clean points,10,Latina,118.46
+2022,May,1,cleanPoints,8,Fuencarral - El Pardo,127.9
+2022,May,1,cleanPoints,9,Moncloa - Aravaca,73.62
+2022,May,1,cleanPoints,10,Latina,118.46
 2022,May,1,Clinicians,1,Centro,172.08
 2022,May,1,Clinicians,6,Tetuán,16.32
 2022,May,1,Clinicians,8,Fuencarral - El Pardo,306.68
@@ -2498,7 +2498,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,May,1,Glass,8,Fuencarral - El Pardo,400.94
 2022,May,1,Glass,9,Moncloa - Aravaca,235.98
 2022,May,1,Glass,10,Latina,152.44
-2022,May,1,Horse bed,9,Moncloa - Aravaca,42.21
+2022,May,1,horseBed,9,Moncloa - Aravaca,42.21
 2022,May,1,Organic,1,Centro,1109.42
 2022,May,1,Organic,6,Tetuán,813.94
 2022,May,1,Organic,7,Chamberí,948.86
@@ -2532,14 +2532,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,May,2,CDW,19,Vicálvaro,36.4
 2022,May,2,CDW,20,San Blas - Canillejas,53.24
 2022,May,2,CDW,21,Barajas,36.34
-2022,May,2,Clean points,3,Retiro,2.7
-2022,May,2,Clean points,5,Chamartín,100.86
-2022,May,2,Clean points,14,Moratalaz,44.0
-2022,May,2,Clean points,15,Ciudad Lineal,60.08
-2022,May,2,Clean points,16,Hortaleza,73.26
-2022,May,2,Clean points,19,Vicálvaro,25.66
-2022,May,2,Clean points,20,San Blas - Canillejas,74.82
-2022,May,2,Clean points,21,Barajas,45.64
+2022,May,2,cleanPoints,3,Retiro,2.7
+2022,May,2,cleanPoints,5,Chamartín,100.86
+2022,May,2,cleanPoints,14,Moratalaz,44.0
+2022,May,2,cleanPoints,15,Ciudad Lineal,60.08
+2022,May,2,cleanPoints,16,Hortaleza,73.26
+2022,May,2,cleanPoints,19,Vicálvaro,25.66
+2022,May,2,cleanPoints,20,San Blas - Canillejas,74.82
+2022,May,2,cleanPoints,21,Barajas,45.64
 2022,May,2,Clinicians,3,Retiro,175.66
 2022,May,2,Clinicians,4,Salamanca,119.92
 2022,May,2,Clinicians,15,Ciudad Lineal,113.56
@@ -2594,12 +2594,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,May,3,CDW,13,Puente de Vallecas,41.12
 2022,May,3,CDW,17,Villaverde,65.36
 2022,May,3,CDW,18,Villa de Vallecas,124.2
-2022,May,3,Clean points,2,Arganzuela,87.4
-2022,May,3,Clean points,11,Carabanchel,27.9
-2022,May,3,Clean points,12,Usera,30.02
-2022,May,3,Clean points,13,Puente de Vallecas,31.64
-2022,May,3,Clean points,17,Villaverde,30.56
-2022,May,3,Clean points,18,Villa de Vallecas,63.02
+2022,May,3,cleanPoints,2,Arganzuela,87.4
+2022,May,3,cleanPoints,11,Carabanchel,27.9
+2022,May,3,cleanPoints,12,Usera,30.02
+2022,May,3,cleanPoints,13,Puente de Vallecas,31.64
+2022,May,3,cleanPoints,17,Villaverde,30.56
+2022,May,3,cleanPoints,18,Villa de Vallecas,63.02
 2022,May,3,Clinicians,12,Usera,155.92
 2022,May,3,Clinicians,13,Puente de Vallecas,35.92
 2022,May,3,Glass,2,Arganzuela,104.84
@@ -2638,9 +2638,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,June,1,CDW,8,Fuencarral - El Pardo,109.425
 2022,June,1,CDW,9,Moncloa - Aravaca,74.245
 2022,June,1,CDW,10,Latina,76.37
-2022,June,1,Clean points,8,Fuencarral - El Pardo,129.78
-2022,June,1,Clean points,9,Moncloa - Aravaca,64.86
-2022,June,1,Clean points,10,Latina,108.4
+2022,June,1,cleanPoints,8,Fuencarral - El Pardo,129.78
+2022,June,1,cleanPoints,9,Moncloa - Aravaca,64.86
+2022,June,1,cleanPoints,10,Latina,108.4
 2022,June,1,Clinicians,1,Centro,169.82
 2022,June,1,Clinicians,6,Tetuán,13.26
 2022,June,1,Clinicians,8,Fuencarral - El Pardo,311.26
@@ -2652,7 +2652,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,June,1,Glass,8,Fuencarral - El Pardo,427.92
 2022,June,1,Glass,9,Moncloa - Aravaca,160.54
 2022,June,1,Glass,10,Latina,195.42
-2022,June,1,Horse bed,9,Moncloa - Aravaca,47.51
+2022,June,1,horseBed,9,Moncloa - Aravaca,47.51
 2022,June,1,Organic,1,Centro,1044.82
 2022,June,1,Organic,6,Tetuán,719.74
 2022,June,1,Organic,7,Chamberí,960.24
@@ -2686,14 +2686,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,June,2,CDW,19,Vicálvaro,71.17
 2022,June,2,CDW,20,San Blas - Canillejas,50.17
 2022,June,2,CDW,21,Barajas,44.98
-2022,June,2,Clean points,3,Retiro,2.38
-2022,June,2,Clean points,5,Chamartín,91.68
-2022,June,2,Clean points,14,Moratalaz,56.08
-2022,June,2,Clean points,15,Ciudad Lineal,74.68
-2022,June,2,Clean points,16,Hortaleza,59.22
-2022,June,2,Clean points,19,Vicálvaro,25.6
-2022,June,2,Clean points,20,San Blas - Canillejas,53.94
-2022,June,2,Clean points,21,Barajas,45.24
+2022,June,2,cleanPoints,3,Retiro,2.38
+2022,June,2,cleanPoints,5,Chamartín,91.68
+2022,June,2,cleanPoints,14,Moratalaz,56.08
+2022,June,2,cleanPoints,15,Ciudad Lineal,74.68
+2022,June,2,cleanPoints,16,Hortaleza,59.22
+2022,June,2,cleanPoints,19,Vicálvaro,25.6
+2022,June,2,cleanPoints,20,San Blas - Canillejas,53.94
+2022,June,2,cleanPoints,21,Barajas,45.24
 2022,June,2,Clinicians,3,Retiro,181.66
 2022,June,2,Clinicians,4,Salamanca,122.64
 2022,June,2,Clinicians,15,Ciudad Lineal,116.24
@@ -2749,12 +2749,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,June,3,CDW,13,Puente de Vallecas,30.94
 2022,June,3,CDW,17,Villaverde,48.87
 2022,June,3,CDW,18,Villa de Vallecas,119.46
-2022,June,3,Clean points,2,Arganzuela,41.08
-2022,June,3,Clean points,11,Carabanchel,33.7
-2022,June,3,Clean points,12,Usera,33.3
-2022,June,3,Clean points,13,Puente de Vallecas,38.3
-2022,June,3,Clean points,17,Villaverde,63.9
-2022,June,3,Clean points,18,Villa de Vallecas,67.58
+2022,June,3,cleanPoints,2,Arganzuela,41.08
+2022,June,3,cleanPoints,11,Carabanchel,33.7
+2022,June,3,cleanPoints,12,Usera,33.3
+2022,June,3,cleanPoints,13,Puente de Vallecas,38.3
+2022,June,3,cleanPoints,17,Villaverde,63.9
+2022,June,3,cleanPoints,18,Villa de Vallecas,67.58
 2022,June,3,Clinicians,12,Usera,165.26
 2022,June,3,Clinicians,13,Puente de Vallecas,35.6
 2022,June,3,Glass,2,Arganzuela,151.38
@@ -2793,9 +2793,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,July,1,CDW,8,Fuencarral - El Pardo,78.805
 2022,July,1,CDW,9,Moncloa - Aravaca,79.975
 2022,July,1,CDW,10,Latina,47.125
-2022,July,1,Clean points,8,Fuencarral - El Pardo,120.7
-2022,July,1,Clean points,9,Moncloa - Aravaca,45.0
-2022,July,1,Clean points,10,Latina,79.36
+2022,July,1,cleanPoints,8,Fuencarral - El Pardo,120.7
+2022,July,1,cleanPoints,9,Moncloa - Aravaca,45.0
+2022,July,1,cleanPoints,10,Latina,79.36
 2022,July,1,Clinicians,1,Centro,143.22
 2022,July,1,Clinicians,6,Tetuán,15.76
 2022,July,1,Clinicians,8,Fuencarral - El Pardo,286.36
@@ -2807,7 +2807,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,July,1,Glass,8,Fuencarral - El Pardo,366.9
 2022,July,1,Glass,9,Moncloa - Aravaca,189.7
 2022,July,1,Glass,10,Latina,157.14
-2022,July,1,Horse bed,9,Moncloa - Aravaca,45.285
+2022,July,1,horseBed,9,Moncloa - Aravaca,45.285
 2022,July,1,Organic,1,Centro,981.8
 2022,July,1,Organic,6,Tetuán,724.38
 2022,July,1,Organic,7,Chamberí,762.82
@@ -2841,14 +2841,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,July,2,CDW,19,Vicálvaro,55.095
 2022,July,2,CDW,20,San Blas - Canillejas,94.88
 2022,July,2,CDW,21,Barajas,19.0
-2022,July,2,Clean points,3,Retiro,1.84
-2022,July,2,Clean points,5,Chamartín,102.52
-2022,July,2,Clean points,14,Moratalaz,37.92
-2022,July,2,Clean points,15,Ciudad Lineal,74.48
-2022,July,2,Clean points,16,Hortaleza,73.96
-2022,July,2,Clean points,19,Vicálvaro,32.72
-2022,July,2,Clean points,20,San Blas - Canillejas,81.0
-2022,July,2,Clean points,21,Barajas,36.22
+2022,July,2,cleanPoints,3,Retiro,1.84
+2022,July,2,cleanPoints,5,Chamartín,102.52
+2022,July,2,cleanPoints,14,Moratalaz,37.92
+2022,July,2,cleanPoints,15,Ciudad Lineal,74.48
+2022,July,2,cleanPoints,16,Hortaleza,73.96
+2022,July,2,cleanPoints,19,Vicálvaro,32.72
+2022,July,2,cleanPoints,20,San Blas - Canillejas,81.0
+2022,July,2,cleanPoints,21,Barajas,36.22
 2022,July,2,Clinicians,3,Retiro,164.44
 2022,July,2,Clinicians,4,Salamanca,101.76
 2022,July,2,Clinicians,15,Ciudad Lineal,100.42
@@ -2903,12 +2903,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,July,3,CDW,13,Puente de Vallecas,18.18
 2022,July,3,CDW,17,Villaverde,64.41
 2022,July,3,CDW,18,Villa de Vallecas,89.3
-2022,July,3,Clean points,2,Arganzuela,55.88
-2022,July,3,Clean points,11,Carabanchel,44.9
-2022,July,3,Clean points,12,Usera,58.42
-2022,July,3,Clean points,13,Puente de Vallecas,40.26
-2022,July,3,Clean points,17,Villaverde,34.88
-2022,July,3,Clean points,18,Villa de Vallecas,71.54
+2022,July,3,cleanPoints,2,Arganzuela,55.88
+2022,July,3,cleanPoints,11,Carabanchel,44.9
+2022,July,3,cleanPoints,12,Usera,58.42
+2022,July,3,cleanPoints,13,Puente de Vallecas,40.26
+2022,July,3,cleanPoints,17,Villaverde,34.88
+2022,July,3,cleanPoints,18,Villa de Vallecas,71.54
 2022,July,3,Clinicians,12,Usera,147.7
 2022,July,3,Clinicians,13,Puente de Vallecas,28.94
 2022,July,3,Glass,2,Arganzuela,115.78
@@ -2947,9 +2947,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,August,1,CDW,8,Fuencarral - El Pardo,97.65
 2022,August,1,CDW,9,Moncloa - Aravaca,78.73
 2022,August,1,CDW,10,Latina,53.195
-2022,August,1,Clean points,8,Fuencarral - El Pardo,105.82
-2022,August,1,Clean points,9,Moncloa - Aravaca,42.78
-2022,August,1,Clean points,10,Latina,83.1
+2022,August,1,cleanPoints,8,Fuencarral - El Pardo,105.82
+2022,August,1,cleanPoints,9,Moncloa - Aravaca,42.78
+2022,August,1,cleanPoints,10,Latina,83.1
 2022,August,1,Clinicians,1,Centro,122.96
 2022,August,1,Clinicians,6,Tetuán,10.36
 2022,August,1,Clinicians,8,Fuencarral - El Pardo,262.38
@@ -2962,7 +2962,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,August,1,Glass,8,Fuencarral - El Pardo,285.04
 2022,August,1,Glass,9,Moncloa - Aravaca,125.94
 2022,August,1,Glass,10,Latina,136.58
-2022,August,1,Horse bed,9,Moncloa - Aravaca,49.47
+2022,August,1,horseBed,9,Moncloa - Aravaca,49.47
 2022,August,1,Organic,1,Centro,818.86
 2022,August,1,Organic,6,Tetuán,600.8
 2022,August,1,Organic,7,Chamberí,464.2
@@ -2996,14 +2996,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,August,2,CDW,19,Vicálvaro,63.8
 2022,August,2,CDW,20,San Blas - Canillejas,102.92
 2022,August,2,CDW,21,Barajas,43.86
-2022,August,2,Clean points,3,Retiro,1.32
-2022,August,2,Clean points,5,Chamartín,85.9
-2022,August,2,Clean points,14,Moratalaz,35.18
-2022,August,2,Clean points,15,Ciudad Lineal,61.24
-2022,August,2,Clean points,16,Hortaleza,58.4
-2022,August,2,Clean points,19,Vicálvaro,32.18
-2022,August,2,Clean points,20,San Blas - Canillejas,64.54
-2022,August,2,Clean points,21,Barajas,33.88
+2022,August,2,cleanPoints,3,Retiro,1.32
+2022,August,2,cleanPoints,5,Chamartín,85.9
+2022,August,2,cleanPoints,14,Moratalaz,35.18
+2022,August,2,cleanPoints,15,Ciudad Lineal,61.24
+2022,August,2,cleanPoints,16,Hortaleza,58.4
+2022,August,2,cleanPoints,19,Vicálvaro,32.18
+2022,August,2,cleanPoints,20,San Blas - Canillejas,64.54
+2022,August,2,cleanPoints,21,Barajas,33.88
 2022,August,2,Clinicians,3,Retiro,143.54
 2022,August,2,Clinicians,4,Salamanca,79.34
 2022,August,2,Clinicians,15,Ciudad Lineal,87.44
@@ -3058,12 +3058,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,August,3,CDW,13,Puente de Vallecas,59.31
 2022,August,3,CDW,17,Villaverde,31.48
 2022,August,3,CDW,18,Villa de Vallecas,55.53
-2022,August,3,Clean points,2,Arganzuela,56.48
-2022,August,3,Clean points,11,Carabanchel,40.58
-2022,August,3,Clean points,12,Usera,35.76
-2022,August,3,Clean points,13,Puente de Vallecas,28.88
-2022,August,3,Clean points,17,Villaverde,36.48
-2022,August,3,Clean points,18,Villa de Vallecas,53.58
+2022,August,3,cleanPoints,2,Arganzuela,56.48
+2022,August,3,cleanPoints,11,Carabanchel,40.58
+2022,August,3,cleanPoints,12,Usera,35.76
+2022,August,3,cleanPoints,13,Puente de Vallecas,28.88
+2022,August,3,cleanPoints,17,Villaverde,36.48
+2022,August,3,cleanPoints,18,Villa de Vallecas,53.58
 2022,August,3,Clinicians,12,Usera,134.36
 2022,August,3,Clinicians,13,Puente de Vallecas,29.18
 2022,August,3,Glass,2,Arganzuela,138.52
@@ -3102,9 +3102,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,September,1,CDW,8,Fuencarral - El Pardo,95.87
 2022,September,1,CDW,9,Moncloa - Aravaca,52.82
 2022,September,1,CDW,10,Latina,40.435
-2022,September,1,Clean points,8,Fuencarral - El Pardo,134.26
-2022,September,1,Clean points,9,Moncloa - Aravaca,51.92
-2022,September,1,Clean points,10,Latina,119.58
+2022,September,1,cleanPoints,8,Fuencarral - El Pardo,134.26
+2022,September,1,cleanPoints,9,Moncloa - Aravaca,51.92
+2022,September,1,cleanPoints,10,Latina,119.58
 2022,September,1,Clinicians,1,Centro,155.72
 2022,September,1,Clinicians,6,Tetuán,12.54
 2022,September,1,Clinicians,8,Fuencarral - El Pardo,276.7
@@ -3117,7 +3117,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,September,1,Glass,8,Fuencarral - El Pardo,349.86
 2022,September,1,Glass,9,Moncloa - Aravaca,150.32
 2022,September,1,Glass,10,Latina,158.78
-2022,September,1,Horse bed,9,Moncloa - Aravaca,52.92
+2022,September,1,horseBed,9,Moncloa - Aravaca,52.92
 2022,September,1,Organic,1,Centro,1002.56
 2022,September,1,Organic,6,Tetuán,752.16
 2022,September,1,Organic,7,Chamberí,782.06
@@ -3151,14 +3151,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,September,2,CDW,19,Vicálvaro,79.46
 2022,September,2,CDW,20,San Blas - Canillejas,68.18
 2022,September,2,CDW,21,Barajas,14.8
-2022,September,2,Clean points,3,Retiro,2.14
-2022,September,2,Clean points,5,Chamartín,115.58
-2022,September,2,Clean points,14,Moratalaz,57.4
-2022,September,2,Clean points,15,Ciudad Lineal,73.28
-2022,September,2,Clean points,16,Hortaleza,69.84
-2022,September,2,Clean points,19,Vicálvaro,33.84
-2022,September,2,Clean points,20,San Blas - Canillejas,64.86
-2022,September,2,Clean points,21,Barajas,34.7
+2022,September,2,cleanPoints,3,Retiro,2.14
+2022,September,2,cleanPoints,5,Chamartín,115.58
+2022,September,2,cleanPoints,14,Moratalaz,57.4
+2022,September,2,cleanPoints,15,Ciudad Lineal,73.28
+2022,September,2,cleanPoints,16,Hortaleza,69.84
+2022,September,2,cleanPoints,19,Vicálvaro,33.84
+2022,September,2,cleanPoints,20,San Blas - Canillejas,64.86
+2022,September,2,cleanPoints,21,Barajas,34.7
 2022,September,2,Clinicians,3,Retiro,160.18
 2022,September,2,Clinicians,4,Salamanca,111.08
 2022,September,2,Clinicians,15,Ciudad Lineal,108.4
@@ -3213,12 +3213,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,September,3,CDW,13,Puente de Vallecas,44.1
 2022,September,3,CDW,17,Villaverde,53.9
 2022,September,3,CDW,18,Villa de Vallecas,60.56
-2022,September,3,Clean points,2,Arganzuela,57.16
-2022,September,3,Clean points,11,Carabanchel,45.78
-2022,September,3,Clean points,12,Usera,33.36
-2022,September,3,Clean points,13,Puente de Vallecas,37.42
-2022,September,3,Clean points,17,Villaverde,39.78
-2022,September,3,Clean points,18,Villa de Vallecas,73.52
+2022,September,3,cleanPoints,2,Arganzuela,57.16
+2022,September,3,cleanPoints,11,Carabanchel,45.78
+2022,September,3,cleanPoints,12,Usera,33.36
+2022,September,3,cleanPoints,13,Puente de Vallecas,37.42
+2022,September,3,cleanPoints,17,Villaverde,39.78
+2022,September,3,cleanPoints,18,Villa de Vallecas,73.52
 2022,September,3,Clinicians,12,Usera,140.02
 2022,September,3,Clinicians,13,Puente de Vallecas,34.22
 2022,September,3,Clothes,2,Arganzuela,0.18
@@ -3258,9 +3258,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,October,1,CDW,8,Fuencarral - El Pardo,93.545
 2022,October,1,CDW,9,Moncloa - Aravaca,49.945
 2022,October,1,CDW,10,Latina,51.875
-2022,October,1,Clean points,8,Fuencarral - El Pardo,122.92
-2022,October,1,Clean points,9,Moncloa - Aravaca,44.9
-2022,October,1,Clean points,10,Latina,137.12
+2022,October,1,cleanPoints,8,Fuencarral - El Pardo,122.92
+2022,October,1,cleanPoints,9,Moncloa - Aravaca,44.9
+2022,October,1,cleanPoints,10,Latina,137.12
 2022,October,1,Clinicians,1,Centro,168.18
 2022,October,1,Clinicians,6,Tetuán,15.8
 2022,October,1,Clinicians,8,Fuencarral - El Pardo,318.56
@@ -3275,7 +3275,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,October,1,Glass,8,Fuencarral - El Pardo,411.86
 2022,October,1,Glass,9,Moncloa - Aravaca,185.88
 2022,October,1,Glass,10,Latina,169.54
-2022,October,1,Horse bed,9,Moncloa - Aravaca,55.83
+2022,October,1,horseBed,9,Moncloa - Aravaca,55.83
 2022,October,1,Organic,1,Centro,1129.08
 2022,October,1,Organic,6,Tetuán,841.38
 2022,October,1,Organic,7,Chamberí,842.4
@@ -3309,14 +3309,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,October,2,CDW,19,Vicálvaro,55.13
 2022,October,2,CDW,20,San Blas - Canillejas,90.37
 2022,October,2,CDW,21,Barajas,31.6
-2022,October,2,Clean points,3,Retiro,1.4
-2022,October,2,Clean points,5,Chamartín,102.06
-2022,October,2,Clean points,14,Moratalaz,47.08
-2022,October,2,Clean points,15,Ciudad Lineal,80.6
-2022,October,2,Clean points,16,Hortaleza,75.88
-2022,October,2,Clean points,19,Vicálvaro,26.5
-2022,October,2,Clean points,20,San Blas - Canillejas,72.48
-2022,October,2,Clean points,21,Barajas,44.18
+2022,October,2,cleanPoints,3,Retiro,1.4
+2022,October,2,cleanPoints,5,Chamartín,102.06
+2022,October,2,cleanPoints,14,Moratalaz,47.08
+2022,October,2,cleanPoints,15,Ciudad Lineal,80.6
+2022,October,2,cleanPoints,16,Hortaleza,75.88
+2022,October,2,cleanPoints,19,Vicálvaro,26.5
+2022,October,2,cleanPoints,20,San Blas - Canillejas,72.48
+2022,October,2,cleanPoints,21,Barajas,44.18
 2022,October,2,Clinicians,3,Retiro,181.6
 2022,October,2,Clinicians,4,Salamanca,119.2
 2022,October,2,Clinicians,15,Ciudad Lineal,123.62
@@ -3371,12 +3371,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,October,3,CDW,13,Puente de Vallecas,44.28
 2022,October,3,CDW,17,Villaverde,52.13
 2022,October,3,CDW,18,Villa de Vallecas,55.91
-2022,October,3,Clean points,2,Arganzuela,59.6
-2022,October,3,Clean points,11,Carabanchel,38.7
-2022,October,3,Clean points,12,Usera,32.6
-2022,October,3,Clean points,13,Puente de Vallecas,41.32
-2022,October,3,Clean points,17,Villaverde,45.3
-2022,October,3,Clean points,18,Villa de Vallecas,71.66
+2022,October,3,cleanPoints,2,Arganzuela,59.6
+2022,October,3,cleanPoints,11,Carabanchel,38.7
+2022,October,3,cleanPoints,12,Usera,32.6
+2022,October,3,cleanPoints,13,Puente de Vallecas,41.32
+2022,October,3,cleanPoints,17,Villaverde,45.3
+2022,October,3,cleanPoints,18,Villa de Vallecas,71.66
 2022,October,3,Clinicians,12,Usera,160.62
 2022,October,3,Clinicians,13,Puente de Vallecas,35.78
 2022,October,3,Glass,2,Arganzuela,120.86
@@ -3415,9 +3415,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,November,1,CDW,8,Fuencarral - El Pardo,94.12
 2022,November,1,CDW,9,Moncloa - Aravaca,66.87
 2022,November,1,CDW,10,Latina,49.66
-2022,November,1,Clean points,8,Fuencarral - El Pardo,115.36
-2022,November,1,Clean points,9,Moncloa - Aravaca,41.72
-2022,November,1,Clean points,10,Latina,136.66
+2022,November,1,cleanPoints,8,Fuencarral - El Pardo,115.36
+2022,November,1,cleanPoints,9,Moncloa - Aravaca,41.72
+2022,November,1,cleanPoints,10,Latina,136.66
 2022,November,1,Clinicians,1,Centro,169.14
 2022,November,1,Clinicians,6,Tetuán,12.26
 2022,November,1,Clinicians,8,Fuencarral - El Pardo,318.66
@@ -3435,7 +3435,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,November,1,Glass,8,Fuencarral - El Pardo,399.92
 2022,November,1,Glass,9,Moncloa - Aravaca,164.32
 2022,November,1,Glass,10,Latina,195.88
-2022,November,1,Horse bed,9,Moncloa - Aravaca,54.925
+2022,November,1,horseBed,9,Moncloa - Aravaca,54.925
 2022,November,1,Organic,1,Centro,1083.82
 2022,November,1,Organic,6,Tetuán,886.4
 2022,November,1,Organic,7,Chamberí,832.02
@@ -3469,14 +3469,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,November,2,CDW,19,Vicálvaro,49.0
 2022,November,2,CDW,20,San Blas - Canillejas,55.64
 2022,November,2,CDW,21,Barajas,40.06
-2022,November,2,Clean points,3,Retiro,1.76
-2022,November,2,Clean points,5,Chamartín,88.44
-2022,November,2,Clean points,14,Moratalaz,40.04
-2022,November,2,Clean points,15,Ciudad Lineal,64.42
-2022,November,2,Clean points,16,Hortaleza,65.22
-2022,November,2,Clean points,19,Vicálvaro,27.34
-2022,November,2,Clean points,20,San Blas - Canillejas,63.32
-2022,November,2,Clean points,21,Barajas,36.48
+2022,November,2,cleanPoints,3,Retiro,1.76
+2022,November,2,cleanPoints,5,Chamartín,88.44
+2022,November,2,cleanPoints,14,Moratalaz,40.04
+2022,November,2,cleanPoints,15,Ciudad Lineal,64.42
+2022,November,2,cleanPoints,16,Hortaleza,65.22
+2022,November,2,cleanPoints,19,Vicálvaro,27.34
+2022,November,2,cleanPoints,20,San Blas - Canillejas,63.32
+2022,November,2,cleanPoints,21,Barajas,36.48
 2022,November,2,Clinicians,3,Retiro,184.6
 2022,November,2,Clinicians,4,Salamanca,121.88
 2022,November,2,Clinicians,15,Ciudad Lineal,126.16
@@ -3540,12 +3540,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,November,3,CDW,13,Puente de Vallecas,28.2
 2022,November,3,CDW,17,Villaverde,57.68
 2022,November,3,CDW,18,Villa de Vallecas,67.1
-2022,November,3,Clean points,2,Arganzuela,52.74
-2022,November,3,Clean points,11,Carabanchel,43.7
-2022,November,3,Clean points,12,Usera,43.34
-2022,November,3,Clean points,13,Puente de Vallecas,39.5
-2022,November,3,Clean points,17,Villaverde,35.1
-2022,November,3,Clean points,18,Villa de Vallecas,99.22
+2022,November,3,cleanPoints,2,Arganzuela,52.74
+2022,November,3,cleanPoints,11,Carabanchel,43.7
+2022,November,3,cleanPoints,12,Usera,43.34
+2022,November,3,cleanPoints,13,Puente de Vallecas,39.5
+2022,November,3,cleanPoints,17,Villaverde,35.1
+2022,November,3,cleanPoints,18,Villa de Vallecas,99.22
 2022,November,3,Clinicians,12,Usera,159.22
 2022,November,3,Clinicians,13,Puente de Vallecas,36.3
 2022,November,3,Glass,2,Arganzuela,165.6
@@ -3584,9 +3584,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,December,1,CDW,8,Fuencarral - El Pardo,74.325
 2022,December,1,CDW,9,Moncloa - Aravaca,72.445
 2022,December,1,CDW,10,Latina,67.28
-2022,December,1,Clean points,8,Fuencarral - El Pardo,106.84
-2022,December,1,Clean points,9,Moncloa - Aravaca,55.3
-2022,December,1,Clean points,10,Latina,91.28
+2022,December,1,cleanPoints,8,Fuencarral - El Pardo,106.84
+2022,December,1,cleanPoints,9,Moncloa - Aravaca,55.3
+2022,December,1,cleanPoints,10,Latina,91.28
 2022,December,1,Clinicians,1,Centro,156.6
 2022,December,1,Clinicians,6,Tetuán,8.88
 2022,December,1,Clinicians,8,Fuencarral - El Pardo,306.74
@@ -3604,7 +3604,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,December,1,Glass,8,Fuencarral - El Pardo,476.34
 2022,December,1,Glass,9,Moncloa - Aravaca,173.28
 2022,December,1,Glass,10,Latina,242.44
-2022,December,1,Horse bed,9,Moncloa - Aravaca,51.975
+2022,December,1,horseBed,9,Moncloa - Aravaca,51.975
 2022,December,1,Organic,1,Centro,1161.18
 2022,December,1,Organic,6,Tetuán,921.04
 2022,December,1,Organic,7,Chamberí,850.94
@@ -3638,14 +3638,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,December,2,CDW,19,Vicálvaro,52.56
 2022,December,2,CDW,20,San Blas - Canillejas,55.814
 2022,December,2,CDW,21,Barajas,33.36
-2022,December,2,Clean points,3,Retiro,0.94
-2022,December,2,Clean points,5,Chamartín,83.4
-2022,December,2,Clean points,14,Moratalaz,46.5
-2022,December,2,Clean points,15,Ciudad Lineal,67.44
-2022,December,2,Clean points,16,Hortaleza,59.22
-2022,December,2,Clean points,19,Vicálvaro,28.76
-2022,December,2,Clean points,20,San Blas - Canillejas,64.84
-2022,December,2,Clean points,21,Barajas,30.64
+2022,December,2,cleanPoints,3,Retiro,0.94
+2022,December,2,cleanPoints,5,Chamartín,83.4
+2022,December,2,cleanPoints,14,Moratalaz,46.5
+2022,December,2,cleanPoints,15,Ciudad Lineal,67.44
+2022,December,2,cleanPoints,16,Hortaleza,59.22
+2022,December,2,cleanPoints,19,Vicálvaro,28.76
+2022,December,2,cleanPoints,20,San Blas - Canillejas,64.84
+2022,December,2,cleanPoints,21,Barajas,30.64
 2022,December,2,Clinicians,3,Retiro,187.62
 2022,December,2,Clinicians,4,Salamanca,116.52
 2022,December,2,Clinicians,15,Ciudad Lineal,120.18
@@ -3709,12 +3709,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2022,December,3,CDW,13,Puente de Vallecas,29.34
 2022,December,3,CDW,17,Villaverde,50.14
 2022,December,3,CDW,18,Villa de Vallecas,41.67
-2022,December,3,Clean points,2,Arganzuela,70.8
-2022,December,3,Clean points,11,Carabanchel,39.6
-2022,December,3,Clean points,12,Usera,28.4
-2022,December,3,Clean points,13,Puente de Vallecas,34.32
-2022,December,3,Clean points,17,Villaverde,34.12
-2022,December,3,Clean points,18,Villa de Vallecas,65.2
+2022,December,3,cleanPoints,2,Arganzuela,70.8
+2022,December,3,cleanPoints,11,Carabanchel,39.6
+2022,December,3,cleanPoints,12,Usera,28.4
+2022,December,3,cleanPoints,13,Puente de Vallecas,34.32
+2022,December,3,cleanPoints,17,Villaverde,34.12
+2022,December,3,cleanPoints,18,Villa de Vallecas,65.2
 2022,December,3,Clinicians,12,Usera,169.76
 2022,December,3,Clinicians,13,Puente de Vallecas,36.04
 2022,December,3,Clothes,2,Arganzuela,2.7
@@ -3759,9 +3759,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,January,1,CDW,8,Fuencarral - El Pardo,103.815
 2023,January,1,CDW,9,Moncloa - Aravaca,71.07
 2023,January,1,CDW,10,Latina,67.1
-2023,January,1,Clean points,8,Fuencarral - El Pardo,118.6
-2023,January,1,Clean points,9,Moncloa - Aravaca,48.5
-2023,January,1,Clean points,10,Latina,120.24
+2023,January,1,cleanPoints,8,Fuencarral - El Pardo,118.6
+2023,January,1,cleanPoints,9,Moncloa - Aravaca,48.5
+2023,January,1,cleanPoints,10,Latina,120.24
 2023,January,1,Clinicians,1,Centro,167.0
 2023,January,1,Clinicians,6,Tetuán,18.0
 2023,January,1,Clinicians,8,Fuencarral - El Pardo,322.08
@@ -3779,7 +3779,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,January,1,Glass,8,Fuencarral - El Pardo,464.8
 2023,January,1,Glass,9,Moncloa - Aravaca,228.7
 2023,January,1,Glass,10,Latina,218.6
-2023,January,1,Horse bed,9,Moncloa - Aravaca,59.49
+2023,January,1,horseBed,9,Moncloa - Aravaca,59.49
 2023,January,1,Organic,1,Centro,1220.74
 2023,January,1,Organic,6,Tetuán,901.14
 2023,January,1,Organic,7,Chamberí,923.74
@@ -3813,14 +3813,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,January,2,CDW,19,Vicálvaro,50.52
 2023,January,2,CDW,20,San Blas - Canillejas,110.9
 2023,January,2,CDW,21,Barajas,44.86
-2023,January,2,Clean points,3,Retiro,2.12
-2023,January,2,Clean points,5,Chamartín,97.16
-2023,January,2,Clean points,14,Moratalaz,58.06
-2023,January,2,Clean points,15,Ciudad Lineal,72.08
-2023,January,2,Clean points,16,Hortaleza,63.66
-2023,January,2,Clean points,19,Vicálvaro,18.46
-2023,January,2,Clean points,20,San Blas - Canillejas,58.64
-2023,January,2,Clean points,21,Barajas,46.7
+2023,January,2,cleanPoints,3,Retiro,2.12
+2023,January,2,cleanPoints,5,Chamartín,97.16
+2023,January,2,cleanPoints,14,Moratalaz,58.06
+2023,January,2,cleanPoints,15,Ciudad Lineal,72.08
+2023,January,2,cleanPoints,16,Hortaleza,63.66
+2023,January,2,cleanPoints,19,Vicálvaro,18.46
+2023,January,2,cleanPoints,20,San Blas - Canillejas,58.64
+2023,January,2,cleanPoints,21,Barajas,46.7
 2023,January,2,Clinicians,3,Retiro,185.5
 2023,January,2,Clinicians,4,Salamanca,116.6
 2023,January,2,Clinicians,15,Ciudad Lineal,123.7
@@ -3884,12 +3884,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,January,3,CDW,13,Puente de Vallecas,25.01
 2023,January,3,CDW,17,Villaverde,57.72
 2023,January,3,CDW,18,Villa de Vallecas,55.01
-2023,January,3,Clean points,2,Arganzuela,63.96
-2023,January,3,Clean points,11,Carabanchel,45.8
-2023,January,3,Clean points,12,Usera,24.64
-2023,January,3,Clean points,13,Puente de Vallecas,34.22
-2023,January,3,Clean points,17,Villaverde,53.56
-2023,January,3,Clean points,18,Villa de Vallecas,81.32
+2023,January,3,cleanPoints,2,Arganzuela,63.96
+2023,January,3,cleanPoints,11,Carabanchel,45.8
+2023,January,3,cleanPoints,12,Usera,24.64
+2023,January,3,cleanPoints,13,Puente de Vallecas,34.22
+2023,January,3,cleanPoints,17,Villaverde,53.56
+2023,January,3,cleanPoints,18,Villa de Vallecas,81.32
 2023,January,3,Clinicians,12,Usera,164.66
 2023,January,3,Clinicians,13,Puente de Vallecas,35.44
 2023,January,3,Clothes,2,Arganzuela,8.16
@@ -3934,9 +3934,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,February,1,CDW,8,Fuencarral - El Pardo,75.255
 2023,February,1,CDW,9,Moncloa - Aravaca,84.53
 2023,February,1,CDW,10,Latina,67.405
-2023,February,1,Clean points,8,Fuencarral - El Pardo,118.6
-2023,February,1,Clean points,9,Moncloa - Aravaca,53.26
-2023,February,1,Clean points,10,Latina,102.56
+2023,February,1,cleanPoints,8,Fuencarral - El Pardo,118.6
+2023,February,1,cleanPoints,9,Moncloa - Aravaca,53.26
+2023,February,1,cleanPoints,10,Latina,102.56
 2023,February,1,Clinicians,1,Centro,168.18
 2023,February,1,Clinicians,6,Tetuán,14.52
 2023,February,1,Clinicians,8,Fuencarral - El Pardo,308.58
@@ -3953,7 +3953,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,February,1,Glass,8,Fuencarral - El Pardo,274.04
 2023,February,1,Glass,9,Moncloa - Aravaca,300.34
 2023,February,1,Glass,10,Latina,167.56
-2023,February,1,Horse bed,9,Moncloa - Aravaca,55.175
+2023,February,1,horseBed,9,Moncloa - Aravaca,55.175
 2023,February,1,Organic,1,Centro,1284.9
 2023,February,1,Organic,6,Tetuán,829.34
 2023,February,1,Organic,7,Chamberí,919.24
@@ -3987,15 +3987,15 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,February,2,CDW,19,Vicálvaro,64.125
 2023,February,2,CDW,20,San Blas - Canillejas,71.43
 2023,February,2,CDW,21,Barajas,72.095
-2023,February,2,Clean points,3,Retiro,2.62
-2023,February,2,Clean points,4,Salamanca,0.18
-2023,February,2,Clean points,5,Chamartín,87.18
-2023,February,2,Clean points,14,Moratalaz,44.98
-2023,February,2,Clean points,15,Ciudad Lineal,66.4
-2023,February,2,Clean points,16,Hortaleza,59.42
-2023,February,2,Clean points,19,Vicálvaro,30.68
-2023,February,2,Clean points,20,San Blas - Canillejas,64.88
-2023,February,2,Clean points,21,Barajas,35.54
+2023,February,2,cleanPoints,3,Retiro,2.62
+2023,February,2,cleanPoints,4,Salamanca,0.18
+2023,February,2,cleanPoints,5,Chamartín,87.18
+2023,February,2,cleanPoints,14,Moratalaz,44.98
+2023,February,2,cleanPoints,15,Ciudad Lineal,66.4
+2023,February,2,cleanPoints,16,Hortaleza,59.42
+2023,February,2,cleanPoints,19,Vicálvaro,30.68
+2023,February,2,cleanPoints,20,San Blas - Canillejas,64.88
+2023,February,2,cleanPoints,21,Barajas,35.54
 2023,February,2,Clinicians,3,Retiro,178.36
 2023,February,2,Clinicians,4,Salamanca,114.84
 2023,February,2,Clinicians,15,Ciudad Lineal,124.84
@@ -4059,12 +4059,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,February,3,CDW,13,Puente de Vallecas,47.79
 2023,February,3,CDW,17,Villaverde,38.27
 2023,February,3,CDW,18,Villa de Vallecas,43.78
-2023,February,3,Clean points,2,Arganzuela,62.64
-2023,February,3,Clean points,11,Carabanchel,47.26
-2023,February,3,Clean points,12,Usera,33.2
-2023,February,3,Clean points,13,Puente de Vallecas,31.66
-2023,February,3,Clean points,17,Villaverde,38.2
-2023,February,3,Clean points,18,Villa de Vallecas,66.58
+2023,February,3,cleanPoints,2,Arganzuela,62.64
+2023,February,3,cleanPoints,11,Carabanchel,47.26
+2023,February,3,cleanPoints,12,Usera,33.2
+2023,February,3,cleanPoints,13,Puente de Vallecas,31.66
+2023,February,3,cleanPoints,17,Villaverde,38.2
+2023,February,3,cleanPoints,18,Villa de Vallecas,66.58
 2023,February,3,Clinicians,12,Usera,157.02
 2023,February,3,Clinicians,13,Puente de Vallecas,34.58
 2023,February,3,Clothes,2,Arganzuela,9.895
@@ -4109,9 +4109,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,March,1,CDW,8,Fuencarral - El Pardo,117.14
 2023,March,1,CDW,9,Moncloa - Aravaca,69.86
 2023,March,1,CDW,10,Latina,66.575
-2023,March,1,Clean points,8,Fuencarral - El Pardo,121.56
-2023,March,1,Clean points,9,Moncloa - Aravaca,57.6
-2023,March,1,Clean points,10,Latina,167.02
+2023,March,1,cleanPoints,8,Fuencarral - El Pardo,121.56
+2023,March,1,cleanPoints,9,Moncloa - Aravaca,57.6
+2023,March,1,cleanPoints,10,Latina,167.02
 2023,March,1,Clinicians,1,Centro,183.66
 2023,March,1,Clinicians,6,Tetuán,14.3
 2023,March,1,Clinicians,8,Fuencarral - El Pardo,324.32
@@ -4129,7 +4129,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,March,1,Glass,8,Fuencarral - El Pardo,234.88
 2023,March,1,Glass,9,Moncloa - Aravaca,385.52
 2023,March,1,Glass,10,Latina,180.28
-2023,March,1,Horse bed,9,Moncloa - Aravaca,61.745
+2023,March,1,horseBed,9,Moncloa - Aravaca,61.745
 2023,March,1,Organic,1,Centro,1588.14
 2023,March,1,Organic,6,Tetuán,966.06
 2023,March,1,Organic,7,Chamberí,1049.36
@@ -4163,14 +4163,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,March,2,CDW,19,Vicálvaro,54.06
 2023,March,2,CDW,20,San Blas - Canillejas,64.52
 2023,March,2,CDW,21,Barajas,40.28
-2023,March,2,Clean points,3,Retiro,3.2
-2023,March,2,Clean points,5,Chamartín,99.4
-2023,March,2,Clean points,14,Moratalaz,53.24
-2023,March,2,Clean points,15,Ciudad Lineal,69.28
-2023,March,2,Clean points,16,Hortaleza,61.14
-2023,March,2,Clean points,19,Vicálvaro,30.94
-2023,March,2,Clean points,20,San Blas - Canillejas,78.74
-2023,March,2,Clean points,21,Barajas,37.16
+2023,March,2,cleanPoints,3,Retiro,3.2
+2023,March,2,cleanPoints,5,Chamartín,99.4
+2023,March,2,cleanPoints,14,Moratalaz,53.24
+2023,March,2,cleanPoints,15,Ciudad Lineal,69.28
+2023,March,2,cleanPoints,16,Hortaleza,61.14
+2023,March,2,cleanPoints,19,Vicálvaro,30.94
+2023,March,2,cleanPoints,20,San Blas - Canillejas,78.74
+2023,March,2,cleanPoints,21,Barajas,37.16
 2023,March,2,Clinicians,3,Retiro,192.02
 2023,March,2,Clinicians,4,Salamanca,129.02
 2023,March,2,Clinicians,15,Ciudad Lineal,138.0
@@ -4234,12 +4234,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,March,3,CDW,13,Puente de Vallecas,35.91
 2023,March,3,CDW,17,Villaverde,54.94
 2023,March,3,CDW,18,Villa de Vallecas,73.65
-2023,March,3,Clean points,2,Arganzuela,60.72
-2023,March,3,Clean points,11,Carabanchel,37.8
-2023,March,3,Clean points,12,Usera,42.28
-2023,March,3,Clean points,13,Puente de Vallecas,42.38
-2023,March,3,Clean points,17,Villaverde,46.18
-2023,March,3,Clean points,18,Villa de Vallecas,88.66
+2023,March,3,cleanPoints,2,Arganzuela,60.72
+2023,March,3,cleanPoints,11,Carabanchel,37.8
+2023,March,3,cleanPoints,12,Usera,42.28
+2023,March,3,cleanPoints,13,Puente de Vallecas,42.38
+2023,March,3,cleanPoints,17,Villaverde,46.18
+2023,March,3,cleanPoints,18,Villa de Vallecas,88.66
 2023,March,3,Clinicians,12,Usera,165.94
 2023,March,3,Clinicians,13,Puente de Vallecas,38.08
 2023,March,3,Clothes,2,Arganzuela,15.4
@@ -4283,9 +4283,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,April,1,CDW,8,Fuencarral - El Pardo,110.365
 2023,April,1,CDW,9,Moncloa - Aravaca,57.915
 2023,April,1,CDW,10,Latina,57.615
-2023,April,1,Clean points,8,Fuencarral - El Pardo,118.94
-2023,April,1,Clean points,9,Moncloa - Aravaca,53.72
-2023,April,1,Clean points,10,Latina,121.68
+2023,April,1,cleanPoints,8,Fuencarral - El Pardo,118.94
+2023,April,1,cleanPoints,9,Moncloa - Aravaca,53.72
+2023,April,1,cleanPoints,10,Latina,121.68
 2023,April,1,Clinicians,1,Centro,158.38
 2023,April,1,Clinicians,6,Tetuán,16.4
 2023,April,1,Clinicians,8,Fuencarral - El Pardo,283.84
@@ -4303,7 +4303,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,April,1,Glass,8,Fuencarral - El Pardo,186.22
 2023,April,1,Glass,9,Moncloa - Aravaca,330.9
 2023,April,1,Glass,10,Latina,186.92
-2023,April,1,Horse bed,9,Moncloa - Aravaca,52.495
+2023,April,1,horseBed,9,Moncloa - Aravaca,52.495
 2023,April,1,Organic,1,Centro,1605.72
 2023,April,1,Organic,6,Tetuán,924.38
 2023,April,1,Organic,7,Chamberí,939.36
@@ -4337,15 +4337,15 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,April,2,CDW,19,Vicálvaro,63.59
 2023,April,2,CDW,20,San Blas - Canillejas,88.01
 2023,April,2,CDW,21,Barajas,51.16
-2023,April,2,Clean points,3,Retiro,1.78
-2023,April,2,Clean points,4,Salamanca,0.14
-2023,April,2,Clean points,5,Chamartín,101.7
-2023,April,2,Clean points,14,Moratalaz,49.74
-2023,April,2,Clean points,15,Ciudad Lineal,76.56
-2023,April,2,Clean points,16,Hortaleza,71.52
-2023,April,2,Clean points,19,Vicálvaro,29.18
-2023,April,2,Clean points,20,San Blas - Canillejas,78.62
-2023,April,2,Clean points,21,Barajas,36.2
+2023,April,2,cleanPoints,3,Retiro,1.78
+2023,April,2,cleanPoints,4,Salamanca,0.14
+2023,April,2,cleanPoints,5,Chamartín,101.7
+2023,April,2,cleanPoints,14,Moratalaz,49.74
+2023,April,2,cleanPoints,15,Ciudad Lineal,76.56
+2023,April,2,cleanPoints,16,Hortaleza,71.52
+2023,April,2,cleanPoints,19,Vicálvaro,29.18
+2023,April,2,cleanPoints,20,San Blas - Canillejas,78.62
+2023,April,2,cleanPoints,21,Barajas,36.2
 2023,April,2,Clinicians,3,Retiro,170.82
 2023,April,2,Clinicians,4,Salamanca,93.78
 2023,April,2,Clinicians,15,Ciudad Lineal,127.68
@@ -4409,12 +4409,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,April,3,CDW,13,Puente de Vallecas,38.06
 2023,April,3,CDW,17,Villaverde,60.75
 2023,April,3,CDW,18,Villa de Vallecas,123.26
-2023,April,3,Clean points,2,Arganzuela,66.42
-2023,April,3,Clean points,11,Carabanchel,42.9
-2023,April,3,Clean points,12,Usera,43.12
-2023,April,3,Clean points,13,Puente de Vallecas,40.2
-2023,April,3,Clean points,17,Villaverde,46.66
-2023,April,3,Clean points,18,Villa de Vallecas,100.04
+2023,April,3,cleanPoints,2,Arganzuela,66.42
+2023,April,3,cleanPoints,11,Carabanchel,42.9
+2023,April,3,cleanPoints,12,Usera,43.12
+2023,April,3,cleanPoints,13,Puente de Vallecas,40.2
+2023,April,3,cleanPoints,17,Villaverde,46.66
+2023,April,3,cleanPoints,18,Villa de Vallecas,100.04
 2023,April,3,Clinicians,12,Usera,148.46
 2023,April,3,Clinicians,13,Puente de Vallecas,32.78
 2023,April,3,Clothes,2,Arganzuela,23.33
@@ -4459,9 +4459,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,May,1,CDW,8,Fuencarral - El Pardo,148.045
 2023,May,1,CDW,9,Moncloa - Aravaca,56.675
 2023,May,1,CDW,10,Latina,90.89
-2023,May,1,Clean points,8,Fuencarral - El Pardo,125.98
-2023,May,1,Clean points,9,Moncloa - Aravaca,60.44
-2023,May,1,Clean points,10,Latina,104.2
+2023,May,1,cleanPoints,8,Fuencarral - El Pardo,125.98
+2023,May,1,cleanPoints,9,Moncloa - Aravaca,60.44
+2023,May,1,cleanPoints,10,Latina,104.2
 2023,May,1,Clinicians,1,Centro,170.56
 2023,May,1,Clinicians,6,Tetuán,12.64
 2023,May,1,Clinicians,8,Fuencarral - El Pardo,304.06
@@ -4479,7 +4479,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,May,1,Glass,8,Fuencarral - El Pardo,218.96
 2023,May,1,Glass,9,Moncloa - Aravaca,380.64
 2023,May,1,Glass,10,Latina,227.28
-2023,May,1,Horse bed,9,Moncloa - Aravaca,59.54
+2023,May,1,horseBed,9,Moncloa - Aravaca,59.54
 2023,May,1,Organic,1,Centro,1756.5
 2023,May,1,Organic,6,Tetuán,1031.88
 2023,May,1,Organic,7,Chamberí,1100.16
@@ -4513,14 +4513,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,May,2,CDW,19,Vicálvaro,57.77
 2023,May,2,CDW,20,San Blas - Canillejas,85.08
 2023,May,2,CDW,21,Barajas,59.185
-2023,May,2,Clean points,3,Retiro,1.76
-2023,May,2,Clean points,5,Chamartín,101.94
-2023,May,2,Clean points,14,Moratalaz,45.34
-2023,May,2,Clean points,15,Ciudad Lineal,91.16
-2023,May,2,Clean points,16,Hortaleza,75.52
-2023,May,2,Clean points,19,Vicálvaro,28.04
-2023,May,2,Clean points,20,San Blas - Canillejas,80.0
-2023,May,2,Clean points,21,Barajas,38.0
+2023,May,2,cleanPoints,3,Retiro,1.76
+2023,May,2,cleanPoints,5,Chamartín,101.94
+2023,May,2,cleanPoints,14,Moratalaz,45.34
+2023,May,2,cleanPoints,15,Ciudad Lineal,91.16
+2023,May,2,cleanPoints,16,Hortaleza,75.52
+2023,May,2,cleanPoints,19,Vicálvaro,28.04
+2023,May,2,cleanPoints,20,San Blas - Canillejas,80.0
+2023,May,2,cleanPoints,21,Barajas,38.0
 2023,May,2,Clinicians,3,Retiro,187.42
 2023,May,2,Clinicians,4,Salamanca,106.84
 2023,May,2,Clinicians,15,Ciudad Lineal,135.24
@@ -4584,12 +4584,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,May,3,CDW,13,Puente de Vallecas,32.89
 2023,May,3,CDW,17,Villaverde,54.96
 2023,May,3,CDW,18,Villa de Vallecas,194.83
-2023,May,3,Clean points,2,Arganzuela,64.26
-2023,May,3,Clean points,11,Carabanchel,40.88
-2023,May,3,Clean points,12,Usera,36.6
-2023,May,3,Clean points,13,Puente de Vallecas,43.7
-2023,May,3,Clean points,17,Villaverde,69.16
-2023,May,3,Clean points,18,Villa de Vallecas,61.9
+2023,May,3,cleanPoints,2,Arganzuela,64.26
+2023,May,3,cleanPoints,11,Carabanchel,40.88
+2023,May,3,cleanPoints,12,Usera,36.6
+2023,May,3,cleanPoints,13,Puente de Vallecas,43.7
+2023,May,3,cleanPoints,17,Villaverde,69.16
+2023,May,3,cleanPoints,18,Villa de Vallecas,61.9
 2023,May,3,Clinicians,12,Usera,163.66
 2023,May,3,Clinicians,13,Puente de Vallecas,37.34
 2023,May,3,Clothes,2,Arganzuela,35.52
@@ -4634,9 +4634,9 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,June,1,CDW,8,Fuencarral - El Pardo,132.53
 2023,June,1,CDW,9,Moncloa - Aravaca,92.055
 2023,June,1,CDW,10,Latina,51.58
-2023,June,1,Clean points,8,Fuencarral - El Pardo,132.32
-2023,June,1,Clean points,9,Moncloa - Aravaca,60.34
-2023,June,1,Clean points,10,Latina,128.18
+2023,June,1,cleanPoints,8,Fuencarral - El Pardo,132.32
+2023,June,1,cleanPoints,9,Moncloa - Aravaca,60.34
+2023,June,1,cleanPoints,10,Latina,128.18
 2023,June,1,Clinicians,1,Centro,169.22
 2023,June,1,Clinicians,6,Tetuán,14.12
 2023,June,1,Clinicians,8,Fuencarral - El Pardo,320.06
@@ -4654,7 +4654,7 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,June,1,Glass,8,Fuencarral - El Pardo,205.34
 2023,June,1,Glass,9,Moncloa - Aravaca,384.04
 2023,June,1,Glass,10,Latina,188.46
-2023,June,1,Horse bed,9,Moncloa - Aravaca,69.795
+2023,June,1,horseBed,9,Moncloa - Aravaca,69.795
 2023,June,1,Organic,1,Centro,1830.26
 2023,June,1,Organic,6,Tetuán,1050.38
 2023,June,1,Organic,7,Chamberí,1104.96
@@ -4688,14 +4688,14 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,June,2,CDW,19,Vicálvaro,96.2
 2023,June,2,CDW,20,San Blas - Canillejas,99.014
 2023,June,2,CDW,21,Barajas,61.86
-2023,June,2,Clean points,3,Retiro,3.62
-2023,June,2,Clean points,5,Chamartín,106.66
-2023,June,2,Clean points,14,Moratalaz,49.82
-2023,June,2,Clean points,15,Ciudad Lineal,72.0
-2023,June,2,Clean points,16,Hortaleza,76.1
-2023,June,2,Clean points,19,Vicálvaro,40.2
-2023,June,2,Clean points,20,San Blas - Canillejas,78.84
-2023,June,2,Clean points,21,Barajas,38.7
+2023,June,2,cleanPoints,3,Retiro,3.62
+2023,June,2,cleanPoints,5,Chamartín,106.66
+2023,June,2,cleanPoints,14,Moratalaz,49.82
+2023,June,2,cleanPoints,15,Ciudad Lineal,72.0
+2023,June,2,cleanPoints,16,Hortaleza,76.1
+2023,June,2,cleanPoints,19,Vicálvaro,40.2
+2023,June,2,cleanPoints,20,San Blas - Canillejas,78.84
+2023,June,2,cleanPoints,21,Barajas,38.7
 2023,June,2,Clinicians,3,Retiro,176.84
 2023,June,2,Clinicians,4,Salamanca,104.46
 2023,June,2,Clinicians,15,Ciudad Lineal,137.5
@@ -4759,12 +4759,12 @@ Year,Month,Zone,WasteType,District,Name,Total
 2023,June,3,CDW,13,Puente de Vallecas,47.78
 2023,June,3,CDW,17,Villaverde,81.91
 2023,June,3,CDW,18,Villa de Vallecas,52.64
-2023,June,3,Clean points,2,Arganzuela,66.4
-2023,June,3,Clean points,11,Carabanchel,33.54
-2023,June,3,Clean points,12,Usera,40.2
-2023,June,3,Clean points,13,Puente de Vallecas,41.38
-2023,June,3,Clean points,17,Villaverde,58.44
-2023,June,3,Clean points,18,Villa de Vallecas,85.36
+2023,June,3,cleanPoints,2,Arganzuela,66.4
+2023,June,3,cleanPoints,11,Carabanchel,33.54
+2023,June,3,cleanPoints,12,Usera,40.2
+2023,June,3,cleanPoints,13,Puente de Vallecas,41.38
+2023,June,3,cleanPoints,17,Villaverde,58.44
+2023,June,3,cleanPoints,18,Villa de Vallecas,85.36
 2023,June,3,Clinicians,12,Usera,156.72
 2023,June,3,Clinicians,13,Puente de Vallecas,35.34
 2023,June,3,Clothes,2,Arganzuela,13.3
