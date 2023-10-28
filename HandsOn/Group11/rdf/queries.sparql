@@ -1,29 +1,30 @@
+@prefix art: <http://artwork.org/> .
+
 # select two examples defined in artworks-schema-example.ttl
 SELECT ?artworkId ?artworkTitle ?width ?height ?unit WHERE {
-    ?artworkId rdf:type owl:Class :Artwork .
-    ?artworkId :hasTitle ?artworkTitle .
+    ?artworkId rdf:type owl:Class art:Artwork .
+    ?artworkId art:hasTitle ?artworkTitle .
     {
-        ?artworkId :hasAccessionNumber "A00020" ^^ xsd:string .
-        ?artworkId :hasArtist dbr::William_Blake .
-        ?artworkId :hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
+        ?artworkId art:hasAccessionNumber "A00020"^^xsd:string .
+        ?artworkId art:hasArtist "Blake, William"^^xsd:string .
+        ?artworkId art:hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
     }
     UNION
     {
-        ?artworkId :hasAccessionNumber "A00792" ^^ xsd:string .
-        ?artworkId :hasArtist dbr::Millais,_Sir_John_Everett,_Bt .
-        ?artworkId :hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .
+        ?artworkId art:hasAccessionNumber "A00792"^^xsd:string .
+        ?artworkId art:hasArtist "Millais, Sir_John_Everett, Bt"^^xsd:string .
+        ?artworkId art:hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .
     }
-    ?artworkId :hasDimension ?artworkDimensionId .
-    ?artworkDimensionId :hasWidth ?width .
-    ?artworkDimensionId :hasHeight ?height .
-    ?artworkDimensionId :hasUnitOfMeasure ?unit .
+    ?artworkId art:hasDimension ?artworkDimensionId .
+    ?artworkDimensionId art:hasWidth ?width .
+    ?artworkDimensionId art:hasHeight ?height .
 }
 # count number of artworks
 SELECT (COUNT(DISTINCT ?artworkId) AS ?ArtworksCount) WHERE {
-    ?artworkId rdf:type owl:Class :Artwork .
+    ?artworkId rdf:type owl:Class art:Artwork .
 }
 # count number of artists
 SELECT (COUNT(DISTINCT ?artworkArtist) AS ?ArtworkArtistsCount) WHERE {
-    ?artworkId rdf:type owl:Class :Artwork .
-    ?artworkId :hasArtist ?artworkArtist .
-}  ?artworkId :hasArtist ?artworkArtist .
+    ?artworkId rdf:type owl:Class art:Artwork .
+    ?artworkId art:hasArtist ?artworkArtist .
+}
