@@ -72,8 +72,7 @@
 	rr:constant nso:hasDistrict .
 
 :om_003 rdf:type rr:ObjectMap ;
-	rr:template "http://madridwastemanagement.org/group01/data/District/District_{District}" ;
-	rr:termType rr:Literal .
+	rr:template "http://madridwastemanagement.org/group01/data/District/District_{District}" .
 
 :map_districtmap_000 rml:logicalSource :source_001 ;
 	rdf:type rr:TriplesMap ;
@@ -143,8 +142,7 @@
 	rr:constant nso:hasResidue .
 
 :om_008 rdf:type rr:ObjectMap ;
-	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" ;
-	rr:termType rr:Literal .
+	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" .
 
 :map_wastetypemap_000 rml:logicalSource :source_002 ;
 	rdf:type rr:TriplesMap ;
@@ -190,8 +188,7 @@
 	rr:constant nso:hasTotal .
 
 :om_011 rdf:type rr:ObjectMap ;
-	rr:template "http://madridwastemanagement.org/group01/data/Total/{WasteType}_{District}_{Year}_{Month}" ;
-	rr:termType rr:Literal .
+	rr:template "http://madridwastemanagement.org/group01/data/Total/{WasteType}_{District}_{Year}_{Month}" .
 
 :map_totalmap_000 rml:logicalSource :source_003 ;
 	rdf:type rr:TriplesMap ;

@@ -18,7 +18,7 @@ mappings:
       - [a, nso:Zone]
       - [rdfs:label,Zone_$(Zone),xsd:string]
       - [nso:zoneID,$(Zone),xsd:integer]
-      - [nso:hasDistrict, http://madridwastemanagement.org/group01/data/District/District_$(District)]
+      - [nso:hasDistrict,"http://madridwastemanagement.org/group01/data/District/District_$(District)"]
 
   districtmap:
     sources:
@@ -29,7 +29,7 @@ mappings:
       - [rdfs:label,District_$(District),xsd:string]
       - [nso:districtID,$(District),xsd:integer]
       - [nso:districtName,$(Name),xsd:string]
-      - [nso:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)]
+      - [nso:hasResidue, "http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)"]
 
   wastetypemap:
     sources:
@@ -38,7 +38,7 @@ mappings:
     po:
       - [a, nso:WasteType]
       - [rdfs:label,$(WasteType),xsd:string]
-      - [nso:hasTotal, http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)]
+      - [nso:hasTotal, "http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)"]
 
   totalmap:
     sources:
@@ -49,4 +49,4 @@ mappings:
       - [nso:value,$(Total),xsd:float]
       - [nso:year,$(Year),xsd:integer]
       - [nso:month,$(Month),xsd:string]
-      - [nso:referedTo, http://madridwastemanagement.org/group01/data/District/District_$(District)]
+      - [nso:referedTo, "http://madridwastemanagement.org/group01/data/District/District_$(District)"]
