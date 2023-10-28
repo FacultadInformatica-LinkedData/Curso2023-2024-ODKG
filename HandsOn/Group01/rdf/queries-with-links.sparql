@@ -3,15 +3,17 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 
 # Qurey 1:  Check all the entities with Wikidata link
-SELECT ?entity WHERE {
+SELECT ?entity ?wikidataLink
+WHERE {
   ?entity owl:sameAs ?wikidataLink .
-  FILTER(STRSTARTS(STR(?wikidataLink), "http://wikidata.org/entity/"))
+
+  FILTER STRSTARTS(STR(?wikidataLink), "http://wikidata.org/entity/")
 }
+ORDER BY ?entity
+
 
 
 # Query 2: Check all the district with Wikidata link
-PREFIX data: <http://madridwastemanagement.org/group01/ontology/data/District/>
-
 SELECT ?district ?wikidataLink WHERE {
   ?district a nso:District .
   ?district owl:sameAs ?wikidataLink .
@@ -19,12 +21,12 @@ SELECT ?district ?wikidataLink WHERE {
 
 
 # Query 3: Check all the wasteType with Wikidata link
-PREFIX data: <http://madridwastemanagement.org/group01/ontology/data/WasteType/>
-
-SELECT distinct ?wasteType ?wikidataLink WHERE {
-  ?s nso:hasResidue ?wasteType .
-  ?wasteType owl:sameAs ?wikidataLink .
+SELECT ?wasteType ?wikidataLink
+WHERE {
+  ?wasteType a nso:WasteType ;
+             owl:sameAs ?wikidataLink .
 }
+ORDER BY ?wasteType
 
 
 
