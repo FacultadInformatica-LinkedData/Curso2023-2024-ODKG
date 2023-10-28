@@ -12,23 +12,47 @@
 # Query 2: Select all the scores and years of all the Liberal Arts Colleges Rankings
           # for all the Universities located in the state of Florida):
 
-                    SELECT ?score ?year WHERE {
-                        ?university rdf:type ns:University.
-                        ?ranking ns:score ?score.
-                        ?ranking ns:yearPublished ?year.
-                        ?university ns:hasRanking  ?ranking .
-                        ?ranking rdf:type ns:RankingUSNews.
-                    } 
+                SELECT ?score ?year WHERE {
+                    ?university rdf:type ns:University.
+                    ?ranking ns:score ?score.
+                    ?ranking ns:yearPublished ?year.
+                    ?university ns:hasRanking  ?ranking .
+                    ?ranking rdf:type ns:RankingUSNews.
+                } 
         
 
 # Query 3: Select the values of admission rate of all the entities of type University:
     
-                    SELECT ?uniname ?value WHERE {
-                        ?university rdf:type ns:University .
-                        ?university rdf:label ?uniname. 
-                        ?university ns:hasRate ?rate .
-                        ?rate rdf:type ns:EnrollmentRate. 
-                        ?rate ns:value ?value   
-                    }    
+                SELECT ?uniname ?enrollmentRate WHERE {
+                    ?university rdf:type ns:University .
+                    ?university rdf:label ?uniname. 
+                    ?university ns:hasRate ?rate .
+                    ?rate rdf:type ns:EnrollmentRate. 
+                    ?rate ns:value ?enrollmentRate   
+                }    
+                
+
+# Query 4: Retrieve the coordinates of the University which ranked first on the USNews Ranking:
+    
+                SELECT ?longitude ?latitude WHERE {
+                    ?university rdf:type ns:University.
+                    ?university ns:hasRanking ?ranking .
+                    ?ranking ns:score ?score.
+                    ?university schema:longitude ?longitude.
+                    ?university schema:latitude ?latitude.
+                }    
+                
+
+# Query 5: Retrieve the city and state of wikidata of university:
+    
+                SELECT ?nameCity ?uriCityWikiData ?nameState ?uriStateWikiData WHERE {
+                    ?university dbo:city ?city .
+                    ?city rdf:label ?nameCity.
+                    ?city owl:sameAs ?uriCityWikiData.
+                    ?university dbo:state ?state.
+                    ?state rdf:label ?nameState.
+                    ?state owl:sameAs ?uriStateWikiData.
+                    ?university rdf:type ns:University.
+                }    
                 
 

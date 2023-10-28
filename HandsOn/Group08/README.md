@@ -14,7 +14,7 @@
 
 # Ontology Diagram
 
-![Diagram Ontology](./ontology/img-ontology.png)
+![Diagram Ontology](./ontology/Ontology.png)
 
 ## Extensiones VS-CODE
 
