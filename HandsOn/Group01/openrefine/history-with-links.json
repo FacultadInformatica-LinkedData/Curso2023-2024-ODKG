@@ -311,4 +311,145 @@
     "columnInsertIndex": 4,
     "description": "Create column same_as_wikidata_wastetype at index 4 based on column WasteType using expression grel:\"http://wikidata.org/entity/\"+cell.recon.match.id"
   }
+
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "waste container"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wasteContainer"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "biomedical waste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "biomedicalWaste"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "organic food"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "organicFood"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "packaging products of plastics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "packagingProductsOfPlastics"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "waste paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wastePaper"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Horse bed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "horseBed"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "non-recyclable waste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-recyclable-waste"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  }
 ]
