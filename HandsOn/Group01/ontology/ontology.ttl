@@ -84,6 +84,5 @@ nso:WasteType a owl:Class ;
 nso:District a owl:Class ;
     rdfs:label "District" .
 
-nso:Total a owl:Class ;
-    rdfs:label "Total" .
+nso:Total a owl:Class .
 
