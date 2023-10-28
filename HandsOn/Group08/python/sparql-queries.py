@@ -4,9 +4,10 @@ from rdflib import Graph, Namespace, Literal, XSD
 from rdflib.query import Result
 
 from globals import OUT_GRAPH, OUT_QUERY, QUERYS_SPARQL
+from pydantic import BaseModel
+from typing import Optional
 
 # Namespaces
-
 SCHEMA = Namespace("https://schema.org/")
 DBO = Namespace("https://dbpedia.org/ontology/")
 DBP = Namespace("https://dbpedia.org/page/")
@@ -18,9 +19,74 @@ RS = Namespace("http://www.semanticweb.org/upm/opendata/group08/resource/")
 INIT_NS = {"ns": NS, "rs": RS, "dbo": DBO, "rdf": RDF}
 
 
+class Query(BaseModel):
+    id: int
+    description: str
+    query: str
+    initBinding: Optional[dict] = {}
+
+
+QUERIES = [
+    Query(id=1, description="""Select all the possible values of the property
+          # dbo:city of the entities that belong to class n:University """,
+          query="""
+            SELECT  DISTINCT ?nameCity ?uniname WHERE {
+                ?university dbo:city ?city .
+                ?city rdf:label ?nameCity.
+                ?university rdf:type ns:University.
+                ?university rdf:label ?uniname. 
+        }    
+    """),
+    Query(id=2, description="""Select all the scores and years of all the Liberal Arts Colleges Rankings
+          # for all the Universities located in the state of Florida)""",
+          query="""
+                    SELECT ?score ?year WHERE {
+                        ?university rdf:type ns:University.
+                        ?ranking ns:score ?score.
+                        ?ranking ns:yearPublished ?year.
+                        ?university ns:hasRanking  ?ranking .
+                        ?ranking rdf:type ns:RankingUSNews.
+                    } 
+        """,
+          initBinding={'?floridaname': Literal('FL', datatype=XSD.string)}),
+    Query(id=3, description="Select the values of admission rate of all the entities of type University",
+          query="""    
+                    SELECT ?uniname ?enrollmentRate WHERE {
+                        ?university rdf:type ns:University .
+                        ?university rdf:label ?uniname. 
+                        ?university ns:hasRate ?rate .
+                        ?rate rdf:type ns:EnrollmentRate. 
+                        ?rate ns:value ?enrollmentRate   
+                    }    
+                """
+          ),
+    Query(id=4, description="Retrieve the coordinates of the University which ranked first on the USNews Ranking",
+          query="""    
+                    SELECT ?longitude ?latitude WHERE {
+                        ?university schema:longitude ?longitude .
+                        ?university schema:latitude ?latitude .
+                        ?university rdf:type ns:University .
+                        ?university ns:hasRanking ?ranking .
+                        ?ranking rdf:type ns:USNewsRanking .
+                        ?ranking ns:score ?score
+                    }    
+                """,
+          initBinding={'?score': Literal('1', datatype=XSD.string)}),
+]
+
+
 def dump2csv(filename: str, result: Result):
-    with open(filename+"result.csv", "wb") as f:
+    with open(filename+"-result.csv", "wb") as f:
         f.write(result.serialize(format="csv"))
+
+
+def make_query(query: Query, limit: int = 100):
+
+    limit = "\nLIMIT " + str(limit)
+
+    result = g.query(prepareQuery(query.query + limit, initNs=INIT_NS),
+                     initBindings=query.initBinding)
+    return result
 
 
 if __name__ == "__main__":
@@ -40,96 +106,19 @@ if __name__ == "__main__":
     # Load Graph
     g.parse(OUT_GRAPH, format="nt")
 
-    queries = ""
+    # Selected queries
+    queries = QUERIES[:3]
 
-    # Query 1:
+    print("Number of querys selected:", len(queries))
 
-    queries += """\n# Query 1: Select all the possible values of the property 
-    # dbo:city of the entities that belong to class n:University \n"""
+    # Write Results
+    for q in queries:
+        dump2csv(OUT_QUERY + str(q.id), make_query(q))
 
-    query_text = """    
-        SELECT  DISTINCT ?name ?uniname WHERE {
-            ?value rdf:label ?name.
-            ?individual dbo:city ?value .
-            ?individual rdf:type ns:University.
-            ?individual rdf:label ?uniname. 
-        }    
-    """
+    # Write queries
+    with open(QUERYS_SPARQL, "w") as f:
+        for q in queries:
+            f.write(f"# Query {q.id}: {q.description}:\n")
+            f.write(q.query + "\n\n")
 
-    queries += query_text
-
-    results_q1 = g.query(prepareQuery(query_text, initNs=INIT_NS))
-
-    dump2csv(OUT_QUERY+"1", results_q1)
-
-    # Query 2 :
-    queries += """\n#Query 2: Select all the values and years of all the Liberal Arts Colleges Rankings for all the Universities located in the state of Florida"""
-
-    query_text2 = """    
-        SELECT ?value ?year WHERE {
-            ?ranking ns:score ?value.
-            ?ranking ns:yearPublished ?year.
-            ?individual ns:hasRanking  ?ranking .
-            ?individual rdf:type ns:University.
-            ?individual ns:state ?florida.
-            ?florida rdf:label ?floridaname.           
-        }    
-    """
-
-    queries += query_text2
-
-    #results_q2 = g.query(prepareQuery(query_text2, initNs=INIT_NS), initBindings={
-    #                     '?floridaname': Literal('FL', datatype=XSD.string)})
-
-    #dump2csv(OUT_QUERY+"2", results_q2)
-
-    # Query 3:
-
-    queries += "\n#Query 3: Select the values of admission rate of all the entities of type University"
-
-    #        ?unversity ns:name ?name .
-    query_text3 = """    
-        SELECT ?rate WHERE {
-            ?university rdf:type ns:University .
-
-            ?university ns:hasRate ?rate .
-            ?rate rdf:type ns:EnrollmentRate.
-            
-        }    
-    """
-
-    queries += query_text3
-
-    results_q3 = g.query(prepareQuery(query_text3, initNs=INIT_NS))
-
-    dump2csv(OUT_QUERY+"3", results_q3)
-
-    # Query 4:
-
-    queries += "\n#Query 4: Retrieve the coordinates of the University which ranked first on the USNews Ranking "
-
-    # ?unversity ns:name ?name .
-    query_text4 = """    
-        SELECT ?longitude ?latitude WHERE {
-            ?university schema:longitude ?longitude .
-            ?university schema:latitude ?latitude .
-            ?university rdf:type ns:University .
-            ?university ns:hasRanking ?ranking .
-            ?ranking rdf:type ns:USNewsRanking .
-            ?ranking ns:score '1'
-        }    
-    """
-
-    queries += query_text4
-
-    results_q4 = g.query(prepareQuery(query_text3, initNs=INIT_NS))
-
-    dump2csv(OUT_QUERY+"4", results_q4)
-
-# Write queries
-with open(QUERYS_SPARQL, "w") as f:
-    f.write(queries)
-
-# Write Ontology
-with open(OUT_GRAPH, "w") as f:
-    f.write(g.serialize(format="turtle"))
+    print("Finish")

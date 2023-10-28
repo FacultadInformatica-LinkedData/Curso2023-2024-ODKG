@@ -2,7 +2,6 @@ import pandas as pd
 from globals import UNIVERISTY_INFO, UNIVERITY_RATES, UNIVERSITY_ARTS_RANKING, COLLEGE_RANKING
 from globals import change_path
 
-
 # Preprocesing
 
 ## UNIVERISTY_INFO

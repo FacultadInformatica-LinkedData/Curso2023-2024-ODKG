@@ -1,0 +1,34 @@
+# Query 1: Select all the possible values of the property
+          # dbo:city of the entities that belong to class n:University :
+
+            SELECT  DISTINCT ?nameCity ?uniname WHERE {
+                ?university dbo:city ?city .
+                ?city rdf:label ?nameCity.
+                ?university rdf:type ns:University.
+                ?university rdf:label ?uniname. 
+        }    
+    
+
+# Query 2: Select all the scores and years of all the Liberal Arts Colleges Rankings
+          # for all the Universities located in the state of Florida):
+
+                    SELECT ?score ?year WHERE {
+                        ?university rdf:type ns:University.
+                        ?ranking ns:score ?score.
+                        ?ranking ns:yearPublished ?year.
+                        ?university ns:hasRanking  ?ranking .
+                        ?ranking rdf:type ns:RankingUSNews.
+                    } 
+        
+
+# Query 3: Select the values of admission rate of all the entities of type University:
+    
+                    SELECT ?uniname ?value WHERE {
+                        ?university rdf:type ns:University .
+                        ?university rdf:label ?uniname. 
+                        ?university ns:hasRate ?rate .
+                        ?rate rdf:type ns:EnrollmentRate. 
+                        ?rate ns:value ?value   
+                    }    
+                
+
