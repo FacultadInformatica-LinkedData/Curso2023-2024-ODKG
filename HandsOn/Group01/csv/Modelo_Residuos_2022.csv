@@ -1,0 +1,2195 @@
+Año;Mes;Lote;Fracción;Distrito;NOMBRE;Total
+2022;enero;1;PAPEL-CARTON;1;Centro;395,86
+2022;enero;1;PAPEL-CARTON;6;Tetuán;381,98
+2022;enero;1;PAPEL-CARTON;7;Chamberí;312,76
+2022;enero;1;PAPEL-CARTON;8;Fuencarral - El Pardo;692,25
+2022;enero;1;PAPEL-CARTON;9;Moncloa - Aravaca;300,38
+2022;enero;1;PAPEL-CARTON;10;Latina;351,54
+2022;enero;1;CARTON COMERCIAL;1;Centro;112,2
+2022;enero;1;CARTON COMERCIAL;6;Tetuán;56,08
+2022;enero;1;CARTON COMERCIAL;7;Chamberí;59,26
+2022;enero;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;2,84
+2022;enero;1;CARTON COMERCIAL;9;Moncloa - Aravaca;2
+2022;enero;1;CARTON COMERCIAL;10;Latina;1,52
+2022;enero;1;CAMA DE CABALLO;9;Moncloa - Aravaca;51,91
+2022;enero;1;CLINICOS;1;Centro;154,82
+2022;enero;1;CLINICOS;6;Tetuán;11,9
+2022;enero;1;CLINICOS;8;Fuencarral - El Pardo;292,94
+2022;enero;1;CLINICOS;9;Moncloa - Aravaca;220,06
+2022;enero;1;CLINICOS;10;Latina;21,24
+2022;enero;1;ENVASES;1;Centro;235,06
+2022;enero;1;ENVASES;6;Tetuán;370,26
+2022;enero;1;ENVASES;7;Chamberí;349,7
+2022;enero;1;ENVASES;8;Fuencarral - El Pardo;711,7
+2022;enero;1;ENVASES;9;Moncloa - Aravaca;331,42
+2022;enero;1;ENVASES;10;Latina;618,82
+2022;enero;1;ORGANICA;1;Centro;892,96
+2022;enero;1;ORGANICA;6;Tetuán;768,58
+2022;enero;1;ORGANICA;7;Chamberí;799,66
+2022;enero;1;ORGANICA;8;Fuencarral - El Pardo;1455,2
+2022;enero;1;ORGANICA;9;Moncloa - Aravaca;943,98
+2022;enero;1;ORGANICA;10;Latina;1264,78
+2022;enero;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;123,68
+2022;enero;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;55,98
+2022;enero;1;PUNTOS LIMPIOS;10;Latina;105,44
+2022;enero;1;RCD;1;Centro;143,09
+2022;enero;1;RCD;6;Tetuán;40,705
+2022;enero;1;RCD;7;Chamberí;44,235
+2022;enero;1;RCD;8;Fuencarral - El Pardo;96,135
+2022;enero;1;RCD;9;Moncloa - Aravaca;54,33
+2022;enero;1;RCD;10;Latina;58,635
+2022;enero;1;RESTO;1;Centro;4006,16
+2022;enero;1;RESTO;6;Tetuán;2582,28
+2022;enero;1;RESTO;7;Chamberí;2208,36
+2022;enero;1;RESTO;8;Fuencarral - El Pardo;3525,5
+2022;enero;1;RESTO;9;Moncloa - Aravaca;2389,22
+2022;enero;1;RESTO;10;Latina;3502,28
+2022;enero;1;VIDRIO;1;Centro;639,52
+2022;enero;1;VIDRIO;6;Tetuán;389,94
+2022;enero;1;VIDRIO;7;Chamberí;237,52
+2022;enero;1;VIDRIO;8;Fuencarral - El Pardo;452,58
+2022;enero;1;VIDRIO;9;Moncloa - Aravaca;261,9
+2022;enero;1;VIDRIO;10;Latina;227,58
+2022;enero;1;VIDRIO COMERCIAL;1;Centro;55,54
+2022;enero;2;PAPEL-CARTON;3;Retiro;281,2
+2022;enero;2;PAPEL-CARTON;4;Salamanca;426,97
+2022;enero;2;PAPEL-CARTON;5;Chamartín;299,9
+2022;enero;2;PAPEL-CARTON;14;Moratalaz;121,66
+2022;enero;2;PAPEL-CARTON;15;Ciudad Lineal;419,54
+2022;enero;2;PAPEL-CARTON;16;Hortaleza;309,15
+2022;enero;2;PAPEL-CARTON;19;Vicálvaro;77,27
+2022;enero;2;PAPEL-CARTON;20;San Blas - Canillejas;323,08
+2022;enero;2;PAPEL-CARTON;21;Barajas;70,66
+2022;enero;2;CARTON COMERCIAL;3;Retiro;70,49
+2022;enero;2;CARTON COMERCIAL;4;Salamanca;124,85
+2022;enero;2;CARTON COMERCIAL;5;Chamartín;42,2
+2022;enero;2;CARTON COMERCIAL;14;Moratalaz;26,19
+2022;enero;2;CARTON COMERCIAL;15;Ciudad Lineal;14,57
+2022;enero;2;CARTON COMERCIAL;16;Hortaleza;36,31
+2022;enero;2;CARTON COMERCIAL;19;Vicálvaro;13,64
+2022;enero;2;CARTON COMERCIAL;20;San Blas - Canillejas;45,7
+2022;enero;2;CARTON COMERCIAL;21;Barajas;12,89
+2022;enero;2;CLINICOS;3;Retiro;175,54
+2022;enero;2;CLINICOS;4;Salamanca;101,84
+2022;enero;2;CLINICOS;15;Ciudad Lineal;106,04
+2022;enero;2;CONTENEDORES DE ROPA;14;Moratalaz;0,18
+2022;enero;2;ENVASES;3;Retiro;277,16
+2022;enero;2;ENVASES;4;Salamanca;355,38
+2022;enero;2;ENVASES;5;Chamartín;372,3
+2022;enero;2;ENVASES;14;Moratalaz;245,36
+2022;enero;2;ENVASES;15;Ciudad Lineal;656,18
+2022;enero;2;ENVASES;16;Hortaleza;583,96
+2022;enero;2;ENVASES;19;Vicálvaro;278,5
+2022;enero;2;ENVASES;20;San Blas - Canillejas;487,3
+2022;enero;2;ENVASES;21;Barajas;132,82
+2022;enero;2;ORGANICA;3;Retiro;708,2
+2022;enero;2;ORGANICA;4;Salamanca;957,76
+2022;enero;2;ORGANICA;5;Chamartín;907,14
+2022;enero;2;ORGANICA;14;Moratalaz;480,3
+2022;enero;2;ORGANICA;15;Ciudad Lineal;1118,3
+2022;enero;2;ORGANICA;16;Hortaleza;828,64
+2022;enero;2;ORGANICA;19;Vicálvaro;124,16
+2022;enero;2;ORGANICA;20;San Blas - Canillejas;807,32
+2022;enero;2;ORGANICA;21;Barajas;422,02
+2022;enero;2;PUNTOS LIMPIOS;3;Retiro;2,44
+2022;enero;2;PUNTOS LIMPIOS;5;Chamartín;100,48
+2022;enero;2;PUNTOS LIMPIOS;14;Moratalaz;44,86
+2022;enero;2;PUNTOS LIMPIOS;15;Ciudad Lineal;65,62
+2022;enero;2;PUNTOS LIMPIOS;16;Hortaleza;63,78
+2022;enero;2;PUNTOS LIMPIOS;19;Vicálvaro;22,5
+2022;enero;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;55,08
+2022;enero;2;PUNTOS LIMPIOS;21;Barajas;34
+2022;enero;2;RCD;3;Retiro;54,46
+2022;enero;2;RCD;4;Salamanca;114,3
+2022;enero;2;RCD;5;Chamartín;105,82
+2022;enero;2;RCD;14;Moratalaz;61,14
+2022;enero;2;RCD;15;Ciudad Lineal;74,6
+2022;enero;2;RCD;16;Hortaleza;31,2
+2022;enero;2;RCD;19;Vicálvaro;23,5
+2022;enero;2;RCD;20;San Blas - Canillejas;45,93
+2022;enero;2;RCD;21;Barajas;32,83
+2022;enero;2;RESTO;3;Retiro;1511,54
+2022;enero;2;RESTO;4;Salamanca;2386,74
+2022;enero;2;RESTO;5;Chamartín;2137,42
+2022;enero;2;RESTO;14;Moratalaz;1288,58
+2022;enero;2;RESTO;15;Ciudad Lineal;3144,14
+2022;enero;2;RESTO;16;Hortaleza;2977,26
+2022;enero;2;RESTO;19;Vicálvaro;1842,96
+2022;enero;2;RESTO;20;San Blas - Canillejas;2577,54
+2022;enero;2;RESTO;21;Barajas;812,12
+2022;enero;2;VIDRIO;3;Retiro;325,7
+2022;enero;2;VIDRIO;4;Salamanca;313,06
+2022;enero;2;VIDRIO;5;Chamartín;365,64
+2022;enero;2;VIDRIO;14;Moratalaz;285,52
+2022;enero;2;VIDRIO;15;Ciudad Lineal;231,88
+2022;enero;2;VIDRIO;16;Hortaleza;233,52
+2022;enero;2;VIDRIO;19;Vicálvaro;150,58
+2022;enero;2;VIDRIO;20;San Blas - Canillejas;182,6
+2022;enero;2;VIDRIO;21;Barajas;130,24
+2022;enero;2;VIDRIO COMERCIAL;4;Salamanca;52,52
+2022;enero;3;PAPEL-CARTON;2;Arganzuela;384,76
+2022;enero;3;PAPEL-CARTON;11;Carabanchel;320,72
+2022;enero;3;PAPEL-CARTON;12;Usera;156,28
+2022;enero;3;PAPEL-CARTON;13;Puente de Vallecas;277,64
+2022;enero;3;PAPEL-CARTON;17;Villaverde;160,62
+2022;enero;3;PAPEL-CARTON;18;Villa de Vallecas;155,34
+2022;enero;3;CARTON COMERCIAL;2;Arganzuela;29,24
+2022;enero;3;CARTON COMERCIAL;11;Carabanchel;33,08
+2022;enero;3;CARTON COMERCIAL;12;Usera;12,52
+2022;enero;3;CARTON COMERCIAL;13;Puente de Vallecas;23,4
+2022;enero;3;CARTON COMERCIAL;17;Villaverde;8,62
+2022;enero;3;CLINICOS;12;Usera;163,92
+2022;enero;3;CLINICOS;13;Puente de Vallecas;33,8
+2022;enero;3;ENVASES;2;Arganzuela;354,08
+2022;enero;3;ENVASES;11;Carabanchel;788,86
+2022;enero;3;ENVASES;12;Usera;411,52
+2022;enero;3;ENVASES;13;Puente de Vallecas;849,6
+2022;enero;3;ENVASES;17;Villaverde;528,76
+2022;enero;3;ENVASES;18;Villa de Vallecas;322,68
+2022;enero;3;ORGANICA;2;Arganzuela;653,78
+2022;enero;3;ORGANICA;11;Carabanchel;1180,42
+2022;enero;3;ORGANICA;12;Usera;537,54
+2022;enero;3;ORGANICA;13;Puente de Vallecas;982,94
+2022;enero;3;ORGANICA;17;Villaverde;723,02
+2022;enero;3;ORGANICA;18;Villa de Vallecas;1149,04
+2022;enero;3;PUNTOS LIMPIOS;2;Arganzuela;57,58
+2022;enero;3;PUNTOS LIMPIOS;11;Carabanchel;25,58
+2022;enero;3;PUNTOS LIMPIOS;12;Usera;36,1
+2022;enero;3;PUNTOS LIMPIOS;13;Puente de Vallecas;33,06
+2022;enero;3;PUNTOS LIMPIOS;17;Villaverde;39,56
+2022;enero;3;PUNTOS LIMPIOS;18;Villa de Vallecas;60,84
+2022;enero;3;RCD;2;Arganzuela;22,62
+2022;enero;3;RCD;11;Carabanchel;28,6
+2022;enero;3;RCD;12;Usera;37,09
+2022;enero;3;RCD;13;Puente de Vallecas;41,85
+2022;enero;3;RCD;17;Villaverde;44,62
+2022;enero;3;RCD;18;Villa de Vallecas;105,56
+2022;enero;3;RESTO;2;Arganzuela;1915,96
+2022;enero;3;RESTO;11;Carabanchel;4419,66
+2022;enero;3;RESTO;12;Usera;2188,76
+2022;enero;3;RESTO;13;Puente de Vallecas;4088,56
+2022;enero;3;RESTO;17;Villaverde;2545,68
+2022;enero;3;RESTO;18;Villa de Vallecas;2812,74
+2022;enero;3;VIDRIO;2;Arganzuela;320,7
+2022;enero;3;VIDRIO;11;Carabanchel;266,22
+2022;enero;3;VIDRIO;12;Usera;217,3
+2022;enero;3;VIDRIO;13;Puente de Vallecas;212,46
+2022;enero;3;VIDRIO;17;Villaverde;127,32
+2022;enero;3;VIDRIO;18;Villa de Vallecas;154,26
+2022;enero;3;VIDRIO COMERCIAL;13;Puente de Vallecas;3,54
+2022;enero;3;ANIMALES MUERTOS;99;Sin Distrito;6,3
+2022;febrero;1;PAPEL-CARTON;1;Centro;359,95
+2022;febrero;1;PAPEL-CARTON;6;Tetuán;345,3
+2022;febrero;1;PAPEL-CARTON;7;Chamberí;299,29
+2022;febrero;1;PAPEL-CARTON;8;Fuencarral - El Pardo;575,1
+2022;febrero;1;PAPEL-CARTON;9;Moncloa - Aravaca;319,93
+2022;febrero;1;PAPEL-CARTON;10;Latina;264,66
+2022;febrero;1;CARTON COMERCIAL;1;Centro;101,6
+2022;febrero;1;CARTON COMERCIAL;6;Tetuán;49,94
+2022;febrero;1;CARTON COMERCIAL;7;Chamberí;53,44
+2022;febrero;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;4,18
+2022;febrero;1;CARTON COMERCIAL;9;Moncloa - Aravaca;0,76
+2022;febrero;1;CARTON COMERCIAL;10;Latina;4,42
+2022;febrero;1;CAMA DE CABALLO;9;Moncloa - Aravaca;55,03
+2022;febrero;1;CLINICOS;1;Centro;161,76
+2022;febrero;1;CLINICOS;6;Tetuán;14,02
+2022;febrero;1;CLINICOS;8;Fuencarral - El Pardo;290,84
+2022;febrero;1;CLINICOS;9;Moncloa - Aravaca;230,76
+2022;febrero;1;CLINICOS;10;Latina;23,54
+2022;febrero;1;CONTENEDORES DE ROPA;6;Tetuán;0,18
+2022;febrero;1;CONTENEDORES DE ROPA;8;Fuencarral - El Pardo;0,54
+2022;febrero;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,36
+2022;febrero;1;CONTENEDORES DE ROPA;10;Latina;0,36
+2022;febrero;1;ENVASES;1;Centro;223,68
+2022;febrero;1;ENVASES;6;Tetuán;329,48
+2022;febrero;1;ENVASES;7;Chamberí;328,8
+2022;febrero;1;ENVASES;8;Fuencarral - El Pardo;621,36
+2022;febrero;1;ENVASES;9;Moncloa - Aravaca;290,74
+2022;febrero;1;ENVASES;10;Latina;544,76
+2022;febrero;1;ORGANICA;1;Centro;887,14
+2022;febrero;1;ORGANICA;6;Tetuán;709,86
+2022;febrero;1;ORGANICA;7;Chamberí;776,8
+2022;febrero;1;ORGANICA;8;Fuencarral - El Pardo;1360,3
+2022;febrero;1;ORGANICA;9;Moncloa - Aravaca;890,28
+2022;febrero;1;ORGANICA;10;Latina;1112,64
+2022;febrero;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;119,42
+2022;febrero;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;75,98
+2022;febrero;1;PUNTOS LIMPIOS;10;Latina;79,06
+2022;febrero;1;RCD;1;Centro;130,39
+2022;febrero;1;RCD;6;Tetuán;30,36
+2022;febrero;1;RCD;7;Chamberí;39,36
+2022;febrero;1;RCD;8;Fuencarral - El Pardo;94,16
+2022;febrero;1;RCD;9;Moncloa - Aravaca;70,635
+2022;febrero;1;RCD;10;Latina;59,76
+2022;febrero;1;RESTO;1;Centro;3904,44
+2022;febrero;1;RESTO;6;Tetuán;2403,66
+2022;febrero;1;RESTO;7;Chamberí;2120,44
+2022;febrero;1;RESTO;8;Fuencarral - El Pardo;3126,14
+2022;febrero;1;RESTO;9;Moncloa - Aravaca;2249,62
+2022;febrero;1;RESTO;10;Latina;3066,16
+2022;febrero;1;VIDRIO;1;Centro;617,84
+2022;febrero;1;VIDRIO;6;Tetuán;359,48
+2022;febrero;1;VIDRIO;7;Chamberí;213,82
+2022;febrero;1;VIDRIO;8;Fuencarral - El Pardo;399,56
+2022;febrero;1;VIDRIO;9;Moncloa - Aravaca;176,52
+2022;febrero;1;VIDRIO;10;Latina;165,2
+2022;febrero;1;VIDRIO COMERCIAL;1;Centro;62,44
+2022;febrero;2;PAPEL-CARTON;3;Retiro;241,48
+2022;febrero;2;PAPEL-CARTON;4;Salamanca;371,24
+2022;febrero;2;PAPEL-CARTON;5;Chamartín;237,97
+2022;febrero;2;PAPEL-CARTON;14;Moratalaz;96,71
+2022;febrero;2;PAPEL-CARTON;15;Ciudad Lineal;365,06
+2022;febrero;2;PAPEL-CARTON;16;Hortaleza;246,58
+2022;febrero;2;PAPEL-CARTON;19;Vicálvaro;53,86
+2022;febrero;2;PAPEL-CARTON;20;San Blas - Canillejas;278,21
+2022;febrero;2;PAPEL-CARTON;21;Barajas;38,85
+2022;febrero;2;CARTON COMERCIAL;3;Retiro;61,26
+2022;febrero;2;CARTON COMERCIAL;4;Salamanca;114,45
+2022;febrero;2;CARTON COMERCIAL;5;Chamartín;60,72
+2022;febrero;2;CARTON COMERCIAL;14;Moratalaz;5,62
+2022;febrero;2;CARTON COMERCIAL;15;Ciudad Lineal;25
+2022;febrero;2;CARTON COMERCIAL;16;Hortaleza;61,06
+2022;febrero;2;CARTON COMERCIAL;20;San Blas - Canillejas;51,7
+2022;febrero;2;CARTON COMERCIAL;21;Barajas;3,98
+2022;febrero;2;CLINICOS;3;Retiro;167,8
+2022;febrero;2;CLINICOS;4;Salamanca;111,62
+2022;febrero;2;CLINICOS;15;Ciudad Lineal;108,66
+2022;febrero;2;CONTENEDORES DE ROPA;19;Vicálvaro;0,18
+2022;febrero;2;ENVASES;3;Retiro;243,04
+2022;febrero;2;ENVASES;4;Salamanca;329,88
+2022;febrero;2;ENVASES;5;Chamartín;342,6
+2022;febrero;2;ENVASES;14;Moratalaz;217,98
+2022;febrero;2;ENVASES;15;Ciudad Lineal;572,32
+2022;febrero;2;ENVASES;16;Hortaleza;521,54
+2022;febrero;2;ENVASES;19;Vicálvaro;243,66
+2022;febrero;2;ENVASES;20;San Blas - Canillejas;433,58
+2022;febrero;2;ENVASES;21;Barajas;128,48
+2022;febrero;2;ORGANICA;3;Retiro;658,88
+2022;febrero;2;ORGANICA;4;Salamanca;919,7
+2022;febrero;2;ORGANICA;5;Chamartín;865,1
+2022;febrero;2;ORGANICA;14;Moratalaz;421,04
+2022;febrero;2;ORGANICA;15;Ciudad Lineal;1014,66
+2022;febrero;2;ORGANICA;16;Hortaleza;769,72
+2022;febrero;2;ORGANICA;19;Vicálvaro;101,38
+2022;febrero;2;ORGANICA;20;San Blas - Canillejas;719,08
+2022;febrero;2;ORGANICA;21;Barajas;364,26
+2022;febrero;2;PUNTOS LIMPIOS;3;Retiro;2,06
+2022;febrero;2;PUNTOS LIMPIOS;5;Chamartín;91,46
+2022;febrero;2;PUNTOS LIMPIOS;14;Moratalaz;51,16
+2022;febrero;2;PUNTOS LIMPIOS;15;Ciudad Lineal;58,46
+2022;febrero;2;PUNTOS LIMPIOS;16;Hortaleza;58,1
+2022;febrero;2;PUNTOS LIMPIOS;19;Vicálvaro;19,96
+2022;febrero;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;48,74
+2022;febrero;2;PUNTOS LIMPIOS;21;Barajas;29,1
+2022;febrero;2;RCD;3;Retiro;44,92
+2022;febrero;2;RCD;4;Salamanca;53,18
+2022;febrero;2;RCD;5;Chamartín;56,9
+2022;febrero;2;RCD;14;Moratalaz;22,4
+2022;febrero;2;RCD;15;Ciudad Lineal;84,04
+2022;febrero;2;RCD;16;Hortaleza;42,74
+2022;febrero;2;RCD;19;Vicálvaro;108,62
+2022;febrero;2;RCD;20;San Blas - Canillejas;56,28
+2022;febrero;2;RCD;21;Barajas;23,98
+2022;febrero;2;RESTO;3;Retiro;1361,88
+2022;febrero;2;RESTO;4;Salamanca;2269,34
+2022;febrero;2;RESTO;5;Chamartín;2031,98
+2022;febrero;2;RESTO;14;Moratalaz;1137,42
+2022;febrero;2;RESTO;15;Ciudad Lineal;2863,54
+2022;febrero;2;RESTO;16;Hortaleza;2625,8
+2022;febrero;2;RESTO;19;Vicálvaro;1733,96
+2022;febrero;2;RESTO;20;San Blas - Canillejas;2328,3
+2022;febrero;2;RESTO;21;Barajas;737,48
+2022;febrero;2;VIDRIO;3;Retiro;282,46
+2022;febrero;2;VIDRIO;4;Salamanca;261,84
+2022;febrero;2;VIDRIO;5;Chamartín;299,2
+2022;febrero;2;VIDRIO;14;Moratalaz;248,68
+2022;febrero;2;VIDRIO;15;Ciudad Lineal;132,8
+2022;febrero;2;VIDRIO;16;Hortaleza;203,9
+2022;febrero;2;VIDRIO;19;Vicálvaro;147,4
+2022;febrero;2;VIDRIO;20;San Blas - Canillejas;160,64
+2022;febrero;2;VIDRIO;21;Barajas;78,8
+2022;febrero;2;VIDRIO COMERCIAL;4;Salamanca;55,8
+2022;febrero;3;PAPEL-CARTON;2;Arganzuela;330,58
+2022;febrero;3;PAPEL-CARTON;11;Carabanchel;282,22
+2022;febrero;3;PAPEL-CARTON;12;Usera;116,24
+2022;febrero;3;PAPEL-CARTON;13;Puente de Vallecas;218,52
+2022;febrero;3;PAPEL-CARTON;17;Villaverde;127,52
+2022;febrero;3;PAPEL-CARTON;18;Villa de Vallecas;120,88
+2022;febrero;3;CARTON COMERCIAL;2;Arganzuela;24,12
+2022;febrero;3;CARTON COMERCIAL;11;Carabanchel;30,72
+2022;febrero;3;CARTON COMERCIAL;12;Usera;12,74
+2022;febrero;3;CARTON COMERCIAL;13;Puente de Vallecas;19,28
+2022;febrero;3;CARTON COMERCIAL;17;Villaverde;7,26
+2022;febrero;3;CLINICOS;12;Usera;150,84
+2022;febrero;3;CLINICOS;13;Puente de Vallecas;35,92
+2022;febrero;3;ENVASES;2;Arganzuela;317,82
+2022;febrero;3;ENVASES;11;Carabanchel;715,78
+2022;febrero;3;ENVASES;12;Usera;367,78
+2022;febrero;3;ENVASES;13;Puente de Vallecas;738,22
+2022;febrero;3;ENVASES;17;Villaverde;477,6
+2022;febrero;3;ENVASES;18;Villa de Vallecas;287,84
+2022;febrero;3;ORGANICA;2;Arganzuela;606,24
+2022;febrero;3;ORGANICA;11;Carabanchel;1037,7
+2022;febrero;3;ORGANICA;12;Usera;475,5
+2022;febrero;3;ORGANICA;13;Puente de Vallecas;853,9
+2022;febrero;3;ORGANICA;17;Villaverde;653,6
+2022;febrero;3;ORGANICA;18;Villa de Vallecas;1099,2
+2022;febrero;3;PUNTOS LIMPIOS;2;Arganzuela;58,6
+2022;febrero;3;PUNTOS LIMPIOS;11;Carabanchel;25,84
+2022;febrero;3;PUNTOS LIMPIOS;12;Usera;31,18
+2022;febrero;3;PUNTOS LIMPIOS;13;Puente de Vallecas;35,02
+2022;febrero;3;PUNTOS LIMPIOS;17;Villaverde;37,14
+2022;febrero;3;PUNTOS LIMPIOS;18;Villa de Vallecas;74,52
+2022;febrero;3;RCD;2;Arganzuela;31,27
+2022;febrero;3;RCD;11;Carabanchel;40,59
+2022;febrero;3;RCD;12;Usera;44,09
+2022;febrero;3;RCD;13;Puente de Vallecas;59,92
+2022;febrero;3;RCD;17;Villaverde;53,19
+2022;febrero;3;RCD;18;Villa de Vallecas;70,01
+2022;febrero;3;RESTO;2;Arganzuela;1732,18
+2022;febrero;3;RESTO;11;Carabanchel;3922,94
+2022;febrero;3;RESTO;12;Usera;1963,38
+2022;febrero;3;RESTO;13;Puente de Vallecas;3611,92
+2022;febrero;3;RESTO;17;Villaverde;2314,24
+2022;febrero;3;RESTO;18;Villa de Vallecas;2427,52
+2022;febrero;3;VIDRIO;2;Arganzuela;163,86
+2022;febrero;3;VIDRIO;11;Carabanchel;233,94
+2022;febrero;3;VIDRIO;12;Usera;181,84
+2022;febrero;3;VIDRIO;13;Puente de Vallecas;186,6
+2022;febrero;3;VIDRIO;17;Villaverde;123,46
+2022;febrero;3;VIDRIO;18;Villa de Vallecas;166,88
+2022;febrero;3;ANIMALES MUERTOS;99;Sin Distrito;7,96
+2022;febrero;3;PILAS;99;Sin Distrito;2,19
+2022;marzo;1;PAPEL-CARTON;1;Centro;393,98
+2022;marzo;1;PAPEL-CARTON;6;Tetuán;411,62
+2022;marzo;1;PAPEL-CARTON;7;Chamberí;347,96
+2022;marzo;1;PAPEL-CARTON;8;Fuencarral - El Pardo;693,88
+2022;marzo;1;PAPEL-CARTON;9;Moncloa - Aravaca;331,41
+2022;marzo;1;PAPEL-CARTON;10;Latina;292,28
+2022;marzo;1;CARTON COMERCIAL;1;Centro;129,84
+2022;marzo;1;CARTON COMERCIAL;6;Tetuán;43,78
+2022;marzo;1;CARTON COMERCIAL;7;Chamberí;62,6
+2022;marzo;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;1,6
+2022;marzo;1;CARTON COMERCIAL;9;Moncloa - Aravaca;1,18
+2022;marzo;1;CAMA DE CABALLO;9;Moncloa - Aravaca;69,485
+2022;marzo;1;CLINICOS;1;Centro;186,42
+2022;marzo;1;CLINICOS;6;Tetuán;14
+2022;marzo;1;CLINICOS;8;Fuencarral - El Pardo;317,04
+2022;marzo;1;CLINICOS;9;Moncloa - Aravaca;265,72
+2022;marzo;1;CLINICOS;10;Latina;27,6
+2022;marzo;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,18
+2022;marzo;1;CONTENEDORES DE ROPA;10;Latina;0,36
+2022;marzo;1;ENVASES;1;Centro;256,16
+2022;marzo;1;ENVASES;6;Tetuán;367,52
+2022;marzo;1;ENVASES;7;Chamberí;380
+2022;marzo;1;ENVASES;8;Fuencarral - El Pardo;713,06
+2022;marzo;1;ENVASES;9;Moncloa - Aravaca;325,96
+2022;marzo;1;ENVASES;10;Latina;650,4
+2022;marzo;1;ORGANICA;1;Centro;1013,14
+2022;marzo;1;ORGANICA;6;Tetuán;811,58
+2022;marzo;1;ORGANICA;7;Chamberí;868,62
+2022;marzo;1;ORGANICA;8;Fuencarral - El Pardo;1521,02
+2022;marzo;1;ORGANICA;9;Moncloa - Aravaca;1003,94
+2022;marzo;1;ORGANICA;10;Latina;1253,24
+2022;marzo;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;125,1
+2022;marzo;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;56,44
+2022;marzo;1;PUNTOS LIMPIOS;10;Latina;121,94
+2022;marzo;1;RCD;1;Centro;135,105
+2022;marzo;1;RCD;6;Tetuán;28,955
+2022;marzo;1;RCD;7;Chamberí;47,395
+2022;marzo;1;RCD;8;Fuencarral - El Pardo;99,815
+2022;marzo;1;RCD;9;Moncloa - Aravaca;68,535
+2022;marzo;1;RCD;10;Latina;55,315
+2022;marzo;1;RESTO;1;Centro;4460,98
+2022;marzo;1;RESTO;6;Tetuán;2641,04
+2022;marzo;1;RESTO;7;Chamberí;2325,2
+2022;marzo;1;RESTO;8;Fuencarral - El Pardo;3486,78
+2022;marzo;1;RESTO;9;Moncloa - Aravaca;2438,72
+2022;marzo;1;RESTO;10;Latina;3367,92
+2022;marzo;1;VIDRIO;1;Centro;688,2
+2022;marzo;1;VIDRIO;6;Tetuán;431,06
+2022;marzo;1;VIDRIO;7;Chamberí;244,94
+2022;marzo;1;VIDRIO;8;Fuencarral - El Pardo;441,72
+2022;marzo;1;VIDRIO;9;Moncloa - Aravaca;200,94
+2022;marzo;1;VIDRIO;10;Latina;180,4
+2022;marzo;1;VIDRIO COMERCIAL;1;Centro;72,48
+2022;marzo;2;PAPEL-CARTON;3;Retiro;263,38
+2022;marzo;2;PAPEL-CARTON;4;Salamanca;433,06
+2022;marzo;2;PAPEL-CARTON;5;Chamartín;299,21
+2022;marzo;2;PAPEL-CARTON;14;Moratalaz;107,1
+2022;marzo;2;PAPEL-CARTON;15;Ciudad Lineal;410,92
+2022;marzo;2;PAPEL-CARTON;16;Hortaleza;297,98
+2022;marzo;2;PAPEL-CARTON;19;Vicálvaro;78,92
+2022;marzo;2;PAPEL-CARTON;20;San Blas - Canillejas;312,43
+2022;marzo;2;PAPEL-CARTON;21;Barajas;46,09
+2022;marzo;2;CARTON COMERCIAL;3;Retiro;70,28
+2022;marzo;2;CARTON COMERCIAL;4;Salamanca;133,53
+2022;marzo;2;CARTON COMERCIAL;5;Chamartín;65,14
+2022;marzo;2;CARTON COMERCIAL;14;Moratalaz;13,86
+2022;marzo;2;CARTON COMERCIAL;15;Ciudad Lineal;7,32
+2022;marzo;2;CARTON COMERCIAL;16;Hortaleza;54,03
+2022;marzo;2;CARTON COMERCIAL;19;Vicálvaro;8,92
+2022;marzo;2;CARTON COMERCIAL;20;San Blas - Canillejas;73,17
+2022;marzo;2;CARTON COMERCIAL;21;Barajas;20,01
+2022;marzo;2;CLINICOS;3;Retiro;189,02
+2022;marzo;2;CLINICOS;4;Salamanca;132,9
+2022;marzo;2;CLINICOS;15;Ciudad Lineal;131,18
+2022;marzo;2;ENVASES;3;Retiro;271,38
+2022;marzo;2;ENVASES;4;Salamanca;361,78
+2022;marzo;2;ENVASES;5;Chamartín;392,5
+2022;marzo;2;ENVASES;14;Moratalaz;223,42
+2022;marzo;2;ENVASES;15;Ciudad Lineal;655,2
+2022;marzo;2;ENVASES;16;Hortaleza;626,92
+2022;marzo;2;ENVASES;19;Vicálvaro;309,8
+2022;marzo;2;ENVASES;20;San Blas - Canillejas;480,2
+2022;marzo;2;ENVASES;21;Barajas;143,78
+2022;marzo;2;ORGANICA;3;Retiro;720,5
+2022;marzo;2;ORGANICA;4;Salamanca;1036,52
+2022;marzo;2;ORGANICA;5;Chamartín;980,76
+2022;marzo;2;ORGANICA;14;Moratalaz;486,98
+2022;marzo;2;ORGANICA;15;Ciudad Lineal;1083,12
+2022;marzo;2;ORGANICA;16;Hortaleza;845,88
+2022;marzo;2;ORGANICA;19;Vicálvaro;133,66
+2022;marzo;2;ORGANICA;20;San Blas - Canillejas;802,86
+2022;marzo;2;ORGANICA;21;Barajas;443,24
+2022;marzo;2;PUNTOS LIMPIOS;3;Retiro;1,68
+2022;marzo;2;PUNTOS LIMPIOS;5;Chamartín;88,54
+2022;marzo;2;PUNTOS LIMPIOS;14;Moratalaz;48,66
+2022;marzo;2;PUNTOS LIMPIOS;15;Ciudad Lineal;74,76
+2022;marzo;2;PUNTOS LIMPIOS;16;Hortaleza;61,22
+2022;marzo;2;PUNTOS LIMPIOS;19;Vicálvaro;25,5
+2022;marzo;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;71,88
+2022;marzo;2;PUNTOS LIMPIOS;21;Barajas;36,82
+2022;marzo;2;RCD;3;Retiro;14,12
+2022;marzo;2;RCD;4;Salamanca;62,84
+2022;marzo;2;RCD;5;Chamartín;111,65
+2022;marzo;2;RCD;14;Moratalaz;83,71
+2022;marzo;2;RCD;15;Ciudad Lineal;112,12
+2022;marzo;2;RCD;16;Hortaleza;90,34
+2022;marzo;2;RCD;19;Vicálvaro;68,86
+2022;marzo;2;RCD;20;San Blas - Canillejas;89,68
+2022;marzo;2;RCD;21;Barajas;22,82
+2022;marzo;2;RESTO;3;Retiro;1485,12
+2022;marzo;2;RESTO;4;Salamanca;2540,88
+2022;marzo;2;RESTO;5;Chamartín;2286,74
+2022;marzo;2;RESTO;14;Moratalaz;1236,34
+2022;marzo;2;RESTO;15;Ciudad Lineal;3219,3
+2022;marzo;2;RESTO;16;Hortaleza;2889,64
+2022;marzo;2;RESTO;19;Vicálvaro;1961,9
+2022;marzo;2;RESTO;20;San Blas - Canillejas;2651,66
+2022;marzo;2;RESTO;21;Barajas;841,52
+2022;marzo;2;VIDRIO;3;Retiro;351,8
+2022;marzo;2;VIDRIO;4;Salamanca;343,54
+2022;marzo;2;VIDRIO;5;Chamartín;345,76
+2022;marzo;2;VIDRIO;14;Moratalaz;269,62
+2022;marzo;2;VIDRIO;15;Ciudad Lineal;192,86
+2022;marzo;2;VIDRIO;16;Hortaleza;191,38
+2022;marzo;2;VIDRIO;19;Vicálvaro;183,44
+2022;marzo;2;VIDRIO;20;San Blas - Canillejas;171,16
+2022;marzo;2;VIDRIO;21;Barajas;138,16
+2022;marzo;2;VIDRIO COMERCIAL;4;Salamanca;60,18
+2022;marzo;3;PAPEL-CARTON;2;Arganzuela;355,44
+2022;marzo;3;PAPEL-CARTON;11;Carabanchel;314,6
+2022;marzo;3;PAPEL-CARTON;12;Usera;135,1
+2022;marzo;3;PAPEL-CARTON;13;Puente de Vallecas;242,64
+2022;marzo;3;PAPEL-CARTON;17;Villaverde;155,32
+2022;marzo;3;PAPEL-CARTON;18;Villa de Vallecas;149,3
+2022;marzo;3;CARTON COMERCIAL;2;Arganzuela;30,26
+2022;marzo;3;CARTON COMERCIAL;11;Carabanchel;36,12
+2022;marzo;3;CARTON COMERCIAL;12;Usera;14
+2022;marzo;3;CARTON COMERCIAL;13;Puente de Vallecas;21,02
+2022;marzo;3;CARTON COMERCIAL;17;Villaverde;7,5
+2022;marzo;3;CLINICOS;12;Usera;165,16
+2022;marzo;3;CLINICOS;13;Puente de Vallecas;40,1
+2022;marzo;3;CONTENEDORES DE ROPA;17;Villaverde;0,18
+2022;marzo;3;ENVASES;2;Arganzuela;352
+2022;marzo;3;ENVASES;11;Carabanchel;801,7
+2022;marzo;3;ENVASES;12;Usera;413,6
+2022;marzo;3;ENVASES;13;Puente de Vallecas;837,38
+2022;marzo;3;ENVASES;17;Villaverde;537,18
+2022;marzo;3;ENVASES;18;Villa de Vallecas;332,44
+2022;marzo;3;ORGANICA;2;Arganzuela;671,86
+2022;marzo;3;ORGANICA;11;Carabanchel;1161,44
+2022;marzo;3;ORGANICA;12;Usera;528,22
+2022;marzo;3;ORGANICA;13;Puente de Vallecas;946,54
+2022;marzo;3;ORGANICA;17;Villaverde;716,86
+2022;marzo;3;ORGANICA;18;Villa de Vallecas;1377,68
+2022;marzo;3;PUNTOS LIMPIOS;2;Arganzuela;67,96
+2022;marzo;3;PUNTOS LIMPIOS;11;Carabanchel;40,18
+2022;marzo;3;PUNTOS LIMPIOS;12;Usera;39,92
+2022;marzo;3;PUNTOS LIMPIOS;13;Puente de Vallecas;32,12
+2022;marzo;3;PUNTOS LIMPIOS;17;Villaverde;47,18
+2022;marzo;3;PUNTOS LIMPIOS;18;Villa de Vallecas;69,96
+2022;marzo;3;RCD;2;Arganzuela;27,6
+2022;marzo;3;RCD;11;Carabanchel;43,99
+2022;marzo;3;RCD;12;Usera;61,29
+2022;marzo;3;RCD;13;Puente de Vallecas;29,63
+2022;marzo;3;RCD;17;Villaverde;56,8
+2022;marzo;3;RCD;18;Villa de Vallecas;100,49
+2022;marzo;3;RESTO;2;Arganzuela;1946,18
+2022;marzo;3;RESTO;11;Carabanchel;4391,26
+2022;marzo;3;RESTO;12;Usera;2170,73
+2022;marzo;3;RESTO;13;Puente de Vallecas;3865
+2022;marzo;3;RESTO;17;Villaverde;2537,2
+2022;marzo;3;RESTO;18;Villa de Vallecas;2763,96
+2022;marzo;3;VIDRIO;2;Arganzuela;108,06
+2022;marzo;3;VIDRIO;11;Carabanchel;190,62
+2022;marzo;3;VIDRIO;12;Usera;282,98
+2022;marzo;3;VIDRIO;13;Puente de Vallecas;255,86
+2022;marzo;3;VIDRIO;17;Villaverde;94,04
+2022;marzo;3;VIDRIO;18;Villa de Vallecas;199,22
+2022;marzo;3;VIDRIO COMERCIAL;13;Puente de Vallecas;5,92
+2022;marzo;3;ANIMALES MUERTOS;99;Sin Distrito;10,5
+2022;marzo;3;PILAS;99;Sin Distrito;6,27
+2022;abril;1;PAPEL-CARTON;1;Centro;390,84
+2022;abril;1;PAPEL-CARTON;6;Tetuán;354,2
+2022;abril;1;PAPEL-CARTON;7;Chamberí;267,12
+2022;abril;1;PAPEL-CARTON;8;Fuencarral - El Pardo;592,84
+2022;abril;1;PAPEL-CARTON;9;Moncloa - Aravaca;266,05
+2022;abril;1;PAPEL-CARTON;10;Latina;271,24
+2022;abril;1;CARTON COMERCIAL;1;Centro;126,617
+2022;abril;1;CARTON COMERCIAL;6;Tetuán;59,62337959
+2022;abril;1;CARTON COMERCIAL;7;Chamberí;61,48
+2022;abril;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;2,82
+2022;abril;1;CARTON COMERCIAL;9;Moncloa - Aravaca;1,48
+2022;abril;1;CARTON COMERCIAL;10;Latina;0,94
+2022;abril;1;CAMA DE CABALLO;9;Moncloa - Aravaca;63,95
+2022;abril;1;CLINICOS;1;Centro;162,26
+2022;abril;1;CLINICOS;6;Tetuán;12,3
+2022;abril;1;CLINICOS;8;Fuencarral - El Pardo;294,68
+2022;abril;1;CLINICOS;9;Moncloa - Aravaca;240,44
+2022;abril;1;CLINICOS;10;Latina;26,4
+2022;abril;1;CONTENEDORES DE ROPA;8;Fuencarral - El Pardo;0,36
+2022;abril;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,18
+2022;abril;1;ENVASES;1;Centro;241,22
+2022;abril;1;ENVASES;6;Tetuán;358,72
+2022;abril;1;ENVASES;7;Chamberí;320,48
+2022;abril;1;ENVASES;8;Fuencarral - El Pardo;639,5
+2022;abril;1;ENVASES;9;Moncloa - Aravaca;300,76
+2022;abril;1;ENVASES;10;Latina;590,4
+2022;abril;1;ORGANICA;1;Centro;1014,58
+2022;abril;1;ORGANICA;6;Tetuán;771,6
+2022;abril;1;ORGANICA;7;Chamberí;794,32
+2022;abril;1;ORGANICA;8;Fuencarral - El Pardo;1425,54
+2022;abril;1;ORGANICA;9;Moncloa - Aravaca;959,38
+2022;abril;1;ORGANICA;10;Latina;1231,8
+2022;abril;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;108,92
+2022;abril;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;66,7
+2022;abril;1;PUNTOS LIMPIOS;10;Latina;109
+2022;abril;1;RCD;1;Centro;154,69
+2022;abril;1;RCD;6;Tetuán;50,74
+2022;abril;1;RCD;7;Chamberí;48,995
+2022;abril;1;RCD;8;Fuencarral - El Pardo;99,905
+2022;abril;1;RCD;9;Moncloa - Aravaca;60,65
+2022;abril;1;RCD;10;Latina;59,07
+2022;abril;1;RESTO;1;Centro;4333,86
+2022;abril;1;RESTO;6;Tetuán;2459,08
+2022;abril;1;RESTO;7;Chamberí;2102,88
+2022;abril;1;RESTO;8;Fuencarral - El Pardo;3254,06
+2022;abril;1;RESTO;9;Moncloa - Aravaca;2292,2
+2022;abril;1;RESTO;10;Latina;3182,3
+2022;abril;1;VIDRIO;1;Centro;666,48
+2022;abril;1;VIDRIO;6;Tetuán;333,72
+2022;abril;1;VIDRIO;7;Chamberí;255,88
+2022;abril;1;VIDRIO;8;Fuencarral - El Pardo;397,8
+2022;abril;1;VIDRIO;9;Moncloa - Aravaca;158,68
+2022;abril;1;VIDRIO;10;Latina;187,36
+2022;abril;1;VIDRIO COMERCIAL;1;Centro;75
+2022;abril;2;PAPEL-CARTON;3;Retiro;228,32
+2022;abril;2;PAPEL-CARTON;4;Salamanca;386,79
+2022;abril;2;PAPEL-CARTON;5;Chamartín;265,04
+2022;abril;2;PAPEL-CARTON;14;Moratalaz;97,93
+2022;abril;2;PAPEL-CARTON;15;Ciudad Lineal;367,55
+2022;abril;2;PAPEL-CARTON;16;Hortaleza;253,38
+2022;abril;2;PAPEL-CARTON;19;Vicálvaro;63,47
+2022;abril;2;PAPEL-CARTON;20;San Blas - Canillejas;270,39
+2022;abril;2;PAPEL-CARTON;21;Barajas;61,36
+2022;abril;2;CARTON COMERCIAL;3;Retiro;68,05
+2022;abril;2;CARTON COMERCIAL;4;Salamanca;116,07
+2022;abril;2;CARTON COMERCIAL;5;Chamartín;58,43
+2022;abril;2;CARTON COMERCIAL;14;Moratalaz;4,43
+2022;abril;2;CARTON COMERCIAL;15;Ciudad Lineal;8,15
+2022;abril;2;CARTON COMERCIAL;16;Hortaleza;55,07
+2022;abril;2;CARTON COMERCIAL;19;Vicálvaro;3,57
+2022;abril;2;CARTON COMERCIAL;20;San Blas - Canillejas;55,56
+2022;abril;2;CARTON COMERCIAL;21;Barajas;0,28
+2022;abril;2;CLINICOS;3;Retiro;172,96
+2022;abril;2;CLINICOS;4;Salamanca;117,46
+2022;abril;2;CLINICOS;15;Ciudad Lineal;115,42
+2022;abril;2;CONTENEDORES DE ROPA;16;Hortaleza;0,18
+2022;abril;2;ENVASES;3;Retiro;250,24
+2022;abril;2;ENVASES;4;Salamanca;330,08
+2022;abril;2;ENVASES;5;Chamartín;342,82
+2022;abril;2;ENVASES;14;Moratalaz;212,8
+2022;abril;2;ENVASES;15;Ciudad Lineal;625,46
+2022;abril;2;ENVASES;16;Hortaleza;533,84
+2022;abril;2;ENVASES;19;Vicálvaro;294,78
+2022;abril;2;ENVASES;20;San Blas - Canillejas;457,92
+2022;abril;2;ENVASES;21;Barajas;116,94
+2022;abril;2;ORGANICA;3;Retiro;660,3
+2022;abril;2;ORGANICA;4;Salamanca;980,5
+2022;abril;2;ORGANICA;5;Chamartín;901,28
+2022;abril;2;ORGANICA;14;Moratalaz;481,06
+2022;abril;2;ORGANICA;15;Ciudad Lineal;1082,7
+2022;abril;2;ORGANICA;16;Hortaleza;836
+2022;abril;2;ORGANICA;19;Vicálvaro;214,52
+2022;abril;2;ORGANICA;20;San Blas - Canillejas;687,9
+2022;abril;2;ORGANICA;21;Barajas;403,12
+2022;abril;2;PUNTOS LIMPIOS;3;Retiro;2,04
+2022;abril;2;PUNTOS LIMPIOS;5;Chamartín;85,64
+2022;abril;2;PUNTOS LIMPIOS;14;Moratalaz;43,2
+2022;abril;2;PUNTOS LIMPIOS;15;Ciudad Lineal;64,94
+2022;abril;2;PUNTOS LIMPIOS;16;Hortaleza;62,28
+2022;abril;2;PUNTOS LIMPIOS;19;Vicálvaro;30,96
+2022;abril;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;60,62
+2022;abril;2;PUNTOS LIMPIOS;21;Barajas;26,92
+2022;abril;2;RCD;3;Retiro;80,305
+2022;abril;2;RCD;4;Salamanca;56,82
+2022;abril;2;RCD;5;Chamartín;88,48
+2022;abril;2;RCD;14;Moratalaz;80,88
+2022;abril;2;RCD;15;Ciudad Lineal;101,06
+2022;abril;2;RCD;16;Hortaleza;68,785
+2022;abril;2;RCD;19;Vicálvaro;36,51
+2022;abril;2;RCD;20;San Blas - Canillejas;57,5
+2022;abril;2;RCD;21;Barajas;22,06
+2022;abril;2;RESTO;3;Retiro;1445,3
+2022;abril;2;RESTO;4;Salamanca;2288,54
+2022;abril;2;RESTO;5;Chamartín;2040,24
+2022;abril;2;RESTO;14;Moratalaz;1144,7
+2022;abril;2;RESTO;15;Ciudad Lineal;2956,76
+2022;abril;2;RESTO;16;Hortaleza;2704
+2022;abril;2;RESTO;19;Vicálvaro;1764,22
+2022;abril;2;RESTO;20;San Blas - Canillejas;2482,62
+2022;abril;2;RESTO;21;Barajas;798,56
+2022;abril;2;VIDRIO;3;Retiro;308,74
+2022;abril;2;VIDRIO;4;Salamanca;239,36
+2022;abril;2;VIDRIO;5;Chamartín;311,54
+2022;abril;2;VIDRIO;14;Moratalaz;182,9
+2022;abril;2;VIDRIO;15;Ciudad Lineal;148,12
+2022;abril;2;VIDRIO;16;Hortaleza;166,48
+2022;abril;2;VIDRIO;19;Vicálvaro;182,74
+2022;abril;2;VIDRIO;20;San Blas - Canillejas;151,82
+2022;abril;2;VIDRIO;21;Barajas;86,76
+2022;abril;2;VIDRIO COMERCIAL;4;Salamanca;63,86
+2022;abril;3;PAPEL-CARTON;2;Arganzuela;337,58
+2022;abril;3;PAPEL-CARTON;11;Carabanchel;291,52
+2022;abril;3;PAPEL-CARTON;12;Usera;115,08
+2022;abril;3;PAPEL-CARTON;13;Puente de Vallecas;216,48
+2022;abril;3;PAPEL-CARTON;17;Villaverde;132,94
+2022;abril;3;PAPEL-CARTON;18;Villa de Vallecas;131,1
+2022;abril;3;CARTON COMERCIAL;2;Arganzuela;26,5
+2022;abril;3;CARTON COMERCIAL;11;Carabanchel;37,94
+2022;abril;3;CARTON COMERCIAL;12;Usera;12,74
+2022;abril;3;CARTON COMERCIAL;13;Puente de Vallecas;17,06
+2022;abril;3;CARTON COMERCIAL;17;Villaverde;6,7
+2022;abril;3;CLINICOS;12;Usera;151,14
+2022;abril;3;CLINICOS;13;Puente de Vallecas;36,1
+2022;abril;3;ENVASES;2;Arganzuela;323,34
+2022;abril;3;ENVASES;11;Carabanchel;776,32
+2022;abril;3;ENVASES;12;Usera;402,3
+2022;abril;3;ENVASES;13;Puente de Vallecas;811,36
+2022;abril;3;ENVASES;17;Villaverde;513,48
+2022;abril;3;ENVASES;18;Villa de Vallecas;306,86
+2022;abril;3;ORGANICA;2;Arganzuela;628,78
+2022;abril;3;ORGANICA;11;Carabanchel;1111,94
+2022;abril;3;ORGANICA;12;Usera;529,3
+2022;abril;3;ORGANICA;13;Puente de Vallecas;931,82
+2022;abril;3;ORGANICA;17;Villaverde;725,14
+2022;abril;3;ORGANICA;18;Villa de Vallecas;1608,52
+2022;abril;3;PUNTOS LIMPIOS;2;Arganzuela;52,86
+2022;abril;3;PUNTOS LIMPIOS;11;Carabanchel;46,78
+2022;abril;3;PUNTOS LIMPIOS;12;Usera;15,62
+2022;abril;3;PUNTOS LIMPIOS;13;Puente de Vallecas;36,86
+2022;abril;3;PUNTOS LIMPIOS;17;Villaverde;48,1
+2022;abril;3;PUNTOS LIMPIOS;18;Villa de Vallecas;58,92
+2022;abril;3;RCD;2;Arganzuela;27,87
+2022;abril;3;RCD;11;Carabanchel;25,36
+2022;abril;3;RCD;12;Usera;59,49
+2022;abril;3;RCD;13;Puente de Vallecas;32,93
+2022;abril;3;RCD;17;Villaverde;51,91
+2022;abril;3;RCD;18;Villa de Vallecas;169,045
+2022;abril;3;RESTO;2;Arganzuela;1815,48
+2022;abril;3;RESTO;11;Carabanchel;4137,08
+2022;abril;3;RESTO;12;Usera;2039,46
+2022;abril;3;RESTO;13;Puente de Vallecas;3816,7
+2022;abril;3;RESTO;17;Villaverde;2440,16
+2022;abril;3;RESTO;18;Villa de Vallecas;2556,38
+2022;abril;3;VIDRIO;2;Arganzuela;197,78
+2022;abril;3;VIDRIO;11;Carabanchel;153,12
+2022;abril;3;VIDRIO;12;Usera;188,54
+2022;abril;3;VIDRIO;13;Puente de Vallecas;104,96
+2022;abril;3;VIDRIO;17;Villaverde;152,64
+2022;abril;3;VIDRIO;18;Villa de Vallecas;272,76
+2022;abril;3;VIDRIO COMERCIAL;13;Puente de Vallecas;2,12
+2022;abril;3;ANIMALES MUERTOS;99;Sin Distrito;7,3
+2022;mayo;1;PAPEL-CARTON;1;Centro;390,21
+2022;mayo;1;PAPEL-CARTON;6;Tetuán;337,8
+2022;mayo;1;PAPEL-CARTON;7;Chamberí;257,94
+2022;mayo;1;PAPEL-CARTON;8;Fuencarral - El Pardo;598,63
+2022;mayo;1;PAPEL-CARTON;9;Moncloa - Aravaca;300,16
+2022;mayo;1;PAPEL-CARTON;10;Latina;310,5
+2022;mayo;1;CARTON COMERCIAL;1;Centro;140,44
+2022;mayo;1;CARTON COMERCIAL;6;Tetuán;73,9
+2022;mayo;1;CARTON COMERCIAL;7;Chamberí;83,44
+2022;mayo;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;1,3
+2022;mayo;1;CARTON COMERCIAL;9;Moncloa - Aravaca;0,84
+2022;mayo;1;CARTON COMERCIAL;10;Latina;5,3
+2022;mayo;1;CAMA DE CABALLO;9;Moncloa - Aravaca;42,21
+2022;mayo;1;CLINICOS;1;Centro;172,08
+2022;mayo;1;CLINICOS;6;Tetuán;16,32
+2022;mayo;1;CLINICOS;8;Fuencarral - El Pardo;306,68
+2022;mayo;1;CLINICOS;9;Moncloa - Aravaca;252,56
+2022;mayo;1;CLINICOS;10;Latina;25,56
+2022;mayo;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,18
+2022;mayo;1;ENVASES;1;Centro;263,16
+2022;mayo;1;ENVASES;6;Tetuán;388,94
+2022;mayo;1;ENVASES;7;Chamberí;358,32
+2022;mayo;1;ENVASES;8;Fuencarral - El Pardo;714,88
+2022;mayo;1;ENVASES;9;Moncloa - Aravaca;347,94
+2022;mayo;1;ENVASES;10;Latina;640,36
+2022;mayo;1;ORGANICA;1;Centro;1109,42
+2022;mayo;1;ORGANICA;6;Tetuán;813,94
+2022;mayo;1;ORGANICA;7;Chamberí;948,86
+2022;mayo;1;ORGANICA;8;Fuencarral - El Pardo;1690,5
+2022;mayo;1;ORGANICA;9;Moncloa - Aravaca;1149,36
+2022;mayo;1;ORGANICA;10;Latina;1434,38
+2022;mayo;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;127,9
+2022;mayo;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;73,62
+2022;mayo;1;PUNTOS LIMPIOS;10;Latina;118,46
+2022;mayo;1;RCD;1;Centro;137,22
+2022;mayo;1;RCD;6;Tetuán;49,7
+2022;mayo;1;RCD;7;Chamberí;37,2
+2022;mayo;1;RCD;8;Fuencarral - El Pardo;114,5
+2022;mayo;1;RCD;9;Moncloa - Aravaca;65,225
+2022;mayo;1;RCD;10;Latina;65,325
+2022;mayo;1;RESTO;1;Centro;4651,08
+2022;mayo;1;RESTO;6;Tetuán;2662,56
+2022;mayo;1;RESTO;7;Chamberí;2305,62
+2022;mayo;1;RESTO;8;Fuencarral - El Pardo;3589,94
+2022;mayo;1;RESTO;9;Moncloa - Aravaca;2686,86
+2022;mayo;1;RESTO;10;Latina;3463,44
+2022;mayo;1;VIDRIO;1;Centro;745,6
+2022;mayo;1;VIDRIO;6;Tetuán;394,24
+2022;mayo;1;VIDRIO;7;Chamberí;237,3
+2022;mayo;1;VIDRIO;8;Fuencarral - El Pardo;400,94
+2022;mayo;1;VIDRIO;9;Moncloa - Aravaca;235,98
+2022;mayo;1;VIDRIO;10;Latina;152,44
+2022;mayo;1;VIDRIO COMERCIAL;1;Centro;75,94
+2022;mayo;2;PAPEL-CARTON;3;Retiro;246,71
+2022;mayo;2;PAPEL-CARTON;4;Salamanca;410,48
+2022;mayo;2;PAPEL-CARTON;5;Chamartín;275,29
+2022;mayo;2;PAPEL-CARTON;14;Moratalaz;106,81
+2022;mayo;2;PAPEL-CARTON;15;Ciudad Lineal;384,88
+2022;mayo;2;PAPEL-CARTON;16;Hortaleza;256,15
+2022;mayo;2;PAPEL-CARTON;19;Vicálvaro;61,9
+2022;mayo;2;PAPEL-CARTON;20;San Blas - Canillejas;295,95
+2022;mayo;2;PAPEL-CARTON;21;Barajas;54,16
+2022;mayo;2;CARTON COMERCIAL;3;Retiro;62,44
+2022;mayo;2;CARTON COMERCIAL;4;Salamanca;134,37
+2022;mayo;2;CARTON COMERCIAL;5;Chamartín;46,29
+2022;mayo;2;CARTON COMERCIAL;14;Moratalaz;9,54
+2022;mayo;2;CARTON COMERCIAL;15;Ciudad Lineal;12,41
+2022;mayo;2;CARTON COMERCIAL;16;Hortaleza;75,59
+2022;mayo;2;CARTON COMERCIAL;19;Vicálvaro;1,53
+2022;mayo;2;CARTON COMERCIAL;20;San Blas - Canillejas;69,13
+2022;mayo;2;CARTON COMERCIAL;21;Barajas;9,14
+2022;mayo;2;CLINICOS;3;Retiro;175,66
+2022;mayo;2;CLINICOS;4;Salamanca;119,92
+2022;mayo;2;CLINICOS;15;Ciudad Lineal;113,56
+2022;mayo;2;ENVASES;3;Retiro;275,7
+2022;mayo;2;ENVASES;4;Salamanca;355,04
+2022;mayo;2;ENVASES;5;Chamartín;374,92
+2022;mayo;2;ENVASES;14;Moratalaz;312,04
+2022;mayo;2;ENVASES;15;Ciudad Lineal;572,94
+2022;mayo;2;ENVASES;16;Hortaleza;597,14
+2022;mayo;2;ENVASES;19;Vicálvaro;307
+2022;mayo;2;ENVASES;20;San Blas - Canillejas;487,44
+2022;mayo;2;ENVASES;21;Barajas;143,02
+2022;mayo;2;ORGANICA;3;Retiro;739,4
+2022;mayo;2;ORGANICA;4;Salamanca;1105,08
+2022;mayo;2;ORGANICA;5;Chamartín;1028,74
+2022;mayo;2;ORGANICA;14;Moratalaz;519,98
+2022;mayo;2;ORGANICA;15;Ciudad Lineal;1200,8
+2022;mayo;2;ORGANICA;16;Hortaleza;940,44
+2022;mayo;2;ORGANICA;19;Vicálvaro;246,68
+2022;mayo;2;ORGANICA;20;San Blas - Canillejas;796,26
+2022;mayo;2;ORGANICA;21;Barajas;534,42
+2022;mayo;2;PUNTOS LIMPIOS;3;Retiro;2,7
+2022;mayo;2;PUNTOS LIMPIOS;5;Chamartín;100,86
+2022;mayo;2;PUNTOS LIMPIOS;14;Moratalaz;44
+2022;mayo;2;PUNTOS LIMPIOS;15;Ciudad Lineal;60,08
+2022;mayo;2;PUNTOS LIMPIOS;16;Hortaleza;73,26
+2022;mayo;2;PUNTOS LIMPIOS;19;Vicálvaro;25,66
+2022;mayo;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;74,82
+2022;mayo;2;PUNTOS LIMPIOS;21;Barajas;45,64
+2022;mayo;2;RCD;3;Retiro;54,84
+2022;mayo;2;RCD;4;Salamanca;81,305
+2022;mayo;2;RCD;5;Chamartín;76,96
+2022;mayo;2;RCD;14;Moratalaz;62,64
+2022;mayo;2;RCD;15;Ciudad Lineal;79,28
+2022;mayo;2;RCD;16;Hortaleza;47,98
+2022;mayo;2;RCD;19;Vicálvaro;36,4
+2022;mayo;2;RCD;20;San Blas - Canillejas;53,24
+2022;mayo;2;RCD;21;Barajas;36,34
+2022;mayo;2;RESTO;3;Retiro;1517,92
+2022;mayo;2;RESTO;4;Salamanca;2533,18
+2022;mayo;2;RESTO;5;Chamartín;2257,1
+2022;mayo;2;RESTO;14;Moratalaz;1239,62
+2022;mayo;2;RESTO;15;Ciudad Lineal;3202,22
+2022;mayo;2;RESTO;16;Hortaleza;3001,96
+2022;mayo;2;RESTO;19;Vicálvaro;1906
+2022;mayo;2;RESTO;20;San Blas - Canillejas;2719,2
+2022;mayo;2;RESTO;21;Barajas;886,66
+2022;mayo;2;VIDRIO;3;Retiro;294,92
+2022;mayo;2;VIDRIO;4;Salamanca;311,24
+2022;mayo;2;VIDRIO;5;Chamartín;331,4
+2022;mayo;2;VIDRIO;14;Moratalaz;269,4
+2022;mayo;2;VIDRIO;15;Ciudad Lineal;168,3
+2022;mayo;2;VIDRIO;16;Hortaleza;161,66
+2022;mayo;2;VIDRIO;19;Vicálvaro;176,1
+2022;mayo;2;VIDRIO;20;San Blas - Canillejas;165,58
+2022;mayo;2;VIDRIO;21;Barajas;110,66
+2022;mayo;2;VIDRIO COMERCIAL;4;Salamanca;69,26
+2022;mayo;3;PAPEL-CARTON;2;Arganzuela;349,14
+2022;mayo;3;PAPEL-CARTON;11;Carabanchel;298,82
+2022;mayo;3;PAPEL-CARTON;12;Usera;127,18
+2022;mayo;3;PAPEL-CARTON;13;Puente de Vallecas;230,22
+2022;mayo;3;PAPEL-CARTON;17;Villaverde;145,18
+2022;mayo;3;PAPEL-CARTON;18;Villa de Vallecas;150,76
+2022;mayo;3;CARTON COMERCIAL;2;Arganzuela;28,6
+2022;mayo;3;CARTON COMERCIAL;11;Carabanchel;38,36
+2022;mayo;3;CARTON COMERCIAL;12;Usera;12,26
+2022;mayo;3;CARTON COMERCIAL;13;Puente de Vallecas;19,2
+2022;mayo;3;CARTON COMERCIAL;17;Villaverde;7,18
+2022;mayo;3;CLINICOS;12;Usera;155,92
+2022;mayo;3;CLINICOS;13;Puente de Vallecas;35,92
+2022;mayo;3;ENVASES;2;Arganzuela;357,7
+2022;mayo;3;ENVASES;11;Carabanchel;855,62
+2022;mayo;3;ENVASES;12;Usera;437,26
+2022;mayo;3;ENVASES;13;Puente de Vallecas;873,2
+2022;mayo;3;ENVASES;17;Villaverde;539,72
+2022;mayo;3;ENVASES;18;Villa de Vallecas;338,38
+2022;mayo;3;ORGANICA;2;Arganzuela;689,3
+2022;mayo;3;ORGANICA;11;Carabanchel;1262,46
+2022;mayo;3;ORGANICA;12;Usera;625,5
+2022;mayo;3;ORGANICA;13;Puente de Vallecas;1024,74
+2022;mayo;3;ORGANICA;17;Villaverde;804,46
+2022;mayo;3;ORGANICA;18;Villa de Vallecas;1954,14
+2022;mayo;3;PUNTOS LIMPIOS;2;Arganzuela;87,4
+2022;mayo;3;PUNTOS LIMPIOS;11;Carabanchel;27,9
+2022;mayo;3;PUNTOS LIMPIOS;12;Usera;30,02
+2022;mayo;3;PUNTOS LIMPIOS;13;Puente de Vallecas;31,64
+2022;mayo;3;PUNTOS LIMPIOS;17;Villaverde;30,56
+2022;mayo;3;PUNTOS LIMPIOS;18;Villa de Vallecas;63,02
+2022;mayo;3;RCD;2;Arganzuela;30,38
+2022;mayo;3;RCD;11;Carabanchel;37,68
+2022;mayo;3;RCD;12;Usera;56,11
+2022;mayo;3;RCD;13;Puente de Vallecas;41,12
+2022;mayo;3;RCD;17;Villaverde;65,36
+2022;mayo;3;RCD;18;Villa de Vallecas;124,2
+2022;mayo;3;RESTO;2;Arganzuela;1999,56
+2022;mayo;3;RESTO;11;Carabanchel;4634,24
+2022;mayo;3;RESTO;12;Usera;2288,54
+2022;mayo;3;RESTO;13;Puente de Vallecas;4191,18
+2022;mayo;3;RESTO;17;Villaverde;2678,58
+2022;mayo;3;RESTO;18;Villa de Vallecas;2816,52
+2022;mayo;3;VIDRIO;2;Arganzuela;104,84
+2022;mayo;3;VIDRIO;11;Carabanchel;97,36
+2022;mayo;3;VIDRIO;12;Usera;338,82
+2022;mayo;3;VIDRIO;13;Puente de Vallecas;263,48
+2022;mayo;3;VIDRIO;17;Villaverde;77,88
+2022;mayo;3;VIDRIO;18;Villa de Vallecas;228,18
+2022;mayo;3;VIDRIO COMERCIAL;13;Puente de Vallecas;3,5
+2022;mayo;3;ANIMALES MUERTOS;99;Sin Distrito;9,56
+2022;mayo;3;PILAS;99;Sin Distrito;4,39
+2022;junio;1;PAPEL-CARTON;1;Centro;383,19
+2022;junio;1;PAPEL-CARTON;6;Tetuán;298,33
+2022;junio;1;PAPEL-CARTON;7;Chamberí;236,96
+2022;junio;1;PAPEL-CARTON;8;Fuencarral - El Pardo;558,61
+2022;junio;1;PAPEL-CARTON;9;Moncloa - Aravaca;340,12
+2022;junio;1;PAPEL-CARTON;10;Latina;291,3
+2022;junio;1;CARTON COMERCIAL;1;Centro;183,34
+2022;junio;1;CARTON COMERCIAL;6;Tetuán;75,48
+2022;junio;1;CARTON COMERCIAL;7;Chamberí;85,72
+2022;junio;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;2,78
+2022;junio;1;CARTON COMERCIAL;9;Moncloa - Aravaca;3,02
+2022;junio;1;CARTON COMERCIAL;10;Latina;4,88
+2022;junio;1;CAMA DE CABALLO;9;Moncloa - Aravaca;47,51
+2022;junio;1;CLINICOS;1;Centro;169,82
+2022;junio;1;CLINICOS;6;Tetuán;13,26
+2022;junio;1;CLINICOS;8;Fuencarral - El Pardo;311,26
+2022;junio;1;CLINICOS;9;Moncloa - Aravaca;250,46
+2022;junio;1;CLINICOS;10;Latina;24,2
+2022;junio;1;ENVASES;1;Centro;243,56
+2022;junio;1;ENVASES;6;Tetuán;379,16
+2022;junio;1;ENVASES;7;Chamberí;350,74
+2022;junio;1;ENVASES;8;Fuencarral - El Pardo;708,96
+2022;junio;1;ENVASES;9;Moncloa - Aravaca;339,76
+2022;junio;1;ENVASES;10;Latina;609,24
+2022;junio;1;ORGANICA;1;Centro;1044,82
+2022;junio;1;ORGANICA;6;Tetuán;719,74
+2022;junio;1;ORGANICA;7;Chamberí;960,24
+2022;junio;1;ORGANICA;8;Fuencarral - El Pardo;1602,64
+2022;junio;1;ORGANICA;9;Moncloa - Aravaca;1054,54
+2022;junio;1;ORGANICA;10;Latina;1310,74
+2022;junio;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;129,78
+2022;junio;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;64,86
+2022;junio;1;PUNTOS LIMPIOS;10;Latina;108,4
+2022;junio;1;RCD;1;Centro;162,225
+2022;junio;1;RCD;6;Tetuán;37,36
+2022;junio;1;RCD;7;Chamberí;39,27
+2022;junio;1;RCD;8;Fuencarral - El Pardo;109,425
+2022;junio;1;RCD;9;Moncloa - Aravaca;74,245
+2022;junio;1;RCD;10;Latina;76,37
+2022;junio;1;RESTO;1;Centro;4421,74
+2022;junio;1;RESTO;6;Tetuán;2549,34
+2022;junio;1;RESTO;7;Chamberí;2269,36
+2022;junio;1;RESTO;8;Fuencarral - El Pardo;3467,2
+2022;junio;1;RESTO;9;Moncloa - Aravaca;2563,26
+2022;junio;1;RESTO;10;Latina;3318,44
+2022;junio;1;VIDRIO;1;Centro;655
+2022;junio;1;VIDRIO;6;Tetuán;328,48
+2022;junio;1;VIDRIO;7;Chamberí;220,56
+2022;junio;1;VIDRIO;8;Fuencarral - El Pardo;427,92
+2022;junio;1;VIDRIO;9;Moncloa - Aravaca;160,54
+2022;junio;1;VIDRIO;10;Latina;195,42
+2022;junio;1;VIDRIO COMERCIAL;1;Centro;71,28
+2022;junio;2;PAPEL-CARTON;3;Retiro;235,61
+2022;junio;2;PAPEL-CARTON;4;Salamanca;400,23
+2022;junio;2;PAPEL-CARTON;5;Chamartín;291,16
+2022;junio;2;PAPEL-CARTON;14;Moratalaz;93,65
+2022;junio;2;PAPEL-CARTON;15;Ciudad Lineal;393,24
+2022;junio;2;PAPEL-CARTON;16;Hortaleza;331,61
+2022;junio;2;PAPEL-CARTON;19;Vicálvaro;71,21
+2022;junio;2;PAPEL-CARTON;20;San Blas - Canillejas;201,82
+2022;junio;2;PAPEL-CARTON;21;Barajas;48
+2022;junio;2;CARTON COMERCIAL;3;Retiro;51,66
+2022;junio;2;CARTON COMERCIAL;4;Salamanca;197,02
+2022;junio;2;CARTON COMERCIAL;5;Chamartín;102,67
+2022;junio;2;CARTON COMERCIAL;14;Moratalaz;18,37
+2022;junio;2;CARTON COMERCIAL;15;Ciudad Lineal;13,11
+2022;junio;2;CARTON COMERCIAL;16;Hortaleza;45,62
+2022;junio;2;CARTON COMERCIAL;19;Vicálvaro;6,09
+2022;junio;2;CARTON COMERCIAL;20;San Blas - Canillejas;41,96
+2022;junio;2;CARTON COMERCIAL;21;Barajas;11,63
+2022;junio;2;CLINICOS;3;Retiro;181,66
+2022;junio;2;CLINICOS;4;Salamanca;122,64
+2022;junio;2;CLINICOS;15;Ciudad Lineal;116,24
+2022;junio;2;CONTENEDORES DE ROPA;14;Moratalaz;0,36
+2022;junio;2;ENVASES;3;Retiro;274,28
+2022;junio;2;ENVASES;4;Salamanca;357,58
+2022;junio;2;ENVASES;5;Chamartín;373,96
+2022;junio;2;ENVASES;14;Moratalaz;312,56
+2022;junio;2;ENVASES;15;Ciudad Lineal;560,6
+2022;junio;2;ENVASES;16;Hortaleza;567,48
+2022;junio;2;ENVASES;19;Vicálvaro;295,14
+2022;junio;2;ENVASES;20;San Blas - Canillejas;476,92
+2022;junio;2;ENVASES;21;Barajas;138,74
+2022;junio;2;ORGANICA;3;Retiro;704,34
+2022;junio;2;ORGANICA;4;Salamanca;1055
+2022;junio;2;ORGANICA;5;Chamartín;983,24
+2022;junio;2;ORGANICA;14;Moratalaz;495,74
+2022;junio;2;ORGANICA;15;Ciudad Lineal;1143,62
+2022;junio;2;ORGANICA;16;Hortaleza;947,04
+2022;junio;2;ORGANICA;19;Vicálvaro;228,18
+2022;junio;2;ORGANICA;20;San Blas - Canillejas;760,8
+2022;junio;2;ORGANICA;21;Barajas;460,1
+2022;junio;2;PUNTOS LIMPIOS;3;Retiro;2,38
+2022;junio;2;PUNTOS LIMPIOS;5;Chamartín;91,68
+2022;junio;2;PUNTOS LIMPIOS;14;Moratalaz;56,08
+2022;junio;2;PUNTOS LIMPIOS;15;Ciudad Lineal;74,68
+2022;junio;2;PUNTOS LIMPIOS;16;Hortaleza;59,22
+2022;junio;2;PUNTOS LIMPIOS;19;Vicálvaro;25,6
+2022;junio;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;53,94
+2022;junio;2;PUNTOS LIMPIOS;21;Barajas;45,24
+2022;junio;2;RCD;3;Retiro;61,5
+2022;junio;2;RCD;4;Salamanca;109,4
+2022;junio;2;RCD;5;Chamartín;73,5
+2022;junio;2;RCD;14;Moratalaz;61,865
+2022;junio;2;RCD;15;Ciudad Lineal;96,325
+2022;junio;2;RCD;16;Hortaleza;52,54
+2022;junio;2;RCD;19;Vicálvaro;71,17
+2022;junio;2;RCD;20;San Blas - Canillejas;50,17
+2022;junio;2;RCD;21;Barajas;44,98
+2022;junio;2;RESTO;3;Retiro;1467,34
+2022;junio;2;RESTO;4;Salamanca;2440,24
+2022;junio;2;RESTO;5;Chamartín;2195,96
+2022;junio;2;RESTO;14;Moratalaz;1176,64
+2022;junio;2;RESTO;15;Ciudad Lineal;3096,54
+2022;junio;2;RESTO;16;Hortaleza;2910,46
+2022;junio;2;RESTO;19;Vicálvaro;1743,9
+2022;junio;2;RESTO;20;San Blas - Canillejas;2578,96
+2022;junio;2;RESTO;21;Barajas;858,2
+2022;junio;2;VIDRIO;3;Retiro;277,12
+2022;junio;2;VIDRIO;4;Salamanca;307,86
+2022;junio;2;VIDRIO;5;Chamartín;330,84
+2022;junio;2;VIDRIO;14;Moratalaz;202,42
+2022;junio;2;VIDRIO;15;Ciudad Lineal;212,12
+2022;junio;2;VIDRIO;16;Hortaleza;119,88
+2022;junio;2;VIDRIO;19;Vicálvaro;170,44
+2022;junio;2;VIDRIO;20;San Blas - Canillejas;170,48
+2022;junio;2;VIDRIO;21;Barajas;116,28
+2022;junio;2;VIDRIO COMERCIAL;4;Salamanca;67,14
+2022;junio;3;PAPEL-CARTON;2;Arganzuela;346,9
+2022;junio;3;PAPEL-CARTON;11;Carabanchel;300,88
+2022;junio;3;PAPEL-CARTON;12;Usera;124,98
+2022;junio;3;PAPEL-CARTON;13;Puente de Vallecas;212,7
+2022;junio;3;PAPEL-CARTON;17;Villaverde;151,56
+2022;junio;3;PAPEL-CARTON;18;Villa de Vallecas;138,66
+2022;junio;3;CARTON COMERCIAL;2;Arganzuela;26,24
+2022;junio;3;CARTON COMERCIAL;11;Carabanchel;39,42
+2022;junio;3;CARTON COMERCIAL;12;Usera;12,74
+2022;junio;3;CARTON COMERCIAL;13;Puente de Vallecas;18,5
+2022;junio;3;CARTON COMERCIAL;17;Villaverde;6,16
+2022;junio;3;CLINICOS;12;Usera;165,26
+2022;junio;3;CLINICOS;13;Puente de Vallecas;35,6
+2022;junio;3;ENVASES;2;Arganzuela;344,22
+2022;junio;3;ENVASES;11;Carabanchel;797,16
+2022;junio;3;ENVASES;12;Usera;408,88
+2022;junio;3;ENVASES;13;Puente de Vallecas;835,18
+2022;junio;3;ENVASES;17;Villaverde;537,02
+2022;junio;3;ENVASES;18;Villa de Vallecas;325,26
+2022;junio;3;ORGANICA;2;Arganzuela;669,64
+2022;junio;3;ORGANICA;11;Carabanchel;1192,39
+2022;junio;3;ORGANICA;12;Usera;579,96
+2022;junio;3;ORGANICA;13;Puente de Vallecas;973,02
+2022;junio;3;ORGANICA;17;Villaverde;785,36
+2022;junio;3;ORGANICA;18;Villa de Vallecas;1794,34
+2022;junio;3;PUNTOS LIMPIOS;2;Arganzuela;41,08
+2022;junio;3;PUNTOS LIMPIOS;11;Carabanchel;33,7
+2022;junio;3;PUNTOS LIMPIOS;12;Usera;33,3
+2022;junio;3;PUNTOS LIMPIOS;13;Puente de Vallecas;38,3
+2022;junio;3;PUNTOS LIMPIOS;17;Villaverde;63,9
+2022;junio;3;PUNTOS LIMPIOS;18;Villa de Vallecas;67,58
+2022;junio;3;RCD;2;Arganzuela;29,98
+2022;junio;3;RCD;11;Carabanchel;44,15
+2022;junio;3;RCD;12;Usera;61,82
+2022;junio;3;RCD;13;Puente de Vallecas;30,94
+2022;junio;3;RCD;17;Villaverde;48,87
+2022;junio;3;RCD;18;Villa de Vallecas;119,46
+2022;junio;3;RESTO;2;Arganzuela;1901,74
+2022;junio;3;RESTO;11;Carabanchel;4307,92
+2022;junio;3;RESTO;12;Usera;1996,6
+2022;junio;3;RESTO;13;Puente de Vallecas;4007,62
+2022;junio;3;RESTO;17;Villaverde;2522
+2022;junio;3;RESTO;18;Villa de Vallecas;2874,16
+2022;junio;3;VIDRIO;2;Arganzuela;151,38
+2022;junio;3;VIDRIO;11;Carabanchel;126,78
+2022;junio;3;VIDRIO;12;Usera;356,44
+2022;junio;3;VIDRIO;13;Puente de Vallecas;225,5
+2022;junio;3;VIDRIO;17;Villaverde;76,34
+2022;junio;3;VIDRIO;18;Villa de Vallecas;149,88
+2022;junio;3;VIDRIO COMERCIAL;13;Puente de Vallecas;3,36
+2022;junio;3;ANIMALES MUERTOS;99;Sin Distrito;9,18
+2022;junio;3;PILAS;99;Sin Distrito;4,18
+2022;julio;1;PAPEL-CARTON;1;Centro;351,11
+2022;julio;1;PAPEL-CARTON;6;Tetuán;323,04
+2022;julio;1;PAPEL-CARTON;7;Chamberí;270,94
+2022;julio;1;PAPEL-CARTON;8;Fuencarral - El Pardo;558,12
+2022;julio;1;PAPEL-CARTON;9;Moncloa - Aravaca;322,61
+2022;julio;1;PAPEL-CARTON;10;Latina;279,38
+2022;julio;1;CARTON COMERCIAL;1;Centro;145,18
+2022;julio;1;CARTON COMERCIAL;6;Tetuán;48,62
+2022;julio;1;CARTON COMERCIAL;7;Chamberí;54,8
+2022;julio;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;1,84
+2022;julio;1;CARTON COMERCIAL;9;Moncloa - Aravaca;2,68
+2022;julio;1;CARTON COMERCIAL;10;Latina;1,58
+2022;julio;1;CAMA DE CABALLO;9;Moncloa - Aravaca;45,285
+2022;julio;1;CLINICOS;1;Centro;143,22
+2022;julio;1;CLINICOS;6;Tetuán;15,76
+2022;julio;1;CLINICOS;8;Fuencarral - El Pardo;286,36
+2022;julio;1;CLINICOS;9;Moncloa - Aravaca;222,98
+2022;julio;1;CLINICOS;10;Latina;24,12
+2022;julio;1;ENVASES;1;Centro;274,56
+2022;julio;1;ENVASES;6;Tetuán;366,52
+2022;julio;1;ENVASES;7;Chamberí;289,68
+2022;julio;1;ENVASES;8;Fuencarral - El Pardo;639,82
+2022;julio;1;ENVASES;9;Moncloa - Aravaca;306,12
+2022;julio;1;ENVASES;10;Latina;570,48
+2022;julio;1;ORGANICA;1;Centro;981,8
+2022;julio;1;ORGANICA;6;Tetuán;724,38
+2022;julio;1;ORGANICA;7;Chamberí;762,82
+2022;julio;1;ORGANICA;8;Fuencarral - El Pardo;1329,04
+2022;julio;1;ORGANICA;9;Moncloa - Aravaca;837,84
+2022;julio;1;ORGANICA;10;Latina;1129,5
+2022;julio;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;120,7
+2022;julio;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;45
+2022;julio;1;PUNTOS LIMPIOS;10;Latina;79,36
+2022;julio;1;RCD;1;Centro;264,725
+2022;julio;1;RCD;6;Tetuán;49,66
+2022;julio;1;RCD;7;Chamberí;52,21
+2022;julio;1;RCD;8;Fuencarral - El Pardo;78,805
+2022;julio;1;RCD;9;Moncloa - Aravaca;79,975
+2022;julio;1;RCD;10;Latina;47,125
+2022;julio;1;RESTO;1;Centro;4220,44
+2022;julio;1;RESTO;6;Tetuán;2348,42
+2022;julio;1;RESTO;7;Chamberí;1941,86
+2022;julio;1;RESTO;8;Fuencarral - El Pardo;3064,6
+2022;julio;1;RESTO;9;Moncloa - Aravaca;2224,04
+2022;julio;1;RESTO;10;Latina;3075,06
+2022;julio;1;VIDRIO;1;Centro;595,68
+2022;julio;1;VIDRIO;6;Tetuán;291,58
+2022;julio;1;VIDRIO;7;Chamberí;196,02
+2022;julio;1;VIDRIO;8;Fuencarral - El Pardo;366,9
+2022;julio;1;VIDRIO;9;Moncloa - Aravaca;189,7
+2022;julio;1;VIDRIO;10;Latina;157,14
+2022;julio;1;VIDRIO COMERCIAL;1;Centro;57,28
+2022;julio;2;PAPEL-CARTON;3;Retiro;217,58
+2022;julio;2;PAPEL-CARTON;4;Salamanca;350,04
+2022;julio;2;PAPEL-CARTON;5;Chamartín;270,26
+2022;julio;2;PAPEL-CARTON;14;Moratalaz;103,8
+2022;julio;2;PAPEL-CARTON;15;Ciudad Lineal;374,28
+2022;julio;2;PAPEL-CARTON;16;Hortaleza;338,08
+2022;julio;2;PAPEL-CARTON;19;Vicálvaro;63,86
+2022;julio;2;PAPEL-CARTON;20;San Blas - Canillejas;204,9
+2022;julio;2;PAPEL-CARTON;21;Barajas;36,58
+2022;julio;2;CARTON COMERCIAL;3;Retiro;36,63
+2022;julio;2;CARTON COMERCIAL;4;Salamanca;127,41
+2022;julio;2;CARTON COMERCIAL;5;Chamartín;96,3
+2022;julio;2;CARTON COMERCIAL;14;Moratalaz;17,75
+2022;julio;2;CARTON COMERCIAL;15;Ciudad Lineal;25,74
+2022;julio;2;CARTON COMERCIAL;16;Hortaleza;66,42
+2022;julio;2;CARTON COMERCIAL;19;Vicálvaro;11,53
+2022;julio;2;CARTON COMERCIAL;20;San Blas - Canillejas;38,89
+2022;julio;2;CARTON COMERCIAL;21;Barajas;12,98
+2022;julio;2;CLINICOS;3;Retiro;164,44
+2022;julio;2;CLINICOS;4;Salamanca;101,76
+2022;julio;2;CLINICOS;15;Ciudad Lineal;100,42
+2022;julio;2;ENVASES;3;Retiro;236,68
+2022;julio;2;ENVASES;4;Salamanca;320,16
+2022;julio;2;ENVASES;5;Chamartín;308,7
+2022;julio;2;ENVASES;14;Moratalaz;305,24
+2022;julio;2;ENVASES;15;Ciudad Lineal;528,5
+2022;julio;2;ENVASES;16;Hortaleza;540,36
+2022;julio;2;ENVASES;19;Vicálvaro;262,64
+2022;julio;2;ENVASES;20;San Blas - Canillejas;461,14
+2022;julio;2;ENVASES;21;Barajas;127,68
+2022;julio;2;ORGANICA;3;Retiro;589,32
+2022;julio;2;ORGANICA;4;Salamanca;928,78
+2022;julio;2;ORGANICA;5;Chamartín;782,34
+2022;julio;2;ORGANICA;14;Moratalaz;410,16
+2022;julio;2;ORGANICA;15;Ciudad Lineal;988,2
+2022;julio;2;ORGANICA;16;Hortaleza;747,32
+2022;julio;2;ORGANICA;19;Vicálvaro;211,14
+2022;julio;2;ORGANICA;20;San Blas - Canillejas;647,92
+2022;julio;2;ORGANICA;21;Barajas;381,6
+2022;julio;2;PUNTOS LIMPIOS;3;Retiro;1,84
+2022;julio;2;PUNTOS LIMPIOS;5;Chamartín;102,52
+2022;julio;2;PUNTOS LIMPIOS;14;Moratalaz;37,92
+2022;julio;2;PUNTOS LIMPIOS;15;Ciudad Lineal;74,48
+2022;julio;2;PUNTOS LIMPIOS;16;Hortaleza;73,96
+2022;julio;2;PUNTOS LIMPIOS;19;Vicálvaro;32,72
+2022;julio;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;81
+2022;julio;2;PUNTOS LIMPIOS;21;Barajas;36,22
+2022;julio;2;RCD;3;Retiro;40,44
+2022;julio;2;RCD;4;Salamanca;63,82
+2022;julio;2;RCD;5;Chamartín;106,38
+2022;julio;2;RCD;14;Moratalaz;15,94
+2022;julio;2;RCD;15;Ciudad Lineal;28,74
+2022;julio;2;RCD;16;Hortaleza;119,64
+2022;julio;2;RCD;19;Vicálvaro;55,095
+2022;julio;2;RCD;20;San Blas - Canillejas;94,88
+2022;julio;2;RCD;21;Barajas;19
+2022;julio;2;RESTO;3;Retiro;1263,26
+2022;julio;2;RESTO;4;Salamanca;2103,4
+2022;julio;2;RESTO;5;Chamartín;1938,24
+2022;julio;2;RESTO;14;Moratalaz;1064,08
+2022;julio;2;RESTO;15;Ciudad Lineal;2799,06
+2022;julio;2;RESTO;16;Hortaleza;2641,3
+2022;julio;2;RESTO;19;Vicálvaro;2043,96
+2022;julio;2;RESTO;20;San Blas - Canillejas;2365,74
+2022;julio;2;RESTO;21;Barajas;768,72
+2022;julio;2;VIDRIO;3;Retiro;261,54
+2022;julio;2;VIDRIO;4;Salamanca;237,46
+2022;julio;2;VIDRIO;5;Chamartín;291,22
+2022;julio;2;VIDRIO;14;Moratalaz;208,42
+2022;julio;2;VIDRIO;15;Ciudad Lineal;180
+2022;julio;2;VIDRIO;16;Hortaleza;167,04
+2022;julio;2;VIDRIO;19;Vicálvaro;156,5
+2022;julio;2;VIDRIO;20;San Blas - Canillejas;159,14
+2022;julio;2;VIDRIO;21;Barajas;91,1
+2022;julio;2;VIDRIO COMERCIAL;4;Salamanca;65,1
+2022;julio;3;PAPEL-CARTON;2;Arganzuela;323,38
+2022;julio;3;PAPEL-CARTON;11;Carabanchel;294,98
+2022;julio;3;PAPEL-CARTON;12;Usera;115,76
+2022;julio;3;PAPEL-CARTON;13;Puente de Vallecas;205,12
+2022;julio;3;PAPEL-CARTON;17;Villaverde;138,18
+2022;julio;3;PAPEL-CARTON;18;Villa de Vallecas;131,06
+2022;julio;3;CARTON COMERCIAL;2;Arganzuela;24,48
+2022;julio;3;CARTON COMERCIAL;11;Carabanchel;34,22
+2022;julio;3;CARTON COMERCIAL;12;Usera;9,54
+2022;julio;3;CARTON COMERCIAL;13;Puente de Vallecas;16,48
+2022;julio;3;CARTON COMERCIAL;17;Villaverde;3,36
+2022;julio;3;CLINICOS;12;Usera;147,7
+2022;julio;3;CLINICOS;13;Puente de Vallecas;28,94
+2022;julio;3;ENVASES;2;Arganzuela;292,74
+2022;julio;3;ENVASES;11;Carabanchel;769,44
+2022;julio;3;ENVASES;12;Usera;409,68
+2022;julio;3;ENVASES;13;Puente de Vallecas;802
+2022;julio;3;ENVASES;17;Villaverde;512,44
+2022;julio;3;ENVASES;18;Villa de Vallecas;298,62
+2022;julio;3;ORGANICA;2;Arganzuela;560,9
+2022;julio;3;ORGANICA;11;Carabanchel;1091,64
+2022;julio;3;ORGANICA;12;Usera;546,76
+2022;julio;3;ORGANICA;13;Puente de Vallecas;915,7
+2022;julio;3;ORGANICA;17;Villaverde;738,42
+2022;julio;3;ORGANICA;18;Villa de Vallecas;1569,02
+2022;julio;3;PUNTOS LIMPIOS;2;Arganzuela;55,88
+2022;julio;3;PUNTOS LIMPIOS;11;Carabanchel;44,9
+2022;julio;3;PUNTOS LIMPIOS;12;Usera;58,42
+2022;julio;3;PUNTOS LIMPIOS;13;Puente de Vallecas;40,26
+2022;julio;3;PUNTOS LIMPIOS;17;Villaverde;34,88
+2022;julio;3;PUNTOS LIMPIOS;18;Villa de Vallecas;71,54
+2022;julio;3;RCD;2;Arganzuela;34,85
+2022;julio;3;RCD;11;Carabanchel;32,43
+2022;julio;3;RCD;12;Usera;52,1
+2022;julio;3;RCD;13;Puente de Vallecas;18,18
+2022;julio;3;RCD;17;Villaverde;64,41
+2022;julio;3;RCD;18;Villa de Vallecas;89,3
+2022;julio;3;RESTO;2;Arganzuela;1731,24
+2022;julio;3;RESTO;11;Carabanchel;4088,78
+2022;julio;3;RESTO;12;Usera;1964,04
+2022;julio;3;RESTO;13;Puente de Vallecas;3780,88
+2022;julio;3;RESTO;17;Villaverde;2384,22
+2022;julio;3;RESTO;18;Villa de Vallecas;2575,16
+2022;julio;3;VIDRIO;2;Arganzuela;115,78
+2022;julio;3;VIDRIO;11;Carabanchel;121,6
+2022;julio;3;VIDRIO;12;Usera;288,52
+2022;julio;3;VIDRIO;13;Puente de Vallecas;224,18
+2022;julio;3;VIDRIO;17;Villaverde;67,5
+2022;julio;3;VIDRIO;18;Villa de Vallecas;198,46
+2022;julio;3;VIDRIO COMERCIAL;13;Puente de Vallecas;3,5
+2022;julio;3;ANIMALES MUERTOS;99;Sin Distrito;9,74
+2022;julio;3;PILAS;99;Sin Distrito;2,99
+2022;agosto;1;PAPEL-CARTON;1;Centro;299,42
+2022;agosto;1;PAPEL-CARTON;6;Tetuán;272,2
+2022;agosto;1;PAPEL-CARTON;7;Chamberí;194,66
+2022;agosto;1;PAPEL-CARTON;8;Fuencarral - El Pardo;415,73
+2022;agosto;1;PAPEL-CARTON;9;Moncloa - Aravaca;231,67
+2022;agosto;1;PAPEL-CARTON;10;Latina;253,8
+2022;agosto;1;CARTON COMERCIAL;1;Centro;145,56
+2022;agosto;1;CARTON COMERCIAL;6;Tetuán;45,68
+2022;agosto;1;CARTON COMERCIAL;7;Chamberí;41,16
+2022;agosto;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;1,54
+2022;agosto;1;CARTON COMERCIAL;9;Moncloa - Aravaca;2,38
+2022;agosto;1;CARTON COMERCIAL;10;Latina;3,44
+2022;agosto;1;CAMA DE CABALLO;9;Moncloa - Aravaca;49,47
+2022;agosto;1;CLINICOS;1;Centro;122,96
+2022;agosto;1;CLINICOS;6;Tetuán;10,36
+2022;agosto;1;CLINICOS;8;Fuencarral - El Pardo;262,38
+2022;agosto;1;CLINICOS;9;Moncloa - Aravaca;192,82
+2022;agosto;1;CLINICOS;10;Latina;30,1
+2022;agosto;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,18
+2022;agosto;1;ENVASES;1;Centro;191,18
+2022;agosto;1;ENVASES;6;Tetuán;316,3
+2022;agosto;1;ENVASES;7;Chamberí;208,12
+2022;agosto;1;ENVASES;8;Fuencarral - El Pardo;496,52
+2022;agosto;1;ENVASES;9;Moncloa - Aravaca;215,62
+2022;agosto;1;ENVASES;10;Latina;498,34
+2022;agosto;1;ORGANICA;1;Centro;818,86
+2022;agosto;1;ORGANICA;6;Tetuán;600,8
+2022;agosto;1;ORGANICA;7;Chamberí;464,2
+2022;agosto;1;ORGANICA;8;Fuencarral - El Pardo;1074,26
+2022;agosto;1;ORGANICA;9;Moncloa - Aravaca;646,5
+2022;agosto;1;ORGANICA;10;Latina;1017,94
+2022;agosto;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;105,82
+2022;agosto;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;42,78
+2022;agosto;1;PUNTOS LIMPIOS;10;Latina;83,1
+2022;agosto;1;RCD;1;Centro;145,3
+2022;agosto;1;RCD;6;Tetuán;42,885
+2022;agosto;1;RCD;7;Chamberí;46,855
+2022;agosto;1;RCD;8;Fuencarral - El Pardo;97,65
+2022;agosto;1;RCD;9;Moncloa - Aravaca;78,73
+2022;agosto;1;RCD;10;Latina;53,195
+2022;agosto;1;RESTO;1;Centro;3428,3
+2022;agosto;1;RESTO;6;Tetuán;1915,76
+2022;agosto;1;RESTO;7;Chamberí;1369,12
+2022;agosto;1;RESTO;8;Fuencarral - El Pardo;2456,64
+2022;agosto;1;RESTO;9;Moncloa - Aravaca;1716,42
+2022;agosto;1;RESTO;10;Latina;2640,36
+2022;agosto;1;VIDRIO;1;Centro;448,66
+2022;agosto;1;VIDRIO;6;Tetuán;251,66
+2022;agosto;1;VIDRIO;7;Chamberí;166,92
+2022;agosto;1;VIDRIO;8;Fuencarral - El Pardo;285,04
+2022;agosto;1;VIDRIO;9;Moncloa - Aravaca;125,94
+2022;agosto;1;VIDRIO;10;Latina;136,58
+2022;agosto;1;VIDRIO COMERCIAL;1;Centro;50,74
+2022;agosto;2;PAPEL-CARTON;3;Retiro;172,44
+2022;agosto;2;PAPEL-CARTON;4;Salamanca;254,13
+2022;agosto;2;PAPEL-CARTON;5;Chamartín;201,38
+2022;agosto;2;PAPEL-CARTON;14;Moratalaz;106,01
+2022;agosto;2;PAPEL-CARTON;15;Ciudad Lineal;289,89
+2022;agosto;2;PAPEL-CARTON;16;Hortaleza;284,43
+2022;agosto;2;PAPEL-CARTON;19;Vicálvaro;52,26
+2022;agosto;2;PAPEL-CARTON;20;San Blas - Canillejas;155,28
+2022;agosto;2;PAPEL-CARTON;21;Barajas;32,26
+2022;agosto;2;CARTON COMERCIAL;3;Retiro;51,11
+2022;agosto;2;CARTON COMERCIAL;4;Salamanca;60,46
+2022;agosto;2;CARTON COMERCIAL;5;Chamartín;44,53
+2022;agosto;2;CARTON COMERCIAL;14;Moratalaz;11,87
+2022;agosto;2;CARTON COMERCIAL;15;Ciudad Lineal;34,35
+2022;agosto;2;CARTON COMERCIAL;16;Hortaleza;35,03
+2022;agosto;2;CARTON COMERCIAL;19;Vicálvaro;12,07
+2022;agosto;2;CARTON COMERCIAL;20;San Blas - Canillejas;26,66
+2022;agosto;2;CARTON COMERCIAL;21;Barajas;12,75
+2022;agosto;2;CLINICOS;3;Retiro;143,54
+2022;agosto;2;CLINICOS;4;Salamanca;79,34
+2022;agosto;2;CLINICOS;15;Ciudad Lineal;87,44
+2022;agosto;2;ENVASES;3;Retiro;185,78
+2022;agosto;2;ENVASES;4;Salamanca;231,04
+2022;agosto;2;ENVASES;5;Chamartín;223,48
+2022;agosto;2;ENVASES;14;Moratalaz;227,24
+2022;agosto;2;ENVASES;15;Ciudad Lineal;456,9
+2022;agosto;2;ENVASES;16;Hortaleza;419,3
+2022;agosto;2;ENVASES;19;Vicálvaro;222,94
+2022;agosto;2;ENVASES;20;San Blas - Canillejas;424,3
+2022;agosto;2;ENVASES;21;Barajas;103,3
+2022;agosto;2;ORGANICA;3;Retiro;499,78
+2022;agosto;2;ORGANICA;4;Salamanca;605,94
+2022;agosto;2;ORGANICA;5;Chamartín;523,7
+2022;agosto;2;ORGANICA;14;Moratalaz;389,28
+2022;agosto;2;ORGANICA;15;Ciudad Lineal;838
+2022;agosto;2;ORGANICA;16;Hortaleza;595,48
+2022;agosto;2;ORGANICA;19;Vicálvaro;183,3
+2022;agosto;2;ORGANICA;20;San Blas - Canillejas;568,28
+2022;agosto;2;ORGANICA;21;Barajas;342,2
+2022;agosto;2;PUNTOS LIMPIOS;3;Retiro;1,32
+2022;agosto;2;PUNTOS LIMPIOS;5;Chamartín;85,9
+2022;agosto;2;PUNTOS LIMPIOS;14;Moratalaz;35,18
+2022;agosto;2;PUNTOS LIMPIOS;15;Ciudad Lineal;61,24
+2022;agosto;2;PUNTOS LIMPIOS;16;Hortaleza;58,4
+2022;agosto;2;PUNTOS LIMPIOS;19;Vicálvaro;32,18
+2022;agosto;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;64,54
+2022;agosto;2;PUNTOS LIMPIOS;21;Barajas;33,88
+2022;agosto;2;RCD;3;Retiro;43,34
+2022;agosto;2;RCD;4;Salamanca;30,58
+2022;agosto;2;RCD;5;Chamartín;65,9
+2022;agosto;2;RCD;14;Moratalaz;42,32
+2022;agosto;2;RCD;15;Ciudad Lineal;67,935
+2022;agosto;2;RCD;16;Hortaleza;58,82
+2022;agosto;2;RCD;19;Vicálvaro;63,8
+2022;agosto;2;RCD;20;San Blas - Canillejas;102,92
+2022;agosto;2;RCD;21;Barajas;43,86
+2022;agosto;2;RESTO;3;Retiro;1078,84
+2022;agosto;2;RESTO;4;Salamanca;1472,3
+2022;agosto;2;RESTO;5;Chamartín;1334,32
+2022;agosto;2;RESTO;14;Moratalaz;923,02
+2022;agosto;2;RESTO;15;Ciudad Lineal;2275,28
+2022;agosto;2;RESTO;16;Hortaleza;2095,5
+2022;agosto;2;RESTO;19;Vicálvaro;1308,02
+2022;agosto;2;RESTO;20;San Blas - Canillejas;2168,6
+2022;agosto;2;RESTO;21;Barajas;642,82
+2022;agosto;2;VIDRIO;3;Retiro;239,06
+2022;agosto;2;VIDRIO;4;Salamanca;171,52
+2022;agosto;2;VIDRIO;5;Chamartín;170,58
+2022;agosto;2;VIDRIO;14;Moratalaz;199,5
+2022;agosto;2;VIDRIO;15;Ciudad Lineal;123,04
+2022;agosto;2;VIDRIO;16;Hortaleza;138,88
+2022;agosto;2;VIDRIO;19;Vicálvaro;152,68
+2022;agosto;2;VIDRIO;20;San Blas - Canillejas;175,22
+2022;agosto;2;VIDRIO;21;Barajas;64,12
+2022;agosto;2;VIDRIO COMERCIAL;4;Salamanca;37,96
+2022;agosto;3;PAPEL-CARTON;2;Arganzuela;280,74
+2022;agosto;3;PAPEL-CARTON;11;Carabanchel;251,06
+2022;agosto;3;PAPEL-CARTON;12;Usera;83,34
+2022;agosto;3;PAPEL-CARTON;13;Puente de Vallecas;175,16
+2022;agosto;3;PAPEL-CARTON;17;Villaverde;115,78
+2022;agosto;3;PAPEL-CARTON;18;Villa de Vallecas;113,86
+2022;agosto;3;CARTON COMERCIAL;2;Arganzuela;19,34
+2022;agosto;3;CARTON COMERCIAL;11;Carabanchel;30,2
+2022;agosto;3;CARTON COMERCIAL;12;Usera;10,98
+2022;agosto;3;CARTON COMERCIAL;13;Puente de Vallecas;13,88
+2022;agosto;3;CARTON COMERCIAL;17;Villaverde;3,26
+2022;agosto;3;CLINICOS;12;Usera;134,36
+2022;agosto;3;CLINICOS;13;Puente de Vallecas;29,18
+2022;agosto;3;ENVASES;2;Arganzuela;258,88
+2022;agosto;3;ENVASES;11;Carabanchel;676,1
+2022;agosto;3;ENVASES;12;Usera;384,64
+2022;agosto;3;ENVASES;13;Puente de Vallecas;734,22
+2022;agosto;3;ENVASES;17;Villaverde;469,36
+2022;agosto;3;ENVASES;18;Villa de Vallecas;269,52
+2022;agosto;3;ORGANICA;2;Arganzuela;451,32
+2022;agosto;3;ORGANICA;11;Carabanchel;963,14
+2022;agosto;3;ORGANICA;12;Usera;509,1
+2022;agosto;3;ORGANICA;13;Puente de Vallecas;837,3
+2022;agosto;3;ORGANICA;17;Villaverde;638,12
+2022;agosto;3;ORGANICA;18;Villa de Vallecas;1537,14
+2022;agosto;3;PUNTOS LIMPIOS;2;Arganzuela;56,48
+2022;agosto;3;PUNTOS LIMPIOS;11;Carabanchel;40,58
+2022;agosto;3;PUNTOS LIMPIOS;12;Usera;35,76
+2022;agosto;3;PUNTOS LIMPIOS;13;Puente de Vallecas;28,88
+2022;agosto;3;PUNTOS LIMPIOS;17;Villaverde;36,48
+2022;agosto;3;PUNTOS LIMPIOS;18;Villa de Vallecas;53,58
+2022;agosto;3;RCD;2;Arganzuela;28,92
+2022;agosto;3;RCD;11;Carabanchel;38,09
+2022;agosto;3;RCD;12;Usera;35,56
+2022;agosto;3;RCD;13;Puente de Vallecas;59,31
+2022;agosto;3;RCD;17;Villaverde;31,48
+2022;agosto;3;RCD;18;Villa de Vallecas;55,53
+2022;agosto;3;RESTO;2;Arganzuela;1365,14
+2022;agosto;3;RESTO;11;Carabanchel;3580,12
+2022;agosto;3;RESTO;12;Usera;1750,7
+2022;agosto;3;RESTO;13;Puente de Vallecas;3350,66
+2022;agosto;3;RESTO;17;Villaverde;2135,04
+2022;agosto;3;RESTO;18;Villa de Vallecas;2138,54
+2022;agosto;3;VIDRIO;2;Arganzuela;138,52
+2022;agosto;3;VIDRIO;11;Carabanchel;95,66
+2022;agosto;3;VIDRIO;12;Usera;328,74
+2022;agosto;3;VIDRIO;13;Puente de Vallecas;178,8
+2022;agosto;3;VIDRIO;17;Villaverde;60,06
+2022;agosto;3;VIDRIO;18;Villa de Vallecas;107,38
+2022;agosto;3;VIDRIO COMERCIAL;13;Puente de Vallecas;4,08
+2022;agosto;3;ANIMALES MUERTOS;99;Sin Distrito;6,6
+2022;septiembre;1;PAPEL-CARTON;1;Centro;397,58
+2022;septiembre;1;PAPEL-CARTON;6;Tetuán;298,04
+2022;septiembre;1;PAPEL-CARTON;7;Chamberí;264,2
+2022;septiembre;1;PAPEL-CARTON;8;Fuencarral - El Pardo;624,52
+2022;septiembre;1;PAPEL-CARTON;9;Moncloa - Aravaca;349,2
+2022;septiembre;1;PAPEL-CARTON;10;Latina;339,42
+2022;septiembre;1;CARTON COMERCIAL;1;Centro;236,98
+2022;septiembre;1;CARTON COMERCIAL;6;Tetuán;89,16
+2022;septiembre;1;CARTON COMERCIAL;7;Chamberí;93,66
+2022;septiembre;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;3,86
+2022;septiembre;1;CARTON COMERCIAL;9;Moncloa - Aravaca;3,84
+2022;septiembre;1;CARTON COMERCIAL;10;Latina;4,9
+2022;septiembre;1;CAMA DE CABALLO;9;Moncloa - Aravaca;52,92
+2022;septiembre;1;CLINICOS;1;Centro;155,72
+2022;septiembre;1;CLINICOS;6;Tetuán;12,54
+2022;septiembre;1;CLINICOS;8;Fuencarral - El Pardo;276,7
+2022;septiembre;1;CLINICOS;9;Moncloa - Aravaca;224,58
+2022;septiembre;1;CLINICOS;10;Latina;31,54
+2022;septiembre;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,72
+2022;septiembre;1;ENVASES;1;Centro;241,84
+2022;septiembre;1;ENVASES;6;Tetuán;371,14
+2022;septiembre;1;ENVASES;7;Chamberí;337,84
+2022;septiembre;1;ENVASES;8;Fuencarral - El Pardo;670,68
+2022;septiembre;1;ENVASES;9;Moncloa - Aravaca;323,9
+2022;septiembre;1;ENVASES;10;Latina;596,38
+2022;septiembre;1;ORGANICA;1;Centro;1002,56
+2022;septiembre;1;ORGANICA;6;Tetuán;752,16
+2022;septiembre;1;ORGANICA;7;Chamberí;782,06
+2022;septiembre;1;ORGANICA;8;Fuencarral - El Pardo;1492,64
+2022;septiembre;1;ORGANICA;9;Moncloa - Aravaca;982,68
+2022;septiembre;1;ORGANICA;10;Latina;1189,18
+2022;septiembre;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;134,26
+2022;septiembre;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;51,92
+2022;septiembre;1;PUNTOS LIMPIOS;10;Latina;119,58
+2022;septiembre;1;RCD;1;Centro;121,64
+2022;septiembre;1;RCD;6;Tetuán;57,215
+2022;septiembre;1;RCD;7;Chamberí;21,325
+2022;septiembre;1;RCD;8;Fuencarral - El Pardo;95,87
+2022;septiembre;1;RCD;9;Moncloa - Aravaca;52,82
+2022;septiembre;1;RCD;10;Latina;40,435
+2022;septiembre;1;RESTO;1;Centro;4175,04
+2022;septiembre;1;RESTO;6;Tetuán;2343,56
+2022;septiembre;1;RESTO;7;Chamberí;2119,78
+2022;septiembre;1;RESTO;8;Fuencarral - El Pardo;3269,52
+2022;septiembre;1;RESTO;9;Moncloa - Aravaca;2381,66
+2022;septiembre;1;RESTO;10;Latina;3116,44
+2022;septiembre;1;VIDRIO;1;Centro;622,16
+2022;septiembre;1;VIDRIO;6;Tetuán;302,92
+2022;septiembre;1;VIDRIO;7;Chamberí;203,1
+2022;septiembre;1;VIDRIO;8;Fuencarral - El Pardo;349,86
+2022;septiembre;1;VIDRIO;9;Moncloa - Aravaca;150,32
+2022;septiembre;1;VIDRIO;10;Latina;158,78
+2022;septiembre;1;VIDRIO COMERCIAL;1;Centro;68,46
+2022;septiembre;2;PAPEL-CARTON;3;Retiro;246,77
+2022;septiembre;2;PAPEL-CARTON;4;Salamanca;404,08
+2022;septiembre;2;PAPEL-CARTON;5;Chamartín;297,86
+2022;septiembre;2;PAPEL-CARTON;14;Moratalaz;140,03
+2022;septiembre;2;PAPEL-CARTON;15;Ciudad Lineal;413,59
+2022;septiembre;2;PAPEL-CARTON;16;Hortaleza;339,52
+2022;septiembre;2;PAPEL-CARTON;19;Vicálvaro;67,26
+2022;septiembre;2;PAPEL-CARTON;20;San Blas - Canillejas;222,05
+2022;septiembre;2;PAPEL-CARTON;21;Barajas;81,68
+2022;septiembre;2;CARTON COMERCIAL;3;Retiro;62,73
+2022;septiembre;2;CARTON COMERCIAL;4;Salamanca;214,73
+2022;septiembre;2;CARTON COMERCIAL;5;Chamartín;105,34
+2022;septiembre;2;CARTON COMERCIAL;14;Moratalaz;15,05
+2022;septiembre;2;CARTON COMERCIAL;15;Ciudad Lineal;24,44
+2022;septiembre;2;CARTON COMERCIAL;16;Hortaleza;57,34
+2022;septiembre;2;CARTON COMERCIAL;19;Vicálvaro;4,23
+2022;septiembre;2;CARTON COMERCIAL;20;San Blas - Canillejas;47,66
+2022;septiembre;2;CARTON COMERCIAL;21;Barajas;11,05
+2022;septiembre;2;CLINICOS;3;Retiro;160,18
+2022;septiembre;2;CLINICOS;4;Salamanca;111,08
+2022;septiembre;2;CLINICOS;15;Ciudad Lineal;108,4
+2022;septiembre;2;ENVASES;3;Retiro;255
+2022;septiembre;2;ENVASES;4;Salamanca;345,02
+2022;septiembre;2;ENVASES;5;Chamartín;359,78
+2022;septiembre;2;ENVASES;14;Moratalaz;310,42
+2022;septiembre;2;ENVASES;15;Ciudad Lineal;544,62
+2022;septiembre;2;ENVASES;16;Hortaleza;566
+2022;septiembre;2;ENVASES;19;Vicálvaro;305,38
+2022;septiembre;2;ENVASES;20;San Blas - Canillejas;462,54
+2022;septiembre;2;ENVASES;21;Barajas;126,88
+2022;septiembre;2;ORGANICA;3;Retiro;655,64
+2022;septiembre;2;ORGANICA;4;Salamanca;993,92
+2022;septiembre;2;ORGANICA;5;Chamartín;870,42
+2022;septiembre;2;ORGANICA;14;Moratalaz;454,04
+2022;septiembre;2;ORGANICA;15;Ciudad Lineal;1033,28
+2022;septiembre;2;ORGANICA;16;Hortaleza;853,26
+2022;septiembre;2;ORGANICA;19;Vicálvaro;226,46
+2022;septiembre;2;ORGANICA;20;San Blas - Canillejas;697,04
+2022;septiembre;2;ORGANICA;21;Barajas;453,06
+2022;septiembre;2;PUNTOS LIMPIOS;3;Retiro;2,14
+2022;septiembre;2;PUNTOS LIMPIOS;5;Chamartín;115,58
+2022;septiembre;2;PUNTOS LIMPIOS;14;Moratalaz;57,4
+2022;septiembre;2;PUNTOS LIMPIOS;15;Ciudad Lineal;73,28
+2022;septiembre;2;PUNTOS LIMPIOS;16;Hortaleza;69,84
+2022;septiembre;2;PUNTOS LIMPIOS;19;Vicálvaro;33,84
+2022;septiembre;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;64,86
+2022;septiembre;2;PUNTOS LIMPIOS;21;Barajas;34,7
+2022;septiembre;2;RCD;3;Retiro;85,96
+2022;septiembre;2;RCD;4;Salamanca;26,56
+2022;septiembre;2;RCD;5;Chamartín;81,82
+2022;septiembre;2;RCD;14;Moratalaz;54,76
+2022;septiembre;2;RCD;15;Ciudad Lineal;94,76
+2022;septiembre;2;RCD;16;Hortaleza;69,8
+2022;septiembre;2;RCD;19;Vicálvaro;79,46
+2022;septiembre;2;RCD;20;San Blas - Canillejas;68,18
+2022;septiembre;2;RCD;21;Barajas;14,8
+2022;septiembre;2;RESTO;3;Retiro;1392,92
+2022;septiembre;2;RESTO;4;Salamanca;2179,24
+2022;septiembre;2;RESTO;5;Chamartín;2094,68
+2022;septiembre;2;RESTO;14;Moratalaz;1111,86
+2022;septiembre;2;RESTO;15;Ciudad Lineal;2868,88
+2022;septiembre;2;RESTO;16;Hortaleza;2676,24
+2022;septiembre;2;RESTO;19;Vicálvaro;1574,42
+2022;septiembre;2;RESTO;20;San Blas - Canillejas;2509,56
+2022;septiembre;2;RESTO;21;Barajas;805,22
+2022;septiembre;2;VIDRIO;3;Retiro;275,78
+2022;septiembre;2;VIDRIO;4;Salamanca;258,28
+2022;septiembre;2;VIDRIO;5;Chamartín;252,88
+2022;septiembre;2;VIDRIO;14;Moratalaz;212,12
+2022;septiembre;2;VIDRIO;15;Ciudad Lineal;184,96
+2022;septiembre;2;VIDRIO;16;Hortaleza;125,54
+2022;septiembre;2;VIDRIO;19;Vicálvaro;146,28
+2022;septiembre;2;VIDRIO;20;San Blas - Canillejas;178,9
+2022;septiembre;2;VIDRIO;21;Barajas;84,74
+2022;septiembre;2;VIDRIO COMERCIAL;4;Salamanca;56,32
+2022;septiembre;3;PAPEL-CARTON;2;Arganzuela;366,04
+2022;septiembre;3;PAPEL-CARTON;11;Carabanchel;326,7
+2022;septiembre;3;PAPEL-CARTON;12;Usera;151,52
+2022;septiembre;3;PAPEL-CARTON;13;Puente de Vallecas;231,14
+2022;septiembre;3;PAPEL-CARTON;17;Villaverde;162,26
+2022;septiembre;3;PAPEL-CARTON;18;Villa de Vallecas;150,08
+2022;septiembre;3;CARTON COMERCIAL;2;Arganzuela;28,76
+2022;septiembre;3;CARTON COMERCIAL;11;Carabanchel;35,08
+2022;septiembre;3;CARTON COMERCIAL;12;Usera;14,72
+2022;septiembre;3;CARTON COMERCIAL;13;Puente de Vallecas;17,82
+2022;septiembre;3;CARTON COMERCIAL;17;Villaverde;6,92
+2022;septiembre;3;CLINICOS;12;Usera;140,02
+2022;septiembre;3;CLINICOS;13;Puente de Vallecas;34,22
+2022;septiembre;3;CONTENEDORES DE ROPA;2;Arganzuela;0,18
+2022;septiembre;3;ENVASES;2;Arganzuela;327,06
+2022;septiembre;3;ENVASES;11;Carabanchel;780,12
+2022;septiembre;3;ENVASES;12;Usera;402,44
+2022;septiembre;3;ENVASES;13;Puente de Vallecas;825,18
+2022;septiembre;3;ENVASES;17;Villaverde;518,66
+2022;septiembre;3;ENVASES;18;Villa de Vallecas;320,22
+2022;septiembre;3;ORGANICA;2;Arganzuela;604,04
+2022;septiembre;3;ORGANICA;11;Carabanchel;1112,68
+2022;septiembre;3;ORGANICA;12;Usera;565,52
+2022;septiembre;3;ORGANICA;13;Puente de Vallecas;880,38
+2022;septiembre;3;ORGANICA;17;Villaverde;727,82
+2022;septiembre;3;ORGANICA;18;Villa de Vallecas;1429,16
+2022;septiembre;3;PUNTOS LIMPIOS;2;Arganzuela;57,16
+2022;septiembre;3;PUNTOS LIMPIOS;11;Carabanchel;45,78
+2022;septiembre;3;PUNTOS LIMPIOS;12;Usera;33,36
+2022;septiembre;3;PUNTOS LIMPIOS;13;Puente de Vallecas;37,42
+2022;septiembre;3;PUNTOS LIMPIOS;17;Villaverde;39,78
+2022;septiembre;3;PUNTOS LIMPIOS;18;Villa de Vallecas;73,52
+2022;septiembre;3;RCD;2;Arganzuela;53,78
+2022;septiembre;3;RCD;11;Carabanchel;22,33
+2022;septiembre;3;RCD;12;Usera;51,31
+2022;septiembre;3;RCD;13;Puente de Vallecas;44,1
+2022;septiembre;3;RCD;17;Villaverde;53,9
+2022;septiembre;3;RCD;18;Villa de Vallecas;60,56
+2022;septiembre;3;RESTO;2;Arganzuela;1768,44
+2022;septiembre;3;RESTO;11;Carabanchel;4058,08
+2022;septiembre;3;RESTO;12;Usera;1869,58
+2022;septiembre;3;RESTO;13;Puente de Vallecas;3750,94
+2022;septiembre;3;RESTO;17;Villaverde;2344,5
+2022;septiembre;3;RESTO;18;Villa de Vallecas;2454,1
+2022;septiembre;3;VIDRIO;2;Arganzuela;202,32
+2022;septiembre;3;VIDRIO;11;Carabanchel;114
+2022;septiembre;3;VIDRIO;12;Usera;248,12
+2022;septiembre;3;VIDRIO;13;Puente de Vallecas;140,32
+2022;septiembre;3;VIDRIO;17;Villaverde;90,94
+2022;septiembre;3;VIDRIO;18;Villa de Vallecas;100,1
+2022;septiembre;3;VIDRIO COMERCIAL;13;Puente de Vallecas;2,8
+2022;septiembre;3;ANIMALES MUERTOS;99;Sin Distrito;7,46
+2022;septiembre;3;PILAS;99;Sin Distrito;4,21
+2022;octubre;1;PAPEL-CARTON;1;Centro;441,68
+2022;octubre;1;PAPEL-CARTON;6;Tetuán;376,56
+2022;octubre;1;PAPEL-CARTON;7;Chamberí;234,16
+2022;octubre;1;PAPEL-CARTON;8;Fuencarral - El Pardo;659,62
+2022;octubre;1;PAPEL-CARTON;9;Moncloa - Aravaca;381,73
+2022;octubre;1;PAPEL-CARTON;10;Latina;405,97
+2022;octubre;1;CARTON COMERCIAL;1;Centro;237,87
+2022;octubre;1;CARTON COMERCIAL;6;Tetuán;70,82
+2022;octubre;1;CARTON COMERCIAL;7;Chamberí;73,62
+2022;octubre;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;5,02
+2022;octubre;1;CARTON COMERCIAL;9;Moncloa - Aravaca;4,66
+2022;octubre;1;CARTON COMERCIAL;10;Latina;1,32
+2022;octubre;1;CAMA DE CABALLO;9;Moncloa - Aravaca;55,83
+2022;octubre;1;CLINICOS;1;Centro;168,18
+2022;octubre;1;CLINICOS;6;Tetuán;15,8
+2022;octubre;1;CLINICOS;8;Fuencarral - El Pardo;318,56
+2022;octubre;1;CLINICOS;9;Moncloa - Aravaca;242,14
+2022;octubre;1;CLINICOS;10;Latina;33,54
+2022;octubre;1;CONTENEDORES DE ROPA;6;Tetuán;0,18
+2022;octubre;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;0,18
+2022;octubre;1;CONTENEDORES DE ROPA;10;Latina;0,18
+2022;octubre;1;ENVASES;1;Centro;264,88
+2022;octubre;1;ENVASES;6;Tetuán;397,6
+2022;octubre;1;ENVASES;7;Chamberí;362,84
+2022;octubre;1;ENVASES;8;Fuencarral - El Pardo;709,48
+2022;octubre;1;ENVASES;9;Moncloa - Aravaca;337
+2022;octubre;1;ENVASES;10;Latina;614,98
+2022;octubre;1;ORGANICA;1;Centro;1129,08
+2022;octubre;1;ORGANICA;6;Tetuán;841,38
+2022;octubre;1;ORGANICA;7;Chamberí;842,4
+2022;octubre;1;ORGANICA;8;Fuencarral - El Pardo;1580,22
+2022;octubre;1;ORGANICA;9;Moncloa - Aravaca;1016,44
+2022;octubre;1;ORGANICA;10;Latina;1268,26
+2022;octubre;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;122,92
+2022;octubre;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;44,9
+2022;octubre;1;PUNTOS LIMPIOS;10;Latina;137,12
+2022;octubre;1;RCD;1;Centro;142,145
+2022;octubre;1;RCD;6;Tetuán;56,345
+2022;octubre;1;RCD;7;Chamberí;42,44
+2022;octubre;1;RCD;8;Fuencarral - El Pardo;93,545
+2022;octubre;1;RCD;9;Moncloa - Aravaca;49,945
+2022;octubre;1;RCD;10;Latina;51,875
+2022;octubre;1;RESTO;1;Centro;4564,12
+2022;octubre;1;RESTO;6;Tetuán;2475,52
+2022;octubre;1;RESTO;7;Chamberí;2248,42
+2022;octubre;1;RESTO;8;Fuencarral - El Pardo;3390,92
+2022;octubre;1;RESTO;9;Moncloa - Aravaca;2518,94
+2022;octubre;1;RESTO;10;Latina;3263,6
+2022;octubre;1;VIDRIO;1;Centro;734,36
+2022;octubre;1;VIDRIO;6;Tetuán;413,66
+2022;octubre;1;VIDRIO;7;Chamberí;247,76
+2022;octubre;1;VIDRIO;8;Fuencarral - El Pardo;411,86
+2022;octubre;1;VIDRIO;9;Moncloa - Aravaca;185,88
+2022;octubre;1;VIDRIO;10;Latina;169,54
+2022;octubre;1;VIDRIO COMERCIAL;1;Centro;79,62
+2022;octubre;2;PAPEL-CARTON;3;Retiro;284,41
+2022;octubre;2;PAPEL-CARTON;4;Salamanca;449,05
+2022;octubre;2;PAPEL-CARTON;5;Chamartín;319,38
+2022;octubre;2;PAPEL-CARTON;14;Moratalaz;142,43
+2022;octubre;2;PAPEL-CARTON;15;Ciudad Lineal;404,67
+2022;octubre;2;PAPEL-CARTON;16;Hortaleza;346
+2022;octubre;2;PAPEL-CARTON;19;Vicálvaro;54,82
+2022;octubre;2;PAPEL-CARTON;20;San Blas - Canillejas;230,61
+2022;octubre;2;PAPEL-CARTON;21;Barajas;78,38
+2022;octubre;2;CARTON COMERCIAL;3;Retiro;56,09
+2022;octubre;2;CARTON COMERCIAL;4;Salamanca;235,64
+2022;octubre;2;CARTON COMERCIAL;5;Chamartín;111,02
+2022;octubre;2;CARTON COMERCIAL;14;Moratalaz;7,67
+2022;octubre;2;CARTON COMERCIAL;15;Ciudad Lineal;9,85
+2022;octubre;2;CARTON COMERCIAL;16;Hortaleza;42,04
+2022;octubre;2;CARTON COMERCIAL;19;Vicálvaro;3,34
+2022;octubre;2;CARTON COMERCIAL;20;San Blas - Canillejas;40,68
+2022;octubre;2;CARTON COMERCIAL;21;Barajas;10,85
+2022;octubre;2;CLINICOS;3;Retiro;181,6
+2022;octubre;2;CLINICOS;4;Salamanca;119,2
+2022;octubre;2;CLINICOS;15;Ciudad Lineal;123,62
+2022;octubre;2;ENVASES;3;Retiro;272,78
+2022;octubre;2;ENVASES;4;Salamanca;356,18
+2022;octubre;2;ENVASES;5;Chamartín;379,58
+2022;octubre;2;ENVASES;14;Moratalaz;323,8
+2022;octubre;2;ENVASES;15;Ciudad Lineal;569,34
+2022;octubre;2;ENVASES;16;Hortaleza;580,56
+2022;octubre;2;ENVASES;19;Vicálvaro;322,56
+2022;octubre;2;ENVASES;20;San Blas - Canillejas;502,3
+2022;octubre;2;ENVASES;21;Barajas;120,46
+2022;octubre;2;ORGANICA;3;Retiro;717,7
+2022;octubre;2;ORGANICA;4;Salamanca;1069,72
+2022;octubre;2;ORGANICA;5;Chamartín;948,88
+2022;octubre;2;ORGANICA;14;Moratalaz;490,64
+2022;octubre;2;ORGANICA;15;Ciudad Lineal;1086,24
+2022;octubre;2;ORGANICA;16;Hortaleza;896,28
+2022;octubre;2;ORGANICA;19;Vicálvaro;243,28
+2022;octubre;2;ORGANICA;20;San Blas - Canillejas;750,06
+2022;octubre;2;ORGANICA;21;Barajas;466,14
+2022;octubre;2;PUNTOS LIMPIOS;3;Retiro;1,4
+2022;octubre;2;PUNTOS LIMPIOS;5;Chamartín;102,06
+2022;octubre;2;PUNTOS LIMPIOS;14;Moratalaz;47,08
+2022;octubre;2;PUNTOS LIMPIOS;15;Ciudad Lineal;80,6
+2022;octubre;2;PUNTOS LIMPIOS;16;Hortaleza;75,88
+2022;octubre;2;PUNTOS LIMPIOS;19;Vicálvaro;26,5
+2022;octubre;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;72,48
+2022;octubre;2;PUNTOS LIMPIOS;21;Barajas;44,18
+2022;octubre;2;RCD;3;Retiro;45,9
+2022;octubre;2;RCD;4;Salamanca;40,42
+2022;octubre;2;RCD;5;Chamartín;82,35
+2022;octubre;2;RCD;14;Moratalaz;66,12
+2022;octubre;2;RCD;15;Ciudad Lineal;52,94
+2022;octubre;2;RCD;16;Hortaleza;41,08
+2022;octubre;2;RCD;19;Vicálvaro;55,13
+2022;octubre;2;RCD;20;San Blas - Canillejas;90,37
+2022;octubre;2;RCD;21;Barajas;31,6
+2022;octubre;2;RESTO;3;Retiro;1429,6
+2022;octubre;2;RESTO;4;Salamanca;2372,6
+2022;octubre;2;RESTO;5;Chamartín;2198,38
+2022;octubre;2;RESTO;14;Moratalaz;1189,44
+2022;octubre;2;RESTO;15;Ciudad Lineal;3051,64
+2022;octubre;2;RESTO;16;Hortaleza;2695,68
+2022;octubre;2;RESTO;19;Vicálvaro;1629,18
+2022;octubre;2;RESTO;20;San Blas - Canillejas;2587,7
+2022;octubre;2;RESTO;21;Barajas;834,48
+2022;octubre;2;VIDRIO;3;Retiro;315,9
+2022;octubre;2;VIDRIO;4;Salamanca;274,02
+2022;octubre;2;VIDRIO;5;Chamartín;300,68
+2022;octubre;2;VIDRIO;14;Moratalaz;244,58
+2022;octubre;2;VIDRIO;15;Ciudad Lineal;210,74
+2022;octubre;2;VIDRIO;16;Hortaleza;149,52
+2022;octubre;2;VIDRIO;19;Vicálvaro;172,18
+2022;octubre;2;VIDRIO;20;San Blas - Canillejas;155,38
+2022;octubre;2;VIDRIO;21;Barajas;88,34
+2022;octubre;2;VIDRIO COMERCIAL;4;Salamanca;65,34
+2022;octubre;3;PAPEL-CARTON;2;Arganzuela;380,2
+2022;octubre;3;PAPEL-CARTON;11;Carabanchel;331,68
+2022;octubre;3;PAPEL-CARTON;12;Usera;150
+2022;octubre;3;PAPEL-CARTON;13;Puente de Vallecas;219,8
+2022;octubre;3;PAPEL-CARTON;17;Villaverde;157,44
+2022;octubre;3;PAPEL-CARTON;18;Villa de Vallecas;147,4
+2022;octubre;3;CARTON COMERCIAL;2;Arganzuela;31,12
+2022;octubre;3;CARTON COMERCIAL;11;Carabanchel;34,3
+2022;octubre;3;CARTON COMERCIAL;12;Usera;14,02
+2022;octubre;3;CARTON COMERCIAL;13;Puente de Vallecas;18,7
+2022;octubre;3;CARTON COMERCIAL;17;Villaverde;7,18
+2022;octubre;3;CLINICOS;12;Usera;160,62
+2022;octubre;3;CLINICOS;13;Puente de Vallecas;35,78
+2022;octubre;3;ENVASES;2;Arganzuela;358,38
+2022;octubre;3;ENVASES;11;Carabanchel;804,68
+2022;octubre;3;ENVASES;12;Usera;417,2
+2022;octubre;3;ENVASES;13;Puente de Vallecas;878,96
+2022;octubre;3;ENVASES;17;Villaverde;521,24
+2022;octubre;3;ENVASES;18;Villa de Vallecas;331,3
+2022;octubre;3;ORGANICA;2;Arganzuela;654,72
+2022;octubre;3;ORGANICA;11;Carabanchel;1160,48
+2022;octubre;3;ORGANICA;12;Usera;598,78
+2022;octubre;3;ORGANICA;13;Puente de Vallecas;925,96
+2022;octubre;3;ORGANICA;17;Villaverde;759,18
+2022;octubre;3;ORGANICA;18;Villa de Vallecas;1515,52
+2022;octubre;3;PUNTOS LIMPIOS;2;Arganzuela;59,6
+2022;octubre;3;PUNTOS LIMPIOS;11;Carabanchel;38,7
+2022;octubre;3;PUNTOS LIMPIOS;12;Usera;32,6
+2022;octubre;3;PUNTOS LIMPIOS;13;Puente de Vallecas;41,32
+2022;octubre;3;PUNTOS LIMPIOS;17;Villaverde;45,3
+2022;octubre;3;PUNTOS LIMPIOS;18;Villa de Vallecas;71,66
+2022;octubre;3;RCD;2;Arganzuela;64,83
+2022;octubre;3;RCD;11;Carabanchel;22,36
+2022;octubre;3;RCD;12;Usera;36,93
+2022;octubre;3;RCD;13;Puente de Vallecas;44,28
+2022;octubre;3;RCD;17;Villaverde;52,13
+2022;octubre;3;RCD;18;Villa de Vallecas;55,91
+2022;octubre;3;RESTO;2;Arganzuela;1831,28
+2022;octubre;3;RESTO;11;Carabanchel;4250,68
+2022;octubre;3;RESTO;12;Usera;1977,44
+2022;octubre;3;RESTO;13;Puente de Vallecas;3970,86
+2022;octubre;3;RESTO;17;Villaverde;2492
+2022;octubre;3;RESTO;18;Villa de Vallecas;2430,68
+2022;octubre;3;VIDRIO;2;Arganzuela;120,86
+2022;octubre;3;VIDRIO;11;Carabanchel;144,02
+2022;octubre;3;VIDRIO;12;Usera;346,76
+2022;octubre;3;VIDRIO;13;Puente de Vallecas;261,92
+2022;octubre;3;VIDRIO;17;Villaverde;70,66
+2022;octubre;3;VIDRIO;18;Villa de Vallecas;147,38
+2022;octubre;3;VIDRIO COMERCIAL;13;Puente de Vallecas;3,16
+2022;octubre;3;ANIMALES MUERTOS;99;Sin Distrito;7,96
+2022;noviembre;1;PAPEL-CARTON;1;Centro;453,9
+2022;noviembre;1;PAPEL-CARTON;6;Tetuán;382,06
+2022;noviembre;1;PAPEL-CARTON;7;Chamberí;297,7
+2022;noviembre;1;PAPEL-CARTON;8;Fuencarral - El Pardo;677,239
+2022;noviembre;1;PAPEL-CARTON;9;Moncloa - Aravaca;318,98
+2022;noviembre;1;PAPEL-CARTON;10;Latina;337,1
+2022;noviembre;1;CARTON COMERCIAL;1;Centro;227,34
+2022;noviembre;1;CARTON COMERCIAL;6;Tetuán;77,32
+2022;noviembre;1;CARTON COMERCIAL;7;Chamberí;82,18
+2022;noviembre;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;22,82
+2022;noviembre;1;CARTON COMERCIAL;10;Latina;24,9
+2022;noviembre;1;CAMA DE CABALLO;9;Moncloa - Aravaca;54,925
+2022;noviembre;1;CLINICOS;1;Centro;169,14
+2022;noviembre;1;CLINICOS;6;Tetuán;12,26
+2022;noviembre;1;CLINICOS;8;Fuencarral - El Pardo;318,66
+2022;noviembre;1;CLINICOS;9;Moncloa - Aravaca;243,62
+2022;noviembre;1;CLINICOS;10;Latina;36,82
+2022;noviembre;1;CONTENEDORES DE ROPA;1;Centro;13,818
+2022;noviembre;1;CONTENEDORES DE ROPA;6;Tetuán;6,265
+2022;noviembre;1;CONTENEDORES DE ROPA;7;Chamberí;6,891
+2022;noviembre;1;CONTENEDORES DE ROPA;8;Fuencarral - El Pardo;4,13
+2022;noviembre;1;CONTENEDORES DE ROPA;9;Moncloa - Aravaca;1,436
+2022;noviembre;1;CONTENEDORES DE ROPA;10;Latina;3,624
+2022;noviembre;1;ENVASES;1;Centro;265,58
+2022;noviembre;1;ENVASES;6;Tetuán;394,06
+2022;noviembre;1;ENVASES;7;Chamberí;349,16
+2022;noviembre;1;ENVASES;8;Fuencarral - El Pardo;647,38
+2022;noviembre;1;ENVASES;9;Moncloa - Aravaca;359,8
+2022;noviembre;1;ENVASES;10;Latina;623,56
+2022;noviembre;1;ORGANICA;1;Centro;1083,82
+2022;noviembre;1;ORGANICA;6;Tetuán;886,4
+2022;noviembre;1;ORGANICA;7;Chamberí;832,02
+2022;noviembre;1;ORGANICA;8;Fuencarral - El Pardo;1584,44
+2022;noviembre;1;ORGANICA;9;Moncloa - Aravaca;1065,12
+2022;noviembre;1;ORGANICA;10;Latina;1291,1
+2022;noviembre;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;115,36
+2022;noviembre;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;41,72
+2022;noviembre;1;PUNTOS LIMPIOS;10;Latina;136,66
+2022;noviembre;1;RCD;1;Centro;134,61
+2022;noviembre;1;RCD;6;Tetuán;47,185
+2022;noviembre;1;RCD;7;Chamberí;65,925
+2022;noviembre;1;RCD;8;Fuencarral - El Pardo;94,12
+2022;noviembre;1;RCD;9;Moncloa - Aravaca;66,87
+2022;noviembre;1;RCD;10;Latina;49,66
+2022;noviembre;1;RESTO;1;Centro;4501,68
+2022;noviembre;1;RESTO;6;Tetuán;2462,12
+2022;noviembre;1;RESTO;7;Chamberí;2223,66
+2022;noviembre;1;RESTO;8;Fuencarral - El Pardo;3276,48
+2022;noviembre;1;RESTO;9;Moncloa - Aravaca;2533,84
+2022;noviembre;1;RESTO;10;Latina;3087,82
+2022;noviembre;1;VIDRIO;1;Centro;686,56
+2022;noviembre;1;VIDRIO;6;Tetuán;435,12
+2022;noviembre;1;VIDRIO;7;Chamberí;263,64
+2022;noviembre;1;VIDRIO;8;Fuencarral - El Pardo;399,92
+2022;noviembre;1;VIDRIO;9;Moncloa - Aravaca;164,32
+2022;noviembre;1;VIDRIO;10;Latina;195,88
+2022;noviembre;1;VIDRIO COMERCIAL;1;Centro;74,88
+2022;noviembre;2;PAPEL-CARTON;3;Retiro;315,18
+2022;noviembre;2;PAPEL-CARTON;4;Salamanca;458,76
+2022;noviembre;2;PAPEL-CARTON;5;Chamartín;301,76
+2022;noviembre;2;PAPEL-CARTON;14;Moratalaz;168,26
+2022;noviembre;2;PAPEL-CARTON;15;Ciudad Lineal;402,06
+2022;noviembre;2;PAPEL-CARTON;16;Hortaleza;305,48
+2022;noviembre;2;PAPEL-CARTON;19;Vicálvaro;56,22
+2022;noviembre;2;PAPEL-CARTON;20;San Blas - Canillejas;301,76
+2022;noviembre;2;PAPEL-CARTON;21;Barajas;36,72
+2022;noviembre;2;CARTON COMERCIAL;3;Retiro;46,74
+2022;noviembre;2;CARTON COMERCIAL;4;Salamanca;255,26
+2022;noviembre;2;CARTON COMERCIAL;5;Chamartín;123,98
+2022;noviembre;2;CARTON COMERCIAL;14;Moratalaz;16,58
+2022;noviembre;2;CARTON COMERCIAL;15;Ciudad Lineal;14,18
+2022;noviembre;2;CARTON COMERCIAL;16;Hortaleza;63,66
+2022;noviembre;2;CARTON COMERCIAL;19;Vicálvaro;3,44
+2022;noviembre;2;CARTON COMERCIAL;20;San Blas - Canillejas;28,78
+2022;noviembre;2;CARTON COMERCIAL;21;Barajas;11,38
+2022;noviembre;2;CLINICOS;3;Retiro;184,6
+2022;noviembre;2;CLINICOS;4;Salamanca;121,88
+2022;noviembre;2;CLINICOS;15;Ciudad Lineal;126,16
+2022;noviembre;2;ENVASES;3;Retiro;270,68
+2022;noviembre;2;ENVASES;4;Salamanca;367,16
+2022;noviembre;2;ENVASES;5;Chamartín;365,24
+2022;noviembre;2;ENVASES;14;Moratalaz;310,2
+2022;noviembre;2;ENVASES;15;Ciudad Lineal;558,96
+2022;noviembre;2;ENVASES;16;Hortaleza;568,76
+2022;noviembre;2;ENVASES;19;Vicálvaro;283,64
+2022;noviembre;2;ENVASES;20;San Blas - Canillejas;486,56
+2022;noviembre;2;ENVASES;21;Barajas;166,2
+2022;noviembre;2;ORGANICA;3;Retiro;728,02
+2022;noviembre;2;ORGANICA;4;Salamanca;1075,9
+2022;noviembre;2;ORGANICA;5;Chamartín;956,42
+2022;noviembre;2;ORGANICA;14;Moratalaz;503,92
+2022;noviembre;2;ORGANICA;15;Ciudad Lineal;1102,14
+2022;noviembre;2;ORGANICA;16;Hortaleza;896,04
+2022;noviembre;2;ORGANICA;19;Vicálvaro;235,9
+2022;noviembre;2;ORGANICA;20;San Blas - Canillejas;747,74
+2022;noviembre;2;ORGANICA;21;Barajas;491,16
+2022;noviembre;2;PUNTOS LIMPIOS;3;Retiro;1,76
+2022;noviembre;2;PUNTOS LIMPIOS;5;Chamartín;88,44
+2022;noviembre;2;PUNTOS LIMPIOS;14;Moratalaz;40,04
+2022;noviembre;2;PUNTOS LIMPIOS;15;Ciudad Lineal;64,42
+2022;noviembre;2;PUNTOS LIMPIOS;16;Hortaleza;65,22
+2022;noviembre;2;PUNTOS LIMPIOS;19;Vicálvaro;27,34
+2022;noviembre;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;63,32
+2022;noviembre;2;PUNTOS LIMPIOS;21;Barajas;36,48
+2022;noviembre;2;RCD;3;Retiro;57,285
+2022;noviembre;2;RCD;4;Salamanca;54,245
+2022;noviembre;2;RCD;5;Chamartín;83,24
+2022;noviembre;2;RCD;14;Moratalaz;66,19
+2022;noviembre;2;RCD;15;Ciudad Lineal;95,145
+2022;noviembre;2;RCD;16;Hortaleza;56,72
+2022;noviembre;2;RCD;19;Vicálvaro;49
+2022;noviembre;2;RCD;20;San Blas - Canillejas;55,64
+2022;noviembre;2;RCD;21;Barajas;40,06
+2022;noviembre;2;RESTO;3;Retiro;1470,34
+2022;noviembre;2;RESTO;4;Salamanca;2289,62
+2022;noviembre;2;RESTO;5;Chamartín;2166,2
+2022;noviembre;2;RESTO;14;Moratalaz;1152,9
+2022;noviembre;2;RESTO;15;Ciudad Lineal;2957,74
+2022;noviembre;2;RESTO;16;Hortaleza;2630,44
+2022;noviembre;2;RESTO;19;Vicálvaro;1699,44
+2022;noviembre;2;RESTO;20;San Blas - Canillejas;2515,26
+2022;noviembre;2;RESTO;21;Barajas;807,92
+2022;noviembre;2;VIDRIO;3;Retiro;339,14
+2022;noviembre;2;VIDRIO;4;Salamanca;311,32
+2022;noviembre;2;VIDRIO;5;Chamartín;305,12
+2022;noviembre;2;VIDRIO;14;Moratalaz;231,28
+2022;noviembre;2;VIDRIO;15;Ciudad Lineal;210,2
+2022;noviembre;2;VIDRIO;16;Hortaleza;157,08
+2022;noviembre;2;VIDRIO;19;Vicálvaro;146,62
+2022;noviembre;2;VIDRIO;20;San Blas - Canillejas;163,34
+2022;noviembre;2;VIDRIO;21;Barajas;95,34
+2022;noviembre;2;VIDRIO COMERCIAL;4;Salamanca;63,6
+2022;noviembre;2;ROPA;3;Retiro;0,46
+2022;noviembre;2;ROPA;4;Salamanca;0,93
+2022;noviembre;2;ROPA;5;Chamartín;17,08
+2022;noviembre;2;ROPA;14;Moratalaz;5,15
+2022;noviembre;2;ROPA;15;Ciudad Lineal;4,12
+2022;noviembre;2;ROPA;16;Hortaleza;9,26
+2022;noviembre;2;ROPA;19;Vicálvaro;2,11
+2022;noviembre;2;ROPA;20;San Blas - Canillejas;5,66
+2022;noviembre;2;ROPA;21;Barajas;6,69
+2022;noviembre;3;PAPEL-CARTON;2;Arganzuela;372,56
+2022;noviembre;3;PAPEL-CARTON;11;Carabanchel;315,72
+2022;noviembre;3;PAPEL-CARTON;12;Usera;156,36
+2022;noviembre;3;PAPEL-CARTON;13;Puente de Vallecas;219,9
+2022;noviembre;3;PAPEL-CARTON;17;Villaverde;166,14
+2022;noviembre;3;PAPEL-CARTON;18;Villa de Vallecas;168,84
+2022;noviembre;3;CARTON COMERCIAL;2;Arganzuela;22,68
+2022;noviembre;3;CARTON COMERCIAL;11;Carabanchel;26,18
+2022;noviembre;3;CARTON COMERCIAL;12;Usera;13,1
+2022;noviembre;3;CARTON COMERCIAL;13;Puente de Vallecas;12,7
+2022;noviembre;3;CARTON COMERCIAL;17;Villaverde;16,08
+2022;noviembre;3;CARTON COMERCIAL;18;Villa de Vallecas;10,5
+2022;noviembre;3;CLINICOS;12;Usera;159,22
+2022;noviembre;3;CLINICOS;13;Puente de Vallecas;36,3
+2022;noviembre;3;ENVASES;2;Arganzuela;337,4
+2022;noviembre;3;ENVASES;11;Carabanchel;851,6
+2022;noviembre;3;ENVASES;12;Usera;431,02
+2022;noviembre;3;ENVASES;13;Puente de Vallecas;751,44
+2022;noviembre;3;ENVASES;17;Villaverde;528,56
+2022;noviembre;3;ENVASES;18;Villa de Vallecas;333,6
+2022;noviembre;3;ORGANICA;2;Arganzuela;633,94
+2022;noviembre;3;ORGANICA;11;Carabanchel;1151,08
+2022;noviembre;3;ORGANICA;12;Usera;597,1
+2022;noviembre;3;ORGANICA;13;Puente de Vallecas;930,78
+2022;noviembre;3;ORGANICA;17;Villaverde;751,12
+2022;noviembre;3;ORGANICA;18;Villa de Vallecas;1602,6
+2022;noviembre;3;PUNTOS LIMPIOS;2;Arganzuela;52,74
+2022;noviembre;3;PUNTOS LIMPIOS;11;Carabanchel;43,7
+2022;noviembre;3;PUNTOS LIMPIOS;12;Usera;43,34
+2022;noviembre;3;PUNTOS LIMPIOS;13;Puente de Vallecas;39,5
+2022;noviembre;3;PUNTOS LIMPIOS;17;Villaverde;35,1
+2022;noviembre;3;PUNTOS LIMPIOS;18;Villa de Vallecas;99,22
+2022;noviembre;3;RCD;2;Arganzuela;46,64
+2022;noviembre;3;RCD;11;Carabanchel;36,27
+2022;noviembre;3;RCD;12;Usera;58,73
+2022;noviembre;3;RCD;13;Puente de Vallecas;28,2
+2022;noviembre;3;RCD;17;Villaverde;57,68
+2022;noviembre;3;RCD;18;Villa de Vallecas;67,1
+2022;noviembre;3;RESTO;2;Arganzuela;1806,12
+2022;noviembre;3;RESTO;11;Carabanchel;4151,06
+2022;noviembre;3;RESTO;12;Usera;1846,08
+2022;noviembre;3;RESTO;13;Puente de Vallecas;3810,02
+2022;noviembre;3;RESTO;17;Villaverde;2455,06
+2022;noviembre;3;RESTO;18;Villa de Vallecas;2555,14
+2022;noviembre;3;RESTO;99;Sin Distrito;5,042
+2022;noviembre;3;VIDRIO;2;Arganzuela;165,6
+2022;noviembre;3;VIDRIO;11;Carabanchel;177,9
+2022;noviembre;3;VIDRIO;12;Usera;165,42
+2022;noviembre;3;VIDRIO;13;Puente de Vallecas;212,12
+2022;noviembre;3;VIDRIO;17;Villaverde;166,84
+2022;noviembre;3;VIDRIO;18;Villa de Vallecas;212,96
+2022;noviembre;3;ANIMALES MUERTOS;99;Sin Distrito;6,56
+2022;diciembre;1;PAPEL-CARTON;1;Centro;457,46
+2022;diciembre;1;PAPEL-CARTON;6;Tetuán;425,48
+2022;diciembre;1;PAPEL-CARTON;7;Chamberí;320,74
+2022;diciembre;1;PAPEL-CARTON;8;Fuencarral - El Pardo;747,62
+2022;diciembre;1;PAPEL-CARTON;9;Moncloa - Aravaca;357,54
+2022;diciembre;1;PAPEL-CARTON;10;Latina;382,46
+2022;diciembre;1;CARTON COMERCIAL;1;Centro;240,78
+2022;diciembre;1;CARTON COMERCIAL;6;Tetuán;78,96
+2022;diciembre;1;CARTON COMERCIAL;7;Chamberí;109,2
+2022;diciembre;1;CARTON COMERCIAL;8;Fuencarral - El Pardo;27,14
+2022;diciembre;1;CARTON COMERCIAL;10;Latina;30,96
+2022;diciembre;1;CAMA DE CABALLO;9;Moncloa - Aravaca;51,975
+2022;diciembre;1;CLINICOS;1;Centro;156,6
+2022;diciembre;1;CLINICOS;6;Tetuán;8,88
+2022;diciembre;1;CLINICOS;8;Fuencarral - El Pardo;306,74
+2022;diciembre;1;CLINICOS;9;Moncloa - Aravaca;245,6
+2022;diciembre;1;CLINICOS;10;Latina;38,34
+2022;diciembre;1;ENVASES;1;Centro;275,92
+2022;diciembre;1;ENVASES;6;Tetuán;392,1
+2022;diciembre;1;ENVASES;7;Chamberí;364,78
+2022;diciembre;1;ENVASES;8;Fuencarral - El Pardo;656,6
+2022;diciembre;1;ENVASES;9;Moncloa - Aravaca;388,66
+2022;diciembre;1;ENVASES;10;Latina;691,02
+2022;diciembre;1;ORGANICA;1;Centro;1161,18
+2022;diciembre;1;ORGANICA;6;Tetuán;921,04
+2022;diciembre;1;ORGANICA;7;Chamberí;850,94
+2022;diciembre;1;ORGANICA;8;Fuencarral - El Pardo;1620,58
+2022;diciembre;1;ORGANICA;9;Moncloa - Aravaca;1033,24
+2022;diciembre;1;ORGANICA;10;Latina;1388,28
+2022;diciembre;1;PUNTOS LIMPIOS;8;Fuencarral - El Pardo;106,84
+2022;diciembre;1;PUNTOS LIMPIOS;9;Moncloa - Aravaca;55,3
+2022;diciembre;1;PUNTOS LIMPIOS;10;Latina;91,28
+2022;diciembre;1;RCD;1;Centro;122,755
+2022;diciembre;1;RCD;6;Tetuán;64,875
+2022;diciembre;1;RCD;7;Chamberí;37,23
+2022;diciembre;1;RCD;8;Fuencarral - El Pardo;74,325
+2022;diciembre;1;RCD;9;Moncloa - Aravaca;72,445
+2022;diciembre;1;RCD;10;Latina;67,28
+2022;diciembre;1;RESTO;1;Centro;4735,88
+2022;diciembre;1;RESTO;6;Tetuán;2553,6
+2022;diciembre;1;RESTO;7;Chamberí;2262,82
+2022;diciembre;1;RESTO;8;Fuencarral - El Pardo;3416,3
+2022;diciembre;1;RESTO;9;Moncloa - Aravaca;2504,14
+2022;diciembre;1;RESTO;10;Latina;3404,06
+2022;diciembre;1;VIDRIO;1;Centro;705,52
+2022;diciembre;1;VIDRIO;6;Tetuán;464,12
+2022;diciembre;1;VIDRIO;7;Chamberí;274,3
+2022;diciembre;1;VIDRIO;8;Fuencarral - El Pardo;476,34
+2022;diciembre;1;VIDRIO;9;Moncloa - Aravaca;173,28
+2022;diciembre;1;VIDRIO;10;Latina;242,44
+2022;diciembre;1;VIDRIO COMERCIAL;1;Centro;79,78
+2022;diciembre;1;ROPA;1;Centro;9,764
+2022;diciembre;1;ROPA;6;Tetuán;1,194
+2022;diciembre;1;ROPA;7;Chamberí;9,609
+2022;diciembre;1;ROPA;8;Fuencarral - El Pardo;3,857
+2022;diciembre;1;ROPA;9;Moncloa - Aravaca;0,765
+2022;diciembre;1;ROPA;10;Latina;6,211
+2022;diciembre;2;PAPEL-CARTON;3;Retiro;269,8
+2022;diciembre;2;PAPEL-CARTON;4;Salamanca;460,14
+2022;diciembre;2;PAPEL-CARTON;5;Chamartín;304,6
+2022;diciembre;2;PAPEL-CARTON;14;Moratalaz;191,84
+2022;diciembre;2;PAPEL-CARTON;15;Ciudad Lineal;486,64
+2022;diciembre;2;PAPEL-CARTON;16;Hortaleza;360,54
+2022;diciembre;2;PAPEL-CARTON;19;Vicálvaro;119,98
+2022;diciembre;2;PAPEL-CARTON;20;San Blas - Canillejas;267,12
+2022;diciembre;2;PAPEL-CARTON;21;Barajas;105,26
+2022;diciembre;2;CARTON COMERCIAL;3;Retiro;57,8
+2022;diciembre;2;CARTON COMERCIAL;4;Salamanca;226,72
+2022;diciembre;2;CARTON COMERCIAL;5;Chamartín;141,32
+2022;diciembre;2;CARTON COMERCIAL;14;Moratalaz;31,76
+2022;diciembre;2;CARTON COMERCIAL;15;Ciudad Lineal;51,4
+2022;diciembre;2;CARTON COMERCIAL;16;Hortaleza;47,42
+2022;diciembre;2;CARTON COMERCIAL;19;Vicálvaro;23,08
+2022;diciembre;2;CARTON COMERCIAL;20;San Blas - Canillejas;55,04
+2022;diciembre;2;CARTON COMERCIAL;21;Barajas;30,32
+2022;diciembre;2;CLINICOS;3;Retiro;187,62
+2022;diciembre;2;CLINICOS;4;Salamanca;116,52
+2022;diciembre;2;CLINICOS;15;Ciudad Lineal;120,18
+2022;diciembre;2;ENVASES;3;Retiro;257,34
+2022;diciembre;2;ENVASES;4;Salamanca;360
+2022;diciembre;2;ENVASES;5;Chamartín;402,08
+2022;diciembre;2;ENVASES;14;Moratalaz;337,92
+2022;diciembre;2;ENVASES;15;Ciudad Lineal;601,96
+2022;diciembre;2;ENVASES;16;Hortaleza;626,3
+2022;diciembre;2;ENVASES;19;Vicálvaro;364,5
+2022;diciembre;2;ENVASES;20;San Blas - Canillejas;502,72
+2022;diciembre;2;ENVASES;21;Barajas;140,28
+2022;diciembre;2;ORGANICA;3;Retiro;771,38
+2022;diciembre;2;ORGANICA;4;Salamanca;1165,74
+2022;diciembre;2;ORGANICA;5;Chamartín;993,72
+2022;diciembre;2;ORGANICA;14;Moratalaz;576,92
+2022;diciembre;2;ORGANICA;15;Ciudad Lineal;1179,64
+2022;diciembre;2;ORGANICA;16;Hortaleza;949,52
+2022;diciembre;2;ORGANICA;19;Vicálvaro;260,34
+2022;diciembre;2;ORGANICA;20;San Blas - Canillejas;791,18
+2022;diciembre;2;ORGANICA;21;Barajas;525,98
+2022;diciembre;2;PUNTOS LIMPIOS;3;Retiro;0,94
+2022;diciembre;2;PUNTOS LIMPIOS;5;Chamartín;83,4
+2022;diciembre;2;PUNTOS LIMPIOS;14;Moratalaz;46,5
+2022;diciembre;2;PUNTOS LIMPIOS;15;Ciudad Lineal;67,44
+2022;diciembre;2;PUNTOS LIMPIOS;16;Hortaleza;59,22
+2022;diciembre;2;PUNTOS LIMPIOS;19;Vicálvaro;28,76
+2022;diciembre;2;PUNTOS LIMPIOS;20;San Blas - Canillejas;64,84
+2022;diciembre;2;PUNTOS LIMPIOS;21;Barajas;30,64
+2022;diciembre;2;RCD;3;Retiro;32,56
+2022;diciembre;2;RCD;4;Salamanca;75,14
+2022;diciembre;2;RCD;5;Chamartín;93,958
+2022;diciembre;2;RCD;14;Moratalaz;59,64
+2022;diciembre;2;RCD;15;Ciudad Lineal;96,9
+2022;diciembre;2;RCD;16;Hortaleza;70,72
+2022;diciembre;2;RCD;19;Vicálvaro;52,56
+2022;diciembre;2;RCD;20;San Blas - Canillejas;55,814
+2022;diciembre;2;RCD;21;Barajas;33,36
+2022;diciembre;2;RESTO;3;Retiro;1549,22
+2022;diciembre;2;RESTO;4;Salamanca;2352,84
+2022;diciembre;2;RESTO;5;Chamartín;2243,82
+2022;diciembre;2;RESTO;14;Moratalaz;1239,5
+2022;diciembre;2;RESTO;15;Ciudad Lineal;3105,72
+2022;diciembre;2;RESTO;16;Hortaleza;2752,24
+2022;diciembre;2;RESTO;19;Vicálvaro;1755,54
+2022;diciembre;2;RESTO;20;San Blas - Canillejas;2645,18
+2022;diciembre;2;RESTO;21;Barajas;813,58
+2022;diciembre;2;VIDRIO;3;Retiro;410,4
+2022;diciembre;2;VIDRIO;4;Salamanca;386,36
+2022;diciembre;2;VIDRIO;5;Chamartín;364,3
+2022;diciembre;2;VIDRIO;14;Moratalaz;289,54
+2022;diciembre;2;VIDRIO;15;Ciudad Lineal;203,06
+2022;diciembre;2;VIDRIO;16;Hortaleza;180,28
+2022;diciembre;2;VIDRIO;19;Vicálvaro;148,82
+2022;diciembre;2;VIDRIO;20;San Blas - Canillejas;157,74
+2022;diciembre;2;VIDRIO;21;Barajas;143,8
+2022;diciembre;2;VIDRIO COMERCIAL;4;Salamanca;73,74
+2022;diciembre;2;ROPA;3;Retiro;1,75
+2022;diciembre;2;ROPA;4;Salamanca;5,69
+2022;diciembre;2;ROPA;5;Chamartín;8,81
+2022;diciembre;2;ROPA;14;Moratalaz;3,87
+2022;diciembre;2;ROPA;15;Ciudad Lineal;6,52
+2022;diciembre;2;ROPA;16;Hortaleza;8,93
+2022;diciembre;2;ROPA;19;Vicálvaro;2,84
+2022;diciembre;2;ROPA;20;San Blas - Canillejas;5,87
+2022;diciembre;2;ROPA;21;Barajas;5,3
+2022;diciembre;3;PAPEL-CARTON;2;Arganzuela;402,24
+2022;diciembre;3;PAPEL-CARTON;11;Carabanchel;344,16
+2022;diciembre;3;PAPEL-CARTON;12;Usera;186,52
+2022;diciembre;3;PAPEL-CARTON;13;Puente de Vallecas;247,02
+2022;diciembre;3;PAPEL-CARTON;17;Villaverde;195,92
+2022;diciembre;3;PAPEL-CARTON;18;Villa de Vallecas;187
+2022;diciembre;3;CARTON COMERCIAL;2;Arganzuela;24,96
+2022;diciembre;3;CARTON COMERCIAL;11;Carabanchel;30,98
+2022;diciembre;3;CARTON COMERCIAL;12;Usera;17,36
+2022;diciembre;3;CARTON COMERCIAL;13;Puente de Vallecas;22,1
+2022;diciembre;3;CARTON COMERCIAL;17;Villaverde;18,2
+2022;diciembre;3;CARTON COMERCIAL;18;Villa de Vallecas;13,48
+2022;diciembre;3;CLINICOS;12;Usera;169,76
+2022;diciembre;3;CLINICOS;13;Puente de Vallecas;36,04
+2022;diciembre;3;ENVASES;2;Arganzuela;361,72
+2022;diciembre;3;ENVASES;11;Carabanchel;933,18
+2022;diciembre;3;ENVASES;12;Usera;493,64
+2022;diciembre;3;ENVASES;13;Puente de Vallecas;842,28
+2022;diciembre;3;ENVASES;17;Villaverde;575,72
+2022;diciembre;3;ENVASES;18;Villa de Vallecas;365,62
+2022;diciembre;3;ORGANICA;2;Arganzuela;660,44
+2022;diciembre;3;ORGANICA;11;Carabanchel;1283,96
+2022;diciembre;3;ORGANICA;12;Usera;626,72
+2022;diciembre;3;ORGANICA;13;Puente de Vallecas;1034,745
+2022;diciembre;3;ORGANICA;17;Villaverde;834,46
+2022;diciembre;3;ORGANICA;18;Villa de Vallecas;1521,7
+2022;diciembre;3;PUNTOS LIMPIOS;2;Arganzuela;70,8
+2022;diciembre;3;PUNTOS LIMPIOS;11;Carabanchel;39,6
+2022;diciembre;3;PUNTOS LIMPIOS;12;Usera;28,4
+2022;diciembre;3;PUNTOS LIMPIOS;13;Puente de Vallecas;34,32
+2022;diciembre;3;PUNTOS LIMPIOS;17;Villaverde;34,12
+2022;diciembre;3;PUNTOS LIMPIOS;18;Villa de Vallecas;65,2
+2022;diciembre;3;RCD;2;Arganzuela;46,5
+2022;diciembre;3;RCD;11;Carabanchel;36,41
+2022;diciembre;3;RCD;12;Usera;59,97
+2022;diciembre;3;RCD;13;Puente de Vallecas;29,34
+2022;diciembre;3;RCD;17;Villaverde;50,14
+2022;diciembre;3;RCD;18;Villa de Vallecas;41,67
+2022;diciembre;3;RESTO;2;Arganzuela;1898,86
+2022;diciembre;3;RESTO;11;Carabanchel;4480,28
+2022;diciembre;3;RESTO;12;Usera;1940,18
+2022;diciembre;3;RESTO;13;Puente de Vallecas;3998,5
+2022;diciembre;3;RESTO;17;Villaverde;2649,24
+2022;diciembre;3;RESTO;18;Villa de Vallecas;2656,76
+2022;diciembre;3;VIDRIO;2;Arganzuela;269,94
+2022;diciembre;3;VIDRIO;11;Carabanchel;150,52
+2022;diciembre;3;VIDRIO;12;Usera;229,16
+2022;diciembre;3;VIDRIO;13;Puente de Vallecas;175
+2022;diciembre;3;VIDRIO;17;Villaverde;253,78
+2022;diciembre;3;VIDRIO;18;Villa de Vallecas;177,14
+2022;diciembre;3;ANIMALES MUERTOS;99;Sin Distrito;9,8
+2022;diciembre;3;ROPA;2;Arganzuela;2,7
+2022;diciembre;3;ROPA;11;Carabanchel;1,335
+2022;diciembre;3;ROPA;12;Usera;3,895
+2022;diciembre;3;ROPA;13;Puente de Vallecas;2,965
+2022;diciembre;3;ROPA;17;Villaverde;2,015
+2022;diciembre;3;ROPA;18;Villa de Vallecas;1,41
