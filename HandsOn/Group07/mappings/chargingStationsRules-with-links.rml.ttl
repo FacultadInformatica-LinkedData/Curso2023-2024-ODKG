@@ -18,7 +18,7 @@
     void:exampleResource :map_chargingstationmap_000.
 :map_chargingstationmap_000 rml:logicalSource :source_000.
 :source_000 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated.csv";
+    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_chargingstationmap_000 a rr:TriplesMap;
     rdfs:label "chargingstationmap".
@@ -126,7 +126,7 @@
 :rules_000 void:exampleResource :map_addressmap_000.
 :map_addressmap_000 rml:logicalSource :source_001.
 :source_001 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated.csv";
+    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_addressmap_000 a rr:TriplesMap;
     rdfs:label "addressmap".
@@ -174,7 +174,7 @@
 :rules_000 void:exampleResource :map_citymap_000.
 :map_citymap_000 rml:logicalSource :source_002.
 :source_002 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated.csv";
+    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
     rml:referenceFormulation ql:CSV.
 :map_citymap_000 a rr:TriplesMap;
     rdfs:label "citymap".
@@ -220,3 +220,21 @@
     rml:reference "TownIndex";
     rr:termType rr:Literal;
     rr:datatype xsd:integer.
+:pom_018 a rr:PredicateObjectMap.
+:map_citymap_000 rr:predicateObjectMap :pom_018.
+:pm_018 a rr:PredicateMap.
+:pom_018 rr:predicateMap :pm_018.
+:pm_018 rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+:pom_018 rr:objectMap :om_018.
+:om_018 a rr:ObjectMap;
+    rml:reference "same_as_wikidata_town_in_the_united_states";
+    rr:termType rr:IRI.
+:pom_019 a rr:PredicateObjectMap.
+:map_citymap_000 rr:predicateObjectMap :pom_019.
+:pm_019 a rr:PredicateMap.
+:pom_019 rr:predicateMap :pm_019.
+:pm_019 rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
+:pom_019 rr:objectMap :om_019.
+:om_019 a rr:ObjectMap;
+    rml:reference "same_as_wikidata_city_in_the_united_states";
+    rr:termType rr:IRI.
