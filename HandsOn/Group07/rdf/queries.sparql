@@ -3,24 +3,27 @@
 
 # Nearby Charging Stations
 SELECT ?station ?latitude ?longitude WHERE {
-    ?station ont:latitude ?latitude .
-    ?station ont:longitude ?longitude .
+    ?station ont:hasStreetAddress ?address .
+    ?address geo:latitude ?latitude .
+    ?address geo:longitude ?longitude .
 }
 
 
 # Map View of Stations
 SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHERE {
-    ?station ont:latitude ?latitude .
-    ?station ont:longitude ?longitude .
+    ?station ont:hasStreetAddress ?address .
+    ?address geo:latitude ?latitude .
+    ?address geo:longitude ?longitude .
     ?station ont:evLevel1EVSENum ?level1Count .
     ?station ont:evLevel2EVSENum ?level2Count .
     ?station ont:evDCFastCount ?dcFastCount .
 }
 
 
+
 # Search by City Name
 SELECT ?station WHERE {
-    ?station ont:isLocatedInCity ?city .
+    ?station ont:hasCity ?city .
     ?city rdfs:label "SPECIFIC_CITY_NAME" .
 }
 
@@ -30,7 +33,7 @@ SELECT ?station WHERE {
 # In the example below, we are retrieving stations with Level 1 chargers
 SELECT ?station WHERE {
     ?station ont:evLevel1EVSENum ?level1Count . 
-    FILTER(?level1Count > 0) # Adjust for other levels
+    FILTER(?level1Count > 0) 
 }
 
 
@@ -51,27 +54,26 @@ SELECT * WHERE {
 # Route Planning 
 # Retrieve stations within a specific radius of a given location
 SELECT ?station WHERE {
-    ?station ont:latitude ?latitude . 
+    ?station ont:hasStreetAddress ?address .
+    ?address geo:latitude ?latitude . 
     FILTER(?latitude >= MIN_LATITUDE && ?latitude <= MAX_LATITUDE) .
-    ?station ont:longitude ?longitude . 
+    ?address geo:longitude ?longitude . 
     FILTER(?longitude >= MIN_LONGITUDE && ?longitude <= MAX_LONGITUDE) .
 }
 
 
 # Stations by County Name
 SELECT ?station WHERE {
-    ?station ont:isLocatedInCounty ?county .
-    ?county rdfs:label "SPECIFIC_COUNTY_NAME" .
+    ?station ont:counties ?county .
+    FILTER(?county = "SPECIFIC_COUNTY_NAME") .
 }
+
 
 
 # Top 5 Cities with Most Stations 
 SELECT ?city (COUNT(?station) AS ?stationCount) WHERE {
-    ?station ont:isLocatedInCity ?city .
+    ?station ont:hasCity ?city .
 } 
 GROUP BY ?city 
 ORDER BY DESC(?stationCount) 
 LIMIT 5
-
-
-
