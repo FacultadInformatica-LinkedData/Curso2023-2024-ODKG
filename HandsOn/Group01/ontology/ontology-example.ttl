@@ -1,34 +1,33 @@
 @prefix base: <http://madridwastemanagement.org/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix nscl: <http://madridwastemanagement.org/group01/ontology/classes/> .
-@prefix nspor: <http://www.owl-ontologies.com/nspor#> .
-@prefix nspr: <http://madridwastemanagement.org/group01/ontology/properties/> .
+@prefix nso: <http://madridwastemanagement.org/group01/ontology> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-
-
 #WasteType
-<http://madridwastemanagement.org/group01/resource/wastetype/paper_centro> a nscl: WasteType;
- rdfs:label "Paper".
- nspr:hasTotal <http://madridwastemanagement.org/group01/resource/total/centro_paper_jan21>
+<http://madridwastemanagement.org/group01/data/WasteType/Paper> a nso: WasteType;
+ rdfs:label "WasteType"^^xsd:string;
+ nso:wasteName "Paper"^^xsd:string;
+ nso:hasTotal <http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January>.
 
 #District
-<http://madridwastemanagement.org/group01/resource/district/centro> a nscl: District;
-rdfs:label "Centro";
-nspr:id "1"^^xsd:integer;
-nspr: hasResidue <http://madridwastemanagement.org/group01/resource/wastetype/paper>; 
+<http://madridwastemanagement.org/group01/data/District/1> a nso: District;
+ rdfs:label "District"^^xsd:string;
+ nso:districtName "Centro"^^xsd:string;
+ nso:districtID "1"^^xsd:integer;
+ nso: hasResidue <http://madridwastemanagement.org/group01/data/WasteType/Paper>.
 
 #Total
-<http://madridwastemanagement.org/group01/resource/total/centro_paper_jan21> a nscl: Total;
- nspr:value "320,59"^^xsd:float;
- nspr:year "2021"^^xsd:integer;
- nspr:month "january";
- nspr:referedTo <http://madridwastemanagement.org/group01/resource/district/centro>
+<http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January> a nso: Total;
+ rdfs:label "Total"^^xsd:string;
+ nso:value "320,59"^^xsd:float;
+ nso:year "2021"^^xsd:integer;
+ nso:month "January"^^xsd:string;
+ nso:referedTo <http://madridwastemanagement.org/group01/data/District/1>.
 
 #Zone
-<http://madridwastemanagement.org/group01/resource/zone/1> a nscl: Zone;
-rdfs:label "1";
-nspr: hasDistrict <http://madridwastemanagement.org/group01/resource/district/centro>. 
+<http://madridwastemanagement.org/group01/data/Zone/1> a nso: Zone;
+rdfs:label "Zone"^^xsd:string;
+nso:zoneId "1"^^xsd:integer;
+nso: hasDistrict <http://madridwastemanagement.org/group01/data/District/1>.

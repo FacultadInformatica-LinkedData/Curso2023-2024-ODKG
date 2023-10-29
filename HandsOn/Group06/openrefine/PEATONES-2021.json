@@ -1,47 +1,31 @@
 [
   {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "﻿FECHA",
-    "expression": "value.toDate()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column ﻿FECHA using expression value.toDate()"
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_VIAL",
+    "newColumnName": "id_calle",
+    "description": "Rename column NOMBRE_VIAL to id_calle"
   },
   {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "NÚMERO_DISTRITO",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column NÚMERO_DISTRITO using expression value.toNumber()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "PEATONES",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column PEATONES using expression value.toNumber()"
+    "op": "core/column-rename",
+    "oldColumnName": "IDENTIFICADOR",
+    "newColumnName": "id_peaton",
+    "description": "Rename column IDENTIFICADOR to id_peaton"
   },
   {
     "op": "core/column-removal",
-    "columnName": "IDENTIFICADOR",
-    "description": "Remove column IDENTIFICADOR"
+    "columnName": "NÚMERO_DISTRITO",
+    "description": "Remove column NÚMERO_DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_peaton",
+    "newColumnName": "id_aforo_peaton",
+    "description": "Rename column id_peaton to id_aforo_peaton"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NÚMERO",
+    "description": "Remove column NÚMERO"
   },
   {
     "op": "core/column-removal",
@@ -49,137 +33,192 @@
     "description": "Remove column HORA"
   },
   {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "﻿FECHA",
-    "expression": "grel:value+'-'+cells['NOMBRE_VIAL'].value",
-    "onError": "set-to-blank",
-    "newColumnName": "IDENTIFICADOR",
-    "columnInsertIndex": 1,
-    "description": "Create column IDENTIFICADOR at index 1 based on column ﻿FECHA using expression grel:value+'-'+cells['NOMBRE_VIAL'].value"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "CÓDIGO_POSTAL",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column CÓDIGO_POSTAL using expression value.toNumber()"
-  },
-  {
     "op": "core/column-rename",
     "oldColumnName": "﻿FECHA",
-    "newColumnName": "FECHAHORA",
-    "description": "Rename column ﻿FECHA to FECHAHORA"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LATITUD",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LATITUD",
-    "expression": "grel:value.replace(',','.')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column LATITUD using expression grel:value.replace(',','.')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LATITUD",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column LATITUD using expression value.toNumber()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LONGITUD",
-    "expression": "grel:value.replace(',','.')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column LONGITUD using expression grel:value.replace(',','.')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "LONGITUD",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "NÚMERO",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column NÚMERO using expression value.toNumber()"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "IDENTIFICADOR",
-    "expression": "grel:value+'-'+cells['OBSERVACIONES_DIRECCION'].value",
-    "onError": "set-to-blank",
-    "newColumnName": "ID",
-    "columnInsertIndex": 2,
-    "description": "Create column ID at index 2 based on column IDENTIFICADOR using expression grel:value+'-'+cells['OBSERVACIONES_DIRECCION'].value"
-  },
-  {
-    "op": "core/column-removal",
-    "columnName": "IDENTIFICADOR",
-    "description": "Remove column IDENTIFICADOR"
+    "newColumnName": "fechaHora",
+    "description": "Rename column ﻿FECHA to fechaHora"
   },
   {
     "op": "core/column-rename",
-    "oldColumnName": "ID",
-    "newColumnName": "IDENTIFICADORES",
-    "description": "Rename column ID to IDENTIFICADORES"
+    "oldColumnName": "id_aforo_peaton",
+    "newColumnName": "id_aforoPeaton",
+    "description": "Rename column id_aforo_peaton to id_aforoPeaton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "PEATONES",
+    "newColumnName": "numPeatones",
+    "description": "Rename column PEATONES to numPeatones"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "distrito",
+    "description": "Rename column DISTRITO to distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CÓDIGO_POSTAL",
+    "newColumnName": "codigoPostal",
+    "description": "Rename column CÓDIGO_POSTAL to codigoPostal"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "OBSERVACIONES_DIRECCION",
+    "newColumnName": "observacionesDireccion",
+    "description": "Rename column OBSERVACIONES_DIRECCION to observacionesDireccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LATITUD",
+    "newColumnName": "latitud",
+    "description": "Rename column LATITUD to latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LONGITUD",
+    "newColumnName": "longitud",
+    "description": "Rename column LONGITUD to longitud"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "id_aforoPeaton",
+    "index": 0,
+    "description": "Move column id_aforoPeaton to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "numPeatones",
+    "index": 1,
+    "description": "Move column numPeatones to position 1"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "id_calle",
+    "index": 0,
+    "description": "Move column id_calle to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "id_aforoPeaton",
+    "index": 0,
+    "description": "Move column id_aforoPeaton to position 0"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_aforoPeaton",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_aforoPeaton using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_calle using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "numPeatones",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numPeatones using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "fechaHora",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column fechaHora using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "codigoPostal",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column codigoPostal using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latitud",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitud using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "longitud",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitud using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "longitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitud using expression value.toNumber()"
   }
 ]

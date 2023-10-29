@@ -1,0 +1,435 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+*** The words between "" must be replaced according to the search criteria  ***
+
+1) List all entities (nodes of the RDF graph) by name in alphabetical order.
+
+SELECT ?name
+  WHERE {
+    ?entity rdf:type vocab:HealthCenter.
+    ?entity vocab:name ?name .
+  }
+ORDER BY ?name
+
+Answer:
+CMSc Centro Municipal de Salud Comunitaria  Chamberí
+CMSc Centro Municipal de Salud Comunitaria Arganzuela
+CMSc Centro Municipal de Salud Comunitaria Carabanchel
+CMSc Centro Municipal de Salud Comunitaria Centro
+CMSc Centro Municipal de Salud Comunitaria Ciudad Lineal
+CMSc Centro Municipal de Salud Comunitaria Fuencarral
+CMSc Centro Municipal de Salud Comunitaria Hortaleza
+CMSc Centro Municipal de Salud Comunitaria Latina
+CMSc Centro Municipal de Salud Comunitaria Puente de Vallecas
+CMSc Centro Municipal de Salud Comunitaria Salamanca Retiro
+CMSc Centro Municipal de Salud Comunitaria Salud Tetuán
+CMSc Centro Municipal de Salud Comunitaria San Blas
+CMSc Centro Municipal de Salud Comunitaria Usera
+CMSc Centro Municipal de Salud Comunitaria Vicálvaro
+CMSc Centro Municipal de Salud Comunitaria Villa de Vallecas
+CMSc Centro Municipal de Salud Comunitaria Villaverde
+Centro Concertado de Atención a las Adicciones (CCAD) Casa de Campo (Cruz Roja)
+Centro Concertado de Atención a las Adicciones (CCAD) Cáritas Madrid
+Centro Joven de Madrid Salud
+Centro Madrid Salud Internacional. Centro de Vacunación Internacional
+Centro de Atención Integral a Drogodependientes CAID Este
+Centro de Atención Integral a Drogodependientes CAID Norte
+Centro de Atención Integral a Drogodependientes CAID Sur-Usera
+Centro de Atención Integral a Drogodependientes CAID Vallecas
+Centro de Atención a las Adicciones (CAD) de Arganzuela
+Centro de Atención a las Adicciones (CAD) de Hortaleza
+Centro de Atención a las Adicciones (CAD) de Latina
+Centro de Atención a las Adicciones (CAD) de San Blas
+Centro de Atención a las Adicciones (CAD) de Tetuán
+Centro de Atención a las Adicciones (CAD) de Vallecas
+Centro de Atención a las Adicciones (CAD) de Villaverde
+Centro de Atención integral sociosanitaria nocturno
+Centro de Atención integral sociosanitario diurno (Cruz Roja)
+Centro de Diagnóstico Médico
+Centro de Especialidades Periférico Argüelles
+Centro de Especialidades Periférico Avenida de Portugal
+Centro de Especialidades Periférico Carabanchel
+Centro de Especialidades Periférico Emigrantes
+Centro de Especialidades Periférico Federica Montseny
+Centro de Especialidades Periférico Hermanos García Noblejas
+Centro de Especialidades Periférico José Marvá
+Centro de Especialidades Periférico Modesto Lafuente
+Centro de Especialidades Periférico Moratalaz
+Centro de Especialidades Periférico Orcasitas
+Centro de Especialidades Periférico Pedro González Bueno (San Blas)
+Centro de Especialidades Periférico Pontones FJD
+Centro de Especialidades Periférico Vicente Soldevilla
+Centro de Especialidades Periférico Villaverde Cruce
+Centro de Patología Dual
+Centro de Prevención de Deterioro Cognitivo
+Centro de Prevención de Riesgos Laborales Fabiola de Mora y Aragón
+Centro de Rehabilitación Psicosocial San Enrique
+Centro de Salud Abrantes
+Centro de Salud Adelfas
+Centro de Salud Alameda
+Centro de Salud Alameda de Osuna
+Centro de Salud Alcalá de Guadaira
+Centro de Salud Almendrales
+Centro de Salud Andrés Mellado
+Centro de Salud Aquitania
+Centro de Salud Aravaca
+Centro de Salud Argüelles
+Centro de Salud Arroyo Medialegua
+Centro de Salud Artilleros
+Centro de Salud Avenida de Aragón
+Centro de Salud Barajas
+Centro de Salud Barrio del Pilar
+Centro de Salud Baviera
+Centro de Salud Benita Ávila
+Centro de Salud Bucodental
+Centro de Salud Buenos Aires
+Centro de Salud Bustarviejo
+Centro de Salud Campo de la Paloma
+Centro de Salud Canal de Panamá
+Centro de Salud Carabanchel Alto
+Centro de Salud Caramuel
+Centro de Salud Casa de Campo
+Centro de Salud Castelló
+Centro de Salud Cea Bermúdez
+Centro de Salud Cebreros
+Centro de Salud Cerro Almodóvar
+Centro de Salud Ciudad Jardín
+Centro de Salud Ciudad de los Periodistas
+Centro de Salud Comillas
+Centro de Salud Cáceres
+Centro de Salud Daroca
+Centro de Salud Delicias
+Centro de Salud Doctor Castroviejo
+Centro de Salud Doctor Cirajas
+Centro de Salud El Pardo
+Centro de Salud Eloy Gonzalo
+Centro de Salud Embajadores
+Centro de Salud Ensanche de Vallecas
+Centro de Salud Entrevías
+Centro de Salud Espronceda
+Centro de Salud Estrecho de Corea
+Centro de Salud Federica Montseny
+Centro de Salud Fuencarral
+Centro de Salud Fuentelarreina
+Centro de Salud Gandhi
+Centro de Salud García Noblejas
+Centro de Salud General Fanjul
+Centro de Salud General Ricardos
+Centro de Salud Goya
+Centro de Salud Guayaba
+Centro de Salud Guzmán el Bueno
+Centro de Salud Ibiza
+Centro de Salud Infanta Mercedes
+Centro de Salud Isla de Oza
+Centro de Salud Jazmín
+Centro de Salud Joaquín Rodrigo
+Centro de Salud José Marvá
+Centro de Salud José María Llanos
+Centro de Salud Justicia
+Centro de Salud La Ventilla
+Centro de Salud Lagasca
+Centro de Salud Las Calesas
+Centro de Salud Las Cortes
+Centro de Salud Las Águilas
+Centro de Salud Lavapiés
+Centro de Salud Legazpi
+Centro de Salud Linneo
+Centro de Salud Londres
+Centro de Salud Los Alpes
+Centro de Salud Los Cármenes
+Centro de Salud Los Rosales
+Centro de Salud Los Yébenes
+Centro de Salud Los Ángeles
+Centro de Salud Lucero
+Centro de Salud Maqueda
+Centro de Salud Mar Báltico
+Centro de Salud Martín de Vargas
+Centro de Salud Martínez de la Riva
+Centro de Salud María Auxiliadora
+Centro de Salud Mental Aguacate - Carabanchel
+Centro de Salud Mental Ciudad Lineal
+Centro de Salud Mental Fuencarral
+Centro de Salud Mental Hortaleza
+Centro de Salud Mental Infanto Juvenil Carabanchel - Usera
+Centro de Salud Mental Latina - Las Águilas
+Centro de Salud Mental Retiro
+Centro de Salud Mental San Blas
+Centro de Salud Mental Tetuán
+Centro de Salud Mental Usera
+Centro de Salud Mental Vicálvaro
+Centro de Salud Mental Villa de Vallecas
+Centro de Salud Mental de Arganzuela
+Centro de Salud Mental de Barajas
+Centro de Salud Mental de Centro
+Centro de Salud Mental de Chamartín
+Centro de Salud Mental de Chamberí
+Centro de Salud Mental de Latina - Galiana
+Centro de Salud Mental de Moncloa
+Centro de Salud Mental de Moratalaz
+Centro de Salud Mental de Salamanca
+Centro de Salud Mental de Villaverde
+Centro de Salud Mirasierra
+Centro de Salud Montesa
+Centro de Salud Monóvar
+Centro de Salud Nuestra Señora de Fátima
+Centro de Salud Numancia
+Centro de Salud Orcasitas
+Centro de Salud Orcasur
+Centro de Salud Pacífico
+Centro de Salud Palma Norte
+Centro de Salud Pascual Rodríguez
+Centro de Salud Paseo Imperial
+Centro de Salud Pavones
+Centro de Salud Peña Prieta
+Centro de Salud Potes
+Centro de Salud Potosí
+Centro de Salud Prosperidad
+Centro de Salud Príncipe de Vergara
+Centro de Salud Puerta Bonita
+Centro de Salud Puerta del Ángel
+Centro de Salud Párroco Julio Morate
+Centro de Salud Quince de Mayo
+Centro de Salud Rafael Alberti
+Centro de Salud Reina Victoria
+Centro de Salud Rejas
+Centro de Salud San Andrés
+Centro de Salud San Cristóbal
+Centro de Salud San Fermín
+Centro de Salud Sanchinarro
+Centro de Salud Santa Hortensia
+Centro de Salud Segovia
+Centro de Salud Segre
+Centro de Salud Silvano
+Centro de Salud Torito
+Centro de Salud Valdebernardo
+Centro de Salud Valdezarza-Sur
+Centro de Salud Valle Inclan
+Centro de Salud Ventura Rodríguez
+Centro de Salud Vicente Muzas
+Centro de Salud Vicente Soldevilla
+Centro de Salud Villaamil (Doctor Castroviejo)
+Centro de Salud Villablanca
+Centro de Salud Virgen de Begoña
+Centro de Salud Virgen del Cortijo
+Centro de Salud el Espinillo
+Centro de Salud Ángela Uriarte
+Centro de Transfusión de la Comunidad de Madrid
+Centro de Vacunación Internacional. Delegación del Gobierno en Madrid
+Centro de Vacunación de la Comunidad de Madrid
+Centro de donación de sangre de Cruz Roja
+Centro de donación de sangre de Cruz Roja Fin de Semana
+Centro para la prevención y atención de las adicciones en adolescentes y jóvenes Los Mesejo
+Clínica CEMTRO
+Clínica Doctor León
+Clínica Isadora
+Clínica López Ibor
+Clínica Nuestra Señora de la Paz
+Clínica San Miguel
+Clínica San Vicente
+Clínica Universidad de Navarra en Madrid
+Complejo Hospitalario Ruber Juan Bravo
+Fundación Vianorte-Laguna
+Hospital Beata María Ana de Hermanas Hospitalarias
+Hospital Cantoblanco
+Hospital Carlos III
+Hospital Central de la Cruz Roja San José y Santa Adela
+Hospital Central de la Defensa Gómez Ulla
+Hospital Clínico San Carlos
+Hospital Doctor Rodríguez Lafora
+Hospital General Universitario Gregorio Marañón
+Hospital HLA Universitario Moncloa
+Hospital HM Nuevo Belén
+Hospital Hestia Madrid
+Hospital Infantil Universitario Niño Jesús
+Hospital La Luz
+Hospital La Milagrosa
+Hospital Quirónsalud San José
+Hospital Ruber Internacional
+Hospital San Rafael
+Hospital Universitario 12 de Octubre
+Hospital Universitario Fundación Jiménez Díaz
+Hospital Universitario HM Madrid
+Hospital Universitario Infanta Leonor
+Hospital Universitario La Zarzuela
+Hospital Universitario Nuestra Señora del Rosario
+Hospital Universitario Ramón y Cajal
+Hospital Universitario San Francisco de Asís
+Hospital Universitario Sanitas La Moraleja
+Hospital Universitario Santa Cristina
+Hospital Universitario de  La Princesa
+Hospital Universitario la Paz
+Hospital Viamed Fuensanta
+Hospital Viamed Santa Elena
+Hospital Virgen de La Paloma
+Hospital Virgen de La Torre
+Hospital Virgen del Mar
+Hospital Vithas Madrid Aravaca
+Hospital de Emergencias Enfermera Isabel Zendal
+Hospital de la VOT de San Francisco de Asís
+Instituto Provincial de Oftalmología
+Instituto Provincial de Rehabilitación
+Laboratorio de Análisis Clínicos
+MD Anderson Cancer Center Madrid
+Organización Nacional de Trasplantes
+Sanatorio Esquerdo
+Servicio de Inmunoprofilaxis de la Rabia Humana
+Unidad de Salud Mental de niños y adolescentes Fuencarral
+Unidad móvil Madroño
+Vithas Madrid Arturo Soria
+
+2)List all entities fot a specific neighbourhood (PROSPERIDAD)
+
+SELECT ?entity ?name
+  WHERE {
+    ?entity rdf:type vocab:HealthCenter.
+    ?entity vocab:name ?name.
+    ?entity vocab:Location ?Location.
+    ?Location vocab:Address ?Address.
+    ?Address vocab:neighbourhood "PROSPERIDAD".
+  }
+
+Answer:
+Centro Concertado de Atención a las Adicciones (CCAD) Cáritas Madrid
+Centro de Salud Santa Hortensia
+Centro de Salud Prosperidad
+Hospital Quirónsalud San José
+
+3)Retrieve the name of the health centers of a certain type 
+
+SELECT ?name
+WHERE {
+    ?entity rdf:type vocab:HealthCenter.
+    ?entity vocab:name ?name .
+    ?entity vocab:hasType "/contenido/entidadesYorganismos/CentrosAtencionMedica/CentrosSalud".   
+}
+
+Answer:
+Centro de Salud Argüelles
+Centro de Especialidades Periférico Vicente Soldevilla
+Centro de Salud Gandhi
+Centro de Salud Paseo Imperial
+Centro de Salud Orcasur
+Centro de Salud Montesa
+Centro de Salud Valdebernardo
+Centro de Salud Los Alpes
+Centro de Salud Joaquín Rodrigo
+Centro de Salud Adelfas
+Centro de Salud Puerta del Ángel
+Centro de Salud Mirasierra
+Centro de Salud Orcasitas
+Centro de Salud Justicia
+Centro de Salud Lavapiés
+Centro de Salud Almendrales
+Centro de Salud Los Ángeles
+Centro de Salud Jazmín
+Centro de Salud Doctor Castroviejo
+Centro de Salud Ángela Uriarte
+Centro de Salud San Andrés
+Centro de Salud Eloy Gonzalo
+Centro de Salud Arroyo Medialegua
+Centro de Salud Puerta Bonita
+Centro de Salud La Ventilla
+Centro de Salud General Fanjul
+Centro de Salud García Noblejas
+Centro de Salud Sanchinarro
+Centro de Salud Silvano
+Centro de Salud Lucero
+Centro de Salud Valle Inclan
+Centro de Salud Los Rosales
+Centro de Salud Los Cármenes
+Centro de Salud Canal de Panamá
+Centro de Salud General Ricardos
+Centro de Salud Ensanche de Vallecas
+Centro de Salud Estrecho de Corea
+Centro de Salud Potosí
+Centro de Salud Londres
+Centro de Salud Villablanca
+Centro de Salud Carabanchel Alto
+Centro de Salud Campo de la Paloma
+Centro de Salud Entrevías
+Centro de Salud Federica Montseny
+Centro de Salud Martínez de la Riva
+Centro de Salud Buenos Aires
+Centro de Salud Pavones
+Centro de Salud Numancia
+Centro de Salud Rafael Alberti
+Centro de Salud Vicente Soldevilla
+Centro de Salud Ciudad Jardín
+Centro de Salud Santa Hortensia
+Centro de Salud Barajas
+Centro de Salud Rejas
+Centro de Salud Monóvar
+Centro de Salud Aquitania
+Centro de Salud Barrio del Pilar
+Centro de Salud Bustarviejo
+Centro de Salud Ciudad de los Periodistas
+Centro de Salud María Auxiliadora
+Centro de Salud Ventura Rodríguez
+Centro de Salud Caramuel
+Centro de Salud Cebreros
+Centro de Salud Guzmán el Bueno
+Centro de Salud Las Cortes
+Centro de Salud Las Águilas
+Centro de Salud Pascual Rodríguez
+Centro de Salud Cáceres
+Centro de Salud Las Calesas
+Centro de Salud Embajadores
+Centro de Salud Legazpi
+Centro de Salud Martín de Vargas
+Centro de Salud Potes
+Centro de Salud Abrantes
+Centro de Salud Alcalá de Guadaira
+Centro de Salud Goya
+Centro de Salud Lagasca
+Centro de Salud Reina Victoria
+Centro de Salud Infanta Mercedes
+Centro de Salud Villaamil (Doctor Castroviejo)
+Centro de Salud Isla de Oza
+Centro de Salud Maqueda
+Centro de Salud Segovia
+Centro de Salud Párroco Julio Morate
+Centro de Salud Ibiza
+Centro de Salud Pacífico
+Centro de Salud Aravaca
+Centro de Salud San Cristóbal
+Centro de Salud Espronceda
+Centro de Salud Benita Ávila
+Centro de Salud Artilleros
+Centro de Salud Prosperidad
+Centro de Salud Virgen de Begoña
+Centro de Salud El Pardo
+Centro de Salud Fuentelarreina
+Centro de Salud el Espinillo
+Centro de Salud Fuencarral
+Centro de Salud Torito
+Centro de Salud Mar Báltico
+Centro de Salud Doctor Cirajas
+Centro de Salud José María Llanos
+Centro de Salud Valdezarza-Sur
+Centro de Salud Guayaba
+Centro de Salud Nuestra Señora de Fátima
+Centro de Salud Cerro Almodóvar
+Centro de Salud Baviera
+Centro de Salud Castelló
+Centro de Salud Príncipe de Vergara
+Centro de Salud Segre
+Centro de Salud Avenida de Aragón
+Centro de Salud Daroca
+Centro de Salud Vicente Muzas
+Centro de Salud Casa de Campo
+Centro de Salud Alameda
+Centro de Salud Andrés Mellado
+Centro de Salud Cea Bermúdez
+Centro de Salud Los Yébenes
+Centro de Salud Palma Norte
+Centro de Salud Delicias
+Centro de Salud Comillas
+Centro de Salud Linneo
+Centro de Salud Quince de Mayo
+Centro de Salud San Fermín
+Centro de Salud Alameda de Osuna
+Centro de Salud Virgen del Cortijo
+Centro de Salud José Marvá
+
