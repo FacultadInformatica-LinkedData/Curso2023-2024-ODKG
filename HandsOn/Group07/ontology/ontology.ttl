@@ -54,12 +54,12 @@ ont:evDCFastCount a owl:DatatypeProperty ;
 
 geo:longitude a owl:DatatypeProperty ;
     rdfs:label "Longitude" ;
-    rdfs:domain ont:Address ;
+    rdfs:domain ont:ChargingStation ;
     rdfs:range xsd:float .
 
 geo:latitude a owl:DatatypeProperty ;
     rdfs:label "Latitude" ;
-    rdfs:domain ont:Address ;
+    rdfs:domain ont:ChargingStation ;
     rdfs:range xsd:float .
 
 ont:counties a owl:DatatypeProperty ;

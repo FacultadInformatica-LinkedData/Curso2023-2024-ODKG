@@ -22,8 +22,10 @@ mappings:
       - [ont:additionalInfo, $(AdditionalInfo), xsd:string]
       - [ont:evLevel1EVSENum, $(EVLevel1EVSENum), xsd:integer]
       - [ont:evLevel2EVSENum, $(EVLevel2EVSENum), xsd:integer]
+      - [geo:latitude ,$(Latitude) ,xsd:float]
+      - [geo:longitude ,$(Longitude) ,xsd:float]
       - [ont:evDCFastCount, $(EVDCFastCount), xsd:integer]
-      - [ont:hasStreetAddress, <https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)>]
+      - [ont:hasStreetAddress, https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)]
 
 
 
@@ -34,10 +36,8 @@ mappings:
     po:
       - [a, ont:StreetAddress]
       - [rdfs:label, $(StreetAddress), xsd:string]
-      - [geo:longitude ,$(Longitude) ,xsd:float]
       - [ont:zipCode, $(ZipCode), xsd:string]
-      - [geo:latitude ,$(Latitude) ,xsd:float]
-      - [ont:hasCity, <https://www.chargeup.io/group07/resource/City/$(City)>]
+      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)]
 
 
 
