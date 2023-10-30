@@ -24,7 +24,7 @@ SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHER
 # Search by City Name
 SELECT ?station WHERE {
     ?station ont:hasCity ?city .
-    ?city rdfs:label "SPECIFIC_CITY_NAME" .
+    ?city rdfs:label "Branford" .
 }
 
 
@@ -40,32 +40,21 @@ SELECT ?station WHERE {
 # Retrieve stations based on operating hours
 SELECT ?station WHERE {
     ?station ont:accessDaysTime ?time . 
-    FILTER(STR(?time) = "SPECIFIC_TIME_RANGE")
+    FILTER(STR(?time) = "24-Hours-Daily")
 }
 
 
 # Station Details 
 SELECT * WHERE {
-    ?station rdfs:label "SPECIFIC_STATION_NAME" .
+    ?station rdfs:label "Westlodge" .
     ?station ?property ?value .
-}
-
-
-# Route Planning 
-# Retrieve stations within a specific radius of a given location
-SELECT ?station WHERE {
-    ?station ont:hasStreetAddress ?address .
-    ?address geo:latitude ?latitude . 
-    FILTER(?latitude >= MIN_LATITUDE && ?latitude <= MAX_LATITUDE) .
-    ?address geo:longitude ?longitude . 
-    FILTER(?longitude >= MIN_LONGITUDE && ?longitude <= MAX_LONGITUDE) .
 }
 
 
 # Stations by County Name
 SELECT ?station WHERE {
     ?station ont:counties ?county .
-    FILTER(?county = "SPECIFIC_COUNTY_NAME") .
+    FILTER(?county = "Hartford") .
 }
 
 
