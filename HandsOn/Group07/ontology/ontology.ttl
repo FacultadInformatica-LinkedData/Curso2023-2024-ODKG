@@ -84,7 +84,7 @@ ont:townIndex a owl:DatatypeProperty ;
 ont:hasStreetAddress a owl:ObjectProperty ;
     rdfs:label "has street address" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range ont:Address .
+    rdfs:range ont:StreetAddress .
 
 ont:hasCity a owl:ObjectProperty ;
     rdfs:label "has city" ;
