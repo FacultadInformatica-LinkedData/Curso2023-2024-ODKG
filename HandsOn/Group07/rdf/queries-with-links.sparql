@@ -8,17 +8,17 @@ WHERE {
     ?city owl:sameAs ?wikiLinkCity .
 }
 
-# Retrieve all charging stations located in a specific city (Beacon Falls) using its Wikidata link
+# Retrieve all charging stations located in a specific city (Newtown) using its Wikidata link
 SELECT ?station
 WHERE {
     ?station ont:hasCity ?city .
-    ?city owl:sameAs <https://wikidata.org/entity/Q2572361> .
+    ?city owl:sameAs <https://wikidata.org/entity/Q958909> .
 }
 
-# Retrieve all charging stations located in another city (Old Saybrook) using its Wikidata link
+# Retrieve all charging stations located in another city (Wallingford) using its Wikidata link
 SELECT ?station
 WHERE {
     ?station ont:hasCity ?city .
-    ?city owl:sameAs <https://wikidata.org/entity/Q1020609> .
+    ?city owl:sameAs <https://wikidata.org/entity/Q1949294> .
 }
 
