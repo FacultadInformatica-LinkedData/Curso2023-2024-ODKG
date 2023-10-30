@@ -1,0 +1,56 @@
+{
+    "@context": {
+        "names": "http://www.namespace.es/names/",
+      
+        "person": "names:person",
+        "fullName": "names:fullName",
+        "homeTown": "names:homeTown",
+        "age": "names:age",
+        "parents": "names:parents",
+      
+        "almaMater": "names:almaMater",
+        "subjects": "names:subjects",
+        "subjectName": "names:subjects",
+        "teacher": "names:subjects",
+        "description": "names:description"
+    },
+  
+    "@id": "names:Andres",
+    "@type": "person",
+    "fullName": "Andres De Vicente",
+    "age": 24,
+    "hometown": "Madrid",
+    "parents": ["Inigo","Mila"],
+  
+  
+    "almaMater":"Universidad Politecnica de Madrid",
+    "subjects": [
+        
+        {
+            "@id": "names:BigData",
+            "@type": "subject",
+          
+            "subjectName": "Big Data",
+            "teacher": ["Antonio LaTorre","Julian Arenas","Jorge Acosta"],
+            "description": "This course will allow the student to gain the fundamentals for the analysis of large volumes of data. With aneminently practical approach, the technologies and fundamentals necessary to successfully accomplish the wholedata analysis process will be presented in the context of Big Data, from the raw data to the models derived from them."
+        },
+      
+        {
+            "@id": "names:DataProcesses",
+            "@type": "subject",
+          
+            "subjectName": "Data Processes",
+            "teacher": ["Alejandro Rodriguez", "Ernestina Menasalvas", "Antonio Jesús Diaz Honrubia"],
+            "description": "This course introduces fundamental tools and technologies necessary to transform raw data into information. In doing so, you'll learn how to write code to work with data. We'll cover skill associated with each component of the data analysis process, including the collection, storage, analysis, and visualization of data.We will analyze methodologies to develop data science projects. Not only technical issues will be handled but also business related and soft skills"
+        },
+      
+        {
+            "@id": "names:OpenDataAndKnowledgeGraphs",
+            "@type": "subject",
+          
+            "subjectName": "Open Data and Knowledge Graphs",
+            "teacher": ["Oscar Corcho","Raul Garcia"],
+            "description": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3 recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies. You will also learn about how to create shared agreed vocabularies and ontologies that can give support to Knowledge Graph generation and publication, and will understand how these principles and approaches have been applied to several domains. You will work on a practical hands-on exercise that will be the basis for your participation in hackatons and other similar events."
+        }
+    ]
+}
