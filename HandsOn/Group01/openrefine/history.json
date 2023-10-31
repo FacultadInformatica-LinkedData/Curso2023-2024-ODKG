@@ -242,4 +242,30 @@
     ],
     "description": "Mass edit cells in column WasteType"
   }
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value.replace(\"Clean points\",\"cleanPoints\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column WasteType using expression value.replace(\"Clean points\",\"cleanPoints\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value.replace(\"Horse bed\",\"horseBed\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column WasteType using expression value.replace(\"Horse bed\",\"horseBed\")"
+  }
 ]
