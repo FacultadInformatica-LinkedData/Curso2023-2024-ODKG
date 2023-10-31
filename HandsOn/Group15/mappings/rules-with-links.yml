@@ -6,7 +6,7 @@ prefixes:
 mappings:
   air_contaminants:
     sources:
-      - [ ../csv/qualitat_aire_contaminants-updated-with-links.csv~csv ]
+      - [ ../csv/qualitat_aire_contaminants-with-links.csv~csv ]
     s: ns:resource/AirContaminant/$(Contam_Code)
     po:
       - [ a, ns:AirContaminant ]
@@ -15,6 +15,7 @@ mappings:
       - [ ns:unit, $(Units) ]
       - [ ns:effect, $(Effect) ]
       - [ ns:mass, $(Mass), xsd:decimal ]
+      - [ owl:sameAs, $(Wikidata_Contam)~iri ]
 
   trees:
     sources:
@@ -30,7 +31,7 @@ mappings:
 
   air_cabins:
     sources:
-      - [ ../csv/qualitat_aire_estacions-updated-with-links.csv~csv ]
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
     s: ns:resource/AirQualityCabin/$(Cabin_Number)
     po:
       - [ a, ns:AirQualityCabin ]
@@ -42,7 +43,7 @@ mappings:
 
   addresses:
     sources:
-      - [ ../csv/qualitat_aire_estacions-updated-with-links.csv~csv ]
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
     s: ns:resource/Address/$(Street_Name)
     po:
       - [ a, ns:Address ]
@@ -51,7 +52,7 @@ mappings:
 
   neighbourhoods:
     sources:
-      - [ ../csv/qualitat_aire_estacions-updated-with-links.csv~csv ]
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
     s: ns:resource/Neighbourhood/$(Neighbourhood_Number)
     po:
       - [ a, ns:Neighbourhood ]
@@ -59,10 +60,11 @@ mappings:
       - [ ns:neighbourhoodName, $(Neighbourhood_Name) ]
       - [ ns:neighbourhoodPopulation, $(Neighbourhood_Population), xsd:integer ]
       - [ ns:neighbourhoodArea, $(Neighbourhood_Area), xsd:decimal ]
+      - [ owl:sameAs, $(Wikidata_Neighbourhood)~iri]
 
   districts:
     sources:
-      - [ ../csv/qualitat_aire_estacions-updated-with-links.csv~csv ]
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
     s: ns:resource/District/$(District_Number)
     po:
       - [ a, ns:District ]
@@ -71,6 +73,7 @@ mappings:
       - [ ns:hasNeighbourhood, ns:resource/Neighbourhood/$(Neighbourhood_Number)~iri ]
       - [ ns:inCity, ns:resource/City/Barcelona~iri ]
       - [ ns:districtPopulation, $(District_Population), xsd:integer ]
+      - [ owl:sameAs, $(Wikidata_District)~iri ]
 
   temperatures_jan:
     sources:
@@ -203,4 +206,3 @@ mappings:
       - [ ns:month, "Dec", xsd:string ]
       - [ ns:temperature, $(Dec_Temp), xsd:decimal ]
       - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
-
