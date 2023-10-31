@@ -12,13 +12,13 @@ WHERE {
 SELECT ?station
 WHERE {
     ?station ont:hasCity ?city .
-    ?city owl:sameAs <https://wikidata.org/entity/Q958909> .
+    ?city owl:sameAs <https://www.wikidata.org/wiki/Q958909> .
 }
 
 # Retrieve all charging stations located in another city (Wallingford) using its Wikidata link
 SELECT ?station
 WHERE {
     ?station ont:hasCity ?city .
-    ?city owl:sameAs <https://wikidata.org/entity/Q1949294> .
+    ?city owl:sameAs <https://www.wikidata.org/wiki/Q1949294> .
 }
 
