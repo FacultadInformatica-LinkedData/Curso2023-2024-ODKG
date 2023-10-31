@@ -1,0 +1,84 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix base: <http://madridwastemanagement.org/> .
+@prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nso: a owl:Ontology ;
+    dc:creator "group01" ;
+    dc:description "Ontology code created by group01" ;
+    dc:title "Madrid Waste Management" ;
+    owl:versionInfo "0.0.1" .
+
+#Properties
+nso:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain nso:Zone ;
+    rdfs:range nso:District .
+
+nso:hasResidue a owl:ObjectProperty ;
+    rdfs:label "has residue" ;
+    rdfs:domain nso:District ;
+    rdfs:range nso:WasteType .
+
+nso:hasTotal a owl:ObjectProperty ;
+    rdfs:label "has total" ;
+    rdfs:domain nso:WasteType ;
+    rdfs:range nso:Total .
+
+nso:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:domain nso:District ;
+    rdfs:range xsd:integer .
+
+nso:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:string .
+
+nso:referedTo a owl:ObjectProperty ;
+    rdfs:label "refered to" ;
+    rdfs:domain nso:Total ;
+    rdfs:range nso:District .
+
+nso:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:float .
+
+nso:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:integer .
+
+nso:zoneID a owl:DatatypeProperty ;
+    rdfs:label "zoneId" ;
+    rdfs:domain nso:Zone ;
+    rdfs:range xsd:integer .
+
+nso:districtID a owl:DatatypeProperty ;
+    rdfs:label "districtID" ;
+    rdfs:domain nso:District ;
+    rdfs:range xsd:integer .
+
+nso:districtName a owl:DatatypeProperty ;
+    rdfs:label "districtName" ;
+    rdfs:domain nso:District ;
+    rdfs:range xsd:string .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
+
+#Class
+nso:Zone a owl:Class ;
+    rdfs:label "Zone" .
+
+nso:WasteType a owl:Class ;
+    rdfs:label "Waste Type" .
+
+nso:District a owl:Class ;
+    rdfs:label "District" .
+
+nso:Total a owl:Class .
+

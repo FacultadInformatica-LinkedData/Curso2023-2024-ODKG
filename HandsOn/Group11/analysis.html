@@ -1,0 +1,154 @@
+<div>
+	<h3>Resource naming strategy</h3>
+	<div>
+		<p>	<b>URI Form:</b> slash (we have many resources) </p>	
+		<p> 
+			<b>Ontological terms path:</b> http://smartcity.linkeddata.es/tate-museum/ontology <br>
+			<b>Ontological terms example:</b> http://smartcity.linkeddata.es/tate-museum/ontology/Artwork <br>
+			<b>Individuals path:</b> http://smartcity.linkeddata.es/tate-museum/resource <br>
+			<b>Individuals example:</b> http://smartcity.linkeddata.es/tate-museum/resource/Artwork/A00020
+		</p>
+	</div>
+	<p>
+		<b>Domain and path:</b> http://smartcity.linkeddata.es/tate-museum (domain is under control of UPM) </p>
+		<b>Pattern for ontology:</b> /ontology/TateArtworks/&#60;className&#62;
+	</p>
+</div>
+
+<div>
+	<h3>Analysis of the Data Source</h3>
+	<p>The publisher of the dataset is Tate that owns the dataset jointly with the National Galleries of Scotland. <br>
+	Tategallery is licensed under the The Creative Commons CC0 Public Domain licence. This means that there is no need of giving attribution, but the owner of the data asks specifically to do it, that is why we will follow this request. <br>
+	The potential license that may be used is the same, The Creative Commons CC0 Public Domain.
+	<p>The potential license of the dataset to be generated: CC0PD</p>
+</p>
+</div>
+
+<div>
+	<h3>Analysis of the Data Set</h3>
+	<div>
+		<p>A dataset is a CSV file with 21 columns:<p>
+		<table>
+			<tr>
+				<th>Column</th>
+				<th>Expected type</th>
+				<th>Description and analysis</th>
+			</tr>
+			<tr> 
+				<td>id</td>
+				<td>Number</td>
+				<td>An identifier of the record (unique number between 3 and 129068).</td>
+			</tr>
+			<tr>
+				<td>accession_number</td>
+				<td>Text</td>
+				<td>Unique identifier of the artwork set by Tate Museum (alphanumeric, non-empty).</td>
+			</tr>
+			<tr>
+				<td>artist</td>
+				<td>Text</td>
+				<td>Name of the artist (represented as &#60;surname&#62;,&#60;name&#62;, non-empty).</td>
+			</tr>
+			<tr>
+				<td>artistRole</td>
+				<td>Text</td>
+				<td>Role of the artist (97% of the roles are simply 'artist').</td>
+			</tr>
+			<tr>
+				<td>artistId</td>
+				<td>Number</td>
+				<td>An identifier of the artist (a number between 38 and 19232, non-empty)</td>
+			</tr>
+			<tr>
+				<td>title</td>
+				<td>Text</td>
+				<td>Title of the artwork (non-empty, at most 330 characters).</td>
+			</tr>
+			<tr>
+				<td>dateText</td>
+				<td>Text</td>
+				<td>Date of creation. Some records has extra information such as question mark (probably indicating the uncertainty of the date), 'c.' meaning 'circa', the action such as 'printed', 'exhibited', 'remade', or 'date not known' in some cases.</td>
+			</tr>
+			<tr>
+				<td>medium</td>
+				<td>Text</td>
+				<td>It reffers to the technique and method that the artwork has been done. The most common one is Graphite on paper. The number of distinct count of medium is 3413.</td>
+			</tr>
+			<tr>
+				<td>creditLine</td>
+				<td>Text</td>
+				<td>This column refers to what happened to a particular work. More than half (54.76%) were accepted by the nation as part of the Turner Bequest 1856.</td>
+			</tr>
+			<tr>
+				<td>year</td>
+				<td>Number</td>
+				<td>The column refers to the year from which the artwork comes. The youngest is from 1545 , and the most popular year is 1819 ( almost 5% artworks from this year).</td>
+			</tr>
+			<tr>
+				<td>acquisitionYear</td>
+				<td>Number</td>
+				<td>Year when the Tate acquired the artwork. The most artwork was obtained in 1856.</td>
+			</tr>
+			<tr>
+				<td>dimensions</td>
+				<td>Text</td>
+				<td>It is information regarding the size of the artwork.</td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>Number</td>
+				<td>Inherited from the column ¨dimensions¨. Values from 3 to 11960. 5% of values is empty. 26 records are invalid.</td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td>Number</td>
+				<td>Inherited from the column ¨dimensions¨. Values from 6 to 37500. 5% of values is empty. 1 record is invalid (contains string 'mm').</td>
+			</tr>
+			<tr>
+				<td>depth</td>
+				<td>Number</td>
+				<td>Inherited from the column ¨dimensions¨. Values from 1 to 18290. 96% of values is empty.</td>
+			</tr>
+			<tr>
+				<td>units</td>
+				<td>Text</td>
+				<td>Units for the dimension. Either 'mm' (95%) or empty (5%).</td>
+			</tr>
+			<tr>
+				<td>inscription</td>
+				<td>Text</td>
+				<td>Inscription. Either 'date inscribed' (9%) or empty (91%).</td>
+			</tr>
+			<tr>
+				<td>thumbnailCopyright</td>
+				<td>Text</td>
+				<td>Information on thumbnail copyright (79% are non-empty).</td>
+			</tr>
+			<tr>
+				<td>thumbnailUrl</td>
+				<td>Text</td>
+				<td>URL to the thumbnail of the artwork on Tate portal (84% are non-empty).</td>
+			</tr>
+			<tr>
+				<td>url</td>
+				<td>Text</td>
+				<td>URL to the page of the artwork on Tate portal (non-empty).</td>
+			</tr>
+		</table>	
+	</div>
+</div>
+
+<div>
+	<p>Some of the columns will be exluded from further analysis as they do not contain valuable information. These are the columns dateText and dimensions, as the data they contain is cleaned and saved into other columns.</p>
+</div>
+
+
+<style>
+	table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	}
+	td {
+		padding: 2px 8px;
+	}
+</style>

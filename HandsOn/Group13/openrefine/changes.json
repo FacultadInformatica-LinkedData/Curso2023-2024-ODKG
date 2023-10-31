@@ -1,0 +1,400 @@
+{
+    "206974-0-agenda-eventos-culturales-100": [
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "FECHA",
+          "expression": "value.toDate()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column FECHA using expression value.toDate()"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "FECHA-FIN",
+          "expression": "value.toDate()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column FECHA-FIN using expression value.toDate()"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-SEMANA",
+          "expression": "value.toString()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-SEMANA using expression value.toString()"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "NUM-INSTALACION",
+          "description": "Remove column NUM-INSTALACION"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TIPO",
+          "description": "Remove column TIPO"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "Column",
+          "description": "Remove column Column"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-SEMANA",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-SEMANA using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-EXCLUIDOS",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-EXCLUIDOS using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TITULO-ACTIVIDAD",
+          "description": "Remove column TITULO-ACTIVIDAD"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+          },
+          "columnName": "AUDIENCIA",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column AUDIENCIA using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+          },
+          "columnName": "URL-ACTIVIDAD",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column URL-ACTIVIDAD using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+          },
+          "columnName": "DESCRIPCION",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+          },
+          "columnName": "PRECIO",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column PRECIO using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        }
+      ],
+
+      "300107-0-agenda-actividades-eventos-csv":
+      [
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "FECHA",
+          "expression": "value.toDate()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column FECHA using expression value.toDate()"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "FECHA-FIN",
+          "expression": "value.toDate()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column FECHA-FIN using expression value.toDate()"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-SEMANA",
+          "expression": "value.toString()",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-SEMANA using expression value.toString()"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "NUM-INSTALACION",
+          "description": "Remove column NUM-INSTALACION"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TIPO",
+          "description": "Remove column TIPO"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "Column",
+          "description": "Remove column Column"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-SEMANA",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-SEMANA using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DIAS-EXCLUIDOS",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DIAS-EXCLUIDOS using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TITULO-ACTIVIDAD",
+          "description": "Remove column TITULO-ACTIVIDAD"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "record-based"
+          },
+          "columnName": "AUDIENCIA",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column AUDIENCIA using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "PRECIO",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column PRECIO using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DESCRIPCION",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "HORA",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column HORA using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "URL-ACTIVIDAD",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column URL-ACTIVIDAD using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        }
+      ],
+
+
+    "200304-0-centros-culturales" : [
+        {
+          "op": "core/column-removal",
+          "columnName": "TRANSPORTE",
+          "description": "Remove column TRANSPORTE"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "EQUIPAMIENTO",
+          "description": "Remove column EQUIPAMIENTO"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "PLANTA",
+          "description": "Remove column PLANTA"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "PUERTA",
+          "description": "Remove column PUERTA"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "ESCALERAS",
+          "description": "Remove column ESCALERAS"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "ORIENTACION",
+          "description": "Remove column ORIENTACION"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TELEFONO",
+          "description": "Remove column TELEFONO"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "FAX",
+          "description": "Remove column FAX"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "EMAIL",
+          "description": "Remove column EMAIL"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "TIPO",
+          "description": "Remove column TIPO"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "Column",
+          "description": "Remove column Column"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DESCRIPCION-ENTIDAD",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "HORARIO",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column HORARIO using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/text-transform",
+          "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+          },
+          "columnName": "DESCRIPCION",
+          "expression": "grel:if(isBlank(value.trim()), \"Not informed Value\", value)",
+          "onError": "keep-original",
+          "repeat": false,
+          "repeatCount": 10,
+          "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Not informed Value\", value)"
+        },
+        {
+          "op": "core/column-removal",
+          "columnName": "DESCRIPCION",
+          "description": "Remove column DESCRIPCION"
+        }
+    ]
+
+  }
+  

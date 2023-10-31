@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-n9g5{background-color:#ffffff;border-color:inherit;color:#000000;text-align:left;vertical-align:top}
+    .tg .tg-61xu{background-color:#cbcefb;border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+    </style>
+    <h1>Dataset analysis</h1>
+    
+    <h2>Data analysis and schema</h2>
+    
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-61xu">Column</th>
+        <th class="tg-61xu">Meaning</th>
+        <th class="tg-61xu">Type</th>
+        <th class="tg-61xu">Coments / Range (Rounded)</th>
+        <th class="tg-61xu">Problems</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-n9g5">latitude</td>
+        <td class="tg-0pky">latitude</td>
+        <td class="tg-0pky">Decimal</td>
+        <td class="tg-0pky">Unique</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">longitude</td>
+        <td class="tg-0pky">longitude</td>
+        <td class="tg-0pky">Decimal</td>
+        <td class="tg-0pky">Unique</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">uuid</td>
+        <td class="tg-0pky">uuid</td>
+        <td class="tg-0pky">UUID (String)</td>
+        <td class="tg-0pky">Unique identifier</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">kreis_name</td>
+        <td class="tg-0pky">circle_name</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">All the same value (Rostock)</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">kreis_schluessel</td>
+        <td class="tg-0pky">circle_key</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">All the same value (13003)</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">gemeindeverband_schluessel</td>
+        <td class="tg-0pky">community_association_key</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">All the same value (130030000)</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">gemeinde_name</td>
+        <td class="tg-0pky">community_name</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">All the same value (Rostock, Hanse- und Universitätsstadt)</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">gemeinde_schluessel</td>
+        <td class="tg-0pky">community_key</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">All the same value (130030000000)</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">gemeindeteil_name</td>
+        <td class="tg-0pky">municipality_name</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">gemeindeteil_schluessel</td>
+        <td class="tg-0pky">community_part_key</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">Not unique. 4-digit code starting with 00</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">strasse_name</td>
+        <td class="tg-0pky">street_name</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">strasse_schluessel</td>
+        <td class="tg-0pky">street_key</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">Not unique. 5-digit code</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">hausnummer</td>
+        <td class="tg-0pky">house_number</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">Not unique, range = [1, 408]</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">hausnummer_zusatz</td>
+        <td class="tg-0pky">house_number_addition</td>
+        <td class="tg-0pky">Char</td>
+        <td class="tg-0pky">Not unique. Missing values. values = [a, d]</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">postleitzahl</td>
+        <td class="tg-0pky">postal_code</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">Not unique. 5-digit code, values = [18055, 18147]</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">bezeichnung</td>
+        <td class="tg-0pky">designation</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique.</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">betreiber</td>
+        <td class="tg-0pky">operator</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">verbund</td>
+        <td class="tg-0pky">composite</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Missing values</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">betriebsart</td>
+        <td class="tg-0pky">operating_mode</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique, values = [halböffentlich, öffentlich, privat]</td>
+        <td class="tg-0pky">Problematic characters</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">anzahl_ladepunkte</td>
+        <td class="tg-0pky">number_chargingpoints</td>
+        <td class="tg-0pky">Integer</td>
+        <td class="tg-0pky">Not unique</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">arten_ladepunkte</td>
+        <td class="tg-0pky">types_charging points</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">ladekarten</td>
+        <td class="tg-0pky">charging_cards</td>
+        <td class="tg-0pky">[String]</td>
+        <td class="tg-0pky">Not unique, missing values</td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">kosten</td>
+        <td class="tg-0pky">cost</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique, missing values</td>
+        <td class="tg-0pky">Different kost systems</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">oeffnungszeiten</td>
+        <td class="tg-0pky">opening_hours</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Not unique, missing values</td>
+        <td class="tg-0pky">Different format</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">website</td>
+        <td class="tg-0pky">website</td>
+        <td class="tg-0pky">String</td>
+        <td class="tg-0pky">Unique, missing values</td>
+        <td class="tg-0pky">Different domains</td>
+      </tr>
+    </tbody>
+    </table>
+    <h2>Licensing</h2>
+    <p>The <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons CC0 1.0 Universal (CC0)</a> license is a tool that allows creators to place their work in the public domain. This means the work can be used, modified, and distributed by anyone for any purpose without restrictions, and no attribution to the original creator is required. CC0 is applicable worldwide, waives all copyright rights, is irrevocable once applied, and comes with a "No Warranty" disclaimer. It is a way for creators to make their work completely open and freely usable by the public.</p>
+    
+    <h2>Resource name strategy</h2>
+    <p><b>Domain Identifier:</b> RockstockEVCharging</p>
+        <p><b>Path:</b> /ontology/</p>
+        <p><b>Data:</b> /resource/</p>
+        <p><b>Full Ontology URL:</b> http://www.example.com/RockstockEVCharging/ontology/</p>
+        
+    <br>    
+	<p> <b>Classes:</b> http://www.RockstockEVCharging.es/ontology/className </p>
+    <p> <b>Properties:</b> http://www.RockstockEVCharging.es/ontology/propertyName </p>
+    <p> <b>Individual:</b> http://www.RockstockEVCharging.es/ontology/resource/className#identifier </p>
+    </html>

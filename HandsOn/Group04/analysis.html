@@ -27,40 +27,40 @@ The following entities have been found out from the Analysis done to the dataset
 <table>
 
   <tr>
-    <th>Event</th>
-    <th>Int</th>
+    <th>CulturalEvent</th>
     <th>It is an integer data type that identifies the event that is going to take place.</th>
   </tr>
   
   <tr>
     <th>Concept</th>
-    <th>String</th>
-    <th>Description of the Event.</th>
+    <th>Short description of the Event.</th>
   </tr>
   
   <tr>
     <th>Audience</th>
-    <th>String</th>
     <th>Provides information about the target audience of the Event.</th>
   </tr>
 
   <tr>
     <th>Facility</th>
-    <th>Int</th>
     <th>Integer that Identifies the museums and leisures centers in Madrid.</th>
   </tr>
 
   <tr>
-    <th>Postal Address</th>
-    <th>String</th>
+    <th>Address</th>
     <th>Name and number of the event's location.</th>
   </tr>
   
   <tr>
     <th>District</th>
-    <th>String</th>
     <th>It is a string which provide the name of the disctrict in Madrid where the event takes place.</th>
   </tr>
+
+  <tr>
+    <th>Geometry</th>
+    <th>Describes the latitude and the longitude for the cultural events.</th>
+  </tr>
+
 </table>
 <br>
 <br>
@@ -75,9 +75,10 @@ The Analysis has been performed using the dataset's documentation provided on th
 <br>
 <h3>License:</h3>
   <p>
-  The dataset that we have chosen and our generated are licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES"> license CC BY-NC-SA 4.0</a> Internacional. There are some conditions for its reuse, like:<br>
+  The dataset that we have chosen and our generated are licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"> license CC BY-SA 4.0</a> Internacional. There are some conditions for its reuse, like:<br>
   - The documents can be reused for commercial and non-commercial purposes.<br>
   - The source of the documents must be cited.<br>
+  - If you transform or build upon the material, you must use the same license.<br>
   - It's forbidden to change the meaning of the information of the classes/attributes.
   </p>
   More information can be found on their <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">terms and conditions page</a>
@@ -92,15 +93,15 @@ The Analysis has been performed using the dataset's documentation provided on th
   <h4>Hash URIs for ontological terms. Slash URIs for individuals:</h4>
   <ul>
   <li>Ontological terms path → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#">http://www.madculturalevents.es/group04/ontology/madculturalevents#</a></li>
-  <li>Ontological terms for Event → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Event">http://www.madculturalevents.es/group04/ontology/madculturalevents#Event</a></li>
+  <li>Ontological terms for CulturalEvent → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Event">http://www.madculturalevents.es/group04/ontology/madculturalevents#CulturalEvent</a></li>
   <li>Ontological terms for Concept → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Concept">http://www.madculturalevents.es/group04/ontology/madculturalevents#Concept</a></li>
   <li>Ontological terms for Audience → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Audience">http://www.madculturalevents.es/group04/ontology/madculturalevents#Audience</a></li>
   <li>Ontological terms for Facility → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility">http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility</a></li>
-  <li>Ontological terms for Place → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Place">http://www.madculturalevents.es/group04/ontology/madculturalevents#Place</a></li>
-  <li>Ontological terms for Postal Address → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#PostalAddress">http://www.madculturalevents.es/group04/ontology/madculturalevents#PostalAddress</a></li>
+  <li>Ontological terms for Geometry → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Geometry">http://www.madculturalevents.es/group04/ontology/madculturalevents#Geometry</a></li>
+  <li>Ontological terms for Address → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#Address">http://www.madculturalevents.es/group04/ontology/madculturalevents#Address</a></li>
   <li>Ontological terms for District → <a href="http://www.madculturalevents.es/group04/ontology/madculturalevents#District">http://www.madculturalevents.es/group04/ontology/madculturalevents#District</a></li>
   <br>
-  <li>Individual for Facility with ID: 222333 → <a href="http://www.madculturalevents.es/group02/resources/Facility/222333">http://www.madculturalevents.es/group02/resources/Facility/222333</a></li>
+  <li>Individual for Facility with ID: 222333 → <a href="http://www.madculturalevents.es/group02/resources/facility/222333">http://www.madculturalevents.es/group02/resources/Facility/222333</a></li>
   </ul>
 
 </body>

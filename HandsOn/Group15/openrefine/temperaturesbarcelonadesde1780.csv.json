@@ -1,0 +1,80 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Any",
+    "newColumnName": "Year",
+    "description": "Rename column Any to Year"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Gener",
+    "newColumnName": "Jan_Temp",
+    "description": "Rename column Temp_Mitjana_Gener to Jan_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Febrer",
+    "newColumnName": "Feb_Temp",
+    "description": "Rename column Temp_Mitjana_Febrer to Feb_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Marc",
+    "newColumnName": "Mar_Temp",
+    "description": "Rename column Temp_Mitjana_Marc to Mar_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Abril",
+    "newColumnName": "Apr_Temp",
+    "description": "Rename column Temp_Mitjana_Abril to Apr_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Maig",
+    "newColumnName": "May_Temp",
+    "description": "Rename column Temp_Mitjana_Maig to May_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Juny",
+    "newColumnName": "Jun_Temp",
+    "description": "Rename column Temp_Mitjana_Juny to Jun_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Juliol",
+    "newColumnName": "Jul_Temp",
+    "description": "Rename column Temp_Mitjana_Juliol to Jul_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Agost",
+    "newColumnName": "Aug_Temp",
+    "description": "Rename column Temp_Mitjana_Agost to Aug_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Setembre",
+    "newColumnName": "Sep_Temp",
+    "description": "Rename column Temp_Mitjana_Setembre to Sep_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Octubre",
+    "newColumnName": "Oct_Temp",
+    "description": "Rename column Temp_Mitjana_Octubre to Oct_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Novembre",
+    "newColumnName": "Nov_Temp",
+    "description": "Rename column Temp_Mitjana_Novembre to Nov_Temp"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Temp_Mitjana_Desembre",
+    "newColumnName": "Dec_Temp",
+    "description": "Rename column Temp_Mitjana_Desembre to Dec_Temp"
+  }
+]

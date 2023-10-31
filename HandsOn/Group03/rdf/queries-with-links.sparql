@@ -1,0 +1,83 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ns1: <http://vidaactivamadrid.es/info/ontology/property#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# All districts starting with C
+
+SELECT ?district ?name ?link
+  WHERE {
+    ?district a <http://vidaactivamadrid.es/info/ontology/class#District> .
+    ?district ns1:name ?name .
+  	?district owl:sameAs ?link
+    FILTER(REGEX(STR(?name), "^C", "i"))
+}
+
+#Results
+ "district" , "name" , "link" ,
+ "http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn" , "Chamartín" , "https://wikidata.org/entity/Q1766348" ,
+ "http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD" , "Chamberí" , "https://wikidata.org/entity/Q1763370" ,
+ "http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal" , "Ciudad Lineal" , "https://wikidata.org/entity/Q1763694" ,
+ "http://vidaactivamadrid.es/info/resource/District/Carabanchel" , "Carabanchel" , "https://wikidata.org/entity/Q1001991" ,
+ "http://vidaactivamadrid.es/info/resource/District/Centro" , "Centro" , "https://wikidata.org/entity/Q1763376" ,
+
+
+# All parks in El Pilar
+
+SELECT ?id_park ?name
+WHERE {
+  ?id_park a <http://vidaactivamadrid.es/info/ontology/class#Park> .
+  ?id_park ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> .
+  ?id_park ns1:name ?name
+}
+
+#Results
+
+ "id_park" , "name" ,
+ "http://vidaactivamadrid.es/info/resource/Park/7895078" , "FERROL 29 POST." ,
+ "http://vidaactivamadrid.es/info/resource/Park/7886698" , "AVD. DEL FERROL 14 POST." ,
+ "http://vidaactivamadrid.es/info/resource/Park/17025" , "PARQUE DE LA VAGUADA" ,
+ "http://vidaactivamadrid.es/info/resource/Park/17042" , "PLAZA FONSAGRADA CON PLAZA REDONDELA" ,
+
+ 
+# All activities with a start date in October 2023
+
+ SELECT ?activity ?name ?startDate
+  WHERE {
+    ?activity a <http://vidaactivamadrid.es/info/ontology/class#Activity> .
+    ?activity ns1:name ?name .
+    ?activity ns1:startDate ?startDate .
+    FILTER(REGEX(STR(?startDate), "^2023-10", "i"))
+}
+LIMIT 5
+
+#Results
+
+ "activity" , "name" , "startDate" ,
+ "http://vidaactivamadrid.es/info/resource/Activity/12112846" , "Círculo de mujeres sabias. La menopausia y nosotras" , "2023-10-06" ,
+ "http://vidaactivamadrid.es/info/resource/Activity/12114219" , "Smartphone para mayores de 60. Conoce las funciones básicas" , "2023-10-10" ,
+ "http://vidaactivamadrid.es/info/resource/Activity/12047735" , "Taller uso de WhatsApp para mayores" , "2023-10-18" ,
+ "http://vidaactivamadrid.es/info/resource/Activity/12121361" , "Chocolatada con animación musical" , "2023-10-15" ,
+ "http://vidaactivamadrid.es/info/resource/Activity/12117026" , "Gala de ballet clásico" , "2023-10-21" ,
+
+
+# All Neighborhoods
+
+SELECT ?barrio ?link
+  WHERE {
+    ?barrio a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> .
+    ?barrio ns1:name ?name .
+  	?barrio owl:sameAs ?link
+}
+LIMIT 5
+
+#Results 
+
+ "barrio" , "link" ,
+ "http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29" , "https://wikidata.org/entity/Q71758" ,
+ "http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad" , "https://wikidata.org/entity/Q10387767" ,
+ "http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Pascual" , "https://wikidata.org/entity/Q165612" ,
+ "http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar" , "https://wikidata.org/entity/Q3773964" ,
+ "http://vidaactivamadrid.es/info/resource/Neighborhood/Ensanche%20de%20Vallecas" , "https://wikidata.org/entity/Q3847485" ,
+
+
+
