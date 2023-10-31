@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parking History Analytics Dashboard Requirements</title>
+    <title>Waste Management Analytics Dashboard Requirements</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,48 +17,47 @@
             border: 1px dashed gray;
             padding: 10px;
             margin-bottom: 20px;
+            text-align: center;
         }
-        img {
-            width: 100%;
-            max-width: 400px;
-            display: block;
-            margin: 10px 0;
+        .mockup img {
+            max-width: 90%;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Parking History Analytics Dashboard Requirements</h1>
-        <p>This application requirements for the Parking History Analytics Dashboard based on the "On-street Parking Bay Sensors"</p>
+        <h1>Waste Management Analytics Dashboard Requirements</h1>
+        <p>This application requirements for the Waste Management Analytics Dashboard based on the waste collection data from the city of Madrid.</p>
 
         <h2>Functional Requirements:</h2>
         <ol>
-            <li>Display parking patterns over various time frames, such as daily, weekly, monthly, and annually.</li>
-            <li>Show graphs/charts for:
-                <ul>
-                    <li>Peak parking times</li>
-                    <li>Most frequently occupied spots</li>
-                    <li>Zone-wise occupancy trends</li>
-                </ul>
-            </li>
-            <li>Allow data filtering by "Zone_Number" to enable more granular insights.</li>
-            <li>Provide a user-friendly date range filter for custom date analysis.</li>
+            <li>Display waste collection data in monthly/yearly intervals.</li>
+            <li>Provide visual analytics of waste production by district.</li>
+            <li>Showcase trends such as districts that have reduced waste over time or emerging waste categories.</li>
+            <li>Offer a detailed breakdown of waste types, either for individual districts or for the city overall.</li>
         </ol>
-
 
         <h2>Mock-ups:</h2>
 
         <div class="mockup">
             <h3>Dashboard Main View:</h3>
-            <p>A clean layout with a navigation bar on the top with options such as "Daily", "Weekly", "Monthly", "Annual", and "Custom" views. Below this, a date range picker allows users to select custom date ranges. The main content area displays interactive charts showing parking data patterns, and on the side, a panel allows users to select specific "Zone_Number" for focused analysis.</p>
-            <!-- <img src="#" alt="Mockup image for Dashboard Main View"> -->
+            <p>An intuitive layout displaying an overview of waste collection in monthly/yearly intervals. Users can quickly switch between views. Interactive charts show total waste production, and a sidebar allows for district-specific filtering.</p>
+            <!-- <img src="placeholder-image-url.jpg" alt="Mockup for Dashboard Main View"> -->
         </div>
 
         <div class="mockup">
-            <h3>Zone-Specific Analysis:</h3>
-            <p>Upon selecting a specific "Zone_Number", the charts and graphs update to reflect data specific to that zone. Below the main charts, a list of the most frequently occupied spots within the zone is displayed, potentially with links to their exact locations or additional details.</p>
-            <!-- <img src="#" alt="Mockup image for Zone-Specific Analysis"> -->
+            <h3>District-specific Waste Analysis:</h3>
+            <p>When a district is selected, the dashboard transitions to show data specific to that district. Pie charts or bar graphs visualize the breakdown of waste types. A line graph could represent the waste trends over time.</p>
+             <!-- <img src="placeholder-image-url.jpg" alt="Mockup for District-specific Waste Analysis"> -->
         </div>
+
+        <div class="mockup">
+            <h3>Waste Type Breakdown:</h3>
+            <p>This section gives users a more in-depth look into specific waste categories. Through dropdown menus or tabs, users can select a waste type and view its production trends, both citywide and district-specific.</p>
+            <!-- <img src="placeholder-image-url.jpg" alt="Mockup for Waste Type Breakdown"> -->
+        </div>
+
     </div>
 </body>
 </html>

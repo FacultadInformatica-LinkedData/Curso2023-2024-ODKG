@@ -1,0 +1,20 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Codi_Contaminant",
+    "newColumnName": "Contaminant_Code",
+    "description": "Rename column Codi_Contaminant to Contaminant_Code"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Desc_Contaminant",
+    "newColumnName": "Contaminant_Name",
+    "description": "Rename column Desc_Contaminant to Contaminant_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Unitats",
+    "newColumnName": "Units",
+    "description": "Rename column Unitats to Units"
+  }
+]

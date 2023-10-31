@@ -10,3 +10,12 @@
 
 # Prototypes in Figma
 [link](https://www.figma.com/file/h8dZf6KG43KpTJh30N4D1Q/Untitled?type=design&node-id=0%3A1&mode=design&t=clghSJRzTqhfXmNf-1)
+
+
+# Ontology Diagram
+
+![Diagram Ontology](./ontology/img-ontology.png)
+
+## Extensiones VS-CODE
+
+- SPARQL: ext install Zazuko.sparql-notebook
