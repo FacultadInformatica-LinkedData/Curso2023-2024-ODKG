@@ -1,0 +1,455 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Name to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Name",
+    "expression": "grel:\"http://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_district",
+    "columnInsertIndex": 6,
+    "description": "Create column same_as_wikidata_district at index 6 based on column Name using expression grel:\"http://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q214609",
+        "name": "material"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column WasteType to type Q214609"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q63981612",
+        "name": "product category"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column WasteType to type Q63981612"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Clothes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11460",
+      "name": "clothing",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item clothing (Q11460) for cells containing \"Clothes\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Organic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q380778",
+      "name": "organic food",
+      "types": [
+        ""
+      ],
+      "score": 46.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item organic food (Q380778) for cells containing \"Organic\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Packaging",
+    "judgment": "matched",
+    "match": {
+      "id": "Q115753806",
+      "name": "packaging products of plastics",
+      "types": [
+        "Q63981612"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Match item packaging products of plastics (Q115753806) for cells containing \"Packaging\" in column WasteType"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "CDW",
+    "description": "Clear recon data for cells containing \"CDW\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Clean points",
+    "judgment": "matched",
+    "match": {
+      "id": "Q216530",
+      "name": "waste container",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item waste container (Q216530) for cells containing \"Clean points\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Clinicians",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4915134",
+      "name": "biomedical waste",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item biomedical waste (Q4915134) for cells containing \"Clinicians\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "WasteType: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "WasteType",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Paper",
+    "judgment": "matched",
+    "match": {
+      "id": "Q444632",
+      "name": "waste paper",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item waste paper (Q444632) for cells containing \"Paper\" in column WasteType"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "WasteType: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "WasteType",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Rest",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17651941",
+      "name": "non-recyclable waste",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item non-recyclable waste (Q17651941) for cells containing \"Rest\" in column WasteType"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "WasteType: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "WasteType",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "similarValue": "Horse bed",
+    "description": "Clear recon data for cells containing \"Horse bed\" in column WasteType"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "WasteType",
+    "expression": "grel:\"http://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_wastetype",
+    "columnInsertIndex": 4,
+    "description": "Create column same_as_wikidata_wastetype at index 4 based on column WasteType using expression grel:\"http://wikidata.org/entity/\"+cell.recon.match.id"
+  }
+
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "waste container"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wasteContainer"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "biomedical waste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "biomedicalWaste"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "organic food"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "organicFood"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "packaging products of plastics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "packagingProductsOfPlastics"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "waste paper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wastePaper"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Horse bed"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "horseBed"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "WasteType",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "non-recyclable waste"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-recyclable-waste"
+      }
+    ],
+    "description": "Mass edit cells in column WasteType"
+  }
+]
