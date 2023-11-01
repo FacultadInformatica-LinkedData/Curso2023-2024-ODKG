@@ -7,6 +7,8 @@
 @prefix dbp: <https://dbpedia.org/ontology/> .
 @prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
 @prefix geof: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
 
 nso: a owl:Ontology ;
     dc:creator "group01" ;
@@ -30,10 +32,6 @@ nso:hasTotal a owl:ObjectProperty ;
     rdfs:domain nso:WasteType ;
     rdfs:range nso:Total .
 
-nso:month a owl:DatatypeProperty ;
-    rdfs:label "month" ;
-    rdfs:domain nso:Total ;
-    rdfs:range xsd:string .
 
 nso:referedTo a owl:ObjectProperty ;
     rdfs:label "refered to" ;
@@ -45,10 +43,15 @@ nso:value a owl:DatatypeProperty ;
     rdfs:domain nso:Total ;
     rdfs:range xsd:float .
 
-nso:year a owl:DatatypeProperty ;
+time:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:domain nso:Total ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:gYear .
+
+time:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:gMonth .
 
 nso:zoneID a owl:DatatypeProperty ;
     rdfs:label "zoneId" ;
