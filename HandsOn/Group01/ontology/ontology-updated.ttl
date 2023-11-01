@@ -8,6 +8,7 @@
 @prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
 @prefix geof: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix wst: <http://www.disit.org/km4city/schema#> .
 
 
 nso: a owl:Ontology ;
@@ -22,14 +23,14 @@ geocod:hasDistrict a owl:ObjectProperty ;
     rdfs:domain geof:Zone ;
     rdfs:range dbp:District .
 
-nso:hasResidue a owl:ObjectProperty ;
+wst:hasResidue a owl:ObjectProperty ;
     rdfs:label "has residue" ;
     rdfs:domain dbp:District ;
-    rdfs:range nso:WasteType .
+    rdfs:range wst:WasteType .
 
 nso:hasTotal a owl:ObjectProperty ;
     rdfs:label "has total" ;
-    rdfs:domain nso:WasteType ;
+    rdfs:domain wst:WasteType ;
     rdfs:range nso:Total .
 
 
@@ -75,7 +76,7 @@ rdfs:label a owl:DatatypeProperty ;
 geof:Zone a owl:Class ;
     rdfs:label "Zone" .
 
-nso:WasteType a owl:Class ;
+wst:WasteType a owl:Class ;
     rdfs:label "Waste Type" .
 
 dbp:District a owl:Class ;
