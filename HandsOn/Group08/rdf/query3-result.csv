@@ -1,51 +1,52 @@
-uniname,enrollmentRate
-University Of St Thomas,30
-Pennsylvania State University-Penn State Brandywine,28
-Drake University,14
-Delaware State University,11
-Northwestern University,6
-Rutgers University–Newark,7
-Central Michigan University,15
-Indiana University Northwest,46
-Reinhardt University,35
-University Of Sioux Falls,17
-Saint Michael'S College,11
-Morehead State University,31
-Montana Technological University,44
-Endicott College,17
-Malone University,23
-Tiffin University,25
-Trine University,14
-Occidental College,9
-LeMoyne–Owen College,15
-Northern Kentucky University,29
-Anderson University,16
-Gonzaga University,15
-Hope College,19
-Florida Institute Of Technology,10
-Norwich University,19
-Minot State University,41
-California State University-Los Angeles,10
-Dickinson State University,39
-California Baptist University,25
-La Salle University,16
-Reed College,12
-Mount Aloysius College,24
-Lake Erie College,17
-Howard Payne University,21
-Missouri State University-Springfield,36
-Winthrop University,25
-Union College,13
-University of Alabama in Huntsville,31
-Jacksonville University,15
-Sterling College,40
-University of New Hampshire at Manchester,48
-University of Delaware,16
-University of Massachusetts Amherst,12
-Boise State University,28
-Lenoir–Rhyne University,6
-LeTourneau University,18
-Yeshiva University,54
-Maine Maritime Academy,28
-University of Florida,23
-Centre College,14
+                                         uniname                                         |                enrollmentRate                
+-----------------------------------------------------------------------------------------------------------------------------------------
+"Albion College"^^<http://www.w3.org/2001/XMLSchemastring>                               |"7"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Averett University"^^<http://www.w3.org/2001/XMLSchemastring>                           |"10"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Barton College"^^<http://www.w3.org/2001/XMLSchemastring>                               |"7"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Bellarmine University"^^<http://www.w3.org/2001/XMLSchemastring>                        |"16"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Cedar Crest College"^^<http://www.w3.org/2001/XMLSchemastring>                          |"13"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Converse University"^^<http://www.w3.org/2001/XMLSchemastring>                          |"15"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Cornell University"^^<http://www.w3.org/2001/XMLSchemastring>                           |"8"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Dillard University"^^<http://www.w3.org/2001/XMLSchemastring>                           |"4"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Earlham College"^^<http://www.w3.org/2001/XMLSchemastring>                              |"13"^^<http://www.w3.org/2001/XMLSchemanumber>
+"East Texas Baptist University"^^<http://www.w3.org/2001/XMLSchemastring>                |"48"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Eastern Mennonite University"^^<http://www.w3.org/2001/XMLSchemastring>                 |"21"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Emmanuel College"^^<http://www.w3.org/2001/XMLSchemastring>                             |"17"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Emporia State University"^^<http://www.w3.org/2001/XMLSchemastring>                     |"28"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Endicott College"^^<http://www.w3.org/2001/XMLSchemastring>                             |"17"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Felician University"^^<http://www.w3.org/2001/XMLSchemastring>                          |"9"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Fitchburg State University"^^<http://www.w3.org/2001/XMLSchemastring>                   |"21"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Florida Institute Of Technology"^^<http://www.w3.org/2001/XMLSchemastring>              |"10"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Fort Hays State University"^^<http://www.w3.org/2001/XMLSchemastring>                   |"42"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Franklin & Marshall College"^^<http://www.w3.org/2001/XMLSchemastring>                  |"11"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Franklin Pierce University"^^<http://www.w3.org/2001/XMLSchemastring>                   |"15"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Georgetown University"^^<http://www.w3.org/2001/XMLSchemastring>                        |"7"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Georgia State University"^^<http://www.w3.org/2001/XMLSchemastring>                     |"24"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Gustavus Adolphus College"^^<http://www.w3.org/2001/XMLSchemastring>                    |"12"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Lewis–Clark State College"^^<http://www.w3.org/2001/XMLSchemastring>                    |"55"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Marian University"^^<http://www.w3.org/2001/XMLSchemastring>                            |"16"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Marshall University"^^<http://www.w3.org/2001/XMLSchemastring>                          |"64"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Northern Vermont University"^^<http://www.w3.org/2001/XMLSchemastring>                  |"26"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Ohio Wesleyan University"^^<http://www.w3.org/2001/XMLSchemastring>                     |"13"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Park University"^^<http://www.w3.org/2001/XMLSchemastring>                              |"30"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Pine Manor College"^^<http://www.w3.org/2001/XMLSchemastring>                           |"22"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Pomona College"^^<http://www.w3.org/2001/XMLSchemastring>                               |"5"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Roanoke College"^^<http://www.w3.org/2001/XMLSchemastring>                              |"13"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Southeast Missouri State University"^^<http://www.w3.org/2001/XMLSchemastring>          |"39"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Southwestern University"^^<http://www.w3.org/2001/XMLSchemastring>                      |"13"^^<http://www.w3.org/2001/XMLSchemanumber>
+"State University of New York Maritime College"^^<http://www.w3.org/2001/XMLSchemastring>|"25"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Stetson University"^^<http://www.w3.org/2001/XMLSchemastring>                           |"8"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Thomas College"^^<http://www.w3.org/2001/XMLSchemastring>                               |"25"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Thomas University"^^<http://www.w3.org/2001/XMLSchemastring>                            |"43"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Tuskegee University"^^<http://www.w3.org/2001/XMLSchemastring>                          |"6"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"University Of Colorado Boulder"^^<http://www.w3.org/2001/XMLSchemastring>               |"26"^^<http://www.w3.org/2001/XMLSchemanumber>
+"University Of New Mexico-Main Campus"^^<http://www.w3.org/2001/XMLSchemastring>         |"29"^^<http://www.w3.org/2001/XMLSchemanumber>
+"University of Arkansas"^^<http://www.w3.org/2001/XMLSchemastring>                       |"22"^^<http://www.w3.org/2001/XMLSchemanumber>
+"University of Central Oklahoma"^^<http://www.w3.org/2001/XMLSchemastring>               |"21"^^<http://www.w3.org/2001/XMLSchemanumber>
+"University of Wisconsin–River Falls"^^<http://www.w3.org/2001/XMLSchemastring>          |"43"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Upper Iowa University"^^<http://www.w3.org/2001/XMLSchemastring>                        |"17"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Vaughn College of Aeronautics and Technology"^^<http://www.w3.org/2001/XMLSchemastring> |"38"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Virginia State University"^^<http://www.w3.org/2001/XMLSchemastring>                    |"21"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Virginia Union University"^^<http://www.w3.org/2001/XMLSchemastring>                    |"9"^^<http://www.w3.org/2001/XMLSchemanumber> 
+"Wartburg College"^^<http://www.w3.org/2001/XMLSchemastring>                             |"19"^^<http://www.w3.org/2001/XMLSchemanumber>
+"Wilkes University"^^<http://www.w3.org/2001/XMLSchemastring>                            |"19"^^<http://www.w3.org/2001/XMLSchemanumber>

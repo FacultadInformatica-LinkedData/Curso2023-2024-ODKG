@@ -1,9 +1,12 @@
 from os.path import join
 
-CONFIG_MAPPING = join("mappings", "config.ini")
 OUT_GRAPH = join("rdf", "UniversityInformation.nt")
-QUERYS_SPARQL = join("rdf", "queries.sparql")
+OUT_GRAPH_LINKS = join("rdf", "UniversityInformation-with-links.ttl")
+
 CONFIG_MAPPING = join("mappings", "config.ini")
+CONFIG_MAPPING_LINKS = join("mappings", "config-with-links.ini")
+
+QUERYS_SPARQL = join("rdf", "queries.sparql")
 OUT_QUERY = join("rdf", "query")
 
 
