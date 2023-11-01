@@ -89,7 +89,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate art::madeInYear ;
+        rr:predicate art:madeInYear ;
         rr:objectMap [
             rml:reference "year";
             rr:datatype xsd:integer;
@@ -97,7 +97,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate art::acquiredInYear ;
+        rr:predicate art:acquiredInYear ;
         rr:objectMap [
             rml:reference "acquisitionYear";
             rr:datatype xsd:integer;
