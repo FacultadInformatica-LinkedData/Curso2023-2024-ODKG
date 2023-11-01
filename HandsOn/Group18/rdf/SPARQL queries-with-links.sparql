@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ns: <http://MadridTransit.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+SELECT DISTINCT ?Subject ?Name WHERE {
+  ?Subject a ns:District.
+  ?Subject owl:sameAs ?Name                       
+  }
+  
+SELECT DISTINCT ?xdistrict ?WeatherType WHERE {
+    ?Subject a ns:Accident;
+             ns:locatedAt ?xdistrict;
+             ns:weatherCondition ?WeatherType
+  }
+
+SELECT ?Label ?WikiLink  WHERE {
+      ?Subject a ns:Vehicle;
+        owl:sameAs ?WikiLink;
+        rdf:label ?Label                    
+  }
+
+SELECT ?Label ?WikiLink  WHERE {
+      ?Subject a ns:Weather;
+        owl:sameAs ?WikiLink;
+        rdf:label ?Label                    
+  }
