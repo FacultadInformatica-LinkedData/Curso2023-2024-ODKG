@@ -1,0 +1,63 @@
+PREFIX peaton: <http://opendataandkg.org/group06/ontology/peatones#>
+PREFIX calle: <http://opendataandkg.org/group06/ontology/calle#>
+
+# QUERY 1: Get all the zip codes
+SELECT DISTINCT ?codigoPostal
+    WHERE {
+      ?calle a calle:Calle .
+      ?calle calle:codigoPostal ?codigoPostal .
+    }
+
+#Result:
+#(rdflib.term.Literal('28004', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28015', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28014', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28012', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28013', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28001', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28011', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28008', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+#(rdflib.term.Literal('28005', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#integer')),)
+
+# QUERY 2: Get all the districts
+SELECT DISTINCT ?distrito
+    WHERE {
+      ?calle a calle:Calle .
+      ?calle calle:distrito ?distrito .
+    }
+
+#Result:
+#(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/Centro'),)
+#(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/Chamber%C3%AD'),)
+#(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/Latina'),)
+#(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/Moncloa-Aravaca'),)
+#(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/Arganzuela'),)
+
+# QUERY 3: Get all the distinct streets with numPeatones > 800
+SELECT DISTINCT ?perteneceACalle 
+        WHERE {
+          ?peaton a peaton:Peaton .
+          ?peaton peaton:numPeatones ?numPeatones .
+          FILTER (xsd:float(?numPeatones) > 800.0)
+          ?peaton peaton:fechaHora ?fechaHora .
+          ?peaton peaton:perteneceACalle ?perteneceACalle .
+        }
+
+# Result:
+(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/resource/Calle%20Fuencarral'),)
+(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/resource/Gran%20V%C3%ADa'),)
+(rdflib.term.URIRef('http://opendataandkg.org/group06/ontology/calle/resource/Calle%20Toledo'),)
+
+# QUERY 4: Get the sum of numPeatones in Calle Toledo in 2021
+SELECT (SUM(?numPeatones) as ?totalNumPeatones)
+        WHERE {
+          ?peaton a peaton:Peaton ;
+                  peaton:fechaHora ?fechaHora ;
+                  peaton:numPeatones ?numPeatones ;
+                  peaton:perteneceACalle <http://opendataandkg.org/group06/ontology/calle/resource/Calle%20Toledo> .
+
+          FILTER (STRSTARTS(STR(?fechaHora), "2021"))
+        }
+
+# Result: 
+(rdflib.term.Literal('100222.52', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#float')),)

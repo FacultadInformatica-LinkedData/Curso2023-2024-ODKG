@@ -1,0 +1,53 @@
+prefixes:
+  me: 'http://madrid.encuentra.es/resource/'
+  esagenda: 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda'
+  vocab: 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda'
+  xsd: 'http://www.w3.org/2001/XMLSchema#'
+
+mappings:
+  event:
+    sources:
+      - ['datacsv.csv~csv']
+    s: http://madrid.encuentra.es/resource/Evento/$(ID-EVENTO)
+    po:
+      - [a, esagenda:Evento]
+      - [me:name, $(TITULO), xsd:string]
+      - [me:description,$(DESCRIPCION), xsd:string]
+      - [esagenda:fechaInicio,$(FECHA), xsd:date]
+      - [esagenda:fechaFin,$(FECHA-FIN), xsd:date]
+      - [esagenda:horaInicio,$(HORA), xsd:date]
+      - [me:id,$(ID-EVENTO), xsd:string]
+      - [me:Facility,$(NOMBRE-INSTALACION), xsd:string]
+    o:
+         - mapping: facility
+           condition:
+            function: equal
+            parameters:
+              - [str1, $(NOMBRE-INSTALACION)]
+              - [str2, $(NOMBRE)]
+  facility:
+    sources:
+      - ['data2.json~jsonpath','$.data[*]']
+    s: http://madrid.encuentra.es/resource/Facility/$(PK)
+    po:
+      - [a, me:Facility]
+      - [me:name, $(NOMBRE), xsd:string]
+      - [me:descripcion, $(DESCRIPCION-ENTIDAD), xsd:string]
+      - [me:horario, $(HORARIO), xsd:string]
+      - [me:accesible, $(ACCESIBILIDAD), xsd:string]
+      - [me:contentURL, $(CONTENT-URL)~iri]
+      - [vocab:nombreVia, $(NOMBRE-VIA), xsd:string]
+      - [vocab:claseVial, $(CLASE-VIAL), xsd:string]
+      - [vocab:tipoNum, $(TIPO-NUM), xsd:string]
+      - [vocab:num, $(NUM), xsd:string]
+      - [vocab:localidad, $(LOCALIDAD), xsd:string]
+      - [vocab:provincia, $(PROVINCIA), xsd:string]
+      - [vocab:codigoPostal, $(CODIGO-POSTAL), xsd:string]
+      - [vocab:codBarrio, $(COD-BARRIO), xsd:string]
+      - [vocab:barrio, $(BARRIO), xsd:string]
+      - [vocab:codDistrito, $(COD-DISTRITO), xsd:string]
+      - [vocab:distrito, $(DISTRITO), xsd:string]
+      - [vocab:coordenadaX, $(COORDENADA-X), xsd:string]
+      - [vocab:coordenadaY, $(COORDENADA-Y), xsd:string]
+      - [vocab:latitud, $(LATITUD), xsd:string]
+      - [vocab:longitud, $(LONGITUD), xsd:string]
