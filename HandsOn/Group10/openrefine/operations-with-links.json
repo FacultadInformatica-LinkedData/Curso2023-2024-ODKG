@@ -1,0 +1,140 @@
+{
+  "op": "core/recon",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Nombre_Distrito",
+  "config": {
+    "mode": "standard-service",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "type": {
+      "id": "Q3032114",
+      "name": "district of Madrid"
+    },
+    "autoMatch": true,
+    "columnDetails": [],
+    "limit": 0
+  },
+  "description": "Reconcile cells in column Nombre_Distrito to type Q3032114"
+},
+{
+  "op": "core/recon",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Nombre_Especie",
+  "config": {
+    "mode": "standard-service",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "type": {
+      "id": "Q16521",
+      "name": "taxon"
+    },
+    "autoMatch": true,
+    "columnDetails": [],
+    "limit": 0
+  },
+  "description": "Reconcile cells in column Nombre_Especie to type Q16521"
+},
+{
+  "op": "core/recon",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Nombre_Barrio",
+  "config": {
+    "mode": "standard-service",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "type": {
+      "id": "Q10267336",
+      "name": "neighborhood of Madrid"
+    },
+    "autoMatch": true,
+    "columnDetails": [],
+    "limit": 0
+  },
+  "description": "Reconcile cells in column Nombre_Barrio to type Q10267336"
+},
+{
+  "op": "core/recon",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Dirección",
+  "config": {
+    "mode": "standard-service",
+    "service": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "type": {
+      "id": "Q79007",
+      "name": "street"
+    },
+    "autoMatch": true,
+    "columnDetails": [],
+    "limit": 0
+  },
+  "description": "Reconcile cells in column Dirección to type Q79007"
+},
+{
+  "op": "core/column-addition",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "baseColumnName": "Nombre_Distrito",
+  "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+  "onError": "set-to-blank",
+  "newColumnName": "Wikidata Distrito",
+  "columnInsertIndex": 2,
+  "description": "Create column Wikidata Distrito at index 2 based on column Nombre_Distrito using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+},
+{
+  "op": "core/column-addition",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "baseColumnName": "Nombre_Especie",
+  "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+  "onError": "set-to-blank",
+  "newColumnName": "Wikidata Especies",
+  "columnInsertIndex": 5,
+  "description": "Create column Wikidata Especies at index 5 based on column Nombre_Especie using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+},
+{
+  "op": "core/column-addition",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "baseColumnName": "Nombre_Barrio",
+  "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+  "onError": "set-to-blank",
+  "newColumnName": "Wikidata Barrio",
+  "columnInsertIndex": 10,
+  "description": "Create column Wikidata Barrio at index 10 based on column Nombre_Barrio using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+},
+{
+  "op": "core/column-addition",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "baseColumnName": "Dirección",
+  "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+  "onError": "set-to-blank",
+  "newColumnName": "Wikidata Dirección",
+  "columnInsertIndex": 12,
+  "description": "Create column Wikidata Dirección at index 12 based on column Dirección using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+}
