@@ -152,7 +152,7 @@
         rr:predicate art:hasWidth ;
         rr:objectMap [
             rml:reference "width";
-            rr:datatype xsd:integer;
+            rr:datatype xsd:decimal;
         ];
     ];
 
@@ -160,6 +160,6 @@
         rr:predicate art:hasHeight ;
         rr:objectMap [
             rml:reference "height";
-            rr:datatype xsd:integer;
+            rr:datatype xsd:decimal;
         ];
     ].
