@@ -227,14 +227,5 @@
 :pm_018 rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
 :pom_018 rr:objectMap :om_018.
 :om_018 a rr:ObjectMap;
-    rml:reference "same_as_wikidata_town_in_the_united_states";
-    rr:termType rr:IRI.
-:pom_019 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_019.
-:pm_019 a rr:PredicateMap.
-:pom_019 rr:predicateMap :pm_019.
-:pm_019 rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-:pom_019 rr:objectMap :om_019.
-:om_019 a rr:ObjectMap;
-    rml:reference "same_as_wikidata_city_in_the_united_states";
+    rml:reference "same_as_wikidata_Connecticut";
     rr:termType rr:IRI.

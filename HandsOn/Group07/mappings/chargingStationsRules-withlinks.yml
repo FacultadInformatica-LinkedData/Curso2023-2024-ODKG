@@ -51,5 +51,4 @@ mappings:
       - [rdfs:label, $(City), xsd:string]
       - [ont:counties, $(Counties), xsd:string]
       - [ont:townIndex, $(TownIndex), xsd:integer]
-      - [owl:sameAs, $(same_as_wikidata_town_in_the_united_states)~iri]
-      - [owl:sameAs, $(same_as_wikidata_city_in_the_united_states)~iri]
+      - [owl:sameAs, $(same_as_wikidata_Connecticut)~iri]
