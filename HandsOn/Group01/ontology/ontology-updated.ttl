@@ -5,6 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dbp: <https://dbpedia.org/ontology/> .
+@prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
+@prefix geof: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
 
 nso: a owl:Ontology ;
     dc:creator "group01" ;
@@ -13,25 +15,20 @@ nso: a owl:Ontology ;
     owl:versionInfo "0.0.1" .
 
 #Properties
-nso:hasDistrict a owl:ObjectProperty ;
+geocod:hasDistrict a owl:ObjectProperty ;
     rdfs:label "has district" ;
-    rdfs:domain nso:Zone ;
-    rdfs:range nso:District .
+    rdfs:domain geof:Zone ;
+    rdfs:range dbp:District .
 
 nso:hasResidue a owl:ObjectProperty ;
     rdfs:label "has residue" ;
-    rdfs:domain nso:District ;
+    rdfs:domain dbp:District ;
     rdfs:range nso:WasteType .
 
 nso:hasTotal a owl:ObjectProperty ;
     rdfs:label "has total" ;
     rdfs:domain nso:WasteType ;
     rdfs:range nso:Total .
-
-nso:id a owl:DatatypeProperty ;
-    rdfs:label "id" ;
-    rdfs:domain nso:District ;
-    rdfs:range xsd:integer .
 
 nso:month a owl:DatatypeProperty ;
     rdfs:label "month" ;
@@ -41,7 +38,7 @@ nso:month a owl:DatatypeProperty ;
 nso:referedTo a owl:ObjectProperty ;
     rdfs:label "refered to" ;
     rdfs:domain nso:Total ;
-    rdfs:range nso:District .
+    rdfs:range dbp:District .
 
 nso:value a owl:DatatypeProperty ;
     rdfs:label "value" ;
@@ -55,24 +52,24 @@ nso:year a owl:DatatypeProperty ;
 
 nso:zoneID a owl:DatatypeProperty ;
     rdfs:label "zoneId" ;
-    rdfs:domain nso:Zone ;
+    rdfs:domain geof:Zone ;
     rdfs:range xsd:integer .
 
-nso:districtID a owl:DatatypeProperty ;
+dbp:districtID a owl:DatatypeProperty ;
     rdfs:label "districtID" ;
-    rdfs:domain nso:District ;
+    rdfs:domain dbp:District ;
     rdfs:range xsd:integer .
 
-nso:districtName a owl:DatatypeProperty ;
+dbp:districtName a owl:DatatypeProperty ;
     rdfs:label "districtName" ;
-    rdfs:domain nso:District ;
+    rdfs:domain dbp:District ;
     rdfs:range xsd:string .
 
 rdfs:label a owl:DatatypeProperty ;
     rdfs:label "label" .
 
 #Class
-nso:Zone a owl:Class ;
+geof:Zone a owl:Class ;
     rdfs:label "Zone" .
 
 nso:WasteType a owl:Class ;
