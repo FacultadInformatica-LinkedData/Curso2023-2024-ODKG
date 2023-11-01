@@ -67,16 +67,3 @@ PREFIX schema: <https://schema.org/>
                 }    
                 
 
-# Query 5: Retrieve the city and state of wikidata of university:
-    
-                SELECT ?nameCity ?uriCityWikiData ?nameState ?uriStateWikiData WHERE {
-                    ?university dbo:city ?city .
-                    ?city rdf:label ?nameCity.
-                    ?city owl:sameAs ?uriCityWikiData.
-                    ?university dbo:state ?state.
-                    ?state rdf:label ?nameState.
-                    ?state owl:sameAs ?uriStateWikiData.
-                    ?university rdf:type ns:University.
-                }    
-                
-

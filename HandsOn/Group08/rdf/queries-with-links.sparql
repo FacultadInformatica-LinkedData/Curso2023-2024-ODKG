@@ -1,0 +1,28 @@
+# University Infomation Ontology Queries
+
+# Prefixs:
+
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX ns: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#>
+PREFIX schema: <https://schema.org/> 
+
+
+
+# Query 5: Retrieve the city and state of wikidata of university:
+    
+                SELECT ?nameCity ?uriCityWikiData ?nameState ?uriStateWikiData WHERE {
+                    ?university dbo:city ?city .
+                    ?city rdf:label ?nameCity.
+                    ?city owl:sameAs ?uriCityWikiData.
+                    ?university dbo:state ?state.
+                    ?state rdf:label ?nameState.
+                    ?state owl:sameAs ?uriStateWikiData.
+                    ?university rdf:type ns:University.
+                }    
+                
+
