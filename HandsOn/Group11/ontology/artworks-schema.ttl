@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix dbo: <http://dbpedia.org/ontology/>
+@prefix dbr: <http://dbpedia.org/resource/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# :ArtworkDimension class
+
+:ArtworkDimension rdf:type owl:Class .
+
+# :ArtworkDimension properties
+
+:hasWidth rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ArtworkDimension ;
+    rdfs:range xsd:integer .
+
+:hasHeight rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ArtworkDimension ;
+    rdfs:range xsd:integer .
+
+:hasDepth rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ArtworkDimension ;
+    rdfs:range xsd:integer .
+
+:hasUnitOfMeasure rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ArtworkDimension ;
+    rdfs:range xsd:string .
+
+:hasDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ArtworkDimension ;
+    rdfs:range xsd:string .
+
+# :Artwork class
+
+:Artwork rdf:type owl:Class .
+
+# :Artwork properties
+
+:hasId rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:integer .
+
+:hasAccessionNumber rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasArtist rdf:type owl:ObjectProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range dbo:Animal.
+
+:hasArtistRole rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasArtistId rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:integer .
+
+:hasTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasDateText rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasMedium rdf:type owl:ObjectProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range owl:Thing.
+
+:hasCreditLine rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:madeInYear rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:integer .
+
+:acquiredInYear rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:integer .
+
+:hasDimension rdf:type owl:ObjectProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range :ArtworkDimension .
+
+:hasInscription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasThumbnailCopyright rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:string .
+
+:hasThumbnailUrl rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:anyURI .
+
+:hasUrl rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Artwork ;
+    rdfs:range xsd:anyURI .

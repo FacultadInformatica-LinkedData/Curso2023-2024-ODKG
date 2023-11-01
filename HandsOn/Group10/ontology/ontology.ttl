@@ -1,0 +1,95 @@
+ @prefix base: <http://base.itree.com#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base: a owl:Ontology ;
+    dc:creator "Andrés Ollero Morales",
+        "Mercedes Jiménez Díaz-Varela",
+        "Miguel Hernando Padilla",
+        "Nicolás Bravo Ruiz de la Prada" ;
+    dc:description "Ontology code created by Chowlk" ;
+    owl:versionInfo "0.0.1" .
+
+ns:IDParqueCanino a owl:DatatypeProperty ;
+    rdfs:label "i d parque canino" ;
+    rdfs:domain ns:ParqueCanino ;
+    rdfs:range xsd:Integer .
+
+ns:extensionParque a owl:DatatypeProperty ;
+    rdfs:label "extension parque" ;
+    rdfs:domain ns:ParqueCanino ;
+    rdfs:range xsd:Integer .
+
+ns:hasBarrio a owl:ObjectProperty ;
+    rdfs:label "has barrio" ;
+    rdfs:domain ns:Distrito ;
+    rdfs:range ns:Barrio .
+
+ns:hasDireccion a owl:ObjectProperty ;
+    rdfs:label "has direccion" ;
+    rdfs:domain ns:Barrio ;
+    rdfs:range ns:Direccion .
+
+ns:hasParqueCanino a owl:ObjectProperty ;
+    rdfs:label "has parque canino" ;
+    rdfs:domain ns:Direccion ;
+    rdfs:range ns:ParqueCanino .
+
+ns:hasTree a owl:ObjectProperty ;
+    rdfs:label "has tree" ;
+    rdfs:domain ns:Distrito ;
+    rdfs:range ns:Tree .
+
+ns:nombreBarrio a owl:DatatypeProperty ;
+    rdfs:label "nombre barrio" ;
+    rdfs:domain ns:Barrio ;
+    rdfs:range xsd:String .
+
+ns:nombreDireccion a owl:DatatypeProperty ;
+    rdfs:label "nombre direccion" ;
+    rdfs:domain ns:Direccion ;
+    rdfs:range xsd:String .
+
+ns:nombreDistrito a owl:DatatypeProperty ;
+    rdfs:label "nombre distrito" ;
+    rdfs:domain ns:Distrito ;
+    rdfs:range xsd:String .
+
+ns:nombreEspecie a owl:DatatypeProperty ;
+    rdfs:label "nombre especie" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:String .
+
+ns:numeroBarrio a owl:DatatypeProperty ;
+    rdfs:label "numero barrio" ;
+    rdfs:domain ns:Barrio ;
+    rdfs:range xsd:Integer .
+
+ns:numeroDistrito a owl:DatatypeProperty ;
+    rdfs:label "numero distrito" ;
+    rdfs:domain ns:Distrito ;
+    rdfs:range xsd:Integer .
+
+ns:unidades a owl:DatatypeProperty ;
+    rdfs:label "unidades" ;
+    rdfs:domain ns:Tree ;
+    rdfs:range xsd:Integer .
+
+ns:Direccion a owl:Class ;
+    rdfs:label "Direccion" .
+
+ns:ParqueCanino a owl:Class ;
+    rdfs:label "Parque Canino" .
+
+ns:Tree a owl:Class ;
+    rdfs:label "Tree" .
+
+ns:Barrio a owl:Class ;
+    rdfs:label "Barrio" .
+
+ns:Distrito a owl:Class ;
+    rdfs:label "Distrito" .
+
