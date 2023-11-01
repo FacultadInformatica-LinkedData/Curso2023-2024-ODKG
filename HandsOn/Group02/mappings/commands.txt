@@ -19,9 +19,11 @@
 but you can send them to a file by using the option -o /path/to/outputfile of the RMLMapper.]
 
 #################GENERATE RML
-A)yarrrml-parser -i rules.yml -o rules.rml.ttl
-B)yarrrml-parser -i rules-with-links.yml -o rules.rml.ttl
+A)yarrrml-parser -i rules.yml -o rules.rml
+B)yarrrml-parser -i rules-with-links.yml -o rules-with-links.rml
+C)yarrrml-parser -i rules-with-links-updated.yml -o rules-with-links-updated.rml
 
 #################GENERATE RDF
-A)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules.rml.ttl -o ..\rdf\rdf_with_rules.ttl
-B)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links.rml.ttl -o ..\rdf\rdf_with_rules-with-links.ttl
+A)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules.rml -o ..\rdf\rdf_with_rules.ttl
+B)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links.rml -o ..\rdf\rdf_with_rules-with-links.ttl
+C)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links-updated.rml -o ..\rdf\rdf_with_rules-with-links-updated.ttl
