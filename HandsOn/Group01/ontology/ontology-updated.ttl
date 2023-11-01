@@ -51,7 +51,7 @@ time:year a owl:DatatypeProperty ;
 time:month a owl:DatatypeProperty ;
     rdfs:label "month" ;
     rdfs:domain nso:Total ;
-    rdfs:range xsd:gMonth .
+    rdfs:range xsd:string .
 
 nso:zoneID a owl:DatatypeProperty ;
     rdfs:label "zoneId" ;
