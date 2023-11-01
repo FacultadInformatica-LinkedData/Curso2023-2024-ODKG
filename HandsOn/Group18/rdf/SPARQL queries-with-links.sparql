@@ -20,14 +20,34 @@ SELECT DISTINCT ?xdistrict ?WeatherType WHERE {
              ns:weatherCondition ?WeatherType
   }
 
+SELECT DISTINCT ?parts WHERE{
+  ?Subject a ns:Vehicle.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P527 ?parts.
+}
+
+#gets the name of every head of goverment of each district
+SELECT DISTINCT ?name WHERE{
+  ?Subject a ns:District.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P6 ?hog.
+  ?hog https://www.wikidata.org/wiki/Property:P735 ?name.
+  }
+
+SELECT DISTINCT ?upclass WHERE{
+  ?Subject a ns:Weather.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P279 ?upclass.
+}
+
 SELECT ?Label ?WikiLink  WHERE {
       ?Subject a ns:Vehicle;
-        owl:sameAs ?WikiLink;
-        rdf:label ?Label                    
+        owl:sameAs ?WikiLink.
+      ?WikiLink rdf:label ?Label                    
   }
 
 SELECT ?Label ?WikiLink  WHERE {
       ?Subject a ns:Weather;
-        owl:sameAs ?WikiLink;
-        rdf:label ?Label                    
+        owl:sameAs ?WikiLink.
+        ?WikiLink rdf:label ?Label                     
   }
