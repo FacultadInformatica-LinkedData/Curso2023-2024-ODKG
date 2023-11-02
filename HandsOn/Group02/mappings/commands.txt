@@ -23,5 +23,5 @@ A)yarrrml-parser -i rules.yml -o rules.rml.ttl
 B)yarrrml-parser -i rules-with-links.yml -o rules.rml.ttl
 
 #################GENERATE RDF
-A)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules.rml.ttl -o ..\rdf\rdf_with_rules.ttl
-B)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links.rml.ttl -o ..\rdf\rdf_with_rules-with-links.ttl
+A)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules.rml -o ..\rdf\rdf_with_rules.ttl
+B)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links.rml -o ..\rdf\rdf_with_rules-with-links.ttl

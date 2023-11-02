@@ -2,7 +2,7 @@ from rdflib.plugins.sparql import prepareQuery
 from rdflib import Graph
 from rdflib.query import Result
 
-from globals import OUT_GRAPH, OUT_QUERY, QUERYS_SPARQL
+from globals import OUT_GRAPH, OUT_GRAPH_LINKS, OUT_QUERY, QUERYS_SPARQL, QUERYS_SPARQL_LINKS
 from pydantic import BaseModel
 
 from time import time
@@ -19,10 +19,12 @@ PREFIX schema: <https://schema.org/>
 
 """
 
+
 class Query(BaseModel):
     id: int
     description: str
     query: str
+
 
 QUERIES = [
     Query(id=1, description="""Select all the possible values of the property
@@ -76,7 +78,10 @@ QUERIES = [
   					FILTER (xsd:string(?score) = "1"^^xsd:string)
                 }    
                 """,
-          ),
+          )]
+
+QUERIES_LINKS = [
+
     Query(id=5, description="Retrieve the city and state of wikidata of university",
           query="""    
                 SELECT ?nameCity ?uriCityWikiData ?nameState ?uriStateWikiData WHERE {
@@ -89,14 +94,16 @@ QUERIES = [
                     ?university rdf:type ns:University.
                 }    
                 """
-        )]
+          )
+]
+
 
 def dump2csv(filename: str, result: Result):
     with open(filename+"-result.csv", "wb") as f:
         f.write(result.serialize(format="csv"))
 
 
-def make_query(query: Query, limit: int = 50):
+def make_query(g: Graph, query: Query, limit: int = 50):
 
     limit = "\nLIMIT " + str(limit)
 
@@ -104,20 +111,9 @@ def make_query(query: Query, limit: int = 50):
     return result
 
 
-if __name__ == "__main__":
+def write_querys(path: str, queries: list[Query]):
 
-    g = Graph()
-
-    # Load Graph
-    g.parse(OUT_GRAPH, format="nt")
-
-    # Selected queries
-    queries = QUERIES[:]
-
-    print("Number of querys selected:", len(queries))
-
-    # Write queries
-    with open(QUERYS_SPARQL, "w") as f:
+    with open(path, "w") as f:
         f.write("# University Infomation Ontology Queries\n\n")
         f.write("# Prefixs:\n" + PREFIX + "\n\n")
 
@@ -125,21 +121,54 @@ if __name__ == "__main__":
             f.write(f"# Query {q.id}: {q.description}:\n")
             f.write(q.query + "\n\n")
 
-            
-    # Write Results
+
+def consult_query(g: Graph, queries: list[Query]):
+
     for q in queries:
         print("-"*40)
         print("Consulting:", q.id)
 
         start = time()
-        result = make_query(q)
+        result = make_query(g, q)
         end = time()
 
         print("Number of results", len(result))
         print(f"Time Query {q.id}:  {round(end-start, 3)} s")
-        print("Writting:", q.id, flush=True)
+        print("Writting query:", q.id, flush=True)
         dump2csv(OUT_QUERY + str(q.id), result)
+        print("Writted", flush=True)
+
+
+def test_graph(path_g: str, format: str, path_q: str, queries: list[Query]):
+    g = Graph()
+
+    print("Testing Graph")
+
+    print("Number of querys selected:", len(queries))
+
+    write_querys(path_q, queries)
+
+    print("Queries writted")
+
+    # Load Graph
+    g.parse(path_g, format=format)
+
+    print("Load Graph", path_g)
+
+    consult_query(g, queries)
 
     print("Result writted")
 
     print("Finish")
+
+
+if __name__ == "__main__":
+
+    test_graph(OUT_GRAPH_LINKS, OUT_GRAPH_LINKS.split(
+        ".")[-1], QUERYS_SPARQL_LINKS, QUERIES_LINKS)
+    
+    print("\n"*2, "-"*20, "\n"*2)
+
+    
+    test_graph(OUT_GRAPH, OUT_GRAPH.split(".")[-1], QUERYS_SPARQL, QUERIES)
+    

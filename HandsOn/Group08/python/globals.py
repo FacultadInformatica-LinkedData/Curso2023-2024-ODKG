@@ -7,8 +7,9 @@ CONFIG_MAPPING = join("mappings", "config.ini")
 CONFIG_MAPPING_LINKS = join("mappings", "config-with-links.ini")
 
 QUERYS_SPARQL = join("rdf", "queries.sparql")
-OUT_QUERY = join("rdf", "query")
+QUERYS_SPARQL_LINKS = join("rdf", "queries-with-links.sparql")
 
+OUT_QUERY = join("rdf", "query")
 
 def change_path(filename): return filename.replace(
     "-updated.csv", "-final.csv")
