@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix clase2: <http://madridalfresco.es/lcc/resource/>.
 @prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>.
-@prefix gn: <https://www.geonames.org/ontology#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
 @prefix coord: <http://purl.org/net/cartCoord#>.
 @prefix gtfs: <http://vocab.gtfs.org/gtfs.ttl#>.
 @prefix escjr: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#>.

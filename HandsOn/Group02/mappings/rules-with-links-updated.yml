@@ -2,7 +2,7 @@ prefixes:
   clase2: "http://madridalfresco.es/lcc/resource/"
   clase: "http://madridalfresco.es/lcc/ontology/locales#"
   esadm: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#
-  gn: "https://www.geonames.org/ontology#"
+  gn: "http://www.geonames.org/ontology#"
   coord: "http://purl.org/net/cartCoord#"
   gtfs: "http://vocab.gtfs.org/gtfs.ttl#"
   escjr: "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
