@@ -14,22 +14,22 @@
 #    Object Properties  
 #################################################################
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#Location
+###   http://healthcentersmadrid.es/locations/ontology/ont#isLocated
 :isLocated rdf:type owl:ObjectProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range :Location .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#Information
+###   http://healthcentersmadrid.es/locations/ontology/ont#hasOtherInformation
 :hasOtherInformation rdf:type owl:ObjectProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range :Information .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#Address
-:hasAddress rdf:type owl:ObjectProperty ;
+###   http://healthcentersmadrid.es/locations/ontology/ont#hasAddress
+:isLocated rdf:type owl:ObjectProperty ;
         rdfs:domain :Location ;
         rdfs:range :Address .
 
-###   http://healthcentersmadrid.es/locations/ontology/ont#Contact
+###   http://healthcentersmadrid.es/locations/ontology/ont#hasContact
 :hasContact rdf:type owl:ObjectProperty ;
         rdfs:domain :Information ;
         rdfs:range :Contact .
@@ -42,11 +42,6 @@
 :pk rdf:type owl:DatatypeProperty ;
         rdfs:domain :HealthCentre ;
         rdfs:range xsd:int .
-
-###   http://healthcentersmadrid.es/locations/ontology/ont#name
-:name rdf:type owl:DatatypeProperty ;
-        rdfs:domain :HealthCentre ;
-        rdfs:range xsd:string .
 
 ###   http://healthcentersmadrid.es/locations/ontology/ont#typeCenter
 :typeCenter rdf:type owl:DatatypeProperty ;
@@ -84,8 +79,8 @@
         rdfs:range xsd:string .
 
 
-###  http://healthcentersmadrid.es/locations/ontology/ont#neighbourhood
-:neighbourhood rdf:type owl:DatatypeProperty ;
+###  http://healthcentersmadrid.es/locations/ontology/ont#neighborhood
+:latitude rdf:type owl:DatatypeProperty ;
         rdfs:domain :Address ;
         rdfs:range xsd:string .
 

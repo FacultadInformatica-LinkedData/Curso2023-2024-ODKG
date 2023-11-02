@@ -24,16 +24,20 @@ ont:Address a owl:Class
 
 
 # Define Data properties
-
-ont:accessDaysTime a owl:DatatypeProperty ;
-    rdfs:label "Access Days Time 1" ;
+ont:stationName a owl:DatatypeProperty ;
+    rdfs:label "Station Name" ;
     rdfs:domain ont:ChargingStation ;
     rdfs:range xsd:string .
 
-ont:additionalInfo a owl:DatatypeProperty ;
-    rdfs:label "Additional Info" ;
+ont:streetAddress a owl:DatatypeProperty ;
+    rdfs:label "Street Address" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range xsd:string .    
+    rdfs:range xsd:string .
+
+ont:accessDaysTime a owl:DatatypeProperty ;
+    rdfs:label "Access Days Time" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:string .
 
 ont:evLevel1EVSENum a owl:DatatypeProperty ;
     rdfs:label "EV Level1 EVSE Num" ;
@@ -50,25 +54,25 @@ ont:evDCFastCount a owl:DatatypeProperty ;
     rdfs:domain ont:ChargingStation ;
     rdfs:range xsd:integer .
 
-ont:longitude a owl:DatatypeProperty ;
-    rdfs:label "Longitude" ;
+ont:evOtherInfo a owl:DatatypeProperty ;
+    rdfs:label "EV Other Info" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range xsd:float .
+    rdfs:range xsd:string .
 
-ont:latitude a owl:DatatypeProperty ;
-    rdfs:label "Latitude" ;
+ont:newGeoreferencedColumn a owl:DatatypeProperty ;
+    rdfs:label "New Georeferenced Column" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range xsd:float .
+    rdfs:range xsd:string .
 
 ont:counties a owl:DatatypeProperty ;
     rdfs:label "Counties" ;
     rdfs:domain ont:City ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer .
 
 ont:zipCode a owl:DatatypeProperty ;
     rdfs:label "ZipCode" ;
     rdfs:domain ont:Address ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer .
 
 ont:townIndex a owl:DatatypeProperty ;
     rdfs:label "Town Index" ;
@@ -79,12 +83,7 @@ ont:townIndex a owl:DatatypeProperty ;
 
 # Define Object properties
 
-ont:streetAddress a owl:ObjectProperty ;
-    rdfs:label "Street Address" ;
-    rdfs:domain ont:ChargingStation ;
-    rdfs:range ont:Address .
-
 ont:city a owl:ObjectProperty ;
     rdfs:label "City" ;
-    rdfs:domain ont:Address ;
-    rdfs:range ont:City .
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:string .
