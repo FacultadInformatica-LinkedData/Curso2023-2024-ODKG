@@ -1,0 +1,8 @@
+
+streamlit
+pandas
+rdflib
+matplotlib
+altair
+folium
+streamlit_folium
