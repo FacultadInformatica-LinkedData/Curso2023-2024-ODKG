@@ -74,7 +74,7 @@ clase2:Local
     ]
   ];
  rr:predicateObjectMap [
-    rr:predicate esadm:perteneceADistrito;
+    rr:predicate esadm:distrito;
     rr:objectMap [
        rr:template "http://madridalfresco.es/lcc/resource/Distrito/{id_distrito}";
     ]
