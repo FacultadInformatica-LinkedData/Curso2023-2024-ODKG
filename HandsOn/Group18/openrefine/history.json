@@ -128,8 +128,41 @@
     "description": "Text transform on cells in column positiva_droga using expression value.replace(\"1.0\",\"True\")"
   },
   {
-    "op": "core/column-removal",
-    "columnName": "Column",
-    "description": "Remove column Column"
+    "op": "core/column-rename",
+    "oldColumnName": "Column",
+    "newColumnName": "recordNumber",
+    "description": "Rename column Column to recordNumber"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "estado_meteorológico",
+    "newColumnName": "estado_meteorologico",
+    "description": "Rename column estado_meteorológico to estado_meteorologico"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "positiva_alcohol",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column positiva_alcohol using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "positiva_droga",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column positiva_droga using expression value.toLowercase()"
   }
 ]

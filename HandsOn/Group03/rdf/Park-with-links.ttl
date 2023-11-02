@@ -1,0 +1,1867 @@
+@prefix ns1: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://vidaactivamadrid.es/info/resource/Park/16662> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16662" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> ;
+    ns1:name "PLAZA COMENDADORAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16683> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16683" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> ;
+    ns1:name "PLAZA PLAZA DOS DE MAYO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16695> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16695" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> ;
+    ns1:name "PLAZA PUERTA DE TOLEDO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16696> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16696" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> ;
+    ns1:name "PARQUE CASINO DE LA REINA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16697> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16697" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Justicia> ;
+    ns1:name "PLAZA PLAZA SANTA BARBARA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16707> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16707" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palos%20de%20la%20Frontera> ;
+    ns1:name "CALLE CANARIAS 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16714> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16714" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Imperial> ;
+    ns1:name "PZA. MERCADO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16725> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16725" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Acacias> ;
+    ns1:name "ACACIAS  PASILLO VERDE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16799> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16799" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Estrella> ;
+    ns1:name "PARQUE DE ROMA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16838> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16838" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuente%20del%20Berro> ;
+    ns1:name "PLAZA DE PEÑASCALES" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16849> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16849" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> ;
+    ns1:name "PARQUE DE MARIA EVA DUARTE DE PERON" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16860> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16860" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> ;
+    ns1:name "PARQUE DE LAS AVENIDAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16875> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16875" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Prosperidad> ;
+    ns1:name "JARDINES MARIO BENEDETTI" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16886> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16886" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Castilla> ;
+    ns1:name "Pº DE LA CASTELLANA II" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16894> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16894" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Jard%C3%ADn> ;
+    ns1:name "PARQUE DE BERLIN" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16905> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16905" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Prosperidad> ;
+    ns1:name "PARQUE FELIX RODRIGUEZ DE LA FUENTE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16929> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16929" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdeacederas> ;
+    ns1:name "PARQUE RODRIGUEZ SAHAGUN CON C/SINESIO DELGADO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16938> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16938" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdeacederas> ;
+    ns1:name "PARQUE RODRIGUEZ SAHAGUN CON Cº DEL CHORRILLO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16960> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16960" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Cuatro%20Caminos> ;
+    ns1:name "AVDA. BRASIL 13" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16969> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16969" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> ;
+    ns1:name "AVDA. ASTURIAS CON C/ ANTONIO GLEZ. ECHARTE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16977> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16977" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdeacederas> ;
+    ns1:name "C/ VEZA CON C/PLÁTANO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/16990> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "16990" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Trafalgar> ;
+    ns1:name "PLAZA OLAVIDE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17005> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17005" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Arapiles> ;
+    ns1:name "JARDINES CENTRO CULTURAL GALILEO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17006> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17006" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/R%C3%ADos%20Rosas> ;
+    ns1:name "C/ RAIMUNDO FERNÁNDEZ VILLAVERDE 30" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17007> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17007" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vallehermoso> ;
+    ns1:name "PZA. DOMÉNICO SCARLATTI" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17015> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17015" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pardo> ;
+    ns1:name "PARQUE DEL PUEBLO DE EL PARDO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17025> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17025" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> ;
+    ns1:name "PARQUE DE LA VAGUADA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17032> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17032" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> ;
+    ns1:name "CALLE ISLAS JARVI 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17042> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17042" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> ;
+    ns1:name "PLAZA FONSAGRADA CON PLAZA REDONDELA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17157> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17157" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> ;
+    ns1:name "Pº ANICETO MARINAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17177> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17177" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aravaca> ;
+    ns1:name "PLAZA AURORA BOREAL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17196> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17196" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> ;
+    ns1:name "PARQUE LUISA CARNES" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17207> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17207" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> ;
+    ns1:name "CALLE LONG" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17214> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17214" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aravaca> ;
+    ns1:name "PARQUE ARROYO POZUELOAMPLIACION" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17225> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17225" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aravaca> ;
+    ns1:name "AMPLIACION PARQUE ARROYO  POZUELO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17283> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17283" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> ;
+    ns1:name "PARQUE ALUCHE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17293> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17293" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> ;
+    ns1:name "PARQUE DE CERRO ALMODOVAR  1ª  2ª FASE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17304> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17304" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> ;
+    ns1:name "PARQUE CARAMUEL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17315> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17315" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> ;
+    ns1:name "CALLE CASTROSERNA JUNTO CENTRO CULTURAL LUCERO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17324> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17324" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    ns1:name "GRAL. FANJUL  STA. MARGARITA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17343> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17343" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> ;
+    ns1:name "PARQUE FÉLIX CORTÉS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17353> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17353" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> ;
+    ns1:name "PARQUE ALUCHE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17423> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17423" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> ;
+    ns1:name "CALLE CARRANQUE, 22" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17433> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17433" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> ;
+    ns1:name "CALLE DEL PARQUE EUGENIA DE MONTIJO 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17440> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17440" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "CALLE DE ANTONIA LANCHA 37" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17450> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17450" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Isidro> ;
+    ns1:name "CALLE DE CARONTE 14" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17459> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17459" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> ;
+    ns1:name "CALLE DE NUESTRA SEÑORA DE LA LUZ 9" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17464> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17464" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "CALLE DE MERCEDES ARTEAGA 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17469> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17469" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> ;
+    ns1:name "CALLE DEL PARQUE EUGENIA DE MONTIJO 78" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17478> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17478" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "GLORIETA DE VALLE DE ORO 13" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17488> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17488" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> ;
+    ns1:name "AVENIDA DE NUESTRA SEÑORA DE VALVANERA 111" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17578> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17578" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pradolongo> ;
+    ns1:name "AVENIDA DE RAFAELA YBARRA 22" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17588> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17588" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pradolongo> ;
+    ns1:name "CALLE DEL DOCTOR TOLOSA LATOUR 25" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17597> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17597" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almendrales> ;
+    ns1:name "CALLE DE LA ASUNCION 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17607> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17607" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Zof%C3%ADo> ;
+    ns1:name "CALLE DE MARCELO USERA 149" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17615> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17615" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almendrales> ;
+    ns1:name "CALLE DE SOCUELLAMOS 12" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17626> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17626" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DE CESTONA 84" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17636> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17636" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DE ALZOLA 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17643> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17643" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DE LA EXPROPIACION 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17676> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17676" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    ns1:name "CALLE DEL ARROYO DEL OLIVAR , 51A" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17685> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17685" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    ns1:name "CALLE DEL PUERTO DE LA BONAIGUA 20" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17693> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17693" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Entrev%C3%ADas> ;
+    ns1:name "AVENIDA ENTREVIAS 46" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17703> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17703" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DE BENARRABA 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17723> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17723" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DE TORREMOLINOS 16" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17731> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17731" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DE ANGELILLO 17" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17741> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17741" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Numancia> ;
+    ns1:name "CALLE DE BENJAMIN PALENCIA 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17751> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17751" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Numancia> ;
+    ns1:name "CALLE DE LAS MARISMAS 61" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17824> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17824" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Media%20Legua> ;
+    ns1:name "CALLE DEL ARROYO DE LAS PILILLAS 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17835> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17835" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Marroquina> ;
+    ns1:name "CALLE DEL CAMINO DE LOS VINATEROS 107C" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17918> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17918" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "C DOCTOR CIRAJAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/17929> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "17929" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Concepci%C3%B3n> ;
+    ns1:name "C JOSE DEL HIERRO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18047> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18047" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pinar%20del%20Rey> ;
+    ns1:name "C MAR DE LAS ANTILLAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18057> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18057" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> ;
+    ns1:name "C MIGUEL RIESCO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18066> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18066" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> ;
+    ns1:name "C ANDORRA 28" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18076> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18076" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> ;
+    ns1:name "C ACONCAGUA 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18086> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18086" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    ns1:name "C VELEZ RUBIO 31" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18096> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18096" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdefuentes> ;
+    ns1:name "C JUAN DANIEL FULLAONDO 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18103> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18103" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdefuentes> ;
+    ns1:name "C JOSE LUIS COLL 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18180> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18180" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pinar%20del%20Rey> ;
+    ns1:name "C MAR ADRIATICO 7" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18190> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18190" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    ns1:name "C JULIO DANVILA 15" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18199> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18199" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Crist%C3%B3bal> ;
+    ns1:name "CALLE DE BENIMAMET 137" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18209> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18209" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE SAN LUCIANO 15" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18220> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18220" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE SANTIAGO AMON 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18231> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18231" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Crist%C3%B3bal> ;
+    ns1:name "CALLE DE GODELLA 102" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18241> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18241" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    ns1:name "PASEO DE ALBERTO PALACIOS 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18249> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18249" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20Rosales> ;
+    ns1:name "CALLE DE LA UNANIMIDAD 44" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18258> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18258" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE LA DEL SOTO DEL PARRAL 61" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18269> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18269" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE LA CANCION DEL OLVIDO 16" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18279> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18279" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE CIFUENTES 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18297> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18297" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    ns1:name "CALLE DE BABILAFUENTE 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18366> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18366" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Santa%20Eugenia> ;
+    ns1:name "CALLE DEL MONTE DE MONTJUICH 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18377> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18377" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdebernardo> ;
+    ns1:name "CALLE DEL TREN DE ARGANDA 9" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18388> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18388" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    ns1:name "CTRA. EJE  O´DONNELL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18433> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18433" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillejas> ;
+    ns1:name "PLAZA CEFIRO 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18440> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18440" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillejas> ;
+    ns1:name "C NECTAR 39" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18447> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18447" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Hell%C3%ADn> ;
+    ns1:name "C ALBAIDA 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18454> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18454" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rejas> ;
+    ns1:name "AV SEXTA 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18463> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18463" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "C LA ILIADA 35" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18470> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18470" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "C MARIA SEVILLA DIAGO 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18480> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18480" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillejas> ;
+    ns1:name "C CANAL DEL BOSFORO 40" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18487> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18487" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rejas> ;
+    ns1:name "C NAVARIDAS 14" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18496> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18496" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "AV CANILLEJAS A VICALVARO 135" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18505> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18505" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "PASEO GINEBRA 20" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18596> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18596" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> ;
+    ns1:name "C AYERBE 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18606> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18606" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Corralejos> ;
+    ns1:name "C BAHIA DE SANTOÑA 6" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18617> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18617" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Alameda%20de%20Osuna> ;
+    ns1:name "PLAZA NAVIO 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/18626> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "18626" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Alameda%20de%20Osuna> ;
+    ns1:name "C NORAY 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3531283> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3531283" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> ;
+    ns1:name "JARDINES PAJARITOS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3531284> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3531284" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> ;
+    ns1:name "PARQUE MARTIN LUTHER KING" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3531285> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3531285" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    ns1:name "PAR MIRABEL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3531286> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3531286" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    ns1:name "CALLE VALLE INCLAN 3335" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3558513> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3558513" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> ;
+    ns1:name "CALLE SECO, 14" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3568166> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3568166" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Aeropuerto> ;
+    ns1:name "C PRADOLUENGO 123" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3568173> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3568173" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Tim%C3%B3n> ;
+    ns1:name "C ALAS 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3568177> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3568177" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> ;
+    ns1:name "C ACUARIO 27" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3568695> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3568695" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> ;
+    ns1:name "CALLE GENERAL CADENAS CAMPOS, 21" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573018> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573018" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Santa%20Eugenia> ;
+    ns1:name "CALLE DE LA VIRGEN DE LAS VIÑAS 22" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573049> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573049" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Isidro> ;
+    ns1:name "CALLE DEL GENERAL RICARDOS 126" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573054> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573054" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE LA ALEGRIA DE LA HUERTA 16" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573055> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573055" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE PAN Y TOROS 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573056> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573056" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE LA DEL MANOJO DE ROSAS 96" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573057> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573057" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE ALCOCER 26" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573058> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573058" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Crist%C3%B3bal> ;
+    ns1:name "PLAZA DE LOS PINAZO 23D" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573773> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573773" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pardo> ;
+    ns1:name "ESCUADRON  ALMENAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3573917> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3573917" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> ;
+    ns1:name "PARQUE BEGOÑA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3611795> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3611795" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Campamento> ;
+    ns1:name "COL. DEHESA DEL PPE." .
+
+<http://vidaactivamadrid.es/info/resource/Park/3739833> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3739833" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Paz> ;
+    ns1:name "PARQUE NORTE CARMEN TAGLE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3740132> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3740132" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Paz> ;
+    ns1:name "PARQUE DE LA SUPERMANZANA 7" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3740788> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3740788" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> ;
+    ns1:name "PARQUE DE LA BOMBILLA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3960567> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3960567" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> ;
+    ns1:name "BRESCIA  BRASILIA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3960929> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3960929" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Lista> ;
+    ns1:name "JARDINES GREGORIO ORDOÑEZ" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3961443> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3961443" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> ;
+    ns1:name "PLAZA DE SAN CAYETANO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3962084> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3962084" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Jard%C3%ADn> ;
+    ns1:name "PZA. SAGRADO CORAZON DE JESUS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3962563> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3962563" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> ;
+    ns1:name "LOS TRES OLIVOS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3990761> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3990761" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Delicias> ;
+    ns1:name "PARQUE DE DELICIAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3990960> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3990960" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Acacias> ;
+    ns1:name "PARQUE DE LAS PEÑUELAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3990963> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3990963" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Legazpi> ;
+    ns1:name "CALLE PUERTO DE BEJAR, 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991019> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991019" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> ;
+    ns1:name "JARDINES CONDE CARTAGENA  ABTAO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991087> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991087" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> ;
+    ns1:name "PARQUE MARTIN LUTHER KING" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991132> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991132" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pac%C3%ADfico> ;
+    ns1:name "DAOIZ Y VELARDE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991153> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991153" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Hispanoam%C3%A9rica> ;
+    ns1:name "URUGUAY  PINTOR RIBERA  ARBOLADO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991194> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991194" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Universitaria> ;
+    ns1:name "PARQUE DE FRANCOS RDGUEZ." .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991213> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991213" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Campamento> ;
+    ns1:name "JUAN CARMONA “HABICHUELA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991299> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991299" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> ;
+    ns1:name "PZA. OSA DE LA VEGA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/3991326> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "3991326" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> ;
+    ns1:name "JARDIN CEBREROS  SEPULVEDA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/451348> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "451348" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuente%20del%20Berro> ;
+    ns1:name "JARDINES DE LAS MUJERES DE VENTAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/451584> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "451584" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Atocha> ;
+    ns1:name "CAMINO DE PARQUE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/451593> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "451593" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Mirasierra> ;
+    ns1:name "A.P.E. 08 16 ARROYO DEL FRESNO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4704499> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4704499" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Castilla> ;
+    ns1:name "DETRAS DEL MERCADO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4704508> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4704508" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    ns1:name "DR. JOAQUIN LORENZO (APE 08.11)" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730800> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730800" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    ns1:name "CALLE DE VILLABLANCA 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730819> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730819" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasur> ;
+    ns1:name "CALLE DE PADUL 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730835> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730835" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> ;
+    ns1:name "CALLE DE LA SILVINA 9" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730844> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730844" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    ns1:name "CALLE DE POTES 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730856> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730856" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    ns1:name "CALLE DE ASTILLERO 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730869> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730869" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CAMINO DE LAS CRUCES 16" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4730886> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4730886" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> ;
+    ns1:name "PLAZA DE SAN VICENTE DE PAUL 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4731210> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4731210" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Prosperidad> ;
+    ns1:name "JARDINES MEDARDO FRAILE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4731641> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4731641" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Berruguete> ;
+    ns1:name "PZA. CANAL DE ISABEL II" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4731656> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4731656" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Arapiles> ;
+    ns1:name "PZA. CONDE DEL VALLE DE SUCHIL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4731667> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4731667" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Justicia> ;
+    ns1:name "PLAZA SALESAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737814> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737814" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Media%20Legua> ;
+    ns1:name "CALLE DE JOSE DEL PRADO Y PALACIO 1B" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737835> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737835" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Marroquina> ;
+    ns1:name "CALLE DEL ARROYO DE LAS PILILLAS 14" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737844> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737844" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Portazgo> ;
+    ns1:name "CALLE DE BENJAMIN PALENCIA 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737855> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737855" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "AVENIDA DE MIGUEL HERNANDEZ 11" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737941> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737941" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    ns1:name "CALLE DEL PUERTO DE BALBARAN 127" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737942> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737942" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    ns1:name "CALLE DE AMBROZ 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4737943> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4737943" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdebernardo> ;
+    ns1:name "CALLE DE LA LADERA DE LOS ALMENDROS 14G" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4738111> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4738111" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palacio> ;
+    ns1:name "PARQUE ATENAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749886> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749886" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Alameda%20de%20Osuna> ;
+    ns1:name "C BERGANTIN 26" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749887> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749887" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Corralejos> ;
+    ns1:name "C BAHIA DE SANTA POLA 68" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749888> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749888" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "C EZEQUIEL SOLANA 41" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749889> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749889" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Quintana> ;
+    ns1:name "C MISTERIOS 13" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749890> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749890" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Costillares> ;
+    ns1:name "C JAZMIN 3" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749893> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749893" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdefuentes> ;
+    ns1:name "C OÑA 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749894> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749894" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    ns1:name "CARRETERA ESTACION DE HORTALEZA 7" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749895> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749895" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "C MARSELLA 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4749896> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4749896" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> ;
+    ns1:name "C LIVERPOOL 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4796512> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4796512" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    ns1:name "CALLE DE LA SIERRA GORDA 25B" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4940263> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4940263" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Gaztambide> ;
+    ns1:name "JARDINES REVENGA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4985689> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4985689" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "RONDA DE LAS COOPERATIVAS 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4986212> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4986212" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    ns1:name "PARQUE ANA TUTOR" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4987144> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4987144" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CALLE DE AZCOITIA 31" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4987160> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4987160" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> ;
+    ns1:name "PLAZA DE SETUBAL 6B" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4988166> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4988166" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> ;
+    ns1:name "PLAZA ARTURO BAREA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4988217> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4988217" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DE VILLALOBOS 87" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4988273> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4988273" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DE IMPERIO ARGENTINA 7" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4989388> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4989388" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Delicias> ;
+    ns1:name "JARDIN DEL GRANITO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/4989404> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "4989404" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    ns1:name "CALLE DE SAN JUAN DE LA PEÑA 17" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5025103> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5025103" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Zof%C3%ADo> ;
+    ns1:name "CALLE DE RICARDO BELTRAN Y ROZPIDE 16" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5075332> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5075332" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> ;
+    ns1:name "LAGO DE SANABRIA 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5158970> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5158970" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ensanche%20de%20Vallecas> ;
+    ns1:name "CALLE PILAR DE MADARIAGA ROJO 28051 MADRID" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5173859> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5173859" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    ns1:name "CALLE DE LAS LENGUAS 6C" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5174650> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5174650" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DEL CAMPO DE LA PALOMA 8" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5174720> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5174720" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Media%20Legua> ;
+    ns1:name "AV. DEL DR. GARCIA TAPIA, 74" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5195568> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5195568" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> ;
+    ns1:name "CALLE DE SAN CLAUDIO 89" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5195676> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5195676" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> ;
+    ns1:name "PASEO DE LOS FERROVIARIOS 39" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5201907> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5201907" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "PLAZA LA OROTAVA 6" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52054> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52054" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Jard%C3%ADn> ;
+    ns1:name "PARQUE DE LA INFANCIA DE CHAMARTÍN" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52068> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52068" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Bellas%20Vistas> ;
+    ns1:name "C/TENERIFE CON C/SAN RAIMUNDO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52075> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52075" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuentelarreina> ;
+    ns1:name "PARQUE POBL. S. FRANCISCO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52076> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52076" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuentelarreina> ;
+    ns1:name "PARQUE GABRIELA MISTRAL" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52077> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52077" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Mirasierra> ;
+    ns1:name "AVENIDA VENTISQUERO DE LA CONDESA, 35" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52084> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52084" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> ;
+    ns1:name "CALLE VALDERREY, 40" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52085> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52085" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> ;
+    ns1:name "CALLE VALDERROMAN 24" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5209024> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5209024" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Campamento> ;
+    ns1:name "C. CINE, 33 CINE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5209092> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5209092" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> ;
+    ns1:name "C. HIGUERAS, 47A AJARDINAMIENTO CEBREROS  HIGUERAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52101> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52101" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> ;
+    ns1:name "CALLE  VIA LUSITANA  1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52102> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52102" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> ;
+    ns1:name "CALLE DEL MONSEÑOR OSCAR ROMERO 73" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5211393> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5211393" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> ;
+    ns1:name "C EL PROVENCIO 14" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52114> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52114" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE  GRAN AVENIDA 17A" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52115> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52115" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almendrales> ;
+    ns1:name "CALLE DE HERNANDEZ REQUENA 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5211511> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5211511" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pradolongo> ;
+    ns1:name "CALLE CARLOS MARÍN 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52116> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52116" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Zof%C3%ADo> ;
+    ns1:name "CALLE DE RICARDO BELTRAN Y ROZPIDE 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52120> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52120" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DEL CAMINO VIEJO DE VILLAVERDE 34" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52135> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52135" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vinateros> ;
+    ns1:name "CALLE DEL CAMINO DE LOS VINATEROS 136" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52142> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52142" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ventas> ;
+    ns1:name "AV MARQUES DE CORBERA 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52143> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52143" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "C SAN BALDOMERO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5218554> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5218554" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> ;
+    ns1:name "PZA. JOAQUIN DICENTA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5218558> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5218558" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> ;
+    ns1:name "C/ SAN LEOPOLDO Nº78" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5218564> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5218564" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> ;
+    ns1:name "C/ SAN AQUILINO Nº6" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5220679> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5220679" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Butarque> ;
+    ns1:name "CALLE DE CONCEPCIÓN DE LA OLIVA 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/52216> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "52216" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> ;
+    ns1:name "CALLE DEL PICO MAMPODRE 8" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5268593> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5268593" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Hispanoam%C3%A9rica> ;
+    ns1:name "PARQUE ORLANDO ZAPATA TAMAYO" .
+
+<http://vidaactivamadrid.es/info/resource/Park/5270355> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "5270355" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> ;
+    ns1:name "PLAZA NELSON MANDELA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/6779455> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "6779455" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> ;
+    ns1:name "COMANDANTE FORTEA 25 POST." .
+
+<http://vidaactivamadrid.es/info/resource/Park/6843085> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "6843085" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Acacias> ;
+    ns1:name "PLAZA PEÑUELAS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7021749> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7021749" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Marroquina> ;
+    ns1:name "CALLE DE FOBOS 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7074478> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7074478" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    ns1:name "CALLE DEL PAYASO FOFO 11" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7074605> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7074605" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> ;
+    ns1:name "CALLE DEL PAYASO FOFO 9" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7107055> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7107055" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> ;
+    ns1:name "MARCOS DE ORUETA 7 POST." .
+
+<http://vidaactivamadrid.es/info/resource/Park/7107704> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7107704" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    ns1:name "PLAZA PICO DE LA SALVAGUARDA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7107707> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7107707" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> ;
+    ns1:name "RIBERA DEL MANZANARES 111" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7125612> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7125612" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Mirasierra> ;
+    ns1:name "MARIA DE MAEZTU 50" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7125670> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7125670" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> ;
+    ns1:name "PICO MAJALASNA CV PICO BALAITUS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7126078> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7126078" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Entrev%C3%ADas> ;
+    ns1:name "CALLE DE LOS VECINOS DEL POZO 18" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7126494> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7126494" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DE LUIS OCAÑA 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7126499> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7126499" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DE VICTORIA KENT 110" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7126585> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7126585" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DE JOSE ESCOBAR Y SALIENTE 36" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7126590> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7126590" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DE GALES 31" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7127773> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7127773" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Bellas%20Vistas> ;
+    ns1:name "PZA. POETA LEOPOLDO LUIS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7129038> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7129038" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DEL CERRO DEL CAMPO 41" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7144040> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7144040" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Castillejos> ;
+    ns1:name "PZA. SAN GERMÁN" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7165658> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7165658" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/R%C3%ADos%20Rosas> ;
+    ns1:name "BRETON DE LOS HERREROS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7168554> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7168554" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> ;
+    ns1:name "CONDE DUQUE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7168609> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7168609" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Chopera> ;
+    ns1:name "PLAZA RUTILO GACIS" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7180264> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7180264" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> ;
+    ns1:name "PARQUE LUTHERKING ZONA 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7182696> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7182696" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Vinateros> ;
+    ns1:name "AVENIDA DE MORATALAZ 134" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7239998> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7239998" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "CALLE DE VALLE DE ORO 41" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7245849> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7245849" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> ;
+    ns1:name "CUÑA VERDE CV C/ALHAMBRA" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7247916> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7247916" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Entrev%C3%ADas> ;
+    ns1:name "RONDA  SUR 119" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7248199> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7248199" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20Rosales> ;
+    ns1:name "PLAZA CHOZA DE CANALES 4" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7356654> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7356654" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CALLE DE LA GUITARRA 9" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7403980> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7403980" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> ;
+    ns1:name "CALLE DE BESOLLA 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7537965> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7537965" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DE RONDA DE LAS COOPERATIVAS 6" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7538071> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7538071" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> ;
+    ns1:name "CALLE DEL CAMINO VIEJO DE VILLAVERDE 36" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7591499> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7591499" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CALLE DE LA LONJA DE LA SEDA 10" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7591554> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7591554" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CALLE DE MASCARAQUE 42" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7591607> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7591607" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> ;
+    ns1:name "CALLE DE RICARDO BELLVER 18" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7591686> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7591686" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> ;
+    ns1:name "HONTANILLA (VILLACASTIN 14)" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7595814> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7595814" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Pascual> ;
+    ns1:name "C TORRELAGUNA 50" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7602200> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7602200" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Arcos> ;
+    ns1:name "AV INSTITUCION LIBRE DE ENSEÑANZA 147" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7613890> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7613890" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> ;
+    ns1:name "PZA. DEL ESTE" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7838875> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7838875" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Portazgo> ;
+    ns1:name "CALLE DE RAMIREZ TOME 21" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7840614> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7840614" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> ;
+    ns1:name "PARQUE CASINO DE LA REINA (AREA 2)" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7861574> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7861574" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> ;
+    ns1:name "CALLE DE LA CANCION DEL OLVIDO 48" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7886698> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7886698" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> ;
+    ns1:name "AVD. DEL FERROL 14 POST." .
+
+<http://vidaactivamadrid.es/info/resource/Park/7895078> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7895078" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> ;
+    ns1:name "FERROL 29 POST." .
+
+<http://vidaactivamadrid.es/info/resource/Park/7897950> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7897950" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> ;
+    ns1:name "C AÑASTRO 44" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7928105> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7928105" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> ;
+    ns1:name "CALLE DEL CERRO DEL TESORO, 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7943778> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7943778" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "CALLE DE CATALINA LABOURE 1" .
+
+<http://vidaactivamadrid.es/info/resource/Park/7943797> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "7943797" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> ;
+    ns1:name "CALLE DE LA VERDAD 2" .
+
+<http://vidaactivamadrid.es/info/resource/Park/8786012> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "8786012" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "CALLE MADRES PLAZA DE MAYO, 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/8798266> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "8798266" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> ;
+    ns1:name "CALLE GABRIEL MONTERO 5" .
+
+<http://vidaactivamadrid.es/info/resource/Park/8799604> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "8799604" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/Cuatro%20Caminos> ;
+    ns1:name "CALLE BASILICA 17" .
+
+<http://vidaactivamadrid.es/info/resource/Park/8800259> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
+    ns1:id_park "8800259" ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Diego> ;
+    ns1:name "CALLE VIZCONDE DE ARLESSON" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Aeropuerto> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
+    ns1:name "Aeropuerto" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Arcos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
+    ns1:name "Arcos" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Atocha> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Atocha" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
+    ns1:name "Barrio de Puerta del Ángel" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Berruguete> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Berruguete" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Butarque> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
+    ns1:name "Butarque" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Castillejos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Castillejos" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Universitaria> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
+    ns1:name "Ciudad Universitaria" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Concepci%C3%B3n> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "Concepción" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Costillares> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "Costillares" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ensanche%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
+    ns1:name "Ensanche de Vallecas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Estrella> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
+    ns1:name "Estrella" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Gaztambide> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
+    ns1:name "Gaztambide" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Hell%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
+    ns1:name "Hellín" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Imperial> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Imperial" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Chopera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "La Chopera" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Legazpi> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Legazpi" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Lista> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
+    ns1:name "Lista" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
+    ns1:name "Niño Jesús" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasur> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "Orcasur" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Pac%C3%ADfico> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
+    ns1:name "Pacífico" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Palacio> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
+    ns1:name "Palacio" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Palos%20de%20la%20Frontera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Palos de la Frontera" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Quintana> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "Quintana" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Diego> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "San Diego" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "San Fermín (Madrid)" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Pascual> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "San Pascual" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Tim%C3%B3n> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
+    ns1:name "Timón" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Trafalgar> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
+    ns1:name "Trafalgar" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Vallehermoso> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
+    ns1:name "Vallehermoso" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ventas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "Ventas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Arapiles> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
+    ns1:name "Arapiles" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Bellas%20Vistas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Bellas Vistas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
+    ns1:name "Casco Histórico de Barajas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Castilla> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
+    ns1:name "Castilla" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Corralejos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
+    ns1:name "Corralejos" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Cuatro%20Caminos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Cuatro Caminos" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pardo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "El Pardo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Fuente%20del%20Berro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
+    ns1:name "Fuente del Berro" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Fuentelarreina> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "Fuentelarreina" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Hispanoam%C3%A9rica> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
+    ns1:name "Hispanoamérica" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Justicia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
+    ns1:name "Justicia" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Paz> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "La Paz" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Delicias> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Las Delicias" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20Rosales> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
+    ns1:name "Los Rosales" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Numancia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "Numancia" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Pinar%20del%20Rey> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
+    ns1:name "Pinar del Rey" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Portazgo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "Portazgo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/R%C3%ADos%20Rosas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
+    ns1:name "Ríos Rosas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Rejas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
+    ns1:name "Rejas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Isidro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
+    ns1:name "San Isidro" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Santa%20Eugenia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
+    ns1:name "Santa Eugenia" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Valdebernardo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
+    ns1:name "Valdebernardo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Vinateros> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
+    ns1:name "Vinateros" .
+
+<http://vidaactivamadrid.es/info/resource/District/Moratalaz> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Moratalaz" ;
+    owl:sameAs <https://wikidata.org/entity/Q2076109> .
+
+<http://vidaactivamadrid.es/info/resource/District/Salamanca> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Salamanca" ;
+    owl:sameAs <https://wikidata.org/entity/Q1773521> .
+
+<http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Vicálvaro" ;
+    owl:sameAs <https://wikidata.org/entity/Q589403> .
+
+<http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Villa de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q1947988> .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Alameda%20de%20Osuna> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
+    ns1:name "Alameda de Osuna" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Almendrales> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "Almendrales" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Aravaca> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
+    ns1:name "Aravaca" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Campamento> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
+    ns1:name "Campamento" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Canillejas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
+    ns1:name "Canillejas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Jard%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
+    ns1:name "Ciudad Jardín" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Zof%C3%ADo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "El Zofío" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Entrev%C3%ADas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "Entrevías" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Acacias> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
+    ns1:name "Las Acacias" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Marroquina> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
+    ns1:name "Marroquina" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Media%20Legua> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
+    ns1:name "Media Legua" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Mirasierra> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "Mirasierra" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Pradolongo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "Pradolongo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Prosperidad> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
+    ns1:name "Prosperidad" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Crist%C3%B3bal> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
+    ns1:name "San Cristóbal" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
+    ns1:name "Universidad" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Valdeacederas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Valdeacederas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Valdefuentes> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
+    ns1:name "Valdefuentes" .
+
+<http://vidaactivamadrid.es/info/resource/District/Centro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Centro" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763376> .
+
+<http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Chamartín" ;
+    owl:sameAs <https://wikidata.org/entity/Q1766348> .
+
+<http://vidaactivamadrid.es/info/resource/District/Hortaleza> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Hortaleza" ;
+    owl:sameAs <https://wikidata.org/entity/Q1928529> .
+
+<http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Moncloa-Aravaca" ;
+    owl:sameAs <https://wikidata.org/entity/Q2017682> .
+
+<http://vidaactivamadrid.es/info/resource/District/Retiro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Retiro" ;
+    owl:sameAs <https://wikidata.org/entity/Q2002296> .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
+    ns1:name "Aluche" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
+    ns1:name "Apóstol Santiago" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
+    ns1:name "Canillas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
+    ns1:name "Casa de Campo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
+    ns1:name "Casco Histórico de Vallecas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
+    ns1:name "Casco Histórico de Vicálvaro" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "El Pilar" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
+    ns1:name "La Guindalera" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
+    ns1:name "Las Águilas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
+    ns1:name "Lucero" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "Peñagrande" .
+
+<http://vidaactivamadrid.es/info/resource/District/Barajas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Barajas" ;
+    owl:sameAs <https://wikidata.org/entity/Q807230> .
+
+<http://vidaactivamadrid.es/info/resource/District/Carabanchel> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Carabanchel" ;
+    owl:sameAs <https://wikidata.org/entity/Q1001991> .
+
+<http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Chamberí" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763370> .
+
+<http://vidaactivamadrid.es/info/resource/District/Latina> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Latina" ;
+    owl:sameAs <https://wikidata.org/entity/Q794954> .
+
+<http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "San Blas-Canillejas" ;
+    owl:sameAs <https://wikidata.org/entity/Q2001937> .
+
+<http://vidaactivamadrid.es/info/resource/District/Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Villaverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q919536> .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
+    ns1:name "Abrantes" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
+    ns1:name "Adelfas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
+    ns1:name "Almenara" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
+    ns1:name "Embajadores" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "Palomeras Bajas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
+    ns1:name "Valdezarza" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
+    ns1:name "Valverde" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
+    ns1:name "Villaverde Alto, Casco Histórico de Villaverde" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
+    ns1:name "Vista Alegre" .
+
+<http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Ciudad Lineal" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763694> .
+
+<http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Puente de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q2003054> .
+
+<http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Tetuán" ;
+    owl:sameAs <https://wikidata.org/entity/Q1773540> .
+
+<http://vidaactivamadrid.es/info/resource/District/Usera> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Usera" ;
+    owl:sameAs <https://wikidata.org/entity/Q953368> .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
+    ns1:name "Buenavista" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
+    ns1:name "Opañel" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
+    ns1:name "Pueblo Nuevo" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
+    ns1:name "Rosas" .
+
+<http://vidaactivamadrid.es/info/resource/District/Arganzuela> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Arganzuela" ;
+    owl:sameAs <https://wikidata.org/entity/Q2000929> .
+
+<http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
+    ns1:name "Fuencarral-El Pardo" ;
+    owl:sameAs <https://wikidata.org/entity/Q656196> .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
+    ns1:name "El Cañaveral neighborhood, Madrid" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
+    ns1:name "Palomeras Sureste" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
+    ns1:name "Orcasitas" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
+    ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
+    ns1:name "Los Ángeles" .
+
