@@ -1812,4 +1812,97 @@
     "repeatCount": 10,
     "description": "Text transform on cells in column Zip Code using expression value.trim()"
   }
+
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ChargingStation",
+    "expression": "grel:value.replace(\" \", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ChargingStation using expression grel:value.replace(\" \", \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "StreetAddress",
+    "expression": "grel:value.replace(\" \", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column StreetAddress using expression grel:value.replace(\" \", \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ChargingStation",
+    "expression": "grel:value.replace(\"---\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ChargingStation using expression grel:value.replace(\"---\",\"-\")"
+  }
+
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AccessDaysTime",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AccessDaysTime using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AdditionalInfo",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AdditionalInfo using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Counties using expression grel:value.replace(\" \",\"-\")"
+  }
 ]
