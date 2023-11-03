@@ -1,0 +1,2441 @@
+[
+    {
+      "op": "core/column-removal",
+      "columnName": "COORDENADA-Y",
+      "description": "Remove column COORDENADA-Y"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COORDENADA-X",
+      "description": "Remove column COORDENADA-X"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "EQUIPAMIENTO",
+      "description": "Remove column EQUIPAMIENTO"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "CLASE-VIAL",
+      "expression": "grel:join ([cells['CLASE-VIAL'].value,cells['NOMBRE-VIA'].value],' ')",
+      "onError": "set-to-blank",
+      "newColumnName": "DIRECCION",
+      "columnInsertIndex": 10,
+      "description": "Create column DIRECCION at index 10 based on column CLASE-VIAL using expression grel:join ([cells['CLASE-VIAL'].value,cells['NOMBRE-VIA'].value],' ')"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PUERTA",
+      "description": "Remove column PUERTA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "ESCALERAS",
+      "description": "Remove column ESCALERAS"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "ORIENTACION",
+      "description": "Remove column ORIENTACION"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PLANTA",
+      "description": "Remove column PLANTA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "LOCALIDAD",
+      "description": "Remove column LOCALIDAD"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "PROVINCIA",
+      "description": "Remove column PROVINCIA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "FAX",
+      "description": "Remove column FAX"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "Column",
+      "description": "Remove column Column"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "NOMBRE-VIA",
+      "description": "Remove column NOMBRE-VIA"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "CLASE-VIAL",
+      "description": "Remove column CLASE-VIAL"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"0\",\"NOT ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"0\",\"NOT ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"1\",\"ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"1\",\"ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"2\",\"PARTIALLY ACCESSIBLE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"2\",\"PARTIALLY ACCESSIBLE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"3\",\"NO INFORMATION\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"3\",\"NO INFORMATION\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"4\",\"SIGN LANGUAGE\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"4\",\"SIGN LANGUAGE\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"5\",\"TACTILE PAVING\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"5\",\"TACTILE PAVING\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ACCESIBILIDAD",
+      "expression": "value.replace(\"6\",\"MAGNETIC LOOP\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ACCESIBILIDAD using expression value.replace(\"6\",\"MAGNETIC LOOP\")"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "TIPO-NUM",
+      "description": "Remove column TIPO-NUM"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "CODIGO-POSTAL",
+      "description": "Remove column CODIGO-POSTAL"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "BARRIO",
+      "description": "Remove column BARRIO"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "COD-BARRIO",
+      "description": "Remove column COD-BARRIO"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TIPO",
+      "expression": "value.replace(\"/contenido/entidadesYorganismos/\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TIPO using expression value.replace(\"/contenido/entidadesYorganismos/\",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DESCRIPCION-ENTIDAD",
+      "expression": "join ([coalesce(cells['DESCRIPCION-ENTIDAD'].value,''),coalesce(cells['DESCRIPCION'].value,'')],' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression join ([coalesce(cells['DESCRIPCION-ENTIDAD'].value,''),coalesce(cells['DESCRIPCION'].value,'')],' ')"
+    },
+    {
+      "op": "core/column-reorder",
+      "columnNames": [
+        "PK",
+        "NOMBRE",
+        "DESCRIPCION-ENTIDAD",
+        "HORARIO",
+        "TRANSPORTE",
+        "ACCESIBILIDAD",
+        "CONTENT-URL",
+        "DIRECCION",
+        "NUM",
+        "DISTRITO",
+        "LATITUD",
+        "LONGITUD",
+        "TELEFONO",
+        "EMAIL",
+        "TIPO"
+      ],
+      "description": "Reorder columns"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TRANSPORTE",
+      "expression": "jython:value = value.replace(u\"Metro\", \"METRO\")\nvalue = value.replace(u\"Bus\", \" |BUS\")\nvalue = value.replace(u\"Buses\", \" |BUS\")\nvalue = value.replace(u\"Autobus\", \" |BUS\")\nvalue = value.replace(u\"Autobús\", \" |BUS\")\nvalue = value.replace(u\"Autobuses\", \" |BUS\")\n\nvalue = value.replace(u\"Bicimad\", \" |BICIMAD\")\nvalue = value.replace(u\"Aparcamientos\", \"|APARCAMIENTOS\")\nvalue = value.replace(u\"Parking\", \"|APARCAMIENTOS\")\n\nvalue = value.replace(u\"Cercanías Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Cercanías\", \"|RENFE\")\nvalue = value.replace(u\"Cercanias Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Cercanias\", \"|RENFE\")\n\nreturn value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TRANSPORTE using expression jython:value = value.replace(u\"Metro\", \"METRO\")\nvalue = value.replace(u\"Bus\", \" |BUS\")\nvalue = value.replace(u\"Buses\", \" |BUS\")\nvalue = value.replace(u\"Autobus\", \" |BUS\")\nvalue = value.replace(u\"Autobús\", \" |BUS\")\nvalue = value.replace(u\"Autobuses\", \" |BUS\")\n\nvalue = value.replace(u\"Bicimad\", \" |BICIMAD\")\nvalue = value.replace(u\"Aparcamientos\", \"|APARCAMIENTOS\")\nvalue = value.replace(u\"Parking\", \"|APARCAMIENTOS\")\n\nvalue = value.replace(u\"Cercanías Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Cercanías\", \"|RENFE\")\nvalue = value.replace(u\"Cercanias Renfe\", \"|RENFE\")\nvalue = value.replace(u\"Cercanias\", \"|RENFE\")\n\nreturn value"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"RENFE\" in l:\n  return l.replace(\"RENFE: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "RENFE",
+      "columnInsertIndex": 5,
+      "description": "Create column RENFE at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"RENFE\" in l:\n  return l.replace(\"RENFE: \", \"\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"BUS\" in l:\n  return l.replace(\"BUS: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "BUS",
+      "columnInsertIndex": 5,
+      "description": "Create column BUS at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"BUS\" in l:\n  return l.replace(\"BUS: \", \"\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "TRANSPORTE",
+      "expression": "jython:list = value.split(\"|\")\n\nfor l in list:\n if \"METRO\" in l:\n  return l.replace(\"METRO: \", \"\")",
+      "onError": "set-to-blank",
+      "newColumnName": "METRO",
+      "columnInsertIndex": 5,
+      "description": "Create column METRO at index 5 based on column TRANSPORTE using expression jython:list = value.split(\"|\")\n\nfor l in list:\n if \"METRO\" in l:\n  return l.replace(\"METRO: \", \"\")"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "DIRECCION",
+            "expression": "value",
+            "columnName": "DIRECCION",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "TELEFONO",
+            "expression": "value",
+            "columnName": "TELEFONO",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "TELEFONO",
+      "expression": "grel:if(isBlank(value.trim()), \"Sin teléfono\", value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TELEFONO using expression grel:if(isBlank(value.trim()), \"Sin teléfono\", value)"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "EMAIL",
+            "expression": "value",
+            "columnName": "EMAIL",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "EMAIL",
+      "expression": "grel:if(isBlank(value.trim()), \"Sin email\", value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column EMAIL using expression grel:if(isBlank(value.trim()), \"Sin email\", value)"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "TRANSPORTE",
+      "description": "Remove column TRANSPORTE"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "BUS",
+            "expression": "value",
+            "columnName": "BUS",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "BUS",
+      "expression": "grel:if(isBlank(value.trim()), \"Sin buses\", value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column BUS using expression grel:if(isBlank(value.trim()), \"Sin buses\", value)"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "RENFE",
+            "expression": "value",
+            "columnName": "RENFE",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "RENFE",
+      "expression": "grel:if(isBlank(value.trim()), \"Sin Renfe\", value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column RENFE using expression grel:if(isBlank(value.trim()), \"Sin Renfe\", value)"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column NOMBRE using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DESCRIPCION-ENTIDAD",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "HORARIO",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column HORARIO using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column METRO using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "BUS",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column BUS using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "RENFE",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column RENFE using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TELEFONO",
+      "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TELEFONO using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q79007",
+          "name": "street"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column DIRECCION to type Q79007"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE CERVANTES",
+      "judgment": "matched",
+      "match": {
+        "id": "Q20014008",
+        "name": "Calle de Cervantes, Madrid",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle de Cervantes, Madrid (Q20014008) for cells containing \"CALLE CERVANTES\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE ARENAL",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5740980",
+        "name": "Calle del Arenal",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle del Arenal (Q5740980) for cells containing \"CALLE ARENAL\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE ANTONIO SANCHA",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE ANTONIO SANCHA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE ALFONSO XII",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5659170",
+        "name": "Calle de Alfonso XII",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle de Alfonso XII (Q5659170) for cells containing \"CALLE ALFONSO XII\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE CARLOS ARNICHES",
+      "judgment": "matched",
+      "match": {
+        "id": "Q25410886",
+        "name": "Calle de Carlos Arniches, Madrid",
+        "types": [
+          "Q79007"
+        ],
+        "score": 93
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle de Carlos Arniches, Madrid (Q25410886) for cells containing \"CALLE CARLOS ARNICHES\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "GLORIETA SAN ANTONIO DE LA FLORIDA",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"GLORIETA SAN ANTONIO DE LA FLORIDA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE FUENTE DEL REY",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE FUENTE DEL REY\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "RONDA VALENCIA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q16626200",
+        "name": "Ronda de Valencia",
+        "types": [
+          "Q79007"
+        ],
+        "score": 90
+      },
+      "shareNewTopics": false,
+      "description": "Match item Ronda de Valencia (Q16626200) for cells containing \"RONDA VALENCIA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE AMANIEL",
+      "judgment": "matched",
+      "match": {
+        "id": "Q24694982",
+        "name": "calle de Amaniel",
+        "types": [
+          "Q79007"
+        ],
+        "score": 90
+      },
+      "shareNewTopics": false,
+      "description": "Match item calle de Amaniel (Q24694982) for cells containing \"CALLE AMANIEL\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE SERRANO",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5740879",
+        "name": "Serrano Street",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Serrano Street (Q5740879) for cells containing \"CALLE SERRANO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA ISABEL II",
+      "judgment": "matched",
+      "match": {
+        "id": "Q38506871",
+        "name": "Plaza de Isabel II",
+        "types": [
+          ""
+        ],
+        "score": 45.5
+      },
+      "shareNewTopics": false,
+      "description": "Match item Plaza de Isabel II (Q38506871) for cells containing \"PLAZA ISABEL II\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE MAURICIO LEGENDRE",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE MAURICIO LEGENDRE\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE SANTA ISABEL",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2882669",
+        "name": "calle de Santa Isabel",
+        "types": [
+          "Q79007"
+        ],
+        "score": 92
+      },
+      "shareNewTopics": false,
+      "description": "Match item calle de Santa Isabel (Q2882669) for cells containing \"CALLE SANTA ISABEL\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PASEO PRADO",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2079615",
+        "name": "Paseo del Prado",
+        "types": [
+          "Q787113",
+          "Q54114",
+          "Q79007"
+        ],
+        "score": 85
+      },
+      "shareNewTopics": false,
+      "description": "Match item Paseo del Prado (Q2079615) for cells containing \"PASEO PRADO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PASEO GENERAL MARTINEZ CAMPOS",
+      "judgment": "matched",
+      "match": {
+        "id": "Q26792155",
+        "name": "paseo del General Martínez Campos",
+        "types": [
+          "Q79007"
+        ],
+        "score": 94
+      },
+      "shareNewTopics": false,
+      "description": "Match item paseo del General Martínez Campos (Q26792155) for cells containing \"PASEO GENERAL MARTINEZ CAMPOS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE TAPIA DE CASARIEGO",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE TAPIA DE CASARIEGO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE LA CORU&amp;Ntilde;A",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE LA CORU&amp;Ntilde;A\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE JOSE GUTIERREZ ABASCAL",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE JOSE GUTIERREZ ABASCAL\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "AUTOVIA A-5",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"AUTOVIA A-5\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA CIENCIAS",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"PLAZA CIENCIAS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE BOADA",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE BOADA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PASEO RECOLETOS",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2550870",
+        "name": "Paseo de Recoletos",
+        "types": [
+          "Q787113",
+          "Q79007"
+        ],
+        "score": 91
+      },
+      "shareNewTopics": false,
+      "description": "Match item Paseo de Recoletos (Q2550870) for cells containing \"PASEO RECOLETOS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PASEO CASTELLANA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1473674",
+        "name": "Paseo de la Castellana",
+        "types": [
+          "Q83620",
+          "Q79007",
+          "Q787113"
+        ],
+        "score": 91
+      },
+      "shareNewTopics": false,
+      "description": "Match item Paseo de la Castellana (Q1473674) for cells containing \"PASEO CASTELLANA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE FRANCISCO TOMAS Y VALIENTE",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE FRANCISCO TOMAS Y VALIENTE\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA SAN ANDRES",
+      "judgment": "matched",
+      "match": {
+        "id": "Q27213851",
+        "name": "plaza de San Andrés",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item plaza de San Andrés (Q27213851) for cells containing \"PLAZA SAN ANDRES\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "GLORIETA SAN ANTONIO DE LA FLORIDA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q66054108",
+        "name": "Glorieta de San Antonio de la Florida, Madrid",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Glorieta de San Antonio de la Florida, Madrid (Q66054108) for cells containing \"GLORIETA SAN ANTONIO DE LA FLORIDA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE MAURICIO LEGENDRE",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE MAURICIO LEGENDRE\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE ANTONIO SANCHA",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE ANTONIO SANCHA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE TAPIA DE CASARIEGO",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE TAPIA DE CASARIEGO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE FUENTE DEL REY",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE FUENTE DEL REY\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "AVENIDA MONFORTE DE LEMOS",
+      "judgment": "matched",
+      "match": {
+        "id": "Q52683954",
+        "name": "Avenida de Monforte de Lemos, Madrid",
+        "types": [
+          "Q7543083"
+        ],
+        "score": 94
+      },
+      "shareNewTopics": false,
+      "description": "Match item Avenida de Monforte de Lemos, Madrid (Q52683954) for cells containing \"AVENIDA MONFORTE DE LEMOS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA RAMON Y CAJAL",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"PLAZA RAMON Y CAJAL\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE GUZMAN EL BUENO",
+      "judgment": "matched",
+      "match": {
+        "id": "Q27031398",
+        "name": "Calle de Guzmán el Bueno, Madrid",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle de Guzmán el Bueno, Madrid (Q27031398) for cells containing \"CALLE GUZMAN EL BUENO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PASEO DELICIAS",
+      "judgment": "matched",
+      "match": {
+        "id": "Q6065662",
+        "name": "Paseo de las Delicias, Madrid",
+        "types": [
+          "Q79007"
+        ],
+        "score": 90
+      },
+      "shareNewTopics": false,
+      "description": "Match item Paseo de las Delicias, Madrid (Q6065662) for cells containing \"PASEO DELICIAS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE SAN MATEO",
+      "judgment": "matched",
+      "match": {
+        "id": "Q24532121",
+        "name": "calle de San Mateo",
+        "types": [
+          "Q79007"
+        ],
+        "score": 91
+      },
+      "shareNewTopics": false,
+      "description": "Match item calle de San Mateo (Q24532121) for cells containing \"CALLE SAN MATEO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "AVENIDA JUAN DE HERRERA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q118644577",
+        "name": "avenida de Juan de Herrera",
+        "types": [
+          "Q7543083"
+        ],
+        "score": 94
+      },
+      "shareNewTopics": false,
+      "description": "Match item avenida de Juan de Herrera (Q118644577) for cells containing \"AVENIDA JUAN DE HERRERA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE MANUEL ALONSO",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE MANUEL ALONSO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "AVENIDA PLANETARIO",
+      "judgment": "matched",
+      "match": {
+        "id": "Q17622122",
+        "name": "Avenida del Planetario",
+        "types": [
+          "Q79007",
+          "Q7543083"
+        ],
+        "score": 90
+      },
+      "shareNewTopics": false,
+      "description": "Match item Avenida del Planetario (Q17622122) for cells containing \"AVENIDA PLANETARIO\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE FUENTERRABIA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q29051404",
+        "name": "Calle de Fuenterrabía, Madrid",
+        "types": [
+          "Q79007"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Calle de Fuenterrabía, Madrid (Q29051404) for cells containing \"CALLE FUENTERRABIA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE SAN BUENAVENTURA",
+      "judgment": "matched",
+      "match": {
+        "id": "Q118640079",
+        "name": "calle de San Buenaventura",
+        "types": [
+          ""
+        ],
+        "score": 47
+      },
+      "shareNewTopics": false,
+      "description": "Match item calle de San Buenaventura (Q118640079) for cells containing \"CALLE SAN BUENAVENTURA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA ENCARNACION",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"PLAZA ENCARNACION\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "PLAZA DESCALZAS",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"PLAZA DESCALZAS\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE FERRAZ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5740837",
+        "name": "calle de Ferraz",
+        "types": [
+          "Q79007"
+        ],
+        "score": 89
+      },
+      "shareNewTopics": false,
+      "description": "Match item calle de Ferraz (Q5740837) for cells containing \"CALLE FERRAZ\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE VIA CARPETANA",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE VIA CARPETANA\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "similarValue": "CALLE ANTONIO DE CABEZON",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"CALLE ANTONIO DE CABEZON\" in column DIRECCION"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRITO",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q3032114",
+          "name": "district of Madrid"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column DISTRITO to type Q3032114"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DISTRITO",
+      "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "same_as_wikidata_distrito",
+      "columnInsertIndex": 12,
+      "description": "Create column same_as_wikidata_distrito at index 12 based on column DISTRITO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "DIRECCION",
+      "expression": "grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "same_as_wikidata_direccion",
+      "columnInsertIndex": 10,
+      "description": "Create column same_as_wikidata_direccion at index 10 based on column DIRECCION using expression grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q33506",
+          "name": "museum"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column NOMBRE to type Q33506"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Casita - Museo del Raton Perez",
+      "judgment": "matched",
+      "match": {
+        "id": "Q107291466",
+        "name": "Category:Casita-Museo del Ratón Pérez",
+        "types": [
+          ""
+        ],
+        "score": 43
+      },
+      "shareNewTopics": false,
+      "description": "Match item Category:Casita-Museo del Ratón Pérez (Q107291466) for cells containing \"Casita - Museo del Raton Perez\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Castillo de la Alameda",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Castillo de la Alameda\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Centro Cultural La Corrala. Museo de Artes y Tradiciones Populares",
+      "judgment": "matched",
+      "match": {
+        "id": "Q52247359",
+        "name": "Museo de Artes y Tradiciones Populares",
+        "types": [
+          "Q33506"
+        ],
+        "score": 74
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo de Artes y Tradiciones Populares (Q52247359) for cells containing \"Centro Cultural La Corrala. Museo de Artes y Tradiciones Populares\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Ermita de San Antonio de la Florida (Museo)",
+      "judgment": "matched",
+      "match": {
+        "id": "Q3109752",
+        "name": "Royal Chapel of St. Anthony of La Florida",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Chapel of St. Anthony of La Florida (Q3109752) for cells containing \"Ermita de San Antonio de la Florida (Museo)\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Castillo de la Alameda",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Castillo de la Alameda\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Espacio Fundacion Telefonica",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Espacio Fundacion Telefonica\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Fundacion AMYC (Arte Moderno y Contemporaneo). Casa Museo Fuente del Rey",
+      "judgment": "matched",
+      "match": {
+        "id": "Q28808141",
+        "name": "Fuente del Rey House-Museum",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Fuente del Rey House-Museum (Q28808141) for cells containing \"Fundacion AMYC (Arte Moderno y Contemporaneo). Casa Museo Fuente del Rey\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "La Casa Encendida de la Fundacion Montemadrid",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5962732",
+        "name": "La Casa Encendida",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item La Casa Encendida (Q5962732) for cells containing \"La Casa Encendida de la Fundacion Montemadrid\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Africano Misioneros Combonianos",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo Africano Misioneros Combonianos\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Arqueologico Nacional",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1352282",
+        "name": "National Archaeological Museum",
+        "types": [
+          "Q17431399",
+          "Q3329412",
+          "Q4989906"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item National Archaeological Museum (Q1352282) for cells containing \"Museo Arqueologico Nacional\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Casa de la Moneda",
+      "judgment": "matched",
+      "match": {
+        "id": "Q39072661",
+        "name": "Museo Casa de la Moneda",
+        "types": [
+          "Q52987309"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Casa de la Moneda (Q39072661) for cells containing \"Museo Casa de la Moneda\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Felix Canada",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo Felix Canada\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Historico Minero Don Felipe de Borbon y Grecia",
+      "judgment": "matched",
+      "match": {
+        "id": "Q53997723",
+        "name": "Museo Histórico Minero Don Felipe de Borbón y Grecia",
+        "types": [
+          "Q33506"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Histórico Minero Don Felipe de Borbón y Grecia (Q53997723) for cells containing \"Museo Historico Minero Don Felipe de Borbon y Grecia\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Los Canos del Peral. Estacion de Metro opera",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo Los Canos del Peral. Estacion de Metro opera\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Nacional Centro de Arte Reina Sofia (MNCARS)",
+      "judgment": "matched",
+      "match": {
+        "id": "Q460889",
+        "name": "Museo Nacional Centro de Arte Reina Sofía",
+        "types": [
+          "Q207694",
+          "Q17431399",
+          "Q4989906",
+          "Q64578911",
+          "Q2190251"
+        ],
+        "score": 92
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Nacional Centro de Arte Reina Sofía (Q460889) for cells containing \"Museo Nacional Centro de Arte Reina Sofia (MNCARS)\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Nacional de Antropologia",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2917041",
+        "name": "Museo Nacional de Antropología",
+        "types": [
+          "Q17431399",
+          "Q43229"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Nacional de Antropología (Q2917041) for cells containing \"Museo Nacional de Antropologia\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Nacional de Artes Decorativas",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5361303",
+        "name": "Museo Nacional de Artes Decorativas",
+        "types": [
+          "Q207694",
+          "Q17431399",
+          "Q43229"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Nacional de Artes Decorativas (Q5361303) for cells containing \"Museo Nacional de Artes Decorativas\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Naval",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1815235",
+        "name": "Naval Museum of Madrid",
+        "types": [
+          "Q26958661",
+          "Q2772772"
+        ],
+        "score": 76
+      },
+      "shareNewTopics": false,
+      "description": "Match item Naval Museum of Madrid (Q1815235) for cells containing \"Museo Naval\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Postal y Telegrafico",
+      "judgment": "matched",
+      "match": {
+        "id": "Q64071045",
+        "name": "Postal and Telegraph museum",
+        "types": [
+          "Q2106220"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Postal and Telegraph museum (Q64071045) for cells containing \"Museo Postal y Telegrafico\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Taurino de la Comunidad de Madrid",
+      "judgment": "matched",
+      "match": {
+        "id": "Q27500479",
+        "name": "Museo Taurino de Madrid",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo Taurino de Madrid (Q27500479) for cells containing \"Museo Taurino de la Comunidad de Madrid\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo Tiflologico",
+      "judgment": "matched",
+      "match": {
+        "id": "Q109568487",
+        "name": "Typhlological Museum",
+        "types": [
+          "Q107313856"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Typhlological Museum (Q109568487) for cells containing \"Museo Tiflologico\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Astronomia y Geodesia",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo de Astronomia y Geodesia\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Calcografia Nacional",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo de Calcografia Nacional\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Cera",
+      "judgment": "matched",
+      "match": {
+        "id": "Q15121263",
+        "name": "Wax Museum of Madrid",
+        "types": [
+          "Q667018"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Wax Museum of Madrid (Q15121263) for cells containing \"Museo de Cera\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Historia de la Comunidad Judia de Madrid",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo de Historia de la Comunidad Judia de Madrid\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Mineralogia",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo de Mineralogia\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de Sanidad e Higiene Publica",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo de Sanidad e Higiene Publica\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo de la Catedral de la Almudena",
+      "judgment": "matched",
+      "match": {
+        "id": "Q107611898",
+        "name": "Museo de la Catedral de la Almudena",
+        "types": [
+          ""
+        ],
+        "score": 50
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo de la Catedral de la Almudena (Q107611898) for cells containing \"Museo de la Catedral de la Almudena\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo del Reloj Grassy",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo del Reloj Grassy\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo del Seguro. Fundacion Mapfre",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Museo del Seguro. Fundacion Mapfre\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Museo del Traje. Centro de Investigacion del Patrimonio Etnologico (CIPE)",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9047135",
+        "name": "Museo del Traje",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museo del Traje (Q9047135) for cells containing \"Museo del Traje. Centro de Investigacion del Patrimonio Etnologico (CIPE)\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Palacio Real de El Pardo",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1368571",
+        "name": "Royal Palace of El Pardo",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Palace of El Pardo (Q1368571) for cells containing \"Palacio Real de El Pardo\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Palacio Real de Madrid",
+      "judgment": "matched",
+      "match": {
+        "id": "Q171517",
+        "name": "Royal Palace of Madrid",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Palace of Madrid (Q171517) for cells containing \"Palacio Real de Madrid\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Panteon de Espana",
+      "judgment": "matched",
+      "match": {
+        "id": "Q7131757",
+        "name": "Pantheon of Illustrious Men",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Pantheon of Illustrious Men (Q7131757) for cells containing \"Panteon de Espana\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Parroquia Santa Cruz",
+      "judgment": "matched",
+      "match": {
+        "id": "Q5912532",
+        "name": "Church of Santa Cruz",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Church of Santa Cruz (Q5912532) for cells containing \"Parroquia Santa Cruz\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Real Basilica San Francisco el Grande",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2473884",
+        "name": "Royal Basilica of Saint Francis the Great",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Basilica of Saint Francis the Great (Q2473884) for cells containing \"Real Basilica San Francisco el Grande\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Real Fabrica de Tapices",
+      "judgment": "matched",
+      "match": {
+        "id": "Q570665",
+        "name": "Royal Tapestry Factory",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Tapestry Factory (Q570665) for cells containing \"Real Fabrica de Tapices\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Real Monasterio de Santa Isabel",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9067089",
+        "name": "Royal Monastery of Santa Isabel",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Royal Monastery of Santa Isabel (Q9067089) for cells containing \"Real Monasterio de Santa Isabel\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Real Monasterio de la Encarnacion",
+      "judgment": "matched",
+      "match": {
+        "id": "Q110747997",
+        "name": "Real Monasterio de la Encarnación",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Real Monasterio de la Encarnación (Q110747997) for cells containing \"Real Monasterio de la Encarnacion\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Real Monasterio de las Descalzas Reales",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2268271",
+        "name": "Convent of Las Descalzas Reales",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Convent of Las Descalzas Reales (Q2268271) for cells containing \"Real Monasterio de las Descalzas Reales\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Templo de Debod",
+      "judgment": "matched",
+      "match": {
+        "id": "Q110748094",
+        "name": "Templo de Debod, estanque con Surtidor",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Templo de Debod, estanque con Surtidor (Q110748094) for cells containing \"Templo de Debod\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "The Robot Museum (Museo del Robot)",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"The Robot Museum (Museo del Robot)\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Yacimiento paleontologico. Estacion de Metro Carpetana",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Yacimiento paleontologico. Estacion de Metro Carpetana\" in column NOMBRE"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "similarValue": "Zapadores Ciudad del Arte",
+      "judgment": "matched",
+      "match": {
+        "id": "Q121596856",
+        "name": "Museum Zapadores, Ciudad del Arte",
+        "types": [
+          "Q33506"
+        ],
+        "score": 89
+      },
+      "shareNewTopics": false,
+      "description": "Match item Museum Zapadores, Ciudad del Arte (Q121596856) for cells containing \"Zapadores Ciudad del Arte\" in column NOMBRE"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "NOMBRE",
+      "expression": "grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "same_as_wikidata_museum",
+      "columnInsertIndex": 2,
+      "description": "Create column same_as_wikidata_museum at index 2 based on column NOMBRE using expression grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "expression": "jython:return value.split(\"(\")[0]",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column METRO using expression jython:return value.split(\"(\")[0]"
+    },
+    {
+      "op": "core/recon",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "range",
+            "name": "METRO: best candidate's score",
+            "expression": "cell.recon.best.score",
+            "columnName": "METRO",
+            "from": 100,
+            "to": 82,
+            "selectNumeric": true,
+            "selectNonNumeric": true,
+            "selectBlank": true,
+            "selectError": true
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q928830",
+          "name": "metro station"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "description": "Reconcile cells in column METRO to type Q928830"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Alameda de Osuna y El Capricho ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2403543",
+        "name": "Alameda de Osuna",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Alameda de Osuna (Q2403543) for cells containing \"Alameda de Osuna y El Capricho \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "San Bernardo ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2055810",
+        "name": "San Bernardo",
+        "types": [
+          "Q928830",
+          "Q22808403"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item San Bernardo (Q2055810) for cells containing \"San Bernardo \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "O&amp;acute;Donnell ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2479913",
+        "name": "O'Donnell",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item O'Donnell (Q2479913) for cells containing \"O&amp;acute;Donnell \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Plaza de Espana ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q776249",
+        "name": "Estación de Plaza de España (Metro de Madrid)",
+        "types": [
+          "Q928830"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Estación de Plaza de España (Metro de Madrid) (Q776249) for cells containing \"Plaza de Espana \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Sevilla ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2056503",
+        "name": "Sevilla",
+        "types": [
+          "Q928830",
+          "Q22808403"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Sevilla (Q2056503) for cells containing \"Sevilla \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "opera ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2736048",
+        "name": "Ópera",
+        "types": [
+          "Q928830",
+          "Q22808403"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Ópera (Q2736048) for cells containing \"opera \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Ventura Rodriguez, Plaza de Espana, San Bernardo, Noviciado.   ",
+      "judgment": "new",
+      "shareNewTopics": true,
+      "description": "Mark to create one single new item for all cells containing \"Ventura Rodriguez, Plaza de Espana, San Bernardo, Noviciado.   \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Ciudad Universitaria ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2482378",
+        "name": "Ciudad Universitaria",
+        "types": [
+          "Q928830",
+          "Q22808403"
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Ciudad Universitaria (Q2482378) for cells containing \"Ciudad Universitaria \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Ventura Rodriguez, Plaza de Espana, San Bernardo, Noviciado.   ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2378663",
+        "name": "Ventura Rodríguez",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Ventura Rodríguez (Q2378663) for cells containing \"Ventura Rodriguez, Plaza de Espana, San Bernardo, Noviciado.   \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "L1- Buenos Aires ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2479851",
+        "name": "Buenos Aires",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Buenos Aires (Q2479851) for cells containing \"L1- Buenos Aires \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Transporte publico mas proximo   Ruben Dario ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2056886",
+        "name": "Rubén Darío",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Rubén Darío (Q2056886) for cells containing \"Transporte publico mas proximo   Ruben Dario \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Latina , Tirso de Molina  ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q1115250",
+        "name": "La Latina",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item La Latina (Q1115250) for cells containing \"Latina , Tirso de Molina  \" in column METRO"
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "METRO",
+      "similarValue": "Tribunal, Bilbao y Alonso Martinez.  ",
+      "judgment": "matched",
+      "match": {
+        "id": "Q2479844",
+        "name": "Tribunal",
+        "types": [
+          ""
+        ],
+        "score": 100
+      },
+      "shareNewTopics": false,
+      "description": "Match item Tribunal (Q2479844) for cells containing \"Tribunal, Bilbao y Alonso Martinez.  \" in column METRO"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "METRO",
+      "expression": "grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+      "onError": "set-to-blank",
+      "newColumnName": "same_as_wikidata_metro",
+      "columnInsertIndex": 6,
+      "description": "Create column same_as_wikidata_metro at index 6 based on column METRO using expression grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+    }
+  ]

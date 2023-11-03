@@ -1,2 +1,3 @@
 morph_kgc
 rdflib
+pydantic
