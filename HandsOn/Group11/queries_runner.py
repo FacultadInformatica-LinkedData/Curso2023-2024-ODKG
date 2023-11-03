@@ -1,7 +1,7 @@
 import rdflib
 
 
-DATA_FILE_PATH = "./rdf/output-rmlmapper.ttl" 
+DATA_FILE_PATH = "./rdf/dataset.ttl" 
 
 
 graph = rdflib.Graph()
