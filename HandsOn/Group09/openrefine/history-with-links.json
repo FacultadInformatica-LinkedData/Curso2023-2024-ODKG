@@ -1,171 +1,5 @@
 [
   {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "expression": "grel:value 1 = winter",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column season using expression grel:value 1 = winter"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "expression": "grel:if(value == '1', 'winter', value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column season using expression grel:if(value == '1', 'winter', value)"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "expression": "grel:if(value == '4', 'autum', value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column season using expression grel:if(value == '4', 'autum', value)"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "expression": "grel:if(value == '2', 'spring', value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column season using expression grel:if(value == '2', 'spring', value)"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "expression": "grel:if(value == '3', 'summer', value)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column season using expression grel:if(value == '3', 'summer', value)"
-  },
-  {
-    "op": "core/recon",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "config": {
-      "mode": "standard-service",
-      "service": "https://wikidata.reconci.link/en/api",
-      "identifierSpace": "http://www.wikidata.org/entity/",
-      "schemaSpace": "http://www.wikidata.org/prop/direct/",
-      "type": {
-        "id": "Q15275719",
-        "name": "recurring event"
-      },
-      "autoMatch": true,
-      "columnDetails": [],
-      "limit": 0
-    },
-    "description": "Reconcile cells in column season to type Q15275719"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "similarValue": "winter",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1311",
-      "name": "winter",
-      "types": [
-        "Q15275719"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item winter (Q1311) for cells containing \"winter\" in column season"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "season",
-    "similarValue": "winter",
-    "judgment": "matched",
-    "match": {
-      "id": "Q1311",
-      "name": "winter",
-      "types": [
-        "Q15275719"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item winter (Q1311) for cells containing \"winter\" in column season"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "datetime",
-    "expression": "grel:value.substringBefore('T')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column datetime using expression grel:value.substringBefore('T')"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "datetime",
-    "expression": "grel:value.split('T')[0]",
-    "onError": "set-to-blank",
-    "newColumnName": "date",
-    "columnInsertIndex": 1,
-    "description": "Create column date at index 1 based on column datetime using expression grel:value.split('T')[0]"
-  },
-  {
-    "op": "core/column-addition",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "baseColumnName": "datetime",
-    "expression": "grel:value.split('T')[1].substring(0, 8)",
-    "onError": "set-to-blank",
-    "newColumnName": "hour",
-    "columnInsertIndex": 1,
-    "description": "Create column hour at index 1 based on column datetime using expression grel:value.split('T')[1].substring(0, 8)"
-  },
-  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
@@ -188,304 +22,26 @@
     "description": "Reconcile cells in column hour to type Q1260524"
   },
   {
-    "op": "core/recon-judge-similar-cells",
+    "op": "core/recon",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "hour",
-    "similarValue": "18:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95097023",
-      "name": "18:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
+    "columnName": "season",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q15275719",
+        "name": "recurring event"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
     },
-    "shareNewTopics": false,
-    "description": "Match item 18:00:00 (Q95097023) for cells containing \"18:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "19:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95104156",
-      "name": "19:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 19:00:00 (Q95104156) for cells containing \"19:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "06:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95031872",
-      "name": "06:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 06:00:00 (Q95031872) for cells containing \"06:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "08:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95002720",
-      "name": "00:08:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 00:08:00 (Q95002720) for cells containing \"08:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "14:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95069838",
-      "name": "14:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 14:00:00 (Q95069838) for cells containing \"14:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "15:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95076506",
-      "name": "15:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 15:00:00 (Q95076506) for cells containing \"15:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "16:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95083395",
-      "name": "16:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 16:00:00 (Q95083395) for cells containing \"16:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "05:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95026376",
-      "name": "05:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 05:00:00 (Q95026376) for cells containing \"05:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "03:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95016439",
-      "name": "03:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 03:00:00 (Q95016439) for cells containing \"03:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "04:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95021097",
-      "name": "04:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 04:00:00 (Q95021097) for cells containing \"04:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "09:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95045813",
-      "name": "09:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 09:00:00 (Q95045813) for cells containing \"09:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "20:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95112139",
-      "name": "20:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 20:00:00 (Q95112139) for cells containing \"20:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "21:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95120654",
-      "name": "21:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 21:00:00 (Q95120654) for cells containing \"21:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "22:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95129222",
-      "name": "22:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 22:00:00 (Q95129222) for cells containing \"22:00:00\" in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "hour",
-    "similarValue": "23:00:00",
-    "judgment": "matched",
-    "match": {
-      "id": "Q95135875",
-      "name": "23:00:00",
-      "types": [
-        "Q1260524"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 23:00:00 (Q95135875) for cells containing \"23:00:00\" in column hour"
+    "description": "Reconcile cells in column season to type Q15275719"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -534,6 +90,86 @@
       "mode": "row-based"
     },
     "columnName": "hour",
+    "similarValue": "03:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95016439",
+      "name": "03:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 03:00:00 (Q95016439) for cells containing \"03:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "04:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95021097",
+      "name": "04:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 04:00:00 (Q95021097) for cells containing \"04:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "05:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95026376",
+      "name": "05:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 05:00:00 (Q95026376) for cells containing \"05:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "06:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95031872",
+      "name": "06:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 06:00:00 (Q95031872) for cells containing \"06:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
     "similarValue": "07:00:00",
     "judgment": "matched",
     "match": {
@@ -554,6 +190,67 @@
       "mode": "row-based"
     },
     "columnName": "hour",
+    "similarValue": "08:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95041622",
+      "name": "08:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 08:00:00 (Q95041622) for cells containing \"08:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "09:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95045813",
+      "name": "09:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 09:00:00 (Q95045813) for cells containing \"09:00:00\" in column hour"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "hour",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P8626",
+          "name": "opening time"
+        }
+      ]
+    },
+    "columnInsertIndex": 2,
+    "description": "Extend data at index 2 based on column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
     "similarValue": "10:00:00",
     "judgment": "matched",
     "match": {
@@ -566,6 +263,51 @@
     },
     "shareNewTopics": false,
     "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "10:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95049816",
+      "name": "10:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "10:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95049816",
+      "name": "10:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "opening time",
+    "description": "Remove column opening time"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -634,6 +376,66 @@
       "mode": "row-based"
     },
     "columnName": "hour",
+    "similarValue": "14:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95069838",
+      "name": "14:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 14:00:00 (Q95069838) for cells containing \"14:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "15:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95076506",
+      "name": "15:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 15:00:00 (Q95076506) for cells containing \"15:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "16:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95083395",
+      "name": "16:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 16:00:00 (Q95083395) for cells containing \"16:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
     "similarValue": "17:00:00",
     "judgment": "matched",
     "match": {
@@ -654,18 +456,18 @@
       "mode": "row-based"
     },
     "columnName": "hour",
-    "similarValue": "08:00:00",
+    "similarValue": "18:00:00",
     "judgment": "matched",
     "match": {
-      "id": "Q95041622",
-      "name": "08:00:00",
+      "id": "Q95097023",
+      "name": "18:00:00",
       "types": [
         "Q1260524"
       ],
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item 08:00:00 (Q95041622) for cells containing \"08:00:00\" in column hour"
+    "description": "Match item 18:00:00 (Q95097023) for cells containing \"18:00:00\" in column hour"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -673,19 +475,125 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "season",
-    "similarValue": "autum",
+    "columnName": "hour",
+    "similarValue": "20:00:00",
     "judgment": "matched",
     "match": {
-      "id": "Q1314",
-      "name": "autumn",
+      "id": "Q95112139",
+      "name": "20:00:00",
       "types": [
-        "Q15275719"
+        "Q1260524"
       ],
-      "score": 91
+      "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item autumn (Q1314) for cells containing \"autum\" in column season"
+    "description": "Match item 20:00:00 (Q95112139) for cells containing \"20:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "21:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95120654",
+      "name": "21:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 21:00:00 (Q95120654) for cells containing \"21:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "19:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95104156",
+      "name": "19:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 19:00:00 (Q95104156) for cells containing \"19:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "22:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95129222",
+      "name": "22:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 22:00:00 (Q95129222) for cells containing \"22:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "23:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95135875",
+      "name": "23:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 23:00:00 (Q95135875) for cells containing \"23:00:00\" in column hour"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "season",
+    "expression": "grel:\"https://www.wikidata.org/entity/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "season_wikidata_link",
+    "columnInsertIndex": 4,
+    "description": "Create column season_wikidata_link at index 4 based on column season using expression grel:\"https://www.wikidata.org/entity/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "hour",
+    "expression": "grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "hour_wikidata_link",
+    "columnInsertIndex": 2,
+    "description": "Create column hour_wikidata_link at index 2 based on column hour using expression grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id"
   },
   {
     "op": "core/recon",
@@ -716,154 +624,7 @@
       "mode": "row-based"
     },
     "columnName": "date",
-    "similarValue": "2012-01-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17983277",
-      "name": "January 9, 2012",
-      "types": [
-        "Q2238",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 9, 2012 (Q17983277) for cells containing \"2012-01-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479558",
-      "name": "October 1, 2011",
-      "types": [
-        "Q2913",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 1, 2011 (Q7479558) for cells containing \"2011-10-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664470",
-      "name": "October 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2932"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 2, 2011 (Q22664470) for cells containing \"2011-10-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479720",
-      "name": "October 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2931"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 3, 2011 (Q7479720) for cells containing \"2011-10-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479408",
-      "name": "October 12, 2011",
-      "types": [
-        "Q2920",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 12, 2011 (Q7479408) for cells containing \"2011-10-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479351",
-      "name": "October 11, 2011",
-      "types": [
-        "Q2927",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 11, 2011 (Q7479351) for cells containing \"2011-10-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664504",
-      "name": "November 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2988"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 10, 2011 (Q22664504) for cells containing \"2011-11-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-01",
+    "similarValue": "January 1, 2011",
     "judgment": "matched",
     "match": {
       "id": "Q17603681",
@@ -875,3172 +636,19 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item January 1, 2011 (Q17603681) for cells containing \"2011-01-01\" in column date"
+    "description": "Match item January 1, 2011 (Q17603681) for cells containing \"January 1, 2011\" in column date"
   },
   {
-    "op": "core/mass-edit",
+    "op": "core/column-addition",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "hour",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "13:00:00"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "13:00:00"
-      }
-    ],
-    "description": "Mass edit cells in column hour"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664201",
-      "name": "January 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2151"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 2, 2011 (Q22664201) for cells containing \"2011-01-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664202",
-      "name": "January 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2156"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 3, 2011 (Q22664202) for cells containing \"2011-01-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17878971",
-      "name": "April 1, 2011",
-      "types": [
-        "Q2510",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 1, 2011 (Q17878971) for cells containing \"2011-01-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17918060",
-      "name": "May 1, 2011",
-      "types": [
-        "Q2544",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 1, 2011 (Q17918060) for cells containing \"2011-01-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17879059",
-      "name": "June 1, 2011",
-      "types": [
-        "Q2625",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 1, 2011 (Q17879059) for cells containing \"2011-01-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17879032",
-      "name": "July 1, 2011",
-      "types": [
-        "Q2700",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 1, 2011 (Q17879032) for cells containing \"2011-01-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17878939",
-      "name": "August 1, 2011",
-      "types": [
-        "Q2788",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 1, 2011 (Q17878939) for cells containing \"2011-01-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664209",
-      "name": "January 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2238"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 9, 2011 (Q22664209) for cells containing \"2011-01-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664210",
-      "name": "January 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2243"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 10, 2011 (Q22664210) for cells containing \"2011-01-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664211",
-      "name": "January 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2247"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 11, 2011 (Q22664211) for cells containing \"2011-01-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-01-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664212",
-      "name": "January 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2248"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 12, 2011 (Q22664212) for cells containing \"2011-01-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664232",
-      "name": "February 1, 2011",
-      "types": [
-        "Q47150325",
-        "Q2312"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 1, 2011 (Q22664232) for cells containing \"2011-02-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664233",
-      "name": "February 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2313"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 2, 2011 (Q22664233) for cells containing \"2011-02-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664260",
-      "name": "March 1, 2011",
-      "types": [
-        "Q2393",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 1, 2011 (Q22664260) for cells containing \"2011-03-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664261",
-      "name": "March 2, 2011",
-      "types": [
-        "Q2390",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 2, 2011 (Q22664261) for cells containing \"2011-02-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664234",
-      "name": "February 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2315"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 3, 2011 (Q22664234) for cells containing \"2011-02-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664235",
-      "name": "February 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2318"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 4, 2011 (Q22664235) for cells containing \"2011-02-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664236",
-      "name": "February 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2319"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 5, 2011 (Q22664236) for cells containing \"2011-02-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664237",
-      "name": "February 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2320"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 6, 2011 (Q22664237) for cells containing \"2011-02-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664243",
-      "name": "February 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2336"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 12, 2011 (Q22664243) for cells containing \"2011-02-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664239",
-      "name": "February 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2323"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 8, 2011 (Q22664239) for cells containing \"2011-02-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664241",
-      "name": "February 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 10, 2011 (Q22664241) for cells containing \"2011-02-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664240",
-      "name": "February 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2324"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 9, 2011 (Q22664240) for cells containing \"2011-02-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664238",
-      "name": "February 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2322"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 7, 2011 (Q22664238) for cells containing \"2011-02-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-02-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664242",
-      "name": "February 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2335"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 11, 2011 (Q22664242) for cells containing \"2011-02-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664234",
-      "name": "February 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2315"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item February 3, 2011 (Q22664234) for cells containing \"2011-03-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664261",
-      "name": "March 2, 2011",
-      "types": [
-        "Q2390",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 2, 2011 (Q22664261) for cells containing \"2011-03-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664263",
-      "name": "March 4, 2011",
-      "types": [
-        "Q2396",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 4, 2011 (Q22664263) for cells containing \"2011-03-04\" in column date"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "2011-03-03T00:00:00Z"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "2011-03-03T00:00:00Z"
-      }
-    ],
-    "description": "Mass edit cells in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664264",
-      "name": "March 5, 2011",
-      "types": [
-        "Q2392",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 5, 2011 (Q22664264) for cells containing \"2011-03-05\" in column date"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "2011-03-03T00:00:00Z"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "2011-03-03"
-      }
-    ],
-    "description": "Mass edit cells in column date"
-  },
-  {
-    "op": "core/mass-edit",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "expression": "value",
-    "edits": [
-      {
-        "from": [
-          "2011"
-        ],
-        "fromBlank": false,
-        "fromError": false,
-        "to": "2011-03-03"
-      }
-    ],
-    "description": "Mass edit cells in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664265",
-      "name": "March 6, 2011",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 6, 2011 (Q22664265) for cells containing \"2011-03-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664266",
-      "name": "March 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2394"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 7, 2011 (Q22664266) for cells containing \"2011-03-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664267",
-      "name": "March 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2395"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 8, 2011 (Q22664267) for cells containing \"2011-03-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664269",
-      "name": "March 10, 2011",
-      "types": [
-        "Q2397",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 10, 2011 (Q22664269) for cells containing \"2011-03-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664268",
-      "name": "March 9, 2011",
-      "types": [
-        "Q2401",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 9, 2011 (Q22664268) for cells containing \"2011-03-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664270",
-      "name": "March 11, 2011",
-      "types": [
-        "Q2398",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 11, 2011 (Q22664270) for cells containing \"2011-03-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17878971",
-      "name": "April 1, 2011",
-      "types": [
-        "Q2510",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 1, 2011 (Q17878971) for cells containing \"2011-04-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-03-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664271",
-      "name": "March 12, 2011",
-      "types": [
-        "Q2402",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item March 12, 2011 (Q22664271) for cells containing \"2011-03-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664290",
-      "name": "April 2, 2011",
-      "types": [
-        "Q2511",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 2, 2011 (Q22664290) for cells containing \"2011-04-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664327",
-      "name": "May 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2550"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 5, 2011 (Q22664327) for cells containing \"2011-05-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664293",
-      "name": "April 4, 2011",
-      "types": [
-        "Q2508",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 4, 2011 (Q22664293) for cells containing \"2011-04-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17918060",
-      "name": "May 1, 2011",
-      "types": [
-        "Q2544",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 1, 2011 (Q17918060) for cells containing \"2011-05-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664292",
-      "name": "April 3, 2011",
-      "types": [
-        "Q2509",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 3, 2011 (Q22664292) for cells containing \"2011-04-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q21042562",
-      "name": "April 5, 2011",
-      "types": [
-        "Q2507",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 5, 2011 (Q21042562) for cells containing \"2011-04-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664324",
-      "name": "May 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2545"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 2, 2011 (Q22664324) for cells containing \"2011-05-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664325",
-      "name": "May 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2547"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 3, 2011 (Q22664325) for cells containing \"2011-05-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664294",
-      "name": "April 6, 2011",
-      "types": [
-        "Q2506",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 6, 2011 (Q22664294) for cells containing \"2011-04-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664295",
-      "name": "April 7, 2011",
-      "types": [
-        "Q2505",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 7, 2011 (Q22664295) for cells containing \"2011-04-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664296",
-      "name": "April 8, 2011",
-      "types": [
-        "Q2503",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 8, 2011 (Q22664296) for cells containing \"2011-04-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664297",
-      "name": "April 9, 2011",
-      "types": [
-        "Q2504",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 9, 2011 (Q22664297) for cells containing \"2011-04-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664326",
-      "name": "May 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2549"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 4, 2011 (Q22664326) for cells containing \"2011-05-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664298",
-      "name": "April 10, 2011",
-      "types": [
-        "Q2502",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 10, 2011 (Q22664298) for cells containing \"2011-04-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664333",
-      "name": "May 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2558"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 11, 2011 (Q22664333) for cells containing \"2011-05-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664328",
-      "name": "May 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2552"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 6, 2011 (Q22664328) for cells containing \"2011-05-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664300",
-      "name": "April 12, 2011",
-      "types": [
-        "Q2499",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 12, 2011 (Q22664300) for cells containing \"2011-04-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-04-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664299",
-      "name": "April 11, 2011",
-      "types": [
-        "Q2501",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item April 11, 2011 (Q22664299) for cells containing \"2011-04-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664329",
-      "name": "May 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2553"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 7, 2011 (Q22664329) for cells containing \"2011-05-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664332",
-      "name": "May 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2557"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 10, 2011 (Q22664332) for cells containing \"2011-05-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664330",
-      "name": "May 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2555"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 8, 2011 (Q22664330) for cells containing \"2011-05-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664353",
-      "name": "June 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2624"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 2, 2011 (Q22664353) for cells containing \"2011-06-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664356",
-      "name": "June 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2620"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 6, 2011 (Q22664356) for cells containing \"2011-06-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664331",
-      "name": "May 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2556"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 9, 2011 (Q22664331) for cells containing \"2011-05-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-05-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664334",
-      "name": "May 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2559"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 12, 2011 (Q22664334) for cells containing \"2011-05-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17879059",
-      "name": "June 1, 2011",
-      "types": [
-        "Q2625",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 1, 2011 (Q17879059) for cells containing \"2011-06-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q21472044",
-      "name": "June 3, 2011",
-      "types": [
-        "Q2623",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 3, 2011 (Q21472044) for cells containing \"2011-06-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664354",
-      "name": "June 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2627"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 4, 2011 (Q22664354) for cells containing \"2011-06-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664355",
-      "name": "June 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2622"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 5, 2011 (Q22664355) for cells containing \"2011-06-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664357",
-      "name": "June 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2616"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 7, 2011 (Q22664357) for cells containing \"2011-06-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17879032",
-      "name": "July 1, 2011",
-      "types": [
-        "Q2700",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 1, 2011 (Q17879032) for cells containing \"2011-07-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664379",
-      "name": "July 3, 2011",
-      "types": [
-        "Q2699",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 3, 2011 (Q22664379) for cells containing \"2011-07-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664334",
-      "name": "May 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2559"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item May 12, 2011 (Q22664334) for cells containing \"2011-12-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664528",
-      "name": "December 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2300"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 5, 2011 (Q22664528) for cells containing \"2011-12-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664423",
-      "name": "August 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2777"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 12, 2011 (Q22664423) for cells containing \"2011-08-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479298",
-      "name": "October 10, 2011",
-      "types": [
-        "Q2921",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 10, 2011 (Q7479298) for cells containing \"2011-10-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664414",
-      "name": "August 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2783"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 5, 2011 (Q22664414) for cells containing \"2011-08-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664418",
-      "name": "August 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2780"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 8, 2011 (Q22664418) for cells containing \"2011-08-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664383",
-      "name": "July 7, 2011",
-      "types": [
-        "Q2694",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 7, 2011 (Q22664383) for cells containing \"2011-07-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664420",
-      "name": "August 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2782"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 9, 2011 (Q22664420) for cells containing \"2011-08-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664385",
-      "name": "July 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2690"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 9, 2011 (Q22664385) for cells containing \"2011-07-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664381",
-      "name": "July 5, 2011",
-      "types": [
-        "Q2696",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 5, 2011 (Q22664381) for cells containing \"2011-07-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664451",
-      "name": "September 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2851"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 11, 2011 (Q22664451) for cells containing \"2011-09-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664378",
-      "name": "July 2, 2011",
-      "types": [
-        "Q2697",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 2, 2011 (Q22664378) for cells containing \"2011-07-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664358",
-      "name": "June 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2621"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 8, 2011 (Q22664358) for cells containing \"2011-06-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664450",
-      "name": "September 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2853"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 10, 2011 (Q22664450) for cells containing \"2011-09-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664449",
-      "name": "September 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2856"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 9, 2011 (Q22664449) for cells containing \"2011-09-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664388",
-      "name": "July 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2688"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 12, 2011 (Q22664388) for cells containing \"2011-07-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664380",
-      "name": "July 4, 2011",
-      "types": [
-        "Q2698",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 4, 2011 (Q22664380) for cells containing \"2011-07-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664416",
-      "name": "August 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2787"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 6, 2011 (Q22664416) for cells containing \"2011-08-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664531",
-      "name": "December 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2301"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 8, 2011 (Q22664531) for cells containing \"2011-12-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-01-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17982952",
-      "name": "January 4, 2012",
-      "types": [
-        "Q2168",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item January 4, 2012 (Q17982952) for cells containing \"2012-01-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664361",
-      "name": "June 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2617"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 11, 2011 (Q22664361) for cells containing \"2011-06-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664446",
-      "name": "September 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2858"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 6, 2011 (Q22664446) for cells containing \"2011-09-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664452",
-      "name": "September 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2849"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 12, 2011 (Q22664452) for cells containing \"2011-09-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664421",
-      "name": "August 10, 2011",
-      "types": [
-        "Q2779",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 10, 2011 (Q22664421) for cells containing \"2011-08-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664359",
-      "name": "June 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2618"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 9, 2011 (Q22664359) for cells containing \"2011-06-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664387",
-      "name": "July 11, 2011",
-      "types": [
-        "Q2701",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 11, 2011 (Q22664387) for cells containing \"2011-07-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664360",
-      "name": "June 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2615"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 10, 2011 (Q22664360) for cells containing \"2011-06-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-06-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664363",
-      "name": "June 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2619"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item June 12, 2011 (Q22664363) for cells containing \"2011-06-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664413",
-      "name": "August 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2784"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 4, 2011 (Q22664413) for cells containing \"2011-08-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664412",
-      "name": "August 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2786"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 3, 2011 (Q22664412) for cells containing \"2011-08-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17878939",
-      "name": "August 1, 2011",
-      "types": [
-        "Q2788",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 1, 2011 (Q17878939) for cells containing \"2011-08-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479560",
-      "name": "September 1, 2011",
-      "types": [
-        "Q2859",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 1, 2011 (Q7479560) for cells containing \"2011-09-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664382",
-      "name": "July 6, 2011",
-      "types": [
-        "Q2695",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 6, 2011 (Q22664382) for cells containing \"2011-07-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664384",
-      "name": "July 8, 2011",
-      "types": [
-        "Q2692",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 8, 2011 (Q22664384) for cells containing \"2011-07-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664422",
-      "name": "August 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2778"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 11, 2011 (Q22664422) for cells containing \"2011-08-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-07-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664386",
-      "name": "July 10, 2011",
-      "types": [
-        "Q2689",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item July 10, 2011 (Q22664386) for cells containing \"2011-07-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664411",
-      "name": "August 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2785"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 2, 2011 (Q22664411) for cells containing \"2011-08-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-08-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664417",
-      "name": "August 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2781"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item August 7, 2011 (Q22664417) for cells containing \"2011-08-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664472",
-      "name": "October 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2929"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 4, 2011 (Q22664472) for cells containing \"2011-10-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664442",
-      "name": "September 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2857"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 2, 2011 (Q22664442) for cells containing \"2011-09-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664443",
-      "name": "September 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2860"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 3, 2011 (Q22664443) for cells containing \"2011-09-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664444",
-      "name": "September 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2855"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 4, 2011 (Q22664444) for cells containing \"2011-09-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664447",
-      "name": "September 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2852"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 7, 2011 (Q22664447) for cells containing \"2011-09-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664448",
-      "name": "September 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2850"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 8, 2011 (Q22664448) for cells containing \"2011-09-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-09-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479773",
-      "name": "September 5, 2011",
-      "types": [
-        "Q47150325",
-        "Q2854"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item September 5, 2011 (Q7479773) for cells containing \"2011-09-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479766",
-      "name": "October 5, 2011",
-      "types": [
-        "Q2930",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 5, 2011 (Q7479766) for cells containing \"2011-10-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664473",
-      "name": "October 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2928"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 6, 2011 (Q22664473) for cells containing \"2011-10-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17879120",
-      "name": "November 1, 2011",
-      "types": [
-        "Q2997",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 1, 2011 (Q17879120) for cells containing \"2011-11-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664505",
-      "name": "November 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2987"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 11, 2011 (Q22664505) for cells containing \"2011-11-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664475",
-      "name": "October 8, 2011",
-      "types": [
-        "Q47150325",
-        "Q2924"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 8, 2011 (Q22664475) for cells containing \"2011-10-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664498",
-      "name": "November 2, 2011",
-      "types": [
-        "Q47150325",
-        "Q2996"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 2, 2011 (Q22664498) for cells containing \"2011-11-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664499",
-      "name": "November 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2995"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 3, 2011 (Q22664499) for cells containing \"2011-11-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-10-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q7479997",
-      "name": "October 9, 2011",
-      "types": [
-        "Q2923",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 9, 2011 (Q7479997) for cells containing \"2011-10-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664500",
-      "name": "November 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2994"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 4, 2011 (Q22664500) for cells containing \"2011-11-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664535",
-      "name": "December 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2369"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 12, 2011 (Q22664535) for cells containing \"2011-12-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-11-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17982010",
-      "name": "November 1, 2012",
-      "types": [
-        "Q2997",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 1, 2012 (Q17982010) for cells containing \"2012-11-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-05",
-    "judgment": "matched",
-    "match": {
-      "id": "Q21128915",
-      "name": "November 5, 2011",
-      "types": [
-        "Q2993",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 5, 2011 (Q21128915) for cells containing \"2011-11-05\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664503",
-      "name": "November 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2991"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 9, 2011 (Q22664503) for cells containing \"2011-11-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17983117",
-      "name": "October 6, 2012",
-      "types": [
-        "Q2928",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 6, 2012 (Q17983117) for cells containing \"2012-10-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664501",
-      "name": "November 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2992"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 6, 2011 (Q22664501) for cells containing \"2011-11-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664502",
-      "name": "November 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2989"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 7, 2011 (Q22664502) for cells containing \"2011-11-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-08",
-    "judgment": "matched",
-    "match": {
-      "id": "Q21128924",
-      "name": "8 November 2011",
-      "types": [
-        "Q2990",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item 8 November 2011 (Q21128924) for cells containing \"2011-11-08\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-11-12",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664506",
-      "name": "November 12, 2011",
-      "types": [
-        "Q47150325",
-        "Q2986"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item November 12, 2011 (Q22664506) for cells containing \"2011-11-12\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17878990",
-      "name": "December 1, 2011",
-      "types": [
-        "Q2297",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 1, 2011 (Q17878990) for cells containing \"2011-12-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664526",
-      "name": "December 3, 2011",
-      "types": [
-        "Q47150325",
-        "Q2298"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 3, 2011 (Q22664526) for cells containing \"2011-12-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-04",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664527",
-      "name": "December 4, 2011",
-      "types": [
-        "Q47150325",
-        "Q2310"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 4, 2011 (Q22664527) for cells containing \"2011-12-04\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17983181",
-      "name": "October 7, 2012",
-      "types": [
-        "Q2926",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 7, 2012 (Q17983181) for cells containing \"2012-10-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-06",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664529",
-      "name": "December 6, 2011",
-      "types": [
-        "Q47150325",
-        "Q2303"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 6, 2011 (Q22664529) for cells containing \"2011-12-06\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-07",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664530",
-      "name": "December 7, 2011",
-      "types": [
-        "Q47150325",
-        "Q2299"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 7, 2011 (Q22664530) for cells containing \"2011-12-07\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664532",
-      "name": "December 9, 2011",
-      "types": [
-        "Q47150325",
-        "Q2304"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 9, 2011 (Q22664532) for cells containing \"2011-12-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664533",
-      "name": "December 10, 2011",
-      "types": [
-        "Q47150325",
-        "Q2302"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 10, 2011 (Q22664533) for cells containing \"2011-12-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2011-12-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q22664534",
-      "name": "December 11, 2011",
-      "types": [
-        "Q47150325",
-        "Q2363"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item December 11, 2011 (Q22664534) for cells containing \"2011-12-11\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-01",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17982014",
-      "name": "October 1, 2012",
-      "types": [
-        "Q2913",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 1, 2012 (Q17982014) for cells containing \"2012-10-01\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-10",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17981359",
-      "name": "October 10, 2012",
-      "types": [
-        "Q2921",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 10, 2012 (Q17981359) for cells containing \"2012-10-10\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-02",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17982751",
-      "name": "October 2, 2012",
-      "types": [
-        "Q2932",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 2, 2012 (Q17982751) for cells containing \"2012-10-02\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-09",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17983310",
-      "name": "October 9, 2012",
-      "types": [
-        "Q2923",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 9, 2012 (Q17983310) for cells containing \"2012-10-09\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-03",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17982920",
-      "name": "October 3, 2012",
-      "types": [
-        "Q2931",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 3, 2012 (Q17982920) for cells containing \"2012-10-03\" in column date"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "date",
-    "similarValue": "2012-10-11",
-    "judgment": "matched",
-    "match": {
-      "id": "Q17981423",
-      "name": "October 11, 2012",
-      "types": [
-        "Q2927",
-        "Q47150325"
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item October 11, 2012 (Q17981423) for cells containing \"2012-10-11\" in column date"
+    "baseColumnName": "date",
+    "expression": "grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "date_wikidata_link",
+    "columnInsertIndex": 4,
+    "description": "Create column date_wikidata_link at index 4 based on column date using expression grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id"
   }
 ]
