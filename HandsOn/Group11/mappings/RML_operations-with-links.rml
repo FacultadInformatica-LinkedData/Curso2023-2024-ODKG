@@ -133,7 +133,7 @@
         rr:objectMap [
             rr:template "http://artwork.org/artwork/{id}/dimensions";
         ]
-    ].
+    ];
 
     rr:predicateObjectMap [
         rr:predicateMap [
@@ -144,7 +144,7 @@
             rml:reference "same_as_dbpedia_artist";
             rr:datatype xsd:anyURI;
         ];
-    ];
+    ].
 
 <http://artwork.org/dimensions>
 	rml:logicalSource [
