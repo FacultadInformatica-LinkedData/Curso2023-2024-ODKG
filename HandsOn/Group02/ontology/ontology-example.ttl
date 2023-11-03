@@ -9,20 +9,20 @@
 # Instance Terraza
 <rec:Terraza/A7.2_S10_M5_I7>
 	rdf:type owl:Terraza ;
-	:numeroMesasAutorizadas 5 ;
-	:numeroSillasAutorizadas 10 ;
-	:superficie 7,2 ;
+	:numeroMesasAutorizadas "5"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	:numeroSillasAutorizadas "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	:superficie "7.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	:perteneceALocal <rec:Local/SR-X448901Y-4474755> .
 
 # Instance Local
 <rec:Local/S_X448901Y_4474755>
 	rdf:type owl:Local ;
 	:rotulo "SR" ;
-	:tieneTerraza 7 ;
-	:coordenadaX 448900,55 ;
-	:coordenadaY 4474755,41 ;
-	:horaApertura 10:00:00 ;
-	:horaCierre 00:00:00 ;
+	:tieneTerraza "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	:coordenadaX "448900,55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	:coordenadaY "4474755,41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	:horaApertura "10:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+	:horaCierre "00:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
 	:situacion "Abierto" ;
 	:perteneceADistrito <rec:Distrito/SBC> .
 
@@ -33,5 +33,5 @@
 	:barrio "ORCASITAS" ;
 	:tipoVia "PLAZA" ;
 	:nombreCalle "MIL DELEGADOS" ;
-	:portal 177 ;
-	:codPostal 28022 .
+	:portal "177"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	:codPostal "28022"^^<http://www.w3.org/2001/XMLSchema#integer> .

@@ -1,0 +1,55 @@
+Cabin_Number,Longitude,Latitude,Street_Name,District_Number,District_Name,Wikidata_District,District_Population,Neighbourhood_Number,Neighbourhood_Name,Wikidata_Neighbourhood,Neighbourhood_Area,Neighbourhood_Population,Contaminant_Code
+4,2.2045,41.4039, Lope de Vega,10,Sant Martí,https://wikidata.org/wiki/Q250935,241181.0,68,El Poblenou,https://wikidata.org/wiki/Q1404773,154.5,34411.0,8
+4,2.2045,41.4039, Lope de Vega,10,Sant Martí,https://wikidata.org/wiki/Q250935,241181.0,68,El Poblenou,https://wikidata.org/wiki/Q1404773,154.5,34411.0,10
+4,2.2045,41.4039, Lope de Vega,10,Sant Martí,https://wikidata.org/wiki/Q250935,241181.0,68,El Poblenou,https://wikidata.org/wiki/Q1404773,154.5,34411.0,7
+4,2.2045,41.4039, Lope de Vega,10,Sant Martí,https://wikidata.org/wiki/Q250935,241181.0,68,El Poblenou,https://wikidata.org/wiki/Q1404773,154.5,34411.0,12
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuïc,https://wikidata.org/wiki/Q753075,187026.0,18,Sants,https://wikidata.org/wiki/Q2476184,109.8,43679.0,8
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuïc,https://wikidata.org/wiki/Q753075,187026.0,18,Sants,https://wikidata.org/wiki/Q2476184,109.8,43679.0,7
+42,2.1331,41.3788, Violant d’Hongria,3,Sants-Montjuïc,https://wikidata.org/wiki/Q753075,187026.0,18,Sants,https://wikidata.org/wiki/Q2476184,109.8,43679.0,12
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,8
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,9
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,14
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,10
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,1
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,6
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,7
+43,2.1538,41.3853, c/ Comte Urgell,5,Eixample,https://wikidata.org/wiki/Q64124,269349.0,9,La Nova Esquerra de l'Eixample,https://wikidata.org/wiki/Q1026658,133.8,57906.0,12
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,8
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,14
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,10
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,1
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,6
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,7
+44,2.1534,41.3987, Travessera de Gràcia,6,Gràcia,https://wikidata.org/wiki/Q852697,123276.0,31,Vila de Gràcia,https://wikidata.org/wiki/Q2741611,132.6,50456.0,12
+50,2.1874,41.3864,,1,Ciutat Vella,https://wikidata.org/wiki/Q941385,109672.0,4,"Sant Pere, Santa Caterina i la Ribera",https://wikidata.org/wiki/Q2442135,111.4,22041.0,8
+50,2.1874,41.3864,,1,Ciutat Vella,https://wikidata.org/wiki/Q941385,109672.0,4,"Sant Pere, Santa Caterina i la Ribera",https://wikidata.org/wiki/Q2442135,111.4,22041.0,14
+50,2.1874,41.3864,,1,Ciutat Vella,https://wikidata.org/wiki/Q941385,109672.0,4,"Sant Pere, Santa Caterina i la Ribera",https://wikidata.org/wiki/Q2442135,111.4,22041.0,7
+50,2.1874,41.3864,,1,Ciutat Vella,https://wikidata.org/wiki/Q941385,109672.0,4,"Sant Pere, Santa Caterina i la Ribera",https://wikidata.org/wiki/Q2442135,111.4,22041.0,12
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,8
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,14
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,10
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,1
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,6
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,12
+54,2.148,41.4261, c/ Granja Vella,7,Horta-Guinardó,https://wikidata.org/wiki/Q1771488,173944.0,41,Vall d'Hebron,https://wikidata.org/wiki/Q3298492,73.6,5932.0,7
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,8
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,14
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,10
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,1
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,6
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,7
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,12
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,108
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,114
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,110
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,101
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,106
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,107
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,112
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,9
+57,2.1151,41.3875, c/ de Jordi Girona,4,Les Corts,https://wikidata.org/wiki/Q959944,81576.0,21,Pedralbes,https://wikidata.org/wiki/Q2562684,270.2,11808.0,109
+58,2.1239,41.41843,,5,Sarrià-Sant Gervasi,https://wikidata.org/wiki/Q1765582,149201.0,22,"Vallvidrera, el Tibidabo i les Planes",https://wikidata.org/wiki/Q3310216,,4760.0,8
+58,2.1239,41.41843,,5,Sarrià-Sant Gervasi,https://wikidata.org/wiki/Q1765582,149201.0,22,"Vallvidrera, el Tibidabo i les Planes",https://wikidata.org/wiki/Q3310216,,4760.0,14
+58,2.1239,41.41843,,5,Sarrià-Sant Gervasi,https://wikidata.org/wiki/Q1765582,149201.0,22,"Vallvidrera, el Tibidabo i les Planes",https://wikidata.org/wiki/Q3310216,,4760.0,10
+58,2.1239,41.41843,,5,Sarrià-Sant Gervasi,https://wikidata.org/wiki/Q1765582,149201.0,22,"Vallvidrera, el Tibidabo i les Planes",https://wikidata.org/wiki/Q3310216,,4760.0,7
+58,2.1239,41.41843,,5,Sarrià-Sant Gervasi,https://wikidata.org/wiki/Q1765582,149201.0,22,"Vallvidrera, el Tibidabo i les Planes",https://wikidata.org/wiki/Q3310216,,4760.0,12
