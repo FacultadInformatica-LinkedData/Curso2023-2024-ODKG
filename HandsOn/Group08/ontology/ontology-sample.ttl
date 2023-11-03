@@ -1,26 +1,52 @@
-ns:HarvardScore a ns:LiberalArtsRanking ;
-    ns:yearPublished "2023" ;
-    ns:score 3 .
+@base <http://www.semanticweb.org/upm/opendata/group08> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
 
-ns:HarvardEnrollmentRate a ns:EnrollmentRate ;
-    ns:totalEnrolled 1559;
-    ns:totalApplicants 35023 ;
-    ns:value 4.45
 
-ns:HarvardAdmissionRate a ns:AdmissionRate;
-    ns:totalApplicants 35023 ;
-    ns:totalAdmitted 2047;
-    ns:value 5.84 .
+resource:HarvardScore a ontology:LiberalArtsRanking ;
+    ontology:yearPublished "2023" ;
+    ontology:score 3 .
 
-ns:Harvard a ns:University ;
-    ns:ipedsIs 166027 ;
-    ns:name "Harvard University" ;
-    ns:website "www.harvard.edu/" ;
-    ns:city  ns:Masachusetts;
-    ns:state ns:FL;
-    ns:country ns:United States;
-    ns:hasRate ns:HarvardEnrollmentRate ;
-    ns:hasRate ns:HarvardAdmissionRate;
-    ns:hasRanking ns:HarvardRanking .
+resource:HarvardEnrollmentRate a ontology:EnrollmentRate ;
+    ontology:totalEnrolled 1559;
+    ontology:totalApplicants 35023 ;
+    ontology:value 4.45
+
+resource:HarvardAdmissionRate a ontology:AdmissionRate;
+    ontology:totalApplicants 35023 ;
+    ontology:totalAdmitted 2047;
+    ontology:value 5.84 .
+
+resource:Harvard a ontology:University ;
+    ontology:ipedsIs 166027 ;
+    rdf:label "Harvard University" ;
+    ontology:website "www.harvard.edu/" ;
+    dbo:city  resource:Masachusetts;
+    dbo:state resource:Florida;
+    dbo:country resource:United States;
+    ontology:hasRate resource:HarvardEnrollmentRate ;
+    ontology:hasRate resource:HarvardAdmissionRate;
+    ontology:hasRanking resource:HarvardRanking .
     schema:latitude 48.515148421
     schema:longitude 87.23564818
+
+resource:Masachusetts a ontology:City
+    rdf:label "Masachusetts"
+
+resource:Florida a ontology:Country
+    rdf:label "FL"
+
+resource:Masachusetts a ontology:Country
+    rdf:label "USA"
+
+
