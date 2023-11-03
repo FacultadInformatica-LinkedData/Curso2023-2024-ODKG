@@ -1,0 +1,411 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q113145171",
+        "name": "type of chemical entity"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Contam_Name to type Q113145171"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "SO2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5282",
+      "name": "sulfur dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sulfur dioxide (Q5282) for cells containing \"SO2\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "CO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2025",
+      "name": "carbon monoxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item carbon monoxide (Q2025) for cells containing \"CO\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "NO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207843",
+      "name": "nitric oxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitric oxide (Q207843) for cells containing \"NO\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "NO2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen dioxide (Q207895) for cells containing \"NO2\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "PM2.5",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035814",
+      "name": "PM 2.5",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 2.5 (Q48035814) for cells containing \"PM2.5\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "PM10",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035980",
+      "name": "PM 10 (excluding PM 2.5)",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 10 (excluding PM 2.5) (Q48035980) for cells containing \"PM10\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "NOx",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20962970",
+      "name": "NOx",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item NOx (Q20962970) for cells containing \"NOx\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "O3",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36933",
+      "name": "ozone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ozone (Q36933) for cells containing \"O3\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "Black Carbon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3233590",
+      "name": "black carbon",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item black carbon (Q3233590) for cells containing \"Black Carbon\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "CO*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2025",
+      "name": "carbon monoxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item carbon monoxide (Q2025) for cells containing \"CO*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "NO*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207843",
+      "name": "nitric oxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitric oxide (Q207843) for cells containing \"NO*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "PM2.5*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035814",
+      "name": "PM 2.5",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 2.5 (Q48035814) for cells containing \"PM2.5*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "PM10*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035980",
+      "name": "PM 10 (excluding PM 2.5)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item PM 10 (excluding PM 2.5) (Q48035980) for cells containing \"PM10*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "Nox*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q424418",
+      "name": "nitrogen oxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item nitrogen oxide (Q424418) for cells containing \"Nox*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "O3*",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36933",
+      "name": "ozone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ozone (Q36933) for cells containing \"O3*\" in column Contam_Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Contam_Name",
+    "similarValue": "Biomassa Black Carbon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3233590",
+      "name": "black carbon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item black carbon (Q3233590) for cells containing \"Biomassa Black Carbon\" in column Contam_Name"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Contam_Name",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P2067",
+          "name": "mass"
+        }
+      ]
+    },
+    "columnInsertIndex": 2,
+    "description": "Extend data at index 2 based on column Contam_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "mass",
+    "newColumnName": "Mass",
+    "description": "Rename column mass to Mass"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Contam_Name",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P1542",
+          "name": "has effect"
+        }
+      ]
+    },
+    "columnInsertIndex": 2,
+    "description": "Extend data at index 2 based on column Contam_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "has effect",
+    "newColumnName": "Effect",
+    "description": "Rename column has effect to Effect"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Contam_Name",
+    "expression": "grel:\"https://wikidata.org/entity/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata_Contam",
+    "columnInsertIndex": 2,
+    "description": "Create column Wikidata_Contam at index 2 based on column Contam_Name using expression grel:\"https://wikidata.org/entity/\" + cell.recon.match.id"
+  }
+]

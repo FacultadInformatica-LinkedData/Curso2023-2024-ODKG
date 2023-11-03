@@ -1,0 +1,55 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rml: http://semweb.mmlab.be/ns/rml#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  nso: http://madridwastemanagement.org/group01/ontology/
+  ql: http://semweb.mmlab.be/ns/ql#
+  fnml: 'http://semweb.mmlab.be/ns/fnml#'
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+
+  zonemap:
+    sources:
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Zone/Zone_$(Zone)
+    po:
+      - [a, nso:Zone]
+      - [rdfs:label,Zone_$(Zone),xsd:string]
+      - [nso:zoneID,$(Zone),xsd:integer]
+      - [nso:hasDistrict, "http://madridwastemanagement.org/group01/data/District/District_$(District)"]
+
+  districtmap:
+    sources:
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/District/District_$(District)
+    po:
+      - [a, nso:District]
+      - [rdfs:label,District_$(District),xsd:string]
+      - [nso:districtID,$(District),xsd:integer]
+      - [nso:districtName,$(Name),xsd:string]
+      - [nso:hasResidue, "http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)"]
+      - [ owl:sameAs, $(same_as_wikidata_district)~iri ]
+
+  wastetypemap:
+    sources:
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)
+    po:
+      - [a, nso:WasteType]
+      - [rdfs:label,$(WasteType),xsd:string]
+      - [nso:hasTotal,"http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)"]
+      - [owl:sameAs, $(same_as_wikidata_wastetype)~iri]
+
+  totalmap:
+    sources:
+      - [Residuos_2021_2023-updated-with-links.csv~csv]
+    s: http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)
+    po:
+      - [a, nso:Total]
+      - [nso:value,$(Total),xsd:float]
+      - [nso:year,$(Year),xsd:integer]
+      - [nso:month,$(Month),xsd:string]
+      - [nso:referedTo, "http://madridwastemanagement.org/group01/data/District/District_$(District)"]
