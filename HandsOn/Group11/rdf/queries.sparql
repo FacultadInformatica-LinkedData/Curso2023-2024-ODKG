@@ -1,30 +1,23 @@
-@prefix art: <http://artwork.org/> .
+PREFIX art: <http://artwork.org/>
 
-# select two examples defined in artworks-schema-example.ttl
-SELECT ?artworkId ?artworkTitle ?width ?height ?unit WHERE {
-    ?artworkId rdf:type owl:Class art:Artwork .
-    ?artworkId art:hasTitle ?artworkTitle .
-    {
-        ?artworkId art:hasAccessionNumber "A00020"^^xsd:string .
-        ?artworkId art:hasArtist "Blake, William"^^xsd:string .
-        ?artworkId art:hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
-    }
-    UNION
-    {
-        ?artworkId art:hasAccessionNumber "A00792"^^xsd:string .
-        ?artworkId art:hasArtist "Millais, Sir_John_Everett, Bt"^^xsd:string .
-        ?artworkId art:hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .
-    }
-    ?artworkId art:hasDimension ?artworkDimensionId .
-    ?artworkDimensionId art:hasWidth ?width .
-    ?artworkDimensionId art:hasHeight ?height .
+# select artwork with accession number A00001
+SELECT ?artist ?title
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasAccessionNumber "A00001" .
+  ?artwork art:hasArtist ?artist .
+  ?artwork art:hasTitle ?title .
 }
-# count number of artworks
-SELECT (COUNT(DISTINCT ?artworkId) AS ?ArtworksCount) WHERE {
-    ?artworkId rdf:type owl:Class art:Artwork .
+
+# count number of artworks
+SELECT (COUNT(DISTINCT ?id) as ?distinctIdCount)
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasId ?id .
 }
-# count number of artists
-SELECT (COUNT(DISTINCT ?artworkArtist) AS ?ArtworkArtistsCount) WHERE {
-    ?artworkId rdf:type owl:Class art:Artwork .
-    ?artworkId art:hasArtist ?artworkArtist .
-}
+
+# count number of artists
+SELECT (COUNT(DISTINCT ?artist) as ?distinctArtistCount)
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasArtist ?artist .
