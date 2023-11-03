@@ -1,0 +1,95 @@
+prefixes:
+ dc: http://purl.org/dc/elements/1.1/
+ rr: http://www.w3.org/ns/r2rml#
+ rml: http://semweb.mmlab.be/ns/rml#
+ ns: http://MadridTransit.com/
+ owl: http://www.w3.org/2002/07/owl#
+ xsd: http://www.w3.org/2001/XMLSchema#
+ rdf: http://www.w3.org/2000/01/rdf-schema#
+
+mappings:
+  Accidents:
+    sources:
+        - [Accidents-updated.csv~csv]
+    s: ns:Accidents/$(num_Expediente)
+    po:
+      - [rdf:type owl:Class]
+      - [ns:occuredOn, $(dateTime), xsd:dateTime]
+      - [ns:num_Expediente, $(num_expediente), xsd:integer]
+      - [ns:typeOfAccident, $(tipo_accidente)]
+      - [ns:alcoholInfluence, $(positiva_alcohol), xsd:boolean]
+      - [ns:drugInfluence, $(positiva_droga), xsd:boolean]
+      - [ns:vehicleInvolved, ns:Vehicles/$(tipo_vehiculo)~iri]
+      - [ns:weatherCondition, ns:Weathers/$(estado_meteorologico)~iri]
+      - [ns:personInvolved, ns:Persons/$(tipo_persona)/$(recordNumber)~iri]
+      - [ns:locatedAt, ns:Address/$(recordNumber)~iri]
+      - [ns:coordinates ns:Coordinates/$(recordNumber)~iri]
+
+  Vehicles:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Vehicles/$(tipo_vehiculo)
+    po:
+      - [rdf:type ns:Vehicle]
+      - [ns:typeOfVehicle, $(tipo_vehiculo)]
+      - [rdf:label, $(tipo_vehiculo)]
+  Weather:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Weather/$(estado_meteorologico)
+    po:
+      - [rdf:type ns:Weather]
+      - [ns:weatherType, $(estado_meteorologico)]
+      - [rdf:label, $(estado_meteorologico)]
+
+  Person:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Persons/$(recordNumber)
+    po:
+      - [rdf:type ns:Person]
+      - [ns:gender, $(sexo)]
+      - [ns:rangeOfAge, $(rango_edad)]
+      - [ns:typeOfPerson, $(tipo_persona)]
+      - [ns:physicalDamages,  ns:InjuryTypes/$(cod_lesividad)~iri]
+
+  District:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Districts/$(cod_distrito)
+    po:
+      - [rdf:type ns:District]
+      - [ns:name, $(distrito)]
+      - [ns:districtCode, $(cod_distrito), xsd:integer]
+      - [rdf:label, $(distrito)]
+
+
+  InjuryType:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns/inJuryTypes/$(cod_lesividad)
+    po:
+      - [rdf:type ns:InjuryType]
+      - [ns:code, $(cod_lesividad), xsd:integer]
+      - [ns:description, $(lesividad)]
+
+  Coordinates:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Coordinates/$(recordNumber)
+    po:
+      - [rdf:type ns:Coordinates]
+      - [ns:latitude, $(coordenada_x_utm),xsd:float]
+      - [ns:longitude, $(coordenada_y_utm),xsd:float]
+
+
+  Address:
+    sources:
+      - [Accidents-updated.csv~csv]
+    s: ns:Address/$(recordNumber)
+    po:
+      - [rdf:type ns:Address]
+      - [ns:Number, $(numero), xsd:integer]
+      - [ns:hasRoad, $(localizacion)]
+      - [ns:districtCode, ns:District/$(cod_distrito)~iri]
+
