@@ -26,7 +26,7 @@
  rr:predicateObjectMap [
     rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string]
     rr:objectMap [
-      rr:template "season_wikidata_link";
+      rr:reference "season_wikidata_link";
       rr:datatype xsd:string
     ]
   ];
