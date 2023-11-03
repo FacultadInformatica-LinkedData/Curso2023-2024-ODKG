@@ -128,7 +128,7 @@
 
     rr:predicateObjectMap [
         rr:predicateMap [
-            rr:constant owl:sameAsDbpediaArtist ;
+            rr:constant owl:sameAs ;
             rr:termType rr:IRI
             ];
         rr:objectMap [
