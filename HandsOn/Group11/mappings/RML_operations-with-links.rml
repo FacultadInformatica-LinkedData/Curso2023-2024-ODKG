@@ -10,13 +10,13 @@
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix art: <http://artwork.org/> .
 
-<#ArtworkTriplesMap>
-    rml:logicalSource [
-    rml:source <https://drive.google.com/u/0/uc?id=1zmJc3_NhuoPkczfb4tTQp8Wp-auy8LBH&export=download>;
-    rml:referenceFormulation ql:CSV;
-    rml:iterator "csvRow";
-];
 
+<http://artwork.org/artwork>
+    rml:logicalSource [
+	    rml:source "https://drive.google.com/u/0/uc?id=1zmJc3_NhuoPkczfb4tTQp8Wp-auy8LBH&export=download";
+	    rml:referenceFormulation ql:CSV;
+	    rml:iterator "csvRow";
+	];
 
     rr:subjectMap [
         rr:template "http://artwork.org/artwork/{id}";
@@ -34,96 +34,105 @@
 
     rr:predicateObjectMap [
         rr:predicate art:hasAccessionNumber ;
-        rr:object [
-            rml:reference "accession_number";
-            rr:datatype xsd:string;
-             ];
+        rr:objectMap [
+	        rml:reference "accession_number";
+	        rr:datatype xsd:string;
+         ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasArtist ;
-        rr:object [
+        rr:objectMap [
             rml:reference "artist" ;
             rr:datatype xsd:string;
-            ];
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasArtistRole ;
-        rr:object [
+        rr:objectMap [
             rml:reference "artistRole";
             rr:datatype xsd:string;
-             ];
+         ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasArtistId ;
-        rr:object [
+        rr:objectMap [
             rml:reference "artistId";
-            rr:datatype xsd:interger; ];
+            rr:datatype xsd:interger;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasTitle ;
-        rr:object [
+        rr:objectMap [
             rml:reference "title";
-            rr:datatype xsd:string; ];
+            rr:datatype xsd:string;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasMedium ;
-        rr:object [
+        rr:objectMap [
             rml:reference "medium";
-            rr:datatype xsd:string; ];
+            rr:datatype xsd:string;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasCreditLine ;
-        rr:object [
+        rr:objectMap [
             rml:reference "creditLine";
-            rr:datatype xsd:string; ];
+            rr:datatype xsd:string;
+        ]
     ];
 
     rr:predicateObjectMap [
-        rr:predicate art::madeInYear ;
-        rr:object [
+        rr:predicate art:madeInYear ;
+        rr:objectMap [
             rml:reference "year";
-            rr:datatype xsd:integer; ];
+            rr:datatype xsd:integer;
+        ]
     ];
 
     rr:predicateObjectMap [
-        rr:predicate art::acquiredInYear ;
-        rr:object [
+        rr:predicate art:acquiredInYear ;
+        rr:objectMap [
             rml:reference "acquisitionYear";
-            rr:datatype xsd:integer; ];
+            rr:datatype xsd:integer;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasThumbnailCopyright ;
-        rr:object [
+        rr:objectMap [
             rml:reference "thumbnailCopyright";
-            rr:datatype xsd:string; ];
+            rr:datatype xsd:string;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasThumbnailUrl ;
-        rr:object [
+        rr:objectMap [
             rml:reference "thumbnailUrl";
             rr:datatype xsd:anyURI;
-         ];
+         ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasUrl ;
-        rr:object [
+        rr:objectMap [
             rml:reference "url";
-            rr:datatype xsd:anyURI; ];
+            rr:datatype xsd:anyURI;
+        ]
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasDimension ;
-        rr:object [
-            rr:template "http://artwork.org/artwork/{id}/dimensions"; ];
+        rr:objectMap [
+            rr:template "http://artwork.org/artwork/{id}/dimensions";
+        ]
     ];
 
     rr:predicateObjectMap [
@@ -135,31 +144,33 @@
             rml:reference "same_as_dbpedia_artist";
             rr:datatype xsd:anyURI;
         ];
-    ];
+    ].
 
-<#DimensionTriplesMap>
-    rml:logicalSource [
-    rml:source <https://drive.google.com/u/0/uc?id=1zmJc3_NhuoPkczfb4tTQp8Wp-auy8LBH&export=download>;
-    rml:referenceFormulation ql:CSV;
-    rml:iterator "csvRow";
-];
-
+<http://artwork.org/dimensions>
+	rml:logicalSource [
+	    rml:source "https://drive.google.com/u/0/uc?id=1zmJc3_NhuoPkczfb4tTQp8Wp-auy8LBH&export=download";
+	    rml:referenceFormulation ql:CSV;
+	    rml:iterator "csvRow";
+	];
 
     rr:subjectMap [
-        rr:template "http://artwork.org/artwork/{id}/dimensions" ;
+        rr:template "http://artwork.org/artwork/{id}/dimensions";
         rr:termType rr:IRI;
+        rr:class art:ArtworkDimension;
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasWidth ;
-        rr:object [
+        rr:objectMap [
             rml:reference "width";
-            rr:datatype xsd:integer; ];
+            rr:datatype xsd:decimal;
+        ];
     ];
 
     rr:predicateObjectMap [
         rr:predicate art:hasHeight ;
-        rr:object [
+        rr:objectMap [
             rml:reference "height";
-            rr:datatype xsd:integer; ];
+            rr:datatype xsd:decimal;
+        ];
     ].
