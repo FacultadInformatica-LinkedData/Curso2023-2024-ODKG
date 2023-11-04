@@ -5,6 +5,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 @prefix vama: <http://vidaactivamadrid.es/info/ontology/class#> .
@@ -21,13 +22,13 @@ map:jc_001 rr:child "DISTRITO" ;
 map:map_District_000 rml:logicalSource map:source_002 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "District" ;
-	rr:predicateObjectMap map:pom_007, map:pom_008 ;
+	rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010 ;
 	rr:subjectMap map:s_002 .
 
 map:map_Neighborhood1_000 rml:logicalSource map:source_001 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "Neighborhood1" ;
-	rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006 ;
+	rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007 ;
 	rr:subjectMap map:s_001 .
 
 map:map_Park_000 rml:logicalSource map:source_000 ;
@@ -57,19 +58,27 @@ map:om_004 rml:reference "BARRIO" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_005 rdf:type rr:ObjectMap ;
+map:om_005 rml:reference "same_as_wikidata_BARRIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_006 rdf:type rr:ObjectMap ;
 	rr:constant vama:District ;
 	rr:termType rr:IRI .
 
-map:om_006 rml:reference "DISTRITO" ;
+map:om_007 rml:reference "DISTRITO" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_007 rdf:type rr:ObjectMap ;
+map:om_008 rml:reference "same_as_wikidata_DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_009 rdf:type rr:ObjectMap ;
 	rr:joinCondition map:jc_000 ;
 	rr:parentTriplesMap map:map_Neighborhood1_000 .
 
-map:om_008 rdf:type rr:ObjectMap ;
+map:om_010 rdf:type rr:ObjectMap ;
 	rr:joinCondition map:jc_001 ;
 	rr:parentTriplesMap map:map_District_000 .
 
@@ -92,13 +101,19 @@ map:pm_005 rdf:type rr:PredicateMap ;
 	rr:constant property:name .
 
 map:pm_006 rdf:type rr:PredicateMap ;
-	rr:constant property:isInDistrict .
+	rr:constant owl:sameAs .
 
 map:pm_007 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant property:isInDistrict .
 
 map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_009 rdf:type rr:PredicateMap ;
 	rr:constant property:name .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_000 ;
@@ -113,7 +128,7 @@ map:pom_002 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap map:pm_002 .
 
 map:pom_003 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_007 ;
+	rr:objectMap map:om_009 ;
 	rr:predicateMap map:pm_003 .
 
 map:pom_004 rdf:type rr:PredicateObjectMap ;
@@ -125,16 +140,24 @@ map:pom_005 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap map:pm_005 .
 
 map:pom_006 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_008 ;
+	rr:objectMap map:om_005 ;
 	rr:predicateMap map:pm_006 .
 
 map:pom_007 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_005 ;
+	rr:objectMap map:om_010 ;
 	rr:predicateMap map:pm_007 .
 
 map:pom_008 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_006 ;
 	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_010 .
 
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_District_000, map:map_Neighborhood1_000, map:map_Park_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .

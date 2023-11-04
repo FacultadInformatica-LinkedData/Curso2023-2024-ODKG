@@ -30,6 +30,7 @@ mappings:
     po:
       - [a, vama:Neighborhood1]
       - [property:name, $(BARRIO)]
+      - [owl:sameAs, $(same_as_wikidata_BARRIO)~iri]
       - p: property:isInDistrict
         o:
           - mapping: District
@@ -46,3 +47,4 @@ mappings:
     po:
       - [a, vama:District]
       - [property:name, $(DISTRITO)]
+      - [owl:sameAs, $(same_as_wikidata_DISTRITO)~iri]
