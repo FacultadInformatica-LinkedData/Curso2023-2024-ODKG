@@ -9,7 +9,7 @@ mappings:
 
   Activity:
     sources: 
-      - ["../csv/300107-0-agenda-actividades-eventos-with-links~csv"]
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: http://vidaactivamadrid.es/info/resource/Activity/$(ID)
     po:
       - [a, vama:Activity]
@@ -34,13 +34,14 @@ mappings:
 
   Facility:
     sources: 
-      - ["../csv/300107-0-agenda-actividades-eventos-with-links~csv"]
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Facility/$(NOMBRE_INSTALACION)"
     po:
       - [a, vama:Facility]
       - [property:name, $(NOMBRE_INSTALACION)]
       - [property:accessibility, $(ACCESIBILIDAD_INSTALACION)]
       - [property:facilityURL, $(INSTALACION_URL)]
+      - [owl:sameAs, $(same_as_wikidata_nombre_instalacion)~iri]
       - p: property:hasAddress
         o:
           - mapping: Address
@@ -49,10 +50,10 @@ mappings:
               parameters:
               - [str1, $(DIRECCION)]
               - [str2, $(DIRECCION)]
-  
+
   Address:
     sources: 
-      - ["../csv/300107-0-agenda-actividades-eventos-with-links~csv"]
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Address/$(DIRECCION)"
     po:
       - [a, vama:Address]
@@ -71,8 +72,9 @@ mappings:
 
   Neighborhood2:
     sources: 
-      - ["../csv/300107-0-agenda-actividades-eventos-with-links~csv"]
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)"
     po:
       - [a, vama:Neighborhood2]
       - [property:name, $(BARRIO)]
+      - [owl:sameAs, $(same_as_wikidata_barrio)~iri]

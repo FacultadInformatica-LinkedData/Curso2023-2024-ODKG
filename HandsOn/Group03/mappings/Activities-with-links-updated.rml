@@ -5,6 +5,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
@@ -30,19 +31,19 @@ map:map_Activity_000 rml:logicalSource map:source_000 ;
 map:map_Address_000 rml:logicalSource map:source_002 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "Address" ;
-	rr:predicateObjectMap map:pom_017, map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022 ;
+	rr:predicateObjectMap map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023 ;
 	rr:subjectMap map:s_002 .
 
 map:map_Facility_000 rml:logicalSource map:source_001 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "Facility" ;
-	rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016 ;
+	rr:predicateObjectMap map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017 ;
 	rr:subjectMap map:s_001 .
 
 map:map_Neighborhood2_000 rml:logicalSource map:source_003 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "Neighborhood2" ;
-	rr:predicateObjectMap map:pom_023, map:pom_024 ;
+	rr:predicateObjectMap map:pom_024, map:pom_025, map:pom_026 ;
 	rr:subjectMap map:s_003 .
 
 map:om_000 rdf:type rr:ObjectMap ;
@@ -108,45 +109,53 @@ map:om_014 rml:reference "INSTALACION_URL" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_015 rdf:type rr:ObjectMap ;
+map:om_015 rml:reference "same_as_wikidata_nombre_instalacion" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_016 rdf:type rr:ObjectMap ;
 	rr:constant vama:Address ;
 	rr:termType rr:IRI .
 
-map:om_016 rml:reference "DIRECCION" ;
+map:om_017 rml:reference "DIRECCION" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_017 rml:reference "CODIGO_POSTAL" ;
+map:om_018 rml:reference "CODIGO_POSTAL" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_018 rml:reference "LATITUD" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:double ;
-	rr:termType rr:Literal .
-
-map:om_019 rml:reference "LONGITUD" ;
+map:om_019 rml:reference "LATITUD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:double ;
 	rr:termType rr:Literal .
 
-map:om_020 rdf:type rr:ObjectMap ;
+map:om_020 rml:reference "LONGITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:double ;
+	rr:termType rr:Literal .
+
+map:om_021 rdf:type rr:ObjectMap ;
 	rr:constant vama:Neighborhood2 ;
 	rr:termType rr:IRI .
 
-map:om_021 rml:reference "BARRIO" ;
+map:om_022 rml:reference "BARRIO" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:Literal .
 
-map:om_022 rdf:type rr:ObjectMap ;
+map:om_023 rml:reference "same_as_wikidata_barrio" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_024 rdf:type rr:ObjectMap ;
 	rr:joinCondition map:jc_000 ;
 	rr:parentTriplesMap map:map_Facility_000 .
 
-map:om_023 rdf:type rr:ObjectMap ;
+map:om_025 rdf:type rr:ObjectMap ;
 	rr:joinCondition map:jc_001 ;
 	rr:parentTriplesMap map:map_Address_000 .
 
-map:om_024 rdf:type rr:ObjectMap ;
+map:om_026 rdf:type rr:ObjectMap ;
 	rr:joinCondition map:jc_002 ;
 	rr:parentTriplesMap map:map_Neighborhood2_000 .
 
@@ -199,31 +208,37 @@ map:pm_015 rdf:type rr:PredicateMap ;
 	rr:constant property:facilityURL .
 
 map:pm_016 rdf:type rr:PredicateMap ;
-	rr:constant property:hasAddress .
+	rr:constant owl:sameAs .
 
 map:pm_017 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant property:hasAddress .
 
 map:pm_018 rdf:type rr:PredicateMap ;
-	rr:constant property:name .
-
-map:pm_019 rdf:type rr:PredicateMap ;
-	rr:constant sch:postalCode .
-
-map:pm_020 rdf:type rr:PredicateMap ;
-	rr:constant property:latitude .
-
-map:pm_021 rdf:type rr:PredicateMap ;
-	rr:constant property:longitude .
-
-map:pm_022 rdf:type rr:PredicateMap ;
-	rr:constant property:isInNeighborhood .
-
-map:pm_023 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
-map:pm_024 rdf:type rr:PredicateMap ;
+map:pm_019 rdf:type rr:PredicateMap ;
 	rr:constant property:name .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant sch:postalCode .
+
+map:pm_021 rdf:type rr:PredicateMap ;
+	rr:constant property:latitude .
+
+map:pm_022 rdf:type rr:PredicateMap ;
+	rr:constant property:longitude .
+
+map:pm_023 rdf:type rr:PredicateMap ;
+	rr:constant property:isInNeighborhood .
+
+map:pm_024 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_025 rdf:type rr:PredicateMap ;
+	rr:constant property:name .
+
+map:pm_026 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_000 ;
@@ -270,7 +285,7 @@ map:pom_010 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap map:pm_010 .
 
 map:pom_011 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_022 ;
+	rr:objectMap map:om_024 ;
 	rr:predicateMap map:pm_011 .
 
 map:pom_012 rdf:type rr:PredicateObjectMap ;
@@ -290,11 +305,11 @@ map:pom_015 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap map:pm_015 .
 
 map:pom_016 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_023 ;
+	rr:objectMap map:om_015 ;
 	rr:predicateMap map:pm_016 .
 
 map:pom_017 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_015 ;
+	rr:objectMap map:om_025 ;
 	rr:predicateMap map:pm_017 .
 
 map:pom_018 rdf:type rr:PredicateObjectMap ;
@@ -314,16 +329,24 @@ map:pom_021 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap map:pm_021 .
 
 map:pom_022 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_024 ;
+	rr:objectMap map:om_020 ;
 	rr:predicateMap map:pm_022 .
 
 map:pom_023 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_020 ;
+	rr:objectMap map:om_026 ;
 	rr:predicateMap map:pm_023 .
 
 map:pom_024 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_021 ;
 	rr:predicateMap map:pm_024 .
+
+map:pom_025 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_022 ;
+	rr:predicateMap map:pm_025 .
+
+map:pom_026 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_023 ;
+	rr:predicateMap map:pm_026 .
 
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_Activity_000, map:map_Address_000, map:map_Facility_000, map:map_Neighborhood2_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
