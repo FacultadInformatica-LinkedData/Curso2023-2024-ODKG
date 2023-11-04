@@ -1,0 +1,3239 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CHAMART’�N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHAMARTIN"
+      }
+    ],
+    "description": "Mass edit cells in column distrito"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TETU’�N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TETUAN"
+      }
+    ],
+    "description": "Mass edit cells in column distrito"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Choque contra obst’�culo fijo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Choque contra obstaculo fijo"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "expression": "value.replace(\"’±\",\"n\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rango_edad using expression value.replace(\"’±\",\"n\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Colisi’_n m’_ltiple"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colision mulltiple"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Colisi’_n fronto-lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colision fronto-lateral"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Colisi’_n lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colision lateral"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Solo salida de la v’_a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Solo salida de la via"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peat’_n"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peaton"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_persona"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CHAMBER’�"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHAMBERI"
+      }
+    ],
+    "description": "Mass edit cells in column distrito"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "M’�s de 74 anos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mas de 74 anos"
+      }
+    ],
+    "description": "Mass edit cells in column rango_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Autob’_s"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Autobus"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Autob’_s articulado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Autobus articulado"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Autob’_s articulado EMT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Autobus articulado EMT"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cami’_n de bomberos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Camion de bomberos"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cami’_n r’_gido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Camion rigido"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Microb’_s <= 17 plazas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Microbus <= 17 plazas"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otros veh’_culos con motor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otros vehiculos con motor"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Otros veh’_culos sin motor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Otros vehiculos sin motor"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Patinete no el’©ctrico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Patinete no electrico"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tractocami’_n"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tractocamion"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VMU el’©ctrico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VMU electrico"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Veh’_culo articulado"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vehiculo articulado"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_vehiculo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "localizacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AVDA. LOGRO’•O, 179"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AVDA. LOGROÑO, 179"
+      }
+    ],
+    "description": "Mass edit cells in column localizacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "localizacion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CALL. REAL DE ARGANDA / CALL. PE’•ARANDA DE BRACAMONTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CALL. REAL DE ARGANDA / CALL. PEÑARANDA DE BRACAMONTE"
+      }
+    ],
+    "description": "Mass edit cells in column localizacion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VIC’�LVARO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VICALVARO"
+      }
+    ],
+    "description": "Mass edit cells in column distrito"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ca’_da"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Caida"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Colisi’_n frontal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colision frontal"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_accidente",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Despe’±amiento"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Despeñamiento"
+      }
+    ],
+    "description": "Mass edit cells in column tipo_accidente"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lluvia d’©bil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lluvia debil"
+      }
+    ],
+    "description": "Mass edit cells in column estado_meteorologico"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LLuvia intensa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lluvia intensa"
+      }
+    ],
+    "description": "Mass edit cells in column estado_meteorologico"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "expression": "value.replace(\"n\",\"ñ\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rango_edad using expression value.replace(\"n\",\"ñ\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Descoñocido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Desconocido"
+      }
+    ],
+    "description": "Mass edit cells in column rango_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rango_edad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Meñor de 5 años"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Menor de 5 años"
+      }
+    ],
+    "description": "Mass edit cells in column rango_edad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lesividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asistencia sanitaria s’_lo en el lugar del accidente"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asistencia sanitaria solo en el lugar del accidente"
+      }
+    ],
+    "description": "Mass edit cells in column lesividad"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lesividad",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Atenci’_n en urgencias sin posterior ingreso"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Atencion en urgencias sin posterior ingreso"
+      }
+    ],
+    "description": "Mass edit cells in column lesividad"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column distrito to type null"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1766348",
+      "name": "Chamartín",
+      "types": [
+        "Q3032114",
+        "Q486972"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chamartín (Q1766348) for cells containing \"CHAMARTIN\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763376",
+      "name": "Centro",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Centro (Q1763376) for cells containing \"CENTRO\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1773540",
+      "name": "Tetuán",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tetuán (Q1773540) for cells containing \"TETUAN\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "VILLAVERDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q919536",
+      "name": "Villaverde",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Villaverde (Q919536) for cells containing \"VILLAVERDE\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q794954",
+      "name": "Latina",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Latina (Q794954) for cells containing \"LATINA\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q807230",
+      "name": "Barajas",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barajas (Q807230) for cells containing \"BARAJAS\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "FUENCARRAL-EL PARDO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q656196",
+      "name": "Fuencarral-El Pardo",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fuencarral-El Pardo (Q656196) for cells containing \"FUENCARRAL-EL PARDO\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "ARGANZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2000929",
+      "name": "Arganzuela",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arganzuela (Q2000929) for cells containing \"ARGANZUELA\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "PUENTE DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2003054",
+      "name": "Puente de Vallecas",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Puente de Vallecas (Q2003054) for cells containing \"PUENTE DE VALLECAS\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "CARABANCHEL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1001991",
+      "name": "Carabanchel",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Carabanchel (Q1001991) for cells containing \"CARABANCHEL\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "CIUDAD LINEAL",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763694",
+      "name": "Ciudad Lineal",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ciudad Lineal (Q1763694) for cells containing \"CIUDAD LINEAL\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1928529",
+      "name": "Hortaleza",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hortaleza (Q1928529) for cells containing \"HORTALEZA\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "USERA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q953368",
+      "name": "Usera",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Usera (Q953368) for cells containing \"USERA\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1773521",
+      "name": "Salamanca",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salamanca (Q1773521) for cells containing \"SALAMANCA\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1763370",
+      "name": "Chamberí",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chamberí (Q1763370) for cells containing \"CHAMBERI\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2002296",
+      "name": "Retiro",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Retiro (Q2002296) for cells containing \"RETIRO\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "VILLA DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1947988",
+      "name": "Villa de Vallecas",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Villa de Vallecas (Q1947988) for cells containing \"VILLA DE VALLECAS\" in column distrito"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "similarValue": "VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q589403",
+      "name": "Vicálvaro",
+      "types": [
+        "Q3032114"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vicálvaro (Q589403) for cells containing \"VICALVARO\" in column distrito"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "clearData": true,
+    "description": "Discard recon judgments and clear recon data for cells in column sexo"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q8441",
+        "name": "man"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column sexo to type Q8441"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "sexo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "sexo",
+          "from": 50,
+          "to": 50,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "similarValue": "Mujer",
+    "judgment": "matched",
+    "match": {
+      "id": "Q467",
+      "name": "woman",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item woman (Q467) for cells containing \"Mujer\" in column sexo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "sexo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "sexo",
+          "from": 50,
+          "to": 50,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "similarValue": "Hombre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8441",
+      "name": "man",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item man (Q8441) for cells containing \"Hombre\" in column sexo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "similarValue": "Desconocido",
+    "judgment": "matched",
+    "match": {
+      "id": "Q58179319",
+      "name": "stranger",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item stranger (Q58179319) for cells containing \"Desconocido\" in column sexo"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q4164871",
+        "name": "position"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column tipo_persona to type Q4164871"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "similarValue": "Conductor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q829020",
+      "name": "bus driver",
+      "types": [
+        "Q28640"
+      ],
+      "score": 82
+    },
+    "shareNewTopics": false,
+    "description": "Match item bus driver (Q829020) for cells containing \"Conductor\" in column tipo_persona"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_persona: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_persona",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "similarValue": "Pasajero",
+    "judgment": "matched",
+    "match": {
+      "id": "Q319604",
+      "name": "passenger",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item passenger (Q319604) for cells containing \"Pasajero\" in column tipo_persona"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_persona: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_persona",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "similarValue": "Conductor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q352388",
+      "name": "driver",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item driver (Q352388) for cells containing \"Conductor\" in column tipo_persona"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_persona: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_persona",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_persona",
+    "similarValue": "Conductor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q352388",
+      "name": "driver",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item driver (Q352388) for cells containing \"Conductor\" in column tipo_persona"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dateTime",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "T",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column dateTime by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "dateTime 1",
+    "newColumnName": "Date",
+    "description": "Rename column dateTime 1 to Date"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "dateTime 2",
+    "newColumnName": "Time",
+    "description": "Rename column dateTime 2 to Time"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q11663",
+        "name": "weather"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column estado_meteorologico to type Q11663"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Nublado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1055865",
+      "name": "overcast",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item overcast (Q1055865) for cells containing \"Nublado\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Despejado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11514702",
+      "name": "sunny",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sunny (Q11514702) for cells containing \"Despejado\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Lluvia debil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q25257",
+      "name": "precipitation",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item precipitation (Q25257) for cells containing \"Lluvia debil\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "estado_meteorologico: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "estado_meteorologico",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Se desconoce",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24238356",
+      "name": "unknown",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item unknown (Q24238356) for cells containing \"Se desconoce\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "estado_meteorologico: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "estado_meteorologico",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Lluvia intensa",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18447212",
+      "name": "heavy rain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item heavy rain (Q18447212) for cells containing \"Lluvia intensa\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "estado_meteorologico: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "estado_meteorologico",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Granizando",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11120024",
+      "name": "freezing rain",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item freezing rain (Q11120024) for cells containing \"Granizando\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "estado_meteorologico: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "estado_meteorologico",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Lluvia debil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1292121",
+      "name": "shower",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item shower (Q1292121) for cells containing \"Lluvia debil\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q108759237",
+        "name": "trucks classification"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column tipo_vehiculo to type Q108759237"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Turismo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49389",
+      "name": "tourism",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item tourism (Q49389) for cells containing \"Turismo\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Vehiculo articulado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1411533",
+      "name": "articulated vehicle",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item articulated vehicle (Q1411533) for cells containing \"Vehiculo articulado\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Furgoneta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q357884",
+      "name": "Panel van",
+      "types": [
+        ""
+      ],
+      "score": 47.5
+    },
+    "shareNewTopics": false,
+    "description": "Match item Panel van (Q357884) for cells containing \"Furgoneta\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Autobus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5638",
+      "name": "bus",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item bus (Q5638) for cells containing \"Autobus\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "VMU electrico",
+    "judgment": "matched",
+    "match": {
+      "id": "Q13629441",
+      "name": "electric vehicle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item electric vehicle (Q13629441) for cells containing \"VMU electrico\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Todo terreno",
+    "judgment": "matched",
+    "match": {
+      "id": "Q214833",
+      "name": "four-wheel drive",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item four-wheel drive (Q214833) for cells containing \"Todo terreno\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Camion rigido",
+    "judgment": "matched",
+    "match": {
+      "id": "Q43193",
+      "name": "truck",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item truck (Q43193) for cells containing \"Camion rigido\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Sin especificar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24238356",
+      "name": "unknown",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item unknown (Q24238356) for cells containing \"Sin especificar\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Camion de bomberos",
+    "judgment": "matched",
+    "match": {
+      "id": "Q208281",
+      "name": "fire engine",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item fire engine (Q208281) for cells containing \"Camion de bomberos\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ciclomotor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q201783",
+      "name": "moped",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item moped (Q201783) for cells containing \"Ciclomotor\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Autobus EMT",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1373492",
+      "name": "transit bus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item transit bus (Q1373492) for cells containing \"Autobus EMT\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Bicicleta",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11442",
+      "name": "bicycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item bicycle (Q11442) for cells containing \"Bicicleta\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Tractocamion",
+    "judgment": "matched",
+    "match": {
+      "id": "Q59569",
+      "name": "tractor unit",
+      "types": [
+        "Q108759237"
+      ],
+      "score": 64
+    },
+    "shareNewTopics": false,
+    "description": "Match item tractor unit (Q59569) for cells containing \"Tractocamion\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Maquinaria de obras",
+    "judgment": "matched",
+    "match": {
+      "id": "Q102310586",
+      "name": "construction machine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item construction machine (Q102310586) for cells containing \"Maquinaria de obras\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Autocaravana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q746448",
+      "name": "recreational vehicle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item recreational vehicle (Q746448) for cells containing \"Autocaravana\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Cuadriciclo ligero",
+    "judgment": "matched",
+    "match": {
+      "id": "Q30901990",
+      "name": "Cuadriciclo ligero",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cuadriciclo ligero (Q30901990) for cells containing \"Cuadriciclo ligero\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Otros vehiculos sin motor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q41321608",
+      "name": "vehicle without engine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item vehicle without engine (Q41321608) for cells containing \"Otros vehiculos sin motor\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Motocicleta > 125cc",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1339146",
+      "name": "sport motorcycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sport motorcycle (Q1339146) for cells containing \"Motocicleta > 125cc\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Motocicleta hasta 125cc",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1814697",
+      "name": "light motorcycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item light motorcycle (Q1814697) for cells containing \"Motocicleta hasta 125cc\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Otros vehiculos con motor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1420",
+      "name": "motor car",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item motor car (Q1420) for cells containing \"Otros vehiculos con motor\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Remolque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q216146",
+      "name": "trailer",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item trailer (Q216146) for cells containing \"Remolque\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Cuadriciclo no ligero",
+    "judgment": "matched",
+    "match": {
+      "id": "Q609755",
+      "name": "microcar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item microcar (Q609755) for cells containing \"Cuadriciclo no ligero\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Bicicleta EPAC (pedaleo asistido)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q924724",
+      "name": "electric bicycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item electric bicycle (Q924724) for cells containing \"Bicicleta EPAC (pedaleo asistido)\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Autobus articulado",
+    "judgment": "matched",
+    "match": {
+      "id": "Q654749",
+      "name": "articulated bus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item articulated bus (Q654749) for cells containing \"Autobus articulado\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Microbus <= 17 plazas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q13222551",
+      "name": "microbuse",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item microbuse (Q13222551) for cells containing \"Microbus <= 17 plazas\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Semiremolque",
+    "judgment": "matched",
+    "match": {
+      "id": "Q944315",
+      "name": "semi-trailer",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item semi-trailer (Q944315) for cells containing \"Semiremolque\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Patinete no electrico",
+    "judgment": "matched",
+    "match": {
+      "id": "Q502057",
+      "name": "kick scooter",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item kick scooter (Q502057) for cells containing \"Patinete no electrico\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ciclo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q11442",
+      "name": "bicycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item bicycle (Q11442) for cells containing \"Ciclo\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Moto de tres ruedas > 125cc",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3482473",
+      "name": "motorized tricycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item motorized tricycle (Q3482473) for cells containing \"Moto de tres ruedas > 125cc\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ambulancia SAMUR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q180481",
+      "name": "ambulance",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ambulance (Q180481) for cells containing \"Ambulancia SAMUR\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Tren/metro",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5503",
+      "name": "rapid transit",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item rapid transit (Q5503) for cells containing \"Tren/metro\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Autobus articulado EMT",
+    "judgment": "matched",
+    "match": {
+      "id": "Q926499",
+      "name": "electric bus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item electric bus (Q926499) for cells containing \"Autobus articulado EMT\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo",
+          "expression": "value",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ciclo",
+                "l": "Ciclo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ciclo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q223924",
+      "name": "unicycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item unicycle (Q223924) for cells containing \"Ciclo\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ciclo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q223924",
+      "name": "unicycle",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item unicycle (Q223924) for cells containing \"Ciclo\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "tipo_vehiculo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "tipo_vehiculo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "tipo_vehiculo",
+    "similarValue": "Ciclomotor de dos ruedas L1e-B",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1327012",
+      "name": "electric scooter",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item electric scooter (Q1327012) for cells containing \"Ciclomotor de dos ruedas L1e-B\" in column tipo_vehiculo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "estado_meteorologico",
+    "similarValue": "Lluvia debil",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1292121",
+      "name": "shower",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item shower (Q1292121) for cells containing \"Lluvia debil\" in column estado_meteorologico"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sexo",
+    "similarValue": "Desconocido",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24238356",
+      "name": "unknown",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item unknown (Q24238356) for cells containing \"Desconocido\" in column sexo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "distrito",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Madrid District",
+    "columnInsertIndex": 8,
+    "description": "Create column Wikidata Madrid District at index 8 based on column distrito using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "estado_meteorologico",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Weather Code",
+    "columnInsertIndex": 11,
+    "description": "Create column Wikidata Weather Code at index 11 based on column estado_meteorologico using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Wikidata Madrid District",
+    "newColumnName": "Wikidata Madrid District Code",
+    "description": "Rename column Wikidata Madrid District to Wikidata Madrid District Code"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "tipo_vehiculo",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Type of Vehicle Code",
+    "columnInsertIndex": 13,
+    "description": "Create column Wikidata Type of Vehicle Code at index 13 based on column tipo_vehiculo using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "tipo_persona",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Type of Person Code",
+    "columnInsertIndex": 15,
+    "description": "Create column Wikidata Type of Person Code at index 15 based on column tipo_persona using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "sexo",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata Sex Code",
+    "columnInsertIndex": 18,
+    "description": "Create column Wikidata Sex Code at index 18 based on column sexo using expression grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value.replace(\"í\",\"i\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column distrito using expression value.replace(\"í\",\"i\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "expression": "value.replace(\"á\",\"a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column distrito using expression value.replace(\"á\",\"a\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Wikidata Sex Code",
+    "expression": "value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Wikidata Sex Code using expression value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Wikidata Type of Person Code",
+    "expression": "value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Wikidata Type of Person Code using expression value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Wikidata Type of Vehicle Code",
+    "expression": "value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Wikidata Type of Vehicle Code using expression value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Wikidata Weather Code",
+    "expression": "value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Wikidata Weather Code using expression value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Wikidata Madrid District Code",
+    "expression": "value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Wikidata Madrid District Code using expression value.replace(\"Q\",\"https://www.wikidata.org/wiki/Q\")"
+  }
+]
