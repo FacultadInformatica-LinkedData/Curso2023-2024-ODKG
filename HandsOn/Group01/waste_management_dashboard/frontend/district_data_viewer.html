@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>District Data Viewer</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+function loadDistrictData(wikidataId) {
+    // Use AJAX to fetch data without reloading the page
+    $.ajax({
+        url: 'http://127.0.0.1:5000/district_population', // Update this URL to where your Flask app is hosted
+        data: {wikidataId: wikidataId},
+        success: function(response) {
+            // Display the response in the result div
+            document.getElementById('result').textContent = JSON.stringify(response, null, 2);
+        },
+        error: function(error) {
+            // Handle errors here
+            document.getElementById('result').textContent = 'Error fetching district data: ' + error;
+        }
+    });
+}
+</script>
+</head>
+<body>
+<h1>District Data Viewer</h1>
+<button onclick="loadDistrictData('Q2807')">Get District Data</button> <!-- Example Wikidata ID -->
+<pre id="result"></pre> <!-- Container to display the results -->
+</body>
+</html>

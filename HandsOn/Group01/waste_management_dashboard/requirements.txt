@@ -6,3 +6,5 @@ matplotlib
 altair
 folium
 streamlit_folium
+flask
+flask_cors
