@@ -1,4 +1,5 @@
 @prefix ns1: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -580,52 +581,68 @@
     ns1:name "Espacio de Igualdad María Zambrano. Chamberí" .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Adelfas" .
+    ns1:name "Adelfas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3774001> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Bellas%20Vistas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Bellas Vistas" .
+    ns1:name "Bellas Vistas" ;
+    owl:sameAs <https://wikidata.org/entity/Q11908929> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Canillas" .
+    ns1:name "Canillas" ;
+    owl:sameAs <https://wikidata.org/entity/Q9694341> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Casco Histórico de Vicálvaro" .
+    ns1:name "Casco Histórico de Vicálvaro" ;
+    owl:sameAs <https://wikidata.org/entity/Q16544374> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "El Pilar" .
+    ns1:name "El Pilar" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773964> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ensanche%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Ensanche de Vallecas" .
+    ns1:name "Ensanche de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3847485> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Gaztambide> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Gaztambide" .
+    ns1:name "Gaztambide" ;
+    owl:sameAs <https://wikidata.org/entity/Q10288587> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Las Águilas" .
+    ns1:name "Las Águilas" ;
+    owl:sameAs <https://wikidata.org/entity/Q5971372> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Lucero" .
+    ns1:name "Lucero" ;
+    owl:sameAs <https://wikidata.org/entity/Q31162> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Orcasitas" .
+    ns1:name "Orcasitas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773941> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "San Fermín (Madrid)" .
+    ns1:name "San Fermín (Madrid)" ;
+    owl:sameAs <https://wikidata.org/entity/Q71758> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Juan%20Bautista> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "San Juan Bautista" .
+    ns1:name "San Juan Bautista" ;
+    owl:sameAs <https://wikidata.org/entity/Q165609> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Pascual> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "San Pascual" .
+    ns1:name "San Pascual" ;
+    owl:sameAs <https://wikidata.org/entity/Q165612> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Universidad" .
+    ns1:name "Universidad" ;
+    owl:sameAs <https://wikidata.org/entity/Q10387767> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Valverde" .
+    ns1:name "Valverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q31132> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
-    ns1:name "Villaverde Alto, Casco Histórico de Villaverde" .
+    ns1:name "Villaverde Alto, Casco Histórico de Villaverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q390435> .
 
 <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
     ns1:accessibility "1" ;
