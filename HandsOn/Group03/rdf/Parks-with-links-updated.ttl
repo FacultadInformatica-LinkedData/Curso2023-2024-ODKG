@@ -1,4 +1,5 @@
 @prefix ns1: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
 
 <http://vidaactivamadrid.es/info/resource/Park/16662> a <http://vidaactivamadrid.es/info/ontology/class#Park> ;
@@ -1383,464 +1384,584 @@
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Aeropuerto> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
-    ns1:name "Aeropuerto" .
+    ns1:name "Aeropuerto" ;
+    owl:sameAs <https://wikidata.org/entity/Q9586697> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Arcos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
-    ns1:name "Arcos" .
+    ns1:name "Arcos" ;
+    owl:sameAs <https://wikidata.org/entity/Q9627876> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Atocha> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Atocha" .
+    ns1:name "Atocha" ;
+    owl:sameAs <https://wikidata.org/entity/Q3814594> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Barrio%20de%20Puerta%20del%20%C3%81ngel> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
-    ns1:name "Barrio de Puerta del Ángel" .
+    ns1:name "Barrio de Puerta del Ángel" ;
+    owl:sameAs <https://wikidata.org/entity/Q31142> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Berruguete> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Berruguete" .
+    ns1:name "Berruguete" ;
+    owl:sameAs <https://wikidata.org/entity/Q11909208> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Butarque> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
-    ns1:name "Butarque" .
+    ns1:name "Butarque" ;
+    owl:sameAs <https://wikidata.org/entity/Q390453> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Castillejos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Castillejos" .
+    ns1:name "Castillejos" ;
+    owl:sameAs <https://wikidata.org/entity/Q11913212> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Universitaria> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
-    ns1:name "Ciudad Universitaria" .
+    ns1:name "Ciudad Universitaria" ;
+    owl:sameAs <https://wikidata.org/entity/Q3319235> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Concepci%C3%B3n> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "Concepción" .
+    ns1:name "Concepción" ;
+    owl:sameAs <https://wikidata.org/entity/Q11915156> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Costillares> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "Costillares" .
+    ns1:name "Costillares" ;
+    owl:sameAs <https://wikidata.org/entity/Q331385> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ensanche%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
-    ns1:name "Ensanche de Vallecas" .
+    ns1:name "Ensanche de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3847485> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Estrella> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
-    ns1:name "Estrella" .
+    ns1:name "Estrella" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773738> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Gaztambide> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
-    ns1:name "Gaztambide" .
+    ns1:name "Gaztambide" ;
+    owl:sameAs <https://wikidata.org/entity/Q10288587> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Hell%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
-    ns1:name "Hellín" .
+    ns1:name "Hellín" ;
+    owl:sameAs <https://wikidata.org/entity/Q10294546> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Imperial> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Imperial" .
+    ns1:name "Imperial" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773740> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Chopera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "La Chopera" .
+    ns1:name "La Chopera" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773750> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Legazpi> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Legazpi" .
+    ns1:name "Legazpi" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773990> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Lista> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
-    ns1:name "Lista" .
+    ns1:name "Lista" ;
+    owl:sameAs <https://wikidata.org/entity/Q4779> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ni%C3%B1o%20Jes%C3%BAs> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
-    ns1:name "Niño Jesús" .
+    ns1:name "Niño Jesús" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773746> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasur> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "Orcasur" .
+    ns1:name "Orcasur" ;
+    owl:sameAs <https://wikidata.org/entity/Q10341270> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Pac%C3%ADfico> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
-    ns1:name "Pacífico" .
+    ns1:name "Pacífico" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773753> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Palacio> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
-    ns1:name "Palacio" .
+    ns1:name "Palacio" ;
+    owl:sameAs <https://wikidata.org/entity/Q2136510> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Palos%20de%20la%20Frontera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Palos de la Frontera" .
+    ns1:name "Palos de la Frontera" ;
+    owl:sameAs <https://wikidata.org/entity/Q521009> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Quintana> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "Quintana" .
+    ns1:name "Quintana" ;
+    owl:sameAs <https://wikidata.org/entity/Q71810> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Diego> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "San Diego" .
+    ns1:name "San Diego" ;
+    owl:sameAs <https://wikidata.org/entity/Q11946851> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Ferm%C3%ADn%20%28Madrid%29> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "San Fermín (Madrid)" .
+    ns1:name "San Fermín (Madrid)" ;
+    owl:sameAs <https://wikidata.org/entity/Q71758> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Pascual> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "San Pascual" .
+    ns1:name "San Pascual" ;
+    owl:sameAs <https://wikidata.org/entity/Q165612> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Tim%C3%B3n> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
-    ns1:name "Timón" .
+    ns1:name "Timón" ;
+    owl:sameAs <https://wikidata.org/entity/Q10382570> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Trafalgar> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
-    ns1:name "Trafalgar" .
+    ns1:name "Trafalgar" ;
+    owl:sameAs <https://wikidata.org/entity/Q10384027> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Vallehermoso> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
-    ns1:name "Vallehermoso" .
+    ns1:name "Vallehermoso" ;
+    owl:sameAs <https://wikidata.org/entity/Q6122685> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ventas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "Ventas" .
+    ns1:name "Ventas" ;
+    owl:sameAs <https://wikidata.org/entity/Q71762> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Arapiles> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
-    ns1:name "Arapiles" .
+    ns1:name "Arapiles" ;
+    owl:sameAs <https://wikidata.org/entity/Q10856744> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Bellas%20Vistas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Bellas Vistas" .
+    ns1:name "Bellas Vistas" ;
+    owl:sameAs <https://wikidata.org/entity/Q11908929> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Barajas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
-    ns1:name "Casco Histórico de Barajas" .
+    ns1:name "Casco Histórico de Barajas" ;
+    owl:sameAs <https://wikidata.org/entity/Q9701730> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Castilla> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
-    ns1:name "Castilla" .
+    ns1:name "Castilla" ;
+    owl:sameAs <https://wikidata.org/entity/Q3813735> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Corralejos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
-    ns1:name "Corralejos" .
+    ns1:name "Corralejos" ;
+    owl:sameAs <https://wikidata.org/entity/Q10260772> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Cuatro%20Caminos> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Cuatro Caminos" .
+    ns1:name "Cuatro Caminos" ;
+    owl:sameAs <https://wikidata.org/entity/Q5824684> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pardo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "El Pardo" .
+    ns1:name "El Pardo" ;
+    owl:sameAs <https://wikidata.org/entity/Q3314337> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuente%20del%20Berro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
-    ns1:name "Fuente del Berro" .
+    ns1:name "Fuente del Berro" ;
+    owl:sameAs <https://wikidata.org/entity/Q3814564> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Fuentelarreina> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "Fuentelarreina" .
+    ns1:name "Fuentelarreina" ;
+    owl:sameAs <https://wikidata.org/entity/Q10286156> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Hispanoam%C3%A9rica> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
-    ns1:name "Hispanoamérica" .
+    ns1:name "Hispanoamérica" ;
+    owl:sameAs <https://wikidata.org/entity/Q3814573> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Justicia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
-    ns1:name "Justicia" .
+    ns1:name "Justicia" ;
+    owl:sameAs <https://wikidata.org/entity/Q1992319> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Paz> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "La Paz" .
+    ns1:name "La Paz" ;
+    owl:sameAs <https://wikidata.org/entity/Q5869740> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Delicias> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Las Delicias" .
+    ns1:name "Las Delicias" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773736> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20Rosales> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
-    ns1:name "Los Rosales" .
+    ns1:name "Los Rosales" ;
+    owl:sameAs <https://wikidata.org/entity/Q10319807> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Numancia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "Numancia" .
+    ns1:name "Numancia" ;
+    owl:sameAs <https://wikidata.org/entity/Q10338144> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Pinar%20del%20Rey> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
-    ns1:name "Pinar del Rey" .
+    ns1:name "Pinar del Rey" ;
+    owl:sameAs <https://wikidata.org/entity/Q10349788> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Portazgo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "Portazgo" .
+    ns1:name "Portazgo" ;
+    owl:sameAs <https://wikidata.org/entity/Q18005921> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/R%C3%ADos%20Rosas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> ;
-    ns1:name "Ríos Rosas" .
+    ns1:name "Ríos Rosas" ;
+    owl:sameAs <https://wikidata.org/entity/Q10366270> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Rejas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
-    ns1:name "Rejas" .
+    ns1:name "Rejas" ;
+    owl:sameAs <https://wikidata.org/entity/Q10359029> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Isidro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
-    ns1:name "San Isidro" .
+    ns1:name "San Isidro" ;
+    owl:sameAs <https://wikidata.org/entity/Q3813733> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Santa%20Eugenia> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
-    ns1:name "Santa Eugenia" .
+    ns1:name "Santa Eugenia" ;
+    owl:sameAs <https://wikidata.org/entity/Q390463> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdebernardo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
-    ns1:name "Valdebernardo" .
+    ns1:name "Valdebernardo" ;
+    owl:sameAs <https://wikidata.org/entity/Q43025212> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Vinateros> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
-    ns1:name "Vinateros" .
+    ns1:name "Vinateros" ;
+    owl:sameAs <https://wikidata.org/entity/Q10391533> .
 
 <http://vidaactivamadrid.es/info/resource/District/Moratalaz> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Moratalaz" .
+    ns1:name "Moratalaz" ;
+    owl:sameAs <https://wikidata.org/entity/Q2076109> .
 
 <http://vidaactivamadrid.es/info/resource/District/Salamanca> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Salamanca" .
+    ns1:name "Salamanca" ;
+    owl:sameAs <https://wikidata.org/entity/Q1773521> .
 
 <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Vicálvaro" .
+    ns1:name "Vicálvaro" ;
+    owl:sameAs <https://wikidata.org/entity/Q589403> .
 
 <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Villa de Vallecas" .
+    ns1:name "Villa de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q1947988> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Alameda%20de%20Osuna> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Barajas> ;
-    ns1:name "Alameda de Osuna" .
+    ns1:name "Alameda de Osuna" ;
+    owl:sameAs <https://wikidata.org/entity/Q760737> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Almendrales> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "Almendrales" .
+    ns1:name "Almendrales" ;
+    owl:sameAs <https://wikidata.org/entity/Q9604761> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Aravaca> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
-    ns1:name "Aravaca" .
+    ns1:name "Aravaca" ;
+    owl:sameAs <https://wikidata.org/entity/Q3314682> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Campamento> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
-    ns1:name "Campamento" .
+    ns1:name "Campamento" ;
+    owl:sameAs <https://wikidata.org/entity/Q31169> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillejas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
-    ns1:name "Canillejas" .
+    ns1:name "Canillejas" ;
+    owl:sameAs <https://wikidata.org/entity/Q663013> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ciudad%20Jard%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
-    ns1:name "Ciudad Jardín" .
+    ns1:name "Ciudad Jardín" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773744> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Zof%C3%ADo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "El Zofío" .
+    ns1:name "El Zofío" ;
+    owl:sameAs <https://wikidata.org/entity/Q71751> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Entrev%C3%ADas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "Entrevías" .
+    ns1:name "Entrevías" ;
+    owl:sameAs <https://wikidata.org/entity/Q71756> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20Acacias> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Arganzuela> ;
-    ns1:name "Las Acacias" .
+    ns1:name "Las Acacias" ;
+    owl:sameAs <https://wikidata.org/entity/Q3319190> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Marroquina> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
-    ns1:name "Marroquina" .
+    ns1:name "Marroquina" ;
+    owl:sameAs <https://wikidata.org/entity/Q11935636> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Media%20Legua> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moratalaz> ;
-    ns1:name "Media Legua" .
+    ns1:name "Media Legua" ;
+    owl:sameAs <https://wikidata.org/entity/Q9031035> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Mirasierra> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "Mirasierra" .
+    ns1:name "Mirasierra" ;
+    owl:sameAs <https://wikidata.org/entity/Q31134> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Pradolongo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "Pradolongo" .
+    ns1:name "Pradolongo" ;
+    owl:sameAs <https://wikidata.org/entity/Q10352360> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Prosperidad> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> ;
-    ns1:name "Prosperidad" .
+    ns1:name "Prosperidad" ;
+    owl:sameAs <https://wikidata.org/entity/Q4776> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/San%20Crist%C3%B3bal> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
-    ns1:name "San Cristóbal" .
+    ns1:name "San Cristóbal" ;
+    owl:sameAs <https://wikidata.org/entity/Q390457> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Universidad> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
-    ns1:name "Universidad" .
+    ns1:name "Universidad" ;
+    owl:sameAs <https://wikidata.org/entity/Q10387767> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdeacederas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Valdeacederas" .
+    ns1:name "Valdeacederas" ;
+    owl:sameAs <https://wikidata.org/entity/Q10388711> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdefuentes> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
-    ns1:name "Valdefuentes" .
+    ns1:name "Valdefuentes" ;
+    owl:sameAs <https://wikidata.org/entity/Q10388714> .
 
 <http://vidaactivamadrid.es/info/resource/District/Centro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Centro" .
+    ns1:name "Centro" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763376> .
 
 <http://vidaactivamadrid.es/info/resource/District/Chamart%C3%ADn> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Chamartín" .
+    ns1:name "Chamartín" ;
+    owl:sameAs <https://wikidata.org/entity/Q1766348> .
 
 <http://vidaactivamadrid.es/info/resource/District/Hortaleza> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Hortaleza" .
+    ns1:name "Hortaleza" ;
+    owl:sameAs <https://wikidata.org/entity/Q1928529> .
 
 <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Moncloa-Aravaca" .
+    ns1:name "Moncloa-Aravaca" ;
+    owl:sameAs <https://wikidata.org/entity/Q2017682> .
 
 <http://vidaactivamadrid.es/info/resource/District/Retiro> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Retiro" .
+    ns1:name "Retiro" ;
+    owl:sameAs <https://wikidata.org/entity/Q2002296> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Aluche> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
-    ns1:name "Aluche" .
+    ns1:name "Aluche" ;
+    owl:sameAs <https://wikidata.org/entity/Q31140> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Ap%C3%B3stol%20Santiago> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
-    ns1:name "Apóstol Santiago" .
+    ns1:name "Apóstol Santiago" ;
+    owl:sameAs <https://wikidata.org/entity/Q11906303> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Canillas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Hortaleza> ;
-    ns1:name "Canillas" .
+    ns1:name "Canillas" ;
+    owl:sameAs <https://wikidata.org/entity/Q9694341> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Casa%20de%20Campo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
-    ns1:name "Casa de Campo" .
+    ns1:name "Casa de Campo" ;
+    owl:sameAs <https://wikidata.org/entity/Q16302441> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villa%20de%20Vallecas> ;
-    ns1:name "Casco Histórico de Vallecas" .
+    ns1:name "Casco Histórico de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q16544370> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Casco%20Hist%C3%B3rico%20de%20Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
-    ns1:name "Casco Histórico de Vicálvaro" .
+    ns1:name "Casco Histórico de Vicálvaro" ;
+    owl:sameAs <https://wikidata.org/entity/Q16544374> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Pilar> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "El Pilar" .
+    ns1:name "El Pilar" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773964> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/La%20Guindalera> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Salamanca> ;
-    ns1:name "La Guindalera" .
+    ns1:name "La Guindalera" ;
+    owl:sameAs <https://wikidata.org/entity/Q3814559> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Las%20%C3%81guilas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
-    ns1:name "Las Águilas" .
+    ns1:name "Las Águilas" ;
+    owl:sameAs <https://wikidata.org/entity/Q5971372> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Lucero> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Latina> ;
-    ns1:name "Lucero" .
+    ns1:name "Lucero" ;
+    owl:sameAs <https://wikidata.org/entity/Q31162> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Pe%C3%B1agrande> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "Peñagrande" .
+    ns1:name "Peñagrande" ;
+    owl:sameAs <https://wikidata.org/entity/Q3319582> .
 
 <http://vidaactivamadrid.es/info/resource/District/Barajas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Barajas" .
+    ns1:name "Barajas" ;
+    owl:sameAs <https://wikidata.org/entity/Q807230> .
 
 <http://vidaactivamadrid.es/info/resource/District/Carabanchel> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Carabanchel" .
+    ns1:name "Carabanchel" ;
+    owl:sameAs <https://wikidata.org/entity/Q1001991> .
 
 <http://vidaactivamadrid.es/info/resource/District/Chamber%C3%AD> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Chamberí" .
+    ns1:name "Chamberí" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763370> .
 
 <http://vidaactivamadrid.es/info/resource/District/Latina> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Latina" .
+    ns1:name "Latina" ;
+    owl:sameAs <https://wikidata.org/entity/Q794954> .
 
 <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "San Blas-Canillejas" .
+    ns1:name "San Blas-Canillejas" ;
+    owl:sameAs <https://wikidata.org/entity/Q2001937> .
 
 <http://vidaactivamadrid.es/info/resource/District/Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Villaverde" .
+    ns1:name "Villaverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q919536> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Abrantes> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
-    ns1:name "Abrantes" .
+    ns1:name "Abrantes" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773949> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Adelfas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Retiro> ;
-    ns1:name "Adelfas" .
+    ns1:name "Adelfas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3774001> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Almenara> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> ;
-    ns1:name "Almenara" .
+    ns1:name "Almenara" ;
+    owl:sameAs <https://wikidata.org/entity/Q2265427> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Embajadores> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Centro> ;
-    ns1:name "Embajadores" .
+    ns1:name "Embajadores" ;
+    owl:sameAs <https://wikidata.org/entity/Q2449844> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Bajas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "Palomeras Bajas" .
+    ns1:name "Palomeras Bajas" ;
+    owl:sameAs <https://wikidata.org/entity/Q10343902> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valdezarza> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Moncloa-Aravaca> ;
-    ns1:name "Valdezarza" .
+    ns1:name "Valdezarza" ;
+    owl:sameAs <https://wikidata.org/entity/Q10388728> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Valverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> ;
-    ns1:name "Valverde" .
+    ns1:name "Valverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q31132> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Villaverde%20Alto%2C%20Casco%20Hist%C3%B3rico%20de%20Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
-    ns1:name "Villaverde Alto, Casco Histórico de Villaverde" .
+    ns1:name "Villaverde Alto, Casco Histórico de Villaverde" ;
+    owl:sameAs <https://wikidata.org/entity/Q390435> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Vista%20Alegre> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
-    ns1:name "Vista Alegre" .
+    ns1:name "Vista Alegre" ;
+    owl:sameAs <https://wikidata.org/entity/Q3813741> .
 
 <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Ciudad Lineal" .
+    ns1:name "Ciudad Lineal" ;
+    owl:sameAs <https://wikidata.org/entity/Q1763694> .
 
 <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Puente de Vallecas" .
+    ns1:name "Puente de Vallecas" ;
+    owl:sameAs <https://wikidata.org/entity/Q2003054> .
 
 <http://vidaactivamadrid.es/info/resource/District/Tetu%C3%A1n> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Tetuán" .
+    ns1:name "Tetuán" ;
+    owl:sameAs <https://wikidata.org/entity/Q1773540> .
 
 <http://vidaactivamadrid.es/info/resource/District/Usera> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Usera" .
+    ns1:name "Usera" ;
+    owl:sameAs <https://wikidata.org/entity/Q953368> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Buenavista> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
-    ns1:name "Buenavista" .
+    ns1:name "Buenavista" ;
+    owl:sameAs <https://wikidata.org/entity/Q953929> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Opa%C3%B1el> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Carabanchel> ;
-    ns1:name "Opañel" .
+    ns1:name "Opañel" ;
+    owl:sameAs <https://wikidata.org/entity/Q3813756> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Pueblo%20Nuevo> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Ciudad%20Lineal> ;
-    ns1:name "Pueblo Nuevo" .
+    ns1:name "Pueblo Nuevo" ;
+    owl:sameAs <https://wikidata.org/entity/Q71753> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Rosas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/San%20Blas-Canillejas> ;
-    ns1:name "Rosas" .
+    ns1:name "Rosas" ;
+    owl:sameAs <https://wikidata.org/entity/Q18880469> .
 
 <http://vidaactivamadrid.es/info/resource/District/Arganzuela> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Arganzuela" .
+    ns1:name "Arganzuela" ;
+    owl:sameAs <https://wikidata.org/entity/Q2000929> .
 
 <http://vidaactivamadrid.es/info/resource/District/Fuencarral-El%20Pardo> a <http://vidaactivamadrid.es/info/ontology/class#District> ;
-    ns1:name "Fuencarral-El Pardo" .
+    ns1:name "Fuencarral-El Pardo" ;
+    owl:sameAs <https://wikidata.org/entity/Q656196> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/El%20Ca%C3%B1averal%20neighborhood%2C%20Madrid> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Vic%C3%A1lvaro> ;
-    ns1:name "El Cañaveral neighborhood, Madrid" .
+    ns1:name "El Cañaveral neighborhood, Madrid" ;
+    owl:sameAs <https://wikidata.org/entity/Q5821309> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Palomeras%20Sureste> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Puente%20de%20Vallecas> ;
-    ns1:name "Palomeras Sureste" .
+    ns1:name "Palomeras Sureste" ;
+    owl:sameAs <https://wikidata.org/entity/Q10343901> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Orcasitas> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Usera> ;
-    ns1:name "Orcasitas" .
+    ns1:name "Orcasitas" ;
+    owl:sameAs <https://wikidata.org/entity/Q3773941> .
 
 <http://vidaactivamadrid.es/info/resource/Neighborhood/Los%20%C3%81ngeles> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood1> ;
     ns1:isInDistrict <http://vidaactivamadrid.es/info/resource/District/Villaverde> ;
-    ns1:name "Los Ángeles" .
-
+    ns1:name "Los Ángeles" ;
+    owl:sameAs <https://wikidata.org/entity/Q390462> .
