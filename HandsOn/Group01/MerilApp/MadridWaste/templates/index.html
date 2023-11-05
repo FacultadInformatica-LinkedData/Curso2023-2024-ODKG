@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Madrid Map</title>
+    <!-- Map css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="/static/css/map-style.css">
+</head>
+<body>
+    <h1> Madrid </h1>
+    <h2> Click on a district to vizualize its Waste Amount Details </h2>
+    <div id="map1"></div>
+    <!-- TODO:create a new map that displays each district but colours it according to population desnity -->
+    <!-- TODO: For this, create two bootstrap card component (One for the map another one for the District labels
+    If on user selects a district, this will create a new SPARQL wikidata query for that district and fetch population
+    Define multiple populations density threshholds. (ex: 100-500 one color, 600- 20000 another one...)
+     the selected district gets colored on the map with respect to its associated threshhold value.
+      On hover of this colored district, you will get its exact value.-->
+    <!--
+    <h2> Select a District name to visualize its population density on the map </h2>
+    <div id="map2"></div>
+    -->
+    <!-- JS libraries -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- JS Maps -->
+    <script src="/static/js/map1.js"></script>
+</body>
+</html>
