@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request
 import rdflib
-
+from flask import Flask, render_template, request
 
 #######################################################################################################################################################
 #######################################################################################################################################################
@@ -12,7 +11,7 @@ app = Flask(__name__)
 
 # Local database
 g = rdflib.Graph()
-g.parse("/home/meril/Documents/UPM/Curso2023-2024-ODKG/HandsOn/Group01/rdf/rdf-with-links.ttl", format="ttl")
+g.parse("data/rdf-with-links.ttl", format="ttl")
 
 
 #######################################################################################################################################################
@@ -21,12 +20,15 @@ g.parse("/home/meril/Documents/UPM/Curso2023-2024-ODKG/HandsOn/Group01/rdf/rdf-w
 #######################################################################################################################################################
 def run_sparql_query(district_name):
     """
-        Given an dsitrict name it generates th waste amount for each type of waste for each month
-        :param district_name:
-        :return:
-        """
+    Given an dsitrict name it generates th waste amount for each type of waste for each month
+    :param district_name:
+    :return:
+    """
     g = rdflib.Graph()
-    g.parse("/home/meril/Documents/UPM/Curso2023-2024-ODKG/HandsOn/Group01/rdf/rdf-with-links.ttl", format="ttl")
+    g.parse(
+        "data/rdf-with-links.ttl",
+        format="ttl",
+    )
 
     query = f"""
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -56,10 +58,10 @@ def run_sparql_query(district_name):
     output = []
     for row in results:
         output_dict = {
-            'wasteName': str(row[0]),
-            'wikidataLink': str(row[1]),
-            'month': str(row[2]),
-            'totalAmount': str(row[3])
+            "wasteName": str(row[0]),
+            "wikidataLink": str(row[1]),
+            "month": str(row[2]),
+            "totalAmount": str(row[3]),
         }
         output.append(output_dict)
     return output
@@ -73,17 +75,18 @@ def run_sparql_query(district_name):
 
 ### If we end up with to many routes all the functions will be placed in separted folder called router or controler (MVC pattern)
 
-@app.route('/')
+
+@app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
-@app.route('/district')
+@app.route("/district")
 def district():
-    district_name = request.args.get('name')
+    district_name = request.args.get("name")
     results = run_sparql_query(district_name)
-    return render_template('district.html', results=results)
+    return render_template("district.html", results=results)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
