@@ -71,7 +71,6 @@ def run_sparql_query(district_name):
 #######################################################################################################################################################
 
 
-### If we end up with to many routes all the functions will be placed in separted folder called router or controler (MVC pattern)
 
 @app.route('/')
 def index():
