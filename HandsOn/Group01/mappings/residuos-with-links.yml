@@ -8,6 +8,12 @@ prefixes:
   ql: http://semweb.mmlab.be/ns/ql#
   fnml: 'http://semweb.mmlab.be/ns/fnml#'
   owl: http://www.w3.org/2002/07/owl#
+  geof: http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#
+  geocod: https://www.gleif.org/ontology/Geocoding/
+  dbo: http://dbpedia.org/ontology/
+  wst: http://www.disit.org/km4city/schema#
+  time: http://www.w3.org/2006/time#
+
 
 mappings:
 
@@ -16,31 +22,31 @@ mappings:
       - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/Zone/Zone_$(Zone)
     po:
-      - [a, nso:Zone]
+      - [a, geof:Zone]
       - [rdfs:label,Zone_$(Zone),xsd:string]
       - [nso:zoneID,$(Zone),xsd:integer]
-      - [nso:hasDistrict, "http://madridwastemanagement.org/group01/data/District/District_$(District)"]
+      - [geocod:hasDistrict, http://madridwastemanagement.org/group01/data/District/District_$(District)~iri]
 
   districtmap:
     sources:
       - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/District/District_$(District)
     po:
-      - [a, nso:District]
+      - [a, dbo:District]
       - [rdfs:label,District_$(District),xsd:string]
-      - [nso:districtID,$(District),xsd:integer]
-      - [nso:districtName,$(Name),xsd:string]
-      - [nso:hasResidue, "http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)"]
-      - [ owl:sameAs, $(same_as_wikidata_district)~iri ]
+      - [dbo:districtID,$(District),xsd:integer]
+      - [dbo:districtName,$(Name),xsd:string]
+      - [wst:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)~iri]
+      - [owl:sameAs, $(same_as_wikidata_district)~iri ]
 
   wastetypemap:
     sources:
       - [Residuos_2021_2023-updated-with-links.csv~csv]
     s: http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)
     po:
-      - [a, nso:WasteType]
+      - [a, wst:WasteType]
       - [rdfs:label,$(WasteType),xsd:string]
-      - [nso:hasTotal,"http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)"]
+      - [nso:hasTotal,http://madridwastemanagement.org/group01/data/Total/$(WasteType)_$(District)_$(Year)_$(Month)~iri]
       - [owl:sameAs, $(same_as_wikidata_wastetype)~iri]
 
   totalmap:
@@ -50,6 +56,6 @@ mappings:
     po:
       - [a, nso:Total]
       - [nso:value,$(Total),xsd:float]
-      - [nso:year,$(Year),xsd:integer]
-      - [nso:month,$(Month),xsd:string]
-      - [nso:referedTo, "http://madridwastemanagement.org/group01/data/District/District_$(District)"]
+      - [time:year,$(Year),xsd:gYear]
+      - [time:month,$(Month),xsd:string]
+      - [nso:referedTo, http://madridwastemanagement.org/group01/data/District/District_$(District)~iri]
