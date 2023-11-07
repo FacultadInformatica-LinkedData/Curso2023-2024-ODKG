@@ -33,9 +33,8 @@ mappings:
     s: http://madridwastemanagement.org/group01/data/District/District_$(District)
     po:
       - [a, dbo:District]
-      - [rdfs:label,District_$(District),xsd:string]
+      - [rdfs:label,$(Name),xsd:string]
       - [dbo:districtID,$(District),xsd:integer]
-      - [dbo:districtName,$(Name),xsd:string]
       - [wst:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)~iri]
 
   wastetypemap:
@@ -55,5 +54,5 @@ mappings:
       - [a, nso:Total]
       - [nso:value,$(Total),xsd:float]
       - [time:year,$(Year),xsd:gYear]
-      - [time:month,$(Month),xsd:string]
+      - [time:month,$(Month),xsd:gMonth]
       - [nso:referedTo, http://madridwastemanagement.org/group01/data/District/District_$(District)~iri]
