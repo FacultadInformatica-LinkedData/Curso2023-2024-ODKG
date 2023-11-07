@@ -8,11 +8,13 @@
 <https://www.chargeup.io/group07/ontology#> rdf:type owl:Ontology .
 
 
-# https://www.chargeup.io/group07/resource/ChargingStation/Bmw%20Of%20Darien
-https://www.chargeup.io/group07/resource/ChargingStation/Bmw%20Of%20Darien a ont:ChargingStation;
-    ont:streetAddress <https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd>
-    ont:accessDaysTime "24 hours daily"^^xsd:string;
+# https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Of-Darien
+https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Of-Darien a ont:ChargingStation;
+    ont:hasStreetAddress <https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd>
+    ont:accessDaysTime "24-Hours-Daily"^^xsd:string;
+    ont:evLevel1EVSENum 0^^xsd:integer;
     ont:evLevel2EVSENum 2^^xsd:integer;
+    ont:evDCFastCount 0^^xsd:integer;
     ont:longitude -73.4764687^^xsd:float;
     ont:latitude 41.072882^^xsd:float .
 
@@ -23,7 +25,7 @@ https://www.chargeup.io/group07/resource/City/Darien a ont:City;
     ont:townIndex 35^^xsd:integer .
 
 
-# https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd
-https://www.chargeup.io/group07/resource/Address/138-142%20Ledge%20Rd a ont:Address;
-    ont:city <https://www.chargeup.io/group07/resource/City/Darien>;
+# https://www.chargeup.io/group07/resource/StreetAddress/138-142-Ledge-Rd
+https://www.chargeup.io/group07/resource/StreetAddress/138-142-Ledge-Rd a ont:Address;
+    ont:hasCity <https://www.chargeup.io/group07/resource/City/Darien>;
     ont:zipCode "00005"^^xsd:string .
