@@ -6,7 +6,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix uiot: <http://www.w3id.org/urban-iot/electric#> .
+@prefix uiote: <http://www.w3id.org/urban-iot/electric#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
@@ -18,22 +18,22 @@ rdf: a owl:Ontology ;
 
 geo:latitude a owl:DatatypeProperty ;
     rdfs:label "latitude" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:float .
 
 geo:longitude a owl:DatatypeProperty ;
     rdfs:label "longitude" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:float .
 
 ont:accessDaysTime a owl:DatatypeProperty ;
     rdfs:label "access days time" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:string .
 
 ont:additionalInfo a owl:DatatypeProperty ;
     rdfs:label "additional info" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:string .
 
 ont:counties a owl:DatatypeProperty ;
@@ -43,17 +43,17 @@ ont:counties a owl:DatatypeProperty ;
 
 ont:evDCFastCount a owl:DatatypeProperty ;
     rdfs:label "evdc fast count" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:integer .
 
 ont:evLevel1EVSENum a owl:DatatypeProperty ;
     rdfs:label "evlevel1 evse num" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:integer .
 
 ont:evLevel2EVSENum a owl:DatatypeProperty ;
     rdfs:label "evlevel2 evse num" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range xsd:integer .
 
 dbo:zipCode a owl:DatatypeProperty ;
@@ -71,7 +71,7 @@ ont:townIndex a owl:DatatypeProperty ;
 
 ont:hasAddress a owl:ObjectProperty ;
     rdfs:label "has address" ;
-    rdfs:domain uiot:ChargingStation ;
+    rdfs:domain uiote:ChargingStation ;
     rdfs:range locn:Address .
 
 ont:hasCity a owl:ObjectProperty ;
@@ -88,6 +88,6 @@ dbo:City a owl:Class ;
 locn:Address a owl:Class ;
     rdfs:label "Address" .
 
-uiot:ChargingStation a owl:Class ;
+uiote:ChargingStation a owl:Class ;
     rdfs:label "Charging Station" .
 

@@ -13,7 +13,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix ont: <https://www.chargeup.io/group07/ontology-updated#> .
-@prefix uiot: <http://www.w3id.org/urban-iot/electric#> .
+@prefix uiote: <http://www.w3id.org/urban-iot/electric#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix locn: <http://www.w3.org/ns/locn#> .
 
@@ -41,7 +41,7 @@
 	rr:constant rdf:type .
 
 :om_000 rdf:type rr:ObjectMap ;
-	rr:constant uiot:ChargingStation ;
+	rr:constant uiote:ChargingStation ;
 	rr:termType rr:IRI .
 
 :pom_001 rdf:type rr:PredicateObjectMap ;

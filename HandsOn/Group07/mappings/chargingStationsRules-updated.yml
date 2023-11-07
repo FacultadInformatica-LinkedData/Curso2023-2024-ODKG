@@ -8,7 +8,7 @@ prefixes:
   ont: https://www.chargeup.io/group07/ontology-updated#
   ql: http://semweb.mmlab.be/ns/ql#
   fnml: http://semweb.mmlab.be/ns/fnml#
-  uiot: http://www.w3id.org/urban-iot/electric#
+  uiote: http://www.w3id.org/urban-iot/electric#
   dbo: http://dbpedia.org/ontology/
   locn: http://www.w3.org/ns/locn#
 
@@ -19,7 +19,7 @@ mappings:
   
     s: https://www.chargeup.io/group07/resource/ChargingStation/$(ChargingStation)
     po:
-      - [a, uiot:ChargingStation]
+      - [a, uiote:ChargingStation]
       - [rdfs:label, $(ChargingStation), xsd:string]
       - [ont:accessDaysTime, $(AccessDaysTime), xsd:string]
       - [ont:additionalInfo, $(AdditionalInfo), xsd:string]
