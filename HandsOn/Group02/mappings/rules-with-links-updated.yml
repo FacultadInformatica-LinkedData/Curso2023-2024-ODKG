@@ -1,0 +1,50 @@
+prefixes:
+  clase2: "http://madridalfresco.es/lcc/resource/"
+  clase: "http://madridalfresco.es/lcc/ontology/locales#"
+  esadm: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#
+  gn: "http://www.geonames.org/ontology#"
+  coord: "http://purl.org/net/cartCoord#"
+  gtfs: "http://vocab.gtfs.org/gtfs.ttl#"
+  escjr: "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"
+  escom: "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"
+
+mappings:
+  Local:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Local/$(id_local)
+    po:
+      - [a, clase2:Local]
+      - [escom:rotulo, $(rotulo)]
+      - [coord:xcoord, $(coordenadaX)]
+      - [coord:ycoord, $(coordenadaY)]
+      - [escom:tipoSituacion, $(situacion)]
+      - [gtfs:startTime, $(horaApertura)]
+      - [gtfs:endTime, $(horaCierre)]
+      - [escom:tieneTerraza, "http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)"]
+      - [esadm:distrito, "http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)"]
+  Terraza:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)
+    po:
+      - [a, clase2:Terraza]
+      - [escom:numeroMesasAutorizadas, $(mesas)]
+      - [escom:numeroSillasAutorizadas, $(sillas)]
+      - [escom:superficie, $(superficie)]
+      - [escom:perteneceALocal, "http://madridalfresco.es/lcc/resource/Local/$(id_local)"]
+  Distrito:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)
+    po:
+      - [a, clase2:Distrito]
+      - [gn:name, $(nombreDistrito)]
+      - [esadm:barrio, $(barrio)]
+      - [escjr:tipoVia, $(tipoVia)]
+      - [escjr:via, $(nombreCalle)]
+      - [escjr:portal, $(portal)]
+      - [gn:postalCode, $(codPostal)]
+      - [clase:sameAsNombreDistrito, $(same_as_wikidata_nombreDistrito)]
+      - [clase:sameAsBarrio, $(same_as_wikidata_barrio)]
+      - [clase:sameAsTipoVia, $(same_as_wikidata_tipoVia)]

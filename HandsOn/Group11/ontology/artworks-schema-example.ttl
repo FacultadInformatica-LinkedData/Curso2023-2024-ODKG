@@ -1,58 +1,49 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 @prefix owl: <http://www.w3.org/2002/07/owl#>
-@prefix dbo: <http://dbpedia.org/ontology/>
-@prefix dbr: <http://dbpedia.org/resource/>
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix art: <http://artwork.org/> .
 
 # example of artwork 1054 from William Blake
 
-:1054dimension rdf:type :ArtworkDimension ;
-    :hasWidth 198 ^^ xsd:integer ;
-    :hasHeight 152 ^^ xsd:integer ;
-    :hasUnitOfMeasure "mm" ^^ xsd:string ;
-    :hasDescription "image: 198 x 152 mm" ^^ xsd:string .
+art:dimension1054 rdf:type art:ArtworkDimension ;
+    art:hasWidth 198^^xsd:integer ;
+    art:hasHeight 152^^xsd:integer ;
 
-:1054artwork rdf:type owl:Class :Artwork ;
-    :hasId 1054 ^^ xsd:integer ;
-    :hasAccessionNumber "A00020" ^^ xsd:string ;
-    :hasArtist dbr::William_Blake ;
-    :hasArtistRole "artist" ^^ xsd:string ;
-    :hasArtistId 39 ^^ xsd:integer ;
-    :hasTitle "The Vision of Eliphaz" ^^ xsd:string ;
-    :hasDateText "1825, reprinted 1874" ^^ xsd:string ;
-    :hasMedium dbr::Engraving ;
-    :hasCreditLine "Purchased with the assistance of a special grant from the National Gallery and donations from the Art Fund, Lord Duveen and others, and presented through the the Art Fund 1919" ^^ xsd:string ;
-    :madeInYear 1825 ^^ xsd:integer ;
-    :acquiredInYear 1919 ^^ xsd:integer ;
-    :hasDimension :1054dimension ;
-    :hasInscription "" ^^ xsd:string ;
-    :hasThumbnailCopyright "" ^^ xsd:string ;
-    :hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00020_8.jpg> ;
-    :hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
+art:artwork1054 rdf:type owl:Class :Artwork ;
+    art:hasId 1054^^xsd:integer ;
+    art:hasAccessionNumber "A00020"^^xsd:string ;
+    art:hasArtist <http://dbpedia.org/resource/William_Blake> ;
+    art:hasArtistRole "artist"^^xsd:string ;
+    art:hasArtistId 39^^xsd:integer ;
+    art:hasTitle "The Vision of Eliphaz"^^xsd:string ;
+    art:hasMedium "Wood engraving on paper"^^xsd:string ;
+    art:hasCreditLine "Purchased with the assistance of a special grant from the National Gallery and donations from the Art Fund, Lord Duveen and others, and presented through the the Art Fund 1919"^^xsd:string ;
+    art:madeInYear 1825^^xsd:integer ;
+    art:acquiredInYear 1919^^xsd:integer ;
+    art:hasDimension art:dimension1054 ;
+    art:hasThumbnailCopyright ""^^xsd:string ;
+    art:hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00020_8.jpg> ;
+    art:hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
 
 
 
-:9484dimension rdf:type :ArtworkDimension ;
-    :hasWidth 140 ^^ xsd:integer ;
-    :hasHeight 108 ^^ xsd:integer ;
-    :hasUnitOfMeasure "mm" ^^ xsd:string ;
-    :hasDescription "image: 140 x 108 mm" ^^ xsd:string .
+art:dimension9484 rdf:type art:ArtworkDimension ;
+    art:hasWidth 140^^xsd:integer ;
+    art:hasHeight 108^^xsd:integer ;
 
-:9484artwork rdf:type :Artwork ;
-    :hasId 9484 ^^ xsd:integer ;
-    :hasAccessionNumber "A00792" ^^ xsd:string ;
-    :hasArtist dbr::Millais,_Sir_John_Everett,_Bt ;
-    :hasArtistRole "artist" ^^ xsd:string ;
-    :hasArtistId 379 ^^ xsd:integer ;
-    :hasTitle "The Lost Sheep" ^^ xsd:string ;
-    :hasDateText "published 1864" ^^ xsd:string ;
-    :hasMedium "Wood engraving on paper" ^^ xsd:string ;
-    :hasCreditLine "Presented by Gilbert Dalziel 1924" ^^ xsd:string ;
-    :madeInYear 1864 ^^ xsd:integer ;
-    :acquiredInYear 1924 ^^ xsd:integer ;
-    :hasDimension :9484dimension ;
-    :hasInscription "" ^^ xsd:string ;
-    :hasThumbnailCopyright "" ^^ xsd:string ;
-    :hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00792_8.jpg> ;
-    :hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .
+art:artwork9484 rdf:type art:Artwork ;
+    art:hasId 9484^^xsd:integer ;
+    art:hasAccessionNumber "A00792"^^xsd:string ;
+    art:hasArtist <http://dbpedia.org/resource/John_Everett_Millais> ;
+    art:hasArtistRole "artist"^^xsd:string ;
+    art:hasArtistId 379^^xsd:integer ;
+    art:hasTitle "The Lost Sheep"^^xsd:string ;
+    art:hasMedium "Wood engraving on paper"^^xsd:string ;
+    art:hasCreditLine "Presented by Gilbert Dalziel 1924"^^xsd:string ;
+    art:madeInYear 1864^^xsd:integer ;
+    art:acquiredInYear 1924^^xsd:integer ;
+    art:hasDimension art:dimension9484 ;
+    art:hasThumbnailCopyright ""^^xsd:string ;
+    art:hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00792_8.jpg> ;
+    art:hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .

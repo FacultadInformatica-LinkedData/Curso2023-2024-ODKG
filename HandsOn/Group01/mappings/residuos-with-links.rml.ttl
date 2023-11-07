@@ -1,0 +1,294 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix : <http://mapping.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geof: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
+@prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix wst: <http://www.disit.org/km4city/schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+:rules_000 rdf:type void:Dataset ;
+	void:exampleResource :map_zonemap_000, :map_districtmap_000, :map_wastetypemap_000, :map_totalmap_000 .
+
+:map_zonemap_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "zonemap" ;
+	rr:subjectMap :s_000 ;
+	rr:predicateObjectMap :pom_000, :pom_001, :pom_002, :pom_003 .
+
+:source_000 rdf:type rml:LogicalSource ;
+	rml:source "Residuos_2021_2023-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/Zone/Zone_{Zone}" .
+
+:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_000 ;
+	rr:objectMap :om_000 .
+
+:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_000 rdf:type rr:ObjectMap ;
+	rr:constant geof:Zone ;
+	rr:termType rr:IRI .
+
+:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_001 ;
+	rr:objectMap :om_001 .
+
+:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_001 rdf:type rr:ObjectMap ;
+	rr:template "Zone_{Zone}" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_002 ;
+	rr:objectMap :om_002 .
+
+:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant nso:zoneID .
+
+:om_002 rdf:type rr:ObjectMap ;
+	rml:reference "Zone" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_003 ;
+	rr:objectMap :om_003 .
+
+:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant geocod:hasDistrict .
+
+:om_003 rdf:type rr:ObjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/District/District_{District}" ;
+	rr:termType rr:IRI .
+
+:map_districtmap_000 rml:logicalSource :source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "districtmap" ;
+	rr:subjectMap :s_001 ;
+	rr:predicateObjectMap :pom_004, :pom_005, :pom_006, :pom_007, :pom_008, :pom_009 .
+
+:source_001 rdf:type rml:LogicalSource ;
+	rml:source "Residuos_2021_2023-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_001 rdf:type rr:SubjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/District/District_{District}" .
+
+:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_004 ;
+	rr:objectMap :om_004 .
+
+:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_004 rdf:type rr:ObjectMap ;
+	rr:constant dbo:District ;
+	rr:termType rr:IRI .
+
+:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_005 ;
+	rr:objectMap :om_005 .
+
+:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_005 rdf:type rr:ObjectMap ;
+	rr:template "District_{District}" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_006 ;
+	rr:objectMap :om_006 .
+
+:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant dbo:districtID .
+
+:om_006 rdf:type rr:ObjectMap ;
+	rml:reference "District" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_007 ;
+	rr:objectMap :om_007 .
+
+:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant dbo:districtName .
+
+:om_007 rdf:type rr:ObjectMap ;
+	rml:reference "Name" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_008 ;
+	rr:objectMap :om_008 .
+
+:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant wst:hasResidue .
+
+:om_008 rdf:type rr:ObjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" ;
+	rr:termType rr:IRI .
+
+:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_009 ;
+	rr:objectMap :om_009 .
+
+:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
+
+:om_009 rdf:type rr:ObjectMap ;
+	rml:reference "same_as_wikidata_district" ;
+	rr:termType rr:IRI .
+
+:map_wastetypemap_000 rml:logicalSource :source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "wastetypemap" ;
+	rr:subjectMap :s_002 ;
+	rr:predicateObjectMap :pom_010, :pom_011, :pom_012, :pom_013 .
+
+:source_002 rdf:type rml:LogicalSource ;
+	rml:source "Residuos_2021_2023-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" .
+
+:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_010 ;
+	rr:objectMap :om_010 .
+
+:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_010 rdf:type rr:ObjectMap ;
+	rr:constant wst:WasteType ;
+	rr:termType rr:IRI .
+
+:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_011 ;
+	rr:objectMap :om_011 .
+
+:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_011 rdf:type rr:ObjectMap ;
+	rml:reference "WasteType" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_012 ;
+	rr:objectMap :om_012 .
+
+:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant nso:hasTotal .
+
+:om_012 rdf:type rr:ObjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/Total/{WasteType}_{District}_{Year}_{Month}" ;
+	rr:termType rr:IRI .
+
+:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_013 ;
+	rr:objectMap :om_013 .
+
+:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
+
+:om_013 rdf:type rr:ObjectMap ;
+	rml:reference "same_as_wikidata_wastetype" ;
+	rr:termType rr:IRI .
+
+:map_totalmap_000 rml:logicalSource :source_003 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "totalmap" ;
+	rr:subjectMap :s_003 ;
+	rr:predicateObjectMap :pom_014, :pom_015, :pom_016, :pom_017, :pom_018 .
+
+:source_003 rdf:type rml:LogicalSource ;
+	rml:source "Residuos_2021_2023-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_003 rdf:type rr:SubjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/Total/{WasteType}_{District}_{Year}_{Month}" .
+
+:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_014 ;
+	rr:objectMap :om_014 .
+
+:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_014 rdf:type rr:ObjectMap ;
+	rr:constant nso:Total ;
+	rr:termType rr:IRI .
+
+:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_015 ;
+	rr:objectMap :om_015 .
+
+:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant nso:value .
+
+:om_015 rdf:type rr:ObjectMap ;
+	rml:reference "Total" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:float .
+
+:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_016 ;
+	rr:objectMap :om_016 .
+
+:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant time:year .
+
+:om_016 rdf:type rr:ObjectMap ;
+	rml:reference "Year" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:gYear .
+
+:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_017 ;
+	rr:objectMap :om_017 .
+
+:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant time:month .
+
+:om_017 rdf:type rr:ObjectMap ;
+	rml:reference "Month" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_018 ;
+	rr:objectMap :om_018 .
+
+:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant nso:referedTo .
+
+:om_018 rdf:type rr:ObjectMap ;
+	rr:template "http://madridwastemanagement.org/group01/data/District/District_{District}" ;
+	rr:termType rr:IRI .
+

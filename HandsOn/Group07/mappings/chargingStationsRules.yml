@@ -1,47 +1,53 @@
 prefixes:
-  rr: 'http://www.w3.org/ns/r2rml#'
-  rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-  rdfs: 'http://www.w3.org/2000/01/rdf-schema#'
-  fnml: 'http://semweb.mmlab.be/ns/fnml#'
-  fno: 'https://w3id.org/function/ontology#'
-  d2rq: 'http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#'
-  void: 'http://rdfs.org/ns/void#'
-  dc: 'http://purl.org/dc/terms/'
-  foaf: 'http://xmlns.com/foaf/0.1/'
-  rml: 'http://semweb.mmlab.be/ns/rml#'
-  ql: 'http://semweb.mmlab.be/ns/ql#'
-  "": 'http://mapping.example.com/'
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rml: http://semweb.mmlab.be/ns/rml#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  ont: https://www.chargeup.io/group07/ontology#
+  ql: http://semweb.mmlab.be/ns/ql#
+  fnml: http://semweb.mmlab.be/ns/fnml#
+
 mappings:
   chargingstationmap:
     sources:
-      - ['Electric-Vehicle-Charging-Stations-update.csv~csv']
-    s: 'https://www.chargeup.io/group07/resource/ChargingStation/$(Station Name)'
+      - [Electric-Vehicle-Charging-Stations-updated.csv~csv]
+  
+    s: https://www.chargeup.io/group07/resource/ChargingStation/$(ChargingStation)
     po:
-      - [a, 'ont:ChargingStation~iri']
-      - ['rdfs:label', '$(Station Name)']
-      - ['ont:accessDaysTime', '$(Access Days Time 1)', 'xsd:string']
-      - ['ont:additionalInfo', '$(Additional Info)', 'xsd:string']
-      - ['ont:evLevel1EVSENum', '$(EV Level1 EVSE Num)', 'xsd:string']
-      - ['ont:evLevel2EVSENum', '$(EV Level2 EVSE Num)', 'xsd:string']
-      - ['ont:evDCFastCount', '$(EV DC Fast Count)', 'xsd:string']
-      - ['ont:longitude', $(Longitude), 'xsd:string']
-      - ['ont:latitude', $(Latitude), 'xsd:string']
-      - ['ont:streetAddress', 'ont:Address~iri']
+      - [a, ont:ChargingStation]
+      - [rdfs:label, $(ChargingStation), xsd:string]
+      - [ont:accessDaysTime, $(AccessDaysTime), xsd:string]
+      - [ont:additionalInfo, $(AdditionalInfo), xsd:string]
+      - [ont:evLevel1EVSENum, $(EVLevel1EVSENum), xsd:integer]
+      - [ont:evLevel2EVSENum, $(EVLevel2EVSENum), xsd:integer]
+      - [geo:latitude ,$(Latitude) ,xsd:float]
+      - [geo:longitude ,$(Longitude) ,xsd:float]
+      - [ont:evDCFastCount, $(EVDCFastCount), xsd:integer]
+      - [ont:hasStreetAddress, https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)]
+
+
+
   addressmap:
     sources:
-      - ['Electric-Vehicle-Charging-Stations-update.csv~csv']
-    s: 'https://www.chargeup.io/group07/resource/Address/$(Street Address)'
+      - [Electric-Vehicle-Charging-Stations-updated.csv~csv]
+    s: https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)
     po:
-      - [a, 'ont:Address~iri']
-      - ['rdfs:label', '$(Street Address)']
-      - ['ont:zipCode', '$(Zip Code)', 'xsd:integer']
-      - ['ont:city', $(City)]
+      - [a, ont:StreetAddress]
+      - [rdfs:label, $(StreetAddress), xsd:string]
+      - [ont:zipCode, $(ZipCode), xsd:string]
+      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)]
+
+
+
+
   citymap:
     sources:
-      - ['Electric-Vehicle-Charging-Stations-update.csv~csv']
-    s: 'https://www.chargeup.io/group07/resource/City/$(City)'
+      - [Electric-Vehicle-Charging-Stations-updated.csv~csv]
+    s: https://www.chargeup.io/group07/resource/City/$(City)
     po:
-      - [a, 'ont:City~iri']
-      - ['rdfs:label', $(City)]
-      - ['ont:counties', $(Counties), 'xsd:string']
-      - ['ont:townIndex', '$(Town Index)', 'xsd:integer']
+      - [a, ont:City]
+      - [rdfs:label, $(City), xsd:string]
+      - [ont:counties, $(Counties), xsd:string]
+      - [ont:townIndex, $(TownIndex), xsd:integer]
