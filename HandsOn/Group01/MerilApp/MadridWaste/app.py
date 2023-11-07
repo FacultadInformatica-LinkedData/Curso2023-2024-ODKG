@@ -16,7 +16,7 @@ g.parse("data/rdf-with-links.ttl", format="ttl")
 
 #######################################################################################################################################################
 #######################################################################################################################################################
-########################################################## SPARQLE Queries ###############################################33###########################
+########################################################## SPARQL Queries ###############################################33###########################
 #######################################################################################################################################################
 def run_district_details_query(district_id):
     endpoint_url = "https://query.wikidata.org/sparql"
@@ -87,7 +87,7 @@ def run_sparql_query(district_name):
             SELECT ?wasteName ?wikidataLink ?m (SUM(?val) AS ?totalAmount)
             WHERE {{
               ?districtInstance a dbo:District ;
-                                dbo:districtName "{district_name}";
+                                rdfs:label "{district_name}";
                                 wst:hasResidue ?wasteinstance.
               ?wasteinstance rdfs:label ?wasteName;
                              owl:sameAs ?wikidataLink;
@@ -109,7 +109,29 @@ def run_sparql_query(district_name):
         }
         output.append(output_dict)
     return output
-
+def run_wasteType_query(wikidata_id):
+    endpoint_url = "https://query.wikidata.org/sparql"
+    query = f"""
+            PREFIX schema: <http://schema.org/>
+            SELECT ?description
+            WHERE {{
+              wd:{wikidata_id} schema:description ?description.
+              FILTER(LANG(?description) = "en")
+            }}
+            LIMIT 1
+            """
+    try:
+        response = requests.get(endpoint_url, params={'query': query, 'format': 'json'})
+        data = response.json()
+        results = data['results']['bindings']
+        if results:
+            output = results[0]['description']['value']
+            return output
+        else:
+            return "No description found"
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return "An error occurred while fetching the description"
 
 #######################################################################################################################################################
 #######################################################################################################################################################
@@ -133,6 +155,11 @@ def district():
     district_details = run_district_details_query(district_id)
     return render_template("district.html", waste_results=waste_results, district_details=district_details)
 
+@app.route("/wasteType")
+def waste_type():
+    wikidata_id = request.args.get("wikidata_id")
+    result = run_wasteType_query(wikidata_id)
+    return render_template("wasteType.html", result=result)
 
 if __name__ == "__main__":
     app.run(debug=True)

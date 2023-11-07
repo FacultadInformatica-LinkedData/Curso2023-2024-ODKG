@@ -32,7 +32,7 @@
                 <tbody>
                     {% for result in waste_results %}
                     <tr>
-                        <td>{{ result.wasteName }}</td>
+                        <td><a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}" target="_blank"> {{ result.wasteName }}</a></td>
                         <td><a href="{{ result.wikidataLink }}" target="_blank">Wikidata</a></td>
                         <td>{{ result.month }}</td>
                         <td>{{ result.totalAmount }}</td>
