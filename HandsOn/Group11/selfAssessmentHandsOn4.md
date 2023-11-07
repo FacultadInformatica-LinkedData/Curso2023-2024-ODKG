@@ -4,15 +4,15 @@
 
 **The “RML” file:**
 
-- [ ] Includes mappings from CSV to RDF
+- [x] Includes mappings from CSV to RDF
 
 **The "YML" directory:**
 
-- [ ] Includes mappings from CSV to RDF
+- [x] Includes mappings from CSV to RDF
 
 **The "RDF" file:**
 
-- [ ] Includes transformed dataset into RDF
+- [x] Includes transformed dataset into RDF
 
 **The "SPARQL” file:**
 
