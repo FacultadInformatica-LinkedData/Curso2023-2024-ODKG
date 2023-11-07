@@ -1,0 +1,68 @@
+{
+    "@context": {
+      "name": "http://schema.org/name",
+      "description": "http://schema.org/description",
+      "teacher": "http://schema.org/teacher",
+      "father": "http://schema.org/parent",
+      "mother": "http://schema.org/parent",
+      "birthDate": "http://schema.org/birthDate",
+      "almaMater": "http://schema.org/alumniOf",
+      "hometown": "http://schema.org/homeLocation"
+    },
+    "@type": "Person",
+    "name": "Raul Moldes Castillo",
+    "hometown": "Arroyomolinos",
+    "birthDate": "18-05-1999",
+    "almaMater": "Universidad Politécnica de Madrid",
+    "parents": {
+      "@type": "Person",
+      "father": {
+        "@type": "Person",
+        "name": "Domingo Moldes Moro"
+      },
+      "mother": {
+        "@type": "Person",
+        "name": "María Angles Castillo Roldan"
+      }
+    },
+    "subjects_this_year": [
+        {  "@type":"Course",
+            "name": "Data Processes",
+            "teachers": ["Luis Mengual Galan","Antonio Jesus Diaz Honrubia", "Ernestina Menasalvas Ruiz", "Alejandro Rodriguez Gonzalez","Maria Covadonga Fernandez Baizan"],
+    
+            "brief_description": "In this course we will deepen on the importance of data for an organization. In fact, the course is centered on the process of extraction of knowledge from databases as a support for decision making."
+          },
+          { "@type":"Course",
+            "name": "Data Visualization",
+            "teachers": ["Pablo Toharia Rabasco" ,"Antonio Latorre De La Fuente","Jorge Acosta Hernandez"],
+            "brief_description": "This course will allow the student to gain the fundamentals for the visualization of all kinds of information. With an eminently practical approach, the technologies and fundamentals necessary to create successful information visualization tools will be presented."
+          },
+          { "@type":"Course",
+            "name":"Statistical Data Analysis",
+            "teachers":["Arminda Moreno Diaz","Jacinto Gonzalez Pachon","Antonio Jimenez Martin","Maria Isabel Rodriguez Galiano", "Juan Antonio Fdez Del Pozo De Salamanca"],
+            "brief_description":"The course is intended to be a non-exhaustive survey of techinques to convert multivariate data into useful information so that good decisions can be made"
+          },
+          { "@type":"Course",
+            "name":"Intelligent Systems",
+            "teachers":["Asuncion De Maria Gomez Perez","Martin Molina Gonzalez","M. Carmen Suarez De Figueroa Baonza","Daniel Manrique Gamo","Mariano Rico Almodovar"],
+            "brief_description":"In a broad sense, intelligent systems can be considered as a type of computer system that integrates artificial intelligence algorithms to solve problems in complex environments using limited resources. Intelligent systems are capable of acquiring and using knowledge by integrating methods based on machine learning, knowledge representation and reasoning"
+          },{
+            "@type":"Course",
+            "name":"Open Data & Knowledge Graphs",
+            "teachers":["Oscar Corcho Garcia","Raul Garcia Castro"],
+            "brief_description":"During this course you will learn about the main foundations for Open Data and Knowledge Graphs, including the W3C recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+          },{
+            "@type":"Course",
+            "name": "Cloud Computing and Big Data Ecosystems",
+            "teachers":["Ainhoa Azqueta Alzuaz","Tonghong Li","Marta Patiño Martínez"],
+            "brief_description": "This course presents traditional data management systems and architectures for scalable distributed systems and data management systems: bigtable, data streaming, persistent queue"
+          },{
+            "@type":"Course",
+            "name":"Machine Learning",
+            "teachers":["Pedro Larrañaga Mugica","Maria Concepcion Bielza Lozoya"],
+            "brief_description":"Esta asignatura expone varios métodos para resolver problemas de clasificación supervisada, no supervisada, y relaciones entre las variables del sistema."
+          }
+      
+    ]
+  }
+  

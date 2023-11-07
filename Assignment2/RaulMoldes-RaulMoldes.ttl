@@ -1,0 +1,16 @@
+@prefix ex: <http://exercise1b/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Class01 rdfs:label "Class01" ;
+           ex:includes ex:Sensor029, ex:Computer101 .
+
+ex:Sensor029 ex:hasMeasurement ex:Measurement8401 .
+
+ex:Measurement8401 ex:hasTemperature "29"^^xsd:int ;
+                   ex:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+ex:Computer101 ex:hasOwner ex:User10A .
+
+ex:User10A ex:hasName "Pedro"^^xsd:string .
+                   
