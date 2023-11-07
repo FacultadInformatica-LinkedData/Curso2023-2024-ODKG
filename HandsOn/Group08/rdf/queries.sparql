@@ -1,24 +1,69 @@
+# University Infomation Ontology Queries
 
-# Query 1: Select all the possible values of the property 
-# dbo:city of the entities that belong to class n:University 
+# Prefixs:
+
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX ns: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#>
+PREFIX schema: <https://schema.org/> 
+
+
+
+# Query 1: Select all the possible values of the property
+          # dbo:city of the entities that belong to class n:University :
+
+            SELECT DISTINCT ?nameCity ?uniname WHERE {
+                ?university dbo:city ?city .
+                ?city rdf:label ?nameCity.
+                ?university rdf:type ns:University.
+                ?university rdf:label ?uniname. 
+        }    
     
-    SELECT ?individual ?value WHERE {
-        ?individual dbo:city ?value .
-        ?individual rdf:type ns:University.
-    }    
 
-#Query 2: Select all the values and years of all the Liberal Arts Colleges    
-    SELECT ?value ?year WHERE {
-        ?ranking ns:score ?value.
-        ?ranking ns:yearPublished ?year.
-        ?individual ns:hasLiberalArtsRanking  ?ranking .
-        ?individual rdf:type ns:University.
-    }    
+# Query 2: Select all the scores and years of all the Liberal Arts Colleges Rankings
+          # for all the Universities located in the state of Florida):
 
-#Query 3: Select the values of admission rate of all the entities of type University    
-    SELECT ?name ?value WHERE {
-        ?university rdf:type ns:University .
+                SELECT ?uniname ?score ?year ?stateName WHERE {
+                    ?university rdf:type ns:University.
+  					?university rdf:label ?uniname. 
+                    ?ranking ns:score ?score.
+                    ?ranking ns:yearPublished ?year.
+                    ?university ns:hasRanking  ?ranking .
+                    ?ranking rdf:type ns:UniversityRankingLiberalArts.
+                    ?university dbo:state ?state.
+  					?state rdf:label ?stateName.
+  
+  				  FILTER (xsd:string(?stateName) = "Florida"^^xsd:string)
+                } 
+        
 
-        ?university ns:hasAdmisionRate ?rate .
-        ?rate ns:value ?value
-    }    
+# Query 3: Select the values of admission rate of all the entities of type University:
+    
+                SELECT ?uniname ?enrollmentRate WHERE {
+                    ?university rdf:type ns:University .
+                    ?university rdf:label ?uniname. 
+                    ?university ns:hasRate ?rate .
+                    ?rate rdf:type ns:EnrollmentRate. 
+                    ?rate ns:value ?enrollmentRate   
+                }    
+                
+
+# Query 4: Retrieve the coordinates of the University which ranked first on the USNews Ranking:
+    
+                SELECT DISTINCT ?uniname ?longitude ?latitude ?score WHERE {
+                    ?university rdf:type ns:University.
+                    ?university rdf:label ?uniname. 
+                    ?university ns:hasRanking ?ranking .
+  					?ranking rdf:type ns:RankingUSNews.
+  					?ranking ns:score ?score.
+                    ?university schema:longitude ?longitude.
+                    ?university schema:latitude ?latitude.
+                    
+  					FILTER (xsd:string(?score) = "1"^^xsd:string)
+                }    
+                
+
