@@ -5,6 +5,7 @@
         "type": "Feature",
         "properties": {
           "name": "Chamartin",
+          "wikidataID": "Q1766348",
           "cartodb_id": 5,
           "created_at": "2013-12-02T07:20:26+0100",
           "updated_at": "2013-12-02T07:20:26+0100"

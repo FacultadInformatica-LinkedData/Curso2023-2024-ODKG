@@ -1,4 +1,4 @@
-import rdflib
+import rdflib, requests
 from flask import Flask, render_template, request
 
 #######################################################################################################################################################
@@ -18,6 +18,50 @@ g.parse("data/rdf-with-links.ttl", format="ttl")
 #######################################################################################################################################################
 ########################################################## SPARQLE Queries ###############################################33###########################
 #######################################################################################################################################################
+def run_district_details_query(district_id):
+    endpoint_url = "https://query.wikidata.org/sparql"
+    """
+           Given a district id it retrieves the details of the district from wikidata
+           :param district_name:
+           :return:
+           """
+    query = f"""
+            PREFIX schema: <http://schema.org/>
+            PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+            PREFIX wd: <http://www.wikidata.org/entity/>
+
+
+            SELECT ?population ?description ?area ?coordinates
+            WHERE {{
+              BIND(wd:{district_id} AS ?district)
+              ?district wdt:P1082 ?population.
+              ?district wdt:P2046 ?area.
+              ?district schema:description ?description.
+              ?district wdt:P625 ?coordinates.
+              FILTER(LANG(?description) = "en")
+            }}
+            """
+    try:
+        response = requests.get(endpoint_url, params={'query': query, 'format': 'json'})
+        data = response.json()
+        results = data['results']['bindings']
+        output = []
+        for result in results:
+            output_dict = {
+                'population': result['population']['value'],
+                'description': result['description']['value'],
+                'area': result['area']['value'],
+                'coordinates': result['coordinates']['value']
+            }
+            output.append(output_dict)
+            print("output")
+            return output
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []
+
+
+
 def run_sparql_query(district_name):
     """
     Given an dsitrict name it generates th waste amount for each type of waste for each month
@@ -84,8 +128,10 @@ def index():
 @app.route("/district")
 def district():
     district_name = request.args.get("name")
-    results = run_sparql_query(district_name)
-    return render_template("district.html", results=results)
+    district_id = request.args.get("wikidataID")
+    waste_results = run_sparql_query(district_name)
+    district_details = run_district_details_query(district_id)
+    return render_template("district.html", waste_results=waste_results, district_details=district_details)
 
 
 if __name__ == "__main__":

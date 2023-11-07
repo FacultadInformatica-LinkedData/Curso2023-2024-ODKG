@@ -4,7 +4,8 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "San Blas",
+          "name": "San Blas-Canillejas",
+          "wikidataID": "Q2001937",
           "cartodb_id": 20,
           "created_at": "2013-12-02T07:20:26+0100",
           "updated_at": "2013-12-02T07:20:26+0100"

@@ -2,8 +2,21 @@
 {% block title %}District Details{% endblock %}
 {% block body %}
 <h1 class="text-center mb-4">District Waste Details</h1>
+{% if waste_results or district_details %}
+    <!-- Details part -->
 
-{% if results %}
+    <div class="district-details">
+        {% for result in district_details %}
+            <h3>Population</h3>
+            <p>{{ result.population}} inhabitants</p>
+            <h3>Description</h3>
+            <p>{{ result.description}}</p>
+            <h3>Area</h3>
+            <p>{{ result.area}} km²</p>
+            <h3>Coordinates</h3>
+            <p>{{ result.coordinates}}</p>
+        {% endfor %}
+    </div>
     <!-- Table Rows -->
     <div class="row justify-content-center mb-4">
         <div class="col-lg-10">
@@ -17,7 +30,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    {% for result in results %}
+                    {% for result in waste_results %}
                     <tr>
                         <td>{{ result.wasteName }}</td>
                         <td><a href="{{ result.wikidataLink }}" target="_blank">Wikidata</a></td>
@@ -57,7 +70,7 @@
         var datasets = [];  // datasets for each waste type
         var wasteTypes = {};  // dictionary to hold data for each waste type
 
-        {% for result in results %}
+        {% for result in waste_results %}
             if (!wasteTypes.hasOwnProperty("{{ result.wasteName }}")) {
                 wasteTypes["{{ result.wasteName }}"] = [];
             }

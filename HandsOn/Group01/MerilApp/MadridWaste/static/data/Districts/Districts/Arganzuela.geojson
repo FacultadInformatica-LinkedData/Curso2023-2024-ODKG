@@ -5,6 +5,7 @@
         "type": "Feature",
         "properties": {
           "name": "Arganzuela",
+          "wikidataID": "Q2000929",
           "cartodb_id": 2,
           "created_at": "2013-12-02T07:20:26+0100",
           "updated_at": "2013-12-02T07:20:26+0100"
