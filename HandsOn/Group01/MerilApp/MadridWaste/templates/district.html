@@ -2,20 +2,31 @@
 {% block title %}District Details{% endblock %}
 {% block body %}
 <h1 class="text-center mb-4">District Waste Details</h1>
-{% if waste_results or district_details %}
+{% if district_details %}
     <!-- Details part -->
-
-    <div class="district-details">
-        {% for result in district_details %}
-            <h3>Population</h3>
-            <p>{{ result.population}} inhabitants</p>
-            <h3>Description</h3>
-            <p>{{ result.description}}</p>
-            <h3>Area</h3>
-            <p>{{ result.area}} km²</p>
-            <h3>Coordinates</h3>
-            <p>{{ result.coordinates}}</p>
-        {% endfor %}
+<div class="district-details">
+  <div class="flex-container">
+    {% for result in district_details %}
+      <div class="text-container">
+        <h3>Population</h3>
+        <p>{{ result.population}} inhabitants</p>
+        <h3>Description</h3>
+        <p>{{ result.description}}</p>
+        <h3>Area</h3>
+        <p>{{ result.area}} km²</p>
+        <h3>Coordinates</h3>
+        <p>{{ result.coordinates}}</p>
+      </div>
+      <div class="image-container">
+        <img src="static/data/Districts/Images/{{result.name}}.jpg" height="90%" width="90%">
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% else %}
+    <p class="text-center">No further details available for this district.</p>
+{% endif %}
+{% if waste_results %}
     </div>
     <!-- Table Rows -->
     <div class="row justify-content-center mb-4">

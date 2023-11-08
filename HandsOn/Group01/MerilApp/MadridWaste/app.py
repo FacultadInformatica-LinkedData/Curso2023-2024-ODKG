@@ -31,13 +31,15 @@ def run_district_details_query(district_id):
             PREFIX wd: <http://www.wikidata.org/entity/>
 
 
-            SELECT ?population ?description ?area ?coordinates
+            SELECT ?population ?description ?area ?coordinates ?label
             WHERE {{
               BIND(wd:{district_id} AS ?district)
               ?district wdt:P1082 ?population.
               ?district wdt:P2046 ?area.
               ?district schema:description ?description.
               ?district wdt:P625 ?coordinates.
+              ?district rdfs:label ?label . 
+              FILTER (langMatches( lang(?label), "ES" ) )  
               FILTER(LANG(?description) = "en")
             }}
             """
@@ -51,10 +53,10 @@ def run_district_details_query(district_id):
                 'population': result['population']['value'],
                 'description': result['description']['value'],
                 'area': result['area']['value'],
-                'coordinates': result['coordinates']['value']
+                'coordinates': result['coordinates']['value'],
+                'name': result['label']['value']
             }
             output.append(output_dict)
-            print("output")
             return output
     except Exception as e:
         print(f"An error occurred: {e}")
