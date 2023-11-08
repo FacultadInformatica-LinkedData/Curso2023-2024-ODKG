@@ -14,7 +14,7 @@
 
 # Ontology Diagram
 
-![Diagram Ontology](./ontology/Ontology.png)
+![Diagram Ontology](./ontology/Ontologiy_diagram.png)
 
 ## Extensiones VS-CODE
 
@@ -27,7 +27,7 @@ on Docker Hub.
 
 1. Run fisrt time:
 ```bash
-sudo docker run --name fuseki -p 3030:3030 -e  ADMIN_PASSWORD=pw12,TDB=2 stain/jena-fuseki 
+docker run --name fuseki -p 3030:3030 -e  ADMIN_PASSWORD=pw12,TDB=2 stain/jena-fuseki 
 ```
 
 2. Insert Data 
