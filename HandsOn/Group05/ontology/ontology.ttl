@@ -1,4 +1,4 @@
- @prefix mod: <https://w3id.org/mod#> .
+@prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
