@@ -44,7 +44,6 @@ def run_district_details_query(district_id):
             }}
             """
     try:
-        print(query)
         response = requests.get(endpoint_url, params={'query': query, 'format': 'json'})
         data = response.json()
         results = data['results']['bindings']
@@ -62,7 +61,6 @@ def run_district_details_query(district_id):
     except Exception as e:
         print(f"An error occurred: {e}")
         return []
-
 
 
 def run_sparql_query(district_name):
@@ -87,7 +85,7 @@ def run_sparql_query(district_name):
             PREFIX wst: <http://www.disit.org/km4city/schema#>
             PREFIX time: <http://www.w3.org/2006/time#>
 
-            SELECT ?wasteName ?wikidataLink ?m (SUM(?val) AS ?totalAmount)
+            SELECT ?wasteName ?wikidataLink ?m ?year (SUM(?val) AS ?totalAmount)
             WHERE {{
               ?districtInstance a dbo:District ;
                                 rdfs:label "{district_name}";
@@ -96,10 +94,12 @@ def run_sparql_query(district_name):
                              owl:sameAs ?wikidataLink;
                              nso:hasTotal ?totalinstance.
               ?totalinstance nso:value ?val;
-                             time:month ?m.
+                             time:month ?m;
+                             time:year ?year.
+            
             }}
             GROUP BY ?wasteName ?wikidataLink ?m
-            ORDER BY ?m ?wasteName
+            ORDER BY ?m ?year ?wasteName
             """
     results = g.query(query)
     output = []
@@ -108,10 +108,13 @@ def run_sparql_query(district_name):
             "wasteName": str(row[0]),
             "wikidataLink": str(row[1]),
             "month": str(row[2]),
-            "totalAmount": str(row[3]),
+            "year": str(row[3]),
+            "totalAmount": str(row[4]),
         }
         output.append(output_dict)
     return output
+
+
 def run_wasteType_query(wikidata_id):
     endpoint_url = "https://query.wikidata.org/sparql"
     query = f"""
@@ -136,6 +139,7 @@ def run_wasteType_query(wikidata_id):
         print(f"An error occurred: {e}")
         return "An error occurred while fetching the description"
 
+
 #######################################################################################################################################################
 #######################################################################################################################################################
 ########################################################## Rooter ######### ###############################################33###########################
@@ -156,14 +160,15 @@ def district():
     district_id = request.args.get("wikidataID")
     waste_results = run_sparql_query(district_name)
     district_details = run_district_details_query(district_id)
-    print(district_details)
     return render_template("district.html", waste_results=waste_results, district_details=district_details)
+
 
 @app.route("/wasteType")
 def waste_type():
     wikidata_id = request.args.get("wikidata_id")
     result = run_wasteType_query(wikidata_id)
     return render_template("wasteType.html", result=result)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
