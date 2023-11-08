@@ -35,7 +35,7 @@ def run_district_details_query(district_id):
             WHERE {{
               BIND(wd:{district_id} AS ?district)
               ?district wdt:P1082 ?population.
-              ?district wdt:P2046 ?area.
+              OPTIONAL {{ ?district wdt:P2046 ?area}}.
               ?district schema:description ?description.
               ?district wdt:P625 ?coordinates.
               ?district rdfs:label ?label . 
@@ -44,6 +44,7 @@ def run_district_details_query(district_id):
             }}
             """
     try:
+        print(query)
         response = requests.get(endpoint_url, params={'query': query, 'format': 'json'})
         data = response.json()
         results = data['results']['bindings']
@@ -52,7 +53,7 @@ def run_district_details_query(district_id):
             output_dict = {
                 'population': result['population']['value'],
                 'description': result['description']['value'],
-                'area': result['area']['value'],
+                'area': result.get('area', {'value': '--'})['value'],
                 'coordinates': result['coordinates']['value'],
                 'name': result['label']['value']
             }
@@ -155,6 +156,7 @@ def district():
     district_id = request.args.get("wikidataID")
     waste_results = run_sparql_query(district_name)
     district_details = run_district_details_query(district_id)
+    print(district_details)
     return render_template("district.html", waste_results=waste_results, district_details=district_details)
 
 @app.route("/wasteType")
