@@ -1,0 +1,33 @@
+ #Event-Check Query
+
+   SELECT distinct ?Subject ?Name ?Description WHERE {
+    ?Subject a 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaEvento';
+    <http://madrid.encuentra.es/resource/name> ?Name;
+    <http://madrid.encuentra.es/resource/description> ?Description.
+    }
+
+ #Facility-Check Query
+ 
+  SELECT ?Subject ?Name ?Description  WHERE {
+    ?Subject a 'http://madrid.encuentra.es/resource/Facility';
+    <http://madrid.encuentra.es/resource/name> ?Name;
+    <http://madrid.encuentra.es/resource/descripcion> ?Description.
+    }
+ 
+ #Link-Check Query
+ 
+  SELECT ?Event ?EName ?Facility ?FName WHERE {
+    ?Event a 'http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaEvento';
+            <http://madrid.encuentra.es/resource/name> ?EName.
+    ?Event <http://madrid.encuentra.es/resource/Facility> ?FName.
+    ?Facility <http://madrid.encuentra.es/resource/name> ?FName;
+              a 'http://madrid.encuentra.es/resource/Facility'.
+    }
+
+#Wiki District Linking Query
+
+  SELECT distinct ?Wiki WHERE {
+    ?Facility a 'http://madrid.encuentra.es/resource/Facility';
+        <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendadistrito_wiki> ?Wiki.
+    }
+
