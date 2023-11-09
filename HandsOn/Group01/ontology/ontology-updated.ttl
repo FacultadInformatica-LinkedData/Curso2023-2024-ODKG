@@ -1,0 +1,86 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix base: <http://madridwastemanagement.org/> .
+@prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
+@prefix geof: <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix wst: <http://www.disit.org/km4city/schema#> .
+
+
+nso: a owl:Ontology ;
+    dc:creator "group01" ;
+    dc:description "Ontology code created by group01" ;
+    dc:title "Madrid Waste Management" ;
+    owl:versionInfo "0.0.1" .
+
+#Properties
+geocod:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "has district" ;
+    rdfs:domain geof:Zone ;
+    rdfs:range dbo:District .
+
+wst:hasResidue a owl:ObjectProperty ;
+    rdfs:label "has residue" ;
+    rdfs:domain dbo:District ;
+    rdfs:range wst:WasteType .
+
+nso:hasTotal a owl:ObjectProperty ;
+    rdfs:label "has total" ;
+    rdfs:domain wst:WasteType ;
+    rdfs:range nso:Total .
+
+
+nso:referedTo a owl:ObjectProperty ;
+    rdfs:label "refered to" ;
+    rdfs:domain nso:Total ;
+    rdfs:range dbo:District .
+
+nso:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:float .
+
+time:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:gYear .
+
+time:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain nso:Total ;
+    rdfs:range xsd:string .
+
+nso:zoneID a owl:DatatypeProperty ;
+    rdfs:label "zoneId" ;
+    rdfs:domain geof:Zone ;
+    rdfs:range xsd:integer .
+
+dbo:districtID a owl:DatatypeProperty ;
+    rdfs:label "districtID" ;
+    rdfs:domain dbp:District ;
+    rdfs:range xsd:integer .
+
+dbo:districtName a owl:DatatypeProperty ;
+    rdfs:label "districtName" ;
+    rdfs:domain dbo:District ;
+    rdfs:range xsd:string .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" .
+
+#Class
+geof:Zone a owl:Class ;
+    rdfs:label "Zone" .
+
+wst:WasteType a owl:Class ;
+    rdfs:label "Waste Type" .
+
+dbo:District a owl:Class ;
+    rdfs:label "District" .
+
+nso:Total a owl:Class .
+
