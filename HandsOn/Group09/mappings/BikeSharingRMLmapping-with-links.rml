@@ -2,6 +2,7 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix vocab: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>.
 @base <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing/ns#>.
 
@@ -23,14 +24,14 @@
       rr:datatype xsd:string
     ]
   ];
- rr:predicateObjectMap [
-    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string]
+  
+  rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
     rr:objectMap [
       rr:reference "season_wikidata_link";
       rr:datatype xsd:string
-    ]
+    ];
   ];
-
 
   rr:predicateObjectMap [
     rr:predicate vocab:hour;
@@ -39,14 +40,14 @@
       rr:datatype xsd:string
     ]
   ];
- rr:predicateObjectMap [
-    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string]
+
+  rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
     rr:objectMap [
-      rr:template "hour_wikidata_link";
+      rml:reference "hour_wikidata_link";
       rr:datatype xsd:string
     ]
   ];
-
 
   rr:predicateObjectMap [
     rr:predicate vocab:date;
@@ -55,12 +56,13 @@
       rr:datatype xsd:string
     ]
   ];
- rr:predicateObjectMap [
-    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string]
+
+  rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
     rr:objectMap [
-      rr:template "date_wikidata_link";
+      rr:reference "date_wikidata_link";
       rr:datatype xsd:string
-    ]
+    ];
   ];
 
   rr:predicateObjectMap [
@@ -125,4 +127,4 @@
       rml:reference "count";
       rr:datatype xsd:integer
     ]
-  ];.
+  ].
