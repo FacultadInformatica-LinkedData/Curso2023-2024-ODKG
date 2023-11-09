@@ -4,7 +4,8 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Chamberi",
+          "name": "Chamberí",
+          "wikidataID": "Q1763370",
           "cartodb_id": 7,
           "created_at": "2013-12-02T07:20:26+0100",
           "updated_at": "2013-12-02T07:20:26+0100"

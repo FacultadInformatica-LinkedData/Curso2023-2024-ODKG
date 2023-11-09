@@ -1,0 +1,4805 @@
+Year,Month,Zone,WasteType,District,Name,Total
+2021,1,1,CDW,1,Centro,56.795
+2021,1,1,CDW,6,Tetuán,33.08
+2021,1,1,CDW,7,Chamberí,34.83
+2021,1,1,CDW,8,Fuencarral - El Pardo,59.325
+2021,1,1,CDW,9,Moncloa - Aravaca,180.275
+2021,1,1,CDW,10,Latina,51.44
+2021,1,1,cleanPoints,8,Fuencarral - El Pardo,92.68
+2021,1,1,cleanPoints,9,Moncloa - Aravaca,170.6
+2021,1,1,cleanPoints,10,Latina,146.08
+2021,1,1,Clinicians,1,Centro,142.62
+2021,1,1,Clinicians,6,Tetuán,12.92
+2021,1,1,Clinicians,8,Fuencarral - El Pardo,271.96
+2021,1,1,Clinicians,9,Moncloa - Aravaca,210.3
+2021,1,1,Clinicians,10,Latina,21.74
+2021,1,1,Clothes,10,Latina,0.18
+2021,1,1,Glass,1,Centro,505.18
+2021,1,1,Glass,6,Tetuán,225.56
+2021,1,1,Glass,7,Chamberí,225.28
+2021,1,1,Glass,8,Fuencarral - El Pardo,440.3
+2021,1,1,Glass,9,Moncloa - Aravaca,207.18
+2021,1,1,Glass,10,Latina,223.04
+2021,1,1,horseBed,9,Moncloa - Aravaca,54.45
+2021,1,1,Organic,1,Centro,399.22
+2021,1,1,Organic,6,Tetuán,538.04
+2021,1,1,Organic,7,Chamberí,523.76
+2021,1,1,Organic,8,Fuencarral - El Pardo,1013.38
+2021,1,1,Organic,9,Moncloa - Aravaca,618.82
+2021,1,1,Organic,10,Latina,838.08
+2021,1,1,Packaging,1,Centro,189.1
+2021,1,1,Packaging,6,Tetuán,255.4
+2021,1,1,Packaging,7,Chamberí,212.94
+2021,1,1,Packaging,8,Fuencarral - El Pardo,511.12
+2021,1,1,Packaging,9,Moncloa - Aravaca,231.74
+2021,1,1,Packaging,10,Latina,388.32
+2021,1,1,Paper,1,Centro,414.91
+2021,1,1,Paper,6,Tetuán,371.44
+2021,1,1,Paper,7,Chamberí,331.15
+2021,1,1,Paper,8,Fuencarral - El Pardo,584.39
+2021,1,1,Paper,9,Moncloa - Aravaca,254.53
+2021,1,1,Paper,10,Latina,320.43
+2021,1,1,Rest,1,Centro,3477.92
+2021,1,1,Rest,6,Tetuán,2701.32
+2021,1,1,Rest,7,Chamberí,2403.34
+2021,1,1,Rest,8,Fuencarral - El Pardo,4017.66
+2021,1,1,Rest,9,Moncloa - Aravaca,2873.78
+2021,1,1,Rest,10,Latina,4140.12
+2021,1,2,CDW,3,Retiro,12.325
+2021,1,2,CDW,4,Salamanca,9.845
+2021,1,2,CDW,5,Chamartín,38.005
+2021,1,2,CDW,14,Moratalaz,21.285
+2021,1,2,CDW,15,Ciudad Lineal,34.14
+2021,1,2,CDW,16,Hortaleza,23.4
+2021,1,2,CDW,19,Vicálvaro,17.66
+2021,1,2,CDW,20,San Blas - Canillejas,9.28
+2021,1,2,CDW,21,Barajas,9.54
+2021,1,2,cleanPoints,3,Retiro,4.6
+2021,1,2,cleanPoints,5,Chamartín,93.46
+2021,1,2,cleanPoints,14,Moratalaz,30.4
+2021,1,2,cleanPoints,15,Ciudad Lineal,50.02
+2021,1,2,cleanPoints,16,Hortaleza,50.92
+2021,1,2,cleanPoints,19,Vicálvaro,25.54
+2021,1,2,cleanPoints,20,San Blas - Canillejas,47.22
+2021,1,2,cleanPoints,21,Barajas,24.98
+2021,1,2,Clinicians,3,Retiro,176.66
+2021,1,2,Clinicians,4,Salamanca,96.56
+2021,1,2,Clinicians,15,Ciudad Lineal,95.54
+2021,1,2,Clothes,14,Moratalaz,0.18
+2021,1,2,Clothes,19,Vicálvaro,0.18
+2021,1,2,Glass,3,Retiro,324.34
+2021,1,2,Glass,4,Salamanca,241.54
+2021,1,2,Glass,5,Chamartín,299.5
+2021,1,2,Glass,14,Moratalaz,248.26
+2021,1,2,Glass,15,Ciudad Lineal,153.1
+2021,1,2,Glass,16,Hortaleza,179.86
+2021,1,2,Glass,19,Vicálvaro,139.52
+2021,1,2,Glass,20,San Blas - Canillejas,154.5
+2021,1,2,Glass,21,Barajas,152.16
+2021,1,2,Organic,3,Retiro,413.8
+2021,1,2,Organic,4,Salamanca,460.6
+2021,1,2,Organic,5,Chamartín,528.88
+2021,1,2,Organic,14,Moratalaz,320.26
+2021,1,2,Organic,15,Ciudad Lineal,756.36
+2021,1,2,Organic,16,Hortaleza,645.8
+2021,1,2,Organic,19,Vicálvaro,109.64
+2021,1,2,Organic,20,San Blas - Canillejas,519.98
+2021,1,2,Organic,21,Barajas,144.46
+2021,1,2,Packaging,3,Retiro,171.0
+2021,1,2,Packaging,4,Salamanca,198.58
+2021,1,2,Packaging,5,Chamartín,212.5
+2021,1,2,Packaging,14,Moratalaz,196.9
+2021,1,2,Packaging,15,Ciudad Lineal,429.3
+2021,1,2,Packaging,16,Hortaleza,383.36
+2021,1,2,Packaging,19,Vicálvaro,146.9
+2021,1,2,Packaging,20,San Blas - Canillejas,315.58
+2021,1,2,Packaging,21,Barajas,113.24
+2021,1,2,Paper,3,Retiro,336.47
+2021,1,2,Paper,4,Salamanca,511.61
+2021,1,2,Paper,5,Chamartín,258.5
+2021,1,2,Paper,14,Moratalaz,115.6
+2021,1,2,Paper,15,Ciudad Lineal,379.59
+2021,1,2,Paper,16,Hortaleza,277.0
+2021,1,2,Paper,19,Vicálvaro,53.09
+2021,1,2,Paper,20,San Blas - Canillejas,323.08
+2021,1,2,Paper,21,Barajas,55.15
+2021,1,2,Rest,3,Retiro,1816.36
+2021,1,2,Rest,4,Salamanca,2642.92
+2021,1,2,Rest,5,Chamartín,2513.56
+2021,1,2,Rest,14,Moratalaz,1461.0
+2021,1,2,Rest,15,Ciudad Lineal,3582.04
+2021,1,2,Rest,16,Hortaleza,3416.4
+2021,1,2,Rest,19,Vicálvaro,1877.86
+2021,1,2,Rest,20,San Blas - Canillejas,2696.5
+2021,1,2,Rest,21,Barajas,958.86
+2021,1,3,CDW,2,Arganzuela,37.67
+2021,1,3,CDW,11,Carabanchel,25.02
+2021,1,3,CDW,12,Usera,30.54
+2021,1,3,CDW,13,Puente de Vallecas,17.89
+2021,1,3,CDW,17,Villaverde,35.86
+2021,1,3,CDW,18,Villa de Vallecas,32.96
+2021,1,3,cleanPoints,2,Arganzuela,61.36
+2021,1,3,cleanPoints,11,Carabanchel,24.52
+2021,1,3,cleanPoints,12,Usera,34.14
+2021,1,3,cleanPoints,13,Puente de Vallecas,33.2
+2021,1,3,cleanPoints,17,Villaverde,22.36
+2021,1,3,cleanPoints,18,Villa de Vallecas,64.74
+2021,1,3,Clinicians,12,Usera,153.06
+2021,1,3,Clinicians,13,Puente de Vallecas,29.86
+2021,1,3,Glass,2,Arganzuela,326.92
+2021,1,3,Glass,11,Carabanchel,331.54
+2021,1,3,Glass,12,Usera,139.22
+2021,1,3,Glass,13,Puente de Vallecas,244.6
+2021,1,3,Glass,17,Villaverde,138.0
+2021,1,3,Glass,18,Villa de Vallecas,110.64
+2021,1,3,Organic,2,Arganzuela,402.48
+2021,1,3,Organic,11,Carabanchel,724.36
+2021,1,3,Organic,12,Usera,365.3
+2021,1,3,Organic,13,Puente de Vallecas,632.98
+2021,1,3,Organic,17,Villaverde,484.82
+2021,1,3,Organic,18,Villa de Vallecas,813.28
+2021,1,3,Packaging,2,Arganzuela,201.88
+2021,1,3,Packaging,11,Carabanchel,459.14
+2021,1,3,Packaging,12,Usera,233.36
+2021,1,3,Packaging,13,Puente de Vallecas,818.96
+2021,1,3,Packaging,17,Villaverde,342.16
+2021,1,3,Packaging,18,Villa de Vallecas,206.54
+2021,1,3,Paper,2,Arganzuela,369.14
+2021,1,3,Paper,11,Carabanchel,319.08
+2021,1,3,Paper,12,Usera,147.06
+2021,1,3,Paper,13,Puente de Vallecas,273.45
+2021,1,3,Paper,17,Villaverde,160.58
+2021,1,3,Paper,18,Villa de Vallecas,153.3
+2021,1,3,Rest,2,Arganzuela,2193.0
+2021,1,3,Rest,11,Carabanchel,5138.92
+2021,1,3,Rest,12,Usera,2296.4
+2021,1,3,Rest,13,Puente de Vallecas,4224.24
+2021,1,3,Rest,17,Villaverde,2824.74
+2021,1,3,Rest,18,Villa de Vallecas,4646.04
+2021,2,1,CDW,1,Centro,107.27
+2021,2,1,CDW,6,Tetuán,137.625
+2021,2,1,CDW,8,Fuencarral - El Pardo,127.445
+2021,2,1,CDW,9,Moncloa - Aravaca,126.57
+2021,2,1,CDW,10,Latina,93.85
+2021,2,1,cleanPoints,8,Fuencarral - El Pardo,137.8
+2021,2,1,cleanPoints,9,Moncloa - Aravaca,369.76
+2021,2,1,cleanPoints,10,Latina,105.58
+2021,2,1,Clinicians,1,Centro,147.5
+2021,2,1,Clinicians,6,Tetuán,12.1
+2021,2,1,Clinicians,8,Fuencarral - El Pardo,273.68
+2021,2,1,Clinicians,9,Moncloa - Aravaca,217.08
+2021,2,1,Clinicians,10,Latina,21.08
+2021,2,1,Glass,1,Centro,506.74
+2021,2,1,Glass,6,Tetuán,219.4
+2021,2,1,Glass,7,Chamberí,227.06
+2021,2,1,Glass,8,Fuencarral - El Pardo,413.26
+2021,2,1,Glass,9,Moncloa - Aravaca,187.06
+2021,2,1,Glass,10,Latina,178.48
+2021,2,1,horseBed,9,Moncloa - Aravaca,43.23
+2021,2,1,Organic,1,Centro,616.04
+2021,2,1,Organic,6,Tetuán,748.42
+2021,2,1,Organic,7,Chamberí,757.76
+2021,2,1,Organic,8,Fuencarral - El Pardo,1411.28
+2021,2,1,Organic,9,Moncloa - Aravaca,960.12
+2021,2,1,Organic,10,Latina,1227.76
+2021,2,1,Packaging,1,Centro,213.04
+2021,2,1,Packaging,6,Tetuán,333.96
+2021,2,1,Packaging,7,Chamberí,323.96
+2021,2,1,Packaging,8,Fuencarral - El Pardo,657.96
+2021,2,1,Packaging,9,Moncloa - Aravaca,305.7
+2021,2,1,Packaging,10,Latina,565.26
+2021,2,1,Paper,1,Centro,698.54
+2021,2,1,Paper,6,Tetuán,416.94
+2021,2,1,Paper,7,Chamberí,322.1
+2021,2,1,Paper,8,Fuencarral - El Pardo,461.61
+2021,2,1,Paper,9,Moncloa - Aravaca,233.28
+2021,2,1,Paper,10,Latina,291.02
+2021,2,1,Rest,1,Centro,3159.48
+2021,2,1,Rest,6,Tetuán,2409.06
+2021,2,1,Rest,7,Chamberí,2165.62
+2021,2,1,Rest,8,Fuencarral - El Pardo,3472.98
+2021,2,1,Rest,9,Moncloa - Aravaca,2995.66
+2021,2,1,Rest,10,Latina,3377.3
+2021,2,2,CDW,3,Retiro,52.75
+2021,2,2,CDW,4,Salamanca,51.685
+2021,2,2,CDW,5,Chamartín,88.575
+2021,2,2,CDW,14,Moratalaz,60.365
+2021,2,2,CDW,15,Ciudad Lineal,67.925
+2021,2,2,CDW,16,Hortaleza,49.965
+2021,2,2,CDW,19,Vicálvaro,28.54
+2021,2,2,CDW,20,San Blas - Canillejas,43.86
+2021,2,2,CDW,21,Barajas,16.82
+2021,2,2,cleanPoints,3,Retiro,2.48
+2021,2,2,cleanPoints,5,Chamartín,109.76
+2021,2,2,cleanPoints,14,Moratalaz,52.0
+2021,2,2,cleanPoints,15,Ciudad Lineal,68.84
+2021,2,2,cleanPoints,16,Hortaleza,70.56
+2021,2,2,cleanPoints,19,Vicálvaro,35.66
+2021,2,2,cleanPoints,20,San Blas - Canillejas,65.98
+2021,2,2,cleanPoints,21,Barajas,36.88
+2021,2,2,Clinicians,3,Retiro,169.78
+2021,2,2,Clinicians,4,Salamanca,105.52
+2021,2,2,Clinicians,15,Ciudad Lineal,111.88
+2021,2,2,Glass,3,Retiro,299.52
+2021,2,2,Glass,4,Salamanca,251.56
+2021,2,2,Glass,5,Chamartín,283.5
+2021,2,2,Glass,14,Moratalaz,198.46
+2021,2,2,Glass,15,Ciudad Lineal,173.72
+2021,2,2,Glass,16,Hortaleza,176.92
+2021,2,2,Glass,19,Vicálvaro,123.34
+2021,2,2,Glass,20,San Blas - Canillejas,145.6
+2021,2,2,Glass,21,Barajas,145.38
+2021,2,2,Organic,3,Retiro,632.22
+2021,2,2,Organic,4,Salamanca,740.04
+2021,2,2,Organic,5,Chamartín,832.92
+2021,2,2,Organic,14,Moratalaz,432.16
+2021,2,2,Organic,15,Ciudad Lineal,1089.72
+2021,2,2,Organic,16,Hortaleza,992.3
+2021,2,2,Organic,19,Vicálvaro,143.5
+2021,2,2,Organic,20,San Blas - Canillejas,771.74
+2021,2,2,Organic,21,Barajas,217.7
+2021,2,2,Packaging,3,Retiro,257.86
+2021,2,2,Packaging,4,Salamanca,323.0
+2021,2,2,Packaging,5,Chamartín,347.3
+2021,2,2,Packaging,14,Moratalaz,224.42
+2021,2,2,Packaging,15,Ciudad Lineal,577.82
+2021,2,2,Packaging,16,Hortaleza,547.78
+2021,2,2,Packaging,19,Vicálvaro,203.76
+2021,2,2,Packaging,20,San Blas - Canillejas,437.28
+2021,2,2,Packaging,21,Barajas,167.38
+2021,2,2,Paper,3,Retiro,285.02
+2021,2,2,Paper,4,Salamanca,515.65
+2021,2,2,Paper,5,Chamartín,296.11
+2021,2,2,Paper,14,Moratalaz,166.56
+2021,2,2,Paper,15,Ciudad Lineal,412.71
+2021,2,2,Paper,16,Hortaleza,294.27
+2021,2,2,Paper,19,Vicálvaro,28.88
+2021,2,2,Paper,20,San Blas - Canillejas,330.08
+2021,2,2,Paper,21,Barajas,33.65
+2021,2,2,Rest,3,Retiro,1933.1
+2021,2,2,Rest,4,Salamanca,2296.62
+2021,2,2,Rest,5,Chamartín,2107.84
+2021,2,2,Rest,14,Moratalaz,1241.36
+2021,2,2,Rest,15,Ciudad Lineal,3112.2
+2021,2,2,Rest,16,Hortaleza,2993.24
+2021,2,2,Rest,19,Vicálvaro,2102.98
+2021,2,2,Rest,20,San Blas - Canillejas,2367.18
+2021,2,2,Rest,21,Barajas,763.84
+2021,2,3,CDW,2,Arganzuela,142.38
+2021,2,3,CDW,11,Carabanchel,63.21
+2021,2,3,CDW,12,Usera,52.61
+2021,2,3,CDW,13,Puente de Vallecas,68.04
+2021,2,3,CDW,17,Villaverde,51.52
+2021,2,3,CDW,18,Villa de Vallecas,70.42
+2021,2,3,cleanPoints,2,Arganzuela,87.14
+2021,2,3,cleanPoints,11,Carabanchel,39.28
+2021,2,3,cleanPoints,12,Usera,35.12
+2021,2,3,cleanPoints,13,Puente de Vallecas,40.7
+2021,2,3,cleanPoints,17,Villaverde,49.88
+2021,2,3,cleanPoints,18,Villa de Vallecas,84.36
+2021,2,3,Clinicians,12,Usera,142.92
+2021,2,3,Clinicians,13,Puente de Vallecas,31.9
+2021,2,3,Clothes,2,Arganzuela,0.18
+2021,2,3,Glass,2,Arganzuela,245.46
+2021,2,3,Glass,11,Carabanchel,245.72
+2021,2,3,Glass,12,Usera,125.02
+2021,2,3,Glass,13,Puente de Vallecas,204.86
+2021,2,3,Glass,17,Villaverde,109.86
+2021,2,3,Glass,18,Villa de Vallecas,97.32
+2021,2,3,Organic,2,Arganzuela,633.68
+2021,2,3,Organic,11,Carabanchel,1030.1
+2021,2,3,Organic,12,Usera,538.44
+2021,2,3,Organic,13,Puente de Vallecas,898.4
+2021,2,3,Organic,17,Villaverde,675.6
+2021,2,3,Organic,18,Villa de Vallecas,944.84
+2021,2,3,Packaging,2,Arganzuela,326.6
+2021,2,3,Packaging,11,Carabanchel,695.64
+2021,2,3,Packaging,12,Usera,364.1
+2021,2,3,Packaging,13,Puente de Vallecas,744.34
+2021,2,3,Packaging,17,Villaverde,448.92
+2021,2,3,Packaging,18,Villa de Vallecas,293.46
+2021,2,3,Paper,2,Arganzuela,363.36
+2021,2,3,Paper,11,Carabanchel,323.28
+2021,2,3,Paper,12,Usera,151.2
+2021,2,3,Paper,13,Puente de Vallecas,259.84
+2021,2,3,Paper,17,Villaverde,146.28
+2021,2,3,Paper,18,Villa de Vallecas,145.24
+2021,2,3,Rest,2,Arganzuela,1749.88
+2021,2,3,Rest,11,Carabanchel,4308.7
+2021,2,3,Rest,12,Usera,1947.54
+2021,2,3,Rest,13,Puente de Vallecas,3970.36
+2021,2,3,Rest,17,Villaverde,2459.34
+2021,2,3,Rest,18,Villa de Vallecas,3701.32
+2021,3,1,CDW,1,Centro,109.15
+2021,3,1,CDW,6,Tetuán,88.34
+2021,3,1,CDW,7,Chamberí,85.73
+2021,3,1,CDW,8,Fuencarral - El Pardo,161.4
+2021,3,1,CDW,9,Moncloa - Aravaca,126.935
+2021,3,1,CDW,10,Latina,107.385
+2021,3,1,cleanPoints,8,Fuencarral - El Pardo,152.22
+2021,3,1,cleanPoints,9,Moncloa - Aravaca,178.62
+2021,3,1,cleanPoints,10,Latina,85.76
+2021,3,1,Clinicians,1,Centro,175.96
+2021,3,1,Clinicians,6,Tetuán,12.4
+2021,3,1,Clinicians,8,Fuencarral - El Pardo,317.44
+2021,3,1,Clinicians,9,Moncloa - Aravaca,223.32
+2021,3,1,Clinicians,10,Latina,24.02
+2021,3,1,Clothes,8,Fuencarral - El Pardo,1.08
+2021,3,1,Glass,1,Centro,629.08
+2021,3,1,Glass,6,Tetuán,282.04
+2021,3,1,Glass,7,Chamberí,252.14
+2021,3,1,Glass,8,Fuencarral - El Pardo,460.3
+2021,3,1,Glass,9,Moncloa - Aravaca,241.8
+2021,3,1,Glass,10,Latina,205.46
+2021,3,1,horseBed,9,Moncloa - Aravaca,57.41
+2021,3,1,Organic,1,Centro,706.58
+2021,3,1,Organic,6,Tetuán,809.38
+2021,3,1,Organic,7,Chamberí,828.12
+2021,3,1,Organic,8,Fuencarral - El Pardo,1515.48
+2021,3,1,Organic,9,Moncloa - Aravaca,1001.48
+2021,3,1,Organic,10,Latina,1308.08
+2021,3,1,Packaging,1,Centro,240.58
+2021,3,1,Packaging,6,Tetuán,371.44
+2021,3,1,Packaging,7,Chamberí,355.18
+2021,3,1,Packaging,8,Fuencarral - El Pardo,718.38
+2021,3,1,Packaging,9,Moncloa - Aravaca,332.64
+2021,3,1,Packaging,10,Latina,601.72
+2021,3,1,Paper,1,Centro,508.93
+2021,3,1,Paper,6,Tetuán,450.44
+2021,3,1,Paper,7,Chamberí,382.95
+2021,3,1,Paper,8,Fuencarral - El Pardo,607.38
+2021,3,1,Paper,9,Moncloa - Aravaca,262.01
+2021,3,1,Paper,10,Latina,335.8
+2021,3,1,Rest,1,Centro,3541.24
+2021,3,1,Rest,6,Tetuán,2652.62
+2021,3,1,Rest,7,Chamberí,2351.46
+2021,3,1,Rest,8,Fuencarral - El Pardo,3717.42
+2021,3,1,Rest,9,Moncloa - Aravaca,2831.5
+2021,3,1,Rest,10,Latina,3598.9
+2021,3,2,CDW,3,Retiro,301.49
+2021,3,2,CDW,5,Chamartín,33.75
+2021,3,2,CDW,14,Moratalaz,18.36
+2021,3,2,CDW,15,Ciudad Lineal,49.02
+2021,3,2,CDW,16,Hortaleza,21.04
+2021,3,2,CDW,19,Vicálvaro,5.97
+2021,3,2,CDW,20,San Blas - Canillejas,27.16
+2021,3,2,CDW,21,Barajas,10.52
+2021,3,2,cleanPoints,3,Retiro,6.36
+2021,3,2,cleanPoints,5,Chamartín,129.74
+2021,3,2,cleanPoints,14,Moratalaz,64.26
+2021,3,2,cleanPoints,15,Ciudad Lineal,74.76
+2021,3,2,cleanPoints,16,Hortaleza,75.32
+2021,3,2,cleanPoints,19,Vicálvaro,33.5
+2021,3,2,cleanPoints,20,San Blas - Canillejas,83.72
+2021,3,2,cleanPoints,21,Barajas,43.48
+2021,3,2,Clinicians,3,Retiro,188.72
+2021,3,2,Clinicians,4,Salamanca,119.92
+2021,3,2,Clinicians,15,Ciudad Lineal,123.16
+2021,3,2,Glass,3,Retiro,326.44
+2021,3,2,Glass,4,Salamanca,263.5
+2021,3,2,Glass,5,Chamartín,497.06
+2021,3,2,Glass,14,Moratalaz,263.4
+2021,3,2,Glass,15,Ciudad Lineal,193.68
+2021,3,2,Glass,16,Hortaleza,146.4
+2021,3,2,Glass,19,Vicálvaro,93.26
+2021,3,2,Glass,20,San Blas - Canillejas,249.14
+2021,3,2,Glass,21,Barajas,97.32
+2021,3,2,Organic,3,Retiro,685.82
+2021,3,2,Organic,4,Salamanca,830.62
+2021,3,2,Organic,5,Chamartín,916.72
+2021,3,2,Organic,14,Moratalaz,450.06
+2021,3,2,Organic,15,Ciudad Lineal,1130.4
+2021,3,2,Organic,16,Hortaleza,988.1
+2021,3,2,Organic,19,Vicálvaro,133.5
+2021,3,2,Organic,20,San Blas - Canillejas,808.06
+2021,3,2,Organic,21,Barajas,306.16
+2021,3,2,Packaging,3,Retiro,288.72
+2021,3,2,Packaging,4,Salamanca,352.64
+2021,3,2,Packaging,5,Chamartín,371.14
+2021,3,2,Packaging,14,Moratalaz,249.74
+2021,3,2,Packaging,15,Ciudad Lineal,620.66
+2021,3,2,Packaging,16,Hortaleza,573.66
+2021,3,2,Packaging,19,Vicálvaro,217.44
+2021,3,2,Packaging,20,San Blas - Canillejas,477.42
+2021,3,2,Packaging,21,Barajas,177.98
+2021,3,2,Paper,3,Retiro,306.47
+2021,3,2,Paper,4,Salamanca,525.78
+2021,3,2,Paper,5,Chamartín,312.19
+2021,3,2,Paper,14,Moratalaz,149.72
+2021,3,2,Paper,15,Ciudad Lineal,426.28
+2021,3,2,Paper,16,Hortaleza,299.79
+2021,3,2,Paper,19,Vicálvaro,47.17
+2021,3,2,Paper,20,San Blas - Canillejas,338.25
+2021,3,2,Paper,21,Barajas,47.1
+2021,3,2,Rest,3,Retiro,1820.22
+2021,3,2,Rest,4,Salamanca,2491.54
+2021,3,2,Rest,5,Chamartín,2253.68
+2021,3,2,Rest,14,Moratalaz,1312.66
+2021,3,2,Rest,15,Ciudad Lineal,3286.22
+2021,3,2,Rest,16,Hortaleza,3228.44
+2021,3,2,Rest,19,Vicálvaro,2004.16
+2021,3,2,Rest,20,San Blas - Canillejas,2611.02
+2021,3,2,Rest,21,Barajas,840.38
+2021,3,3,CDW,2,Arganzuela,84.33
+2021,3,3,CDW,11,Carabanchel,67.49
+2021,3,3,CDW,12,Usera,57.05
+2021,3,3,CDW,13,Puente de Vallecas,61.85
+2021,3,3,CDW,17,Villaverde,58.16
+2021,3,3,CDW,18,Villa de Vallecas,86.1
+2021,3,3,cleanPoints,2,Arganzuela,83.72
+2021,3,3,cleanPoints,11,Carabanchel,53.84
+2021,3,3,cleanPoints,12,Usera,47.82
+2021,3,3,cleanPoints,13,Puente de Vallecas,39.9
+2021,3,3,cleanPoints,17,Villaverde,46.6
+2021,3,3,cleanPoints,18,Villa de Vallecas,86.58
+2021,3,3,Clinicians,12,Usera,161.9
+2021,3,3,Clinicians,13,Puente de Vallecas,35.88
+2021,3,3,Clothes,2,Arganzuela,0.36
+2021,3,3,Glass,2,Arganzuela,281.04
+2021,3,3,Glass,11,Carabanchel,300.38
+2021,3,3,Glass,12,Usera,93.68
+2021,3,3,Glass,13,Puente de Vallecas,255.08
+2021,3,3,Glass,17,Villaverde,143.12
+2021,3,3,Glass,18,Villa de Vallecas,119.48
+2021,3,3,Organic,2,Arganzuela,666.46
+2021,3,3,Organic,11,Carabanchel,1159.02
+2021,3,3,Organic,12,Usera,524.02
+2021,3,3,Organic,13,Puente de Vallecas,947.96
+2021,3,3,Organic,17,Villaverde,707.54
+2021,3,3,Organic,18,Villa de Vallecas,930.58
+2021,3,3,Packaging,2,Arganzuela,358.28
+2021,3,3,Packaging,11,Carabanchel,788.7
+2021,3,3,Packaging,12,Usera,405.4
+2021,3,3,Packaging,13,Puente de Vallecas,833.14
+2021,3,3,Packaging,17,Villaverde,490.14
+2021,3,3,Packaging,18,Villa de Vallecas,330.52
+2021,3,3,Paper,2,Arganzuela,383.04
+2021,3,3,Paper,11,Carabanchel,322.22
+2021,3,3,Paper,12,Usera,150.78
+2021,3,3,Paper,13,Puente de Vallecas,273.86
+2021,3,3,Paper,17,Villaverde,162.7
+2021,3,3,Paper,18,Villa de Vallecas,138.9
+2021,3,3,Rest,2,Arganzuela,1939.02
+2021,3,3,Rest,11,Carabanchel,4597.3
+2021,3,3,Rest,12,Usera,2182.86
+2021,3,3,Rest,13,Puente de Vallecas,4243.28
+2021,3,3,Rest,17,Villaverde,2652.68
+2021,3,3,Rest,18,Villa de Vallecas,3508.1
+2021,4,1,CDW,1,Centro,154.62
+2021,4,1,CDW,6,Tetuán,84.245
+2021,4,1,CDW,7,Chamberí,80.475
+2021,4,1,CDW,8,Fuencarral - El Pardo,152.14
+2021,4,1,CDW,9,Moncloa - Aravaca,158.42
+2021,4,1,CDW,10,Latina,117.875
+2021,4,1,cleanPoints,8,Fuencarral - El Pardo,145.36
+2021,4,1,cleanPoints,9,Moncloa - Aravaca,205.94
+2021,4,1,cleanPoints,10,Latina,76.76
+2021,4,1,Clinicians,1,Centro,169.78
+2021,4,1,Clinicians,6,Tetuán,11.78
+2021,4,1,Clinicians,8,Fuencarral - El Pardo,295.04
+2021,4,1,Clinicians,9,Moncloa - Aravaca,241.76
+2021,4,1,Clinicians,10,Latina,21.52
+2021,4,1,Clothes,6,Tetuán,0.18
+2021,4,1,Clothes,8,Fuencarral - El Pardo,0.36
+2021,4,1,Clothes,10,Latina,0.18
+2021,4,1,Glass,1,Centro,608.64
+2021,4,1,Glass,6,Tetuán,281.82
+2021,4,1,Glass,7,Chamberí,225.6
+2021,4,1,Glass,8,Fuencarral - El Pardo,437.94
+2021,4,1,Glass,9,Moncloa - Aravaca,182.48
+2021,4,1,Glass,10,Latina,185.06
+2021,4,1,horseBed,9,Moncloa - Aravaca,54.985
+2021,4,1,Organic,1,Centro,690.72
+2021,4,1,Organic,6,Tetuán,795.7
+2021,4,1,Organic,7,Chamberí,797.36
+2021,4,1,Organic,8,Fuencarral - El Pardo,1476.46
+2021,4,1,Organic,9,Moncloa - Aravaca,1008.18
+2021,4,1,Organic,10,Latina,1308.12
+2021,4,1,Packaging,1,Centro,234.96
+2021,4,1,Packaging,6,Tetuán,362.36
+2021,4,1,Packaging,7,Chamberí,336.0
+2021,4,1,Packaging,8,Fuencarral - El Pardo,699.7
+2021,4,1,Packaging,9,Moncloa - Aravaca,316.42
+2021,4,1,Packaging,10,Latina,608.48
+2021,4,1,Paper,1,Centro,481.28
+2021,4,1,Paper,6,Tetuán,415.09
+2021,4,1,Paper,7,Chamberí,331.01
+2021,4,1,Paper,8,Fuencarral - El Pardo,608.3
+2021,4,1,Paper,9,Moncloa - Aravaca,291.34
+2021,4,1,Paper,10,Latina,347.93
+2021,4,1,Rest,1,Centro,3438.44
+2021,4,1,Rest,6,Tetuán,2536.96
+2021,4,1,Rest,7,Chamberí,2215.4
+2021,4,1,Rest,8,Fuencarral - El Pardo,3613.5
+2021,4,1,Rest,9,Moncloa - Aravaca,2939.84
+2021,4,1,Rest,10,Latina,3509.92
+2021,4,2,CDW,3,Retiro,70.02
+2021,4,2,CDW,4,Salamanca,64.76
+2021,4,2,CDW,5,Chamartín,109.445
+2021,4,2,CDW,14,Moratalaz,53.155
+2021,4,2,CDW,15,Ciudad Lineal,80.425
+2021,4,2,CDW,16,Hortaleza,51.99
+2021,4,2,CDW,19,Vicálvaro,31.86
+2021,4,2,CDW,20,San Blas - Canillejas,51.64
+2021,4,2,CDW,21,Barajas,24.4
+2021,4,2,cleanPoints,3,Retiro,2.3
+2021,4,2,cleanPoints,5,Chamartín,122.02
+2021,4,2,cleanPoints,14,Moratalaz,56.06
+2021,4,2,cleanPoints,15,Ciudad Lineal,75.32
+2021,4,2,cleanPoints,16,Hortaleza,77.54
+2021,4,2,cleanPoints,19,Vicálvaro,26.34
+2021,4,2,cleanPoints,20,San Blas - Canillejas,89.7
+2021,4,2,cleanPoints,21,Barajas,38.22
+2021,4,2,Clinicians,3,Retiro,174.28
+2021,4,2,Clinicians,4,Salamanca,114.78
+2021,4,2,Clinicians,15,Ciudad Lineal,115.9
+2021,4,2,Glass,3,Retiro,315.68
+2021,4,2,Glass,4,Salamanca,250.48
+2021,4,2,Glass,5,Chamartín,351.34
+2021,4,2,Glass,14,Moratalaz,279.82
+2021,4,2,Glass,15,Ciudad Lineal,183.72
+2021,4,2,Glass,16,Hortaleza,225.84
+2021,4,2,Glass,19,Vicálvaro,184.6
+2021,4,2,Glass,20,San Blas - Canillejas,177.1
+2021,4,2,Glass,21,Barajas,81.66
+2021,4,2,Organic,3,Retiro,671.64
+2021,4,2,Organic,4,Salamanca,823.0
+2021,4,2,Organic,5,Chamartín,892.08
+2021,4,2,Organic,14,Moratalaz,476.98
+2021,4,2,Organic,15,Ciudad Lineal,1126.44
+2021,4,2,Organic,16,Hortaleza,943.1
+2021,4,2,Organic,19,Vicálvaro,120.36
+2021,4,2,Organic,20,San Blas - Canillejas,800.22
+2021,4,2,Organic,21,Barajas,376.96
+2021,4,2,Packaging,3,Retiro,269.18
+2021,4,2,Packaging,4,Salamanca,335.0
+2021,4,2,Packaging,5,Chamartín,359.5
+2021,4,2,Packaging,14,Moratalaz,266.68
+2021,4,2,Packaging,15,Ciudad Lineal,615.76
+2021,4,2,Packaging,16,Hortaleza,583.06
+2021,4,2,Packaging,19,Vicálvaro,220.16
+2021,4,2,Packaging,20,San Blas - Canillejas,471.08
+2021,4,2,Packaging,21,Barajas,193.76
+2021,4,2,Paper,3,Retiro,287.82
+2021,4,2,Paper,4,Salamanca,501.46
+2021,4,2,Paper,5,Chamartín,302.61
+2021,4,2,Paper,14,Moratalaz,131.42
+2021,4,2,Paper,15,Ciudad Lineal,452.74
+2021,4,2,Paper,16,Hortaleza,311.74
+2021,4,2,Paper,19,Vicálvaro,42.75
+2021,4,2,Paper,20,San Blas - Canillejas,331.03
+2021,4,2,Paper,21,Barajas,60.15
+2021,4,2,Rest,3,Retiro,1658.04
+2021,4,2,Rest,4,Salamanca,2368.02
+2021,4,2,Rest,5,Chamartín,2164.6
+2021,4,2,Rest,14,Moratalaz,1305.94
+2021,4,2,Rest,15,Ciudad Lineal,3190.86
+2021,4,2,Rest,16,Hortaleza,3086.78
+2021,4,2,Rest,19,Vicálvaro,2052.04
+2021,4,2,Rest,20,San Blas - Canillejas,2524.98
+2021,4,2,Rest,21,Barajas,789.94
+2021,4,3,CDW,2,Arganzuela,56.87
+2021,4,3,CDW,11,Carabanchel,66.4
+2021,4,3,CDW,12,Usera,72.08
+2021,4,3,CDW,13,Puente de Vallecas,62.64
+2021,4,3,CDW,17,Villaverde,38.64
+2021,4,3,CDW,18,Villa de Vallecas,63.535
+2021,4,3,cleanPoints,2,Arganzuela,73.58
+2021,4,3,cleanPoints,11,Carabanchel,45.2
+2021,4,3,cleanPoints,12,Usera,47.54
+2021,4,3,cleanPoints,13,Puente de Vallecas,42.3
+2021,4,3,cleanPoints,17,Villaverde,55.44
+2021,4,3,cleanPoints,18,Villa de Vallecas,76.48
+2021,4,3,Clinicians,12,Usera,142.58
+2021,4,3,Clinicians,13,Puente de Vallecas,34.52
+2021,4,3,Glass,2,Arganzuela,309.44
+2021,4,3,Glass,11,Carabanchel,322.98
+2021,4,3,Glass,12,Usera,95.38
+2021,4,3,Glass,13,Puente de Vallecas,212.38
+2021,4,3,Glass,17,Villaverde,132.66
+2021,4,3,Glass,18,Villa de Vallecas,103.9
+2021,4,3,Organic,2,Arganzuela,648.22
+2021,4,3,Organic,11,Carabanchel,1156.4
+2021,4,3,Organic,12,Usera,509.42
+2021,4,3,Organic,13,Puente de Vallecas,954.62
+2021,4,3,Organic,17,Villaverde,711.12
+2021,4,3,Organic,18,Villa de Vallecas,1065.32
+2021,4,3,Packaging,2,Arganzuela,344.82
+2021,4,3,Packaging,11,Carabanchel,760.02
+2021,4,3,Packaging,12,Usera,406.18
+2021,4,3,Packaging,13,Puente de Vallecas,825.12
+2021,4,3,Packaging,17,Villaverde,499.62
+2021,4,3,Packaging,18,Villa de Vallecas,318.02
+2021,4,3,Paper,2,Arganzuela,382.76
+2021,4,3,Paper,11,Carabanchel,317.98
+2021,4,3,Paper,12,Usera,145.48
+2021,4,3,Paper,13,Puente de Vallecas,266.96
+2021,4,3,Paper,17,Villaverde,161.92
+2021,4,3,Paper,18,Villa de Vallecas,142.34
+2021,4,3,Rest,2,Arganzuela,1876.24
+2021,4,3,Rest,11,Carabanchel,4445.12
+2021,4,3,Rest,12,Usera,2176.54
+2021,4,3,Rest,13,Puente de Vallecas,4178.18
+2021,4,3,Rest,17,Villaverde,2611.82
+2021,4,3,Rest,18,Villa de Vallecas,3359.44
+2021,5,1,CDW,1,Centro,170.755
+2021,5,1,CDW,6,Tetuán,77.83
+2021,5,1,CDW,7,Chamberí,67.695
+2021,5,1,CDW,8,Fuencarral - El Pardo,182.815
+2021,5,1,CDW,9,Moncloa - Aravaca,136.495
+2021,5,1,CDW,10,Latina,85.345
+2021,5,1,cleanPoints,8,Fuencarral - El Pardo,143.04
+2021,5,1,cleanPoints,9,Moncloa - Aravaca,182.52
+2021,5,1,cleanPoints,10,Latina,65.38
+2021,5,1,Clinicians,1,Centro,168.74
+2021,5,1,Clinicians,6,Tetuán,15.52
+2021,5,1,Clinicians,8,Fuencarral - El Pardo,298.54
+2021,5,1,Clinicians,9,Moncloa - Aravaca,238.06
+2021,5,1,Clinicians,10,Latina,22.5
+2021,5,1,Clothes,8,Fuencarral - El Pardo,0.18
+2021,5,1,Glass,1,Centro,660.22
+2021,5,1,Glass,6,Tetuán,284.48
+2021,5,1,Glass,7,Chamberí,241.24
+2021,5,1,Glass,8,Fuencarral - El Pardo,422.7
+2021,5,1,Glass,9,Moncloa - Aravaca,179.04
+2021,5,1,Glass,10,Latina,214.32
+2021,5,1,horseBed,9,Moncloa - Aravaca,59.015
+2021,5,1,Organic,1,Centro,763.32
+2021,5,1,Organic,6,Tetuán,850.78
+2021,5,1,Organic,7,Chamberí,884.12
+2021,5,1,Organic,8,Fuencarral - El Pardo,1602.18
+2021,5,1,Organic,9,Moncloa - Aravaca,1043.14
+2021,5,1,Organic,10,Latina,1413.1
+2021,5,1,Packaging,1,Centro,245.44
+2021,5,1,Packaging,6,Tetuán,366.94
+2021,5,1,Packaging,7,Chamberí,356.24
+2021,5,1,Packaging,8,Fuencarral - El Pardo,704.3
+2021,5,1,Packaging,9,Moncloa - Aravaca,329.96
+2021,5,1,Packaging,10,Latina,614.62
+2021,5,1,Paper,1,Centro,508.56
+2021,5,1,Paper,6,Tetuán,455.3
+2021,5,1,Paper,7,Chamberí,341.87
+2021,5,1,Paper,8,Fuencarral - El Pardo,672.17
+2021,5,1,Paper,9,Moncloa - Aravaca,276.86
+2021,5,1,Paper,10,Latina,324.94
+2021,5,1,Rest,1,Centro,3709.54
+2021,5,1,Rest,6,Tetuán,2687.74
+2021,5,1,Rest,7,Chamberí,2280.6
+2021,5,1,Rest,8,Fuencarral - El Pardo,3749.42
+2021,5,1,Rest,9,Moncloa - Aravaca,2942.68
+2021,5,1,Rest,10,Latina,3638.34
+2021,5,2,CDW,3,Retiro,167.5
+2021,5,2,CDW,5,Chamartín,205.515
+2021,5,2,CDW,14,Moratalaz,20.0
+2021,5,2,CDW,15,Ciudad Lineal,104.43
+2021,5,2,CDW,16,Hortaleza,17.84
+2021,5,2,CDW,20,San Blas - Canillejas,15.44
+2021,5,2,CDW,21,Barajas,11.7
+2021,5,2,cleanPoints,3,Retiro,3.06
+2021,5,2,cleanPoints,5,Chamartín,105.44
+2021,5,2,cleanPoints,14,Moratalaz,55.7
+2021,5,2,cleanPoints,15,Ciudad Lineal,74.48
+2021,5,2,cleanPoints,16,Hortaleza,66.2
+2021,5,2,cleanPoints,19,Vicálvaro,32.78
+2021,5,2,cleanPoints,20,San Blas - Canillejas,77.02
+2021,5,2,cleanPoints,21,Barajas,34.24
+2021,5,2,Clinicians,3,Retiro,180.0
+2021,5,2,Clinicians,4,Salamanca,116.74
+2021,5,2,Clinicians,15,Ciudad Lineal,116.22
+2021,5,2,Glass,3,Retiro,316.52
+2021,5,2,Glass,4,Salamanca,269.9
+2021,5,2,Glass,5,Chamartín,387.84
+2021,5,2,Glass,14,Moratalaz,231.74
+2021,5,2,Glass,15,Ciudad Lineal,178.52
+2021,5,2,Glass,16,Hortaleza,186.72
+2021,5,2,Glass,19,Vicálvaro,169.24
+2021,5,2,Glass,20,San Blas - Canillejas,201.42
+2021,5,2,Glass,21,Barajas,59.06
+2021,5,2,Organic,3,Retiro,699.06
+2021,5,2,Organic,4,Salamanca,890.0
+2021,5,2,Organic,5,Chamartín,960.32
+2021,5,2,Organic,14,Moratalaz,493.48
+2021,5,2,Organic,15,Ciudad Lineal,1189.3
+2021,5,2,Organic,16,Hortaleza,977.06
+2021,5,2,Organic,19,Vicálvaro,117.14
+2021,5,2,Organic,20,San Blas - Canillejas,855.6
+2021,5,2,Organic,21,Barajas,441.36
+2021,5,2,Packaging,3,Retiro,275.42
+2021,5,2,Packaging,4,Salamanca,339.24
+2021,5,2,Packaging,5,Chamartín,376.84
+2021,5,2,Packaging,14,Moratalaz,263.36
+2021,5,2,Packaging,15,Ciudad Lineal,618.74
+2021,5,2,Packaging,16,Hortaleza,589.04
+2021,5,2,Packaging,19,Vicálvaro,220.48
+2021,5,2,Packaging,20,San Blas - Canillejas,475.92
+2021,5,2,Packaging,21,Barajas,186.14
+2021,5,2,Paper,3,Retiro,296.32
+2021,5,2,Paper,4,Salamanca,509.03
+2021,5,2,Paper,5,Chamartín,311.35
+2021,5,2,Paper,14,Moratalaz,133.3
+2021,5,2,Paper,15,Ciudad Lineal,443.56
+2021,5,2,Paper,16,Hortaleza,300.86
+2021,5,2,Paper,19,Vicálvaro,69.55
+2021,5,2,Paper,20,San Blas - Canillejas,360.47
+2021,5,2,Paper,21,Barajas,57.76
+2021,5,2,Rest,3,Retiro,1631.14
+2021,5,2,Rest,4,Salamanca,2462.96
+2021,5,2,Rest,5,Chamartín,2249.42
+2021,5,2,Rest,14,Moratalaz,1331.86
+2021,5,2,Rest,15,Ciudad Lineal,3340.48
+2021,5,2,Rest,16,Hortaleza,3193.74
+2021,5,2,Rest,19,Vicálvaro,1846.38
+2021,5,2,Rest,20,San Blas - Canillejas,2603.32
+2021,5,2,Rest,21,Barajas,859.76
+2021,5,3,CDW,2,Arganzuela,32.72
+2021,5,3,CDW,11,Carabanchel,51.67
+2021,5,3,CDW,12,Usera,57.5
+2021,5,3,CDW,13,Puente de Vallecas,64.61
+2021,5,3,CDW,17,Villaverde,48.97
+2021,5,3,CDW,18,Villa de Vallecas,167.35
+2021,5,3,cleanPoints,2,Arganzuela,80.96
+2021,5,3,cleanPoints,11,Carabanchel,39.56
+2021,5,3,cleanPoints,12,Usera,33.48
+2021,5,3,cleanPoints,13,Puente de Vallecas,43.1
+2021,5,3,cleanPoints,17,Villaverde,58.82
+2021,5,3,cleanPoints,18,Villa de Vallecas,80.82
+2021,5,3,Clinicians,12,Usera,159.54
+2021,5,3,Clinicians,13,Puente de Vallecas,33.58
+2021,5,3,Glass,2,Arganzuela,315.14
+2021,5,3,Glass,11,Carabanchel,282.96
+2021,5,3,Glass,12,Usera,115.56
+2021,5,3,Glass,13,Puente de Vallecas,220.36
+2021,5,3,Glass,17,Villaverde,127.1
+2021,5,3,Glass,18,Villa de Vallecas,104.38
+2021,5,3,Organic,2,Arganzuela,693.56
+2021,5,3,Organic,11,Carabanchel,1242.72
+2021,5,3,Organic,12,Usera,546.76
+2021,5,3,Organic,13,Puente de Vallecas,1015.38
+2021,5,3,Organic,17,Villaverde,755.62
+2021,5,3,Organic,18,Villa de Vallecas,1143.66
+2021,5,3,Packaging,2,Arganzuela,370.4
+2021,5,3,Packaging,11,Carabanchel,792.52
+2021,5,3,Packaging,12,Usera,415.38
+2021,5,3,Packaging,13,Puente de Vallecas,832.66
+2021,5,3,Packaging,17,Villaverde,501.04
+2021,5,3,Packaging,18,Villa de Vallecas,328.02
+2021,5,3,Paper,2,Arganzuela,384.44
+2021,5,3,Paper,11,Carabanchel,318.24
+2021,5,3,Paper,12,Usera,156.0
+2021,5,3,Paper,13,Puente de Vallecas,277.73
+2021,5,3,Paper,17,Villaverde,174.12
+2021,5,3,Paper,18,Villa de Vallecas,149.42
+2021,5,3,Rest,2,Arganzuela,1943.22
+2021,5,3,Rest,11,Carabanchel,4654.26
+2021,5,3,Rest,12,Usera,2314.72
+2021,5,3,Rest,13,Puente de Vallecas,4280.44
+2021,5,3,Rest,17,Villaverde,2695.22
+2021,5,3,Rest,18,Villa de Vallecas,3666.14
+2021,6,1,CDW,1,Centro,181.065
+2021,6,1,CDW,6,Tetuán,79.97
+2021,6,1,CDW,7,Chamberí,76.505
+2021,6,1,CDW,8,Fuencarral - El Pardo,155.895
+2021,6,1,CDW,9,Moncloa - Aravaca,176.62
+2021,6,1,CDW,10,Latina,108.155
+2021,6,1,cleanPoints,8,Fuencarral - El Pardo,144.68
+2021,6,1,cleanPoints,9,Moncloa - Aravaca,155.38
+2021,6,1,cleanPoints,10,Latina,134.94
+2021,6,1,Clinicians,1,Centro,178.74
+2021,6,1,Clinicians,6,Tetuán,13.36
+2021,6,1,Clinicians,8,Fuencarral - El Pardo,307.82
+2021,6,1,Clinicians,9,Moncloa - Aravaca,248.94
+2021,6,1,Clinicians,10,Latina,22.0
+2021,6,1,Glass,1,Centro,607.66
+2021,6,1,Glass,6,Tetuán,243.74
+2021,6,1,Glass,7,Chamberí,259.68
+2021,6,1,Glass,8,Fuencarral - El Pardo,417.18
+2021,6,1,Glass,9,Moncloa - Aravaca,179.18
+2021,6,1,Glass,10,Latina,199.46
+2021,6,1,horseBed,9,Moncloa - Aravaca,57.23
+2021,6,1,Organic,1,Centro,772.74
+2021,6,1,Organic,6,Tetuán,827.54
+2021,6,1,Organic,7,Chamberí,875.26
+2021,6,1,Organic,8,Fuencarral - El Pardo,1563.52
+2021,6,1,Organic,9,Moncloa - Aravaca,1029.46
+2021,6,1,Organic,10,Latina,1395.74
+2021,6,1,Packaging,1,Centro,236.14
+2021,6,1,Packaging,6,Tetuán,363.42
+2021,6,1,Packaging,7,Chamberí,338.38
+2021,6,1,Packaging,8,Fuencarral - El Pardo,700.5
+2021,6,1,Packaging,9,Moncloa - Aravaca,334.68
+2021,6,1,Packaging,10,Latina,628.96
+2021,6,1,Paper,1,Centro,500.38
+2021,6,1,Paper,6,Tetuán,441.26
+2021,6,1,Paper,7,Chamberí,375.92
+2021,6,1,Paper,8,Fuencarral - El Pardo,663.15
+2021,6,1,Paper,9,Moncloa - Aravaca,292.74
+2021,6,1,Paper,10,Latina,343.01
+2021,6,1,Rest,1,Centro,3728.04
+2021,6,1,Rest,6,Tetuán,2701.02
+2021,6,1,Rest,7,Chamberí,2276.46
+2021,6,1,Rest,8,Fuencarral - El Pardo,3706.18
+2021,6,1,Rest,9,Moncloa - Aravaca,2791.44
+2021,6,1,Rest,10,Latina,3556.1
+2021,6,2,CDW,3,Retiro,53.98
+2021,6,2,CDW,4,Salamanca,163.61
+2021,6,2,CDW,5,Chamartín,81.97
+2021,6,2,CDW,14,Moratalaz,30.93
+2021,6,2,CDW,15,Ciudad Lineal,61.4
+2021,6,2,CDW,16,Hortaleza,126.75
+2021,6,2,CDW,19,Vicálvaro,71.35
+2021,6,2,CDW,20,San Blas - Canillejas,25.71
+2021,6,2,CDW,21,Barajas,18.39
+2021,6,2,cleanPoints,3,Retiro,0.64
+2021,6,2,cleanPoints,5,Chamartín,113.28
+2021,6,2,cleanPoints,14,Moratalaz,70.86
+2021,6,2,cleanPoints,15,Ciudad Lineal,77.3
+2021,6,2,cleanPoints,16,Hortaleza,83.38
+2021,6,2,cleanPoints,19,Vicálvaro,27.5
+2021,6,2,cleanPoints,20,San Blas - Canillejas,77.0
+2021,6,2,cleanPoints,21,Barajas,36.44
+2021,6,2,Clinicians,3,Retiro,185.7
+2021,6,2,Clinicians,4,Salamanca,130.6
+2021,6,2,Clinicians,15,Ciudad Lineal,122.66
+2021,6,2,Glass,3,Retiro,309.3
+2021,6,2,Glass,4,Salamanca,258.46
+2021,6,2,Glass,5,Chamartín,346.08
+2021,6,2,Glass,14,Moratalaz,247.4
+2021,6,2,Glass,15,Ciudad Lineal,168.34
+2021,6,2,Glass,16,Hortaleza,151.56
+2021,6,2,Glass,19,Vicálvaro,173.62
+2021,6,2,Glass,20,San Blas - Canillejas,146.66
+2021,6,2,Glass,21,Barajas,92.32
+2021,6,2,Organic,3,Retiro,691.6
+2021,6,2,Organic,4,Salamanca,880.34
+2021,6,2,Organic,5,Chamartín,944.38
+2021,6,2,Organic,14,Moratalaz,478.56
+2021,6,2,Organic,15,Ciudad Lineal,1192.6
+2021,6,2,Organic,16,Hortaleza,935.6
+2021,6,2,Organic,19,Vicálvaro,118.46
+2021,6,2,Organic,20,San Blas - Canillejas,851.26
+2021,6,2,Organic,21,Barajas,414.48
+2021,6,2,Packaging,3,Retiro,269.8
+2021,6,2,Packaging,4,Salamanca,350.24
+2021,6,2,Packaging,5,Chamartín,362.62
+2021,6,2,Packaging,14,Moratalaz,264.5
+2021,6,2,Packaging,15,Ciudad Lineal,596.02
+2021,6,2,Packaging,16,Hortaleza,601.34
+2021,6,2,Packaging,19,Vicálvaro,230.24
+2021,6,2,Packaging,20,San Blas - Canillejas,474.86
+2021,6,2,Packaging,21,Barajas,181.24
+2021,6,2,Paper,3,Retiro,289.89
+2021,6,2,Paper,4,Salamanca,542.96
+2021,6,2,Paper,5,Chamartín,322.82
+2021,6,2,Paper,14,Moratalaz,144.54
+2021,6,2,Paper,15,Ciudad Lineal,458.49
+2021,6,2,Paper,16,Hortaleza,299.85
+2021,6,2,Paper,19,Vicálvaro,68.39
+2021,6,2,Paper,20,San Blas - Canillejas,353.98
+2021,6,2,Paper,21,Barajas,60.51
+2021,6,2,Rest,3,Retiro,1546.74
+2021,6,2,Rest,4,Salamanca,2478.4
+2021,6,2,Rest,5,Chamartín,2258.54
+2021,6,2,Rest,14,Moratalaz,1290.14
+2021,6,2,Rest,15,Ciudad Lineal,3268.28
+2021,6,2,Rest,16,Hortaleza,3134.88
+2021,6,2,Rest,19,Vicálvaro,2009.2
+2021,6,2,Rest,20,San Blas - Canillejas,2553.1
+2021,6,2,Rest,21,Barajas,854.1
+2021,6,3,CDW,2,Arganzuela,43.81
+2021,6,3,CDW,11,Carabanchel,71.36
+2021,6,3,CDW,12,Usera,56.48
+2021,6,3,CDW,13,Puente de Vallecas,50.87
+2021,6,3,CDW,17,Villaverde,36.74
+2021,6,3,CDW,18,Villa de Vallecas,365.19
+2021,6,3,cleanPoints,2,Arganzuela,88.02
+2021,6,3,cleanPoints,11,Carabanchel,47.42
+2021,6,3,cleanPoints,12,Usera,31.28
+2021,6,3,cleanPoints,13,Puente de Vallecas,46.2
+2021,6,3,cleanPoints,17,Villaverde,49.2
+2021,6,3,cleanPoints,18,Villa de Vallecas,74.44
+2021,6,3,Clinicians,12,Usera,164.76
+2021,6,3,Clinicians,13,Puente de Vallecas,38.54
+2021,6,3,Glass,2,Arganzuela,275.24
+2021,6,3,Glass,11,Carabanchel,289.64
+2021,6,3,Glass,12,Usera,97.1
+2021,6,3,Glass,13,Puente de Vallecas,222.52
+2021,6,3,Glass,17,Villaverde,130.54
+2021,6,3,Glass,18,Villa de Vallecas,99.2
+2021,6,3,Organic,2,Arganzuela,681.5
+2021,6,3,Organic,11,Carabanchel,1240.8
+2021,6,3,Organic,12,Usera,555.72
+2021,6,3,Organic,13,Puente de Vallecas,979.88
+2021,6,3,Organic,17,Villaverde,734.8
+2021,6,3,Organic,18,Villa de Vallecas,1596.2
+2021,6,3,Packaging,2,Arganzuela,344.16
+2021,6,3,Packaging,11,Carabanchel,768.76
+2021,6,3,Packaging,12,Usera,406.64
+2021,6,3,Packaging,13,Puente de Vallecas,826.84
+2021,6,3,Packaging,17,Villaverde,520.46
+2021,6,3,Packaging,18,Villa de Vallecas,325.24
+2021,6,3,Paper,2,Arganzuela,411.98
+2021,6,3,Paper,11,Carabanchel,338.1
+2021,6,3,Paper,12,Usera,155.25
+2021,6,3,Paper,13,Puente de Vallecas,277.4
+2021,6,3,Paper,17,Villaverde,165.62
+2021,6,3,Paper,18,Villa de Vallecas,147.46
+2021,6,3,Rest,2,Arganzuela,1925.78
+2021,6,3,Rest,11,Carabanchel,4533.14
+2021,6,3,Rest,12,Usera,2209.68
+2021,6,3,Rest,13,Puente de Vallecas,4200.06
+2021,6,3,Rest,17,Villaverde,2659.12
+2021,6,3,Rest,18,Villa de Vallecas,3861.46
+2021,7,1,CDW,1,Centro,135.715
+2021,7,1,CDW,6,Tetuán,71.375
+2021,7,1,CDW,7,Chamberí,69.24
+2021,7,1,CDW,8,Fuencarral - El Pardo,152.845
+2021,7,1,CDW,9,Moncloa - Aravaca,112.615
+2021,7,1,CDW,10,Latina,104.345
+2021,7,1,cleanPoints,8,Fuencarral - El Pardo,143.1
+2021,7,1,cleanPoints,9,Moncloa - Aravaca,184.44
+2021,7,1,cleanPoints,10,Latina,187.76
+2021,7,1,Clinicians,1,Centro,158.14
+2021,7,1,Clinicians,6,Tetuán,12.02
+2021,7,1,Clinicians,8,Fuencarral - El Pardo,290.08
+2021,7,1,Clinicians,9,Moncloa - Aravaca,231.86
+2021,7,1,Clinicians,10,Latina,19.72
+2021,7,1,Glass,1,Centro,580.52
+2021,7,1,Glass,6,Tetuán,196.36
+2021,7,1,Glass,7,Chamberí,207.54
+2021,7,1,Glass,8,Fuencarral - El Pardo,394.58
+2021,7,1,Glass,9,Moncloa - Aravaca,169.82
+2021,7,1,Glass,10,Latina,185.92
+2021,7,1,horseBed,9,Moncloa - Aravaca,52.99
+2021,7,1,Organic,1,Centro,750.28
+2021,7,1,Organic,6,Tetuán,733.34
+2021,7,1,Organic,7,Chamberí,764.1
+2021,7,1,Organic,8,Fuencarral - El Pardo,1352.5
+2021,7,1,Organic,9,Moncloa - Aravaca,833.12
+2021,7,1,Organic,10,Latina,1239.18
+2021,7,1,Packaging,1,Centro,222.26
+2021,7,1,Packaging,6,Tetuán,324.2
+2021,7,1,Packaging,7,Chamberí,303.26
+2021,7,1,Packaging,8,Fuencarral - El Pardo,613.16
+2021,7,1,Packaging,9,Moncloa - Aravaca,290.5
+2021,7,1,Packaging,10,Latina,588.82
+2021,7,1,Paper,1,Centro,494.71
+2021,7,1,Paper,6,Tetuán,410.1
+2021,7,1,Paper,7,Chamberí,304.15
+2021,7,1,Paper,8,Fuencarral - El Pardo,653.97
+2021,7,1,Paper,9,Moncloa - Aravaca,225.46
+2021,7,1,Paper,10,Latina,307.75
+2021,7,1,Rest,1,Centro,3608.64
+2021,7,1,Rest,6,Tetuán,2472.5
+2021,7,1,Rest,7,Chamberí,2039.12
+2021,7,1,Rest,8,Fuencarral - El Pardo,3298.54
+2021,7,1,Rest,9,Moncloa - Aravaca,2486.84
+2021,7,1,Rest,10,Latina,3283.64
+2021,7,2,CDW,5,Chamartín,45.2
+2021,7,2,CDW,14,Moratalaz,176.64
+2021,7,2,CDW,15,Ciudad Lineal,170.995
+2021,7,2,CDW,16,Hortaleza,73.78
+2021,7,2,CDW,19,Vicálvaro,32.665
+2021,7,2,CDW,20,San Blas - Canillejas,46.375
+2021,7,2,CDW,21,Barajas,8.83
+2021,7,2,cleanPoints,3,Retiro,3.88
+2021,7,2,cleanPoints,5,Chamartín,112.04
+2021,7,2,cleanPoints,14,Moratalaz,47.74
+2021,7,2,cleanPoints,15,Ciudad Lineal,76.62
+2021,7,2,cleanPoints,16,Hortaleza,83.56
+2021,7,2,cleanPoints,19,Vicálvaro,32.38
+2021,7,2,cleanPoints,20,San Blas - Canillejas,74.16
+2021,7,2,cleanPoints,21,Barajas,39.5
+2021,7,2,Clinicians,3,Retiro,174.46
+2021,7,2,Clinicians,4,Salamanca,107.46
+2021,7,2,Clinicians,15,Ciudad Lineal,108.36
+2021,7,2,Glass,3,Retiro,277.16
+2021,7,2,Glass,4,Salamanca,250.7
+2021,7,2,Glass,5,Chamartín,314.22
+2021,7,2,Glass,14,Moratalaz,206.4
+2021,7,2,Glass,15,Ciudad Lineal,163.88
+2021,7,2,Glass,16,Hortaleza,116.06
+2021,7,2,Glass,19,Vicálvaro,184.92
+2021,7,2,Glass,20,San Blas - Canillejas,192.26
+2021,7,2,Glass,21,Barajas,113.66
+2021,7,2,Organic,3,Retiro,597.48
+2021,7,2,Organic,4,Salamanca,797.54
+2021,7,2,Organic,5,Chamartín,773.28
+2021,7,2,Organic,14,Moratalaz,413.46
+2021,7,2,Organic,15,Ciudad Lineal,1061.74
+2021,7,2,Organic,16,Hortaleza,763.7
+2021,7,2,Organic,19,Vicálvaro,102.62
+2021,7,2,Organic,20,San Blas - Canillejas,748.88
+2021,7,2,Organic,21,Barajas,353.98
+2021,7,2,Packaging,3,Retiro,227.74
+2021,7,2,Packaging,4,Salamanca,293.44
+2021,7,2,Packaging,5,Chamartín,328.3
+2021,7,2,Packaging,14,Moratalaz,235.88
+2021,7,2,Packaging,15,Ciudad Lineal,539.76
+2021,7,2,Packaging,16,Hortaleza,530.98
+2021,7,2,Packaging,19,Vicálvaro,220.62
+2021,7,2,Packaging,20,San Blas - Canillejas,421.46
+2021,7,2,Packaging,21,Barajas,163.82
+2021,7,2,Paper,3,Retiro,274.38
+2021,7,2,Paper,4,Salamanca,475.34
+2021,7,2,Paper,5,Chamartín,304.82
+2021,7,2,Paper,14,Moratalaz,108.54
+2021,7,2,Paper,15,Ciudad Lineal,428.83
+2021,7,2,Paper,16,Hortaleza,263.57
+2021,7,2,Paper,19,Vicálvaro,91.34
+2021,7,2,Paper,20,San Blas - Canillejas,319.26
+2021,7,2,Paper,21,Barajas,71.39
+2021,7,2,Rest,3,Retiro,1378.8
+2021,7,2,Rest,4,Salamanca,2219.4
+2021,7,2,Rest,5,Chamartín,1954.98
+2021,7,2,Rest,14,Moratalaz,1168.8
+2021,7,2,Rest,15,Ciudad Lineal,2998.6
+2021,7,2,Rest,16,Hortaleza,2767.78
+2021,7,2,Rest,19,Vicálvaro,1964.74
+2021,7,2,Rest,20,San Blas - Canillejas,2404.0
+2021,7,2,Rest,21,Barajas,768.74
+2021,7,3,cleanPoints,2,Arganzuela,68.28
+2021,7,3,cleanPoints,11,Carabanchel,42.16
+2021,7,3,cleanPoints,12,Usera,40.32
+2021,7,3,cleanPoints,13,Puente de Vallecas,40.66
+2021,7,3,cleanPoints,17,Villaverde,41.06
+2021,7,3,cleanPoints,18,Villa de Vallecas,96.14
+2021,7,3,Clinicians,12,Usera,150.64
+2021,7,3,Clinicians,13,Puente de Vallecas,36.16
+2021,7,3,Glass,2,Arganzuela,240.3
+2021,7,3,Glass,11,Carabanchel,273.82
+2021,7,3,Glass,12,Usera,94.56
+2021,7,3,Glass,13,Puente de Vallecas,186.1
+2021,7,3,Glass,17,Villaverde,114.56
+2021,7,3,Glass,18,Villa de Vallecas,102.9
+2021,7,3,Organic,2,Arganzuela,582.26
+2021,7,3,Organic,11,Carabanchel,1163.76
+2021,7,3,Organic,12,Usera,530.4
+2021,7,3,Organic,13,Puente de Vallecas,905.96
+2021,7,3,Organic,17,Villaverde,681.72
+2021,7,3,Organic,18,Villa de Vallecas,1533.1
+2021,7,3,Packaging,2,Arganzuela,320.0
+2021,7,3,Packaging,11,Carabanchel,743.28
+2021,7,3,Packaging,12,Usera,392.36
+2021,7,3,Packaging,13,Puente de Vallecas,781.34
+2021,7,3,Packaging,17,Villaverde,488.46
+2021,7,3,Packaging,18,Villa de Vallecas,302.82
+2021,7,3,Paper,2,Arganzuela,369.78
+2021,7,3,Paper,11,Carabanchel,308.86
+2021,7,3,Paper,12,Usera,143.66
+2021,7,3,Paper,13,Puente de Vallecas,257.66
+2021,7,3,Paper,17,Villaverde,154.36
+2021,7,3,Paper,18,Villa de Vallecas,134.34
+2021,7,3,Rest,2,Arganzuela,1821.05
+2021,7,3,Rest,11,Carabanchel,4259.31
+2021,7,3,Rest,12,Usera,2134.67
+2021,7,3,Rest,13,Puente de Vallecas,4020.59
+2021,7,3,Rest,17,Villaverde,2506.29
+2021,7,3,Rest,18,Villa de Vallecas,3236.66
+2021,8,1,CDW,1,Centro,118.56
+2021,8,1,CDW,6,Tetuán,79.97
+2021,8,1,CDW,7,Chamberí,63.835
+2021,8,1,CDW,8,Fuencarral - El Pardo,136.565
+2021,8,1,CDW,9,Moncloa - Aravaca,147.725
+2021,8,1,CDW,10,Latina,113.175
+2021,8,1,cleanPoints,8,Fuencarral - El Pardo,120.24
+2021,8,1,cleanPoints,9,Moncloa - Aravaca,127.72
+2021,8,1,cleanPoints,10,Latina,93.16
+2021,8,1,Clinicians,1,Centro,129.72
+2021,8,1,Clinicians,6,Tetuán,12.3
+2021,8,1,Clinicians,8,Fuencarral - El Pardo,254.36
+2021,8,1,Clinicians,9,Moncloa - Aravaca,203.8
+2021,8,1,Clinicians,10,Latina,17.6
+2021,8,1,Glass,1,Centro,480.14
+2021,8,1,Glass,6,Tetuán,153.58
+2021,8,1,Glass,7,Chamberí,161.76
+2021,8,1,Glass,8,Fuencarral - El Pardo,315.3
+2021,8,1,Glass,9,Moncloa - Aravaca,140.76
+2021,8,1,Glass,10,Latina,139.48
+2021,8,1,horseBed,9,Moncloa - Aravaca,51.55
+2021,8,1,Organic,1,Centro,678.34
+2021,8,1,Organic,6,Tetuán,632.52
+2021,8,1,Organic,7,Chamberí,506.08
+2021,8,1,Organic,8,Fuencarral - El Pardo,1060.56
+2021,8,1,Organic,9,Moncloa - Aravaca,611.1
+2021,8,1,Organic,10,Latina,1039.7
+2021,8,1,Packaging,1,Centro,183.58
+2021,8,1,Packaging,6,Tetuán,276.56
+2021,8,1,Packaging,7,Chamberí,215.6
+2021,8,1,Packaging,8,Fuencarral - El Pardo,477.38
+2021,8,1,Packaging,9,Moncloa - Aravaca,209.46
+2021,8,1,Packaging,10,Latina,497.12
+2021,8,1,Paper,1,Centro,396.43
+2021,8,1,Paper,6,Tetuán,268.66
+2021,8,1,Paper,7,Chamberí,237.7
+2021,8,1,Paper,8,Fuencarral - El Pardo,489.83
+2021,8,1,Paper,9,Moncloa - Aravaca,157.55
+2021,8,1,Paper,10,Latina,239.22
+2021,8,1,Rest,1,Centro,3010.14
+2021,8,1,Rest,6,Tetuán,2053.14
+2021,8,1,Rest,7,Chamberí,1403.28
+2021,8,1,Rest,8,Fuencarral - El Pardo,2597.4
+2021,8,1,Rest,9,Moncloa - Aravaca,2040.86
+2021,8,1,Rest,10,Latina,2808.64
+2021,8,2,CDW,3,Retiro,122.4
+2021,8,2,CDW,4,Salamanca,105.4
+2021,8,2,CDW,5,Chamartín,151.64
+2021,8,2,CDW,14,Moratalaz,86.33
+2021,8,2,CDW,15,Ciudad Lineal,125.1
+2021,8,2,CDW,16,Hortaleza,92.58
+2021,8,2,CDW,19,Vicálvaro,11.3
+2021,8,2,CDW,20,San Blas - Canillejas,29.58
+2021,8,2,CDW,21,Barajas,13.34
+2021,8,2,cleanPoints,3,Retiro,3.8
+2021,8,2,cleanPoints,5,Chamartín,84.8
+2021,8,2,cleanPoints,14,Moratalaz,54.16
+2021,8,2,cleanPoints,15,Ciudad Lineal,60.7
+2021,8,2,cleanPoints,16,Hortaleza,64.6
+2021,8,2,cleanPoints,19,Vicálvaro,25.2
+2021,8,2,cleanPoints,20,San Blas - Canillejas,56.7
+2021,8,2,cleanPoints,21,Barajas,34.62
+2021,8,2,Clinicians,3,Retiro,150.58
+2021,8,2,Clinicians,4,Salamanca,77.3
+2021,8,2,Clinicians,15,Ciudad Lineal,87.0
+2021,8,2,Glass,3,Retiro,173.58
+2021,8,2,Glass,4,Salamanca,180.4
+2021,8,2,Glass,5,Chamartín,212.72
+2021,8,2,Glass,14,Moratalaz,189.98
+2021,8,2,Glass,15,Ciudad Lineal,156.4
+2021,8,2,Glass,16,Hortaleza,101.2
+2021,8,2,Glass,19,Vicálvaro,144.76
+2021,8,2,Glass,20,San Blas - Canillejas,150.38
+2021,8,2,Glass,21,Barajas,61.9
+2021,8,2,Organic,3,Retiro,456.44
+2021,8,2,Organic,4,Salamanca,605.68
+2021,8,2,Organic,5,Chamartín,562.22
+2021,8,2,Organic,14,Moratalaz,338.96
+2021,8,2,Organic,15,Ciudad Lineal,889.2
+2021,8,2,Organic,16,Hortaleza,643.94
+2021,8,2,Organic,19,Vicálvaro,89.82
+2021,8,2,Organic,20,San Blas - Canillejas,630.64
+2021,8,2,Organic,21,Barajas,259.26
+2021,8,2,Packaging,3,Retiro,177.64
+2021,8,2,Packaging,4,Salamanca,216.54
+2021,8,2,Packaging,5,Chamartín,226.9
+2021,8,2,Packaging,14,Moratalaz,185.2
+2021,8,2,Packaging,15,Ciudad Lineal,491.78
+2021,8,2,Packaging,16,Hortaleza,414.08
+2021,8,2,Packaging,19,Vicálvaro,205.62
+2021,8,2,Packaging,20,San Blas - Canillejas,376.08
+2021,8,2,Packaging,21,Barajas,115.32
+2021,8,2,Paper,3,Retiro,191.13
+2021,8,2,Paper,4,Salamanca,324.34
+2021,8,2,Paper,5,Chamartín,234.52
+2021,8,2,Paper,14,Moratalaz,71.05
+2021,8,2,Paper,15,Ciudad Lineal,348.52
+2021,8,2,Paper,16,Hortaleza,210.42
+2021,8,2,Paper,19,Vicálvaro,73.27
+2021,8,2,Paper,20,San Blas - Canillejas,248.37
+2021,8,2,Paper,21,Barajas,59.2
+2021,8,2,Rest,3,Retiro,1076.36
+2021,8,2,Rest,4,Salamanca,1559.24
+2021,8,2,Rest,5,Chamartín,1385.66
+2021,8,2,Rest,14,Moratalaz,981.58
+2021,8,2,Rest,15,Ciudad Lineal,2470.62
+2021,8,2,Rest,16,Hortaleza,2258.21
+2021,8,2,Rest,19,Vicálvaro,1297.52
+2021,8,2,Rest,20,San Blas - Canillejas,2012.32
+2021,8,2,Rest,21,Barajas,658.32
+2021,8,3,CDW,2,Arganzuela,36.73
+2021,8,3,CDW,11,Carabanchel,38.14
+2021,8,3,CDW,12,Usera,49.52
+2021,8,3,CDW,13,Puente de Vallecas,53.69
+2021,8,3,CDW,17,Villaverde,51.98
+2021,8,3,CDW,18,Villa de Vallecas,98.65
+2021,8,3,cleanPoints,2,Arganzuela,59.46
+2021,8,3,cleanPoints,11,Carabanchel,29.92
+2021,8,3,cleanPoints,12,Usera,32.82
+2021,8,3,cleanPoints,13,Puente de Vallecas,35.7
+2021,8,3,cleanPoints,17,Villaverde,44.56
+2021,8,3,cleanPoints,18,Villa de Vallecas,60.6
+2021,8,3,Clinicians,12,Usera,138.84
+2021,8,3,Clinicians,13,Puente de Vallecas,31.62
+2021,8,3,Glass,2,Arganzuela,219.28
+2021,8,3,Glass,11,Carabanchel,225.42
+2021,8,3,Glass,12,Usera,56.06
+2021,8,3,Glass,13,Puente de Vallecas,192.1
+2021,8,3,Glass,17,Villaverde,144.08
+2021,8,3,Glass,18,Villa de Vallecas,62.14
+2021,8,3,Organic,2,Arganzuela,486.66
+2021,8,3,Organic,11,Carabanchel,984.36
+2021,8,3,Organic,12,Usera,519.64
+2021,8,3,Organic,13,Puente de Vallecas,819.28
+2021,8,3,Organic,17,Villaverde,613.74
+2021,8,3,Organic,18,Villa de Vallecas,1393.0
+2021,8,3,Packaging,2,Arganzuela,261.92
+2021,8,3,Packaging,11,Carabanchel,643.04
+2021,8,3,Packaging,12,Usera,368.28
+2021,8,3,Packaging,13,Puente de Vallecas,749.82
+2021,8,3,Packaging,17,Villaverde,398.98
+2021,8,3,Packaging,18,Villa de Vallecas,258.2
+2021,8,3,Paper,2,Arganzuela,308.35
+2021,8,3,Paper,11,Carabanchel,251.92
+2021,8,3,Paper,12,Usera,109.82
+2021,8,3,Paper,13,Puente de Vallecas,209.64
+2021,8,3,Paper,17,Villaverde,120.02
+2021,8,3,Paper,18,Villa de Vallecas,107.04
+2021,8,3,Rest,2,Arganzuela,1568.78
+2021,8,3,Rest,11,Carabanchel,3449.9
+2021,8,3,Rest,12,Usera,2003.9
+2021,8,3,Rest,13,Puente de Vallecas,3609.92
+2021,8,3,Rest,17,Villaverde,2099.36
+2021,8,3,Rest,18,Villa de Vallecas,2532.26
+2021,9,1,CDW,1,Centro,134.255
+2021,9,1,CDW,6,Tetuán,44.9
+2021,9,1,CDW,7,Chamberí,44.865
+2021,9,1,CDW,8,Fuencarral - El Pardo,96.37
+2021,9,1,CDW,9,Moncloa - Aravaca,163.23
+2021,9,1,CDW,10,Latina,75.48
+2021,9,1,cleanPoints,8,Fuencarral - El Pardo,148.82
+2021,9,1,cleanPoints,9,Moncloa - Aravaca,159.86
+2021,9,1,cleanPoints,10,Latina,176.32
+2021,9,1,Clinicians,1,Centro,168.56
+2021,9,1,Clinicians,6,Tetuán,10.14
+2021,9,1,Clinicians,8,Fuencarral - El Pardo,285.48
+2021,9,1,Clinicians,9,Moncloa - Aravaca,228.36
+2021,9,1,Clinicians,10,Latina,19.16
+2021,9,1,Clothes,8,Fuencarral - El Pardo,0.18
+2021,9,1,Glass,1,Centro,646.6
+2021,9,1,Glass,6,Tetuán,258.84
+2021,9,1,Glass,7,Chamberí,200.8
+2021,9,1,Glass,8,Fuencarral - El Pardo,333.82
+2021,9,1,Glass,9,Moncloa - Aravaca,166.4
+2021,9,1,Glass,10,Latina,163.46
+2021,9,1,horseBed,9,Moncloa - Aravaca,47.99
+2021,9,1,Organic,1,Centro,828.24
+2021,9,1,Organic,6,Tetuán,774.2
+2021,9,1,Organic,7,Chamberí,802.18
+2021,9,1,Organic,8,Fuencarral - El Pardo,1497.48
+2021,9,1,Organic,9,Moncloa - Aravaca,913.34
+2021,9,1,Organic,10,Latina,1251.16
+2021,9,1,Packaging,1,Centro,235.1
+2021,9,1,Packaging,6,Tetuán,352.4
+2021,9,1,Packaging,7,Chamberí,335.96
+2021,9,1,Packaging,8,Fuencarral - El Pardo,674.92
+2021,9,1,Packaging,9,Moncloa - Aravaca,331.18
+2021,9,1,Packaging,10,Latina,588.44
+2021,9,1,Paper,1,Centro,542.44
+2021,9,1,Paper,6,Tetuán,415.88
+2021,9,1,Paper,7,Chamberí,329.46
+2021,9,1,Paper,8,Fuencarral - El Pardo,690.01
+2021,9,1,Paper,9,Moncloa - Aravaca,301.1
+2021,9,1,Paper,10,Latina,328.51
+2021,9,1,Rest,1,Centro,3895.28
+2021,9,1,Rest,6,Tetuán,2566.28
+2021,9,1,Rest,7,Chamberí,2195.18
+2021,9,1,Rest,8,Fuencarral - El Pardo,3490.68
+2021,9,1,Rest,9,Moncloa - Aravaca,2662.92
+2021,9,1,Rest,10,Latina,3404.68
+2021,9,2,CDW,3,Retiro,51.08
+2021,9,2,CDW,4,Salamanca,91.91
+2021,9,2,CDW,5,Chamartín,150.645
+2021,9,2,CDW,14,Moratalaz,45.57
+2021,9,2,CDW,15,Ciudad Lineal,43.4
+2021,9,2,CDW,16,Hortaleza,31.0
+2021,9,2,CDW,19,Vicálvaro,22.72
+2021,9,2,CDW,20,San Blas - Canillejas,21.1
+2021,9,2,CDW,21,Barajas,50.68
+2021,9,2,cleanPoints,3,Retiro,6.52
+2021,9,2,cleanPoints,5,Chamartín,124.52
+2021,9,2,cleanPoints,14,Moratalaz,53.82
+2021,9,2,cleanPoints,15,Ciudad Lineal,65.8
+2021,9,2,cleanPoints,16,Hortaleza,75.34
+2021,9,2,cleanPoints,19,Vicálvaro,24.3
+2021,9,2,cleanPoints,20,San Blas - Canillejas,88.18
+2021,9,2,cleanPoints,21,Barajas,35.5
+2021,9,2,Clinicians,3,Retiro,169.96
+2021,9,2,Clinicians,4,Salamanca,108.5
+2021,9,2,Clinicians,15,Ciudad Lineal,112.08
+2021,9,2,Glass,3,Retiro,275.9
+2021,9,2,Glass,4,Salamanca,224.3
+2021,9,2,Glass,5,Chamartín,292.94
+2021,9,2,Glass,14,Moratalaz,203.64
+2021,9,2,Glass,15,Ciudad Lineal,162.62
+2021,9,2,Glass,16,Hortaleza,123.36
+2021,9,2,Glass,19,Vicálvaro,177.06
+2021,9,2,Glass,20,San Blas - Canillejas,162.0
+2021,9,2,Glass,21,Barajas,100.9
+2021,9,2,Organic,3,Retiro,651.36
+2021,9,2,Organic,4,Salamanca,869.06
+2021,9,2,Organic,5,Chamartín,881.26
+2021,9,2,Organic,14,Moratalaz,454.06
+2021,9,2,Organic,15,Ciudad Lineal,1076.8
+2021,9,2,Organic,16,Hortaleza,916.1
+2021,9,2,Organic,19,Vicálvaro,122.88
+2021,9,2,Organic,20,San Blas - Canillejas,793.7
+2021,9,2,Organic,21,Barajas,342.26
+2021,9,2,Packaging,3,Retiro,262.8
+2021,9,2,Packaging,4,Salamanca,347.64
+2021,9,2,Packaging,5,Chamartín,361.22
+2021,9,2,Packaging,14,Moratalaz,232.38
+2021,9,2,Packaging,15,Ciudad Lineal,603.72
+2021,9,2,Packaging,16,Hortaleza,573.5
+2021,9,2,Packaging,19,Vicálvaro,265.5
+2021,9,2,Packaging,20,San Blas - Canillejas,461.7
+2021,9,2,Packaging,21,Barajas,135.54
+2021,9,2,Paper,3,Retiro,292.12
+2021,9,2,Paper,4,Salamanca,549.07
+2021,9,2,Paper,5,Chamartín,352.19
+2021,9,2,Paper,14,Moratalaz,82.87
+2021,9,2,Paper,15,Ciudad Lineal,466.08
+2021,9,2,Paper,16,Hortaleza,325.63
+2021,9,2,Paper,19,Vicálvaro,112.99
+2021,9,2,Paper,20,San Blas - Canillejas,375.07
+2021,9,2,Paper,21,Barajas,69.94
+2021,9,2,Rest,3,Retiro,1506.78
+2021,9,2,Rest,4,Salamanca,2395.84
+2021,9,2,Rest,5,Chamartín,2154.86
+2021,9,2,Rest,14,Moratalaz,1220.96
+2021,9,2,Rest,15,Ciudad Lineal,3094.06
+2021,9,2,Rest,16,Hortaleza,3017.88
+2021,9,2,Rest,19,Vicálvaro,1753.58
+2021,9,2,Rest,20,San Blas - Canillejas,2426.06
+2021,9,2,Rest,21,Barajas,821.94
+2021,9,3,CDW,2,Arganzuela,49.19
+2021,9,3,CDW,11,Carabanchel,53.78
+2021,9,3,CDW,12,Usera,51.09
+2021,9,3,CDW,13,Puente de Vallecas,40.98
+2021,9,3,CDW,17,Villaverde,52.19
+2021,9,3,CDW,18,Villa de Vallecas,115.27
+2021,9,3,cleanPoints,2,Arganzuela,75.62
+2021,9,3,cleanPoints,11,Carabanchel,40.14
+2021,9,3,cleanPoints,12,Usera,32.42
+2021,9,3,cleanPoints,13,Puente de Vallecas,42.12
+2021,9,3,cleanPoints,17,Villaverde,46.96
+2021,9,3,cleanPoints,18,Villa de Vallecas,63.26
+2021,9,3,Clinicians,12,Usera,145.6
+2021,9,3,Clinicians,13,Puente de Vallecas,36.56
+2021,9,3,Clothes,18,Villa de Vallecas,0.18
+2021,9,3,Glass,2,Arganzuela,202.48
+2021,9,3,Glass,11,Carabanchel,218.84
+2021,9,3,Glass,12,Usera,107.46
+2021,9,3,Glass,13,Puente de Vallecas,247.52
+2021,9,3,Glass,17,Villaverde,115.16
+2021,9,3,Glass,18,Villa de Vallecas,74.54
+2021,9,3,Organic,2,Arganzuela,633.16
+2021,9,3,Organic,11,Carabanchel,1163.04
+2021,9,3,Organic,12,Usera,553.66
+2021,9,3,Organic,13,Puente de Vallecas,931.96
+2021,9,3,Organic,17,Villaverde,714.72
+2021,9,3,Organic,18,Villa de Vallecas,1429.06
+2021,9,3,Packaging,2,Arganzuela,335.56
+2021,9,3,Packaging,11,Carabanchel,762.06
+2021,9,3,Packaging,12,Usera,401.82
+2021,9,3,Packaging,13,Puente de Vallecas,792.82
+2021,9,3,Packaging,17,Villaverde,515.84
+2021,9,3,Packaging,18,Villa de Vallecas,321.1
+2021,9,3,Paper,2,Arganzuela,386.645
+2021,9,3,Paper,11,Carabanchel,349.94
+2021,9,3,Paper,12,Usera,165.14
+2021,9,3,Paper,13,Puente de Vallecas,268.42
+2021,9,3,Paper,17,Villaverde,177.32
+2021,9,3,Paper,18,Villa de Vallecas,156.24
+2021,9,3,Rest,2,Arganzuela,1865.28
+2021,9,3,Rest,11,Carabanchel,4257.02
+2021,9,3,Rest,12,Usera,2086.62
+2021,9,3,Rest,13,Puente de Vallecas,3999.84
+2021,9,3,Rest,17,Villaverde,2497.64
+2021,9,3,Rest,18,Villa de Vallecas,2938.72
+2021,10,1,CDW,1,Centro,156.785
+2021,10,1,CDW,6,Tetuán,44.765
+2021,10,1,CDW,7,Chamberí,53.85
+2021,10,1,CDW,8,Fuencarral - El Pardo,114.54
+2021,10,1,CDW,9,Moncloa - Aravaca,91.88
+2021,10,1,CDW,10,Latina,65.185
+2021,10,1,cleanPoints,8,Fuencarral - El Pardo,144.16
+2021,10,1,cleanPoints,9,Moncloa - Aravaca,87.5
+2021,10,1,cleanPoints,10,Latina,135.78
+2021,10,1,Clinicians,1,Centro,177.72
+2021,10,1,Clinicians,6,Tetuán,15.6
+2021,10,1,Clinicians,8,Fuencarral - El Pardo,320.76
+2021,10,1,Clinicians,9,Moncloa - Aravaca,253.54
+2021,10,1,Clinicians,10,Latina,20.32
+2021,10,1,Clothes,8,Fuencarral - El Pardo,0.18
+2021,10,1,Clothes,10,Latina,0.18
+2021,10,1,Glass,1,Centro,765.24
+2021,10,1,Glass,6,Tetuán,314.54
+2021,10,1,Glass,7,Chamberí,253.6
+2021,10,1,Glass,8,Fuencarral - El Pardo,397.38
+2021,10,1,Glass,9,Moncloa - Aravaca,170.82
+2021,10,1,Glass,10,Latina,188.2
+2021,10,1,horseBed,9,Moncloa - Aravaca,43.525
+2021,10,1,Organic,1,Centro,945.14
+2021,10,1,Organic,6,Tetuán,787.14
+2021,10,1,Organic,7,Chamberí,892.52
+2021,10,1,Organic,8,Fuencarral - El Pardo,1544.2
+2021,10,1,Organic,9,Moncloa - Aravaca,967.66
+2021,10,1,Organic,10,Latina,1266.58
+2021,10,1,Packaging,1,Centro,256.12
+2021,10,1,Packaging,6,Tetuán,386.64
+2021,10,1,Packaging,7,Chamberí,345.64
+2021,10,1,Packaging,8,Fuencarral - El Pardo,690.92
+2021,10,1,Packaging,9,Moncloa - Aravaca,338.46
+2021,10,1,Packaging,10,Latina,611.84
+2021,10,1,Paper,1,Centro,550.76
+2021,10,1,Paper,6,Tetuán,409.62
+2021,10,1,Paper,7,Chamberí,384.1
+2021,10,1,Paper,8,Fuencarral - El Pardo,641.81
+2021,10,1,Paper,9,Moncloa - Aravaca,298.45
+2021,10,1,Paper,10,Latina,312.42
+2021,10,1,Rest,1,Centro,4433.98
+2021,10,1,Rest,6,Tetuán,2668.12
+2021,10,1,Rest,7,Chamberí,2361.56
+2021,10,1,Rest,8,Fuencarral - El Pardo,3537.66
+2021,10,1,Rest,9,Moncloa - Aravaca,2674.3
+2021,10,1,Rest,10,Latina,3508.02
+2021,10,2,CDW,3,Retiro,68.96
+2021,10,2,CDW,4,Salamanca,48.38
+2021,10,2,CDW,5,Chamartín,48.46
+2021,10,2,CDW,14,Moratalaz,56.8
+2021,10,2,CDW,15,Ciudad Lineal,87.525
+2021,10,2,CDW,16,Hortaleza,73.495
+2021,10,2,CDW,19,Vicálvaro,27.66
+2021,10,2,CDW,20,San Blas - Canillejas,31.74
+2021,10,2,CDW,21,Barajas,31.06
+2021,10,2,cleanPoints,3,Retiro,2.62
+2021,10,2,cleanPoints,5,Chamartín,107.76
+2021,10,2,cleanPoints,14,Moratalaz,45.98
+2021,10,2,cleanPoints,15,Ciudad Lineal,74.82
+2021,10,2,cleanPoints,16,Hortaleza,70.16
+2021,10,2,cleanPoints,19,Vicálvaro,23.7
+2021,10,2,cleanPoints,20,San Blas - Canillejas,69.48
+2021,10,2,cleanPoints,21,Barajas,32.72
+2021,10,2,Clinicians,3,Retiro,179.38
+2021,10,2,Clinicians,4,Salamanca,118.7
+2021,10,2,Clinicians,15,Ciudad Lineal,124.34
+2021,10,2,Glass,3,Retiro,321.04
+2021,10,2,Glass,4,Salamanca,383.38
+2021,10,2,Glass,5,Chamartín,335.28
+2021,10,2,Glass,14,Moratalaz,199.74
+2021,10,2,Glass,15,Ciudad Lineal,191.96
+2021,10,2,Glass,16,Hortaleza,189.5
+2021,10,2,Glass,19,Vicálvaro,166.34
+2021,10,2,Glass,20,San Blas - Canillejas,162.38
+2021,10,2,Glass,21,Barajas,120.96
+2021,10,2,Organic,3,Retiro,708.96
+2021,10,2,Organic,4,Salamanca,963.54
+2021,10,2,Organic,5,Chamartín,945.92
+2021,10,2,Organic,14,Moratalaz,459.44
+2021,10,2,Organic,15,Ciudad Lineal,1121.12
+2021,10,2,Organic,16,Hortaleza,856.88
+2021,10,2,Organic,19,Vicálvaro,119.34
+2021,10,2,Organic,20,San Blas - Canillejas,806.18
+2021,10,2,Organic,21,Barajas,420.34
+2021,10,2,Packaging,3,Retiro,274.62
+2021,10,2,Packaging,4,Salamanca,359.42
+2021,10,2,Packaging,5,Chamartín,366.58
+2021,10,2,Packaging,14,Moratalaz,239.32
+2021,10,2,Packaging,15,Ciudad Lineal,625.78
+2021,10,2,Packaging,16,Hortaleza,576.12
+2021,10,2,Packaging,19,Vicálvaro,267.62
+2021,10,2,Packaging,20,San Blas - Canillejas,482.84
+2021,10,2,Packaging,21,Barajas,135.24
+2021,10,2,Paper,3,Retiro,330.01
+2021,10,2,Paper,4,Salamanca,577.92
+2021,10,2,Paper,5,Chamartín,328.45
+2021,10,2,Paper,14,Moratalaz,107.02
+2021,10,2,Paper,15,Ciudad Lineal,454.86
+2021,10,2,Paper,16,Hortaleza,297.36
+2021,10,2,Paper,19,Vicálvaro,83.12
+2021,10,2,Paper,20,San Blas - Canillejas,354.56
+2021,10,2,Paper,21,Barajas,49.51
+2021,10,2,Rest,3,Retiro,1549.06
+2021,10,2,Rest,4,Salamanca,2584.82
+2021,10,2,Rest,5,Chamartín,2266.32
+2021,10,2,Rest,14,Moratalaz,1262.74
+2021,10,2,Rest,15,Ciudad Lineal,3183.86
+2021,10,2,Rest,16,Hortaleza,3010.42
+2021,10,2,Rest,19,Vicálvaro,1625.04
+2021,10,2,Rest,20,San Blas - Canillejas,2517.78
+2021,10,2,Rest,21,Barajas,841.96
+2021,10,3,CDW,2,Arganzuela,42.08
+2021,10,3,CDW,11,Carabanchel,53.49
+2021,10,3,CDW,12,Usera,44.96
+2021,10,3,CDW,13,Puente de Vallecas,40.57
+2021,10,3,CDW,17,Villaverde,43.57
+2021,10,3,CDW,18,Villa de Vallecas,95.53
+2021,10,3,cleanPoints,2,Arganzuela,63.14
+2021,10,3,cleanPoints,11,Carabanchel,42.22
+2021,10,3,cleanPoints,12,Usera,32.12
+2021,10,3,cleanPoints,13,Puente de Vallecas,32.94
+2021,10,3,cleanPoints,17,Villaverde,47.7
+2021,10,3,cleanPoints,18,Villa de Vallecas,84.0
+2021,10,3,Clinicians,12,Usera,159.78
+2021,10,3,Clinicians,13,Puente de Vallecas,37.46
+2021,10,3,Glass,2,Arganzuela,256.18
+2021,10,3,Glass,11,Carabanchel,292.8
+2021,10,3,Glass,12,Usera,104.58
+2021,10,3,Glass,13,Puente de Vallecas,220.54
+2021,10,3,Glass,17,Villaverde,123.52
+2021,10,3,Glass,18,Villa de Vallecas,85.36
+2021,10,3,Organic,2,Arganzuela,677.82
+2021,10,3,Organic,11,Carabanchel,1182.24
+2021,10,3,Organic,12,Usera,553.82
+2021,10,3,Organic,13,Puente de Vallecas,959.8
+2021,10,3,Organic,17,Villaverde,723.42
+2021,10,3,Organic,18,Villa de Vallecas,1319.7
+2021,10,3,Packaging,2,Arganzuela,334.62
+2021,10,3,Packaging,11,Carabanchel,771.6
+2021,10,3,Packaging,12,Usera,416.08
+2021,10,3,Packaging,13,Puente de Vallecas,821.24
+2021,10,3,Packaging,17,Villaverde,512.14
+2021,10,3,Packaging,18,Villa de Vallecas,321.76
+2021,10,3,Paper,2,Arganzuela,388.56
+2021,10,3,Paper,11,Carabanchel,326.84
+2021,10,3,Paper,12,Usera,148.0
+2021,10,3,Paper,13,Puente de Vallecas,280.24
+2021,10,3,Paper,17,Villaverde,164.18
+2021,10,3,Paper,18,Villa de Vallecas,141.58
+2021,10,3,Rest,2,Arganzuela,1961.38
+2021,10,3,Rest,11,Carabanchel,4388.5
+2021,10,3,Rest,12,Usera,2144.06
+2021,10,3,Rest,13,Puente de Vallecas,4040.72
+2021,10,3,Rest,17,Villaverde,2575.2
+2021,10,3,Rest,18,Villa de Vallecas,2846.02
+2021,11,1,CDW,1,Centro,116.72
+2021,11,1,CDW,6,Tetuán,58.875
+2021,11,1,CDW,7,Chamberí,56.155
+2021,11,1,CDW,8,Fuencarral - El Pardo,107.59
+2021,11,1,CDW,9,Moncloa - Aravaca,90.99
+2021,11,1,CDW,10,Latina,90.17
+2021,11,1,cleanPoints,8,Fuencarral - El Pardo,122.62
+2021,11,1,cleanPoints,9,Moncloa - Aravaca,82.96
+2021,11,1,cleanPoints,10,Latina,124.14
+2021,11,1,Clinicians,1,Centro,182.36
+2021,11,1,Clinicians,6,Tetuán,13.12
+2021,11,1,Clinicians,8,Fuencarral - El Pardo,324.92
+2021,11,1,Clinicians,9,Moncloa - Aravaca,241.0
+2021,11,1,Clinicians,10,Latina,21.34
+2021,11,1,Glass,1,Centro,813.44
+2021,11,1,Glass,6,Tetuán,379.3
+2021,11,1,Glass,7,Chamberí,249.88
+2021,11,1,Glass,8,Fuencarral - El Pardo,419.08
+2021,11,1,Glass,9,Moncloa - Aravaca,171.44
+2021,11,1,Glass,10,Latina,195.0
+2021,11,1,horseBed,9,Moncloa - Aravaca,47.93
+2021,11,1,Organic,1,Centro,959.4
+2021,11,1,Organic,6,Tetuán,764.5
+2021,11,1,Organic,7,Chamberí,876.1
+2021,11,1,Organic,8,Fuencarral - El Pardo,1551.16
+2021,11,1,Organic,9,Moncloa - Aravaca,1014.24
+2021,11,1,Organic,10,Latina,1263.26
+2021,11,1,Packaging,1,Centro,242.68
+2021,11,1,Packaging,6,Tetuán,346.88
+2021,11,1,Packaging,7,Chamberí,368.9
+2021,11,1,Packaging,8,Fuencarral - El Pardo,676.36
+2021,11,1,Packaging,9,Moncloa - Aravaca,325.82
+2021,11,1,Packaging,10,Latina,611.56
+2021,11,1,Paper,1,Centro,539.91
+2021,11,1,Paper,6,Tetuán,407.9
+2021,11,1,Paper,7,Chamberí,348.26
+2021,11,1,Paper,8,Fuencarral - El Pardo,666.55
+2021,11,1,Paper,9,Moncloa - Aravaca,262.08
+2021,11,1,Paper,10,Latina,309.2
+2021,11,1,Rest,1,Centro,4438.98
+2021,11,1,Rest,6,Tetuán,2592.96
+2021,11,1,Rest,7,Chamberí,2312.24
+2021,11,1,Rest,8,Fuencarral - El Pardo,3501.52
+2021,11,1,Rest,9,Moncloa - Aravaca,2689.46
+2021,11,1,Rest,10,Latina,3453.78
+2021,11,2,CDW,3,Retiro,59.38
+2021,11,2,CDW,4,Salamanca,25.52
+2021,11,2,CDW,5,Chamartín,172.18
+2021,11,2,CDW,14,Moratalaz,51.5
+2021,11,2,CDW,15,Ciudad Lineal,79.05
+2021,11,2,CDW,16,Hortaleza,24.12
+2021,11,2,CDW,19,Vicálvaro,39.26
+2021,11,2,CDW,20,San Blas - Canillejas,75.74
+2021,11,2,CDW,21,Barajas,88.42
+2021,11,2,cleanPoints,3,Retiro,2.02
+2021,11,2,cleanPoints,5,Chamartín,95.92
+2021,11,2,cleanPoints,14,Moratalaz,57.88
+2021,11,2,cleanPoints,15,Ciudad Lineal,62.9
+2021,11,2,cleanPoints,16,Hortaleza,66.64
+2021,11,2,cleanPoints,19,Vicálvaro,19.34
+2021,11,2,cleanPoints,20,San Blas - Canillejas,58.52
+2021,11,2,cleanPoints,21,Barajas,35.06
+2021,11,2,Clinicians,3,Retiro,178.64
+2021,11,2,Clinicians,4,Salamanca,123.42
+2021,11,2,Clinicians,15,Ciudad Lineal,125.08
+2021,11,2,Glass,3,Retiro,320.48
+2021,11,2,Glass,4,Salamanca,364.44
+2021,11,2,Glass,5,Chamartín,332.84
+2021,11,2,Glass,14,Moratalaz,214.82
+2021,11,2,Glass,15,Ciudad Lineal,179.86
+2021,11,2,Glass,16,Hortaleza,144.64
+2021,11,2,Glass,19,Vicálvaro,160.56
+2021,11,2,Glass,20,San Blas - Canillejas,158.24
+2021,11,2,Glass,21,Barajas,114.9
+2021,11,2,Organic,3,Retiro,700.8
+2021,11,2,Organic,4,Salamanca,962.36
+2021,11,2,Organic,5,Chamartín,955.22
+2021,11,2,Organic,14,Moratalaz,480.08
+2021,11,2,Organic,15,Ciudad Lineal,1121.84
+2021,11,2,Organic,16,Hortaleza,892.08
+2021,11,2,Organic,19,Vicálvaro,119.82
+2021,11,2,Organic,20,San Blas - Canillejas,824.4
+2021,11,2,Organic,21,Barajas,434.06
+2021,11,2,Packaging,3,Retiro,256.86
+2021,11,2,Packaging,4,Salamanca,338.9
+2021,11,2,Packaging,5,Chamartín,381.26
+2021,11,2,Packaging,14,Moratalaz,236.1
+2021,11,2,Packaging,15,Ciudad Lineal,614.52
+2021,11,2,Packaging,16,Hortaleza,579.3
+2021,11,2,Packaging,19,Vicálvaro,275.18
+2021,11,2,Packaging,20,San Blas - Canillejas,458.84
+2021,11,2,Packaging,21,Barajas,131.62
+2021,11,2,Paper,3,Retiro,312.72
+2021,11,2,Paper,4,Salamanca,551.72
+2021,11,2,Paper,5,Chamartín,352.87
+2021,11,2,Paper,14,Moratalaz,102.58
+2021,11,2,Paper,15,Ciudad Lineal,433.86
+2021,11,2,Paper,16,Hortaleza,302.61
+2021,11,2,Paper,19,Vicálvaro,78.4
+2021,11,2,Paper,20,San Blas - Canillejas,373.96
+2021,11,2,Paper,21,Barajas,61.21
+2021,11,2,Rest,3,Retiro,1587.6
+2021,11,2,Rest,4,Salamanca,2509.94
+2021,11,2,Rest,5,Chamartín,2258.58
+2021,11,2,Rest,14,Moratalaz,1245.72
+2021,11,2,Rest,15,Ciudad Lineal,3111.08
+2021,11,2,Rest,16,Hortaleza,2942.0
+2021,11,2,Rest,19,Vicálvaro,1781.88
+2021,11,2,Rest,20,San Blas - Canillejas,2500.7
+2021,11,2,Rest,21,Barajas,817.74
+2021,11,3,CDW,2,Arganzuela,33.47
+2021,11,3,CDW,11,Carabanchel,54.44
+2021,11,3,CDW,12,Usera,45.29
+2021,11,3,CDW,13,Puente de Vallecas,51.69
+2021,11,3,CDW,17,Villaverde,49.8
+2021,11,3,CDW,18,Villa de Vallecas,113.32
+2021,11,3,cleanPoints,2,Arganzuela,62.9
+2021,11,3,cleanPoints,11,Carabanchel,39.64
+2021,11,3,cleanPoints,12,Usera,23.24
+2021,11,3,cleanPoints,13,Puente de Vallecas,33.14
+2021,11,3,cleanPoints,17,Villaverde,33.92
+2021,11,3,cleanPoints,18,Villa de Vallecas,55.44
+2021,11,3,Clinicians,12,Usera,158.56
+2021,11,3,Clinicians,13,Puente de Vallecas,40.5
+2021,11,3,Glass,2,Arganzuela,284.06
+2021,11,3,Glass,11,Carabanchel,284.52
+2021,11,3,Glass,12,Usera,106.96
+2021,11,3,Glass,13,Puente de Vallecas,168.0
+2021,11,3,Glass,17,Villaverde,134.66
+2021,11,3,Glass,18,Villa de Vallecas,66.64
+2021,11,3,Organic,2,Arganzuela,643.42
+2021,11,3,Organic,11,Carabanchel,1161.98
+2021,11,3,Organic,12,Usera,535.48
+2021,11,3,Organic,13,Puente de Vallecas,953.78
+2021,11,3,Organic,17,Villaverde,704.2
+2021,11,3,Organic,18,Villa de Vallecas,1399.9
+2021,11,3,Packaging,2,Arganzuela,354.74
+2021,11,3,Packaging,11,Carabanchel,770.0
+2021,11,3,Packaging,12,Usera,393.32
+2021,11,3,Packaging,13,Puente de Vallecas,784.84
+2021,11,3,Packaging,17,Villaverde,503.84
+2021,11,3,Packaging,18,Villa de Vallecas,319.66
+2021,11,3,Paper,2,Arganzuela,407.68
+2021,11,3,Paper,11,Carabanchel,305.46
+2021,11,3,Paper,12,Usera,140.86
+2021,11,3,Paper,13,Puente de Vallecas,265.18
+2021,11,3,Paper,17,Villaverde,165.22
+2021,11,3,Paper,18,Villa de Vallecas,159.38
+2021,11,3,Rest,2,Arganzuela,1911.7
+2021,11,3,Rest,11,Carabanchel,4265.54
+2021,11,3,Rest,12,Usera,2059.7
+2021,11,3,Rest,13,Puente de Vallecas,3900.2
+2021,11,3,Rest,17,Villaverde,2500.84
+2021,11,3,Rest,18,Villa de Vallecas,2843.84
+2021,12,1,CDW,1,Centro,181.47
+2021,12,1,CDW,6,Tetuán,27.175
+2021,12,1,CDW,7,Chamberí,18.275
+2021,12,1,CDW,8,Fuencarral - El Pardo,60.18
+2021,12,1,CDW,9,Moncloa - Aravaca,53.06
+2021,12,1,CDW,10,Latina,44.72
+2021,12,1,cleanPoints,8,Fuencarral - El Pardo,109.44
+2021,12,1,cleanPoints,9,Moncloa - Aravaca,67.4
+2021,12,1,cleanPoints,10,Latina,110.28
+2021,12,1,Clinicians,1,Centro,164.72
+2021,12,1,Clinicians,6,Tetuán,14.38
+2021,12,1,Clinicians,8,Fuencarral - El Pardo,319.12
+2021,12,1,Clinicians,9,Moncloa - Aravaca,226.42
+2021,12,1,Clinicians,10,Latina,22.74
+2021,12,1,Glass,1,Centro,752.42
+2021,12,1,Glass,6,Tetuán,394.48
+2021,12,1,Glass,7,Chamberí,248.9
+2021,12,1,Glass,8,Fuencarral - El Pardo,433.44
+2021,12,1,Glass,9,Moncloa - Aravaca,249.86
+2021,12,1,Glass,10,Latina,177.92
+2021,12,1,horseBed,9,Moncloa - Aravaca,44.535
+2021,12,1,Organic,1,Centro,977.26
+2021,12,1,Organic,6,Tetuán,774.42
+2021,12,1,Organic,7,Chamberí,891.52
+2021,12,1,Organic,8,Fuencarral - El Pardo,1530.08
+2021,12,1,Organic,9,Moncloa - Aravaca,981.3
+2021,12,1,Organic,10,Latina,1313.76
+2021,12,1,Packaging,1,Centro,243.78
+2021,12,1,Packaging,6,Tetuán,397.32
+2021,12,1,Packaging,7,Chamberí,331.08
+2021,12,1,Packaging,8,Fuencarral - El Pardo,702.32
+2021,12,1,Packaging,9,Moncloa - Aravaca,351.26
+2021,12,1,Packaging,10,Latina,607.34
+2021,12,1,Paper,1,Centro,549.8
+2021,12,1,Paper,6,Tetuán,451.34
+2021,12,1,Paper,7,Chamberí,369.16
+2021,12,1,Paper,8,Fuencarral - El Pardo,702.24
+2021,12,1,Paper,9,Moncloa - Aravaca,313.88
+2021,12,1,Paper,10,Latina,334.0
+2021,12,1,Rest,1,Centro,4558.48
+2021,12,1,Rest,6,Tetuán,2681.58
+2021,12,1,Rest,7,Chamberí,2348.68
+2021,12,1,Rest,8,Fuencarral - El Pardo,3620.2
+2021,12,1,Rest,9,Moncloa - Aravaca,2550.12
+2021,12,1,Rest,10,Latina,3533.3
+2021,12,2,CDW,3,Retiro,62.9
+2021,12,2,CDW,4,Salamanca,40.0
+2021,12,2,CDW,5,Chamartín,80.88
+2021,12,2,CDW,14,Moratalaz,73.04
+2021,12,2,CDW,15,Ciudad Lineal,99.5
+2021,12,2,CDW,16,Hortaleza,41.36
+2021,12,2,CDW,19,Vicálvaro,33.38
+2021,12,2,CDW,20,San Blas - Canillejas,54.42
+2021,12,2,CDW,21,Barajas,14.965
+2021,12,2,cleanPoints,3,Retiro,0.7
+2021,12,2,cleanPoints,5,Chamartín,91.72
+2021,12,2,cleanPoints,14,Moratalaz,43.98
+2021,12,2,cleanPoints,15,Ciudad Lineal,61.5
+2021,12,2,cleanPoints,16,Hortaleza,61.14
+2021,12,2,cleanPoints,19,Vicálvaro,19.46
+2021,12,2,cleanPoints,20,San Blas - Canillejas,57.76
+2021,12,2,cleanPoints,21,Barajas,19.84
+2021,12,2,Clinicians,3,Retiro,180.16
+2021,12,2,Clinicians,4,Salamanca,113.12
+2021,12,2,Clinicians,15,Ciudad Lineal,117.06
+2021,12,2,Glass,3,Retiro,369.86
+2021,12,2,Glass,4,Salamanca,393.8
+2021,12,2,Glass,5,Chamartín,350.94
+2021,12,2,Glass,14,Moratalaz,290.1
+2021,12,2,Glass,15,Ciudad Lineal,177.48
+2021,12,2,Glass,16,Hortaleza,198.66
+2021,12,2,Glass,19,Vicálvaro,172.98
+2021,12,2,Glass,20,San Blas - Canillejas,182.74
+2021,12,2,Glass,21,Barajas,145.96
+2021,12,2,Organic,3,Retiro,723.46
+2021,12,2,Organic,4,Salamanca,1004.48
+2021,12,2,Organic,5,Chamartín,969.42
+2021,12,2,Organic,14,Moratalaz,510.66
+2021,12,2,Organic,15,Ciudad Lineal,1162.18
+2021,12,2,Organic,16,Hortaleza,889.94
+2021,12,2,Organic,19,Vicálvaro,120.84
+2021,12,2,Organic,20,San Blas - Canillejas,834.04
+2021,12,2,Organic,21,Barajas,447.88
+2021,12,2,Packaging,3,Retiro,284.36
+2021,12,2,Packaging,4,Salamanca,390.94
+2021,12,2,Packaging,5,Chamartín,351.26
+2021,12,2,Packaging,14,Moratalaz,240.62
+2021,12,2,Packaging,15,Ciudad Lineal,671.86
+2021,12,2,Packaging,16,Hortaleza,578.76
+2021,12,2,Packaging,19,Vicálvaro,291.34
+2021,12,2,Packaging,20,San Blas - Canillejas,488.62
+2021,12,2,Packaging,21,Barajas,115.16
+2021,12,2,Paper,3,Retiro,357.45
+2021,12,2,Paper,4,Salamanca,595.63
+2021,12,2,Paper,5,Chamartín,375.21
+2021,12,2,Paper,14,Moratalaz,123.36
+2021,12,2,Paper,15,Ciudad Lineal,441.49
+2021,12,2,Paper,16,Hortaleza,323.02
+2021,12,2,Paper,19,Vicálvaro,95.71
+2021,12,2,Paper,20,San Blas - Canillejas,383.34
+2021,12,2,Paper,21,Barajas,78.8
+2021,12,2,Rest,3,Retiro,1605.5
+2021,12,2,Rest,4,Salamanca,2528.32
+2021,12,2,Rest,5,Chamartín,2279.16
+2021,12,2,Rest,14,Moratalaz,1301.6
+2021,12,2,Rest,15,Ciudad Lineal,3222.48
+2021,12,2,Rest,16,Hortaleza,3071.26
+2021,12,2,Rest,19,Vicálvaro,1776.04
+2021,12,2,Rest,20,San Blas - Canillejas,2557.4
+2021,12,2,Rest,21,Barajas,847.94
+2021,12,3,CDW,2,Arganzuela,30.56
+2021,12,3,CDW,11,Carabanchel,50.78
+2021,12,3,CDW,12,Usera,49.45
+2021,12,3,CDW,13,Puente de Vallecas,49.28
+2021,12,3,CDW,17,Villaverde,40.0
+2021,12,3,CDW,18,Villa de Vallecas,68.8
+2021,12,3,cleanPoints,2,Arganzuela,63.08
+2021,12,3,cleanPoints,11,Carabanchel,24.94
+2021,12,3,cleanPoints,12,Usera,30.98
+2021,12,3,cleanPoints,13,Puente de Vallecas,23.8
+2021,12,3,cleanPoints,17,Villaverde,37.66
+2021,12,3,cleanPoints,18,Villa de Vallecas,63.66
+2021,12,3,Clinicians,12,Usera,154.46
+2021,12,3,Clinicians,13,Puente de Vallecas,37.84
+2021,12,3,Glass,2,Arganzuela,352.62
+2021,12,3,Glass,11,Carabanchel,304.08
+2021,12,3,Glass,12,Usera,179.94
+2021,12,3,Glass,13,Puente de Vallecas,172.62
+2021,12,3,Glass,17,Villaverde,111.38
+2021,12,3,Glass,18,Villa de Vallecas,105.16
+2021,12,3,Organic,2,Arganzuela,663.84
+2021,12,3,Organic,11,Carabanchel,1210.2
+2021,12,3,Organic,12,Usera,575.56
+2021,12,3,Organic,13,Puente de Vallecas,983.1
+2021,12,3,Organic,17,Villaverde,734.66
+2021,12,3,Organic,18,Villa de Vallecas,1202.44
+2021,12,3,Packaging,2,Arganzuela,329.8
+2021,12,3,Packaging,11,Carabanchel,819.18
+2021,12,3,Packaging,12,Usera,414.58
+2021,12,3,Packaging,13,Puente de Vallecas,858.04
+2021,12,3,Packaging,17,Villaverde,543.48
+2021,12,3,Packaging,18,Villa de Vallecas,318.94
+2021,12,3,Paper,2,Arganzuela,406.32
+2021,12,3,Paper,11,Carabanchel,343.13
+2021,12,3,Paper,12,Usera,162.04
+2021,12,3,Paper,13,Puente de Vallecas,311.98
+2021,12,3,Paper,17,Villaverde,172.88
+2021,12,3,Paper,18,Villa de Vallecas,157.14
+2021,12,3,Rest,2,Arganzuela,1972.92
+2021,12,3,Rest,11,Carabanchel,4465.82
+2021,12,3,Rest,12,Usera,2171.74
+2021,12,3,Rest,13,Puente de Vallecas,4093.78
+2021,12,3,Rest,17,Villaverde,2571.84
+2021,12,3,Rest,18,Villa de Vallecas,2889.54
+2022,1,1,CDW,1,Centro,143.09
+2022,1,1,CDW,6,Tetuán,40.705
+2022,1,1,CDW,7,Chamberí,44.235
+2022,1,1,CDW,8,Fuencarral - El Pardo,96.135
+2022,1,1,CDW,9,Moncloa - Aravaca,54.33
+2022,1,1,CDW,10,Latina,58.635
+2022,1,1,cleanPoints,8,Fuencarral - El Pardo,123.68
+2022,1,1,cleanPoints,9,Moncloa - Aravaca,55.98
+2022,1,1,cleanPoints,10,Latina,105.44
+2022,1,1,Clinicians,1,Centro,154.82
+2022,1,1,Clinicians,6,Tetuán,11.9
+2022,1,1,Clinicians,8,Fuencarral - El Pardo,292.94
+2022,1,1,Clinicians,9,Moncloa - Aravaca,220.06
+2022,1,1,Clinicians,10,Latina,21.24
+2022,1,1,Glass,1,Centro,695.06
+2022,1,1,Glass,6,Tetuán,389.94
+2022,1,1,Glass,7,Chamberí,237.52
+2022,1,1,Glass,8,Fuencarral - El Pardo,452.58
+2022,1,1,Glass,9,Moncloa - Aravaca,261.9
+2022,1,1,Glass,10,Latina,227.58
+2022,1,1,horseBed,9,Moncloa - Aravaca,51.91
+2022,1,1,Organic,1,Centro,892.96
+2022,1,1,Organic,6,Tetuán,768.58
+2022,1,1,Organic,7,Chamberí,799.66
+2022,1,1,Organic,8,Fuencarral - El Pardo,1455.2
+2022,1,1,Organic,9,Moncloa - Aravaca,943.98
+2022,1,1,Organic,10,Latina,1264.78
+2022,1,1,Packaging,1,Centro,235.06
+2022,1,1,Packaging,6,Tetuán,370.26
+2022,1,1,Packaging,7,Chamberí,349.7
+2022,1,1,Packaging,8,Fuencarral - El Pardo,711.7
+2022,1,1,Packaging,9,Moncloa - Aravaca,331.42
+2022,1,1,Packaging,10,Latina,618.82
+2022,1,1,Paper,1,Centro,508.06
+2022,1,1,Paper,6,Tetuán,438.06
+2022,1,1,Paper,7,Chamberí,372.02
+2022,1,1,Paper,8,Fuencarral - El Pardo,695.09
+2022,1,1,Paper,9,Moncloa - Aravaca,302.38
+2022,1,1,Paper,10,Latina,353.06
+2022,1,1,Rest,1,Centro,4006.16
+2022,1,1,Rest,6,Tetuán,2582.28
+2022,1,1,Rest,7,Chamberí,2208.36
+2022,1,1,Rest,8,Fuencarral - El Pardo,3525.5
+2022,1,1,Rest,9,Moncloa - Aravaca,2389.22
+2022,1,1,Rest,10,Latina,3502.28
+2022,1,2,CDW,3,Retiro,54.46
+2022,1,2,CDW,4,Salamanca,114.3
+2022,1,2,CDW,5,Chamartín,105.82
+2022,1,2,CDW,14,Moratalaz,61.14
+2022,1,2,CDW,15,Ciudad Lineal,74.6
+2022,1,2,CDW,16,Hortaleza,31.2
+2022,1,2,CDW,19,Vicálvaro,23.5
+2022,1,2,CDW,20,San Blas - Canillejas,45.93
+2022,1,2,CDW,21,Barajas,32.83
+2022,1,2,cleanPoints,3,Retiro,2.44
+2022,1,2,cleanPoints,5,Chamartín,100.48
+2022,1,2,cleanPoints,14,Moratalaz,44.86
+2022,1,2,cleanPoints,15,Ciudad Lineal,65.62
+2022,1,2,cleanPoints,16,Hortaleza,63.78
+2022,1,2,cleanPoints,19,Vicálvaro,22.5
+2022,1,2,cleanPoints,20,San Blas - Canillejas,55.08
+2022,1,2,cleanPoints,21,Barajas,34.0
+2022,1,2,Clinicians,3,Retiro,175.54
+2022,1,2,Clinicians,4,Salamanca,101.84
+2022,1,2,Clinicians,15,Ciudad Lineal,106.04
+2022,1,2,Clothes,14,Moratalaz,0.18
+2022,1,2,Glass,3,Retiro,325.7
+2022,1,2,Glass,4,Salamanca,365.58
+2022,1,2,Glass,5,Chamartín,365.64
+2022,1,2,Glass,14,Moratalaz,285.52
+2022,1,2,Glass,15,Ciudad Lineal,231.88
+2022,1,2,Glass,16,Hortaleza,233.52
+2022,1,2,Glass,19,Vicálvaro,150.58
+2022,1,2,Glass,20,San Blas - Canillejas,182.6
+2022,1,2,Glass,21,Barajas,130.24
+2022,1,2,Organic,3,Retiro,708.2
+2022,1,2,Organic,4,Salamanca,957.76
+2022,1,2,Organic,5,Chamartín,907.14
+2022,1,2,Organic,14,Moratalaz,480.3
+2022,1,2,Organic,15,Ciudad Lineal,1118.3
+2022,1,2,Organic,16,Hortaleza,828.64
+2022,1,2,Organic,19,Vicálvaro,124.16
+2022,1,2,Organic,20,San Blas - Canillejas,807.32
+2022,1,2,Organic,21,Barajas,422.02
+2022,1,2,Packaging,3,Retiro,277.16
+2022,1,2,Packaging,4,Salamanca,355.38
+2022,1,2,Packaging,5,Chamartín,372.3
+2022,1,2,Packaging,14,Moratalaz,245.36
+2022,1,2,Packaging,15,Ciudad Lineal,656.18
+2022,1,2,Packaging,16,Hortaleza,583.96
+2022,1,2,Packaging,19,Vicálvaro,278.5
+2022,1,2,Packaging,20,San Blas - Canillejas,487.3
+2022,1,2,Packaging,21,Barajas,132.82
+2022,1,2,Paper,3,Retiro,351.69
+2022,1,2,Paper,4,Salamanca,551.82
+2022,1,2,Paper,5,Chamartín,342.1
+2022,1,2,Paper,14,Moratalaz,147.85
+2022,1,2,Paper,15,Ciudad Lineal,434.11
+2022,1,2,Paper,16,Hortaleza,345.46
+2022,1,2,Paper,19,Vicálvaro,90.91
+2022,1,2,Paper,20,San Blas - Canillejas,368.78
+2022,1,2,Paper,21,Barajas,83.55
+2022,1,2,Rest,3,Retiro,1511.54
+2022,1,2,Rest,4,Salamanca,2386.74
+2022,1,2,Rest,5,Chamartín,2137.42
+2022,1,2,Rest,14,Moratalaz,1288.58
+2022,1,2,Rest,15,Ciudad Lineal,3144.14
+2022,1,2,Rest,16,Hortaleza,2977.26
+2022,1,2,Rest,19,Vicálvaro,1842.96
+2022,1,2,Rest,20,San Blas - Canillejas,2577.54
+2022,1,2,Rest,21,Barajas,812.12
+2022,1,3,CDW,2,Arganzuela,22.62
+2022,1,3,CDW,11,Carabanchel,28.6
+2022,1,3,CDW,12,Usera,37.09
+2022,1,3,CDW,13,Puente de Vallecas,41.85
+2022,1,3,CDW,17,Villaverde,44.62
+2022,1,3,CDW,18,Villa de Vallecas,105.56
+2022,1,3,cleanPoints,2,Arganzuela,57.58
+2022,1,3,cleanPoints,11,Carabanchel,25.58
+2022,1,3,cleanPoints,12,Usera,36.1
+2022,1,3,cleanPoints,13,Puente de Vallecas,33.06
+2022,1,3,cleanPoints,17,Villaverde,39.56
+2022,1,3,cleanPoints,18,Villa de Vallecas,60.84
+2022,1,3,Clinicians,12,Usera,163.92
+2022,1,3,Clinicians,13,Puente de Vallecas,33.8
+2022,1,3,Glass,2,Arganzuela,320.7
+2022,1,3,Glass,11,Carabanchel,266.22
+2022,1,3,Glass,12,Usera,217.3
+2022,1,3,Glass,13,Puente de Vallecas,216.0
+2022,1,3,Glass,17,Villaverde,127.32
+2022,1,3,Glass,18,Villa de Vallecas,154.26
+2022,1,3,Organic,2,Arganzuela,653.78
+2022,1,3,Organic,11,Carabanchel,1180.42
+2022,1,3,Organic,12,Usera,537.54
+2022,1,3,Organic,13,Puente de Vallecas,982.94
+2022,1,3,Organic,17,Villaverde,723.02
+2022,1,3,Organic,18,Villa de Vallecas,1149.04
+2022,1,3,Packaging,2,Arganzuela,354.08
+2022,1,3,Packaging,11,Carabanchel,788.86
+2022,1,3,Packaging,12,Usera,411.52
+2022,1,3,Packaging,13,Puente de Vallecas,849.6
+2022,1,3,Packaging,17,Villaverde,528.76
+2022,1,3,Packaging,18,Villa de Vallecas,322.68
+2022,1,3,Paper,2,Arganzuela,414.0
+2022,1,3,Paper,11,Carabanchel,353.8
+2022,1,3,Paper,12,Usera,168.8
+2022,1,3,Paper,13,Puente de Vallecas,301.04
+2022,1,3,Paper,17,Villaverde,169.24
+2022,1,3,Paper,18,Villa de Vallecas,155.34
+2022,1,3,Rest,2,Arganzuela,1915.96
+2022,1,3,Rest,11,Carabanchel,4419.66
+2022,1,3,Rest,12,Usera,2188.76
+2022,1,3,Rest,13,Puente de Vallecas,4088.56
+2022,1,3,Rest,17,Villaverde,2545.68
+2022,1,3,Rest,18,Villa de Vallecas,2812.74
+2022,2,1,CDW,1,Centro,130.39
+2022,2,1,CDW,6,Tetuán,30.36
+2022,2,1,CDW,7,Chamberí,39.36
+2022,2,1,CDW,8,Fuencarral - El Pardo,94.16
+2022,2,1,CDW,9,Moncloa - Aravaca,70.635
+2022,2,1,CDW,10,Latina,59.76
+2022,2,1,cleanPoints,8,Fuencarral - El Pardo,119.42
+2022,2,1,cleanPoints,9,Moncloa - Aravaca,75.98
+2022,2,1,cleanPoints,10,Latina,79.06
+2022,2,1,Clinicians,1,Centro,161.76
+2022,2,1,Clinicians,6,Tetuán,14.02
+2022,2,1,Clinicians,8,Fuencarral - El Pardo,290.84
+2022,2,1,Clinicians,9,Moncloa - Aravaca,230.76
+2022,2,1,Clinicians,10,Latina,23.54
+2022,2,1,Clothes,6,Tetuán,0.18
+2022,2,1,Clothes,8,Fuencarral - El Pardo,0.54
+2022,2,1,Clothes,9,Moncloa - Aravaca,0.36
+2022,2,1,Clothes,10,Latina,0.36
+2022,2,1,Glass,1,Centro,680.28
+2022,2,1,Glass,6,Tetuán,359.48
+2022,2,1,Glass,7,Chamberí,213.82
+2022,2,1,Glass,8,Fuencarral - El Pardo,399.56
+2022,2,1,Glass,9,Moncloa - Aravaca,176.52
+2022,2,1,Glass,10,Latina,165.2
+2022,2,1,horseBed,9,Moncloa - Aravaca,55.03
+2022,2,1,Organic,1,Centro,887.14
+2022,2,1,Organic,6,Tetuán,709.86
+2022,2,1,Organic,7,Chamberí,776.8
+2022,2,1,Organic,8,Fuencarral - El Pardo,1360.3
+2022,2,1,Organic,9,Moncloa - Aravaca,890.28
+2022,2,1,Organic,10,Latina,1112.64
+2022,2,1,Packaging,1,Centro,223.68
+2022,2,1,Packaging,6,Tetuán,329.48
+2022,2,1,Packaging,7,Chamberí,328.8
+2022,2,1,Packaging,8,Fuencarral - El Pardo,621.36
+2022,2,1,Packaging,9,Moncloa - Aravaca,290.74
+2022,2,1,Packaging,10,Latina,544.76
+2022,2,1,Paper,1,Centro,461.55
+2022,2,1,Paper,6,Tetuán,395.24
+2022,2,1,Paper,7,Chamberí,352.73
+2022,2,1,Paper,8,Fuencarral - El Pardo,579.28
+2022,2,1,Paper,9,Moncloa - Aravaca,320.69
+2022,2,1,Paper,10,Latina,269.08
+2022,2,1,Rest,1,Centro,3904.44
+2022,2,1,Rest,6,Tetuán,2403.66
+2022,2,1,Rest,7,Chamberí,2120.44
+2022,2,1,Rest,8,Fuencarral - El Pardo,3126.14
+2022,2,1,Rest,9,Moncloa - Aravaca,2249.62
+2022,2,1,Rest,10,Latina,3066.16
+2022,2,2,CDW,3,Retiro,44.92
+2022,2,2,CDW,4,Salamanca,53.18
+2022,2,2,CDW,5,Chamartín,56.9
+2022,2,2,CDW,14,Moratalaz,22.4
+2022,2,2,CDW,15,Ciudad Lineal,84.04
+2022,2,2,CDW,16,Hortaleza,42.74
+2022,2,2,CDW,19,Vicálvaro,108.62
+2022,2,2,CDW,20,San Blas - Canillejas,56.28
+2022,2,2,CDW,21,Barajas,23.98
+2022,2,2,cleanPoints,3,Retiro,2.06
+2022,2,2,cleanPoints,5,Chamartín,91.46
+2022,2,2,cleanPoints,14,Moratalaz,51.16
+2022,2,2,cleanPoints,15,Ciudad Lineal,58.46
+2022,2,2,cleanPoints,16,Hortaleza,58.1
+2022,2,2,cleanPoints,19,Vicálvaro,19.96
+2022,2,2,cleanPoints,20,San Blas - Canillejas,48.74
+2022,2,2,cleanPoints,21,Barajas,29.1
+2022,2,2,Clinicians,3,Retiro,167.8
+2022,2,2,Clinicians,4,Salamanca,111.62
+2022,2,2,Clinicians,15,Ciudad Lineal,108.66
+2022,2,2,Clothes,19,Vicálvaro,0.18
+2022,2,2,Glass,3,Retiro,282.46
+2022,2,2,Glass,4,Salamanca,317.64
+2022,2,2,Glass,5,Chamartín,299.2
+2022,2,2,Glass,14,Moratalaz,248.68
+2022,2,2,Glass,15,Ciudad Lineal,132.8
+2022,2,2,Glass,16,Hortaleza,203.9
+2022,2,2,Glass,19,Vicálvaro,147.4
+2022,2,2,Glass,20,San Blas - Canillejas,160.64
+2022,2,2,Glass,21,Barajas,78.8
+2022,2,2,Organic,3,Retiro,658.88
+2022,2,2,Organic,4,Salamanca,919.7
+2022,2,2,Organic,5,Chamartín,865.1
+2022,2,2,Organic,14,Moratalaz,421.04
+2022,2,2,Organic,15,Ciudad Lineal,1014.66
+2022,2,2,Organic,16,Hortaleza,769.72
+2022,2,2,Organic,19,Vicálvaro,101.38
+2022,2,2,Organic,20,San Blas - Canillejas,719.08
+2022,2,2,Organic,21,Barajas,364.26
+2022,2,2,Packaging,3,Retiro,243.04
+2022,2,2,Packaging,4,Salamanca,329.88
+2022,2,2,Packaging,5,Chamartín,342.6
+2022,2,2,Packaging,14,Moratalaz,217.98
+2022,2,2,Packaging,15,Ciudad Lineal,572.32
+2022,2,2,Packaging,16,Hortaleza,521.54
+2022,2,2,Packaging,19,Vicálvaro,243.66
+2022,2,2,Packaging,20,San Blas - Canillejas,433.58
+2022,2,2,Packaging,21,Barajas,128.48
+2022,2,2,Paper,3,Retiro,302.74
+2022,2,2,Paper,4,Salamanca,485.69
+2022,2,2,Paper,5,Chamartín,298.69
+2022,2,2,Paper,14,Moratalaz,102.33
+2022,2,2,Paper,15,Ciudad Lineal,390.06
+2022,2,2,Paper,16,Hortaleza,307.64
+2022,2,2,Paper,19,Vicálvaro,53.86
+2022,2,2,Paper,20,San Blas - Canillejas,329.91
+2022,2,2,Paper,21,Barajas,42.83
+2022,2,2,Rest,3,Retiro,1361.88
+2022,2,2,Rest,4,Salamanca,2269.34
+2022,2,2,Rest,5,Chamartín,2031.98
+2022,2,2,Rest,14,Moratalaz,1137.42
+2022,2,2,Rest,15,Ciudad Lineal,2863.54
+2022,2,2,Rest,16,Hortaleza,2625.8
+2022,2,2,Rest,19,Vicálvaro,1733.96
+2022,2,2,Rest,20,San Blas - Canillejas,2328.3
+2022,2,2,Rest,21,Barajas,737.48
+2022,2,3,CDW,2,Arganzuela,31.27
+2022,2,3,CDW,11,Carabanchel,40.59
+2022,2,3,CDW,12,Usera,44.09
+2022,2,3,CDW,13,Puente de Vallecas,59.92
+2022,2,3,CDW,17,Villaverde,53.19
+2022,2,3,CDW,18,Villa de Vallecas,70.01
+2022,2,3,cleanPoints,2,Arganzuela,58.6
+2022,2,3,cleanPoints,11,Carabanchel,25.84
+2022,2,3,cleanPoints,12,Usera,31.18
+2022,2,3,cleanPoints,13,Puente de Vallecas,35.02
+2022,2,3,cleanPoints,17,Villaverde,37.14
+2022,2,3,cleanPoints,18,Villa de Vallecas,74.52
+2022,2,3,Clinicians,12,Usera,150.84
+2022,2,3,Clinicians,13,Puente de Vallecas,35.92
+2022,2,3,Glass,2,Arganzuela,163.86
+2022,2,3,Glass,11,Carabanchel,233.94
+2022,2,3,Glass,12,Usera,181.84
+2022,2,3,Glass,13,Puente de Vallecas,186.6
+2022,2,3,Glass,17,Villaverde,123.46
+2022,2,3,Glass,18,Villa de Vallecas,166.88
+2022,2,3,Organic,2,Arganzuela,606.24
+2022,2,3,Organic,11,Carabanchel,1037.7
+2022,2,3,Organic,12,Usera,475.5
+2022,2,3,Organic,13,Puente de Vallecas,853.9
+2022,2,3,Organic,17,Villaverde,653.6
+2022,2,3,Organic,18,Villa de Vallecas,1099.2
+2022,2,3,Packaging,2,Arganzuela,317.82
+2022,2,3,Packaging,11,Carabanchel,715.78
+2022,2,3,Packaging,12,Usera,367.78
+2022,2,3,Packaging,13,Puente de Vallecas,738.22
+2022,2,3,Packaging,17,Villaverde,477.6
+2022,2,3,Packaging,18,Villa de Vallecas,287.84
+2022,2,3,Paper,2,Arganzuela,354.7
+2022,2,3,Paper,11,Carabanchel,312.94
+2022,2,3,Paper,12,Usera,128.98
+2022,2,3,Paper,13,Puente de Vallecas,237.8
+2022,2,3,Paper,17,Villaverde,134.78
+2022,2,3,Paper,18,Villa de Vallecas,120.88
+2022,2,3,Rest,2,Arganzuela,1732.18
+2022,2,3,Rest,11,Carabanchel,3922.94
+2022,2,3,Rest,12,Usera,1963.38
+2022,2,3,Rest,13,Puente de Vallecas,3611.92
+2022,2,3,Rest,17,Villaverde,2314.24
+2022,2,3,Rest,18,Villa de Vallecas,2427.52
+2022,3,1,CDW,1,Centro,135.105
+2022,3,1,CDW,6,Tetuán,28.955
+2022,3,1,CDW,7,Chamberí,47.395
+2022,3,1,CDW,8,Fuencarral - El Pardo,99.815
+2022,3,1,CDW,9,Moncloa - Aravaca,68.535
+2022,3,1,CDW,10,Latina,55.315
+2022,3,1,cleanPoints,8,Fuencarral - El Pardo,125.1
+2022,3,1,cleanPoints,9,Moncloa - Aravaca,56.44
+2022,3,1,cleanPoints,10,Latina,121.94
+2022,3,1,Clinicians,1,Centro,186.42
+2022,3,1,Clinicians,6,Tetuán,14.0
+2022,3,1,Clinicians,8,Fuencarral - El Pardo,317.04
+2022,3,1,Clinicians,9,Moncloa - Aravaca,265.72
+2022,3,1,Clinicians,10,Latina,27.6
+2022,3,1,Clothes,9,Moncloa - Aravaca,0.18
+2022,3,1,Clothes,10,Latina,0.36
+2022,3,1,Glass,1,Centro,760.68
+2022,3,1,Glass,6,Tetuán,431.06
+2022,3,1,Glass,7,Chamberí,244.94
+2022,3,1,Glass,8,Fuencarral - El Pardo,441.72
+2022,3,1,Glass,9,Moncloa - Aravaca,200.94
+2022,3,1,Glass,10,Latina,180.4
+2022,3,1,horseBed,9,Moncloa - Aravaca,69.485
+2022,3,1,Organic,1,Centro,1013.14
+2022,3,1,Organic,6,Tetuán,811.58
+2022,3,1,Organic,7,Chamberí,868.62
+2022,3,1,Organic,8,Fuencarral - El Pardo,1521.02
+2022,3,1,Organic,9,Moncloa - Aravaca,1003.94
+2022,3,1,Organic,10,Latina,1253.24
+2022,3,1,Packaging,1,Centro,256.16
+2022,3,1,Packaging,6,Tetuán,367.52
+2022,3,1,Packaging,7,Chamberí,380.0
+2022,3,1,Packaging,8,Fuencarral - El Pardo,713.06
+2022,3,1,Packaging,9,Moncloa - Aravaca,325.96
+2022,3,1,Packaging,10,Latina,650.4
+2022,3,1,Paper,1,Centro,523.82
+2022,3,1,Paper,6,Tetuán,455.4
+2022,3,1,Paper,7,Chamberí,410.56
+2022,3,1,Paper,8,Fuencarral - El Pardo,695.48
+2022,3,1,Paper,9,Moncloa - Aravaca,332.59
+2022,3,1,Paper,10,Latina,292.28
+2022,3,1,Rest,1,Centro,4460.98
+2022,3,1,Rest,6,Tetuán,2641.04
+2022,3,1,Rest,7,Chamberí,2325.2
+2022,3,1,Rest,8,Fuencarral - El Pardo,3486.78
+2022,3,1,Rest,9,Moncloa - Aravaca,2438.72
+2022,3,1,Rest,10,Latina,3367.92
+2022,3,2,CDW,3,Retiro,14.12
+2022,3,2,CDW,4,Salamanca,62.84
+2022,3,2,CDW,5,Chamartín,111.65
+2022,3,2,CDW,14,Moratalaz,83.71
+2022,3,2,CDW,15,Ciudad Lineal,112.12
+2022,3,2,CDW,16,Hortaleza,90.34
+2022,3,2,CDW,19,Vicálvaro,68.86
+2022,3,2,CDW,20,San Blas - Canillejas,89.68
+2022,3,2,CDW,21,Barajas,22.82
+2022,3,2,cleanPoints,3,Retiro,1.68
+2022,3,2,cleanPoints,5,Chamartín,88.54
+2022,3,2,cleanPoints,14,Moratalaz,48.66
+2022,3,2,cleanPoints,15,Ciudad Lineal,74.76
+2022,3,2,cleanPoints,16,Hortaleza,61.22
+2022,3,2,cleanPoints,19,Vicálvaro,25.5
+2022,3,2,cleanPoints,20,San Blas - Canillejas,71.88
+2022,3,2,cleanPoints,21,Barajas,36.82
+2022,3,2,Clinicians,3,Retiro,189.02
+2022,3,2,Clinicians,4,Salamanca,132.9
+2022,3,2,Clinicians,15,Ciudad Lineal,131.18
+2022,3,2,Glass,3,Retiro,351.8
+2022,3,2,Glass,4,Salamanca,403.72
+2022,3,2,Glass,5,Chamartín,345.76
+2022,3,2,Glass,14,Moratalaz,269.62
+2022,3,2,Glass,15,Ciudad Lineal,192.86
+2022,3,2,Glass,16,Hortaleza,191.38
+2022,3,2,Glass,19,Vicálvaro,183.44
+2022,3,2,Glass,20,San Blas - Canillejas,171.16
+2022,3,2,Glass,21,Barajas,138.16
+2022,3,2,Organic,3,Retiro,720.5
+2022,3,2,Organic,4,Salamanca,1036.52
+2022,3,2,Organic,5,Chamartín,980.76
+2022,3,2,Organic,14,Moratalaz,486.98
+2022,3,2,Organic,15,Ciudad Lineal,1083.12
+2022,3,2,Organic,16,Hortaleza,845.88
+2022,3,2,Organic,19,Vicálvaro,133.66
+2022,3,2,Organic,20,San Blas - Canillejas,802.86
+2022,3,2,Organic,21,Barajas,443.24
+2022,3,2,Packaging,3,Retiro,271.38
+2022,3,2,Packaging,4,Salamanca,361.78
+2022,3,2,Packaging,5,Chamartín,392.5
+2022,3,2,Packaging,14,Moratalaz,223.42
+2022,3,2,Packaging,15,Ciudad Lineal,655.2
+2022,3,2,Packaging,16,Hortaleza,626.92
+2022,3,2,Packaging,19,Vicálvaro,309.8
+2022,3,2,Packaging,20,San Blas - Canillejas,480.2
+2022,3,2,Packaging,21,Barajas,143.78
+2022,3,2,Paper,3,Retiro,333.66
+2022,3,2,Paper,4,Salamanca,566.59
+2022,3,2,Paper,5,Chamartín,364.35
+2022,3,2,Paper,14,Moratalaz,120.96
+2022,3,2,Paper,15,Ciudad Lineal,418.24
+2022,3,2,Paper,16,Hortaleza,352.01
+2022,3,2,Paper,19,Vicálvaro,87.84
+2022,3,2,Paper,20,San Blas - Canillejas,385.6
+2022,3,2,Paper,21,Barajas,66.1
+2022,3,2,Rest,3,Retiro,1485.12
+2022,3,2,Rest,4,Salamanca,2540.88
+2022,3,2,Rest,5,Chamartín,2286.74
+2022,3,2,Rest,14,Moratalaz,1236.34
+2022,3,2,Rest,15,Ciudad Lineal,3219.3
+2022,3,2,Rest,16,Hortaleza,2889.64
+2022,3,2,Rest,19,Vicálvaro,1961.9
+2022,3,2,Rest,20,San Blas - Canillejas,2651.66
+2022,3,2,Rest,21,Barajas,841.52
+2022,3,3,CDW,2,Arganzuela,27.6
+2022,3,3,CDW,11,Carabanchel,43.99
+2022,3,3,CDW,12,Usera,61.29
+2022,3,3,CDW,13,Puente de Vallecas,29.63
+2022,3,3,CDW,17,Villaverde,56.8
+2022,3,3,CDW,18,Villa de Vallecas,100.49
+2022,3,3,cleanPoints,2,Arganzuela,67.96
+2022,3,3,cleanPoints,11,Carabanchel,40.18
+2022,3,3,cleanPoints,12,Usera,39.92
+2022,3,3,cleanPoints,13,Puente de Vallecas,32.12
+2022,3,3,cleanPoints,17,Villaverde,47.18
+2022,3,3,cleanPoints,18,Villa de Vallecas,69.96
+2022,3,3,Clinicians,12,Usera,165.16
+2022,3,3,Clinicians,13,Puente de Vallecas,40.1
+2022,3,3,Clothes,17,Villaverde,0.18
+2022,3,3,Glass,2,Arganzuela,108.06
+2022,3,3,Glass,11,Carabanchel,190.62
+2022,3,3,Glass,12,Usera,282.98
+2022,3,3,Glass,13,Puente de Vallecas,261.78
+2022,3,3,Glass,17,Villaverde,94.04
+2022,3,3,Glass,18,Villa de Vallecas,199.22
+2022,3,3,Organic,2,Arganzuela,671.86
+2022,3,3,Organic,11,Carabanchel,1161.44
+2022,3,3,Organic,12,Usera,528.22
+2022,3,3,Organic,13,Puente de Vallecas,946.54
+2022,3,3,Organic,17,Villaverde,716.86
+2022,3,3,Organic,18,Villa de Vallecas,1377.68
+2022,3,3,Packaging,2,Arganzuela,352.0
+2022,3,3,Packaging,11,Carabanchel,801.7
+2022,3,3,Packaging,12,Usera,413.6
+2022,3,3,Packaging,13,Puente de Vallecas,837.38
+2022,3,3,Packaging,17,Villaverde,537.18
+2022,3,3,Packaging,18,Villa de Vallecas,332.44
+2022,3,3,Paper,2,Arganzuela,385.7
+2022,3,3,Paper,11,Carabanchel,350.72
+2022,3,3,Paper,12,Usera,149.1
+2022,3,3,Paper,13,Puente de Vallecas,263.66
+2022,3,3,Paper,17,Villaverde,162.82
+2022,3,3,Paper,18,Villa de Vallecas,149.3
+2022,3,3,Rest,2,Arganzuela,1946.18
+2022,3,3,Rest,11,Carabanchel,4391.26
+2022,3,3,Rest,12,Usera,2170.73
+2022,3,3,Rest,13,Puente de Vallecas,3865.0
+2022,3,3,Rest,17,Villaverde,2537.2
+2022,3,3,Rest,18,Villa de Vallecas,2763.96
+2022,4,1,CDW,1,Centro,154.69
+2022,4,1,CDW,6,Tetuán,50.74
+2022,4,1,CDW,7,Chamberí,48.995
+2022,4,1,CDW,8,Fuencarral - El Pardo,99.905
+2022,4,1,CDW,9,Moncloa - Aravaca,60.65
+2022,4,1,CDW,10,Latina,59.07
+2022,4,1,cleanPoints,8,Fuencarral - El Pardo,108.92
+2022,4,1,cleanPoints,9,Moncloa - Aravaca,66.7
+2022,4,1,cleanPoints,10,Latina,109.0
+2022,4,1,Clinicians,1,Centro,162.26
+2022,4,1,Clinicians,6,Tetuán,12.3
+2022,4,1,Clinicians,8,Fuencarral - El Pardo,294.68
+2022,4,1,Clinicians,9,Moncloa - Aravaca,240.44
+2022,4,1,Clinicians,10,Latina,26.4
+2022,4,1,Clothes,8,Fuencarral - El Pardo,0.36
+2022,4,1,Clothes,9,Moncloa - Aravaca,0.18
+2022,4,1,Glass,1,Centro,741.48
+2022,4,1,Glass,6,Tetuán,333.72
+2022,4,1,Glass,7,Chamberí,255.88
+2022,4,1,Glass,8,Fuencarral - El Pardo,397.8
+2022,4,1,Glass,9,Moncloa - Aravaca,158.68
+2022,4,1,Glass,10,Latina,187.36
+2022,4,1,horseBed,9,Moncloa - Aravaca,63.95
+2022,4,1,Organic,1,Centro,1014.58
+2022,4,1,Organic,6,Tetuán,771.6
+2022,4,1,Organic,7,Chamberí,794.32
+2022,4,1,Organic,8,Fuencarral - El Pardo,1425.54
+2022,4,1,Organic,9,Moncloa - Aravaca,959.38
+2022,4,1,Organic,10,Latina,1231.8
+2022,4,1,Packaging,1,Centro,241.22
+2022,4,1,Packaging,6,Tetuán,358.72
+2022,4,1,Packaging,7,Chamberí,320.48
+2022,4,1,Packaging,8,Fuencarral - El Pardo,639.5
+2022,4,1,Packaging,9,Moncloa - Aravaca,300.76
+2022,4,1,Packaging,10,Latina,590.4
+2022,4,1,Paper,1,Centro,517.457
+2022,4,1,Paper,6,Tetuán,413.823
+2022,4,1,Paper,7,Chamberí,328.6
+2022,4,1,Paper,8,Fuencarral - El Pardo,595.66
+2022,4,1,Paper,9,Moncloa - Aravaca,267.53
+2022,4,1,Paper,10,Latina,272.18
+2022,4,1,Rest,1,Centro,4333.86
+2022,4,1,Rest,6,Tetuán,2459.08
+2022,4,1,Rest,7,Chamberí,2102.88
+2022,4,1,Rest,8,Fuencarral - El Pardo,3254.06
+2022,4,1,Rest,9,Moncloa - Aravaca,2292.2
+2022,4,1,Rest,10,Latina,3182.3
+2022,4,2,CDW,3,Retiro,80.305
+2022,4,2,CDW,4,Salamanca,56.82
+2022,4,2,CDW,5,Chamartín,88.48
+2022,4,2,CDW,14,Moratalaz,80.88
+2022,4,2,CDW,15,Ciudad Lineal,101.06
+2022,4,2,CDW,16,Hortaleza,68.785
+2022,4,2,CDW,19,Vicálvaro,36.51
+2022,4,2,CDW,20,San Blas - Canillejas,57.5
+2022,4,2,CDW,21,Barajas,22.06
+2022,4,2,cleanPoints,3,Retiro,2.04
+2022,4,2,cleanPoints,5,Chamartín,85.64
+2022,4,2,cleanPoints,14,Moratalaz,43.2
+2022,4,2,cleanPoints,15,Ciudad Lineal,64.94
+2022,4,2,cleanPoints,16,Hortaleza,62.28
+2022,4,2,cleanPoints,19,Vicálvaro,30.96
+2022,4,2,cleanPoints,20,San Blas - Canillejas,60.62
+2022,4,2,cleanPoints,21,Barajas,26.92
+2022,4,2,Clinicians,3,Retiro,172.96
+2022,4,2,Clinicians,4,Salamanca,117.46
+2022,4,2,Clinicians,15,Ciudad Lineal,115.42
+2022,4,2,Clothes,16,Hortaleza,0.18
+2022,4,2,Glass,3,Retiro,308.74
+2022,4,2,Glass,4,Salamanca,303.22
+2022,4,2,Glass,5,Chamartín,311.54
+2022,4,2,Glass,14,Moratalaz,182.9
+2022,4,2,Glass,15,Ciudad Lineal,148.12
+2022,4,2,Glass,16,Hortaleza,166.48
+2022,4,2,Glass,19,Vicálvaro,182.74
+2022,4,2,Glass,20,San Blas - Canillejas,151.82
+2022,4,2,Glass,21,Barajas,86.76
+2022,4,2,Organic,3,Retiro,660.3
+2022,4,2,Organic,4,Salamanca,980.5
+2022,4,2,Organic,5,Chamartín,901.28
+2022,4,2,Organic,14,Moratalaz,481.06
+2022,4,2,Organic,15,Ciudad Lineal,1082.7
+2022,4,2,Organic,16,Hortaleza,836.0
+2022,4,2,Organic,19,Vicálvaro,214.52
+2022,4,2,Organic,20,San Blas - Canillejas,687.9
+2022,4,2,Organic,21,Barajas,403.12
+2022,4,2,Packaging,3,Retiro,250.24
+2022,4,2,Packaging,4,Salamanca,330.08
+2022,4,2,Packaging,5,Chamartín,342.82
+2022,4,2,Packaging,14,Moratalaz,212.8
+2022,4,2,Packaging,15,Ciudad Lineal,625.46
+2022,4,2,Packaging,16,Hortaleza,533.84
+2022,4,2,Packaging,19,Vicálvaro,294.78
+2022,4,2,Packaging,20,San Blas - Canillejas,457.92
+2022,4,2,Packaging,21,Barajas,116.94
+2022,4,2,Paper,3,Retiro,296.37
+2022,4,2,Paper,4,Salamanca,502.86
+2022,4,2,Paper,5,Chamartín,323.47
+2022,4,2,Paper,14,Moratalaz,102.36
+2022,4,2,Paper,15,Ciudad Lineal,375.7
+2022,4,2,Paper,16,Hortaleza,308.45
+2022,4,2,Paper,19,Vicálvaro,67.04
+2022,4,2,Paper,20,San Blas - Canillejas,325.95
+2022,4,2,Paper,21,Barajas,61.64
+2022,4,2,Rest,3,Retiro,1445.3
+2022,4,2,Rest,4,Salamanca,2288.54
+2022,4,2,Rest,5,Chamartín,2040.24
+2022,4,2,Rest,14,Moratalaz,1144.7
+2022,4,2,Rest,15,Ciudad Lineal,2956.76
+2022,4,2,Rest,16,Hortaleza,2704.0
+2022,4,2,Rest,19,Vicálvaro,1764.22
+2022,4,2,Rest,20,San Blas - Canillejas,2482.62
+2022,4,2,Rest,21,Barajas,798.56
+2022,4,3,CDW,2,Arganzuela,27.87
+2022,4,3,CDW,11,Carabanchel,25.36
+2022,4,3,CDW,12,Usera,59.49
+2022,4,3,CDW,13,Puente de Vallecas,32.93
+2022,4,3,CDW,17,Villaverde,51.91
+2022,4,3,CDW,18,Villa de Vallecas,169.045
+2022,4,3,cleanPoints,2,Arganzuela,52.86
+2022,4,3,cleanPoints,11,Carabanchel,46.78
+2022,4,3,cleanPoints,12,Usera,15.62
+2022,4,3,cleanPoints,13,Puente de Vallecas,36.86
+2022,4,3,cleanPoints,17,Villaverde,48.1
+2022,4,3,cleanPoints,18,Villa de Vallecas,58.92
+2022,4,3,Clinicians,12,Usera,151.14
+2022,4,3,Clinicians,13,Puente de Vallecas,36.1
+2022,4,3,Glass,2,Arganzuela,197.78
+2022,4,3,Glass,11,Carabanchel,153.12
+2022,4,3,Glass,12,Usera,188.54
+2022,4,3,Glass,13,Puente de Vallecas,107.08
+2022,4,3,Glass,17,Villaverde,152.64
+2022,4,3,Glass,18,Villa de Vallecas,272.76
+2022,4,3,Organic,2,Arganzuela,628.78
+2022,4,3,Organic,11,Carabanchel,1111.94
+2022,4,3,Organic,12,Usera,529.3
+2022,4,3,Organic,13,Puente de Vallecas,931.82
+2022,4,3,Organic,17,Villaverde,725.14
+2022,4,3,Organic,18,Villa de Vallecas,1608.52
+2022,4,3,Packaging,2,Arganzuela,323.34
+2022,4,3,Packaging,11,Carabanchel,776.32
+2022,4,3,Packaging,12,Usera,402.3
+2022,4,3,Packaging,13,Puente de Vallecas,811.36
+2022,4,3,Packaging,17,Villaverde,513.48
+2022,4,3,Packaging,18,Villa de Vallecas,306.86
+2022,4,3,Paper,2,Arganzuela,364.08
+2022,4,3,Paper,11,Carabanchel,329.46
+2022,4,3,Paper,12,Usera,127.82
+2022,4,3,Paper,13,Puente de Vallecas,233.54
+2022,4,3,Paper,17,Villaverde,139.64
+2022,4,3,Paper,18,Villa de Vallecas,131.1
+2022,4,3,Rest,2,Arganzuela,1815.48
+2022,4,3,Rest,11,Carabanchel,4137.08
+2022,4,3,Rest,12,Usera,2039.46
+2022,4,3,Rest,13,Puente de Vallecas,3816.7
+2022,4,3,Rest,17,Villaverde,2440.16
+2022,4,3,Rest,18,Villa de Vallecas,2556.38
+2022,5,1,CDW,1,Centro,137.22
+2022,5,1,CDW,6,Tetuán,49.7
+2022,5,1,CDW,7,Chamberí,37.2
+2022,5,1,CDW,8,Fuencarral - El Pardo,114.5
+2022,5,1,CDW,9,Moncloa - Aravaca,65.225
+2022,5,1,CDW,10,Latina,65.325
+2022,5,1,cleanPoints,8,Fuencarral - El Pardo,127.9
+2022,5,1,cleanPoints,9,Moncloa - Aravaca,73.62
+2022,5,1,cleanPoints,10,Latina,118.46
+2022,5,1,Clinicians,1,Centro,172.08
+2022,5,1,Clinicians,6,Tetuán,16.32
+2022,5,1,Clinicians,8,Fuencarral - El Pardo,306.68
+2022,5,1,Clinicians,9,Moncloa - Aravaca,252.56
+2022,5,1,Clinicians,10,Latina,25.56
+2022,5,1,Clothes,9,Moncloa - Aravaca,0.18
+2022,5,1,Glass,1,Centro,821.54
+2022,5,1,Glass,6,Tetuán,394.24
+2022,5,1,Glass,7,Chamberí,237.3
+2022,5,1,Glass,8,Fuencarral - El Pardo,400.94
+2022,5,1,Glass,9,Moncloa - Aravaca,235.98
+2022,5,1,Glass,10,Latina,152.44
+2022,5,1,horseBed,9,Moncloa - Aravaca,42.21
+2022,5,1,Organic,1,Centro,1109.42
+2022,5,1,Organic,6,Tetuán,813.94
+2022,5,1,Organic,7,Chamberí,948.86
+2022,5,1,Organic,8,Fuencarral - El Pardo,1690.5
+2022,5,1,Organic,9,Moncloa - Aravaca,1149.36
+2022,5,1,Organic,10,Latina,1434.38
+2022,5,1,Packaging,1,Centro,263.16
+2022,5,1,Packaging,6,Tetuán,388.94
+2022,5,1,Packaging,7,Chamberí,358.32
+2022,5,1,Packaging,8,Fuencarral - El Pardo,714.88
+2022,5,1,Packaging,9,Moncloa - Aravaca,347.94
+2022,5,1,Packaging,10,Latina,640.36
+2022,5,1,Paper,1,Centro,530.65
+2022,5,1,Paper,6,Tetuán,411.7
+2022,5,1,Paper,7,Chamberí,341.38
+2022,5,1,Paper,8,Fuencarral - El Pardo,599.93
+2022,5,1,Paper,9,Moncloa - Aravaca,301.0
+2022,5,1,Paper,10,Latina,315.8
+2022,5,1,Rest,1,Centro,4651.08
+2022,5,1,Rest,6,Tetuán,2662.56
+2022,5,1,Rest,7,Chamberí,2305.62
+2022,5,1,Rest,8,Fuencarral - El Pardo,3589.94
+2022,5,1,Rest,9,Moncloa - Aravaca,2686.86
+2022,5,1,Rest,10,Latina,3463.44
+2022,5,2,CDW,3,Retiro,54.84
+2022,5,2,CDW,4,Salamanca,81.305
+2022,5,2,CDW,5,Chamartín,76.96
+2022,5,2,CDW,14,Moratalaz,62.64
+2022,5,2,CDW,15,Ciudad Lineal,79.28
+2022,5,2,CDW,16,Hortaleza,47.98
+2022,5,2,CDW,19,Vicálvaro,36.4
+2022,5,2,CDW,20,San Blas - Canillejas,53.24
+2022,5,2,CDW,21,Barajas,36.34
+2022,5,2,cleanPoints,3,Retiro,2.7
+2022,5,2,cleanPoints,5,Chamartín,100.86
+2022,5,2,cleanPoints,14,Moratalaz,44.0
+2022,5,2,cleanPoints,15,Ciudad Lineal,60.08
+2022,5,2,cleanPoints,16,Hortaleza,73.26
+2022,5,2,cleanPoints,19,Vicálvaro,25.66
+2022,5,2,cleanPoints,20,San Blas - Canillejas,74.82
+2022,5,2,cleanPoints,21,Barajas,45.64
+2022,5,2,Clinicians,3,Retiro,175.66
+2022,5,2,Clinicians,4,Salamanca,119.92
+2022,5,2,Clinicians,15,Ciudad Lineal,113.56
+2022,5,2,Glass,3,Retiro,294.92
+2022,5,2,Glass,4,Salamanca,380.5
+2022,5,2,Glass,5,Chamartín,331.4
+2022,5,2,Glass,14,Moratalaz,269.4
+2022,5,2,Glass,15,Ciudad Lineal,168.3
+2022,5,2,Glass,16,Hortaleza,161.66
+2022,5,2,Glass,19,Vicálvaro,176.1
+2022,5,2,Glass,20,San Blas - Canillejas,165.58
+2022,5,2,Glass,21,Barajas,110.66
+2022,5,2,Organic,3,Retiro,739.4
+2022,5,2,Organic,4,Salamanca,1105.08
+2022,5,2,Organic,5,Chamartín,1028.74
+2022,5,2,Organic,14,Moratalaz,519.98
+2022,5,2,Organic,15,Ciudad Lineal,1200.8
+2022,5,2,Organic,16,Hortaleza,940.44
+2022,5,2,Organic,19,Vicálvaro,246.68
+2022,5,2,Organic,20,San Blas - Canillejas,796.26
+2022,5,2,Organic,21,Barajas,534.42
+2022,5,2,Packaging,3,Retiro,275.7
+2022,5,2,Packaging,4,Salamanca,355.04
+2022,5,2,Packaging,5,Chamartín,374.92
+2022,5,2,Packaging,14,Moratalaz,312.04
+2022,5,2,Packaging,15,Ciudad Lineal,572.94
+2022,5,2,Packaging,16,Hortaleza,597.14
+2022,5,2,Packaging,19,Vicálvaro,307.0
+2022,5,2,Packaging,20,San Blas - Canillejas,487.44
+2022,5,2,Packaging,21,Barajas,143.02
+2022,5,2,Paper,3,Retiro,309.15
+2022,5,2,Paper,4,Salamanca,544.85
+2022,5,2,Paper,5,Chamartín,321.58
+2022,5,2,Paper,14,Moratalaz,116.35
+2022,5,2,Paper,15,Ciudad Lineal,397.29
+2022,5,2,Paper,16,Hortaleza,331.74
+2022,5,2,Paper,19,Vicálvaro,63.43
+2022,5,2,Paper,20,San Blas - Canillejas,365.08
+2022,5,2,Paper,21,Barajas,63.3
+2022,5,2,Rest,3,Retiro,1517.92
+2022,5,2,Rest,4,Salamanca,2533.18
+2022,5,2,Rest,5,Chamartín,2257.1
+2022,5,2,Rest,14,Moratalaz,1239.62
+2022,5,2,Rest,15,Ciudad Lineal,3202.22
+2022,5,2,Rest,16,Hortaleza,3001.96
+2022,5,2,Rest,19,Vicálvaro,1906.0
+2022,5,2,Rest,20,San Blas - Canillejas,2719.2
+2022,5,2,Rest,21,Barajas,886.66
+2022,5,3,CDW,2,Arganzuela,30.38
+2022,5,3,CDW,11,Carabanchel,37.68
+2022,5,3,CDW,12,Usera,56.11
+2022,5,3,CDW,13,Puente de Vallecas,41.12
+2022,5,3,CDW,17,Villaverde,65.36
+2022,5,3,CDW,18,Villa de Vallecas,124.2
+2022,5,3,cleanPoints,2,Arganzuela,87.4
+2022,5,3,cleanPoints,11,Carabanchel,27.9
+2022,5,3,cleanPoints,12,Usera,30.02
+2022,5,3,cleanPoints,13,Puente de Vallecas,31.64
+2022,5,3,cleanPoints,17,Villaverde,30.56
+2022,5,3,cleanPoints,18,Villa de Vallecas,63.02
+2022,5,3,Clinicians,12,Usera,155.92
+2022,5,3,Clinicians,13,Puente de Vallecas,35.92
+2022,5,3,Glass,2,Arganzuela,104.84
+2022,5,3,Glass,11,Carabanchel,97.36
+2022,5,3,Glass,12,Usera,338.82
+2022,5,3,Glass,13,Puente de Vallecas,266.98
+2022,5,3,Glass,17,Villaverde,77.88
+2022,5,3,Glass,18,Villa de Vallecas,228.18
+2022,5,3,Organic,2,Arganzuela,689.3
+2022,5,3,Organic,11,Carabanchel,1262.46
+2022,5,3,Organic,12,Usera,625.5
+2022,5,3,Organic,13,Puente de Vallecas,1024.74
+2022,5,3,Organic,17,Villaverde,804.46
+2022,5,3,Organic,18,Villa de Vallecas,1954.14
+2022,5,3,Packaging,2,Arganzuela,357.7
+2022,5,3,Packaging,11,Carabanchel,855.62
+2022,5,3,Packaging,12,Usera,437.26
+2022,5,3,Packaging,13,Puente de Vallecas,873.2
+2022,5,3,Packaging,17,Villaverde,539.72
+2022,5,3,Packaging,18,Villa de Vallecas,338.38
+2022,5,3,Paper,2,Arganzuela,377.74
+2022,5,3,Paper,11,Carabanchel,337.18
+2022,5,3,Paper,12,Usera,139.44
+2022,5,3,Paper,13,Puente de Vallecas,249.42
+2022,5,3,Paper,17,Villaverde,152.36
+2022,5,3,Paper,18,Villa de Vallecas,150.76
+2022,5,3,Rest,2,Arganzuela,1999.56
+2022,5,3,Rest,11,Carabanchel,4634.24
+2022,5,3,Rest,12,Usera,2288.54
+2022,5,3,Rest,13,Puente de Vallecas,4191.18
+2022,5,3,Rest,17,Villaverde,2678.58
+2022,5,3,Rest,18,Villa de Vallecas,2816.52
+2022,6,1,CDW,1,Centro,162.225
+2022,6,1,CDW,6,Tetuán,37.36
+2022,6,1,CDW,7,Chamberí,39.27
+2022,6,1,CDW,8,Fuencarral - El Pardo,109.425
+2022,6,1,CDW,9,Moncloa - Aravaca,74.245
+2022,6,1,CDW,10,Latina,76.37
+2022,6,1,cleanPoints,8,Fuencarral - El Pardo,129.78
+2022,6,1,cleanPoints,9,Moncloa - Aravaca,64.86
+2022,6,1,cleanPoints,10,Latina,108.4
+2022,6,1,Clinicians,1,Centro,169.82
+2022,6,1,Clinicians,6,Tetuán,13.26
+2022,6,1,Clinicians,8,Fuencarral - El Pardo,311.26
+2022,6,1,Clinicians,9,Moncloa - Aravaca,250.46
+2022,6,1,Clinicians,10,Latina,24.2
+2022,6,1,Glass,1,Centro,726.28
+2022,6,1,Glass,6,Tetuán,328.48
+2022,6,1,Glass,7,Chamberí,220.56
+2022,6,1,Glass,8,Fuencarral - El Pardo,427.92
+2022,6,1,Glass,9,Moncloa - Aravaca,160.54
+2022,6,1,Glass,10,Latina,195.42
+2022,6,1,horseBed,9,Moncloa - Aravaca,47.51
+2022,6,1,Organic,1,Centro,1044.82
+2022,6,1,Organic,6,Tetuán,719.74
+2022,6,1,Organic,7,Chamberí,960.24
+2022,6,1,Organic,8,Fuencarral - El Pardo,1602.64
+2022,6,1,Organic,9,Moncloa - Aravaca,1054.54
+2022,6,1,Organic,10,Latina,1310.74
+2022,6,1,Packaging,1,Centro,243.56
+2022,6,1,Packaging,6,Tetuán,379.16
+2022,6,1,Packaging,7,Chamberí,350.74
+2022,6,1,Packaging,8,Fuencarral - El Pardo,708.96
+2022,6,1,Packaging,9,Moncloa - Aravaca,339.76
+2022,6,1,Packaging,10,Latina,609.24
+2022,6,1,Paper,1,Centro,566.53
+2022,6,1,Paper,6,Tetuán,373.81
+2022,6,1,Paper,7,Chamberí,322.68
+2022,6,1,Paper,8,Fuencarral - El Pardo,561.39
+2022,6,1,Paper,9,Moncloa - Aravaca,343.14
+2022,6,1,Paper,10,Latina,296.18
+2022,6,1,Rest,1,Centro,4421.74
+2022,6,1,Rest,6,Tetuán,2549.34
+2022,6,1,Rest,7,Chamberí,2269.36
+2022,6,1,Rest,8,Fuencarral - El Pardo,3467.2
+2022,6,1,Rest,9,Moncloa - Aravaca,2563.26
+2022,6,1,Rest,10,Latina,3318.44
+2022,6,2,CDW,3,Retiro,61.5
+2022,6,2,CDW,4,Salamanca,109.4
+2022,6,2,CDW,5,Chamartín,73.5
+2022,6,2,CDW,14,Moratalaz,61.865
+2022,6,2,CDW,15,Ciudad Lineal,96.325
+2022,6,2,CDW,16,Hortaleza,52.54
+2022,6,2,CDW,19,Vicálvaro,71.17
+2022,6,2,CDW,20,San Blas - Canillejas,50.17
+2022,6,2,CDW,21,Barajas,44.98
+2022,6,2,cleanPoints,3,Retiro,2.38
+2022,6,2,cleanPoints,5,Chamartín,91.68
+2022,6,2,cleanPoints,14,Moratalaz,56.08
+2022,6,2,cleanPoints,15,Ciudad Lineal,74.68
+2022,6,2,cleanPoints,16,Hortaleza,59.22
+2022,6,2,cleanPoints,19,Vicálvaro,25.6
+2022,6,2,cleanPoints,20,San Blas - Canillejas,53.94
+2022,6,2,cleanPoints,21,Barajas,45.24
+2022,6,2,Clinicians,3,Retiro,181.66
+2022,6,2,Clinicians,4,Salamanca,122.64
+2022,6,2,Clinicians,15,Ciudad Lineal,116.24
+2022,6,2,Clothes,14,Moratalaz,0.36
+2022,6,2,Glass,3,Retiro,277.12
+2022,6,2,Glass,4,Salamanca,375.0
+2022,6,2,Glass,5,Chamartín,330.84
+2022,6,2,Glass,14,Moratalaz,202.42
+2022,6,2,Glass,15,Ciudad Lineal,212.12
+2022,6,2,Glass,16,Hortaleza,119.88
+2022,6,2,Glass,19,Vicálvaro,170.44
+2022,6,2,Glass,20,San Blas - Canillejas,170.48
+2022,6,2,Glass,21,Barajas,116.28
+2022,6,2,Organic,3,Retiro,704.34
+2022,6,2,Organic,4,Salamanca,1055.0
+2022,6,2,Organic,5,Chamartín,983.24
+2022,6,2,Organic,14,Moratalaz,495.74
+2022,6,2,Organic,15,Ciudad Lineal,1143.62
+2022,6,2,Organic,16,Hortaleza,947.04
+2022,6,2,Organic,19,Vicálvaro,228.18
+2022,6,2,Organic,20,San Blas - Canillejas,760.8
+2022,6,2,Organic,21,Barajas,460.1
+2022,6,2,Packaging,3,Retiro,274.28
+2022,6,2,Packaging,4,Salamanca,357.58
+2022,6,2,Packaging,5,Chamartín,373.96
+2022,6,2,Packaging,14,Moratalaz,312.56
+2022,6,2,Packaging,15,Ciudad Lineal,560.6
+2022,6,2,Packaging,16,Hortaleza,567.48
+2022,6,2,Packaging,19,Vicálvaro,295.14
+2022,6,2,Packaging,20,San Blas - Canillejas,476.92
+2022,6,2,Packaging,21,Barajas,138.74
+2022,6,2,Paper,3,Retiro,287.27
+2022,6,2,Paper,4,Salamanca,597.25
+2022,6,2,Paper,5,Chamartín,393.83
+2022,6,2,Paper,14,Moratalaz,112.02
+2022,6,2,Paper,15,Ciudad Lineal,406.35
+2022,6,2,Paper,16,Hortaleza,377.23
+2022,6,2,Paper,19,Vicálvaro,77.3
+2022,6,2,Paper,20,San Blas - Canillejas,243.78
+2022,6,2,Paper,21,Barajas,59.63
+2022,6,2,Rest,3,Retiro,1467.34
+2022,6,2,Rest,4,Salamanca,2440.24
+2022,6,2,Rest,5,Chamartín,2195.96
+2022,6,2,Rest,14,Moratalaz,1176.64
+2022,6,2,Rest,15,Ciudad Lineal,3096.54
+2022,6,2,Rest,16,Hortaleza,2910.46
+2022,6,2,Rest,19,Vicálvaro,1743.9
+2022,6,2,Rest,20,San Blas - Canillejas,2578.96
+2022,6,2,Rest,21,Barajas,858.2
+2022,6,3,CDW,2,Arganzuela,29.98
+2022,6,3,CDW,11,Carabanchel,44.15
+2022,6,3,CDW,12,Usera,61.82
+2022,6,3,CDW,13,Puente de Vallecas,30.94
+2022,6,3,CDW,17,Villaverde,48.87
+2022,6,3,CDW,18,Villa de Vallecas,119.46
+2022,6,3,cleanPoints,2,Arganzuela,41.08
+2022,6,3,cleanPoints,11,Carabanchel,33.7
+2022,6,3,cleanPoints,12,Usera,33.3
+2022,6,3,cleanPoints,13,Puente de Vallecas,38.3
+2022,6,3,cleanPoints,17,Villaverde,63.9
+2022,6,3,cleanPoints,18,Villa de Vallecas,67.58
+2022,6,3,Clinicians,12,Usera,165.26
+2022,6,3,Clinicians,13,Puente de Vallecas,35.6
+2022,6,3,Glass,2,Arganzuela,151.38
+2022,6,3,Glass,11,Carabanchel,126.78
+2022,6,3,Glass,12,Usera,356.44
+2022,6,3,Glass,13,Puente de Vallecas,228.86
+2022,6,3,Glass,17,Villaverde,76.34
+2022,6,3,Glass,18,Villa de Vallecas,149.88
+2022,6,3,Organic,2,Arganzuela,669.64
+2022,6,3,Organic,11,Carabanchel,1192.39
+2022,6,3,Organic,12,Usera,579.96
+2022,6,3,Organic,13,Puente de Vallecas,973.02
+2022,6,3,Organic,17,Villaverde,785.36
+2022,6,3,Organic,18,Villa de Vallecas,1794.34
+2022,6,3,Packaging,2,Arganzuela,344.22
+2022,6,3,Packaging,11,Carabanchel,797.16
+2022,6,3,Packaging,12,Usera,408.88
+2022,6,3,Packaging,13,Puente de Vallecas,835.18
+2022,6,3,Packaging,17,Villaverde,537.02
+2022,6,3,Packaging,18,Villa de Vallecas,325.26
+2022,6,3,Paper,2,Arganzuela,373.14
+2022,6,3,Paper,11,Carabanchel,340.3
+2022,6,3,Paper,12,Usera,137.72
+2022,6,3,Paper,13,Puente de Vallecas,231.2
+2022,6,3,Paper,17,Villaverde,157.72
+2022,6,3,Paper,18,Villa de Vallecas,138.66
+2022,6,3,Rest,2,Arganzuela,1901.74
+2022,6,3,Rest,11,Carabanchel,4307.92
+2022,6,3,Rest,12,Usera,1996.6
+2022,6,3,Rest,13,Puente de Vallecas,4007.62
+2022,6,3,Rest,17,Villaverde,2522.0
+2022,6,3,Rest,18,Villa de Vallecas,2874.16
+2022,7,1,CDW,1,Centro,264.725
+2022,7,1,CDW,6,Tetuán,49.66
+2022,7,1,CDW,7,Chamberí,52.21
+2022,7,1,CDW,8,Fuencarral - El Pardo,78.805
+2022,7,1,CDW,9,Moncloa - Aravaca,79.975
+2022,7,1,CDW,10,Latina,47.125
+2022,7,1,cleanPoints,8,Fuencarral - El Pardo,120.7
+2022,7,1,cleanPoints,9,Moncloa - Aravaca,45.0
+2022,7,1,cleanPoints,10,Latina,79.36
+2022,7,1,Clinicians,1,Centro,143.22
+2022,7,1,Clinicians,6,Tetuán,15.76
+2022,7,1,Clinicians,8,Fuencarral - El Pardo,286.36
+2022,7,1,Clinicians,9,Moncloa - Aravaca,222.98
+2022,7,1,Clinicians,10,Latina,24.12
+2022,7,1,Glass,1,Centro,652.96
+2022,7,1,Glass,6,Tetuán,291.58
+2022,7,1,Glass,7,Chamberí,196.02
+2022,7,1,Glass,8,Fuencarral - El Pardo,366.9
+2022,7,1,Glass,9,Moncloa - Aravaca,189.7
+2022,7,1,Glass,10,Latina,157.14
+2022,7,1,horseBed,9,Moncloa - Aravaca,45.285
+2022,7,1,Organic,1,Centro,981.8
+2022,7,1,Organic,6,Tetuán,724.38
+2022,7,1,Organic,7,Chamberí,762.82
+2022,7,1,Organic,8,Fuencarral - El Pardo,1329.04
+2022,7,1,Organic,9,Moncloa - Aravaca,837.84
+2022,7,1,Organic,10,Latina,1129.5
+2022,7,1,Packaging,1,Centro,274.56
+2022,7,1,Packaging,6,Tetuán,366.52
+2022,7,1,Packaging,7,Chamberí,289.68
+2022,7,1,Packaging,8,Fuencarral - El Pardo,639.82
+2022,7,1,Packaging,9,Moncloa - Aravaca,306.12
+2022,7,1,Packaging,10,Latina,570.48
+2022,7,1,Paper,1,Centro,496.29
+2022,7,1,Paper,6,Tetuán,371.66
+2022,7,1,Paper,7,Chamberí,325.74
+2022,7,1,Paper,8,Fuencarral - El Pardo,559.96
+2022,7,1,Paper,9,Moncloa - Aravaca,325.29
+2022,7,1,Paper,10,Latina,280.96
+2022,7,1,Rest,1,Centro,4220.44
+2022,7,1,Rest,6,Tetuán,2348.42
+2022,7,1,Rest,7,Chamberí,1941.86
+2022,7,1,Rest,8,Fuencarral - El Pardo,3064.6
+2022,7,1,Rest,9,Moncloa - Aravaca,2224.04
+2022,7,1,Rest,10,Latina,3075.06
+2022,7,2,CDW,3,Retiro,40.44
+2022,7,2,CDW,4,Salamanca,63.82
+2022,7,2,CDW,5,Chamartín,106.38
+2022,7,2,CDW,14,Moratalaz,15.94
+2022,7,2,CDW,15,Ciudad Lineal,28.74
+2022,7,2,CDW,16,Hortaleza,119.64
+2022,7,2,CDW,19,Vicálvaro,55.095
+2022,7,2,CDW,20,San Blas - Canillejas,94.88
+2022,7,2,CDW,21,Barajas,19.0
+2022,7,2,cleanPoints,3,Retiro,1.84
+2022,7,2,cleanPoints,5,Chamartín,102.52
+2022,7,2,cleanPoints,14,Moratalaz,37.92
+2022,7,2,cleanPoints,15,Ciudad Lineal,74.48
+2022,7,2,cleanPoints,16,Hortaleza,73.96
+2022,7,2,cleanPoints,19,Vicálvaro,32.72
+2022,7,2,cleanPoints,20,San Blas - Canillejas,81.0
+2022,7,2,cleanPoints,21,Barajas,36.22
+2022,7,2,Clinicians,3,Retiro,164.44
+2022,7,2,Clinicians,4,Salamanca,101.76
+2022,7,2,Clinicians,15,Ciudad Lineal,100.42
+2022,7,2,Glass,3,Retiro,261.54
+2022,7,2,Glass,4,Salamanca,302.56
+2022,7,2,Glass,5,Chamartín,291.22
+2022,7,2,Glass,14,Moratalaz,208.42
+2022,7,2,Glass,15,Ciudad Lineal,180.0
+2022,7,2,Glass,16,Hortaleza,167.04
+2022,7,2,Glass,19,Vicálvaro,156.5
+2022,7,2,Glass,20,San Blas - Canillejas,159.14
+2022,7,2,Glass,21,Barajas,91.1
+2022,7,2,Organic,3,Retiro,589.32
+2022,7,2,Organic,4,Salamanca,928.78
+2022,7,2,Organic,5,Chamartín,782.34
+2022,7,2,Organic,14,Moratalaz,410.16
+2022,7,2,Organic,15,Ciudad Lineal,988.2
+2022,7,2,Organic,16,Hortaleza,747.32
+2022,7,2,Organic,19,Vicálvaro,211.14
+2022,7,2,Organic,20,San Blas - Canillejas,647.92
+2022,7,2,Organic,21,Barajas,381.6
+2022,7,2,Packaging,3,Retiro,236.68
+2022,7,2,Packaging,4,Salamanca,320.16
+2022,7,2,Packaging,5,Chamartín,308.7
+2022,7,2,Packaging,14,Moratalaz,305.24
+2022,7,2,Packaging,15,Ciudad Lineal,528.5
+2022,7,2,Packaging,16,Hortaleza,540.36
+2022,7,2,Packaging,19,Vicálvaro,262.64
+2022,7,2,Packaging,20,San Blas - Canillejas,461.14
+2022,7,2,Packaging,21,Barajas,127.68
+2022,7,2,Paper,3,Retiro,254.21
+2022,7,2,Paper,4,Salamanca,477.45
+2022,7,2,Paper,5,Chamartín,366.56
+2022,7,2,Paper,14,Moratalaz,121.55
+2022,7,2,Paper,15,Ciudad Lineal,400.02
+2022,7,2,Paper,16,Hortaleza,404.5
+2022,7,2,Paper,19,Vicálvaro,75.39
+2022,7,2,Paper,20,San Blas - Canillejas,243.79
+2022,7,2,Paper,21,Barajas,49.56
+2022,7,2,Rest,3,Retiro,1263.26
+2022,7,2,Rest,4,Salamanca,2103.4
+2022,7,2,Rest,5,Chamartín,1938.24
+2022,7,2,Rest,14,Moratalaz,1064.08
+2022,7,2,Rest,15,Ciudad Lineal,2799.06
+2022,7,2,Rest,16,Hortaleza,2641.3
+2022,7,2,Rest,19,Vicálvaro,2043.96
+2022,7,2,Rest,20,San Blas - Canillejas,2365.74
+2022,7,2,Rest,21,Barajas,768.72
+2022,7,3,CDW,2,Arganzuela,34.85
+2022,7,3,CDW,11,Carabanchel,32.43
+2022,7,3,CDW,12,Usera,52.1
+2022,7,3,CDW,13,Puente de Vallecas,18.18
+2022,7,3,CDW,17,Villaverde,64.41
+2022,7,3,CDW,18,Villa de Vallecas,89.3
+2022,7,3,cleanPoints,2,Arganzuela,55.88
+2022,7,3,cleanPoints,11,Carabanchel,44.9
+2022,7,3,cleanPoints,12,Usera,58.42
+2022,7,3,cleanPoints,13,Puente de Vallecas,40.26
+2022,7,3,cleanPoints,17,Villaverde,34.88
+2022,7,3,cleanPoints,18,Villa de Vallecas,71.54
+2022,7,3,Clinicians,12,Usera,147.7
+2022,7,3,Clinicians,13,Puente de Vallecas,28.94
+2022,7,3,Glass,2,Arganzuela,115.78
+2022,7,3,Glass,11,Carabanchel,121.6
+2022,7,3,Glass,12,Usera,288.52
+2022,7,3,Glass,13,Puente de Vallecas,227.68
+2022,7,3,Glass,17,Villaverde,67.5
+2022,7,3,Glass,18,Villa de Vallecas,198.46
+2022,7,3,Organic,2,Arganzuela,560.9
+2022,7,3,Organic,11,Carabanchel,1091.64
+2022,7,3,Organic,12,Usera,546.76
+2022,7,3,Organic,13,Puente de Vallecas,915.7
+2022,7,3,Organic,17,Villaverde,738.42
+2022,7,3,Organic,18,Villa de Vallecas,1569.02
+2022,7,3,Packaging,2,Arganzuela,292.74
+2022,7,3,Packaging,11,Carabanchel,769.44
+2022,7,3,Packaging,12,Usera,409.68
+2022,7,3,Packaging,13,Puente de Vallecas,802.0
+2022,7,3,Packaging,17,Villaverde,512.44
+2022,7,3,Packaging,18,Villa de Vallecas,298.62
+2022,7,3,Paper,2,Arganzuela,347.86
+2022,7,3,Paper,11,Carabanchel,329.2
+2022,7,3,Paper,12,Usera,125.3
+2022,7,3,Paper,13,Puente de Vallecas,221.6
+2022,7,3,Paper,17,Villaverde,141.54
+2022,7,3,Paper,18,Villa de Vallecas,131.06
+2022,7,3,Rest,2,Arganzuela,1731.24
+2022,7,3,Rest,11,Carabanchel,4088.78
+2022,7,3,Rest,12,Usera,1964.04
+2022,7,3,Rest,13,Puente de Vallecas,3780.88
+2022,7,3,Rest,17,Villaverde,2384.22
+2022,7,3,Rest,18,Villa de Vallecas,2575.16
+2022,8,1,CDW,1,Centro,145.3
+2022,8,1,CDW,6,Tetuán,42.885
+2022,8,1,CDW,7,Chamberí,46.855
+2022,8,1,CDW,8,Fuencarral - El Pardo,97.65
+2022,8,1,CDW,9,Moncloa - Aravaca,78.73
+2022,8,1,CDW,10,Latina,53.195
+2022,8,1,cleanPoints,8,Fuencarral - El Pardo,105.82
+2022,8,1,cleanPoints,9,Moncloa - Aravaca,42.78
+2022,8,1,cleanPoints,10,Latina,83.1
+2022,8,1,Clinicians,1,Centro,122.96
+2022,8,1,Clinicians,6,Tetuán,10.36
+2022,8,1,Clinicians,8,Fuencarral - El Pardo,262.38
+2022,8,1,Clinicians,9,Moncloa - Aravaca,192.82
+2022,8,1,Clinicians,10,Latina,30.1
+2022,8,1,Clothes,9,Moncloa - Aravaca,0.18
+2022,8,1,Glass,1,Centro,499.4
+2022,8,1,Glass,6,Tetuán,251.66
+2022,8,1,Glass,7,Chamberí,166.92
+2022,8,1,Glass,8,Fuencarral - El Pardo,285.04
+2022,8,1,Glass,9,Moncloa - Aravaca,125.94
+2022,8,1,Glass,10,Latina,136.58
+2022,8,1,horseBed,9,Moncloa - Aravaca,49.47
+2022,8,1,Organic,1,Centro,818.86
+2022,8,1,Organic,6,Tetuán,600.8
+2022,8,1,Organic,7,Chamberí,464.2
+2022,8,1,Organic,8,Fuencarral - El Pardo,1074.26
+2022,8,1,Organic,9,Moncloa - Aravaca,646.5
+2022,8,1,Organic,10,Latina,1017.94
+2022,8,1,Packaging,1,Centro,191.18
+2022,8,1,Packaging,6,Tetuán,316.3
+2022,8,1,Packaging,7,Chamberí,208.12
+2022,8,1,Packaging,8,Fuencarral - El Pardo,496.52
+2022,8,1,Packaging,9,Moncloa - Aravaca,215.62
+2022,8,1,Packaging,10,Latina,498.34
+2022,8,1,Paper,1,Centro,444.98
+2022,8,1,Paper,6,Tetuán,317.88
+2022,8,1,Paper,7,Chamberí,235.82
+2022,8,1,Paper,8,Fuencarral - El Pardo,417.27
+2022,8,1,Paper,9,Moncloa - Aravaca,234.05
+2022,8,1,Paper,10,Latina,257.24
+2022,8,1,Rest,1,Centro,3428.3
+2022,8,1,Rest,6,Tetuán,1915.76
+2022,8,1,Rest,7,Chamberí,1369.12
+2022,8,1,Rest,8,Fuencarral - El Pardo,2456.64
+2022,8,1,Rest,9,Moncloa - Aravaca,1716.42
+2022,8,1,Rest,10,Latina,2640.36
+2022,8,2,CDW,3,Retiro,43.34
+2022,8,2,CDW,4,Salamanca,30.58
+2022,8,2,CDW,5,Chamartín,65.9
+2022,8,2,CDW,14,Moratalaz,42.32
+2022,8,2,CDW,15,Ciudad Lineal,67.935
+2022,8,2,CDW,16,Hortaleza,58.82
+2022,8,2,CDW,19,Vicálvaro,63.8
+2022,8,2,CDW,20,San Blas - Canillejas,102.92
+2022,8,2,CDW,21,Barajas,43.86
+2022,8,2,cleanPoints,3,Retiro,1.32
+2022,8,2,cleanPoints,5,Chamartín,85.9
+2022,8,2,cleanPoints,14,Moratalaz,35.18
+2022,8,2,cleanPoints,15,Ciudad Lineal,61.24
+2022,8,2,cleanPoints,16,Hortaleza,58.4
+2022,8,2,cleanPoints,19,Vicálvaro,32.18
+2022,8,2,cleanPoints,20,San Blas - Canillejas,64.54
+2022,8,2,cleanPoints,21,Barajas,33.88
+2022,8,2,Clinicians,3,Retiro,143.54
+2022,8,2,Clinicians,4,Salamanca,79.34
+2022,8,2,Clinicians,15,Ciudad Lineal,87.44
+2022,8,2,Glass,3,Retiro,239.06
+2022,8,2,Glass,4,Salamanca,209.48
+2022,8,2,Glass,5,Chamartín,170.58
+2022,8,2,Glass,14,Moratalaz,199.5
+2022,8,2,Glass,15,Ciudad Lineal,123.04
+2022,8,2,Glass,16,Hortaleza,138.88
+2022,8,2,Glass,19,Vicálvaro,152.68
+2022,8,2,Glass,20,San Blas - Canillejas,175.22
+2022,8,2,Glass,21,Barajas,64.12
+2022,8,2,Organic,3,Retiro,499.78
+2022,8,2,Organic,4,Salamanca,605.94
+2022,8,2,Organic,5,Chamartín,523.7
+2022,8,2,Organic,14,Moratalaz,389.28
+2022,8,2,Organic,15,Ciudad Lineal,838.0
+2022,8,2,Organic,16,Hortaleza,595.48
+2022,8,2,Organic,19,Vicálvaro,183.3
+2022,8,2,Organic,20,San Blas - Canillejas,568.28
+2022,8,2,Organic,21,Barajas,342.2
+2022,8,2,Packaging,3,Retiro,185.78
+2022,8,2,Packaging,4,Salamanca,231.04
+2022,8,2,Packaging,5,Chamartín,223.48
+2022,8,2,Packaging,14,Moratalaz,227.24
+2022,8,2,Packaging,15,Ciudad Lineal,456.9
+2022,8,2,Packaging,16,Hortaleza,419.3
+2022,8,2,Packaging,19,Vicálvaro,222.94
+2022,8,2,Packaging,20,San Blas - Canillejas,424.3
+2022,8,2,Packaging,21,Barajas,103.3
+2022,8,2,Paper,3,Retiro,223.55
+2022,8,2,Paper,4,Salamanca,314.59
+2022,8,2,Paper,5,Chamartín,245.91
+2022,8,2,Paper,14,Moratalaz,117.88
+2022,8,2,Paper,15,Ciudad Lineal,324.24
+2022,8,2,Paper,16,Hortaleza,319.46
+2022,8,2,Paper,19,Vicálvaro,64.33
+2022,8,2,Paper,20,San Blas - Canillejas,181.94
+2022,8,2,Paper,21,Barajas,45.01
+2022,8,2,Rest,3,Retiro,1078.84
+2022,8,2,Rest,4,Salamanca,1472.3
+2022,8,2,Rest,5,Chamartín,1334.32
+2022,8,2,Rest,14,Moratalaz,923.02
+2022,8,2,Rest,15,Ciudad Lineal,2275.28
+2022,8,2,Rest,16,Hortaleza,2095.5
+2022,8,2,Rest,19,Vicálvaro,1308.02
+2022,8,2,Rest,20,San Blas - Canillejas,2168.6
+2022,8,2,Rest,21,Barajas,642.82
+2022,8,3,CDW,2,Arganzuela,28.92
+2022,8,3,CDW,11,Carabanchel,38.09
+2022,8,3,CDW,12,Usera,35.56
+2022,8,3,CDW,13,Puente de Vallecas,59.31
+2022,8,3,CDW,17,Villaverde,31.48
+2022,8,3,CDW,18,Villa de Vallecas,55.53
+2022,8,3,cleanPoints,2,Arganzuela,56.48
+2022,8,3,cleanPoints,11,Carabanchel,40.58
+2022,8,3,cleanPoints,12,Usera,35.76
+2022,8,3,cleanPoints,13,Puente de Vallecas,28.88
+2022,8,3,cleanPoints,17,Villaverde,36.48
+2022,8,3,cleanPoints,18,Villa de Vallecas,53.58
+2022,8,3,Clinicians,12,Usera,134.36
+2022,8,3,Clinicians,13,Puente de Vallecas,29.18
+2022,8,3,Glass,2,Arganzuela,138.52
+2022,8,3,Glass,11,Carabanchel,95.66
+2022,8,3,Glass,12,Usera,328.74
+2022,8,3,Glass,13,Puente de Vallecas,182.88
+2022,8,3,Glass,17,Villaverde,60.06
+2022,8,3,Glass,18,Villa de Vallecas,107.38
+2022,8,3,Organic,2,Arganzuela,451.32
+2022,8,3,Organic,11,Carabanchel,963.14
+2022,8,3,Organic,12,Usera,509.1
+2022,8,3,Organic,13,Puente de Vallecas,837.3
+2022,8,3,Organic,17,Villaverde,638.12
+2022,8,3,Organic,18,Villa de Vallecas,1537.14
+2022,8,3,Packaging,2,Arganzuela,258.88
+2022,8,3,Packaging,11,Carabanchel,676.1
+2022,8,3,Packaging,12,Usera,384.64
+2022,8,3,Packaging,13,Puente de Vallecas,734.22
+2022,8,3,Packaging,17,Villaverde,469.36
+2022,8,3,Packaging,18,Villa de Vallecas,269.52
+2022,8,3,Paper,2,Arganzuela,300.08
+2022,8,3,Paper,11,Carabanchel,281.26
+2022,8,3,Paper,12,Usera,94.32
+2022,8,3,Paper,13,Puente de Vallecas,189.04
+2022,8,3,Paper,17,Villaverde,119.04
+2022,8,3,Paper,18,Villa de Vallecas,113.86
+2022,8,3,Rest,2,Arganzuela,1365.14
+2022,8,3,Rest,11,Carabanchel,3580.12
+2022,8,3,Rest,12,Usera,1750.7
+2022,8,3,Rest,13,Puente de Vallecas,3350.66
+2022,8,3,Rest,17,Villaverde,2135.04
+2022,8,3,Rest,18,Villa de Vallecas,2138.54
+2022,9,1,CDW,1,Centro,121.64
+2022,9,1,CDW,6,Tetuán,57.215
+2022,9,1,CDW,7,Chamberí,21.325
+2022,9,1,CDW,8,Fuencarral - El Pardo,95.87
+2022,9,1,CDW,9,Moncloa - Aravaca,52.82
+2022,9,1,CDW,10,Latina,40.435
+2022,9,1,cleanPoints,8,Fuencarral - El Pardo,134.26
+2022,9,1,cleanPoints,9,Moncloa - Aravaca,51.92
+2022,9,1,cleanPoints,10,Latina,119.58
+2022,9,1,Clinicians,1,Centro,155.72
+2022,9,1,Clinicians,6,Tetuán,12.54
+2022,9,1,Clinicians,8,Fuencarral - El Pardo,276.7
+2022,9,1,Clinicians,9,Moncloa - Aravaca,224.58
+2022,9,1,Clinicians,10,Latina,31.54
+2022,9,1,Clothes,9,Moncloa - Aravaca,0.72
+2022,9,1,Glass,1,Centro,690.62
+2022,9,1,Glass,6,Tetuán,302.92
+2022,9,1,Glass,7,Chamberí,203.1
+2022,9,1,Glass,8,Fuencarral - El Pardo,349.86
+2022,9,1,Glass,9,Moncloa - Aravaca,150.32
+2022,9,1,Glass,10,Latina,158.78
+2022,9,1,horseBed,9,Moncloa - Aravaca,52.92
+2022,9,1,Organic,1,Centro,1002.56
+2022,9,1,Organic,6,Tetuán,752.16
+2022,9,1,Organic,7,Chamberí,782.06
+2022,9,1,Organic,8,Fuencarral - El Pardo,1492.64
+2022,9,1,Organic,9,Moncloa - Aravaca,982.68
+2022,9,1,Organic,10,Latina,1189.18
+2022,9,1,Packaging,1,Centro,241.84
+2022,9,1,Packaging,6,Tetuán,371.14
+2022,9,1,Packaging,7,Chamberí,337.84
+2022,9,1,Packaging,8,Fuencarral - El Pardo,670.68
+2022,9,1,Packaging,9,Moncloa - Aravaca,323.9
+2022,9,1,Packaging,10,Latina,596.38
+2022,9,1,Paper,1,Centro,634.56
+2022,9,1,Paper,6,Tetuán,387.2
+2022,9,1,Paper,7,Chamberí,357.86
+2022,9,1,Paper,8,Fuencarral - El Pardo,628.38
+2022,9,1,Paper,9,Moncloa - Aravaca,353.04
+2022,9,1,Paper,10,Latina,344.32
+2022,9,1,Rest,1,Centro,4175.04
+2022,9,1,Rest,6,Tetuán,2343.56
+2022,9,1,Rest,7,Chamberí,2119.78
+2022,9,1,Rest,8,Fuencarral - El Pardo,3269.52
+2022,9,1,Rest,9,Moncloa - Aravaca,2381.66
+2022,9,1,Rest,10,Latina,3116.44
+2022,9,2,CDW,3,Retiro,85.96
+2022,9,2,CDW,4,Salamanca,26.56
+2022,9,2,CDW,5,Chamartín,81.82
+2022,9,2,CDW,14,Moratalaz,54.76
+2022,9,2,CDW,15,Ciudad Lineal,94.76
+2022,9,2,CDW,16,Hortaleza,69.8
+2022,9,2,CDW,19,Vicálvaro,79.46
+2022,9,2,CDW,20,San Blas - Canillejas,68.18
+2022,9,2,CDW,21,Barajas,14.8
+2022,9,2,cleanPoints,3,Retiro,2.14
+2022,9,2,cleanPoints,5,Chamartín,115.58
+2022,9,2,cleanPoints,14,Moratalaz,57.4
+2022,9,2,cleanPoints,15,Ciudad Lineal,73.28
+2022,9,2,cleanPoints,16,Hortaleza,69.84
+2022,9,2,cleanPoints,19,Vicálvaro,33.84
+2022,9,2,cleanPoints,20,San Blas - Canillejas,64.86
+2022,9,2,cleanPoints,21,Barajas,34.7
+2022,9,2,Clinicians,3,Retiro,160.18
+2022,9,2,Clinicians,4,Salamanca,111.08
+2022,9,2,Clinicians,15,Ciudad Lineal,108.4
+2022,9,2,Glass,3,Retiro,275.78
+2022,9,2,Glass,4,Salamanca,314.6
+2022,9,2,Glass,5,Chamartín,252.88
+2022,9,2,Glass,14,Moratalaz,212.12
+2022,9,2,Glass,15,Ciudad Lineal,184.96
+2022,9,2,Glass,16,Hortaleza,125.54
+2022,9,2,Glass,19,Vicálvaro,146.28
+2022,9,2,Glass,20,San Blas - Canillejas,178.9
+2022,9,2,Glass,21,Barajas,84.74
+2022,9,2,Organic,3,Retiro,655.64
+2022,9,2,Organic,4,Salamanca,993.92
+2022,9,2,Organic,5,Chamartín,870.42
+2022,9,2,Organic,14,Moratalaz,454.04
+2022,9,2,Organic,15,Ciudad Lineal,1033.28
+2022,9,2,Organic,16,Hortaleza,853.26
+2022,9,2,Organic,19,Vicálvaro,226.46
+2022,9,2,Organic,20,San Blas - Canillejas,697.04
+2022,9,2,Organic,21,Barajas,453.06
+2022,9,2,Packaging,3,Retiro,255.0
+2022,9,2,Packaging,4,Salamanca,345.02
+2022,9,2,Packaging,5,Chamartín,359.78
+2022,9,2,Packaging,14,Moratalaz,310.42
+2022,9,2,Packaging,15,Ciudad Lineal,544.62
+2022,9,2,Packaging,16,Hortaleza,566.0
+2022,9,2,Packaging,19,Vicálvaro,305.38
+2022,9,2,Packaging,20,San Blas - Canillejas,462.54
+2022,9,2,Packaging,21,Barajas,126.88
+2022,9,2,Paper,3,Retiro,309.5
+2022,9,2,Paper,4,Salamanca,618.81
+2022,9,2,Paper,5,Chamartín,403.2
+2022,9,2,Paper,14,Moratalaz,155.08
+2022,9,2,Paper,15,Ciudad Lineal,438.03
+2022,9,2,Paper,16,Hortaleza,396.86
+2022,9,2,Paper,19,Vicálvaro,71.49
+2022,9,2,Paper,20,San Blas - Canillejas,269.71
+2022,9,2,Paper,21,Barajas,92.73
+2022,9,2,Rest,3,Retiro,1392.92
+2022,9,2,Rest,4,Salamanca,2179.24
+2022,9,2,Rest,5,Chamartín,2094.68
+2022,9,2,Rest,14,Moratalaz,1111.86
+2022,9,2,Rest,15,Ciudad Lineal,2868.88
+2022,9,2,Rest,16,Hortaleza,2676.24
+2022,9,2,Rest,19,Vicálvaro,1574.42
+2022,9,2,Rest,20,San Blas - Canillejas,2509.56
+2022,9,2,Rest,21,Barajas,805.22
+2022,9,3,CDW,2,Arganzuela,53.78
+2022,9,3,CDW,11,Carabanchel,22.33
+2022,9,3,CDW,12,Usera,51.31
+2022,9,3,CDW,13,Puente de Vallecas,44.1
+2022,9,3,CDW,17,Villaverde,53.9
+2022,9,3,CDW,18,Villa de Vallecas,60.56
+2022,9,3,cleanPoints,2,Arganzuela,57.16
+2022,9,3,cleanPoints,11,Carabanchel,45.78
+2022,9,3,cleanPoints,12,Usera,33.36
+2022,9,3,cleanPoints,13,Puente de Vallecas,37.42
+2022,9,3,cleanPoints,17,Villaverde,39.78
+2022,9,3,cleanPoints,18,Villa de Vallecas,73.52
+2022,9,3,Clinicians,12,Usera,140.02
+2022,9,3,Clinicians,13,Puente de Vallecas,34.22
+2022,9,3,Clothes,2,Arganzuela,0.18
+2022,9,3,Glass,2,Arganzuela,202.32
+2022,9,3,Glass,11,Carabanchel,114.0
+2022,9,3,Glass,12,Usera,248.12
+2022,9,3,Glass,13,Puente de Vallecas,143.12
+2022,9,3,Glass,17,Villaverde,90.94
+2022,9,3,Glass,18,Villa de Vallecas,100.1
+2022,9,3,Organic,2,Arganzuela,604.04
+2022,9,3,Organic,11,Carabanchel,1112.68
+2022,9,3,Organic,12,Usera,565.52
+2022,9,3,Organic,13,Puente de Vallecas,880.38
+2022,9,3,Organic,17,Villaverde,727.82
+2022,9,3,Organic,18,Villa de Vallecas,1429.16
+2022,9,3,Packaging,2,Arganzuela,327.06
+2022,9,3,Packaging,11,Carabanchel,780.12
+2022,9,3,Packaging,12,Usera,402.44
+2022,9,3,Packaging,13,Puente de Vallecas,825.18
+2022,9,3,Packaging,17,Villaverde,518.66
+2022,9,3,Packaging,18,Villa de Vallecas,320.22
+2022,9,3,Paper,2,Arganzuela,394.8
+2022,9,3,Paper,11,Carabanchel,361.78
+2022,9,3,Paper,12,Usera,166.24
+2022,9,3,Paper,13,Puente de Vallecas,248.96
+2022,9,3,Paper,17,Villaverde,169.18
+2022,9,3,Paper,18,Villa de Vallecas,150.08
+2022,9,3,Rest,2,Arganzuela,1768.44
+2022,9,3,Rest,11,Carabanchel,4058.08
+2022,9,3,Rest,12,Usera,1869.58
+2022,9,3,Rest,13,Puente de Vallecas,3750.94
+2022,9,3,Rest,17,Villaverde,2344.5
+2022,9,3,Rest,18,Villa de Vallecas,2454.1
+2022,10,1,CDW,1,Centro,142.145
+2022,10,1,CDW,6,Tetuán,56.345
+2022,10,1,CDW,7,Chamberí,42.44
+2022,10,1,CDW,8,Fuencarral - El Pardo,93.545
+2022,10,1,CDW,9,Moncloa - Aravaca,49.945
+2022,10,1,CDW,10,Latina,51.875
+2022,10,1,cleanPoints,8,Fuencarral - El Pardo,122.92
+2022,10,1,cleanPoints,9,Moncloa - Aravaca,44.9
+2022,10,1,cleanPoints,10,Latina,137.12
+2022,10,1,Clinicians,1,Centro,168.18
+2022,10,1,Clinicians,6,Tetuán,15.8
+2022,10,1,Clinicians,8,Fuencarral - El Pardo,318.56
+2022,10,1,Clinicians,9,Moncloa - Aravaca,242.14
+2022,10,1,Clinicians,10,Latina,33.54
+2022,10,1,Clothes,6,Tetuán,0.18
+2022,10,1,Clothes,9,Moncloa - Aravaca,0.18
+2022,10,1,Clothes,10,Latina,0.18
+2022,10,1,Glass,1,Centro,813.98
+2022,10,1,Glass,6,Tetuán,413.66
+2022,10,1,Glass,7,Chamberí,247.76
+2022,10,1,Glass,8,Fuencarral - El Pardo,411.86
+2022,10,1,Glass,9,Moncloa - Aravaca,185.88
+2022,10,1,Glass,10,Latina,169.54
+2022,10,1,horseBed,9,Moncloa - Aravaca,55.83
+2022,10,1,Organic,1,Centro,1129.08
+2022,10,1,Organic,6,Tetuán,841.38
+2022,10,1,Organic,7,Chamberí,842.4
+2022,10,1,Organic,8,Fuencarral - El Pardo,1580.22
+2022,10,1,Organic,9,Moncloa - Aravaca,1016.44
+2022,10,1,Organic,10,Latina,1268.26
+2022,10,1,Packaging,1,Centro,264.88
+2022,10,1,Packaging,6,Tetuán,397.6
+2022,10,1,Packaging,7,Chamberí,362.84
+2022,10,1,Packaging,8,Fuencarral - El Pardo,709.48
+2022,10,1,Packaging,9,Moncloa - Aravaca,337.0
+2022,10,1,Packaging,10,Latina,614.98
+2022,10,1,Paper,1,Centro,679.55
+2022,10,1,Paper,6,Tetuán,447.38
+2022,10,1,Paper,7,Chamberí,307.78
+2022,10,1,Paper,8,Fuencarral - El Pardo,664.64
+2022,10,1,Paper,9,Moncloa - Aravaca,386.39
+2022,10,1,Paper,10,Latina,407.29
+2022,10,1,Rest,1,Centro,4564.12
+2022,10,1,Rest,6,Tetuán,2475.52
+2022,10,1,Rest,7,Chamberí,2248.42
+2022,10,1,Rest,8,Fuencarral - El Pardo,3390.92
+2022,10,1,Rest,9,Moncloa - Aravaca,2518.94
+2022,10,1,Rest,10,Latina,3263.6
+2022,10,2,CDW,3,Retiro,45.9
+2022,10,2,CDW,4,Salamanca,40.42
+2022,10,2,CDW,5,Chamartín,82.35
+2022,10,2,CDW,14,Moratalaz,66.12
+2022,10,2,CDW,15,Ciudad Lineal,52.94
+2022,10,2,CDW,16,Hortaleza,41.08
+2022,10,2,CDW,19,Vicálvaro,55.13
+2022,10,2,CDW,20,San Blas - Canillejas,90.37
+2022,10,2,CDW,21,Barajas,31.6
+2022,10,2,cleanPoints,3,Retiro,1.4
+2022,10,2,cleanPoints,5,Chamartín,102.06
+2022,10,2,cleanPoints,14,Moratalaz,47.08
+2022,10,2,cleanPoints,15,Ciudad Lineal,80.6
+2022,10,2,cleanPoints,16,Hortaleza,75.88
+2022,10,2,cleanPoints,19,Vicálvaro,26.5
+2022,10,2,cleanPoints,20,San Blas - Canillejas,72.48
+2022,10,2,cleanPoints,21,Barajas,44.18
+2022,10,2,Clinicians,3,Retiro,181.6
+2022,10,2,Clinicians,4,Salamanca,119.2
+2022,10,2,Clinicians,15,Ciudad Lineal,123.62
+2022,10,2,Glass,3,Retiro,315.9
+2022,10,2,Glass,4,Salamanca,339.36
+2022,10,2,Glass,5,Chamartín,300.68
+2022,10,2,Glass,14,Moratalaz,244.58
+2022,10,2,Glass,15,Ciudad Lineal,210.74
+2022,10,2,Glass,16,Hortaleza,149.52
+2022,10,2,Glass,19,Vicálvaro,172.18
+2022,10,2,Glass,20,San Blas - Canillejas,155.38
+2022,10,2,Glass,21,Barajas,88.34
+2022,10,2,Organic,3,Retiro,717.7
+2022,10,2,Organic,4,Salamanca,1069.72
+2022,10,2,Organic,5,Chamartín,948.88
+2022,10,2,Organic,14,Moratalaz,490.64
+2022,10,2,Organic,15,Ciudad Lineal,1086.24
+2022,10,2,Organic,16,Hortaleza,896.28
+2022,10,2,Organic,19,Vicálvaro,243.28
+2022,10,2,Organic,20,San Blas - Canillejas,750.06
+2022,10,2,Organic,21,Barajas,466.14
+2022,10,2,Packaging,3,Retiro,272.78
+2022,10,2,Packaging,4,Salamanca,356.18
+2022,10,2,Packaging,5,Chamartín,379.58
+2022,10,2,Packaging,14,Moratalaz,323.8
+2022,10,2,Packaging,15,Ciudad Lineal,569.34
+2022,10,2,Packaging,16,Hortaleza,580.56
+2022,10,2,Packaging,19,Vicálvaro,322.56
+2022,10,2,Packaging,20,San Blas - Canillejas,502.3
+2022,10,2,Packaging,21,Barajas,120.46
+2022,10,2,Paper,3,Retiro,340.5
+2022,10,2,Paper,4,Salamanca,684.69
+2022,10,2,Paper,5,Chamartín,430.4
+2022,10,2,Paper,14,Moratalaz,150.1
+2022,10,2,Paper,15,Ciudad Lineal,414.52
+2022,10,2,Paper,16,Hortaleza,388.04
+2022,10,2,Paper,19,Vicálvaro,58.16
+2022,10,2,Paper,20,San Blas - Canillejas,271.29
+2022,10,2,Paper,21,Barajas,89.23
+2022,10,2,Rest,3,Retiro,1429.6
+2022,10,2,Rest,4,Salamanca,2372.6
+2022,10,2,Rest,5,Chamartín,2198.38
+2022,10,2,Rest,14,Moratalaz,1189.44
+2022,10,2,Rest,15,Ciudad Lineal,3051.64
+2022,10,2,Rest,16,Hortaleza,2695.68
+2022,10,2,Rest,19,Vicálvaro,1629.18
+2022,10,2,Rest,20,San Blas - Canillejas,2587.7
+2022,10,2,Rest,21,Barajas,834.48
+2022,10,3,CDW,2,Arganzuela,64.83
+2022,10,3,CDW,11,Carabanchel,22.36
+2022,10,3,CDW,12,Usera,36.93
+2022,10,3,CDW,13,Puente de Vallecas,44.28
+2022,10,3,CDW,17,Villaverde,52.13
+2022,10,3,CDW,18,Villa de Vallecas,55.91
+2022,10,3,cleanPoints,2,Arganzuela,59.6
+2022,10,3,cleanPoints,11,Carabanchel,38.7
+2022,10,3,cleanPoints,12,Usera,32.6
+2022,10,3,cleanPoints,13,Puente de Vallecas,41.32
+2022,10,3,cleanPoints,17,Villaverde,45.3
+2022,10,3,cleanPoints,18,Villa de Vallecas,71.66
+2022,10,3,Clinicians,12,Usera,160.62
+2022,10,3,Clinicians,13,Puente de Vallecas,35.78
+2022,10,3,Glass,2,Arganzuela,120.86
+2022,10,3,Glass,11,Carabanchel,144.02
+2022,10,3,Glass,12,Usera,346.76
+2022,10,3,Glass,13,Puente de Vallecas,265.08
+2022,10,3,Glass,17,Villaverde,70.66
+2022,10,3,Glass,18,Villa de Vallecas,147.38
+2022,10,3,Organic,2,Arganzuela,654.72
+2022,10,3,Organic,11,Carabanchel,1160.48
+2022,10,3,Organic,12,Usera,598.78
+2022,10,3,Organic,13,Puente de Vallecas,925.96
+2022,10,3,Organic,17,Villaverde,759.18
+2022,10,3,Organic,18,Villa de Vallecas,1515.52
+2022,10,3,Packaging,2,Arganzuela,358.38
+2022,10,3,Packaging,11,Carabanchel,804.68
+2022,10,3,Packaging,12,Usera,417.2
+2022,10,3,Packaging,13,Puente de Vallecas,878.96
+2022,10,3,Packaging,17,Villaverde,521.24
+2022,10,3,Packaging,18,Villa de Vallecas,331.3
+2022,10,3,Paper,2,Arganzuela,411.32
+2022,10,3,Paper,11,Carabanchel,365.98
+2022,10,3,Paper,12,Usera,164.02
+2022,10,3,Paper,13,Puente de Vallecas,238.5
+2022,10,3,Paper,17,Villaverde,164.62
+2022,10,3,Paper,18,Villa de Vallecas,147.4
+2022,10,3,Rest,2,Arganzuela,1831.28
+2022,10,3,Rest,11,Carabanchel,4250.68
+2022,10,3,Rest,12,Usera,1977.44
+2022,10,3,Rest,13,Puente de Vallecas,3970.86
+2022,10,3,Rest,17,Villaverde,2492.0
+2022,10,3,Rest,18,Villa de Vallecas,2430.68
+2022,11,1,CDW,1,Centro,134.61
+2022,11,1,CDW,6,Tetuán,47.185
+2022,11,1,CDW,7,Chamberí,65.925
+2022,11,1,CDW,8,Fuencarral - El Pardo,94.12
+2022,11,1,CDW,9,Moncloa - Aravaca,66.87
+2022,11,1,CDW,10,Latina,49.66
+2022,11,1,cleanPoints,8,Fuencarral - El Pardo,115.36
+2022,11,1,cleanPoints,9,Moncloa - Aravaca,41.72
+2022,11,1,cleanPoints,10,Latina,136.66
+2022,11,1,Clinicians,1,Centro,169.14
+2022,11,1,Clinicians,6,Tetuán,12.26
+2022,11,1,Clinicians,8,Fuencarral - El Pardo,318.66
+2022,11,1,Clinicians,9,Moncloa - Aravaca,243.62
+2022,11,1,Clinicians,10,Latina,36.82
+2022,11,1,Clothes,1,Centro,13.818
+2022,11,1,Clothes,6,Tetuán,6.265
+2022,11,1,Clothes,7,Chamberí,6.891
+2022,11,1,Clothes,8,Fuencarral - El Pardo,4.13
+2022,11,1,Clothes,9,Moncloa - Aravaca,1.436
+2022,11,1,Clothes,10,Latina,3.624
+2022,11,1,Glass,1,Centro,761.44
+2022,11,1,Glass,6,Tetuán,435.12
+2022,11,1,Glass,7,Chamberí,263.64
+2022,11,1,Glass,8,Fuencarral - El Pardo,399.92
+2022,11,1,Glass,9,Moncloa - Aravaca,164.32
+2022,11,1,Glass,10,Latina,195.88
+2022,11,1,horseBed,9,Moncloa - Aravaca,54.925
+2022,11,1,Organic,1,Centro,1083.82
+2022,11,1,Organic,6,Tetuán,886.4
+2022,11,1,Organic,7,Chamberí,832.02
+2022,11,1,Organic,8,Fuencarral - El Pardo,1584.44
+2022,11,1,Organic,9,Moncloa - Aravaca,1065.12
+2022,11,1,Organic,10,Latina,1291.1
+2022,11,1,Packaging,1,Centro,265.58
+2022,11,1,Packaging,6,Tetuán,394.06
+2022,11,1,Packaging,7,Chamberí,349.16
+2022,11,1,Packaging,8,Fuencarral - El Pardo,647.38
+2022,11,1,Packaging,9,Moncloa - Aravaca,359.8
+2022,11,1,Packaging,10,Latina,623.56
+2022,11,1,Paper,1,Centro,681.24
+2022,11,1,Paper,6,Tetuán,459.38
+2022,11,1,Paper,7,Chamberí,379.88
+2022,11,1,Paper,8,Fuencarral - El Pardo,700.059
+2022,11,1,Paper,9,Moncloa - Aravaca,318.98
+2022,11,1,Paper,10,Latina,362.0
+2022,11,1,Rest,1,Centro,4501.68
+2022,11,1,Rest,6,Tetuán,2462.12
+2022,11,1,Rest,7,Chamberí,2223.66
+2022,11,1,Rest,8,Fuencarral - El Pardo,3276.48
+2022,11,1,Rest,9,Moncloa - Aravaca,2533.84
+2022,11,1,Rest,10,Latina,3087.82
+2022,11,2,CDW,3,Retiro,57.285
+2022,11,2,CDW,4,Salamanca,54.245
+2022,11,2,CDW,5,Chamartín,83.24
+2022,11,2,CDW,14,Moratalaz,66.19
+2022,11,2,CDW,15,Ciudad Lineal,95.145
+2022,11,2,CDW,16,Hortaleza,56.72
+2022,11,2,CDW,19,Vicálvaro,49.0
+2022,11,2,CDW,20,San Blas - Canillejas,55.64
+2022,11,2,CDW,21,Barajas,40.06
+2022,11,2,cleanPoints,3,Retiro,1.76
+2022,11,2,cleanPoints,5,Chamartín,88.44
+2022,11,2,cleanPoints,14,Moratalaz,40.04
+2022,11,2,cleanPoints,15,Ciudad Lineal,64.42
+2022,11,2,cleanPoints,16,Hortaleza,65.22
+2022,11,2,cleanPoints,19,Vicálvaro,27.34
+2022,11,2,cleanPoints,20,San Blas - Canillejas,63.32
+2022,11,2,cleanPoints,21,Barajas,36.48
+2022,11,2,Clinicians,3,Retiro,184.6
+2022,11,2,Clinicians,4,Salamanca,121.88
+2022,11,2,Clinicians,15,Ciudad Lineal,126.16
+2022,11,2,Clothes,3,Retiro,0.46
+2022,11,2,Clothes,4,Salamanca,0.93
+2022,11,2,Clothes,5,Chamartín,17.08
+2022,11,2,Clothes,14,Moratalaz,5.15
+2022,11,2,Clothes,15,Ciudad Lineal,4.12
+2022,11,2,Clothes,16,Hortaleza,9.26
+2022,11,2,Clothes,19,Vicálvaro,2.11
+2022,11,2,Clothes,20,San Blas - Canillejas,5.66
+2022,11,2,Clothes,21,Barajas,6.69
+2022,11,2,Glass,3,Retiro,339.14
+2022,11,2,Glass,4,Salamanca,374.92
+2022,11,2,Glass,5,Chamartín,305.12
+2022,11,2,Glass,14,Moratalaz,231.28
+2022,11,2,Glass,15,Ciudad Lineal,210.2
+2022,11,2,Glass,16,Hortaleza,157.08
+2022,11,2,Glass,19,Vicálvaro,146.62
+2022,11,2,Glass,20,San Blas - Canillejas,163.34
+2022,11,2,Glass,21,Barajas,95.34
+2022,11,2,Organic,3,Retiro,728.02
+2022,11,2,Organic,4,Salamanca,1075.9
+2022,11,2,Organic,5,Chamartín,956.42
+2022,11,2,Organic,14,Moratalaz,503.92
+2022,11,2,Organic,15,Ciudad Lineal,1102.14
+2022,11,2,Organic,16,Hortaleza,896.04
+2022,11,2,Organic,19,Vicálvaro,235.9
+2022,11,2,Organic,20,San Blas - Canillejas,747.74
+2022,11,2,Organic,21,Barajas,491.16
+2022,11,2,Packaging,3,Retiro,270.68
+2022,11,2,Packaging,4,Salamanca,367.16
+2022,11,2,Packaging,5,Chamartín,365.24
+2022,11,2,Packaging,14,Moratalaz,310.2
+2022,11,2,Packaging,15,Ciudad Lineal,558.96
+2022,11,2,Packaging,16,Hortaleza,568.76
+2022,11,2,Packaging,19,Vicálvaro,283.64
+2022,11,2,Packaging,20,San Blas - Canillejas,486.56
+2022,11,2,Packaging,21,Barajas,166.2
+2022,11,2,Paper,3,Retiro,361.92
+2022,11,2,Paper,4,Salamanca,714.02
+2022,11,2,Paper,5,Chamartín,425.74
+2022,11,2,Paper,14,Moratalaz,184.84
+2022,11,2,Paper,15,Ciudad Lineal,416.24
+2022,11,2,Paper,16,Hortaleza,369.14
+2022,11,2,Paper,19,Vicálvaro,59.66
+2022,11,2,Paper,20,San Blas - Canillejas,330.54
+2022,11,2,Paper,21,Barajas,48.1
+2022,11,2,Rest,3,Retiro,1470.34
+2022,11,2,Rest,4,Salamanca,2289.62
+2022,11,2,Rest,5,Chamartín,2166.2
+2022,11,2,Rest,14,Moratalaz,1152.9
+2022,11,2,Rest,15,Ciudad Lineal,2957.74
+2022,11,2,Rest,16,Hortaleza,2630.44
+2022,11,2,Rest,19,Vicálvaro,1699.44
+2022,11,2,Rest,20,San Blas - Canillejas,2515.26
+2022,11,2,Rest,21,Barajas,807.92
+2022,11,3,CDW,2,Arganzuela,46.64
+2022,11,3,CDW,11,Carabanchel,36.27
+2022,11,3,CDW,12,Usera,58.73
+2022,11,3,CDW,13,Puente de Vallecas,28.2
+2022,11,3,CDW,17,Villaverde,57.68
+2022,11,3,CDW,18,Villa de Vallecas,67.1
+2022,11,3,cleanPoints,2,Arganzuela,52.74
+2022,11,3,cleanPoints,11,Carabanchel,43.7
+2022,11,3,cleanPoints,12,Usera,43.34
+2022,11,3,cleanPoints,13,Puente de Vallecas,39.5
+2022,11,3,cleanPoints,17,Villaverde,35.1
+2022,11,3,cleanPoints,18,Villa de Vallecas,99.22
+2022,11,3,Clinicians,12,Usera,159.22
+2022,11,3,Clinicians,13,Puente de Vallecas,36.3
+2022,11,3,Glass,2,Arganzuela,165.6
+2022,11,3,Glass,11,Carabanchel,177.9
+2022,11,3,Glass,12,Usera,165.42
+2022,11,3,Glass,13,Puente de Vallecas,212.12
+2022,11,3,Glass,17,Villaverde,166.84
+2022,11,3,Glass,18,Villa de Vallecas,212.96
+2022,11,3,Organic,2,Arganzuela,633.94
+2022,11,3,Organic,11,Carabanchel,1151.08
+2022,11,3,Organic,12,Usera,597.1
+2022,11,3,Organic,13,Puente de Vallecas,930.78
+2022,11,3,Organic,17,Villaverde,751.12
+2022,11,3,Organic,18,Villa de Vallecas,1602.6
+2022,11,3,Packaging,2,Arganzuela,337.4
+2022,11,3,Packaging,11,Carabanchel,851.6
+2022,11,3,Packaging,12,Usera,431.02
+2022,11,3,Packaging,13,Puente de Vallecas,751.44
+2022,11,3,Packaging,17,Villaverde,528.56
+2022,11,3,Packaging,18,Villa de Vallecas,333.6
+2022,11,3,Paper,2,Arganzuela,395.24
+2022,11,3,Paper,11,Carabanchel,341.9
+2022,11,3,Paper,12,Usera,169.46
+2022,11,3,Paper,13,Puente de Vallecas,232.6
+2022,11,3,Paper,17,Villaverde,182.22
+2022,11,3,Paper,18,Villa de Vallecas,179.34
+2022,11,3,Rest,2,Arganzuela,1806.12
+2022,11,3,Rest,11,Carabanchel,4151.06
+2022,11,3,Rest,12,Usera,1846.08
+2022,11,3,Rest,13,Puente de Vallecas,3810.02
+2022,11,3,Rest,17,Villaverde,2455.06
+2022,11,3,Rest,18,Villa de Vallecas,2555.14
+2022,12,1,CDW,1,Centro,122.755
+2022,12,1,CDW,6,Tetuán,64.875
+2022,12,1,CDW,7,Chamberí,37.23
+2022,12,1,CDW,8,Fuencarral - El Pardo,74.325
+2022,12,1,CDW,9,Moncloa - Aravaca,72.445
+2022,12,1,CDW,10,Latina,67.28
+2022,12,1,cleanPoints,8,Fuencarral - El Pardo,106.84
+2022,12,1,cleanPoints,9,Moncloa - Aravaca,55.3
+2022,12,1,cleanPoints,10,Latina,91.28
+2022,12,1,Clinicians,1,Centro,156.6
+2022,12,1,Clinicians,6,Tetuán,8.88
+2022,12,1,Clinicians,8,Fuencarral - El Pardo,306.74
+2022,12,1,Clinicians,9,Moncloa - Aravaca,245.6
+2022,12,1,Clinicians,10,Latina,38.34
+2022,12,1,Clothes,1,Centro,9.764
+2022,12,1,Clothes,6,Tetuán,1.194
+2022,12,1,Clothes,7,Chamberí,9.609
+2022,12,1,Clothes,8,Fuencarral - El Pardo,3.857
+2022,12,1,Clothes,9,Moncloa - Aravaca,0.765
+2022,12,1,Clothes,10,Latina,6.211
+2022,12,1,Glass,1,Centro,785.3
+2022,12,1,Glass,6,Tetuán,464.12
+2022,12,1,Glass,7,Chamberí,274.3
+2022,12,1,Glass,8,Fuencarral - El Pardo,476.34
+2022,12,1,Glass,9,Moncloa - Aravaca,173.28
+2022,12,1,Glass,10,Latina,242.44
+2022,12,1,horseBed,9,Moncloa - Aravaca,51.975
+2022,12,1,Organic,1,Centro,1161.18
+2022,12,1,Organic,6,Tetuán,921.04
+2022,12,1,Organic,7,Chamberí,850.94
+2022,12,1,Organic,8,Fuencarral - El Pardo,1620.58
+2022,12,1,Organic,9,Moncloa - Aravaca,1033.24
+2022,12,1,Organic,10,Latina,1388.28
+2022,12,1,Packaging,1,Centro,275.92
+2022,12,1,Packaging,6,Tetuán,392.1
+2022,12,1,Packaging,7,Chamberí,364.78
+2022,12,1,Packaging,8,Fuencarral - El Pardo,656.6
+2022,12,1,Packaging,9,Moncloa - Aravaca,388.66
+2022,12,1,Packaging,10,Latina,691.02
+2022,12,1,Paper,1,Centro,698.24
+2022,12,1,Paper,6,Tetuán,504.44
+2022,12,1,Paper,7,Chamberí,429.94
+2022,12,1,Paper,8,Fuencarral - El Pardo,774.76
+2022,12,1,Paper,9,Moncloa - Aravaca,357.54
+2022,12,1,Paper,10,Latina,413.42
+2022,12,1,Rest,1,Centro,4735.88
+2022,12,1,Rest,6,Tetuán,2553.6
+2022,12,1,Rest,7,Chamberí,2262.82
+2022,12,1,Rest,8,Fuencarral - El Pardo,3416.3
+2022,12,1,Rest,9,Moncloa - Aravaca,2504.14
+2022,12,1,Rest,10,Latina,3404.06
+2022,12,2,CDW,3,Retiro,32.56
+2022,12,2,CDW,4,Salamanca,75.14
+2022,12,2,CDW,5,Chamartín,93.958
+2022,12,2,CDW,14,Moratalaz,59.64
+2022,12,2,CDW,15,Ciudad Lineal,96.9
+2022,12,2,CDW,16,Hortaleza,70.72
+2022,12,2,CDW,19,Vicálvaro,52.56
+2022,12,2,CDW,20,San Blas - Canillejas,55.814
+2022,12,2,CDW,21,Barajas,33.36
+2022,12,2,cleanPoints,3,Retiro,0.94
+2022,12,2,cleanPoints,5,Chamartín,83.4
+2022,12,2,cleanPoints,14,Moratalaz,46.5
+2022,12,2,cleanPoints,15,Ciudad Lineal,67.44
+2022,12,2,cleanPoints,16,Hortaleza,59.22
+2022,12,2,cleanPoints,19,Vicálvaro,28.76
+2022,12,2,cleanPoints,20,San Blas - Canillejas,64.84
+2022,12,2,cleanPoints,21,Barajas,30.64
+2022,12,2,Clinicians,3,Retiro,187.62
+2022,12,2,Clinicians,4,Salamanca,116.52
+2022,12,2,Clinicians,15,Ciudad Lineal,120.18
+2022,12,2,Clothes,3,Retiro,1.75
+2022,12,2,Clothes,4,Salamanca,5.69
+2022,12,2,Clothes,5,Chamartín,8.81
+2022,12,2,Clothes,14,Moratalaz,3.87
+2022,12,2,Clothes,15,Ciudad Lineal,6.52
+2022,12,2,Clothes,16,Hortaleza,8.93
+2022,12,2,Clothes,19,Vicálvaro,2.84
+2022,12,2,Clothes,20,San Blas - Canillejas,5.87
+2022,12,2,Clothes,21,Barajas,5.3
+2022,12,2,Glass,3,Retiro,410.4
+2022,12,2,Glass,4,Salamanca,460.1
+2022,12,2,Glass,5,Chamartín,364.3
+2022,12,2,Glass,14,Moratalaz,289.54
+2022,12,2,Glass,15,Ciudad Lineal,203.06
+2022,12,2,Glass,16,Hortaleza,180.28
+2022,12,2,Glass,19,Vicálvaro,148.82
+2022,12,2,Glass,20,San Blas - Canillejas,157.74
+2022,12,2,Glass,21,Barajas,143.8
+2022,12,2,Organic,3,Retiro,771.38
+2022,12,2,Organic,4,Salamanca,1165.74
+2022,12,2,Organic,5,Chamartín,993.72
+2022,12,2,Organic,14,Moratalaz,576.92
+2022,12,2,Organic,15,Ciudad Lineal,1179.64
+2022,12,2,Organic,16,Hortaleza,949.52
+2022,12,2,Organic,19,Vicálvaro,260.34
+2022,12,2,Organic,20,San Blas - Canillejas,791.18
+2022,12,2,Organic,21,Barajas,525.98
+2022,12,2,Packaging,3,Retiro,257.34
+2022,12,2,Packaging,4,Salamanca,360.0
+2022,12,2,Packaging,5,Chamartín,402.08
+2022,12,2,Packaging,14,Moratalaz,337.92
+2022,12,2,Packaging,15,Ciudad Lineal,601.96
+2022,12,2,Packaging,16,Hortaleza,626.3
+2022,12,2,Packaging,19,Vicálvaro,364.5
+2022,12,2,Packaging,20,San Blas - Canillejas,502.72
+2022,12,2,Packaging,21,Barajas,140.28
+2022,12,2,Paper,3,Retiro,327.6
+2022,12,2,Paper,4,Salamanca,686.86
+2022,12,2,Paper,5,Chamartín,445.92
+2022,12,2,Paper,14,Moratalaz,223.6
+2022,12,2,Paper,15,Ciudad Lineal,538.04
+2022,12,2,Paper,16,Hortaleza,407.96
+2022,12,2,Paper,19,Vicálvaro,143.06
+2022,12,2,Paper,20,San Blas - Canillejas,322.16
+2022,12,2,Paper,21,Barajas,135.58
+2022,12,2,Rest,3,Retiro,1549.22
+2022,12,2,Rest,4,Salamanca,2352.84
+2022,12,2,Rest,5,Chamartín,2243.82
+2022,12,2,Rest,14,Moratalaz,1239.5
+2022,12,2,Rest,15,Ciudad Lineal,3105.72
+2022,12,2,Rest,16,Hortaleza,2752.24
+2022,12,2,Rest,19,Vicálvaro,1755.54
+2022,12,2,Rest,20,San Blas - Canillejas,2645.18
+2022,12,2,Rest,21,Barajas,813.58
+2022,12,3,CDW,2,Arganzuela,46.5
+2022,12,3,CDW,11,Carabanchel,36.41
+2022,12,3,CDW,12,Usera,59.97
+2022,12,3,CDW,13,Puente de Vallecas,29.34
+2022,12,3,CDW,17,Villaverde,50.14
+2022,12,3,CDW,18,Villa de Vallecas,41.67
+2022,12,3,cleanPoints,2,Arganzuela,70.8
+2022,12,3,cleanPoints,11,Carabanchel,39.6
+2022,12,3,cleanPoints,12,Usera,28.4
+2022,12,3,cleanPoints,13,Puente de Vallecas,34.32
+2022,12,3,cleanPoints,17,Villaverde,34.12
+2022,12,3,cleanPoints,18,Villa de Vallecas,65.2
+2022,12,3,Clinicians,12,Usera,169.76
+2022,12,3,Clinicians,13,Puente de Vallecas,36.04
+2022,12,3,Clothes,2,Arganzuela,2.7
+2022,12,3,Clothes,11,Carabanchel,1.335
+2022,12,3,Clothes,12,Usera,3.895
+2022,12,3,Clothes,13,Puente de Vallecas,2.965
+2022,12,3,Clothes,17,Villaverde,2.015
+2022,12,3,Clothes,18,Villa de Vallecas,1.41
+2022,12,3,Glass,2,Arganzuela,269.94
+2022,12,3,Glass,11,Carabanchel,150.52
+2022,12,3,Glass,12,Usera,229.16
+2022,12,3,Glass,13,Puente de Vallecas,175.0
+2022,12,3,Glass,17,Villaverde,253.78
+2022,12,3,Glass,18,Villa de Vallecas,177.14
+2022,12,3,Organic,2,Arganzuela,660.44
+2022,12,3,Organic,11,Carabanchel,1283.96
+2022,12,3,Organic,12,Usera,626.72
+2022,12,3,Organic,13,Puente de Vallecas,1034.745
+2022,12,3,Organic,17,Villaverde,834.46
+2022,12,3,Organic,18,Villa de Vallecas,1521.7
+2022,12,3,Packaging,2,Arganzuela,361.72
+2022,12,3,Packaging,11,Carabanchel,933.18
+2022,12,3,Packaging,12,Usera,493.64
+2022,12,3,Packaging,13,Puente de Vallecas,842.28
+2022,12,3,Packaging,17,Villaverde,575.72
+2022,12,3,Packaging,18,Villa de Vallecas,365.62
+2022,12,3,Paper,2,Arganzuela,427.2
+2022,12,3,Paper,11,Carabanchel,375.14
+2022,12,3,Paper,12,Usera,203.88
+2022,12,3,Paper,13,Puente de Vallecas,269.12
+2022,12,3,Paper,17,Villaverde,214.12
+2022,12,3,Paper,18,Villa de Vallecas,200.48
+2022,12,3,Rest,2,Arganzuela,1898.86
+2022,12,3,Rest,11,Carabanchel,4480.28
+2022,12,3,Rest,12,Usera,1940.18
+2022,12,3,Rest,13,Puente de Vallecas,3998.5
+2022,12,3,Rest,17,Villaverde,2649.24
+2022,12,3,Rest,18,Villa de Vallecas,2656.76
+2023,1,1,CDW,1,Centro,93.115
+2023,1,1,CDW,6,Tetuán,59.66
+2023,1,1,CDW,7,Chamberí,51.195
+2023,1,1,CDW,8,Fuencarral - El Pardo,103.815
+2023,1,1,CDW,9,Moncloa - Aravaca,71.07
+2023,1,1,CDW,10,Latina,67.1
+2023,1,1,cleanPoints,8,Fuencarral - El Pardo,118.6
+2023,1,1,cleanPoints,9,Moncloa - Aravaca,48.5
+2023,1,1,cleanPoints,10,Latina,120.24
+2023,1,1,Clinicians,1,Centro,167.0
+2023,1,1,Clinicians,6,Tetuán,18.0
+2023,1,1,Clinicians,8,Fuencarral - El Pardo,322.08
+2023,1,1,Clinicians,9,Moncloa - Aravaca,237.24
+2023,1,1,Clinicians,10,Latina,40.64
+2023,1,1,Clothes,1,Centro,9.385
+2023,1,1,Clothes,6,Tetuán,3.49
+2023,1,1,Clothes,7,Chamberí,9.397
+2023,1,1,Clothes,8,Fuencarral - El Pardo,7.86
+2023,1,1,Clothes,9,Moncloa - Aravaca,1.21
+2023,1,1,Clothes,10,Latina,4.11
+2023,1,1,Glass,1,Centro,767.48
+2023,1,1,Glass,6,Tetuán,357.3
+2023,1,1,Glass,7,Chamberí,291.94
+2023,1,1,Glass,8,Fuencarral - El Pardo,464.8
+2023,1,1,Glass,9,Moncloa - Aravaca,228.7
+2023,1,1,Glass,10,Latina,218.6
+2023,1,1,horseBed,9,Moncloa - Aravaca,59.49
+2023,1,1,Organic,1,Centro,1220.74
+2023,1,1,Organic,6,Tetuán,901.14
+2023,1,1,Organic,7,Chamberí,923.74
+2023,1,1,Organic,8,Fuencarral - El Pardo,1596.42
+2023,1,1,Organic,9,Moncloa - Aravaca,1018.16
+2023,1,1,Organic,10,Latina,1305.22
+2023,1,1,Packaging,1,Centro,277.72
+2023,1,1,Packaging,6,Tetuán,473.06
+2023,1,1,Packaging,7,Chamberí,453.38
+2023,1,1,Packaging,8,Fuencarral - El Pardo,760.46
+2023,1,1,Packaging,9,Moncloa - Aravaca,421.16
+2023,1,1,Packaging,10,Latina,723.0
+2023,1,1,Paper,1,Centro,665.52
+2023,1,1,Paper,6,Tetuán,463.26
+2023,1,1,Paper,7,Chamberí,414.62
+2023,1,1,Paper,8,Fuencarral - El Pardo,756.96
+2023,1,1,Paper,9,Moncloa - Aravaca,357.86
+2023,1,1,Paper,10,Latina,407.28
+2023,1,1,Rest,1,Centro,4197.54
+2023,1,1,Rest,6,Tetuán,2337.14
+2023,1,1,Rest,7,Chamberí,2018.82
+2023,1,1,Rest,8,Fuencarral - El Pardo,3268.44
+2023,1,1,Rest,9,Moncloa - Aravaca,2171.1
+2023,1,1,Rest,10,Latina,3224.38
+2023,1,2,CDW,3,Retiro,48.9
+2023,1,2,CDW,4,Salamanca,63.92
+2023,1,2,CDW,5,Chamartín,89.0
+2023,1,2,CDW,14,Moratalaz,36.64
+2023,1,2,CDW,15,Ciudad Lineal,124.5
+2023,1,2,CDW,16,Hortaleza,56.62
+2023,1,2,CDW,19,Vicálvaro,50.52
+2023,1,2,CDW,20,San Blas - Canillejas,110.9
+2023,1,2,CDW,21,Barajas,44.86
+2023,1,2,cleanPoints,3,Retiro,2.12
+2023,1,2,cleanPoints,5,Chamartín,97.16
+2023,1,2,cleanPoints,14,Moratalaz,58.06
+2023,1,2,cleanPoints,15,Ciudad Lineal,72.08
+2023,1,2,cleanPoints,16,Hortaleza,63.66
+2023,1,2,cleanPoints,19,Vicálvaro,18.46
+2023,1,2,cleanPoints,20,San Blas - Canillejas,58.64
+2023,1,2,cleanPoints,21,Barajas,46.7
+2023,1,2,Clinicians,3,Retiro,185.5
+2023,1,2,Clinicians,4,Salamanca,116.6
+2023,1,2,Clinicians,15,Ciudad Lineal,123.7
+2023,1,2,Clothes,3,Retiro,2.0
+2023,1,2,Clothes,4,Salamanca,3.77
+2023,1,2,Clothes,5,Chamartín,11.39
+2023,1,2,Clothes,14,Moratalaz,4.61
+2023,1,2,Clothes,15,Ciudad Lineal,5.51
+2023,1,2,Clothes,16,Hortaleza,5.78
+2023,1,2,Clothes,19,Vicálvaro,2.92
+2023,1,2,Clothes,20,San Blas - Canillejas,6.06
+2023,1,2,Clothes,21,Barajas,4.3
+2023,1,2,Glass,3,Retiro,382.3
+2023,1,2,Glass,4,Salamanca,386.48
+2023,1,2,Glass,5,Chamartín,332.1
+2023,1,2,Glass,14,Moratalaz,312.58
+2023,1,2,Glass,15,Ciudad Lineal,260.02
+2023,1,2,Glass,16,Hortaleza,184.62
+2023,1,2,Glass,19,Vicálvaro,174.42
+2023,1,2,Glass,20,San Blas - Canillejas,174.6
+2023,1,2,Glass,21,Barajas,143.36
+2023,1,2,Organic,3,Retiro,845.0
+2023,1,2,Organic,4,Salamanca,1252.76
+2023,1,2,Organic,5,Chamartín,1064.18
+2023,1,2,Organic,14,Moratalaz,499.88
+2023,1,2,Organic,15,Ciudad Lineal,1130.82
+2023,1,2,Organic,16,Hortaleza,969.0
+2023,1,2,Organic,19,Vicálvaro,292.46
+2023,1,2,Organic,20,San Blas - Canillejas,780.22
+2023,1,2,Organic,21,Barajas,490.34
+2023,1,2,Packaging,3,Retiro,337.0
+2023,1,2,Packaging,4,Salamanca,468.94
+2023,1,2,Packaging,5,Chamartín,439.18
+2023,1,2,Packaging,14,Moratalaz,291.66
+2023,1,2,Packaging,15,Ciudad Lineal,701.22
+2023,1,2,Packaging,16,Hortaleza,677.72
+2023,1,2,Packaging,19,Vicálvaro,307.34
+2023,1,2,Packaging,20,San Blas - Canillejas,539.12
+2023,1,2,Packaging,21,Barajas,176.9
+2023,1,2,Paper,3,Retiro,336.86
+2023,1,2,Paper,4,Salamanca,579.74
+2023,1,2,Paper,5,Chamartín,395.56
+2023,1,2,Paper,14,Moratalaz,218.24
+2023,1,2,Paper,15,Ciudad Lineal,528.56
+2023,1,2,Paper,16,Hortaleza,456.54
+2023,1,2,Paper,19,Vicálvaro,146.94
+2023,1,2,Paper,20,San Blas - Canillejas,342.0
+2023,1,2,Paper,21,Barajas,141.88
+2023,1,2,Rest,3,Retiro,1294.58
+2023,1,2,Rest,4,Salamanca,2064.28
+2023,1,2,Rest,5,Chamartín,1958.16
+2023,1,2,Rest,14,Moratalaz,1184.78
+2023,1,2,Rest,15,Ciudad Lineal,2932.28
+2023,1,2,Rest,16,Hortaleza,2561.84
+2023,1,2,Rest,19,Vicálvaro,1674.88
+2023,1,2,Rest,20,San Blas - Canillejas,2532.12
+2023,1,2,Rest,21,Barajas,843.1
+2023,1,3,CDW,2,Arganzuela,35.32
+2023,1,3,CDW,11,Carabanchel,25.1
+2023,1,3,CDW,12,Usera,49.73
+2023,1,3,CDW,13,Puente de Vallecas,25.01
+2023,1,3,CDW,17,Villaverde,57.72
+2023,1,3,CDW,18,Villa de Vallecas,55.01
+2023,1,3,cleanPoints,2,Arganzuela,63.96
+2023,1,3,cleanPoints,11,Carabanchel,45.8
+2023,1,3,cleanPoints,12,Usera,24.64
+2023,1,3,cleanPoints,13,Puente de Vallecas,34.22
+2023,1,3,cleanPoints,17,Villaverde,53.56
+2023,1,3,cleanPoints,18,Villa de Vallecas,81.32
+2023,1,3,Clinicians,12,Usera,164.66
+2023,1,3,Clinicians,13,Puente de Vallecas,35.44
+2023,1,3,Clothes,2,Arganzuela,8.16
+2023,1,3,Clothes,11,Carabanchel,6.745
+2023,1,3,Clothes,12,Usera,6.43
+2023,1,3,Clothes,13,Puente de Vallecas,5.435
+2023,1,3,Clothes,17,Villaverde,5.68
+2023,1,3,Clothes,18,Villa de Vallecas,6.06
+2023,1,3,Glass,2,Arganzuela,223.12
+2023,1,3,Glass,11,Carabanchel,211.28
+2023,1,3,Glass,12,Usera,147.52
+2023,1,3,Glass,13,Puente de Vallecas,300.38
+2023,1,3,Glass,17,Villaverde,218.72
+2023,1,3,Glass,18,Villa de Vallecas,204.8
+2023,1,3,Organic,2,Arganzuela,737.64
+2023,1,3,Organic,11,Carabanchel,1236.86
+2023,1,3,Organic,12,Usera,622.36
+2023,1,3,Organic,13,Puente de Vallecas,1053.12
+2023,1,3,Organic,17,Villaverde,827.86
+2023,1,3,Organic,18,Villa de Vallecas,1421.84
+2023,1,3,Packaging,2,Arganzuela,420.04
+2023,1,3,Packaging,11,Carabanchel,922.22
+2023,1,3,Packaging,12,Usera,553.28
+2023,1,3,Packaging,13,Puente de Vallecas,860.56
+2023,1,3,Packaging,17,Villaverde,504.88
+2023,1,3,Packaging,18,Villa de Vallecas,392.74
+2023,1,3,Paper,2,Arganzuela,424.14
+2023,1,3,Paper,11,Carabanchel,347.44
+2023,1,3,Paper,12,Usera,210.3
+2023,1,3,Paper,13,Puente de Vallecas,281.84
+2023,1,3,Paper,17,Villaverde,203.7
+2023,1,3,Paper,18,Villa de Vallecas,188.6
+2023,1,3,Rest,2,Arganzuela,1685.68
+2023,1,3,Rest,11,Carabanchel,4186.02
+2023,1,3,Rest,12,Usera,1835.72
+2023,1,3,Rest,13,Puente de Vallecas,3823.76
+2023,1,3,Rest,17,Villaverde,2529.78
+2023,1,3,Rest,18,Villa de Vallecas,2436.82
+2023,2,1,CDW,1,Centro,121.615
+2023,2,1,CDW,6,Tetuán,56.82
+2023,2,1,CDW,7,Chamberí,43.505
+2023,2,1,CDW,8,Fuencarral - El Pardo,75.255
+2023,2,1,CDW,9,Moncloa - Aravaca,84.53
+2023,2,1,CDW,10,Latina,67.405
+2023,2,1,cleanPoints,8,Fuencarral - El Pardo,118.6
+2023,2,1,cleanPoints,9,Moncloa - Aravaca,53.26
+2023,2,1,cleanPoints,10,Latina,102.56
+2023,2,1,Clinicians,1,Centro,168.18
+2023,2,1,Clinicians,6,Tetuán,14.52
+2023,2,1,Clinicians,8,Fuencarral - El Pardo,308.58
+2023,2,1,Clinicians,9,Moncloa - Aravaca,230.48
+2023,2,1,Clinicians,10,Latina,37.66
+2023,2,1,Clothes,1,Centro,8.715
+2023,2,1,Clothes,6,Tetuán,4.97
+2023,2,1,Clothes,7,Chamberí,9.14
+2023,2,1,Clothes,8,Fuencarral - El Pardo,5.385
+2023,2,1,Clothes,10,Latina,4.585
+2023,2,1,Glass,1,Centro,637.9
+2023,2,1,Glass,6,Tetuán,347.8
+2023,2,1,Glass,7,Chamberí,274.14
+2023,2,1,Glass,8,Fuencarral - El Pardo,274.04
+2023,2,1,Glass,9,Moncloa - Aravaca,300.34
+2023,2,1,Glass,10,Latina,167.56
+2023,2,1,horseBed,9,Moncloa - Aravaca,55.175
+2023,2,1,Organic,1,Centro,1284.9
+2023,2,1,Organic,6,Tetuán,829.34
+2023,2,1,Organic,7,Chamberí,919.24
+2023,2,1,Organic,8,Fuencarral - El Pardo,1399.48
+2023,2,1,Organic,9,Moncloa - Aravaca,956.86
+2023,2,1,Organic,10,Latina,1104.94
+2023,2,1,Packaging,1,Centro,268.06
+2023,2,1,Packaging,6,Tetuán,440.82
+2023,2,1,Packaging,7,Chamberí,421.78
+2023,2,1,Packaging,8,Fuencarral - El Pardo,651.5
+2023,2,1,Packaging,9,Moncloa - Aravaca,396.56
+2023,2,1,Packaging,10,Latina,639.22
+2023,2,1,Paper,1,Centro,607.22
+2023,2,1,Paper,6,Tetuán,428.22
+2023,2,1,Paper,7,Chamberí,369.99
+2023,2,1,Paper,8,Fuencarral - El Pardo,632.03
+2023,2,1,Paper,9,Moncloa - Aravaca,268.12
+2023,2,1,Paper,10,Latina,320.16
+2023,2,1,Rest,1,Centro,3610.98
+2023,2,1,Rest,6,Tetuán,2084.48
+2023,2,1,Rest,7,Chamberí,1818.42
+2023,2,1,Rest,8,Fuencarral - El Pardo,2872.3
+2023,2,1,Rest,9,Moncloa - Aravaca,1975.5
+2023,2,1,Rest,10,Latina,2777.04
+2023,2,2,CDW,3,Retiro,35.59
+2023,2,2,CDW,4,Salamanca,55.01
+2023,2,2,CDW,5,Chamartín,86.58
+2023,2,2,CDW,14,Moratalaz,78.98
+2023,2,2,CDW,15,Ciudad Lineal,110.64
+2023,2,2,CDW,16,Hortaleza,63.82
+2023,2,2,CDW,19,Vicálvaro,64.125
+2023,2,2,CDW,20,San Blas - Canillejas,71.43
+2023,2,2,CDW,21,Barajas,72.095
+2023,2,2,cleanPoints,3,Retiro,2.62
+2023,2,2,cleanPoints,4,Salamanca,0.18
+2023,2,2,cleanPoints,5,Chamartín,87.18
+2023,2,2,cleanPoints,14,Moratalaz,44.98
+2023,2,2,cleanPoints,15,Ciudad Lineal,66.4
+2023,2,2,cleanPoints,16,Hortaleza,59.42
+2023,2,2,cleanPoints,19,Vicálvaro,30.68
+2023,2,2,cleanPoints,20,San Blas - Canillejas,64.88
+2023,2,2,cleanPoints,21,Barajas,35.54
+2023,2,2,Clinicians,3,Retiro,178.36
+2023,2,2,Clinicians,4,Salamanca,114.84
+2023,2,2,Clinicians,15,Ciudad Lineal,124.84
+2023,2,2,Clothes,3,Retiro,1.93
+2023,2,2,Clothes,4,Salamanca,2.88
+2023,2,2,Clothes,5,Chamartín,10.88
+2023,2,2,Clothes,14,Moratalaz,4.52
+2023,2,2,Clothes,15,Ciudad Lineal,5.71
+2023,2,2,Clothes,16,Hortaleza,5.75
+2023,2,2,Clothes,19,Vicálvaro,2.61
+2023,2,2,Clothes,20,San Blas - Canillejas,6.77
+2023,2,2,Clothes,21,Barajas,3.97
+2023,2,2,Glass,3,Retiro,323.06
+2023,2,2,Glass,4,Salamanca,327.36
+2023,2,2,Glass,5,Chamartín,319.1
+2023,2,2,Glass,14,Moratalaz,261.42
+2023,2,2,Glass,15,Ciudad Lineal,149.14
+2023,2,2,Glass,16,Hortaleza,141.06
+2023,2,2,Glass,19,Vicálvaro,155.7
+2023,2,2,Glass,20,San Blas - Canillejas,150.32
+2023,2,2,Glass,21,Barajas,139.6
+2023,2,2,Organic,3,Retiro,769.52
+2023,2,2,Organic,4,Salamanca,1203.18
+2023,2,2,Organic,5,Chamartín,1021.82
+2023,2,2,Organic,14,Moratalaz,409.76
+2023,2,2,Organic,15,Ciudad Lineal,1151.4
+2023,2,2,Organic,16,Hortaleza,878.04
+2023,2,2,Organic,19,Vicálvaro,144.82
+2023,2,2,Organic,20,San Blas - Canillejas,711.9
+2023,2,2,Organic,21,Barajas,407.88
+2023,2,2,Packaging,3,Retiro,301.36
+2023,2,2,Packaging,4,Salamanca,433.38
+2023,2,2,Packaging,5,Chamartín,406.1
+2023,2,2,Packaging,14,Moratalaz,251.18
+2023,2,2,Packaging,15,Ciudad Lineal,630.44
+2023,2,2,Packaging,16,Hortaleza,601.16
+2023,2,2,Packaging,19,Vicálvaro,259.64
+2023,2,2,Packaging,20,San Blas - Canillejas,478.8
+2023,2,2,Packaging,21,Barajas,156.34
+2023,2,2,Paper,3,Retiro,318.4
+2023,2,2,Paper,4,Salamanca,512.72
+2023,2,2,Paper,5,Chamartín,286.5
+2023,2,2,Paper,14,Moratalaz,177.14
+2023,2,2,Paper,15,Ciudad Lineal,395.12
+2023,2,2,Paper,16,Hortaleza,372.82
+2023,2,2,Paper,19,Vicálvaro,112.28
+2023,2,2,Paper,20,San Blas - Canillejas,276.46
+2023,2,2,Paper,21,Barajas,111.52
+2023,2,2,Rest,3,Retiro,1185.48
+2023,2,2,Rest,4,Salamanca,1775.42
+2023,2,2,Rest,5,Chamartín,1727.32
+2023,2,2,Rest,14,Moratalaz,1022.08
+2023,2,2,Rest,15,Ciudad Lineal,2472.94
+2023,2,2,Rest,16,Hortaleza,2184.9
+2023,2,2,Rest,19,Vicálvaro,1492.08
+2023,2,2,Rest,20,San Blas - Canillejas,2127.02
+2023,2,2,Rest,21,Barajas,745.16
+2023,2,3,CDW,2,Arganzuela,46.74
+2023,2,3,CDW,11,Carabanchel,49.06
+2023,2,3,CDW,12,Usera,36.43
+2023,2,3,CDW,13,Puente de Vallecas,47.79
+2023,2,3,CDW,17,Villaverde,38.27
+2023,2,3,CDW,18,Villa de Vallecas,43.78
+2023,2,3,cleanPoints,2,Arganzuela,62.64
+2023,2,3,cleanPoints,11,Carabanchel,47.26
+2023,2,3,cleanPoints,12,Usera,33.2
+2023,2,3,cleanPoints,13,Puente de Vallecas,31.66
+2023,2,3,cleanPoints,17,Villaverde,38.2
+2023,2,3,cleanPoints,18,Villa de Vallecas,66.58
+2023,2,3,Clinicians,12,Usera,157.02
+2023,2,3,Clinicians,13,Puente de Vallecas,34.58
+2023,2,3,Clothes,2,Arganzuela,9.895
+2023,2,3,Clothes,11,Carabanchel,6.29
+2023,2,3,Clothes,12,Usera,3.195
+2023,2,3,Clothes,13,Puente de Vallecas,5.245
+2023,2,3,Clothes,17,Villaverde,6.575
+2023,2,3,Clothes,18,Villa de Vallecas,5.84
+2023,2,3,Glass,2,Arganzuela,229.22
+2023,2,3,Glass,11,Carabanchel,206.66
+2023,2,3,Glass,12,Usera,178.02
+2023,2,3,Glass,13,Puente de Vallecas,149.88
+2023,2,3,Glass,17,Villaverde,123.32
+2023,2,3,Glass,18,Villa de Vallecas,124.66
+2023,2,3,Organic,2,Arganzuela,685.04
+2023,2,3,Organic,11,Carabanchel,1095.04
+2023,2,3,Organic,12,Usera,579.52
+2023,2,3,Organic,13,Puente de Vallecas,906.66
+2023,2,3,Organic,17,Villaverde,746.5
+2023,2,3,Organic,18,Villa de Vallecas,1091.86
+2023,2,3,Packaging,2,Arganzuela,389.18
+2023,2,3,Packaging,11,Carabanchel,835.22
+2023,2,3,Packaging,12,Usera,484.36
+2023,2,3,Packaging,13,Puente de Vallecas,786.14
+2023,2,3,Packaging,17,Villaverde,429.8
+2023,2,3,Packaging,18,Villa de Vallecas,343.5
+2023,2,3,Paper,2,Arganzuela,363.32
+2023,2,3,Paper,11,Carabanchel,294.2
+2023,2,3,Paper,12,Usera,162.48
+2023,2,3,Paper,13,Puente de Vallecas,237.74
+2023,2,3,Paper,17,Villaverde,164.16
+2023,2,3,Paper,18,Villa de Vallecas,158.06
+2023,2,3,Rest,2,Arganzuela,1456.04
+2023,2,3,Rest,11,Carabanchel,3577.74
+2023,2,3,Rest,12,Usera,1511.72
+2023,2,3,Rest,13,Puente de Vallecas,3203.38
+2023,2,3,Rest,17,Villaverde,2199.96
+2023,2,3,Rest,18,Villa de Vallecas,2099.02
+2023,3,1,CDW,1,Centro,105.9
+2023,3,1,CDW,6,Tetuán,70.435
+2023,3,1,CDW,7,Chamberí,30.62
+2023,3,1,CDW,8,Fuencarral - El Pardo,117.14
+2023,3,1,CDW,9,Moncloa - Aravaca,69.86
+2023,3,1,CDW,10,Latina,66.575
+2023,3,1,cleanPoints,8,Fuencarral - El Pardo,121.56
+2023,3,1,cleanPoints,9,Moncloa - Aravaca,57.6
+2023,3,1,cleanPoints,10,Latina,167.02
+2023,3,1,Clinicians,1,Centro,183.66
+2023,3,1,Clinicians,6,Tetuán,14.3
+2023,3,1,Clinicians,8,Fuencarral - El Pardo,324.32
+2023,3,1,Clinicians,9,Moncloa - Aravaca,252.06
+2023,3,1,Clinicians,10,Latina,40.04
+2023,3,1,Clothes,1,Centro,8.76
+2023,3,1,Clothes,6,Tetuán,5.49
+2023,3,1,Clothes,7,Chamberí,6.5
+2023,3,1,Clothes,8,Fuencarral - El Pardo,7.99
+2023,3,1,Clothes,9,Moncloa - Aravaca,2.73
+2023,3,1,Clothes,10,Latina,9.205
+2023,3,1,Glass,1,Centro,755.6
+2023,3,1,Glass,6,Tetuán,375.36
+2023,3,1,Glass,7,Chamberí,302.42
+2023,3,1,Glass,8,Fuencarral - El Pardo,234.88
+2023,3,1,Glass,9,Moncloa - Aravaca,385.52
+2023,3,1,Glass,10,Latina,180.28
+2023,3,1,horseBed,9,Moncloa - Aravaca,61.745
+2023,3,1,Organic,1,Centro,1588.14
+2023,3,1,Organic,6,Tetuán,966.06
+2023,3,1,Organic,7,Chamberí,1049.36
+2023,3,1,Organic,8,Fuencarral - El Pardo,1621.2
+2023,3,1,Organic,9,Moncloa - Aravaca,1098.08
+2023,3,1,Organic,10,Latina,1272.16
+2023,3,1,Packaging,1,Centro,299.14
+2023,3,1,Packaging,6,Tetuán,483.04
+2023,3,1,Packaging,7,Chamberí,475.12
+2023,3,1,Packaging,8,Fuencarral - El Pardo,733.44
+2023,3,1,Packaging,9,Moncloa - Aravaca,463.88
+2023,3,1,Packaging,10,Latina,689.7
+2023,3,1,Paper,1,Centro,702.68
+2023,3,1,Paper,6,Tetuán,456.4
+2023,3,1,Paper,7,Chamberí,371.56
+2023,3,1,Paper,8,Fuencarral - El Pardo,684.8
+2023,3,1,Paper,9,Moncloa - Aravaca,309.08
+2023,3,1,Paper,10,Latina,367.1
+2023,3,1,Rest,1,Centro,3921.98
+2023,3,1,Rest,6,Tetuán,2284.72
+2023,3,1,Rest,7,Chamberí,1987.66
+2023,3,1,Rest,8,Fuencarral - El Pardo,3173.44
+2023,3,1,Rest,9,Moncloa - Aravaca,2130.72
+2023,3,1,Rest,10,Latina,3088.82
+2023,3,2,CDW,3,Retiro,18.22
+2023,3,2,CDW,4,Salamanca,16.94
+2023,3,2,CDW,5,Chamartín,83.94
+2023,3,2,CDW,14,Moratalaz,85.205
+2023,3,2,CDW,15,Ciudad Lineal,121.245
+2023,3,2,CDW,16,Hortaleza,51.965
+2023,3,2,CDW,19,Vicálvaro,54.06
+2023,3,2,CDW,20,San Blas - Canillejas,64.52
+2023,3,2,CDW,21,Barajas,40.28
+2023,3,2,cleanPoints,3,Retiro,3.2
+2023,3,2,cleanPoints,5,Chamartín,99.4
+2023,3,2,cleanPoints,14,Moratalaz,53.24
+2023,3,2,cleanPoints,15,Ciudad Lineal,69.28
+2023,3,2,cleanPoints,16,Hortaleza,61.14
+2023,3,2,cleanPoints,19,Vicálvaro,30.94
+2023,3,2,cleanPoints,20,San Blas - Canillejas,78.74
+2023,3,2,cleanPoints,21,Barajas,37.16
+2023,3,2,Clinicians,3,Retiro,192.02
+2023,3,2,Clinicians,4,Salamanca,129.02
+2023,3,2,Clinicians,15,Ciudad Lineal,138.0
+2023,3,2,Clothes,3,Retiro,1.29
+2023,3,2,Clothes,4,Salamanca,3.45
+2023,3,2,Clothes,5,Chamartín,10.42
+2023,3,2,Clothes,14,Moratalaz,3.78
+2023,3,2,Clothes,15,Ciudad Lineal,5.69
+2023,3,2,Clothes,16,Hortaleza,5.82
+2023,3,2,Clothes,19,Vicálvaro,4.02
+2023,3,2,Clothes,20,San Blas - Canillejas,6.06
+2023,3,2,Clothes,21,Barajas,3.93
+2023,3,2,Glass,3,Retiro,327.22
+2023,3,2,Glass,4,Salamanca,365.66
+2023,3,2,Glass,5,Chamartín,324.42
+2023,3,2,Glass,14,Moratalaz,298.74
+2023,3,2,Glass,15,Ciudad Lineal,188.14
+2023,3,2,Glass,16,Hortaleza,155.1
+2023,3,2,Glass,19,Vicálvaro,161.32
+2023,3,2,Glass,20,San Blas - Canillejas,181.26
+2023,3,2,Glass,21,Barajas,141.04
+2023,3,2,Organic,3,Retiro,870.72
+2023,3,2,Organic,4,Salamanca,1404.0
+2023,3,2,Organic,5,Chamartín,1191.78
+2023,3,2,Organic,14,Moratalaz,458.16
+2023,3,2,Organic,15,Ciudad Lineal,1346.32
+2023,3,2,Organic,16,Hortaleza,994.14
+2023,3,2,Organic,19,Vicálvaro,124.68
+2023,3,2,Organic,20,San Blas - Canillejas,832.34
+2023,3,2,Organic,21,Barajas,483.1
+2023,3,2,Packaging,3,Retiro,338.84
+2023,3,2,Packaging,4,Salamanca,487.04
+2023,3,2,Packaging,5,Chamartín,443.2
+2023,3,2,Packaging,14,Moratalaz,284.96
+2023,3,2,Packaging,15,Ciudad Lineal,712.88
+2023,3,2,Packaging,16,Hortaleza,668.74
+2023,3,2,Packaging,19,Vicálvaro,267.88
+2023,3,2,Packaging,20,San Blas - Canillejas,553.38
+2023,3,2,Packaging,21,Barajas,190.72
+2023,3,2,Paper,3,Retiro,348.64
+2023,3,2,Paper,4,Salamanca,591.16
+2023,3,2,Paper,5,Chamartín,342.5
+2023,3,2,Paper,14,Moratalaz,184.28
+2023,3,2,Paper,15,Ciudad Lineal,394.12
+2023,3,2,Paper,16,Hortaleza,433.92
+2023,3,2,Paper,19,Vicálvaro,123.16
+2023,3,2,Paper,20,San Blas - Canillejas,324.4
+2023,3,2,Paper,21,Barajas,111.22
+2023,3,2,Rest,3,Retiro,1310.54
+2023,3,2,Rest,4,Salamanca,1925.66
+2023,3,2,Rest,5,Chamartín,1896.4
+2023,3,2,Rest,14,Moratalaz,1160.04
+2023,3,2,Rest,15,Ciudad Lineal,2749.28
+2023,3,2,Rest,16,Hortaleza,2438.56
+2023,3,2,Rest,19,Vicálvaro,1538.46
+2023,3,2,Rest,20,San Blas - Canillejas,2378.3
+2023,3,2,Rest,21,Barajas,832.86
+2023,3,3,CDW,2,Arganzuela,51.25
+2023,3,3,CDW,11,Carabanchel,60.08
+2023,3,3,CDW,12,Usera,68.16
+2023,3,3,CDW,13,Puente de Vallecas,35.91
+2023,3,3,CDW,17,Villaverde,54.94
+2023,3,3,CDW,18,Villa de Vallecas,73.65
+2023,3,3,cleanPoints,2,Arganzuela,60.72
+2023,3,3,cleanPoints,11,Carabanchel,37.8
+2023,3,3,cleanPoints,12,Usera,42.28
+2023,3,3,cleanPoints,13,Puente de Vallecas,42.38
+2023,3,3,cleanPoints,17,Villaverde,46.18
+2023,3,3,cleanPoints,18,Villa de Vallecas,88.66
+2023,3,3,Clinicians,12,Usera,165.94
+2023,3,3,Clinicians,13,Puente de Vallecas,38.08
+2023,3,3,Clothes,2,Arganzuela,15.4
+2023,3,3,Clothes,11,Carabanchel,5.91
+2023,3,3,Clothes,12,Usera,3.57
+2023,3,3,Clothes,13,Puente de Vallecas,12.83
+2023,3,3,Clothes,17,Villaverde,7.23
+2023,3,3,Glass,2,Arganzuela,172.0
+2023,3,3,Glass,11,Carabanchel,184.46
+2023,3,3,Glass,12,Usera,153.8
+2023,3,3,Glass,13,Puente de Vallecas,181.78
+2023,3,3,Glass,17,Villaverde,176.46
+2023,3,3,Glass,18,Villa de Vallecas,210.72
+2023,3,3,Organic,2,Arganzuela,796.76
+2023,3,3,Organic,11,Carabanchel,1260.04
+2023,3,3,Organic,12,Usera,670.14
+2023,3,3,Organic,13,Puente de Vallecas,1079.24
+2023,3,3,Organic,17,Villaverde,841.76
+2023,3,3,Organic,18,Villa de Vallecas,1453.62
+2023,3,3,Packaging,2,Arganzuela,470.34
+2023,3,3,Packaging,11,Carabanchel,959.7
+2023,3,3,Packaging,12,Usera,508.08
+2023,3,3,Packaging,13,Puente de Vallecas,863.82
+2023,3,3,Packaging,17,Villaverde,463.66
+2023,3,3,Packaging,18,Villa de Vallecas,370.42
+2023,3,3,Paper,2,Arganzuela,391.06
+2023,3,3,Paper,11,Carabanchel,312.46
+2023,3,3,Paper,12,Usera,179.44
+2023,3,3,Paper,13,Puente de Vallecas,266.92
+2023,3,3,Paper,17,Villaverde,190.6
+2023,3,3,Paper,18,Villa de Vallecas,170.92
+2023,3,3,Rest,2,Arganzuela,1574.32
+2023,3,3,Rest,11,Carabanchel,3987.86
+2023,3,3,Rest,12,Usera,1727.66
+2023,3,3,Rest,13,Puente de Vallecas,3640.36
+2023,3,3,Rest,17,Villaverde,2484.0
+2023,3,3,Rest,18,Villa de Vallecas,2411.5
+2023,4,1,CDW,1,Centro,173.12
+2023,4,1,CDW,6,Tetuán,60.495
+2023,4,1,CDW,7,Chamberí,57.485
+2023,4,1,CDW,8,Fuencarral - El Pardo,110.365
+2023,4,1,CDW,9,Moncloa - Aravaca,57.915
+2023,4,1,CDW,10,Latina,57.615
+2023,4,1,cleanPoints,8,Fuencarral - El Pardo,118.94
+2023,4,1,cleanPoints,9,Moncloa - Aravaca,53.72
+2023,4,1,cleanPoints,10,Latina,121.68
+2023,4,1,Clinicians,1,Centro,158.38
+2023,4,1,Clinicians,6,Tetuán,16.4
+2023,4,1,Clinicians,8,Fuencarral - El Pardo,283.84
+2023,4,1,Clinicians,9,Moncloa - Aravaca,226.14
+2023,4,1,Clinicians,10,Latina,36.28
+2023,4,1,Clothes,1,Centro,8.07
+2023,4,1,Clothes,6,Tetuán,6.975
+2023,4,1,Clothes,7,Chamberí,0.855
+2023,4,1,Clothes,8,Fuencarral - El Pardo,17.275
+2023,4,1,Clothes,9,Moncloa - Aravaca,9.495
+2023,4,1,Clothes,10,Latina,9.215
+2023,4,1,Glass,1,Centro,729.1
+2023,4,1,Glass,6,Tetuán,309.5
+2023,4,1,Glass,7,Chamberí,288.32
+2023,4,1,Glass,8,Fuencarral - El Pardo,186.22
+2023,4,1,Glass,9,Moncloa - Aravaca,330.9
+2023,4,1,Glass,10,Latina,186.92
+2023,4,1,horseBed,9,Moncloa - Aravaca,52.495
+2023,4,1,Organic,1,Centro,1605.72
+2023,4,1,Organic,6,Tetuán,924.38
+2023,4,1,Organic,7,Chamberí,939.36
+2023,4,1,Organic,8,Fuencarral - El Pardo,1476.54
+2023,4,1,Organic,9,Moncloa - Aravaca,1030.64
+2023,4,1,Organic,10,Latina,1267.44
+2023,4,1,Packaging,1,Centro,289.18
+2023,4,1,Packaging,6,Tetuán,468.34
+2023,4,1,Packaging,7,Chamberí,429.6
+2023,4,1,Packaging,8,Fuencarral - El Pardo,665.84
+2023,4,1,Packaging,9,Moncloa - Aravaca,406.34
+2023,4,1,Packaging,10,Latina,685.0
+2023,4,1,Paper,1,Centro,664.61
+2023,4,1,Paper,6,Tetuán,416.6
+2023,4,1,Paper,7,Chamberí,335.28
+2023,4,1,Paper,8,Fuencarral - El Pardo,593.74
+2023,4,1,Paper,9,Moncloa - Aravaca,253.84
+2023,4,1,Paper,10,Latina,333.5
+2023,4,1,Rest,1,Centro,3640.3
+2023,4,1,Rest,6,Tetuán,2095.16
+2023,4,1,Rest,7,Chamberí,1707.02
+2023,4,1,Rest,8,Fuencarral - El Pardo,2797.42
+2023,4,1,Rest,9,Moncloa - Aravaca,1943.66
+2023,4,1,Rest,10,Latina,2810.78
+2023,4,2,CDW,3,Retiro,26.0
+2023,4,2,CDW,4,Salamanca,36.68
+2023,4,2,CDW,5,Chamartín,89.68
+2023,4,2,CDW,14,Moratalaz,80.58
+2023,4,2,CDW,15,Ciudad Lineal,111.18
+2023,4,2,CDW,16,Hortaleza,73.1
+2023,4,2,CDW,19,Vicálvaro,63.59
+2023,4,2,CDW,20,San Blas - Canillejas,88.01
+2023,4,2,CDW,21,Barajas,51.16
+2023,4,2,cleanPoints,3,Retiro,1.78
+2023,4,2,cleanPoints,4,Salamanca,0.14
+2023,4,2,cleanPoints,5,Chamartín,101.7
+2023,4,2,cleanPoints,14,Moratalaz,49.74
+2023,4,2,cleanPoints,15,Ciudad Lineal,76.56
+2023,4,2,cleanPoints,16,Hortaleza,71.52
+2023,4,2,cleanPoints,19,Vicálvaro,29.18
+2023,4,2,cleanPoints,20,San Blas - Canillejas,78.62
+2023,4,2,cleanPoints,21,Barajas,36.2
+2023,4,2,Clinicians,3,Retiro,170.82
+2023,4,2,Clinicians,4,Salamanca,93.78
+2023,4,2,Clinicians,15,Ciudad Lineal,127.68
+2023,4,2,Clothes,3,Retiro,3.28
+2023,4,2,Clothes,4,Salamanca,5.11
+2023,4,2,Clothes,5,Chamartín,9.63
+2023,4,2,Clothes,14,Moratalaz,6.56
+2023,4,2,Clothes,15,Ciudad Lineal,6.46
+2023,4,2,Clothes,16,Hortaleza,6.99
+2023,4,2,Clothes,19,Vicálvaro,4.7
+2023,4,2,Clothes,20,San Blas - Canillejas,6.8
+2023,4,2,Clothes,21,Barajas,6.15
+2023,4,2,Glass,3,Retiro,308.8
+2023,4,2,Glass,4,Salamanca,357.1
+2023,4,2,Glass,5,Chamartín,284.36
+2023,4,2,Glass,14,Moratalaz,222.5
+2023,4,2,Glass,15,Ciudad Lineal,176.28
+2023,4,2,Glass,16,Hortaleza,132.28
+2023,4,2,Glass,19,Vicálvaro,152.74
+2023,4,2,Glass,20,San Blas - Canillejas,171.08
+2023,4,2,Glass,21,Barajas,107.46
+2023,4,2,Organic,3,Retiro,804.4
+2023,4,2,Organic,4,Salamanca,1381.76
+2023,4,2,Organic,5,Chamartín,1107.02
+2023,4,2,Organic,14,Moratalaz,454.08
+2023,4,2,Organic,15,Ciudad Lineal,1280.76
+2023,4,2,Organic,16,Hortaleza,936.02
+2023,4,2,Organic,19,Vicálvaro,117.04
+2023,4,2,Organic,20,San Blas - Canillejas,796.62
+2023,4,2,Organic,21,Barajas,472.64
+2023,4,2,Packaging,3,Retiro,307.66
+2023,4,2,Packaging,4,Salamanca,448.36
+2023,4,2,Packaging,5,Chamartín,414.4
+2023,4,2,Packaging,14,Moratalaz,254.74
+2023,4,2,Packaging,15,Ciudad Lineal,669.64
+2023,4,2,Packaging,16,Hortaleza,640.22
+2023,4,2,Packaging,19,Vicálvaro,293.26
+2023,4,2,Packaging,20,San Blas - Canillejas,507.18
+2023,4,2,Packaging,21,Barajas,157.64
+2023,4,2,Paper,3,Retiro,349.92
+2023,4,2,Paper,4,Salamanca,511.92
+2023,4,2,Paper,5,Chamartín,271.94
+2023,4,2,Paper,14,Moratalaz,139.28
+2023,4,2,Paper,15,Ciudad Lineal,298.78
+2023,4,2,Paper,16,Hortaleza,403.88
+2023,4,2,Paper,19,Vicálvaro,83.84
+2023,4,2,Paper,20,San Blas - Canillejas,277.66
+2023,4,2,Paper,21,Barajas,118.72
+2023,4,2,Rest,3,Retiro,1186.62
+2023,4,2,Rest,4,Salamanca,1635.86
+2023,4,2,Rest,5,Chamartín,1632.6
+2023,4,2,Rest,14,Moratalaz,1013.8
+2023,4,2,Rest,15,Ciudad Lineal,2414.12
+2023,4,2,Rest,16,Hortaleza,2191.62
+2023,4,2,Rest,19,Vicálvaro,1564.02
+2023,4,2,Rest,20,San Blas - Canillejas,2134.88
+2023,4,2,Rest,21,Barajas,733.7
+2023,4,3,CDW,2,Arganzuela,32.08
+2023,4,3,CDW,11,Carabanchel,37.92
+2023,4,3,CDW,12,Usera,72.07
+2023,4,3,CDW,13,Puente de Vallecas,38.06
+2023,4,3,CDW,17,Villaverde,60.75
+2023,4,3,CDW,18,Villa de Vallecas,123.26
+2023,4,3,cleanPoints,2,Arganzuela,66.42
+2023,4,3,cleanPoints,11,Carabanchel,42.9
+2023,4,3,cleanPoints,12,Usera,43.12
+2023,4,3,cleanPoints,13,Puente de Vallecas,40.2
+2023,4,3,cleanPoints,17,Villaverde,46.66
+2023,4,3,cleanPoints,18,Villa de Vallecas,100.04
+2023,4,3,Clinicians,12,Usera,148.46
+2023,4,3,Clinicians,13,Puente de Vallecas,32.78
+2023,4,3,Clothes,2,Arganzuela,23.33
+2023,4,3,Clothes,11,Carabanchel,9.62
+2023,4,3,Clothes,12,Usera,7.155
+2023,4,3,Clothes,13,Puente de Vallecas,7.355
+2023,4,3,Clothes,17,Villaverde,5.055
+2023,4,3,Clothes,18,Villa de Vallecas,4.75
+2023,4,3,Glass,2,Arganzuela,201.04
+2023,4,3,Glass,11,Carabanchel,209.44
+2023,4,3,Glass,12,Usera,147.26
+2023,4,3,Glass,13,Puente de Vallecas,161.72
+2023,4,3,Glass,17,Villaverde,144.42
+2023,4,3,Glass,18,Villa de Vallecas,162.76
+2023,4,3,Organic,2,Arganzuela,740.36
+2023,4,3,Organic,11,Carabanchel,1252.86
+2023,4,3,Organic,12,Usera,683.66
+2023,4,3,Organic,13,Puente de Vallecas,1063.98
+2023,4,3,Organic,17,Villaverde,837.08
+2023,4,3,Organic,18,Villa de Vallecas,1427.84
+2023,4,3,Packaging,2,Arganzuela,436.78
+2023,4,3,Packaging,11,Carabanchel,892.36
+2023,4,3,Packaging,12,Usera,512.1
+2023,4,3,Packaging,13,Puente de Vallecas,896.76
+2023,4,3,Packaging,17,Villaverde,435.06
+2023,4,3,Packaging,18,Villa de Vallecas,366.16
+2023,4,3,Paper,2,Arganzuela,346.48
+2023,4,3,Paper,11,Carabanchel,298.84
+2023,4,3,Paper,12,Usera,164.26
+2023,4,3,Paper,13,Puente de Vallecas,237.58
+2023,4,3,Paper,17,Villaverde,167.26
+2023,4,3,Paper,18,Villa de Vallecas,166.84
+2023,4,3,Rest,2,Arganzuela,1486.1
+2023,4,3,Rest,11,Carabanchel,3582.4
+2023,4,3,Rest,12,Usera,1643.34
+2023,4,3,Rest,13,Puente de Vallecas,3299.72
+2023,4,3,Rest,17,Villaverde,2353.94
+2023,4,3,Rest,18,Villa de Vallecas,2215.58
+2023,5,1,CDW,1,Centro,137.99
+2023,5,1,CDW,6,Tetuán,69.225
+2023,5,1,CDW,7,Chamberí,65.65
+2023,5,1,CDW,8,Fuencarral - El Pardo,148.045
+2023,5,1,CDW,9,Moncloa - Aravaca,56.675
+2023,5,1,CDW,10,Latina,90.89
+2023,5,1,cleanPoints,8,Fuencarral - El Pardo,125.98
+2023,5,1,cleanPoints,9,Moncloa - Aravaca,60.44
+2023,5,1,cleanPoints,10,Latina,104.2
+2023,5,1,Clinicians,1,Centro,170.56
+2023,5,1,Clinicians,6,Tetuán,12.64
+2023,5,1,Clinicians,8,Fuencarral - El Pardo,304.06
+2023,5,1,Clinicians,9,Moncloa - Aravaca,234.22
+2023,5,1,Clinicians,10,Latina,35.9
+2023,5,1,Clothes,1,Centro,11.585
+2023,5,1,Clothes,6,Tetuán,9.62
+2023,5,1,Clothes,7,Chamberí,3.695
+2023,5,1,Clothes,8,Fuencarral - El Pardo,19.275
+2023,5,1,Clothes,9,Moncloa - Aravaca,10.02
+2023,5,1,Clothes,10,Latina,11.725
+2023,5,1,Glass,1,Centro,831.58
+2023,5,1,Glass,6,Tetuán,339.2
+2023,5,1,Glass,7,Chamberí,330.12
+2023,5,1,Glass,8,Fuencarral - El Pardo,218.96
+2023,5,1,Glass,9,Moncloa - Aravaca,380.64
+2023,5,1,Glass,10,Latina,227.28
+2023,5,1,horseBed,9,Moncloa - Aravaca,59.54
+2023,5,1,Organic,1,Centro,1756.5
+2023,5,1,Organic,6,Tetuán,1031.88
+2023,5,1,Organic,7,Chamberí,1100.16
+2023,5,1,Organic,8,Fuencarral - El Pardo,1725.14
+2023,5,1,Organic,9,Moncloa - Aravaca,1228.22
+2023,5,1,Organic,10,Latina,1343.38
+2023,5,1,Packaging,1,Centro,313.92
+2023,5,1,Packaging,6,Tetuán,499.24
+2023,5,1,Packaging,7,Chamberí,491.22
+2023,5,1,Packaging,8,Fuencarral - El Pardo,739.08
+2023,5,1,Packaging,9,Moncloa - Aravaca,473.1
+2023,5,1,Packaging,10,Latina,717.5
+2023,5,1,Paper,1,Centro,711.26
+2023,5,1,Paper,6,Tetuán,436.4
+2023,5,1,Paper,7,Chamberí,348.76
+2023,5,1,Paper,8,Fuencarral - El Pardo,685.09
+2023,5,1,Paper,9,Moncloa - Aravaca,284.54
+2023,5,1,Paper,10,Latina,356.04
+2023,5,1,Rest,1,Centro,3706.4
+2023,5,1,Rest,6,Tetuán,2240.34
+2023,5,1,Rest,7,Chamberí,1771.06
+2023,5,1,Rest,8,Fuencarral - El Pardo,3199.92
+2023,5,1,Rest,9,Moncloa - Aravaca,2204.12
+2023,5,1,Rest,10,Latina,3174.36
+2023,5,2,CDW,3,Retiro,36.765
+2023,5,2,CDW,4,Salamanca,42.3
+2023,5,2,CDW,5,Chamartín,120.495
+2023,5,2,CDW,14,Moratalaz,114.77
+2023,5,2,CDW,15,Ciudad Lineal,123.81
+2023,5,2,CDW,16,Hortaleza,62.305
+2023,5,2,CDW,19,Vicálvaro,57.77
+2023,5,2,CDW,20,San Blas - Canillejas,85.08
+2023,5,2,CDW,21,Barajas,59.185
+2023,5,2,cleanPoints,3,Retiro,1.76
+2023,5,2,cleanPoints,5,Chamartín,101.94
+2023,5,2,cleanPoints,14,Moratalaz,45.34
+2023,5,2,cleanPoints,15,Ciudad Lineal,91.16
+2023,5,2,cleanPoints,16,Hortaleza,75.52
+2023,5,2,cleanPoints,19,Vicálvaro,28.04
+2023,5,2,cleanPoints,20,San Blas - Canillejas,80.0
+2023,5,2,cleanPoints,21,Barajas,38.0
+2023,5,2,Clinicians,3,Retiro,187.42
+2023,5,2,Clinicians,4,Salamanca,106.84
+2023,5,2,Clinicians,15,Ciudad Lineal,135.24
+2023,5,2,Clothes,3,Retiro,1.16
+2023,5,2,Clothes,4,Salamanca,3.23
+2023,5,2,Clothes,5,Chamartín,10.82
+2023,5,2,Clothes,14,Moratalaz,7.34
+2023,5,2,Clothes,15,Ciudad Lineal,6.63
+2023,5,2,Clothes,16,Hortaleza,8.37
+2023,5,2,Clothes,19,Vicálvaro,5.99
+2023,5,2,Clothes,20,San Blas - Canillejas,8.27
+2023,5,2,Clothes,21,Barajas,6.83
+2023,5,2,Glass,3,Retiro,362.38
+2023,5,2,Glass,4,Salamanca,389.98
+2023,5,2,Glass,5,Chamartín,284.5
+2023,5,2,Glass,14,Moratalaz,239.28
+2023,5,2,Glass,15,Ciudad Lineal,200.36
+2023,5,2,Glass,16,Hortaleza,164.7
+2023,5,2,Glass,19,Vicálvaro,123.34
+2023,5,2,Glass,20,San Blas - Canillejas,170.6
+2023,5,2,Glass,21,Barajas,91.92
+2023,5,2,Organic,3,Retiro,937.84
+2023,5,2,Organic,4,Salamanca,1586.18
+2023,5,2,Organic,5,Chamartín,1263.1
+2023,5,2,Organic,14,Moratalaz,496.9
+2023,5,2,Organic,15,Ciudad Lineal,1427.58
+2023,5,2,Organic,16,Hortaleza,1089.62
+2023,5,2,Organic,19,Vicálvaro,146.1
+2023,5,2,Organic,20,San Blas - Canillejas,892.76
+2023,5,2,Organic,21,Barajas,540.52
+2023,5,2,Packaging,3,Retiro,352.54
+2023,5,2,Packaging,4,Salamanca,520.58
+2023,5,2,Packaging,5,Chamartín,467.06
+2023,5,2,Packaging,14,Moratalaz,292.08
+2023,5,2,Packaging,15,Ciudad Lineal,741.22
+2023,5,2,Packaging,16,Hortaleza,698.32
+2023,5,2,Packaging,19,Vicálvaro,295.9
+2023,5,2,Packaging,20,San Blas - Canillejas,556.26
+2023,5,2,Packaging,21,Barajas,187.12
+2023,5,2,Paper,3,Retiro,314.06
+2023,5,2,Paper,4,Salamanca,568.02
+2023,5,2,Paper,5,Chamartín,327.16
+2023,5,2,Paper,14,Moratalaz,185.58
+2023,5,2,Paper,15,Ciudad Lineal,356.12
+2023,5,2,Paper,16,Hortaleza,449.18
+2023,5,2,Paper,19,Vicálvaro,155.56
+2023,5,2,Paper,20,San Blas - Canillejas,280.54
+2023,5,2,Paper,21,Barajas,131.34
+2023,5,2,Rest,3,Retiro,1222.38
+2023,5,2,Rest,4,Salamanca,1736.04
+2023,5,2,Rest,5,Chamartín,1740.0
+2023,5,2,Rest,14,Moratalaz,1116.98
+2023,5,2,Rest,15,Ciudad Lineal,2675.06
+2023,5,2,Rest,16,Hortaleza,2500.26
+2023,5,2,Rest,19,Vicálvaro,1764.4
+2023,5,2,Rest,20,San Blas - Canillejas,2433.5
+2023,5,2,Rest,21,Barajas,847.74
+2023,5,3,CDW,2,Arganzuela,47.95
+2023,5,3,CDW,11,Carabanchel,23.26
+2023,5,3,CDW,12,Usera,54.19
+2023,5,3,CDW,13,Puente de Vallecas,32.89
+2023,5,3,CDW,17,Villaverde,54.96
+2023,5,3,CDW,18,Villa de Vallecas,194.83
+2023,5,3,cleanPoints,2,Arganzuela,64.26
+2023,5,3,cleanPoints,11,Carabanchel,40.88
+2023,5,3,cleanPoints,12,Usera,36.6
+2023,5,3,cleanPoints,13,Puente de Vallecas,43.7
+2023,5,3,cleanPoints,17,Villaverde,69.16
+2023,5,3,cleanPoints,18,Villa de Vallecas,61.9
+2023,5,3,Clinicians,12,Usera,163.66
+2023,5,3,Clinicians,13,Puente de Vallecas,37.34
+2023,5,3,Clothes,2,Arganzuela,35.52
+2023,5,3,Clothes,11,Carabanchel,25.19
+2023,5,3,Clothes,12,Usera,14.77
+2023,5,3,Clothes,13,Puente de Vallecas,14.88
+2023,5,3,Clothes,17,Villaverde,17.405
+2023,5,3,Clothes,18,Villa de Vallecas,12.365
+2023,5,3,Glass,2,Arganzuela,186.84
+2023,5,3,Glass,11,Carabanchel,252.52
+2023,5,3,Glass,12,Usera,98.0
+2023,5,3,Glass,13,Puente de Vallecas,273.8
+2023,5,3,Glass,17,Villaverde,144.62
+2023,5,3,Glass,18,Villa de Vallecas,195.62
+2023,5,3,Organic,2,Arganzuela,836.44
+2023,5,3,Organic,11,Carabanchel,1430.26
+2023,5,3,Organic,12,Usera,801.08
+2023,5,3,Organic,13,Puente de Vallecas,1181.7
+2023,5,3,Organic,17,Villaverde,914.02
+2023,5,3,Organic,18,Villa de Vallecas,1597.48
+2023,5,3,Packaging,2,Arganzuela,505.24
+2023,5,3,Packaging,11,Carabanchel,1029.94
+2023,5,3,Packaging,12,Usera,504.52
+2023,5,3,Packaging,13,Puente de Vallecas,897.6
+2023,5,3,Packaging,17,Villaverde,477.04
+2023,5,3,Packaging,18,Villa de Vallecas,384.46
+2023,5,3,Paper,2,Arganzuela,381.0
+2023,5,3,Paper,11,Carabanchel,311.0
+2023,5,3,Paper,12,Usera,175.39
+2023,5,3,Paper,13,Puente de Vallecas,257.9
+2023,5,3,Paper,17,Villaverde,192.1
+2023,5,3,Paper,18,Villa de Vallecas,184.28
+2023,5,3,Rest,2,Arganzuela,1523.7
+2023,5,3,Rest,11,Carabanchel,3967.7
+2023,5,3,Rest,12,Usera,1744.64
+2023,5,3,Rest,13,Puente de Vallecas,3631.68
+2023,5,3,Rest,17,Villaverde,2491.26
+2023,5,3,Rest,18,Villa de Vallecas,2483.12
+2023,6,1,CDW,1,Centro,140.0
+2023,6,1,CDW,6,Tetuán,59.01
+2023,6,1,CDW,7,Chamberí,57.765
+2023,6,1,CDW,8,Fuencarral - El Pardo,132.53
+2023,6,1,CDW,9,Moncloa - Aravaca,92.055
+2023,6,1,CDW,10,Latina,51.58
+2023,6,1,cleanPoints,8,Fuencarral - El Pardo,132.32
+2023,6,1,cleanPoints,9,Moncloa - Aravaca,60.34
+2023,6,1,cleanPoints,10,Latina,128.18
+2023,6,1,Clinicians,1,Centro,169.22
+2023,6,1,Clinicians,6,Tetuán,14.12
+2023,6,1,Clinicians,8,Fuencarral - El Pardo,320.06
+2023,6,1,Clinicians,9,Moncloa - Aravaca,247.64
+2023,6,1,Clinicians,10,Latina,39.2
+2023,6,1,Clothes,1,Centro,16.215
+2023,6,1,Clothes,6,Tetuán,12.455
+2023,6,1,Clothes,7,Chamberí,9.85
+2023,6,1,Clothes,8,Fuencarral - El Pardo,20.055
+2023,6,1,Clothes,9,Moncloa - Aravaca,10.115
+2023,6,1,Clothes,10,Latina,8.305
+2023,6,1,Glass,1,Centro,763.14
+2023,6,1,Glass,6,Tetuán,339.72
+2023,6,1,Glass,7,Chamberí,289.16
+2023,6,1,Glass,8,Fuencarral - El Pardo,205.34
+2023,6,1,Glass,9,Moncloa - Aravaca,384.04
+2023,6,1,Glass,10,Latina,188.46
+2023,6,1,horseBed,9,Moncloa - Aravaca,69.795
+2023,6,1,Organic,1,Centro,1830.26
+2023,6,1,Organic,6,Tetuán,1050.38
+2023,6,1,Organic,7,Chamberí,1104.96
+2023,6,1,Organic,8,Fuencarral - El Pardo,1737.32
+2023,6,1,Organic,9,Moncloa - Aravaca,1224.2
+2023,6,1,Organic,10,Latina,1383.36
+2023,6,1,Packaging,1,Centro,317.42
+2023,6,1,Packaging,6,Tetuán,485.34
+2023,6,1,Packaging,7,Chamberí,486.84
+2023,6,1,Packaging,8,Fuencarral - El Pardo,757.3
+2023,6,1,Packaging,9,Moncloa - Aravaca,489.52
+2023,6,1,Packaging,10,Latina,722.6
+2023,6,1,Paper,1,Centro,723.22
+2023,6,1,Paper,6,Tetuán,459.38
+2023,6,1,Paper,7,Chamberí,370.7
+2023,6,1,Paper,8,Fuencarral - El Pardo,736.8
+2023,6,1,Paper,9,Moncloa - Aravaca,298.96
+2023,6,1,Paper,10,Latina,367.45
+2023,6,1,Rest,1,Centro,3665.76
+2023,6,1,Rest,6,Tetuán,2290.02
+2023,6,1,Rest,7,Chamberí,1875.94
+2023,6,1,Rest,8,Fuencarral - El Pardo,3288.16
+2023,6,1,Rest,9,Moncloa - Aravaca,2248.58
+2023,6,1,Rest,10,Latina,3172.74
+2023,6,2,CDW,3,Retiro,22.16
+2023,6,2,CDW,4,Salamanca,36.46
+2023,6,2,CDW,5,Chamartín,123.286
+2023,6,2,CDW,14,Moratalaz,100.75
+2023,6,2,CDW,15,Ciudad Lineal,96.41
+2023,6,2,CDW,16,Hortaleza,74.75
+2023,6,2,CDW,19,Vicálvaro,96.2
+2023,6,2,CDW,20,San Blas - Canillejas,99.014
+2023,6,2,CDW,21,Barajas,61.86
+2023,6,2,cleanPoints,3,Retiro,3.62
+2023,6,2,cleanPoints,5,Chamartín,106.66
+2023,6,2,cleanPoints,14,Moratalaz,49.82
+2023,6,2,cleanPoints,15,Ciudad Lineal,72.0
+2023,6,2,cleanPoints,16,Hortaleza,76.1
+2023,6,2,cleanPoints,19,Vicálvaro,40.2
+2023,6,2,cleanPoints,20,San Blas - Canillejas,78.84
+2023,6,2,cleanPoints,21,Barajas,38.7
+2023,6,2,Clinicians,3,Retiro,176.84
+2023,6,2,Clinicians,4,Salamanca,104.46
+2023,6,2,Clinicians,15,Ciudad Lineal,137.5
+2023,6,2,Clothes,3,Retiro,6.83
+2023,6,2,Clothes,4,Salamanca,10.87
+2023,6,2,Clothes,5,Chamartín,10.7
+2023,6,2,Clothes,14,Moratalaz,9.1
+2023,6,2,Clothes,15,Ciudad Lineal,13.22
+2023,6,2,Clothes,16,Hortaleza,7.51
+2023,6,2,Clothes,19,Vicálvaro,4.52
+2023,6,2,Clothes,20,San Blas - Canillejas,6.98
+2023,6,2,Clothes,21,Barajas,5.91
+2023,6,2,Glass,3,Retiro,296.0
+2023,6,2,Glass,4,Salamanca,424.98
+2023,6,2,Glass,5,Chamartín,310.02
+2023,6,2,Glass,14,Moratalaz,252.64
+2023,6,2,Glass,15,Ciudad Lineal,222.88
+2023,6,2,Glass,16,Hortaleza,179.88
+2023,6,2,Glass,19,Vicálvaro,146.56
+2023,6,2,Glass,20,San Blas - Canillejas,177.46
+2023,6,2,Glass,21,Barajas,121.34
+2023,6,2,Organic,3,Retiro,932.48
+2023,6,2,Organic,4,Salamanca,1512.34
+2023,6,2,Organic,5,Chamartín,1261.94
+2023,6,2,Organic,14,Moratalaz,503.0
+2023,6,2,Organic,15,Ciudad Lineal,1443.46
+2023,6,2,Organic,16,Hortaleza,1091.04
+2023,6,2,Organic,19,Vicálvaro,166.3
+2023,6,2,Organic,20,San Blas - Canillejas,878.04
+2023,6,2,Organic,21,Barajas,530.48
+2023,6,2,Packaging,3,Retiro,344.3
+2023,6,2,Packaging,4,Salamanca,505.06
+2023,6,2,Packaging,5,Chamartín,461.4
+2023,6,2,Packaging,14,Moratalaz,283.96
+2023,6,2,Packaging,15,Ciudad Lineal,726.46
+2023,6,2,Packaging,16,Hortaleza,698.32
+2023,6,2,Packaging,19,Vicálvaro,324.52
+2023,6,2,Packaging,20,San Blas - Canillejas,574.5
+2023,6,2,Packaging,21,Barajas,175.6
+2023,6,2,Paper,3,Retiro,276.42
+2023,6,2,Paper,4,Salamanca,654.98
+2023,6,2,Paper,5,Chamartín,412.18
+2023,6,2,Paper,14,Moratalaz,239.56
+2023,6,2,Paper,15,Ciudad Lineal,384.86
+2023,6,2,Paper,16,Hortaleza,453.78
+2023,6,2,Paper,19,Vicálvaro,99.18
+2023,6,2,Paper,20,San Blas - Canillejas,261.84
+2023,6,2,Paper,21,Barajas,138.28
+2023,6,2,Rest,3,Retiro,1277.12
+2023,6,2,Rest,4,Salamanca,1833.08
+2023,6,2,Rest,5,Chamartín,1849.96
+2023,6,2,Rest,14,Moratalaz,1112.76
+2023,6,2,Rest,15,Ciudad Lineal,2747.2
+2023,6,2,Rest,16,Hortaleza,2564.7
+2023,6,2,Rest,19,Vicálvaro,1834.54
+2023,6,2,Rest,20,San Blas - Canillejas,2461.76
+2023,6,2,Rest,21,Barajas,823.78
+2023,6,3,CDW,2,Arganzuela,53.86
+2023,6,3,CDW,11,Carabanchel,75.17
+2023,6,3,CDW,12,Usera,46.45
+2023,6,3,CDW,13,Puente de Vallecas,47.78
+2023,6,3,CDW,17,Villaverde,81.91
+2023,6,3,CDW,18,Villa de Vallecas,52.64
+2023,6,3,cleanPoints,2,Arganzuela,66.4
+2023,6,3,cleanPoints,11,Carabanchel,33.54
+2023,6,3,cleanPoints,12,Usera,40.2
+2023,6,3,cleanPoints,13,Puente de Vallecas,41.38
+2023,6,3,cleanPoints,17,Villaverde,58.44
+2023,6,3,cleanPoints,18,Villa de Vallecas,85.36
+2023,6,3,Clinicians,12,Usera,156.72
+2023,6,3,Clinicians,13,Puente de Vallecas,35.34
+2023,6,3,Clothes,2,Arganzuela,13.3
+2023,6,3,Clothes,11,Carabanchel,20.61
+2023,6,3,Clothes,12,Usera,13.145
+2023,6,3,Clothes,13,Puente de Vallecas,12.16
+2023,6,3,Clothes,17,Villaverde,10.545
+2023,6,3,Clothes,18,Villa de Vallecas,9.59
+2023,6,3,Glass,2,Arganzuela,279.96
+2023,6,3,Glass,11,Carabanchel,183.62
+2023,6,3,Glass,12,Usera,218.16
+2023,6,3,Glass,13,Puente de Vallecas,191.56
+2023,6,3,Glass,17,Villaverde,173.16
+2023,6,3,Glass,18,Villa de Vallecas,98.6
+2023,6,3,Organic,2,Arganzuela,797.34
+2023,6,3,Organic,11,Carabanchel,1396.72
+2023,6,3,Organic,12,Usera,716.64
+2023,6,3,Organic,13,Puente de Vallecas,1176.68
+2023,6,3,Organic,17,Villaverde,901.98
+2023,6,3,Organic,18,Villa de Vallecas,1759.06
+2023,6,3,Packaging,2,Arganzuela,481.6
+2023,6,3,Packaging,11,Carabanchel,986.58
+2023,6,3,Packaging,12,Usera,517.46
+2023,6,3,Packaging,13,Puente de Vallecas,920.26
+2023,6,3,Packaging,17,Villaverde,452.84
+2023,6,3,Packaging,18,Villa de Vallecas,381.8
+2023,6,3,Paper,2,Arganzuela,388.86
+2023,6,3,Paper,11,Carabanchel,330.44
+2023,6,3,Paper,12,Usera,188.94
+2023,6,3,Paper,13,Puente de Vallecas,275.18
+2023,6,3,Paper,17,Villaverde,198.84
+2023,6,3,Paper,18,Villa de Vallecas,198.56
+2023,6,3,Rest,2,Arganzuela,1660.16
+2023,6,3,Rest,11,Carabanchel,3908.82
+2023,6,3,Rest,12,Usera,1690.34
+2023,6,3,Rest,13,Puente de Vallecas,3621.9
+2023,6,3,Rest,17,Villaverde,2605.08
+2023,6,3,Rest,18,Villa de Vallecas,2785.76

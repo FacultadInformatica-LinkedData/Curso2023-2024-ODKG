@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.image-container {
+  width: 50%;
+}

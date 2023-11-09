@@ -68,7 +68,8 @@ function addDistrict(districtFile) {
                         },
                         click: function(e) {
                             var districtName = feature.properties.name;
-                            window.location.href = '/district?name=' + encodeURIComponent(districtName);
+                            var districtWikidataID = feature.properties.wikidataID;
+                            window.location.href = '/district?name=' + encodeURIComponent(districtName) + "&wikidataID=" + encodeURIComponent(districtWikidataID);
                         }
                     });
                 },
