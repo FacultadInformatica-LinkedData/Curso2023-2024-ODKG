@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 {% block title %}WasteType Details{% endblock %}
 {% block body %}
-<h1 class="text-center mb-4">WasteType Details</h1>
-<div id="description">
-  {{ result }}
-</div>
+    <h1 class="text-center mb-4">WasteType Details</h1>
+    {% if result %}
+        <div id="description">
+            {{ result }}
+        </div>
+    {% else %}
+        <p class="text-center">No further details available for this waste type.</p>
+    {% endif %}
+
+
 {% endblock %}

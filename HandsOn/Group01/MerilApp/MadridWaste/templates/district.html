@@ -16,7 +16,7 @@
                         <h3>Area</h3>
                         <p>{{ result.area }} km²</p>
                         <h3>Coordinates</h3>
-                        <p>{{ result.coordinates }}</p>
+                        <p class="formatted-coordinates" data-coordinates="{{ result.coordinates }}"></p>
                     </div>
                     <div class="image-container">
                         <img src="static/data/Districts/Images/{{ result.name }}.jpg" height="90%" width="90%">
@@ -24,6 +24,31 @@
                 {% endfor %}
             </div>
         </div>
+        <script>
+        // Function to format and display coordinates
+        function displayCoordinates() {
+            var coordinateElements = document.getElementsByClassName("formatted-coordinates");
+
+            for (var i = 0; i < coordinateElements.length; i++) {
+                var coordinateString = coordinateElements[i].getAttribute("data-coordinates");
+                var coordinates = coordinateString.match(/-?\d+\.\d+/g);
+
+                if (coordinates && coordinates.length === 2) {
+                    var latitude = parseFloat(coordinates[1]);
+                    var longitude = parseFloat(coordinates[0]);
+
+                    // Format and display coordinates
+                    var formattedCoordinates = "Latitude: " + latitude.toFixed(6) + ", Longitude: " + longitude.toFixed(6);
+                    coordinateElements[i].innerText = formattedCoordinates;
+                } else {
+                    coordinateElements[i].innerText = "Invalid coordinate format";
+                }
+            }
+        }
+
+        // Call the function to display coordinates
+        displayCoordinates();
+    </script>
     {% else %}
         <p class="text-center">No further details available for this district.</p>
     {% endif %}
