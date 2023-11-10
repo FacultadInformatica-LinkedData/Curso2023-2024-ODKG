@@ -137,7 +137,7 @@
 	rr:constant wst:hasResidue .
 
 :om_007 rdf:type rr:ObjectMap ;
-	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" ;
+	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}_{Name}" ;
 	rr:termType rr:IRI .
 
 :map_wastetypemap_000 rml:logicalSource :source_002 ;
@@ -151,7 +151,7 @@
 	rml:referenceFormulation ql:CSV .
 
 :s_002 rdf:type rr:SubjectMap ;
-	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}" .
+	rr:template "http://madridwastemanagement.org/group01/data/WasteType/WasteType_{WasteType}_{Name}" .
 
 :pom_008 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_008 ;
