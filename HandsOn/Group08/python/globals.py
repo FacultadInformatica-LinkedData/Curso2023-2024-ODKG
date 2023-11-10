@@ -2,14 +2,17 @@ from os.path import join
 
 OUT_GRAPH = join("rdf", "UniversityInformation.nt")
 OUT_GRAPH_LINKS = join("rdf", "UniversityInformation-with-links.ttl")
+OUT_GRAPH_UPDATED = join("rdf", "UniversityInformation-updated.ttl")
 
 CONFIG_MAPPING = join("mappings", "config.ini")
 CONFIG_MAPPING_LINKS = join("mappings", "config-with-links.ini")
+CONFIG_MAPPING_UPDATED = join("mappings", "config-updated.ini")
 
 QUERYS_SPARQL = join("rdf", "queries.sparql")
 QUERYS_SPARQL_LINKS = join("rdf", "queries-with-links.sparql")
 
 OUT_QUERY = join("rdf", "query")
+
 
 def change_path(filename): return filename.replace(
     "-updated.csv", "-final.csv")
