@@ -1,0 +1,51 @@
+
+----------------------------------------
+// Los arboles y los barrios de los distritos 
+SELECT DISTINCT ?arbol ?barrio ?distrito
+WHERE
+{
+?arbol a <>.
+?arbol <> ?barrio.
+?barrio <> ?distrito.
+?distrito a <>
+} GROUP BY ?distrito
+LIMIT 100
+-----------------------------------------
+//cuantos arboles en un barrio
+PREFIX
+SELECT COUNT (DISTINCT ?arbol) AS ?numBarrio
+WHERE 
+{
+?arbol rdf:Barrio ?barrio.
+FILTER (?arbol = <>)
+}
+LIMIT 100
+-----------------------------------------
+//cuantos barrios en un distrito
+PREFIX rdf:
+SELECT COUNT (DISTINCT ?barrio) AS ?numBarrio
+WHERE 
+{
+?distrito rdf:Barrio ?barrio.
+FILTER (?distrito = <>)
+}
+LIMIT 100
+------------------------------------------
+//los parques caninos de un barrio 
+SELECT DISTINCT ?parque ?barrio 
+WHERE
+{
+?parque a <>.
+?parque <> ?barrio.
+FILTER (?barrio=<>)
+}GROUP BY ?barrio ORDER BY DESC(?barrio)
+LIMIT 100
+----------------------------------------
+// Los parques de los distritos 
+SELECT DISTINCT ?parque ?distrito
+WHERE
+{
+?parque a <>.
+?parque <> ?distrito.
+} GROUP BY ?distrito ORDER BY ASC(?distrito)
+LIMIT 100

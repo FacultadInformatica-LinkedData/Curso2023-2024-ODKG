@@ -1,0 +1,32 @@
+PREFIX nso: <http://madridwastemanagement.org/group01/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+# Qurey 1:  Check all the entities with Wikidata link
+SELECT ?entity ?wikidataLink
+WHERE {
+  ?entity owl:sameAs ?wikidataLink .
+
+  FILTER STRSTARTS(STR(?wikidataLink), "http://wikidata.org/entity/")
+}
+ORDER BY ?entity
+
+
+
+# Query 2: Check all the district with Wikidata link
+SELECT ?district ?wikidataLink WHERE {
+  ?district a nso:District .
+  ?district owl:sameAs ?wikidataLink .
+}
+
+
+# Query 3: Check all the wasteType with Wikidata link
+SELECT ?wasteType ?wikidataLink
+WHERE {
+  ?wasteType a nso:WasteType ;
+             owl:sameAs ?wikidataLink .
+}
+ORDER BY ?wasteType
+
+
+

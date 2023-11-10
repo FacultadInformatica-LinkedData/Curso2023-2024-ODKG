@@ -1,0 +1,57 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rml: http://semweb.mmlab.be/ns/rml#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  ont: https://www.chargeup.io/group07/ontology-updated#
+  ql: http://semweb.mmlab.be/ns/ql#
+  fnml: http://semweb.mmlab.be/ns/fnml#
+  uiote: http://www.w3id.org/urban-iot/electric#
+  dbo: http://dbpedia.org/ontology/
+  locn: http://www.w3.org/ns/locn#
+
+mappings:
+  chargingstationmap:
+    sources:
+      - [Electric-Vehicle-Charging-Stations-updated-with-links.csv~csv]
+  
+    s: https://www.chargeup.io/group07/resource/ChargingStation/$(ChargingStation)
+    po:
+      - [a, uiote:ChargingStation]
+      - [rdfs:label, $(ChargingStation), xsd:string]
+      - [ont:accessDaysTime, $(AccessDaysTime), xsd:string]
+      - [ont:additionalInfo, $(AdditionalInfo), xsd:string]
+      - [ont:evLevel1EVSENum, $(EVLevel1EVSENum), xsd:integer]
+      - [ont:evLevel2EVSENum, $(EVLevel2EVSENum), xsd:integer]
+      - [geo:latitude ,$(Latitude) ,xsd:float]
+      - [geo:longitude ,$(Longitude) ,xsd:float]
+      - [ont:evDCFastCount, $(EVDCFastCount), xsd:integer]
+      - [ont:hasAddress, https://www.chargeup.io/group07/resource/Address/$(Address)]
+
+
+
+  addressmap:
+    sources:
+      - [Electric-Vehicle-Charging-Stations-updated-with-links.csv~csv]
+    s: https://www.chargeup.io/group07/resource/Address/$(Address)
+    po:
+      - [a, locn:Address]
+      - [rdfs:label, $(Address), xsd:string]
+      - [dbo:zipCode, $(ZipCode), xsd:string]
+      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)]
+
+
+
+
+  citymap:
+    sources:
+      - [Electric-Vehicle-Charging-Stations-updated-with-links.csv~csv]
+    s: https://www.chargeup.io/group07/resource/City/$(City)
+    po:
+      - [a, dbo:City]
+      - [rdfs:label, $(City), xsd:string]
+      - [ont:counties, $(Counties), xsd:string]
+      - [ont:townIndex, $(TownIndex), xsd:integer]
+      - [owl:sameAs, $(same_as_wikidata_Connecticut)~iri]
