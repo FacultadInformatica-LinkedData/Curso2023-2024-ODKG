@@ -2,15 +2,15 @@
 @prefix rml:           <http://semweb.mmlab.be/ns/rml#> .
 @prefix ql:            <http://semweb.mmlab.be/ns/ql#> .
 @prefix dc:            <http://purl.org/dc/elements/1.1/> .
-@prefix municipality:  <http://example.com/ontology/municipality#> .
-@prefix defibrillator: <http://example.com/ontology/defibrillator#> .
+@prefix municipality:  <http://upm.defibrillator.com/ontology/municipality#> .
+@prefix defibrillator: <http://upm.defibrillator.com/ontology/defibrillator#> .
 @prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
 
 <#TriplesMapForDefibrillator>
     a                     rr:TriplesMap ;
     rml:logicalSource     [ rml:source               "desfibriladores.csv" ;
                             rml:referenceFormulation ql:CSV ] ;
-    rr:subjectMap         [ rr:template "http://example.com/ontology/defibrillator#DefBuilding/{codigo_dea}" ;
+    rr:subjectMap         [ rr:template "http://upm.defibrillator.com/ontology/defibrillator#DefBuilding/{codigo_dea}" ;
                             rr:termType rr:IRI ;
                             rr:class    defibrillator:Defibrillator ] ;
     rr:predicateObjectMap [ rr:predicate defibrillator:establishment_type ;
@@ -51,7 +51,7 @@
     a                     rr:TriplesMap ;
     rml:logicalSource     [ rml:source               "desfibriladores.csv" ;
                             rml:referenceFormulation ql:CSV ] ;
-    rr:subjectMap         [ rr:template "http://example.com/ontology/municipality#Municipality/{municipio_codigo}" ;
+    rr:subjectMap         [ rr:template "http://upm.defibrillator.com/ontology/municipality#Municipality/{municipio_codigo}" ;
                             rr:class    municipality:Municipality ; ] ;
     rr:predicateObjectMap [ rr:predicate municipality:municipality_code ;
                             rr:objectMap [ rml:reference "municipio_codigo" ;
