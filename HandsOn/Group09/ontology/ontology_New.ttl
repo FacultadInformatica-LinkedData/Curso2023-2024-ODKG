@@ -1,4 +1,4 @@
- @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix ns: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#> .
 @prefix obo: <http://purl.obolibrary.org/obo/NCIT_C94729#> .
