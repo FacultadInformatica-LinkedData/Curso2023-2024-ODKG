@@ -1,13 +1,12 @@
 prefixes:
-  ex: "http://example.com/"
   clase2: "http://madridalfresco.es/lcc/resource/"
   clase: "http://madridalfresco.es/lcc/ontology/locales#"
 
 mappings:
   Local:
     sources:
-      - ['../csv/terrazas202309.-updated.csv~csv']
-    s: clase2:$(local)
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Local/$(id_local)
     po:
       - [a, clase2:Local]
       - [clase:rotulo, $(rotulo)]
@@ -20,8 +19,8 @@ mappings:
       - [clase:perteneceADistrito, "http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)"]
   Terraza:
     sources:
-      - ['../csv/terrazas202309.-updated.csv~csv']
-    s: "http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)"
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)
     po:
       - [a, clase2:Terraza]
       - [clase:mesas, $(mesas)]
@@ -30,8 +29,8 @@ mappings:
       - [clase:perteneceALocal, "http://madridalfresco.es/lcc/resource/Local/$(id_local)"]
   Distrito:
     sources:
-      - ['../csv/terrazas202309.-updated.csv~csv']
-    s: "http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)"
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)
     po:
       - [a, clase2:Distrito]
       - [clase:nombreDistrito, $(nombreDistrito)]
