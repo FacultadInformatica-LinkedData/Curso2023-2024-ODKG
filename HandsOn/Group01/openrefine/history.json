@@ -241,7 +241,7 @@
       }
     ],
     "description": "Mass edit cells in column WasteType"
-  }
+  },
   {
     "op": "core/text-transform",
     "engineConfig": {
