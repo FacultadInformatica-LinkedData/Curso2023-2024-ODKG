@@ -1,0 +1,93 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix uiote: <http://www.w3id.org/urban-iot/electric#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+rdf: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+
+##############DATATYPEPROPERTIES##############
+
+geo:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:float .
+
+geo:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:float .
+
+ont:accessDaysTime a owl:DatatypeProperty ;
+    rdfs:label "access days time" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:string .
+
+ont:additionalInfo a owl:DatatypeProperty ;
+    rdfs:label "additional info" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:string .
+
+ont:counties a owl:DatatypeProperty ;
+    rdfs:label "counties" ;
+    rdfs:domain dbo:City ;
+    rdfs:range xsd:string .
+
+ont:evDCFastCount a owl:DatatypeProperty ;
+    rdfs:label "evdc fast count" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:integer .
+
+ont:evLevel1EVSENum a owl:DatatypeProperty ;
+    rdfs:label "evlevel1 evse num" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:integer .
+
+ont:evLevel2EVSENum a owl:DatatypeProperty ;
+    rdfs:label "evlevel2 evse num" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range xsd:integer .
+
+dbo:zipCode a owl:DatatypeProperty ;
+    rdfs:label "zip code" ;
+    rdfs:domain locn:Address ;
+    rdfs:range xsd:string .
+
+ont:townIndex a owl:DatatypeProperty ;
+    rdfs:label "town index" ;
+    rdfs:domain dbo:City ;
+    rdfs:range xsd:integer .
+
+
+##############OBJECTPROPERTIES##############
+
+ont:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain uiote:ChargingStation ;
+    rdfs:range locn:Address .
+
+ont:hasCity a owl:ObjectProperty ;
+    rdfs:label "has city" ;
+    rdfs:domain locn:Address ;
+    rdfs:range dbo:City .
+
+
+##############CLASSES##############
+
+dbo:City a owl:Class ;
+    rdfs:label "City" .
+
+locn:Address a owl:Class ;
+    rdfs:label "Address" .
+
+uiote:ChargingStation a owl:Class ;
+    rdfs:label "Charging Station" .
+
