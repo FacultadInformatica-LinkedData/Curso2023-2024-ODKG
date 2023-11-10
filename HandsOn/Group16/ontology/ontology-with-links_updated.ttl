@@ -46,14 +46,15 @@ mod:createdWith rdf:type owl:AnnotationProperty .
 def:belongsToMunicipality rdf:type owl:ObjectProperty ;
                           rdfs:domain def:DefBuilding ;
                           rdfs:range def:Municipality ;
-                          rdfs:label "belongs to municipality" .
+                          rdfs:label "belongsToMunicipality" .
 
 
 ###  https://www.wikidata.org/instanceOf
-wd:instanceOf rdf:type owl:ObjectProperty ;
-              rdfs:domain def:DefBuilding ;
-              rdfs:range def:Municipality ;
-              rdfs:label "instance of" .
+wd:instanceOf rdf:type owl:ObjectProperty ,
+                       owl:SymmetricProperty ;
+              rdfs:domain def:Municipality ;
+              rdfs:range wd:municipalityOfSpain ;
+              rdfs:label "instanceOf" .
 
 
 #################################################################
@@ -65,6 +66,20 @@ def:code rdf:type owl:DatatypeProperty ;
          rdfs:domain def:Municipality ;
          rdfs:range xsd:string ;
          rdfs:label "code" .
+
+
+###  http://ext.defibrilator/ontology#hasBuildingName
+def:hasBuildingName rdf:type owl:DatatypeProperty ;
+                    rdfs:domain def:DefBuilding ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "hasBuildingName" .
+
+
+###  http://ext.defibrilator/ontology#hasMunicipalityName
+def:hasMunicipalityName rdf:type owl:DatatypeProperty ;
+                        rdfs:domain def:Municipality ;
+                        rdfs:range xsd:string ;
+                        rdfs:label "hasMunicipalityName" .
 
 
 ###  http://ext.defibrilator/ontology#placeType
@@ -79,14 +94,6 @@ sch:address rdf:type owl:DatatypeProperty ;
             rdfs:domain def:DefBuilding ;
             rdfs:range xsd:string ;
             rdfs:label "address" .
-
-
-###  https://schema.org/name
-sch:name rdf:type owl:DatatypeProperty ;
-         rdfs:domain def:DefBuilding ,
-                     def:Municipality ;
-         rdfs:range xsd:string ;
-         rdfs:label "name" .
 
 
 ###  https://schema.org/openingHours
@@ -106,16 +113,14 @@ sch:publicAccess rdf:type owl:DatatypeProperty ;
 ###  httpw3:#easting
 w3:easting rdf:type owl:DatatypeProperty ;
            rdfs:domain def:DefBuilding ;
-           rdfs:range xsd:float ,
-                      xsd:string ;
+           rdfs:range xsd:float ;
            rdfs:label "easting" .
 
 
 ###  httpw3:#northing
 w3:northing rdf:type owl:DatatypeProperty ;
             rdfs:domain def:DefBuilding ;
-            rdfs:range xsd:float ,
-                       xsd:string ;
+            rdfs:range xsd:float ;
             rdfs:label "northing" .
 
 
