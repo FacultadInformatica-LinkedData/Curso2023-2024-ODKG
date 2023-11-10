@@ -36,7 +36,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Villa de Vallecas" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9e73d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "Lunes a viernes, de 9 a 14 y de 16 a 20:30 horas.  Agosto, lunes a viernes, de 9 a 14 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/num>  "10" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -80,7 +80,7 @@
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=476c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/num>  "7" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q807230" ;
         <http://schema.org/latitude>   "40.47324881250678" ;
@@ -182,7 +182,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/latitude>   "40.37420290010211" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "6" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e6773d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -198,7 +198,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Villaverde" ;
         <http://madrid.encuentra.es/resource/barrio>  "LOS ROSALES" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q919536" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=03f7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/num>  "12" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -241,7 +241,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/num>  "4" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 526 78 20. Correo electrónico: cclucero@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 526 78 20. Correo electrónico: cclucero@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/openingHoursSpecification>  "Horario de verano:    Cerrado del 1 al 27 de agosto.   Julio, agosto y septiembre, de 9 a 21 horas. Cerrado sábados y domingos.   Horarios de apertura y atención al público:  Lunes a Viernes de 9 a 21:30 horas. Sábados de 9 a 13:30 horas." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q794954" ;
@@ -288,7 +288,7 @@
 <http://madrid.encuentra.es/resource/Facility/102131>
         <http://madrid.encuentra.es/resource/num>  "50" ;
         <http://schema.org/openingHoursSpecification>  "Horario de verano:       El horario de apertura del Centro Sociocultural Latina es:   Mes de julio de 9 a 21 h de lunes a viernes. Desde el 1 hasta el 27 de agosto Cierre del Centro por vacaciones. Desde el 28 de agosto al 30 de septiembre de 9 a 21 h.  Horario de apertura del centro:  Lunes a Viernes de 9 a 21:30 horas. Sábados de 9 a 13:30 horas.  Horario de atención al público:  Lunes a Viernes de 9 a 14 horas." ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 509 54 70. Correo electrónico: juvenlatina@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 509 54 70. Correo electrónico: juvenlatina@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://madrid.encuentra.es/resource/distrito>  "Latina" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/latitude>   "40.3796366471018" ;
@@ -348,7 +348,7 @@
         <http://madrid.encuentra.es/resource/codBarrio>  "1" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28053" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.671858416387963" ;
         <http://madrid.encuentra.es/resource/distrito>  "Puente de Vallecas" ;
         <http://schema.org/openingHoursSpecification>  "Lunes a viernes, de 9 a 13:45 horas y de 17 a 18:45 horas. Verano, de lunes a viernes de 8:30 a 14 horas.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -417,7 +417,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/num>  "1" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q656196" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "Centro: de lunes a viernes de 9 a 14 y de 16:30 a 22 h  Secretaría: de lunes a viernes de 9 a 13:30 y de 16:30 a 18:30 h." .
 
 <http://madrid.encuentra.es/resource/Facility/114978>
@@ -430,7 +430,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28028" ;
         <http://schema.org/latitude>   "40.42206601994432" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "3" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/num>  "1" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773521" ;
         <http://schema.org/streetAddress>  "ENRIQUE D'ALMONTE" ;
@@ -510,7 +510,7 @@
         <http://madrid.encuentra.es/resource/codBarrio>  "8" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28049" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=30f2b51ae6295210VgnVCM2000000c205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "T" ;
@@ -540,7 +540,7 @@
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=068e598d1351c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28028" ;
         <http://schema.org/longitude>  "-3.6709293330780204" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, 9 a 14 horas y de 16 a 18 horas. Viernes, de 9 a 14 horas. Verano: de lunes a viernes, de 9 a 14 horas. Agosto: secretaría cerrada. Septiembre, de lunes a jueves, de 9 a 14 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://schema.org/streetAddress>  "TOREROS" ;
@@ -591,7 +591,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28017" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6c191e79ee71c010VgnVCM1000000b205a0aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/streetAddress>  "SANTA FELICIDAD" .
 
@@ -638,7 +638,7 @@
         <http://schema.org/streetAddress>  "DONOSO" ;
         <http://schema.org/latitude>   "40.46900764611639" ;
         <http://madrid.encuentra.es/resource/barrio>  "ALMENARA" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773540" .
@@ -648,7 +648,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/barrio>  "ARAPILES" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763370" ;
         <http://schema.org/openingHoursSpecification>  "Lunes a domingo, de 8 a 21 horas. Abierto todos los días, excepto 1 y 6 enero, 1 y 2 mayo, 15 agosto, 12 octubre y 25 diciembre.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -679,7 +679,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/barrio>  "VALDEFUENTES" ;
         <http://schema.org/streetAddress>  "PRINCESA DE EBOLI" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/num>  "29" ;
         <http://schema.org/name>       "Centro Cultural Sanchinarro (Hortaleza)" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -710,7 +710,7 @@
         <http://schema.org/longitude>  "-3.6212720265227873" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "2" .
 
 <http://madrid.encuentra.es/resource/Evento/12095342>
@@ -747,7 +747,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "PRADOLONGO" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5fb8370bbde11810VgnVCM1000001d4a900aRCRD" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Usera" ;
         <http://schema.org/name>       "Salón y sala de exposiciones en Junta Municipal de Usera" .
 
@@ -772,7 +772,7 @@
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q953368" ;
         <http://schema.org/latitude>   "40.37738097077752" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo: actividadespipo@gmail.com   Teléfono: 609619978 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario ." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo: actividadespipo@gmail.com   Teléfono: 609619978 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario ." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0d2795e39a36810VgnVCM2000001f4a900aRCRD" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "6" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28026" ;
@@ -800,7 +800,7 @@
         <http://madrid.encuentra.es/resource/num>  "10" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/barrio>  "ALMENDRALES" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28026" ;
@@ -813,7 +813,7 @@
 <http://madrid.encuentra.es/resource/Facility/1933>
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q953368" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "2" ;
         <http://schema.org/streetAddress>  "ASOCIACION" ;
         <http://schema.org/latitude>   "40.36968950845358" ;
@@ -892,7 +892,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/openingHoursSpecification>  "Horario del centro: de lunes a viernes, de 9 a  21:30 h.  Horario de secretaría: de lunes a viernes de 9 a 14 y de 16,30 a 20:30 h." ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Fuencarral-El Pardo" ;
         <http://schema.org/longitude>  "-3.7779055687726535" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28048" ;
@@ -930,7 +930,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Moncloa-Aravaca" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/name>       "Centro Cultural Agustín Díaz (Moncloa - Aravaca)" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "1" ;
@@ -963,7 +963,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/1945>
         <http://schema.org/streetAddress>  "COLOMBIA" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/barrio>  "LOS JERONIMOS" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -996,7 +996,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/longitude>  "-3.7032220308808577" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.374166248648216" ;
         <http://schema.org/name>       "Centro de Educación Ambiental y Cultural Maris Stella (Usera)" ;
         <http://madrid.encuentra.es/resource/num>  "16" .
@@ -1016,7 +1016,7 @@
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c6237b503a71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/longitude>  "-3.6504096146979457" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "4" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28027" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" .
@@ -1056,7 +1056,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Centro" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763376" ;
         <http://schema.org/name>       "Centro Cultural Clara del Rey - Museo ABC (Centro)" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.7095381101739444" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -1095,7 +1095,7 @@
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773521" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28001" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1,6" ;
         <http://madrid.encuentra.es/resource/barrio>  "RECOLETOS" ;
         <http://schema.org/name>       "Fernán Gómez Centro Cultural de la Villa" ;
@@ -1110,7 +1110,7 @@
 <http://madrid.encuentra.es/resource/Facility/7416137>
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3cadb2cffdc15410VgnVCM1000000b205a0aRCRD" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/num>  "30" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -1196,7 +1196,7 @@
 <http://madrid.encuentra.es/resource/Facility/1927>
         <http://madrid.encuentra.es/resource/num>  "44" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1001991" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
@@ -1249,7 +1249,7 @@
         <http://schema.org/streetAddress>  "SIENA" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763694" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "0" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "QUINTANA" .
 
 <http://madrid.encuentra.es/resource/Evento/12096464>
@@ -1279,7 +1279,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28045" ;
         <http://schema.org/name>       "Centro Cultural Dotacional Integrado Arganzuela" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f9ea79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "6" .
 
 <http://madrid.encuentra.es/resource/Evento/11885850>
@@ -1392,12 +1392,12 @@
         <http://schema.org/streetAddress>  "COLONIA MARCONI" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/openingHoursSpecification>  "El Centro Sociocultural Marconi estará abierto de 9:00 a 21:00 h ininterrumpidamente, de lunes a viernes, excepto en el mes de agosto que permanecerá cerrado. Secretaría: de lunes a jueves de 9:30 a 13:30 y de 16:45 a 19:15 y viernes de 9:30 a 13:30 horas. Horario de Navidad:  de 9:00 a 14:00 horas, de lunes a viernes.  Durante el mes de julio el horario será de 9:00 a 14:00 horas, de lunes a viernes." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/num>  "4" .
 
 <http://madrid.encuentra.es/resource/Facility/1939>
         <http://schema.org/latitude>   "40.37381624358889" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/barrio>  "ENTREVIAS" ;
@@ -1464,7 +1464,7 @@
         <http://schema.org/latitude>   "40.4366557020283" ;
         <http://schema.org/name>       "Centro Sociocultural Miguel de Cervantes (San Blas - Canillejas)" ;
         <http://schema.org/longitude>  "-3.6113517282299217" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2001937" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 10 a 14 horas.    Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -1483,7 +1483,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "3" ;
         <http://madrid.encuentra.es/resource/barrio>  "FUENTE DEL BERRO" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Salamanca" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 14 y de 15 a 18 horas (viernes tarde de 15 a 17 horas) Verano, de lunes a viernes, de 8 a 15 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=783f1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
@@ -1546,7 +1546,7 @@
         <http://schema.org/streetAddress>  "MORATALAZ" ;
         <http://madrid.encuentra.es/resource/barrio>  "VINATEROS" ;
         <http://madrid.encuentra.es/resource/distrito>  "Moratalaz" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.646536107063507" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes de 9 a 13:30 y de 17 a 18:30 horas. Julio, de lunes a viernes de 9 a 13:30 horas. Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://schema.org/name>       "Centro Cultural el Torito (Moratalaz)" .
@@ -1567,7 +1567,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/longitude>  "-3.704690072394306" ;
         <http://schema.org/latitude>   "40.40681802964019" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "EMBAJADORES" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" .
 
@@ -1632,7 +1632,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Latina" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/num>  "65" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 464 93 04. Correo electrónico: cccalasanz@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 464 93 04. Correo electrónico: cccalasanz@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/latitude>   "40.40647389284976" ;
@@ -1677,7 +1677,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/1952>
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763694" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.6372924261150033" ;
         <http://madrid.encuentra.es/resource/distrito>  "Ciudad Lineal" ;
         <http://schema.org/latitude>   "40.43644651057092" ;
@@ -1731,7 +1731,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "BUENAVISTA" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1001991" ;
         <http://schema.org/openingHoursSpecification>  "Horario de apertura del centro: de lunes a viernes de 10 a 14:30 horas y de 15:30 a 21 horas. Los sábados de 11 a 21 horas.  Horario de atención al público: lunes y sábado de 13 a 14:30 horas y de 15:30 a 21 horas. Los martes, miércoles, jueves y viernes de 10 a 14 horas y de 15:30 a 21 horas.   Cierres para 2023: 1 y 6 de enero, 20 de marzo, 6, 7 y 8 de abril, 1, 2 y 15 de mayo, TODO EL MES DE AGOSTO, 12 de octubre, 1 y 9 de noviembre, 6, 8, 24, 25 y 31 de diciembre.  El centro permanecerá cerrado todos los domingos." ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes. Información sobre las actividades y cesión de espacios: Correo:  actividadescarabanchel@gmail.com   Teléfono de contacto: 914006417 Teléfono: 915118980 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes. Información sobre las actividades y cesión de espacios: Correo:  actividadescarabanchel@gmail.com   Teléfono de contacto: 914006417 Teléfono: 915118980 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://schema.org/name>       "Centro Juvenil Carabanchel Alto" .
 
 <http://madrid.encuentra.es/resource/Evento/12121365>
@@ -1807,7 +1807,7 @@
         <http://schema.org/latitude>   "40.47967249471556" ;
         <http://madrid.encuentra.es/resource/num>  "46" ;
         <http://madrid.encuentra.es/resource/barrio>  "COSTILLARES" ;
-        <http://schema.org/descripcion>  "Ubicado en el Centro de Mayores Carmen Laforet" ;
+        <http://schema.org/description>  "Ubicado en el Centro de Mayores Carmen Laforet" ;
         <http://schema.org/name>       "Auditorio Carmen Laforet (Ciudad Lineal)" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28033" .
 
@@ -1826,7 +1826,7 @@
         <http://schema.org/name>       "Centro Cultural Usera 1" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/num>  "49" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.381095838993176" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/distrito>  "Usera" ;
@@ -1877,7 +1877,7 @@
         <http://madrid.encuentra.es/resource/codBarrio>  "2" ;
         <http://madrid.encuentra.es/resource/barrio>  "OPAÑEL" ;
         <http://madrid.encuentra.es/resource/distrito>  "Carabanchel" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, mañanas, de 10 a 13 y de 16:30 a 18:30 horas. Viernes, de 10 a 13 horas. Julio y agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -1905,7 +1905,7 @@
         <http://schema.org/streetAddress>  "PRADERA DE VAQUERIZAS" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q656196" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.7216054330053647" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/openingHoursSpecification>  "Centro: de lunes a viernes de 9 a 14 y de 16 a 21.30 h   Secretaría: de lunes a jueves de 9:30  a 14 y de 16:30 a 18. Viernes de 9:30 a 13:30 h." .
@@ -1921,7 +1921,7 @@
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q953368" ;
         <http://madrid.encuentra.es/resource/barrio>  "ORCASUR" ;
         <http://schema.org/latitude>   "40.366772166148415" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, de 10 a 14 y de 16:30 a 19:30 horas. Viernes, de 10 a 14 horas.   Julio, lunes a viernes, de 10 a 14 horas.  Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -1935,7 +1935,7 @@
         <http://schema.org/openingHoursSpecification>  "De lunes a sábado de 9 a 21 horas" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/latitude>   "40.39307289237465" ;
         <http://schema.org/longitude>  "-3.699005654074825" ;
@@ -1991,7 +1991,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2001937" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/name>       "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)" ;
         <http://madrid.encuentra.es/resource/distrito>  "San Blas-Canillejas" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, de 10 a 12 horas y de 16:30 a 19 horas. Viernes, de 10 a 12 horas y de 16:30 a 18 horas.    Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -2030,7 +2030,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Salamanca" ;
         <http://schema.org/name>       "Espacio Cultural Núñez de Balboa, 40 (Salamanca)" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.6825349481985135" ;
         <http://schema.org/streetAddress>  "NUÑEZ DE BALBOA" ;
         <http://schema.org/openingHoursSpecification>  "Horario de atención al público:  De lunes a viernes de 7:45 a 20:45 horas. Sábados de 9:30 a 14 horas y de 16 a 20:45 horas. Domingos de 9:30 a 20:45 horas.  Julio, agosto y septiembre:  De lunes a viernes: horario de apertura al publico 7:45 a 20:45 horas. Sábados y domingos cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." .
@@ -2083,7 +2083,7 @@
         <http://madrid.encuentra.es/resource/Facility>  "Hemeroteca Municipal" .
 
 <http://madrid.encuentra.es/resource/Facility/1916>
-        <http://schema.org/descripcion>  "El Centro de Cultura Contemporánea Condeduque, de adscripción municipal, se plantea como un espacio de acceso a la cultura contemporánea a través de una programación diversa e innovadora. Un lugar de vida, un centro público para difundir y compartir prácticas artísticas y culturales, abierto a toda la ciudadanía de Madrid." ;
+        <http://schema.org/description>  "El Centro de Cultura Contemporánea Condeduque, de adscripción municipal, se plantea como un espacio de acceso a la cultura contemporánea a través de una programación diversa e innovadora. Un lugar de vida, un centro público para difundir y compartir prácticas artísticas y culturales, abierto a toda la ciudadanía de Madrid." ;
         <http://madrid.encuentra.es/resource/postalCode>  "28015" ;
         <http://schema.org/latitude>   "40.42739911262292" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -2169,7 +2169,7 @@
         <http://madrid.encuentra.es/resource/codBarrio>  "6" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/openingHoursSpecification>  "Lunes a sábado, de 9 a 22 horas. Julio, de lunes a viernes, de 9 a 14 horas. Septiembre, de lunes a viernes, de 9 a 22 horas." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28043" ;
         <http://madrid.encuentra.es/resource/barrio>  "SAN JUAN BAUTISTA" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
@@ -2229,7 +2229,7 @@
         <http://schema.org/openingHoursSpecification>  "Cerrado durante todo el mes de agosto." ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/name>       "Auditorio y sala de exposiciones Paco de Lucía (Latina)" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6089ba61e681c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/latitude>   "40.38493929920335" ;
         <http://schema.org/streetAddress>  "LAS AGUILAS" ;
@@ -2287,7 +2287,7 @@
         <http://schema.org/name>       "Medialab en Matadero. Matadero Madrid" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28045" ;
         <http://madrid.encuentra.es/resource/barrio>  "CHOPERA" ;
-        <http://schema.org/descripcion>  "Medialab Matadero es un programa del Área de Gobierno de Cultura, Turismo y Deporte del Ayuntamiento de Madrid creado en 2002. Ubicado en un espacio cultural único, el centro de creación contemporánea Matadero Madrid, Medialab Matadero es una plataforma institucional de investigación, creación y producción experimental impulsada por la dinámica del Procomún." ;
+        <http://schema.org/description>  "Medialab Matadero es un programa del Área de Gobierno de Cultura, Turismo y Deporte del Ayuntamiento de Madrid creado en 2002. Ubicado en un espacio cultural único, el centro de creación contemporánea Matadero Madrid, Medialab Matadero es una plataforma institucional de investigación, creación y producción experimental impulsada por la dinámica del Procomún." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=79f59dacff4d7110VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/latitude>   "40.39245798191536" ;
@@ -2296,7 +2296,7 @@
 <http://madrid.encuentra.es/resource/Facility/6396299>
         <http://schema.org/streetAddress>  "MATILDE LANDA" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28029" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773540" ;
         <http://madrid.encuentra.es/resource/barrio>  "ALMENARA" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "0" ;
@@ -2385,7 +2385,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28030" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2076109" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.39928542551079" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bf388899fc81c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "1" .
@@ -2445,7 +2445,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "CHOPERA" ;
         <http://schema.org/streetAddress>  "CHOPERA" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/name>       "Nave de Terneras del Centro Cultural Casa del Reloj" ;
         <http://madrid.encuentra.es/resource/distrito>  "Arganzuela" ;
         <http://madrid.encuentra.es/resource/num>  "10" ;
@@ -2471,7 +2471,7 @@
         <http://schema.org/streetAddress>  "NAVIO" ;
         <http://madrid.encuentra.es/resource/barrio>  "ALAMEDA DE OSUNA" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28042" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f50e1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/name>       "Centro Sociocultural Teresa de Calcuta (Barajas)" ;
@@ -2497,7 +2497,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/1941>
         <http://madrid.encuentra.es/resource/codBarrio>  "4" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/name>       "Centro Sociocultural Eduardo Chillida (Moratalaz)" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 13:30 y de 17 a 18:30 horas. Julio, de lunes a viernes, de 9 a 13:30 horas. Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -2558,7 +2558,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28048" ;
         <http://madrid.encuentra.es/resource/distrito>  "Fuencarral-El Pardo" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  actividadeselpardo@gmail.com    Teléfono: 913 760 652 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  actividadeselpardo@gmail.com    Teléfono: 913 760 652 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://schema.org/longitude>  "-3.778542672958104" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/num>  "11" ;
@@ -2622,7 +2622,7 @@
         <http://madrid.encuentra.es/resource/num>  "20" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28035" ;
         <http://schema.org/openingHoursSpecification>  "Lunes a viernes, de 9:30 a 13:30. Lunes a jueves de 17 a 19 horas.     Julio: Lunes a viernes de 9:30 a 13:30 y lunes a jueves de 17 a 18 horas.     Agosto: Lunes a viernes de 9:30 a 13:30.     Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/streetAddress>  "ANTONIO MACHADO" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "4" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
@@ -2685,7 +2685,7 @@
         <http://schema.org/openingHoursSpecification>  "Horario de apertura del centro:    Mañanas: de lunes a sábados, de: 9 a 15 horas Tardes:de lunes a sábados, de 16 a  21 horas  Agosto centro juvenil cerrado." ;
         <http://schema.org/longitude>  "-3.6906342081203283" ;
         <http://schema.org/streetAddress>  "HONTALBILLA" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  actividadeshontalbilla@gmail.com    Teléfono: 917 342 878 y 917 364 378 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  actividadeshontalbilla@gmail.com    Teléfono: 917 342 878 y 917 364 378 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "0" ;
         <http://madrid.encuentra.es/resource/distrito>  "Fuencarral-El Pardo" ;
         <http://madrid.encuentra.es/resource/barrio>  "VALVERDE" ;
@@ -2705,7 +2705,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28037" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "HELLIN" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -2719,7 +2719,7 @@
         <http://schema.org/latitude>   "40.42996840999023" .
 
 <http://madrid.encuentra.es/resource/Facility/1953>
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -2776,7 +2776,7 @@
         <http://schema.org/name>       "Centro Sociocultural Valle Inclán (Fuencarral - El Pardo)" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q656196" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -2841,7 +2841,7 @@
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/barrio>  "PUERTA BONITA" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "5" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5787e842ec9a6110VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/streetAddress>  "ALISEDA" ;
         <http://schema.org/name>       "Centro Cultural San Francisco La Prensa (Carabanchel)" .
@@ -2890,7 +2890,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Usera" ;
         <http://schema.org/name>       "Centro Sociocultural Juvenil de Usera" ;
         <http://schema.org/longitude>  "-3.707459143903564" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 10 a 14 y de 17 a 19 horas. Julio, de lunes a viernes, de 10 a 14 horas. Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://schema.org/streetAddress>  "CUESTA" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28026" ;
@@ -2940,7 +2940,7 @@
         <http://schema.org/latitude>   "40.371654294908154" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/name>       "Centro Sociocultural San Fermín (Usera)" ;
         <http://madrid.encuentra.es/resource/num>  "33" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
@@ -3061,7 +3061,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/streetAddress>  "ALMANSA" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=23881e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "1" ;
         <http://schema.org/name>       "Centro Sociocultural José de Espronceda (Tetuán)" ;
@@ -3096,7 +3096,7 @@
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f00d661fc60f710VgnVCM1000001d4a900aRCRD" ;
         <http://madrid.encuentra.es/resource/num>  "94" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
-        <http://schema.org/descripcion>  "Sala 1: Pau Donés  Sala 2: Luis Eduardo Aute" ;
+        <http://schema.org/description>  "Sala 1: Pau Donés  Sala 2: Luis Eduardo Aute" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28007" ;
         <http://schema.org/longitude>  "-3.6607653462118437" ;
         <http://madrid.encuentra.es/resource/distrito>  "Salamanca" ;
@@ -3119,7 +3119,7 @@
         <http://schema.org/openingHoursSpecification>  "Secretaría: de lunes a jueves de 9 a 14 y de 16 a 19 horas." ;
         <http://schema.org/name>       "Centro Cultural La Vaguada (Fuencarral - El Pardo)" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q656196" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28029" ;
         <http://madrid.encuentra.es/resource/barrio>  "EL PILAR" ;
@@ -3270,7 +3270,7 @@
         <http://madrid.encuentra.es/resource/num>  "8" ;
         <http://schema.org/streetAddress>  "MAR DE LAS ANTILLAS" ;
         <http://madrid.encuentra.es/resource/distrito>  "Hortaleza" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "PINAR DEL REY" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dc581e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/openingHoursSpecification>  "El centro permanecerá abierto durante la celebración de las actividades que se programen.  Silo de Hortaleza (Sala de exposiciones): de lunes a sábado, de 10 a 14 y de 17 a 21 horas." .
@@ -3286,7 +3286,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/1990>
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 509 05 81. Correo electrónico: ccchurruca@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 509 05 81. Correo electrónico: ccchurruca@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "7" ;
         <http://madrid.encuentra.es/resource/barrio>  "LAS AGUILAS" ;
@@ -3379,7 +3379,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/distrito>  "Hortaleza" ;
         <http://schema.org/longitude>  "-3.6420353342333227" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://schema.org/name>       "Centro Cultural Hortaleza" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -3412,7 +3412,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/26904>
         <http://madrid.encuentra.es/resource/barrio>  "LUCERO" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 479 31 50. Correo electrónico: ccgreco@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 479 31 50. Correo electrónico: ccgreco@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q794954" ;
         <http://schema.org/latitude>   "40.407316328180464" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
@@ -3453,7 +3453,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "2,4" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28008" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "2" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2017682" ;
         <http://madrid.encuentra.es/resource/distrito>  "Moncloa-Aravaca" ;
@@ -3495,7 +3495,7 @@
         <http://madrid.encuentra.es/resource/codBarrio>  "4" ;
         <http://schema.org/longitude>  "-3.621730741880216" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 10 a 13:30 y de 17 a 18:30 horas.   Julio, de lunes a viernes de 10 a 13:30 horas.   Agosto, secretaría cerrada.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cce43d0b5e71c010VgnVCM1000000b205a0aRCRD" .
 
@@ -3538,7 +3538,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "CAMPAMENTO" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/latitude>   "40.399764677637116" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 512 08 90. Correo electrónico: cccampamento@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 512 08 90. Correo electrónico: cccampamento@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q794954" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28024" ;
@@ -3573,7 +3573,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/longitude>  "-3.7562667464373223" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 719 89 93. Correo electrónico: ccfrios@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 719 89 93. Correo electrónico: ccfrios@madrid.es  Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://schema.org/openingHoursSpecification>  "Horario de verano: durante los meses de julio, agosto y septiembre, de 9 a 21 horas. Cerrado sábados y domingos.   Horarios de apertura:  Lunes a Viernes de 9 a 21:30 horas. Sábados de 9 a 13:30 horas y de 16 a 20:30 horas  Horarios de atención al público:  Lunes a Jueves: de 8:30 a 14 horas y de 16 a 18:30 h. Viernes de 8:30 a 14:30 horas." ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" .
 
@@ -3639,7 +3639,7 @@
         <http://schema.org/longitude>  "-3.7214686777952974" ;
         <http://schema.org/openingHoursSpecification>  "Horario del centro: de lunes a viernes de 9 a 14 y de 16 a 21  h  Secretaría Talleres: de lunes a jueves de 9 a 14:30 y de 16:30 a 19:30 h.   viernes de 9 a 13:30 y de 16 a 18 h." ;
         <http://schema.org/streetAddress>  "ISLA DE ONS" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.48025613358832" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -3698,7 +3698,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Villaverde" ;
         <http://schema.org/latitude>   "40.34636268334182" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28021" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
@@ -3802,7 +3802,7 @@
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763376" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "0" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0103e641a099610VgnVCM1000001d4a900aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "2" ;
         <http://schema.org/openingHoursSpecification>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.7062002853639266" ;
@@ -3818,7 +3818,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/1936>
         <http://madrid.encuentra.es/resource/barrio>  "NUMANCIA" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "6" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -3874,7 +3874,7 @@
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "3" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/num>  "69" ;
-        <http://schema.org/descripcion>  "Consorcio institucional creado el 18 de diciembre de 2006, mediante a un acuerdo entre el Ministerio de Asuntos Exteriores, Unión Europea y de Cooperación, la Comunidad de Madrid y el Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Consorcio institucional creado el 18 de diciembre de 2006, mediante a un acuerdo entre el Ministerio de Asuntos Exteriores, Unión Europea y de Cooperación, la Comunidad de Madrid y el Ayuntamiento de Madrid." ;
         <http://madrid.encuentra.es/resource/postalCode>  "28013" ;
         <http://schema.org/name>       "Centro Sefarad - Israel" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -3946,7 +3946,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28023" ;
         <http://schema.org/name>       "Centro Cultural El Plantío (Moncloa - Aravaca)" ;
         <http://madrid.encuentra.es/resource/barrio>  "EL PLANTIO" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -3969,7 +3969,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28020" ;
         <http://madrid.encuentra.es/resource/barrio>  "BERRUGUETE" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773540" ;
         <http://madrid.encuentra.es/resource/distrito>  "Tetuán" ;
@@ -4022,7 +4022,7 @@
         <http://schema.org/streetAddress>  "OLIVAR" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, de 9 a 14 y de 16 a 18 horas. Viernes, de 9 a 14 horas.   Julio y septiembre, de 9 a 14 horas.   Agosto cerrado.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/distrito>  "Centro" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.40967898937472" ;
         <http://madrid.encuentra.es/resource/barrio>  "EMBAJADORES" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -4031,7 +4031,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/118317>
         <http://madrid.encuentra.es/resource/barrio>  "CANILLAS" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28043" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=66a7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1928529" ;
@@ -4056,7 +4056,7 @@
         <http://schema.org/streetAddress>  "VERDAD" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28019" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a jueves, de 10 a 13 y de 16:30 a 18 horas. viernes, de 10 a 13 horas. Julio, de lunes a viernes, de 10 a 13 horas.  Agosto y festivos, cerrado.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Carabanchel" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -4103,7 +4103,7 @@
         <http://schema.org/streetAddress>  "ALAMEDA" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1763376" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
-        <http://schema.org/descripcion>  "Este nuevo centro cultural del Ayuntamiento de Madrid tiene como objetivo convertirse en un punto de encuentro para agentes y profesionales de la cultura y en un referente municipal en el entorno cultural del Paseo del Arte y el Barrio de las Letras, donde se encuentra situado. Sus instalaciones son el escaparate perfecto para mostrar el dinamismo creativo madrileño en torno al arte, la música, el diseño, la literatura, la imagen y la gastrocultura.  El singular edificio de arquitectura industrial, construido en el primer cuarto del siglo XX, que acoge este espacio fue la sede de la antigua Serrería Belga. Un importante ejemplo de construcción industrial que forma parte de la lista de inmuebles destacados que componen el Paisaje de la Luz madrileño, reconocido como Patrimonio de la Humanidad por la UNESCO desde el 25 de julio de 2021. Tras una profunda reforma, sus cerca de 4000 m2 se dedicarán a ofrecer una amplia oferta cultural, destacando una planta completa de más de 300 m2 para exposiciones artísticas y una amplia zona dedicada a la poesía, la literatura y al papel de Madrid como capital literaria a lo largo de los siglos. Todas las actividades del Espacio Cultural Serrería Belga son gratuitas.  Para aquellas actividades que requieran acceso con entrada consultar www.serreria-belga.es" ;
+        <http://schema.org/description>  "Este nuevo centro cultural del Ayuntamiento de Madrid tiene como objetivo convertirse en un punto de encuentro para agentes y profesionales de la cultura y en un referente municipal en el entorno cultural del Paseo del Arte y el Barrio de las Letras, donde se encuentra situado. Sus instalaciones son el escaparate perfecto para mostrar el dinamismo creativo madrileño en torno al arte, la música, el diseño, la literatura, la imagen y la gastrocultura.  El singular edificio de arquitectura industrial, construido en el primer cuarto del siglo XX, que acoge este espacio fue la sede de la antigua Serrería Belga. Un importante ejemplo de construcción industrial que forma parte de la lista de inmuebles destacados que componen el Paisaje de la Luz madrileño, reconocido como Patrimonio de la Humanidad por la UNESCO desde el 25 de julio de 2021. Tras una profunda reforma, sus cerca de 4000 m2 se dedicarán a ofrecer una amplia oferta cultural, destacando una planta completa de más de 300 m2 para exposiciones artísticas y una amplia zona dedicada a la poesía, la literatura y al papel de Madrid como capital literaria a lo largo de los siglos. Todas las actividades del Espacio Cultural Serrería Belga son gratuitas.  Para aquellas actividades que requieran acceso con entrada consultar www.serreria-belga.es" ;
         <http://schema.org/latitude>   "40.4105673503608" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3c0f13cd18a0810VgnVCM1000001d4a900aRCRD" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28014" .
@@ -4124,7 +4124,7 @@
         <http://schema.org/streetAddress>  "REAL" ;
         <http://madrid.encuentra.es/resource/distrito>  "Vicálvaro" ;
         <http://schema.org/latitude>   "40.40249219663602" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/openingHoursSpecification>  "Consultar" .
 
@@ -4179,7 +4179,7 @@
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://schema.org/name>       "Centro Sociocultural Las Tablas (Fuencarral - El Pardo)" ;
         <http://schema.org/longitude>  "-3.6742173844664605" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "Lunes y miércoles de 9:30 a 13:30 horas Martes y jueves de 9:30 a 14:30 horas Viernes cerrado" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q656196" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
@@ -4288,7 +4288,7 @@
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1766348" ;
         <http://schema.org/latitude>   "40.44489723228663" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "CIUDAD JARDIN" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba8b3d232e91f010VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/num>  "142" ;
@@ -4311,7 +4311,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Salamanca" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dc8d531521b74810VgnVCM1000001d4a900aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 21 horas, ininterrumpidamente. A partir de octubre, sábados y domingos, de 9 a 21 horas, ininterrrumpidamente. Festivos cerrado." ;
         <http://schema.org/latitude>   "40.42585800515975" ;
         <http://schema.org/name>       "Centro Cultural Emilia Pardo Bazán (Salamanca)" ;
@@ -4346,7 +4346,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/distrito>  "Hortaleza" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/latitude>   "40.46498334634005" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 14 y de 17 a 19 horas. Julio y agosto, cerrado. Semana de San Isidro, de lunes a viernes de 9 a 14 horas.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -4431,7 +4431,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "BUTARQUE" ;
         <http://madrid.encuentra.es/resource/num>  "133" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q919536" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/latitude>   "40.35074797433515" ;
         <http://schema.org/streetAddress>  "LOS ROSALES" ;
@@ -4467,7 +4467,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "San Blas-Canillejas" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9:30 a 13:30 y de 16:30 a 18 horas.   Agosto cerrado.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "7" ;
         <http://madrid.encuentra.es/resource/barrio>  "CANILLEJAS" .
 
@@ -4498,7 +4498,7 @@
         <http://schema.org/latitude>   "40.41817872037522" ;
         <http://schema.org/streetAddress>  "IBIZA" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28009" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dbeab973f50e7310VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "4" ;
@@ -4531,7 +4531,7 @@
         <http://schema.org/openingHoursSpecification>  "Lunes, martes y miércoles, de 10 a 13:30 horas. Lunes y martes, de 16 a 17:30 horas.  Semana San Isidro: de lunes de viernes, de 10 a 13:30 horas.  Agosto cerrado.  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2017682" ;
         <http://madrid.encuentra.es/resource/num>  "100" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Moncloa-Aravaca" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28039" ;
@@ -4616,7 +4616,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28044" ;
         <http://schema.org/latitude>   "40.378853797128336" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q794954" ;
-        <http://schema.org/descripcion>  "Información general en el teléfono: 91 706 63 00. Correo electrónico: ccmiguelh@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
+        <http://schema.org/description>  "Información general en el teléfono: 91 706 63 00. Correo electrónico: ccmiguelh@madrid.es . Información sobre cursos y talleres en los siguientes enlaces:   Plataforma cursos y talleres Ayuntamiento de Madrid.  Trámites cursos y talleres Ayuntamiento de Madrid." ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/num>  "13" ;
@@ -4690,7 +4690,7 @@
         <http://madrid.encuentra.es/resource/Facility>  "Centro Sociocultural Bohemios (Villaverde)" .
 
 <http://madrid.encuentra.es/resource/Facility/1925>
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b063d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 10 a 13 y de 17 a 19 horas.   Verano y semana de San Isidro: de lunes a viernes, de 9 a 14 horas.   Agosto cerrado.    Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -4720,7 +4720,7 @@
         <http://madrid.encuentra.es/resource/Facility>  "Centro Cultural San Juan Bautista (Ciudad Lineal)" .
 
 <http://madrid.encuentra.es/resource/Facility/4606802>
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2002296" ;
         <http://madrid.encuentra.es/resource/distrito>  "Retiro" ;
         <http://schema.org/addressLocality>  "MADRID" ;
@@ -4809,7 +4809,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28022" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "2" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/longitude>  "-3.5727382893523254" ;
         <http://schema.org/name>       "Centro Cultural José Luis López Vázquez (San Blas - Canillejas)" ;
         <http://madrid.encuentra.es/resource/barrio>  "REJAS" ;
@@ -4829,7 +4829,7 @@
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
         <http://madrid.encuentra.es/resource/distrito>  "Villa de Vallecas" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo:  actividadeselrecreo@gmail.com    Teléfono: 913320198  Teléfono: 913 05 24 48  Horario de reserva cesiones de espacio y salas de ensayo: Lunes a jueves de 10:00 a 15:00 y de 16:00 a 19:00 h. Viernes de 9:00 a 15:30 h. Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo:  actividadeselrecreo@gmail.com    Teléfono: 913320198  Teléfono: 913 05 24 48  Horario de reserva cesiones de espacio y salas de ensayo: Lunes a jueves de 10:00 a 15:00 y de 16:00 a 19:00 h. Viernes de 9:00 a 15:30 h. Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://madrid.encuentra.es/resource/postalCode>  "28031" ;
         <http://madrid.encuentra.es/resource/barrio>  "SANTA EUGENIA" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1947988" ;
@@ -4855,7 +4855,7 @@
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/distrito>  "Ciudad Lineal" ;
         <http://schema.org/longitude>  "-3.651682839770605" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "VENTAS" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 14 horas.   Verano y San Isidro, de lunes a viernes, de 9 a 13 horas.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
@@ -4906,7 +4906,7 @@
         <http://schema.org/openingHoursSpecification>  "Horario de apertura del centro: de lunes a domingo de 8:30 a 21 horas. Agosto cerrado.  Horario de atención al público ( cuando están los monitores) Lunes y sábado :13:00 a 15:00 / 16:00 a 21: 00h martes a viernes :10:00  a 15:00 / 16:00 a 21:00h domingos: 12:00 a 15:00 /16:00 a 20:00h" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1947988" ;
         <http://madrid.encuentra.es/resource/num>  "1" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo:  actividadeselaleph@gmail.com    Teléfono: 913 312 725 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios:   Correo:  actividadeselaleph@gmail.com    Teléfono: 913 312 725 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=84869475d381c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/streetAddress>  "ZAZUAR" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" .
@@ -4940,7 +4940,7 @@
         <http://schema.org/streetAddress>  "CARRION DE LOS CONDES" ;
         <http://schema.org/latitude>   "40.4760846979538" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 14 horas y de 16 a 21 horas. Agosto cerrado  Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://schema.org/longitude>  "-3.6581195337045274" ;
         <http://madrid.encuentra.es/resource/num>  "73" ;
@@ -4976,7 +4976,7 @@
         <http://schema.org/latitude>   "40.39010138870244" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7ab1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/longitude>  "-3.6653235716960015" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes, de 9 a 13:45 y de 17 a 18:45 horas. Julio, de lunes a viernes, de 9 a 14 horas. Agosto cerrado.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." .
 
 <http://madrid.encuentra.es/resource/Evento/12060608>
@@ -5127,7 +5127,7 @@
         <http://madrid.encuentra.es/resource/distrito>  "Villaverde" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/openingHoursSpecification>  "De Secretaría:  horario de mañana: de lunes a viernes de 9 a 14 horas . Horario de tarde: de lunes a jueves de 17 a 19 horas.  Durante el mes de  julio el horario será de 9 a 14 horas.  De secretaría : Teléfono 917109260 / 917100558 en el horario que ya consta. Auxiliares de información: Teléfono 917109263." .
@@ -5135,7 +5135,7 @@
 <http://madrid.encuentra.es/resource/Facility/10344149>
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0c057ab5c83db510VgnVCM2000001f4a900aRCRD" ;
         <http://madrid.encuentra.es/resource/barrio>  "PACIFICO" ;
-        <http://schema.org/descripcion>  "El Centro Sociocultural Clara Campoamor se encuentra en uno de los edificios de la Junta Municipal del Distrito de Retiro (el edificio más moderno). En este edificio, además del Centro Sociocultural se encuentran las oficinas de Línea Madrid y los despachos de los grupos políticos de la Junta." ;
+        <http://schema.org/description>  "El Centro Sociocultural Clara Campoamor se encuentra en uno de los edificios de la Junta Municipal del Distrito de Retiro (el edificio más moderno). En este edificio, además del Centro Sociocultural se encuentran las oficinas de Línea Madrid y los despachos de los grupos políticos de la Junta." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2002296" ;
         <http://madrid.encuentra.es/resource/distrito>  "Retiro" ;
         <http://madrid.encuentra.es/resource/provincia>  "MADRID" ;
@@ -5163,7 +5163,7 @@
         <http://schema.org/name>       "Centro Juvenil Tetuán Punto Joven" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2f9e41aee5a2a110VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/barrio>  "CUATRO CAMINOS" ;
-        <http://schema.org/descripcion>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  tetuanpuntojoven@gmail.com    Teléfono: 915 347 744 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
+        <http://schema.org/description>  "Mira la programación mensual de cada uno de los centros juveniles, encontrarás talleres, teatro, actividades, cesiones de espacios para tu música o tus ensayos, exposiciones; además Wifi gratuito, oficinas de información juvenil y un montón de cosas interesantes.  Información sobre las actividades y cesión de espacios   Correo:  tetuanpuntojoven@gmail.com    Teléfono: 915 347 744 Consulta la programación aquí  Para inscribirte en la actividad que más te guste cumplimenta y envía este formulario." ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1773540" ;
         <http://schema.org/latitude>   "40.447199849232135" ;
         <http://madrid.encuentra.es/resource/distrito>  "Tetuán" ;
@@ -5189,7 +5189,7 @@
         <http://schema.org/name>       "Matadero Madrid" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "3" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/distrito>  "Arganzuela" ;
         <http://schema.org/longitude>  "-3.6958028442054074" ;
         <http://schema.org/streetAddress>  "LEGAZPI" ;
@@ -5204,7 +5204,7 @@
 
 <http://madrid.encuentra.es/resource/Facility/10799518>
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2001937" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/streetAddress>  "JUAN IGNACIO LUCA DE TENA" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
@@ -5233,7 +5233,7 @@
         <http://madrid.encuentra.es/resource/barrio>  "ARAVACA" ;
         <http://schema.org/openingHoursSpecification>  "De lunes a viernes de 9 a 15 y de 15:30 a 21:30 horas.   Fuera de este horario el centro permanecerá abierto durante la celebración de las actividades que se programen." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/streetAddress>  "CA&amp;Ntilde;O" ;
@@ -5255,7 +5255,7 @@
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
         <http://schema.org/longitude>  "-3.606140062044455" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://schema.org/name>       "Centro Cultural Zazuar (Villa de Vallecas)" ;
         <http://schema.org/streetAddress>  "ZAZUAR" ;
@@ -5281,7 +5281,7 @@
         <http://madrid.encuentra.es/resource/Facility>  "Matadero Madrid" .
 
 <http://madrid.encuentra.es/resource/Facility/1950>
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agendaaccesible>  "1" ;
         <http://schema.org/streetAddress>  "PINAZO" ;
         <http://madrid.encuentra.es/resource/num>  "9" ;
@@ -5379,7 +5379,7 @@
         <http://schema.org/addressLocality>  "MADRID" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "5" ;
         <http://schema.org/latitude>   "40.4606308732073" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q807230" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD" ;
@@ -5392,7 +5392,7 @@
         <http://madrid.encuentra.es/resource/postalCode>  "28005" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/barrio>  "PALACIO" ;
         <http://schema.org/latitude>   "40.40741060830642" ;
         <http://schema.org/longitude>  "-3.7119168856897677" ;
@@ -5484,7 +5484,7 @@
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q2002296" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28014" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "CentroCentro es un centro público de cultura y ocio conectado con la ciudad y la vida urbana, ubicado en el emblemático Palacio de Cibeles, antiguo Palacio de Comunicaciones, sede actual del Ayuntamiento de Madrid. Su propuesta plantea el diálogo entre disciplinas &amp;ndash;diseño, ilustración, arte, fotografía, urbanismo, arquitectura, música, literatura, historia&amp;ndash; con el objetivo de activar el pensamiento crítico ante los desafíos del presente y del futuro. Su programación busca generar nuevos modos de relacionarnos con la cultura, desde la reflexión intelectual y desde la diversión, provocando la curiosidad de un público cada vez más diverso. CentroCentro un espacio vivo y efervescente. Lo vertebran: la arquitectura y la historia que lo envuelven, la creatividad que llena sus salas y las actividades que hacen vibrar el palacio. En CentroCentro hay exposiciones, conciertos, talleres, visitas guiadas, eventos, el Centro de Interpretación del Paisaje de la Luz, un punto de información turística, tienda, cafetería y restaurante, áreas sociales y un mirador con vistas únicas. Aquí siempre encontrarás un buen plan. CentroCentro hace de Madrid su foco y materia básica de estudio; tarjeta de presentación de la ciudad, desde el corazón del Paseo del Arte, quiere ser la mejor estación de llegada y de partida para conocer y sentir su pulso cultural." ;
+        <http://schema.org/description>  "CentroCentro es un centro público de cultura y ocio conectado con la ciudad y la vida urbana, ubicado en el emblemático Palacio de Cibeles, antiguo Palacio de Comunicaciones, sede actual del Ayuntamiento de Madrid. Su propuesta plantea el diálogo entre disciplinas &amp;ndash;diseño, ilustración, arte, fotografía, urbanismo, arquitectura, música, literatura, historia&amp;ndash; con el objetivo de activar el pensamiento crítico ante los desafíos del presente y del futuro. Su programación busca generar nuevos modos de relacionarnos con la cultura, desde la reflexión intelectual y desde la diversión, provocando la curiosidad de un público cada vez más diverso. CentroCentro un espacio vivo y efervescente. Lo vertebran: la arquitectura y la historia que lo envuelven, la creatividad que llena sus salas y las actividades que hacen vibrar el palacio. En CentroCentro hay exposiciones, conciertos, talleres, visitas guiadas, eventos, el Centro de Interpretación del Paisaje de la Luz, un punto de información turística, tienda, cafetería y restaurante, áreas sociales y un mirador con vistas únicas. Aquí siempre encontrarás un buen plan. CentroCentro hace de Madrid su foco y materia básica de estudio; tarjeta de presentación de la ciudad, desde el corazón del Paseo del Arte, quiere ser la mejor estación de llegada y de partida para conocer y sentir su pulso cultural." ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD" ;
         <http://schema.org/latitude>   "40.41902261618159" ;
         <http://madrid.encuentra.es/resource/distrito>  "Retiro" ;
@@ -5527,7 +5527,7 @@
         <http://madrid.encuentra.es/resource/num>  "51" ;
         <http://madrid.encuentra.es/resource/barrio>  "CIUDAD JARDIN" ;
         <http://schema.org/addressLocality>  "MADRID" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "3" ;
         <http://madrid.encuentra.es/resource/distrito_wiki>  "https://wikidata.org/entity/Q1766348" ;
@@ -5549,7 +5549,7 @@
         <http://madrid.encuentra.es/resource/num>  "10" ;
         <http://madrid.encuentra.es/resource/tipoNum>  "V" ;
         rdf:type                       "http://madrid.encuentra.es/resource/Facility" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/contentURL>  "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD" ;
         <http://madrid.encuentra.es/resource/distrito>  "Vicálvaro" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28032" ;
@@ -5669,7 +5669,7 @@
         <http://schema.org/longitude>  "-3.665329063724782" ;
         <http://madrid.encuentra.es/resource/postalCode>  "28053" ;
         <http://schema.org/streetAddress>  "SIERRA CARBONERA" ;
-        <http://schema.org/descripcion>  "Not informed Value" ;
+        <http://schema.org/description>  "Not informed Value" ;
         <http://madrid.encuentra.es/resource/codBarrio>  "2" .
 
 <http://madrid.encuentra.es/resource/Evento/12095691>
