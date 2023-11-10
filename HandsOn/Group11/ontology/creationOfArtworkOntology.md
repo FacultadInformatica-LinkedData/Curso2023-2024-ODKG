@@ -12,11 +12,7 @@ This ontology defines a model for artworks and related entities. Below are the k
    - [https://soum2111.github.io/Artwork](https://soum2111.github.io/Artwork)
    - Type: Class
 
-2. **Artist**
-   - [https://soum2111.github.io/Artist](https://soum2111.github.io/Artist)
-   - Type: Class
-
-3. **ArtworkDimension**
+2. **ArtworkDimension**
    - [https://soum2111.github.io/ArtworkDimension](https://soum2111.github.io/ArtworkDimension)
    - Type: Class
 
