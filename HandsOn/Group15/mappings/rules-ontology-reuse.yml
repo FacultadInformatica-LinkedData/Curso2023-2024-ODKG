@@ -1,0 +1,209 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ns: https://barca_environmental_monitoring.es/
+  schema: http://schema.org/
+
+mappings:
+  air_contaminants:
+    sources:
+      - [ ../csv/qualitat_aire_contaminants-with-links.csv~csv ]
+    s: ns:resource/AirContaminant/$(Contam_Code)
+    po:
+      - [ a, ns:AirContaminant ]
+      - [ ns:contaminantCode, $(Contam_Code), xsd:integer ]
+      - [ ns:contaminantName, $(Contam_Name) ]
+      - [ ns:unit, $(Units) ]
+      - [ ns:effect, $(Effect) ]
+      - [ ns:mass, $(Mass), xsd:decimal ]
+      - [ owl:sameAs, $(Wikidata_Contam)~iri ]
+
+  trees:
+    sources:
+      - [ ../csv/OD_Arbrat_Zona_BCN-updated.csv~csv ]
+    s: ns:resource/TreeSpecies/$(Code)
+    po:
+      - [ a, ns:Tree ]
+      - [ ns:treeCode, $(Code) ]
+      - [ ns:treeLatitude, $(Latitude), xsd:decimal ]
+      - [ ns:treeLongitude, $(Longitude), xsd:decimal ]
+      - [ ns:treeSpecies, $(Tree_Species_Name) ]
+      - [ ns:plantedAt, ns:resource/Address/$(Address)~iri ]
+
+  air_cabins:
+    sources:
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
+    s: ns:resource/AirQualityCabin/$(Cabin_Number)
+    po:
+      - [ a, ns:AirQualityCabin ]
+      - [ ns:cabinNumber, $(Cabin_Number), xsd:integer ]
+      - [ ns:cabinLatitude, $(Latitude), xsd:decimal ]
+      - [ ns:cabinLongitude, $(Longitude), xsd:decimal ]
+      - [ ns:hasMeasured, ns:resource/AirContaminant/$(Contaminant_Code)~iri ]
+      - [ ns:stationedAt, ns:resource/Address/$(Street_Name)~iri ]
+
+  addresses:
+    sources:
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
+    s: ns:resource/Address/$(Street_Name)
+    po:
+      - [ a, ns:Address ]
+      - [ ns:addressName, $(Street_Name) ]
+      - [ ns:inNeighbourhood, ns:resource/Neighbourhood/$(Neighbourhood_Number)~iri ]
+
+  neighbourhoods:
+    sources:
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
+    s: ns:resource/Neighbourhood/$(Neighbourhood_Number)
+    po:
+      - [ a, ns:Neighbourhood ]
+      - [ ns:neighbourhoodNumber, $(Neighbourhood_Number), xsd:integer ]
+      - [ ns:neighbourhoodName, $(Neighbourhood_Name) ]
+      - [ ns:neighbourhoodPopulation, $(Neighbourhood_Population), xsd:integer ]
+      - [ ns:neighbourhoodArea, $(Neighbourhood_Area), xsd:decimal ]
+      - [ owl:sameAs, $(Wikidata_Neighbourhood)~iri]
+
+  districts:
+    sources:
+      - [ ../csv/qualitat_aire_estacions-with-links.csv~csv ]
+    s: ns:resource/District/$(District_Number)
+    po:
+      - [ a, ns:District ]
+      - [ ns:districtNumber, $(District_Number), xsd:integer ]
+      - [ ns:districtName, $(District_Name) ]
+      - [ ns:hasNeighbourhood, ns:resource/Neighbourhood/$(Neighbourhood_Number)~iri ]
+      - [ ns:inCity, ns:resource/City/Barcelona~iri ]
+      - [ ns:districtPopulation, $(District_Population), xsd:integer ]
+      - [ owl:sameAs, $(Wikidata_District)~iri ]
+
+  temperatures_jan:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Jan
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Jan", xsd:string ]
+      - [ ns:temperature, $(Jan_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_feb:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Feb
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Feb", xsd:string ]
+      - [ ns:temperature, $(Feb_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_mar:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Mar
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Mar", xsd:string ]
+      - [ ns:temperature, $(Mar_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_apr:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Apr
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Apr", xsd:string ]
+      - [ ns:temperature, $(Apr_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_may:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/May
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "May", xsd:string ]
+      - [ ns:temperature, $(May_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_jun:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Jun
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Jun", xsd:string ]
+      - [ ns:temperature, $(Jun_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_jul:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Jul
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Jul", xsd:string ]
+      - [ ns:temperature, $(Jul_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_aug:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Aug
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Aug", xsd:string ]
+      - [ ns:temperature, $(Aug_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_sep:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Sep
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Sep", xsd:string ]
+      - [ ns:temperature, $(Sep_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_oct:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Oct
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Oct", xsd:string ]
+      - [ ns:temperature, $(Oct_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_nov:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Nov
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Nov", xsd:string ]
+      - [ ns:temperature, $(Nov_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
+
+  temperatures_dec:
+    sources:
+      - [ ../csv/temperaturesbarcelonadesde1780-updated.csv~csv ]
+    s: ns:resource/Temperature/$(Year)/Dec
+    po:
+      - [ a, ns:Temperature ]
+      - [ ns:year, $(Year), xsd:integer ]
+      - [ ns:month, "Dec", xsd:string ]
+      - [ ns:temperature, $(Dec_Temp), xsd:decimal ]
+      - [ ns:recordedIn, ns:resource/City/Barcelona~iri ]
