@@ -3,28 +3,25 @@
 
 # Nearby Charging Stations
 SELECT ?station ?latitude ?longitude WHERE {
-    ?station ont:hasStreetAddress ?address .
-    ?address geo:latitude ?latitude .
-    ?address geo:longitude ?longitude .
+    ?station ont:latitude ?latitude .
+    ?station ont:longitude ?longitude .
 }
 
 
 # Map View of Stations
 SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHERE {
-    ?station ont:hasStreetAddress ?address .
-    ?address geo:latitude ?latitude .
-    ?address geo:longitude ?longitude .
+    ?station ont:latitude ?latitude .
+    ?station ont:longitude ?longitude .
     ?station ont:evLevel1EVSENum ?level1Count .
     ?station ont:evLevel2EVSENum ?level2Count .
     ?station ont:evDCFastCount ?dcFastCount .
 }
 
 
-
 # Search by City Name
 SELECT ?station WHERE {
-    ?station ont:hasCity ?city .
-    ?city rdfs:label "Branford" .
+    ?station ont:isLocatedInCity ?city .
+    ?city rdfs:label "SPECIFIC_CITY_NAME" .
 }
 
 
@@ -33,36 +30,48 @@ SELECT ?station WHERE {
 # In the example below, we are retrieving stations with Level 1 chargers
 SELECT ?station WHERE {
     ?station ont:evLevel1EVSENum ?level1Count . 
-    FILTER(?level1Count > 0) 
+    FILTER(?level1Count > 0) # Adjust for other levels
 }
 
 
 # Retrieve stations based on operating hours
 SELECT ?station WHERE {
     ?station ont:accessDaysTime ?time . 
-    FILTER(STR(?time) = "24-Hours-Daily")
+    FILTER(STR(?time) = "SPECIFIC_TIME_RANGE")
 }
 
 
 # Station Details 
 SELECT * WHERE {
-    ?station rdfs:label "Westlodge" .
+    ?station rdfs:label "SPECIFIC_STATION_NAME" .
     ?station ?property ?value .
+}
+
+
+# Route Planning 
+# Retrieve stations within a specific radius of a given location
+SELECT ?station WHERE {
+    ?station ont:latitude ?latitude . 
+    FILTER(?latitude >= MIN_LATITUDE && ?latitude <= MAX_LATITUDE) .
+    ?station ont:longitude ?longitude . 
+    FILTER(?longitude >= MIN_LONGITUDE && ?longitude <= MAX_LONGITUDE) .
 }
 
 
 # Stations by County Name
 SELECT ?station WHERE {
-    ?station ont:counties ?county .
-    FILTER(?county = "Hartford") .
+    ?station ont:isLocatedInCounty ?county .
+    ?county rdfs:label "SPECIFIC_COUNTY_NAME" .
 }
-
 
 
 # Top 5 Cities with Most Stations 
 SELECT ?city (COUNT(?station) AS ?stationCount) WHERE {
-    ?station ont:hasCity ?city .
+    ?station ont:isLocatedInCity ?city .
 } 
 GROUP BY ?city 
 ORDER BY DESC(?stationCount) 
 LIMIT 5
+
+
+
