@@ -14,7 +14,7 @@
 
 # Ontology Diagram
 
-![Diagram Ontology](./ontology/Ontologiy_diagram.png)
+![Diagram Ontology](./ontology/ontology.png)
 
 ## Extensiones VS-CODE
 
@@ -41,10 +41,10 @@ Other commands:
 
 - Stop:
 ```bash
-sudo docker stop fuseki
+docker stop fuseki
 ```
 
 - Start:
 ```bash
-sudo docker start fuseki
+docker start fuseki
 ```

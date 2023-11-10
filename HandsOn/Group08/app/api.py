@@ -51,31 +51,37 @@ def request(state:str= None) -> pd.DataFrame:
         'Accept': 'application/json'
     }
 
-    response = requests.request(
-        "POST", ENDPOINT, headers=headers, data=payload)
+    try:
+        response = requests.request(
+            "POST", ENDPOINT, headers=headers, data=payload)
 
-    if response.status_code == 200:
-        data = response.json()
 
-        bindings = data["results"]["bindings"]
 
-        data_list = [
-            {
-                "nameUni": item["nameUni"]["value"],
-                "nameCity": item["nameCity"]["value"],
-                "website": "www." + item["website"]["value"],
-                "uriUniWikiData": item["uriUniWikiData"]["value"],
-                "latitude": float(item["latitude"]["value"]),
-                "longitude": float(item["longitude"]["value"]),
-                "gRate": int(item["gRate"]["value"])
-            }
-            for item in bindings
-        ]
+        if response.status_code == 200:
+            data = response.json()
 
-        df = pd.DataFrame(data_list)
+            bindings = data["results"]["bindings"]
 
-    else:
-        print(response.text)
+            data_list = [
+                {
+                    "nameUni": item["nameUni"]["value"],
+                    "nameCity": item["nameCity"]["value"],
+                    "website": "www." + item["website"]["value"],
+                    "uriUniWikiData": item["uriUniWikiData"]["value"],
+                    "latitude": float(item["latitude"]["value"]),
+                    "longitude": float(item["longitude"]["value"]),
+                    "gRate": int(item["gRate"]["value"])
+                }
+                for item in bindings
+            ]
+
+            df = pd.DataFrame(data_list)
+
+        else:
+            print(response.text)
+
+    except:
+        print("Error")
 
     return df
 
