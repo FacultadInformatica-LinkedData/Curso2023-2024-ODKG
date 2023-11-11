@@ -1,6 +1,6 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix base: <http://madridwastemanagement.org/> .
 @prefix nso: <http://madridwastemanagement.org/group01/ontology/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -62,11 +62,6 @@ nso:districtID a owl:DatatypeProperty ;
     rdfs:domain nso:District ;
     rdfs:range xsd:integer .
 
-nso:wasteName a owl:DatatypeProperty ;
-    rdfs:label "wasteName" ;
-    rdfs:domain nso:WasteType ;
-    rdfs:range xsd:string .
-
 nso:districtName a owl:DatatypeProperty ;
     rdfs:label "districtName" ;
     rdfs:domain nso:District ;
@@ -85,6 +80,5 @@ nso:WasteType a owl:Class ;
 nso:District a owl:Class ;
     rdfs:label "District" .
 
-nso:Total a owl:Class ;
-    rdfs:label "Total" .
+nso:Total a owl:Class .
 
