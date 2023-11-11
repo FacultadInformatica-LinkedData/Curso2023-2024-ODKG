@@ -1,0 +1,203 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix clase2: <http://madridalfresco.es/lcc/resource/>.
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
+@prefix coord: <http://purl.org/net/cartCoord#>.
+@prefix gtfs: <http://vocab.gtfs.org/gtfs.ttl#>.
+@prefix escjr: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#>.
+@prefix escom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#>.
+@prefix clase: <http://madridalfresco.es/lcc/ontology/locales#>.
+
+
+#############################################Local resource#############################################
+clase2:Local
+  rml:logicalSource [
+    rml:source "../csv/terrazas202309-updated-csv-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://madridalfresco.es/lcc/resource/Local/{id_local}";
+    rr:class escom:LocalComercial
+  ];
+#####datatype properties
+  rr:predicateObjectMap [
+    rr:predicate escom:rotulo;
+    rr:objectMap [
+      rml:reference "rotulo";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate coord:xcoord;
+    rr:objectMap [
+      rml:reference "coordenadaX";
+      rr:datatype xsd:float
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate coord:ycoord;
+    rr:objectMap [
+      rml:reference "coordenadaY";
+      rr:datatype xsd:float
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate escom:tipoSituacion;
+    rr:objectMap [
+      rml:reference "situacion";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gtfs:startTime;
+    rr:objectMap [
+      rml:reference "horaApertura";
+      rr:datatype xsd:time
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gtfs:endTime;
+    rr:objectMap [
+      rml:reference "horaCierre";
+      rr:datatype xsd:time
+    ]
+  ];
+#####datatype properties
+#####object properties
+  rr:predicateObjectMap [
+    rr:predicate escom:tieneTerraza;
+    rr:objectMap [
+       rr:template "http://madridalfresco.es/lcc/resource/Terraza/{id_terraza}";
+    ]
+  ];
+ rr:predicateObjectMap [
+    rr:predicate esadm:distrito;
+    rr:objectMap [
+       rr:template "http://madridalfresco.es/lcc/resource/Distrito/{id_distrito}";
+    ]
+  ].
+#####object properties
+#############################################Local resource#############################################
+
+#############################################Terraza resource#############################################
+clase2:Terraza
+  rml:logicalSource [
+    rml:source "../csv/terrazas202309-updated-csv-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://madridalfresco.es/lcc/resource/Terraza/{id_terraza}";
+    rr:class escom:Terraza
+  ];
+#####datatype properties
+  rr:predicateObjectMap [
+    rr:predicate escom:numeroMesasAutorizadas;
+    rr:objectMap [
+      rml:reference "mesas";
+      rr:datatype xsd:integer
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate escom:numeroSillasAutorizadas;
+    rr:objectMap [
+      rml:reference "sillas";
+      rr:datatype xsd:integer
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate escom:superficie;
+    rr:objectMap [
+      rml:reference "superficie";
+      rr:datatype xsd:float
+    ]
+  ];
+#####datatype properties
+#####object properties
+  rr:predicateObjectMap [
+    rr:predicate escom:perteneceALocal;
+    rr:objectMap [
+       rr:template "http://madridalfresco.es/lcc/resource/Local/{id_local}";
+    ]
+  ].
+#####object properties
+#############################################Terraza resource#############################################
+
+#############################################Distrito resource#############################################
+clase2:Distrito
+  rml:logicalSource [
+    rml:source "../csv/terrazas202309-updated-csv-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://madridalfresco.es/lcc/resource/Distrito/{id_distrito}";
+    rr:class esadm:Distrito
+  ];
+#####datatype properties
+  rr:predicateObjectMap [
+    rr:predicate gn:name;
+    rr:objectMap [
+      rml:reference "nombreDistrito";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate esadm:barrio;
+    rr:objectMap [
+      rml:reference "barrio";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate esadm:tipoVia;
+    rr:objectMap [
+      rml:reference "tipoVia";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate escjr:via;
+    rr:objectMap [
+      rml:reference "nombreCalle";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate escjr:portal;
+    rr:objectMap [
+      rml:reference "portal";
+      rr:datatype xsd:integer
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gn:postalCode;
+    rr:objectMap [
+      rml:reference "codPostal";
+      rr:datatype xsd:integer
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsNombreDistrito;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_nombreDistrito";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsBarrio;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_barrio";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:sameAsTipoVia;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_tipoVia";
+      rr:datatype xsd:string
+    ]
+  ].
+  #####datatype properties
