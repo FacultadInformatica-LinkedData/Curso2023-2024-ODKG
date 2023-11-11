@@ -6,3 +6,4 @@ The table below contains name and github accounts of group members.
 | Ewa Kupczyk | tutajewcia |
 | Soumaya Metrab | Soum2111 |
 | Baptiste Carrolaggi | BaptCarr |
+| Emanuel Buttaci | buttaciemanuel |

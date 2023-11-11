@@ -1,0 +1,80 @@
+ @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rdf: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+geo:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:float .
+
+geo:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:float .
+
+ont:accessDaysTime a owl:DatatypeProperty ;
+    rdfs:label "access days time" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:string .
+
+ont:additionalInfo a owl:DatatypeProperty ;
+    rdfs:label "additional info" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:string .
+
+ont:counties a owl:DatatypeProperty ;
+    rdfs:label "counties" ;
+    rdfs:domain ont:City ;
+    rdfs:range xsd:string .
+
+ont:evDCFastCount a owl:DatatypeProperty ;
+    rdfs:label "evdc fast count" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:integer .
+
+ont:evLevel1EVSENum a owl:DatatypeProperty ;
+    rdfs:label "evlevel1 evse num" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:integer .
+
+ont:evLevel2EVSENum a owl:DatatypeProperty ;
+    rdfs:label "evlevel2 evse num" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range xsd:integer .
+
+ont:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range ont:Address .
+
+ont:hasCity a owl:ObjectProperty ;
+    rdfs:label "has city" ;
+    rdfs:domain ont:Address ;
+    rdfs:range ont:City .
+
+ont:townIndex a owl:DatatypeProperty ;
+    rdfs:label "town index" ;
+    rdfs:domain ont:City ;
+    rdfs:range xsd:integer .
+
+ont:zipCode a owl:DatatypeProperty ;
+    rdfs:label "zip code" ;
+    rdfs:domain ont:Address ;
+    rdfs:range xsd:string .
+
+ont:Address a owl:Class ;
+    rdfs:label "Address" .
+
+ont:City a owl:Class ;
+    rdfs:label "City" .
+
+ont:ChargingStation a owl:Class ;
+    rdfs:label "Charging Station" .
+

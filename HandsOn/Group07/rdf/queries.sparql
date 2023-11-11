@@ -1,0 +1,68 @@
+#GROUP 07 - EV Charging Stations SPARQL Queries
+
+
+# Nearby Charging Stations
+SELECT ?station ?latitude ?longitude WHERE {
+    ?station ont:hasStreetAddress ?address .
+    ?address geo:latitude ?latitude .
+    ?address geo:longitude ?longitude .
+}
+
+
+# Map View of Stations
+SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHERE {
+    ?station ont:hasStreetAddress ?address .
+    ?address geo:latitude ?latitude .
+    ?address geo:longitude ?longitude .
+    ?station ont:evLevel1EVSENum ?level1Count .
+    ?station ont:evLevel2EVSENum ?level2Count .
+    ?station ont:evDCFastCount ?dcFastCount .
+}
+
+
+
+# Search by City Name
+SELECT ?station WHERE {
+    ?station ont:hasCity ?city .
+    ?city rdfs:label "Branford" .
+}
+
+
+# Filter Options
+# Retrieve stations based on a specific charger type (Level 1, Level 2, DC Fast)
+# In the example below, we are retrieving stations with Level 1 chargers
+SELECT ?station WHERE {
+    ?station ont:evLevel1EVSENum ?level1Count . 
+    FILTER(?level1Count > 0) 
+}
+
+
+# Retrieve stations based on operating hours
+SELECT ?station WHERE {
+    ?station ont:accessDaysTime ?time . 
+    FILTER(STR(?time) = "24-Hours-Daily")
+}
+
+
+# Station Details 
+SELECT * WHERE {
+    ?station rdfs:label "Westlodge" .
+    ?station ?property ?value .
+}
+
+
+# Stations by County Name
+SELECT ?station WHERE {
+    ?station ont:counties ?county .
+    FILTER(?county = "Hartford") .
+}
+
+
+
+# Top 5 Cities with Most Stations 
+SELECT ?city (COUNT(?station) AS ?stationCount) WHERE {
+    ?station ont:hasCity ?city .
+} 
+GROUP BY ?city 
+ORDER BY DESC(?stationCount) 
+LIMIT 5

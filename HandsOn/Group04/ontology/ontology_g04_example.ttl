@@ -12,43 +12,38 @@
 #    Individuals
 #################################################################
 
-### http://www.madculturalevents.es/group04/resources/Event/12124944
-<http://www.madculturalevents.es/group04/resources/Event/12124944> rdf:type owl:NamedIndividual ,
-                                                                                            :Event;
+### http://www.madculturalevents.es/group04/resources/event/12124944
+<http://www.madculturalevents.es/group04/resources/event/12124944> rdf:type owl:NamedIndividual ,
+                                                                                            :CulturalEvent;
                                                                                             :eventType "ExcursionesItinerariosVisitas"^^xsd:string ;
-                                                                                            :audienceType "Familias"^^xsd:string;
-                                                                                            :eventName "Animales feos y no tan feos"^^xsd:string;
-                                                                                            :eventDescription "En colaboración con las actividades del Teatro Real y dentro de su programa El Real Junior, en esta ocasión y, en relación con el estreno del cuento musical 'Andersen, el Patio feo',el Museo de Historia de Madrid ofrece al público infantil el  recorrido 'Animales feos y no tan feos' en el que, a través de un juego de pistas, descubrir algunos animales representados en las obras expuestas. Del 5 al 15 de octubre,n el horario habitual del museo, los niños podrán recoger el recorrido adaptado a su edad en el punto de Información del museo y comenzar el juego"^^sxd:string;
+                                                                                            :audienceType "Familias"^^xsd:string ;
+                                                                                            :eventName "Animales feos y no tan feos"^^xsd:string ;
+                                                                                            :eventDescription "En colaboración con las actividades del Teatro Real y dentro de su programa El Real Junior, en esta ocasión y, en relación con el estreno del cuento musical 'Andersen, el Patio feo',el Museo de Historia de Madrid ofrece al público infantil el  recorrido 'Animales feos y no tan feos' en el que, a través de un juego de pistas, descubrir algunos animales representados en las obras expuestas. Del 5 al 15 de octubre,n el horario habitual del museo, los niños podrán recoger el recorrido adaptado a su edad en el punto de Información del museo y comenzar el juego"^^xsd:string ;
                                                                                             :startDate "2023-10-05T00:00:00Z"^^xsd:dateTime ;
                                                                                             :endDate "2023-10-15T23:59:00Z"^^xsd:dateTime ;
                                                                                             :eventUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d978758d4cffa810VgnVCM1000001d4a900aRCRD";
-                                                                                            :price "0.0"^^xsd:float
-                                                                                            :hasPlace <http://www.madculturalevents.es/group04/resources/Facility/Museo_de_Historia_de_Madrid>.                                                                                            
+                                                                                            :price "GRATUITO"^^xsd:string ;
+                                                                                            :hasPlace <http://www.madculturalevents.es/group04/resources/facility/222333>.                                                                                            
                                                                                          
 
 
-#http://www.madculturalevents.es/group04/resources/Facility/Museo_de_Historia_de_Madrid
-<http://www.madculturalevents.es/group04/resources/Facility/Museo_de_Historia_de_Madrid> rdf:type owl:NamedIndividual ,
+#http://www.madculturalevents.es/group04/resources/facility/222333
+<http://www.madculturalevents.es/group04/resources/facility/222333> rdf:type owl:NamedIndividual ,
                                                                                                 :Facility;          
-                                                                                                :typeof :/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos ;   
-                                                                                                :hasAddress  <http://www.madculturalevents.es/group04/resources/Address/CALLE_FUENCARRAL_78> ;  
-                                                                                                :facilityName "Museo de Historia de Madrid"^^xsd:string 
+                                                                                                :typeof :/Place ;   
+                                                                                                :hasAddress  <http://www.madculturalevents.es/group04/resources/address/19283> ;  
+                                                                                                :facilityName "Museo de Historia de Madrid"^^xsd:string ;
                                                                                                 :facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD"  .  
-#http://www.madculturalevents.es/group04/resources/PostalAddress/28004
-<http://www.madculturalevents.es/group04/resources/PostalAddress/28004> rdf:type owl:NamedIndividual ,
-                                                                                                :PostalAddress    .
 
-
-#http://www.madculturalevents.es/group04/resources/Address/CALLE_FUENCARRAL_78   
-<http://www.madculturalevents.es/group04/resources/Address/CALLE_FUENCARRAL_78> rdf:type owl:NamedIndividual ,    
+#http://www.madculturalevents.es/group04/resources/address/19283   
+<http://www.madculturalevents.es/group04/resources/address/19283> rdf:type owl:NamedIndividual ,    
                                                                                             :Address; 
-                                                                                            :hasPostalAddress <http://www.madculturalevents.es/group04/resources/PostalAddress/28004>;
-                                                                                            :belongsTo <http://www.madculturalevents.es/group04/resources/District/Centro>;
-                                                                                            :addressName "CALLE FUENCARRAL"^^xsd:string;
-                                                                                            :number "78"^^xsd:string .
+                                                                                            :belongsTo <http://www.madculturalevents.es/group04/resources/District/Centro> ;
+                                                                                            :addressName "CALLE FUENCARRAL"^^xsd:string ;
+                                                                                            :number "78"^^xsd:int .
 
-#<http://www.madculturalevents.es/group04/resources/District/Centro> 
-<http://www.madculturalevents.es/group04/resources/District/Centro>   rdf:type owl:NamedIndividual ,
+#<http://www.madculturalevents.es/group04/resources/district/CENTRO> 
+<http://www.madculturalevents.es/group04/resources/district/CENTRO>   rdf:type owl:NamedIndividual ,
                                                                                 :District ;  
-                                                                                :districtName "Centro"^^xsd:string;
+                                                                                :districtName "CENTRO"^^xsd:string ;
                                                                                 :id "1"^^xsd:int  .                                         

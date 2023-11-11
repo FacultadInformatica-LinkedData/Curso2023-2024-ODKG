@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+
+<https://www.chargeup.io/group07/ontology#> rdf:type owl:Ontology .
+
+
+# https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Of-Darien
+https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Of-Darien a ont:ChargingStation;
+    ont:hasAddress <https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd>
+    ont:accessDaysTime "24-Hours-Daily"^^xsd:string;
+    ont:additionalinfo "Not-Provided"^^xsd:string;
+    ont:evLevel1EVSENum 0^^xsd:integer;
+    ont:evLevel2EVSENum 2^^xsd:integer;
+    ont:evDCFastCount 0^^xsd:integer;
+    geo:longitude -73.4764687^^xsd:float;
+    geo:latitude 41.072882^^xsd:float .
+
+
+# https://www.chargeup.io/group07/resource/City/Darien
+https://www.chargeup.io/group07/resource/City/Darien a ont:City;
+    ont:counties "Fairfield"^^xsd:string;
+    ont:townIndex 35^^xsd:integer .
+
+
+# https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd
+https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd a ont:Address;
+    ont:hasCity <https://www.chargeup.io/group07/resource/City/Darien>;
+    ont:zipCode "00005"^^xsd:string .

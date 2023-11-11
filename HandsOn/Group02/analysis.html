@@ -16,42 +16,175 @@ table {
 }
 td, th {
   border: 1px solid #000000;
-  text-align: center;
+  text-align: justify;
   padding:11px;
+  vertical-align: middle;
+}
+.centered-header {
+  text-align: center;
 }
 </style>
 </head>
 
 <body>
-
 <h3>Data Analysis:</h3>
-
 <table>
   <tr>
-    <th>Distrito</th>
-    <th>String</th>
-    <th>Contains the neighborhood, street type, street name, the postal code, and portal where a certain establishment is located.</th>
+    <th class="centered-header">Name</th>
+    <th class="centered-header">Type</th>
+    <th class="centered-header">Description</th>
   </tr>
+  <tr>
+    <th>id_terraza</th>
+    <th>Integer</th>
+    <td>Unique identifier for the terrace.</td>
+  </tr>
+  <tr>
+    <th>id_local</th>
+    <th>Integer</th>
+    <td>Unique identifier for the establishment.</td>
+  </tr>
+  <tr>
+    <th>id_distrito</th>
+    <th>Integer</th>
+    <td>Unique identifier for the district.</td>
+  </tr>
+  <tr>
+    <th>nombreDistrito</th>
+    <th>String</th>
+    <td>Name of the district.</td>
+  </tr>
+  <tr>
+    <th>barrio</th>
+    <th>String</th>
+    <td>Name of the neighborhood.</td>
+  </tr>
+  <tr>
+    <th>tipoVia</th>
+    <th>String</th>
+    <td>Type of road (street, avenue, etc.).</td>
+  </tr>
+  <tr>
+    <th>nombreCalle</th>
+    <th>String</th>
+    <td>Name of the street.</td>
+  </tr>
+  <tr>
+    <th>portal</th>
+    <th>Integer</th>
+    <td>Number of the portal.</td>
+  </tr>
+  <tr>
+    <th>codPostal</th>
+    <th>Integer</th>
+    <td>Postal code.</td>
+  </tr>
+  <tr>
+    <th>coordenadaX</th>
+    <th>Float</th>
+    <td>X coordinate for location on a map.</td>
+  </tr>
+  <tr>
+    <th>coordenadaY</th>
+    <th>Float</th>
+    <td>Y coordinate for location on a map.</td>
+  </tr>
+  <tr>
+    <th>situacion</th>
+    <th>String</th>
+    <td>Description of the establishment's situation (open, closed, etc.).</td>
+  </tr>
+  <tr>
+    <th>rotulo</th>
+    <th>String</th>
+    <td>Label of the establishment.</td>
+  </tr>
+  <tr>
+    <th>superficie</th>
+    <th>Float</th>
+    <td>Area of the establishment in square meters.</td>
+  </tr>
+  <tr>
+    <th>horaApertura</th>
+    <th>Time</th>
+    <td>Opening time of the establishment.</td>
+  </tr>
+  <tr>
+    <th>horaCierre</th>
+    <th>Time</th>
+    <td>Closing time of the establishment.</td>
+  </tr>
+  <tr>
+    <th>mesas</th>
+    <th>Integer</th>
+    <td>Number of tables on the terrace.</td>
+  </tr>
+  <tr>
+    <th>sillas</th>
+    <th>Integer</th>
+    <td>Number of chairs on the terrace.</td>
+  </tr>
+</table>
 
+<h3>Data Resources:</h3>
+<table>
+  <tr>
+    <th class="centered-header">Name</th>
+    <th class="centered-header">Type</th>
+    <th class="centered-header">Description</th>
+  </tr>
+  <tr>
+    <th>Distrito</th>
+    <th>Resource</th>
+    <td>Contains the neighborhood, street type, street name, the postal code, and portal where a certain establishment is located.</td>
+  </tr>
   <tr>
     <th>Local</th>
-    <th>String</th>
-    <th>Contains the label of the establishment as a string, the coordinates (x,y) to locate the establishment on the map, the opening and the closing time.</th>
+    <th>Resource</th>
+    <td>Contains the label of the establishment as a string, the coordinates (x,y) to locate the establishment on the map, the opening and the closing time.</td>
   </tr>
-
   <tr>
     <th>Terraza</th>
-    <th>String</th>
-    <th>Contains a float representing the surface area, and two integers for the number of tables and chairs allowed, respectively.</th>
+    <th>Resource</th>
+    <td>Contains a float representing the surface area, and two integers for the number of tables and chairs allowed, respectively.</td>
   </tr>
-  
-  </table>
+</table>
 
 <h3>License:</h3>
-<p>
-  The data used is licensed <a href="https://datos.madrid.es/egob/catalogo/aviso-legal"> </a> 
-  The general conditions allow the reuse of documents for commercial and non-commercial purposes. Reuse is understood as the use of documents held by the Madrid City Council, provided that said use does not constitute a public administrative activity.
-  </p>
+<table>
+  <tr>
+    <th class="centered-header">Name</th>
+    <th class="centered-header">Type</th>
+    <th class="centered-header">Description</th>
+  </tr>
+  <tr>
+    <th>License original dataset</th>
+    <th>
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/64px-Cc.logo.circle.svg.png" alt="CC Logo">
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/40px-Cc-by_new.svg.png" alt="CC BY Icon">
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/40px-Cc-sa.svg.png" alt="CC SA Icon">
+      CC BY-SA 2.0 DEED
+    </th>
+    <td>
+      The data used is licensed <a href="https://datos.madrid.es/egob/catalogo/aviso-legal"> </a> 
+      The general conditions allow the reuse of documents for commercial and non-commercial purposes. Reuse is understood as the use of documents held by the Madrid City Council, provided that said use does not constitute a public administrative activity.
+      The source of the documents subject to reuse must be cited. This citation can be made as follows: “Data source: Madrid City Council (or, where appropriate, administrative body, organization or entity concerned)”.
+    </td>
+  </tr>
+  <tr>
+    <th>License generated dataset</th>
+    <th>
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/64px-Cc.logo.circle.svg.png" alt="CC Logo">
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/40px-Cc-by_new.svg.png" alt="CC BY Icon">
+      <img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/40px-Cc-sa.svg.png" alt="CC SA Icon">
+      Legacy license: CC BY-SA 2.0 DEED
+    </th>
+    <td>
+      This license maintains the same conditions as the original dataset license.
+    </td>
+  </tr>
+
+</table>
   
 <h3>Resource Name Strategy:</h3>
   <h4>Domain&nbsp;</h4>
@@ -60,8 +193,10 @@ td, th {
   <p>group02/ontology/madridalfresco</p>
   <h4>Hash URIs for ontological terms. Slash URIs for individuals:</h4>
   <ul>
-  <li>Ontological terms path -&gt; <a href="http://www.madridalfresco.es/lcc/ontology/locales#">http://www.madridalfresco.es/lcc/ontology/locales#</a></li>
-  <li>Ontological terms example -&gt; <a href="http://www.madridalfresco.es/lcc/ontology/locales#Terraza">http://www.madridalfresco.es/lcc/ontology/locales#Terraza</a></li>
+  <li>Ontological terms path ⮕ <a href="http://www.madridalfresco.es/lcc/ontology/locales#">http://www.madridalfresco.es/lcc/ontology/locales#</a></li>
+  <li>Ontological terms example ⮕ <a href="http://www.madridalfresco.es/lcc/ontology/locales#Terraza">http://www.madridalfresco.es/lcc/ontology/locales#Terraza</a></li>
+  <li>Individuals terms path ⮕ <a href="http://www.madridalfresco.es/lcc/resource/Local/id_local">http://www.madridalfresco.es/lcc/resource/Local/id_local</a></li>
+  <li>Individuals terms example ⮕ <a href="http://www.madridalfresco.es/lcc/resource/Local/S_X448901_Y4474755">http://www.madridalfresco.es/lcc/resource/Local/S_X448901_Y4474755</a></li>
   </ul>
   
 </body>

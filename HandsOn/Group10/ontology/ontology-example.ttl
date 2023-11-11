@@ -1,0 +1,44 @@
+@prefix base: <http://base.itree.com#> .
+@prefix ns: <http://www.owl-ontologies.com/ns#> .
+
+# Declaración de la ontología
+base: a owl:Ontology ;
+    ns:nombreOntologia "Ejemplo Ontología Parques" ;
+    ns:versionOntologia "1.0" ;
+    ns:descripcion "Ejemplo de una ontología de parques" ;
+    ns:creador "Andrés Ollero Morales",
+        "Mercedes Jiménez Díaz-Varela",
+        "Miguel Hernando Padilla",
+        "Nicolás Bravo Ruiz de la Prada" .
+
+# Declaración de una instancia de Distrito
+base:Distrito a ns:Distrito ;
+    ns:nombreDistrito "Salamanca" ;
+    ns:numeroDistrito 4 .
+
+# Declaración de una instancia de Barrio
+base:BarrioGuindalera a ns:Barrio ;
+    ns:nombreBarrio "Guindalera" ;
+    ns:numeroBarrio 44 ;
+    ns:hasDireccion base:Direccion1 .
+
+# Declaración de una instancia de Direccion
+base:DireccionAvenidaAmerica a ns:Direccion ;
+    ns:nombreDireccion "Avenida de América 32" .
+
+# Declaración de una instancia de ParqueCanino
+base:ParqueCanino1 a ns:ParqueCanino ;
+    ns:IDParqueCanino 4997171 ;
+    ns:extensionParque 5000 .
+
+# Declaración de una instancia de Tree
+base:Tree1 a ns:Tree ;
+    ns:nombreEspecie "Ulmus pumila" ;
+    ns:unidades 855 ;
+    ns:hasBarrio base:Barrio1 .
+
+# Relación entre el Distrito y el Barrio
+base:Distrito1 ns:hasBarrio base:BarrioGuindalera .
+
+# Relación entre la Direccion y el ParqueCanino
+base:DireccionAvenidaAmerica ns:hasParqueCanino base:ParqueCanino1 .
