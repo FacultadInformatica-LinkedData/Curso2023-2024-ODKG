@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 {% block title %}District Details{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
 {% block body %}
     <h1 class="text-center mb-4">District Waste Details</h1>
 
@@ -19,44 +25,27 @@
                         <p class="formatted-coordinates" data-coordinates="{{ result.coordinates }}"></p>
                     </div>
                     <div class="image-container">
-                        <img src="static/data/Districts/Images/{{ result.name }}.jpg" height="90%" width="90%">
+                        <img src="/static/data/Districts/Images/{{ result.name }}.jpg" height="90%" width="90%">
                     </div>
                 {% endfor %}
             </div>
         </div>
-        <script>
-        // Function to format and display coordinates
-        function displayCoordinates() {
-            var coordinateElements = document.getElementsByClassName("formatted-coordinates");
-
-            for (var i = 0; i < coordinateElements.length; i++) {
-                var coordinateString = coordinateElements[i].getAttribute("data-coordinates");
-                var coordinates = coordinateString.match(/-?\d+\.\d+/g);
-
-                if (coordinates && coordinates.length === 2) {
-                    var latitude = parseFloat(coordinates[1]);
-                    var longitude = parseFloat(coordinates[0]);
-
-                    // Format and display coordinates
-                    var formattedCoordinates = "Latitude: " + latitude.toFixed(6) + ", Longitude: " + longitude.toFixed(6);
-                    coordinateElements[i].innerText = formattedCoordinates;
-                } else {
-                    coordinateElements[i].innerText = "Invalid coordinate format";
-                }
-            }
-        }
-
-        // Call the function to display coordinates
-        displayCoordinates();
-    </script>
     {% else %}
         <p class="text-center">No further details available for this district.</p>
     {% endif %}
 
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
-    {% if waste_results %}
+    <!-- Year Selector -->
+    <div class="year-selector-container">
+        <label for="yearSelector">Select Year:</label>
+        <select id="yearSelector">
+            <option value="2021" {% if selected_year == '2021' %} selected {% endif %}>2021</option>
+            <option value="2022" {% if selected_year == '2022' %} selected {% endif %}>2022</option>
+            <option value="2023" {% if selected_year == '2023' %} selected {% endif %}>2023</option>
+        </select>
+    </div>
 
-         <!-- Chart Card -->
+    {% if waste_results %}
+        <!-- Chart Card -->
         <div class="row justify-content-center mb-4">
             <div class="col-lg-10">
                 <div class="card">
@@ -70,99 +59,49 @@
             </div>
         </div>
 
+
+        <!-- DataTable Section -->
         <div class="row justify-content-center mb-4">
             <div class="col-lg-10">
-                <!-- Assign an ID to your table for DataTables -->
                 <table id="wasteDataTable" class="table table-striped table-hover table-bordered">
                     <thead class="thead-dark">
-                    <tr>
-                        <th>Waste Name</th>
-                        <th>Wikidata Link</th>
-                        <th>Month</th>
-                        <th>Year</th>
-                        <th>Total Amount (Kg)</th>
-                    </tr>
+                        <tr>
+                            <th>Waste Name</th>
+                            <th>Wikidata Link</th>
+                            <th>Month</th>
+                            <th>Year</th>
+                            <th>Total Amount (Kg)</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    {% for result in waste_results %}
-                        <tr>
-                            <td><a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}"
-                                   target="_blank"> {{ result.wasteName }}</a></td>
-                            <td><a href="{{ result.wikidataLink }}" target="_blank">Wikidata</a></td>
-                            <td>{{ result.month }}</td>
-                            <td>{{ result.year }}</td>
-                            <td>{{ (result.totalAmount|float)|round(2) }}</td>
-                        </tr>
-                    {% endfor %}
+                        {% for result in waste_results %}
+                            <tr>
+                                <td>
+                                    <a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}"  class="waste-type-link" data-wikidata-id="{{ result.wikidataLink.split('/')[-1] }}">
+                                        {{ result.wasteName|format_waste }}
+                                    </a>
+                                </td>
+                                <td><a href="{{ result.wikidataLink }}" target="_blank">Wikidata</a></td>
+                                <td>{{ result.month }}</td>
+                                <td>{{ selected_year }}</td>
+                                <td>{{ "%.2f"|format(result.totalAmount|float) }}</td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
         </div>
-
     {% else %}
         <p class="text-center">No data available for this district.</p>
     {% endif %}
-
 {% endblock %}
 
 {% block scripts %}
-    <script>
-        var ctx = document.getElementById('wasteChart').getContext('2d');
-        var labels = [];  // x-axis labels (Months)
-        var datasets = [];  // datasets for each waste type
-        var wasteTypes = {};  // dictionary to hold data for each waste type
-
-        {% for result in waste_results %}
-            if (!wasteTypes.hasOwnProperty("{{ result.wasteName }}")) {
-                wasteTypes["{{ result.wasteName }}"] = [];
-            }
-            wasteTypes["{{ result.wasteName }}"].push({{ result.totalAmount }});
-            if (!labels.includes("{{ result.month }}")) {
-                labels.push("{{ result.month }}");
-            }
-        {% endfor %}
-
-        for (var wasteType in wasteTypes) {
-            var color = '#' + Math.floor(Math.random() * 16777215).toString(16);  // random color
-            datasets.push({
-                label: wasteType,
-                data: wasteTypes[wasteType],
-                backgroundColor: color,
-                borderColor: color,
-                borderWidth: 1
-            });
-        }
-
-        var myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: datasets
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-
-    <script>
-        // Initialize DataTables
-        $(document).ready(function () {
-            $('#wasteDataTable').DataTable({
-                // Enable features you need
-                paging: true, // Enables pagination
-                searching: true, // Enables searching
-                ordering: true, // Enables column-based sorting
-                autoWidth: true, // Automatically adjusts column width
-                // Additional features and options can be added here as needed
-            });
-        });
+    <script type="text/javascript">
+        window.wasteResults = {{ waste_results | tojson | safe }};
     </script>
+    <script src="/static/js/districtDetails.js"></script>
+
 {% endblock %}
