@@ -242,9 +242,6 @@ def waste_type():
     wikidata_id = request.args.get("wikidata_id")
     waste_type_name = request.args.get("name", "Unknown Waste Type")
 
-    # Check if the waste_type_name is in the human-readable format and convert it if necessary
-    internal_waste_type_name = reverse_format_waste_type(waste_type_name)
-
     waste_type_result = run_wasteType_query(wikidata_id)
 
     return render_template("wasteType.html",

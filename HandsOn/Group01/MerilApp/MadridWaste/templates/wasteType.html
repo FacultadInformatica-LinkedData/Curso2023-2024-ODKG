@@ -21,14 +21,8 @@
         </select>
     </div>
 
-    <!-- Fetch Data Link -->
-    <form action="{{ url_for('waste_type') }}" method="get">
-        <input type="hidden" name="wikidata_id" value="{{wikidata_id}}"> <!-- Replace with actual ID -->
-        <input type="hidden" name="name" value="{{ wasteType }}">
-        <button type="submit">Fetch Data for {{ wasteType }}</button>
-    </form>
 
-    <canvas id="wasteDistributionChart" width="600" height="400"></canvas>
+
 {% endblock %}
 
 {% block scripts %}
