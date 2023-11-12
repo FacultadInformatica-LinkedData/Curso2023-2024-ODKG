@@ -25,7 +25,7 @@ var districts = [
     'San Blas.geojson',
     'Usera.geojson',
     'Vicalvaro.geojson',
-    'Tetuan.geojson',
+    'Tetuán.geojson',
     'Villa de Vallecas.geojson',
     'Villaverde.geojson',
 ];

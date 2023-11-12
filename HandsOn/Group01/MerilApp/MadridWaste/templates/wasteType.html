@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% block title %}WasteType Details{% endblock %}
+
 {% block body %}
-    <h1 class="text-center mb-4">WasteType Details</h1>
+    <h1 class="text-center mb-4">WasteType: {{ wasteType }}</h1>
     {% if result %}
         <div id="description">
             {{ result }}
@@ -10,5 +11,22 @@
         <p class="text-center">No further details available for this waste type.</p>
     {% endif %}
 
+    <!-- Year Selector -->
+    <div class="year-selector-container">
+        <label for="yearSelector">Select Year:</label>
+        <select id="yearSelector">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>
+    </div>
 
+
+
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/static/js/wasteTypeDetails.js"></script>
 {% endblock %}

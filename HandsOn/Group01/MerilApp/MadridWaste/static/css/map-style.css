@@ -1,7 +1,12 @@
-/* map1-style.css */
+/* map-style.css */
+.container {
+    width: 60%; /* Adjust this width as needed */
+    margin: auto; /* Centers the container */
+}
+
 #map1 {
-  height: 50vh;
-  width: 50%;
-  margin: 5vh auto 0; /* Centered horizontally, 5% of the viewport height from the top */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Optional shadow for depth */
+    height: 50vh;
+    width: 100%; /* Make the map fill the container */
+    margin-top: 5vh; /* Adjust top margin as needed */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Optional shadow for depth */
 }
