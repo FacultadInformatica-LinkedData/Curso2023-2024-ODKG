@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta SPARQL</title>
+  </head>
+  <body>
+    <h1>Consulta SPARQL</h1>
+
+    <form method="post" action="/sparql">
+      <label for="query">Ingresa tu consulta SPARQL:</label>
+      <textarea name="query" id="query" rows="5" cols="40">
+{{ query }}</textarea
+      >
+      <br />
+      <input type="submit" value="Ejecutar Consulta" />
+    </form>
+
+    {% if result %}
+    <h2>Resultado:</h2>
+    <pre>{{ result }}</pre>
+    {% endif %}
+  </body>
+</html>

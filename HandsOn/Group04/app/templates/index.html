@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <title>MadCulturalEvents</title>
+  </head>
+  <body>
+    <header>MadCulturalEvents</header>
+
+    <div class="container">
+      <div class="actions">
+        <div class="action search">
+          <div class="search-name">Búsqueda</div>
+          <div class="search-bar">
+            <input type="text" id="search" placeholder="Evento..." />
+          </div>
+        </div>
+        <div class="action filters">
+          <div class="filters-name">Filtros</div>
+          <div class="filters-list">
+            <div class="filter">
+              <div class="filter-name">Fecha de Inicio</div>
+              <div class="datepicker">
+                <input type="text" id="start-date" placeholder="Fecha de inicio" />
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Fecha de Fin</div>
+              <div class="datepicker">
+                <input type="text" id="end-date" placeholder="Fecha de fin" />
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Precio</div>
+              <div class="select">
+                  <select name="price-select">
+                      {% if prices %}
+                          {% for price in prices %}
+                              <option value="{{ price }}">{{ price }}</option>
+                          {% endfor %}
+                      {% else %}
+                          <option value="default">Selecciona un precio</option>
+                      {% endif %}
+                  </select>
+              </div>
+          </div>
+            <div class="filter">
+              <div class="filter-name">Distrito</div>
+              <div class="select">
+                <select name="district-select">
+                  {% if districts %}
+                      {% for district in districts %}
+                          <option value="{{ district }}">{{ district }}</option>
+                      {% endfor %}
+                  {% else %}
+                      <option value="default">Selecciona el distrito</option>
+                  {% endif %}
+                </select>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Transporte</div>
+              <div class="select">
+                <select name="transport-select">
+                  <option value="option1">Opción 1</option>
+                  <option value="option2" selected>Opción 2</option>
+                  <option value="option3">Opción 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Nombre instalación</div>
+              <div class="select">
+                <select name="facility-select">
+                  <option value="option1">Opción 1</option>
+                  <option value="option2" selected>Opción 2</option>
+                  <option value="option3">Opción 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Accesibilidad</div>
+              <div class="select">
+                <select name="accessibility-select">
+                  {% if accessibilities %}
+                      {% for accessibility in accessibilities %}
+                          <option value="{{ accessibility }}">{{ accessibility }}</option>
+                      {% endfor %}
+                  {% else %}
+                      <option value="default">Selecciona la accesibilidad</option>
+                  {% endif %}
+                </select>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Tipo evento</div>
+              <div class="select">
+                <select name="event-type-select">
+                  <option value="option1">Opción 1</option>
+                  <option value="option2" selected>Opción 2</option>
+                  <option value="option3">Opción 3</option>
+                </select>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="filter-name">Tipo audiencia</div>
+              <div class="select">
+                <select name="audience-type-select">
+                  <option value="option1">Opción 1</option>
+                  <option value="option2" selected>Opción 2</option>
+                  <option value="option3">Opción 3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% if result %} {% for event in result %}
+      <div class="item-outer">
+        <div class="item-inner">
+          <div>
+            <img
+              src="./static/Down.svg"
+              loading="“lazy”"
+              decoding="“async”"
+              alt="Down"
+            />
+          </div>
+          <div>{{ event[0] }}</div>
+        </div>
+      </div>
+      <div class="item-details-outer">
+        <div class="item-details-inner">
+          <div>Precio: {{ event[1] }}</div>
+          <div>Accesibilidad: {{ event[2] }}</div>
+          <div>Lugar: {{ event[3] }}</div>
+        </div>
+      </div>
+      {% endfor %} {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./static/index.js"></script>
+    <script>
+      // Agregar la inicialización de datepicker en tu script
+      $(function () {
+        $("#start-date").datepicker();
+        $("#end-date").datepicker();
+      });
+    </script>
+  </body>
+</html>
