@@ -5,7 +5,7 @@ import tkinter as tk
 
 
 def add_marker(map_widget: tkintermapview.TkinterMapView, latitude: float, longitude: float, text: str,
-               icon_filename="air.png"):
+               icon_filename="air-quality.png"):
     """
     Renders a marker on a map widget.
     :param map_widget:
@@ -20,7 +20,7 @@ def add_marker(map_widget: tkintermapview.TkinterMapView, latitude: float, longi
 
 
 def add_markers(map_widget: tkintermapview.TkinterMapView, latitudes: List[float], longitudes: List[float],
-                texts: List[str], icon_filename="air.png"):
+                texts: List[str], icon_filename="air-quality.png"):
     """
     Renders a list of markers on a map widget.
     :param map_widget: map to render markers on
@@ -34,12 +34,3 @@ def add_markers(map_widget: tkintermapview.TkinterMapView, latitudes: List[float
 
     for latitude, longitude, text in zip(latitudes, longitudes, texts):
         add_marker(map_widget, latitude, longitude, text, icon_filename)
-
-
-def clear_markers(map_widget: tkintermapview.TkinterMapView):
-    """
-    Clears all markers from a map widget
-    :param map_widget: map to clear markers from
-    :return:
-    """
-    map_widget.delete_all_marker()

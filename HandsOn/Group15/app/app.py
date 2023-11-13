@@ -2,6 +2,7 @@ import tkinter as tk
 
 import tkintermapview
 
+from knowledge_graph import cabins_which_measure_contaminants, cabins_in_neighbourhoods_with_populations_bigger_than
 from map import add_markers
 
 root = tk.Tk()
@@ -12,31 +13,53 @@ root.config(bg="skyblue")
 
 
 def main():
-    create_input_frame()
     map_widget = create_map_widget()
-    latitudes = [41.3, 41.4, 41.5]
-    longitudes = [2.1, 2.2, 2.3]
-    texts = ["Yum", "Madrid", "Valencia"]
-    add_markers(map_widget, latitudes, longitudes, texts)
+
+    management_bar = tk.Frame(root, width=width, height=200, bg='grey')
+    contaminant_frame(management_bar, map_widget)
+    cabin_frame(management_bar, map_widget)
+    management_bar.grid(row=0, column=0, padx=5, pady=5)
 
     # run the GUI
     root.mainloop()
 
 
-def create_input_frame():
+def contaminant_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapView):
     def button_click():
-        print(text_entry.get())
+        map_widget.delete_all_marker()
+        latitudes, longitudes, texts = cabins_which_measure_contaminants(contaminant_text_entry.get())
+        add_markers(map_widget, latitudes, longitudes, texts)
 
     # Make the top frame cover the whole width of the root
-    top_frame = tk.Frame(root, width=width, height=200, bg='grey')
-    top_frame.grid(row=0, column=0, padx=5, pady=5)
+    outer_frame = tk.Frame(management_bar, width=width // 2 - 100, height=200, bg='grey')
+    outer_frame.grid(row=0, column=0, padx=5, pady=5)
 
-    title = tk.Label(top_frame, text="Barcelona Environmental Monitoring", font=("Arial", 20))
-    title.pack()
-    text_entry = tk.Entry(top_frame)
-    text_entry.pack()
-    button = tk.Button(top_frame, text="Search", command=button_click)
-    button.pack()
+    contaminant_title = tk.Label(outer_frame, text="Search by contaminant name (e.g. carbon monoxide)",
+                                 font=("Arial", 20))
+    contaminant_title.pack()
+    contaminant_text_entry = tk.Entry(outer_frame)
+    contaminant_text_entry.pack()
+    contaminant_search_button = tk.Button(outer_frame, text="Search", command=button_click)
+    contaminant_search_button.pack()
+
+
+def cabin_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapView):
+    def button_click():
+        map_widget.delete_all_marker()
+        latitudes, longitudes, texts = cabins_in_neighbourhoods_with_populations_bigger_than(
+            population_text_entry.get())
+        add_markers(map_widget, latitudes, longitudes, texts)
+
+    # Make the top frame cover the whole width of the root
+    outer_frame = tk.Frame(management_bar, width=width // 2, height=200, bg='grey')
+    outer_frame.grid(row=0, column=1, padx=5, pady=5)
+
+    population_title = tk.Label(outer_frame, text="Search by population threshold (e.g. 50000)", font=("Arial", 20))
+    population_title.pack()
+    population_text_entry = tk.Entry(outer_frame)
+    population_text_entry.pack()
+    population_search_button = tk.Button(outer_frame, text="Search", command=button_click)
+    population_search_button.pack()
 
 
 def create_map_widget() -> tkintermapview.TkinterMapView:
