@@ -214,7 +214,7 @@ def get_facility_info():
     query_wikiID = f"""
     SELECT distinct ?wikiID WHERE {{
         ?District  a territorio:Distrito ; 
-            geonames:officialName "{result[0][9]}"^^xsd:string;
+            geonames:officialName "{result[0][9]}";
             owl:sameAs ?wikiID.
     }}
     """
@@ -238,6 +238,7 @@ def get_facility_info():
     """
     wikiURIID=execute_sparql_query(query_wikiID)
     #print(str(wikiURIID[0][0]).split("/")[-1])
+    print(wikiURIID)
     wikiID=str(wikiURIID[0][0]).split("/")[-1]
     print(wikiID)
     result = execute_sparql_query(query)
@@ -251,7 +252,13 @@ def get_facility_info():
     print(query2)
     r = requests.get(url, params = {'format': 'json', 'query': query2})
     data = r.json()
-    image_url=data["results"]["bindings"][0]["image"]['value']
+    print(data)
+    
+    if data["results"]["bindings"]:
+        image_url=data["results"]["bindings"][0]["image"]['value']
+    else:
+        image_url=''
+    
 
     return render_template('facility_info.html', result=result[0], events=events,image_url=image_url)
 
