@@ -1,7 +1,7 @@
 if (document.readyState == "loading") {
     document.addEventListener("DOMContentLoaded", onDocumentReady);
 } else {
-     onDocumentReady();
+    onDocumentReady();
 }
 
 function onDocumentReady() {
@@ -18,34 +18,43 @@ function filterItemsByName() {
 }
 
 function toggleItemDetails() {
-    let allItemDetails = document.getElementsByClassName("item-details-outer");
-    for (let itemDetails of allItemDetails) {
-        if (itemDetails == this.nextElementSibling) {
-            /* for the details of the clicked item */
-            if (itemDetails.style.maxHeight && itemDetails.style.maxHeight != "0px") {
-                /* if item was expanded, collapse it (and rotate icon to original position) */
-                itemDetails.classList.remove("active");
-                this.firstElementChild.firstElementChild.firstElementChild.style.transform = "rotate(0deg)";
-                itemDetails.style.padding = null;
-                itemDetails.style.maxHeight = null;
-            }
-            else {
-                /* if item was collapsed, expand it (and rotate icon) */
-                this.firstElementChild.firstElementChild.firstElementChild.style.transform = "rotate(180deg)";
-                itemDetails.classList.add("active");
-                itemDetails.style.padding = "20px";
-                itemDetails.style.maxHeight = itemDetails.scrollHeight + "px";
-            }
-        }
-        else {
-           /* for the rest of the items, collapse/keep collapsed (and rotate icon if the item was active) */
-           if ((itemDetails.classList.contains("active"))) {
-               itemDetails.previousElementSibling.firstElementChild.firstElementChild.firstElementChild.style.transform = "rotate(0deg)";
-               itemDetails.classList.remove("active");
-           }
-            itemDetails.style.paddingTop = "0px";
-            itemDetails.style.paddingBottom = "0px";
-            itemDetails.style.maxHeight = "0px";
-        }
+    const itemContainer = this.parentElement;
+    const itemDetails = this.nextElementSibling;
+
+    itemContainer.classList.toggle("active");
+
+    const toggleIcon = itemContainer.querySelector('.toggle-icon img');
+
+    if (itemContainer.classList.contains("active")) {
+        // Mostrar detalles
+        itemDetails.style.padding = "20px";
+        itemDetails.style.maxHeight = itemDetails.scrollHeight + "px";
+        toggleIcon.classList.add("rotate"); // Agrega la clase de rotación al ícono
+    } else {
+        // Ocultar detalles
+        itemDetails.style.padding = null;
+        itemDetails.style.maxHeight = null;
+        toggleIcon.classList.remove("rotate"); // Elimina la clase de rotación del ícono
+    }
+}
+
+
+
+// Función para alternar la visibilidad de los filtros
+function toggleFilters() {
+    var filtersContainer = document.querySelector('.filters');
+    var filtersList = document.querySelector('.filters-list');
+
+    filtersContainer.classList.toggle('hidden');
+    filtersList.classList.toggle('hidden');
+
+    // Obtener el botón de alternar filtros
+    var toggleFiltersBtn = document.getElementById('toggle-filters-btn');
+
+    // Actualizar el texto del botón en base al estado de los filtros
+    if (filtersList.classList.contains('hidden')) {
+        toggleFiltersBtn.textContent = 'Mostrar Filtros';
+    } else {
+        toggleFiltersBtn.textContent = 'Ocultar Filtros';
     }
 }
