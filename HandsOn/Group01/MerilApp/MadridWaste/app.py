@@ -212,7 +212,7 @@ def run_wasteType_query(wikidata_id):
         return "An error occurred while fetching the description"
 
 
-def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
+def fetch_waste_type_distribution(waste_type="CDW", year="2021", month="1"):
     """
     Fetches distribution data of a specific waste type (default: CDW) across all districts for a specified year (default: 2021).
 
@@ -232,7 +232,7 @@ def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
         PREFIX wst: <http://www.disit.org/km4city/schema#>
         PREFIX time: <http://www.w3.org/2006/time#>
 
-        SELECT ?districtName ?m ?amount 
+        SELECT ?districtName ?amount 
         WHERE {{
             ?district a dbo:District ;
                       rdfs:label ?districtName ;
@@ -241,18 +241,16 @@ def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
                            nso:hasTotal ?total.
             ?total nso:value ?amount ;
                    time:year "{year}"^^xsd:gYear;
-                   time:month  ?m .
+                   time:month  "{month}"^^xsd:gMonth .
         }}
-        ORDER BY ?m
-    """
-    print(f"Fetching distribution data for waste type: {waste_type}, year: {year}")
+        """
+    print(f"Fetching distribution data for waste type: {waste_type}, year: {year}, month: {month}")
     results = g.query(query)
     distribution_data = []
     for row in results:
         distribution_data.append({
             "districtName": str(row[0]),
-            "month": str(row[1]),
-            "amount": float(row[2])
+            "amount": float(row[1])
         })
     print(f"Distribution Data: {distribution_data}")
     return distribution_data
@@ -290,29 +288,30 @@ def district():
                            selected_year=year)
 
 
-@app.route("/wasteType", methods=['GET', 'POST'])
+@app.route("/wasteType")
 def waste_type():
     wikidata_id = request.args.get("wikidata_id")
     waste_type_name = request.args.get("name", "Unknown Waste Type")
     formatted_waste_type_name = format_waste_type(waste_type_name)
     query_format_waste_type_name = reverse_format_waste_type(waste_type_name)
-
-    if request.method == 'POST':
-        # Handle POST request
-        year = request.form.get("year")
-    else:
-        # Handle GET request
-        year = request.args.get("year")
-
-    if year:
-        waste_type_result = run_wasteType_query(wikidata_id)
-        distribution_data = fetch_waste_type_distribution(query_format_waste_type_name, year)
-    else:
-        waste_type_result = None
-        distribution_data = None
-
+    waste_type_result = run_wasteType_query(wikidata_id)
+    distribution_data = fetch_waste_type_distribution(query_format_waste_type_name)
     return render_template("wasteType.html", wasteType=formatted_waste_type_name, result=waste_type_result,
                            distribution=distribution_data)
+
+
+@app.route("/updateWasteType")
+def update_wasteType():
+    wikidata_id = request.args.get("wikidata_id")
+    waste_type_name = request.args.get("name", "Unknown Waste Type")
+    year = request.args.get("year", "2021")
+    month = request.args.get("month", "1")
+    formatted_waste_type_name = format_waste_type(waste_type_name)
+    query_format_waste_type_name = reverse_format_waste_type(waste_type_name)
+    waste_type_result = run_wasteType_query(wikidata_id)
+    distribution_data = fetch_waste_type_distribution(query_format_waste_type_name, year, month)
+    return render_template("wasteType.html", wasteType=formatted_waste_type_name, result=waste_type_result,
+                           distribution=distribution_data, year=year, month=month)
 
 
 if __name__ == "__main__":

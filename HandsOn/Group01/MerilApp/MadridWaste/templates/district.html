@@ -77,7 +77,7 @@
                         {% for result in waste_results %}
                             <tr>
                                 <td>
-                                    <a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}"  class="waste-type-link" data-wikidata-id="{{ result.wikidataLink.split('/')[-1] }}">
+                                    <a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}&name={{result.wasteName|format_waste}}"  class="waste-type-link" data-wikidata-id="{{ result.wikidataLink.split('/')[-1] }}">
                                         {{ result.wasteName|format_waste }}
                                     </a>
                                 </td>
