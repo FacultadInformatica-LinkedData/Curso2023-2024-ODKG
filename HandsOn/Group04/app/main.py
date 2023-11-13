@@ -210,7 +210,7 @@ def get_facility_info():
     }}
     """
     result = execute_sparql_query(query)
-    print(result[0][9])
+
     query_wikiID = f"""
     SELECT distinct ?wikiID WHERE {{
         ?District  a territorio:Distrito ; 
@@ -218,47 +218,39 @@ def get_facility_info():
             owl:sameAs ?wikiID.
     }}
     """
+    wikiURIID=execute_sparql_query(query_wikiID)
+
     query = f"""
-     SELECT ?facilityName ?metro ?bus ?train ?url ?lat ?long ?street ?number ?districtName WHERE {{
-            <{facility}> a ns:Facility ;
-                ns:facilityName ?facilityName ;
-                ns:metro ?metro ;
-                ns:bus ?bus ;
-                ns:train ?train ;
-                ns:facilityUrl ?url ;
-                ns:ubicatedIn ?geometry ;
-                ns:hasAddress ?address .
-            ?geometry ns:hasLat ?lat ;
-                ns:hasLong ?long .
-            ?address ns:addressName ?street ;
-                ns:number ?number;
-                ns:belongsTo ?district .
-            ?district geonames:officialName ?districtName .
+    SELECT ?event ?name ?description ?eventPrice ?eventAccessibility ?facilityName ?eventPlace ?startDate ?endDate ?audienceType ?eventType WHERE {{
+        ?event a schema:Event ;
+            schema:name ?name ;
+            schema:description ?description ;
+            ns:price ?eventPrice ;
+            ns:accesibility ?eventAccessibility ;
+            ns:hasPlace ?eventPlace ;
+            schema:startDate ?startDate ;
+            schema:endDate ?endDate ;
+            ns:hasAudienceType ?audienceType ;
+            ns:hasEventType ?eventType ;
+            ns:hasPlace <{facility}> .
     }}
     """
-    wikiURIID=execute_sparql_query(query_wikiID)
-    #print(str(wikiURIID[0][0]).split("/")[-1])
-    print(wikiURIID)
-    wikiID=str(wikiURIID[0][0]).split("/")[-1]
-    print(wikiID)
-    result = execute_sparql_query(query)
     events = execute_sparql_query(query)
+
+    wikiID=str(wikiURIID[0][0]).split("/")[-1]
     url = 'https://query.wikidata.org/sparql'
     query2 = f"""
     SELECT distinct ?image WHERE {{
     wd:{wikiID} wdt:P18 ?image
     }}
     """
-    print(query2)
     r = requests.get(url, params = {'format': 'json', 'query': query2})
     data = r.json()
-    print(data)
     
     if data["results"]["bindings"]:
         image_url=data["results"]["bindings"][0]["image"]['value']
     else:
         image_url=''
-    
 
     return render_template('facility_info.html', result=result[0], events=events,image_url=image_url)
 
