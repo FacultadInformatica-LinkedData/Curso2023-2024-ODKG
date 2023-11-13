@@ -59,8 +59,8 @@
                         <div class="filter-name">Distrito</div>
                         <div class="select">
                             <select name="district-select">
-                                {% if districts %}
-                                {% for district in districts %}
+                                {% if district_names %}
+                                {% for district in district_names %}
                                 <option value="{{ district }}">{{ district }}</option>
                                 {% endfor %}
                                 {% else %}
@@ -73,9 +73,13 @@
                         <div class="filter-name">Transporte</div>
                         <div class="select">
                             <select name="transport-select">
-                                <option value="option1">Opción 1</option>
-                                <option value="option2" selected>Opción 2</option>
-                                <option value="option3">Opción 3</option>
+                                {% if metro_list %}
+                                {% for metro in metro_list %}
+                                <option value="{{ metro }}">{{ metro }}</option>
+                                {% endfor %}
+                                {% else %}
+                                <option value="default">Selecciona el metro</option>
+                                {% endif %}
                             </select>
                         </div>
                     </div>
@@ -83,9 +87,13 @@
                         <div class="filter-name">Nombre instalación</div>
                         <div class="select">
                             <select name="facility-select">
-                                <option value="option1">Opción 1</option>
-                                <option value="option2" selected>Opción 2</option>
-                                <option value="option3">Opción 3</option>
+                                {% if facility_names %}
+                                {% for facility in facility_names %}
+                                <option value="{{ facility }}">{{ facility }}</option>
+                                {% endfor %}
+                                {% else %}
+                                <option value="default">Selecciona el nombre de la instalación</option>
+                                {% endif %}
                             </select>
                         </div>
                     </div>
@@ -107,9 +115,13 @@
                         <div class="filter-name">Tipo evento</div>
                         <div class="select">
                             <select name="event-type-select">
-                                <option value="option1">Opción 1</option>
-                                <option value="option2" selected>Opción 2</option>
-                                <option value="option3">Opción 3</option>
+                                {% if event_types %}
+                                {% for type in event_types %}
+                                <option value="{{ type }}">{{ type }}</option>
+                                {% endfor %}
+                                {% else %}
+                                <option value="default">Selecciona la accesibilidad</option>
+                                {% endif %}
                             </select>
                         </div>
                     </div>
@@ -117,9 +129,13 @@
                         <div class="filter-name">Tipo audiencia</div>
                         <div class="select">
                             <select name="audience-type-select">
-                                <option value="option1">Opción 1</option>
-                                <option value="option2" selected>Opción 2</option>
-                                <option value="option3">Opción 3</option>
+                                {% if audience_types %}
+                                {% for type in audience_types %}
+                                <option value="{{ type }}">{{ type }}</option>
+                                {% endfor %}
+                                {% else %}
+                                <option value="default">Selecciona el tipo de audiencia</option>
+                                {% endif %}
                             </select>
                         </div>
                     </div>

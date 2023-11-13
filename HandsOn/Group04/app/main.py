@@ -8,20 +8,24 @@ graph = Graph()
 graph.parse("./output-datasets-with-links-updated.ttl", format="turtle")
 ns = Namespace("http://www.madculturalevents.es/group04/ontology/madculturalevents#")
 schema = Namespace("http://schema.org/")
+territorio = Namespace("http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#")
 geonames = Namespace("http://www.geonames.org/ontology#")
-esadm = Namespace("http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#")
-
 
 @app.route('/')
 def home():
     result = get_event_list()
     prices = get_prices()
     accessibilities = get_accessibilities()
-    districts = get_districts()
-    return render_template('index.html', result=result, prices=prices, accessibilities=accessibilities, districts=districts)
+    district_names = get_district_names()
+    metro_list = get_metro_list()
+    facility_names = get_facility_names()
+    audience_types = get_audience_types()
+    event_types = get_event_types()
+    return render_template('index.html', result=result, prices=prices, accessibilities=accessibilities,
+                           district_names=district_names, metro_list = metro_list, facility_names=facility_names, audience_types=audience_types, event_types=event_types)
 
 def execute_sparql_query(query):
-    results = graph.query(query, initNs={"ns": ns, "schema": schema, "geonames": geonames, "esadm": esadm})
+    results = graph.query(query, initNs={"ns": ns, "schema": schema, "geonames": geonames, "territorio": territorio})
 
     result_values = []
     for row in results:
@@ -64,25 +68,83 @@ def get_prices():
     # Almacena los resultados en una lista
     prices_list = [row.price for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
 
-    # Visualiza los resultados
-    # print("Precios:", prices_list)
     return prices_list
 
-
-def get_districts():
+def get_audience_types():
     query = '''
-    SELECT DISTINCT ?district
+    SELECT DISTINCT ?audienceType
     WHERE {
-        ?address a ns:Address ;
-               ns:belongsTo ?district ;
-      }
+        ?event a schema:Event ;
+            ns:hasAudienceType ?audienceType .
+    }
     '''
     # Almacena los resultados en una lista
-    districts_list = [row.district for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
+    audience_types = [row.audienceType for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
 
-    # Visualiza los resultados
-    # print("Districts:", districts_list)
-    return districts_list
+    # Combina todas las cadenas en una sola
+    combined_audience_type = ",".join(audience_types)
+
+    # Divide la cadena combinada en elementos únicos
+    unique_audience_type = set(combined_audience_type.split(','))
+
+    return list(unique_audience_type)
+
+
+def get_event_types():
+    query = '''
+    SELECT DISTINCT ?eventType
+    WHERE {
+        ?event a schema:Event ;
+            ns:hasEventType ?eventType .
+    }
+    '''
+    # Almacena los resultados en una lista
+    event_types = [row.eventType for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
+
+    return event_types
+
+
+def get_district_names():
+   query = '''
+   SELECT DISTINCT ?districtName
+   WHERE {
+       ?district a territorio:Distrito ;
+              geonames:officialName ?districtName .
+   }
+   '''
+
+   # Almacena los resultados en una lista
+   district_names = [row.districtName for row in graph.query(query, initNs={"ns": ns, "schema": schema, "territorio": territorio, "geonames": geonames})]
+
+   return district_names
+
+def get_metro_list():
+   query = '''
+   SELECT DISTINCT ?metro
+   WHERE {
+       ?facility a ns:Facility ;
+              ns:metro ?metro .
+   }
+   '''
+
+   # Almacena los resultados en una lista
+   metro_list = [row.metro for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
+   
+   return metro_list
+
+def get_facility_names():
+   query = '''
+   SELECT DISTINCT ?facilityName
+   WHERE {
+       ?facility a ns:Facility ;
+              ns:facilityName ?facilityName .
+   }
+   '''
+
+   # Almacena los resultados en una lista
+   facility_names = [row.facilityName for row in graph.query(query, initNs={"ns": ns, "schema": schema})]
+   
+   return facility_names
 
 def get_accessibilities():
     query = '''
@@ -101,8 +163,6 @@ def get_accessibilities():
     # Divide la cadena combinada en elementos únicos
     unique_accessibility = set(combined_accessibility.split(','))
 
-    # Visualiza los resultados
-    # print("Accessibility:", list(unique_accessibility))
     return list(unique_accessibility)
 
 @app.route('/search')
@@ -111,8 +171,13 @@ def search():
     result_list = get_event_list(search_value)
     prices = get_prices()
     accessibilities = get_accessibilities()
-    districts = get_districts()
-    return render_template('index.html', result=result_list, prices=prices, accessibilities=accessibilities, districts=districts)
+    district_names = get_district_names()
+    metro_list = get_metro_list()
+    facility_names = get_facility_names()
+    audience_types = get_audience_types()
+    event_types = get_event_types()
+    return render_template('index.html', result=result_list, prices=prices, accessibilities=accessibilities,
+                           district_names=district_names, metro_list = metro_list, facility_names=facility_names, audience_types=audience_types, event_types=event_types)
 
 @app.route('/get_facility_info')
 def get_facility_info():
