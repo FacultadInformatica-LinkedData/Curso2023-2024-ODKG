@@ -60,7 +60,7 @@ nso:zoneID a owl:DatatypeProperty ;
 
 dbo:districtID a owl:DatatypeProperty ;
     rdfs:label "districtID" ;
-    rdfs:domain dbp:District ;
+    rdfs:domain dbo:District ;
     rdfs:range xsd:integer .
 
 #Class
