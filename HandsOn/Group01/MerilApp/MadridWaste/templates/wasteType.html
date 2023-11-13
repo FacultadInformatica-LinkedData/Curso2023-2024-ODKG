@@ -12,20 +12,38 @@
     {% endif %}
 
     <!-- Year Selector -->
-    <div class="year-selector-container">
-        <label for="yearSelector">Select Year:</label>
-        <select id="yearSelector">
-            <option value="2021">2021</option>
-            <option value="2022">2022</option>
-            <option value="2023">2023</option>
-        </select>
-    </div>
+   <form id="yearForm" action="" method="post">
+    <label for="yearSelector">Select Year:</label>
+    <select id="yearSelector" name="year">
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+    </select>
+    <button type="submit">Fetch data</button>
+</form>
 
-
-
+    <!-- Render chart or data table if distribution data is available -->
+    {% if distribution %}
+        <div id="chartContainer">
+            <canvas id="wasteChart"></canvas>
+        </div>
+    {% endif %}
+    <script type="text/javascript">
+        var distributionData = {{ distribution | tojson | safe }};
+    </script>
 {% endblock %}
 
 {% block scripts %}
+    <script>
+    document.getElementById('yearForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const selectedYear = document.getElementById('yearSelector').value;
+        const wikidataId = '{{ request.args.get("wikidata_id") }}';
+        const wasteTypeName = '{{ request.args.get("name") }}';
+        const newUrl = `/wasteType?wikidata_id=${wikidataId}&name=${wasteTypeName}&year=${selectedYear}`;
+        window.location.href = newUrl;
+    });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="/static/js/wasteTypeDetails.js"></script>
