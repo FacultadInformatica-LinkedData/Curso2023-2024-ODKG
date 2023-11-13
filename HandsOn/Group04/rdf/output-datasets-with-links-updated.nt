@@ -11186,6 +11186,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Fuente del Rey House-Museum".
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "161.".
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/6017808> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/entity/Q28808141".
@@ -11212,6 +11213,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Museo Africano Misioneros Combonianos".
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "11, 70, 114, 122, 115, 200.".
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/2067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/2067>.
@@ -11361,6 +11363,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Postal and Telegraph museum".
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c82cef4d7f71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Sin buses".
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/2085> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/entity/Q64071045".
@@ -11396,6 +11399,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Museo de Aeronautica y Astronautica".
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90aaef4d7f71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Sin buses".
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/2068> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/entity/Q11057120".
@@ -11482,6 +11486,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Museo de Mineralogia".
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=255aef4d7f71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Sin buses".
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Cantoblanco (lineas C4, C4a y Cb).".
 <http://www.madculturalevents.es/group04/resources/facility/2095> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/2095>.
@@ -11594,6 +11599,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Royal Palace of El Pardo".
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9f9def4d7f71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "601 (Madrid - Colonia Mingorrubio)".
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/2061> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/entity/Q1368571".
@@ -11708,6 +11714,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Museum Zapadores, Ciudad del Arte".
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c30ab3683ea58610VgnVCM2000001f4a900aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Sin buses".
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/10873287> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/entity/Q121596856".
@@ -11756,6 +11763,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Agustin Diaz (Moncloa - Aravaca)".
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "41, 75.".
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/117288> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/117288>.
@@ -11763,6 +11771,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Alfredo Kraus (Fuencarral - El Pardo)".
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "49 , 64".
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/118067> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/118067>.
@@ -11829,6 +11838,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)".
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "77".
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/4551096> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/4551096>.
@@ -11860,6 +11870,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural El Plantio (Moncloa - Aravaca)".
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=45ef9eebdd647810VgnVCM2000001f4a900aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "163".
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/11979985> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/11979985>.
@@ -11867,6 +11878,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural El Pozo del tio Raimundo (Puente de Vallecas)".
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "102, 24    ".
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "El Pozo (linea C2).".
 <http://www.madculturalevents.es/group04/resources/facility/1939> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1939>.
@@ -11882,6 +11894,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Federico Chueca (Hortaleza)".
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90573d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "72, 73, 9".
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1931> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1931>.
@@ -11897,6 +11910,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Fernando de los Rios (Latina)".
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Lineas: 25, 31 y 138.".
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1954> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1954>.
@@ -11920,6 +11934,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Gloria Fuertes (Barajas)".
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "105, 112, 115, 151, 166".
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/70243> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/70243>.
@@ -11943,6 +11958,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Jose Luis Lopez Vazquez (San Blas - Canillejas)".
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "167, 77".
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/6017747> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/6017747>.
@@ -11958,6 +11974,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Juan Genoves (Moncloa - Aravaca)".
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "160, 163, 161.".
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1919> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1919>.
@@ -12006,6 +12023,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Lope de Vega (Puente de Vallecas)".
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "102, 24.  ".
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Asamblea de Madrid-Entrevias (linea C2).".
 <http://www.madculturalevents.es/group04/resources/facility/1938> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1938>.
@@ -12013,6 +12031,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Los Rosales (Villaverde)".
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "85".
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1973> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1973>.
@@ -12028,6 +12047,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Meseta de Orcasitas (Usera)".
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "78, 81, 116  ".
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Orcasitas (C5)".
 <http://www.madculturalevents.es/group04/resources/facility/1933> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1933>.
@@ -12035,6 +12055,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Miguel Hernandez (Latina)".
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Lineas: 34, 39, 117 y 139. ".
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Linea C 5. Estacion: Las aguilas.".
 <http://www.madculturalevents.es/group04/resources/facility/1955> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1955>.
@@ -12058,6 +12079,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Orcasur (Usera)".
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "78, 116  ".
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Orcasitas (C5)".
 <http://www.madculturalevents.es/group04/resources/facility/1934> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1934>.
@@ -12082,6 +12104,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Quinta del Berro - Rafael Altamira (Salamanca)".
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "15 , 28 , 71".
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/114978> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/114978>.
@@ -12105,6 +12128,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Sanchinarro (Hortaleza)".
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=12eb70618510f210VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "172, 172SF".
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/6018014> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/6018014>.
@@ -12144,6 +12168,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Cultural Zazuar (Villa de Vallecas)".
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "58, 63, 145".
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1980> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1980>.
@@ -12191,6 +12216,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Juvenil El Aleph (Villa de Vallecas)".
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=84869475d381c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "58 , 63 , 145 ".
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Santa Eugenia".
 <http://www.madculturalevents.es/group04/resources/facility/146682> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/146682>.
@@ -12198,6 +12224,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Juvenil El Pardo".
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=617ef50ad2a30110VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "desde el intercambiador de Moncloa el 601 (isla 3-darsena 30) y el 602 que sale del hospital Universitario la Paz.".
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/190703> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/190703>.
@@ -12254,6 +12281,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Social Polivalente de Vicalvaro".
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=59c6ca957d152110VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "100, 130".
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/4568753> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/4568753>.
@@ -12277,6 +12305,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Alfonso XII (Fuencarral - El Pardo)".
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Sin buses".
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/72862> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/72862>.
@@ -12300,6 +12329,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Blasco Ibanez (Carabanchel)".
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "119".
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1927> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1927>.
@@ -12315,6 +12345,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Ciudad Lineal".
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "110, 113, 210, 15, 28".
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1967> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1967>.
@@ -12394,6 +12425,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Latina".
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "Linea 155. ".
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Linea C 5. Estacion: Maestra Justa Freire-Polideportivo Aluche (antigua estacion de Fanjul).".
 <http://www.madculturalevents.es/group04/resources/facility/102131> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/102131>.
@@ -12417,6 +12449,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Marconi (Villaverde)".
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "79  ".
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "San Cristobal Industrial".
 <http://www.madculturalevents.es/group04/resources/facility/170066> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/170066>.
@@ -12424,6 +12457,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Miguel de Cervantes (San Blas - Canillejas)".
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "48, 140, 28, 167".
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1970> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1970>.
@@ -12511,6 +12545,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural Valle Inclan (Fuencarral - El Pardo)".
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "67 , 132".
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1923> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1923>.
@@ -12534,6 +12569,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Centro Sociocultural agata (Villaverde)".
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "22 , 79 , 86 , 130 , 131".
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/1996> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/1996>.
@@ -12590,6 +12626,7 @@
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility>.
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName> "Espacio Polivalente Embajadores".
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0103e641a099610VgnVCM1000001d4a900aRCRD".
+<http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#metro> "Sin metro".
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#bus> "25 , 31 , 33 , 36 , 39 , 41 , 50 , 65 , 138 , C".
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#train> "Sin Renfe".
 <http://www.madculturalevents.es/group04/resources/facility/10915700> <http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn> <http://www.madculturalevents.es/group04/resources/geometry/10915700>.

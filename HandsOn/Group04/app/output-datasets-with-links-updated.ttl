@@ -13319,6 +13319,7 @@
   a ns0:Facility ;
   ns0:facilityName "Fuente del Rey House-Museum" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "161." ;
   ns0:train "Sin Renfe" ;
   owl:sameAs "https://www.wikidata.org/entity/Q28808141" ;
@@ -13351,6 +13352,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Africano Misioneros Combonianos" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "11, 70, 114, 122, 115, 200." ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/2067> ;
@@ -13534,6 +13536,7 @@
   a ns0:Facility ;
   ns0:facilityName "Postal and Telegraph museum" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c82cef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Sin buses" ;
   ns0:train "Sin Renfe" ;
   owl:sameAs "https://www.wikidata.org/entity/Q64071045" ;
@@ -13577,6 +13580,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de Aeronautica y Astronautica" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90aaef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Sin buses" ;
   ns0:train "Sin Renfe" ;
   owl:sameAs "https://www.wikidata.org/entity/Q11057120" ;
@@ -13683,6 +13687,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de Mineralogia" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=255aef4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Sin buses" ;
   ns0:train "Cantoblanco (lineas C4, C4a y Cb)." ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/2095> ;
@@ -13821,6 +13826,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Palace of El Pardo" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9f9def4d7f71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "601 (Madrid - Colonia Mingorrubio)" ;
   ns0:train "Sin Renfe" ;
   owl:sameAs "https://www.wikidata.org/entity/Q1368571" ;
@@ -13961,6 +13967,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museum Zapadores, Ciudad del Arte" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c30ab3683ea58610VgnVCM2000001f4a900aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Sin buses" ;
   ns0:train "Sin Renfe" ;
   owl:sameAs "https://www.wikidata.org/entity/Q121596856" ;
@@ -14021,6 +14028,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Agustin Diaz (Moncloa - Aravaca)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "41, 75." ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/117288> ;
@@ -14030,6 +14038,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Alfredo Kraus (Fuencarral - El Pardo)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "49 , 64" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/118067> ;
@@ -14112,6 +14121,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "77" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/4551096> ;
@@ -14151,6 +14161,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural El Plantio (Moncloa - Aravaca)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=45ef9eebdd647810VgnVCM2000001f4a900aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "163" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/11979985> ;
@@ -14160,6 +14171,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural El Pozo del tio Raimundo (Puente de Vallecas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "102, 24    " ;
   ns0:train "El Pozo (linea C2)." ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1939> ;
@@ -14179,6 +14191,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Federico Chueca (Hortaleza)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90573d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "72, 73, 9" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1931> ;
@@ -14198,6 +14211,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Fernando de los Rios (Latina)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Lineas: 25, 31 y 138." ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1954> ;
@@ -14227,6 +14241,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Gloria Fuertes (Barajas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "105, 112, 115, 151, 166" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/70243> ;
@@ -14256,6 +14271,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Jose Luis Lopez Vazquez (San Blas - Canillejas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "167, 77" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/6017747> ;
@@ -14275,6 +14291,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Juan Genoves (Moncloa - Aravaca)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "160, 163, 161." ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1919> ;
@@ -14335,6 +14352,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Lope de Vega (Puente de Vallecas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "102, 24.  " ;
   ns0:train "Asamblea de Madrid-Entrevias (linea C2)." ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1938> ;
@@ -14344,6 +14362,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Los Rosales (Villaverde)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "85" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1973> ;
@@ -14363,6 +14382,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Meseta de Orcasitas (Usera)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "78, 81, 116  " ;
   ns0:train "Orcasitas (C5)" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1933> ;
@@ -14372,6 +14392,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Miguel Hernandez (Latina)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Lineas: 34, 39, 117 y 139. " ;
   ns0:train "Linea C 5. Estacion: Las aguilas." ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1955> ;
@@ -14401,6 +14422,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Orcasur (Usera)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "78, 116  " ;
   ns0:train "Orcasitas (C5)" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1934> ;
@@ -14431,6 +14453,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Quinta del Berro - Rafael Altamira (Salamanca)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "15 , 28 , 71" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/114978> ;
@@ -14460,6 +14483,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Sanchinarro (Hortaleza)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=12eb70618510f210VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "172, 172SF" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/6018014> ;
@@ -14509,6 +14533,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Zazuar (Villa de Vallecas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "58, 63, 145" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1980> ;
@@ -14568,6 +14593,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Juvenil El Aleph (Villa de Vallecas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=84869475d381c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "58 , 63 , 145 " ;
   ns0:train "Santa Eugenia" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/146682> ;
@@ -14577,6 +14603,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Juvenil El Pardo" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=617ef50ad2a30110VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "desde el intercambiador de Moncloa el 601 (isla 3-darsena 30) y el 602 que sale del hospital Universitario la Paz." ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/190703> ;
@@ -14647,6 +14674,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Social Polivalente de Vicalvaro" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=59c6ca957d152110VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "100, 130" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/4568753> ;
@@ -14676,6 +14704,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Alfonso XII (Fuencarral - El Pardo)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Sin buses" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/72862> ;
@@ -14705,6 +14734,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Blasco Ibanez (Carabanchel)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "119" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1927> ;
@@ -14724,6 +14754,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Ciudad Lineal" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "110, 113, 210, 15, 28" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1967> ;
@@ -14823,6 +14854,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Latina" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "Linea 155. " ;
   ns0:train "Linea C 5. Estacion: Maestra Justa Freire-Polideportivo Aluche (antigua estacion de Fanjul)." ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/102131> ;
@@ -14852,6 +14884,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Marconi (Villaverde)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "79  " ;
   ns0:train "San Cristobal Industrial" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/170066> ;
@@ -14861,6 +14894,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Miguel de Cervantes (San Blas - Canillejas)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "48, 140, 28, 167" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1970> ;
@@ -14970,6 +15004,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Valle Inclan (Fuencarral - El Pardo)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "67 , 132" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1923> ;
@@ -14999,6 +15034,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural agata (Villaverde)" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "22 , 79 , 86 , 130 , 131" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/1996> ;
@@ -15069,6 +15105,7 @@
   a ns0:Facility ;
   ns0:facilityName "Espacio Polivalente Embajadores" ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0103e641a099610VgnVCM1000001d4a900aRCRD" ;
+  ns0:metro "Sin metro" ;
   ns0:bus "25 , 31 , 33 , 36 , 39 , 41 , 50 , 65 , 138 , C" ;
   ns0:train "Sin Renfe" ;
   ns0:ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/10915700> ;
