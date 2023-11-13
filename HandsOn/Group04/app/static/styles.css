@@ -4,6 +4,8 @@
   --background-color: #f0f8ff;
   /* Nuevo color de fondo para la sección de actions */
   --header-background: #3498db;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
@@ -26,6 +28,18 @@ header {
   padding: 10px;
   font-size: 28px;
   background-color: var(--header-background);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+h3 {
+    display: flex;
+    margin-left: 1%;
 }
 
 .header-text {
