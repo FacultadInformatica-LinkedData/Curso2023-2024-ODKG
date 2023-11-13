@@ -7,16 +7,16 @@
 @prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
 @base <http://healthcentersmadrid.es/locations/ontology/ns#> .
 
-############################################# Health Center #############################################################33
+############################################# Health Centre #############################################################33
 
-<#HealthCenter>
+<#HealthCentre>
   rml:logicalSource [
     rml:source "centros_atencion_medica-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
-    rr:template "https://sample.com/resource/HealthCenter{PK}";
-    rr:termType rr:IRI; rr:class vocab:HealthCenter
+    rr:template "https://sample.com/resource/HealthCentre{PK}";
+    rr:termType rr:IRI; rr:class vocab:HealthCentre
   ];
 
   rr:predicateObjectMap [
@@ -28,7 +28,7 @@
       ]
   ];
     rr:predicateObjectMap [
-    rr:predicate vocab:hasType;
+    rr:predicate vocab:typeCenter;
     rr:objectMap [
       rml:reference "TIPO";
       rr:datatype xsd:string
@@ -36,7 +36,7 @@
   ];
 
     rr:predicateObjectMap [
-    rr:predicate vocab:Information;
+    rr:predicate vocab:hasOtherInformation;
     rr:objectMap [
       rr:template "https://sample.com/resource/Information{PK}";
       ]
@@ -44,7 +44,7 @@
 
 
   rr:predicateObjectMap [
-    rr:predicate vocab:Location;
+    rr:predicate vocab:isLocated;
     rr:objectMap [
       rr:template "https://sample.com/resource/Location{PK}";
     ]
@@ -69,14 +69,14 @@
         rr:predicate vocab:longitude;
         rr:objectMap [
         rml:reference "LONGITUD";
-        rr:datatype xsd:real
+        rr:datatype xsd:float
         ]
     ];
     rr:predicateObjectMap [
         rr:predicate vocab:latitude;
         rr:objectMap [
         rml:reference "LATITUD";
-        rr:datatype xsd:real
+        rr:datatype xsd:float
         ]
     ];
     rr:predicateObjectMap [
@@ -95,7 +95,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate vocab:Address;
+        rr:predicate vocab:hasAddress;
         rr:objectMap [
         rr:template "https://sample.com/resource/Address{PK}";
         ]
@@ -135,7 +135,7 @@
   ];
 
     rr:predicateObjectMap [
-        rr:predicate vocab:Contact;
+        rr:predicate vocab:hasContact;
         rr:objectMap [
         rr:template "https://sample.com/resource/Contact{PK}";
         ]
