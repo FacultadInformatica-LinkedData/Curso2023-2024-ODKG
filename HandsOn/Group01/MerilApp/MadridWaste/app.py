@@ -3,9 +3,6 @@ import re
 import rdflib, requests
 from flask import Flask, render_template, request, jsonify
 
-
-
-
 #######################################################################################################################################################
 #######################################################################################################################################################
 ########################################################## Environment ###############################################33###########################
@@ -17,6 +14,7 @@ app = Flask(__name__)
 # Local database
 g = rdflib.Graph()
 g.parse("data/rdf-with-links.ttl", format="ttl")
+
 
 #######################################################################################################################################################
 #######################################################################################################################################################
@@ -62,6 +60,7 @@ def run_sparql_query(district_name, year="2021"):
         })
     return output
 
+
 def format_waste_type(waste_type):
     waste_type_map = {
         "CDW": "Construction and Demolition Waste",
@@ -77,7 +76,9 @@ def format_waste_type(waste_type):
     }
     return waste_type_map.get(waste_type, "Unknown Waste Type")
 
+
 app.jinja_env.filters['format_waste'] = format_waste_type
+
 
 def reverse_format_waste_type(formatted_waste_type):
     reverse_waste_type_map = {
@@ -93,6 +94,8 @@ def reverse_format_waste_type(formatted_waste_type):
         "Horse Bed": "horseBed"
     }
     return reverse_waste_type_map.get(formatted_waste_type, formatted_waste_type)
+
+
 def fetch_yearly_district_waste(year="2021"):
     """
     Fetches the total amount of waste for each district for a specified year.
@@ -137,7 +140,6 @@ def fetch_yearly_district_waste(year="2021"):
         }
         output.append(output_dict)
     return output
-
 
 
 def run_district_details_query(district_id):
@@ -185,8 +187,6 @@ def run_district_details_query(district_id):
         return []
 
 
-
-
 def run_wasteType_query(wikidata_id):
     endpoint_url = "https://query.wikidata.org/sparql"
     query = f"""
@@ -210,6 +210,7 @@ def run_wasteType_query(wikidata_id):
     except Exception as e:
         print(f"An error occurred: {e}")
         return "An error occurred while fetching the description"
+
 
 def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
     """
@@ -263,13 +264,19 @@ def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
 #######################################################################################################################################################
 
 
-
-
 @app.route('/')
 def index():
     initial_year = "2021"  # You can change this to the current year or any default year
     waste_data = fetch_yearly_district_waste(initial_year)
     return render_template('index.html', waste_data=waste_data)
+
+
+@app.route('/updateIndexYear')
+def update_year():
+    selected_year = request.args.get('year', '2021')
+    print(selected_year)
+    waste_data = fetch_yearly_district_waste(selected_year)
+    return render_template('index.html', waste_data=waste_data, selected_year=selected_year)
 
 
 @app.route("/district")
@@ -279,7 +286,8 @@ def district():
     district_id = request.args.get("wikidataID")
     waste_results = run_sparql_query(district_name, year)
     district_details = run_district_details_query(district_id)
-    return render_template("district.html", waste_results=waste_results, district_details=district_details, selected_year=year)
+    return render_template("district.html", waste_results=waste_results, district_details=district_details,
+                           selected_year=year)
 
 
 @app.route("/wasteType", methods=['GET', 'POST'])
@@ -303,7 +311,9 @@ def waste_type():
         waste_type_result = None
         distribution_data = None
 
-    return render_template("wasteType.html", wasteType=formatted_waste_type_name, result=waste_type_result, distribution=distribution_data)
+    return render_template("wasteType.html", wasteType=formatted_waste_type_name, result=waste_type_result,
+                           distribution=distribution_data)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
