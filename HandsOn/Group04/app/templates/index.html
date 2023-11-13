@@ -130,21 +130,24 @@
         <div class="item-outer">
             <div class="item-inner">
                 <div>
-                    <img
-                    src="./static/Down.svg"
-                    loading="“lazy”"
-                    decoding="“async”"
-                    alt="Down"
-                    />
+                    <img src="./static/Down.svg" loading="lazy" decoding="async" alt="Down" />
                 </div>
-                <div>{{ event[0] }}</div>
+                <div>
+                    <div name="event_name">{{ event[1] }}</div>
+                </div>
             </div>
         </div>
         <div class="item-details-outer">
             <div class="item-details-inner">
-                <div>Precio: {{ event[1] }}</div>
-                <div>Accesibilidad: {{ event[2] }}</div>
-                <div>Lugar: {{ event[3] }}</div>
+                <div>Descripción: {{ event[2] }}</div>
+                <div>Precio: {{ event[3] }}</div>
+                <div>Accesibilidad: {{ event[4] }}</div>
+                <div>Lugar: <a href="/get_facility_info?facility_id={{ event[6].split('/')[-1] }}">{{ event[5] }}</a></div>
+                <div>Fecha Inicio: {{ event[7] }}</div>
+                <div>Fecha Fin: {{ event[8] }}</div>
+                <div>Tipo audiencia: {{ event[9] }}</div>
+                <div>Tipo evento: {{ event[10] }}</div>
+
             </div>
         </div>
         {% endfor %} {% endif %}

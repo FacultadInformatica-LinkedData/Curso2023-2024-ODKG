@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <title>MadCulturalEvents</title>
+</head>
+<body>
+    <header>MadCulturalEvents</header>
+    
+    <div class="container">
+        <h1>{{ result[0] }}</h1>
+        <div> Metro: {{ result[1] }}</div>
+        <div>Bus: {{ result[2] }}</div>
+        <div>Renfe: {{ result[3] }}</div>
+        <div><a href="{{ result[4] }}">Página web del sitio</a></div>
+        <div>Lat : {{ result[5] }}</div>
+        <div>Long: {{ result[6] }}</div>
+        <div>Dirección: {{ result[7] }}, {{ result[8] }}</div>
+        <div>{{ result[9] }}</div>
+        <br>
+        <h3>Otros eventos del sitio: </h3>
+        {% if events %} {% for event in events %}
+        <div class="item-outer">
+            <div class="item-inner">
+                <div>
+                    <img src="./static/Down.svg" loading="lazy" decoding="async" alt="Down" />
+                </div>
+                <div>
+                    <div name="event_name">{{ event[1] }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="item-details-outer">
+            <div class="item-details-inner">
+                <div>Descripción: {{ event[2] }}</div>
+                <div>Precio: {{ event[3] }}</div>
+                <div>Accesibilidad: {{ event[4] }}</div>
+                <div>Fecha Inicio: {{ event[7] }}</div>
+                <div>Fecha Fin: {{ event[8] }}</div>
+                <div>Tipo audiencia: {{ event[9] }}</div>
+                <div>Tipo evento: {{ event[10] }}</div>
+            </div>
+        </div>
+        {% endfor %} {% endif %}
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./static/index.js"></script>
+    <script>
+        // Agregar la inicialización de datepicker en tu script
+        $(function () {
+            $("#start-date").datepicker();
+            $("#end-date").datepicker();
+        });
+    </script>
+</body>
+</html>
