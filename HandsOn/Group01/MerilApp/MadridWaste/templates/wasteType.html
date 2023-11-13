@@ -114,6 +114,25 @@
                     }
                 }
             });
+
+            document.getElementById('monthSelector').addEventListener('change', function () {
+                var selectedMonth = this.value;
+                var yearSelector = document.getElementById('yearSelector');
+
+                // Disable year 2022 if a month greater than 6 is selected
+                if (selectedMonth > 6) {
+                    for (var i = 0; i < yearSelector.options.length; i++) {
+                        if (yearSelector.options[i].value === '2023') {
+                            yearSelector.options[i].disabled = true;
+                        }
+                    }
+                } else {
+                    // Enable all options if a month less than or equal to 6 is selected
+                    for (var i = 0; i < yearSelector.options.length; i++) {
+                        yearSelector.options[i].disabled = false;
+                    }
+                }
+            });
         </script>
     {% endif %}
 {% endblock %}
