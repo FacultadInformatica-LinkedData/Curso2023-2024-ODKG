@@ -1,18 +1,40 @@
-document.getElementById('yearSelector').addEventListener('change', function() {
+function displayCoordinates() {
+    var coordinateElements = document.getElementsByClassName("formatted-coordinates");
+
+    for (var i = 0; i < coordinateElements.length; i++) {
+        var coordinateString = coordinateElements[i].getAttribute("data-coordinates");
+        var coordinates = coordinateString.match(/-?\d+\.\d+/g);
+
+        if (coordinates && coordinates.length === 2) {
+            var latitude = parseFloat(coordinates[1]);
+            var longitude = parseFloat(coordinates[0]);
+
+            // Format and display coordinates
+            var formattedCoordinates = "Latitude: " + latitude.toFixed(6) + ", Longitude: " + longitude.toFixed(6);
+            coordinateElements[i].innerText = formattedCoordinates;
+        } else {
+            coordinateElements[i].innerText = "Invalid coordinate format";
+        }
+    }
+}
+
+displayCoordinates();
+
+document.getElementById('yearSelector').addEventListener('change', function () {
     var selectedYear = this.value;
     var currentUrl = new URL(window.location.href);
     currentUrl.searchParams.set('year', selectedYear);
     window.location.href = currentUrl.toString();
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('#wasteDataTable').DataTable({
         "order": [[2, "asc"]],
         "pagingType": "full_numbers"
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     if (window.wasteResults) {
         initWasteChart(window.wasteResults);
     } else {
@@ -37,7 +59,7 @@ function reverseFormatWasteType(formattedWasteType) {
 }
 
 document.querySelectorAll('.waste-type-link').forEach(link => {
-    link.addEventListener('click', function(event) {
+    link.addEventListener('click', function (event) {
         event.preventDefault();
         const originalWasteType = reverseFormatWasteType(this.textContent.trim());
         const wikidataId = this.dataset.wikidataId;
