@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import requests
 from rdflib import Graph, Namespace
 
 app = Flask(__name__)
@@ -10,6 +11,11 @@ ns = Namespace("http://www.madculturalevents.es/group04/ontology/madculturaleven
 schema = Namespace("http://schema.org/")
 territorio = Namespace("http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#")
 geonames = Namespace("http://www.geonames.org/ontology#")
+wdt = Namespace("http://www.wikidata.org/prop/direct#")
+wd=Namespace("http://www.wikidata.org/entity#")
+xsd=Namespace("http://www.w3.org/2001/XMLSchema#")
+
+
 
 @app.route('/')
 def home():
@@ -25,7 +31,7 @@ def home():
                            district_names=district_names, metro_list = metro_list, facility_names=facility_names, audience_types=audience_types, event_types=event_types)
 
 def execute_sparql_query(query):
-    results = graph.query(query, initNs={"ns": ns, "schema": schema, "geonames": geonames, "territorio": territorio})
+    results = graph.query(query, initNs={"ns": ns, "schema": schema, "geonames": geonames, "territorio": territorio,"wdt":wdt,"wd":wd,"xsd":xsd})
 
     result_values = []
     for row in results:
@@ -54,6 +60,7 @@ def get_event_list(search_value=""):
         FILTER (CONTAINS(?name, "{search_value}"))
     }}
     """
+    
     result = execute_sparql_query(query)
     return result
 
@@ -204,6 +211,15 @@ def get_facility_info():
     """
     result = execute_sparql_query(query)
 
+    query_wikiID = f"""
+    SELECT distinct ?wikiID WHERE {{
+        ?District  a territorio:Distrito ; 
+            geonames:officialName "{result[0][9]}";
+            owl:sameAs ?wikiID.
+    }}
+    """
+    wikiURIID=execute_sparql_query(query_wikiID)
+
     query = f"""
     SELECT ?event ?name ?description ?eventPrice ?eventAccessibility ?facilityName ?eventPlace ?startDate ?endDate ?audienceType ?eventType WHERE {{
         ?event a schema:Event ;
@@ -221,7 +237,22 @@ def get_facility_info():
     """
     events = execute_sparql_query(query)
 
-    return render_template('facility_info.html', result=result[0], events=events)
+    wikiID=str(wikiURIID[0][0]).split("/")[-1]
+    url = 'https://query.wikidata.org/sparql'
+    query2 = f"""
+    SELECT distinct ?image WHERE {{
+    wd:{wikiID} wdt:P18 ?image
+    }}
+    """
+    r = requests.get(url, params = {'format': 'json', 'query': query2})
+    data = r.json()
+    
+    if data["results"]["bindings"]:
+        image_url=data["results"]["bindings"][0]["image"]['value']
+    else:
+        image_url=''
+
+    return render_template('facility_info.html', result=result[0], events=events,image_url=image_url)
 
 
 if __name__ == '__main__':
