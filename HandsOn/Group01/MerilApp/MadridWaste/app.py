@@ -211,6 +211,50 @@ def run_wasteType_query(wikidata_id):
         print(f"An error occurred: {e}")
         return "An error occurred while fetching the description"
 
+def fetch_waste_type_distribution(waste_type="CDW", year="2021"):
+    """
+    Fetches distribution data of a specific waste type (default: CDW) across all districts for a specified year (default: 2021).
+
+    :param waste_type: The waste type to fetch data for, default is 'CDW'.
+    :param year: The year for which the data is to be fetched, default is '2021'.
+    """
+    g = rdflib.Graph()
+    g.parse("data/rdf-with-links.ttl", format="ttl")
+
+    query = f"""
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        PREFIX nso: <http://madridwastemanagement.org/group01/ontology/>
+        PREFIX wst: <http://www.disit.org/km4city/schema#>
+        PREFIX time: <http://www.w3.org/2006/time#>
+
+        SELECT ?districtName ?m ?amount 
+        WHERE {{
+            ?district a dbo:District ;
+                      rdfs:label ?districtName ;
+                      wst:hasResidue ?wasteinstance.
+            ?wasteinstance rdfs:label "{waste_type}" ;
+                           nso:hasTotal ?total.
+            ?total nso:value ?amount ;
+                   time:year "{year}"^^xsd:gYear;
+                   time:month  ?m .
+        }}
+        ORDER BY ?m
+    """
+    print(f"Fetching distribution data for waste type: {waste_type}, year: {year}")
+    results = g.query(query)
+    distribution_data = []
+    for row in results:
+        distribution_data.append({
+            "districtName": str(row[0]),
+            "month": str(row[1]),
+            "amount": float(row[2])
+        })
+    print(f"Distribution Data: {distribution_data}")
+    return distribution_data
 
 
 #######################################################################################################################################################
@@ -237,18 +281,29 @@ def district():
     district_details = run_district_details_query(district_id)
     return render_template("district.html", waste_results=waste_results, district_details=district_details, selected_year=year)
 
-@app.route("/wasteType")
+
+@app.route("/wasteType", methods=['GET', 'POST'])
 def waste_type():
     wikidata_id = request.args.get("wikidata_id")
     waste_type_name = request.args.get("name", "Unknown Waste Type")
+    formatted_waste_type_name = format_waste_type(waste_type_name)
+    query_format_waste_type_name = reverse_format_waste_type(waste_type_name)
 
-    waste_type_result = run_wasteType_query(wikidata_id)
+    if request.method == 'POST':
+        # Handle POST request
+        year = request.form.get("year")
+    else:
+        # Handle GET request
+        year = request.args.get("year")
 
-    return render_template("wasteType.html",
-                           wasteType=waste_type_name,  # Display the formatted name
-                           result=waste_type_result,)
+    if year:
+        waste_type_result = run_wasteType_query(wikidata_id)
+        distribution_data = fetch_waste_type_distribution(query_format_waste_type_name, year)
+    else:
+        waste_type_result = None
+        distribution_data = None
 
-
+    return render_template("wasteType.html", wasteType=formatted_waste_type_name, result=waste_type_result, distribution=distribution_data)
 
 if __name__ == "__main__":
     app.run(debug=True)
