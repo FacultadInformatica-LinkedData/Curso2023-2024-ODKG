@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="./static/logo.jpeg" alt="Logo de MadCulturalEvents" class="logo" />
+        <img src="./static/logo.jpeg" alt="Logo de MadCulturalEvents" class="logo" onclick="window.history.back();"/>
         <div class="header-text">MadCulturalEvents</div>
     </header>
     
@@ -32,6 +32,9 @@
                 <img src="{{image_url}}" width="350" height="350">
             </div>
             {%endif%}
+            <div class="button">
+                <button id="go-back-button" onclick="window.history.back();" class="back-btn">Atrás</button>
+            </div>
         </div>
 
         <br><br>
