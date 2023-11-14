@@ -2,23 +2,23 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix peaton: <http://opendataandkg.org/group06/ontology/peatones#> .
+@prefix registro: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
 @prefix calle: <http://opendataandkg.org/group06/ontology/calle#> .
 @base <http://opendataandkg.org/group06/ontology#> .
 
 <#TriplesMapPeaton> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "PEATONES-2021-shortened-updated-with-links.csv" ;
+    rml:source "PEATONES-2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
 
   rr:subjectMap [
-    rr:template "http://opendataandkg.org/group06/ontology/peatones/resource/{id_aforoPeaton}";
-    rr:class peaton:Peaton; 
+    rr:template "http://opendataandkg.org/group06/ontology/registroPeatones/resource/{id_registroPeatones}";
+    rr:class registro:RegistroPeatones; 
   ];
 
   rr:predicateObjectMap [
-    rr:predicate peaton:perteneceACalle;
+    rr:predicate registro:perteneceACalle;
     rr:objectMap [
       rr:template "http://opendataandkg.org/group06/ontology/calle/resource/{calle}";
       rr:termType rr:IRI;
@@ -26,14 +26,15 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate peaton:fechaHora;
+    rr:predicate registro:fechaHora;
     rr:objectMap [
       rml:reference "fechaHora";
       rr:datatype xsd:dateTime
     ]
   ];
+
   rr:predicateObjectMap [
-    rr:predicate peaton:numPeatones;
+    rr:predicate registro:numPeatones;
     rr:objectMap [
       rml:reference "numPeatones";
       rr:datatype xsd:float
@@ -41,7 +42,7 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate peaton:observacionesDireccion;
+    rr:predicate registro:observacionesDireccion;
     rr:objectMap [
       rml:reference "observacionesDireccion";
       rr:datatype xsd:string
@@ -49,7 +50,7 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate peaton:latitud;
+    rr:predicate registro:latitud;
     rr:objectMap [
       rml:reference "latitud";
       rr:datatype xsd:float
@@ -57,7 +58,7 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate peaton:longitud;
+    rr:predicate registro:longitud;
     rr:objectMap [
       rml:reference "longitud";
       rr:datatype xsd:float
@@ -67,7 +68,7 @@
 
 <#TriplesMapCalle> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "PEATONES-2021-shortened-updated-with-links.csv" ;
+    rml:source "PEATONES-2021-updated.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
 
