@@ -1,0 +1,72 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#> .
+@prefix obo: <http://purl.obolibrary.org/obo/NCIT_C94729#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns: a owl:Ontology ;
+    dc:creatir "Group09" ;
+    dc:title "Bike Renting Ontology" ;
+    owl:versionInfo "0.0.2" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:atemp a owl:DatatypeProperty ;
+    rdfs:label "atemp" .
+
+ns:count a owl:DatatypeProperty ;
+    rdfs:label "count" .
+
+ns:datetime a owl:DatatypeProperty ;
+    rdfs:label "datetime" ;
+    rdfs:range xsd:dateTime .
+
+ns:hasSeason a owl:ObjectProperty ;
+    rdfs:label "has season" ;
+    rdfs:domain ns:Register ;
+    rdfs:range obo:Season .
+
+ns:hasWeather a owl:ObjectProperty ;
+    rdfs:label "has weather" ;
+    rdfs:domain ns:Register ;
+    rdfs:range ns:Weather .
+
+ns:holiday a owl:DatatypeProperty ;
+    rdfs:label "holiday" .
+
+ns:humidity a owl:DatatypeProperty ;
+    rdfs:label "humidity" .
+
+ns:nCasuals a owl:DatatypeProperty ;
+    rdfs:label "n casuals" .
+
+ns:nRegistered a owl:DatatypeProperty ;
+    rdfs:label "n registered" .
+
+ns:temp a owl:DatatypeProperty ;
+    rdfs:label "temp" .
+
+ns:windspeed a owl:DatatypeProperty ;
+    rdfs:label "windspeed" .
+
+ns:workingday a owl:DatatypeProperty ;
+    rdfs:label "workingday" .
+
+dc:creatir a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+ns:Weather a owl:Class ;
+    rdfs:label "Weather" .
+
+obo:Season a owl:Class,
+        owl:DatatypeProperty ;
+    rdfs:label "Season",
+        "season" .
+
+ns:Register a owl:Class ;
+    rdfs:label "Register" .
+
