@@ -345,7 +345,7 @@ rr:predicateObjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/resource/LiberalArtsRanking/{IPEDSID}-{Year}";
     rr:termType rr:IRI;
-    rr:class ontology:UniversityRankingLiberalArts
+    rr:class ontology:UniversityRankingLiberalArts;
   ];
     
   
@@ -376,7 +376,7 @@ rr:predicateObjectMap [
     rr:template
       "http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/{IPEDSID}-{Year}";
     rr:termType rr:IRI;
-    rr:class ontology:RankingUSNews
+    rr:class ontology:RankingUSNews;
   ];
     rr:predicateObjectMap [ 
   rr:predicate ontology:yearPublished; 

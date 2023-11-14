@@ -1,0 +1,164 @@
+@base <http://www.semanticweb.org/upm/opendata/group08> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+
+###########
+# Ontology #
+###########
+ontology: a owl:Ontology ;
+    dc:creator "Group08" ;
+    dc:description "Ontology code created by Group 08" ;
+    dc:title "University Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+###########
+# Classes #
+###########
+ontology:AdmissionRate a owl:Class ;
+    rdfs:label "Admission Rate" ;
+    rdfs:subClassOf ontology:Rate .
+
+ontology:AverageGraduationRate a owl:Class ;
+    rdfs:label "Average Graduation Rate" ;
+    rdfs:subClassOf ontology:Rate .
+
+ontology:EnrollmentRate a owl:Class ;
+    rdfs:label "Enrollment Rate" ;
+    rdfs:subClassOf ontology:Rate .
+
+schema:CollegeORUniversity a owl:Class ;
+    rdfs:label "College OR University" .
+
+dbo:City a owl:Class ;
+    rdfs:label "City" .
+
+dbo:State a owl:Class;
+    rdfs:label "State".
+
+dbo:Country a owl:Class;
+    rdfs:label "Country".
+
+ontology:Rate a owl:Class ;
+    rdfs:label "Rate" .
+
+ontology:University a owl:Class ;
+    rdfs:label "University" ;
+    rdfs:subClassOf schema:CollegeORUniversity .
+
+ontology:Ranking a owl:Class;
+    rdfs:label "Ranking".
+
+ontology:UniversityRankingLiberalArts a owl:Class;
+    rdfs:label "LiberalArtsRanking";
+    rdfs:subClassOf ontology:Ranking.
+
+ontology:RankingUSNews a owl:Class;
+    rdfs:label "USNewsRanking";
+    rdfs:subClassOf ontology:Ranking.
+
+#########################
+# Object properties #
+#########################
+ontology:hasRanking a owl:ObjectProperty ;
+    rdfs:label "has ranking" ;
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:Ranking.
+
+ontology:hasRate a owl:ObjectProperty ;
+    rdfs:label "has rate" ;
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:Rate .
+
+dbo:state a owl:ObjectProperty ;
+    rdfs:label "location state" ;
+    rdfs:domain ontology:University ;
+    rdfs:range dbo:State .
+
+dbo:city a owl:ObjectProperty ;
+    rdfs:label "location city" ;
+    rdfs:domain ontology:University ;
+    rdfs:range dbo:City .
+
+dbo:country a owl:ObjectProperty ;
+    rdfs:label "location country" ;
+    rdfs:domain ontology:University ;
+    rdfs:range dbo:Country .
+
+#########################
+# Rate properties #
+#########################
+
+ontology:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain ontology:Rate ;
+    rdfs:range rdfs:Literal .
+
+ontology:TotalAdmissions a owl:DatatypeProperty ;
+    rdfs:label "total admitted" ;
+    rdfs:domain ontology:AdmissionRate ;
+    rdfs:range rdfs:Literal .
+
+ontology:TotalApplications a owl:DatatypeProperty ;
+    rdfs:label "total applicants" ;
+    rdfs:domain ontology:Rate ;
+    rdfs:range rdfs:Literal .
+
+ontology:TotalEnrolled a owl:DatatypeProperty ;
+    rdfs:label "total enrolled" ;
+    rdfs:domain ontology:EnrollmentRate ;
+    rdfs:range rdfs:Literal .
+
+#########################
+#   University properties #
+#########################
+
+ontology:ipedsId a owl:DatatypeProperty ;
+    rdfs:label "ipeds id" ;
+    rdfs:domain ontology:University ;
+    rdfs:range rdfs:Literal .
+
+ontology:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain ontology:University ;
+    rdfs:range rdfs:Literal .
+
+ontology:website a owl:DatatypeProperty ;
+    rdfs:label "website" ;
+    rdfs:domain ontology:University ;
+    rdfs:range rdfs:Literal .
+
+schema:latitude a owl:DatatypeProperty;
+    rdfs:label "latitude";
+    rdfs:domain ontology:University;
+    rdfs:range rdfs:Literal.
+
+schema:longitude a owl:DatatypeProperty;
+    rdfs:label "longitude";
+    rdfs:domain ontology:University;
+    rdfs:range rdfs:Literal.
+#########################
+#   Score properties   #
+#########################
+
+ontology:yearPublished a owl:DatatypeProperty ;
+    rdfs:label "year published" ;
+    rdfs:domain ontology:Ranking ;
+    rdfs:range rdfs:Literal .
+
+ontology:score a owl:DatatypeProperty ;
+    rdfs:label "score" ;
+    rdfs:domain ontology:Ranking ;
+    rdfs:range rdfs:Literal .
+
+
+
