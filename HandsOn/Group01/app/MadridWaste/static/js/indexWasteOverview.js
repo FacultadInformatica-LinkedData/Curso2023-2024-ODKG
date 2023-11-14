@@ -13,7 +13,7 @@ function updateGraph(wasteData) {
         data: {
             labels: wasteData.map(item => item.districtName),
             datasets: [{
-                label: 'Total Waste Amount',
+                label: 'Total Waste Amount (Kg)',
                 data: wasteData.map(item => item.totalAmount),
                 backgroundColor: 'rgba(0, 123, 255, 0.5)',
                 borderColor: 'rgba(0, 123, 255, 1)',
@@ -23,7 +23,12 @@ function updateGraph(wasteData) {
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return value + ' Kg'; // Appending 'Kg' to each y-axis label
+                        }
+                    }
                 }
             }
         }

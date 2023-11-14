@@ -2,52 +2,57 @@
 {% block title %}WasteType Details{% endblock %}
 
 {% block body %}
+    <link rel="stylesheet" href="/static/css/wasteType.css">
     <h1 class="text-center mb-4">WasteType: {{ wasteType }}</h1>
     {% if result %}
         <div id="description">
-            {{ result }}
+            <h3>Description</h3>
+            <p>{{ result }}</p>
         </div>
     {% else %}
         <p class="text-center">No further details available for this waste type.</p>
     {% endif %}
 
-    <!-- Year Selector -->
-    <form id="yearForm" action="" method="post">
-        <label for="yearSelector">Select Year:</label>
-        <select id="yearSelector" name="year">
-            <option value="2021" {% if year == '2021' %} selected {% endif %}>2021</option>
-            <option value="2022" {% if year == '2022' %} selected {% endif %}>2022</option>
-            <option value="2023" {% if year == '2023' %} selected {% endif %}>2023</option>
-        </select>
-    </form>
-
-    <form id="monthForm" action="" method="post">
-        <label for="monthSelector">Select month:</label>
-        <select id="monthSelector" name="month">
-            <option value="1" {% if month == '1' %} selected {% endif %}>1</option>
-            <option value="2" {% if month == '2' %} selected {% endif %}>2</option>
-            <option value="3" {% if month == '3' %} selected {% endif %}>3</option>
-            <option value="4" {% if month == '4' %} selected {% endif %}>4</option>
-            <option value="5" {% if month == '5' %} selected {% endif %}>5</option>
-            <option value="6" {% if month == '6' %} selected {% endif %}>6</option>
-            <option value="7" {% if month == '7' %} selected {% elif year == '2023' %} disabled {% endif %}>7</option>
-            <option value="8" {% if month == '8' %} selected {% elif year == '2023' %} disabled {% endif %}>8</option>
-            <option value="9" {% if month == '9' %} selected {% elif year == '2023' %} disabled {% endif %}>9</option>
-            <option value="10" {% if month == '10' %} selected {% elif year == '2023' %} disabled {% endif %}>10
-            </option>
-            <option value="11" {% if month == '11' %} selected {% elif year == '2023' %} disabled {% endif %}>11
-            </option>
-            <option value="12" {% if month == '12' %} selected {% elif year == '2023' %} disabled {% endif %}>12
-            </option>
-        </select>
-        </select>
-    </form>
-
-    <button id="redirectButton">Change period</button>
-
-
-    <!-- Render chart or data table if distribution data is available -->
     {% if distribution %}
+        <!-- Year Selector -->
+        <form id="yearForm" action="" method="post">
+            <label for="yearSelector">Select Year:</label>
+            <select id="yearSelector" name="year">
+                <option value="2021" {% if year == '2021' %} selected {% endif %}>2021</option>
+                <option value="2022" {% if year == '2022' %} selected {% endif %}>2022</option>
+                <option value="2023" {% if year == '2023' %} selected {% endif %}>2023</option>
+            </select>
+        </form>
+
+        <form id="monthForm" action="" method="post">
+            <label for="monthSelector">Select month:</label>
+            <select id="monthSelector" name="month">
+                <option value="1" {% if month == '1' %} selected {% endif %}>1</option>
+                <option value="2" {% if month == '2' %} selected {% endif %}>2</option>
+                <option value="3" {% if month == '3' %} selected {% endif %}>3</option>
+                <option value="4" {% if month == '4' %} selected {% endif %}>4</option>
+                <option value="5" {% if month == '5' %} selected {% endif %}>5</option>
+                <option value="6" {% if month == '6' %} selected {% endif %}>6</option>
+                <option value="7" {% if month == '7' %} selected {% elif year == '2023' %} disabled {% endif %}>7
+                </option>
+                <option value="8" {% if month == '8' %} selected {% elif year == '2023' %} disabled {% endif %}>8
+                </option>
+                <option value="9" {% if month == '9' %} selected {% elif year == '2023' %} disabled {% endif %}>9
+                </option>
+                <option value="10" {% if month == '10' %} selected {% elif year == '2023' %} disabled {% endif %}>10
+                </option>
+                <option value="11" {% if month == '11' %} selected {% elif year == '2023' %} disabled {% endif %}>11
+                </option>
+                <option value="12" {% if month == '12' %} selected {% elif year == '2023' %} disabled {% endif %}>12
+                </option>
+            </select>
+            </select>
+        </form>
+
+        <button id="redirectButton">Change period</button>
+
+
+        <!-- Render chart or data table if distribution data is available -->
         <canvas id="myHistogram"></canvas>
         <script src="https://cdn.jsdelivr.net/npm/he"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -134,6 +139,8 @@
                 }
             });
         </script>
+    {% else %}
+        <p class="text-center">Ops something went worng :(</p>
     {% endif %}
 {% endblock %}
 

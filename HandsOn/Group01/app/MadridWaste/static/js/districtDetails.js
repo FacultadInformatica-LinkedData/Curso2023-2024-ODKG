@@ -81,10 +81,13 @@ function initWasteChart(wasteResults) {
                 wasteTypes[result.wasteName] = [];
             }
             wasteTypes[result.wasteName].push(parseFloat(result.totalAmount));
+
             if (!labels.includes(result.month)) {
                 labels.push(result.month);
             }
         });
+
+        labels.sort((a, b) => a - b);
 
         for (var wasteType in wasteTypes) {
             var color = '#' + Math.floor(Math.random() * 16777215).toString(16);  // random color
