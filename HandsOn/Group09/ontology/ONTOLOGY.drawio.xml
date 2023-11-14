@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-11-08T14:57:02.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="TFvM5lm_J5ozgVCyhadJ" version="22.0.8" type="google">
+  <diagram name="Página-1" id="E7JSOxwR6wGAUvrth3ex">
+    <mxGraphModel dx="1389" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-3" value="&lt;div&gt;&lt;b&gt;dc:creatir: Group09&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;owl:versionInfo&lt;/b&gt;: &quot;0.0.2&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;dc:title: Bike Renting Ontology&lt;/b&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;size=0.3076923076923077;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-5" value="&lt;div&gt;&lt;b&gt;ns&lt;/b&gt;:http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#&lt;/div&gt;&lt;div&gt;&lt;b&gt;rdfs&lt;/b&gt;:&amp;nbsp;http://www.w3.org/2000/01/rdf-schema#&lt;/div&gt;&lt;div&gt;&lt;b&gt;owl&lt;/b&gt;:http://www.w3.org/2002/07/owl#&lt;/div&gt;&lt;div&gt;&lt;b&gt;dc&lt;/b&gt;:http://purl.org/dc/elements/1.1/&lt;/div&gt;&lt;div&gt;&lt;b&gt;xsd&lt;/b&gt;:http://www.w3.org/2001/XMLSchema#&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="500" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-6" value="ns:Register" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
+          <mxGeometry x="510" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-10" value="ns:Season" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
+          <mxGeometry x="910" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-11" value="ns:datetime: xsd:dateTime&lt;br&gt;ns:workingday xsd:boolean&lt;br&gt;ns:holiday xsd:boolean&lt;br&gt;ns:nCasuals xsd:integer&lt;br&gt;ns:nRegistered xsd:integer&lt;br&gt;ns:count xsd:integer" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="410" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-14" value="ns:temp xsd:float&lt;br&gt;ns:humidity xsd:float&lt;br&gt;ns:atemp xsd:float&lt;br&gt;ns:windspeed xsd:float" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="520" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-15" value="ns:Weather" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
+          <mxGeometry x="920" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-19" value="ns:season xsd:string" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="330" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;rounded=0;" parent="1" source="vHyRKm4Zot5VZbHx0q6S-11" target="vHyRKm4Zot5VZbHx0q6S-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="829.9999999999998" y="460.5000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-23" value="&lt;div&gt;ns:hasSeason&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="vHyRKm4Zot5VZbHx0q6S-22" connectable="0" vertex="1">
+          <mxGeometry x="-0.1269" relative="1" as="geometry">
+            <mxPoint x="9" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;rounded=0;" parent="1" source="vHyRKm4Zot5VZbHx0q6S-11" target="vHyRKm4Zot5VZbHx0q6S-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="495" as="sourcePoint" />
+            <mxPoint x="920" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHyRKm4Zot5VZbHx0q6S-25" value="&lt;div&gt;ns:hasWeather&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="vHyRKm4Zot5VZbHx0q6S-24" connectable="0" vertex="1">
+          <mxGeometry x="-0.1269" relative="1" as="geometry">
+            <mxPoint x="9" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
