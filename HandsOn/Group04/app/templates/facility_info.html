@@ -14,21 +14,40 @@
     </header>
     
     <div class="container">
-        <h1>{{ result[0] }}</h1>
-        <ul><a href="{{ result[4] }}">Página web del sitio</a></ul>
-        <ul><b>Metro:</b> {{ result[1] }}</ul>
-        <ul><b>Bus:</b> {{ result[2] }}</ul>
-        <ul><b>Renfe:</b> {{ result[3] }}</ul>
-        <ul><b>Lat :</b> {{ result[5] }}</ul>
-        <ul><b>Long:</b> {{ result[6] }}</ul>
-        <ul><b>Dirección:</b> {{ result[7] }}, {{ result[8] }}</ul>
-        <ul><b>Distrito:</b> {{ result[9] }}</ul>
-        <br>
-        {%if image_url%}
+        <div class="container-info">
 
-        <img src="{{image_url}}" width="300" height="300">
+            <h1>{{ result[0] }}</h1>
+            <div class="content">
+                <br><br>
+                <ul><a href="{{ result[4] }}">Página web del sitio</a></ul>
+                <ul><b>Metro:</b> {{ result[1] }}</ul>
+                <ul><b>Bus:</b> {{ result[2] }}</ul>
+                <ul><b>Renfe:</b> {{ result[3] }}</ul>
+                <ul><b>Dirección:</b> {{ result[7] }}, {{ result[8] }}</ul>
+                <ul><b>Distrito:</b> {{ result[9] }}</ul>
+            </div>
+            
+            {%if image_url%}
+            <div class="image">
+                <img src="{{image_url}}" width="350" height="350">
+            </div>
+            {%endif%}
+        </div>
+
+        <br><br>
+
+        <div class="map"> 
+            Mapa del sitio <br><br>           
+            <iframe
+            width="80%"
+            height="400"
+            frameborder="0" style="border:0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox={{ result[6] }},{{ result[5] }},{{ result[6] }},{{ result[5] }}&amp;layer=mapnik&marker={{ result[5] }},{{ result[6] }}" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        
         <br>
-        {%endif%}
         <h3>Otros eventos del sitio: </h3>
         {% if events %} {% for event in events %}
         <div class="item-outer">

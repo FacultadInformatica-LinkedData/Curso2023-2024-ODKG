@@ -222,8 +222,10 @@ def search():
     facility_names = get_facility_names()
     audience_types = get_audience_types()
     event_types = get_event_types()
+    locations = get_locations(result_list)
     return render_template('index.html', result=result_list, prices=prices, accessibilities=accessibilities,
-                           district_names=district_names, metro_list = metro_list, facility_names=facility_names, audience_types=audience_types, event_types=event_types)
+                           district_names=district_names, metro_list = metro_list, facility_names=facility_names, 
+                           audience_types=audience_types, event_types=event_types, locations=locations)
 
 @app.route('/get_facility_info')
 def get_facility_info():
