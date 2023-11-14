@@ -255,7 +255,7 @@ def get_facility_info():
     query_wikiID = f"""
     SELECT distinct ?wikiID WHERE {{
         ?District  a territorio:Distrito ; 
-            geonames:officialName "{result[0][9]}";
+            geonames:officialName "{result[0][9]}"^^xsd:string;
             owl:sameAs ?wikiID.
     }}
     """
@@ -277,7 +277,6 @@ def get_facility_info():
     }}
     """
     events = execute_sparql_query(query)
-
     wikiID=str(wikiURIID[0][0]).split("/")[-1]
     url = 'https://query.wikidata.org/sparql'
     query2 = f"""
