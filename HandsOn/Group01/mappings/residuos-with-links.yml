@@ -33,16 +33,15 @@ mappings:
     s: http://madridwastemanagement.org/group01/data/District/District_$(District)
     po:
       - [a, dbo:District]
-      - [rdfs:label,District_$(District),xsd:string]
+      - [rdfs:label,$(Name),xsd:string]
       - [dbo:districtID,$(District),xsd:integer]
-      - [dbo:districtName,$(Name),xsd:string]
-      - [wst:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)~iri]
+      - [wst:hasResidue, http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)_$(Name)~iri]
       - [owl:sameAs, $(same_as_wikidata_district)~iri ]
 
   wastetypemap:
     sources:
       - [Residuos_2021_2023-updated-with-links.csv~csv]
-    s: http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)
+    s: http://madridwastemanagement.org/group01/data/WasteType/WasteType_$(WasteType)_$(Name)
     po:
       - [a, wst:WasteType]
       - [rdfs:label,$(WasteType),xsd:string]
@@ -57,5 +56,5 @@ mappings:
       - [a, nso:Total]
       - [nso:value,$(Total),xsd:float]
       - [time:year,$(Year),xsd:gYear]
-      - [time:month,$(Month),xsd:string]
+      - [time:month,$(Month),xsd:gMonth]
       - [nso:referedTo, http://madridwastemanagement.org/group01/data/District/District_$(District)~iri]

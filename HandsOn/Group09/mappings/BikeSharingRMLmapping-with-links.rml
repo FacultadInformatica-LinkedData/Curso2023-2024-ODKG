@@ -4,6 +4,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix obo: <http://purl.obolibrary.org/obo/NCIT_C94729#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix vocab: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>.
 @base <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing/ns#>.
 
@@ -31,7 +32,7 @@
     rr:objectMap [
       rr:reference "season_wikidata_link";
       rr:datatype xsd:string
-    ]
+    ];
   ];
 
   rr:predicateObjectMap [
@@ -42,10 +43,10 @@
     ]
   ];
 
- rr:predicateObjectMap [
+  rr:predicateObjectMap [
     rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
     rr:objectMap [
-      rr:reference "hour_wikidata_link"; 
+      rml:reference "hour_wikidata_link";
       rr:datatype xsd:string
     ]
   ];
@@ -58,12 +59,12 @@
     ]
   ];
 
- rr:predicateObjectMap [
+  rr:predicateObjectMap [
     rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
     rr:objectMap [
-      rr:reference "date_wikidata_link"; 
+      rr:reference "date_wikidata_link";
       rr:datatype xsd:string
-    ]
+    ];
   ];
 
   rr:predicateObjectMap [

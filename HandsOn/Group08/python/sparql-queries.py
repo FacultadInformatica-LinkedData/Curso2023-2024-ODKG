@@ -166,9 +166,7 @@ if __name__ == "__main__":
 
     test_graph(OUT_GRAPH_LINKS, OUT_GRAPH_LINKS.split(
         ".")[-1], QUERYS_SPARQL_LINKS, QUERIES_LINKS)
-    
+
     print("\n"*2, "-"*20, "\n"*2)
 
-    
     test_graph(OUT_GRAPH, OUT_GRAPH.split(".")[-1], QUERYS_SPARQL, QUERIES)
-    

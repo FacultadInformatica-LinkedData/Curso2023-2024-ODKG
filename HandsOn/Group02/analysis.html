@@ -23,6 +23,11 @@ td, th {
 .centered-header {
   text-align: center;
 }
+table td img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 </style>
 </head>
 
@@ -155,6 +160,7 @@ td, th {
   <tr>
     <th class="centered-header">Name</th>
     <th class="centered-header">Type</th>
+    <th class="centered-header">Publisher</th>
     <th class="centered-header">Description</th>
   </tr>
   <tr>
@@ -163,8 +169,12 @@ td, th {
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/64px-Cc.logo.circle.svg.png" alt="CC Logo">
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/40px-Cc-by_new.svg.png" alt="CC BY Icon">
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/40px-Cc-sa.svg.png" alt="CC SA Icon">
-      CC BY-SA 2.0 DEED
+      <br>CC BY-SA 2.0 DEED
     </th>
+    <td>
+      <img src="data:image/png;base64,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" alt="Madrid Logo">
+      <br><a href="https://www.madrid.es/portal/site/munimadrid">Ayuntamiento de Madrid</a> 
+   </td>
     <td>
       The data used is licensed <a href="https://datos.madrid.es/egob/catalogo/aviso-legal"> </a> 
       The general conditions allow the reuse of documents for commercial and non-commercial purposes. Reuse is understood as the use of documents held by the Madrid City Council, provided that said use does not constitute a public administrative activity.
@@ -177,8 +187,12 @@ td, th {
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/64px-Cc.logo.circle.svg.png" alt="CC Logo">
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/40px-Cc-by_new.svg.png" alt="CC BY Icon">
       <img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/40px-Cc-sa.svg.png" alt="CC SA Icon">
-      Legacy license: CC BY-SA 2.0 DEED
+      <br>Legacy license: CC BY-SA 2.0 DEED
     </th>
+    <td>
+      <img src="https://dssc.fi.upm.es/assets/images/logo-upm.png" alt="Madrid Logo">
+      <br><a href="https://www.madrid.es/portal/site/munimadrid">Universidad Politécnica de Madrid</a> 
+   </td>
     <td>
       This license maintains the same conditions as the original dataset license.
     </td>

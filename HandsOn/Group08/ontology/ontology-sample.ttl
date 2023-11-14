@@ -12,41 +12,36 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema> .
 
+<http://www.semanticweb.org/upm/opendata/group08/resource/State/Alabama> a ontology:State ;
+    rdf:label "Alabama"^^<http://www.w3.org/2001/XMLSchemastring>.
 
-resource:HarvardScore a ontology:LiberalArtsRanking ;
-    ontology:yearPublished "2023" ;
-    ontology:score 3 .
-
-resource:HarvardEnrollmentRate a ontology:EnrollmentRate ;
-    ontology:totalEnrolled 1559;
-    ontology:totalApplicants 35023 ;
-    ontology:value 4.45
-
-resource:HarvardAdmissionRate a ontology:AdmissionRate;
-    ontology:totalApplicants 35023 ;
-    ontology:totalAdmitted 2047;
-    ontology:value 5.84 .
-
-resource:Harvard a ontology:University ;
-    ontology:ipedsIs 166027 ;
-    rdf:label "Harvard University" ;
-    ontology:website "www.harvard.edu/" ;
-    dbo:city  resource:Masachusetts;
-    dbo:state resource:Florida;
-    dbo:country resource:United States;
-    ontology:hasRate resource:HarvardEnrollmentRate ;
-    ontology:hasRate resource:HarvardAdmissionRate;
-    ontology:hasRanking resource:HarvardRanking .
-    schema:latitude 48.515148421
-    schema:longitude 87.23564818
-
-resource:Masachusetts a ontology:City
-    rdf:label "Masachusetts"
-
-resource:Florida a ontology:Country
-    rdf:label "FL"
-
-resource:Masachusetts a ontology:Country
-    rdf:label "USA"
+<http://www.semanticweb.org/upm/opendata/group08/resource/City/Tuscaloosa> a ontology:City ;
+    rdf:label "Tuscaloosa"^^<http://www.w3.org/2001/XMLSchemastring>.
 
 
+<http://www.semanticweb.org/upm/opendata/group08/resource/Country/United%20States%20of%20America> a ontology:Country ;
+    rdf:label "United States of America"^^<http://www.w3.org/2001/XMLSchemastring>.
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/EnrollmentRate/100751> a ontology:EnrollmentRate ;
+    ontology:TotalApplications "30975"^^<http://www.w3.org/2001/XMLSchemainteger> ;
+    ontology:TotalEnrolled "6454"^^<http://www.w3.org/2001/XMLSchemainteger> ;
+    ontology:value "20"^^<http://www.w3.org/2001/XMLSchemanumber> .
+
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/100751-2004> a ontology:RankingUSNews ;
+    ontology:score ">150"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    ontology:yearPublished "2004"^^<http://www.w3.org/2001/XMLSchemanumber> .
+
+
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/University/100751> a ontology:University ;
+    ontology:hasRanking <http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/100751-2004>,
+    ontology:hasRate <http://www.semanticweb.org/upm/opendata/group08/resource/EnrollmentRate/100751> ;
+    
+    ontology:website "ua.edu"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    rdf:label "The University Of Alabama"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    dbo:city <http://www.semanticweb.org/upm/opendata/group08/resource/City/Tuscaloosa> ;
+    dbo:country <http://www.semanticweb.org/upm/opendata/group08/resource/Country/United%20States%20of%20America> ;
+    dbo:state <http://www.semanticweb.org/upm/opendata/group08/resource/State/Alabama> ;
+    schema:latitude "33.21439965800005"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    schema:longitude "-87.54576646699996"^^<http://www.w3.org/2001/XMLSchemastring> .
