@@ -1,9 +1,10 @@
-@base <http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#> .
+@base <http://www.semanticweb.org/upm/opendata/group08> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns: <http://www.semanticweb.org/upm/opendata/group08/ontologies/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -14,7 +15,7 @@
 ###########
 # Ontology #
 ###########
-ns: a owl:Ontology ;
+ontology: a owl:Ontology ;
     dc:creator "Group08" ;
     dc:description "Ontology code created by Group 08" ;
     dc:title "University Ontology" ;
@@ -23,147 +24,147 @@ ns: a owl:Ontology ;
 ###########
 # Classes #
 ###########
-ns:AdmissionRate a owl:Class ;
+ontology:AdmissionRate a owl:Class ;
     rdfs:label "Admission Rate" ;
-    rdfs:subClassOf ns:Rate .
+    rdfs:subClassOf ontology:Rate .
 
-ns:AverageGraduationRate a owl:Class ;
+ontology:AverageGraduationRate a owl:Class ;
     rdfs:label "Average Graduation Rate" ;
-    rdfs:subClassOf ns:Rate .
+    rdfs:subClassOf ontology:Rate .
 
-ns:EnrollmentRate a owl:Class ;
+ontology:EnrollmentRate a owl:Class ;
     rdfs:label "Enrollment Rate" ;
-    rdfs:subClassOf ns:Rate .
+    rdfs:subClassOf ontology:Rate .
 
 schema:CollegeORUniversity a owl:Class ;
     rdfs:label "College OR University" .
 
-ns:Score a owl:Class ;
+ontology:Score a owl:Class ;
     rdfs:label "Score" .
 
-ns:City a owl:Class ;
+ontology:City a owl:Class ;
     rdfs:label "City" .
 
-ns:State a owl:Class;
+ontology:State a owl:Class;
     rdfs:label "State".
 
-ns:Country a owl:Class;
+ontology:Country a owl:Class;
     rdfs:label "Country".
 
-ns:Rate a owl:Class ;
+ontology:Rate a owl:Class ;
     rdfs:label "Rate" .
 
-ns:University a owl:Class ;
+ontology:University a owl:Class ;
     rdfs:label "University" ;
     rdfs:subClassOf schema:CollegeORUniversity .
 
-ns:Ranking a owl:Class;
+ontology:Ranking a owl:Class;
     rdfs:label "Ranking";
 
-ns:LiberalArtsRanking a owl:Class;
+ontology:LiberalArtsRanking a owl:Class;
     rdfs:label "LiberalArtsRanking"
-    rdfs:subClassOf ns:Ranking.
+    rdfs:subClassOf ontology:Ranking.
 
-ns:USNewsRanking a owl:Class;
+ontology:USNewsRanking a owl:Class;
     rdfs:label "USNewsRanking"
-    rdfs:subClassOf ns:Ranking.
+    rdfs:subClassOf ontology:Ranking.
 
 #########################
 # Object properties #
 #########################
-ns:hasRanking a owl:ObjectProperty ;
+ontology:hasRanking a owl:ObjectProperty ;
     rdfs:label "has ranking" ;
-    rdfs:domain ns:University ;
-    rdfs:range ns:Ranking .
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:Ranking .
 
-ns:hasRate a owl:ObjectProperty ;
+ontology:hasRate a owl:ObjectProperty ;
     rdfs:label "has rate" ;
-    rdfs:domain ns:University ;
-    rdfs:range ns:Rate .
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:Rate .
 
 dbo:state a owl:ObjectProperty ;
     rdfs:label "location state" ;
-    rdfs:domain ns:University ;
-    rdfs:range ns:State .
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:State .
 
 dbo:city a owl:ObjectProperty ;
     rdfs:label "location city" ;
-    rdfs:domain ns:University ;
-    rdfs:range ns:City .
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:City .
 
 dbo:country a owl:ObjectProperty ;
     rdfs:label "location country" ;
-    rdfs:domain ns:University ;
-    rdfs:range ns:Country .
+    rdfs:domain ontology:University ;
+    rdfs:range ontology:Country .
 
 #########################
 # Rate properties #
 #########################
 
-ns:value a owl:DatatypeProperty ;
+ontology:value a owl:DatatypeProperty ;
     rdfs:label "value" ;
-    rdfs:domain ns:Rate ;
+    rdfs:domain ontology:Rate ;
     rdfs:range rdfs:Literal .
 
-ns:TotalAdmitted a owl:DatatypeProperty ;
+ontology:TotalAdmitted a owl:DatatypeProperty ;
     rdfs:label "total admitted" ;
-    rdfs:domain ns:AdmissionRate ;
+    rdfs:domain ontology:AdmissionRate ;
     rdfs:range rdfs:Literal .
 
-ns:TotalApplicants a owl:DatatypeProperty ;
+ontology:TotalApplicants a owl:DatatypeProperty ;
     rdfs:label "total applicants" ;
-    rdfs:domain ns:Rate ;
+    rdfs:domain ontology:Rate ;
     rdfs:range rdfs:Literal .
 
-ns:TotalEnrolled a owl:DatatypeProperty ;
+ontology:TotalEnrolled a owl:DatatypeProperty ;
     rdfs:label "total enrolled" ;
-    rdfs:domain ns:EnrollmentRate ;
+    rdfs:domain ontology:EnrollmentRate ;
     rdfs:range rdfs:Literal .
 
 #########################
 #   University properties #
 #########################
-ns:description a owl:DatatypeProperty ;
+ontology:description a owl:DatatypeProperty ;
     rdfs:label "description" ;
-    rdfs:domain ns:University ;
+    rdfs:domain ontology:University ;
     rdfs:range rdfs:Literal .
 
-ns:ipedsId a owl:DatatypeProperty ;
+ontology:ipedsId a owl:DatatypeProperty ;
     rdfs:label "ipeds id" ;
-    rdfs:domain ns:University ;
+    rdfs:domain ontology:University ;
     rdfs:range rdfs:Literal .
 
-ns:name a owl:DatatypeProperty ;
+ontology:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
-    rdfs:domain ns:University ;
+    rdfs:domain ontology:University ;
     rdfs:range rdfs:Literal .
 
-ns:website a owl:DatatypeProperty ;
+ontology:website a owl:DatatypeProperty ;
     rdfs:label "website" ;
-    rdfs:domain ns:University ;
+    rdfs:domain ontology:University ;
     rdfs:range rdfs:Literal .
 
 schema:latitude a owl:DatatypeProperty;
     rdfs:label "latitude";
-    rdfs:domain ns:University;
+    rdfs:domain ontology:University;
     rdfs:range rdfs:Literal.
 
 schema:longitude a owl:DatatypeProperty;
     rdfs:label "longitude";
-    rdfs:domain ns:University;
+    rdfs:domain ontology:University;
     rdfs:range rdfs:Literal.
 #########################
 #   Score properties   #
 #########################
 
-ns:yearPublished a owl:DatatypeProperty ;
+ontology:yearPublished a owl:DatatypeProperty ;
     rdfs:label "year published" ;
-    rdfs:domain ns:Score ;
+    rdfs:domain ontology:Score ;
     rdfs:range rdfs:Literal .
 
-ns:score a owl:DatatypeProperty ;
+ontology:score a owl:DatatypeProperty ;
     rdfs:label "score" ;
-    rdfs:domain ns:Score ;
+    rdfs:domain ontology:Score ;
     rdfs:range rdfs:Literal .
 
 

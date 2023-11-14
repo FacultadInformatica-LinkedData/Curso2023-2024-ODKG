@@ -1,0 +1,1891 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1093829",
+        "name": "city in the United States"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column City to type Q1093829"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Darien",
+    "judgment": "matched",
+    "match": {
+      "id": "Q165613",
+      "name": "Darien",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Darien (Q165613) for cells containing \"Darien\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Groton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10385027",
+      "name": "Groton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Groton (Q10385027) for cells containing \"Groton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Meriden",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54220",
+      "name": "Meriden",
+      "types": [
+        "Q1093829"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Meriden (Q54220) for cells containing \"Meriden\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Beacon-Falls",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572361",
+      "name": "Beacon Falls",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Beacon Falls (Q2572361) for cells containing \"Beacon-Falls\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Old-Saybrook",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1020609",
+      "name": "Old Saybrook",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Old Saybrook (Q1020609) for cells containing \"Old-Saybrook\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Fairfield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754635",
+      "name": "Fairfield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fairfield (Q754635) for cells containing \"Fairfield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Norwich",
+    "judgment": "matched",
+    "match": {
+      "id": "Q631402",
+      "name": "Norwich",
+      "types": [
+        "Q1093829"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Norwich (Q631402) for cells containing \"Norwich\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "West-Hartford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49140",
+      "name": "West Hartford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item West Hartford (Q49140) for cells containing \"West-Hartford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Glastonbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753943",
+      "name": "Glastonbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Glastonbury (Q753943) for cells containing \"Glastonbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Farmington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q743287",
+      "name": "Farmington",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Farmington (Q743287) for cells containing \"Farmington\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Shelton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q594109",
+      "name": "Shelton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Shelton (Q594109) for cells containing \"Shelton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Rocky-Hill",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572498",
+      "name": "Rocky Hill",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rocky Hill (Q2572498) for cells containing \"Rocky-Hill\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "New-Haven",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49145",
+      "name": "New Haven",
+      "types": [
+        "Q1093829",
+        "Q1549591"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Haven (Q49145) for cells containing \"New-Haven\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Easton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2323099",
+      "name": "Easton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Easton (Q2323099) for cells containing \"Easton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Manchester",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753909",
+      "name": "Manchester",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Manchester (Q753909) for cells containing \"Manchester\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Colebrook",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446187",
+      "name": "Colebrook",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Colebrook (Q2446187) for cells containing \"Colebrook\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Madison",
+    "judgment": "matched",
+    "match": {
+      "id": "Q598553",
+      "name": "Madison",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madison (Q598553) for cells containing \"Madison\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Torrington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755151",
+      "name": "Torrington",
+      "types": [
+        "Q1093829"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Torrington (Q755151) for cells containing \"Torrington\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Harwinton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572425",
+      "name": "Harwinton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Harwinton (Q2572425) for cells containing \"Harwinton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Middletown",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49192",
+      "name": "Middletown",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middletown (Q49192) for cells containing \"Middletown\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Westbrook",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755283",
+      "name": "Westbrook",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Westbrook (Q755283) for cells containing \"Westbrook\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Bristol",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755149",
+      "name": "Bristol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bristol (Q755149) for cells containing \"Bristol\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Windsor-Locks",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755206",
+      "name": "Windsor Locks",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Windsor Locks (Q755206) for cells containing \"Windsor-Locks\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Storrs",
+    "judgment": "matched",
+    "match": {
+      "id": "Q166302",
+      "name": "Storrs",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Storrs (Q166302) for cells containing \"Storrs\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "North-Windham",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1898521",
+      "name": "Windham",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Windham (Q1898521) for cells containing \"North-Windham\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "North-Haven",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754769",
+      "name": "North Haven",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Haven (Q754769) for cells containing \"North-Haven\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Branford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q898484",
+      "name": "Branford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Branford (Q898484) for cells containing \"Branford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Guilford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753857",
+      "name": "Guilford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Guilford (Q753857) for cells containing \"Guilford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Simsbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753950",
+      "name": "Simsbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Simsbury (Q753950) for cells containing \"Simsbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Hartford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q33486",
+      "name": "Hartford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hartford (Q33486) for cells containing \"Hartford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Stratford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755140",
+      "name": "Stratford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stratford (Q755140) for cells containing \"Stratford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Stonington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755748",
+      "name": "Stonington",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stonington (Q755748) for cells containing \"Stonington\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Westport",
+    "judgment": "matched",
+    "match": {
+      "id": "Q586762",
+      "name": "Westport",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Westport (Q586762) for cells containing \"Westport\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Stamford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49169",
+      "name": "Stamford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stamford (Q49169) for cells containing \"Stamford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Niantic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754850",
+      "name": "Niantic",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Niantic (Q754850) for cells containing \"Niantic\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Bloomfield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q542675",
+      "name": "Bloomfield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bloomfield (Q542675) for cells containing \"Bloomfield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "New-Milford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q977989",
+      "name": "New Milford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Milford (Q977989) for cells containing \"New-Milford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Stafford-Springs",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27989426",
+      "name": "Stafford Springs",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stafford Springs (Q27989426) for cells containing \"Stafford-Springs\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Newington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753915",
+      "name": "Newington",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Newington (Q753915) for cells containing \"Newington\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Norwalk",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54217",
+      "name": "Norwalk",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Norwalk (Q54217) for cells containing \"Norwalk\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Southbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q917350",
+      "name": "Southbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Southbury (Q917350) for cells containing \"Southbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Plainville",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446095",
+      "name": "Plainville",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plainville (Q2446095) for cells containing \"Plainville\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "New-London",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49146",
+      "name": "New London",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New London (Q49146) for cells containing \"New-London\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Milford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755798",
+      "name": "Milford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Milford (Q755798) for cells containing \"Milford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Mashantucket",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6783082",
+      "name": "Mashantucket, Connecticut",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mashantucket, Connecticut (Q6783082) for cells containing \"Mashantucket\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Danbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49198",
+      "name": "Danbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Danbury (Q49198) for cells containing \"Danbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Durham",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753859",
+      "name": "Durham",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Durham (Q753859) for cells containing \"Durham\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "West-Haven",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54219",
+      "name": "West Haven",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item West Haven (Q54219) for cells containing \"West-Haven\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Southington",
+    "judgment": "matched",
+    "match": {
+      "id": "Q421913",
+      "name": "Southington",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Southington (Q421913) for cells containing \"Southington\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "New-Fairfield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446204",
+      "name": "New Fairfield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Fairfield (Q2446204) for cells containing \"New-Fairfield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Pomfret",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572436",
+      "name": "Pomfret",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pomfret (Q2572436) for cells containing \"Pomfret\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Greenwich",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49202",
+      "name": "Greenwich",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Greenwich (Q49202) for cells containing \"Greenwich\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Putnam",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1484880",
+      "name": "Putnam",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Putnam (Q1484880) for cells containing \"Putnam\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Enfield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2323139",
+      "name": "Enfield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Enfield (Q2323139) for cells containing \"Enfield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Hebron",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1484910",
+      "name": "Hebron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hebron (Q1484910) for cells containing \"Hebron\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Willimantic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754078",
+      "name": "Willimantic",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Willimantic (Q754078) for cells containing \"Willimantic\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Norfolk",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446234",
+      "name": "Norfolk",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Norfolk (Q2446234) for cells containing \"Norfolk\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Bridgeport",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49174",
+      "name": "Bridgeport",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bridgeport (Q49174) for cells containing \"Bridgeport\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Bethel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q263912",
+      "name": "Bethel",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bethel (Q263912) for cells containing \"Bethel\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Woodbridge",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1898540",
+      "name": "Woodbridge",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Woodbridge (Q1898540) for cells containing \"Woodbridge\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Cheshire",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755226",
+      "name": "Cheshire",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cheshire (Q755226) for cells containing \"Cheshire\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "West-Simsbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q225124",
+      "name": "West Simsbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item West Simsbury (Q225124) for cells containing \"West-Simsbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Killingly",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1741385",
+      "name": "Killingly",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Killingly (Q1741385) for cells containing \"Killingly\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Plantsville",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7201675",
+      "name": "Plantsville",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plantsville (Q7201675) for cells containing \"Plantsville\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Wilton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2396722",
+      "name": "Wilton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wilton (Q2396722) for cells containing \"Wilton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Bethany",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572268",
+      "name": "Bethany",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bethany (Q2572268) for cells containing \"Bethany\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Hamden",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755271",
+      "name": "Hamden",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hamden (Q755271) for cells containing \"Hamden\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "East-Hartford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754618",
+      "name": "East Hartford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item East Hartford (Q754618) for cells containing \"East-Hartford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "South-Windsor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q662477",
+      "name": "South Windsor",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item South Windsor (Q662477) for cells containing \"South-Windsor\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Old-Lyme",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1980190",
+      "name": "Old Lyme",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Old Lyme (Q1980190) for cells containing \"Old-Lyme\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Wethersfield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755202",
+      "name": "Wethersfield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wethersfield (Q755202) for cells containing \"Wethersfield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Suffield",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753836",
+      "name": "Suffield",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Suffield (Q753836) for cells containing \"Suffield\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Lyme",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754630",
+      "name": "Lyme",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lyme (Q754630) for cells containing \"Lyme\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Uncasville",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7882479",
+      "name": "Uncasville",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uncasville (Q7882479) for cells containing \"Uncasville\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Seymour",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2275932",
+      "name": "Seymour",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Seymour (Q2275932) for cells containing \"Seymour\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "North-Branford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1898680",
+      "name": "North Branford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Branford (Q1898680) for cells containing \"North-Branford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "East-Granby",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446250",
+      "name": "East Granby",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item East Granby (Q2446250) for cells containing \"East-Granby\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Windham",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1898521",
+      "name": "Windham",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Windham (Q1898521) for cells containing \"Windham\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Salisbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2323182",
+      "name": "Salisbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salisbury (Q2323182) for cells containing \"Salisbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "East-Haddam",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1277891",
+      "name": "East Haddam",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item East Haddam (Q1277891) for cells containing \"East-Haddam\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Yantic",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8048981",
+      "name": "Yantic Falls Historic District",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Yantic Falls Historic District (Q8048981) for cells containing \"Yantic\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "East-Hampton",
+    "judgment": "matched",
+    "match": {
+      "id": "Q753922",
+      "name": "East Hampton",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item East Hampton (Q753922) for cells containing \"East-Hampton\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Roxbury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2076302",
+      "name": "Roxbury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roxbury (Q2076302) for cells containing \"Roxbury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "North-Stamford",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7056821",
+      "name": "North Stamford",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Stamford (Q7056821) for cells containing \"North-Stamford\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Middlebury",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2572235",
+      "name": "Middlebury",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Middlebury (Q2572235) for cells containing \"Middlebury\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Trumbull",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755134",
+      "name": "Trumbull",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trumbull (Q755134) for cells containing \"Trumbull\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Somersville",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7559936",
+      "name": "Somersville Historic District",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Somersville Historic District (Q7559936) for cells containing \"Somersville\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Brooklyn",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446296",
+      "name": "Brooklyn",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brooklyn (Q2446296) for cells containing \"Brooklyn\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "North-Canaan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446269",
+      "name": "North Canaan",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Canaan (Q2446269) for cells containing \"North-Canaan\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "East-Haven",
+    "judgment": "matched",
+    "match": {
+      "id": "Q755413",
+      "name": "East Haven",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item East Haven (Q755413) for cells containing \"East-Haven\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Barkhamsted",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2446108",
+      "name": "Barkhamsted",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barkhamsted (Q2446108) for cells containing \"Barkhamsted\" in column City"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "New-Canaan",
+    "judgment": "matched",
+    "match": {
+      "id": "Q754951",
+      "name": "New Canaan",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item New Canaan (Q754951) for cells containing \"New-Canaan\" in column City"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "City",
+    "expression": "grel:\" \"",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_Connecticut_Linking",
+    "columnInsertIndex": 3,
+    "description": "Create column same_as_wikidata_Connecticut_Linking at index 3 based on column City using expression grel:\" \""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "same_as_wikidata_Connecticut_Linking",
+    "expression": "grel:\"https://www.wikidata.org/wiki/\" + cells[\"City\"].recon.match.id",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column same_as_wikidata_Connecticut_Linking using expression grel:\"https://www.wikidata.org/wiki/\" + cells[\"City\"].recon.match.id"
+  }
+]
