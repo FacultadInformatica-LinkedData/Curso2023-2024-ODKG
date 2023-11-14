@@ -1,136 +1,72 @@
-@prefix : <httpns:/> .
-@prefix ns: <httpns:#> .
-@prefix http: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#> .
-@prefix #: <http#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@base <httpns:/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<httpns:/> rdf:type owl:Ontology ;
-			dc:creator "Group09" ;
-			owl:versionInfo "0.0.1" ;
-			dc:title "H02" ;
-			dc:description "Ontology code created by Chowlk" .
+ns: a owl:Ontology ;
+    dc:creatir "Group09" ;
+    dc:title "Bike Renting Ontology" ;
+    owl:versionInfo "0.0.2" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
 
-#################################
-#    Object Properties
-#################################
+ns:atemp a owl:DatatypeProperty ;
+    rdfs:label "atemp" .
 
-## ns::hasDateTime
-ns:hasDateTime rdf:type owl:ObjectProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range ns:DateTime ;
-		rdfs:label "has date time" .
+ns:count a owl:DatatypeProperty ;
+    rdfs:label "count" .
 
-## ns::hasSeason
-ns:hasSeason rdf:type owl:ObjectProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range ns:Season ;
-		rdfs:label "has season" .
+ns:datetime a owl:DatatypeProperty ;
+    rdfs:label "datetime" ;
+    rdfs:range xsd:dateTime .
 
-## ns::hasSeason
-ns:hasSeason rdf:type owl:ObjectProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range ns:Weather ;
-		rdfs:label "has season" .
+ns:hasSeason a owl:ObjectProperty ;
+    rdfs:label "has season" ;
+    rdfs:domain ns:Register ;
+    rdfs:range ns:Season .
 
-#################################
-#    Data Properties
-#################################
+ns:hasWeather a owl:ObjectProperty ;
+    rdfs:label "has weather" ;
+    rdfs:domain ns:Register ;
+    rdfs:range ns:Weather .
 
-## ns:hasDateTime
-ns:hasDateTime rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range xsd:DateTime ;
-		rdfs:label "has date time" .
+ns:holiday a owl:DatatypeProperty ;
+    rdfs:label "holiday" .
 
-## ns:hasSeason
-ns:hasSeason rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range xsd:Season ;
-		rdfs:label "has season" .
+ns:humidity a owl:DatatypeProperty ;
+    rdfs:label "humidity" .
 
-## ns:hasWeather
-ns:hasWeather rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range xsd:Weather ;
-		rdfs:label "has weather" .
+ns:nCasuals a owl:DatatypeProperty ;
+    rdfs:label "n casuals" .
 
-## ns:isHoliday
-ns:isHoliday rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range xsd:boolean ;
-		rdfs:label "is holiday" .
+ns:nRegistered a owl:DatatypeProperty ;
+    rdfs:label "n registered" .
 
-## ns:isWorkingDay
-ns:isWorkingDay rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:range xsd:boolean ;
-		rdfs:label "is working day" .
+ns:season a owl:DatatypeProperty ;
+    rdfs:label "season" .
 
-## ns:hasTemperature
-ns:hasTemperature rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:label "has temperature" .
+ns:temp a owl:DatatypeProperty ;
+    rdfs:label "temp" .
 
-## ns:hasApparentTemperature
-ns:hasApparentTemperature rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:label "has apparent temperature" .
+ns:windspeed a owl:DatatypeProperty ;
+    rdfs:label "windspeed" .
 
-## ns:hasHumidity
-ns:hasHumidity rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:label "has humidity" .
+ns:workingday a owl:DatatypeProperty ;
+    rdfs:label "workingday" .
 
-## ns:hasWindSpeed
-ns:hasWindSpeed rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:BikeRental ;
-		rdfs:label "has wind speed" .
+dc:creatir a owl:AnnotationProperty .
 
-## ns:hasNumber
-ns:hasNumber rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:Season ;
-		rdfs:range xsd:integer ;
-		rdfs:label "has number" .
+dc:title a owl:AnnotationProperty .
 
-## ns:hasGrade
-ns:hasGrade rdf:type owl:DatatypeProperty ;
-		rdfs:domain ns:Weather ;
-		rdfs:range xsd:float ;
-		rdfs:label "has grade" .
+owl:versionInfo a owl:AnnotationProperty .
 
-#################################
-#    Classes
-#################################
+ns:Season a owl:Class ;
+    rdfs:label "Season" .
 
-## ns:BikeRental
-ns:BikeRental rdf:type owl:Class ;
-	rdfs:label "Bike Rental" .
+ns:Weather a owl:Class ;
+    rdfs:label "Weather" .
 
-## ns:DateTime
-ns:DateTime rdf:type owl:Class ;
-	rdfs:label "Date Time" .
-
-## ns:Season
-ns:Season rdf:type owl:Class ;
-	rdfs:label "Season" .
-
-## ns:Weather
-ns:Weather rdf:type owl:Class ;
-	rdfs:label "Weather" .
-
-#################################
-#    Instances
-#################################
-
-#################################
-#    General Axioms
-#################################
+ns:Register a owl:Class ;
+    rdfs:label "Register" .
 
