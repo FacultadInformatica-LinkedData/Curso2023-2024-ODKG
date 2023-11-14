@@ -1,4 +1,4 @@
-@prefix clase: <http://opendataandkg.org/group06/ontology/peatones#> .
+@prefix clase: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -22,17 +22,17 @@ clase:codigoPostal a owl:DatatypeProperty ;
 
 clase:latitud a owl:DatatypeProperty ;
     rdfs:label "latitud" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:float .
 
 clase:longitud a owl:DatatypeProperty ;
     rdfs:label "longitud" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:float .
 
 clase:fechaHora a owl:DatatypeProperty ;
     rdfs:label "fecha hora" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:dateTime .
 
 clase:distrito a owl:DatatypeProperty ;
@@ -42,26 +42,26 @@ clase:distrito a owl:DatatypeProperty ;
 
 clase:perteneceACalle a owl:ObjectProperty ;
     rdfs:label "pertenece a calle" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range clase:Calle .
 
 clase:numPeatones a owl:DatatypeProperty ;
     rdfs:label "numero de peatones" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:float .
 
-clase:id_aforoPeaton a owl:DatatypeProperty ;
-    rdfs:label "id Peaton" ;
-    rdfs:domain clase:Peaton ;
+clase:id_registroPeatones a owl:DatatypeProperty ;
+    rdfs:label "id registroPeatones" ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:string .
 
 clase:observacionesDireccion a owl:DatatypeProperty ;
     rdfs:label "observaciones direccion" ;
-    rdfs:domain clase:Peaton ;
+    rdfs:domain clase:registroPeatones ;
     rdfs:range xsd:string .
 
 clase:Calle a owl:Class ;
     rdfs:label "Calle" .
 
-clase:Peaton a owl:Class ;
-    rdfs:label "Peaton" .
+clase:registroPeatones a owl:Class ;
+    rdfs:label "registroPeatones" .

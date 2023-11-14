@@ -1,0 +1,122 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gn: <https://www.geonames.org/ontology#> . 
+@prefix registro: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
+@prefix calle: <http://opendataandkg.org/group06/ontology/calle#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix esCalle: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> .
+@prefix esCodPostal: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> .
+@prefix eslat: <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+@prefix eslong: <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+@prefix esFechaHora: <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality#dateTime> .
+@prefix esDist: <http://www.w3.org/ns/locn#Address> .
+@prefix gtfs: <http://vocab.gtfs.org/gtfs.ttl#> . 
+@base <http://opendataandkg.org/group06/ontology#> .
+
+<#TriplesMapPeaton> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "PEATONES-2021-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+
+  rr:subjectMap [
+    rr:template "http://opendataandkg.org/group06/ontology/registroPeatones/resource/{id_registroPeatones}";
+    rr:class gn:RegistroPeatones; 
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate gn:perteneceACalle;
+    rr:objectMap [
+      rr:template "http://opendataandkg.org/group06/ontology/calle/resource/{calle}";
+      rr:termType rr:IRI;
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate esFechaHora:fechaHora;
+    rr:objectMap [
+      rml:reference "fechaHora";
+      rr:datatype xsd:dateTime
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate gn:numPeatones;
+    rr:objectMap [
+      rml:reference "numPeatones";
+      rr:datatype xsd:float
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate gtfs:observacionesDireccion;
+    rr:objectMap [
+      rml:reference "observacionesDireccion";
+      rr:datatype xsd:string
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate eslat:latitud;
+    rr:objectMap [
+      rml:reference "latitud";
+      rr:datatype xsd:float
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate eslong:longitud;
+    rr:objectMap [
+      rml:reference "longitud";
+      rr:datatype xsd:float
+    ]
+  ]
+.
+
+<#TriplesMapCalle> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "PEATONES-2021-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+
+  rr:subjectMap [
+    rr:template "http://opendataandkg.org/group06/ontology/calle/resource/{calle}";
+    rr:class esCalle:Calle;  
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate esDist:distrito;
+    rr:objectMap [
+      rr:template "http://opendataandkg.org/group06/ontology/calle/{distrito}";
+      rr:termType rr:IRI;
+    ]
+  ];
+
+ rr:predicateObjectMap [
+    rr:predicate esCodPostal:codigoPostal;
+    rr:objectMap [
+      rml:reference "codigoPostal";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate esCalle:same_as_wikidata_calle;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_calle";
+      rr:termType rr:IRI;
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate esDist:same_as_wikidata_distrito;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_distrito";
+      rr:termType rr:IRI;
+    ]
+  ]
+.

@@ -1,4 +1,4 @@
-@prefix clase: <http://opendataandkg.org/group06/ontology/peatones#> .
+@prefix clase: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
 @prefix rec: <http://opendataandkg.org/group06/resources/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -6,10 +6,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Instance Peaton
-<rec:Peaton/PERM_PEA02_PM01>
-	rdf:type owl:Peaton ;
-	:id_aforoPeaton "PERM_PEA02_PM01" ;
+# Instance Registro Peatones
+<rec:registroPeatones/PERM_PEA02_PM012021-01-01T00:00Z>
+	rdf:type owl:registroPeatones ;
+	:id_registroPeatones "PERM_PEA02_PM012021-01-01T00:00Z" ;
 	:latitud 40.42200905 ;
 	:longitud -3.700891722 ;
 	:fechaHora 2021-01-01T00:00:00Z ;

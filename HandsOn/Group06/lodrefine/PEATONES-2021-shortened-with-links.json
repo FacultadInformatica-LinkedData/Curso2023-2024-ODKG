@@ -882,5 +882,71 @@
       "mode": "row-based"
     },
     "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acera Impares "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acera_Impares"
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acera Pares"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acera_Pares"
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calle peatonal "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Calle_Peatonal "
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_aforoPeaton",
+    "newColumnName": "id_registroPeatones",
+    "description": "Rename column id_aforoPeaton to id_registroPeatones"
   }
 ]
