@@ -301,3 +301,8 @@ button img {
   width: 100%;
   /* Asegura que ocupa el ancho completo del contenedor */
 }
+
+.back-btn {
+  margin-top: 10px; /* Ajusta el valor según sea necesario */
+  margin-left: 10px; /* Ajusta el valor según sea necesario */
+}
