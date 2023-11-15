@@ -3,6 +3,7 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix obo: <http://purl.obolibrary.org/obo/NCIT_C94729#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix vocab: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>.
 @base <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing/ns#>.
@@ -19,7 +20,7 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate vocab:season;
+    rr:predicate obo:season;
     rr:objectMap [
       rml:reference "season";
       rr:datatype xsd:string
