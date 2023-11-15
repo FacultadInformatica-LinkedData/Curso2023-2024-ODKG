@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from rdflib import Graph, Namespace
 import requests
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -29,10 +30,112 @@ def home():
     audience_types = get_audience_types()
     event_types = get_event_types()
     locations = get_locations(result)
+
     return render_template('index.html', result=result, prices=prices, accessibilities=accessibilities,
                            district_names=district_names, metro_list = metro_list, facility_names=facility_names, 
                            audience_types=audience_types, event_types=event_types, locations=locations)
 
+@app.route('/search_filter')
+def home_filter():
+    #StartDate
+    #EndDate
+    #price-select
+    #district-select
+    #transport-select
+    #facility-select
+    #accessibility-select
+    #event-type-select
+    #audience-type-select
+    #
+    StartDate = request.args.get('StartDate', '')
+    EndDate = request.args.get('EndDate', '')
+    price_select = request.args.get('price-select', '')
+    district_select = request.args.get('district-select', '')
+    transport_select = request.args.get('transport-select', '')
+    facility_select = request.args.get('facility-select', '')
+    accessibility_select = request.args.get('accessibility-select', '')
+    event_type_select = request.args.get('event-type-select', '')
+    audience_type_select = request.args.get('audience-type-select', '')
+    print("AQUIIIIIIIIIIIIIIIIIIIIII----------------------",StartDate,'finStartDate', EndDate)
+    if price_select!='?price':
+        price_select=f'"{price_select}"^^xsd:string'
+    if district_select !='?districtName':
+        district_select=f'"{district_select}"^^xsd:string'
+    if transport_select !='?metro':
+        transport_select=f'"{transport_select}"^^xsd:string'
+    if facility_select != '?eventPlaceName':
+        facility_select=f'"{facility_select}"^^xsd:string'
+    if accessibility_select!= '?eventAccessibility':
+       accessibility_select =f'"{accessibility_select}"^^xsd:string'
+    if event_type_select != '?EventType':
+       print('---------',event_type_select)
+       event_type_select =f'"{event_type_select}"^^xsd:string'
+    if audience_type_select != '?AudienceType':
+       audience_type_select =f'"{audience_type_select}"^^xsd:string'
+    print("precio:",price_select)
+    print("-------------------------",StartDate,"",EndDate)
+    if StartDate=='':
+        StartDate=''
+    else:
+        date_format2='%m/%d/%Y'
+        StartDate=datetime.strptime(StartDate,date_format2)
+        StartDate=StartDate.strftime('%Y-%m-%dT%H:%M:%S')
+        StartDate= f' filter ( (?fechaInicio>= "{StartDate}"^^xsd:datetime)'
+        
+    if EndDate=='' :
+        EndDate=')' if StartDate!='' else ''
+    else:
+        EndDate=datetime.strptime(EndDate,date_format2)
+        EndDate=EndDate.strftime('%Y-%m-%dT%H:%M:%S').replace("00:00:00","23:59:00.0")
+        EndDate=f' && (?fechaFinal<= "{EndDate}"^^xsd:datetime))'
+    
+    #23:59:00.0
+    
+    
+    print("-------------------------",StartDate," ",EndDate)
+    #2023-10-10T00:00:00.0
+    prices = get_prices()
+    accessibilities = get_accessibilities()
+    district_names = get_district_names()
+    metro_list = get_metro_list()
+    facility_names = get_facility_names()
+    audience_types = get_audience_types()
+    event_types = get_event_types()
+    #Problema: no se devuelven los datos sobre los que se ha ejecutado el filtro, por ejemplo
+    #si ns:price "GRATUITO", no aparecerá en ?price
+    #Cuidado que a veces el ^^xsd:string falla porque no se encuentra en el rdf y a veces es al areves
+    #Cada variable metida en la query está pensada para ser "modular", se esctrucutra antes y solo hace falta añadirla para completar la query
+    query = f"""
+    SELECT ?event ?name ?description ?price ?eventAccessibility ?facilityName ?eventPlace ?startDate ?endDate ?AudienceType ?EventType WHERE {{
+        ?event a schema:Event ;
+               schema:name  ?name;
+               ns:price {price_select};
+               ns:accesibility {accessibility_select};
+               schema:description ?description ;
+               schema:startDate ?fechaInicio ;
+               schema:endDate ?fechaFinal ;
+               ns:hasAudienceType {audience_type_select} ;
+               ns:hasEventType {event_type_select} ;
+               ns:hasPlace ?eventPlace.
+
+        ?eventPlace a ns:Facility ;
+            ns:facilityName {facility_select};
+            ns:metro {transport_select} ;
+            ns:hasAddress ?Address.
+        ?Address a ns:Address;
+            ns:belongsTo ?district .
+        ?district geonames:officialName {district_select}
+        {StartDate}
+        {EndDate}
+        
+    }}LIMIT 5 """
+    print(query)
+    result = execute_sparql_query(query)
+    locations = get_locations(result)
+
+    return render_template('index.html', result=result, prices=prices, accessibilities=accessibilities,
+                           district_names=district_names, metro_list = metro_list, facility_names=facility_names, 
+                           audience_types=audience_types, event_types=event_types, locations=locations)
 def execute_sparql_query(query):
     results = graph.query(query, initNs={"ns": ns, "schema": schema, "geonames": geonames, "territorio": territorio,"wdt":wdt,"wd":wd,"xsd":xsd})
 
@@ -63,6 +166,7 @@ def get_event_list(search_value=""):
         FILTER (CONTAINS(?name, "{search_value}"))
     }}
     """
+    print(search_value)
     
     result = execute_sparql_query(query)
     return result

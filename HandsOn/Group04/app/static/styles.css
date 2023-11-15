@@ -128,6 +128,15 @@ button {
   align-items: center;
   justify-content: center;
 }
+.boton-aplicar-filtros {
+  padding: 30px 40px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .filter-btn {
   width: 100%;
