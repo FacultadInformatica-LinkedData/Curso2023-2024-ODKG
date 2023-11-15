@@ -57,21 +57,21 @@ ont:townIndex a owl:DatatypeProperty ;
 
 ont:zipCode a owl:DatatypeProperty ;
     rdfs:label "zip code" ;
-    rdfs:domain ont:StreetAddress ;
+    rdfs:domain ont:Address ;
     rdfs:range xsd:string .
 
 ont:hasAddress a owl:ObjectProperty ;
     rdfs:label "has address" ;
     rdfs:domain ont:ChargingStation ;
-    rdfs:range ont:StreetAddress .
+    rdfs:range ont:Address .
 
 ont:hasCity a owl:ObjectProperty ;
     rdfs:label "has city" ;
-    rdfs:domain ont:StreetAddress ;
+    rdfs:domain ont:Address ;
     rdfs:range ont:City .
 
-ont:StreetAddress a owl:Class ;
-    rdfs:label "Street Address" .
+ont:Address a owl:Class ;
+    rdfs:label "Address" .
 
 ont:City a owl:Class ;
     rdfs:label "City" .

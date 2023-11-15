@@ -142,10 +142,10 @@
 	rr:objectMap :om_009 .
 
 :pm_009 rdf:type rr:PredicateMap ;
-	rr:constant ont:hasStreetAddress .
+	rr:constant ont:hasAddress .
 
 :om_009 rdf:type rr:ObjectMap ;
-	rr:template "https://www.chargeup.io/group07/resource/StreetAddress/{StreetAddress}" ;
+	rr:template "https://www.chargeup.io/group07/resource/Address/{Address}" ;
 	rr:termType rr:IRI .
 
 :map_addressmap_000 rml:logicalSource :source_001 ;
@@ -159,7 +159,7 @@
 	rml:referenceFormulation ql:CSV .
 
 :s_001 rdf:type rr:SubjectMap ;
-	rr:template "https://www.chargeup.io/group07/resource/StreetAddress/{StreetAddress}" .
+	rr:template "https://www.chargeup.io/group07/resource/Address/{Address}" .
 
 :pom_010 rdf:type rr:PredicateObjectMap ;
 	rr:predicateMap :pm_010 ;
@@ -169,7 +169,7 @@
 	rr:constant rdf:type .
 
 :om_010 rdf:type rr:ObjectMap ;
-	rr:constant ont:StreetAddress ;
+	rr:constant ont:Address ;
 	rr:termType rr:IRI .
 
 :pom_011 rdf:type rr:PredicateObjectMap ;
@@ -180,7 +180,7 @@
 	rr:constant rdfs:label .
 
 :om_011 rdf:type rr:ObjectMap ;
-	rml:reference "StreetAddress" ;
+	rml:reference "Address" ;
 	rr:termType rr:Literal ;
 	rr:datatype xsd:string .
 

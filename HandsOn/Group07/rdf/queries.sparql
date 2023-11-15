@@ -1,8 +1,10 @@
 #GROUP 07 - EV Charging Stations SPARQL Queries
-
+PREFIX ont: <https://www.chargeup.io/group07/ontology#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
 # Nearby Charging Stations
 SELECT ?station ?latitude ?longitude WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:hasStreetAddress ?address .
     ?address geo:latitude ?latitude .
     ?address geo:longitude ?longitude .
@@ -11,6 +13,7 @@ SELECT ?station ?latitude ?longitude WHERE {
 
 # Map View of Stations
 SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:hasStreetAddress ?address .
     ?address geo:latitude ?latitude .
     ?address geo:longitude ?longitude .
@@ -23,6 +26,7 @@ SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHER
 
 # Search by City Name
 SELECT ?station WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:hasCity ?city .
     ?city rdfs:label "Branford" .
 }
@@ -32,6 +36,7 @@ SELECT ?station WHERE {
 # Retrieve stations based on a specific charger type (Level 1, Level 2, DC Fast)
 # In the example below, we are retrieving stations with Level 1 chargers
 SELECT ?station WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:evLevel1EVSENum ?level1Count . 
     FILTER(?level1Count > 0) 
 }
@@ -39,6 +44,7 @@ SELECT ?station WHERE {
 
 # Retrieve stations based on operating hours
 SELECT ?station WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:accessDaysTime ?time . 
     FILTER(STR(?time) = "24-Hours-Daily")
 }
@@ -46,6 +52,7 @@ SELECT ?station WHERE {
 
 # Station Details 
 SELECT * WHERE {
+    ?station a ont:ChargingStations . 
     ?station rdfs:label "Westlodge" .
     ?station ?property ?value .
 }
@@ -53,6 +60,7 @@ SELECT * WHERE {
 
 # Stations by County Name
 SELECT ?station WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:counties ?county .
     FILTER(?county = "Hartford") .
 }
@@ -61,6 +69,7 @@ SELECT ?station WHERE {
 
 # Top 5 Cities with Most Stations 
 SELECT ?city (COUNT(?station) AS ?stationCount) WHERE {
+    ?station a ont:ChargingStations . 
     ?station ont:hasCity ?city .
 } 
 GROUP BY ?city 
