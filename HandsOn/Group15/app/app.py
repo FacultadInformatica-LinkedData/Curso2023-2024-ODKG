@@ -5,7 +5,7 @@ import tkintermapview
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
 
 from knowledge_graph import cabins_which_measure_contaminants, cabins_in_neighbourhoods_with_populations_bigger_than, \
-    temperature_data
+    temperature_data, trees_of_species
 from map import add_markers
 
 root = tk.Tk()
@@ -20,7 +20,8 @@ def main():
 
     management_bar = tk.Frame(root, width=width, height=200, bg='grey')
     contaminant_frame(management_bar, map_widget)
-    cabin_frame(management_bar, map_widget)
+    population_frame(management_bar, map_widget)
+    tree_frame(management_bar, map_widget)
     temperature_frame(management_bar)
 
     management_bar.grid(row=0, column=0, padx=5, pady=5)
@@ -37,11 +38,11 @@ def contaminant_frame(management_bar: tk.Frame, map_widget: tkintermapview.Tkint
         tk.messagebox.showinfo("Contaminant Info", info)
 
     # Make the top frame cover the whole width of the root
-    outer_frame = tk.Frame(management_bar, width=width // 3, height=200, bg='grey')
+    outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
     outer_frame.grid(row=0, column=0, padx=5, pady=5)
 
     contaminant_title = tk.Label(outer_frame, text="Cabins by contaminant name (e.g. carbon monoxide)",
-                                 font=("Arial", 20))
+                                 font=("Arial", 14))
     contaminant_title.pack()
     contaminant_text_entry = tk.Entry(outer_frame)
     contaminant_text_entry.pack()
@@ -49,7 +50,7 @@ def contaminant_frame(management_bar: tk.Frame, map_widget: tkintermapview.Tkint
     contaminant_search_button.pack()
 
 
-def cabin_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapView):
+def population_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapView):
     def button_click():
         map_widget.delete_all_marker()
         latitudes, longitudes, texts = cabins_in_neighbourhoods_with_populations_bigger_than(
@@ -57,15 +58,33 @@ def cabin_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapV
         add_markers(map_widget, latitudes, longitudes, texts)
 
     # Make the top frame cover the whole width of the root
-    outer_frame = tk.Frame(management_bar, width=width // 3, height=200, bg='grey')
+    outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
     outer_frame.grid(row=0, column=1, padx=5, pady=5)
 
-    population_title = tk.Label(outer_frame, text="Cabins by population threshold (e.g. 50000)", font=("Arial", 20))
+    population_title = tk.Label(outer_frame, text="Cabins by population threshold (e.g. 50000)", font=("Arial", 14))
     population_title.pack()
     population_text_entry = tk.Entry(outer_frame)
     population_text_entry.pack()
     population_search_button = tk.Button(outer_frame, text="Display", command=button_click)
     population_search_button.pack()
+
+
+def tree_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapView):
+    def button_click():
+        map_widget.delete_all_marker()
+        latitudes, longitudes = trees_of_species(tree_text_entry.get())
+        add_markers(map_widget, latitudes, longitudes, [""] * len(latitudes), icon_filename="tree.png")
+
+    # Make the top frame cover the whole width of the root
+    outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
+    outer_frame.grid(row=0, column=2, padx=5, pady=5)
+
+    tree_title = tk.Label(outer_frame, text="Trees by species (e.g. Platanus x hispanica)", font=("Arial", 14))
+    tree_title.pack()
+    tree_text_entry = tk.Entry(outer_frame)
+    tree_text_entry.pack()
+    tree_search_button = tk.Button(outer_frame, text="Display", command=button_click)
+    tree_search_button.pack()
 
 
 def create_map_widget() -> tkintermapview.TkinterMapView:
@@ -86,9 +105,9 @@ def temperature_frame(management_bar: tk.Frame):
         data = temperature_data(int(start), int(end), month)
         create_scatter_graph(data)
 
-    outer_frame = tk.Frame(management_bar, width=width // 3, height=200, bg='grey')
-    outer_frame.grid(row=0, column=2, padx=5, pady=5)
-    temperature_title = tk.Label(outer_frame, text="Temperatures (start end month)", font=("Arial", 20))
+    outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
+    outer_frame.grid(row=0, column=3, padx=5, pady=5)
+    temperature_title = tk.Label(outer_frame, text="Temperatures (start end month)", font=("Arial", 14))
     temperature_title.pack()
     temperature_text_entry = tk.Entry(outer_frame)
     temperature_text_entry.pack()

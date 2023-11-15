@@ -112,3 +112,26 @@ def temperature_data(start: int, end: int, month: str) -> List[Tuple[int, float]
     """ % (start, end, month)
     results = execute_query(query)
     return [(int(r.year), float(r.measurement)) for r in results]
+
+
+def trees_of_species(species: str) -> List[Tuple[float, float]]:
+    query = """
+    SELECT ?latitude ?longitude
+    WHERE {
+        ?tree rdf:type ns:Tree .
+        ?tree ns:treeSpecies ?species .
+        ?tree ns:treeLatitude ?latitude .
+        ?tree ns:treeLongitude ?longitude .
+        FILTER(?species = "%s")
+    }
+    """ % species
+    results = execute_query(query)
+    latitudes, longitudes = [], []
+    for r in results:
+        latitudes.append(float(r.latitude))
+        longitudes.append(float(r.longitude))
+    return latitudes, longitudes
+
+
+if __name__ == "__main__":
+    print(trees_of_species("Yucca gigantea"))
