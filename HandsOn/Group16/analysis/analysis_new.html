@@ -1,0 +1,63 @@
+<h2 class="anchored" data-anchor-id="data-analysis">Data Analysis</h2>
+<section id="datasets" class="level3">
+<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
+<p>The topic of the selected datasets are describe next:</p>
+<ul>
+<li><a href="https://datos.comunidad.madrid/catalogo/dataset/desfibriladores_externos_fuera_ambito_sanitario">desfibriladores_externos_fuera_ambito_sanitario.csv</a>: Municipal and subsidized day centers in the city of Madrid specialized in elderly care.</li>
+</ul>
+</section>
+<section id="exploratory-data-analysis-eda" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis-eda">Exploratory Data Analysis</h3>
+<p>From this analysis we can extract some conclusions as expressed next:</p>
+<ul>
+<li>The address of the building where the defibrillator is located is separated into several columns. Also, the format of the addresses changes from row to row.</li>
+<li>There are many null values due to the format used during data acquisition or missing data.</li>
+<li>The format of the opening hours of the buildings shows a lot of variability in its format, as well as erroneous or null values.</li>
+</ul>
+</section>
+<section id="data-sources-licensing" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources-licensing">Data Source&rsquo;s Licensing</h3>
+<p>The dataset is edited by the&nbsp; Council of Madrid, while the responsibles for the data is the Directorate General for Health Inspection and Management.</p>
+<p>All the information related with the use of data provided by the Madrid City Council can be checked <a href="https://www.comunidad.madrid/gobierno/datos-abiertos/reutiliza-datos-abiertos-comunidad-madrid">here</a>.</p>
+<p>Each dataset offered in the Open Data service of the Community of Madrid indicates the specific license that applies to it. In general, the datasets are published under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons - Attribution (CC-BY 4.0)</a> license, which allows:</p>
+<ul>
+<li>copy, distribute and publicly disclose.</li>
+<li>serve as a basis for derivative works as a result of their analysis or study.</li>
+<li>be used for commercial or non-commercial purposes, provided that such use does not constitute a public administrative activity.</li>
+<li>modify, transform and adapt.</li>
+<li>Also, the authorship of the Community of Madrid must be mentioned.</li>
+</ul>
+<section id="applicable-legislation" class="level4">
+<h4 class="anchored" data-anchor-id="applicable-legislation">Applicable legislation</h4>
+<p>Open Data is a global initiative linked to the Open Government policies, which intends that data and information in power of public administrations are published in an open, regular and reusable way for everybody, without restrictions of access, copyright, patents or other control mechanisms.</p>
+<p><strong>Community Scope</strong></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32003L0098">Directive 2013/37/EU, amending Directive 2003/98/EC on the reuse of public sector information.</a></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32003L0098">Directive 2003/98/EC on the reuse of public sector information</a></p>
+<p><strong>National scope</strong></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814">Law 37/2007, of November 16, 2007, on the reuse of public sector information (consolidated text)</a></p>
+<p><a href="https://www.boe.es/boe/dias/2018/12/06/pdfs/BOE-A-2018-16673.pdf">Organic Law 3/2018, of December 5, 2018, on Personal Data Protection and guarantee of digital rights.</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887">Law 19/2013, of December 9, on transparency, access to public information and good governance.</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565">Law 39/2015, of October 1, 2015, on the Common Administrative Procedure of the Public Administration</a></p>
+<p><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-17560">Royal Decree 1495/2011, of October 24, which develops Law 37/2007, of November 16, on the reuse of public sector information, for the scope of the state public sector</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930">Royal Legislative Decree 1/1996, of April 12, 1996, approving the text of the Intellectual Property Law.</a></p>
+<a href="https://sede.madrid.es/FrameWork/generacionPDF/ANM2016_108.pdf?idNormativa=3eabe8e52c796510VgnVCM1000001d4a900aRCRD&amp;nombreFichero=ANM2016_108&amp;cacheKey=163">Ordenanza de Transparencia de la Ciudad de Madrid, de 27 de julio de 2016</a></section>
+</section>
+<section id="Data-licensing" class="level5">
+<h3 class="anchored" data-anchor-id="Data-licensing">Data-licensing</h3>
+<p>We decided to use a CC0 license for our data, since it waives copyright and database protection, we saw fit to use this kind of license to trully make Open Data and allow any user to make applications based on this data.</p>
+<p><a href="https://creativecommons.org/share-your-work/public-domain/cc0/">Creative Commons: CC0</a></p>
+</section>
+<section id="resource-naming-strategy-rns" class="level3">
+<h3 class="anchored" data-anchor-id="resource-naming-strategy-rns">Resource Naming Strategy</h3>
+The Resource Naming Strategy follows the following rules:
+<ul>
+<li>Base domain: <a href="http://ext.defibrilator/ontology#"><span style="font-weight: 400;">http://ext.defibrilator/</span></a><code></code></li>
+<li>Ontological Term Path:<a href="http://ext.defibrilator/ontology#"><span style="font-weight: 400;">http://ext.defibrilator/ontology#</span></a></li>
+<li>Individuals Path:<a href="http://ext.defibrilator/ontology#"><span style="font-weight: 400;">http://ext.defibrilator/ontology#[class/propertyName]</span></a>
+<ul>
+<li>Defibrillator:[base][path]/municipality#/[someIdentifier]</li>
+<li>MUnicipality:[base][path]/defibrillstor#/[someIdentifier]</li>
+</ul>
+</li>
+</ul>
+</section>
