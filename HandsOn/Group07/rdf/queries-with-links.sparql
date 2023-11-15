@@ -5,24 +5,29 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#> .
 # Retrieve the Wikidata links for cities/towns in the dataset
 SELECT ?station ?wikiLinkCity
 WHERE {
-    ?station a ont:ChargingStations .
-    ?station ont:hasCity ?city .
+    ?station a ont:ChargingStation .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
     ?city owl:sameAs ?wikiLinkCity .
 }
+
 
 # Retrieve all charging stations located in a specific city (Newtown) using its Wikidata link
 SELECT ?station
 WHERE {
-    ?station a ont:ChargingStations .
-    ?station ont:hasCity ?city .
+    ?station a ont:ChargingStation .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
     ?city owl:sameAs <https://www.wikidata.org/wiki/Q958909> .
 }
+
 
 # Retrieve all charging stations located in another city (Wallingford) using its Wikidata link
 SELECT ?station
 WHERE {
-    ?station a ont:ChargingStations .
-    ?station ont:hasCity ?city .
+    ?station a ont:ChargingStation .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
     ?city owl:sameAs <https://www.wikidata.org/wiki/Q1949294> .
 }
 
