@@ -183,13 +183,19 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="./static/index.js"></script>
     <script>
-        // Agregar la inicialización de datepicker en tu script
         $(function () {
-            $("#start-date").datepicker();
-            $("#end-date").datepicker();
-
+            $("#start-date").datepicker({
+                dateFormat: "yy-mm-dd", // Establece el formato deseado
+                showTime: true // Puedes agregar esto si también quieres incluir la hora en el datepicker
+            });
+            $("#end-date").datepicker({
+                dateFormat: "yy-mm-dd",
+                showTime: true
+            });
+    
             // Ocultar los filtros por defecto al cargar la página
             toggleFilters();
         });
