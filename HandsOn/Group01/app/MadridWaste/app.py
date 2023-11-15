@@ -36,14 +36,14 @@ def run_sparql_query(district_name, year="2021"):
             SELECT ?wasteName ?wikidataLink ?m (SUM(?val) AS ?totalAmount)
             WHERE {{
               ?districtInstance a dbo:District ;
-                                rdfs:label "{district_name}";
-                                wst:hasResidue ?wasteinstance.
+                    rdfs:label "{district_name}";
+                    wst:hasResidue ?wasteinstance.
               ?wasteinstance rdfs:label ?wasteName;
-                             owl:sameAs ?wikidataLink;
-                             nso:hasTotal ?totalinstance.
+                 nso:hasTotal ?totalinstance.
               ?totalinstance nso:value ?val;
-                             time:month ?m;
-                             time:year "{year}"^^xsd:gYear.
+                 time:month ?m;
+                 time:year "{year}"^^xsd:gYear.
+              OPTIONAL {{ ?wasteinstance owl:sameAs ?wikidataLink. }}
             }}
             GROUP BY ?wasteName ?wikidataLink ?m
             ORDER BY ?m ?wasteName
@@ -53,7 +53,7 @@ def run_sparql_query(district_name, year="2021"):
     for row in results:
         output.append({
             "wasteName": str(row[0]),
-            "wikidataLink": str(row[1]),
+            "wikidataLink": str(row[1]) if row[1] is not None else "",
             "month": str(row[2]),
             "totalAmount": float(row[3])
         })
