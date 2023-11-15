@@ -4,6 +4,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix ns1: <http://www.geonames.org/ontology#> .
 @base <http://www.madculturalevents.es/group04/ontology/madculturalevents> .
 
 <http://www.madculturalevents.es/group04/ontology/madculturalevents> rdf:type owl:Ontology .
@@ -14,36 +16,44 @@
 
 ### http://www.madculturalevents.es/group04/resources/event/12124944
 <http://www.madculturalevents.es/group04/resources/event/12124944> rdf:type owl:NamedIndividual ,
-                                                                                            :CulturalEvent;
-                                                                                            :eventType "ExcursionesItinerariosVisitas"^^xsd:string ;
-                                                                                            :audienceType "Familias"^^xsd:string ;
-                                                                                            :eventName "Animales feos y no tan feos"^^xsd:string ;
-                                                                                            :eventDescription "En colaboración con las actividades del Teatro Real y dentro de su programa El Real Junior, en esta ocasión y, en relación con el estreno del cuento musical 'Andersen, el Patio feo',el Museo de Historia de Madrid ofrece al público infantil el  recorrido 'Animales feos y no tan feos' en el que, a través de un juego de pistas, descubrir algunos animales representados en las obras expuestas. Del 5 al 15 de octubre,n el horario habitual del museo, los niños podrán recoger el recorrido adaptado a su edad en el punto de Información del museo y comenzar el juego"^^xsd:string ;
-                                                                                            :startDate "2023-10-05T00:00:00Z"^^xsd:dateTime ;
-                                                                                            :endDate "2023-10-15T23:59:00Z"^^xsd:dateTime ;
-                                                                                            :eventUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d978758d4cffa810VgnVCM1000001d4a900aRCRD";
-                                                                                            :price "GRATUITO"^^xsd:string ;
-                                                                                            :hasPlace <http://www.madculturalevents.es/group04/resources/facility/222333>.                                                                                            
-                                                                                         
+                                                                                            schema:Event ;
+                                                                                            schema:description "Entrada libre hasta completar aforo"^^xsd:string ;
+                                                                                            :price "NO GRATUITO"^^xsd:string ;
+                                                                                            schema:startDate "2023-10-10T00:00:00.0"^^xsd:dateTime ;
+                                                                                            schema:endDate "2023-10-19T23:59:00.0"^^xsd:dateTime ;
+                                                                                            schema:name "10 emociones, 10 rosas"^^xsd:string ;
+                                                                                            :accesibility "ACCESSIBLE"^^xsd:string ;
+                                                                                            schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=bc84a325d4ffa810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
+                                                                                            :hasEventType "ProgramacionDestacadaAgendaCultura"^^xsd:string ;
+                                                                                            :hasAudienceType "Todos"^^xsd:string ;
+                                                                                            :hasPlace <http://www.madculturalevents.es/group04/resources/facility/11681451> .
 
 
 #http://www.madculturalevents.es/group04/resources/facility/222333
 <http://www.madculturalevents.es/group04/resources/facility/222333> rdf:type owl:NamedIndividual ,
-                                                                                                :Facility;          
-                                                                                                :typeof :/Place ;   
-                                                                                                :hasAddress  <http://www.madculturalevents.es/group04/resources/address/19283> ;  
-                                                                                                :facilityName "Museo de Historia de Madrid"^^xsd:string ;
-                                                                                                :facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD"  .  
+                                                                                            a :Facility ;
+                                                                                            :facilityName "Espacio Cultural Serreria Belga"^^xsd:string ;
+                                                                                            :facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3c0f13cd18a0810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
+                                                                                            :metro "Estaci�n del Arte"^^xsd:string ;
+                                                                                            :bus "6, 10, 14, 19, 26, 27, 32, 34, 37, 45  "^^xsd:string ;
+                                                                                            :train "Atocha (lineas C1, C2, C3, C4, C5, C7, y C10).  "^^xsd:string ;
+                                                                                            owl:sameAs "" ;
+                                                                                            :ubicatedIn <http://www.madculturalevents.es/group04/resources/geometry/11681451> ;
+                                                                                            :hasAddress <http://www.madculturalevents.es/group04/resources/address/11681451> .
+
 
 #http://www.madculturalevents.es/group04/resources/address/19283   
 <http://www.madculturalevents.es/group04/resources/address/19283> rdf:type owl:NamedIndividual ,    
-                                                                                            :Address; 
-                                                                                            :belongsTo <http://www.madculturalevents.es/group04/resources/District/Centro> ;
-                                                                                            :addressName "CALLE FUENCARRAL"^^xsd:string ;
-                                                                                            :number "78"^^xsd:int .
+                                                                                            :Address ;
+                                                                                            :number 15 ;
+                                                                                            :addressName "Calle V�ctor Lamas"^^xsd:string ;
+                                                                                            owl:sameAs "https://www.wikidata.org/entity/Q5740784" ;
+                                                                                            :belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
+
+
 
 #<http://www.madculturalevents.es/group04/resources/district/CENTRO> 
 <http://www.madculturalevents.es/group04/resources/district/CENTRO>   rdf:type owl:NamedIndividual ,
-                                                                                :District ;  
-                                                                                :districtName "CENTRO"^^xsd:string ;
-                                                                                :id "1"^^xsd:int  .                                         
+                                                                                            a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
+                                                                                            geonames:officialName "Centro"^^xsd:string ;
+                                                                                            owl:sameAs "https://wikidata.org/entity/Q1763376", "https://www.wikidata.org/entity/Q1763376" .                                      
