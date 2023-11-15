@@ -101,22 +101,22 @@ dbo:country a owl:ObjectProperty ;
 ontology:value a owl:DatatypeProperty ;
     rdfs:label "value" ;
     rdfs:domain ontology:Rate ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:number .
 
 ontology:TotalAdmissions a owl:DatatypeProperty ;
     rdfs:label "total admitted" ;
     rdfs:domain ontology:AdmissionRate ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:integer .
 
 ontology:TotalApplications a owl:DatatypeProperty ;
     rdfs:label "total applicants" ;
     rdfs:domain ontology:Rate ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:integer .
 
 ontology:TotalEnrolled a owl:DatatypeProperty ;
     rdfs:label "total enrolled" ;
     rdfs:domain ontology:EnrollmentRate ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:integer .
 
 #########################
 #   University properties #
@@ -125,27 +125,27 @@ ontology:TotalEnrolled a owl:DatatypeProperty ;
 ontology:ipedsId a owl:DatatypeProperty ;
     rdfs:label "ipeds id" ;
     rdfs:domain ontology:University ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:string .
 
 ontology:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
     rdfs:domain ontology:University ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:string .
 
 ontology:website a owl:DatatypeProperty ;
     rdfs:label "website" ;
     rdfs:domain ontology:University ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:string .
 
 schema:latitude a owl:DatatypeProperty;
     rdfs:label "latitude";
     rdfs:domain ontology:University;
-    rdfs:range rdfs:Literal.
+    rdfs:range xsd:string.
 
 schema:longitude a owl:DatatypeProperty;
     rdfs:label "longitude";
     rdfs:domain ontology:University;
-    rdfs:range rdfs:Literal.
+    rdfs:range xsd:string.
 #########################
 #   Score properties   #
 #########################
@@ -153,12 +153,12 @@ schema:longitude a owl:DatatypeProperty;
 ontology:yearPublished a owl:DatatypeProperty ;
     rdfs:label "year published" ;
     rdfs:domain ontology:Ranking ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:number .
 
 ontology:score a owl:DatatypeProperty ;
     rdfs:label "score" ;
     rdfs:domain ontology:Ranking ;
-    rdfs:range rdfs:Literal .
+    rdfs:range xsd:string .
 
 
 

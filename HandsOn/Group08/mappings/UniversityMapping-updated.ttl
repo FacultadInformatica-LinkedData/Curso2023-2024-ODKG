@@ -293,7 +293,7 @@ rr:predicateObjectMap [
   rr:objectMap [ 
     rml:reference "Applicants total"; 
     rr:termType rr:Literal;
-    rr:datatype xsd:number;
+    rr:datatype xsd:integer;
   ]
   ];
 
@@ -302,7 +302,7 @@ rr:predicateObjectMap [
   rr:objectMap [ 
     rml:reference "Admissions total"; 
     rr:termType rr:Literal;
-    rr:datatype xsd:number;
+    rr:datatype xsd:integer;
   ]
   ].
 
