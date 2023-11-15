@@ -1,8 +1,8 @@
 prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
   wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#
-  vama: http://vidaactivamadrid.es/info/ontology/class#
-  property: http://vidaactivamadrid.es/info/ontology/property#
+  nsc: http://vidaactivamadrid.es/info/ontology/class#
+  nsp: http://vidaactivamadrid.es/info/ontology/property#
   sch: https://schema.org/
 
 mappings:
@@ -12,18 +12,18 @@ mappings:
       - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: http://vidaactivamadrid.es/info/resource/Activity/$(ID)
     po:
-      - [a, vama:Activity]
-      - [property:id, $(ID)]
-      - [property:name, $(NOMBRE)]
-      - [property:longEvent, $(EVENTO_LARGO), xsd:boolean]
-      - [property:dayOfWeek, $(DIAS_DE_SEMANA)]
-      - [property:startDate, $(FECHA_INICIO), xsd:dateTime]
-      - [property:endDate, $(FECHA_FIN), xsd:dateTime]
-      - [property:time, $(HORA)]
-      - [property:description, $(DESCRIPCION)]
-      - [property:contentURL, $(URL_CONTENIDO)]
-      - [property:typeOfActivity, $(TIPO_DE_ACTIVIDAD)]
-      - p: property:takesPlaceIn
+      - [a, nsc:Activity]
+      - [nsp:id, $(ID)]
+      - [nsp:name, $(NOMBRE)]
+      - [nsp:longEvent, $(EVENTO_LARGO), xsd:boolean]
+      - [nsp:dayOfWeek, $(DIAS_DE_SEMANA)]
+      - [nsp:startDate, $(FECHA_INICIO), xsd:dateTime]
+      - [nsp:endDate, $(FECHA_FIN), xsd:dateTime]
+      - [nsp:time, $(HORA)]
+      - [nsp:description, $(DESCRIPCION)]
+      - [nsp:contentURL, $(URL_CONTENIDO)]
+      - [nsp:typeOfActivity, $(TIPO_DE_ACTIVIDAD)]
+      - p: nsp:takesPlaceIn
         o:
           - mapping: Facility
             condition:
@@ -37,12 +37,12 @@ mappings:
       - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Facility/$(NOMBRE_INSTALACION)"
     po:
-      - [a, vama:Facility]
-      - [property:name, $(NOMBRE_INSTALACION)]
-      - [property:accessibility, $(ACCESIBILIDAD_INSTALACION)]
-      - [property:facilityURL, $(INSTALACION_URL)]
+      - [a, nsc:Facility]
+      - [nsp:name, $(NOMBRE_INSTALACION)]
+      - [nsp:accessibility, $(ACCESIBILIDAD_INSTALACION)]
+      - [nsp:facilityURL, $(INSTALACION_URL)]
       - [owl:sameAs, $(same_as_wikidata_nombre_instalacion)~iri]
-      - p: property:hasAddress
+      - p: nsp:hasAddress
         o:
           - mapping: Address
             condition:
@@ -56,25 +56,42 @@ mappings:
       - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Address/$(DIRECCION)"
     po:
-      - [a, vama:Address]
-      - [property:name, $(DIRECCION)]
+      - [a, nsc:Address]
+      - [nsp:name, $(DIRECCION)]
       - [sch:postalCode, $(CODIGO_POSTAL)]
-      - [property:latitude, $(LATITUD), xsd:double]
-      - [property:longitude, $(LONGITUD), xsd:double]
-      - p: property:isInNeighborhood
+      - [nsp:latitude, $(LATITUD), xsd:double]
+      - [nsp:longitude, $(LONGITUD), xsd:double]
+      - p: nsp:isInNeighborhood
         o:
-          - mapping: Neighborhood2
+          - mapping: Neighborhood
             condition:
               function: equal
               parameters:
               - [str1, $(BARRIO)]
               - [str2, $(BARRIO)]
 
-  Neighborhood2:
+  Neighborhood:
     sources: 
       - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
     s: "http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)"
     po:
-      - [a, vama:Neighborhood2]
-      - [property:name, $(BARRIO)]
+      - [a, nsc:Neighborhood]
+      - [nsp:name, $(BARRIO)]
       - [owl:sameAs, $(same_as_wikidata_barrio)~iri]
+      - p: nsp:isInDistrict
+        o:
+          - mapping: District
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DISTRITO)]
+              - [str2, $(DISTRITO)]
+
+  District:
+      sources: 
+        - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+      s: http://vidaactivamadrid.es/info/resource/District/$(DISTRITO)
+      po:
+        - [a, nsc:District]
+        - [nsp:name, $(DISTRITO)]
+        - [owl:sameAs, $(same_as_wikidata_distrito)~iri]
