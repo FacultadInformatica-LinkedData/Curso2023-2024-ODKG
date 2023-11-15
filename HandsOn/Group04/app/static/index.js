@@ -57,4 +57,5 @@ function toggleFilters() {
     } else {
         toggleFiltersBtn.textContent = 'Ocultar Filtros';
     }
+
 }
