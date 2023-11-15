@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 from rdflib import Graph, Namespace, RDFS
 from rdflib.plugins.sparql import prepareQuery
 
@@ -34,7 +36,7 @@ def all_cabins():
     return latitudes, longitudes, texts
 
 
-def cabins_which_measure_contaminants(contaminant):
+def cabins_which_measure_contaminants(contaminant: str) -> List[Tuple[float, float, str, str]]:
     query = """
     SELECT ?number ?latitude ?longitude
     WHERE {
@@ -47,17 +49,33 @@ def cabins_which_measure_contaminants(contaminant):
         FILTER(?contaminant_name = "%s")
     }
     """ % contaminant
-
     cabin_results = execute_query(query)
     latitudes, longitudes, texts = [], [], []
     for r in cabin_results:
         latitudes.append(float(r.latitude))
         longitudes.append(float(r.longitude))
         texts.append(r.number)
-    return latitudes, longitudes, texts
+
+    query2 = """
+    SELECT DISTINCT ?unit ?effect ?mass
+    WHERE {
+        ?contaminant ns:contaminantName ?contaminant_name .
+        ?contaminant ns:unit ?unit .
+        ?contaminant ns:effect ?effect .
+        ?contaminant ns:mass ?mass .
+        FILTER(?contaminant_name = "%s")
+    }
+    """ % contaminant
+    contam_result = execute_query(query2)
+    for r in contam_result:
+        unit, effect, mass = r.unit, r.effect, r.mass
+        break
+
+    info = f"Contaminant: {contaminant}\nUnit: {unit}\nEffect: {effect}\nAtomic mass: {mass}"
+    return latitudes, longitudes, texts, info
 
 
-def cabins_in_neighbourhoods_with_populations_bigger_than(threshold):
+def cabins_in_neighbourhoods_with_populations_bigger_than(threshold: int) -> List[Tuple[float, float, str]]:
     query = """
     SELECT ?number ?latitude ?longitude
     WHERE {
@@ -81,6 +99,16 @@ def cabins_in_neighbourhoods_with_populations_bigger_than(threshold):
     return latitudes, longitudes, texts
 
 
-if __name__ == "__main__":
-    results = cabins_in_neighbourhoods_with_populations_bigger_than(1000)
-    print(results)
+def temperature_data(start: int, end: int, month: str) -> List[Tuple[int, float]]:
+    query = """
+    SELECT ?year ?measurement
+    WHERE {
+        ?temperature rdf:type ns:Temperature .
+        ?temperature ns:temperature ?measurement .
+        ?temperature ns:year ?year .
+        ?temperature ns:month ?month .
+        FILTER(?year >= %s && ?year <= %s && ?month = "%s")
+    }
+    """ % (start, end, month)
+    results = execute_query(query)
+    return [(int(r.year), float(r.measurement)) for r in results]
