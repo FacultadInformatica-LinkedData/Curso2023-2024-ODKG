@@ -11,6 +11,9 @@ prefixes:
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   group04: http://www.madculturalevents.es/group04/ontology/madculturalevents#
   owl: "http://www.w3.org/2002/07/owl#"
+  schema: https://schema.org/
+  esadm: http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#
+  geonames: http://www.geonames.org/ontology#
   
 mappings:
   culturalEvents:
@@ -18,32 +21,16 @@ mappings:
       - [agenda-eventos-culturales-100-updated-with-links.csv~csv]
     s: http://www.madculturalevents.es/group04/resources/event/$(ID-EVENTO)
     po:
-      - [a, group04:CulturalEvent]
-      - [group04:eventDescription,$(DESCRIPCION),xsd:string]
+      - [a, schema:Event]
+      - [schema:description,$(DESCRIPCION),xsd:string]
       - [group04:price,$(GRATUITO),xsd:string]
-      - [group04:startDate,$(FECHA),xsd:dateTime]
-      - [group04:endDate,$(FECHA-FIN),xsd:dateTime]
-      - [group04:eventName,$(TITULO),xsd:string]
+      - [schema:startDate,$(FECHA),xsd:dateTime]
+      - [schema:endDate,$(FECHA-FIN),xsd:dateTime]
+      - [schema:name,$(TITULO),xsd:string]
       - [group04:accesibility,$(ACCESIBILIDAD-INSTALACION),xsd:string]
-      - [group04:eventUrl,$(CONTENT-URL),xsd:string]
-      - p: group04:hasEventType
-        o:
-          mapping: Concept
-          condition:
-                function: equal
-                parameters:
-                    - [str1, $(ID-EVENTO), s]
-                    - [str2, $(ID-EVENTO), o]
-
-      - p: group04:hasAudienceType
-        o:
-          mapping: Audience
-          condition:
-                function: equal
-                parameters:
-                    - [str1, $(ID-EVENTO), s]
-                    - [str2, $(ID-EVENTO), o]
-
+      - [schema:url,$(CONTENT-URL),xsd:string]
+      - [group04:hasEventType,$(TIPO),xsd:string]
+      - [group04:hasAudienceType,$(AUDIENCIA),xsd:string]
       - p: group04:hasPlace
         o:
           mapping: Facility
@@ -52,21 +39,7 @@ mappings:
                 parameters:
                     - [str1, $(NOMBRE-INSTALACION)]
                     - [str2, $(NOMBRE)]
-  Concept:
-    sources:
-      - [agenda-eventos-culturales-100-updated-with-links.csv~csv]
-    s: http://www.madculturalevents.es/group04/resources/concept/$(ID-EVENTO)
-    po:
-      - [a, group04:Concept]
-      - [group04:eventType, $(TIPO),xsd:string]
-
-  Audience:
-    sources:
-      - [agenda-eventos-culturales-100-updated-with-links.csv~csv]
-    s: http://www.madculturalevents.es/group04/resources/audience/$(ID-EVENTO)
-    po:
-      - [a, group04:Audience]
-      - [group04:audienceType, $(TIPO),xsd:string]
+                    
   Facility:
     sources:
       - [museos-csv-with-links.csv~csv]
@@ -130,6 +103,6 @@ mappings:
       - [centros-culturales-csv-with-links.csv~csv]
     s: http://www.madculturalevents.es/group04/resources/district/$(DISTRITO)
     po:
-      - [a, group04:District]
-      - [group04:districtName, $(DISTRITO),xsd:string]
+      - [a, esadm:Distrito]
+      - [geonames:officialName, $(DISTRITO),xsd:string]
       - [owl:sameAs, $(same_as_wikidata_distrito)]
