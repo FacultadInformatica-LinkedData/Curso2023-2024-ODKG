@@ -8,7 +8,7 @@ from museum_api.data.data_loader import get_data_graph_object
 artwork_router = APIRouter(prefix='/artwork')
 
 ARTWORK_PROPERTIES = ["accession_number", "artist", "artist_role", "title", "art_medium", "credit_text", "made_in_year",
-					  "acquired_in_year", "copyright_notice", "thumbnail_url", "url", "width", "height", "link"]
+					  "acquired_in_year", "copyright_notice", "thumbnail_url", "url", "width", "height", "link", "artist_name"]
 
 
 @artwork_router.get(
@@ -37,16 +37,12 @@ async def api_endpoints_artwork_get(
 		width: str | None = None,
 		height: str | None = None,
 		link: str | None = None,
+		artist_name: str | None = None
 ) -> list[ArtworkResponse]:
 	data_graph: rdflib.Graph = get_data_graph_object()
 
 	query_params = locals()
 	artwork_properties_filtered = [prop for prop in ARTWORK_PROPERTIES if prop in query_params]
-	properties_values = {
-		prop: query_params[prop]
-		for prop in artwork_properties_filtered
-	}
-
 	null_properties = [prop for prop in artwork_properties_filtered if query_params[prop] is None]
 
 	query = """
@@ -70,7 +66,9 @@ async def api_endpoints_artwork_get(
 		  ?artwork sch:width """ + (f'{width}' if width is not None else "?width") + """ .
 		  ?artwork sch:height """ + (f'{height}' if height is not None else "?height") + """ .
 		  ?artist owl:sameAs """ + (f'"{link}"' if link is not None else "?link") + """ .
-		}
+		  ?artist vcard:FN ?artist_name . """ + (
+			f'filter contains(?artist_name,"{artist_name}")' if artist_name is not None else "" 
+	) + """}
 		LIMIT 1000
 	"""
 	result = data_graph.query(query)
