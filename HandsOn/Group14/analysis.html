@@ -5,71 +5,76 @@
 </head>
 <body>
     <h1>Naming strategy</h1>
-    <p>We went with the default name base and prefix "ns: http://base.namespace.com#"</p>
-    <h1>Moby Bikes Bike Share Datasource:</h1>
+    <p>For the naming stategy we decided to go with the base: http://www.divvybikesharing.com/group14/, and the directory where our information is at is http://www.divvybikesharing.com/group14/ontology/BikeInfo# </p>
+    <h1>Divvy Dataset Datasource:</h1>
     <h2>Dataset Analysis:</h2>
 
     <h3>Quantities and Values:</h3>
-    <ul><strong>HarvestTime: </strong>
-        <li><strong>Type:</strong> Datetime</li>
-        <li><strong>Importance: </strong>High - allows data to be traced over time</li>
-        <li><strong>Remarks:</strong>Range from "01/01/2022 00:00" to "31/01/2022 00:30". No missing values identified. Consider conversion to standard ISO 8601 format for better interoperability</li>
+    <ul><strong>TripID: </strong>
+        <li><strong>Type:</strong> Integer</li>
+        <li><strong>Importance: </strong>High - allows to track each trip</li>
+        <li><strong>Remarks:</strong>Unique values serving as the primary key for trip records.</li>
     </ul>
     <ul><strong>BikeID:</strong>
         <li><strong>Type: Integer</strong></li>
         <li><strong>Importance: High - unique identifier for bicycles. </strong></li>
-        <li><strong>Remarks:</strong>79 unique IDs ranging from 5 to 124. No null values</li>
+        <li><strong>Remarks:</strong>Used to link trips to specific bicycles. No null values detected.</li>
     </ul>
-    <ul><strong>Battery:</strong>
-        <li><strong>Type:</strong>Integer</li>
-        <li><strong>Importance: </strong>High - important for tracking bike status</li>
-        <li><strong>Remarks:</strong>Values between -12 and 100 (validate negative values as errors). 2793 null values require specific management or imputation</li>
-    </ul>
-    <ul><strong>BikeIdentifier and SpikeID:</strong>
-        <li><strong>Type:</strong>Integer</li>
-        <li><strong>Importance: </strong>Medium - additional identifiers may be useful for different analyses or joins</li>
-        <li><strong>Remarks:</strong>Unspecified range for "BikeIdentifier" and 1-120 for "SpikeID". To be explored to understand the distinctions or relationships between these IDs and "BikeID"</li>
-    </ul>
-    <ul><strong>BikeTypeName, EBikeProfileID, EBikeStateID:</strong>
-        <li><strong>Type:</strong>String, Integer</li>
-        <li><strong>Importance: </strong>Medium - to be explored to understand their impact or relationship with bicycle use</li>
-        <li><strong>Remarks:</strong>Limited and distinct values in each field, with no null values. Exploration needed to understand meanings and implications</li>
-    </ul>
-    <ul><strong>IsEBike, IsMotor, IsSmartLock:</strong>
-        <li><strong>Type:</strong>Boolean</li>
-        <li><strong>Importance: </strong>Low/Medium - may not provide much variation or insight given the lack of diversity in the data</li>
-        <li><strong>Remarks:</strong>Constant values. Check usefulness for model or future analysis</li>
-    </ul>
-    <ul><strong>LastGPSTime, LastRentalStart:</strong>
+    <ul><strong>StartTime and EndTime:</strong>
         <li><strong>Type:</strong>Datetime</li>
-        <li><strong>Importance: </strong>High - time information relevant to analysis of rental behaviour</li>
-        <li><strong>Remarks:</strong>No null value. Convert to standard format if required and explore for temporal and behavioural insights</li>
+        <li><strong>Importance: </strong>High - critical for determining trip durations and patterrns.</li>
+        <li><strong>Remarks:</strong>Follows ISO 8601 format. Essential for temporal analysis</li>
     </ul>
-    <ul><strong>Latitude, Longitude:</strong>
+    <ul><strong>TripDuration:</strong>
         <li><strong>Type:</strong>Integer</li>
-        <li><strong>Importance: </strong>Very high - essential spatial information for geographic analysis and planning</li>
-        <li><strong>Remarks:</strong>Ensure data is consistent and accurate. No null values indicated.</li>
+        <li><strong>Importance: </strong>High - important for understanding usage patterns.</li>
+        <li><strong>Remarks:</strong>Values represent the duration of trips in seconds. No negative values.</li>
+    </ul>
+    <ul><strong>FromStationID and ToStationID:</strong>
+        <li><strong>Type:</strong>Integer</li>
+        <li><strong>Importance: </strong>High - important for understanding usage patterns.</li>
+        <li><strong>Remarks:</strong>Station IDs are critical for geographic mapping and analysis.</li>
+    </ul>
+    <ul><strong>FromStationName and ToStationName:</strong>
+        <li><strong>Type:</strong>String</li>
+        <li><strong>Importance: </strong>High - important for understanding usage patterns.</li>
+        <li><strong>Remarks:</strong>Values represent the locations of each station of trips.</li>
+    </ul>
+    <ul><strong>UserType:</strong>
+        <li><strong>Type:</strong>String</li>
+        <li><strong>Importance: </strong>Medium - provides insight into customer segmentation</li>
+        <li><strong>Remarks:</strong>typically "Customer" or "Subscriber", indicating the type of bike share user.</li>
+    </ul>
+    <ul><strong>Gender:</strong>
+        <li><strong>Type:</strong>String</li>
+        <li><strong>Importance: </strong> Low/Medium - may offer demographic insights for user behavior analysis.</li>
+        <li><strong>Remarks:</strong>Includes "Male", "Female", and  null for non-subscribers.</li>
+    </ul>
+    <ul><strong>BirthYear:</strong>
+        <li><strong>Type:</strong>Integer</li>
+        <li><strong>Importance: </strong>Medium - can be used for demographic analysis.</li>
+        <li><strong>Remarks:</strong>Year of birth of the user, might contain null values for "Customer" type users.</li>
     </ul>
 
     <h3>Data Schema:</h3>
     <ul><strong>Potential Relationships: </strong>
-        <li>BikeID and Biketype, battery, : Understand whether there are any relationships or correspondences between these identifiers.</li>
-        <li>LastGPSTime, LastRentalStart, HarvestTime: Evaluate how these timestamps interact and reflect the behaviour of bikes and users.</li>
+        <li>BikeID and Trips: Correlate each bike with its usage data, including trip durations and station information.</li>
+        <li>UserType, Gender, and BirthYear: Analyze how these user characteristics affect trip patterns and bike usage.</li>
     </ul>
 
     <ul><strong>Potential Exploits:</strong>
-        <li>Temporal and spatial attributes (HarvestTime, Latitude, Longitude) are essential for any temporal and geospatial analysis, such as demand prediction and route analysis.</li>
-        <li>Bicycle state attributes (Battery) will be central to analysing bicycle efficiency and usage.</li>
+        <li>Temporal Data (StartTime, EndTime): Utilize for modeling peak usage times and user behavior.</li>
+        <li>Spatial Data (FromStationID, ToStationID): Critical for route analysis, station performance, and planning.</li>
+        <li>Demographics (Gender, BirthYear): Inform targeted marketing and service adjustments</li>
     </ul>
 
     <h2>Publisher & Rightholder:</h2>
     <ul>
-        <li><strong>Publisher: </strong></li>Moby Bikes (Which is an Electric bike-sharing operator in Dublin)
-        <li><strong>Author: </strong></li>info@smartdublin.ie
+        <li><strong>Publisher: </strong></li>Divvy bicycle sharing service 
+        <li><strong>Author: </strong></li>Lyft Bikes and Scooters, LLC 
     </ul>
     <h2>Licence:</h2>
-    <p>The license used for our datasource uses is <a href="https://opendefinition.org/licenses/cc-by/">"Creative Commons Attribution"</a> they allow re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.</a></p>
-    <p>To apply the license we either have to use <strong>CC license chooser</strong> or just include a link to the license while mentioning Creative Commons Attribution</p>
+    <p>The license used for our datasource uses is <a href="https://divvybikes.com/data-license-agreement">"Lyft Bikes and Scooters, LLC</a> they allow re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.</a></p>
 
 </body>
 </html>
