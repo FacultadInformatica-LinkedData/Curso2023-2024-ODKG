@@ -86,6 +86,6 @@ npm start
 
 The application should now be accessible at http://localhost:3000.
 
-##Additional Notes
+## Additional Notes                
 Make sure you have the necessary software (e.g., Node.js, npm) installed on your system before running the React application.
 Customize the Fuseki server configuration and the Node.js React application setup based on your project requirements.
