@@ -98,7 +98,7 @@ ns:districtCode rdf:type owl:ObjectProperty ;
 
 ###  http://MadridTransit.com/ontology/alcoholInfluence
 ns:alcoholInfluence rdf:type owl:DatatypeProperty ;
-                    rdfs:domain prot:Accident ;
+                    rdfs:domain foaf:Person ;
                     rdfs:range xsd:boolean ;
                     rdfs:label "alcohol influence" .
 
@@ -122,7 +122,7 @@ ns:description rdf:type owl:DatatypeProperty ;
 
 ###  http://MadridTransit.com/ontology/drugInfluence
 ns:drugInfluence rdf:type owl:DatatypeProperty ;
-                 rdfs:domain prot:Accident ;
+                 rdfs:domain foaf:Person ;
                  rdfs:range xsd:boolean ;
                  rdfs:label "drug influence" .
 
