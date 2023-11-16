@@ -81,7 +81,7 @@ for s, p, o in g:
 # %%
 # TO DO
 #Create instance of University with name UPM
-upm = URIRef("http://somewhere#UPM")
+upm = URIRef("https://www.upm.es/")
 g.add((upm, RDF.type, ns.UNIVERSITY))
 
 #Add upm as John smith's working place

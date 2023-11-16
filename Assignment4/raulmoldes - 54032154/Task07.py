@@ -39,7 +39,8 @@ g.bind('vcard',VCARD)
 # Define the SPARQL query
 query_text = """    
     SELECT ?subclass WHERE {
-        ?subclass rdfs:subClassOf ns:LivingThing .
+        ?subclass rdfs:subClassOf* ns:LivingThing .
+        
     }    
 """
 #Prepare the query
@@ -50,6 +51,21 @@ query = prepareQuery(query_text,initNs = {"ns":ns,"rdfs":RDFS})
 for row in g.query(query):
     print(row)
 
+# %% Using RDFlIB only
+# TO DO
+def get_subclasses(g, class_name,subclasses):
+    """Return all the subclasses of a given class"""
+
+    for s, p, o in g.triples((None, RDFS.subClassOf, class_name)):
+        subclasses.append(s)
+        get_subclasses(g, s,subclasses)
+    return subclasses
+    
+
+# Get all the subclasses of LivingThing and its subclasses
+subclasses = get_subclasses(g, ns.LivingThing,subclasses = list())
+for s in subclasses:
+    print(s)        
 
 # %% [markdown]
 # **TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
@@ -68,7 +84,7 @@ WHERE {
     { ?individual rdf:type ns:Person . }
     UNION
     { ?individual rdf:type ?type .
-      ?type rdfs:subClassOf ns:Person . }
+      ?type rdfs:subClassOf* ns:Person . }
 }
 
 """
@@ -77,9 +93,16 @@ query = prepareQuery(query_text,initNs={'ns':ns,'rdf':RDF,'rdfs':RDFS})
 # Execute the query
 #Visualize the results
 for row in g.query(query):
-    print(f"Individual: {row[0]}")
+    print(f"Individual: {row[0]} ")
+
+# %% Using RDFlIB only
 
 
+# Get all the individuals of Person and its subclasses
+subclasses = get_subclasses(g, ns.Person,subclasses = [ns.Person])
+for s in subclasses:
+    for s1, p1, o1 in g.triples((None, RDF.type, s)):
+        print(s1)
 # %% [markdown]
 # **TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 # 
@@ -96,7 +119,9 @@ query_text = """
     WHERE {
         ?individual rdf:type ?class .
         ?individual ?property ?value .
-        FILTER (?class IN (ns:Person, ns:Animal))
+        {?individual rdf:type ns:Person .}
+        UNION
+        {?individual rdf:type ns:Animal .}
     }
 """
 query = prepareQuery(query_text, initNs={'ns':ns,'rdf':RDF})
