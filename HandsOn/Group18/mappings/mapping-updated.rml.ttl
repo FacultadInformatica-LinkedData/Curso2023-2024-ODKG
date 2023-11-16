@@ -337,7 +337,7 @@ map:pm_036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
 	rr:constant nso:hasRoad .
 
 map:pm_037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
-	rr:constant nso:districtCode .
+	rr:constant nso:belongsDistrict .
 
 map:pom_000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateObjectMap ;
 	rr:objectMap map:om_000 ;
