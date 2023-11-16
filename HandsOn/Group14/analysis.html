@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis & Resource Naming Strategy</title>
+</head>
+<body>
+    <h1>Naming strategy</h1>
+    <p>We went with the default name base and prefix "ns: http://base.namespace.com#"</p>
+    <h1>Moby Bikes Bike Share Datasource:</h1>
+    <h2>Dataset Analysis:</h2>
+
+    <h3>Quantities and Values:</h3>
+    <ul><strong>HarvestTime: </strong>
+        <li><strong>Type:</strong> Datetime</li>
+        <li><strong>Importance: </strong>High - allows data to be traced over time</li>
+        <li><strong>Remarks:</strong>Range from "01/01/2022 00:00" to "31/01/2022 00:30". No missing values identified. Consider conversion to standard ISO 8601 format for better interoperability</li>
+    </ul>
+    <ul><strong>BikeID:</strong>
+        <li><strong>Type: Integer</strong></li>
+        <li><strong>Importance: High - unique identifier for bicycles. </strong></li>
+        <li><strong>Remarks:</strong>79 unique IDs ranging from 5 to 124. No null values</li>
+    </ul>
+    <ul><strong>Battery:</strong>
+        <li><strong>Type:</strong>Integer</li>
+        <li><strong>Importance: </strong>High - important for tracking bike status</li>
+        <li><strong>Remarks:</strong>Values between -12 and 100 (validate negative values as errors). 2793 null values require specific management or imputation</li>
+    </ul>
+    <ul><strong>BikeIdentifier and SpikeID:</strong>
+        <li><strong>Type:</strong>Integer</li>
+        <li><strong>Importance: </strong>Medium - additional identifiers may be useful for different analyses or joins</li>
+        <li><strong>Remarks:</strong>Unspecified range for "BikeIdentifier" and 1-120 for "SpikeID". To be explored to understand the distinctions or relationships between these IDs and "BikeID"</li>
+    </ul>
+    <ul><strong>BikeTypeName, EBikeProfileID, EBikeStateID:</strong>
+        <li><strong>Type:</strong>String, Integer</li>
+        <li><strong>Importance: </strong>Medium - to be explored to understand their impact or relationship with bicycle use</li>
+        <li><strong>Remarks:</strong>Limited and distinct values in each field, with no null values. Exploration needed to understand meanings and implications</li>
+    </ul>
+    <ul><strong>IsEBike, IsMotor, IsSmartLock:</strong>
+        <li><strong>Type:</strong>Boolean</li>
+        <li><strong>Importance: </strong>Low/Medium - may not provide much variation or insight given the lack of diversity in the data</li>
+        <li><strong>Remarks:</strong>Constant values. Check usefulness for model or future analysis</li>
+    </ul>
+    <ul><strong>LastGPSTime, LastRentalStart:</strong>
+        <li><strong>Type:</strong>Datetime</li>
+        <li><strong>Importance: </strong>High - time information relevant to analysis of rental behaviour</li>
+        <li><strong>Remarks:</strong>No null value. Convert to standard format if required and explore for temporal and behavioural insights</li>
+    </ul>
+    <ul><strong>Latitude, Longitude:</strong>
+        <li><strong>Type:</strong>Integer</li>
+        <li><strong>Importance: </strong>Very high - essential spatial information for geographic analysis and planning</li>
+        <li><strong>Remarks:</strong>Ensure data is consistent and accurate. No null values indicated.</li>
+    </ul>
+
+    <h3>Data Schema:</h3>
+    <ul><strong>Potential Relationships: </strong>
+        <li>BikeID and Biketype, battery, : Understand whether there are any relationships or correspondences between these identifiers.</li>
+        <li>LastGPSTime, LastRentalStart, HarvestTime: Evaluate how these timestamps interact and reflect the behaviour of bikes and users.</li>
+    </ul>
+
+    <ul><strong>Potential Exploits:</strong>
+        <li>Temporal and spatial attributes (HarvestTime, Latitude, Longitude) are essential for any temporal and geospatial analysis, such as demand prediction and route analysis.</li>
+        <li>Bicycle state attributes (Battery) will be central to analysing bicycle efficiency and usage.</li>
+    </ul>
+
+    <h2>Publisher & Rightholder:</h2>
+    <ul>
+        <li><strong>Publisher: </strong></li>Moby Bikes (Which is an Electric bike-sharing operator in Dublin)
+        <li><strong>Author: </strong></li>info@smartdublin.ie
+    </ul>
+    <h2>Licence:</h2>
+    <p>The license used for our datasource uses is <a href="https://opendefinition.org/licenses/cc-by/">"Creative Commons Attribution"</a> they allow re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.</a></p>
+    <p>To apply the license we either have to use <strong>CC license chooser</strong> or just include a link to the license while mentioning Creative Commons Attribution</p>
+
+</body>
+</html>

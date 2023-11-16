@@ -1,0 +1,108 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <file:///home/schavez/chowlk/https//www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://RostockEVCharging.de/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.owl-ontologies.com/vcard#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+geo:lat a owl:DatatypeProperty ;
+    rdfs:label "lat" ;
+    rdfs:range xsd:Float .
+
+geo:long a owl:DatatypeProperty ;
+    rdfs:label "long" ;
+    rdfs:range xsd:Float .
+
+ns: a owl:Ontology ;
+    dc:creator "Group17" ;
+    dc:title "Rostock EV Charging" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:accepted_cards a owl:ObjectProperty ;
+    rdfs:label "accepted_cards" ;
+    rdfs:domain ns:ChargingStation ;
+    rdfs:range ns:ChargingCard .
+
+ns:cost a owl:DatatypeProperty ;
+    rdfs:label "cost" ;
+    rdfs:range xsd:String .
+
+ns:house_number a owl:DatatypeProperty ;
+    rdfs:label "house_number" ;
+    rdfs:range xsd:String .
+
+ns:house_number_add a owl:DatatypeProperty ;
+    rdfs:label "house_number_add" ;
+    rdfs:range xsd:String .
+
+ns:managed_by a owl:ObjectProperty ;
+    rdfs:label "managed_by" ;
+    rdfs:domain ns:ChargingStation ;
+    rdfs:range ns:Operator .
+
+ns:num_charging_points a owl:DatatypeProperty ;
+    rdfs:label "num_charging_points" ;
+    rdfs:domain ns:ChargingStation ;
+    rdfs:range xsd:Integer .
+
+ns:opening_hours a owl:DatatypeProperty ;
+    rdfs:label "opening_hours" ;
+    rdfs:range xsd:String .
+
+ns:operating_mode a owl:DatatypeProperty ;
+    rdfs:label "operating_mode" ;
+    rdfs:range xsd:String .
+
+ns:postal_code a owl:DatatypeProperty ;
+    rdfs:label "postal_code" ;
+    rdfs:range xsd:String .
+
+ns:street_name a owl:DatatypeProperty ;
+    rdfs:label "street_name" ;
+    rdfs:range xsd:String .
+
+ns:type_charging_points a owl:DatatypeProperty ;
+    rdfs:label "type_charging_points" ;
+    rdfs:range xsd:String .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+gn:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" ;
+    rdfs:domain ns:ChargingStation ;
+    rdfs:range ns:Municipality .
+
+gn:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain ns:Municipality ;
+    rdfs:range xsd:String .
+
+vcard:hasURL a owl:DatatypeProperty ;
+    rdfs:label "has u r l" ;
+    rdfs:range xsd:String .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:domain ns:ChargingStation ;
+    rdfs:range xsd:String .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+ns:ChargingCard a owl:Class ;
+    rdfs:label "Charging Card" .
+
+ns:Operator a owl:Class ;
+    rdfs:label "Operator" .
+
+ns:Municipality a owl:Class ;
+    rdfs:label "Municipality" .
+
+ns:ChargingStation a owl:Class ;
+    rdfs:label "Charging Station" .
+

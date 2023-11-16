@@ -1,0 +1,26 @@
+@prefix base: <http://madrid.encuentra.es/resource/>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix xml: <http://www.w3.org/2001/XMLSchema#>
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>
+@prefix schema: <http://schema.org/>
+@prefix ns: <http://madrid.encuentra.es/rdf-schema#>
+@prefix esequip: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#>
+@prefix esagenda: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda>
+
+
+ns:Evento rdfs:type esagenda:Evento;
+    rdfs:label "20.000 especies de abejas";
+    rdfs:description "De Estibaliz Urresola Solaguren. Con Sofía Otero, Patricia López Arnaiz, Ane Gabaraín. España 2023. Duración: 129 minutos. No recomendada para menores de 7 años y especialmente recomendada para el fomento de la igualdad de género. Cocó, de ocho años, no encaja en las expectativas del resto y no entiende por qué. Todos a su alrededor insisten en llamarle Aitor pero no se reconoce en ese nombre ni en la mirada de los demás. Su madre Ane, (Patricia López Arnaiz), sumida en una crisis profesional y sentimental, aprovechará las vacaciones para viajar con sus tres hijos a la casa materna, donde reside su madre Lita (Itziar Lazkano) y su tía Lourdes (Ane Gabarain), estrechamente ligada a la cría de abejas y la producción de miel. Este verano que cambiará sus vidas obligará a estas mujeres de tres generaciones muy distintas a enfrentarse a sus dudas y temores.";
+    esagenda:fechaInicio "2023-10-26T00:00:00.0";
+    esagenda:fechaFin "2023-10-26T23:59:00.0";
+    esagenda:horaInicio "19:00".
+
+ns:Facility rdfs:type rdfs:Class;
+    rdfs:label "Auditorio Carmen Laforet (Ciudad Lineal)";
+    rdfs:descripction "Ubicado en el Centro de Mayores Carmen Laforet";
+    ns:horario "De lunes a sábado, de 9 a 21 horas.";
+    ns:accesible "1";
+    ns:telefono "913 831 456";
+    ns:email "cscsiena@madrid.es";
+    esagenda:Evento ns:Evento .
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Set Analysis</title>
+</head>
+<body>
+    <h1>Data Set Analysis</h1>
+    <p>The dataset presented in the corresponding CSV file contains all cultural activities and events included in the Madrid City Council.</p>
+
+    <h2>Data Set Description</h2>
+    <p>In the dataset, we have a total of 1102 records, meaning 1102 elements. For each of the elements, we have 29 attributes to define them. In some cases, there are missing data, such as in the price, days of the week, or excluded days. However, in general, we have a fairly complete and consistent dataset.</p>
+
+    <h2>Data Set Properties</h2>
+    <ul>
+        <li><strong>Number of Records:</strong> 1102 cultural events in Madrid</li>
+        <li><strong>Event ID:</strong> 1102 elements: <strong>Integer</strong></li>
+        <li><strong>Event Title:</strong> 1102 elements: <strong>String</strong></li>
+        <li><strong>Price Range:</strong> From free to 140 euros, with 52 different price values: <strong>String</strong></li>
+        <li><strong>Free Events:</strong> A total of 216 free events and 885 that are not: <strong>Boolean</strong> </li>
+        <li><strong>Long-Duration Events:</strong> A total of 263 long-duration events and 838 that are not: <strong>Boolean</strong></li>
+        <li><strong>Days of the Week:</strong> Detailed as L, M, X, J, V, S, D: <strong>String</strong></li>
+        <li><strong>Excluded Days of the Week:</strong> Detailed as L, M, X, J, V, S, D: <strong>String</strong></li>
+        <li><strong>Dates:</strong> Events from 01/19/2019 to 01/12/2024: <strong>Datetime</strong></li>
+        <li><strong>Hours:</strong> Event times: <strong>Datetime</strong></li>
+        <li><strong>Description:</strong> Data on cultural events in Madrid, including information on prices, schedules, and locations: <strong>String</strong></li>
+        <li><strong>Event URLs:</strong> With 1101 available event URLs: <strong>String</strong></li>
+        <li><strong>Activity URLs:</strong> With 276 available activity URLs: <strong>String</strong></li>
+        <li><strong>Facility URLs:</strong> With 151 available cultural facility URLs: <strong>String</strong></li>
+        <li><strong>Accessible Facilities:</strong> A total of 11 elements to determine facility accessibility: <strong>List(Int)</strong></li>
+        <li><strong>Location:</strong> Includes a description of the street class (e.g., "CALLE"), street name, street number, district, neighborhood, postal code, and coordinates: <strong>String</strong></li>
+        <li><strong>Audience:</strong> Includes information about the type of audience suitable for each event, e.g., /Familias: <strong>String</strong></li>
+    </ul>
+
+    <h2>Resource Naming Strategy</h2>
+    <blockquote>
+        <strong>URI Form:</strong> Our URI's are based in HTTP: 
+        <ul>
+            <li><strong>MadridEncuentra:</strong> http://madrid.encuentra.es/</li>
+        </ul>
+        <br>
+        <strong>URI Domain:</strong> Our ontology gonna be hosted in http://madrid.encuentra.es
+        <br>
+        <strong>Ontology URI:</strong>The schema will be located at http://madrid.encuentra.es/rdf-schema#
+        <br>
+        <strong>Path Structure:</strong>  We gonna use a path with the form resource/event/{event_name} for events and resource/facility/{facility_name} for Facilities.
+        <br>
+        <strong>Namespace Prefixes:</strong> In the practical work , we use the following namespaces for define the URI's:
+        <ul>
+            <li><strong>me:</strong> http://madrid.encuentra.es/rdf-schema#</li>
+            <li><strong>rdfs:</strong> http://www.w3.org/2000/01/rdf-schema#</li>
+            <li><strong>skos:</strong> http://www.w3.org/2004/02/skos/core#</li>
+            <li><strong>schema:</strong> http://schema.org/</li>
+            <li><strong>esquip:</strong> http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#</li>
+            <li><strong>esagenda:</strong> http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda</li>
+        </ul>
+        <br>
+        <strong>Content Negotiation::</strong> It's possible use JSON-LD, RDF/XML, and HTML to represent the data and his schema, but we use RDF/Turtle (.ttl) 
+        <br>
+        </blockquote>
+
+    <h2>Data Source License</h2>
+    <p>The data source is in the public domain and therefore not specifically licensed. However, the conditions of use established by the Madrid City Council must be respected.<p>
+    <p>The data source used in this analysis is subject to the following aspects:</p>
+    <blockquote>
+        <strong>Publisher of the dataset and rights holder:</strong> Madrid City Council
+        <br>
+        <strong>Conditions URL:</strong> <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Conditions for the general method of making reusable documents of the Madrid City Council available for reuse.</a>
+        <br>
+        <strong>Conditions description:</strong> This document establishes the general conditions for the re-use of documents and data provided by Madrid City Council. These conditions apply to any person or company wishing to use these documents and data.
+        <br>
+        The general conditions allow the re-use of documents for commercial and non-commercial purposes. This includes activities such as copying, disseminating, modifying, adapting, extracting and combining information.
+        <br>
+        Intellectual property rights of the documents are granted for reuse, such as not distorting the information, citing the source, mentioning the date of update and not implying the endorsement of Madrid City Council.
+    </blockquote>
+</body>
+</html>

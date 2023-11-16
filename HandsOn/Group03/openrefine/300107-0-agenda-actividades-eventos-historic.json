@@ -1,0 +1,442 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "PRECIO",
+    "description": "Remove column PRECIO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "GRATUITO",
+    "description": "Remove column GRATUITO"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIAS-EXCLUIDOS",
+    "description": "Remove column DIAS-EXCLUIDOS"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TITULO-ACTIVIDAD",
+    "description": "Remove column TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URL-ACTIVIDAD",
+    "description": "Remove column URL-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-X",
+    "description": "Remove column COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-Y",
+    "description": "Remove column COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "AUDIENCIA",
+          "columnName": "AUDIENCIA",
+          "query": "mayor",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "AUDIENCIA",
+    "description": "Remove column AUDIENCIA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID-EVENTO",
+    "newColumnName": "ID",
+    "description": "Rename column ID-EVENTO to ID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TITULO",
+    "newColumnName": "Nombre",
+    "description": "Rename column TITULO to Nombre"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Nombre",
+    "newColumnName": "NOMBRE",
+    "description": "Rename column Nombre to NOMBRE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "LARGA-DURACION",
+    "newColumnName": "EVENTO LARGO",
+    "description": "Rename column LARGA-DURACION to EVENTO LARGO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIAS-SEMANA",
+    "newColumnName": "DIAS DE SEMANA",
+    "description": "Rename column DIAS-SEMANA to DIAS DE SEMANA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA",
+    "newColumnName": "FECHA INICIO",
+    "description": "Rename column FECHA to FECHA INICIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA-FIN",
+    "newColumnName": "FECHA FIN",
+    "description": "Rename column FECHA-FIN to FECHA FIN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CONTENT-URL",
+    "newColumnName": "URL CONTENIDO",
+    "description": "Rename column CONTENT-URL to URL CONTENIDO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URL-INSTALACION",
+    "newColumnName": "INSTALACION URL",
+    "description": "Rename column URL-INSTALACION to INSTALACION URL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE-INSTALACION",
+    "newColumnName": "NOMBRE INSTALACION",
+    "description": "Rename column NOMBRE-INSTALACION to NOMBRE INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ACCESIBILIDAD-INSTALACION",
+    "newColumnName": "ACCESIBILIDAD INSTALACION",
+    "description": "Rename column ACCESIBILIDAD-INSTALACION to ACCESIBILIDAD INSTALACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLASE-VIAL-INSTALACION",
+    "expression": "join ([coalesce(cells['CLASE-VIAL-INSTALACION'].value,''),coalesce(cells['NOMBRE-VIA-INSTALACION'].value,''),coalesce(cells['NUM-INSTALACION'].value,'')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CLASE-VIAL-INSTALACION using expression join ([coalesce(cells['CLASE-VIAL-INSTALACION'].value,''),coalesce(cells['NOMBRE-VIA-INSTALACION'].value,''),coalesce(cells['NUM-INSTALACION'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CLASE-VIAL-INSTALACION",
+    "newColumnName": "DIRECCION",
+    "description": "Rename column CLASE-VIAL-INSTALACION to DIRECCION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE-VIA-INSTALACION",
+    "description": "Remove column NOMBRE-VIA-INSTALACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NUM-INSTALACION",
+    "description": "Remove column NUM-INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DISTRITO-INSTALACION",
+    "newColumnName": "DISTRITO",
+    "description": "Rename column DISTRITO-INSTALACION to DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BARRIO-INSTALACION",
+    "newColumnName": "BARRIO",
+    "description": "Rename column BARRIO-INSTALACION to BARRIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO-POSTAL-INSTALACION",
+    "newColumnName": "CODIGO POSTAL",
+    "description": "Rename column CODIGO-POSTAL-INSTALACION to CODIGO POSTAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO",
+    "newColumnName": "TIPO DE ACTIVIDAD",
+    "description": "Rename column TIPO to TIPO DE ACTIVIDAD"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA INICIO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column FECHA INICIO by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA INICIO 2",
+    "description": "Remove column FECHA INICIO 2"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA FIN",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column FECHA FIN by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA FIN 2",
+    "description": "Remove column FECHA FIN 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA FIN 1",
+    "newColumnName": "FECHA FIN",
+    "description": "Rename column FECHA FIN 1 to FECHA FIN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA INICIO 1",
+    "newColumnName": "FECHA INICIO",
+    "description": "Rename column FECHA INICIO 1 to FECHA INICIO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA INICIO",
+    "expression": "grel:value.toDate(\"yyyy-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA INICIO using expression grel:value.toDate(\"yyyy-MM-dd\")"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO DE ACTIVIDAD",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "/",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column TIPO DE ACTIVIDAD by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO DE ACTIVIDAD 1",
+    "description": "Remove column TIPO DE ACTIVIDAD 1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO DE ACTIVIDAD 2",
+    "description": "Remove column TIPO DE ACTIVIDAD 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO DE ACTIVIDAD 3",
+    "description": "Remove column TIPO DE ACTIVIDAD 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO DE ACTIVIDAD 5",
+    "description": "Remove column TIPO DE ACTIVIDAD 5"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE ACTIVIDAD 4",
+    "newColumnName": "TIPO DE ACTIVIDAD",
+    "description": "Rename column TIPO DE ACTIVIDAD 4 to TIPO DE ACTIVIDAD"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA INICIO",
+    "expression": "grel:value.substring(0,10)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA INICIO using expression grel:value.substring(0,10)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO DE ACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ActividadesDeportivas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Actividades Deportivas"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO DE ACTIVIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO DE ACTIVIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ConferenciasColoquios"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conferencias Coloquios"
+      }
+    ],
+    "description": "Mass edit cells in column TIPO DE ACTIVIDAD"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO DE ACTIVIDAD",
+    "expression": "grel:value.replace(/([a-z])([A-Z])/, '$1 $2')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO DE ACTIVIDAD using expression grel:value.replace(/([a-z])([A-Z])/, '$1 $2')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIAS DE SEMANA",
+    "expression": "grel:if(isBlank(value.trim()), \"-\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIAS DE SEMANA using expression grel:if(isBlank(value.trim()), \"-\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:if(isBlank(value.trim()), \"Sin descripción\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Sin descripción\", value)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "EVENTO LARGO",
+    "newColumnName": "EVENTO_LARGO",
+    "description": "Rename column EVENTO LARGO to EVENTO_LARGO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DIAS DE SEMANA",
+    "newColumnName": "DIAS_DE_SEMANA",
+    "description": "Rename column DIAS DE SEMANA to DIAS_DE_SEMANA"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA INICIO",
+    "newColumnName": "FECHA_INICIO",
+    "description": "Rename column FECHA INICIO to FECHA_INICIO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "FECHA FIN",
+    "newColumnName": "FECHA_FIN",
+    "description": "Rename column FECHA FIN to FECHA_FIN"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "URL CONTENIDO",
+    "newColumnName": "URL_CONTENIDO",
+    "description": "Rename column URL CONTENIDO to URL_CONTENIDO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "INSTALACION URL",
+    "newColumnName": "INSTALACION_URL",
+    "description": "Rename column INSTALACION URL to INSTALACION_URL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE INSTALACION",
+    "newColumnName": "NOMBRE_INSTALACION",
+    "description": "Rename column NOMBRE INSTALACION to NOMBRE_INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ACCESIBILIDAD INSTALACION",
+    "newColumnName": "ACCESIBILIDAD_INSTALACION",
+    "description": "Rename column ACCESIBILIDAD INSTALACION to ACCESIBILIDAD_INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CODIGO POSTAL",
+    "newColumnName": "CODIGO_POSTAL",
+    "description": "Rename column CODIGO POSTAL to CODIGO_POSTAL"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TIPO DE ACTIVIDAD",
+    "newColumnName": "TIPO_DE_ACTIVIDAD",
+    "description": "Rename column TIPO DE ACTIVIDAD to TIPO_DE_ACTIVIDAD"
+  }
+]

@@ -1,0 +1,101 @@
+prefixes:
+ dc: http://purl.org/dc/elements/1.1/
+ rr: http://www.w3.org/ns/r2rml#
+ rml: http://semweb.mmlab.be/ns/rml#
+ ns: http://MadridTransit.com/
+ nso: http://MadridTransit.com/ontology/
+ owl: http://www.w3.org/2002/07/owl#
+ xsd: http://www.w3.org/2001/XMLSchema#
+ rdf: http://www.w3.org/2000/01/rdf-schema#
+ prot: http://www.ontotext.com/proton/protonext#
+ dnb: https://d-nb.info/standards/elementset/gnd#
+ dbp: dbpedia.org/ontology/
+ foaf: http://xmlns.com/foaf/0.1/
+ sch: https://schema.org/
+mappings:
+  Accidents:
+    sources:
+        - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Accidents/$(num_Expediente)
+    po:
+      - [a, prot:Accident~iri]
+      - [nso:occuredOn, $(dateTime), xsd:dateTime]
+      - [nso:num_Expediente, $(num_expediente), xsd:string]
+      - [nso:typeOfAccident, $(tipo_accidente)]
+      - [nso:vehicleInvolved, ns:Vehicles/$(tipo_vehiculo)~iri]
+      - [nso:weatherCondition, ns:Weathers/$(estado_meteorologico)~iri]
+      - [nso:personInvolved, ns:Persons/$(tipo_persona)/$(recordNumber)~iri]
+      - [nso:locatedAt, ns:Address/$(recordNumber)~iri]
+      - [nso:coordinates ns:Coordinates/$(recordNumber)~iri]
+
+  Vehicles:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Vehicles/$(tipo_vehiculo)
+    po:
+      - [a, sch:Vehicle~iri]
+      - [nso:typeOfVehicle, $(tipo_vehiculo)]
+      - [rdf:label, $(tipo_vehiculo)]
+      - [owl:sameAs, $(Wikidata Type of Vehicle Code)~iri]
+  Weather:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Weather/$(estado_meteorologico)
+    po:
+      - [a, nso:Weather~iri]
+      - [nso:weatherType, $(estado_meteorologico)]
+      - [rdf:label, $(estado_meteorologico)]
+      - [owl:sameAs, $(Wikidata Weather Code)~iri]
+
+  Person:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Persons/$(recordNumber)
+    po:
+      - [a, foaf:Person~iri]
+      - [nso:gender, $(sexo)]
+      - [nso:rangeOfAge, $(rango_edad)]
+      - [nso:typeOfPerson, $(tipo_persona)]
+      - [nso:physicalDamages,  ns:InjuryTypes/$(cod_lesividad)~iri]
+      - [nso:alcoholInfluence, $(positiva_alcohol), xsd:boolean]
+      - [nso:drugInfluence, $(positiva_droga), xsd:boolean]
+
+  District:
+    sources:
+      - [ Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Districts/$(cod_distrito)
+    po:
+      - [a, dbp:District~iri]
+      - [nso:name, $(distrito)]
+      - [nr:districtCode,$(cod_distrito), xsd:integer]
+      - [rdf:label, $(distrito)]
+      - [owl:sameAs,$(Wikidata Madrid District Code)~iri]
+
+  InjuryType:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:inJuryTypes/$(cod_lesividad)
+    po:
+      - [a, nso:InjuryType~iri]
+      - [nso:code, $(cod_lesividad), xsd:integer]
+      - [nso:description, $(lesividad)]
+
+  Coordinates:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Coordinates/$(recordNumber)
+    po:
+      - [a, dnb:coordinates~iri]
+      - [dnb:northernmostLatitude, $(coordenada_x_utm),xsd:float]
+      - [dnb:easternmostLongitude, $(coordenada_y_utm),xsd:float]
+
+
+  Address:
+    sources:
+      - [Accidents-in-Madrid-with-Links-updated-csv.csv~csv]
+    s: ns:Address/$(recordNumber)
+    po:
+      - [a, nso:Address~iri]
+      - [nso:Number, $(numero), xsd:string]
+      - [nso:hasRoad, $(localizacion)]
+      - [nso:districtCode, ns:Districts/$(cod_distrito)~iri]

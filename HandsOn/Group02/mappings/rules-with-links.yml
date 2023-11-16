@@ -1,0 +1,44 @@
+prefixes:
+  clase2: "http://madridalfresco.es/lcc/resource/"
+  clase: "http://madridalfresco.es/lcc/ontology/locales#"
+
+mappings:
+  Local:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Local/$(id_local)
+    po:
+      - [a, clase2:Local]
+      - [clase:rotulo, $(rotulo)]
+      - [clase:coordenadaX, $(coordenadaX)]
+      - [clase:coordenadaY, $(coordenadaY)]
+      - [clase:situacion, $(situacion)]
+      - [clase:horaApertura, $(horaApertura)]
+      - [clase:horaCierre, $(horaCierre)]
+      - [clase:tieneTerraza, "http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)"]
+      - [clase:perteneceADistrito, "http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)"]
+  Terraza:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Terraza/$(id_terraza)
+    po:
+      - [a, clase2:Terraza]
+      - [clase:mesas, $(mesas)]
+      - [clase:sillas, $(sillas)]
+      - [clase:superficie, $(superficie)]
+      - [clase:perteneceALocal, "http://madridalfresco.es/lcc/resource/Local/$(id_local)"]
+  Distrito:
+    sources:
+      - ['../csv/terrazas202309-updated-csv-with-links.csv~csv']
+    s: http://madridalfresco.es/lcc/resource/Distrito/$(id_distrito)
+    po:
+      - [a, clase2:Distrito]
+      - [clase:nombreDistrito, $(nombreDistrito)]
+      - [clase:barrio, $(barrio)]
+      - [clase:tipoVia, $(tipoVia)]
+      - [clase:nombreCalle, $(nombreCalle)]
+      - [clase:portal, $(portal)]
+      - [clase:codPostal, $(codPostal)]
+      - [clase:sameAsNombreDistrito, $(same_as_wikidata_nombreDistrito)]
+      - [clase:sameAsBarrio, $(same_as_wikidata_barrio)]
+      - [clase:sameAsTipoVia, $(same_as_wikidata_tipoVia)]
