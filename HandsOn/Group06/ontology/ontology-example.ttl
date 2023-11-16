@@ -12,10 +12,10 @@
 	:id_registroPeatones "PERM_PEA02_PM012021-01-01T00:00Z" ;
 	:latitud 40.42200905 ;
 	:longitud -3.700891722 ;
-	:fechaHora 2021-01-01T00:00:00Z ;
+	:fechaHora "2021-01-01T00:00:00Z" ;
 	:observacionesDireccion "Calle peatonal" ;
 	:numPeatones 110 ;
-	:perteneceACalle <rec:Distrito/Calle Fuencarral> .
+	:perteneceACalle <rec:Calle/Calle Fuencarral> .
 
 # Instance Calle
 <rec:Calle/Calle Fuencarral>
