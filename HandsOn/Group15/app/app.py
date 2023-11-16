@@ -79,7 +79,7 @@ def tree_frame(management_bar: tk.Frame, map_widget: tkintermapview.TkinterMapVi
     outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
     outer_frame.grid(row=0, column=2, padx=5, pady=5)
 
-    tree_title = tk.Label(outer_frame, text="Trees by species (e.g. Platanus x hispanica)", font=("Arial", 14))
+    tree_title = tk.Label(outer_frame, text="Trees by species (e.g. Yucca gigantea)", font=("Arial", 14))
     tree_title.pack()
     tree_text_entry = tk.Entry(outer_frame)
     tree_text_entry.pack()
