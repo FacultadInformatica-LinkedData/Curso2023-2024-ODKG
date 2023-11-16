@@ -2,7 +2,8 @@
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix mod: <https://w3id.org/mod#> .
-@prefix ns: <http://vidaactivamadrid.es/info/ontology/> .
+@prefix nsc: <http://vidaactivamadrid.es/info/ontology/class#> .
+@prefix nsp: <http://vidaactivamadrid.es/info/ontology/property#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sch: <https://schema.org/> .
@@ -12,76 +13,80 @@ dc:creator a owl:AnnotationProperty .
 
 dc:title a owl:AnnotationProperty .
 
-ns:TakesPlaceIn a owl:ObjectProperty ;
+nsp:TakesPlaceIn a owl:ObjectProperty ;
     rdfs:label "takes place in" ;
-    rdfs:domain ns:Activity ;
-    rdfs:range ns:Facility .
+    rdfs:domain nsc:Activity ;
+    rdfs:range nsc:Facility .
 
-ns:accessibility a owl:DatatypeProperty ;
+nsp:accessibility a owl:DatatypeProperty ;
     rdfs:label "accessibility" ;
     rdfs:range xsd:string .
 
-ns:contentURL a owl:DatatypeProperty ;
+nsp:addressIsInNeighborhood a owl:ObjectProperty ;
+    rdfs:label "address is in neighborhood" ;
+    rdfs:domain nsc:Address ;
+    rdfs:range nsc:Neighborhood .
+
+nsp:contentURL a owl:DatatypeProperty ;
     rdfs:label "content u r l" ;
     rdfs:range xsd:anyURI .
 
-ns:dayOfWeek a owl:DatatypeProperty ;
+nsp:dayOfWeek a owl:DatatypeProperty ;
     rdfs:label "day of week" ;
     rdfs:range xsd:string .
 
-ns:description a owl:DatatypeProperty ;
+nsp:description a owl:DatatypeProperty ;
     rdfs:label "description" ;
     rdfs:range xsd:string .
 
-ns:endDate a owl:DatatypeProperty ;
+nsp:endDate a owl:DatatypeProperty ;
     rdfs:label "end date" ;
     rdfs:range xsd:dateTime .
 
-ns:facilityURL a owl:DatatypeProperty ;
+nsp:facilityURL a owl:DatatypeProperty ;
     rdfs:label "facility u r l" ;
     rdfs:range xsd:anyURI .
 
-ns:hasAddress a owl:ObjectProperty ;
+nsp:hasAddress a owl:ObjectProperty ;
     rdfs:label "has address" ;
-    rdfs:domain ns:Facility ;
-    rdfs:range ns:Address .
+    rdfs:domain nsc:Facility ;
+    rdfs:range nsc:Address .
 
-ns:isInDistrict a owl:ObjectProperty ;
+nsp:isInDistrict a owl:ObjectProperty ;
     rdfs:label "is in district" ;
-    rdfs:domain ns:Neighborhood ;
-    rdfs:range ns:District .
+    rdfs:domain nsc:Neighborhood ;
+    rdfs:range nsc:District .
 
-ns:isInNeighborhood a owl:ObjectProperty ;
-    rdfs:label "is in neighborhood" ;
-    rdfs:domain ns:Address,
-        ns:Park ;
-    rdfs:range ns:Neighborhood .
-
-ns:latitude a owl:DatatypeProperty ;
+nsp:latitude a owl:DatatypeProperty ;
     rdfs:label "latitude" ;
     rdfs:range xsd:double .
 
-ns:longEvent a owl:DatatypeProperty ;
+nsp:longEvent a owl:DatatypeProperty ;
     rdfs:label "long event" ;
     rdfs:range xsd:boolean .
 
-ns:longitude a owl:DatatypeProperty ;
+nsp:longitude a owl:DatatypeProperty ;
     rdfs:label "longitude" ;
     rdfs:range xsd:double .
 
-ns:name a owl:DatatypeProperty ;
+nsp:name a owl:DatatypeProperty ;
     rdfs:label "name" ;
     rdfs:range xsd:string .
 
-ns:startDate a owl:DatatypeProperty ;
+nsp:parkIsInNeighborhood a owl:ObjectProperty ;
+    rdfs:label "park is in neighborhood" ;
+    rdfs:domain nsc:Park ;
+    rdfs:range nsc:Neighborhood .
+
+nsp:startDate a owl:DatatypeProperty ;
     rdfs:label "start date" ;
     rdfs:range xsd:dateTime .
 
-ns:time a owl:DatatypeProperty ;
+nsp:time a owl:DatatypeProperty ;
     rdfs:label "time" ;
     rdfs:range xsd:string .
 
-ns:typeOfActivity a owl:DatatypeProperty ;
+nsp:typeOfActivity a owl:DatatypeProperty ;
     rdfs:label "type of activity" ;
     rdfs:range xsd:string .
 
@@ -100,26 +105,26 @@ sch:postalCode a owl:DatatypeProperty ;
 dbo:CityDistrict a owl:Class ;
     rdfs:label "City District" .
 
-ns:Activity a owl:Class ;
+nsc:Activity a owl:Class ;
     rdfs:label "Activity" .
 
-ns:District a owl:Class ;
+nsc:District a owl:Class ;
     rdfs:label "District" ;
     rdfs:subClassOf dbo:CityDistrict .
 
-ns:Park a owl:Class ;
+nsc:Park a owl:Class ;
     rdfs:label "Park" ;
     rdfs:subClassOf sch:CivicStructure .
 
 sch:CivicStructure a owl:Class ;
     rdfs:label "Civic Structure" .
 
-ns:Address a owl:Class ;
+nsc:Address a owl:Class ;
     rdfs:label "Address" .
 
-ns:Facility a owl:Class ;
+nsc:Facility a owl:Class ;
     rdfs:label "Facility" .
 
-ns:Neighborhood a owl:Class ;
+nsc:Neighborhood a owl:Class ;
     rdfs:label "Neighborhood" .
 

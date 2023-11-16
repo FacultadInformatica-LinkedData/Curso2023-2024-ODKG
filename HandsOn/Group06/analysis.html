@@ -45,24 +45,23 @@
 </ul>
 <p>Resource Naming Strategy:</p>
 <ul>
-<li>Uses a domain that is not the one given by default in Prot&eacute;g&eacute;:
+<li>We have created two classes "Calle" and "registroPeatones".</li>
+<li>Each "registroPeatones" class belongs to a "Calle" class (perteneceACalle)</li>
+<li>Each "Calle" class has 3 types of variables, "Calle" means Street:
 <ul>
-<li>http://opendataandkg.org/group06</li>
+<li>id_calle: is the unique id that defines the name of the street.</li>
+<li>distrito: defines from where part of the city is the street.</li>
+<li>codigoPostal: number assigned to different areas or places.</li>
 </ul>
 </li>
-<li>Uses different paths for ontology resources:
+<li>Each "registroPeatones" class has 6 types of variables, "registroPeatones" means <span class="Y2IQFc" lang="en">pedestrians</span> register:
 <ul>
-<li>http://opendataandkg.org/group06/peatones</li>
-</ul>
-</li>
-<li>Ensures that the paths for individuals of different classes are not the same:
-<ul>
-<li>The paths for the individuals are different.</li>
-</ul>
-</li>
-<li>Defines property URIs independently of class URIs:
-<ul>
-<li>Done</li>
+<li>id_registroPeatones: is the unique id that defines the register.</li>
+<li>latitud: numeric value for the vertical position.</li>
+<li>longitud: numeric value for the horizontal position.</li>
+<li>fechaHora: date and hour of the register.</li>
+<li>observacionesDireccion: comments related to the register.</li>
+<li>numPeatones: the number of pedestrians during the register.</li>
 </ul>
 </li>
 </ul>

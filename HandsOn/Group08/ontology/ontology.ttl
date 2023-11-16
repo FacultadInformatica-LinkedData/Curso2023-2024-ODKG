@@ -39,9 +39,6 @@ ontology:EnrollmentRate a owl:Class ;
 schema:CollegeORUniversity a owl:Class ;
     rdfs:label "College OR University" .
 
-ontology:Score a owl:Class ;
-    rdfs:label "Score" .
-
 ontology:City a owl:Class ;
     rdfs:label "City" .
 
@@ -59,14 +56,14 @@ ontology:University a owl:Class ;
     rdfs:subClassOf schema:CollegeORUniversity .
 
 ontology:Ranking a owl:Class;
-    rdfs:label "Ranking";
+    rdfs:label "Ranking".
 
-ontology:LiberalArtsRanking a owl:Class;
-    rdfs:label "LiberalArtsRanking"
+ontology:UniversityRankingLiberalArts a owl:Class;
+    rdfs:label "LiberalArtsRanking";
     rdfs:subClassOf ontology:Ranking.
 
-ontology:USNewsRanking a owl:Class;
-    rdfs:label "USNewsRanking"
+ontology:RankingUSNews a owl:Class;
+    rdfs:label "USNewsRanking";
     rdfs:subClassOf ontology:Ranking.
 
 #########################
@@ -75,7 +72,7 @@ ontology:USNewsRanking a owl:Class;
 ontology:hasRanking a owl:ObjectProperty ;
     rdfs:label "has ranking" ;
     rdfs:domain ontology:University ;
-    rdfs:range ontology:Ranking .
+    rdfs:range ontology:Ranking.
 
 ontology:hasRate a owl:ObjectProperty ;
     rdfs:label "has rate" ;
@@ -106,12 +103,12 @@ ontology:value a owl:DatatypeProperty ;
     rdfs:domain ontology:Rate ;
     rdfs:range rdfs:Literal .
 
-ontology:TotalAdmitted a owl:DatatypeProperty ;
+ontology:TotalAdmissions a owl:DatatypeProperty ;
     rdfs:label "total admitted" ;
     rdfs:domain ontology:AdmissionRate ;
     rdfs:range rdfs:Literal .
 
-ontology:TotalApplicants a owl:DatatypeProperty ;
+ontology:TotalApplications a owl:DatatypeProperty ;
     rdfs:label "total applicants" ;
     rdfs:domain ontology:Rate ;
     rdfs:range rdfs:Literal .
@@ -124,10 +121,6 @@ ontology:TotalEnrolled a owl:DatatypeProperty ;
 #########################
 #   University properties #
 #########################
-ontology:description a owl:DatatypeProperty ;
-    rdfs:label "description" ;
-    rdfs:domain ontology:University ;
-    rdfs:range rdfs:Literal .
 
 ontology:ipedsId a owl:DatatypeProperty ;
     rdfs:label "ipeds id" ;
@@ -159,12 +152,12 @@ schema:longitude a owl:DatatypeProperty;
 
 ontology:yearPublished a owl:DatatypeProperty ;
     rdfs:label "year published" ;
-    rdfs:domain ontology:Score ;
+    rdfs:domain ontology:Ranking ;
     rdfs:range rdfs:Literal .
 
 ontology:score a owl:DatatypeProperty ;
     rdfs:label "score" ;
-    rdfs:domain ontology:Score ;
+    rdfs:domain ontology:Ranking ;
     rdfs:range rdfs:Literal .
 
 

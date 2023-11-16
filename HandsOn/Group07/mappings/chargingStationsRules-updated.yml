@@ -28,7 +28,7 @@ mappings:
       - [geo:latitude ,$(Latitude) ,xsd:float]
       - [geo:longitude ,$(Longitude) ,xsd:float]
       - [ont:evDCFastCount, $(EVDCFastCount), xsd:integer]
-      - [ont:hasAddress, https://www.chargeup.io/group07/resource/Address/$(Address)]
+      - [ont:hasAddress, https://www.chargeup.io/group07/resource/Address/$(Address)~iri]
 
 
 
@@ -40,7 +40,7 @@ mappings:
       - [a, locn:Address]
       - [rdfs:label, $(Address), xsd:string]
       - [dbo:zipCode, $(ZipCode), xsd:string]
-      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)]
+      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)~iri]
 
 
 
