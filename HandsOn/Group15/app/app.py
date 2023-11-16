@@ -41,7 +41,7 @@ def contaminant_frame(management_bar: tk.Frame, map_widget: tkintermapview.Tkint
     outer_frame = tk.Frame(management_bar, width=width // 4, height=200, bg='grey')
     outer_frame.grid(row=0, column=0, padx=5, pady=5)
 
-    contaminant_title = tk.Label(outer_frame, text="Cabins by contaminant name (e.g. carbon monoxide)",
+    contaminant_title = tk.Label(outer_frame, text="Cabins by contaminant name (e.g. ozone)",
                                  font=("Arial", 14))
     contaminant_title.pack()
     contaminant_text_entry = tk.Entry(outer_frame)
