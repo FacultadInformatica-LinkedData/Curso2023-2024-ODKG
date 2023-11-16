@@ -1,17 +1,20 @@
 #GROUP 07 - EV Charging Stations SPARQL Queries
 
+PREFIX ont: <https://www.chargeup.io/group07/ontology#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 
 # Nearby Charging Stations
 SELECT ?station ?latitude ?longitude WHERE {
-    ?station ont:hasStreetAddress ?address .
+    ?station ont:hasAddress ?address .
     ?address geo:latitude ?latitude .
     ?address geo:longitude ?longitude .
 }
 
-
 # Map View of Stations
 SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHERE {
-    ?station ont:hasStreetAddress ?address .
+    ?station ont:hasAddress ?address .
     ?address geo:latitude ?latitude .
     ?address geo:longitude ?longitude .
     ?station ont:evLevel1EVSENum ?level1Count .
@@ -19,14 +22,13 @@ SELECT ?station ?latitude ?longitude ?level1Count ?level2Count ?dcFastCount WHER
     ?station ont:evDCFastCount ?dcFastCount .
 }
 
-
-
 # Search by City Name
 SELECT ?station WHERE {
-    ?station ont:hasCity ?city .
+    ?station a ont:ChargingStation .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
     ?city rdfs:label "Branford" .
 }
-
 
 # Filter Options
 # Retrieve stations based on a specific charger type (Level 1, Level 2, DC Fast)
@@ -36,13 +38,11 @@ SELECT ?station WHERE {
     FILTER(?level1Count > 0) 
 }
 
-
 # Retrieve stations based on operating hours
 SELECT ?station WHERE {
     ?station ont:accessDaysTime ?time . 
     FILTER(STR(?time) = "24-Hours-Daily")
 }
-
 
 # Station Details 
 SELECT * WHERE {
@@ -53,15 +53,17 @@ SELECT * WHERE {
 
 # Stations by County Name
 SELECT ?station WHERE {
-    ?station ont:counties ?county .
-    FILTER(?county = "Hartford") .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
+    ?city ont:counties ?county .
+    FILTER(?county = "Hartford")
 }
-
 
 
 # Top 5 Cities with Most Stations 
 SELECT ?city (COUNT(?station) AS ?stationCount) WHERE {
-    ?station ont:hasCity ?city .
+    ?station ont:hasAddress ?address .
+    ?address ont:hasCity ?city .
 } 
 GROUP BY ?city 
 ORDER BY DESC(?stationCount) 

@@ -166,7 +166,7 @@
 <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd> a locn:Address;
   dbo:zipCode "00066";
   rdfs:label "101-Trolley-Line-Blvd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Mashantucket%2C%20Connecticut> .
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Mashantucket> .
 
 <https://www.chargeup.io/group07/resource/Address/1010-Washington-Blvd> a locn:Address;
   dbo:zipCode "00203";
@@ -1097,7 +1097,7 @@
 <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> a locn:Address;
   dbo:zipCode "00066";
   rdfs:label "350-Trolley-Line-Blvd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Ledyard>, <https://www.chargeup.io/group07/resource/City/Mashantucket%2C%20Connecticut> .
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Ledyard>, <https://www.chargeup.io/group07/resource/City/Mashantucket> .
 
 <https://www.chargeup.io/group07/resource/Address/355-Campbell-Ave> a locn:Address;
   dbo:zipCode "00011";
@@ -1980,28 +1980,61 @@
   ont:evLevel2EVSENum 3;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/28-Bell-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y> a uiote:ChargingStation;
-  rdfs:label "Big-Y";
-  geo:latitude "41.28648200000001"^^xsd:float, "41.476271"^^xsd:float;
-  geo:longitude "-72.416634"^^xsd:float, "-72.907523"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily";
-  ont:additionalInfo "Not-Provided";
-  ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1021-Main-St>, <https://www.chargeup.io/group07/resource/Address/22-Spencer-Plain-Rd> .
-
-<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods> a uiote:ChargingStation;
-  rdfs:label "Big-Y-Foods";
-  geo:latitude "41.29434"^^xsd:float, "41.505790000000005"^^xsd:float, "41.888958"^^xsd:float;
-  geo:longitude "-72.12423"^^xsd:float, "-72.46388"^^xsd:float, "-73.11066"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Cheshire> a uiote:ChargingStation;
+  rdfs:label "Big-Y-Cheshire";
+  geo:latitude "41.476271"^^xsd:float;
+  geo:longitude "-72.907523"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-suit-A-West-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/224-Salem-Turnpike>, <https://www.chargeup.io/group07/resource/Address/401-Bridgeport-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1021-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Ellington> a
+    uiote:ChargingStation;
+  rdfs:label "Big-Y-Foods-Ellington";
+  geo:latitude "41.888958"^^xsd:float;
+  geo:longitude "-72.46388"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-suit-A-West-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Norwich> a uiote:ChargingStation;
+  rdfs:label "Big-Y-Foods-Norwich";
+  geo:latitude "41.505790000000005"^^xsd:float;
+  geo:longitude "-72.12423"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/224-Salem-Turnpike> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Shelton> a uiote:ChargingStation;
+  rdfs:label "Big-Y-Foods-Shelton";
+  geo:latitude "41.29434"^^xsd:float;
+  geo:longitude "-73.11066"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/401-Bridgeport-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Saybrook> a uiote:ChargingStation;
+  rdfs:label "Big-Y-Saybrook";
+  geo:latitude "41.28648200000001"^^xsd:float;
+  geo:longitude "-72.416634"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/22-Spencer-Plain-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Bishop%27s-Orchards-Farm-Market>
   a uiote:ChargingStation;
@@ -2049,15 +2082,26 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield> a uiote:ChargingStation;
-  rdfs:label "Bmw-Ridgefield";
-  geo:latitude "41.3305782"^^xsd:float, "41.331117"^^xsd:float;
-  geo:longitude "-73.4722156"^^xsd:float, "-73.472615"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily", "Facility-Opening-Hours";
+<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield-1> a uiote:ChargingStation;
+  rdfs:label "Bmw-Ridgefield-1";
+  geo:latitude "41.331117"^^xsd:float;
+  geo:longitude "-73.472615"^^xsd:float;
+  ont:accessDaysTime "Facility-Opening-Hours";
   ont:additionalInfo "Not-Provided";
-  ont:evDCFastCount 0, 1;
+  ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 0, 2;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/746-Danbury-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield-2> a uiote:ChargingStation;
+  rdfs:label "Bmw-Ridgefield-2";
+  geo:latitude "41.3305782"^^xsd:float;
+  geo:longitude "-73.4722156"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 1;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/746-Danbury-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Brass-Mill-Center-Entrance-3>
@@ -2272,16 +2316,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/321--Boston-Post-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall> a uiote:ChargingStation;
-  rdfs:label "City-Hall";
-  geo:latitude "41.536236"^^xsd:float, "41.762206"^^xsd:float;
-  geo:longitude "-72.672842"^^xsd:float, "-72.797226"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall-1> a uiote:ChargingStation;
+  rdfs:label "City-Hall-1";
+  geo:latitude "41.536236"^^xsd:float;
+  geo:longitude "-72.797226"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/142-E-Main-St>, <https://www.chargeup.io/group07/resource/Address/35-Arch-St> .
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/142-E-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall-2> a uiote:ChargingStation;
+  rdfs:label "City-Hall-2";
+  geo:latitude "41.762206"^^xsd:float;
+  geo:longitude "-72.672842"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/35-Arch-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Cityplace-Garage> a uiote:ChargingStation;
   rdfs:label "Cityplace-Garage";
@@ -2306,17 +2361,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/538-Amity-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Comcast> a uiote:ChargingStation;
-  rdfs:label "Comcast";
-  geo:latitude "41.597163"^^xsd:float, "41.977252"^^xsd:float;
-  geo:longitude "-72.581611"^^xsd:float, "-72.749512"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Comcast-Berlin> a uiote:ChargingStation;
+  rdfs:label "Comcast-Berlin";
+  geo:latitude "41.597163"^^xsd:float;
+  geo:longitude "-72.749512"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/222-New-Park-Dr>,
-    <https://www.chargeup.io/group07/resource/Address/90-Phoenix-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/222-New-Park-Dr> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Comcast-Enfield> a uiote:ChargingStation;
+  rdfs:label "Comcast-Enfield";
+  geo:latitude "41.977252"^^xsd:float;
+  geo:longitude "-72.581611"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/90-Phoenix-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Comfort-Inn-Guilford-Tesla-Destination>
   a uiote:ChargingStation;
@@ -2332,27 +2397,49 @@
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Comm-Lot-Sta-1> a uiote:ChargingStation;
   rdfs:label "Comm-Lot-Sta-1";
-  geo:latitude "41.3703626"^^xsd:float, "41.3762377"^^xsd:float;
-  geo:longitude "-73.4145557"^^xsd:float, "-73.4178034"^^xsd:float;
+  geo:latitude "41.3703626"^^xsd:float;
+  geo:longitude "-73.4145557"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/13-Durant-Ave.>,
-    <https://www.chargeup.io/group07/resource/Address/5-Depot-Pl> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Depot-Pl> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center> a uiote:ChargingStation;
-  rdfs:label "Community-Center";
-  geo:latitude "41.800421"^^xsd:float, "41.956727"^^xsd:float;
-  geo:longitude "-72.242231"^^xsd:float, "-72.289249"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Comm-Lot-Sta-2> a uiote:ChargingStation;
+  rdfs:label "Comm-Lot-Sta-2";
+  geo:latitude "41.3762377"^^xsd:float;
+  geo:longitude "-73.4178034"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/13-Durant-Ave.> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center-Mansfield>
+  a uiote:ChargingStation;
+  rdfs:label "Community-Center-Mansfield";
+  geo:latitude "41.800421"^^xsd:float;
+  geo:longitude "-72.242231"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-S-Eagleville-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/3-Buckley-Hwy> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-S-Eagleville-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center-Stafford>
+  a uiote:ChargingStation;
+  rdfs:label "Community-Center-Stafford";
+  geo:latitude "41.956727"^^xsd:float;
+  geo:longitude "-72.289249"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/3-Buckley-Hwy> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Commuter-Lot> a uiote:ChargingStation;
   rdfs:label "Commuter-Lot";
@@ -2425,18 +2512,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/333-Ferry-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles>
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles-Cheshire>
   a uiote:ChargingStation;
-  rdfs:label "Connecticut-Department-Of-Motor-Vehicles";
-  geo:latitude "41.5374181"^^xsd:float, "41.71866250000001"^^xsd:float;
-  geo:longitude "-72.655754"^^xsd:float, "-72.8935933"^^xsd:float;
-  ont:accessDaysTime "8am-5pm-M-f", "9am-5pm-M-f";
+  rdfs:label "Connecticut-Department-Of-Motor-Vehicles-Cheshire";
+  geo:latitude "41.5374181"^^xsd:float;
+  geo:longitude "-72.8935933"^^xsd:float;
+  ont:accessDaysTime "9am-5pm-M-f";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1365-Highland-Ave>,
-    <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1365-Highland-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles-Wetherfield>
+  a uiote:ChargingStation;
+  rdfs:label "Connecticut-Department-Of-Motor-Vehicles-Wetherfield";
+  geo:latitude "41.71866250000001"^^xsd:float;
+  geo:longitude "-72.655754"^^xsd:float;
+  ont:accessDaysTime "8am-5pm-M-f";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-State-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Insurance-Exchange-Of-Southington>
   a uiote:ChargingStation;
@@ -2534,17 +2632,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/210-Capitol-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger>
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger-1>
   a uiote:ChargingStation;
-  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger";
-  geo:latitude "41.067306"^^xsd:float, "41.080103"^^xsd:float;
-  geo:longitude "-73.46135"^^xsd:float, "-73.504917"^^xsd:float;
+  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger-1";
+  geo:latitude "41.067306"^^xsd:float;
+  geo:longitude "-73.504917"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "For-Tesla-Use-Only";
   ont:evDCFastCount 4;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 0;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-E-Trail>, <https://www.chargeup.io/group07/resource/Address/1-West-Ave.> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-West-Ave.> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger-2>
+  a uiote:ChargingStation;
+  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger-2";
+  geo:latitude "41.080103"^^xsd:float;
+  geo:longitude "-73.46135"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "For-Tesla-Use-Only";
+  ont:evDCFastCount 4;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-E-Trail> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Constitution-Plaza-South>
   a uiote:ChargingStation;
@@ -2663,17 +2773,38 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/213-Crown-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail> a uiote:ChargingStation;
-  rdfs:label "Ct-Rail";
-  geo:latitude "41.4618954"^^xsd:float, "41.5394301"^^xsd:float, "41.6356154"^^xsd:float;
-  geo:longitude "-72.7653384"^^xsd:float, "-72.8007814"^^xsd:float, "-72.8231924"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Berlin> a uiote:ChargingStation;
+  rdfs:label "Ct-Rail-Berlin";
+  geo:latitude "41.6356154"^^xsd:float;
+  geo:longitude "-72.7653384"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-N-Cherry-St>,
-    <https://www.chargeup.io/group07/resource/Address/51-Depot-Rd>, <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/51-Depot-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Meriden> a uiote:ChargingStation;
+  rdfs:label "Ct-Rail-Meriden";
+  geo:latitude "41.5394301"^^xsd:float;
+  geo:longitude "-72.8007814"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Wallingford> a uiote:ChargingStation;
+  rdfs:label "Ct-Rail-Wallingford";
+  geo:latitude "41.4618954"^^xsd:float;
+  geo:longitude "-72.8231924"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-N-Cherry-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Cumberland-Farms> a uiote:ChargingStation;
   rdfs:label "Cumberland-Farms";
@@ -2848,17 +2979,29 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/789-Connecticut-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts> a uiote:ChargingStation;
-  rdfs:label "Dunkin'-Donuts";
-  geo:latitude "41.294167"^^xsd:float, "41.797073"^^xsd:float;
-  geo:longitude "-72.555059"^^xsd:float, "-72.9"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-Manchester>
+  a uiote:ChargingStation;
+  rdfs:label "Dunkin'-Donuts-Manchester";
+  geo:latitude "41.797073"^^xsd:float;
+  geo:longitude "-72.555059"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 1;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 0;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1205-Tolland-Tpke>,
-    <https://www.chargeup.io/group07/resource/Address/189-Forbes-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1205-Tolland-Tpke> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-New-Haven>
+  a uiote:ChargingStation;
+  rdfs:label "Dunkin'-Donuts-New-Haven";
+  geo:latitude "41.294167"^^xsd:float;
+  geo:longitude "-72.9"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 1;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/189-Forbes-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-Tesla-Supercharger>
   a uiote:ChargingStation;
@@ -3153,17 +3296,38 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Franklin-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods> a uiote:ChargingStation;
-  rdfs:label "Foxwoods";
-  geo:latitude "41.469981700000005"^^xsd:float, "41.4733358"^^xsd:float, "41.4733521"^^xsd:float;
-  geo:longitude "-71.9523342"^^xsd:float, "-71.9600027"^^xsd:float, "-71.9600034"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-1> a uiote:ChargingStation;
+  rdfs:label "Foxwoods-1";
+  geo:latitude "41.4733521"^^xsd:float;
+  geo:longitude "-71.9600027"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd>,
-    <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-2> a uiote:ChargingStation;
+  rdfs:label "Foxwoods-2";
+  geo:latitude "41.4733358"^^xsd:float;
+  geo:longitude "-71.9600034"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-3> a uiote:ChargingStation;
+  rdfs:label "Foxwoods-3";
+  geo:latitude "41.469981700000005"^^xsd:float;
+  geo:longitude "-71.9523342"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Gates-Nissan> a uiote:ChargingStation;
   rdfs:label "Gates-Nissan";
@@ -3244,17 +3408,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/2327-2333-Main-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University> a uiote:ChargingStation;
-  rdfs:label "Goodwin-University";
-  geo:latitude "41.743194"^^xsd:float, "41.749499"^^xsd:float;
-  geo:longitude "-72.639362"^^xsd:float, "-72.640075"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University-1> a
+    uiote:ChargingStation;
+  rdfs:label "Goodwin-University-1";
+  geo:latitude "41.743194"^^xsd:float;
+  geo:longitude "-72.640075"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/211-Riverside-Dr>,
-    <https://www.chargeup.io/group07/resource/Address/403-Main-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/211-Riverside-Dr> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University-2> a
+    uiote:ChargingStation;
+  rdfs:label "Goodwin-University-2";
+  geo:latitude "41.749499"^^xsd:float;
+  geo:longitude "-72.639362"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/403-Main-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Goodwives-Shopping-Center>
   a uiote:ChargingStation;
@@ -3823,16 +3999,27 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-Palomba-Dr> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Library> a uiote:ChargingStation;
-  rdfs:label "Library";
-  geo:latitude "41.386805"^^xsd:float, "41.771305"^^xsd:float;
-  geo:longitude "-72.43670100000001"^^xsd:float, "-72.967327"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Library-Burlington> a uiote:ChargingStation;
+  rdfs:label "Library-Burlington";
+  geo:latitude "41.771305"^^xsd:float;
+  geo:longitude "-72.967327"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
-  ont:additionalInfo "Not-Provided", "See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge";
+  ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 1;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Main-St>, <https://www.chargeup.io/group07/resource/Address/34-Library-Ln> .
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/34-Library-Ln> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Library-Deep-River> a uiote:ChargingStation;
+  rdfs:label "Library-Deep-River";
+  geo:latitude "41.386805"^^xsd:float;
+  geo:longitude "-72.43670100000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 1;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Main-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Library-Kiosk> a uiote:ChargingStation;
   rdfs:label "Library-Kiosk";
@@ -4078,11 +4265,23 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/300-Country-Club-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger>
+<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger-1>
   a uiote:ChargingStation;
-  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger";
-  geo:latitude "41.245823"^^xsd:float, "41.246242"^^xsd:float;
-  geo:longitude "-73.009059"^^xsd:float, "-73.010522"^^xsd:float;
+  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger-1";
+  geo:latitude "41.245823"^^xsd:float;
+  geo:longitude "-73.009059"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "For-Tesla-Use-Only";
+  ont:evDCFastCount 2;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/I-95-Milford> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger-2>
+  a uiote:ChargingStation;
+  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger-2";
+  geo:latitude "41.246242"^^xsd:float;
+  geo:longitude "-73.010522"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "For-Tesla-Use-Only";
   ont:evDCFastCount 2;
@@ -4264,17 +4463,38 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/688-Bridgeport-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg> a uiote:ChargingStation;
-  rdfs:label "Nbcsg";
-  geo:latitude "41.0532451"^^xsd:float, "41.053776"^^xsd:float, "41.054321"^^xsd:float;
-  geo:longitude "-73.5160366"^^xsd:float, "-73.5160406"^^xsd:float, "-73.516045"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-1> a uiote:ChargingStation;
+  rdfs:label "Nbcsg-1";
+  geo:latitude "41.054321"^^xsd:float;
+  geo:longitude "-73.516045"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 14, 2, 8;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/84-Maher-Rd>, <https://www.chargeup.io/group07/resource/Address/98-Maher-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/Unnamed-Road> .
+  ont:evLevel2EVSENum 14;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/98-Maher-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-2> a uiote:ChargingStation;
+  rdfs:label "Nbcsg-2";
+  geo:latitude "41.053776"^^xsd:float;
+  geo:longitude "-73.5160406"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/84-Maher-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-3> a uiote:ChargingStation;
+  rdfs:label "Nbcsg-3";
+  geo:latitude "41.0532451"^^xsd:float;
+  geo:longitude "-73.5160366"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 8;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Unnamed-Road> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/New-London-Mall-Tesla-Supercharger>
   a uiote:ChargingStation;
@@ -4624,16 +4844,29 @@
   ont:evLevel2EVSENum 4;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Water-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library> a uiote:ChargingStation;
-  rdfs:label "Public-Library";
-  geo:latitude "41.221934"^^xsd:float, "41.347552"^^xsd:float;
-  geo:longitude "-72.028928"^^xsd:float, "-73.053647"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library-Groton> a
+    uiote:ChargingStation;
+  rdfs:label "Public-Library-Groton";
+  geo:latitude "41.347552"^^xsd:float;
+  geo:longitude "-72.028928"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/52-Newtown-Rd>, <https://www.chargeup.io/group07/resource/Address/57-New-Haven-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/52-Newtown-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library-Milford>
+  a uiote:ChargingStation;
+  rdfs:label "Public-Library-Milford";
+  geo:latitude "41.221934"^^xsd:float;
+  geo:longitude "-73.053647"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/57-New-Haven-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Public-Parking-Lot> a uiote:ChargingStation;
   rdfs:label "Public-Parking-Lot";
@@ -5226,36 +5459,241 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/19-Maple-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall> a uiote:ChargingStation;
-  rdfs:label "Town-Hall";
-  geo:latitude "41.145215689458"^^xsd:float, "41.276743"^^xsd:float, "41.2832367"^^xsd:float,
-    "41.341893000000006"^^xsd:float, "41.345816"^^xsd:float, "41.354138"^^xsd:float, "41.465514"^^xsd:float,
-    "41.706856"^^xsd:float, "41.71292"^^xsd:float, "41.727419"^^xsd:float, "41.758754"^^xsd:float,
-    "41.7660404"^^xsd:float, "41.780058"^^xsd:float, "41.803497"^^xsd:float, "41.80577"^^xsd:float,
-    "41.811022"^^xsd:float, "41.8298475"^^xsd:float, "41.859648"^^xsd:float, "41.903582"^^xsd:float,
-    "41.953668"^^xsd:float, "41.983904"^^xsd:float;
-  geo:longitude "-71.88232300000001"^^xsd:float, "-71.9986079999999"^^xsd:float, "-72.009806"^^xsd:float,
-    "-72.033489"^^xsd:float, "-72.217506"^^xsd:float, "-72.303231"^^xsd:float, "-72.312334"^^xsd:float,
-    "-72.467484"^^xsd:float, "-72.489406"^^xsd:float, "-72.524041"^^xsd:float, "-72.611655"^^xsd:float,
-    "-72.6446905"^^xsd:float, "-72.6798002"^^xsd:float, "-72.7373929"^^xsd:float, "-72.741204"^^xsd:float,
-    "-72.923177"^^xsd:float, "-73.014176"^^xsd:float, "-73.12122300000001"^^xsd:float,
-    "-73.35947443366"^^xsd:float, "-73.47251"^^xsd:float, "-73.487032"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily", "Facility-Opening-Hours", "Not-Specified";
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Bloomfield> a
+    uiote:ChargingStation;
+  rdfs:label "Town-Hall-Bloomfield";
+  geo:latitude "41.8298475"^^xsd:float;
+  geo:longitude "-72.7373929"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-Main-St>, <https://www.chargeup.io/group07/resource/Address/11-Meetinghouse-Ln>,
-    <https://www.chargeup.io/group07/resource/Address/110-Myrtle-Avenue>, <https://www.chargeup.io/group07/resource/Address/134-Groton-Long-Point-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/140-Main-St>, <https://www.chargeup.io/group07/resource/Address/1712-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/172-Main-St>, <https://www.chargeup.io/group07/resource/Address/2155-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/31-Park-Street>, <https://www.chargeup.io/group07/resource/Address/4-Brush-Hill-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/4-Market-St>, <https://www.chargeup.io/group07/resource/Address/41-Kent-Green-Blvd>,
-    <https://www.chargeup.io/group07/resource/Address/45-Fort-Hill-Rd>, <https://www.chargeup.io/group07/resource/Address/5-Haven-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/50-S-Main-St>, <https://www.chargeup.io/group07/resource/Address/54-E-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/55-Main-St>, <https://www.chargeup.io/group07/resource/Address/740-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/800-Bloomfield-Avenue>, <https://www.chargeup.io/group07/resource/Address/933-Hopmeadow-St>,
-    <https://www.chargeup.io/group07/resource/Address/979-Main-St> .
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/800-Bloomfield-Avenue> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Canton> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Canton";
+  geo:latitude "41.811022"^^xsd:float;
+  geo:longitude "-72.923177"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/4-Market-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Clinton> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Clinton";
+  geo:latitude "41.276743"^^xsd:float;
+  geo:longitude "-72.524041"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/54-E-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Coventry> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Coventry";
+  geo:latitude "41.780058"^^xsd:float;
+  geo:longitude "-72.312334"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1712-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-East-Hartford>
+  a uiote:ChargingStation;
+  rdfs:label "Town-Hall-East-Hartford";
+  geo:latitude "41.7660404"^^xsd:float;
+  geo:longitude "-72.6446905"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/740-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Ellington> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Ellington";
+  geo:latitude "41.903582"^^xsd:float;
+  geo:longitude "-72.467484"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/55-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Fairfield> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Fairfield";
+  geo:latitude "41.465514"^^xsd:float;
+  geo:longitude "-73.487032"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/4-Brush-Hill-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Glastonbury> a
+    uiote:ChargingStation;
+  rdfs:label "Town-Hall-Glastonbury";
+  geo:latitude "41.706856"^^xsd:float;
+  geo:longitude "-72.611655"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/2155-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Groton-1> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Groton-1";
+  geo:latitude "41.345816"^^xsd:float;
+  geo:longitude "-72.033489"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/45-Fort-Hill-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Groton-2> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Groton-2";
+  geo:latitude "41.341893000000006"^^xsd:float;
+  geo:longitude "-72.009806"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/134-Groton-Long-Point-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Guilford> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Guilford";
+  geo:latitude "41.2832367"^^xsd:float;
+  geo:longitude "-72.6798002"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/31-Park-Street> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Kent> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Kent";
+  geo:latitude "41.727419"^^xsd:float;
+  geo:longitude "-73.47251"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/41-Kent-Green-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Killingly> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Killingly";
+  geo:latitude "41.80577"^^xsd:float;
+  geo:longitude "-71.88232300000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/172-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Pomfret> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Pomfret";
+  geo:latitude "41.859648"^^xsd:float;
+  geo:longitude "-71.9986079999999"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Haven-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Simsbury> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Simsbury";
+  geo:latitude "41.983904"^^xsd:float;
+  geo:longitude "-72.489406"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/933-Hopmeadow-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Stafford> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Stafford";
+  geo:latitude "41.953668"^^xsd:float;
+  geo:longitude "-72.303231"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Torrington> a
+    uiote:ChargingStation;
+  rdfs:label "Town-Hall-Torrington";
+  geo:latitude "41.803497"^^xsd:float;
+  geo:longitude "-73.12122300000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-West-Hartford>
+  a uiote:ChargingStation;
+  rdfs:label "Town-Hall-West-Hartford";
+  geo:latitude "41.758754"^^xsd:float;
+  geo:longitude "-72.741204"^^xsd:float;
+  ont:accessDaysTime "Facility-Opening-Hours";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-S-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Westport> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Westport";
+  geo:latitude "41.145215689458"^^xsd:float;
+  geo:longitude "-73.35947443366"^^xsd:float;
+  ont:accessDaysTime "Not-Specified";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/110-Myrtle-Avenue> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Windham> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Windham";
+  geo:latitude "41.71292"^^xsd:float;
+  geo:longitude "-72.217506"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/979-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Woodbrige> a uiote:ChargingStation;
+  rdfs:label "Town-Hall-Woodbrige";
+  geo:latitude "41.354138"^^xsd:float;
+  geo:longitude "-73.014176"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/11-Meetinghouse-Ln> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Town-Library> a uiote:ChargingStation;
   rdfs:label "Town-Library";
@@ -5392,16 +5830,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-American-Ln> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station> a uiote:ChargingStation;
-  rdfs:label "Union-Station";
-  geo:latitude "41.2974027"^^xsd:float, "41.2975353"^^xsd:float;
-  geo:longitude "-72.9263108"^^xsd:float, "-72.9270748"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-1> a uiote:ChargingStation;
+  rdfs:label "Union-Station-1";
+  geo:latitude "41.2975353"^^xsd:float;
+  geo:longitude "-72.9270748"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 10, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Union-Ave>, <https://www.chargeup.io/group07/resource/Address/Union-Ave-and-Union-Station> .
+  ont:evLevel2EVSENum 10;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Union-Ave-and-Union-Station> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-2> a uiote:ChargingStation;
+  rdfs:label "Union-Station-2";
+  geo:latitude "41.2974027"^^xsd:float;
+  geo:longitude "-72.9263108"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Union-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-Garage> a
     uiote:ChargingStation;
@@ -5593,32 +6042,89 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-Backus-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University> a uiote:ChargingStation;
-  rdfs:label "Wesleyan-University";
-  geo:latitude "41.550883"^^xsd:float, "41.553597"^^xsd:float, "41.557262"^^xsd:float;
-  geo:longitude "-72.65242"^^xsd:float, "-72.65395"^^xsd:float, "-72.662214"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-1> a
+    uiote:ChargingStation;
+  rdfs:label "Wesleyan-University-1";
+  geo:latitude "41.557262"^^xsd:float;
+  geo:longitude "-72.65242"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 1, 2;
-  ont:evLevel2EVSENum 0, 2, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Cross-St>, <https://www.chargeup.io/group07/resource/Address/56-Hamlin-Ct>,
-    <https://www.chargeup.io/group07/resource/Address/Lawn-Ave-%26-High-St> .
+  ont:evLevel1EVSENum 2;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/56-Hamlin-Ct> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University>
-  a uiote:ChargingStation;
-  rdfs:label "Western-Connecticut-State-University";
-  geo:latitude "41.394446"^^xsd:float, "41.398492"^^xsd:float, "41.39936"^^xsd:float,
-    "41.399432"^^xsd:float;
-  geo:longitude "-73.442053"^^xsd:float, "-73.443485"^^xsd:float, "-73.44475"^^xsd:float,
-    "-73.492801"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-2> a
+    uiote:ChargingStation;
+  rdfs:label "Wesleyan-University-2";
+  geo:latitude "41.550883"^^xsd:float;
+  geo:longitude "-72.662214"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2, 3, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/179-White-St>, <https://www.chargeup.io/group07/resource/Address/190-White-St>,
-    <https://www.chargeup.io/group07/resource/Address/198-White-St>, <https://www.chargeup.io/group07/resource/Address/43-Lake-Ave-Extension> .
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Cross-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-3> a
+    uiote:ChargingStation;
+  rdfs:label "Wesleyan-University-3";
+  geo:latitude "41.553597"^^xsd:float;
+  geo:longitude "-72.65395"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 1;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Lawn-Ave-%26-High-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-1>
+  a uiote:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-1";
+  geo:latitude "41.394446"^^xsd:float;
+  geo:longitude "-73.492801"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/43-Lake-Ave-Extension> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-2>
+  a uiote:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-2";
+  geo:latitude "41.399432"^^xsd:float;
+  geo:longitude "-73.44475"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/179-White-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-3>
+  a uiote:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-3";
+  geo:latitude "41.398492"^^xsd:float;
+  geo:longitude "-73.443485"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-White-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-4>
+  a uiote:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-4";
+  geo:latitude "41.39936"^^xsd:float;
+  geo:longitude "-73.442053"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 3;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/190-White-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Westlodge> a uiote:ChargingStation;
   rdfs:label "Westlodge";
@@ -5667,28 +6173,51 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/15-Undermountain-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market> a uiote:ChargingStation;
-  rdfs:label "Whole-Foods-Market";
-  geo:latitude "41.072919"^^xsd:float, "41.157925"^^xsd:float;
-  geo:longitude "-73.240315"^^xsd:float, "-73.476189"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market-Darien>
+  a uiote:ChargingStation;
+  rdfs:label "Whole-Foods-Market-Darien";
+  geo:latitude "41.072919"^^xsd:float;
+  geo:longitude "-73.476189"^^xsd:float;
   ont:accessDaysTime "8am-10pm-Daily";
   ont:additionalInfo "For-Customer-Use-Only";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 4;
-  ont:evLevel2EVSENum 0, 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Ledge-Rd>, <https://www.chargeup.io/group07/resource/Address/350-Grasmere-Ave> .
+  ont:evLevel1EVSENum 4;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Ledge-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt> a uiote:ChargingStation;
-  rdfs:label "Whole-Foods-Mkt";
-  geo:latitude "41.3777667"^^xsd:float, "41.3781241"^^xsd:float;
-  geo:longitude "-73.475576"^^xsd:float, "-73.4755929"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market-Fairfield>
+  a uiote:ChargingStation;
+  rdfs:label "Whole-Foods-Market-Fairfield";
+  geo:latitude "41.157925"^^xsd:float;
+  geo:longitude "-73.240315"^^xsd:float;
+  ont:accessDaysTime "8am-10pm-Daily";
+  ont:additionalInfo "For-Customer-Use-Only";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Grasmere-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt-1> a uiote:ChargingStation;
+  rdfs:label "Whole-Foods-Mkt-1";
+  geo:latitude "41.3777667"^^xsd:float;
+  geo:longitude "-73.475576"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Sugar-Hollow-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/5c-Sugar-Hollow-Rd> .
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Sugar-Hollow-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt-2> a uiote:ChargingStation;
+  rdfs:label "Whole-Foods-Mkt-2";
+  geo:latitude "41.3781241"^^xsd:float;
+  geo:longitude "-73.4755929"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5c-Sugar-Hollow-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Wilton-Public-Library> a
     uiote:ChargingStation;
@@ -6047,8 +6576,8 @@
   ont:counties "Tolland";
   ont:townIndex 78 .
 
-<https://www.chargeup.io/group07/resource/City/Mashantucket%2C%20Connecticut> a dbo:City;
-  rdfs:label "Mashantucket, Connecticut";
+<https://www.chargeup.io/group07/resource/City/Mashantucket> a dbo:City;
+  rdfs:label "Mashantucket";
   <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6783082>;
   ont:counties "New-London";
   ont:townIndex 72 .
