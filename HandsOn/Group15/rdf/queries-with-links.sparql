@@ -1,0 +1,25 @@
+# Get all districts with a population greater than 40,000
+SELECT ?district ?population
+WHERE 
+{
+    ?district a ns:District .
+    ?district ns:districtPopulation ?population .
+    FILTER (?population > 40000) .
+}
+
+# Find the neighbourhood which is the same as https://www.wikidata.org/wiki/Q852697 (Gràcia)
+SELECT ?district
+WHERE
+{
+    ?district a ns:District .
+    ?district owl:sameAs <https://wikidata.org/wiki/Q852697> .
+}
+
+# Find the masses of the contaminants measured by air quality cabins
+SELECT ?cabin ?mass ?contaminant
+WHERE 
+{
+       ?cabin a ns:AirQualityCabin .
+       ?cabin ns:hasMeasured ?contaminant .
+       ?contaminant ns:mass ?mass .
+}

@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://madrid.encuentra.es/resource/"
+     xml:base="http://madrid.encuentra.es/resource/"
+     xmlns:me="http://madrid.encuentra.es/resource/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.schema.org/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vocab="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="http://madrid.encuentra.es/resource/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://madrid.encuentra.es/resource/hasLocation">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:range rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/Distrito -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/Distrito">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/barrio -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/barrio">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/codBarrio -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/codBarrio">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/contentUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/contentUrl">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/id -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/id">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/num -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/num">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/provincia -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/provincia">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/tipoNum -->
+
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/tipoNum">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/description -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/description">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/endDate">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/latitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/longitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/name">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/openingHoursSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/openingHoursSpecification">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/startDate">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Evento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#accesible -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#accesible">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.schema.org/address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.schema.org/address">
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.schema.org/addressLocality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.schema.org/addressLocality">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.schema.org/postalCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.schema.org/postalCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.schema.org/streetAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.schema.org/streetAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
+        <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/Evento -->
+
+    <owl:Class rdf:about="http://madrid.encuentra.es/resource/Evento"/>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/Facility -->
+
+    <owl:Class rdf:about="http://madrid.encuentra.es/resource/Facility"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/Evento -->
+
+    <owl:NamedIndividual rdf:about="http://madrid.encuentra.es/resource/Evento">
+        <rdfs:label>Evento</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/Facility -->
+
+    <owl:NamedIndividual rdf:about="http://madrid.encuentra.es/resource/Facility">
+        <rdfs:label>Facility</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/hasLocation -->
+
+    <owl:NamedIndividual rdf:about="http://madrid.encuentra.es/resource/hasLocation">
+        <rdfs:label>hasLocation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://madrid.encuentra.es/resource/id -->
+
+    <owl:NamedIndividual rdf:about="http://madrid.encuentra.es/resource/id">
+        <rdfs:label>id</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://schema.org/address -->
+
+    <owl:NamedIndividual rdf:about="http://schema.org/address">
+        <www:address>address</www:address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://schema.org/description -->
+
+    <owl:NamedIndividual rdf:about="http://schema.org/description">
+        <rdfs:label>description</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://schema.org/endDate -->
+
+    <owl:NamedIndividual rdf:about="http://schema.org/endDate">
+        <rdfs:label>endDate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:NamedIndividual rdf:about="http://schema.org/name">
+        <rdfs:label>name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+    <owl:NamedIndividual rdf:about="http://schema.org/startDate">
+        <rdfs:label>startDate</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,368 @@
+@base <http://www.semanticweb.org/upm/opendata/group08> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<#StateMapping>
+ rml:logicalSource [ 
+ rml:source "csv/us-colleges-and-universities-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+rr:subjectMap [
+    rr:template
+      "http://dbpedia.org/page/{STATE}";
+    rr:termType rr:IRI; 
+    rr:class dbo:State
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate rdf:label; 
+  rr:objectMap [ 
+  rml:reference "STATE"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ].
+
+<#CountryMapping>
+ rml:logicalSource [ 
+ rml:source "csv/us-colleges-and-universities-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+rr:subjectMap [
+    rr:template
+      "http://www.dbpedia.org/page/{COUNTRY}";
+    rr:termType rr:IRI; 
+    rr:class dbo:Country
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate rdf:label; 
+  rr:objectMap [ 
+  rml:reference "COUNTRY"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ].
+
+
+<#CityMapping>
+ rml:logicalSource [ 
+ rml:source "csv/us-colleges-and-universities-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+rr:subjectMap [
+    rr:template
+      "http://www.dbpedia.org/page/{CITY}";
+    rr:termType rr:IRI; 
+    rr:class dbo:City
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate rdf:label; 
+  rr:objectMap [ 
+  rml:reference "CITY"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ].
+
+<#UniversityMapping>
+ rml:logicalSource [ 
+ rml:source "csv/us-colleges-and-universities-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+ rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/University/{IPEDSID}";
+    rr:termType rr:IRI; 
+    rr:class ontology:University
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate rdf:label; 
+  rr:objectMap [ 
+  rml:reference "NAME"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate schema:latitude; 
+  rr:objectMap [ 
+  rml:reference "LATITUDE"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate schema:longitude; 
+  rr:objectMap [ 
+  rml:reference "LONGITUDE"; 
+ rr:termType rr:Literal ;
+ rr:datatype xsd:string
+ ] 
+  ];
+  rr:predicateObjectMap [ 
+  rr:predicate dbo:city; 
+   rr:objectMap [ 
+ rr:parentTriplesMap <#CityMapping>;
+ rr:joinCondition [
+ rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+ ] 
+];
+rr:predicateObjectMap [ 
+  rr:predicate ontology:website; 
+  rr:objectMap [ 
+  rml:reference "WEBSITE";
+  rr:termType rr:Literal;
+  rr:datatype xsd:string
+] 
+];
+
+rr:predicateObjectMap [ 
+  rr:predicate dbo:country; 
+   rr:objectMap [ 
+ rr:parentTriplesMap <#CountryMapping>;
+ rr:joinCondition [
+ rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+ ] 
+];
+
+rr:predicateObjectMap [
+  rr:predicate dbo:state; 
+   rr:objectMap [ 
+ rr:parentTriplesMap <#StateMapping>;
+ rr:joinCondition [
+ rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+ ] 
+];
+rr:predicateObjectMap [ 
+ rr:predicate ontology:hasRanking;
+ rr:objectMap [ 
+ rr:parentTriplesMap <#UniversityRankingMappingUSNews>;
+ rr:joinCondition [
+ rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+ ] 
+
+];
+
+ rr:predicateObjectMap [ 
+  rr:predicate ontology:hasRanking;
+  rr:objectMap [ 
+    rr:parentTriplesMap <#UniversityRankingLiberalArtsMapping>;
+    rr:joinCondition [
+    rr:child "IPEDSID"; rr:parent "IPEDSID"; 
+    ]
+  ]
+  ];
+
+ rr:predicateObjectMap [ 
+  rr:predicate ontology:hasRate;
+  rr:objectMap [ 
+  rr:parentTriplesMap <#UniversityEnrollmentRateMapping>;
+  rr:joinCondition [
+  rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+  ]
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:hasRate;
+  rr:objectMap [ 
+  rr:parentTriplesMap <#UniversityAdmissionRateMapping>;
+  rr:joinCondition [
+  rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+  ]
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:hasRate;
+  rr:objectMap [ 
+  rr:parentTriplesMap <#UniversityAverageGraduationRateMapping>;
+  rr:joinCondition [
+  rr:child "IPEDSID"; rr:parent "IPEDSID"; ];
+  ]
+  ].
+
+
+
+<#UniversityEnrollmentRateMapping>
+ rml:logicalSource [ 
+ rml:source "csv/IPEDS-data-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+
+  rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/EnrollmentRate/{IPEDSID}";
+    rr:termType rr:IRI;
+    rr:class ontology:EnrollmentRate
+  ];
+    
+  rr:predicateObjectMap [
+  rr:predicate ontology:value; 
+  rr:objectMap [ 
+    rml:reference "Enrollment rate"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ]
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:TotalEnrolled; 
+  rr:objectMap [ 
+    rml:reference "Enrolled total"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:integer;
+  ]
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:TotalApplications; 
+  rr:objectMap [ 
+    rml:reference "Applicants total"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:integer;
+  ]
+  ].
+
+
+<#UniversityAverageGraduationRateMapping>
+ rml:logicalSource [ 
+ rml:source "csv/IPEDS-data-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+
+  rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/AverageGraduationRate/{IPEDSID}";
+    rr:termType rr:IRI;
+    rr:class ontology:AverageGraduationRate
+  ];
+    
+  rr:predicateObjectMap [
+  rr:predicate ontology:value; 
+  rr:objectMap [ 
+    rml:reference "Average graduation rate"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ]
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:TotalApplications; 
+  rr:objectMap [ 
+    rml:reference "Applicants total"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:integer;
+  ]
+  ].
+
+
+
+<#UniversityAdmissionRateMapping>
+ rml:logicalSource [ 
+ rml:source "csv/IPEDS-data-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+
+  rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/AdmissionRate/{IPEDSID}";
+    rr:termType rr:IRI;
+    rr:class ontology:AdmissionRate
+  ];
+    
+  rr:predicateObjectMap [
+  rr:predicate ontology:value; 
+  rr:objectMap [ 
+    rml:reference "Admission rate"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ]
+  ];
+
+  rr:predicateObjectMap [
+  rr:predicate ontology:TotalApplications; 
+  rr:objectMap [ 
+    rml:reference "Applicants total"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ]
+  ];
+
+  rr:predicateObjectMap [
+  rr:predicate ontology:TotalAdmissions; 
+  rr:objectMap [ 
+    rml:reference "Admissions total"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ]
+  ].
+
+
+<#UniversityRankingLiberalArtsMapping>
+ rml:logicalSource [ 
+ rml:source "csv/US-News-Rankings-Liberal-Arts-Colleges-Through-2023-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+
+ rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/LiberalArtsRanking/{IPEDSID}-{Year}";
+    rr:termType rr:IRI;
+    rr:class ontology:UniversityRankingLiberalArts
+  ];
+    
+  
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:yearPublished; 
+  rr:objectMap [ 
+    rml:reference "Year"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:number;
+  ] 
+  ];
+
+  rr:predicateObjectMap [ 
+  rr:predicate ontology:score; 
+  rr:objectMap [ 
+    rml:reference "Ranking"; 
+    rr:termType rr:Literal;
+    rr:datatype xsd:string;
+ ]
+].
+
+<#UniversityRankingMappingUSNews>
+ rml:logicalSource [ 
+ rml:source "csv/US-News-Rankings-Universities-Through-2023-final.csv";
+ rml:referenceFormulation ql:CSV
+ ];
+ rr:subjectMap [
+    rr:template
+      "http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/{IPEDSID}-{Year}";
+    rr:termType rr:IRI;
+    rr:class ontology:RankingUSNews
+  ];
+    rr:predicateObjectMap [ 
+  rr:predicate ontology:yearPublished; 
+  rr:objectMap [ 
+  rml:reference "Year"; 
+ rr:termType rr:Literal;
+ rr:datatype xsd:number;
+ ] 
+  ];
+    rr:predicateObjectMap [ 
+  rr:predicate ontology:score; 
+  rr:objectMap [ 
+  rml:reference "Ranking"; 
+ rr:termType rr:Literal;
+ rr:datatype xsd:string;
+ ] 
+  ].
