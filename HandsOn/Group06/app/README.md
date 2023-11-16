@@ -1,4 +1,4 @@
-# Project Name
+# PedMad
 
 This project involves setting up Apache Fuseki Server and downloading a Node.js React application from Dropbox.
 
@@ -9,7 +9,7 @@ This project involves setting up Apache Fuseki Server and downloading a Node.js 
    Visit the [Fuseki download page](https://jena.apache.org/download/index.cgi) and download the latest version of Apache Fuseki Server. You can use the following command to download it:
 
    ```bash
-   wget YOUR_FUSEKI_DOWNLOAD_LINK
+   wget https://www.dropbox.com/scl/fi/bf2eu8ksk5ommhagthk17/PedMad.rar?rlkey=j2sq17pjtyy33zrvvmhzwqu5z&dl=0
  	```
 
 1. **Extract the Archive:**
