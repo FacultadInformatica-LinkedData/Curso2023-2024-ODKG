@@ -1,4 +1,6 @@
-## Backend Vida Activa Madrid
+# App Vida Activa Madrid
+
+## Backend
 
 ```bash
 # Crear entorno virtual
@@ -14,6 +16,16 @@ pip install -r requirements.txt
 # Nota: Cargar los datos con los .ttl usando la UI de Jena
 ./fuseki-server
 
-# Ejecutar
+# Ejecutar backend
 python3 api.py
+```
+
+## Frontend
+
+```bash
+# Instalar dependencias
+yarn install
+
+# Ejecutar frontend
+yarn start
 ```
