@@ -25,12 +25,12 @@ rr:subjectMap [
     rr:class dbo:State
   ];
   rr:predicateObjectMap [ 
-  rr:predicate rdf:label; 
-  rr:objectMap [ 
-  rml:reference "STATE"; 
- rr:termType rr:Literal ;
- rr:datatype xsd:string
- ] 
+    rr:predicate rdf:label; 
+    rr:objectMap [ 
+      rml:reference "STATE"; 
+      rr:termType rr:Literal ;
+      rr:datatype xsd:string
+    ] 
   ].
 
 <#CountryMapping>
