@@ -9,8 +9,8 @@ This project involves setting up Apache Fuseki Server and downloading a Node.js 
  Visit the [Fuseki download page](https://jena.apache.org/download/index.cgi) and download the latest version of Apache Fuseki Server. You can use the following command to download it:
 
  ```bash
-   wget [https://www.dropbox.com/scl/fi/bf2eu8ksk5ommhagthk17/PedMad.rar?rlkey=j2sq17pjtyy33zrvvmhzwqu5z&dl=0](https://dlcdn.apache.org/jena/binaries/apache-jena-fuseki-4.10.0.zip)
- 	```
+   wget https://dlcdn.apache.org/jena/binaries/apache-jena-fuseki-4.10.0.zip
+ ```
 
 2. **Extract the Archive:**
 
