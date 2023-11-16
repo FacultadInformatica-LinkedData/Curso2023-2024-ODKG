@@ -1,0 +1,654 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1260524",
+        "name": "time of day"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column hour to type Q1260524"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "season",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q15275719",
+        "name": "recurring event"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column season to type Q15275719"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "01:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95008668",
+      "name": "01:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 01:00:00 (Q95008668) for cells containing \"01:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "02:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95012676",
+      "name": "02:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 02:00:00 (Q95012676) for cells containing \"02:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "03:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95016439",
+      "name": "03:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 03:00:00 (Q95016439) for cells containing \"03:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "04:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95021097",
+      "name": "04:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 04:00:00 (Q95021097) for cells containing \"04:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "05:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95026376",
+      "name": "05:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 05:00:00 (Q95026376) for cells containing \"05:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "06:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95031872",
+      "name": "06:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 06:00:00 (Q95031872) for cells containing \"06:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "07:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95036957",
+      "name": "07:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 07:00:00 (Q95036957) for cells containing \"07:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "08:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95041622",
+      "name": "08:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 08:00:00 (Q95041622) for cells containing \"08:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "09:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95045813",
+      "name": "09:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 09:00:00 (Q95045813) for cells containing \"09:00:00\" in column hour"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "hour",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P8626",
+          "name": "opening time"
+        }
+      ]
+    },
+    "columnInsertIndex": 2,
+    "description": "Extend data at index 2 based on column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "10:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95049816",
+      "name": "10:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "10:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95049816",
+      "name": "10:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "10:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95049816",
+      "name": "10:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 10:00:00 (Q95049816) for cells containing \"10:00:00\" in column hour"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "opening time",
+    "description": "Remove column opening time"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "11:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95054262",
+      "name": "11:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 11:00:00 (Q95054262) for cells containing \"11:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "12:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95059263",
+      "name": "12:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 12:00:00 (Q95059263) for cells containing \"12:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "13:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95064459",
+      "name": "13:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 13:00:00 (Q95064459) for cells containing \"13:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "14:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95069838",
+      "name": "14:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 14:00:00 (Q95069838) for cells containing \"14:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "15:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95076506",
+      "name": "15:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 15:00:00 (Q95076506) for cells containing \"15:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "16:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95083395",
+      "name": "16:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 16:00:00 (Q95083395) for cells containing \"16:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "17:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95090399",
+      "name": "17:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 17:00:00 (Q95090399) for cells containing \"17:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "18:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95097023",
+      "name": "18:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 18:00:00 (Q95097023) for cells containing \"18:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "20:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95112139",
+      "name": "20:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 20:00:00 (Q95112139) for cells containing \"20:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "21:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95120654",
+      "name": "21:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 21:00:00 (Q95120654) for cells containing \"21:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "19:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95104156",
+      "name": "19:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 19:00:00 (Q95104156) for cells containing \"19:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "22:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95129222",
+      "name": "22:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 22:00:00 (Q95129222) for cells containing \"22:00:00\" in column hour"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "hour",
+    "similarValue": "23:00:00",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95135875",
+      "name": "23:00:00",
+      "types": [
+        "Q1260524"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 23:00:00 (Q95135875) for cells containing \"23:00:00\" in column hour"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "season",
+    "expression": "grel:\"https://www.wikidata.org/entity/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "season_wikidata_link",
+    "columnInsertIndex": 4,
+    "description": "Create column season_wikidata_link at index 4 based on column season using expression grel:\"https://www.wikidata.org/entity/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "hour",
+    "expression": "grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "hour_wikidata_link",
+    "columnInsertIndex": 2,
+    "description": "Create column hour_wikidata_link at index 2 based on column hour using expression grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q47150325",
+        "name": "calendar day of a given year"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column date to type Q47150325"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date",
+    "similarValue": "January 1, 2011",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17603681",
+      "name": "January 1, 2011",
+      "types": [
+        "Q2150",
+        "Q47150325"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item January 1, 2011 (Q17603681) for cells containing \"January 1, 2011\" in column date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "date",
+    "expression": "grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "date_wikidata_link",
+    "columnInsertIndex": 4,
+    "description": "Create column date_wikidata_link at index 4 based on column date using expression grel:\"https://www.wikidata.org/entity/\"+cell.recon.match.id"
+  }
+]

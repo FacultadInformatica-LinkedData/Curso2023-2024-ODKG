@@ -1,0 +1,25 @@
+@prefix clase: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
+@prefix rec: <http://opendataandkg.org/group06/resources/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Instance Registro Peatones
+<rec:registroPeatones/PERM_PEA02_PM012021-01-01T00:00Z>
+	rdf:type owl:registroPeatones ;
+	:id_registroPeatones "PERM_PEA02_PM012021-01-01T00:00Z" ;
+	:latitud 40.42200905 ;
+	:longitud -3.700891722 ;
+	:fechaHora 2021-01-01T00:00:00Z ;
+	:observacionesDireccion "Calle peatonal" ;
+	:numPeatones 110 ;
+	:perteneceACalle <rec:Distrito/Calle Fuencarral> .
+
+# Instance Calle
+<rec:Calle/Calle Fuencarral>
+	rdf:type owl:Calle;
+	:id_calle "Calle Fuencarral" ;
+	:distrito "Centro" ;
+	:codigoPostal 28004 .

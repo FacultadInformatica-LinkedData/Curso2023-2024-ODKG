@@ -1,0 +1,12 @@
+We propose the following ontologies for the classes:
+
+ArtDimension:
+https://www.w3.org/2019/wot/hypermedia#object-properties 
+where we can find the properties like:
+hasSizes, that follows the pattern {Height}x{Width} that would correspond to the properties hasWidth and hasHeight
+What is more we propose the following ontology: https://schema.org/VisualArtwork
+where all the properties would be covered (Width, Height, Description)
+
+Artist:
+https://d-nb.info/standards/elementset/gnd#NameOfThePerson
+property covered is ArtistName

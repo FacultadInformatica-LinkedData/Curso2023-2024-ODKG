@@ -1,0 +1,618 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nombreDistrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column nombreDistrito to type Q3032114"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column barrio to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "tipoVia: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "tipoVia",
+          "from": 46,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "range",
+          "name": "tipoVia: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "tipoVia",
+          "from": 46,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "similarValue": "CASCO H.VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10296",
+      "name": "Vallecas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vallecas (Q10296) for cells containing \"CASCO H.VALLECAS\" in column barrio"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "similarValue": "CASCO H.BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "Q807230",
+      "name": "Barajas",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Barajas (Q807230) for cells containing \"CASCO H.BARAJAS\" in column barrio"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "similarValue": "CASCO H.VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q589403",
+      "name": "Vicálvaro",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vicálvaro (Q589403) for cells containing \"CASCO H.VICALVARO\" in column barrio"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "similarValue": "EL SALVADOR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q10367095",
+      "name": "Salvador",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Salvador (Q10367095) for cells containing \"EL SALVADOR\" in column barrio"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "similarValue": "PEÑA GRANDE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3319582",
+      "name": "Peñagrande",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Peñagrande (Q3319582) for cells containing \"PEÑA GRANDE\" in column barrio"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/es/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10390031",
+        "name": "vía pública"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column tipoVia to type Q10390031"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CALLE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q79007",
+      "name": "calle",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle (Q79007) for cells containing \"CALLE\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "AVENIDA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7543083",
+      "name": "avenida",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item avenida (Q7543083) for cells containing \"AVENIDA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "PLAZA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2997369",
+      "name": "plaza",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item plaza (Q2997369) for cells containing \"PLAZA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "COLONIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q177634",
+      "name": "comunidad",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item comunidad (Q177634) for cells containing \"COLONIA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "PASEO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q787113",
+      "name": "paseo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item paseo (Q787113) for cells containing \"PASEO\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CAMINO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5004679",
+      "name": "camino",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item camino (Q5004679) for cells containing \"CAMINO\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "RONDA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q510662",
+      "name": "carretera de circunvalación",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item carretera de circunvalación (Q510662) for cells containing \"RONDA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "GLORIETA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1529",
+      "name": "glorieta",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item glorieta (Q1529) for cells containing \"GLORIETA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "PASAJE",
+    "judgment": "matched",
+    "match": {
+      "id": "Q13634881",
+      "name": "pasaje",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item pasaje (Q13634881) for cells containing \"PASAJE\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "PLAZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q61862530",
+      "name": "plazuela",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item plazuela (Q61862530) for cells containing \"PLAZUELA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CARRERA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q60106987",
+      "name": "Carrera (urbanismo)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Carrera (urbanismo) (Q60106987) for cells containing \"CARRERA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "COSTANILLA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18419119",
+      "name": "costanilla",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item costanilla (Q18419119) for cells containing \"COSTANILLA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "TRAVESIA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29002287",
+      "name": "travesía",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item travesía (Q29002287) for cells containing \"TRAVESIA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "BULEVAR",
+    "judgment": "matched",
+    "match": {
+      "id": "Q54114",
+      "name": "bulevar",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item bulevar (Q54114) for cells containing \"BULEVAR\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CUESTA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1139344",
+      "name": "pendiente",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pendiente (Q1139344) for cells containing \"CUESTA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "PASADIZO",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1361100",
+      "name": "pasadizo elevado",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pasadizo elevado (Q1361100) for cells containing \"PASADIZO\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CARRETERA",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106765309",
+      "name": "carretera",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item carretera (Q106765309) for cells containing \"CARRETERA\" in column tipoVia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "similarValue": "CALLEJON",
+    "judgment": "matched",
+    "match": {
+      "id": "Q20492848",
+      "name": "Callejón",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Match item Callejón (Q20492848) for cells containing \"CALLEJON\" in column tipoVia"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "nombreDistrito",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_nombreDistrito",
+    "columnInsertIndex": 4,
+    "description": "Create column same_as_wikidata_nombreDistrito at index 4 based on column nombreDistrito using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "barrio",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_barrio",
+    "columnInsertIndex": 6,
+    "description": "Create column same_as_wikidata_barrio at index 6 based on column barrio using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "tipoVia",
+    "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipoVia",
+    "columnInsertIndex": 8,
+    "description": "Create column same_as_wikidata_tipoVia at index 8 based on column tipoVia using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")"
+  }
+]

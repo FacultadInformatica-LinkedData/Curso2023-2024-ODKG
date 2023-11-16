@@ -1,0 +1,36 @@
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+CONSTRUCT {
+  ?subject rdf:type ex:bike_shared;
+           ex:temp ?temp.
+}
+WHERE {
+  ?subject a ex:bike_shared;
+           ex:temp ?temp.
+}
+
+
+
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+CONSTRUCT {
+  ?subject rdf:type ex:bike_shared;
+           ex:season ?season.
+}
+WHERE {
+  ?subject a ex:bike_shared;
+           ex:season ?season.
+}
+
+
+
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+CONSTRUCT {
+  ?subject rdf:type ex:bike_shared;
+           ex:count ?count.
+}
+WHERE {
+  ?subject a ex:bike_shared;
+           ex:count ?count.
+}
