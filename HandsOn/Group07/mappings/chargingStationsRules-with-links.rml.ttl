@@ -1,231 +1,280 @@
-@prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix fnml: <http://semweb.mmlab.be/ns/fnml#>.
-@prefix fno: <https://w3id.org/function/ontology#>.
-@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#>.
-@prefix void: <http://rdfs.org/ns/void#>.
-@prefix dc: <http://purl.org/dc/terms/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
-@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
-@prefix : <http://mapping.example.com/>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
-@prefix ont: <https://www.chargeup.io/group07/ontology#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix : <http://mapping.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ont: <https://www.chargeup.io/group07/ontology#> .
 
-:rules_000 a void:Dataset;
-    void:exampleResource :map_chargingstationmap_000.
-:map_chargingstationmap_000 rml:logicalSource :source_000.
-:source_000 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-:map_chargingstationmap_000 a rr:TriplesMap;
-    rdfs:label "chargingstationmap".
-:s_000 a rr:SubjectMap.
-:map_chargingstationmap_000 rr:subjectMap :s_000.
-:s_000 rr:template "https://www.chargeup.io/group07/resource/ChargingStation/{ChargingStation}".
-:pom_000 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_000.
-:pm_000 a rr:PredicateMap.
-:pom_000 rr:predicateMap :pm_000.
-:pm_000 rr:constant rdf:type.
-:pom_000 rr:objectMap :om_000.
-:om_000 a rr:ObjectMap;
-    rr:constant ont:ChargingStation;
-    rr:termType rr:IRI.
-:pom_001 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_001.
-:pm_001 a rr:PredicateMap.
-:pom_001 rr:predicateMap :pm_001.
-:pm_001 rr:constant rdfs:label.
-:pom_001 rr:objectMap :om_001.
-:om_001 a rr:ObjectMap;
-    rml:reference "ChargingStation";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_002 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_002.
-:pm_002 a rr:PredicateMap.
-:pom_002 rr:predicateMap :pm_002.
-:pm_002 rr:constant ont:accessDaysTime.
-:pom_002 rr:objectMap :om_002.
-:om_002 a rr:ObjectMap;
-    rml:reference "AccessDaysTime";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_003 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_003.
-:pm_003 a rr:PredicateMap.
-:pom_003 rr:predicateMap :pm_003.
-:pm_003 rr:constant ont:additionalInfo.
-:pom_003 rr:objectMap :om_003.
-:om_003 a rr:ObjectMap;
-    rml:reference "AdditionalInfo";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_004 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_004.
-:pm_004 a rr:PredicateMap.
-:pom_004 rr:predicateMap :pm_004.
-:pm_004 rr:constant ont:evLevel1EVSENum.
-:pom_004 rr:objectMap :om_004.
-:om_004 a rr:ObjectMap;
-    rml:reference "EVLevel1EVSENum";
-    rr:termType rr:Literal;
-    rr:datatype xsd:integer.
-:pom_005 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_005.
-:pm_005 a rr:PredicateMap.
-:pom_005 rr:predicateMap :pm_005.
-:pm_005 rr:constant ont:evLevel2EVSENum.
-:pom_005 rr:objectMap :om_005.
-:om_005 a rr:ObjectMap;
-    rml:reference "EVLevel2EVSENum";
-    rr:termType rr:Literal;
-    rr:datatype xsd:integer.
-:pom_006 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_006.
-:pm_006 a rr:PredicateMap.
-:pom_006 rr:predicateMap :pm_006.
-:pm_006 rr:constant geo:latitude.
-:pom_006 rr:objectMap :om_006.
-:om_006 a rr:ObjectMap;
-    rml:reference "Latitude";
-    rr:termType rr:Literal;
-    rr:datatype xsd:float.
-:pom_007 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_007.
-:pm_007 a rr:PredicateMap.
-:pom_007 rr:predicateMap :pm_007.
-:pm_007 rr:constant geo:longitude.
-:pom_007 rr:objectMap :om_007.
-:om_007 a rr:ObjectMap;
-    rml:reference "Longitude";
-    rr:termType rr:Literal;
-    rr:datatype xsd:float.
-:pom_008 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_008.
-:pm_008 a rr:PredicateMap.
-:pom_008 rr:predicateMap :pm_008.
-:pm_008 rr:constant ont:evDCFastCount.
-:pom_008 rr:objectMap :om_008.
-:om_008 a rr:ObjectMap;
-    rml:reference "EVDCFastCount";
-    rr:termType rr:Literal;
-    rr:datatype xsd:integer.
-:pom_009 a rr:PredicateObjectMap.
-:map_chargingstationmap_000 rr:predicateObjectMap :pom_009.
-:pm_009 a rr:PredicateMap.
-:pom_009 rr:predicateMap :pm_009.
-:pm_009 rr:constant ont:hasStreetAddress.
-:pom_009 rr:objectMap :om_009.
-:om_009 a rr:ObjectMap;
-    rr:template "https://www.chargeup.io/group07/resource/StreetAddress/{StreetAddress}";
-    rr:termType rr:IRI.
-:rules_000 void:exampleResource :map_addressmap_000.
-:map_addressmap_000 rml:logicalSource :source_001.
-:source_001 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-:map_addressmap_000 a rr:TriplesMap;
-    rdfs:label "addressmap".
-:s_001 a rr:SubjectMap.
-:map_addressmap_000 rr:subjectMap :s_001.
-:s_001 rr:template "https://www.chargeup.io/group07/resource/StreetAddress/{StreetAddress}".
-:pom_010 a rr:PredicateObjectMap.
-:map_addressmap_000 rr:predicateObjectMap :pom_010.
-:pm_010 a rr:PredicateMap.
-:pom_010 rr:predicateMap :pm_010.
-:pm_010 rr:constant rdf:type.
-:pom_010 rr:objectMap :om_010.
-:om_010 a rr:ObjectMap;
-    rr:constant ont:StreetAddress;
-    rr:termType rr:IRI.
-:pom_011 a rr:PredicateObjectMap.
-:map_addressmap_000 rr:predicateObjectMap :pom_011.
-:pm_011 a rr:PredicateMap.
-:pom_011 rr:predicateMap :pm_011.
-:pm_011 rr:constant rdfs:label.
-:pom_011 rr:objectMap :om_011.
-:om_011 a rr:ObjectMap;
-    rml:reference "StreetAddress";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_012 a rr:PredicateObjectMap.
-:map_addressmap_000 rr:predicateObjectMap :pom_012.
-:pm_012 a rr:PredicateMap.
-:pom_012 rr:predicateMap :pm_012.
-:pm_012 rr:constant ont:zipCode.
-:pom_012 rr:objectMap :om_012.
-:om_012 a rr:ObjectMap;
-    rml:reference "ZipCode";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_013 a rr:PredicateObjectMap.
-:map_addressmap_000 rr:predicateObjectMap :pom_013.
-:pm_013 a rr:PredicateMap.
-:pom_013 rr:predicateMap :pm_013.
-:pm_013 rr:constant ont:hasCity.
-:pom_013 rr:objectMap :om_013.
-:om_013 a rr:ObjectMap;
-    rr:template "https://www.chargeup.io/group07/resource/City/{City}";
-    rr:termType rr:IRI.
-:rules_000 void:exampleResource :map_citymap_000.
-:map_citymap_000 rml:logicalSource :source_002.
-:source_002 a rml:LogicalSource;
-    rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv";
-    rml:referenceFormulation ql:CSV.
-:map_citymap_000 a rr:TriplesMap;
-    rdfs:label "citymap".
-:s_002 a rr:SubjectMap.
-:map_citymap_000 rr:subjectMap :s_002.
-:s_002 rr:template "https://www.chargeup.io/group07/resource/City/{City}".
-:pom_014 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_014.
-:pm_014 a rr:PredicateMap.
-:pom_014 rr:predicateMap :pm_014.
-:pm_014 rr:constant rdf:type.
-:pom_014 rr:objectMap :om_014.
-:om_014 a rr:ObjectMap;
-    rr:constant ont:City;
-    rr:termType rr:IRI.
-:pom_015 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_015.
-:pm_015 a rr:PredicateMap.
-:pom_015 rr:predicateMap :pm_015.
-:pm_015 rr:constant rdfs:label.
-:pom_015 rr:objectMap :om_015.
-:om_015 a rr:ObjectMap;
-    rml:reference "City";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_016 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_016.
-:pm_016 a rr:PredicateMap.
-:pom_016 rr:predicateMap :pm_016.
-:pm_016 rr:constant ont:counties.
-:pom_016 rr:objectMap :om_016.
-:om_016 a rr:ObjectMap;
-    rml:reference "Counties";
-    rr:termType rr:Literal;
-    rr:datatype xsd:string.
-:pom_017 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_017.
-:pm_017 a rr:PredicateMap.
-:pom_017 rr:predicateMap :pm_017.
-:pm_017 rr:constant ont:townIndex.
-:pom_017 rr:objectMap :om_017.
-:om_017 a rr:ObjectMap;
-    rml:reference "TownIndex";
-    rr:termType rr:Literal;
-    rr:datatype xsd:integer.
-:pom_018 a rr:PredicateObjectMap.
-:map_citymap_000 rr:predicateObjectMap :pom_018.
-:pm_018 a rr:PredicateMap.
-:pom_018 rr:predicateMap :pm_018.
-:pm_018 rr:constant <http://www.w3.org/2002/07/owl#sameAs>.
-:pom_018 rr:objectMap :om_018.
-:om_018 a rr:ObjectMap;
-    rml:reference "same_as_wikidata_Connecticut";
-    rr:termType rr:IRI.
+:rules_000 rdf:type void:Dataset ;
+	void:exampleResource :map_chargingstationmap_000, :map_addressmap_000, :map_citymap_000 .
+
+:map_chargingstationmap_000 rml:logicalSource :source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "chargingstationmap" ;
+	rr:subjectMap :s_000 ;
+	rr:predicateObjectMap :pom_000, :pom_001, :pom_002, :pom_003, :pom_004, :pom_005, :pom_006, :pom_007, :pom_008, :pom_009 .
+
+:source_000 rdf:type rml:LogicalSource ;
+	rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_000 rdf:type rr:SubjectMap ;
+	rr:template "https://www.chargeup.io/group07/resource/ChargingStation/{ChargingStation}" .
+
+:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_000 ;
+	rr:objectMap :om_000 .
+
+:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_000 rdf:type rr:ObjectMap ;
+	rr:constant ont:ChargingStation ;
+	rr:termType rr:IRI .
+
+:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_001 ;
+	rr:objectMap :om_001 .
+
+:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_001 rdf:type rr:ObjectMap ;
+	rml:reference "ChargingStation" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_002 ;
+	rr:objectMap :om_002 .
+
+:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant ont:accessDaysTime .
+
+:om_002 rdf:type rr:ObjectMap ;
+	rml:reference "AccessDaysTime" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_003 ;
+	rr:objectMap :om_003 .
+
+:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant ont:additionalInfo .
+
+:om_003 rdf:type rr:ObjectMap ;
+	rml:reference "AdditionalInfo" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_004 ;
+	rr:objectMap :om_004 .
+
+:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant ont:evLevel1EVSENum .
+
+:om_004 rdf:type rr:ObjectMap ;
+	rml:reference "EVLevel1EVSENum" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_005 ;
+	rr:objectMap :om_005 .
+
+:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant ont:evLevel2EVSENum .
+
+:om_005 rdf:type rr:ObjectMap ;
+	rml:reference "EVLevel2EVSENum" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_006 ;
+	rr:objectMap :om_006 .
+
+:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant geo:latitude .
+
+:om_006 rdf:type rr:ObjectMap ;
+	rml:reference "Latitude" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:float .
+
+:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_007 ;
+	rr:objectMap :om_007 .
+
+:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant geo:longitude .
+
+:om_007 rdf:type rr:ObjectMap ;
+	rml:reference "Longitude" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:float .
+
+:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_008 ;
+	rr:objectMap :om_008 .
+
+:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant ont:evDCFastCount .
+
+:om_008 rdf:type rr:ObjectMap ;
+	rml:reference "EVDCFastCount" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_009 ;
+	rr:objectMap :om_009 .
+
+:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant ont:hasAddress .
+
+:om_009 rdf:type rr:ObjectMap ;
+	rr:template "https://www.chargeup.io/group07/resource/Address/{Address}" ;
+	rr:termType rr:IRI .
+
+:map_addressmap_000 rml:logicalSource :source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "addressmap" ;
+	rr:subjectMap :s_001 ;
+	rr:predicateObjectMap :pom_010, :pom_011, :pom_012, :pom_013 .
+
+:source_001 rdf:type rml:LogicalSource ;
+	rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_001 rdf:type rr:SubjectMap ;
+	rr:template "https://www.chargeup.io/group07/resource/Address/{Address}" .
+
+:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_010 ;
+	rr:objectMap :om_010 .
+
+:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_010 rdf:type rr:ObjectMap ;
+	rr:constant ont:Address ;
+	rr:termType rr:IRI .
+
+:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_011 ;
+	rr:objectMap :om_011 .
+
+:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_011 rdf:type rr:ObjectMap ;
+	rml:reference "Address" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_012 ;
+	rr:objectMap :om_012 .
+
+:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant ont:zipCode .
+
+:om_012 rdf:type rr:ObjectMap ;
+	rml:reference "ZipCode" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_013 ;
+	rr:objectMap :om_013 .
+
+:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant ont:hasCity .
+
+:om_013 rdf:type rr:ObjectMap ;
+	rr:template "https://www.chargeup.io/group07/resource/City/{City}" ;
+	rr:termType rr:IRI .
+
+:map_citymap_000 rml:logicalSource :source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "citymap" ;
+	rr:subjectMap :s_002 ;
+	rr:predicateObjectMap :pom_014, :pom_015, :pom_016, :pom_017, :pom_018 .
+
+:source_002 rdf:type rml:LogicalSource ;
+	rml:source "Electric-Vehicle-Charging-Stations-updated-with-links.csv" ;
+	rml:referenceFormulation ql:CSV .
+
+:s_002 rdf:type rr:SubjectMap ;
+	rr:template "https://www.chargeup.io/group07/resource/City/{City}" .
+
+:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_014 ;
+	rr:objectMap :om_014 .
+
+:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+:om_014 rdf:type rr:ObjectMap ;
+	rr:constant ont:City ;
+	rr:termType rr:IRI .
+
+:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_015 ;
+	rr:objectMap :om_015 .
+
+:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+:om_015 rdf:type rr:ObjectMap ;
+	rml:reference "City" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_016 ;
+	rr:objectMap :om_016 .
+
+:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant ont:counties .
+
+:om_016 rdf:type rr:ObjectMap ;
+	rml:reference "Counties" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:string .
+
+:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_017 ;
+	rr:objectMap :om_017 .
+
+:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant ont:townIndex .
+
+:om_017 rdf:type rr:ObjectMap ;
+	rml:reference "TownIndex" ;
+	rr:termType rr:Literal ;
+	rr:datatype xsd:integer .
+
+:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:predicateMap :pm_018 ;
+	rr:objectMap :om_018 .
+
+:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant <http://www.w3.org/2002/07/owl#sameAs> .
+
+:om_018 rdf:type rr:ObjectMap ;
+	rml:reference "same_as_wikidata_Connecticut" ;
+	rr:termType rr:IRI .
+

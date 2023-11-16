@@ -1,4 +1,4 @@
-ChargingStation,StreetAddress,City,AccessDaysTime,AdditionalInfo,EVLevel1EVSENum,EVLevel2EVSENum,EVDCFastCount,Longitude,Latitude,Counties,ZipCode,TownIndex
+ChargingStation,Address,City,AccessDaysTime,AdditionalInfo,EVLevel1EVSENum,EVLevel2EVSENum,EVDCFastCount,Longitude,Latitude,Counties,ZipCode,TownIndex
 Bmw-Of-Darien,138-142-Ledge-Rd,Darien,24-Hours-Daily,Not-Provided,0,2,0,-73.4764687,41.072882,Fairfield,00005,35
 Dunkin’-Tesla-Supercharger,893-E-Main-St,Meriden,24-Hours-Daily,For-Tesla-Use-Only,0,0,8,-72.773473,41.527367,New-Haven,00199,80
 Commuter-Lot,105-N-Main-St,Beacon-Falls,24-Hours-Daily,Not-Provided,0,1,0,-73.065583,41.44548100000001,New-Haven,00138,6
