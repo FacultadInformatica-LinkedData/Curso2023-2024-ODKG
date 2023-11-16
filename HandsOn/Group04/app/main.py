@@ -47,17 +47,26 @@ def home_filter():
     event_type_select = request.args.get('event-type-select', '')
     audience_type_select = request.args.get('audience-type-select', '')
     if price_select!='?price':
-        price_select=f'FILTER regex(?price, "{price_select}", "i")'
+        price_select=f'FILTER (?price = "{price_select}")'
     else:
         price_select=''
 
     if district_select !='?districtName':
-        district_select=f'FILTER regex(?districtName, "{district_select}", "i")'
+        district_select=f"""
+            ?eventPlace ns:hasAddress ?Address.
+            ?Address a ns:Address;
+                ns:belongsTo ?district .
+            ?district geonames:officialName ?districtName .
+            FILTER regex(?districtName, "{district_select}", "i")
+        """
     else:
         district_select=''
 
     if transport_select !='?metro':
-        transport_select=f'FILTER regex(?metro, "{transport_select}", "i")'
+        transport_select=f"""
+        ?eventPlace ns:metro ?metro .
+        FILTER (?metro = "{transport_select}")
+        """
     else:
         transport_select=''
     
@@ -106,17 +115,7 @@ def home_filter():
             ns:hasEventType ?eventType .
         ?eventPlace a ns:Facility ;
             ns:facilityName ?facilityName .
-        OPTIONAL {{ 
-            ?eventPlace ns:metro ?metro .
-            {transport_select}
-        }}
-        OPTIONAL {{
-            ?eventPlace ns:hasAddress ?Address.
-            ?Address a ns:Address;
-                ns:belongsTo ?district .
-            ?district geonames:officialName ?districtName .
-            {district_select}
-        }}
+        {transport_select}
         {price_select}
         {accessibility_select}
         {audience_type_select}
@@ -124,6 +123,7 @@ def home_filter():
         {facility_select}
         {StartDate}
         {EndDate}
+        {district_select}
     }}
     """
     print(query)
@@ -291,6 +291,8 @@ def get_facility_names():
    query = '''
    SELECT DISTINCT ?facilityName
    WHERE {
+       ?event a schema:Event ;
+            ns:hasPlace ?facility .
        ?facility a ns:Facility ;
               ns:facilityName ?facilityName .
    }
