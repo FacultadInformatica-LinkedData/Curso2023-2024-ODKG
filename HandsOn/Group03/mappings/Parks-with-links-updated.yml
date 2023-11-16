@@ -1,7 +1,7 @@
 prefixes:
   xsd: http://www.w3.org/2001/XMLSchema#
-  vama: http://vidaactivamadrid.es/info/ontology/class#
-  property: http://vidaactivamadrid.es/info/ontology/property#
+  nsc: http://vidaactivamadrid.es/info/ontology/class#
+  nsp: http://vidaactivamadrid.es/info/ontology/property#
   sch: https://schema.org/
   dbo: http://dbpedia.org/ontology/
 
@@ -11,27 +11,27 @@ mappings:
       - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
     s: http://vidaactivamadrid.es/info/resource/Park/$(ID_PARQUE)
     po:
-      - [a, vama:Park]
-      - [property:id_park, $(ID_PARQUE)]
+      - [a, nsc:Park]
+      - [nsp:id_park, $(ID_PARQUE)]
       - [sch:name, $(PARQUE), xsd:string]
-      - p: property:isInNeighborhood
+      - p: nsp:isInNeighborhood
         o:
-          - mapping: Neighborhood1
+          - mapping: Neighborhood
             condition:
               function: equal
               parameters:
               - [str1, $(BARRIO)]
               - [str2, $(BARRIO)]
 
-  Neighborhood1:
+  Neighborhood:
     sources: 
       - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
     s: http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)
     po:
-      - [a, vama:Neighborhood1]
-      - [property:name, $(BARRIO)]
+      - [a, nsc:Neighborhood]
+      - [nsp:name, $(BARRIO)]
       - [owl:sameAs, $(same_as_wikidata_BARRIO)~iri]
-      - p: property:isInDistrict
+      - p: nsp:isInDistrict
         o:
           - mapping: District
             condition:
@@ -45,6 +45,6 @@ mappings:
       - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
     s: http://vidaactivamadrid.es/info/resource/District/$(DISTRITO)
     po:
-      - [a, vama:District]
-      - [property:name, $(DISTRITO)]
+      - [a, nsc:District]
+      - [nsp:name, $(DISTRITO)]
       - [owl:sameAs, $(same_as_wikidata_DISTRITO)~iri]

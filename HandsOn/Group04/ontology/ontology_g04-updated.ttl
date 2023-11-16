@@ -1,0 +1,177 @@
+@prefix : <http://www.madculturalevents.es/group04/ontology/madculturalevents#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@base <http://www.madculturalevents.es/group04/ontology/madculturalevents> .
+
+<http://www.madculturalevents.es/group04/ontology/madculturalevents> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasPlace
+:hasPlace rdf:type owl:ObjectProperty ;
+          rdfs:domain schema:Event ;
+          rdfs:range :Facility .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAddress
+:hasAddress rdf:type owl:ObjectProperty ;
+            rdfs:domain :Facility ;
+            rdfs:range :Address .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#belongsTo
+:belongsTo rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Address ;
+                  rdfs:range esadm:Distrito .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#ubicatedIn
+:ubicatedIn rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Facility ;
+                  rdfs:range :Geometry .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasEventType
+:hasEventType rdf:type owl:DatatypeProperty ;
+           rdfs:domain schema:Event ;
+           rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasAudienceType
+:hasAudienceType rdf:type owl:DatatypeProperty ;
+              rdfs:domain schema:Event ;
+              rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasOpenDays
+:hasOpenDays rdf:type owl:DatatypeProperty ;
+              rdfs:domain schema:Event ;
+              rdfs:range xsd:string .
+
+###  https://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+           rdfs:domain schema:Event ;
+           rdfs:range xsd:string .
+
+
+###  https://schema.org/description
+schema:description rdf:type owl:DatatypeProperty ;
+                  rdfs:domain schema:Event ;
+                  rdfs:range xsd:string .
+
+
+###  https://schema.org/startDate
+schema:startDate rdf:type owl:DatatypeProperty ;
+           rdfs:domain schema:Event ;
+           rdfs:range xsd:dateTime .
+
+
+### https://schema.org/endDate
+schema:endDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain schema:Event ;
+         rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/url
+schema:url rdf:type owl:DatatypeProperty ;
+          rdfs:domain schema:Event ;
+          rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#accesibility
+:accesibility rdf:type owl:DatatypeProperty ;
+          rdfs:domain schema:Event ;
+          rdfs:range xsd:string .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#price
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:domain schema:Event ;
+       rdfs:range xsd:string .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityName
+:facilityName rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Facility ;
+               rdfs:range xsd:string .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#facilityUrl
+:facilityUrl rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#metro
+:metro rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#train
+:train rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#bus
+:bus rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Facility ;
+                   rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasLat
+:hasLat rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Geometry ;
+        rdfs:range xsd:float .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#hasLong
+:hasLong rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Geometry ;
+         rdfs:range xsd:float .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#addressName
+:addressName rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Address ;
+           rdfs:range xsd:string .
+
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#number
+:number rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Address ;
+             rdfs:range xsd:int .
+
+
+###  http://www.geonames.org/ontology#officialName
+geonames:officialName rdf:type owl:DatatypeProperty ;
+         rdfs:domain esadm:Distrito ;
+         rdfs:range xsd:string .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#id
+:id rdf:type owl:DatatypeProperty ;
+            rdfs:domain esadm:Distrito ;
+            rdfs:range xsd:int .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schema.org/Event
+schema:Event rdf:type owl:Class .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Facility
+:Facility rdf:type owl:Class .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Geometry
+:Geometry rdf:type owl:Class .
+
+###  http://www.madculturalevents.es/group04/ontology/madculturalevents#Address
+:Address rdf:type owl:Class .
+
+###  http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito
+esadm:Distrito rdf:type owl:Class .

@@ -1,0 +1,58 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Chart section styling */
+#chartContainer {
+    margin-top: 20px;
+}
+
+#indexWasteOverview {
+    width: 100%;
+    height: 400px;
+}
+
+/* Map section styling */
+#map1 {
+    width: 100%;
+    height: 400px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
