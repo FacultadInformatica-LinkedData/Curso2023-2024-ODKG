@@ -1,0 +1,23 @@
+PREFIX ns1: <http://example.com/ontology/municipality#>
+PREFIX ns2: <http://example.com/ontology/defibrillator#>
+PREFIX ns3: <https://www.wikidata.org/>
+
+SELECT ?address ?coordinate_x ?coordinate_y ?dea_code ?establishment_type ?location ?ownership_type ?postal_code ?municipality_code ?municipality ?municipality_name ?wikidata_link
+WHERE {
+    ?defibrillator a ns2:Defibrillator ;
+                   ns2:address ?address ;
+                   ns2:coordinate_x ?coordinate_x ;
+                   ns2:coordinate_y ?coordinate_y ;
+                   ns2:dea_code ?dea_code ;
+                   ns2:establishment_type ?establishment_type ;
+                   ns2:location ?location ;
+                   ns2:ownership_type ?ownership_type ;
+                   ns2:postal_code ?postal_code ;
+                   ns1:belongsToMunicipality ?municipality ;
+                   ns1:municipality_code ?municipality_code .
+
+    ?municipality ns1:municipality_name ?municipality_name ;
+                 ns3:wikidata_link ?wikidata_link .
+
+    FILTER (?establishment_type = "Aeropuertos" && ?municipality_code = "079").
+}
