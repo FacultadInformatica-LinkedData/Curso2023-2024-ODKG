@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>analysis</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="analysis_files/libs/clipboard/clipboard.min.js"></script>
-<script src="analysis_files/libs/quarto-html/quarto.js"></script>
-<script src="analysis_files/libs/quarto-html/popper.min.js"></script>
-<script src="analysis_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="analysis_files/libs/quarto-html/anchor.min.js"></script>
-<link href="analysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="analysis_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="analysis_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="analysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="analysis_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-
-
-</head>
-
-<body class="fullcontent">
-
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
-
-
-
-<section id="data-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="data-analysis">Data Analysis</h2>
-<p>The following document presents the analysis made to the selected datasets.</p>
 <section id="datasets" class="level3">
 <h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
 <p>The topic of the selected datasets are describe next:</p>
@@ -56,57 +7,40 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="exploratory-data-analysis-eda" class="level3">
-<h3 class="anchored" data-anchor-id="exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</h3>
-<p>The exploratory data analysis can be found in the <code>analysis</code> folder. The notebook <code>analysis.ipynb</code> gathers the necessary code for creating the reports regarding the data types and ranges for each variable. From this analysis we can extract some conclusions as expressed next:</p>
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis-eda">Exploratory Data Analysis</h3>
+<p>From this analysis we can extract some conclusions as expressed next:</p>
 <ul>
-<li>The variables regarding the specifics attributes of the addresses like <code>PUERTA</code> and <code>ESCALERA</code> have a high percentage of nulity so they aren’t going to be used in the ontology we are building.</li>
-<li>Variables like <code>HORARIO</code> and <code>TRANSPORTE</code> need to be preprocessed before being added to the ontology.</li>
+<li>The address of the building where the defibrillator is located is separated into several columns. Also, the format of the addresses changes from row to row.</li>
+<li>There are many null values due to the format used during data acquisition or missing data.</li>
+<li>The format of the opening hours of the buildings shows a lot of variability in its format, as well as erroneous or null values.</li>
 </ul>
 </section>
 <section id="data-sources-licensing" class="level3">
-<h3 class="anchored" data-anchor-id="data-sources-licensing">Data Source’s Licensing</h3>
-<p>Each of the selected datasets are edited by the City of Madrid, while the responsibles for the data are described next:</p>
+<h3 class="anchored" data-anchor-id="data-sources-licensing">Data Source&rsquo;s Licensing</h3>
+<p>The dataset is edited by the&nbsp; Council of Madrid, while the responsibles for the data is the Directorate General for Health Inspection and Management.</p>
+<p>All the information related with the use of data provided by the Madrid City Council can be checked <a href="https://www.comunidad.madrid/gobierno/datos-abiertos/reutiliza-datos-abiertos-comunidad-madrid">here</a>.</p>
+<p>Each dataset offered in the Open Data service of the Community of Madrid indicates the specific license that applies to it. In general, the datasets are published under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons - Attribution (CC-BY 4.0)</a> license, which allows:</p>
 <ul>
-<li><code>200342-0-centros-dia.csv</code>: General Directorate for the Elderly (<em>Dirección General de Mayores</em>).</li>
+<li>copy, distribute and publicly disclose.</li>
+<li>serve as a basis for derivative works as a result of their analysis or study.</li>
+<li>be used for commercial or non-commercial purposes, provided that such use does not constitute a public administrative activity.</li>
+<li>modify, transform and adapt.</li>
+<li>Also, the authorship of the Community of Madrid must be mentioned.</li>
 </ul>
-<p>Regarding the <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">licences of each of the datasets and its conditions of use</a>, all of them can be use for commercial and non-commercial purposes subject to the acknowledgment of source’s authority.</p>
-<p>We haven’t found a specific license of the dataset. All the information related with the use of data provided by the Madrid City council shows that it’s an open license. However, they didn’t refer to a specific license.</p>
-<section id="condition-of-re-use" class="level4">
-<h4 class="anchored" data-anchor-id="condition-of-re-use">Condition of re-use</h4>
-<ol type="1">
-<li>It is forbidden to denature the data meaning.</li>
-<li>The data source must be indicated in the documents which reuse information. This indication can be made in the following way: “Data origin: Madrid City Council (or the corresponding organ or entity).”</li>
-<li>The last update date must be mentioned in the documents which reuse information, as long as this is included in the original document.</li>
-<li>It is not allowed to indicate, insinuate or suggest that Madrid City Council participates, patronizes or supports the reutilization carried out with the information.</li>
-<li>Metadata must be kept unaltered and complete about the reutilization date and the usage condition in the available for reutilization document.</li>
-<li>In the cases of anonimized data for the sake of Personal Data Protection, it is expressly forbiden to carry out task of re-identification, using whichever other present, past or future data sources.</li>
-</ol>
-</section>
 <section id="applicable-legislation" class="level4">
 <h4 class="anchored" data-anchor-id="applicable-legislation">Applicable legislation</h4>
 <p>Open Data is a global initiative linked to the Open Government policies, which intends that data and information in power of public administrations are published in an open, regular and reusable way for everybody, without restrictions of access, copyright, patents or other control mechanisms.</p>
-<p><strong>European level</strong></p>
-<ul>
-<li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L1024">Directive (EU) 2019/1024</a></li>
-</ul>
-<p><strong>National level</strong></p>
-<ul>
-<li><p><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17910">Real Decreto-ley 24/2021, de 2 de noviembre, de transposición de la Directiva (UE) 2019/1024 de datos abiertos y reutilización de la información del sector público</a></p></li>
-<li><p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814">Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.</a></p></li>
-<li><p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560">Real Decreto 1495/2011, de 24 de octubre, por el que se desarrolla la Ley 37/2007, de 16 de noviembre</a></p></li>
-<li><p><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-2380">Norma Técnica de Interoperabilidad de Reutilización de recursos de la información</a></p></li>
-<li><p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887">Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno</a></p></li>
-<li><p><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2015-7731">Ley 18/2015, de 9 de julio, por la que se modifica la Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público</a></p></li>
-</ul>
-<p><strong>Regional level</strong></p>
-<ul>
-<li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102">Ley 10/2019, de 10 de abril, de Transparencia y de Participación de la Comunidad de Madrid.</a></li>
-</ul>
-<p><strong>Local level</strong></p>
-<ul>
-<li><a href="https://sede.madrid.es/FrameWork/generacionPDF/ANM2016_108.pdf?idNormativa=3eabe8e52c796510VgnVCM1000001d4a900aRCRD&amp;nombreFichero=ANM2016_108&amp;cacheKey=163">Ordenanza de Transparencia de la Ciudad de Madrid, de 27 de julio de 2016</a></li>
-</ul>
-</section>
+<p><strong>Community Scope</strong></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32003L0098">Directive 2013/37/EU, amending Directive 2003/98/EC on the reuse of public sector information.</a></p>
+<p><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex%3A32003L0098">Directive 2003/98/EC on the reuse of public sector information</a></p>
+<p><strong>National scope</strong></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-19814">Law 37/2007, of November 16, 2007, on the reuse of public sector information (consolidated text)</a></p>
+<p><a href="https://www.boe.es/boe/dias/2018/12/06/pdfs/BOE-A-2018-16673.pdf">Organic Law 3/2018, of December 5, 2018, on Personal Data Protection and guarantee of digital rights.</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887">Law 19/2013, of December 9, on transparency, access to public information and good governance.</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565">Law 39/2015, of October 1, 2015, on the Common Administrative Procedure of the Public Administration</a></p>
+<p><a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-17560">Royal Decree 1495/2011, of October 24, which develops Law 37/2007, of November 16, on the reuse of public sector information, for the scope of the state public sector</a></p>
+<p><a href="https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930">Royal Legislative Decree 1/1996, of April 12, 1996, approving the text of the Intellectual Property Law.</a></p>
+<a href="https://sede.madrid.es/FrameWork/generacionPDF/ANM2016_108.pdf?idNormativa=3eabe8e52c796510VgnVCM1000001d4a900aRCRD&amp;nombreFichero=ANM2016_108&amp;cacheKey=163">Ordenanza de Transparencia de la Ciudad de Madrid, de 27 de julio de 2016</a></section>
 </section>
 <section id="Data-licensing" class="level5">
 <h3 class="anchored" data-anchor-id="Data-licensing">Data-licensing</h3>
@@ -114,132 +48,16 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://creativecommons.org/share-your-work/public-domain/cc0/">Creative Commons: CC0</a></p>
 </section>
 <section id="resource-naming-strategy-rns" class="level3">
-<h3 class="anchored" data-anchor-id="resource-naming-strategy-rns">Resource Naming Strategy (RNS)</h3>
-<p>The Resource Naming Strategy follows the following rules:</p>
+<h3 class="anchored" data-anchor-id="resource-naming-strategy-rns">Resource Naming Strategy</h3>
+The Resource Naming Strategy follows the following rules:
 <ul>
-<li>Base domain: <code>https://miciudadamiga.madrid/</code></li>
-<li>Path: <code>map/</code></li>
-<li>Ontological Term Path: <code>https://miciudadamiga.madrid/map/ontology#[classOrPropertyName]</code></li>
-<li>Individuals Path: <code>https://miciudadamiga.madrid/map/resource/[className]/[identifier]</code>
+<li>Base domain: <a href="http://upm.defibrilator.com/"><span style="font-weight: 400;">http://upm.defibrilator.com/</span></a><code></code></li>
+<li>Ontological Term Path:<a href="http://upm.defibrilator.com/ontology#"><span style="font-weight: 400;">http://upm.defibrilator.com/ontology#</span></a></li>
+<li>Individuals Path:<a href="http://upm.defibrilator.com/ontology#"><span style="font-weight: 400;">http://upm.defibrilator.com/[class/propertyName]</span></a>
 <ul>
-<li>Metro: <code>https://miciudadamiga.madrid/map/resource/SubwayStation/[identifier]</code></li>
-<li>District: <code>https://miciudadamiga.madrid/map/resource/MadridDistrict/[identifier]</code></li>
-<li>Neighborhood: <code>https://miciudadamiga.madrid/map/resource/MadridNeighborhood/[identifier]</code></li>
-<li>Day Center: <code>https://miciudadamiga.madrid/map/resource/DayCenter/[identifier]</code></li>
-</ul></li>
+<li>Defibrillator:[base][path]/defibrillator#[someIdentifier]</li>
+<li>Municipality:[base][path]/municipality#[someIdentifier]</li>
 </ul>
-<p>Some examples of specific use cases are shown below:</p>
-<ul>
-<li>https://miciudadamiga.madrid/map/ontology#DayCenter</li>
-<li>https://miciudadamiga.madrid/map/ontology#belongsToMadridNeighborhood</li>
-<li>https://miciudadamiga.madrid/map/resource/SubwayStation/Legazpi</li>
-<li>https://miciudadamiga.madrid/map/resource/MadridDistrict/76</li>
+</li>
 </ul>
 </section>
-</section>
-
-</main>
-<!-- /main column -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    setTimeout(function() {
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config);
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
-      });
-      return popup.innerHTML;
-    });
-  }
-});
-</script>
-</div> <!-- /content -->
-
-
-
-</body></html>
