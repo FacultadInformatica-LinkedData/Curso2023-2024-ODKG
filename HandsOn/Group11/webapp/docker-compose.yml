@@ -5,7 +5,7 @@ services:
         container_name: museum_api
         build:
             context: .
-        command: bash -c 'gunicorn --config ./gunicorn.conf.py --workers 4 --timeout 120'
+        command: bash -c 'gunicorn --config ./gunicorn.conf.py --workers 2 --timeout 300'
         ports:
           - ${PORT}:8080
         restart: on-failure

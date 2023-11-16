@@ -5,7 +5,7 @@ wsgi_app = 'museum_api.api.app:app'
 bind = ['0.0.0.0:8080']
 
 # Worker Options
-workers = 8
+workers = 4
 worker_class = 'uvicorn.workers.UvicornWorker'
 
 # Logging
