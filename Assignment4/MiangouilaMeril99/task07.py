@@ -24,26 +24,27 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
 # Import necessary libraries
-from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://somewhere#")
-query_text = """
+q1 = '''
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX ns: <http://somewhere#>
     SELECT ?subclass
     WHERE {
-        ?subclass rdfs:subClassOf ns:LivingThing .
+        ?subclass rdfs:subClassOf+ ns:LivingThing .
     }
-"""
-q1 = prepareQuery(query_text)
+'''
 
+# Execute the query and print results
 for r in g.query(q1):
-    print(r)
+  print(r.subclass)
+
+
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
 
-query_text = """
+q2 = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX ns: <http://somewhere#>
     SELECT ?individual
@@ -52,7 +53,6 @@ query_text = """
         ?type rdfs:subClassOf* ns:Person .
     }
 """
-q2 = prepareQuery(query_text)
 for r in g.query(q2):
     print(r)
 
@@ -60,24 +60,24 @@ for r in g.query(q2):
 
 """
 
-query_text = """
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+q3 = """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX ns: <http://somewhere#>
-    SELECT distinct ?individual ?property ?value
+    SELECT DISTINCT ?individual ?property ?value
     WHERE {
-        ?individual rdf:type ?class .
+        { ?individual rdf:type ns:Person . }
+        UNION
+        { ?individual rdf:type ns:Animal . }
         ?individual ?property ?value .
-        FILTER (?class = ns:Person || ?class = ns:Animal) .
     }
 """
-q3 = prepareQuery(query_text)
 for r in g.query(q3):
     pprint(r)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 ns = Namespace("http://somewhere#")
-query_text = """
+q4 = """
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
     PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#>
     PREFIX ns: <http://somewhere#>
@@ -87,14 +87,13 @@ query_text = """
                 vcard:FN ?name .
     }
 """
-q4 = prepareQuery(query_text)
 for r in g.query(q4):
  print(r)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 ns = Namespace("http://somewhere#")
-query_text = """
+q5 = """
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
     SELECT ?entity
     WHERE {
@@ -102,8 +101,9 @@ query_text = """
         ?entity foaf:knows ?known2 .
         FILTER (?known1 != ?known2)
     }
+    GROUP BY ?entity
+    HAVING (COUNT(DISTINCT ?known1) >= 2)
 """
-q5 = prepareQuery(query_text)
 
 for r in g.query(q5):
     print(r)

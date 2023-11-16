@@ -63,9 +63,11 @@ for s, p, o in g:
 """**TASK 6.4: Add to the individual JaneSmith the email address, fullName, given and family names**"""
 
 jane_smith = ns.JaneSmith
+
 g.add((jane_smith, vcard.EMAIL, Literal("jane.smith@example.com")))
 g.add((jane_smith, vcard.Given, Literal("Jane")))
 g.add((jane_smith, vcard.Family, Literal("Smith")))
+g.add((jane_smith, vcard.FN, Literal("Jane Smith")))
 
 # Visualize the results
 for s, p, o in g:
@@ -75,11 +77,13 @@ for s, p, o in g:
 
 john_smith = ns.JohnSmith
 upm = ns.UPM
+g.add((upm, RDF.type, RDFS.Class))
 g.add((upm, RDF.type, ns.University))
-g.add((john_smith, vcard.ORG, upm))
+g.add((john_smith, ns.worksAt, upm))
 g.add((upm, RDFS.label, Literal("Universidad Politécnica de Madrid")))
 # Visualize the results
 for s, p, o in g:
+  print("GROS SIX POINT 6.5")
   print(s,p,o)
 
 """**Task 6.6: Add that Jown knows Jane using the FOAF vocabulary**"""
