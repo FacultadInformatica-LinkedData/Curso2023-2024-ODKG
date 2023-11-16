@@ -49,6 +49,9 @@ ns:season a owl:DatatypeProperty ;
 ns:temp a owl:DatatypeProperty ;
     rdfs:label "temp" .
 
+ns:weather a owl:DatatypeProperty ;
+    rdfs:label "weather" .
+
 ns:windspeed a owl:DatatypeProperty ;
     rdfs:label "windspeed" .
 
