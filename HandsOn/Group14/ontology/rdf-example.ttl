@@ -1,0 +1,27 @@
+@prefix ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.divvybikesharing.com/group14/about/Bike/4551> a ns:Bike ;
+    ns:bikeID "4551"^^xsd:integer ;
+    ns:hasTripInformation <http://www.divvybikesharing.com/group14/about/TripTime/20983530> .
+
+<http://www.divvybikesharing.com/group14/about/TripTime/20983530> a ns:TripTime ;
+    ns:tripID "20983530"^^xsd:integer ;
+    ns:startTime "2018-10-01T00:01:00Z"^^xsd:dateTime ;
+    ns:endTime "2018-10-01T00:29:00Z"^^xsd:dateTime ;
+    ns:tripDuration "1698"^^xsd:integer ;
+    ns:hasUser <http://www.divvybikesharing.com/group14/about/Users/20983530> ;
+    ns:fromStation <http://www.divvybikesharing.com/group14/about/Location/MichiganAveAndOakSt> ;
+    ns:toStation <http://www.divvybikesharing.com/group14/about/Location/AshlandAveAndWrightwoodAve> .
+
+<http://www.divvybikesharing.com/group14/about/Users/20983530> a ns:Users ;
+    ns:userType "Subscriber"^^xsd:string ;
+    ns:gender "Male"^^xsd:string ;
+    ns:birthYear "1992"^^xsd:integer .
+
+<http://www.divvybikesharing.com/group14/about/Location/MichiganAveAndOakSt> a ns:Location ;
+    ns:address "Michigan Ave & Oak St"^^xsd:string .
+
+<http://www.divvybikesharing.com/group14/about/Location/AshlandAveAndWrightwoodAve> a ns:Location ;
+    ns:address "Ashland Ave & Wrightwood Ave"^^xsd:string .
