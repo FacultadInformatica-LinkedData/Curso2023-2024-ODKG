@@ -36,12 +36,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/1-Main-St> a ont:Address;
   rdfs:label "1-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford-Springs>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford%20Springs>;
   ont:zipCode "00034" .
 
 <https://www.chargeup.io/group07/resource/Address/1-Memorial-Rd> a ont:Address;
   rdfs:label "1-Memorial-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00251" .
 
 <https://www.chargeup.io/group07/resource/Address/1-Mohegan-Sun-Blvd> a ont:Address;
@@ -51,13 +51,13 @@
 
 <https://www.chargeup.io/group07/resource/Address/1-Morse-Ct> a ont:Address;
   rdfs:label "1-Morse-Ct";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Canaan>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Canaan>;
   ont:zipCode "00180" .
 
 <https://www.chargeup.io/group07/resource/Address/1-Mt-Parnassus-Millington-Rd> a
     ont:Address;
   rdfs:label "1-Mt-Parnassus-Millington-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Haddam>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Haddam>;
   ont:zipCode "00192" .
 
 <https://www.chargeup.io/group07/resource/Address/1-N-Water-St> a ont:Address;
@@ -87,7 +87,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/1-Temple-St> a ont:Address;
   rdfs:label "1-Temple-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00133" .
 
 <https://www.chargeup.io/group07/resource/Address/1-Union-Pl> a ont:Address;
@@ -112,7 +112,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/10-Franklin-Square> a ont:Address;
   rdfs:label "10-Franklin-Square";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00017" .
 
 <https://www.chargeup.io/group07/resource/Address/10-Newton-Rd> a ont:Address;
@@ -157,7 +157,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/100-Universal-Dr> a ont:Address;
   rdfs:label "100-Universal-Dr";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Haven>;
   ont:zipCode "00168" .
 
 <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd> a ont:Address;
@@ -177,7 +177,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/102-N-Frontage-Rd> a ont:Address;
   rdfs:label "102-N-Frontage-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00275" .
 
 <https://www.chargeup.io/group07/resource/Address/1021-Main-St> a ont:Address;
@@ -197,12 +197,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/105-Ella-Grasso-Blvd> a ont:Address;
   rdfs:label "105-Ella-Grasso-Blvd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00110" .
 
 <https://www.chargeup.io/group07/resource/Address/105-LaSalle-Rd> a ont:Address;
   rdfs:label "105-LaSalle-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00158" .
 
 <https://www.chargeup.io/group07/resource/Address/105-Miller-St> a ont:Address;
@@ -212,7 +212,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/105-N-Main-St> a ont:Address;
   rdfs:label "105-N-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Beacon-Falls>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Beacon%20Falls>;
   ont:zipCode "00138" .
 
 <https://www.chargeup.io/group07/resource/Address/108-Leigus-Road> a ont:Address;
@@ -232,7 +232,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/11-E-Main-St> a ont:Address;
   rdfs:label "11-E-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Canaan>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Canaan>;
   ont:zipCode "00233" .
 
 <https://www.chargeup.io/group07/resource/Address/11-Meetinghouse-Ln> a ont:Address;
@@ -273,7 +273,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/1145-High-Ridge-Rd> a ont:Address;
   rdfs:label "1145-High-Ridge-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Stamford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Stamford>;
   ont:zipCode "00084" .
 
 <https://www.chargeup.io/group07/resource/Address/1147-Fairfield-Woods-Rd> a ont:Address;
@@ -293,12 +293,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/1157-Chapel-St> a ont:Address;
   rdfs:label "1157-Chapel-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00275" .
 
 <https://www.chargeup.io/group07/resource/Address/116-Danbury-Rd> a ont:Address;
   rdfs:label "116-Danbury-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Milford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Milford>;
   ont:zipCode "00088" .
 
 <https://www.chargeup.io/group07/resource/Address/118-Woodbury-Rd> a ont:Address;
@@ -333,7 +333,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/121-Main-St> a ont:Address;
   rdfs:label "121-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00017" .
 
 <https://www.chargeup.io/group07/resource/Address/1220--Storrs-Rd> a ont:Address;
@@ -358,7 +358,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/133-Pitkin-St> a ont:Address;
   rdfs:label "133-Pitkin-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hartford>;
   ont:zipCode "00119" .
 
 <https://www.chargeup.io/group07/resource/Address/134-Groton-Long-Point-Rd> a ont:Address;
@@ -423,12 +423,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/143-Boston-Post-Rd> a ont:Address;
   rdfs:label "143-Boston-Post-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Windham>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Windham>;
   ont:zipCode "00258" .
 
 <https://www.chargeup.io/group07/resource/Address/1445-New-Britain-Ave.> a ont:Address;
   rdfs:label "1445-New-Britain-Ave.";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00213" .
 
 <https://www.chargeup.io/group07/resource/Address/1451-Farmington-Ave> a ont:Address;
@@ -473,12 +473,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/150-Main-St> a ont:Address;
   rdfs:label "150-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Deep-River>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Deep%20River>;
   ont:zipCode "00272" .
 
 <https://www.chargeup.io/group07/resource/Address/150-Paul-Manafort-Sr.-Dr> a ont:Address;
   rdfs:label "150-Paul-Manafort-Sr.-Dr";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00110" .
 
 <https://www.chargeup.io/group07/resource/Address/1525-Boston-Post-Rd> a ont:Address;
@@ -508,7 +508,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/155-Temple-St> a ont:Address;
   rdfs:label "155-Temple-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00133" .
 
 <https://www.chargeup.io/group07/resource/Address/155-Tower-Ave> a ont:Address;
@@ -533,7 +533,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/161-Water-St> a ont:Address;
   rdfs:label "161-Water-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-London>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20London>;
   ont:zipCode "00144" .
 
 <https://www.chargeup.io/group07/resource/Address/1625-Mill-Plain-Rd> a ont:Address;
@@ -543,7 +543,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/165-Ella-Grasso-Blvd> a ont:Address;
   rdfs:label "165-Ella-Grasso-Blvd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00110" .
 
 <https://www.chargeup.io/group07/resource/Address/165-Kennedy-Dr> a ont:Address;
@@ -573,7 +573,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/17-Isham-Rd> a ont:Address;
   rdfs:label "17-Isham-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00158" .
 
 <https://www.chargeup.io/group07/resource/Address/170-Elm-St> a ont:Address;
@@ -628,7 +628,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/189-Forbes-Ave> a ont:Address;
   rdfs:label "189-Forbes-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00130" .
 
 <https://www.chargeup.io/group07/resource/Address/19-Maple-Ave> a ont:Address;
@@ -653,7 +653,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/2-Bridge-St> a ont:Address;
   rdfs:label "2-Bridge-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Saybrook>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Saybrook>;
   ont:zipCode "00056" .
 
 <https://www.chargeup.io/group07/resource/Address/2-Post-Office-Ln> a ont:Address;
@@ -723,7 +723,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/210-E-St> a ont:Address;
   rdfs:label "210-E-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford-Springs>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford%20Springs>;
   ont:zipCode "00034" .
 
 <https://www.chargeup.io/group07/resource/Address/210-Old-Dam-Rd> a ont:Address;
@@ -733,7 +733,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/211-Riverside-Dr> a ont:Address;
   rdfs:label "211-Riverside-Dr";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hartford>;
   ont:zipCode "00024" .
 
 <https://www.chargeup.io/group07/resource/Address/213-Court-St> a ont:Address;
@@ -743,7 +743,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/213-Crown-St> a ont:Address;
   rdfs:label "213-Crown-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00133" .
 
 <https://www.chargeup.io/group07/resource/Address/2155-Main-St> a ont:Address;
@@ -763,12 +763,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/22-Maple-St> a ont:Address;
   rdfs:label "22-Maple-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Somersville>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Somersville%20Historic%20District>;
   ont:zipCode "00143" .
 
 <https://www.chargeup.io/group07/resource/Address/22-Spencer-Plain-Rd> a ont:Address;
   rdfs:label "22-Spencer-Plain-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Saybrook>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Saybrook>;
   ont:zipCode "00056" .
 
 <https://www.chargeup.io/group07/resource/Address/2202-Bedford-St> a ont:Address;
@@ -833,12 +833,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/24-Ella-Grasso-Turnpike> a ont:Address;
   rdfs:label "24-Ella-Grasso-Turnpike";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Windsor-Locks>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Windsor%20Locks>;
   ont:zipCode "00021" .
 
 <https://www.chargeup.io/group07/resource/Address/24-Main-St> a ont:Address;
   rdfs:label "24-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Milford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Milford>;
   ont:zipCode "00088" .
 
 <https://www.chargeup.io/group07/resource/Address/240-Capitol-Ave> a ont:Address;
@@ -883,7 +883,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/25-Veterans-Dr> a ont:Address;
   rdfs:label "25-Veterans-Dr";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00017" .
 
 <https://www.chargeup.io/group07/resource/Address/25-Welles-St-%23-55> a ont:Address;
@@ -898,7 +898,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/250-Main-St> a ont:Address;
   rdfs:label "250-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Haven>;
   ont:zipCode "00130" .
 
 <https://www.chargeup.io/group07/resource/Address/253-Greenmanville--Ave> a ont:Address;
@@ -918,7 +918,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/257-W-Town-St> a ont:Address;
   rdfs:label "257-W-Town-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Yantic>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Yantic%20Falls%20Historic%20District>;
   ont:zipCode "00014" .
 
 <https://www.chargeup.io/group07/resource/Address/263-Farmington-Ave> a ont:Address;
@@ -968,17 +968,17 @@
 
 <https://www.chargeup.io/group07/resource/Address/295-Middlesex-Turnpike> a ont:Address;
   rdfs:label "295-Middlesex-Turnpike";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Saybrook>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Saybrook>;
   ont:zipCode "00056" .
 
 <https://www.chargeup.io/group07/resource/Address/3-Buckley-Hwy> a ont:Address;
   rdfs:label "3-Buckley-Hwy";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford-Springs>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Stafford%20Springs>;
   ont:zipCode "00034" .
 
 <https://www.chargeup.io/group07/resource/Address/3-International-Dr> a ont:Address;
   rdfs:label "3-International-Dr";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Granby>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Granby>;
   ont:zipCode "00225" .
 
 <https://www.chargeup.io/group07/resource/Address/3-Primrose-St> a ont:Address;
@@ -1023,7 +1023,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/31-Bank-St> a ont:Address;
   rdfs:label "31-Bank-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00017" .
 
 <https://www.chargeup.io/group07/resource/Address/31-Park-Street> a ont:Address;
@@ -1043,7 +1043,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/319-Middlesex-Turnpike> a ont:Address;
   rdfs:label "319-Middlesex-Turnpike";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Saybrook>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Saybrook>;
   ont:zipCode "00056" .
 
 <https://www.chargeup.io/group07/resource/Address/321--Boston-Post-Rd> a ont:Address;
@@ -1068,7 +1068,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/333-Ferry-Rd> a ont:Address;
   rdfs:label "333-Ferry-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Lyme>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Lyme>;
   ont:zipCode "00136" .
 
 <https://www.chargeup.io/group07/resource/Address/34-Library-Ln> a ont:Address;
@@ -1078,7 +1078,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/345-N-Main-St> a ont:Address;
   rdfs:label "345-N-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00181" .
 
 <https://www.chargeup.io/group07/resource/Address/35-Arch-St> a ont:Address;
@@ -1098,7 +1098,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/355-Campbell-Ave> a ont:Address;
   rdfs:label "355-Campbell-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Haven>;
   ont:zipCode "00011" .
 
 <https://www.chargeup.io/group07/resource/Address/355-High-St> a ont:Address;
@@ -1108,12 +1108,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/36-Albany-Turnpike> a ont:Address;
   rdfs:label "36-Albany-Turnpike";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Simsbury>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Simsbury>;
   ont:zipCode "00186" .
 
 <https://www.chargeup.io/group07/resource/Address/369-N-Frontage-Rd> a ont:Address;
   rdfs:label "369-N-Frontage-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-London>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20London>;
   ont:zipCode "00144" .
 
 <https://www.chargeup.io/group07/resource/Address/37-Wakeley-St> a ont:Address;
@@ -1138,12 +1138,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/39-Ella-Grasso-Blvd> a ont:Address;
   rdfs:label "39-Ella-Grasso-Blvd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00110" .
 
 <https://www.chargeup.io/group07/resource/Address/4-Brush-Hill-Rd> a ont:Address;
   rdfs:label "4-Brush-Hill-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Fairfield>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Fairfield>;
   ont:zipCode "00045" .
 
 <https://www.chargeup.io/group07/resource/Address/4-Market-St> a ont:Address;
@@ -1163,7 +1163,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/400-West-St> a ont:Address;
   rdfs:label "400-West-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky-Hill>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky%20Hill>;
   ont:zipCode "00189" .
 
 <https://www.chargeup.io/group07/resource/Address/401-Bridgeport-Ave> a ont:Address;
@@ -1173,7 +1173,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/401-Evergreen-Wy> a ont:Address;
   rdfs:label "401-Evergreen-Wy";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/South-Windsor>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/South%20Windsor>;
   ont:zipCode "00089" .
 
 <https://www.chargeup.io/group07/resource/Address/401-Westport-Ave> a ont:Address;
@@ -1183,7 +1183,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/403-Main-St> a ont:Address;
   rdfs:label "403-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hartford>;
   ont:zipCode "00024" .
 
 <https://www.chargeup.io/group07/resource/Address/406-424-Washington-Blvd> a ont:Address;
@@ -1228,12 +1228,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/425-Oakwood-Ave> a ont:Address;
   rdfs:label "425-Oakwood-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00213" .
 
 <https://www.chargeup.io/group07/resource/Address/426-Derby-Ave> a ont:Address;
   rdfs:label "426-Derby-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Haven>;
   ont:zipCode "00011" .
 
 <https://www.chargeup.io/group07/resource/Address/43-Lake-Ave-Extension> a ont:Address;
@@ -1253,7 +1253,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/46-Albany-Turnpike> a ont:Address;
   rdfs:label "46-Albany-Turnpike";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Simsbury>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Simsbury>;
   ont:zipCode "00186" .
 
 <https://www.chargeup.io/group07/resource/Address/47-Robert-Holcomb-Way> a ont:Address;
@@ -1263,7 +1263,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/471-New-Park-Ave> a ont:Address;
   rdfs:label "471-New-Park-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00213" .
 
 <https://www.chargeup.io/group07/resource/Address/48-Church-St> a ont:Address;
@@ -1283,7 +1283,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/5-Elm-St> a ont:Address;
   rdfs:label "5-Elm-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Milford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Milford>;
   ont:zipCode "00088" .
 
 <https://www.chargeup.io/group07/resource/Address/5-Haven-Rd> a ont:Address;
@@ -1313,12 +1313,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/50-S-Main-St> a ont:Address;
   rdfs:label "50-S-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/West-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/West%20Hartford>;
   ont:zipCode "00158" .
 
 <https://www.chargeup.io/group07/resource/Address/50-Union-Ave> a ont:Address;
   rdfs:label "50-Union-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00132" .
 
 <https://www.chargeup.io/group07/resource/Address/500-Steamboat-Rd> a ont:Address;
@@ -1348,7 +1348,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/51-Valley-Rd> a ont:Address;
   rdfs:label "51-Valley-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Branford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Branford>;
   ont:zipCode "00131" .
 
 <https://www.chargeup.io/group07/resource/Address/51-Van-Zant-St> a ont:Address;
@@ -1368,7 +1368,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/521-Washington-Ave> a ont:Address;
   rdfs:label "521-Washington-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Haven>;
   ont:zipCode "00168" .
 
 <https://www.chargeup.io/group07/resource/Address/522-Heritage-Rd> a ont:Address;
@@ -1453,7 +1453,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/60-N-Frontage-Rd> a ont:Address;
   rdfs:label "60-N-Frontage-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00132" .
 
 <https://www.chargeup.io/group07/resource/Address/60-State-St> a ont:Address;
@@ -1473,7 +1473,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/60-York-St> a ont:Address;
   rdfs:label "60-York-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00275" .
 
 <https://www.chargeup.io/group07/resource/Address/61-Jessup-Rd> a ont:Address;
@@ -1493,12 +1493,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/65-Grove-Street> a ont:Address;
   rdfs:label "65-Grove-Street";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00275" .
 
 <https://www.chargeup.io/group07/resource/Address/65-Wells-St> a ont:Address;
   rdfs:label "65-Wells-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Britain>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Britain>;
   ont:zipCode "00110" .
 
 <https://www.chargeup.io/group07/resource/Address/665-Commerce-Dr> a ont:Address;
@@ -1508,7 +1508,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/685-Cromwell-Ave> a ont:Address;
   rdfs:label "685-Cromwell-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky-Hill>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky%20Hill>;
   ont:zipCode "00189" .
 
 <https://www.chargeup.io/group07/resource/Address/688-Bridgeport-Ave> a ont:Address;
@@ -1573,12 +1573,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/734-Tolland-St> a ont:Address;
   rdfs:label "734-Tolland-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hartford>;
   ont:zipCode "00119" .
 
 <https://www.chargeup.io/group07/resource/Address/740-Main-St> a ont:Address;
   rdfs:label "740-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hartford>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hartford>;
   ont:zipCode "00119" .
 
 <https://www.chargeup.io/group07/resource/Address/746-Danbury-Rd> a ont:Address;
@@ -1643,7 +1643,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/809-Boston-Post-Rd> a ont:Address;
   rdfs:label "809-Boston-Post-Rd";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old-Saybrook>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Old%20Saybrook>;
   ont:zipCode "00056" .
 
 <https://www.chargeup.io/group07/resource/Address/811-Burr-Mountain-Rd> a ont:Address;
@@ -1668,12 +1668,12 @@
 
 <https://www.chargeup.io/group07/resource/Address/845-Brook-St> a ont:Address;
   rdfs:label "845-Brook-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky-Hill>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Rocky%20Hill>;
   ont:zipCode "00189" .
 
 <https://www.chargeup.io/group07/resource/Address/87-Main-St> a ont:Address;
   rdfs:label "87-Main-St";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/East-Hampton>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/East%20Hampton>;
   ont:zipCode "00273" .
 
 <https://www.chargeup.io/group07/resource/Address/888-Washington-Blvd> a ont:Address;
@@ -1713,7 +1713,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/900-Universal-Dr-N> a ont:Address;
   rdfs:label "900-Universal-Dr-N";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/North-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/North%20Haven>;
   ont:zipCode "00168" .
 
 <https://www.chargeup.io/group07/resource/Address/915-Hartford-Turnpike> a ont:Address;
@@ -1723,7 +1723,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/919-Whalley-Ave> a ont:Address;
   rdfs:label "919-Whalley-Ave";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00240" .
 
 <https://www.chargeup.io/group07/resource/Address/930-Kings-Hwy-E> a ont:Address;
@@ -1793,7 +1793,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/Cell-Phone-Lot> a ont:Address;
   rdfs:label "Cell-Phone-Lot";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/Windsor-Locks>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/Windsor%20Locks>;
   ont:zipCode "00021" .
 
 <https://www.chargeup.io/group07/resource/Address/I-95-Milford> a ont:Address;
@@ -1833,7 +1833,7 @@
 
 <https://www.chargeup.io/group07/resource/Address/Union-Ave-and-Union-Station> a ont:Address;
   rdfs:label "Union-Ave-and-Union-Station";
-  ont:hasCity <https://www.chargeup.io/group07/resource/City/New-Haven>;
+  ont:hasCity <https://www.chargeup.io/group07/resource/City/New%20Haven>;
   ont:zipCode "00132" .
 
 <https://www.chargeup.io/group07/resource/Address/Unnamed-Road> a ont:Address;
@@ -1977,28 +1977,61 @@
   ont:evLevel2EVSENum 3;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/28-Bell-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y> a ont:ChargingStation;
-  rdfs:label "Big-Y";
-  geo:latitude "41.28648200000001"^^xsd:float, "41.476271"^^xsd:float;
-  geo:longitude "-72.416634"^^xsd:float, "-72.907523"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily";
-  ont:additionalInfo "Not-Provided";
-  ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1021-Main-St>, <https://www.chargeup.io/group07/resource/Address/22-Spencer-Plain-Rd> .
-
-<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods> a ont:ChargingStation;
-  rdfs:label "Big-Y-Foods";
-  geo:latitude "41.29434"^^xsd:float, "41.505790000000005"^^xsd:float, "41.888958"^^xsd:float;
-  geo:longitude "-72.12423"^^xsd:float, "-72.46388"^^xsd:float, "-73.11066"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Cheshire> a ont:ChargingStation;
+  rdfs:label "Big-Y-Cheshire";
+  geo:latitude "41.476271"^^xsd:float;
+  geo:longitude "-72.907523"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-suit-A-West-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/224-Salem-Turnpike>, <https://www.chargeup.io/group07/resource/Address/401-Bridgeport-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1021-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Ellington> a
+    ont:ChargingStation;
+  rdfs:label "Big-Y-Foods-Ellington";
+  geo:latitude "41.888958"^^xsd:float;
+  geo:longitude "-72.46388"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-suit-A-West-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Norwich> a ont:ChargingStation;
+  rdfs:label "Big-Y-Foods-Norwich";
+  geo:latitude "41.505790000000005"^^xsd:float;
+  geo:longitude "-72.12423"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/224-Salem-Turnpike> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Foods-Shelton> a ont:ChargingStation;
+  rdfs:label "Big-Y-Foods-Shelton";
+  geo:latitude "41.29434"^^xsd:float;
+  geo:longitude "-73.11066"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/401-Bridgeport-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Big-Y-Saybrook> a ont:ChargingStation;
+  rdfs:label "Big-Y-Saybrook";
+  geo:latitude "41.28648200000001"^^xsd:float;
+  geo:longitude "-72.416634"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/22-Spencer-Plain-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Bishop%27s-Orchards-Farm-Market>
   a ont:ChargingStation;
@@ -2046,15 +2079,26 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/138-142-Ledge-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield> a ont:ChargingStation;
-  rdfs:label "Bmw-Ridgefield";
-  geo:latitude "41.3305782"^^xsd:float, "41.331117"^^xsd:float;
-  geo:longitude "-73.4722156"^^xsd:float, "-73.472615"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily", "Facility-Opening-Hours";
+<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield-1> a ont:ChargingStation;
+  rdfs:label "Bmw-Ridgefield-1";
+  geo:latitude "41.331117"^^xsd:float;
+  geo:longitude "-73.472615"^^xsd:float;
+  ont:accessDaysTime "Facility-Opening-Hours";
   ont:additionalInfo "Not-Provided";
-  ont:evDCFastCount 0, 1;
+  ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 0, 2;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/746-Danbury-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Bmw-Ridgefield-2> a ont:ChargingStation;
+  rdfs:label "Bmw-Ridgefield-2";
+  geo:latitude "41.3305782"^^xsd:float;
+  geo:longitude "-73.4722156"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 1;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/746-Danbury-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Brass-Mill-Center-Entrance-3>
@@ -2269,16 +2313,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/321--Boston-Post-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall> a ont:ChargingStation;
-  rdfs:label "City-Hall";
-  geo:latitude "41.536236"^^xsd:float, "41.762206"^^xsd:float;
-  geo:longitude "-72.672842"^^xsd:float, "-72.797226"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall-1> a ont:ChargingStation;
+  rdfs:label "City-Hall-1";
+  geo:latitude "41.536236"^^xsd:float;
+  geo:longitude "-72.797226"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/142-E-Main-St>, <https://www.chargeup.io/group07/resource/Address/35-Arch-St> .
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/142-E-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/City-Hall-2> a ont:ChargingStation;
+  rdfs:label "City-Hall-2";
+  geo:latitude "41.762206"^^xsd:float;
+  geo:longitude "-72.672842"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/35-Arch-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Cityplace-Garage> a ont:ChargingStation;
   rdfs:label "Cityplace-Garage";
@@ -2303,17 +2358,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/538-Amity-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Comcast> a ont:ChargingStation;
-  rdfs:label "Comcast";
-  geo:latitude "41.597163"^^xsd:float, "41.977252"^^xsd:float;
-  geo:longitude "-72.581611"^^xsd:float, "-72.749512"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Comcast-Berlin> a ont:ChargingStation;
+  rdfs:label "Comcast-Berlin";
+  geo:latitude "41.597163"^^xsd:float;
+  geo:longitude "-72.749512"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/222-New-Park-Dr>,
-    <https://www.chargeup.io/group07/resource/Address/90-Phoenix-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/222-New-Park-Dr> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Comcast-Enfield> a ont:ChargingStation;
+  rdfs:label "Comcast-Enfield";
+  geo:latitude "41.977252"^^xsd:float;
+  geo:longitude "-72.581611"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/90-Phoenix-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Comfort-Inn-Guilford-Tesla-Destination>
   a ont:ChargingStation;
@@ -2329,27 +2394,49 @@
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Comm-Lot-Sta-1> a ont:ChargingStation;
   rdfs:label "Comm-Lot-Sta-1";
-  geo:latitude "41.3703626"^^xsd:float, "41.3762377"^^xsd:float;
-  geo:longitude "-73.4145557"^^xsd:float, "-73.4178034"^^xsd:float;
+  geo:latitude "41.3703626"^^xsd:float;
+  geo:longitude "-73.4145557"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/13-Durant-Ave.>,
-    <https://www.chargeup.io/group07/resource/Address/5-Depot-Pl> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Depot-Pl> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center> a ont:ChargingStation;
-  rdfs:label "Community-Center";
-  geo:latitude "41.800421"^^xsd:float, "41.956727"^^xsd:float;
-  geo:longitude "-72.242231"^^xsd:float, "-72.289249"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Comm-Lot-Sta-2> a ont:ChargingStation;
+  rdfs:label "Comm-Lot-Sta-2";
+  geo:latitude "41.3762377"^^xsd:float;
+  geo:longitude "-73.4178034"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/13-Durant-Ave.> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center-Mansfield>
+  a ont:ChargingStation;
+  rdfs:label "Community-Center-Mansfield";
+  geo:latitude "41.800421"^^xsd:float;
+  geo:longitude "-72.242231"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-S-Eagleville-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/3-Buckley-Hwy> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-S-Eagleville-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Community-Center-Stafford>
+  a ont:ChargingStation;
+  rdfs:label "Community-Center-Stafford";
+  geo:latitude "41.956727"^^xsd:float;
+  geo:longitude "-72.289249"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/3-Buckley-Hwy> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Commuter-Lot> a ont:ChargingStation;
   rdfs:label "Commuter-Lot";
@@ -2422,18 +2509,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/333-Ferry-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles>
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles-Cheshire>
   a ont:ChargingStation;
-  rdfs:label "Connecticut-Department-Of-Motor-Vehicles";
-  geo:latitude "41.5374181"^^xsd:float, "41.71866250000001"^^xsd:float;
-  geo:longitude "-72.655754"^^xsd:float, "-72.8935933"^^xsd:float;
-  ont:accessDaysTime "8am-5pm-M-f", "9am-5pm-M-f";
+  rdfs:label "Connecticut-Department-Of-Motor-Vehicles-Cheshire";
+  geo:latitude "41.5374181"^^xsd:float;
+  geo:longitude "-72.8935933"^^xsd:float;
+  ont:accessDaysTime "9am-5pm-M-f";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1365-Highland-Ave>,
-    <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1365-Highland-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Department-Of-Motor-Vehicles-Wetherfield>
+  a ont:ChargingStation;
+  rdfs:label "Connecticut-Department-Of-Motor-Vehicles-Wetherfield";
+  geo:latitude "41.71866250000001"^^xsd:float;
+  geo:longitude "-72.655754"^^xsd:float;
+  ont:accessDaysTime "8am-5pm-M-f";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-State-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Insurance-Exchange-Of-Southington>
   a ont:ChargingStation;
@@ -2531,17 +2629,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/210-Capitol-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger>
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger-1>
   a ont:ChargingStation;
-  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger";
-  geo:latitude "41.067306"^^xsd:float, "41.080103"^^xsd:float;
-  geo:longitude "-73.46135"^^xsd:float, "-73.504917"^^xsd:float;
+  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger-1";
+  geo:latitude "41.067306"^^xsd:float;
+  geo:longitude "-73.504917"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "For-Tesla-Use-Only";
   ont:evDCFastCount 4;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 0;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-E-Trail>, <https://www.chargeup.io/group07/resource/Address/1-West-Ave.> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-West-Ave.> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Connecticut-Welcome-Center-Tesla-Supercharger-2>
+  a ont:ChargingStation;
+  rdfs:label "Connecticut-Welcome-Center-Tesla-Supercharger-2";
+  geo:latitude "41.080103"^^xsd:float;
+  geo:longitude "-73.46135"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "For-Tesla-Use-Only";
+  ont:evDCFastCount 4;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-E-Trail> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Constitution-Plaza-South>
   a ont:ChargingStation;
@@ -2660,17 +2770,38 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/213-Crown-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail> a ont:ChargingStation;
-  rdfs:label "Ct-Rail";
-  geo:latitude "41.4618954"^^xsd:float, "41.5394301"^^xsd:float, "41.6356154"^^xsd:float;
-  geo:longitude "-72.7653384"^^xsd:float, "-72.8007814"^^xsd:float, "-72.8231924"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Berlin> a ont:ChargingStation;
+  rdfs:label "Ct-Rail-Berlin";
+  geo:latitude "41.6356154"^^xsd:float;
+  geo:longitude "-72.7653384"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-N-Cherry-St>,
-    <https://www.chargeup.io/group07/resource/Address/51-Depot-Rd>, <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/51-Depot-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Meriden> a ont:ChargingStation;
+  rdfs:label "Ct-Rail-Meriden";
+  geo:latitude "41.5394301"^^xsd:float;
+  geo:longitude "-72.8007814"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-State-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Ct-Rail-Wallingford> a ont:ChargingStation;
+  rdfs:label "Ct-Rail-Wallingford";
+  geo:latitude "41.4618954"^^xsd:float;
+  geo:longitude "-72.8231924"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-N-Cherry-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Cumberland-Farms> a ont:ChargingStation;
   rdfs:label "Cumberland-Farms";
@@ -2845,17 +2976,29 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/789-Connecticut-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts> a ont:ChargingStation;
-  rdfs:label "Dunkin'-Donuts";
-  geo:latitude "41.294167"^^xsd:float, "41.797073"^^xsd:float;
-  geo:longitude "-72.555059"^^xsd:float, "-72.9"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-Manchester>
+  a ont:ChargingStation;
+  rdfs:label "Dunkin'-Donuts-Manchester";
+  geo:latitude "41.797073"^^xsd:float;
+  geo:longitude "-72.555059"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 1;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 0;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1205-Tolland-Tpke>,
-    <https://www.chargeup.io/group07/resource/Address/189-Forbes-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1205-Tolland-Tpke> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-New-Haven>
+  a ont:ChargingStation;
+  rdfs:label "Dunkin'-Donuts-New-Haven";
+  geo:latitude "41.294167"^^xsd:float;
+  geo:longitude "-72.9"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 1;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/189-Forbes-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Dunkin%27-Donuts-Tesla-Supercharger>
   a ont:ChargingStation;
@@ -3150,17 +3293,38 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Franklin-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods> a ont:ChargingStation;
-  rdfs:label "Foxwoods";
-  geo:latitude "41.469981700000005"^^xsd:float, "41.4733358"^^xsd:float, "41.4733521"^^xsd:float;
-  geo:longitude "-71.9523342"^^xsd:float, "-71.9600027"^^xsd:float, "-71.9600034"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-1> a ont:ChargingStation;
+  rdfs:label "Foxwoods-1";
+  geo:latitude "41.4733521"^^xsd:float;
+  geo:longitude "-71.9600027"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd>,
-    <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-2> a ont:ChargingStation;
+  rdfs:label "Foxwoods-2";
+  geo:latitude "41.4733358"^^xsd:float;
+  geo:longitude "-71.9600034"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Trolley-Line-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Foxwoods-3> a ont:ChargingStation;
+  rdfs:label "Foxwoods-3";
+  geo:latitude "41.469981700000005"^^xsd:float;
+  geo:longitude "-71.9523342"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/101-Trolley-Line-Blvd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Gates-Nissan> a ont:ChargingStation;
   rdfs:label "Gates-Nissan";
@@ -3241,17 +3405,29 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/2327-2333-Main-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University> a ont:ChargingStation;
-  rdfs:label "Goodwin-University";
-  geo:latitude "41.743194"^^xsd:float, "41.749499"^^xsd:float;
-  geo:longitude "-72.639362"^^xsd:float, "-72.640075"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University-1> a
+    ont:ChargingStation;
+  rdfs:label "Goodwin-University-1";
+  geo:latitude "41.743194"^^xsd:float;
+  geo:longitude "-72.640075"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/211-Riverside-Dr>,
-    <https://www.chargeup.io/group07/resource/Address/403-Main-St> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/211-Riverside-Dr> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Goodwin-University-2> a
+    ont:ChargingStation;
+  rdfs:label "Goodwin-University-2";
+  geo:latitude "41.749499"^^xsd:float;
+  geo:longitude "-72.639362"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/403-Main-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Goodwives-Shopping-Center>
   a ont:ChargingStation;
@@ -3820,16 +3996,27 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/10-Palomba-Dr> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Library> a ont:ChargingStation;
-  rdfs:label "Library";
-  geo:latitude "41.386805"^^xsd:float, "41.771305"^^xsd:float;
-  geo:longitude "-72.43670100000001"^^xsd:float, "-72.967327"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Library-Burlington> a ont:ChargingStation;
+  rdfs:label "Library-Burlington";
+  geo:latitude "41.771305"^^xsd:float;
+  geo:longitude "-72.967327"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
-  ont:additionalInfo "Not-Provided", "See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge";
+  ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 1;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Main-St>, <https://www.chargeup.io/group07/resource/Address/34-Library-Ln> .
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/34-Library-Ln> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Library-Deep-River> a ont:ChargingStation;
+  rdfs:label "Library-Deep-River";
+  geo:latitude "41.386805"^^xsd:float;
+  geo:longitude "-72.43670100000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 1;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Main-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Library-Kiosk> a ont:ChargingStation;
   rdfs:label "Library-Kiosk";
@@ -4075,11 +4262,23 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/300-Country-Club-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger>
+<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger-1>
   a ont:ChargingStation;
-  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger";
-  geo:latitude "41.245823"^^xsd:float, "41.246242"^^xsd:float;
-  geo:longitude "-73.009059"^^xsd:float, "-73.010522"^^xsd:float;
+  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger-1";
+  geo:latitude "41.245823"^^xsd:float;
+  geo:longitude "-73.009059"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "For-Tesla-Use-Only";
+  ont:evDCFastCount 2;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/I-95-Milford> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Milford-Travel-Plaza-Tesla-Supercharger-2>
+  a ont:ChargingStation;
+  rdfs:label "Milford-Travel-Plaza-Tesla-Supercharger-2";
+  geo:latitude "41.246242"^^xsd:float;
+  geo:longitude "-73.010522"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "For-Tesla-Use-Only";
   ont:evDCFastCount 2;
@@ -4261,17 +4460,38 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/688-Bridgeport-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg> a ont:ChargingStation;
-  rdfs:label "Nbcsg";
-  geo:latitude "41.0532451"^^xsd:float, "41.053776"^^xsd:float, "41.054321"^^xsd:float;
-  geo:longitude "-73.5160366"^^xsd:float, "-73.5160406"^^xsd:float, "-73.516045"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-1> a ont:ChargingStation;
+  rdfs:label "Nbcsg-1";
+  geo:latitude "41.054321"^^xsd:float;
+  geo:longitude "-73.516045"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 14, 2, 8;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/84-Maher-Rd>, <https://www.chargeup.io/group07/resource/Address/98-Maher-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/Unnamed-Road> .
+  ont:evLevel2EVSENum 14;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/98-Maher-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-2> a ont:ChargingStation;
+  rdfs:label "Nbcsg-2";
+  geo:latitude "41.053776"^^xsd:float;
+  geo:longitude "-73.5160406"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/84-Maher-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Nbcsg-3> a ont:ChargingStation;
+  rdfs:label "Nbcsg-3";
+  geo:latitude "41.0532451"^^xsd:float;
+  geo:longitude "-73.5160366"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 8;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Unnamed-Road> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/New-London-Mall-Tesla-Supercharger>
   a ont:ChargingStation;
@@ -4621,16 +4841,29 @@
   ont:evLevel2EVSENum 4;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Water-St> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library> a ont:ChargingStation;
-  rdfs:label "Public-Library";
-  geo:latitude "41.221934"^^xsd:float, "41.347552"^^xsd:float;
-  geo:longitude "-72.028928"^^xsd:float, "-73.053647"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library-Groton> a
+    ont:ChargingStation;
+  rdfs:label "Public-Library-Groton";
+  geo:latitude "41.347552"^^xsd:float;
+  geo:longitude "-72.028928"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
   ont:evLevel2EVSENum 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/52-Newtown-Rd>, <https://www.chargeup.io/group07/resource/Address/57-New-Haven-Ave> .
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/52-Newtown-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Public-Library-Milford>
+  a ont:ChargingStation;
+  rdfs:label "Public-Library-Milford";
+  geo:latitude "41.221934"^^xsd:float;
+  geo:longitude "-73.053647"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/57-New-Haven-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Public-Parking-Lot> a ont:ChargingStation;
   rdfs:label "Public-Parking-Lot";
@@ -5223,36 +5456,241 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/19-Maple-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall> a ont:ChargingStation;
-  rdfs:label "Town-Hall";
-  geo:latitude "41.145215689458"^^xsd:float, "41.276743"^^xsd:float, "41.2832367"^^xsd:float,
-    "41.341893000000006"^^xsd:float, "41.345816"^^xsd:float, "41.354138"^^xsd:float, "41.465514"^^xsd:float,
-    "41.706856"^^xsd:float, "41.71292"^^xsd:float, "41.727419"^^xsd:float, "41.758754"^^xsd:float,
-    "41.7660404"^^xsd:float, "41.780058"^^xsd:float, "41.803497"^^xsd:float, "41.80577"^^xsd:float,
-    "41.811022"^^xsd:float, "41.8298475"^^xsd:float, "41.859648"^^xsd:float, "41.903582"^^xsd:float,
-    "41.953668"^^xsd:float, "41.983904"^^xsd:float;
-  geo:longitude "-71.88232300000001"^^xsd:float, "-71.9986079999999"^^xsd:float, "-72.009806"^^xsd:float,
-    "-72.033489"^^xsd:float, "-72.217506"^^xsd:float, "-72.303231"^^xsd:float, "-72.312334"^^xsd:float,
-    "-72.467484"^^xsd:float, "-72.489406"^^xsd:float, "-72.524041"^^xsd:float, "-72.611655"^^xsd:float,
-    "-72.6446905"^^xsd:float, "-72.6798002"^^xsd:float, "-72.7373929"^^xsd:float, "-72.741204"^^xsd:float,
-    "-72.923177"^^xsd:float, "-73.014176"^^xsd:float, "-73.12122300000001"^^xsd:float,
-    "-73.35947443366"^^xsd:float, "-73.47251"^^xsd:float, "-73.487032"^^xsd:float;
-  ont:accessDaysTime "24-Hours-Daily", "Facility-Opening-Hours", "Not-Specified";
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Bloomfield> a
+    ont:ChargingStation;
+  rdfs:label "Town-Hall-Bloomfield";
+  geo:latitude "41.8298475"^^xsd:float;
+  geo:longitude "-72.7373929"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-Main-St>, <https://www.chargeup.io/group07/resource/Address/11-Meetinghouse-Ln>,
-    <https://www.chargeup.io/group07/resource/Address/110-Myrtle-Avenue>, <https://www.chargeup.io/group07/resource/Address/134-Groton-Long-Point-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/140-Main-St>, <https://www.chargeup.io/group07/resource/Address/1712-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/172-Main-St>, <https://www.chargeup.io/group07/resource/Address/2155-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/31-Park-Street>, <https://www.chargeup.io/group07/resource/Address/4-Brush-Hill-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/4-Market-St>, <https://www.chargeup.io/group07/resource/Address/41-Kent-Green-Blvd>,
-    <https://www.chargeup.io/group07/resource/Address/45-Fort-Hill-Rd>, <https://www.chargeup.io/group07/resource/Address/5-Haven-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/50-S-Main-St>, <https://www.chargeup.io/group07/resource/Address/54-E-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/55-Main-St>, <https://www.chargeup.io/group07/resource/Address/740-Main-St>,
-    <https://www.chargeup.io/group07/resource/Address/800-Bloomfield-Avenue>, <https://www.chargeup.io/group07/resource/Address/933-Hopmeadow-St>,
-    <https://www.chargeup.io/group07/resource/Address/979-Main-St> .
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/800-Bloomfield-Avenue> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Canton> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Canton";
+  geo:latitude "41.811022"^^xsd:float;
+  geo:longitude "-72.923177"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/4-Market-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Clinton> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Clinton";
+  geo:latitude "41.276743"^^xsd:float;
+  geo:longitude "-72.524041"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/54-E-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Coventry> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Coventry";
+  geo:latitude "41.780058"^^xsd:float;
+  geo:longitude "-72.312334"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1712-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-East-Hartford>
+  a ont:ChargingStation;
+  rdfs:label "Town-Hall-East-Hartford";
+  geo:latitude "41.7660404"^^xsd:float;
+  geo:longitude "-72.6446905"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/740-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Ellington> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Ellington";
+  geo:latitude "41.903582"^^xsd:float;
+  geo:longitude "-72.467484"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/55-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Fairfield> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Fairfield";
+  geo:latitude "41.465514"^^xsd:float;
+  geo:longitude "-73.487032"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/4-Brush-Hill-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Glastonbury> a
+    ont:ChargingStation;
+  rdfs:label "Town-Hall-Glastonbury";
+  geo:latitude "41.706856"^^xsd:float;
+  geo:longitude "-72.611655"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/2155-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Groton-1> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Groton-1";
+  geo:latitude "41.345816"^^xsd:float;
+  geo:longitude "-72.033489"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/45-Fort-Hill-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Groton-2> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Groton-2";
+  geo:latitude "41.341893000000006"^^xsd:float;
+  geo:longitude "-72.009806"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/134-Groton-Long-Point-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Guilford> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Guilford";
+  geo:latitude "41.2832367"^^xsd:float;
+  geo:longitude "-72.6798002"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/31-Park-Street> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Kent> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Kent";
+  geo:latitude "41.727419"^^xsd:float;
+  geo:longitude "-73.47251"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/41-Kent-Green-Blvd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Killingly> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Killingly";
+  geo:latitude "41.80577"^^xsd:float;
+  geo:longitude "-71.88232300000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/172-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Pomfret> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Pomfret";
+  geo:latitude "41.859648"^^xsd:float;
+  geo:longitude "-71.9986079999999"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Haven-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Simsbury> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Simsbury";
+  geo:latitude "41.983904"^^xsd:float;
+  geo:longitude "-72.489406"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/933-Hopmeadow-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Stafford> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Stafford";
+  geo:latitude "41.953668"^^xsd:float;
+  geo:longitude "-72.303231"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Torrington> a
+    ont:ChargingStation;
+  rdfs:label "Town-Hall-Torrington";
+  geo:latitude "41.803497"^^xsd:float;
+  geo:longitude "-73.12122300000001"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/140-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-West-Hartford>
+  a ont:ChargingStation;
+  rdfs:label "Town-Hall-West-Hartford";
+  geo:latitude "41.758754"^^xsd:float;
+  geo:longitude "-72.741204"^^xsd:float;
+  ont:accessDaysTime "Facility-Opening-Hours";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-S-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Westport> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Westport";
+  geo:latitude "41.145215689458"^^xsd:float;
+  geo:longitude "-73.35947443366"^^xsd:float;
+  ont:accessDaysTime "Not-Specified";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/110-Myrtle-Avenue> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Windham> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Windham";
+  geo:latitude "41.71292"^^xsd:float;
+  geo:longitude "-72.217506"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/979-Main-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Town-Hall-Woodbrige> a ont:ChargingStation;
+  rdfs:label "Town-Hall-Woodbrige";
+  geo:latitude "41.354138"^^xsd:float;
+  geo:longitude "-73.014176"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/11-Meetinghouse-Ln> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Town-Library> a ont:ChargingStation;
   rdfs:label "Town-Library";
@@ -5389,16 +5827,27 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/1-American-Ln> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station> a ont:ChargingStation;
-  rdfs:label "Union-Station";
-  geo:latitude "41.2974027"^^xsd:float, "41.2975353"^^xsd:float;
-  geo:longitude "-72.9263108"^^xsd:float, "-72.9270748"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-1> a ont:ChargingStation;
+  rdfs:label "Union-Station-1";
+  geo:latitude "41.2975353"^^xsd:float;
+  geo:longitude "-72.9270748"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 10, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Union-Ave>, <https://www.chargeup.io/group07/resource/Address/Union-Ave-and-Union-Station> .
+  ont:evLevel2EVSENum 10;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Union-Ave-and-Union-Station> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-2> a ont:ChargingStation;
+  rdfs:label "Union-Station-2";
+  geo:latitude "41.2974027"^^xsd:float;
+  geo:longitude "-72.9263108"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/50-Union-Ave> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Union-Station-Garage> a
     ont:ChargingStation;
@@ -5590,32 +6039,89 @@
   ont:evLevel2EVSENum 2;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/60-Backus-Ave> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University> a ont:ChargingStation;
-  rdfs:label "Wesleyan-University";
-  geo:latitude "41.550883"^^xsd:float, "41.553597"^^xsd:float, "41.557262"^^xsd:float;
-  geo:longitude "-72.65242"^^xsd:float, "-72.65395"^^xsd:float, "-72.662214"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-1> a
+    ont:ChargingStation;
+  rdfs:label "Wesleyan-University-1";
+  geo:latitude "41.557262"^^xsd:float;
+  geo:longitude "-72.65242"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 1, 2;
-  ont:evLevel2EVSENum 0, 2, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Cross-St>, <https://www.chargeup.io/group07/resource/Address/56-Hamlin-Ct>,
-    <https://www.chargeup.io/group07/resource/Address/Lawn-Ave-%26-High-St> .
+  ont:evLevel1EVSENum 2;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/56-Hamlin-Ct> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University>
-  a ont:ChargingStation;
-  rdfs:label "Western-Connecticut-State-University";
-  geo:latitude "41.394446"^^xsd:float, "41.398492"^^xsd:float, "41.39936"^^xsd:float,
-    "41.399432"^^xsd:float;
-  geo:longitude "-73.442053"^^xsd:float, "-73.443485"^^xsd:float, "-73.44475"^^xsd:float,
-    "-73.492801"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-2> a
+    ont:ChargingStation;
+  rdfs:label "Wesleyan-University-2";
+  geo:latitude "41.550883"^^xsd:float;
+  geo:longitude "-72.662214"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2, 3, 4;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/179-White-St>, <https://www.chargeup.io/group07/resource/Address/190-White-St>,
-    <https://www.chargeup.io/group07/resource/Address/198-White-St>, <https://www.chargeup.io/group07/resource/Address/43-Lake-Ave-Extension> .
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/161-Cross-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Wesleyan-University-3> a
+    ont:ChargingStation;
+  rdfs:label "Wesleyan-University-3";
+  geo:latitude "41.553597"^^xsd:float;
+  geo:longitude "-72.65395"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 1;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/Lawn-Ave-%26-High-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-1>
+  a ont:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-1";
+  geo:latitude "41.394446"^^xsd:float;
+  geo:longitude "-73.492801"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/43-Lake-Ave-Extension> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-2>
+  a ont:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-2";
+  geo:latitude "41.399432"^^xsd:float;
+  geo:longitude "-73.44475"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/179-White-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-3>
+  a ont:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-3";
+  geo:latitude "41.398492"^^xsd:float;
+  geo:longitude "-73.443485"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 4;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/198-White-St> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Western-Connecticut-State-University-4>
+  a ont:ChargingStation;
+  rdfs:label "Western-Connecticut-State-University-4";
+  geo:latitude "41.39936"^^xsd:float;
+  geo:longitude "-73.442053"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 3;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/190-White-St> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Westlodge> a ont:ChargingStation;
   rdfs:label "Westlodge";
@@ -5664,28 +6170,51 @@
   ont:evLevel2EVSENum 1;
   ont:hasAddress <https://www.chargeup.io/group07/resource/Address/15-Undermountain-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market> a ont:ChargingStation;
-  rdfs:label "Whole-Foods-Market";
-  geo:latitude "41.072919"^^xsd:float, "41.157925"^^xsd:float;
-  geo:longitude "-73.240315"^^xsd:float, "-73.476189"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market-Darien>
+  a ont:ChargingStation;
+  rdfs:label "Whole-Foods-Market-Darien";
+  geo:latitude "41.072919"^^xsd:float;
+  geo:longitude "-73.476189"^^xsd:float;
   ont:accessDaysTime "8am-10pm-Daily";
   ont:additionalInfo "For-Customer-Use-Only";
   ont:evDCFastCount 0;
-  ont:evLevel1EVSENum 0, 4;
-  ont:evLevel2EVSENum 0, 1;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Ledge-Rd>, <https://www.chargeup.io/group07/resource/Address/350-Grasmere-Ave> .
+  ont:evLevel1EVSENum 4;
+  ont:evLevel2EVSENum 0;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/150-Ledge-Rd> .
 
-<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt> a ont:ChargingStation;
-  rdfs:label "Whole-Foods-Mkt";
-  geo:latitude "41.3777667"^^xsd:float, "41.3781241"^^xsd:float;
-  geo:longitude "-73.475576"^^xsd:float, "-73.4755929"^^xsd:float;
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Market-Fairfield>
+  a ont:ChargingStation;
+  rdfs:label "Whole-Foods-Market-Fairfield";
+  geo:latitude "41.157925"^^xsd:float;
+  geo:longitude "-73.240315"^^xsd:float;
+  ont:accessDaysTime "8am-10pm-Daily";
+  ont:additionalInfo "For-Customer-Use-Only";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/350-Grasmere-Ave> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt-1> a ont:ChargingStation;
+  rdfs:label "Whole-Foods-Mkt-1";
+  geo:latitude "41.3777667"^^xsd:float;
+  geo:longitude "-73.475576"^^xsd:float;
   ont:accessDaysTime "24-Hours-Daily";
   ont:additionalInfo "Not-Provided";
   ont:evDCFastCount 0;
   ont:evLevel1EVSENum 0;
-  ont:evLevel2EVSENum 1, 2;
-  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Sugar-Hollow-Rd>,
-    <https://www.chargeup.io/group07/resource/Address/5c-Sugar-Hollow-Rd> .
+  ont:evLevel2EVSENum 1;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5-Sugar-Hollow-Rd> .
+
+<https://www.chargeup.io/group07/resource/ChargingStation/Whole-Foods-Mkt-2> a ont:ChargingStation;
+  rdfs:label "Whole-Foods-Mkt-2";
+  geo:latitude "41.3781241"^^xsd:float;
+  geo:longitude "-73.4755929"^^xsd:float;
+  ont:accessDaysTime "24-Hours-Daily";
+  ont:additionalInfo "Not-Provided";
+  ont:evDCFastCount 0;
+  ont:evLevel1EVSENum 0;
+  ont:evLevel2EVSENum 2;
+  ont:hasAddress <https://www.chargeup.io/group07/resource/Address/5c-Sugar-Hollow-Rd> .
 
 <https://www.chargeup.io/group07/resource/ChargingStation/Wilton-Public-Library> a
     ont:ChargingStation;
@@ -5770,580 +6299,692 @@
 
 <https://www.chargeup.io/group07/resource/City/Barkhamsted> a ont:City;
   rdfs:label "Barkhamsted";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446108>;
   ont:counties "Litchfield";
   ont:townIndex 5 .
 
-<https://www.chargeup.io/group07/resource/City/Beacon-Falls> a ont:City;
-  rdfs:label "Beacon-Falls";
+<https://www.chargeup.io/group07/resource/City/Beacon%20Falls> a ont:City;
+  rdfs:label "Beacon Falls";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572361>;
   ont:counties "New-Haven";
   ont:townIndex 6 .
 
 <https://www.chargeup.io/group07/resource/City/Berlin> a ont:City;
   rdfs:label "Berlin";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q821199>;
   ont:counties "Hartford";
   ont:townIndex 7 .
 
 <https://www.chargeup.io/group07/resource/City/Bethany> a ont:City;
   rdfs:label "Bethany";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572268>;
   ont:counties "New-Haven";
   ont:townIndex 8 .
 
 <https://www.chargeup.io/group07/resource/City/Bethel> a ont:City;
   rdfs:label "Bethel";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q263912>;
   ont:counties "Fairfield";
   ont:townIndex 9 .
 
 <https://www.chargeup.io/group07/resource/City/Bloomfield> a ont:City;
   rdfs:label "Bloomfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q542675>;
   ont:counties "Hartford";
   ont:townIndex 11 .
 
 <https://www.chargeup.io/group07/resource/City/Branford> a ont:City;
   rdfs:label "Branford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q898484>;
   ont:counties "New-Haven";
   ont:townIndex 14 .
 
 <https://www.chargeup.io/group07/resource/City/Bridgeport> a ont:City;
   rdfs:label "Bridgeport";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49174>;
   ont:counties "Fairfield";
   ont:townIndex 15 .
 
 <https://www.chargeup.io/group07/resource/City/Bristol> a ont:City;
   rdfs:label "Bristol";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755149>;
   ont:counties "Hartford";
   ont:townIndex 17 .
 
 <https://www.chargeup.io/group07/resource/City/Brooklyn> a ont:City;
   rdfs:label "Brooklyn";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446296>;
   ont:counties "Windham";
   ont:townIndex 19 .
 
 <https://www.chargeup.io/group07/resource/City/Burlington> a ont:City;
   rdfs:label "Burlington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446117>;
   ont:counties "Hartford";
   ont:townIndex 20 .
 
 <https://www.chargeup.io/group07/resource/City/Canton> a ont:City;
   rdfs:label "Canton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1033861>;
   ont:counties "Hartford";
   ont:townIndex 23 .
 
 <https://www.chargeup.io/group07/resource/City/Cheshire> a ont:City;
   rdfs:label "Cheshire";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755226>;
   ont:counties "New-Haven";
   ont:townIndex 25 .
 
 <https://www.chargeup.io/group07/resource/City/Clinton> a ont:City;
   rdfs:label "Clinton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755130>;
   ont:counties "Middlesex";
   ont:townIndex 27 .
 
 <https://www.chargeup.io/group07/resource/City/Colebrook> a ont:City;
   rdfs:label "Colebrook";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446187>;
   ont:counties "Litchfield";
   ont:townIndex 29 .
 
 <https://www.chargeup.io/group07/resource/City/Coventry> a ont:City;
   rdfs:label "Coventry";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1020595>;
   ont:counties "Tolland";
   ont:townIndex 32 .
 
 <https://www.chargeup.io/group07/resource/City/Danbury> a ont:City;
   rdfs:label "Danbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49198>;
   ont:counties "Fairfield";
   ont:townIndex 34 .
 
 <https://www.chargeup.io/group07/resource/City/Darien> a ont:City;
   rdfs:label "Darien";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q165613>;
   ont:counties "Fairfield";
   ont:townIndex 35 .
 
-<https://www.chargeup.io/group07/resource/City/Deep-River> a ont:City;
-  rdfs:label "Deep-River";
+<https://www.chargeup.io/group07/resource/City/Deep%20River> a ont:City;
+  rdfs:label "Deep River";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1901319>;
   ont:counties "Middlesex";
   ont:townIndex 36 .
 
 <https://www.chargeup.io/group07/resource/City/Durham> a ont:City;
   rdfs:label "Durham";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753859>;
   ont:counties "Middlesex";
   ont:townIndex 38 .
 
-<https://www.chargeup.io/group07/resource/City/East-Granby> a ont:City;
-  rdfs:label "East-Granby";
+<https://www.chargeup.io/group07/resource/City/East%20Granby> a ont:City;
+  rdfs:label "East Granby";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446250>;
   ont:counties "Hartford";
   ont:townIndex 40 .
 
-<https://www.chargeup.io/group07/resource/City/East-Haddam> a ont:City;
-  rdfs:label "East-Haddam";
+<https://www.chargeup.io/group07/resource/City/East%20Haddam> a ont:City;
+  rdfs:label "East Haddam";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1277891>;
   ont:counties "Middlesex";
   ont:townIndex 41 .
 
-<https://www.chargeup.io/group07/resource/City/East-Hampton> a ont:City;
-  rdfs:label "East-Hampton";
+<https://www.chargeup.io/group07/resource/City/East%20Hampton> a ont:City;
+  rdfs:label "East Hampton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753922>;
   ont:counties "Middlesex";
   ont:townIndex 42 .
 
-<https://www.chargeup.io/group07/resource/City/East-Hartford> a ont:City;
-  rdfs:label "East-Hartford";
+<https://www.chargeup.io/group07/resource/City/East%20Hartford> a ont:City;
+  rdfs:label "East Hartford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754618>;
   ont:counties "Hartford";
   ont:townIndex 43 .
 
-<https://www.chargeup.io/group07/resource/City/East-Haven> a ont:City;
-  rdfs:label "East-Haven";
+<https://www.chargeup.io/group07/resource/City/East%20Haven> a ont:City;
+  rdfs:label "East Haven";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755413>;
   ont:counties "New-Haven";
   ont:townIndex 44 .
 
 <https://www.chargeup.io/group07/resource/City/Easton> a ont:City;
   rdfs:label "Easton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2323099>;
   ont:counties "Fairfield";
   ont:townIndex 46 .
 
 <https://www.chargeup.io/group07/resource/City/Ellington> a ont:City;
   rdfs:label "Ellington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q966555>;
   ont:counties "Tolland";
   ont:townIndex 48 .
 
 <https://www.chargeup.io/group07/resource/City/Enfield> a ont:City;
   rdfs:label "Enfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2323139>;
   ont:counties "Hartford";
   ont:townIndex 49 .
 
 <https://www.chargeup.io/group07/resource/City/Fairfield> a ont:City;
   rdfs:label "Fairfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754635>;
   ont:counties "Fairfield";
   ont:townIndex 51 .
 
 <https://www.chargeup.io/group07/resource/City/Farmington> a ont:City;
   rdfs:label "Farmington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q743287>;
   ont:counties "Hartford";
   ont:townIndex 52 .
 
 <https://www.chargeup.io/group07/resource/City/Glastonbury> a ont:City;
   rdfs:label "Glastonbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753943>;
   ont:counties "Hartford";
   ont:townIndex 54 .
 
 <https://www.chargeup.io/group07/resource/City/Greenwich> a ont:City;
   rdfs:label "Greenwich";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49202>;
   ont:counties "Fairfield";
   ont:townIndex 57 .
 
 <https://www.chargeup.io/group07/resource/City/Groton> a ont:City;
   rdfs:label "Groton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q10385027>;
   ont:counties "New-London";
   ont:townIndex 59 .
 
 <https://www.chargeup.io/group07/resource/City/Guilford> a ont:City;
   rdfs:label "Guilford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753857>;
   ont:counties "New-Haven";
   ont:townIndex 60 .
 
 <https://www.chargeup.io/group07/resource/City/Hamden> a ont:City;
   rdfs:label "Hamden";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755271>;
   ont:counties "New-Haven";
   ont:townIndex 62 .
 
 <https://www.chargeup.io/group07/resource/City/Hartford> a ont:City;
   rdfs:label "Hartford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q33486>;
   ont:counties "Hartford";
   ont:townIndex 64 .
 
 <https://www.chargeup.io/group07/resource/City/Harwinton> a ont:City;
   rdfs:label "Harwinton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572425>;
   ont:counties "Litchfield";
   ont:townIndex 66 .
 
 <https://www.chargeup.io/group07/resource/City/Hebron> a ont:City;
   rdfs:label "Hebron";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1484910>;
   ont:counties "Tolland";
   ont:townIndex 67 .
 
 <https://www.chargeup.io/group07/resource/City/Kent> a ont:City;
   rdfs:label "Kent";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1739029>;
   ont:counties "Litchfield";
   ont:townIndex 68 .
 
 <https://www.chargeup.io/group07/resource/City/Killingly> a ont:City;
   rdfs:label "Killingly";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1741385>;
   ont:counties "Windham";
   ont:townIndex 69 .
 
 <https://www.chargeup.io/group07/resource/City/Lakeville> a ont:City;
   rdfs:label "Lakeville";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q983776>;
   ont:counties "Litchfield";
   ont:townIndex 122 .
 
 <https://www.chargeup.io/group07/resource/City/Ledyard> a ont:City;
   rdfs:label "Ledyard";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1913041>;
   ont:counties "New-London";
   ont:townIndex 72 .
 
 <https://www.chargeup.io/group07/resource/City/Lyme> a ont:City;
   rdfs:label "Lyme";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754630>;
   ont:counties "New-London";
   ont:townIndex 75 .
 
 <https://www.chargeup.io/group07/resource/City/Madison> a ont:City;
   rdfs:label "Madison";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q598553>;
   ont:counties "New-Haven";
   ont:townIndex 76 .
 
 <https://www.chargeup.io/group07/resource/City/Manchester> a ont:City;
   rdfs:label "Manchester";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753909>;
   ont:counties "Hartford";
   ont:townIndex 77 .
 
 <https://www.chargeup.io/group07/resource/City/Mansfield> a ont:City;
   rdfs:label "Mansfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q937718>;
   ont:counties "Tolland";
   ont:townIndex 78 .
 
 <https://www.chargeup.io/group07/resource/City/Mashantucket> a ont:City;
   rdfs:label "Mashantucket";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q6783082>;
   ont:counties "New-London";
   ont:townIndex 72 .
 
 <https://www.chargeup.io/group07/resource/City/Meriden> a ont:City;
   rdfs:label "Meriden";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q54220>;
   ont:counties "New-Haven";
   ont:townIndex 80 .
 
 <https://www.chargeup.io/group07/resource/City/Middlebury> a ont:City;
   rdfs:label "Middlebury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572235>;
   ont:counties "New-Haven";
   ont:townIndex 81 .
 
 <https://www.chargeup.io/group07/resource/City/Middletown> a ont:City;
   rdfs:label "Middletown";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49192>;
   ont:counties "Middlesex";
   ont:townIndex 83 .
 
 <https://www.chargeup.io/group07/resource/City/Milford> a ont:City;
   rdfs:label "Milford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755798>;
   ont:counties "New-Haven";
   ont:townIndex 84 .
 
 <https://www.chargeup.io/group07/resource/City/Morris> a ont:City;
   rdfs:label "Morris";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446194>;
   ont:counties "Litchfield";
   ont:townIndex 87 .
 
 <https://www.chargeup.io/group07/resource/City/Mystic> a ont:City;
   rdfs:label "Mystic";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q584567>;
   ont:counties "New-London";
   ont:townIndex 137, 59 .
 
-<https://www.chargeup.io/group07/resource/City/New-Britain> a ont:City;
-  rdfs:label "New-Britain";
+<https://www.chargeup.io/group07/resource/City/New%20Britain> a ont:City;
+  rdfs:label "New Britain";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49172>;
   ont:counties "Hartford";
   ont:townIndex 89 .
 
-<https://www.chargeup.io/group07/resource/City/New-Canaan> a ont:City;
-  rdfs:label "New-Canaan";
+<https://www.chargeup.io/group07/resource/City/New%20Canaan> a ont:City;
+  rdfs:label "New Canaan";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754951>;
   ont:counties "Fairfield";
   ont:townIndex 90 .
 
-<https://www.chargeup.io/group07/resource/City/New-Fairfield> a ont:City;
-  rdfs:label "New-Fairfield";
+<https://www.chargeup.io/group07/resource/City/New%20Fairfield> a ont:City;
+  rdfs:label "New Fairfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446204>;
   ont:counties "Fairfield";
   ont:townIndex 91 .
 
-<https://www.chargeup.io/group07/resource/City/New-Haven> a ont:City;
-  rdfs:label "New-Haven";
+<https://www.chargeup.io/group07/resource/City/New%20Haven> a ont:City;
+  rdfs:label "New Haven";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49145>;
   ont:counties "New-Haven";
   ont:townIndex 93 .
 
-<https://www.chargeup.io/group07/resource/City/New-London> a ont:City;
-  rdfs:label "New-London";
+<https://www.chargeup.io/group07/resource/City/New%20London> a ont:City;
+  rdfs:label "New London";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49146>;
   ont:counties "New-London";
   ont:townIndex 95 .
 
-<https://www.chargeup.io/group07/resource/City/New-Milford> a ont:City;
-  rdfs:label "New-Milford";
+<https://www.chargeup.io/group07/resource/City/New%20Milford> a ont:City;
+  rdfs:label "New Milford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q977989>;
   ont:counties "Litchfield";
   ont:townIndex 96 .
 
 <https://www.chargeup.io/group07/resource/City/Newington> a ont:City;
   rdfs:label "Newington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753915>;
   ont:counties "Hartford";
   ont:townIndex 94 .
 
 <https://www.chargeup.io/group07/resource/City/Newtown> a ont:City;
   rdfs:label "Newtown";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q958909>;
   ont:counties "Fairfield";
   ont:townIndex 97 .
 
 <https://www.chargeup.io/group07/resource/City/Niantic> a ont:City;
   rdfs:label "Niantic";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754850>;
   ont:counties "New-London";
   ont:townIndex 45 .
 
 <https://www.chargeup.io/group07/resource/City/Norfolk> a ont:City;
   rdfs:label "Norfolk";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446234>;
   ont:counties "Litchfield";
   ont:townIndex 98 .
 
-<https://www.chargeup.io/group07/resource/City/North-Branford> a ont:City;
-  rdfs:label "North-Branford";
+<https://www.chargeup.io/group07/resource/City/North%20Branford> a ont:City;
+  rdfs:label "North Branford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1898680>;
   ont:counties "New-Haven";
   ont:townIndex 99 .
 
-<https://www.chargeup.io/group07/resource/City/North-Canaan> a ont:City;
-  rdfs:label "North-Canaan";
+<https://www.chargeup.io/group07/resource/City/North%20Canaan> a ont:City;
+  rdfs:label "North Canaan";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446269>;
   ont:counties "Litchfield";
   ont:townIndex 100 .
 
-<https://www.chargeup.io/group07/resource/City/North-Haven> a ont:City;
-  rdfs:label "North-Haven";
+<https://www.chargeup.io/group07/resource/City/North%20Haven> a ont:City;
+  rdfs:label "North Haven";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754769>;
   ont:counties "New-Haven";
   ont:townIndex 101 .
 
-<https://www.chargeup.io/group07/resource/City/North-Stamford> a ont:City;
-  rdfs:label "North-Stamford";
+<https://www.chargeup.io/group07/resource/City/North%20Stamford> a ont:City;
+  rdfs:label "North Stamford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7056821>;
   ont:counties "Fairfield";
   ont:townIndex 135 .
 
-<https://www.chargeup.io/group07/resource/City/North-Windham> a ont:City;
-  rdfs:label "North-Windham";
-  ont:counties "Windham";
-  ont:townIndex 163 .
-
 <https://www.chargeup.io/group07/resource/City/Norwalk> a ont:City;
   rdfs:label "Norwalk";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q54217>;
   ont:counties "Fairfield";
   ont:townIndex 103 .
 
 <https://www.chargeup.io/group07/resource/City/Norwich> a ont:City;
   rdfs:label "Norwich";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q631402>;
   ont:counties "New-London";
   ont:townIndex 104 .
 
-<https://www.chargeup.io/group07/resource/City/Old-Lyme> a ont:City;
-  rdfs:label "Old-Lyme";
+<https://www.chargeup.io/group07/resource/City/Old%20Lyme> a ont:City;
+  rdfs:label "Old Lyme";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1980190>;
   ont:counties "New-London";
   ont:townIndex 105 .
 
-<https://www.chargeup.io/group07/resource/City/Old-Saybrook> a ont:City;
-  rdfs:label "Old-Saybrook";
+<https://www.chargeup.io/group07/resource/City/Old%20Saybrook> a ont:City;
+  rdfs:label "Old Saybrook";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1020609>;
   ont:counties "Middlesex";
   ont:townIndex 106 .
 
 <https://www.chargeup.io/group07/resource/City/Orange> a ont:City;
   rdfs:label "Orange";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754766>;
   ont:counties "New-Haven";
   ont:townIndex 107 .
 
 <https://www.chargeup.io/group07/resource/City/Oxford> a ont:City;
   rdfs:label "Oxford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1759458>;
   ont:counties "New-Haven";
   ont:townIndex 108 .
 
 <https://www.chargeup.io/group07/resource/City/Plainville> a ont:City;
   rdfs:label "Plainville";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446095>;
   ont:counties "Hartford";
   ont:townIndex 110 .
 
 <https://www.chargeup.io/group07/resource/City/Plantsville> a ont:City;
   rdfs:label "Plantsville";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7201675>;
   ont:counties "Hartford";
   ont:townIndex 131 .
 
 <https://www.chargeup.io/group07/resource/City/Pomfret> a ont:City;
   rdfs:label "Pomfret";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572436>;
   ont:counties "Windham";
   ont:townIndex 112 .
 
 <https://www.chargeup.io/group07/resource/City/Putnam> a ont:City;
   rdfs:label "Putnam";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1484880>;
   ont:counties "Windham";
   ont:townIndex 116 .
 
 <https://www.chargeup.io/group07/resource/City/Ridgefield> a ont:City;
   rdfs:label "Ridgefield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1505990>;
   ont:counties "Fairfield";
   ont:townIndex 118 .
 
-<https://www.chargeup.io/group07/resource/City/Rocky-Hill> a ont:City;
-  rdfs:label "Rocky-Hill";
+<https://www.chargeup.io/group07/resource/City/Rocky%20Hill> a ont:City;
+  rdfs:label "Rocky Hill";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2572498>;
   ont:counties "Hartford";
   ont:townIndex 119 .
 
 <https://www.chargeup.io/group07/resource/City/Roxbury> a ont:City;
   rdfs:label "Roxbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2076302>;
   ont:counties "Litchfield";
   ont:townIndex 120 .
 
 <https://www.chargeup.io/group07/resource/City/Salisbury> a ont:City;
   rdfs:label "Salisbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2323182>;
   ont:counties "Litchfield";
   ont:townIndex 122 .
 
 <https://www.chargeup.io/group07/resource/City/Seymour> a ont:City;
   rdfs:label "Seymour";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2275932>;
   ont:counties "New-Haven";
   ont:townIndex 124 .
 
 <https://www.chargeup.io/group07/resource/City/Shelton> a ont:City;
   rdfs:label "Shelton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q594109>;
   ont:counties "Fairfield";
   ont:townIndex 126 .
 
 <https://www.chargeup.io/group07/resource/City/Simsbury> a ont:City;
   rdfs:label "Simsbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753950>;
   ont:counties "Hartford", "Tolland";
   ont:townIndex 128, 129 .
 
-<https://www.chargeup.io/group07/resource/City/Somersville> a ont:City;
-  rdfs:label "Somersville";
+<https://www.chargeup.io/group07/resource/City/Somersville%20Historic%20District>
+  a ont:City;
+  rdfs:label "Somersville Historic District";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7559936>;
   ont:counties "Tolland";
   ont:townIndex 129 .
 
-<https://www.chargeup.io/group07/resource/City/South-Windsor> a ont:City;
-  rdfs:label "South-Windsor";
+<https://www.chargeup.io/group07/resource/City/South%20Windsor> a ont:City;
+  rdfs:label "South Windsor";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q662477>;
   ont:counties "Hartford";
   ont:townIndex 132 .
 
 <https://www.chargeup.io/group07/resource/City/Southbury> a ont:City;
   rdfs:label "Southbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q917350>;
   ont:counties "New-Haven";
   ont:townIndex 130 .
 
 <https://www.chargeup.io/group07/resource/City/Southington> a ont:City;
   rdfs:label "Southington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q421913>;
   ont:counties "Hartford";
   ont:townIndex 131 .
 
-<https://www.chargeup.io/group07/resource/City/Stafford-Springs> a ont:City;
-  rdfs:label "Stafford-Springs";
+<https://www.chargeup.io/group07/resource/City/Stafford%20Springs> a ont:City;
+  rdfs:label "Stafford Springs";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q27989426>;
   ont:counties "Tolland";
   ont:townIndex 134 .
 
 <https://www.chargeup.io/group07/resource/City/Stamford> a ont:City;
   rdfs:label "Stamford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49169>;
   ont:counties "Fairfield";
   ont:townIndex 135 .
 
 <https://www.chargeup.io/group07/resource/City/Stonington> a ont:City;
   rdfs:label "Stonington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755748>;
   ont:counties "New-London";
   ont:townIndex 137 .
 
 <https://www.chargeup.io/group07/resource/City/Storrs> a ont:City;
   rdfs:label "Storrs";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q166302>;
   ont:counties "Tolland";
   ont:townIndex 78 .
 
 <https://www.chargeup.io/group07/resource/City/Stratford> a ont:City;
   rdfs:label "Stratford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755140>;
   ont:counties "Fairfield";
   ont:townIndex 138 .
 
 <https://www.chargeup.io/group07/resource/City/Suffield> a ont:City;
   rdfs:label "Suffield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q753836>;
   ont:counties "Hartford";
   ont:townIndex 139 .
 
 <https://www.chargeup.io/group07/resource/City/Torrington> a ont:City;
   rdfs:label "Torrington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755151>;
   ont:counties "Litchfield";
   ont:townIndex 143 .
 
 <https://www.chargeup.io/group07/resource/City/Trumbull> a ont:City;
   rdfs:label "Trumbull";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755134>;
   ont:counties "Fairfield";
   ont:townIndex 144 .
 
 <https://www.chargeup.io/group07/resource/City/Uncasville> a ont:City;
   rdfs:label "Uncasville";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q7882479>;
   ont:counties "New-London";
   ont:townIndex 86 .
 
 <https://www.chargeup.io/group07/resource/City/Vernon> a ont:City;
   rdfs:label "Vernon";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1528854>;
   ont:counties "Tolland";
   ont:townIndex 146 .
 
 <https://www.chargeup.io/group07/resource/City/Wallingford> a ont:City;
   rdfs:label "Wallingford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1949294>;
   ont:counties "New-Haven";
   ont:townIndex 148 .
 
 <https://www.chargeup.io/group07/resource/City/Washington> a ont:City;
   rdfs:label "Washington";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446223>;
   ont:counties "Litchfield";
   ont:townIndex 150 .
 
 <https://www.chargeup.io/group07/resource/City/Waterbury> a ont:City;
   rdfs:label "Waterbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49178>;
   ont:counties "New-Haven";
   ont:townIndex 151 .
 
 <https://www.chargeup.io/group07/resource/City/Waterford> a ont:City;
   rdfs:label "Waterford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2600861>;
   ont:counties "New-London";
   ont:townIndex 152 .
 
-<https://www.chargeup.io/group07/resource/City/West-Hartford> a ont:City;
-  rdfs:label "West-Hartford";
+<https://www.chargeup.io/group07/resource/City/West%20Hartford> a ont:City;
+  rdfs:label "West Hartford";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q49140>;
   ont:counties "Hartford";
   ont:townIndex 155 .
 
-<https://www.chargeup.io/group07/resource/City/West-Haven> a ont:City;
-  rdfs:label "West-Haven";
+<https://www.chargeup.io/group07/resource/City/West%20Haven> a ont:City;
+  rdfs:label "West Haven";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q54219>;
   ont:counties "New-Haven";
   ont:townIndex 156 .
 
-<https://www.chargeup.io/group07/resource/City/West-Simsbury> a ont:City;
-  rdfs:label "West-Simsbury";
+<https://www.chargeup.io/group07/resource/City/West%20Simsbury> a ont:City;
+  rdfs:label "West Simsbury";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q225124>;
   ont:counties "Hartford";
   ont:townIndex 128 .
 
 <https://www.chargeup.io/group07/resource/City/Westbrook> a ont:City;
   rdfs:label "Westbrook";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755283>;
   ont:counties "Middlesex";
   ont:townIndex 154 .
 
 <https://www.chargeup.io/group07/resource/City/Westport> a ont:City;
   rdfs:label "Westport";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q586762>;
   ont:counties "Fairfield";
   ont:townIndex 158 .
 
 <https://www.chargeup.io/group07/resource/City/Wethersfield> a ont:City;
   rdfs:label "Wethersfield";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755202>;
   ont:counties "Hartford";
   ont:townIndex 159 .
 
 <https://www.chargeup.io/group07/resource/City/Willimantic> a ont:City;
   rdfs:label "Willimantic";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q754078>;
   ont:counties "Tolland", "Windham";
   ont:townIndex 163, 78 .
 
 <https://www.chargeup.io/group07/resource/City/Wilton> a ont:City;
   rdfs:label "Wilton";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2396722>;
   ont:counties "Fairfield";
   ont:townIndex 161 .
 
 <https://www.chargeup.io/group07/resource/City/Windham> a ont:City;
   rdfs:label "Windham";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1898521>;
   ont:counties "Tolland", "Windham";
   ont:townIndex 163 .
 
-<https://www.chargeup.io/group07/resource/City/Windsor-Locks> a ont:City;
-  rdfs:label "Windsor-Locks";
+<https://www.chargeup.io/group07/resource/City/Windsor%20Locks> a ont:City;
+  rdfs:label "Windsor Locks";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q755206>;
   ont:counties "Hartford";
   ont:townIndex 165 .
 
 <https://www.chargeup.io/group07/resource/City/Woodbridge> a ont:City;
   rdfs:label "Woodbridge";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1898540>;
   ont:counties "New-Haven";
   ont:townIndex 167 .
 
 <https://www.chargeup.io/group07/resource/City/Woodstock> a ont:City;
   rdfs:label "Woodstock";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2446178>;
   ont:counties "Windham";
   ont:townIndex 169 .
 
-<https://www.chargeup.io/group07/resource/City/Yantic> a ont:City;
-  rdfs:label "Yantic";
+<https://www.chargeup.io/group07/resource/City/Yantic%20Falls%20Historic%20District>
+  a ont:City;
+  rdfs:label "Yantic Falls Historic District";
+  <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q8048981>;
   ont:counties "New-London";
   ont:townIndex 104 .
