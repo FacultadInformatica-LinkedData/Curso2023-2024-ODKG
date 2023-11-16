@@ -12,7 +12,7 @@ This project involves setting up Apache Fuseki Server and downloading a Node.js 
    wget https://www.dropbox.com/scl/fi/bf2eu8ksk5ommhagthk17/PedMad.rar?rlkey=j2sq17pjtyy33zrvvmhzwqu5z&dl=0
  	```
 
-1. **Extract the Archive:**
+2. **Extract the Archive:**
 
 	Extract the downloaded archive using the following command:
 
@@ -21,14 +21,14 @@ This project involves setting up Apache Fuseki Server and downloading a Node.js 
 
  ```
 
-2. **Navigate to the Fuseki Directory:**
+3. **Navigate to the Fuseki Directory:**
 
   ``` 
 cd apache-jena-fuseki-VERSION
 
  ```
 
-3. **Start Fuseki Server:**
+4. **Start Fuseki Server:**
 
 	Start the Fuseki server using the following command:
   ``` 
@@ -36,7 +36,7 @@ cd apache-jena-fuseki-VERSION
 
  ```
 
- 4. **Access Fuseki Server:**
+ 5. **Access Fuseki Server:**
 
 	Open your browser and navigate to http://localhost:3030 to access the Fuseki Server web interface.
 
