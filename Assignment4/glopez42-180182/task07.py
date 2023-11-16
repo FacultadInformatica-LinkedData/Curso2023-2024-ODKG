@@ -23,13 +23,21 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 print("**TASK 7.1**")
 
 print("Using rdflib:")
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(s)
+
+def print_subclasses(class_uri, level):
+    if level == 0: # prints the "father" class at the begining
+        print(class_uri)
+    level = level + 1
+    for s, p, o in g.triples((None, RDFS.subClassOf, class_uri)):
+        print(s)
+        print_subclasses(s, level)
+
+print_subclasses(ns.LivingThing, 0)
 
 print("Using SPARQL:")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject rdfs:subClassOf ns:LivingThing. 
+    ?Subject rdfs:subClassOf* ns:LivingThing. 
   }
   ''',
   initNs = { "rdfs": RDFS, "ns": ns}
@@ -47,8 +55,14 @@ print()
 print("**TASK 7.2**")
 
 print("Using rdflib:")
-subclasses = [s for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person))]
-subclasses.append(ns.Person)
+
+def get_subclasses(class_uri):
+    subclasses = [class_uri]
+    for s,p,o in g.triples((None, RDFS.subClassOf, class_uri)):
+        subclasses = subclasses + get_subclasses(s)
+    return subclasses
+
+subclasses = get_subclasses(ns.Person)
 
 for object in subclasses:
     for s,p,o in g.triples((None, RDF.type, object)):
@@ -56,13 +70,13 @@ for object in subclasses:
 
 print("Using SPARQL:")
 q1 = prepareQuery('''
-  SELECT ?Subject WHERE { 
+  SELECT DISTINCT ?Subject WHERE { 
     {
         ?Subject rdf:type ns:Person. 
     }
     UNION {
-    ?class rdfs:subClassOf ns:Person.
-    ?Subject rdf:type ?class.
+        ?class rdfs:subClassOf* ns:Person.
+        ?Subject rdf:type ?class.
     }
   }
   ''',
@@ -166,14 +180,13 @@ for entity in entities:
 print("Using SPARQL:")
 
 q1 = prepareQuery('''
-  SELECT ?Subject WHERE { 
+  SELECT DISTINCT ?Subject WHERE { 
     {
         ?Subject foaf:knows ?o1.
         ?Subject foaf:knows ?o2.
         FILTER (?o1 != ?o2)
     }
   }
-  GROUP BY ?Subject
   ''',
   initNs = { "foaf":FOAF }
 )

@@ -51,7 +51,7 @@ for s, p, o in g:
 print("**TASK 6.4**")
 g.add((ns.JaneSmith, VCARD.EMAIL, Literal("jane.smith@mail.com")))
 g.add((ns.JaneSmith, VCARD.FN, Literal("Jane Smith")))
-g.add((ns.JaneSmith, VCARD.GIVEN, Literal("Jane")))
+g.add((ns.JaneSmith, VCARD.Given, Literal("Jane")))
 g.add((ns.JaneSmith, VCARD.Family, Literal("Smith")))
 
 # Visualize the results
