@@ -1,0 +1,258 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix transit: <http://vocab.org/transit/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@base <http://healthcentersmadrid.es/locations/ontology/ns#> .
+
+#extra ontologies
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dbp: <https://dbpedia.org/ontology/> .
+@prefix disit: <http://www.disit.org/km4city/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/#> .
+@prefix sd: <https://www.semanticdesktop.org/ontologies/2007/04/02/ncal/#> .
+@prefix coord: <http://purl.org/net/cartCoord#> .
+
+############################################# Health Centre #############################################################33
+
+vocab:HealthCentre
+  rml:logicalSource [
+    rml:source "centros_atencion_medica-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://sample.com/resource/HealthCentre{PK}";
+    rr:termType rr:IRI; rr:class vocab:HealthCentre
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:name;
+    rr:objectMap [
+      rml:reference "NOMBRE";
+      rr:termType rr:Literal ;
+      rr:datatype xsd:string
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate vocab:typeCenter;
+    rr:objectMap [
+      rml:reference "TIPO";
+      rr:datatype xsd:string
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate vocab:hasOtherInformation;
+    rr:objectMap [
+      rr:template "https://sample.com/resource/Information{PK}";
+      ]
+  ];
+
+
+  rr:predicateObjectMap [
+    rr:predicate dbp:Location;
+    rr:objectMap [
+      rr:template "https://sample.com/resource/Location{PK}";
+    ]
+  ].
+
+
+  ############################################# Location #############################################################33
+
+
+  vcard:Location
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated-with-links.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Location{PK}";
+        rr:termType rr:IRI; rr:class vocab:Location
+    ];
+   
+    rr:predicateObjectMap [
+        rr:predicate vcard:longitude;
+        rr:objectMap [
+        rml:reference "LONGITUD";
+        rr:datatype xsd:float
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vcard:latitude;
+        rr:objectMap [
+        rml:reference "LATITUD";
+        rr:datatype xsd:float
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate coord:xcoord;
+        rr:objectMap [
+        rml:reference "COORDENADA-X";
+        rr:datatype xsd:int
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate coord:ycoord;
+        rr:objectMap [
+        rml:reference "COORDENADA-Y";
+        rr:datatype xsd:int
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vcard:hasAddress;
+        rr:objectMap [
+        rr:template "https://sample.com/resource/Address{PK}";
+        ]
+  ].
+
+
+  ############################################# Information #############################################################33
+vocab:Information
+  rml:logicalSource [
+    rml:source "centros_atencion_medica-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+   rr:subjectMap [
+    rr:template "https://sample.com/resource/Information{PK}";
+    rr:termType rr:IRI; rr:class vocab:Information
+ ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:openingHours;
+    rr:objectMap [
+      rml:reference "HORARIO";
+      rr:datatype xsd:string
+      ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate vocab:accesibility;
+    rr:objectMap [
+      rml:reference "ACCESIBILIDAD";
+      rr:datatype xsd:int
+      ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate vocab:transport;
+    rr:objectMap [
+      rml:reference "TRANSPORTE";
+      rr:datatype xsd:string
+      ]
+  ];
+
+    rr:predicateObjectMap [
+        rr:predicate sd:contact;
+        rr:objectMap [
+        rr:template "https://sample.com/resource/Contact{PK}";
+        ]
+  ].
+
+
+############################################# Address #############################################################
+
+  vcard:Address
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated-with-links.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Address{PK}";
+        rr:termType rr:IRI; rr:class vocab:Address
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vcard:street-address;
+        rr:objectMap [
+            rml:reference "NOMBRE-VIA";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:neighbourhood;
+        rr:objectMap [
+            rml:reference "BARRIO";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate disit:hasDistrict;
+        rr:objectMap [
+            rml:reference "DISTRITO";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate disit:hasStreetNumber;
+        rr:objectMap [
+            rml:reference "NUM";
+            rr:datatype xsd:int
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vcard:postal-code;
+        rr:objectMap [
+            rml:reference "CODIGO-POSTAL";
+            rr:datatype xsd:int
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dbp:city;
+        rr:objectMap [
+            rml:reference "LOCALIDAD";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:neighbourhood_wikidata;
+        rr:objectMap [
+            rml:reference "BARRIO_WIKIDATA";
+            rr:termType rr:IRI
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:district_wikidata;
+        rr:objectMap [
+            rml:reference "DISTRITO_WIKIDATA";
+            rr:termType rr:IRI
+            ]
+    ].
+ 
+	
+
+
+############################################# Contact #############################################################
+
+
+  vcard:Contact
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated-with-links.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Contact{PK}";
+        rr:termType rr:IRI; rr:class vocab:Contact
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:web;
+        rr:objectMap [
+        rml:reference "CONTENT-URL";
+        rr:datatype xsd:string
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:term_phone;
+        rr:objectMap [
+        rml:reference "TELEFONO";
+        rr:datatype xsd:string
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vcard:mail;
+        rr:objectMap [
+        rml:reference "EMAIL";
+        rr:datatype xsd:string
+        ]
+    ].

@@ -1,0 +1,75 @@
+@prefix clase: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix esCalle: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> .
+@prefix gn: <https://www.geonames.org/ontology#> . 
+@prefix esCodPostal: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal> .
+@prefix eslat: <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+@prefix eslong: <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+@prefix esFechaHora: <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality#dateTime> .
+@prefix esDist: <http://www.w3.org/ns/locn#Address> .
+@prefix gtfs: <http://vocab.gtfs.org/gtfs.ttl#> . 
+
+clase: a owl:Ontology ;
+    dc:creator "Group06" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Madrid city heatmap Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+esCalle:id_calle a owl:DatatypeProperty ;
+    rdfs:label "id calle" ;
+    rdfs:domain esCalle:Calle ;
+    rdfs:range xsd:string .
+
+esCodPostal:codigoPostal a owl:DatatypeProperty ;
+    rdfs:label "codigo postal" ;
+    rdfs:domain esCalle:Calle ;
+    rdfs:range xsd:integer .
+
+eslat:latitud a owl:DatatypeProperty ;
+    rdfs:label "latitud" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:float .
+
+eslong:longitud a owl:DatatypeProperty ;
+    rdfs:label "longitud" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:float .
+
+esFechaHora:fechaHora a owl:DatatypeProperty ;
+    rdfs:label "fecha hora" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:dateTime .
+
+esDist:distrito a owl:DatatypeProperty ;
+    rdfs:label "distrito" ;
+    rdfs:domain esCalle:Calle ;
+    rdfs:range xsd:string .
+
+gn:perteneceACalle a owl:ObjectProperty ;
+    rdfs:label "pertenece a calle" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range esCalle:Calle .
+
+gn:numPeatones a owl:DatatypeProperty ;
+    rdfs:label "numero de peatones" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:float .
+
+gtfs:id_registroPeatones a owl:DatatypeProperty ;
+    rdfs:label "id registroPeatones" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:string .
+
+gtfs:observacionesDireccion a owl:DatatypeProperty ;
+    rdfs:label "observaciones direccion" ;
+    rdfs:domain gn:registroPeatones ;
+    rdfs:range xsd:string .
+
+esCalle:Calle a owl:Class ;
+    rdfs:label "Calle" .
+
+gn:registroPeatones a owl:Class ;
+    rdfs:label "registroPeatones" .

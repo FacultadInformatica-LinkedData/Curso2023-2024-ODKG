@@ -1,0 +1,184 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix nsc: <http://vidaactivamadrid.es/info/ontology/class#> .
+@prefix nsp: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix sch: <https://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+map:jc_000 rr:child "BARRIO" ;
+	rr:parent "BARRIO" .
+
+map:jc_001 rr:child "DISTRITO" ;
+	rr:parent "DISTRITO" .
+
+map:map_District_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "District" ;
+	rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010 ;
+	rr:subjectMap map:s_002 .
+
+map:map_Neighborhood_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "Neighborhood" ;
+	rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007 ;
+	rr:subjectMap map:s_001 .
+
+map:map_Park_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "Park" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003 ;
+	rr:subjectMap map:s_000 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant nsc:Park ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "ID_PARQUE" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_002 rml:reference "PARQUE" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_003 rdf:type rr:ObjectMap ;
+	rr:constant nsc:Neighborhood ;
+	rr:termType rr:IRI .
+
+map:om_004 rml:reference "BARRIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "same_as_wikidata_BARRIO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_006 rdf:type rr:ObjectMap ;
+	rr:constant nsc:District ;
+	rr:termType rr:IRI .
+
+map:om_007 rml:reference "DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "same_as_wikidata_DISTRITO" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_009 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_000 ;
+	rr:parentTriplesMap map:map_Neighborhood_000 .
+
+map:om_010 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_001 ;
+	rr:parentTriplesMap map:map_District_000 .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant nsp:id_park .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant sch:name .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant nsp:isInNeighborhood .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant nsp:name .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant nsp:isInDistrict .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant nsp:name .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant owl:sameAs .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_010 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_District_000, map:map_Neighborhood_000, map:map_Park_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://vidaactivamadrid.es/info/resource/Park/{ID_PARQUE}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "http://vidaactivamadrid.es/info/resource/Neighborhood/{BARRIO}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://vidaactivamadrid.es/info/resource/District/{DISTRITO}" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "../csv/AREAS-MAYORES-2023-with-links.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_001 rml:referenceFormulation ql:CSV ;
+	rml:source "../csv/AREAS-MAYORES-2023-with-links.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_002 rml:referenceFormulation ql:CSV ;
+	rml:source "../csv/AREAS-MAYORES-2023-with-links.csv" ;
+	rdf:type rml:LogicalSource .
+
