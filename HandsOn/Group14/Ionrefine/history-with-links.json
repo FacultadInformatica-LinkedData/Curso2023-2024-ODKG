@@ -1,0 +1,2919 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "trip_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "start_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "end_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "bikeid",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "tripduration",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_station_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "usertype",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "gender",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "birthyear",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q13442814",
+        "name": "scholarly article"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column to_Streetation_name to type Q13442814"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1297",
+        "name": "Chicago"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column to_Streetation_name to type Q1297"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Ashland Avenue & Wrightwood Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94955589",
+      "name": "Ashland Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ashland Avenue (Q94955589) for cells containing \"Ashland Avenue & Wrightwood Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Larrabee Street & WebStreeter Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87764184",
+      "name": "Webster Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Webster Avenue (Q87764184) for cells containing \"Larrabee Street & WebStreeter Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Michigan Avenue & Madison Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1867529",
+      "name": "Michigan Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Michigan Avenue (Q1867529) for cells containing \"Michigan Avenue & Madison Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Claremont Avenue & Hirsch Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5126299",
+      "name": "Claremont Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Claremont Avenue (Q5126299) for cells containing \"Claremont Avenue & Hirsch Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Damen Avenue & Division Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q121891589",
+      "name": "Damen Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Damen Avenue (Q121891589) for cells containing \"Damen Avenue & Division Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Wells Street & Polk Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3567198",
+      "name": "Wells Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wells Street (Q3567198) for cells containing \"Wells Street & Polk Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Lake Park Avenue & 53Road Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Lake Park Avenue & 53Road Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Southport Avenue & Irving Park Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1067774",
+      "name": "Illinois Route 19",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Illinois Route 19 (Q1067774) for cells containing \"Southport Avenue & Irving Park Road\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Jeffery BoulevaRoad & 71Street Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Jeffery BoulevaRoad & 71Street Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Wells Street & ConcoRoad Lane",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3567198",
+      "name": "Wells Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wells Street (Q3567198) for cells containing \"Wells Street & ConcoRoad Lane\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Elm Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5127389",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q5127389) for cells containing \"Clark Street & Elm Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & Sheridan Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96942453",
+      "name": "Sheridan Road Mansions",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sheridan Road Mansions (Q96942453) for cells containing \"Broadway & Sheridan Road\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & Sheridan Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7494905",
+      "name": "Sheridan Road",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sheridan Road (Q7494905) for cells containing \"Broadway & Sheridan Road\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Jeffery BoulevaRoad & 71Street Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Jeffery BoulevaRoad & 71Street Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clinton Street & Washington BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87754190",
+      "name": "Clinton Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clinton Street (Q87754190) for cells containing \"Clinton Street & Washington BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Lake Shore Doctor & North BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2084269",
+      "name": "Lake Shore",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lake Shore (Q2084269) for cells containing \"Lake Shore Doctor & North BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Kingsbury Street & Erie Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87752360",
+      "name": "Erie Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Erie Street (Q87752360) for cells containing \"Kingsbury Street & Erie Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "MLK Jr Doctor & 63Road Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6716588",
+      "name": "MLK Jr. station",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item MLK Jr. station (Q6716588) for cells containing \"MLK Jr Doctor & 63Road Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "BlackStreetone Avenue & Hyde Park BoulevaRoad",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"BlackStreetone Avenue & Hyde Park BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Loomis Street & Lexington Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87761875",
+      "name": "Loomis Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Loomis Street (Q87761875) for cells containing \"Loomis Street & Lexington Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Albany Avenue & Bloomingdale Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111930303",
+      "name": "Bloomingdale Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bloomingdale Avenue (Q111930303) for cells containing \"Albany Avenue & Bloomingdale Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Bryn Mawr Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5127389",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q5127389) for cells containing \"Clark Street & Bryn Mawr Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Loomis Street & Taylor Street (*)",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Loomis Street & Taylor Street (*)\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Lake Park Avenue & 53Road Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Lake Park Avenue & 53Road Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "California Avenue & Lake Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3216465",
+      "name": "Lake Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lake Street (Q3216465) for cells containing \"California Avenue & Lake Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Dearborn Street & Monroe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96942522",
+      "name": "Dearborn Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dearborn Street (Q96942522) for cells containing \"Dearborn Street & Monroe Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Dearborn Street & Van Buren Street (*)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96942522",
+      "name": "Dearborn Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dearborn Street (Q96942522) for cells containing \"Dearborn Street & Van Buren Street (*)\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Milwaukee Avenue & Wabansia Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6861671",
+      "name": "Milwaukee Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Milwaukee Avenue (Q6861671) for cells containing \"Milwaukee Avenue & Wabansia Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "LincoLane Avenue & Belle Plaine Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6550488",
+      "name": "Lincoln Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lincoln Avenue (Q6550488) for cells containing \"LincoLane Avenue & Belle Plaine Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Jefferson Street & Monroe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87752836",
+      "name": "Jefferson Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jefferson Street (Q87752836) for cells containing \"Jefferson Street & Monroe Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Schiller Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106715363",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q106715363) for cells containing \"Clark Street & Schiller Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Congress Pkwy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106715363",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q106715363) for cells containing \"Clark Street & Congress Pkwy\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Streetate Street & 35th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q986343",
+      "name": "State Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item State Street (Q986343) for cells containing \"Streetate Street & 35th Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Franklin Street & Quincy Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87752692",
+      "name": "Franklin Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Franklin Street (Q87752692) for cells containing \"Franklin Street & Quincy Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Lake Park Avenue & 35th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3264096",
+      "name": "35th Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 35th Street (Q3264096) for cells containing \"Lake Park Avenue & 35th Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Sheffield Avenue & Fullerton Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7492586",
+      "name": "Sheffield Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sheffield Avenue (Q7492586) for cells containing \"Sheffield Avenue & Fullerton Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Wabash Avenue & 9th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q114314961",
+      "name": "Wabash Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wabash Avenue (Q114314961) for cells containing \"Wabash Avenue & 9th Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clinton Street & Madison Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87754190",
+      "name": "Clinton Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clinton Street (Q87754190) for cells containing \"Clinton Street & Madison Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & Wilson Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120681052",
+      "name": "Wilson Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wilson Avenue (Q120681052) for cells containing \"Broadway & Wilson Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Streetreeter Doctor & Grand Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5594327",
+      "name": "Grand Boulevard",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Grand Boulevard (Q5594327) for cells containing \"Streetreeter Doctor & Grand Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Delano Ct & Roosevelt Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6940637",
+      "name": "Museum Campus/11th Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Museum Campus/11th Street (Q6940637) for cells containing \"Delano Ct & Roosevelt Road\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Desplaines Street & Jackson BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q115805964",
+      "name": "Jackson Boulevard",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jackson Boulevard (Q115805964) for cells containing \"Desplaines Street & Jackson BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & Argyle Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Broadway & Argyle Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Lake Shore Doctor & Wellington Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94579282",
+      "name": "Wellington Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wellington Avenue (Q94579282) for cells containing \"Lake Shore Doctor & Wellington Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Michigan Avenue & Lake Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3216465",
+      "name": "Lake Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lake Street (Q3216465) for cells containing \"Michigan Avenue & Lake Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Montrose Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5127389",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q5127389) for cells containing \"Clark Street & Montrose Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Shields Avenue & 28th Pl",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Shields Avenue & 28th Pl\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Mies van der Rohe Way & Chicago Avenue",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Mies van der Rohe Way & Chicago Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Jeffery BoulevaRoad & 71Street Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Jeffery BoulevaRoad & 71Street Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "California Avenue & Milwaukee Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6861671",
+      "name": "Milwaukee Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Milwaukee Avenue (Q6861671) for cells containing \"California Avenue & Milwaukee Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & Cornelia Avenue",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Broadway & Cornelia Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Michigan Avenue & 8th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1867529",
+      "name": "Michigan Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Michigan Avenue (Q1867529) for cells containing \"Michigan Avenue & 8th Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Michigan Avenue & Jackson BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1867529",
+      "name": "Michigan Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Michigan Avenue (Q1867529) for cells containing \"Michigan Avenue & Jackson BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "EaStreetlake Ter & Rogers Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7359259",
+      "name": "Rogers Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rogers Avenue (Q7359259) for cells containing \"EaStreetlake Ter & Rogers Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Franklin Street & Jackson BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q115805964",
+      "name": "Jackson Boulevard",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jackson Boulevard (Q115805964) for cells containing \"Franklin Street & Jackson BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Chicago Avenue & Washington Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106377827",
+      "name": "Chicago Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chicago Avenue (Q106377827) for cells containing \"Chicago Avenue & Washington Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Franklin Street & Monroe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111928953",
+      "name": "Monroe Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Monroe Street (Q111928953) for cells containing \"Franklin Street & Monroe Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Lunt Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5127389",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q5127389) for cells containing \"Clark Street & Lunt Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Streetetson Avenue & South Water Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7568811",
+      "name": "South Water Street Historic District",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item South Water Street Historic District (Q7568811) for cells containing \"Streetetson Avenue & South Water Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Milwaukee Avenue & Rockwell Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6861671",
+      "name": "Milwaukee Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Milwaukee Avenue (Q6861671) for cells containing \"Milwaukee Avenue & Rockwell Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Chicago Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106377827",
+      "name": "Chicago Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chicago Avenue (Q106377827) for cells containing \"Clark Street & Chicago Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "LincoLane Avenue & Fullerton Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5508285",
+      "name": "Fullerton Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fullerton Avenue (Q5508285) for cells containing \"LincoLane Avenue & Fullerton Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Randolph Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106715363",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q106715363) for cells containing \"Clark Street & Randolph Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & Lake Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3216465",
+      "name": "Lake Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lake Street (Q3216465) for cells containing \"Clark Street & Lake Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Wabash Avenue & Roosevelt Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3441902",
+      "name": "Roosevelt Road",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roosevelt Road (Q3441902) for cells containing \"Wabash Avenue & Roosevelt Road\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Kosciuszko Park",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6433027",
+      "name": "Kosciuszko Park",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kosciuszko Park (Q6433027) for cells containing \"Kosciuszko Park\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Paulina Avenue & North Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111928944",
+      "name": "North Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Avenue (Q111928944) for cells containing \"Paulina Avenue & North Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Sheffield Avenue & Kingsbury Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7492586",
+      "name": "Sheffield Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sheffield Avenue (Q7492586) for cells containing \"Sheffield Avenue & Kingsbury Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Dayton Street & North Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111928944",
+      "name": "North Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Avenue (Q111928944) for cells containing \"Dayton Street & North Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Fairbanks Ct & Grand Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1659794",
+      "name": "Fairbanks",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fairbanks (Q1659794) for cells containing \"Fairbanks Ct & Grand Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Franklin Street & Chicago Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106377827",
+      "name": "Chicago Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chicago Avenue (Q106377827) for cells containing \"Franklin Street & Chicago Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Wood Street & Taylor Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q25207518",
+      "name": "Taylor Street Bridge",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Taylor Street Bridge (Q25207518) for cells containing \"Wood Street & Taylor Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Sheffield Avenue & Wellington Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94579282",
+      "name": "Wellington Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wellington Avenue (Q94579282) for cells containing \"Sheffield Avenue & Wellington Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "ElStreeton Avenue & Wabansia Avenue",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"ElStreeton Avenue & Wabansia Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clarendon Avenue & Leland Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87754178",
+      "name": "Clarendon Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clarendon Avenue (Q87754178) for cells containing \"Clarendon Avenue & Leland Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Southport Avenue & Roscoe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110429028",
+      "name": "Roscoe Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roscoe Street (Q110429028) for cells containing \"Southport Avenue & Roscoe Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Canal Street & Madison Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3276131",
+      "name": "Madison Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madison Street (Q3276131) for cells containing \"Canal Street & Madison Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "LaSalle Street & Jackson BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4444755",
+      "name": "LaSalle Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item LaSalle Street (Q4444755) for cells containing \"LaSalle Street & Jackson BoulevaRoad\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Ogden Avenue & Chicago Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106377827",
+      "name": "Chicago Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Chicago Avenue (Q106377827) for cells containing \"Ogden Avenue & Chicago Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Sedgwick Street & North Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7054023",
+      "name": "North Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item North Avenue (Q7054023) for cells containing \"Sedgwick Street & North Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Streetockton Doctor & Wrightwood Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q95685301",
+      "name": "Wrightwood Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wrightwood Avenue (Q95685301) for cells containing \"Streetockton Doctor & Wrightwood Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Clark Street & North Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5127389",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q5127389) for cells containing \"Clark Street & North Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Broadway & WAvenueland Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2029378",
+      "name": "Broadway",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Broadway (Q2029378) for cells containing \"Broadway & WAvenueland Avenue\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Yates BoulevaRoad & 75th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4643466",
+      "name": "75th Street (Grand Crossing)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 75th Street (Grand Crossing) (Q4643466) for cells containing \"Yates BoulevaRoad & 75th Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Daley Center Plaza",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1572019",
+      "name": "Daley Plaza Christmas tree",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Daley Plaza Christmas tree (Q1572019) for cells containing \"Daley Center Plaza\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "to_Streetation_name",
+    "similarValue": "Calumet Avenue & 33Road Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Calumet Avenue & 33Road Street\" in column to_Streetation_name"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q1297",
+        "name": "Chicago"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column from_Streetation_name to type Q1297"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Ellis Avenue & 58th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17508813",
+      "name": "Ellis Avenue Historic District",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ellis Avenue Historic District (Q17508813) for cells containing \"Ellis Avenue & 58th Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Michigan Avenue & Oak Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1867529",
+      "name": "Michigan Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Michigan Avenue (Q1867529) for cells containing \"Michigan Avenue & Oak Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wilton Avenue & Diversey Pkwy",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Wilton Avenue & Diversey Pkwy\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wabash Avenue & Roosevelt Road",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3441902",
+      "name": "Roosevelt Road",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roosevelt Road (Q3441902) for cells containing \"Wabash Avenue & Roosevelt Road\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Streetate Street & 33Road Street",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Mark to create one single new item for all cells containing \"Streetate Street & 33Road Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Lake Shore Doctor & North BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6477725",
+      "name": "Lake Shore",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lake Shore (Q6477725) for cells containing \"Lake Shore Doctor & North BoulevaRoad\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wells Street & Huron Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106497244",
+      "name": "Huron Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Huron Street (Q106497244) for cells containing \"Wells Street & Huron Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Cottage Grove Avenue & 63Road Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q43081082",
+      "name": "Cottage Grove Avenue Presbyterian Church",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cottage Grove Avenue Presbyterian Church (Q43081082) for cells containing \"Cottage Grove Avenue & 63Road Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wells Street & Evergreen Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3567198",
+      "name": "Wells Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wells Street (Q3567198) for cells containing \"Wells Street & Evergreen Avenue\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "HalStreeted Street & Polk Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q24041527",
+      "name": "Polk Street Concrete Cottage Historic District",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Polk Street Concrete Cottage Historic District (Q24041527) for cells containing \"HalStreeted Street & Polk Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "LaSalle Street & Illinois Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q117643982",
+      "name": "Illinois Cemetery",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Illinois Cemetery (Q117643982) for cells containing \"LaSalle Street & Illinois Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Ashland Avenue & Wrightwood Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94955589",
+      "name": "Ashland Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ashland Avenue (Q94955589) for cells containing \"Ashland Avenue & Wrightwood Avenue\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Morgan Street & Polk Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7225470",
+      "name": "Polk Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Polk Street (Q7225470) for cells containing \"Morgan Street & Polk Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Dearborn Street & Monroe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96942522",
+      "name": "Dearborn Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dearborn Street (Q96942522) for cells containing \"Dearborn Street & Monroe Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Canal Street & Jackson BoulevaRoad",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1032558",
+      "name": "Canal Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Canal Street (Q1032558) for cells containing \"Canal Street & Jackson BoulevaRoad\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Sheffield Avenue & Willow Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7492586",
+      "name": "Sheffield Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sheffield Avenue (Q7492586) for cells containing \"Sheffield Avenue & Willow Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "WeStreetern Avenue & Walton Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7987605",
+      "name": "Western Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Western Avenue (Q7987605) for cells containing \"WeStreetern Avenue & Walton Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Dearborn Street & Erie Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q96942522",
+      "name": "Dearborn Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dearborn Street (Q96942522) for cells containing \"Dearborn Street & Erie Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Southport Avenue & Roscoe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q110429028",
+      "name": "Roscoe Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Roscoe Street (Q110429028) for cells containing \"Southport Avenue & Roscoe Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Orleans Street & CheStreetnut Street (NEXT Apts)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111928960",
+      "name": "Orleans Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Orleans Street (Q111928960) for cells containing \"Orleans Street & CheStreetnut Street (NEXT Apts)\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Clinton Street & Tilden Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q87754190",
+      "name": "Clinton Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clinton Street (Q87754190) for cells containing \"Clinton Street & Tilden Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Jefferson Street & Monroe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111928953",
+      "name": "Monroe Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Monroe Street (Q111928953) for cells containing \"Jefferson Street & Monroe Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Albany Avenue & Bloomingdale Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111930303",
+      "name": "Bloomingdale Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bloomingdale Avenue (Q111930303) for cells containing \"Albany Avenue & Bloomingdale Avenue\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Streetate Street & Kinzie Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6414483",
+      "name": "Kinzie Street railroad bridge",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kinzie Street railroad bridge (Q6414483) for cells containing \"Streetate Street & Kinzie Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wells Street & ConcoRoad Lane",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3567198",
+      "name": "Wells Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wells Street (Q3567198) for cells containing \"Wells Street & ConcoRoad Lane\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Rush Street & HubbaRoad Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3453364",
+      "name": "Rush Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rush Street (Q3453364) for cells containing \"Rush Street & HubbaRoad Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Clark Street & Congress Pkwy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106715363",
+      "name": "Clark Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Clark Street (Q106715363) for cells containing \"Clark Street & Congress Pkwy\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Streetreeter Doctor & Grand Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5594327",
+      "name": "Grand Boulevard",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Grand Boulevard (Q5594327) for cells containing \"Streetreeter Doctor & Grand Avenue\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Broadway & Wilson Avenue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q120681052",
+      "name": "Wilson Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wilson Avenue (Q120681052) for cells containing \"Broadway & Wilson Avenue\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "HalStreeted Street & Roscoe Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5643579",
+      "name": "Halsted Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Halsted Street (Q5643579) for cells containing \"HalStreeted Street & Roscoe Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "May Street & Taylor Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q25207518",
+      "name": "Taylor Street Bridge",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Taylor Street Bridge (Q25207518) for cells containing \"May Street & Taylor Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Kosciuszko Park",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6433027",
+      "name": "Kosciuszko Park",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kosciuszko Park (Q6433027) for cells containing \"Kosciuszko Park\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Wabash Avenue & 9th Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q94698209",
+      "name": "Wabash Avenue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Wabash Avenue (Q94698209) for cells containing \"Wabash Avenue & 9th Street\" in column from_Streetation_name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "from_Streetation_name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Battery value from DBpedia",
+    "columnInsertIndex": 7,
+    "description": "Create column Battery value from DBpedia at index 7 based on column from_Streetation_name using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Battery value from DBpedia",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Michigan Avenue & Oak Street"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Michigan Avenue & Oak Street"
+      }
+    ],
+    "description": "Mass edit cells in column Battery value from DBpedia"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "trip_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "start_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "end_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "bikeid",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "tripduration",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_station_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "usertype",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "gender",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "birthyear",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "to_Streetation_name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "to_Streetation_name_from_DBpedia",
+    "columnInsertIndex": 10,
+    "description": "Create column to_Streetation_name_from_DBpedia at index 10 based on column to_Streetation_name using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "from_Streetation_name",
+    "expression": "grel:\"http://wikidata.org/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikipedia",
+    "columnInsertIndex": 7,
+    "description": "Create column same_as_wikipedia at index 7 based on column from_Streetation_name using expression grel:\"http://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "to_Streetation_name",
+    "expression": "grel:\"http://wikidata.ord/entity/\"+cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata2",
+    "columnInsertIndex": 11,
+    "description": "Create column same_as_wikidata2 at index 11 based on column to_Streetation_name using expression grel:\"http://wikidata.ord/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "to_Streetation_name_from_DBpedia",
+    "description": "Remove column to_Streetation_name_from_DBpedia"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Battery value from DBpedia",
+    "description": "Remove column Battery value from DBpedia"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "links": [
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "trip_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#startTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "start_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#endTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "end_time",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#BikeID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "bikeid",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#tripDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "tripduration",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#fromStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_station_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "from_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#toStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_id",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "http://www.w3.org/2000/01/rdf-schema#label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "to_Streetation_name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#userType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "usertype",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#gender",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "gender",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "curie": "http://www.divvybikesharing.com/group14/ontology/BikeInfo#birthYear",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "birthyear",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "from_Streetation_name",
+    "similarValue": "Streetate Street & 33Road Street",
+    "judgment": "matched",
+    "match": {
+      "id": "Q986343",
+      "name": "State Street",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item State Street (Q986343) for cells containing \"Streetate Street & 33Road Street\" in column from_Streetation_name"
+  }
+]
