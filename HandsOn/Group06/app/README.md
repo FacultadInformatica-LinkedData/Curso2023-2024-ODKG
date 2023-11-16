@@ -17,14 +17,14 @@ This project involves setting up Apache Fuseki Server and downloading a Node.js 
 	Extract the downloaded archive using the following command:
 
  ``` 
- tar -zxvf apache-jena-fuseki-VERSION.tar.gz
+ tar -zxvf apache-jena-fuseki-4.10.0.zip
 
  ```
 
 3. **Navigate to the Fuseki Directory:**
 
   ``` 
-cd apache-jena-fuseki-VERSION
+cd apache-jena-fuseki-4.10.0.zip
 
  ```
 
