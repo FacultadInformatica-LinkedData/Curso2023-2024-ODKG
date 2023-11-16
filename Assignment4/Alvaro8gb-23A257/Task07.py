@@ -45,7 +45,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, NS.LivingThing)):
 print("SPARQL:")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject rdfs:subClassOf ns:LivingThing.
+    ?Subject rdfs:subClassOf* ns:LivingThing.
   }
   ''',
                   initNs={"rdfs": RDFS, "ns": NS}
@@ -93,8 +93,9 @@ for r in g.query(q2):
 from rdflib.plugins.sparql import prepareQuery
 
 print("RDFLIB")
+
 for c in [NS.Person, NS.Animal]:
-    for s, p, o in g.triples((None, RDF.type, NS.Person)):
+    for s, p, o in g.triples((None, RDF.type, c)):
         for s2, p2, o2 in g.triples((s, None, None)):
             print(s2, p2, o2)
 print("SPARQL")
