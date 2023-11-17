@@ -45,9 +45,9 @@
     
 
 
-    <!-- http://madrid.encuentra.es/resource/Distrito -->
+    <!-- http://madrid.encuentra.es/resource/distrito -->
 
-    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/Distrito">
+    <owl:DatatypeProperty rdf:about="http://madrid.encuentra.es/resource/distrito">
         <rdfs:subPropertyOf rdf:resource="http://www.schema.org/address"/>
         <rdfs:domain rdf:resource="http://madrid.encuentra.es/resource/Facility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>

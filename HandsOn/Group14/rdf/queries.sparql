@@ -1,53 +1,68 @@
-# Query to retrieve all Bikes and their IDs
-PREFIX ns: <http://smart-cities-Dublin.org/bikeshare/about/Bike#>
-SELECT ?bike ?bikeID WHERE {
-    ?bike a ns:Bike ;
-          ns:hasBikeID ?bikeID .
+# Query to retrieve all Bikes and their ID
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?bike ?bikeID
+WHERE {
+  ?bike a ns:Bike;
+        ns:BikeID ?bikeID.
 }
 
-# Query to retrieve all Bikes and their types
-SELECT ?bike ?bikeType WHERE {
-    ?bike a ns:Bike ;
-          ns:hasBikeType ?bikeType .
+
+# Query to retrieve all TripTime with start and end stations
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?trip ?fromStation ?toStation
+WHERE {
+  ?trip a ns:TripTime;
+        ns:fromStation ?fromStation;
+        ns:toStation ?toStation.
 }
 
-# Query to retrieve all Bikes and their last rental start times
-SELECT ?bike ?lastRentalStart WHERE {
-    ?bike a ns:Bike ;
-          ns:LastRentalStart ?lastRentalStart .
+# Query to retrieve all Users who are Subscribers
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?user ?userType
+WHERE {
+  ?user a ns:Users;
+        ns:userType ?userType.
+  FILTER (LCASE(?userType) = "Subscriber")
 }
 
-# Query to retrieve all Coordinates: Latitude and Longitude
-SELECT ?coords ?latitude ?longitude WHERE {
-    ?coords a ns:Coordinates ;
-            ns:hasLatitude ?latitude ;
-            ns:hasLongitude ?longitude .
+# Query to retrieve the total of TripTime
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT (COUNT(?trip) AS ?tripCount)
+WHERE {
+  ?trip a ns:TripTime.
 }
 
-# Query to retrieve all Batteries and the amount left
-SELECT ?battery ?amountLeft WHERE {
-    ?battery a ns:Battery ;
-             ns:batteryLeft ?amountLeft .
+# Query to retrieve all the data of one triptime (here 56)
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?trip ?fromStation ?toStation ?startTime ?endTime ?tripDuration
+WHERE {
+  ?trip a ns:TripTime;
+        ns:tripID <http://www.divvybikesharing.com/group14/about/TripTime/56>;
+        ns:fromStation ?fromStation;
+        ns:toStation ?toStation;
+        ns:startTime ?startTime;
+        ns:endTime ?endTime;
+        ns:tripDuration ?tripDuration.
 }
 
-# Query to retrieve all Batteries and their last GPS usage time
-SELECT ?battery ?lastGPSTime WHERE {
-    ?battery a ns:Battery ;
-             ns:wasLastUsed ?lastGPSTime .
-}
+# Query to retrieve all Bikes with their ID and the total of triptime of each bike
 
-# Query to get Bikes and their location coordinates
-SELECT ?bike ?latitude ?longitude WHERE {
-    ?bike a ns:Bike ;
-          ns:isLocatedAt ?coords .
-    ?coords ns:hasLatitude ?latitude ;
-           ns:hasLongitude ?longitude .
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?bike ?bikeID (COUNT(?trip) AS ?tripCount)
+WHERE {
+  ?bike a ns:Bike;
+        ns:BikeID ?bikeID.
+  OPTIONAL {
+    ?trip a ns:TripTime;
+          ns:hasUser ?user.
+    FILTER (?user = ?bike)
+  }
 }
+GROUP BY ?bike ?bikeID
 
-# Query to get Bikes and their battery details
-SELECT ?bike ?batteryLeft ?lastGPSTime WHERE {
-    ?bike a ns:Bike ;
-          ns:hasBattery ?battery .
-    ?battery ns:batteryLeft ?batteryLeft ;
-            ns:wasLastUsed ?lastGPSTime .
-}
+

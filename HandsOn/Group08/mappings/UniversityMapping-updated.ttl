@@ -25,12 +25,12 @@ rr:subjectMap [
     rr:class dbo:State
   ];
   rr:predicateObjectMap [ 
-  rr:predicate rdf:label; 
-  rr:objectMap [ 
-  rml:reference "STATE"; 
- rr:termType rr:Literal ;
- rr:datatype xsd:string
- ] 
+    rr:predicate rdf:label; 
+    rr:objectMap [ 
+      rml:reference "STATE"; 
+      rr:termType rr:Literal ;
+      rr:datatype xsd:string
+    ] 
   ].
 
 <#CountryMapping>
@@ -293,7 +293,7 @@ rr:predicateObjectMap [
   rr:objectMap [ 
     rml:reference "Applicants total"; 
     rr:termType rr:Literal;
-    rr:datatype xsd:number;
+    rr:datatype xsd:integer;
   ]
   ];
 
@@ -302,7 +302,7 @@ rr:predicateObjectMap [
   rr:objectMap [ 
     rml:reference "Admissions total"; 
     rr:termType rr:Literal;
-    rr:datatype xsd:number;
+    rr:datatype xsd:integer;
   ]
   ].
 

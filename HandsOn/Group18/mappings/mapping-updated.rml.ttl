@@ -91,11 +91,11 @@ map:om_005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:ObjectMap ;
 	rr:termType rr:IRI .
 
 map:om_006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:ObjectMap ;
-	rr:template "http://MadridTransit.com/Persons/{tipo_persona}/{recordNumber}" ;
+	rr:template "http://MadridTransit.com/Persons/{recordNumber}" ;
 	rr:termType rr:IRI .
 
 map:om_007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:ObjectMap ;
-	rr:template "http://MadridTransit.com/Address/{recordNumber}" ;
+	rr:template "http://MadridTransit.com/Address/{num_expediente}" ;
 	rr:termType rr:IRI .
 
 map:om_008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:ObjectMap ;
@@ -301,7 +301,7 @@ map:pm_024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
 	rr:constant nso:name .
 
 map:pm_025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
-	rr:constant <nr:districtCode> .
+	rr:constant nso:districtCode .
 
 map:pm_026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
 	rr:constant rdfs:label .
@@ -337,7 +337,7 @@ map:pm_036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
 	rr:constant nso:hasRoad .
 
 map:pm_037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateMap ;
-	rr:constant nso:districtCode .
+	rr:constant nso:belongsDistrict .
 
 map:pom_000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:PredicateObjectMap ;
 	rr:objectMap map:om_000 ;
@@ -501,7 +501,7 @@ map:s_001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:SubjectMap ;
 	rr:template "http://MadridTransit.com/Vehicles/{tipo_vehiculo}" .
 
 map:s_002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:SubjectMap ;
-	rr:template "http://MadridTransit.com/Weather/{estado_meteorologico}" .
+	rr:template "http://MadridTransit.com/Weathers/{estado_meteorologico}" .
 
 map:s_003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:SubjectMap ;
 	rr:template "http://MadridTransit.com/Persons/{recordNumber}" .
@@ -516,7 +516,7 @@ map:s_006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:SubjectMap ;
 	rr:template "http://MadridTransit.com/Coordinates/{recordNumber}" .
 
 map:s_007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> rr:SubjectMap ;
-	rr:template "http://MadridTransit.com/Address/{recordNumber}" .
+	rr:template "http://MadridTransit.com/Address/{num_expediente}" .
 
 map:source_000 rml:referenceFormulation ql:CSV ;
 	rml:source "Accidents-in-Madrid-with-Links-updated-csv.csv" ;

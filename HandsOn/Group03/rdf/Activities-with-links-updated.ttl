@@ -7,11 +7,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=beaf2f9cb66d1610VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "V" ;
     nsp:description "Viernes  6, 13, 20 y 27 y  de octubre 16:30 h. a 19 h" ;
-    nsp:endDate "2024-06-30"^^xsd:dateTime ;
+    nsp:endDate "2024-06-30T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "10633173" ;
     nsp:longEvent true ;
     nsp:name "Baile de Mayores en Centros Culturales Distrito Latina" ;
-    nsp:startDate "2022-10-07"^^xsd:dateTime ;
+    nsp:startDate "2022-10-07T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20Almirante%20Churruca%20%28Latina%29> ;
     nsp:time "16:30" .
 
@@ -19,11 +19,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=77922f9cb66d1610VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "J" ;
     nsp:description "Jueves 5, 19 y 26 de octubre 18 a 20:30 h." ;
-    nsp:endDate "2023-10-31"^^xsd:dateTime ;
+    nsp:endDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "10634056" ;
     nsp:longEvent true ;
     nsp:name "Baile de Mayores en Centros Culturales Distrito Latina" ;
-    nsp:startDate "2022-10-06"^^xsd:dateTime ;
+    nsp:startDate "2022-10-06T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20El%20Greco%20%28Latina%29> ;
     nsp:time "18:00" .
 
@@ -31,11 +31,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0a23b291dc109810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-10"^^xsd:dateTime ;
+    nsp:endDate "2023-10-10T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12047108" ;
     nsp:longEvent true ;
     nsp:name "Taller uso certificado digital en el móvil" ;
-    nsp:startDate "2023-10-03"^^xsd:dateTime ;
+    nsp:startDate "2023-10-03T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -44,11 +44,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=c7497513d1709810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "X,J,V" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-27"^^xsd:dateTime ;
+    nsp:endDate "2023-10-27T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12047735" ;
     nsp:longEvent true ;
     nsp:name "Taller uso de WhatsApp para mayores" ;
-    nsp:startDate "2023-10-18"^^xsd:dateTime ;
+    nsp:startDate "2023-10-18T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
     nsp:time "10:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -57,11 +57,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d6963d0dd564a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "D" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-11-19"^^xsd:dateTime ;
+    nsp:endDate "2023-11-19T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12083260" ;
     nsp:longEvent true ;
     nsp:name "Talleres dinámicos. L-ABE (2023-2024)" ;
-    nsp:startDate "2023-09-17"^^xsd:dateTime ;
+    nsp:startDate "2023-09-17T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
     nsp:typeOfActivity "Programacion Destacada Agenda Cultura" .
 
@@ -69,11 +69,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=91b120aa7564a810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-26"^^xsd:dateTime ;
+    nsp:endDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12083748" ;
     nsp:longEvent false ;
     nsp:name "Visitas dialogadas. «Hecho en casa»" ;
-    nsp:startDate "2023-10-26"^^xsd:dateTime ;
+    nsp:startDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Programacion Destacada Agenda Cultura" .
@@ -82,11 +82,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4ca74227bf4a810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "L" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-30"^^xsd:dateTime ;
+    nsp:endDate "2023-10-30T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12084406" ;
     nsp:longEvent true ;
     nsp:name "Moviendo el esqueleto al aire libre" ;
-    nsp:startDate "2023-10-02"^^xsd:dateTime ;
+    nsp:startDate "2023-10-02T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Dulce%20Chac%C3%B3n.%20Villaverde> ;
     nsp:time "10:00" ;
     nsp:typeOfActivity "Danza Baile" .
@@ -95,11 +95,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0c31b1d5bd5a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "L" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-30"^^xsd:dateTime ;
+    nsp:endDate "2023-10-30T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12085076" ;
     nsp:longEvent true ;
     nsp:name "Marcha jubilosa: caminata para mujeres mayores" ;
-    nsp:startDate "2023-10-02"^^xsd:dateTime ;
+    nsp:startDate "2023-10-02T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Moliner.%20Villa%20de%20Vallecas> ;
     nsp:time "10:00" ;
     nsp:typeOfActivity "Excursiones Itinerarios Visitas" .
@@ -108,11 +108,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9c241b1d5bd5a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "J" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-26"^^xsd:dateTime ;
+    nsp:endDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12085097" ;
     nsp:longEvent true ;
     nsp:name "Empoderamiento físico y movimiento" ;
-    nsp:startDate "2023-10-05"^^xsd:dateTime ;
+    nsp:startDate "2023-10-05T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Moliner.%20Villa%20de%20Vallecas> ;
     nsp:time "10:00" ;
     nsp:typeOfActivity "Actividades Deportivas" .
@@ -121,11 +121,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ef0cbd7cb647a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "L,M,X,J,V,S,D" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2024-04-22"^^xsd:dateTime ;
+    nsp:endDate "2024-04-22T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12092330" ;
     nsp:longEvent true ;
     nsp:name "Talleres dinámicos. L-ABE (2023-2024)" ;
-    nsp:startDate "2023-09-17"^^xsd:dateTime ;
+    nsp:startDate "2023-09-17T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
     nsp:typeOfActivity "Programacion Destacada Agenda Cultura" .
 
@@ -133,11 +133,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b360634bdf28a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-05"^^xsd:dateTime ;
+    nsp:endDate "2023-10-05T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12094320" ;
     nsp:longEvent false ;
     nsp:name "Activa tu mente. Grupo I" ;
-    nsp:startDate "2023-10-05"^^xsd:dateTime ;
+    nsp:startDate "2023-10-05T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
     nsp:time "12:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -146,11 +146,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=db50634bdf28a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-26"^^xsd:dateTime ;
+    nsp:endDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12094321" ;
     nsp:longEvent false ;
     nsp:name "Activa tu mente. Grupo II" ;
-    nsp:startDate "2023-10-26"^^xsd:dateTime ;
+    nsp:startDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
     nsp:time "12:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -159,11 +159,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=df961ee415d8a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-19"^^xsd:dateTime ;
+    nsp:endDate "2023-10-19T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12096244" ;
     nsp:longEvent false ;
     nsp:name "Paseos saludables, conociendo los recursos del distrito" ;
-    nsp:startDate "2023-10-19"^^xsd:dateTime ;
+    nsp:startDate "2023-10-19T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
     nsp:time "11:00" ;
     nsp:typeOfActivity "Excursiones Itinerarios Visitas" .
@@ -172,11 +172,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=2097e905dc89a810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M,X,J" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-11"^^xsd:dateTime ;
+    nsp:endDate "2023-10-11T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12100987" ;
     nsp:longEvent true ;
     nsp:name "Taller manejo básico de móviles" ;
-    nsp:startDate "2023-10-03"^^xsd:dateTime ;
+    nsp:startDate "2023-10-03T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
     nsp:time "10:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -185,11 +185,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=aacab8caf1caa810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "L,M,X,J,V,S,D" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2024-04-28"^^xsd:dateTime ;
+    nsp:endDate "2024-04-28T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12102665" ;
     nsp:longEvent true ;
     nsp:name "VISITAS DIALOGADAS. «HECHO EN CASA»" ;
-    nsp:startDate "2023-09-17"^^xsd:dateTime ;
+    nsp:startDate "2023-09-17T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
     nsp:typeOfActivity "Programacion Destacada Agenda Cultura" .
 
@@ -197,11 +197,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3a7331b1f65da810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "J" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-26"^^xsd:dateTime ;
+    nsp:endDate "2023-10-26T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12110246" ;
     nsp:longEvent true ;
     nsp:name "Trabajamos la memoria" ;
-    nsp:startDate "2023-10-05"^^xsd:dateTime ;
+    nsp:startDate "2023-10-05T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Gloria%20Fuertes.%20Vic%C3%A1lvaro> ;
     nsp:time "10:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -210,11 +210,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=577180a639ada810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-06"^^xsd:dateTime ;
+    nsp:endDate "2023-10-06T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12112846" ;
     nsp:longEvent false ;
     nsp:name "Círculo de mujeres sabias. La menopausia y nosotras" ;
-    nsp:startDate "2023-10-06"^^xsd:dateTime ;
+    nsp:startDate "2023-10-06T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> ;
     nsp:time "10:00" .
 
@@ -222,11 +222,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0414d3febada810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "X" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-25"^^xsd:dateTime ;
+    nsp:endDate "2023-10-25T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12112982" ;
     nsp:longEvent true ;
     nsp:name "Tecnomayores. Soy ciudadana y participo en mi municipio II" ;
-    nsp:startDate "2023-10-04"^^xsd:dateTime ;
+    nsp:startDate "2023-10-04T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> ;
     nsp:time "11:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -235,11 +235,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=10f8b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-12-19"^^xsd:dateTime ;
+    nsp:endDate "2023-12-19T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12113267" ;
     nsp:longEvent true ;
     nsp:name "Primeros pasos de informática con el ordenador" ;
-    nsp:startDate "2023-10-17"^^xsd:dateTime ;
+    nsp:startDate "2023-10-17T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Carme%20Chac%C3%B3n.%20Hortaleza> ;
     nsp:time "18:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -248,11 +248,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=8530b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-31"^^xsd:dateTime ;
+    nsp:endDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12113596" ;
     nsp:longEvent true ;
     nsp:name "Encuentros de sabias" ;
-    nsp:startDate "2023-10-03"^^xsd:dateTime ;
+    nsp:startDate "2023-10-03T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Dulce%20Chac%C3%B3n.%20Villaverde> ;
     nsp:time "10:00" ;
     nsp:typeOfActivity "Conferencias Coloquios" .
@@ -261,11 +261,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7ef6b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-23"^^xsd:dateTime ;
+    nsp:endDate "2023-10-23T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114000" ;
     nsp:longEvent false ;
     nsp:name "¡Quiero saber usar mi móvil! Mujeres mayores de 60 años" ;
-    nsp:startDate "2023-10-23"^^xsd:dateTime ;
+    nsp:startDate "2023-10-23T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Elena%20Arnedo%20Soriano.%20Retiro> ;
     nsp:time "16:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -274,11 +274,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9ad90fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-06"^^xsd:dateTime ;
+    nsp:endDate "2023-10-06T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114192" ;
     nsp:longEvent false ;
     nsp:name "Relajación para mujeres mayores de 60 años" ;
-    nsp:startDate "2023-10-06"^^xsd:dateTime ;
+    nsp:startDate "2023-10-06T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Hermanas%20Mirabal.%20Tetu%C3%A1n> ;
     nsp:time "10:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -287,11 +287,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d69c0fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-31"^^xsd:dateTime ;
+    nsp:endDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114219" ;
     nsp:longEvent true ;
     nsp:name "Smartphone para mayores de 60. Conoce las funciones básicas" ;
-    nsp:startDate "2023-10-10"^^xsd:dateTime ;
+    nsp:startDate "2023-10-10T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Hermanas%20Mirabal.%20Tetu%C3%A1n> ;
     nsp:time "13:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -300,11 +300,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ce30fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "L" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-30"^^xsd:dateTime ;
+    nsp:endDate "2023-10-30T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114363" ;
     nsp:longEvent true ;
     nsp:name "El gimnasio de la memoria" ;
-    nsp:startDate "2023-10-02"^^xsd:dateTime ;
+    nsp:startDate "2023-10-02T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Zambrano.%20Chamber%C3%AD> ;
     nsp:time "12:30" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -313,11 +313,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6120d1b058bda810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-31"^^xsd:dateTime ;
+    nsp:endDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114610" ;
     nsp:longEvent false ;
     nsp:name "Consejo de Sabias. Teatralizando la vida" ;
-    nsp:startDate "2023-10-31"^^xsd:dateTime ;
+    nsp:startDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Emilia%20Pardo%20Baz%C3%A1n.%20Ciudad%20Lineal> ;
     nsp:time "17:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -326,11 +326,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d381d1b058bda810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "M" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-31"^^xsd:dateTime ;
+    nsp:endDate "2023-10-31T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12114645" ;
     nsp:longEvent true ;
     nsp:name "Conéctate con el móvil. Manejo de whatsapp" ;
-    nsp:startDate "2023-10-03"^^xsd:dateTime ;
+    nsp:startDate "2023-10-03T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Emilia%20Pardo%20Baz%C3%A1n.%20Ciudad%20Lineal> ;
     nsp:time "10:00" ;
     nsp:typeOfActivity "Cursos Talleres" .
@@ -339,11 +339,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6917c2c1b30ea810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "X" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-25"^^xsd:dateTime ;
+    nsp:endDate "2023-10-25T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12116349" ;
     nsp:longEvent true ;
     nsp:name "Yoga suave" ;
-    nsp:startDate "2023-10-04"^^xsd:dateTime ;
+    nsp:startDate "2023-10-04T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
     nsp:time "18:00" ;
     nsp:typeOfActivity "Actividades Deportivas" .
@@ -352,11 +352,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a305b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Compañía Operanova Producciones  En esta función, se aborda la obra original pensada por José Zorrilla abriendo todos los cortes que se le han hecho tradicionalmente para que el espectador tenga una experiencia lo más cercana posible a la que tuvieron sus paisanos del siglo XIX.     Duración: 3 horas y 30 minutos" ;
-    nsp:endDate "2023-10-07"^^xsd:dateTime ;
+    nsp:endDate "2023-10-07T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12117022" ;
     nsp:longEvent false ;
     nsp:name "Don Juan Tenorio" ;
-    nsp:startDate "2023-10-07"^^xsd:dateTime ;
+    nsp:startDate "2023-10-07T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
     nsp:time "18:00" ;
     nsp:typeOfActivity "Teatro Performance" .
@@ -365,11 +365,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b35b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Omar Acosta y Sergio Menem  Homenaje a sus raíces latinas e influencias iberoamericanas por parte de este dúo de cámara, que fue nominado al Mejor álbun instrumental en los Latin Grammy 2021.     Duración: 60 minutos" ;
-    nsp:endDate "2023-10-20"^^xsd:dateTime ;
+    nsp:endDate "2023-10-20T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12117025" ;
     nsp:longEvent false ;
     nsp:name "Entre tiempo y tiempo" ;
-    nsp:startDate "2023-10-20"^^xsd:dateTime ;
+    nsp:startDate "2023-10-20T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Musica" .
@@ -378,11 +378,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=de45b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Centro de Danza y Arte de Madrid  El Joven Ballet del Centro de Danza y Arte de Madrid busca acercar el ballet clásico y neoclásico al público general a la vez que procura una formación escénica de su alumnado.     Duración 60 minutos" ;
-    nsp:endDate "2023-10-21"^^xsd:dateTime ;
+    nsp:endDate "2023-10-21T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12117026" ;
     nsp:longEvent false ;
     nsp:name "Gala de ballet clásico" ;
-    nsp:startDate "2023-10-21"^^xsd:dateTime ;
+    nsp:startDate "2023-10-21T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Danza Baile" .
@@ -391,11 +391,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=1365b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Compañía Eagle's Dreams  Antonia, una mujer de clase obrera, comprueba haciendo la compra en el supermercado que los precios vuelven a subir y subir. Unida a otras muchas mujeres, deciden recibelarse y llevarse los alimentos sin pagar.     Duración: 120 minutos" ;
-    nsp:endDate "2023-10-27"^^xsd:dateTime ;
+    nsp:endDate "2023-10-27T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12117027" ;
     nsp:longEvent false ;
     nsp:name "Aquí no paga nadie" ;
-    nsp:startDate "2023-10-27"^^xsd:dateTime ;
+    nsp:startDate "2023-10-27T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Teatro Performance" .
@@ -404,11 +404,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3875b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "El Orfeón se forma en el año 2012 a raíz de un concurso de solfeo y canto coral organizado por la parroquia de San Gregorio Magno, en el barrio de Valdebernardo. Su objetivo principal es cantar y disfrutar de la música, la gran pasión para cada uno de sus integrantes.     Duración: 70 minutos" ;
-    nsp:endDate "2023-10-28"^^xsd:dateTime ;
+    nsp:endDate "2023-10-28T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12117028" ;
     nsp:longEvent false ;
     nsp:name "Orfeón de Vicálvaro San Gregorio Magno" ;
-    nsp:startDate "2023-10-28"^^xsd:dateTime ;
+    nsp:startDate "2023-10-28T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
     nsp:time "19:00" ;
     nsp:typeOfActivity "Musica" .
@@ -417,11 +417,11 @@
     nsp:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4ead85faf9fa810VgnVCM1000001d4a900aRCRD" ;
     nsp:dayOfWeek "-" ;
     nsp:description "Sin descripción" ;
-    nsp:endDate "2023-10-15"^^xsd:dateTime ;
+    nsp:endDate "2023-10-15T00:00:00+00:00"^^xsd:dateTime ;
     nsp:id "12121361" ;
     nsp:longEvent false ;
     nsp:name "Chocolatada con animación musical" ;
-    nsp:startDate "2023-10-15"^^xsd:dateTime ;
+    nsp:startDate "2023-10-15T00:00:00+00:00"^^xsd:dateTime ;
     nsp:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Auditorio%20al%20aire%20libre.%20Parque%20de%20la%20Vaguada> ;
     nsp:time "18:30" ;
     nsp:typeOfActivity "Fiestas" .
