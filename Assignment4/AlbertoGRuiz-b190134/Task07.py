@@ -28,7 +28,7 @@ NS = Namespace("http://somewhere#")
 
 q1 = prepareQuery('''
   SELECT ?subClass WHERE { 
-    ?subClass rdfs:subClassOf ns:LivingThing. 
+    ?subClass rdfs:subClassOf* ns:LivingThing. 
   }
   ''',
   initNs = { "vcard": VCARD, "rdfs":RDFS, "ns":NS}
@@ -47,7 +47,7 @@ q2 = prepareQuery('''
   SELECT ?individual WHERE { 
     {
       ?individual rdf:type ?subClass. 
-      ?subClass rdfs:subClassOf ns:Person.
+      ?subClass rdfs:subClassOf* ns:Person.
     }
     UNION
     {
@@ -70,33 +70,15 @@ for r in g.query(q2):
 
 # %%
 q3 = prepareQuery('''
-  SELECT DISTINCT ?personOrAnimal ?properties ?value WHERE { 
-    { #Persons
-        {
-            ?personOrAnimal rdf:type ?subClass. 
-            ?subClass rdfs:subClassOf ns:Person.
-            ?personOrAnimal ?properties ?value
-        }
+  SELECT ?personOrAnimal ?properties ?value
+    WHERE {
+        ?personOrAnimal rdf:type ?class.
+        ?personOrAnimal ?properties ?value. #Properties for the individual
+        
+        { ?personOrAnimal rdf:type ns:Person. } #Persons
         UNION
-        {
-            ?personOrAnimal rdf:type ns:Person.
-            ?personOrAnimal ?properties ?value
-        } 
-    } #Persons
-    UNION
-    { #ANIMALS
-        {
-            ?personOrAnimal rdf:type ?subClass. 
-            ?subClass rdfs:subClassOf ns:Animal.
-            ?personOrAnimal ?properties ?value
-        }
-        UNION
-        {
-            ?personOrAnimal rdf:type ns:Animal.
-            ?personOrAnimal ?properties ?value
-        }
-    } #ANIMALS
-  }
+        { ?personOrAnimal rdf:type ns:Animal .} #Animals
+    }
   ''',
   initNs = { "vcard": VCARD, "rdfs":RDFS, "ns":NS}
 )
@@ -116,7 +98,7 @@ q4= prepareQuery('''
   {
     ?personsWhoKnowRocky foaf:knows ?rockyURI.
     ?rockyURI vcard:FN ?rockyFN.
-    FILTER(CONTAINS(str(?rockyFN), "Rocky"))
+    FILTER(?rockyFN = "Rocky Smith")
     {
       ?personsWhoKnowRocky rdf:type ?subClass. 
       ?subClass rdfs:subClassOf ns:Person.
@@ -140,20 +122,16 @@ for r in g.query(q4):
 # **Task 7.5: List the entities who know at least two other entities in the graph**
 
 # %%
-q5= prepareQuery('''
-  SELECT DISTINCT ?entities (COUNT(?otherEntities) as ?numberOfKnownEntities) WHERE 
-  {
-    ?entities foaf:knows ?otherEntities.
-    FILTER(?entities != ?otherEntities).
-  } GROUP BY ?entities
-    HAVING (COUNT(?otherEntities) = 2 || COUNT(?otherEntities)>2)
-  ''',
-  initNs = {"foaf":FOAF}
-)
-
+entities_dictionary = {} #dictionary to store the known entities
+for s, p, o in g.triples((None, FOAF.knows, None)):
+  if s != o: #knows other individual, not itself
+    if s in entities_dictionary:
+      entities_dictionary[s] += 1 #increment the number of known entities for this entity
+    else:
+      entities_dictionary[s] = 1 #add the entity to the dictionary
 
 # Visualize the results
-for r in g.query(q5):
-  print(r.entities, r.numberOfKnownEntities)
-
-
+for key, value in entities_dictionary.items():
+  if key >= 2:
+    print('Entity:', key, 'knows', value, 'other entities')
+    

@@ -10,7 +10,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 
 # %%
 from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS, FOAF
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
@@ -72,7 +72,7 @@ for s, p, o in g:
 
 # %%
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, VCARD.Work, ns.UPM))
+g.add((ns.JohnSmith, FOAF.workplaceHomepage, ns.UPM))
 
 # Visualize the results
 for s, p, o in g:
@@ -87,5 +87,4 @@ g.add((ns.JohnSmith, FOAF.knows, ns.JaneSmith))
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
-
-
+  
