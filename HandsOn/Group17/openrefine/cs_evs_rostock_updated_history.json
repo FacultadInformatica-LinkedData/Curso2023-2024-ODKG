@@ -1176,5 +1176,55 @@
     "oldColumnName": "Municipality",
     "newColumnName": "municipality",
     "description": "Rename column Municipality to municipality"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "all_day_open",
+    "description": "Remove column all_day_open"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ChargingStation",
+    "newColumnName": "charging_station_name",
+    "description": "Rename column ChargingStation to charging_station_name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "municipality",
+    "expression": "grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "municipality_id",
+    "columnInsertIndex": 3,
+    "description": "Create column municipality_id at index 3 based on column municipality using expression grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "operator",
+    "expression": "grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "operator_id",
+    "columnInsertIndex": 10,
+    "description": "Create column operator_id at index 10 based on column operator using expression grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "charging_station_name",
+    "expression": "grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")",
+    "onError": "set-to-blank",
+    "newColumnName": "charging_station_id",
+    "columnInsertIndex": 9,
+    "description": "Create column charging_station_id at index 9 based on column charging_station_name using expression grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")"
   }
 ]
