@@ -33,20 +33,28 @@ VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 print("SPARQL VERSION:")
 
 q1 = prepareQuery('''
-  SELECT ?subClasses WHERE {
-    ?subClasses rdfs:subClassOf ns:LivingThing.
-  }
+  SELECT ?subclass
+  WHERE {
+    ?subclass rdfs:subClassOf/rdfs:subClassOf* ns:LivingThing .
+}
   ''',
   initNs = {"ns": ns, "rdfs": RDFS}
 )
 
 for r in g.query(q1):
-  print(r.subClasses)
+  print(r.subclass)
 
 print("\nRDFLib VERSION:")
 
-for t,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(t)
+subclasses = []
+def list_subclasses(target):
+    for s,p,o in g.triples((None, RDFS.subClassOf, target)):
+        subclasses.append(s)
+        list_subclasses(s)
+
+list_subclasses(ns.LivingThing)
+for s in subclasses:
+    print(s)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -83,11 +91,16 @@ for t,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
 # SPARQL VERSION
 print("SPARQL VERSION:")
 q3 = prepareQuery('''
-  SELECT ?individual ?property ?value WHERE {
-    ?individual a ?class.
-    ?individual ?property ?value.
-    FILTER (?class = ns:Person || ?class = ns:Animal)
-  }
+SELECT ?individual ?property ?value
+WHERE {
+    {
+        ?individual rdf:type ns:Person .
+        ?individual ?property ?value .
+    } UNION {
+        ?individual rdf:type ns:Animal .
+        ?individual ?property ?value .
+    }
+}
 ''',
   initNs = {"ns": ns, "rdfs": RDFS}
 )
@@ -119,13 +132,55 @@ q4 = prepareQuery('''
     ?person <http://xmlns.com/foaf/0.1/knows> <http://somewhere#RockySmith>.
     ?person <http://www.w3.org/2001/vcard-rdf/3.0/FN> ?name.
   }
-''')
+''',
+  initNs = {"ns": ns, "rdfs": RDFS}
+)
 
 print(f"Person who knows Rocky:")
 for r in g.query(q4):
     print(r.name)
 
+# RDFLib Version
+print("\nRDFLib VERSION:")
+print(f"Person who knows Rocky:")
+persons = []
+def list_persons(target):
+    for s,p,o in g.triples((None, RDF.type, target)):
+        persons.append(s)
+    for s,p,o in g.triples((None, RDFS.subClassOf, target)):
+        list_persons(s)
+list_persons(ns.Person)
+
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+knowers = []
+for count in persons:
+    for s, p, o in g.triples((count, FOAF.knows, ns.RockySmith)):
+        knowers.append(count)
+for k in knowers:
+    for s, p, o in g.triples((k, vcard.FN, None)):
+        knowers[knowers.index(k)] = o
+
+for k in knowers:
+    print(k)
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
+
+# SPARQL VERSION
+print("SPARQL VERSION:")
+q5 = prepareQuery('''
+SELECT ?entity
+WHERE {
+    ?entity foaf:knows ?known1 .
+    ?entity foaf:knows ?known2 .
+    FILTER(?known1 != ?known2)
+}
+GROUP BY ?entity
+HAVING (COUNT(?entity) >= 2)
+''')
+
+print(f"Entity who knows at least two others:")
+for r in g.query(q5):
+    print(r.entity)
 
 # RDFLib Version
 print("\nRDFLib VERSION:")
