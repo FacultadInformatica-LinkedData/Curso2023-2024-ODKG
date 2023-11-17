@@ -1,0 +1,33 @@
+# Query to retrieve all Wikidata links with their locations
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?location ?wikidata
+WHERE {
+  ?location a ns:Location .
+  ?location owl:sameAs ?wikidata .
+}
+
+# Query to retrieve all Wikidata links with their users
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?user ?wikidata
+WHERE {
+  ?user a ns:UsersInfo .
+  ?user owl:sameAs ?wikidata .
+}
+
+# Query to retrieve all Wikidata links with their TripTime
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?trip ?wikidata
+WHERE {
+  ?trip a ns:TripTime .
+  ?trip owl:sameAs ?wikidata .
+}
+
