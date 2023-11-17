@@ -34,7 +34,7 @@ VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
 q1 = prepareQuery('''
     SELECT ?SubClass WHERE { 
-        ?SubClass rdfs:subClassOf ns:LivingThing.
+        ?SubClass rdfs:subClassOf* ns:LivingThing.
     }
     ''',
     initNs = {"rdfs": RDFS, "ns": ns}
@@ -82,10 +82,11 @@ for ns in g.query(q3):
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 q4 = prepareQuery('''
-    SELECT ?individual
+    SELECT ?name
     WHERE {
         ?individual rdf:type ns:Person.
         ?individual foaf:knows ns:RockySmith.
+        ?individual foaf:name ?name.
     }  
     ''',
     initNs = { "foaf": FOAF, "ns": ns, "rdf": RDF}
