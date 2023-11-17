@@ -372,7 +372,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12110032>
   a schema:Event ;
-  schema:description "De Carla Simon. Con Jordi Pujol Dolcet, Anna Otin, Xenia Roset. Espana 2022. Duracion: 120 minutos. No recomendada para menores de 7 anos. El abuelo ha dejado de hablar, pero nadie de la extensa familia Sole sabe por que. Como cada verano, en Alcarr�s, una pequena localidad rural de Cataluna, la familia cultiva una gran extension de melocotoneros. Despues de ochenta anos cultivando la misma tierra, la familia Sole se reune para realizar juntos su ultima cosecha. "^^xsd:string ;
+  schema:description "De Carla Simon. Con Jordi Pujol Dolcet, Anna Otin, Xenia Roset. Espana 2022. Duracion: 120 minutos. No recomendada para menores de 7 anos. El abuelo ha dejado de hablar, pero nadie de la extensa familia Sole sabe por que. Como cada verano, en Alcarras, una pequena localidad rural de Cataluna, la familia cultiva una gran extension de melocotoneros. Despues de ochenta anos cultivando la misma tierra, la familia Sole se reune para realizar juntos su ultima cosecha. "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-19T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-19T23:59:00.0"^^xsd:dateTime ;
@@ -461,7 +461,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12104247>
   a schema:Event ;
-  schema:description "Banda formada por musicos muy dispares que combinan sin ningun prejuicio ni barrera los generos de la rumba, el folk, el tango, el flamenco y el country en sus canciones. Un sonido fresco, que huele a rumba del Carrer de la Cera o Pla�a Raspall, barnizada con acordes, coros y sonoridades que cruzan el gran charco; y alinado con letras impregnadas de humor, ganchos melodicos y ternura. "^^xsd:string ;
+  schema:description "Banda formada por musicos muy dispares que combinan sin ningun prejuicio ni barrera los generos de la rumba, el folk, el tango, el flamenco y el country en sus canciones. Un sonido fresco, que huele a rumba del Carrer de la Cera o Placa Raspall, barnizada con acordes, coros y sonoridades que cruzan el gran charco; y alinado con letras impregnadas de humor, ganchos melodicos y ternura. "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-20T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-20T23:59:00.0"^^xsd:dateTime ;
@@ -530,7 +530,7 @@
   ns0:price "NO GRATUITO"^^xsd:string ;
   schema:startDate "2023-09-13T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2024-01-14T23:59:00.0"^^xsd:dateTime ;
-  schema:name "Amaz�nia"^^xsd:string ;
+  schema:name "Amazonia"^^xsd:string ;
   ns0:accesibility "ACCESSIBLE,MAGNETIC LOOP"^^xsd:string ;
   schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f9bbe6b609029810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
   ns0:hasEventType "ProgramacionDestacadaAgendaCultura"^^xsd:string ;
@@ -1837,11 +1837,11 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12095588>
   a schema:Event ;
-  schema:description "MADn Circus Festival. Un circo desnudo, honesto, humilde y vulnerable; un movimiento que es toda una coreografia de gestualidades y acciones corporales; una musica en vivo que ha acompanado a todos sus espectaculos; el canto; el teatro... Con todos estos lenguajes se expresa Clara Poch Masi�, una de las creadoras de Mumusic Circus, en un montaje de la compania que tiene en los conceptos de suspension, de punto muerto y de viraje tres elementos centrales. Duracion: 50 min. Edad recomendada: todos los publicos. "^^xsd:string ;
+  schema:description "MADn Circus Festival. Un circo desnudo, honesto, humilde y vulnerable; un movimiento que es toda una coreografia de gestualidades y acciones corporales; una musica en vivo que ha acompanado a todos sus espectaculos; el canto; el teatro... Con todos estos lenguajes se expresa Clara Poch Masia, una de las creadoras de Mumusic Circus, en un montaje de la compania que tiene en los conceptos de suspension, de punto muerto y de viraje tres elementos centrales. Duracion: 50 min. Edad recomendada: todos los publicos. "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-28T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-28T23:59:00.0"^^xsd:dateTime ;
-  schema:name "Circo: 'Lady Panda'. A cargo de Clara Poch Masi� y Mumusic Circus (Cataluna)."^^xsd:string ;
+  schema:name "Circo: 'Lady Panda'. A cargo de Clara Poch Masia y Mumusic Circus (Cataluna)."^^xsd:string ;
   ns0:accesibility "ACCESSIBLE"^^xsd:string ;
   schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=e71d41199488a810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
   ns0:hasEventType "CircoMagia"^^xsd:string ;
@@ -4291,7 +4291,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12107944>
   a schema:Event ;
-  schema:description "Los cuatro musicos, afincados en Viena, comparten un profundo interes por transmitir su pasion por la musica antigua y por las interpretaciones historicamente fundamentadas. Con intuicion y precision, se esfuerzan por transmitir la emocion mas genuina, el sentimiento y la naturaleza interior de las obras maestras de los siglos XVII y XVIII. Tras 'A Week of Telemann' y 'Velvet', el tercer CD del conjunto, 'Glaze', vuelve a estar marcado por su filosofia de encantar al oyente con una musica profundamente intensa, la pureza de unas cuerdas de tripa ricas en armonicos y diversos paisajes sonoros de los organos barrocos historicos mejor conservados. Han actuado extensamente por toda Austria, asi como en Alemania, Belgica, Italia y la Republica Checa.     David Drabek, violin barroco, Suiza, es desde hace tiempo concertino de la Orchester Wiener Akademie y Concerto Stella Matutina, miembro del Concentus Musicus Wien y ha trabajado como concertino invitado de la Kammerorchester Basel. Pablo de Pedro, viola barroco, Espana, es profesor de viola barroca en el Royal College of music de Londres. Es miembro del Cuarteto Edding y violista solista de Concentus Musicus Wien, Europa Galante, Orchester Wiener Akademie y Balthasar-Neumann Ensemble.   Philipp Comploi, violonchelo barroco, Austria / Italia, es violonchelista solista de la Orchester Wiener Akademie, La Folia Barockorchester y Balthasar Neumann Ensemble. Tambien actua con el Conentus Musicus Wien, el Trio Alba y el Quadriga Consort.                                                                                                                                                           Jeremy Joseph, clavecin, Sudafrica es profesor de organo e improvisacion en la Universidad de Musica y Artes Escenicas de Viena y organista de la Capilla de la Corte de Viena. Ganador del Concurso de organo Gottfried Silbermann, Joseph actua internacionalmente como solista y como continuista con conjuntos como la Wiener Akademie, la Freiburg Barockorchester y la Kammerorchester Basel.                           Programa:          Johann Sebastian Bach (1685-1750)  Sonate in G Dur BWV 1027 (arranged for Violin, Viola and B.c.)   Adagio   Allegro ma non tanto   Andante   Allegro moderato      Georg Philipp Telemann (1681-1767)  5. Sonata Venerd� ? Freitag  TWV 42: A4 aus Scherzi Melodchi   Introduzzione quinta: Allegro - Allegro - Vivace - Spirituoso - Largo - Presto - Acc�.  All�.     Johann Sebastian Bach  Sonate in D Dur BWV 1028 (arranged for Violin, Viola and B.c.)    Adagio   Allegro   Andante   Allegro      Georg Philipp Telemann  Sonata ?Mercord� ?? Mittwoch TWV 42: G5 aus Scherzi Melodchi   Introduzzione terza: Vivace - Vivace - Presto - Moderato - Presto - Vivace - Allegro   Johann Sebastian Bach  Sonate in g Moll BWV 1029 (arranged for Violin, Viola and B.c.)    Vivace   Adagio   Allegro "^^xsd:string ;
+  schema:description "Los cuatro musicos, afincados en Viena, comparten un profundo interes por transmitir su pasion por la musica antigua y por las interpretaciones historicamente fundamentadas. Con intuicion y precision, se esfuerzan por transmitir la emocion mas genuina, el sentimiento y la naturaleza interior de las obras maestras de los siglos XVII y XVIII. Tras 'A Week of Telemann' y 'Velvet', el tercer CD del conjunto, 'Glaze', vuelve a estar marcado por su filosofia de encantar al oyente con una musica profundamente intensa, la pureza de unas cuerdas de tripa ricas en armonicos y diversos paisajes sonoros de los organos barrocos historicos mejor conservados. Han actuado extensamente por toda Austria, asi como en Alemania, Belgica, Italia y la Republica Checa.     David Drabek, violin barroco, Suiza, es desde hace tiempo concertino de la Orchester Wiener Akademie y Concerto Stella Matutina, miembro del Concentus Musicus Wien y ha trabajado como concertino invitado de la Kammerorchester Basel. Pablo de Pedro, viola barroco, Espana, es profesor de viola barroca en el Royal College of music de Londres. Es miembro del Cuarteto Edding y violista solista de Concentus Musicus Wien, Europa Galante, Orchester Wiener Akademie y Balthasar-Neumann Ensemble.   Philipp Comploi, violonchelo barroco, Austria / Italia, es violonchelista solista de la Orchester Wiener Akademie, La Folia Barockorchester y Balthasar Neumann Ensemble. Tambien actua con el Conentus Musicus Wien, el Trio Alba y el Quadriga Consort.                                                                                                                                                           Jeremy Joseph, clavecin, Sudafrica es profesor de organo e improvisacion en la Universidad de Musica y Artes Escenicas de Viena y organista de la Capilla de la Corte de Viena. Ganador del Concurso de organo Gottfried Silbermann, Joseph actua internacionalmente como solista y como continuista con conjuntos como la Wiener Akademie, la Freiburg Barockorchester y la Kammerorchester Basel.                           Programa:          Johann Sebastian Bach (1685-1750)  Sonate in G Dur BWV 1027 (arranged for Violin, Viola and B.c.)   Adagio   Allegro ma non tanto   Andante   Allegro moderato      Georg Philipp Telemann (1681-1767)  5. Sonata Venerdi ? Freitag  TWV 42: A4 aus Scherzi Melodchi   Introduzzione quinta: Allegro - Allegro - Vivace - Spirituoso - Largo - Presto - Acc�.  All�.     Johann Sebastian Bach  Sonate in D Dur BWV 1028 (arranged for Violin, Viola and B.c.)    Adagio   Allegro   Andante   Allegro      Georg Philipp Telemann  Sonata ?Mercordi ?? Mittwoch TWV 42: G5 aus Scherzi Melodchi   Introduzzione terza: Vivace - Vivace - Presto - Moderato - Presto - Vivace - Allegro   Johann Sebastian Bach  Sonate in g Moll BWV 1029 (arranged for Violin, Viola and B.c.)    Vivace   Adagio   Allegro "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-21T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-21T23:59:00.0"^^xsd:dateTime ;
@@ -4580,7 +4580,7 @@
   ns0:price "NO GRATUITO"^^xsd:string ;
   schema:startDate "2023-11-24T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-11-24T23:59:00.0"^^xsd:dateTime ;
-  schema:name "Eva Catal� Group"^^xsd:string ;
+  schema:name "Eva Catala Group"^^xsd:string ;
   ns0:accesibility "ACCESSIBLE"^^xsd:string ;
   schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=04aebd7cb647a810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
   ns0:hasEventType "ProgramacionDestacadaAgendaCultura"^^xsd:string ;
@@ -4593,7 +4593,7 @@
   ns0:price "NO GRATUITO"^^xsd:string ;
   schema:startDate "2023-11-24T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-11-24T23:59:00.0"^^xsd:dateTime ;
-  schema:name "EVA CATAL� GROUP"^^xsd:string ;
+  schema:name "EVA CATALA GROUP"^^xsd:string ;
   ns0:accesibility "ACCESSIBLE"^^xsd:string ;
   schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=681b554f7567a810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
   ns0:hasEventType "ProgramacionDestacadaAgendaCultura"^^xsd:string ;
@@ -5242,7 +5242,7 @@
   ns0:price "NO GRATUITO"^^xsd:string ;
   schema:startDate "2024-01-11T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2024-01-12T23:59:00.0"^^xsd:dateTime ;
-  schema:name "Gis�le Vienne 'Extra Life'"^^xsd:string ;
+  schema:name "Gisele Vienne 'Extra Life'"^^xsd:string ;
   ns0:accesibility "ACCESSIBLE"^^xsd:string ;
   schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3f71f84fe188a810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
   ns0:hasEventType "ProgramacionDestacadaAgendaCultura"^^xsd:string ;
@@ -5454,7 +5454,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12106834>
   a schema:Event ;
-  schema:description "El reciente fallecimiento de Jose Antonio Sistiaga (1932-2023) nos deja huerfanos de uno de los cineastas mas insolitos de nuestro pais. Pionero del cine sin camara y referente indiscutible del cine de vanguardia, esta doble sesion incluye sus peliculas mas importantes: Ere Erera Baleibu Icik Subua Aruaren 2 (version en negativo de la restauracion en 4K de la original) e Impressions en haute atmosph�re (version en doble pantalla positiva/negativa). "^^xsd:string ;
+  schema:description "El reciente fallecimiento de Jose Antonio Sistiaga (1932-2023) nos deja huerfanos de uno de los cineastas mas insolitos de nuestro pais. Pionero del cine sin camara y referente indiscutible del cine de vanguardia, esta doble sesion incluye sus peliculas mas importantes: Ere Erera Baleibu Icik Subua Aruaren 2 (version en negativo de la restauracion en 4K de la original) e Impressions en haute atmosphere (version en doble pantalla positiva/negativa). "^^xsd:string ;
   ns0:price "NO GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-08T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-08T23:59:00.0"^^xsd:dateTime ;
@@ -6187,7 +6187,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12103049>
   a schema:Event ;
-  schema:description "Directora: Valeria Bruni-Tedeschi  No recomendada para menores de 16 anos.  A finales de la decada de 1980, Stella, Victor, Ad�le y Etienne tienen 20 anos. Realizan el examen de ingreso a la famosa escuela de interpretacion creada por Patrice Chereau y Pierre Romans en el The�tre des Amandiers de Nanterre. Lanzados a toda velocidad a la vida, la pasion y el amor. Juntos viviran un momento crucial en sus vidas, pero tambien sus primeras grandes tragedias. "^^xsd:string ;
+  schema:description "Directora: Valeria Bruni-Tedeschi  No recomendada para menores de 16 anos.  A finales de la decada de 1980, Stella, Victor, Adele y Etienne tienen 20 anos. Realizan el examen de ingreso a la famosa escuela de interpretacion creada por Patrice Chereau y Pierre Romans en el Theatre des Amandiers de Nanterre. Lanzados a toda velocidad a la vida, la pasion y el amor. Juntos viviran un momento crucial en sus vidas, pero tambien sus primeras grandes tragedias. "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-28T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-28T23:59:00.0"^^xsd:dateTime ;
@@ -7595,7 +7595,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12103065>
   a schema:Event ;
-  schema:description "Director: Fran�ois Ozon No recomendada para menores de 12 anos. Francia, 1935. Un investigador debera resolver el asesinato de un banquero. De entre los sospechosos destaca Madeleine, cuyos deseos de fama y fortuna se pondran en el camino de la investigacion "^^xsd:string ;
+  schema:description "Director: Francois Ozon No recomendada para menores de 12 anos. Francia, 1935. Un investigador debera resolver el asesinato de un banquero. De entre los sospechosos destaca Madeleine, cuyos deseos de fama y fortuna se pondran en el camino de la investigacion "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-11-25T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-11-25T23:59:00.0"^^xsd:dateTime ;
@@ -7633,7 +7633,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12095586>
   a schema:Event ;
-  schema:description "Sesion de cortometrajes nacionales e internacionales (60 minutos): trabajos realizados por alumnado de Educacion Infantil y Primaria (&amp;lt; 12 anos). Taller de trucaje cinematografico (30 minutos): realizacion de un cortometraje utilizando tecnicas de trucaje cinematografico, rindiendo homenaje a Georges M�lies y Alice Guy. Duracion: 120 min. Edad recomendada: juvenil. "^^xsd:string ;
+  schema:description "Sesion de cortometrajes nacionales e internacionales (60 minutos): trabajos realizados por alumnado de Educacion Infantil y Primaria (&amp;lt; 12 anos). Taller de trucaje cinematografico (30 minutos): realizacion de un cortometraje utilizando tecnicas de trucaje cinematografico, rindiendo homenaje a Georges Melies y Alice Guy. Duracion: 120 min. Edad recomendada: juvenil. "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-26T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-26T23:59:00.0"^^xsd:dateTime ;
@@ -8383,7 +8383,7 @@
 
 <http://www.madculturalevents.es/group04/resources/event/12107936>
   a schema:Event ;
-  schema:description "La Orquesta Clasica Santa Cecilia, esta integrada por profesores de dilatada experiencia que han tocado en los atriles de las mas prestigiosas orquestas de Espana y de Europa, y que permite cultivar con la maxima calidad los repertorios clasicos. Ha sido dirigida por importantes maestros como Roberto Abbado,  Julian Rachlin, Grzegorz Nowak, Michail Jurowski, Jean- Jacques Kantorow, Thomas Sanderling, Kynan Johns, Janos Kovacs, Alexander Polyanichko, Henrik Schaefer, entre otros. Asimismo han actuado junto con la Orquesta Clasica Santa Cecilia, solistas instrumentales de la talla de Krystian Zimerman, Nicola Benedetti, Vadim Gluzman, Vadim Repin, Julian Rachlin, Alexei Volodin, Gabriela Montero, Boris Andrianov, Vesko Eschkenazy, Renaud Capu�on, Maxim Rysanov, Radovan Vlatkovic, Leticia Moreno, Eric Le Sage, Clara Jumi Kang,  entre otros grandes solistas del panorama internacional. La Orquesta invita regularmente a concertinos de las mejores orquestas del mundo, como la Royal Contergebouw Orchestra de Amsterdam, la Israel Philharmonic Orchestra, por citar algunas. La Orquesta Clasica Santa Cecilia ha actuado en escenarios como el Auditorio Nacional de Madrid,  Teatro Real de Madrid, Palau de la Musica Catalana,  Palacio de Euskalduna de Bilbao y en el Palau de la Musica  de Valencia, Kursaal de San Sebastian,  Auditorio Miguel Delibes de Valladolid, Auditorio de Zaragoza, Auditori de Barcelona, entre otros tantos selectos emplazamientos. Recientemente ha participado en el prestigioso Festival Zurich International Orchestra Series en el Cadogan Hall de Londres.  Por ultimo, cabe destacar tambien su participacion en importantes festivales, como el Festival de Santander, de Galicia y el Festival de Pedraza.     Programa:          BACH &amp;amp; H�NDEL   J.S.Bach  Concierto de Brandeburgo num 3  H�ndel  Concerto Grosso en La Mayor Op.6 num 1 HWV 319  Bach  Concierto para oboe y orquesta en sol menor BWV 1056R  H�ndel  Concerto Grosso en La Mayor Op.6 num 11 HWV 329 "^^xsd:string ;
+  schema:description "La Orquesta Clasica Santa Cecilia, esta integrada por profesores de dilatada experiencia que han tocado en los atriles de las mas prestigiosas orquestas de Espana y de Europa, y que permite cultivar con la maxima calidad los repertorios clasicos. Ha sido dirigida por importantes maestros como Roberto Abbado,  Julian Rachlin, Grzegorz Nowak, Michail Jurowski, Jean- Jacques Kantorow, Thomas Sanderling, Kynan Johns, Janos Kovacs, Alexander Polyanichko, Henrik Schaefer, entre otros. Asimismo han actuado junto con la Orquesta Clasica Santa Cecilia, solistas instrumentales de la talla de Krystian Zimerman, Nicola Benedetti, Vadim Gluzman, Vadim Repin, Julian Rachlin, Alexei Volodin, Gabriela Montero, Boris Andrianov, Vesko Eschkenazy, Renaud Capucon, Maxim Rysanov, Radovan Vlatkovic, Leticia Moreno, Eric Le Sage, Clara Jumi Kang,  entre otros grandes solistas del panorama internacional. La Orquesta invita regularmente a concertinos de las mejores orquestas del mundo, como la Royal Contergebouw Orchestra de Amsterdam, la Israel Philharmonic Orchestra, por citar algunas. La Orquesta Clasica Santa Cecilia ha actuado en escenarios como el Auditorio Nacional de Madrid,  Teatro Real de Madrid, Palau de la Musica Catalana,  Palacio de Euskalduna de Bilbao y en el Palau de la Musica  de Valencia, Kursaal de San Sebastian,  Auditorio Miguel Delibes de Valladolid, Auditorio de Zaragoza, Auditori de Barcelona, entre otros tantos selectos emplazamientos. Recientemente ha participado en el prestigioso Festival Zurich International Orchestra Series en el Cadogan Hall de Londres.  Por ultimo, cabe destacar tambien su participacion en importantes festivales, como el Festival de Santander, de Galicia y el Festival de Pedraza.     Programa:          BACH &amp;amp; HANDEL   J.S.Bach  Concierto de Brandeburgo num 3  Handel  Concerto Grosso en La Mayor Op.6 num 1 HWV 319  Bach  Concierto para oboe y orquesta en sol menor BWV 1056R  Handel  Concerto Grosso en La Mayor Op.6 num 11 HWV 329 "^^xsd:string ;
   ns0:price "GRATUITO"^^xsd:string ;
   schema:startDate "2023-10-07T00:00:00.0"^^xsd:dateTime ;
   schema:endDate "2023-10-07T23:59:00.0"^^xsd:dateTime ;
@@ -13244,7 +13244,7 @@
   a ns0:Facility ;
   ns0:facilityName "House-Museum of Lope de Vega"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4eff8c46145e8110VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Ant�n Mart�n"^^xsd:string ;
+  ns0:metro "Anton Martin"^^xsd:string ;
   ns0:bus "002, M1, 001, 10, 14, 27, 34, 37, 45, C03, 26, 32, 6, 51,   "^^xsd:string ;
   ns0:train " Sol (lineas C3 y C4).    "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q948580" ;
@@ -13253,7 +13253,7 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/4949641>
   a ns0:Facility ;
-  ns0:facilityName "Category:Casita-Museo del Rat�n P�rez"^^xsd:string ;
+  ns0:facilityName "Category:Casita-Museo del Raton Perez"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=990950e86d4ca110VgnVCM2000000c205a0aRCRD"^^xsd:string ;
   ns0:metro "Sol"^^xsd:string ;
   ns0:bus "50.  "^^xsd:string ;
@@ -13275,9 +13275,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/2064>
   a ns0:Facility ;
-  ns0:facilityName "Cas�n del Buen Retiro"^^xsd:string ;
+  ns0:facilityName "Cason del Buen Retiro"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=f0443d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "19.  "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C4a, C4b, C5, C7 y C10).   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q3321174" ;
@@ -13299,7 +13299,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Chapel of St. Anthony of La Florida"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=75950204770e7310VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Pr�ncipe P�o"^^xsd:string ;
+  ns0:metro "Principe Pio"^^xsd:string ;
   ns0:bus "41, 46 y 75 (Intercambiador Principe Pio)  "^^xsd:string ;
   ns0:train "Principe Pio  BICIMAD: Estacion 161 (Paseo de la Florida 8)"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q3109752" ;
@@ -13310,7 +13310,7 @@
   a ns0:Facility ;
   ns0:facilityName "Espacio Fundacion Telefonica"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=87748ed67151c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Gran V�a"^^xsd:string ;
+  ns0:metro "Gran Via"^^xsd:string ;
   ns0:bus "001, 002, 1, 146, 2, 46, 74, 3.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13321,7 +13321,7 @@
   a ns0:Facility ;
   ns0:facilityName "Fuente del Rey House-Museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "161."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q28808141" ;
@@ -13354,7 +13354,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Africano Misioneros Combonianos"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "11, 70, 114, 122, 115, 200."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13387,7 +13387,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museum Cerralbo"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4efb0c40971c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n de Plaza de Espa�a (Metro de Madrid)"^^xsd:string ;
+  ns0:metro "Estacion de Plaza de Espana (Metro de Madrid)"^^xsd:string ;
   ns0:bus "62, 74  "^^xsd:string ;
   ns0:train "Principe Pio (lineas C1, C7 y C10)   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q976019" ;
@@ -13398,7 +13398,7 @@
   a ns0:Facility ;
   ns0:facilityName "Empresa Municipal de Transportes de Madrid Museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d56ad05b2a255510VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "Bego�a"^^xsd:string ;
+  ns0:metro "Begona"^^xsd:string ;
   ns0:bus "66, 173, 174, 176, 191, 193, 194, 195, 196, 197, 712, 713, 714, 716, L171."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q117459440" ;
@@ -13409,7 +13409,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Felix Canada"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb22820a52799510VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "R�os Rosas"^^xsd:string ;
+  ns0:metro "Rios Rosas"^^xsd:string ;
   ns0:bus "45, 12, 149, 3, 37.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13420,7 +13420,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Geominero"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ff0bef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "R�os Rosas"^^xsd:string ;
+  ns0:metro "Rios Rosas"^^xsd:string ;
   ns0:bus "45, 12, 149, 3, 37, 5.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q13532751" ;
@@ -13429,9 +13429,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/2075>
   a ns0:Facility ;
-  ns0:facilityName "Museo Hist�rico Minero Don Felipe de Borb�n y Grecia"^^xsd:string ;
+  ns0:facilityName "Museo Historico Minero Don Felipe de Borbon y Grecia"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=822bef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "R�os Rosas"^^xsd:string ;
+  ns0:metro "Rios Rosas"^^xsd:string ;
   ns0:bus "3, 12, 37, 45, 149   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q53997723" ;
@@ -13453,7 +13453,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Los Canos del Peral. Estacion de Metro opera"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=435950262d50f210VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "�pera"^^xsd:string ;
+  ns0:metro "Opera"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13462,9 +13462,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/2053>
   a ns0:Facility ;
-  ns0:facilityName "L�zaro Galdiano Museum"^^xsd:string ;
+  ns0:facilityName "Lazaro Galdiano Museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7d1aef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Gregorio Mara��n"^^xsd:string ;
+  ns0:metro "Gregorio Maranon"^^xsd:string ;
   ns0:bus "16, 19, 51, 9, 12, 61   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q386570" ;
@@ -13473,9 +13473,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/5349304>
   a ns0:Facility ;
-  ns0:facilityName "Museo Nacional Centro de Arte Reina Sof�a"^^xsd:string ;
+  ns0:facilityName "Museo Nacional Centro de Arte Reina Sofia"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=69d8275bad5a1210VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "27, 34, C03, C1, 26, 32, 6, 59, 85, E1, C2, 119, 36, 41, 001, 10, 14, 37, 45.  "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C4a, C4b, C5, C7, C8, C10).   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q460889" ;
@@ -13486,7 +13486,7 @@
   a ns0:Facility ;
   ns0:facilityName "Thyssen-Bornemisza Museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0b8079262ef5d010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Banco de Espa�a"^^xsd:string ;
+  ns0:metro "Banco de Espana"^^xsd:string ;
   ns0:bus "001, 10, 14, 27, 34, 37, 45, C03.    "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q176251" ;
@@ -13495,9 +13495,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/2057>
   a ns0:Facility ;
-  ns0:facilityName "Museo Nacional de Antropolog�a"^^xsd:string ;
+  ns0:facilityName "Museo Nacional de Antropologia"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=456079262ef5d010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "19, C1, 10, 14, 26, 32, 102, 37, 001, C2, 59, SE760, 203, 85, 141, 54, 57.  "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C4a, C4b, C5, C7, C8, C10 y Regional)   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2917041" ;
@@ -13508,7 +13508,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo Nacional de Artes Decorativas"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=287079262ef5d010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Banco de Espa�a"^^xsd:string ;
+  ns0:metro "Banco de Espana"^^xsd:string ;
   ns0:bus "19, E1, 203, 14, 27, 37, 45, C03, 1, 146, 15, 2, 20, 51, 52, 74, 9, 10, 34, 001   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q5361303" ;
@@ -13519,7 +13519,7 @@
   a ns0:Facility ;
   ns0:facilityName "National Museum of Natural History"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8edbef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Gregorio Mara��n"^^xsd:string ;
+  ns0:metro "Gregorio Maranon"^^xsd:string ;
   ns0:bus "12, 45, 14, 147, 150, 27, 40, 7   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q1966699" ;
@@ -13530,7 +13530,7 @@
   a ns0:Facility ;
   ns0:facilityName "Naval Museum of Madrid"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a30cef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Banco de Espa�a"^^xsd:string ;
+  ns0:metro "Banco de Espana"^^xsd:string ;
   ns0:bus "002, M1, SE712, 26, 32, 6   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q1815235" ;
@@ -13541,7 +13541,7 @@
   a ns0:Facility ;
   ns0:facilityName "Postal and Telegraph museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c82cef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q64071045" ;
@@ -13552,7 +13552,7 @@
   a ns0:Facility ;
   ns0:facilityName "Sorolla Museum"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6dd05e93aad9c110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Rub�n Dar�o"^^xsd:string ;
+  ns0:metro "Ruben Dario"^^xsd:string ;
   ns0:bus "16, 5, 61, 147, 40, 7.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q1592523" ;
@@ -13583,9 +13583,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/2068>
   a ns0:Facility ;
-  ns0:facilityName "Museo de Aeron�utica y Astron�utica"^^xsd:string ;
+  ns0:facilityName "Museo de Aeronautica y Astronautica"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90aaef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q11057120" ;
@@ -13605,9 +13605,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/83922>
   a ns0:Facility ;
-  ns0:facilityName "Museo de Arte Contempor�neo"^^xsd:string ;
+  ns0:facilityName "Museo de Arte Contemporaneo"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=84a55c2cdc41c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Ventura Rodr�guez"^^xsd:string ;
+  ns0:metro "Ventura Rodriguez"^^xsd:string ;
   ns0:bus "1, 2, 21, 44, 74, 133, C, M2   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q6940528" ;
@@ -13651,7 +13651,7 @@
   a ns0:Facility ;
   ns0:facilityName "Wax Museum of Madrid"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9689ef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Col�n"^^xsd:string ;
+  ns0:metro "Colon"^^xsd:string ;
   ns0:bus "14, 150, 27, 45, 5, 53, 21, 37, C03  "^^xsd:string ;
   ns0:train "Recoletos (lineas C1, C2, C7, C10)   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q15121263" ;
@@ -13662,7 +13662,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de Escultura al Aire Libre de La Castellana"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eca9ef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Rub�n Dar�o"^^xsd:string ;
+  ns0:metro "Ruben Dario"^^xsd:string ;
   ns0:bus "5, 14, 27, 45, 150  BICIMAD: Estacion 142 (Paseo de la Castellana n&amp;ordm;42)"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2283575" ;
@@ -13695,7 +13695,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de Mineralogia"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=255aef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Cantoblanco (lineas C4, C4a y Cb)."^^xsd:string ;
   owl:sameAs "" ;
@@ -13717,7 +13717,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de Sanidad e Higiene Publica"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3e755c2cdc41c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n de Chamart�n"^^xsd:string ;
+  ns0:metro "Estacion de Chamartin"^^xsd:string ;
   ns0:bus "124, 134, 135, 67, 147.  "^^xsd:string ;
   ns0:train "Chamartin (lineas C1, C2, C3, C3a, C4, C4a, C4b, C7, C8 y C10)."^^xsd:string ;
   owl:sameAs "" ;
@@ -13728,7 +13728,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de la Catedral de la Almudena"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=82cb8d0e78d22110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "�pera"^^xsd:string ;
+  ns0:metro "Opera"^^xsd:string ;
   ns0:bus "148, 3.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q107611898" ;
@@ -13750,7 +13750,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo de la Guardia Civil"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=003aef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Guzm�n el Bueno"^^xsd:string ;
+  ns0:metro "Guzman el Bueno"^^xsd:string ;
   ns0:bus "2, 45, 44.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q110560070" ;
@@ -13783,7 +13783,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo del Prado"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=060079262ef5d010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "001, 10, 14, 27, 34, 37, 45, C03.  "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C5, C7 y C10).   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q160112" ;
@@ -13794,7 +13794,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo del Reloj Grassy"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=daeaef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Banco de Espa�a"^^xsd:string ;
+  ns0:metro "Banco de Espana"^^xsd:string ;
   ns0:bus "002, 15, 150, 20, 5, 53, 9, 51, 001, 1, 146, 2, 3, 46, 74, 52.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13816,7 +13816,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museo del Seguro. Fundacion Mapfre"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=479b95f8c72d5310VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Col�n"^^xsd:string ;
+  ns0:metro "Colon"^^xsd:string ;
   ns0:bus "37, 14, 150, 27, 45, 5, 53, C03.  "^^xsd:string ;
   ns0:train "Recoletos (Lineas C1, C2, C7, C10 y Regional).   "^^xsd:string ;
   owl:sameAs "" ;
@@ -13838,7 +13838,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Palace of El Pardo"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9f9def4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "601 (Madrid - Colonia Mingorrubio)"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q1368571" ;
@@ -13849,7 +13849,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Palace of Madrid"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=47ddef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "�pera"^^xsd:string ;
+  ns0:metro "Opera"^^xsd:string ;
   ns0:bus "3, 25, 39, 148, 46, 62, 75, 138  "^^xsd:string ;
   ns0:train "Principe Pio   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q171517" ;
@@ -13860,7 +13860,7 @@
   a ns0:Facility ;
   ns0:facilityName "Pantheon of Illustrious Men"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=361cef4d7f71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "10, 14, 24, 32, 37, 54, 57, 141, 26, C1, C2, 102  "^^xsd:string ;
   ns0:train "Atocha"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q7131757" ;
@@ -13882,7 +13882,7 @@
   a ns0:Facility ;
   ns0:facilityName "Madrid Planetarium"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c9c5b069a541f010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "M�ndez �lvaro"^^xsd:string ;
+  ns0:metro "Mendez Alvaro"^^xsd:string ;
   ns0:bus "148, 156. BICIMAD: Estacion 177 (Calle Bolivar 3).  Planetario en  Google Maps"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q9060456" ;
@@ -13904,7 +13904,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Tapestry Factory"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=53cbff632081c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Men�ndez Pelayo"^^xsd:string ;
+  ns0:metro "Menendez Pelayo"^^xsd:string ;
   ns0:bus "10, 14, 26, 32, C1, C2, 141, 24, 37, 54, 57, 152.   "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C4a, C4b, C5, C7, C10 y Regional)."^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q570665" ;
@@ -13915,7 +13915,7 @@
   a ns0:Facility ;
   ns0:facilityName "Royal Monastery of Santa Isabel"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=545b544a249c6110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "26, 32, 6, 27, 34, C1  "^^xsd:string ;
   ns0:train "Atocha"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q9067089" ;
@@ -13924,9 +13924,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/3349>
   a ns0:Facility ;
-  ns0:facilityName "Real Monasterio de la Encarnaci�n"^^xsd:string ;
+  ns0:facilityName "Real Monasterio de la Encarnacion"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=72ad0713fb71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "�pera"^^xsd:string ;
+  ns0:metro "Opera"^^xsd:string ;
   ns0:bus "3, 25, 39, 148, 46, 62, 75   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q110747997" ;
@@ -13937,7 +13937,7 @@
   a ns0:Facility ;
   ns0:facilityName "Convent of Las Descalzas Reales"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=12e113db5b71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "�pera"^^xsd:string ;
+  ns0:metro "Opera"^^xsd:string ;
   ns0:bus "SE712   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2268271" ;
@@ -13948,7 +13948,7 @@
   a ns0:Facility ;
   ns0:facilityName "Templo de Debod, estanque con Surtidor"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13b432df1d51c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n de Plaza de Espa�a (Metro de Madrid)"^^xsd:string ;
+  ns0:metro "Estacion de Plaza de Espana (Metro de Madrid)"^^xsd:string ;
   ns0:bus "1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, C1 y C2 "^^xsd:string ;
   ns0:train "Principe Pio   "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q110748094" ;
@@ -13959,7 +13959,7 @@
   a ns0:Facility ;
   ns0:facilityName "The Robot Museum (Museo del Robot)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e0b7b8dc8f719410VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Rub�n Dar�o"^^xsd:string ;
+  ns0:metro "Ruben Dario"^^xsd:string ;
   ns0:bus "19, 51, 9, 14, 150, 27, 45, 5, 1, 74.   "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -13981,7 +13981,7 @@
   a ns0:Facility ;
   ns0:facilityName "Museum Zapadores, Ciudad del Arte"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c30ab3683ea58610VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q121596856" ;
@@ -13992,7 +13992,7 @@
   a ns0:Facility ;
   ns0:facilityName "Auditorio Carmen Laforet (Ciudad Lineal)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fca22248514ae210VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Pinar de Chamart�n"^^xsd:string ;
+  ns0:metro "Pinar de Chamartin"^^xsd:string ;
   ns0:bus "29, 125, 129, 150"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14047,7 +14047,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Agustin Diaz (Moncloa - Aravaca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "41, 75."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14058,7 +14058,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Alfredo Kraus (Fuencarral - El Pardo)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "49 , 64"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14091,7 +14091,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Buenavista, Madrid"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=068e598d1351c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Diego de Le�n"^^xsd:string ;
+  ns0:metro "Diego de Leon"^^xsd:string ;
   ns0:bus "48, 12, 210, 56, C2, 74  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q47012449" ;
@@ -14146,7 +14146,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "77"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14157,7 +14157,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Clara del Rey - Museo ABC (Centro)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b8afb908d1825810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "Ventura Rodr�guez"^^xsd:string ;
+  ns0:metro "Ventura Rodriguez"^^xsd:string ;
   ns0:bus "002, 3, 147, 001, 1, 2, 44, 133, 138, C1, 21, C03  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14190,7 +14190,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural El Plantio (Moncloa - Aravaca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=45ef9eebdd647810VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "163"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14201,7 +14201,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural El Pozo del tio Raimundo (Puente de Vallecas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "102, 24    "^^xsd:string ;
   ns0:train "El Pozo (linea C2)."^^xsd:string ;
   owl:sameAs "" ;
@@ -14212,7 +14212,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Emilia Pardo Bazan (Salamanca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dc8d531521b74810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "Col�n"^^xsd:string ;
+  ns0:metro "Colon"^^xsd:string ;
   ns0:bus " 21, 53, 14, 150, 27, 45, 5, 37, C03, 119, 51, 74, 9  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14223,7 +14223,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Federico Chueca (Hortaleza)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=90573d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "72, 73, 9"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14234,7 +14234,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Fernando Lazaro Carreter (Carabanchel)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=340ed2d6fe9a6110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Marqu�s de Vadillo"^^xsd:string ;
+  ns0:metro "Marques de Vadillo"^^xsd:string ;
   ns0:bus "116"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14245,7 +14245,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Fernando de los Rios (Latina)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Lineas: 25, 31 y 138."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14278,7 +14278,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Gloria Fuertes (Barajas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "105, 112, 115, 151, 166"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14289,7 +14289,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Hortaleza"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=86381e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Parque de Santa Mar�a"^^xsd:string ;
+  ns0:metro "Parque de Santa Maria"^^xsd:string ;
   ns0:bus "107, 9"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14311,7 +14311,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Jose Luis Lopez Vazquez (San Blas - Canillejas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "167, 77"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14333,7 +14333,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Juan Genoves (Moncloa - Aravaca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "160, 163, 161."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14344,7 +14344,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Juan Gris (Moncloa - Aravaca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=79a81e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Francos Rodr�guez"^^xsd:string ;
+  ns0:metro "Francos Rodriguez"^^xsd:string ;
   ns0:bus "126, 127, 132, 64, 128, 44."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14386,9 +14386,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/1918>
   a ns0:Facility ;
-  ns0:facilityName "La Tabacalera de Lavapi�s"^^xsd:string ;
+  ns0:facilityName "La Tabacalera de Lavapies"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5f891e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Lavapi�s"^^xsd:string ;
+  ns0:metro "Lavapies"^^xsd:string ;
   ns0:bus "M1  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q56427704" ;
@@ -14399,7 +14399,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Lope de Vega (Puente de Vallecas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "102, 24.  "^^xsd:string ;
   ns0:train "Asamblea de Madrid-Entrevias (linea C2)."^^xsd:string ;
   owl:sameAs "" ;
@@ -14410,7 +14410,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Los Rosales (Villaverde)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "85"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14432,7 +14432,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Meseta de Orcasitas (Usera)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "78, 81, 116  "^^xsd:string ;
   ns0:train "Orcasitas (C5)"^^xsd:string ;
   owl:sameAs "" ;
@@ -14443,7 +14443,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Miguel Hernandez (Latina)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Lineas: 34, 39, 117 y 139. "^^xsd:string ;
   ns0:train "Linea C 5. Estacion: Las aguilas."^^xsd:string ;
   owl:sameAs "" ;
@@ -14476,7 +14476,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Orcasur (Usera)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "78, 116  "^^xsd:string ;
   ns0:train "Orcasitas (C5)"^^xsd:string ;
   owl:sameAs "" ;
@@ -14509,7 +14509,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Quinta del Berro - Rafael Altamira (Salamanca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "15 , 28 , 71"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14542,7 +14542,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Sanchinarro (Hortaleza)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=12eb70618510f210VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "172, 172SF"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14553,7 +14553,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Sara Montiel (Latina)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c957cbf06c81c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Colonia Jard�n"^^xsd:string ;
+  ns0:metro "Colonia Jardin"^^xsd:string ;
   ns0:bus "Linea 65 y linea H."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14564,7 +14564,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Usera 1"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=54fb1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Plaza El�ptica"^^xsd:string ;
+  ns0:metro "Plaza Eliptica"^^xsd:string ;
   ns0:bus "6, 60, 81"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14597,7 +14597,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural Zazuar (Villa de Vallecas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "58, 63, 145"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14608,7 +14608,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Cultural el Madrono (Vicalvaro)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=57b63d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Vic�lvaro Station - Rey Juan Carlos University"^^xsd:string ;
+  ns0:metro "Vicalvaro Station - Rey Juan Carlos University"^^xsd:string ;
   ns0:bus "130, 100"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14663,7 +14663,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Juvenil El Aleph (Villa de Vallecas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=84869475d381c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "58 , 63 , 145 "^^xsd:string ;
   ns0:train "Santa Eugenia"^^xsd:string ;
   owl:sameAs "" ;
@@ -14674,7 +14674,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Juvenil El Pardo"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=617ef50ad2a30110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "desde el intercambiador de Moncloa el 601 (isla 3-darsena 30) y el 602 que sale del hospital Universitario la Paz."^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14707,7 +14707,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Juvenil Pipo Velasco (Usera)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0d2795e39a36810VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "Plaza El�ptica"^^xsd:string ;
+  ns0:metro "Plaza Eliptica"^^xsd:string ;
   ns0:bus " 6, 60, 78, 81"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14751,7 +14751,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Social Polivalente de Vicalvaro"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=59c6ca957d152110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "100, 130"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14784,7 +14784,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Alfonso XII (Fuencarral - El Pardo)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Sin buses"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14795,7 +14795,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Almirante Churruca (Latina)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Aviaci�n Espa�ola"^^xsd:string ;
+  ns0:metro "Aviacion Espanola"^^xsd:string ;
   ns0:bus "Lineas: 17 y 34. "^^xsd:string ;
   ns0:train "Linea C 5. Estacion: Las aguilas."^^xsd:string ;
   owl:sameAs "" ;
@@ -14817,7 +14817,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Blasco Ibanez (Carabanchel)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "119"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14828,7 +14828,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Bohemios (Villaverde)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Ciudad de los �ngeles"^^xsd:string ;
+  ns0:metro "Ciudad de los Angeles"^^xsd:string ;
   ns0:bus "22 , 59 , 79 , 85 "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14839,7 +14839,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Ciudad Lineal"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "110, 113, 210, 15, 28"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14850,7 +14850,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Clara Campoamor (Retiro)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0c057ab5c83db510VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "Pac�fico"^^xsd:string ;
+  ns0:metro "Pacifico"^^xsd:string ;
   ns0:bus "24, 37, 54, 57, 141  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -14949,7 +14949,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Latina"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "Linea 155. "^^xsd:string ;
   ns0:train "Linea C 5. Estacion: Maestra Justa Freire-Polideportivo Aluche (antigua estacion de Fanjul)."^^xsd:string ;
   owl:sameAs "" ;
@@ -14982,7 +14982,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Marconi (Villaverde)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "79  "^^xsd:string ;
   ns0:train "San Cristobal Industrial"^^xsd:string ;
   owl:sameAs "" ;
@@ -14993,7 +14993,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Miguel de Cervantes (San Blas - Canillejas)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "48, 140, 28, 167"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15026,7 +15026,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Rafael de Leon (Fuencarral - El Pardo)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e0b1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Avenida de la Ilustraci�n"^^xsd:string ;
+  ns0:metro "Avenida de la Ilustracion"^^xsd:string ;
   ns0:bus "49 , 64 , 67 , 83 , 133"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15048,7 +15048,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural San Cristobal de los angeles (Villaverde)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7f4a79262ef5d010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "San Crist�bal"^^xsd:string ;
+  ns0:metro "San Cristobal"^^xsd:string ;
   ns0:bus "59, 79,"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15059,7 +15059,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural San Fermin (Usera)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "San Ferm�n-Orcasur"^^xsd:string ;
+  ns0:metro "San Fermin-Orcasur"^^xsd:string ;
   ns0:bus "23, 78, 123"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15103,7 +15103,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Tetuan"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ecb1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Tetu�n"^^xsd:string ;
+  ns0:metro "Tetuan"^^xsd:string ;
   ns0:bus "66, 124"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15114,7 +15114,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Valle Inclan (Fuencarral - El Pardo)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "67 , 132"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15136,7 +15136,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural Vicalvaro"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Vic�lvaro Station - Rey Juan Carlos University"^^xsd:string ;
+  ns0:metro "Vicalvaro Station - Rey Juan Carlos University"^^xsd:string ;
   ns0:bus "106, 4, E3"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15147,7 +15147,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro Sociocultural agata (Villaverde)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "22 , 79 , 86 , 130 , 131"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15158,7 +15158,7 @@
   a ns0:Facility ;
   ns0:facilityName "Centro de Cultura Contemporanea Conde Duque"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Ventura Rodr�guez"^^xsd:string ;
+  ns0:metro "Ventura Rodriguez"^^xsd:string ;
   ns0:bus "002, 001, 1, 133, 138, 2, 44, C1, 74m C2, 21, C03.  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15180,7 +15180,7 @@
   a ns0:Facility ;
   ns0:facilityName "CentroCentro"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Banco de Espa�a"^^xsd:string ;
+  ns0:metro "Banco de Espana"^^xsd:string ;
   ns0:bus "E1, 203, 14, 27, 37, 45, C03, 1, 146, 15, 2, 20, 51, 52, 74, 9, 10, 34, 001  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q56426764" ;
@@ -15202,7 +15202,7 @@
   a ns0:Facility ;
   ns0:facilityName "Espacio Cultural Nunez de Balboa, 40 (Salamanca)"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aab225880cd6e710VgnVCM2000001f4a900aRCRD"^^xsd:string ;
-  ns0:metro "Vel�zquez"^^xsd:string ;
+  ns0:metro "Velazquez"^^xsd:string ;
   ns0:bus "1, 9, 19, 21, 51, 53, 74  "^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15213,7 +15213,7 @@
   a ns0:Facility ;
   ns0:facilityName "Espacio Cultural Serreria Belga"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c3c0f13cd18a0810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "Estaci�n del Arte"^^xsd:string ;
+  ns0:metro "Estacion del Arte"^^xsd:string ;
   ns0:bus "6, 10, 14, 19, 26, 27, 32, 34, 37, 45  "^^xsd:string ;
   ns0:train "Atocha (lineas C1, C2, C3, C4, C5, C7, y C10).  "^^xsd:string ;
   owl:sameAs "" ;
@@ -15224,7 +15224,7 @@
   a ns0:Facility ;
   ns0:facilityName "Espacio Polivalente Embajadores"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0103e641a099610VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "" ;
+  ns0:metro "Sin metro"^^xsd:string ;
   ns0:bus "25 , 31 , 33 , 36 , 39 , 41 , 50 , 65 , 138 , C"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -15233,9 +15233,9 @@
 
 <http://www.madculturalevents.es/group04/resources/facility/1915>
   a ns0:Facility ;
-  ns0:facilityName "Fern�n G�mez Centro Cultural de la Villa"^^xsd:string ;
+  ns0:facilityName "Fernan Gomez Centro Cultural de la Villa"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba663d0b5e71c010VgnVCM1000000b205a0aRCRD"^^xsd:string ;
-  ns0:metro "Col�n"^^xsd:string ;
+  ns0:metro "Colon"^^xsd:string ;
   ns0:bus "14, 150, 27, 45, 5, 21, 37, C03, 53  "^^xsd:string ;
   ns0:train "Recoletos  "^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q56426930" ;
@@ -15301,7 +15301,7 @@
   a ns0:Facility ;
   ns0:facilityName "Salon y sala de exposiciones en Junta Municipal de Usera"^^xsd:string ;
   ns0:facilityUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5fb8370bbde11810VgnVCM1000001d4a900aRCRD"^^xsd:string ;
-  ns0:metro "Plaza El�ptica"^^xsd:string ;
+  ns0:metro "Plaza Eliptica"^^xsd:string ;
   ns0:bus "6, 60, 81"^^xsd:string ;
   ns0:train "Sin Renfe"^^xsd:string ;
   owl:sameAs "" ;
@@ -16342,7 +16342,7 @@
 <http://www.madculturalevents.es/group04/resources/address/4112>
   a ns0:Address ;
   ns0:number 17 ;
-  ns0:addressName "calle de Ventura Rodr�guez"^^xsd:string ;
+  ns0:addressName "calle de Ventura Rodriguez"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q28016771" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Moncloa-Aravaca> .
 
@@ -16351,28 +16351,28 @@
   ns0:number 40 ;
   ns0:addressName "CALLE MAURICIO LEGENDRE"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamart%C3%ADn> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamartin> .
 
 <http://www.madculturalevents.es/group04/resources/address/10237457>
   a ns0:Address ;
   ns0:number 1 ;
   ns0:addressName "Calle Alenza, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27313964" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/2074>
   a ns0:Address ;
   ns0:number 23 ;
-  ns0:addressName "Calle de R�os Rosas"^^xsd:string ;
+  ns0:addressName "Calle de Rios Rosas"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27267331" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/2075>
   a ns0:Address ;
   ns0:number 21 ;
-  ns0:addressName "Calle de R�os Rosas"^^xsd:string ;
+  ns0:addressName "Calle de Rios Rosas"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27267331" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/18176>
   a ns0:Address ;
@@ -16385,7 +16385,7 @@
   a ns0:Address ;
   ns0:number 1 ;
   ns0:addressName "Plaza de Isabel II"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q38506871" ;
+  owl:sameAs "https://www.wikidata.org/entity/Q6079993" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
 <http://www.madculturalevents.es/group04/resources/address/2053>
@@ -16419,7 +16419,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2055>
   a ns0:Address ;
   ns0:number 12 ;
-  ns0:addressName "Calle de Montalb�n, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Montalban, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29903983" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Retiro> .
 
@@ -16428,7 +16428,7 @@
   ns0:number 2 ;
   ns0:addressName "CALLE JOSE GUTIERREZ ABASCAL"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamart%C3%ADn> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamartin> .
 
 <http://www.madculturalevents.es/group04/resources/address/2076>
   a ns0:Address ;
@@ -16447,14 +16447,14 @@
 <http://www.madculturalevents.es/group04/resources/address/4997114>
   a ns0:Address ;
   ns0:number 37 ;
-  ns0:addressName "paseo del General Mart�nez Campos"^^xsd:string ;
+  ns0:addressName "paseo del General Martinez Campos"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q26792155" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/2077>
   a ns0:Address ;
   ns0:number 237 ;
-  ns0:addressName "Alcal� Street"^^xsd:string ;
+  ns0:addressName "Alcala Street"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2424746" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Salamanca> .
 
@@ -16463,7 +16463,7 @@
   ns0:number 18 ;
   ns0:addressName "CALLE LA CORU&amp;Ntilde;A"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/2068>
   a ns0:Address ;
@@ -16475,7 +16475,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2091>
   a ns0:Address ;
   ns0:number 6 ;
-  ns0:addressName "avenida de los Reyes Cat�licos"^^xsd:string ;
+  ns0:addressName "avenida de los Reyes Catolicos"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q26791531" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Moncloa-Aravaca> .
 
@@ -16503,7 +16503,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2090>
   a ns0:Address ;
   ns0:number 13 ;
-  ns0:addressName "Alcal� Street"^^xsd:string ;
+  ns0:addressName "Alcala Street"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2424746" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -16531,9 +16531,9 @@
 <http://www.madculturalevents.es/group04/resources/address/4545827>
   a ns0:Address ;
   ns0:number 3 ;
-  ns0:addressName "Carrer Balmes"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q21622511" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:addressName "Calle de Balmes"^^xsd:string ;
+  owl:sameAs "" ;
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/2095>
   a ns0:Address ;
@@ -16545,7 +16545,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2112>
   a ns0:Address ;
   ns0:number 2 ;
-  ns0:addressName "plaza de San Andr�s"^^xsd:string ;
+  ns0:addressName "plaza de San Andres"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27213851" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -16559,8 +16559,8 @@
 <http://www.madculturalevents.es/group04/resources/address/4566286>
   a ns0:Address ;
   ns0:number 10 ;
-  ns0:addressName "Calle Bail�n"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q119498250" ;
+  ns0:addressName "Calle de Bailen"^^xsd:string ;
+  owl:sameAs "https://www.wikidata.org/entity/Q5740811" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
 <http://www.madculturalevents.es/group04/resources/address/2073>
@@ -16573,14 +16573,14 @@
 <http://www.madculturalevents.es/group04/resources/address/2107>
   a ns0:Address ;
   ns0:number 110 ;
-  ns0:addressName "Calle de Guzm�n el Bueno, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Guzman el Bueno, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27031398" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/2114>
   a ns0:Address ;
   ns0:number 13 ;
-  ns0:addressName "Alcal� Street"^^xsd:string ;
+  ns0:addressName "Alcala Street"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q2424746" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -16601,7 +16601,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2086>
   a ns0:Address ;
   ns0:number 1 ;
-  ns0:addressName "Gran V�a"^^xsd:string ;
+  ns0:addressName "Gran Via"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q1324163" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -16615,7 +16615,7 @@
 <http://www.madculturalevents.es/group04/resources/address/6337393>
   a ns0:Address ;
   ns0:number 14 ;
-  ns0:addressName "calle de B�rbara de Bragan�a"^^xsd:string ;
+  ns0:addressName "calle de Barbara de Braganca"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29413520" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -16636,14 +16636,14 @@
 <http://www.madculturalevents.es/group04/resources/address/2062>
   a ns0:Address ;
   ns0:number 0 ;
-  ns0:addressName "Calle Bail�n"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q119498250" ;
+  ns0:addressName "Calle de Bailen"^^xsd:string ;
+  owl:sameAs "https://www.wikidata.org/entity/Q5740811" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
 <http://www.madculturalevents.es/group04/resources/address/2079>
   a ns0:Address ;
   ns0:number 3 ;
-  ns0:addressName "Calle de Juli�n Gayarre, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Julian Gayarre, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29051365" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Retiro> .
 
@@ -16671,7 +16671,7 @@
 <http://www.madculturalevents.es/group04/resources/address/2087>
   a ns0:Address ;
   ns0:number 2 ;
-  ns0:addressName "Calle de Fuenterrab�a, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Fuenterrabia, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29051404" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Retiro> .
 
@@ -16734,14 +16734,14 @@
 <http://www.madculturalevents.es/group04/resources/address/2389>
   a ns0:Address ;
   ns0:number 3 ;
-  ns0:addressName "Calle de Jos� del Hierro, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Jose del Hierro, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29910699" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Ciudad%20Lineal> .
 
 <http://www.madculturalevents.es/group04/resources/address/139451>
   a ns0:Address ;
   ns0:number 2 ;
-  ns0:addressName "Avenida de Las �guilas, Madrid"^^xsd:string ;
+  ns0:addressName "Avenida de Las Aguilas, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q29405114" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Latina> .
 
@@ -16825,8 +16825,8 @@
 <http://www.madculturalevents.es/group04/resources/address/4551096>
   a ns0:Address ;
   ns0:number 11 ;
-  ns0:addressName "Seventh Avenue"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q109926" ;
+  ns0:addressName "Avenida Septima"^^xsd:string ;
+  owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/San%20Blas-Canillejas> .
 
 <http://www.madculturalevents.es/group04/resources/address/11876732>
@@ -16848,7 +16848,7 @@
   ns0:number 5 ;
   ns0:addressName "PLAZA DONOSO"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/11979985>
   a ns0:Address ;
@@ -16904,12 +16904,12 @@
   ns0:number 39 ;
   ns0:addressName "calle de Galileo"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27031392" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamberi> .
 
 <http://www.madculturalevents.es/group04/resources/address/70243>
   a ns0:Address ;
   ns0:number 179 ;
-  ns0:addressName "avenida de Logro�o"^^xsd:string ;
+  ns0:addressName "avenida de Logrono"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q118638509" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Barajas> .
 
@@ -16944,14 +16944,14 @@
 <http://www.madculturalevents.es/group04/resources/address/1919>
   a ns0:Address ;
   ns0:number 5 ;
-  ns0:addressName "TRAVESIA CA�O"^^xsd:string ;
+  ns0:addressName "TRAVESIA CANO"^^xsd:string ;
   owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Moncloa-Aravaca> .
 
 <http://www.madculturalevents.es/group04/resources/address/1913>
   a ns0:Address ;
   ns0:number 100 ;
-  ns0:addressName "Calle de Francos Rodr�guez, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Francos Rodriguez, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q26810988" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Moncloa-Aravaca> .
 
@@ -16972,7 +16972,7 @@
 <http://www.madculturalevents.es/group04/resources/address/4606802>
   a ns0:Address ;
   ns0:number 2 ;
-  ns0:addressName "CALLE DE LUIS PEIDR�"^^xsd:string ;
+  ns0:addressName "CALLE DE LUIS PEIDRO"^^xsd:string ;
   owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Retiro> .
 
@@ -17007,7 +17007,7 @@
 <http://www.madculturalevents.es/group04/resources/address/1933>
   a ns0:Address ;
   ns0:number 1 ;
-  ns0:addressName "PLAZA ASOCIACI�N"^^xsd:string ;
+  ns0:addressName "PLAZA ASOCIACION"^^xsd:string ;
   owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Usera> .
 
@@ -17030,7 +17030,7 @@
   ns0:number 51 ;
   ns0:addressName "Calle de Mantuano"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q27048291" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamart%C3%ADn> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamartin> .
 
 <http://www.madculturalevents.es/group04/resources/address/1934>
   a ns0:Address ;
@@ -17042,14 +17042,14 @@
 <http://www.madculturalevents.es/group04/resources/address/1952>
   a ns0:Address ;
   ns0:number 14 ;
-  ns0:addressName "Calle de los Hermanos Garc�a Noblejas, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de los Hermanos Garcia Noblejas, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q5740959" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Ciudad%20Lineal> .
 
 <http://www.madculturalevents.es/group04/resources/address/1920>
   a ns0:Address ;
   ns0:number 2 ;
-  ns0:addressName "Gran V�a de San Francisco"^^xsd:string ;
+  ns0:addressName "Gran Via de San Francisco"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q32035437" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -17107,7 +17107,7 @@
   ns0:number 21 ;
   ns0:addressName "BULEVAR INDALECIO PRIETO"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vic%C3%A1lvaro> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vicalvaro> .
 
 <http://www.madculturalevents.es/group04/resources/address/1980>
   a ns0:Address ;
@@ -17121,7 +17121,7 @@
   ns0:number 36 ;
   ns0:addressName "CALLE VILLARDONDIEGO"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vic%C3%A1lvaro> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vicalvaro> .
 
 <http://www.madculturalevents.es/group04/resources/address/1940>
   a ns0:Address ;
@@ -17140,7 +17140,7 @@
 <http://www.madculturalevents.es/group04/resources/address/112637>
   a ns0:Address ;
   ns0:number 73 ;
-  ns0:addressName "CALLE CARRI�N DE LOS CONDES"^^xsd:string ;
+  ns0:addressName "CALLE CARRION DE LOS CONDES"^^xsd:string ;
   owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Hortaleza> .
 
@@ -17191,7 +17191,7 @@
   ns0:number 4 ;
   ns0:addressName "calle de Dulcinea"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q118639334" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/4535757>
   a ns0:Address ;
@@ -17205,14 +17205,14 @@
   ns0:number 30 ;
   ns0:addressName "Calle de Matilde Landa, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q56121903" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/4568753>
   a ns0:Address ;
   ns0:number 12 ;
   ns0:addressName "Royal Avenue"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q7373779" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vic%C3%A1lvaro> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vicalvaro> .
 
 <http://www.madculturalevents.es/group04/resources/address/56495>
   a ns0:Address ;
@@ -17231,7 +17231,7 @@
 <http://www.madculturalevents.es/group04/resources/address/72862>
   a ns0:Address ;
   ns0:number 4 ;
-  ns0:addressName "Calle de Mira el R�o, Madrid"^^xsd:string ;
+  ns0:addressName "Calle de Mira el Rio, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q56121016" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Fuencarral-El%20Pardo> .
 
@@ -17310,7 +17310,7 @@
   ns0:number 9 ;
   ns0:addressName "Calle de Almansa, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q54564278" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/124354>
   a ns0:Address ;
@@ -17343,9 +17343,9 @@
 <http://www.madculturalevents.es/group04/resources/address/1961>
   a ns0:Address ;
   ns0:number 142 ;
-  ns0:addressName "calle del Pr�ncipe de Vergara"^^xsd:string ;
+  ns0:addressName "calle del Principe de Vergara"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q5741020" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamart%C3%ADn> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Chamartin> .
 
 <http://www.madculturalevents.es/group04/resources/address/1909>
   a ns0:Address ;
@@ -17406,8 +17406,8 @@
 <http://www.madculturalevents.es/group04/resources/address/1935>
   a ns0:Address ;
   ns0:number 33 ;
-  ns0:addressName "Estafeta kalea"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q8843006" ;
+  ns0:addressName "Calle de la Estafeta"^^xsd:string ;
+  owl:sameAs "" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Usera> .
 
 <http://www.madculturalevents.es/group04/resources/address/117716>
@@ -17436,7 +17436,7 @@
   ns0:number 251 ;
   ns0:addressName "Calle de Bravo Murillo"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q5740815" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Tetuan> .
 
 <http://www.madculturalevents.es/group04/resources/address/1923>
   a ns0:Address ;
@@ -17457,7 +17457,7 @@
   ns0:number 10 ;
   ns0:addressName "CALLE LAGO TITICACA"^^xsd:string ;
   owl:sameAs "" ;
-  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vic%C3%A1lvaro> .
+  ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Vicalvaro> .
 
 <http://www.madculturalevents.es/group04/resources/address/1996>
   a ns0:Address ;
@@ -17497,14 +17497,14 @@
 <http://www.madculturalevents.es/group04/resources/address/11575320>
   a ns0:Address ;
   ns0:number 40 ;
-  ns0:addressName "N��ez de Balboa Street"^^xsd:string ;
+  ns0:addressName "Nunez de Balboa Street"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q28065000" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Salamanca> .
 
 <http://www.madculturalevents.es/group04/resources/address/11681451>
   a ns0:Address ;
   ns0:number 15 ;
-  ns0:addressName "Calle V�ctor Lamas"^^xsd:string ;
+  ns0:addressName "Calle Victor Lamas"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q5740784" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Centro> .
 
@@ -17518,7 +17518,7 @@
 <http://www.madculturalevents.es/group04/resources/address/1915>
   a ns0:Address ;
   ns0:number 4 ;
-  ns0:addressName "plaza de Col�n"^^xsd:string ;
+  ns0:addressName "plaza de Colon"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q970525" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Salamanca> .
 
@@ -17553,7 +17553,7 @@
 <http://www.madculturalevents.es/group04/resources/address/11601456>
   a ns0:Address ;
   ns0:number 94 ;
-  ns0:addressName "Calle del Alcalde S�inz de Baranda, Madrid"^^xsd:string ;
+  ns0:addressName "Calle del Alcalde Sainz de Baranda, Madrid"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q28070977" ;
   ns0:belongsTo <http://www.madculturalevents.es/group04/resources/district/Salamanca> .
 
@@ -17594,19 +17594,19 @@
   ns1:officialName "Salamanca"^^xsd:string ;
   owl:sameAs "https://wikidata.org/entity/Q1773521", "https://www.wikidata.org/entity/Q1773521" .
 
-<http://www.madculturalevents.es/group04/resources/district/Chamart%C3%ADn>
+<http://www.madculturalevents.es/group04/resources/district/Chamartin>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
-  ns1:officialName "Chamart�n"^^xsd:string ;
+  ns1:officialName "Chamartin"^^xsd:string ;
   owl:sameAs "https://wikidata.org/entity/Q1766348", "https://www.wikidata.org/entity/Q1766348" .
 
-<http://www.madculturalevents.es/group04/resources/district/Chamber%C3%AD>
+<http://www.madculturalevents.es/group04/resources/district/Chamberi>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
-  ns1:officialName "Chamber�"^^xsd:string ;
+  ns1:officialName "Chamberi"^^xsd:string ;
   owl:sameAs "https://wikidata.org/entity/Q1763370", "https://www.wikidata.org/entity/Q1763370" .
 
-<http://www.madculturalevents.es/group04/resources/district/Tetu%C3%A1n>
+<http://www.madculturalevents.es/group04/resources/district/Tetuan>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
-  ns1:officialName "Tetu�n"^^xsd:string ;
+  ns1:officialName "Tetuan"^^xsd:string ;
   owl:sameAs "https://wikidata.org/entity/Q1773540", "https://www.wikidata.org/entity/Q1773540" .
 
 <http://www.madculturalevents.es/group04/resources/district/Latina>
@@ -17637,7 +17637,7 @@
 <http://www.madculturalevents.es/group04/resources/district/San%20Blas-Canillejas>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
   ns1:officialName "San Blas-Canillejas"^^xsd:string ;
-  owl:sameAs "https://www.wikidata.org/entity/Q2001937" .
+  owl:sameAs "https://www.wikidata.org/entity/Q2001937", "" .
 
 <http://www.madculturalevents.es/group04/resources/district/Hortaleza>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
@@ -17659,9 +17659,9 @@
   ns1:officialName "Usera"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q953368" .
 
-<http://www.madculturalevents.es/group04/resources/district/Vic%C3%A1lvaro>
+<http://www.madculturalevents.es/group04/resources/district/Vicalvaro>
   a <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito> ;
-  ns1:officialName "Vic�lvaro"^^xsd:string ;
+  ns1:officialName "Vicalvaro"^^xsd:string ;
   owl:sameAs "https://www.wikidata.org/entity/Q589403" .
 
 <http://www.madculturalevents.es/group04/resources/district/Moratalaz>
