@@ -14,7 +14,7 @@
 
 # Ontology Diagram
 
-![Diagram Ontology](./ontology/Ontology.png)
+![Diagram Ontology](./ontology/ontology.png)
 
 ## Extensiones VS-CODE
 
@@ -27,13 +27,14 @@ on Docker Hub.
 
 1. Run fisrt time:
 ```bash
-sudo docker run --name fuseki -p 3030:3030 -e  ADMIN_PASSWORD=pw12,TDB=2 stain/jena-fuseki 
+docker run --name fuseki -p 3030:3030 -e  ADMIN_PASSWORD=pw12,TDB=2 stain/jena-fuseki 
 ```
+2. Create database
 
-2. Insert Data 
+3. Insert Data 
 ![img-insert-data](./fuseki/add-data.png)
 
-3. Make a query
+4. Make a query
 ![img-query](./fuseki/query.png)
 
 
@@ -41,10 +42,19 @@ Other commands:
 
 - Stop:
 ```bash
-sudo docker stop fuseki
+docker stop fuseki
 ```
 
 - Start:
 ```bash
-sudo docker start fuseki
+docker start fuseki
 ```
+
+## App
+
+
+![Alt text](app/static/app_1.png)
+
+![Alt text](app/static/app_2.png)
+
+![Alt text](app/static/app_3.png)

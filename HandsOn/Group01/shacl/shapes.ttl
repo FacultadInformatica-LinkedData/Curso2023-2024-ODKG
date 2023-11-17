@@ -1,34 +1,48 @@
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix geocod: <https://www.gleif.org/ontology/Geocoding/> .
+@prefix geof:  <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix afn:   <http://jena.apache.org/ARQ/function#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix nso:   <http://madridwastemanagement.org/group01/ontology/> .
+@prefix dbo:   <https://dbpedia.org/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix wst:   <http://www.disit.org/km4city/schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
 @prefix base:  <http://madridwastemanagement.org/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-<https://astrea.linkeddata.es/shapes#95c88fae1ae40c56f45bdba8dfe57057>
-        a               sh:NodeShape ;
-        sh:nodeKind     sh:IRI ;
-        sh:property     <https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab> , <https://astrea.linkeddata.es/shapes#a8dbda418aeaeff2eb7b2bb1c679e064> , <https://astrea.linkeddata.es/shapes#f1b0a9af19532757050984a112e75701> , <https://astrea.linkeddata.es/shapes#3952f230f9b4bd8e180e528ab33ed1cb> ;
-        sh:targetClass  nso:Total .
-
-<https://astrea.linkeddata.es/shapes#c3a8091bc36a8077402cf384f2bf96cf>
+<https://astrea.linkeddata.es/shapes#2b7da92c49094273a7e4639c46e66094>
         a            sh:PropertyShape ;
-        rdfs:label   "has total" ;
-        sh:class     nso:Total ;
-        sh:name      "has total" ;
+        rdfs:label   "has district" ;
+        sh:class     dbo:District ;
+        sh:name      "has district" ;
         sh:nodeKind  sh:BlankNodeOrIRI ;
-        sh:path      nso:hasTotal .
+        sh:path      geocod:hasDistrict .
 
-<https://astrea.linkeddata.es/shapes#a0e1b101f1a1a2984dd5580573f469a8>
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#95c88fae1ae40c56f45bdba8dfe57057> , <https://astrea.linkeddata.es/shapes#2f850d8c8984d325959e31942be6540d> , <https://astrea.linkeddata.es/shapes#f4a293139163b4ad83d0c3d165952975> , <https://astrea.linkeddata.es/shapes#2b7da92c49094273a7e4639c46e66094> , <https://astrea.linkeddata.es/shapes#f1b0a9af19532757050984a112e75701> , <https://astrea.linkeddata.es/shapes#52f128cdcfef8aa1c487b4073ecd44bd> , <https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab> , <https://astrea.linkeddata.es/shapes#a34aabae56feee1f5fb084b9b9404177> , <https://astrea.linkeddata.es/shapes#42a7d896ac40298efa5801c659ac1997> , <https://astrea.linkeddata.es/shapes#8b394519d4833774c879185a6cabf585> , <https://astrea.linkeddata.es/shapes#a7fefea93ffc57823a8e524db38f6727> , <https://astrea.linkeddata.es/shapes#c3a8091bc36a8077402cf384f2bf96cf> , <https://astrea.linkeddata.es/shapes#5a3ff89436d3af704599082a177ee619> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#42a7d896ac40298efa5801c659ac1997>
         a               sh:NodeShape ;
-        rdfs:label      "Zone" ;
-        sh:name         "Zone" ;
+        rdfs:label      "District" ;
+        sh:name         "District" ;
         sh:nodeKind     sh:IRI ;
-        sh:property     <https://astrea.linkeddata.es/shapes#96a5d797736e78993b1e1df78aebf781> , <https://astrea.linkeddata.es/shapes#8b394519d4833774c879185a6cabf585> ;
-        sh:targetClass  nso:Zone .
+        sh:property     <https://astrea.linkeddata.es/shapes#a7fefea93ffc57823a8e524db38f6727> , <https://astrea.linkeddata.es/shapes#2f850d8c8984d325959e31942be6540d> ;
+        sh:targetClass  dbo:District .
+
+<https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab>
+        a            sh:PropertyShape ;
+        rdfs:label   "refered to" ;
+        sh:class     dbo:District ;
+        sh:name      "refered to" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      nso:referedTo .
 
 <https://astrea.linkeddata.es/shapes#8b394519d4833774c879185a6cabf585>
         a            sh:PropertyShape ;
@@ -39,45 +53,21 @@
         sh:path      nso:zoneID ;
         sh:pattern   "[\\-+]?[0-9]+" .
 
-<https://astrea.linkeddata.es/shapes#d1c4076669e0daaa96ce5bb37715c721>
-        a            sh:PropertyShape ;
-        rdfs:label   "has residue" ;
-        sh:class     nso:WasteType ;
-        sh:name      "has residue" ;
-        sh:nodeKind  sh:BlankNodeOrIRI ;
-        sh:path      nso:hasResidue .
-
-<https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab>
-        a            sh:PropertyShape ;
-        rdfs:label   "refered to" ;
-        sh:class     nso:District ;
-        sh:name      "refered to" ;
-        sh:nodeKind  sh:BlankNodeOrIRI ;
-        sh:path      nso:referedTo .
-
-<https://astrea.linkeddata.es/shapes#f99b6466d9f99bc45bc95c2285580216>
-        a            sh:PropertyShape ;
-        rdfs:label   "districtName" ;
-        sh:datatype  xsd:string ;
-        sh:name      "districtName" ;
-        sh:nodeKind  sh:Literal ;
-        sh:path      nso:districtName ;
-        sh:pattern   ".*" .
-
-<https://astrea.linkeddata.es/shapes#4c98732324445448ceb5a26a3c14738a>
+<https://astrea.linkeddata.es/shapes#f4a293139163b4ad83d0c3d165952975>
         a               sh:NodeShape ;
         rdfs:label      "Waste Type" ;
         sh:name         "Waste Type" ;
         sh:nodeKind     sh:IRI ;
         sh:property     <https://astrea.linkeddata.es/shapes#c3a8091bc36a8077402cf384f2bf96cf> ;
-        sh:targetClass  nso:WasteType .
+        sh:targetClass  wst:WasteType .
 
-<http://astrea.linkeddata.es/report>
-        a       <https://w3id.org/def/astrea#ShapeReport> ;
-        <https://w3id.org/def/astrea#contains>
-                <https://astrea.linkeddata.es/shapes#95c88fae1ae40c56f45bdba8dfe57057> , <https://astrea.linkeddata.es/shapes#f7b938e42a6455b8dcfda993fd985259> , <https://astrea.linkeddata.es/shapes#96a5d797736e78993b1e1df78aebf781> , <https://astrea.linkeddata.es/shapes#3952f230f9b4bd8e180e528ab33ed1cb> , <https://astrea.linkeddata.es/shapes#4c98732324445448ceb5a26a3c14738a> , <https://astrea.linkeddata.es/shapes#a0e1b101f1a1a2984dd5580573f469a8> , <https://astrea.linkeddata.es/shapes#b82aa469754d29739595e12841199e77> , <https://astrea.linkeddata.es/shapes#f1b0a9af19532757050984a112e75701> , <https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab> , <https://astrea.linkeddata.es/shapes#4f75ce12336ab89a4edebd807cd62265> , <https://astrea.linkeddata.es/shapes#d1c4076669e0daaa96ce5bb37715c721> , <https://astrea.linkeddata.es/shapes#8b394519d4833774c879185a6cabf585> , <https://astrea.linkeddata.es/shapes#f99b6466d9f99bc45bc95c2285580216> , <https://astrea.linkeddata.es/shapes#a8dbda418aeaeff2eb7b2bb1c679e064> , <https://astrea.linkeddata.es/shapes#27c58de75a7b0f742c4580788eef1449> , <https://astrea.linkeddata.es/shapes#c3a8091bc36a8077402cf384f2bf96cf> ;
-        <https://w3id.org/def/astrea#generatedShapesFrom>
-                <https://astrea.linkeddata.es/report/0620946147> .
+<https://astrea.linkeddata.es/shapes#c3a8091bc36a8077402cf384f2bf96cf>
+        a            sh:PropertyShape ;
+        rdfs:label   "has total" ;
+        sh:class     nso:Total ;
+        sh:name      "has total" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      nso:hasTotal .
 
 <https://astrea.linkeddata.es/shapes#f1b0a9af19532757050984a112e75701>
         a            sh:PropertyShape ;
@@ -88,39 +78,14 @@
         sh:path      nso:value ;
         sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
 
-<https://astrea.linkeddata.es/shapes#a8dbda418aeaeff2eb7b2bb1c679e064>
+<https://astrea.linkeddata.es/shapes#5a3ff89436d3af704599082a177ee619>
         a            sh:PropertyShape ;
         rdfs:label   "year" ;
-        sh:datatype  xsd:integer ;
+        sh:datatype  xsd:gYear ;
         sh:name      "year" ;
         sh:nodeKind  sh:Literal ;
-        sh:path      nso:year ;
-        sh:pattern   "[\\-+]?[0-9]+" .
-
-<https://astrea.linkeddata.es/shapes#96a5d797736e78993b1e1df78aebf781>
-        a            sh:PropertyShape ;
-        rdfs:label   "has district" ;
-        sh:class     nso:District ;
-        sh:name      "has district" ;
-        sh:nodeKind  sh:BlankNodeOrIRI ;
-        sh:path      nso:hasDistrict .
-
-<https://astrea.linkeddata.es/shapes#3952f230f9b4bd8e180e528ab33ed1cb>
-        a            sh:PropertyShape ;
-        rdfs:label   "month" ;
-        sh:datatype  xsd:string ;
-        sh:name      "month" ;
-        sh:nodeKind  sh:Literal ;
-        sh:path      nso:month ;
-        sh:pattern   ".*" .
-
-<https://astrea.linkeddata.es/shapes#f7b938e42a6455b8dcfda993fd985259>
-        a               sh:NodeShape ;
-        rdfs:label      "District" ;
-        sh:name         "District" ;
-        sh:nodeKind     sh:IRI ;
-        sh:property     <https://astrea.linkeddata.es/shapes#d1c4076669e0daaa96ce5bb37715c721> , <https://astrea.linkeddata.es/shapes#f99b6466d9f99bc45bc95c2285580216> , <https://astrea.linkeddata.es/shapes#b82aa469754d29739595e12841199e77> , <https://astrea.linkeddata.es/shapes#27c58de75a7b0f742c4580788eef1449> ;
-        sh:targetClass  nso:District .
+        sh:path      time:year ;
+        sh:pattern   "-?([1-9][0-9]{3,}|0[0-9]{3})(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
 
 <https://astrea.linkeddata.es/report/0620946147>
         a       <https://w3id.org/def/astrea#ReportEntry> ;
@@ -129,27 +94,42 @@
         <https://w3id.org/def/astrea#statusCode>
                 "200"^^xsd:int .
 
-<https://astrea.linkeddata.es/shapes#27c58de75a7b0f742c4580788eef1449>
+<https://astrea.linkeddata.es/shapes#52f128cdcfef8aa1c487b4073ecd44bd>
         a            sh:PropertyShape ;
-        rdfs:label   "id" ;
-        sh:datatype  xsd:integer ;
-        sh:name      "id" ;
+        rdfs:label   "month" ;
+        sh:datatype  xsd:gMonth ;
+        sh:name      "month" ;
         sh:nodeKind  sh:Literal ;
-        sh:path      nso:id ;
-        sh:pattern   "[\\-+]?[0-9]+" .
+        sh:path      time:month ;
+        sh:pattern   "--(0[1-9]|1[0-2])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?" .
 
-<https://astrea.linkeddata.es/shapes#b82aa469754d29739595e12841199e77>
+<https://astrea.linkeddata.es/shapes#a7fefea93ffc57823a8e524db38f6727>
+        a            sh:PropertyShape ;
+        rdfs:label   "has residue" ;
+        sh:class     wst:WasteType ;
+        sh:name      "has residue" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      wst:hasResidue .
+
+<https://astrea.linkeddata.es/shapes#95c88fae1ae40c56f45bdba8dfe57057>
+        a               sh:NodeShape ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#d3340e7f439e8bd7a12e31a358fd1dab> , <https://astrea.linkeddata.es/shapes#52f128cdcfef8aa1c487b4073ecd44bd> , <https://astrea.linkeddata.es/shapes#5a3ff89436d3af704599082a177ee619> , <https://astrea.linkeddata.es/shapes#f1b0a9af19532757050984a112e75701> ;
+        sh:targetClass  nso:Total .
+
+<https://astrea.linkeddata.es/shapes#a34aabae56feee1f5fb084b9b9404177>
+        a               sh:NodeShape ;
+        rdfs:label      "Zone" ;
+        sh:name         "Zone" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#2b7da92c49094273a7e4639c46e66094> , <https://astrea.linkeddata.es/shapes#8b394519d4833774c879185a6cabf585> ;
+        sh:targetClass  geof:Zone .
+
+<https://astrea.linkeddata.es/shapes#2f850d8c8984d325959e31942be6540d>
         a            sh:PropertyShape ;
         rdfs:label   "districtID" ;
         sh:datatype  xsd:integer ;
         sh:name      "districtID" ;
         sh:nodeKind  sh:Literal ;
-        sh:path      nso:districtID ;
+        sh:path      dbo:districtID ;
         sh:pattern   "[\\-+]?[0-9]+" .
-
-<https://astrea.linkeddata.es/shapes#4f75ce12336ab89a4edebd807cd62265>
-        a            sh:PropertyShape ;
-        rdfs:label   "label" ;
-        sh:name      "label" ;
-        sh:nodeKind  sh:Literal ;
-        sh:path      rdfs:label .

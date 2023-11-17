@@ -8,21 +8,20 @@
 #WasteType
 <http://madridwastemanagement.org/group01/data/WasteType/Paper> a nso: WasteType;
  rdfs:label "Paper"^^xsd:string;
- nso:hasTotal <http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January>.
+ nso:hasTotal <http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_1>.
 
 #District
 <http://madridwastemanagement.org/group01/data/District/1> a nso: District;
- rdfs:label "District_1"^^xsd:string;
- nso:districtName "Centro"^^xsd:string;
+ rdfs:label "Centro"^^xsd:string;
  nso:districtID "1"^^xsd:integer;
  nso: hasResidue <http://madridwastemanagement.org/group01/data/WasteType/Paper>.
 
 #Total
-<http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_January> a nso: Total;
+<http://madridwastemanagement.org/group01/data/Total/Paper_1_2021_1> a nso: Total;
  rdfs:label "Total"^^xsd:string;
  nso:value "320,59"^^xsd:float;
  nso:year "2021"^^xsd:integer;
- nso:month "January"^^xsd:string;
+ nso:month "1"^^xsd:string;
  nso:referedTo <http://madridwastemanagement.org/group01/data/District/District_1>.
 
 #Zone

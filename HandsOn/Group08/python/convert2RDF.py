@@ -1,6 +1,6 @@
 
 import morph_kgc
-from globals import CONFIG_MAPPING, CONFIG_MAPPING_LINKS, OUT_GRAPH, OUT_GRAPH_LINKS
+from globals import CONFIG_MAPPING, CONFIG_MAPPING_LINKS, OUT_GRAPH, OUT_GRAPH_LINKS, CONFIG_MAPPING_UPDATED, OUT_GRAPH_UPDATED
 
 
 # Without linking
@@ -19,3 +19,11 @@ g_with_links = morph_kgc.materialize(CONFIG_MAPPING_LINKS)
 
 with open(OUT_GRAPH_LINKS, "w", encoding='utf8') as f:
     f.write(g_with_links.serialize(format="turtle"))
+
+
+# Updated
+
+g_with_updated = morph_kgc.materialize(CONFIG_MAPPING_UPDATED)
+
+with open(OUT_GRAPH_UPDATED, "w", encoding='utf8') as f:
+    f.write(g_with_updated.serialize(format="turtle"))

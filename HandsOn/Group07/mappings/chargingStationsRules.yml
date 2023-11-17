@@ -25,19 +25,19 @@ mappings:
       - [geo:latitude ,$(Latitude) ,xsd:float]
       - [geo:longitude ,$(Longitude) ,xsd:float]
       - [ont:evDCFastCount, $(EVDCFastCount), xsd:integer]
-      - [ont:hasStreetAddress, https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)]
+      - [ont:hasAddress, https://www.chargeup.io/group07/resource/Address/$(Address)~iri]
 
 
 
   addressmap:
     sources:
       - [Electric-Vehicle-Charging-Stations-updated.csv~csv]
-    s: https://www.chargeup.io/group07/resource/StreetAddress/$(StreetAddress)
+    s: https://www.chargeup.io/group07/resource/Address/$(Address)
     po:
-      - [a, ont:StreetAddress]
-      - [rdfs:label, $(StreetAddress), xsd:string]
+      - [a, ont:Address]
+      - [rdfs:label, $(Address), xsd:string]
       - [ont:zipCode, $(ZipCode), xsd:string]
-      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)]
+      - [ont:hasCity, https://www.chargeup.io/group07/resource/City/$(City)~iri]
 
 
 

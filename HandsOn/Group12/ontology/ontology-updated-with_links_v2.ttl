@@ -1,0 +1,163 @@
+ @prefix : <http://grupo12_open_data.org#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix schema: <http://schema.org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+@prefix clase: <http://grupo12_open_data.org#> .
+@prefix clase2: <http://grupo12_open_data.es/lcc/resource#> .
+
+: a owl:Ontology ;
+    dc:creator "grupo_12" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Ontology parkings" ;
+    owl:versionInfo "0.0.1" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+
+schema:identifier a owl:DatatypeProperty ;
+    rdfs:label "id_parking" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:string .
+
+schema:name a owl:DatatypeProperty ;
+    rdfs:label "name_parking" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:string .
+
+clase2:same_as_wikidata_Street a owl:DatatypeProperty ;
+    rdfs:label "same_as_wikidata_Street" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:string .
+
+schema:additionalType a owl:DatatypeProperty ;
+    rdfs:label "type_parking" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:string .
+
+clase:average_price a owl:DatatypeProperty ;
+    rdfs:label "average_price_parking" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:decimal .
+
+owl:numberOfParkingSpaces a owl:DatatypeProperty ;
+    rdfs:label "number_spaces" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range xsd:integer .
+
+clase2:id_occupancy a owl:DatatypeProperty ;
+    rdfs:label "id_occupancy" ;
+    rdfs:domain clase2:ParkingOccupancy ;
+    rdfs:range xsd:string .
+
+mv:rateOfOccupancy a owl:DatatypeProperty ;
+    rdfs:label "rateOfOccupancy" ;
+    rdfs:domain clase2:ParkingOccupancy ;
+    rdfs:range xsd:decimal .
+
+dbpedia-owl:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:domain clase2:ParkingOccupancy ;
+    rdfs:range xsd:integer .
+
+dbpedia-owl:month a owl:DatatypeProperty ;
+    rdfs:label "month" ;
+    rdfs:domain clase2:ParkingOccupancy ;
+    rdfs:range xsd:integer .
+
+clase2:district_code a owl:DatatypeProperty ;
+    rdfs:label "district_code" ;
+    rdfs:domain clase2:District ;
+    rdfs:range xsd:string .
+
+clase:districtName a owl:DatatypeProperty ;
+    rdfs:label "district_name" ;
+    rdfs:domain clase2:District ;
+    rdfs:range xsd:string .
+
+clase2:same_as_wikidata_District a owl:DatatypeProperty ;
+    rdfs:label "same_as_wikidata_District" ;
+    rdfs:domain clase2:District ;
+    rdfs:range xsd:string .
+
+clase2:id_parking_space a owl:DatatypeProperty ;
+    rdfs:label "id_parking_space" ;
+    rdfs:domain clase2:ParkingSpace ;
+    rdfs:range xsd:string .
+
+clase:level a owl:DatatypeProperty ;
+    rdfs:label "level" ;
+    rdfs:domain clase2:ParkingSpace ;
+    rdfs:range xsd:string .
+
+clase2:end_concession a owl:DatatypeProperty ;
+    rdfs:label "end_concession" ;
+    rdfs:domain clase2:ParkingSpace ;
+    rdfs:range xsd:date .
+
+clase2:id_price a owl:DatatypeProperty ;
+    rdfs:label "id_price" ;
+    rdfs:domain clase2:PriceSpecification ;
+    rdfs:range xsd:string .
+
+clase:estimationDate a owl:DatatypeProperty ;
+    rdfs:label "estimation_date" ;
+    rdfs:domain clase2:PriceSpecification ;
+    rdfs:range xsd:date .
+
+clase:estimated_price a owl:DatatypeProperty ;
+    rdfs:label "estimated_price" ;
+    rdfs:domain clase2:PriceSpecification ;
+    rdfs:range xsd:decimal .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+clase2:hasParkingSpace a owl:ObjectProperty ;
+    rdfs:label "hasParkingSpace" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range clase2:ParkingSpace .
+
+clase2:hasOccupancy a owl:ObjectProperty ;
+    rdfs:label "hasOccupancy" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range clase2:ParkingOccupancy .
+
+clase2:hasPriceSpecification a owl:ObjectProperty ;
+    rdfs:label "priceSpecification" ;
+    rdfs:domain clase2:ParkingSpace ;
+    rdfs:range clase2:PriceSpecification .
+
+clase2:hasDistrict a owl:ObjectProperty ;
+    rdfs:label "district" ;
+    rdfs:domain clase2:ParkingFacility ;
+    rdfs:range clase2:District .
+
+#################################################################
+#    Classes
+#################################################################
+
+clase2:PriceSpecification a owl:Class ;
+    rdfs:label "PriceSpecification" .
+
+clase2:District a owl:Class ;
+    rdfs:label "District" .
+
+clase2:ParkingOccupancy a owl:Class ;
+    rdfs:label "ParkingOccupancy" .
+
+clase2:ParkingSpace a owl:Class ;
+    rdfs:label "ParkingSpace" .
+
+clase2:ParkingFacility a owl:Class ;
+    rdfs:label "ParkingFacility" .
