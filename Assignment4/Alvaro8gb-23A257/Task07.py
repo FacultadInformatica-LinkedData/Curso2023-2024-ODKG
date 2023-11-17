@@ -6,6 +6,12 @@
 # In[1]:
 
 
+from collections import Counter
+from rdflib.plugins.sparql import prepareQuery
+from typing import List
+from rdflib import Graph, URIRef
+from rdflib.namespace import RDF, RDFS
+from rdflib import Graph, Namespace
 get_ipython().system('pip install rdflib')
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
 
@@ -15,12 +21,10 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 # In[2]:
 
 
-from rdflib import Graph, Namespace
-from rdflib.namespace import RDF, RDFS
-
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
-g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+g.namespace_manager.bind('vcard', Namespace(
+    "http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage + "/rdf/example6.rdf", format="xml")
 
 
@@ -31,15 +35,38 @@ NS = Namespace("http://somewhere#")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 
 
+def get_subclasses(class_uri: URIRef, subclasses: List[URIRef], graph: Graph, visited: set = None) -> List[URIRef]:
+    """
+    Recursively retrieves all subclasses of a given class in an RDF graph.
+
+    :param class_uri: The URI of the class to find subclasses for.
+    :param subclasses: A list to accumulate the subclasses.
+    :param graph: The RDF graph to search within.
+    :param visited: A set to keep track of visited URIs to prevent infinite loops.
+    :return: A list of subclass URIs.
+    """
+    if visited is None:
+        visited = set()
+
+    for s, _, _ in graph.triples((None, RDFS.subClassOf, class_uri)):
+        if s not in visited:
+            visited.add(s)
+            subclasses.append(s)
+            get_subclasses(s, subclasses, graph, visited)
+
+    return subclasses
+
 # **TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**
 
 # In[4]:
 
 
-from rdflib.plugins.sparql import prepareQuery
-
 print("RDFlib:")
-for s, p, o in g.triples((None, RDFS.subClassOf, NS.LivingThing)):
+
+visited = set()
+subs = get_subclasses(NS.LivingThing, subclasses=[NS.LivingThing], graph=g, visited=visited)
+
+for s in subs:
     print(s)
 
 print("SPARQL:")
@@ -55,20 +82,21 @@ for r in g.query(q1):
 
 
 # **TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
-# 
+#
 
 # In[5]:
 
 
-from rdflib.plugins.sparql import prepareQuery
-
 print("RDFlib:")
-for s, p, o in g.triples((None, RDF.type, NS.Person)):
-    print(s)
 
-for s1, p1, o1 in g.triples((None, RDFS.subClassOf, NS.Person)):
-    for s2, p2, o2 in g.triples((None, RDF.type, s1)):
-        print(s2)
+visited = set()
+for s in get_subclasses(NS.Person, subclasses=[NS.Person], graph=g, visited=visited):
+    for s1, p1, o1 in g.triples((None, RDF.type, s)):
+        print(s1)
+
+
+
+print("SPARQL:")
 
 q2 = prepareQuery('''
   SELECT ?Individual WHERE {
@@ -79,18 +107,15 @@ q2 = prepareQuery('''
                   initNs={"rdfs": RDFS, "ns": NS, "rdf": RDF}
                   )
 
-print("SPARQL:")
 for r in g.query(q2):
     print(r.Individual)
 
 
 # **TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
-# 
+#
 
 # In[6]:
 
-
-from rdflib.plugins.sparql import prepareQuery
 
 print("RDFLIB")
 
@@ -98,6 +123,8 @@ for c in [NS.Person, NS.Animal]:
     for s, p, o in g.triples((None, RDF.type, c)):
         for s2, p2, o2 in g.triples((s, None, None)):
             print(s2, p2, o2)
+
+
 print("SPARQL")
 
 combined_query = prepareQuery('''
@@ -123,8 +150,6 @@ for result in g.query(combined_query):
 # In[7]:
 
 
-from rdflib.plugins.sparql import prepareQuery
-
 print("RDFLib:")
 for s, p, o in g.triples((None, RDF.type, NS.Person)):
     for s2, p2, o2 in g.triples((s, FOAF.knows, NS.RockySmith)):
@@ -147,9 +172,6 @@ for ns in g.query(q4):
 
 # In[11]:
 
-
-from collections import Counter
-from rdflib.plugins.sparql import prepareQuery
 
 print("RDFLib:")
 
@@ -180,4 +202,3 @@ for row in g.query(q5):
 
 for entity in entities:
     print(f"Entity {entity} knows at least 2 other entities")
-
