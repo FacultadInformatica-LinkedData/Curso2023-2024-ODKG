@@ -21,6 +21,8 @@ g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/rdf/example6.rdf", format="xml")
+ns = Namespace("http://somewhere#")
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
