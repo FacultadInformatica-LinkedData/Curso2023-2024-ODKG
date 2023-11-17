@@ -19,9 +19,11 @@
 }
 
 .container .header h1 {
+    font-size: 24px;
+    padding-right: 10px;
     color: white !important;
     text-align: center;
-    margin-top: 20px;
+    
 
 }
 
@@ -70,4 +72,15 @@
     height: 60px;
     background: #58629b;
     cursor: pointer;
+}
+
+.back-button {
+    display: block;
+    margin-top: 20px; /* Adjust margin as needed */
+    text-decoration: none;
+    padding: 10px;
+    background-color: #4CAF50; /* Green color, you can change it */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
 }

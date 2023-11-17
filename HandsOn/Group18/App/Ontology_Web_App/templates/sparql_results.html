@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <a href="{% url 'redirect_to_sparql_query' %}" class="back-button">New Search</a>
     <div class="container">
         <div class="header">
             <h1>District: {{ District }}</h1>
@@ -23,7 +24,7 @@
 
         <br>
         <div class="header">
-            <h1>Accidents : {{ query_results.0 }}</h1>
+            <h1>Accidents: {{ query_results.0 }}</h1>
         </div>
         <br>
         <div class="header">
@@ -34,11 +35,11 @@
         </div>
         <br>
         <div class="header">
-            <h1>Area [km2]: {{ query_results.2 }}</h1>
+            <h1>Area[km2]: {{ query_results.2 }}</h1>
         </div>
 
         <div class="header">
-            <h1> per capita: {{ query_results.4 }}</h1>
+            <h1> Per capita: {{ query_results.4 }}</h1>
         </div>
 
         <div class="header">
