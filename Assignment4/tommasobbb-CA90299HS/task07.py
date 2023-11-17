@@ -28,22 +28,16 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery('''
-  SELECT ?subclass
-  WHERE {
-    ?subclass rdfs:subClassOf ns:LivingThing.
+  SELECT ?SubClass WHERE {
+    ?SubClass rdfs:subClassOf* ns:LivingThing.
   }
   ''',
-  initNs = {"rdfs": RDFS, "ns": Namespace("http://somewhere#")}
+  initNs = { "rdfs": RDFS, "ns": Namespace("http://somewhere#")}
 )
 
 # Visualize the results
-print("RDFLib")
-for s, p, o in g.triples((None, RDFS.subClassOf, Namespace("http://somewhere#").LivingThing)):
-  print(s)
-
-print("SPARQL")
 for r in g.query(q1):
-  print(r.subclass)
+  print(r.SubClass)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -51,29 +45,23 @@ for r in g.query(q1):
 
 # TO DO
 q2 = prepareQuery('''
-  SELECT ?individual
-  WHERE {
-    { ?individual rdf:type ns:Person. }
-    UNION
-    { ?individual rdf:type ?subclass.
-      ?subclass rdfs:subClassOf ns:Person. }
+  SELECT ?Individual WHERE {
+    ?Individual rdf:type/rdfs:subClassOf* ns:Person.
   }
   ''',
-  initNs = {"rdf": RDF, "rdfs": RDFS, "ns": Namespace("http://somewhere#")}
+  initNs = { "rdf": RDF, "rdfs":RDFS, "ns": Namespace("http://somewhere#")}
 )
 
+
 # Visualize the results
-print("RDFLib")
-for s, p, o in g.triples((None, RDF.type, Namespace("http://somewhere#").Person)):
-  print(s)
-
-for s, p, o in g.triples((None, RDFS.subClassOf, Namespace("http://somewhere#").Person)):
-  for a, b, c in g.triples((None, RDF.type, s)):
-    print(a)
-
-print("SPARQL")
 for r in g.query(q2):
-  print(r.individual)
+  print(r.Individual)
+
+for sub,pred,obj in g.triples((None, RDF.type , Namespace("http://somewhere#").Person)):
+  print(sub)
+for sub,pred,obj in g.triples((None, RDFS.subClassOf , Namespace("http://somewhere#").Person)):
+  for sub2, pred2, obj2 in g.triples((None, RDF.type, sub)):
+    print(sub2)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
