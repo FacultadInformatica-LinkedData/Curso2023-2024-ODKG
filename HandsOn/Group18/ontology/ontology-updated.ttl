@@ -58,7 +58,7 @@ xsd:date rdf:type rdfs:Datatype .
 ns:belongsDistrict rdf:type owl:ObjectProperty ;
                 rdfs:domain ns:Address ;
                 rdfs:range dbp:District ;
-                rdfs:label "district" .
+                rdfs:label "belongsDistrict" .
 
 
 ###  http://MadridTransit.com/ontology/locatedAt
@@ -121,10 +121,10 @@ ns:code rdf:type owl:DatatypeProperty ;
 
 
 ###  http://MadridTransit.com/ontology/districtCode
-ns:code rdf:type owl:DatatypeProperty ;
+ns:districtCode rdf:type owl:DatatypeProperty ;
         rdfs:domain dbp:District ;
         rdfs:range xsd:integer ;
-        rdfs:label "code" .
+        rdfs:label "districtCode" .
 
 
 ###  http://MadridTransit.com/ontology/description
