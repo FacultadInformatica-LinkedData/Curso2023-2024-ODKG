@@ -7,12 +7,12 @@ Fairfield-Rail-Station,80-Mill-Plain-Rd,Fairfield,https://www.wikidata.org/wiki/
 Foundry66,50-Franklin-St,Norwich,https://www.wikidata.org/wiki/Q631402,24-Hours-Daily,Not-Provided,0,2,0,-72.0741188,41.525611,New-London,00014,104
 Corbins-Corner-Shopping-Center-Tesla-Supercharger,1445-New-Britain-Ave.,West Hartford,https://www.wikidata.org/wiki/Q49140,24-Hours-Daily,For-Tesla-Use-Only,0,0,8,-72.759717,41.722672,Hartford,00213,155
 Glastonburyev,2327-2333-Main-St,Glastonbury,https://www.wikidata.org/wiki/Q753943,24-Hours-Daily,Not-Provided,0,2,0,-72.6086744,41.711717,Hartford,00090,54
-Whole-Foods-Market,150-Ledge-Rd,Darien,https://www.wikidata.org/wiki/Q165613,8am-10pm-Daily,For-Customer-Use-Only,4,0,0,-73.476189,41.072919,Fairfield,00005,35
+Whole-Foods-Market-Darien,150-Ledge-Rd,Darien,https://www.wikidata.org/wiki/Q165613,8am-10pm-Daily,For-Customer-Use-Only,4,0,0,-73.476189,41.072919,Fairfield,00005,35
 Mystic-Marriott-Hotel-And-Spa,625-North-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,"Guest-Use-Only,--See-Front-Desk-For-Access",0,1,0,-72.026147,41.365973,New-London,00243,59
 Brass-Mill-Center-Shoppers-World,495-Union-St,Waterbury,https://www.wikidata.org/wiki/Q49178,6am-12am-Daily,Not-Provided,0,2,0,-73.025659,41.550922,New-Haven,00194,151
 University-Of-Connecticut-Health-Center-Garage,263-Farmington-Ave,Farmington,https://www.wikidata.org/wiki/Q743287,24-Hours-Daily,Not-Provided,0,4,0,-72.79061800000001,41.730405,Hartford,00254,52
 D'addario-Nissan,329-Bridgeport-Ave,Shelton,https://www.wikidata.org/wiki/Q594109,Facility-Opening-Hours,Not-Provided,0,1,1,-73.106051,41.299792,Fairfield,00217,126
-Ct-Rail,198-N-Cherry-St,Wallingford,https://www.wikidata.org/wiki/Q1949294,24-Hours-Daily,Not-Provided,0,2,0,-72.8231924,41.4618954,New-Haven,00195,148
+Ct-Rail-Wallingford,198-N-Cherry-St,Wallingford,https://www.wikidata.org/wiki/Q1949294,24-Hours-Daily,Not-Provided,0,2,0,-72.8231924,41.4618954,New-Haven,00195,148
 Hampton-Inn-&-Suites-Rocky-Hill-Hartford-South-Tesla-Destination,685-Cromwell-Ave,Rocky Hill,https://www.wikidata.org/wiki/Q2572498,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,2,0,-72.679679,41.650999,Hartford,00189,119
 Goodwives-Shopping-Center,25-Old-Kings-Hwy,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,Not-Provided,0,0,1,-73.466318,41.078282,Fairfield,00005,35
 Union-Station-Garage,50-Union-Ave,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Pay-Lot,0,3,0,-72.926722,41.297487000000004,New-Haven,00132,93
@@ -33,26 +33,26 @@ Fairfield-Mitsubishi,421-Tunxis-Hill-Rd,Fairfield,https://www.wikidata.org/wiki/
 Gates-Nissan,143-Boston-Post-Rd,Windham,https://www.wikidata.org/wiki/Q1898521,Facility-Opening-Hours,Not-Provided,0,1,0,-72.188445,41.728247,Windham,00258,163
 Water's-Edge-Resort-And-Spa-Tesla-Destination,1525-Boston-Post-Rd,Westbrook,https://www.wikidata.org/wiki/Q755283,24-Hours-Daily,Not-Provided,0,3,0,-72.43786,41.28006,Middlesex,00127,154
 North-Haven-Paviiion,100-Universal-Dr,North Haven,https://www.wikidata.org/wiki/Q754769,24-Hours-Daily,Not-Provided,0,0,6,-72.870574,41.353572,New-Haven,00168,101
-Union-Station,Union-Ave-and-Union-Station,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,10,0,-72.9270748,41.2975353,New-Haven,00132,93
-Town-Hall,140-Main-St,Torrington,https://www.wikidata.org/wiki/Q755151,24-Hours-Daily,Not-Provided,0,1,0,-73.12122300000001,41.803497,Litchfield,00122,143
+Union-Station-1,Union-Ave-and-Union-Station,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,10,0,-72.9270748,41.2975353,New-Haven,00132,93
+Town-Hall-Torrington,140-Main-St,Torrington,https://www.wikidata.org/wiki/Q755151,24-Hours-Daily,Not-Provided,0,1,0,-73.12122300000001,41.803497,Litchfield,00122,143
 Crowley-Nissan,1451-Farmington-Ave,Bristol,https://www.wikidata.org/wiki/Q755149,Facility-Opening-Hours,Not-Provided,0,2,1,-72.894672,41.699374,Hartford,00219,17
 Parthenon-Diner-Restaurant-Tesla-Destination,374-E-Main-St,Branford,https://www.wikidata.org/wiki/Q898484,24-Hours-Daily,For-Customer-Use-Only,0,1,0,-72.781436,41.296212,New-Haven,00170,14
-Community-Center,10-S-Eagleville-Rd,Mansfield,https://www.wikidata.org/wiki/Q937718,24-Hours-Daily,Not-Provided,0,1,0,-72.242231,41.800421,Tolland,00033,78
+Community-Center-Mansfield,10-S-Eagleville-Rd,Mansfield,https://www.wikidata.org/wiki/Q937718,24-Hours-Daily,Not-Provided,0,1,0,-72.242231,41.800421,Tolland,00033,78
 Manchester-City-Nissan,30-Tolland-Turnpike,Manchester,https://www.wikidata.org/wiki/Q753909,Facility-Opening-Hours,Not-Provided,0,2,0,-72.507845,41.814316,Hartford,00161,77
-City-Hall,142-E-Main-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,4,0,-72.797226,41.536236,New-Haven,00199,80
+City-Hall-1,142-E-Main-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,4,0,-72.797226,41.536236,New-Haven,00199,80
 Sherman-Tyler-Lot,60-N-Frontage-Rd,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Permit-Lot,0,2,0,-72.948514,41.306474,New-Haven,00132,93
 Meriden-Public-Library,105-Miller-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,2,0,-72.796702,41.537218,New-Haven,00199,80
 Blogoslawski-Parking-Garage,10-Franklin-Square,New Britain,https://www.wikidata.org/wiki/Q49172,24-Hours-Daily,Not-Provided,0,2,0,-72.7788286,41.664356600000005,Hartford,00017,89
 Comfort-Inn-Guilford-Tesla-Destination,300-Boston-Post-Rd,Guilford,https://www.wikidata.org/wiki/Q753857,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,2,0,-72.657682,41.287164,New-Haven,00201,60
 Brass-Mill-Center-Entrance-5,495-Union-St,Waterbury,https://www.wikidata.org/wiki/Q49178,6am-12pm-Daily,Not-Provided,0,2,0,-73.02614,41.549361,New-Haven,00194,151
-Town-Hall,933-Hopmeadow-St,Simsbury,https://www.wikidata.org/wiki/Q753950,24-Hours-Daily,Not-Provided,0,2,0,-72.489406,41.983904,Tolland,00143,129
+Town-Hall-Simsbury,933-Hopmeadow-St,Simsbury,https://www.wikidata.org/wiki/Q753950,24-Hours-Daily,Not-Provided,0,2,0,-72.489406,41.983904,Tolland,00143,129
 Connecticut-Legislative-Parking-Garage,240-Capitol-Ave,Hartford,https://www.wikidata.org/wiki/Q33486,7am-7pm-M-f,Not-Provided,0,5,0,-72.684758,41.765434,Hartford,00182,64
 Middletown-School-District-Moody-School,300-Country-Club-Rd,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,2,0,-72.711926,41.563917,Middlesex,00236,83
 Barberino-Nissan,505-N-Colony-St,Wallingford,https://www.wikidata.org/wiki/Q1949294,Facility-Opening-Hours,Not-Provided,0,1,0,-72.817586,41.467376,New-Haven,00195,148
 Cityplace-Garage,185-Asylum-St,Hartford,https://www.wikidata.org/wiki/Q33486,Facility-Opening-Hours,Not-Provided,0,2,0,-72.676489,41.766656,Hartford,00082,64
 Curran-Volkswag,2774-2788-CT-113,Stratford,https://www.wikidata.org/wiki/Q755140,24-Hours-Daily,Not-Provided,0,2,0,-73.132624,41.198568,Fairfield,00218,138
 Inn-At-Stonington,60-Water-St,Stonington,https://www.wikidata.org/wiki/Q755748,24-Hours-Daily,For-Customer-Use-Only,0,3,0,-71.906918,41.331744,New-London,00139,137
-Town-Hall,110-Myrtle-Avenue,Westport,https://www.wikidata.org/wiki/Q586762,Not-Specified,Not-Provided,0,2,0,-73.35947443366,41.145215689458,Fairfield,00179,158
+Town-Hall-Westport,110-Myrtle-Avenue,Westport,https://www.wikidata.org/wiki/Q586762,Not-Specified,Not-Provided,0,2,0,-73.35947443366,41.145215689458,Fairfield,00179,158
 Starwood,1-Star-Point,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,2,0,-73.5318605,41.0409048,Fairfield,00007,135
 Popeyes-Kitchen-Fairfield-Pizza,200-E-Main-St,Stratford,https://www.wikidata.org/wiki/Q755140,24-Hours-Daily,Not-Provided,0,0,1,-73.117486,41.202742,Fairfield,00218,138
 Dunkin'-Donuts-Tesla-Supercharger,160-Kukas-Lane,Waterbury,https://www.wikidata.org/wiki/Q49178,24-Hours-Daily,For-Tesla-Use-Only,0,0,8,-73.005613,41.53713,New-Haven,00194,151
@@ -64,11 +64,11 @@ Summer-Street-Garage,100-Summer-St,Stamford,https://www.wikidata.org/wiki/Q49169
 Municip-Station,3-Primrose-St,Newtown,https://www.wikidata.org/wiki/Q958909,24-Hours-Daily,Not-Provided,0,2,0,-73.2847962,41.4007757,Fairfield,00153,97
 Purdue-Pharma,201-Tresser-Blvd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,4,0,-73.53779,41.050574,Fairfield,00203,135
 Hartford-High-School,55-Forest-St,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,2,0,-72.701271,41.765034,Hartford,00010,64
-Town-Hall,800-Bloomfield-Avenue,Bloomfield,https://www.wikidata.org/wiki/Q542675,24-Hours-Daily,Not-Provided,0,2,0,-72.7373929,41.8298475,Hartford,00224,11
+Town-Hall-Bloomfield,800-Bloomfield-Avenue,Bloomfield,https://www.wikidata.org/wiki/Q542675,24-Hours-Daily,Not-Provided,0,2,0,-72.7373929,41.8298475,Hartford,00224,11
 Gunnery,16-Kirby-Rd,Washington,https://www.wikidata.org/wiki/Q2446223,24-Hours-Daily,Not-Provided,0,2,0,-73.3124,41.628033,Litchfield,00191,150
 University-Of-Connecticut-Storrs-Center-Garage,33-Royce-Cir,Storrs,https://www.wikidata.org/wiki/Q166302,24-Hours-Daily,Not-Provided,0,4,0,-72.2442218,41.8041965,Tolland,00069,78
 Jaglrnh,521-Washington-Ave,North Haven,https://www.wikidata.org/wiki/Q754769,24-Hours-Daily,Not-Provided,0,2,0,-72.8415278,41.4168397,New-Haven,00168,101
-Town-Hall,1-Main-St,Stafford Springs,https://www.wikidata.org/wiki/Q27989426,24-Hours-Daily,Not-Provided,0,4,0,-72.303231,41.953668,Tolland,00034,134
+Town-Hall-Stafford,1-Main-St,Stafford Springs,https://www.wikidata.org/wiki/Q27989426,24-Hours-Daily,Not-Provided,0,4,0,-72.303231,41.953668,Tolland,00034,134
 Charter-Oak-International-Academy,425-Oakwood-Ave,West Hartford,https://www.wikidata.org/wiki/Q49140,24-Hours-Daily,Not-Provided,0,2,0,-72.722829,41.742975,Hartford,00213,155
 Market-Square,90-Market-Square,Newington,https://www.wikidata.org/wiki/Q753915,24-Hours-Daily,Not-Provided,0,4,0,-72.7214,41.6972,Hartford,00086,94
 Riverfield-School,1625-Mill-Plain-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,Facility-Opening-Hours,Not-Provided,0,2,0,-73.267585,41.162306,Fairfield,00111,51
@@ -79,18 +79,18 @@ Riverview-Cinemas-8-And-Playhouse,690-Main-St-S,Southbury,https://www.wikidata.o
 The-Ridgefield-Playhouse,80-E-Ridge-Rd,Ridgefield,https://www.wikidata.org/wiki/Q1505990,24-Hours-Daily,Not-Provided,0,2,0,-73.492605,41.282264,Fairfield,00043,118
 Meriden-Station-Garage,24-Colony-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,3,0,-72.802667,41.539218,New-Haven,00226,80
 Honda-Westport,1372-Post-Rd-E,Westport,https://www.wikidata.org/wiki/Q586762,24-Hours-Daily,Not-Provided,0,3,0,-73.317072,41.138623,Fairfield,00179,158
-Foxwoods,350-Trolley-Line-Blvd,"Mashantucket, Connecticut",https://www.wikidata.org/wiki/Q6783082,24-Hours-Daily,Not-Provided,0,2,0,-71.9600027,41.4733521,New-London,00066,72
-Town-Hall,740-Main-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.6446905,41.7660404,Hartford,00119,43
-Foxwoods,350-Trolley-Line-Blvd,Ledyard,https://www.wikidata.org/wiki/Q1913041,24-Hours-Daily,Not-Provided,0,2,0,-71.9600034,41.4733358,New-London,00066,72
+Foxwoods-1,350-Trolley-Line-Blvd,Mashantucket,https://www.wikidata.org/wiki/Q6783082,24-Hours-Daily,Not-Provided,0,2,0,-71.9600027,41.4733521,New-London,00066,72
+Town-Hall-East-Hartford,740-Main-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.6446905,41.7660404,Hartford,00119,43
+Foxwoods-2,350-Trolley-Line-Blvd,Ledyard,https://www.wikidata.org/wiki/Q1913041,24-Hours-Daily,Not-Provided,0,2,0,-71.9600034,41.4733358,New-London,00066,72
 Plainville-High-School,47-Robert-Holcomb-Way,Plainville,https://www.wikidata.org/wiki/Q2446095,24-Hours-Daily,Not-Provided,0,1,0,-72.8580302,41.6659341,Hartford,00260,110
-Connecticut-Welcome-Center-Tesla-Supercharger,1-West-Ave.,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,For-Tesla-Use-Only,0,0,4,-73.504917,41.067306,Fairfield,00005,35
-Whole-Foods-Market,350-Grasmere-Ave,Fairfield,https://www.wikidata.org/wiki/Q754635,8am-10pm-Daily,For-Customer-Use-Only,0,1,0,-73.240315,41.157925,Fairfield,00111,51
+Connecticut-Welcome-Center-Tesla-Supercharger-1,1-West-Ave.,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,For-Tesla-Use-Only,0,0,4,-73.504917,41.067306,Fairfield,00005,35
+Whole-Foods-Market-Fairfield,350-Grasmere-Ave,Fairfield,https://www.wikidata.org/wiki/Q754635,8am-10pm-Daily,For-Customer-Use-Only,0,1,0,-73.240315,41.157925,Fairfield,00111,51
 Tamarack-Country-Club-Tesla-Destination,55-Locust-Rd,Greenwich,https://www.wikidata.org/wiki/Q49202,24-Hours-Daily,"For-Member-Use-Only,--See-Valet-For-Access",0,3,0,-73.709755,41.094294,Fairfield,00215,57
 Madison-Beach-Hotel-Tesla-Destination,94-W-Wharf-Rd,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Overnight-Valet-Fee,0,2,0,-72.608573,41.27077,New-Haven,00134,76
 Newington-Electric,72-Pane-Rd,Newington,https://www.wikidata.org/wiki/Q753915,24-Hours-Daily,Not-Provided,0,3,0,-72.729203,41.65514,Hartford,00086,94
 Premier-Kia,205-N-Main-St,Branford,https://www.wikidata.org/wiki/Q898484,24-Hours-Daily,Priority-For-Customer-Use,0,1,0,-72.809324,41.289894,New-Haven,00170,14
 The-Shoppes-At-Fox-Run-1,25-Welles-St-#-55,Glastonbury,https://www.wikidata.org/wiki/Q753943,24-Hours-Daily,Not-Provided,0,0,2,-72.608292,41.714088,Hartford,00090,54
-Nbcsg,98-Maher-Rd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,14,0,-73.516045,41.054321,Fairfield,00007,135
+Nbcsg-1,98-Maher-Rd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,14,0,-73.516045,41.054321,Fairfield,00007,135
 Edens-Bishops,345-N-Main-St,West Hartford,https://www.wikidata.org/wiki/Q49140,24-Hours-Daily,Not-Provided,0,2,0,-72.7479436,41.784487,Hartford,00181,155
 Propark-Water-Street-Garage,161-Water-St,New London,https://www.wikidata.org/wiki/Q49146,Facility-Opening-Hours,Not-Provided,8,4,0,-72.093784,41.355486,New-London,00144,95
 Connecticut-Post-Mall-Tesla-Supercharger,1201-Boston-Post-Road,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,For-Tesla-Use-Only,0,0,14,-73.036133,41.238119,New-Haven,00193,84
@@ -100,31 +100,31 @@ Plainville-Municipal-Center,1-Central-Square,Plainville,https://www.wikidata.org
 The-Study-At-Yale-Tesla-Destination,1157-Chapel-St,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,See-Valet-For-Access,0,2,0,-72.932698,41.308741,New-Haven,00275,93
 Connecticut-Science-Center,250-Columbus-Blvd,Hartford,https://www.wikidata.org/wiki/Q33486,6am-6pm-Daily,Not-Provided,0,2,0,-72.668833,41.764376,Hartford,00082,64
 Windham-High-School,355-High-St,Windham,https://www.wikidata.org/wiki/Q1898521,24-Hours-Daily,Not-Provided,0,2,0,-72.214432,41.723169,Tolland,00207,163
-Big-Y-Foods,401-Bridgeport-Ave,Shelton,https://www.wikidata.org/wiki/Q594109,24-Hours-Daily,Not-Provided,0,2,0,-73.11066,41.29434,Fairfield,00217,126
-Whole-Foods-Mkt,5-Sugar-Hollow-Rd,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,1,0,-73.475576,41.3777667,Fairfield,00001,34
+Big-Y-Foods-Shelton,401-Bridgeport-Ave,Shelton,https://www.wikidata.org/wiki/Q594109,24-Hours-Daily,Not-Provided,0,2,0,-73.11066,41.29434,Fairfield,00217,126
+Whole-Foods-Mkt-1,5-Sugar-Hollow-Rd,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,1,0,-73.475576,41.3777667,Fairfield,00001,34
 I-95-Madison-Nb-Service-Plaza-Tesla-Supercharger,I-95-North-Ave,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Tesla-Users-Only,0,0,10,-72.5804966772461,41.2904885216395,New-Haven,00134,76
-Town-Hall,4-Market-St,Canton,https://www.wikidata.org/wiki/Q1033861,24-Hours-Daily,Not-Provided,0,2,0,-72.923177,41.811022,Hartford,00080,23
-Union-Station,50-Union-Ave,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,2,0,-72.9263108,41.2974027,New-Haven,00132,93
+Town-Hall-Canton,4-Market-St,Canton,https://www.wikidata.org/wiki/Q1033861,24-Hours-Daily,Not-Provided,0,2,0,-72.923177,41.811022,Hartford,00080,23
+Union-Station-2,50-Union-Ave,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,2,0,-72.9263108,41.2974027,New-Haven,00132,93
 Tod,120-Main-St,Durham,https://www.wikidata.org/wiki/Q753859,24-Hours-Daily,Not-Provided,0,2,0,-72.6809263,41.472228,Middlesex,00270,38
 Delamar-Southport-Tesla-Destination,275-Old-Post-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,"For-Customer-Use-Only,--See-Valet-For-Access",0,3,0,-73.245943,41.146162,Fairfield,00111,51
 Andrew-Ward-School,755-Melville-Ave,Fairfield,https://www.wikidata.org/wiki/Q754635,Facility-Opening-Hours,Not-Provided,0,2,0,-73.234423,41.185685,Fairfield,00174,51
 Connecticut-Department-Of-Energy-And-Environmental-Protection,79-Elm-St,Hartford,https://www.wikidata.org/wiki/Q33486,8:30am-4:30pm-M-f,Not-Provided,0,2,0,-72.678633,41.763294,Hartford,00182,64
 Arapahoe-Parking-Lot,105-LaSalle-Rd,West Hartford,https://www.wikidata.org/wiki/Q49140,Facility-Opening-Hours,Not-Provided,0,1,0,-72.744596,41.759108000000005,Hartford,00158,155
 Southington-Public-Library,255-Main-St,Southington,https://www.wikidata.org/wiki/Q421913,24-Hours-Daily,Not-Provided,0,2,0,-72.877465,41.596225,Hartford,00176,131
-Nbcsg,84-Maher-Rd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,2,0,-73.5160406,41.053776,Fairfield,00007,135
+Nbcsg-2,84-Maher-Rd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,2,0,-73.5160406,41.053776,Fairfield,00007,135
 Paul-Miller-Nissan,930-Kings-Hwy-E,Fairfield,https://www.wikidata.org/wiki/Q754635,Facility-Opening-Hours,Not-Provided,0,1,1,-73.233711,41.167407,Fairfield,00174,51
-Town-Hall,4-Brush-Hill-Rd,New Fairfield,https://www.wikidata.org/wiki/Q2446204,24-Hours-Daily,Not-Provided,0,1,0,-73.487032,41.465514,Fairfield,00045,91
+Town-Hall-Fairfield,4-Brush-Hill-Rd,New Fairfield,https://www.wikidata.org/wiki/Q2446204,24-Hours-Daily,Not-Provided,0,1,0,-73.487032,41.465514,Fairfield,00045,91
 Chip's-Family-Restaurant-Tesla-Destination,321--Boston-Post-Rd,Orange,https://www.wikidata.org/wiki/Q754766,24-Hours-Daily,For-Customer-Use-Only,0,2,0,-73.004741,41.2645,New-Haven,00196,107
 George-Harte-Nissan,426-Derby-Ave,West Haven,https://www.wikidata.org/wiki/Q54219,Facility-Opening-Hours,Not-Provided,0,2,1,-72.968506,41.307602,New-Haven,00011,156
 Stop-Shop,148-Heights-Rd,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,Not-Provided,0,0,1,-73.4948097,41.070243,Fairfield,00005,35
 East-Shore-District-Health-Department,688-E-Main-St,Branford,https://www.wikidata.org/wiki/Q898484,24-Hours-Daily,2-Hour-Limit,0,6,0,-72.756902,41.305071,New-Haven,00170,14
-Bmw-Ridgefield,746-Danbury-Rd,Ridgefield,https://www.wikidata.org/wiki/Q1505990,Facility-Opening-Hours,Not-Provided,0,2,0,-73.472615,41.331117,Fairfield,00043,118
-Big-Y,22-Spencer-Plain-Rd,Old Saybrook,https://www.wikidata.org/wiki/Q1020609,24-Hours-Daily,Not-Provided,0,1,0,-72.416634,41.28648200000001,Middlesex,00056,106
+Bmw-Ridgefield-1,746-Danbury-Rd,Ridgefield,https://www.wikidata.org/wiki/Q1505990,Facility-Opening-Hours,Not-Provided,0,2,0,-73.472615,41.331117,Fairfield,00043,118
+Big-Y-Saybrook,22-Spencer-Plain-Rd,Old Saybrook,https://www.wikidata.org/wiki/Q1020609,24-Hours-Daily,Not-Provided,0,1,0,-72.416634,41.28648200000001,Middlesex,00056,106
 Green-Farms-Plaza,1460-Post-Rd-E,Westport,https://www.wikidata.org/wiki/Q586762,24-Hours-Daily,Not-Provided,0,0,1,-73.314364,41.138478,Fairfield,00179,158
 Bridgeport-Hospital,267-Grant-St,Bridgeport,https://www.wikidata.org/wiki/Q49174,24-Hours-Daily,Not-Provided,0,2,0,-73.166282,41.190701,Fairfield,00041,15
-Community-Center,3-Buckley-Hwy,Stafford Springs,https://www.wikidata.org/wiki/Q27989426,24-Hours-Daily,Not-Provided,0,1,0,-72.289249,41.956727,Tolland,00034,134
+Community-Center-Stafford,3-Buckley-Hwy,Stafford Springs,https://www.wikidata.org/wiki/Q27989426,24-Hours-Daily,Not-Provided,0,1,0,-72.289249,41.956727,Tolland,00034,134
 Constitution-Plaza-South,109-Constitution-Plaza,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,1,0,-72.670032,41.767185,Hartford,00082,64
-Town-Hall,1712-Main-St,Coventry,https://www.wikidata.org/wiki/Q1020595,24-Hours-Daily,Not-Provided,0,2,0,-72.312334,41.780058,Tolland,00145,32
+Town-Hall-Coventry,1712-Main-St,Coventry,https://www.wikidata.org/wiki/Q1020595,24-Hours-Daily,Not-Provided,0,2,0,-72.312334,41.780058,Tolland,00145,32
 Curran-Volkswagen,2785-Main-St,Stratford,https://www.wikidata.org/wiki/Q755140,Facility-Opening-Hours,Not-Provided,0,1,0,-73.131808,41.198467,Fairfield,00218,138
 644-West-Putnam,644-West-Putnam-Avenue,Greenwich,https://www.wikidata.org/wiki/Q49202,Not-Specified,Not-Provided,0,3,0,-73.6476069,41.016928,Fairfield,00006,57
 Grove-Street-Parking-Garage,65-Grove-Street,New Haven,https://www.wikidata.org/wiki/Q49145,Not-Specified,Not-Provided,0,2,0,-72.9217309,41.3103893,New-Haven,00275,93
@@ -136,28 +136,28 @@ Figaro-Restaurant,90-Elm-St,Enfield,https://www.wikidata.org/wiki/Q2323139,Facil
 Middletown-School-District-Board-Of-Education,311-Hunting-Hill-Ave,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,2,0,-72.647076,41.541535,Middlesex,00236,83
 Mansfield-Parking-Garage,9-Dog-Ln,Storrs,https://www.wikidata.org/wiki/Q166302,Facility-Opening-Hours,Not-Provided,0,4,0,-72.243355,41.804877,Tolland,00033,78
 Brass-Mill-Center-Entrance-6,495-Union-St,Waterbury,https://www.wikidata.org/wiki/Q49178,6am-12pm-Daily,Not-Provided,0,2,0,-73.026799,41.55022,New-Haven,00194,151
-Town-Hall,55-Main-St,Ellington,https://www.wikidata.org/wiki/Q966555,24-Hours-Daily,Not-Provided,0,2,0,-72.467484,41.903582,Tolland,00142,48
+Town-Hall-Ellington,55-Main-St,Ellington,https://www.wikidata.org/wiki/Q966555,24-Hours-Daily,Not-Provided,0,2,0,-72.467484,41.903582,Tolland,00142,48
 Fairfield-Tennis-Center,210-Old-Dam-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,Not-Provided,0,2,0,-73.2665157,41.1247386999999,Fairfield,00111,51
 Trinity-College,18-60-Crescent-St,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,4,0,-72.689438,41.745582,Hartford,00182,64
 Saugatuck-Fire-Station,Railroad-Place,Westport,https://www.wikidata.org/wiki/Q586762,Not-Specified,Not-Provided,0,7,0,-73.370496,41.119206,Fairfield,00179,158
-Comcast,222-New-Park-Dr,Berlin,https://www.wikidata.org/wiki/Q821199,24-Hours-Daily,Not-Provided,0,4,0,-72.749512,41.597163,Hartford,00253,7
-Town-Hall,41-Kent-Green-Blvd,Kent,https://www.wikidata.org/wiki/Q1739029,24-Hours-Daily,Not-Provided,0,2,0,-73.47251,41.727419,Litchfield,00052,68
-Dunkin'-Donuts,1205-Tolland-Tpke,Manchester,https://www.wikidata.org/wiki/Q753909,24-Hours-Daily,Not-Provided,0,0,1,-72.555059,41.797073,Hartford,00161,77
+Comcast-Berlin,222-New-Park-Dr,Berlin,https://www.wikidata.org/wiki/Q821199,24-Hours-Daily,Not-Provided,0,4,0,-72.749512,41.597163,Hartford,00253,7
+Town-Hall-Kent,41-Kent-Green-Blvd,Kent,https://www.wikidata.org/wiki/Q1739029,24-Hours-Daily,Not-Provided,0,2,0,-73.47251,41.727419,Litchfield,00052,68
+Dunkin'-Donuts-Manchester,1205-Tolland-Tpke,Manchester,https://www.wikidata.org/wiki/Q753909,24-Hours-Daily,Not-Provided,0,0,1,-72.555059,41.797073,Hartford,00161,77
 County-Line-Nissan-North,522-Winsted-Rd,Torrington,https://www.wikidata.org/wiki/Q755151,Facility-Opening-Hours,Not-Provided,0,1,0,-73.1107105,41.8269547,Litchfield,00122,143
 Town-Of-Madison,761-Boston-Post-Rd,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Not-Provided,0,2,0,-72.595184,41.28028400000001,New-Haven,00134,76
 Rocky-Neck-State-Park,244-W-Main-St,Niantic,https://www.wikidata.org/wiki/Q754850,Dawn-To-Dusk,Not-Provided,0,2,0,-72.24323,41.300883,New-London,00031,45
 Element-Station,111-Morgan-St,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,2,0,-73.5370682,41.0631099,Fairfield,00084,135
 Saybrook-Point-Marina,2-Bridge-St,Old Saybrook,https://www.wikidata.org/wiki/Q1020609,24-Hours-Daily,Not-Provided,0,1,0,-72.351019,41.283487,Middlesex,00056,106
-Town-Hall,45-Fort-Hill-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.033489,41.345816,New-London,00243,59
+Town-Hall-Groton-1,45-Fort-Hill-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.033489,41.345816,New-London,00243,59
 Harte-Nissan,165-W-Service-Rd,Hartford,https://www.wikidata.org/wiki/Q33486,Facility-Opening-Hours,Not-Provided,0,1,1,-72.656681,41.791382000000006,Hartford,00079,64
 Highland-Park-Market,317-Highland-St,Manchester,https://www.wikidata.org/wiki/Q753909,24-Hours-Daily,Not-Provided,0,2,0,-72.490259,41.766005,Hartford,00263,77
 Nissan-Norwich,691-W-Thames-St,Norwich,https://www.wikidata.org/wiki/Q631402,Facility-Opening-Hours,Not-Provided,0,1,0,-72.097938,41.498591,New-London,00014,104
-Wesleyan-University,56-Hamlin-Ct,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,2,0,0,-72.65242,41.557262,Middlesex,00236,83
+Wesleyan-University-1,56-Hamlin-Ct,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,2,0,0,-72.65242,41.557262,Middlesex,00236,83
 Hampton-Inn,129-Plains-Rd,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,Not-Provided,0,0,4,-73.076682,41.22269,New-Haven,00028,84
 Aitoro-Appliance,401-Westport-Ave,Norwalk,https://www.wikidata.org/wiki/Q54217,Facility-Opening-Hours,Not-Provided,0,1,0,-73.390319,41.126373,Fairfield,00087,103
 Putnam-Downtown-Municipal-Parking-Lot,165-Kennedy-Dr,Putnam,https://www.wikidata.org/wiki/Q1484880,24-Hours-Daily,Not-Provided,0,1,0,-71.9105761999999,41.914329,Windham,00039,116
 Nyala-Gar-3,400-Nyala-Farms-Rd,Westport,https://www.wikidata.org/wiki/Q586762,24-Hours-Daily,Not-Provided,0,2,0,-73.3269248,41.1223426,Fairfield,00179,158
-Whole-Foods-Mkt,5c-Sugar-Hollow-Rd,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,2,0,-73.4755929,41.3781241,Fairfield,00001,34
+Whole-Foods-Mkt-2,5c-Sugar-Hollow-Rd,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,2,0,-73.4755929,41.3781241,Fairfield,00001,34
 East-Norwalk-Library,51-Van-Zant-St,Norwalk,https://www.wikidata.org/wiki/Q54217,24-Hours-Daily,Not-Provided,0,4,0,-73.40565000000001,41.102079,Fairfield,00247,103
 Greenwich-Southbound-Travel-Plaza-Tesla-Supercharger,2000-Merritt-Parkway,Greenwich,https://www.wikidata.org/wiki/Q49202,24-Hours-Daily,For-Tesla-Use-Only,0,0,4,-73.673445,41.040555,Fairfield,00215,57
 Propark-America-Omni-Hotel-Chapel-Square-Garage,155-Temple-St,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Pay-Lot,2,2,0,-72.927405,41.305794,New-Haven,00133,93
@@ -166,17 +166,17 @@ Connecticut-Post-Mall-Target,1201-Boston-Post-Rd,Milford,https://www.wikidata.or
 Spirep,1-N-Water-St,Norwalk,https://www.wikidata.org/wiki/Q54217,24-Hours-Daily,Not-Provided,0,2,0,-73.4165867,41.0999699,Fairfield,00155,103
 Town-Clerk,19-Maple-Ave,Norfolk,https://www.wikidata.org/wiki/Q2446234,24-Hours-Daily,Not-Provided,0,2,0,-73.197598,41.990635,Litchfield,00117,98
 Waterford-Commons,915-Hartford-Turnpike,Waterford,https://www.wikidata.org/wiki/Q2600861,24-Hours-Daily,Not-Provided,0,0,6,-72.150349,41.380138,New-London,00140,152
-Town-Hall,54-E-Main-St,Clinton,https://www.wikidata.org/wiki/Q755130,24-Hours-Daily,Not-Provided,0,2,0,-72.524041,41.276743,Middlesex,00271,27
+Town-Hall-Clinton,54-E-Main-St,Clinton,https://www.wikidata.org/wiki/Q755130,24-Hours-Daily,Not-Provided,0,2,0,-72.524041,41.276743,Middlesex,00271,27
 Cargill-Chevrolet,23-Livery-St,Putnam,https://www.wikidata.org/wiki/Q1484880,24-Hours-Daily,Not-Provided,0,3,0,-71.90810200000001,41.916161,Windham,00039,116
 Bedford-Street-Garage,17-Forest-St,Stamford,https://www.wikidata.org/wiki/Q49169,Facility-Opening-Hours,Not-Provided,0,4,0,-73.537286,41.056092,Fairfield,00203,135
-Town-Hall,5-Haven-Rd,Pomfret,https://www.wikidata.org/wiki/Q2572436,24-Hours-Daily,Not-Provided,0,2,0,-71.9986079999999,41.859648,Windham,00148,112
+Town-Hall-Pomfret,5-Haven-Rd,Pomfret,https://www.wikidata.org/wiki/Q2572436,24-Hours-Daily,Not-Provided,0,2,0,-71.9986079999999,41.859648,Windham,00148,112
 Delamar-Greenwich-Harbor-Tesla-Destination,500-Steamboat-Rd,Greenwich,https://www.wikidata.org/wiki/Q49202,24-Hours-Daily,"For-Customer-Use-Only,--See-Valet-For-Access",0,3,0,-73.623525,41.017757,Fairfield,00006,57
 East-Hartford-Public-Schools-Department-Of-Facilities,734-Tolland-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.602704,41.784813,Hartford,00119,43
 Windham-Municipal-Parking-Lot,48-Church-St,Willimantic,https://www.wikidata.org/wiki/Q754078,24-Hours-Daily,Not-Provided,0,2,0,-72.211716,41.712492,Windham,00207,163
 Heritage-Hotel-Tesla-Destination,522-Heritage-Rd,Southbury,https://www.wikidata.org/wiki/Q917350,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,2,0,-73.225707,41.491538,New-Haven,00099,130
 Tri-town-Teachers-Federal-Credit-Union,61-Jessup-Rd,Westport,https://www.wikidata.org/wiki/Q586762,24-Hours-Daily,Not-Provided,0,2,0,-73.358893,41.140188,Fairfield,00179,158
 Morgan-Street-Garage,155-Morgan-St,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,4,0,-72.672545,41.769974,Hartford,00079,64
-Nbcsg,Unnamed-Road,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,8,0,-73.5160366,41.0532451,Fairfield,00007,135
+Nbcsg-3,Unnamed-Road,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,8,0,-73.5160366,41.0532451,Fairfield,00007,135
 Napoli-Nissan,688-Bridgeport-Ave,Milford,https://www.wikidata.org/wiki/Q755798,Facility-Opening-Hours,Not-Provided,0,1,0,-73.083686,41.209761,New-Haven,00193,84
 Congregational-Church-Of-Somersville,22-Maple-St,Somersville Historic District,https://www.wikidata.org/wiki/Q7559936,24-Hours-Daily,Not-Provided,0,2,0,-72.489406,41.983904,Tolland,00143,129
 I-95-Darien-Nb-Service-Plaza-Tesla-Supercharger,1-E-Trail,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,Tesla-Users-Only,0,0,10,-73.462202,41.079848,Fairfield,00005,35
@@ -197,21 +197,21 @@ Lia-Nissan-Enfield,10-Palomba-Dr,Enfield,https://www.wikidata.org/wiki/Q2323139,
 North-Canaan-Shopping-Center-Tesla-Supercharger,11-E-Main-St,North Canaan,https://www.wikidata.org/wiki/Q2446269,24-Hours-Daily,For-Tesla-Use-Only,0,0,8,-73.322808,42.024351,Litchfield,00233,100
 Lombard-Ford,385-New-Hartford-Rd,Barkhamsted,https://www.wikidata.org/wiki/Q2446108,Facility-Opening-Hours,Not-Provided,0,2,0,-73.042576,41.909753,Litchfield,00048,5
 Danbury-Fair-Mall,7-Backus-Ave,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,0,2,-73.47904,41.380158,Fairfield,00001,34
-Public-Library,57-New-Haven-Ave,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,Not-Provided,0,2,0,-73.053647,41.221934,New-Haven,00193,84
+Public-Library-Milford,57-New-Haven-Ave,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,Not-Provided,0,2,0,-73.053647,41.221934,New-Haven,00193,84
 Public-Parking-Lot,1-Morse-Ct,New Canaan,https://www.wikidata.org/wiki/Q754951,Facility-Opening-Hours,Not-Provided,0,1,0,-73.4924,41.1464,Fairfield,00180,90
-Milford-Travel-Plaza-Tesla-Supercharger,I-95-Milford,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,For-Tesla-Use-Only,0,0,2,-73.009059,41.245823,New-Haven,00193,84
+Milford-Travel-Plaza-Tesla-Supercharger-1,I-95-Milford,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,For-Tesla-Use-Only,0,0,2,-73.009059,41.245823,New-Haven,00193,84
 Ts,1-American-Ln,Greenwich,https://www.wikidata.org/wiki/Q49202,24-Hours-Daily,Not-Provided,0,2,0,-73.7226456,41.0983971,Fairfield,00215,57
 Russell-Mercier-Senior-Center,14-Stonecroft-Dr,Hebron,https://www.wikidata.org/wiki/Q1484910,24-Hours-Daily,Not-Provided,0,2,0,-72.367191,41.65659,Tolland,00068,67
 Roger-Ludlowe-School,689-Unquowa-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,Facility-Opening-Hours,Not-Provided,0,2,0,-73.261769,41.148757,Fairfield,00111,51
 Town-Of-Hebron,15-Gilead-St,Hebron,https://www.wikidata.org/wiki/Q1484910,24-Hours-Daily,Not-Provided,0,2,0,-72.366742,41.658572,Tolland,00068,67
 Southington-Municipal-Center,200-N-Main-St,Southington,https://www.wikidata.org/wiki/Q421913,24-Hours-Daily,Not-Provided,0,2,0,-72.87939,41.606301,Hartford,00176,131
 Middletown-School-District-Middletown-High-School,200-LaRosa-Ln,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,2,0,-72.681921,41.576716,Middlesex,00236,83
-Town-Hall,134-Groton-Long-Point-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.009806,41.341893000000006,New-London,00243,59
-Town-Hall,31-Park-Street,Guilford,https://www.wikidata.org/wiki/Q753857,24-Hours-Daily,Not-Provided,0,2,0,-72.6798002,41.2832367,New-Haven,00201,60
+Town-Hall-Groton-2,134-Groton-Long-Point-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.009806,41.341893000000006,New-London,00243,59
+Town-Hall-Guilford,31-Park-Street,Guilford,https://www.wikidata.org/wiki/Q753857,24-Hours-Daily,Not-Provided,0,2,0,-72.6798002,41.2832367,New-Haven,00201,60
 Trumbull-Mall,5065-Main-Street,Trumbull,https://www.wikidata.org/wiki/Q755134,24-Hours-Daily,Not-Provided,0,2,0,-73.2246399,41.2286526,Fairfield,00076,144
 Parthenon-Diner-Of-Old-Saybrook-Tesla-Destination,809-Boston-Post-Rd,Old Saybrook,https://www.wikidata.org/wiki/Q1020609,24-Hours-Daily,For-Customer-Use-Only,0,1,0,-72.38345,41.292172,Middlesex,00056,106
-Western-Connecticut-State-University,43-Lake-Ave-Extension,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,1,0,-73.492801,41.394446,Fairfield,00060,34
-Big-Y-Foods,224-Salem-Turnpike,Norwich,https://www.wikidata.org/wiki/Q631402,24-Hours-Daily,Not-Provided,0,2,0,-72.12423,41.505790000000005,New-London,00014,104
+Western-Connecticut-State-University-1,43-Lake-Ave-Extension,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,1,0,-73.492801,41.394446,Fairfield,00060,34
+Big-Y-Foods-Norwich,224-Salem-Turnpike,Norwich,https://www.wikidata.org/wiki/Q631402,24-Hours-Daily,Not-Provided,0,2,0,-72.12423,41.505790000000005,New-London,00014,104
 Ridgeway-Shopping-Center,2202-Bedford-St,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,0,1,-73.545939,41.068654,Fairfield,00084,135
 Clark-Memorial-Library,538-Amity-Rd,Bethany,https://www.wikidata.org/wiki/Q2572268,24-Hours-Daily,Not-Provided,0,2,0,-72.99499,41.427276,New-Haven,00064,8
 Orchard-Sherman-Parking-Lot,102-N-Frontage-Rd,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Pay-Lot,0,2,0,-72.944576,41.306583,New-Haven,00275,93
@@ -222,20 +222,20 @@ Isham-Garage,17-Isham-Rd,West Hartford,https://www.wikidata.org/wiki/Q49140,Faci
 Gene-Langan-Vw,816-New-London-Turnpike,Glastonbury,https://www.wikidata.org/wiki/Q753943,24-Hours-Daily,Not-Provided,0,2,0,-72.593366,41.704415,Hartford,00090,54
 I-91-Tech-Park,845-Brook-St,Rocky Hill,https://www.wikidata.org/wiki/Q2572498,24-Hours-Daily,Priority-For-Connecticut-Green-Bank-Employees,0,2,0,-72.676125,41.641774,Hartford,00189,119
 Homestead-Inn-Tesla-Destination,5-Elm-St,New Milford,https://www.wikidata.org/wiki/Q977989,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,2,0,-73.411005,41.580889,Litchfield,00088,96
-Western-Connecticut-State-University,179-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,2,0,-73.44475,41.399432,Fairfield,00001,34
+Western-Connecticut-State-University-2,179-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,2,0,-73.44475,41.399432,Fairfield,00001,34
 Grace-Mayflower-Inn-And-Spa-Tesla-Destination,118-Woodbury-Rd,Washington,https://www.wikidata.org/wiki/Q2446223,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,3,0,-73.305987,41.628601,Litchfield,00191,150
 I-95-Madison-Sb-Service-Plaza-Tesla-Supercharger,I-95-South-Bound,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Tesla-Users-Only,0,0,10,-72.5793623215072,41.291902304928,New-Haven,00134,76
 Bishop's-Orchards-Farm-Market,1355-Boston-Post-Rd,Guilford,https://www.wikidata.org/wiki/Q753857,24-Hours-Daily,Not-Provided,0,2,0,-72.695702,41.290395,New-Haven,00201,60
 Campus-At-Greenhill,108-Leigus-Road,Wallingford,https://www.wikidata.org/wiki/Q1949294,24-Hours-Daily,Not-Provided,0,4,0,-72.775522,41.478889,New-Haven,00195,148
-Connecticut-Department-Of-Motor-Vehicles,1365-Highland-Ave,Cheshire,https://www.wikidata.org/wiki/Q755226,9am-5pm-M-f,Not-Provided,0,1,0,-72.8935933,41.5374181,New-Haven,00063,25
-Town-Hall,2155-Main-St,Glastonbury,https://www.wikidata.org/wiki/Q753943,24-Hours-Daily,Not-Provided,0,1,0,-72.611655,41.706856,Hartford,00090,54
+Connecticut-Department-Of-Motor-Vehicles-Cheshire,1365-Highland-Ave,Cheshire,https://www.wikidata.org/wiki/Q755226,9am-5pm-M-f,Not-Provided,0,1,0,-72.8935933,41.5374181,New-Haven,00063,25
+Town-Hall-Glastonbury,2155-Main-St,Glastonbury,https://www.wikidata.org/wiki/Q753943,24-Hours-Daily,Not-Provided,0,1,0,-72.611655,41.706856,Hartford,00090,54
 Green’s-Farms-Railroad-Station,2-Post-Office-Ln,Westport,https://www.wikidata.org/wiki/Q586762,24-Hours-Daily,Not-Provided,0,1,0,-73.315136,41.122442,Fairfield,00179,158
 Connecticut-Insurance-Exchange-Of-Southington,1133-Meriden-Waterbury-Turnpike,Plantsville,https://www.wikidata.org/wiki/Q7201675,24-Hours-Daily,Not-Provided,0,1,0,-72.88305,41.564358,Hartford,00185,131
 Hoffman-Honda-1,40-Albany-Turnpike,Simsbury,https://www.wikidata.org/wiki/Q753950,24-Hours-Daily,Not-Provided,0,4,0,-72.869331,41.818224,Hartford,00186,128
-Ct-Rail,51-Depot-Rd,Berlin,https://www.wikidata.org/wiki/Q821199,24-Hours-Daily,Not-Provided,0,2,0,-72.7653384,41.6356154,Hartford,00253,7
+Ct-Rail-Berlin,51-Depot-Rd,Berlin,https://www.wikidata.org/wiki/Q821199,24-Hours-Daily,Not-Provided,0,2,0,-72.7653384,41.6356154,Hartford,00253,7
 Three-Rivers-Community-College,574-New-London-Turnpike,Norwich,https://www.wikidata.org/wiki/Q631402,24-Hours-Daily,Not-Provided,0,2,0,-72.10451,41.510596,New-London,00014,104
 Public-Works-Garage,210-E-St,Stafford Springs,https://www.wikidata.org/wiki/Q27989426,24-Hours-Daily,Not-Provided,0,1,0,-72.290233,41.984164,Tolland,00034,134
-Town-Hall,11-Meetinghouse-Ln,Woodbridge,https://www.wikidata.org/wiki/Q1898540,24-Hours-Daily,Not-Provided,0,2,0,-73.014176,41.354138,New-Haven,00061,167
+Town-Hall-Woodbrige,11-Meetinghouse-Ln,Woodbridge,https://www.wikidata.org/wiki/Q1898540,24-Hours-Daily,Not-Provided,0,2,0,-73.014176,41.354138,New-Haven,00061,167
 Steelpointe-Harbor,255-East-Main-Street,Bridgeport,https://www.wikidata.org/wiki/Q49174,Not-Specified,Not-Provided,0,4,0,-73.18122320000002,41.1781223,Fairfield,00002,15
 Comm-Lot-Sta-1,5-Depot-Pl,Bethel,https://www.wikidata.org/wiki/Q263912,24-Hours-Daily,Not-Provided,0,2,0,-73.4145557,41.3703626,Fairfield,00077,9
 The-Promenade-Shops-At-Evergreen-Walk-Tesla-Destination,401-Evergreen-Wy,South Windsor,https://www.wikidata.org/wiki/Q662477,24-Hours-Daily,Not-Provided,0,2,0,-72.556345,41.812203,Hartford,00089,132
@@ -247,7 +247,7 @@ Cumberland-Farms,471-New-Park-Ave,West Hartford,https://www.wikidata.org/wiki/Q4
 Air-Rights-Garage,60-York-St,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Pay-Lot,0,5,0,-72.934141,41.305265,New-Haven,00275,93
 Lime-Rock-Park-Tesla-Destination,60-White-Hollow-Rd,Lakeville,https://www.wikidata.org/wiki/Q983776,24-Hours-Daily,For-Customer-Use-Only,0,11,0,-73.389367,41.930342,Litchfield,00091,122
 Danbury-Fair-Mall-Tesla-Supercharger,7-Backus-Ave,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,For-Tesla-Use-Only,0,0,10,-73.477961,41.379441,Fairfield,00001,34
-Western-Connecticut-State-University,198-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,4,0,-73.443485,41.398492,Fairfield,00001,34
+Western-Connecticut-State-University-3,198-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,4,0,-73.443485,41.398492,Fairfield,00001,34
 Coventry-High-School,78-Ripley-Hill-Rd,Coventry,https://www.wikidata.org/wiki/Q1020595,24-Hours-Daily,Not-Provided,0,2,0,-72.313767,41.782923,Tolland,00145,32
 Bell-Street-Garage,28-Bell-St,Stamford,https://www.wikidata.org/wiki/Q49169,Facility-Opening-Hours,Not-Provided,0,3,0,-73.540733,41.052215,Fairfield,00203,135
 Groton-New-London-Airport,155-Tower-Ave,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.044683,41.332527,New-London,00243,59
@@ -260,7 +260,7 @@ Asnuntuck-Community-College,170-Elm-St,Enfield,https://www.wikidata.org/wiki/Q23
 Fairfield-Nb-Tesla-Supercharger,165-Round-Hill-Road,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,For-Tesla-Use-Only,0,0,12,-73.257123,41.146214,Fairfield,00111,51
 Connecticut-Department-Of-Energy-And-Environmental-Protection-Marine-Headquarters,333-Ferry-Rd,Old Lyme,https://www.wikidata.org/wiki/Q1980190,24-Hours-Daily,Not-Provided,0,2,0,-72.345572,41.312148,New-London,00136,105
 Precision-Motors-Of-Mystic,2400-Gold-Star-Hwy,Mystic,https://www.wikidata.org/wiki/Q584567,24-Hours-Daily,Not-Provided,0,2,0,-71.988657,41.390465,New-London,00135,59
-Wesleyan-University,161-Cross-St,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,4,0,-72.662214,41.550883,Middlesex,00236,83
+Wesleyan-University-2,161-Cross-St,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,4,0,-72.662214,41.550883,Middlesex,00236,83
 Bmw-Bridgeport,43-North-Ave,Bridgeport,https://www.wikidata.org/wiki/Q49174,24-Hours-Daily,Not-Provided,0,2,0,-73.1897466,41.2020685,Fairfield,00074,15
 Connecticut-State-Capitol,210-Capitol-Ave,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,2,0,-72.682868,41.764759,Hartford,00182,64
 Executive-Nissan,900-Universal-Dr-N,North Haven,https://www.wikidata.org/wiki/Q754769,Facility-Opening-Hours,Not-Provided,0,1,1,-72.870997,41.360892,New-Haven,00168,101
@@ -277,13 +277,13 @@ Department-Of-Public-Works,50-Jennings-Rd,Hartford,https://www.wikidata.org/wiki
 Hammonasset-Beach-State-Park-North,1288-Boston-Post-Rd,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Not-Provided,0,4,0,-72.561988,41.26449,New-Haven,00134,76
 Metro-Center-Garage,1-Station-Place,Stamford,https://www.wikidata.org/wiki/Q49169,Not-Specified,Not-Provided,0,1,0,-73.54198740000001,41.0457112,Fairfield,00007,135
 Middletown-Nissan,1153-Newfield-St,Middletown,https://www.wikidata.org/wiki/Q49192,Facility-Opening-Hours,Not-Provided,0,3,1,-72.676141,41.59054,Middlesex,00236,83
-Wesleyan-University,Lawn-Ave-&-High-St,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,1,2,0,-72.65395,41.553597,Middlesex,00236,83
+Wesleyan-University-3,Lawn-Ave-&-High-St,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,1,2,0,-72.65395,41.553597,Middlesex,00236,83
 Municipal-Parking-Lot,83-Market-Square,Newington,https://www.wikidata.org/wiki/Q753915,24-Hours-Daily,Not-Provided,0,2,0,-72.721392,41.696446,Hartford,00086,94
 Ridgeway-Shopping-Center-Tesla-Supercharger,2233-Summer-Street,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,For-Tesla-Use-Only,0,0,12,-73.546435,41.068704,Fairfield,00084,135
 Connecticut-Post-Mall-Nw-Entrance,1201-Boston-Post-Rd,Milford,https://www.wikidata.org/wiki/Q755798,6am-12pm-Daily,Not-Provided,0,2,0,-73.036899,41.23608,New-Haven,00193,84
 Girard-Nissan,425-Gold-Star-Hwy,Groton,https://www.wikidata.org/wiki/Q10385027,Facility-Opening-Hours,Not-Provided,0,1,0,-72.054118,41.370989,New-London,00243,59
-Milford-Travel-Plaza-Tesla-Supercharger,I-95-Milford,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,For-Tesla-Use-Only,0,0,2,-73.010522,41.246242,New-Haven,00193,84
-Goodwin-University,211-Riverside-Dr,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.640075,41.743194,Hartford,00024,43
+Milford-Travel-Plaza-Tesla-Supercharger-2,I-95-Milford,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,For-Tesla-Use-Only,0,0,2,-73.010522,41.246242,New-Haven,00193,84
+Goodwin-University-1,211-Riverside-Dr,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.640075,41.743194,Hartford,00024,43
 Greater-Hartford-Transit-District-Spruce-Street-Lot,1-Union-Pl,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Pay-Lot,1,1,0,-72.68182500000002,41.769417,Hartford,00082,64
 Illiano's-Restaurant,257-W-Town-St,Yantic Falls Historic District,https://www.wikidata.org/wiki/Q8048981,11am-10pm-Daily,Not-Provided,0,1,0,-72.113144,41.55775,New-London,00014,104
 Police-Department,2900-Dixwell-Ave,Hamden,https://www.wikidata.org/wiki/Q755271,24-Hours-Daily,Not-Provided,0,2,0,-72.903596,41.384051,New-Haven,00100,62
@@ -296,45 +296,45 @@ Prestige-Vw,42-46-W-Broad-St,Stamford,https://www.wikidata.org/wiki/Q49169,24-Ho
 Fairfield-Recreation-Center,75-Mill-Plain-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,Not-Provided,0,2,0,-73.264636,41.14221200000001,Fairfield,00111,51
 Norwalk-Community-College,188-Richards-Ave,Norwalk,https://www.wikidata.org/wiki/Q54217,"7am-10pm-M-f,-8am-5pm-Sat",Not-Provided,0,2,0,-73.452539,41.102848,Fairfield,00204,103
 Laz-Fly-Airport-Parking,24-Ella-Grasso-Turnpike,Windsor Locks,https://www.wikidata.org/wiki/Q755206,24-Hours-Daily,Not-Provided,0,2,0,-72.672748,41.918347,Hartford,00021,165
-Ct-Rail,60-State-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,2,0,-72.8007814,41.5394301,New-Haven,00199,80
-Town-Hall,172-Main-St,Killingly,https://www.wikidata.org/wiki/Q1741385,24-Hours-Daily,Not-Provided,0,1,0,-71.88232300000001,41.80577,Windham,00071,69
+Ct-Rail-Meriden,60-State-St,Meriden,https://www.wikidata.org/wiki/Q54220,24-Hours-Daily,Not-Provided,0,2,0,-72.8007814,41.5394301,New-Haven,00199,80
+Town-Hall-Killingly,172-Main-St,Killingly,https://www.wikidata.org/wiki/Q1741385,24-Hours-Daily,Not-Provided,0,1,0,-71.88232300000001,41.80577,Windham,00071,69
 Central-Connecticut-State-University-Welte-Hall-Parking-Lot,105-Ella-Grasso-Blvd,New Britain,https://www.wikidata.org/wiki/Q49172,24-Hours-Daily,Not-Provided,0,3,0,-72.768107,41.693501,Hartford,00110,89
 The-Inn-At-Woodstock-Hill,94-Plaine-Hill-Rd,Woodstock,https://www.wikidata.org/wiki/Q2446178,24-Hours-Daily,Not-Provided,1,1,0,-71.97262186000002,41.94378281,Windham,00070,169
 Wilton-Public-Library,137-Old-Ridgefield-Rd,Wilton,https://www.wikidata.org/wiki/Q2396722,"10am-8pm-M-th,-10am-6pm-F,-10am-5pm-Sat,-1pm-5pm-Sun-(sunday-Hours-In-Winter-Only)",Not-Provided,0,1,0,-73.43124,41.192802,Fairfield,00212,161
 Hajjar,213-Court-St,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,2,0,-72.65018090000001,41.5590961,Middlesex,00236,83
-Goodwin-University,403-Main-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.639362,41.749499,Hartford,00024,43
+Goodwin-University-2,403-Main-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.639362,41.749499,Hartford,00024,43
 Stony-Creek-Brewery-Tesla-Destination,5-Indian-Neck-Ave,Branford,https://www.wikidata.org/wiki/Q898484,24-Hours-Daily,Not-Provided,0,1,0,-72.812491,41.274658,New-Haven,00170,14
-Big-Y,1021-Main-St,Cheshire,https://www.wikidata.org/wiki/Q755226,24-Hours-Daily,Not-Provided,0,2,0,-72.907523,41.476271,New-Haven,00063,25
+Big-Y-Cheshire,1021-Main-St,Cheshire,https://www.wikidata.org/wiki/Q755226,24-Hours-Daily,Not-Provided,0,2,0,-72.907523,41.476271,New-Haven,00063,25
 Connecticut-Post-Mall-Dave-&-Buster's,1201-Boston-Post-Rd,Milford,https://www.wikidata.org/wiki/Q755798,6am-12am-Daily,Not-Provided,0,2,0,-73.033472,41.23636,New-Haven,00193,84
 Mellili-Plaza-Public-Parking,245-DeKoven-Dr,Middletown,https://www.wikidata.org/wiki/Q49192,24-Hours-Daily,Not-Provided,0,12,0,-72.648056,41.561647,Middlesex,00236,83
 Ford-Of-Branford,301-E-Main-St,Branford,https://www.wikidata.org/wiki/Q898484,Facility-Opening-Hours,Not-Provided,0,2,0,-72.789844,41.292505000000006,New-Haven,00170,14
 Morton-Government-Center,239-John-St,Bridgeport,https://www.wikidata.org/wiki/Q49174,24-Hours-Daily,Not-Provided,0,1,0,-73.191423,41.177007,Fairfield,00172,15
-Public-Library,52-Newtown-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.028928,41.347552,New-London,00243,59
-Library,34-Library-Ln,Burlington,https://www.wikidata.org/wiki/Q2446117,24-Hours-Daily,Not-Provided,0,2,0,-72.967327,41.771305,Hartford,00107,20
+Public-Library-Groton,52-Newtown-Rd,Groton,https://www.wikidata.org/wiki/Q10385027,24-Hours-Daily,Not-Provided,0,2,0,-72.028928,41.347552,New-London,00243,59
+Library-Burlington,34-Library-Ln,Burlington,https://www.wikidata.org/wiki/Q2446117,24-Hours-Daily,Not-Provided,0,2,0,-72.967327,41.771305,Hartford,00107,20
 Bruce-Bennett-Nissan,978-Danbury-Rd,Wilton,https://www.wikidata.org/wiki/Q2396722,Facility-Opening-Hours,Not-Provided,0,1,1,-73.435546,41.258992,Fairfield,00212,161
 Park-'n-Fly-Bradley-International-Airport,1186-South-St,Suffield,https://www.wikidata.org/wiki/Q753836,24-Hours-Daily,"Pay-Lot,--See-Attendant-For-Access",0,2,0,-72.663078,41.951328,Hartford,00115,139
 Van-Wilgen's-Garden-Center,51-Valley-Rd,North Branford,https://www.wikidata.org/wiki/Q1898680,9am-5pm-M-f,Not-Provided,0,1,0,-72.766102,41.306955,New-Haven,00131,99
 Reynolds-Subaru,272-Hamburg-Rd,Lyme,https://www.wikidata.org/wiki/Q754630,24-Hours-Daily,Not-Provided,0,2,0,-72.3518219,41.3890729,New-London,00136,75
 Tingue-Dam-Bypass-Channel-Wakeley-Street-Parking-Lot,37-Wakeley-St,Seymour,https://www.wikidata.org/wiki/Q2275932,24-Hours-Daily,Not-Provided,0,2,0,-73.075525,41.394315000000006,New-Haven,00239,124
 Mohegan-Sun,1-Mohegan-Sun-Blvd,Uncasville,https://www.wikidata.org/wiki/Q7882479,24-Hours-Daily,Not-Provided,0,4,0,-72.091456,41.491597,New-London,00015,86
-Comcast,90-Phoenix-Ave,Enfield,https://www.wikidata.org/wiki/Q2323139,24-Hours-Daily,Not-Provided,0,4,0,-72.581611,41.977252,Hartford,00108,49
+Comcast-Enfield,90-Phoenix-Ave,Enfield,https://www.wikidata.org/wiki/Q2323139,24-Hours-Daily,Not-Provided,0,4,0,-72.581611,41.977252,Hartford,00108,49
 Greenlots-92143,665-Commerce-Dr,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,Not-Provided,0,2,0,-73.23358,41.163146,Fairfield,00111,51
 777-Main-Street-Tesla-Supercharger,777-Main-Street,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,For-Tesla-Use-Only,0,0,6,-72.674129,41.766493,Hartford,00082,64
-Bmw-Ridgefield,746-Danbury-Rd,Ridgefield,https://www.wikidata.org/wiki/Q1505990,24-Hours-Daily,Not-Provided,0,0,1,-73.4722156,41.3305782,Fairfield,00043,118
+Bmw-Ridgefield-2,746-Danbury-Rd,Ridgefield,https://www.wikidata.org/wiki/Q1505990,24-Hours-Daily,Not-Provided,0,0,1,-73.4722156,41.3305782,Fairfield,00043,118
 "Doubletree-By-Hilton-Norwalk,-Ct-Tesla-Destination",789-Connecticut-Ave,Norwalk,https://www.wikidata.org/wiki/Q54217,24-Hours-Daily,See-Front-Desk-For-Access,0,1,0,-73.453043,41.092037,Fairfield,00155,103
-Big-Y-Foods,140-suit-A-West-Rd,Ellington,https://www.wikidata.org/wiki/Q966555,24-Hours-Daily,Not-Provided,0,2,0,-72.46388,41.888958,Tolland,00142,48
+Big-Y-Foods-Ellington,140-suit-A-West-Rd,Ellington,https://www.wikidata.org/wiki/Q966555,24-Hours-Daily,Not-Provided,0,2,0,-72.46388,41.888958,Tolland,00142,48
 Wrap-N-Shine-Auto-Spa-Tesla-Destination,97-Bridgeport-Ave-#10,Shelton,https://www.wikidata.org/wiki/Q594109,24-Hours-Daily,For-Customer-Use-Only,0,1,0,-73.097982,41.310498,Fairfield,00217,126
-Western-Connecticut-State-University,190-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,3,0,-73.442053,41.39936,Fairfield,00001,34
+Western-Connecticut-State-University-4,190-White-St,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,Not-Provided,0,3,0,-73.442053,41.39936,Fairfield,00001,34
 Mini-Of-Ffd-Cty,154-US-1-154-post-rd,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,Not-Provided,0,2,0,-73.4569573,41.089032,Fairfield,00005,35
 Delamar-West-Hartford-Tesla-Destination,1-Memorial-Rd,West Hartford,https://www.wikidata.org/wiki/Q49140,24-Hours-Daily,For-Customer-Use-Only,0,3,0,-72.737672,41.760566,Hartford,00251,155
-Connecticut-Department-Of-Motor-Vehicles,60-State-St,Wethersfield,https://www.wikidata.org/wiki/Q755202,8am-5pm-M-f,Not-Provided,0,1,0,-72.655754,41.71866250000001,Hartford,00261,159
+Connecticut-Department-Of-Motor-Vehicles-Wetherfield,60-State-St,Wethersfield,https://www.wikidata.org/wiki/Q755202,8am-5pm-M-f,Not-Provided,0,1,0,-72.655754,41.71866250000001,Hartford,00261,159
 Mill-Plain-Diner-Tesla-Destination,14-Mill-Plain-Rd,Danbury,https://www.wikidata.org/wiki/Q49198,24-Hours-Daily,For-Customer-Use-Only,0,1,0,-73.494706,41.38756,Fairfield,00060,34
 Sherman-Green,1451-Post-Rd,Fairfield,https://www.wikidata.org/wiki/Q754635,24-Hours-Daily,Not-Provided,0,1,0,-73.256774,41.140584,Fairfield,00111,51
 Stamford-Government-Center-Garage,888-Washington-Blvd,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,3,0,-73.542499,41.051637,Fairfield,00203,135
 Z-Airport-Parking,3-International-Dr,East Granby,https://www.wikidata.org/wiki/Q2446250,24-Hours-Daily,Not-Provided,0,1,0,-72.709138,41.928233,Hartford,00225,40
 Hyatt-Regency-Greenwich-Tesla-Destination,1800-E-Putnam-Ave,Greenwich,https://www.wikidata.org/wiki/Q49202,24-Hours-Daily,For-Customer-Use-Only,0,2,0,-73.566753,41.046329,Fairfield,00250,57
 Surface-Parking-Lot,121-Main-St,New Britain,https://www.wikidata.org/wiki/Q49172,24-Hours-Daily,Not-Provided,0,2,0,-72.781161,41.666233,Hartford,00017,89
-Library,150-Main-St,Deep River,https://www.wikidata.org/wiki/Q1901319,24-Hours-Daily,See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge,1,1,0,-72.43670100000001,41.386805,Middlesex,00272,36
+Library-Deep-River,150-Main-St,Deep River,https://www.wikidata.org/wiki/Q1901319,24-Hours-Daily,See-Code-On-The-Face-Of-Charger-Or-Ask-Librarian-To-Initiate-Charge,1,1,0,-72.43670100000001,41.386805,Middlesex,00272,36
 State-House-Square,10-90-State-House-Square,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,1,0,-72.671417,41.766822,Hartford,00082,64
 Train-Station-Parking,1-Railroad-Ave,Milford,https://www.wikidata.org/wiki/Q755798,24-Hours-Daily,Not-Provided,0,2,0,-73.060012,41.222682,New-Haven,00193,84
 Hammonasset-Beach-State-Park-Meig's-Point-Nature-Center,1288-Boston-Post-Rd,Madison,https://www.wikidata.org/wiki/Q598553,24-Hours-Daily,Not-Provided,0,4,0,-72.546017,41.251952,New-Haven,00134,76
@@ -344,9 +344,9 @@ Fairfield-Train-Station-Overflow-Lot,140-Mill-Plain-Rd,Fairfield,https://www.wik
 Metro-Center-1,One-Station-Place,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,1,0,-73.542177,41.046112,Fairfield,00007,135
 Dinosaur-State-Park-And-Arboretum,400-West-St,Rocky Hill,https://www.wikidata.org/wiki/Q2572498,Facility-Opening-Hours,Not-Provided,0,2,0,-72.658514,41.651179,Hartford,00189,119
 Staples-High-School,70-North-Avenue,Westport,https://www.wikidata.org/wiki/Q586762,Not-Specified,Not-Provided,0,2,0,-73.3304754,41.1526176,Fairfield,00179,158
-Town-Hall,979-Main-St,Windham,https://www.wikidata.org/wiki/Q1898521,24-Hours-Daily,Not-Provided,0,2,0,-72.217506,41.71292,Windham,00207,163
-Town-Hall,50-S-Main-St,West Hartford,https://www.wikidata.org/wiki/Q49140,Facility-Opening-Hours,Not-Provided,0,2,0,-72.741204,41.758754,Hartford,00158,155
-Connecticut-Welcome-Center-Tesla-Supercharger,1-E-Trail,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,For-Tesla-Use-Only,0,0,4,-73.46135,41.080103,Fairfield,00005,35
+Town-Hall-Windham,979-Main-St,Windham,https://www.wikidata.org/wiki/Q1898521,24-Hours-Daily,Not-Provided,0,2,0,-72.217506,41.71292,Windham,00207,163
+Town-Hall-West-Hartford,50-S-Main-St,West Hartford,https://www.wikidata.org/wiki/Q49140,Facility-Opening-Hours,Not-Provided,0,2,0,-72.741204,41.758754,Hartford,00158,155
+Connecticut-Welcome-Center-Tesla-Supercharger-2,1-E-Trail,Darien,https://www.wikidata.org/wiki/Q165613,24-Hours-Daily,For-Tesla-Use-Only,0,0,4,-73.46135,41.080103,Fairfield,00005,35
 Temple-Street-Garage,1-Temple-St,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Pay-Lot,0,3,0,-72.928369,41.304245,New-Haven,00133,93
 Minor-Memorial-Library,23-South-St,Roxbury,https://www.wikidata.org/wiki/Q2076302,24-Hours-Daily,Not-Provided,0,1,0,-73.30764000000002,41.55358,Litchfield,00095,120
 Szczesny-Parking-Garage,31-Bank-St,New Britain,https://www.wikidata.org/wiki/Q49172,24-Hours-Daily,Not-Provided,0,2,0,-72.78037,41.666879,Hartford,00017,89
@@ -354,25 +354,25 @@ Ge-Ws-Price-Chopper-#243-Storrs-Ct-1,1220--Storrs-Rd,Mansfield,https://www.wikid
 Aamco-Ev,133-Pitkin-St,East Hartford,https://www.wikidata.org/wiki/Q754618,24-Hours-Daily,Not-Provided,0,2,0,-72.65266880000001,41.7632299,Hartford,00119,43
 Winvian-Farm-Tesla-Destination,155-Alain-White-Rd,Morris,https://www.wikidata.org/wiki/Q2446194,24-Hours-Daily,"For-Customer-Use-Only,--See-Front-Desk-For-Access",0,3,0,-73.201059,41.697035,Litchfield,00120,87
 Brass-Mill-Center-Entrance-3,495-Union-St,Waterbury,https://www.wikidata.org/wiki/Q49178,6am-12pm-Daily,Not-Provided,0,4,0,-73.023973,41.549008,New-Haven,00194,151
-Comm-Lot-Sta-1,13-Durant-Ave.,Bethel,https://www.wikidata.org/wiki/Q263912,24-Hours-Daily,Not-Provided,0,2,0,-73.4178034,41.3762377,Fairfield,00077,9
+Comm-Lot-Sta-2,13-Durant-Ave.,Bethel,https://www.wikidata.org/wiki/Q263912,24-Hours-Daily,Not-Provided,0,2,0,-73.4178034,41.3762377,Fairfield,00077,9
 Waterbury-oxford-Airport,300-Christian-St,Oxford,https://www.wikidata.org/wiki/Q1759458,24-Hours-Daily,Not-Provided,0,2,0,-73.146142,41.477151000000006,New-Haven,00012,108
 Shagbark-Lumber-And-Farm-Supply,1-Mt-Parnassus-Millington-Rd,East Haddam,https://www.wikidata.org/wiki/Q1277891,24-Hours-Daily,Not-Provided,0,1,0,-72.442533,41.463278,Middlesex,00192,41
 Metro-Green-Residential-Parking-Tesla-Destination,717--Atlantic-St,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,3,0,-73.540098,41.04514,Fairfield,00007,135
 Hartford-Road-Henny-Penny,969-Hartford-Road,Waterford,https://www.wikidata.org/wiki/Q2600861,24-Hours-Daily,Not-Provided,0,2,0,-72.1591426,41.3874871,New-London,00140,152
-Foxwoods,101-Trolley-Line-Blvd,"Mashantucket, Connecticut",https://www.wikidata.org/wiki/Q6783082,24-Hours-Daily,Not-Provided,0,2,0,-71.9523342,41.469981700000005,New-London,00066,72
+Foxwoods-3,101-Trolley-Line-Blvd,Mashantucket,https://www.wikidata.org/wiki/Q6783082,24-Hours-Daily,Not-Provided,0,2,0,-71.9523342,41.469981700000005,New-London,00066,72
 Convention-Center-Hartford,100-Columbus-Blvd,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Pay-Lot,0,6,0,-72.668973,41.762852,Hartford,00082,64
 County-Line-Buick-nissan,2191-Straits-Turnpike,Middlebury,https://www.wikidata.org/wiki/Q2572235,Facility-Opening-Hours,Not-Provided,0,1,0,-73.098764,41.568122,New-Haven,00200,81
 Mystic-Aquarium,55-Coogan-Blvd,Mystic,https://www.wikidata.org/wiki/Q584567,24-Hours-Daily,Not-Provided,0,0,1,-71.954088,41.373074,New-London,00135,137
 University-Of-Connecticut-Waterbury,99-E-Main-St,Waterbury,https://www.wikidata.org/wiki/Q49178,24-Hours-Daily,Not-Provided,0,2,0,-73.038135,41.555816,New-Haven,00167,151
 Danbury-Parking-Authority,21-Delay-St,Danbury,https://www.wikidata.org/wiki/Q49198,Facility-Opening-Hours,Not-Provided,0,2,0,-73.451059,41.396042,Fairfield,00001,34
 Infinitygreen,201-Commons-Park-S,Stamford,https://www.wikidata.org/wiki/Q49169,24-Hours-Daily,Not-Provided,0,2,0,-73.5405387,41.040838,Fairfield,00007,135
-City-Hall,35-Arch-St,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,1,0,-72.672842,41.762206,Hartford,00082,64
+City-Hall-2,35-Arch-St,Hartford,https://www.wikidata.org/wiki/Q33486,24-Hours-Daily,Not-Provided,0,1,0,-72.672842,41.762206,Hartford,00082,64
 White-Hart-Inn-Tesla-Destination,15-Undermountain-Rd,Salisbury,https://www.wikidata.org/wiki/Q2323182,24-Hours-Daily,For-Customer-Use-Only,0,1,0,-73.42219800000001,41.98483,Litchfield,00268,122
 Premier-Subaru,155-N-Main-St,Branford,https://www.wikidata.org/wiki/Q898484,24-Hours-Daily,Not-Provided,0,2,0,-72.813257,41.287914,New-Haven,00170,14
 Central-Connecticut-State-University-Student-Center-Parking-Garage,165-Ella-Grasso-Blvd,New Britain,https://www.wikidata.org/wiki/Q49172,24-Hours-Daily,Not-Provided,0,3,0,-72.7663278757019,41.6938875513217,Hartford,00110,89
 University-Of-Connecticut-South-Parking-Garage,505-Jim-Calhoun-Way,Storrs,https://www.wikidata.org/wiki/Q166302,Facility-Opening-Hours,Not-Provided,0,2,0,-72.253601,41.805152,Tolland,00069,78
 Carter-Chevrolet,175-Hartford-Turnpike,Vernon,https://www.wikidata.org/wiki/Q1528854,Facility-Opening-Hours,Not-Provided,0,2,1,-72.5009065449829,41.8218766595564,Tolland,00248,146
-Dunkin'-Donuts,189-Forbes-Ave,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,0,1,-72.9,41.294167,New-Haven,00130,93
+Dunkin'-Donuts-New-Haven,189-Forbes-Ave,New Haven,https://www.wikidata.org/wiki/Q49145,24-Hours-Daily,Not-Provided,0,0,1,-72.9,41.294167,New-Haven,00130,93
 Human-Services-Center,330-Park-Avenue,Bloomfield,https://www.wikidata.org/wiki/Q542675,Not-Specified,Not-Provided,0,2,0,-72.712466,41.8234945,Hartford,00224,11
 Grand-Central-Fashion-Plaza-Shopping-Center-Tesla-Supercharger,1145-High-Ridge-Rd,North Stamford,https://www.wikidata.org/wiki/Q7056821,24-Hours-Daily,For-Tesla-Use-Only,0,0,8,-73.546513,41.107722,Fairfield,00084,135
 University-Of-Connecticut-North-Parking-Garage,103-N-Eagleville-Rd,Storrs,https://www.wikidata.org/wiki/Q166302,Facility-Opening-Hours,Not-Provided,0,2,0,-72.258277,41.809176,Tolland,00069,78

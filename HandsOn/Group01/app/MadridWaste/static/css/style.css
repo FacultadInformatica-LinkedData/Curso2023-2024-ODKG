@@ -1,0 +1,37 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.image-container {
+  width: 50%;
+}
+
+
+/* Style for the chart container */
+#chartContainer {
+    width: 60%;
+    margin: auto;
+}
+
+/* Style for the canvas */
+#chartContainer canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+
+  /* DataTables Custom Styling */
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    margin-right: 10px; /* Increase space between pagination buttons */
+}
