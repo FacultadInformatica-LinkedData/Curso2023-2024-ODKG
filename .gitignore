@@ -2,3 +2,17 @@
 HandsOn/.DS_Store
 
 HandsOn/Group01/.DS_Store
+
+HandsOn/Group01/csv/.DS_Store
+
+*.bkp
+
+HandsOn/Group01/ontology/.DS_Store
+
+.DS_Store
+
+HandsOn/Group01/ontology/.$WasteManagement.drawio.dtmp
+
+.idea
+__pycache__/
+

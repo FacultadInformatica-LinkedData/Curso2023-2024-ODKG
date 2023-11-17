@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Include Leaflet CSS for the maps page -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.7.1/leaflet.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+
+</head>
+<body>
+    <div id="wrapper" class="d-flex">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" class="bg-dark" style="width: 20%;">
+            <ul class="sidebar-nav list-unstyled">
+                <a href="/"><img src="/static/images/home_logo.png"  style="width:60px;height:60px;"></a>
+            </ul>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper" style="width: 80%;">
+            <div class="container-fluid">
+                {% block body %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="http://cdn.leafletjs.com/leaflet/v1.7.1/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% block scripts %}
+    {% endblock %}
+
+</body>
+</html>

@@ -39,6 +39,11 @@ ns:hasAddress a owl:ObjectProperty ;
     rdfs:domain ns:Facility ;
     rdfs:range ns:Address .
 
+ns:isInDistrict a owl:ObjectProperty ;
+    rdfs:label "is in district" ;
+    rdfs:domain ns:Neighborhood ;
+    rdfs:range ns:District .
+
 ns:isInNeighborhood a owl:ObjectProperty ;
     rdfs:label "is in neighborhood" ;
     rdfs:domain ns:Address,
@@ -89,10 +94,6 @@ ns:Activity a owl:Class ;
 ns:District a owl:Class ;
     rdfs:label "District" .
 
-ns:Neighborhood a owl:Class ;
-    rdfs:label "Neighborhood" ;
-    rdfs:subClassOf ns:District .
-
 ns:Park a owl:Class ;
     rdfs:label "Park" .
 
@@ -101,4 +102,7 @@ ns:Address a owl:Class ;
 
 ns:Facility a owl:Class ;
     rdfs:label "Facility" .
+
+ns:Neighborhood a owl:Class ;
+    rdfs:label "Neighborhood" .
 

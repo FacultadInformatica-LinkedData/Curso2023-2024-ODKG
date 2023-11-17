@@ -1,0 +1,26 @@
+#Verify the linking for date with wikidata
+PREFIX bsh: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT ?date ?wikidataEntity
+WHERE {
+  ?subjectUri bsh:date ?date .
+  ?subjectUri owl:sameAs ?wikidataEntity .
+}
+
+#Verify the linking for hour with wikidata
+PREFIX bsh: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT ?hour ?wikidataEntity
+WHERE {
+  ?subjectUri bsh:hour ?hour .
+  ?subjectUri owl:sameAs ?wikidataEntity .
+}
+
+#Verify the linking for season with wikidata
+PREFIX bsh: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT ?season ?wikidataEntity
+WHERE {
+  ?subjectUri bsh:season ?season .
+  ?subjectUri owl:sameAs ?wikidataEntity .
+}

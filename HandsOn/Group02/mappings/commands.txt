@@ -1,0 +1,29 @@
+1.-Make sure you have a recent version of Node.js installed.
+
+2.-Install the yarrrml-parser, which translates YARRRML rules to RML rules.
+    npm i @rmlio/yarrrml-parser -g
+
+3.-Make sure you have a recent version of Java installed.
+
+4.-Make sure you have a recent version of the RMLMapper. (https://github.com/RMLio/rmlmapper-java)
+    You can either download a release or build it from source.
+
+5.- Write your YARRRML rules. For example, in the document called rules.yml.
+
+6.-Translate the YARRRML rules and execute the RMLMapper with the corresponding RML rules.
+
+    yarrrml-parser -i rules.yml -o rules.rml.ttl
+    java -jar /path/to/rmlmapper.jar -m rules.rml.ttl
+
+[The generated RDF triples and quads are directed to standard output,
+but you can send them to a file by using the option -o /path/to/outputfile of the RMLMapper.]
+
+#################GENERATE RML
+A)yarrrml-parser -i rules.yml -o rules.rml
+B)yarrrml-parser -i rules-with-links.yml -o rules-with-links.rml
+C)yarrrml-parser -i rules-with-links-updated.yml -o rules-with-links-updated.rml
+
+#################GENERATE RDF
+A)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules.rml -o ..\rdf\rdf_with_rules.ttl
+B)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links.rml -o ..\rdf\rdf_with_rules-with-links.ttl
+C)java -jar .\rmlmapper-6.2.2-r371-all.jar -m .\rules-with-links-updated.rml -o ..\rdf\rdf_with_rules-with-links-updated.ttl
