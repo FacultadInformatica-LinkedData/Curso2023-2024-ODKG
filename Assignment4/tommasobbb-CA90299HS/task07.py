@@ -39,6 +39,18 @@ q1 = prepareQuery('''
 for r in g.query(q1):
   print(r.SubClass)
 
+#RDFLib
+subclasses = set()
+
+def find_subclasses(class_uri):
+    for subclass in g.subjects(RDFS.subClassOf, class_uri):
+        subclasses.add(subclass)
+        find_subclasses(subclass)
+find_subclasses(ns.LivingThing)
+
+for subclass in subclasses:
+    print(subclass)
+
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
@@ -111,6 +123,31 @@ q4 = prepareQuery('''
 for r in g.query(q4):
     print(r)
 
+
+#RDFLib
+from rdflib import Namespace, RDF, RDFS
+from rdflib.namespace import FOAF
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
+
+persons = []
+def find_persons(tclass):
+    for s, p, o in g.triples((None, RDF.type, tclass)):
+        persons.append(s)
+    for s, p, o in g.triples((None, RDFS.subClassOf, tclass)):
+        find_persons(s)
+find_persons(ns.Person)
+
+knows = []
+for pe in persons:
+    for s, p, o in g.triples((pe, FOAF.knows, ns.RockySmith)):
+        knows.append(pe)
+for k in knows:
+    for s, p, o in g.triples((k, VCARD.FN, None)):
+      knows[knows.index(k)] = o
+
+for k in knows:
+  print(k)
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
@@ -130,3 +167,14 @@ q5 = prepareQuery('''
 # Visualize the results
 for r in g.query(q5):
     print(r)
+
+
+#RDFLib
+from collections import defaultdict
+
+knows_count = defaultdict(int)
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    knows_count[s] += 1
+for entity, count in knows_count.items():
+    if count >= 2:
+        print(entity)
