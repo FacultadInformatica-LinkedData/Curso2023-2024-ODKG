@@ -4,26 +4,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix map: <http://mapping.example.com/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix schema: <http://schema.org/> .
 @prefix me: <http://madrid.encuentra.es/resource/> .
-@prefix esagenda: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> .
 @prefix vocab: <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda> .
 
 map:map_event_000 rml:logicalSource map:source_000 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "event" ;
-	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007 ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009 ;
 	rr:subjectMap map:s_000 .
 
 map:map_facility_000 rml:logicalSource map:source_001 ;
 	rdf:type rr:TriplesMap ;
 	rdfs:label "facility" ;
-	rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023, map:pom_024, map:pom_025, map:pom_026, map:pom_027, map:pom_028 ;
+	rr:predicateObjectMap map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023, map:pom_024, map:pom_025, map:pom_026, map:pom_027 ;
 	rr:subjectMap map:s_001 .
 
 map:om_000 rdf:type rr:ObjectMap ;
-	rr:constant vocab:Evento ;
+	rr:constant schema:Evento ;
 	rr:termType rr:IRI .
 
 map:om_001 rml:reference "TITULO" ;
@@ -58,83 +59,82 @@ map:om_006 rml:reference "ID-EVENTO" ;
 
 map:om_007 rml:reference "NOMBRE-INSTALACION" ;
 	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "LATITUD" ;
+	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_008 rdf:type rr:ObjectMap ;
-	rr:constant me:Facility ;
+map:om_009 rml:reference "LONGITUD" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_010 rdf:type rr:ObjectMap ;
+	rr:constant me:facility ;
 	rr:termType rr:IRI .
 
-map:om_009 rml:reference "NOMBRE" ;
+map:om_011 rml:reference "NOMBRE" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_010 rml:reference "DESCRIPCION-ENTIDAD" ;
+map:om_012 rml:reference "DESCRIPCION-ENTIDAD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_011 rml:reference "HORARIO" ;
+map:om_013 rml:reference "HORARIO" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_012 rml:reference "ACCESIBILIDAD" ;
+map:om_014 rml:reference "ACCESIBILIDAD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_013 rml:reference "CONTENT-URL" ;
+map:om_015 rml:reference "CONTENT-URL" ;
 	rdf:type rr:ObjectMap ;
 	rr:termType rr:IRI .
 
-map:om_014 rml:reference "NOMBRE-VIA" ;
+map:om_016 rml:reference "NOMBRE-VIA" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_015 rml:reference "CLASE-VIAL" ;
+map:om_017 rml:reference "TIPO-NUM" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_016 rml:reference "TIPO-NUM" ;
+map:om_018 rml:reference "NUM" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_017 rml:reference "NUM" ;
+map:om_019 rml:reference "LOCALIDAD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_018 rml:reference "LOCALIDAD" ;
+map:om_020 rml:reference "PROVINCIA" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_019 rml:reference "PROVINCIA" ;
+map:om_021 rml:reference "CODIGO-POSTAL" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_020 rml:reference "CODIGO-POSTAL" ;
+map:om_022 rml:reference "COD-BARRIO" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_021 rml:reference "COD-BARRIO" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
-	rr:termType rr:Literal .
-
-map:om_022 rml:reference "BARRIO" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
-	rr:termType rr:Literal .
-
-map:om_023 rml:reference "COD-DISTRITO" ;
+map:om_023 rml:reference "BARRIO" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
@@ -144,22 +144,16 @@ map:om_024 rml:reference "DISTRITO" ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_025 rml:reference "COORDENADA-X" ;
+map:om_025 rml:reference "distrito_wikidata" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:IRI .
+
+map:om_026 rml:reference "LATITUD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
 
-map:om_026 rml:reference "COORDENADA-Y" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
-	rr:termType rr:Literal .
-
-map:om_027 rml:reference "LATITUD" ;
-	rdf:type rr:ObjectMap ;
-	rr:datatype xsd:string ;
-	rr:termType rr:Literal .
-
-map:om_028 rml:reference "LONGITUD" ;
+map:om_027 rml:reference "LONGITUD" ;
 	rdf:type rr:ObjectMap ;
 	rr:datatype xsd:string ;
 	rr:termType rr:Literal .
@@ -168,88 +162,85 @@ map:pm_000 rdf:type rr:PredicateMap ;
 	rr:constant rdf:type .
 
 map:pm_001 rdf:type rr:PredicateMap ;
-	rr:constant me:name .
+	rr:constant schema:name .
 
 map:pm_002 rdf:type rr:PredicateMap ;
-	rr:constant me:description .
+	rr:constant schema:description .
 
 map:pm_003 rdf:type rr:PredicateMap ;
-	rr:constant vocab:fechaInicio .
+	rr:constant schema:startDate .
 
 map:pm_004 rdf:type rr:PredicateMap ;
-	rr:constant vocab:fechaFin .
+	rr:constant schema:endDate .
 
 map:pm_005 rdf:type rr:PredicateMap ;
-	rr:constant vocab:horaInicio .
+	rr:constant schema:openingHoursSpecification .
 
 map:pm_006 rdf:type rr:PredicateMap ;
 	rr:constant me:id .
 
 map:pm_007 rdf:type rr:PredicateMap ;
-	rr:constant me:Facility .
+	rr:constant me:facility .
 
 map:pm_008 rdf:type rr:PredicateMap ;
-	rr:constant rdf:type .
+	rr:constant schema:latitude .
 
 map:pm_009 rdf:type rr:PredicateMap ;
-	rr:constant me:name .
+	rr:constant schema:longitude .
 
 map:pm_010 rdf:type rr:PredicateMap ;
-	rr:constant me:descripcion .
+	rr:constant rdf:type .
 
 map:pm_011 rdf:type rr:PredicateMap ;
-	rr:constant me:horario .
+	rr:constant schema:name .
 
 map:pm_012 rdf:type rr:PredicateMap ;
-	rr:constant me:accesible .
+	rr:constant schema:descripcion .
 
 map:pm_013 rdf:type rr:PredicateMap ;
-	rr:constant me:contentURL .
+	rr:constant schema:openingHoursSpecification .
 
 map:pm_014 rdf:type rr:PredicateMap ;
-	rr:constant vocab:nombreVia .
+	rr:constant vocab:accesible .
 
 map:pm_015 rdf:type rr:PredicateMap ;
-	rr:constant vocab:claseVial .
+	rr:constant me:contentURL .
 
 map:pm_016 rdf:type rr:PredicateMap ;
-	rr:constant vocab:tipoNum .
+	rr:constant schema:streetAddress .
 
 map:pm_017 rdf:type rr:PredicateMap ;
-	rr:constant vocab:num .
+	rr:constant me:tipoNum .
 
 map:pm_018 rdf:type rr:PredicateMap ;
-	rr:constant vocab:localidad .
+	rr:constant me:num .
 
 map:pm_019 rdf:type rr:PredicateMap ;
-	rr:constant vocab:provincia .
+	rr:constant schema:addressLocality .
 
 map:pm_020 rdf:type rr:PredicateMap ;
-	rr:constant vocab:codigoPostal .
+	rr:constant me:provincia .
 
 map:pm_021 rdf:type rr:PredicateMap ;
-	rr:constant vocab:codBarrio .
+	rr:constant me:postalCode .
 
 map:pm_022 rdf:type rr:PredicateMap ;
-	rr:constant vocab:barrio .
+	rr:constant me:codBarrio .
 
 map:pm_023 rdf:type rr:PredicateMap ;
-	rr:constant vocab:codDistrito .
+	rr:constant me:barrio .
 
 map:pm_024 rdf:type rr:PredicateMap ;
-	rr:constant vocab:distrito .
+	rr:constant me:distrito .
 
 map:pm_025 rdf:type rr:PredicateMap ;
-	rr:constant vocab:coordenadaX .
+	rr:constant me:distrito_wiki .
 
 map:pm_026 rdf:type rr:PredicateMap ;
-	rr:constant vocab:coordenadaY .
+	rr:constant schema:latitude .
 
 map:pm_027 rdf:type rr:PredicateMap ;
-	rr:constant vocab:latitud .
-
-map:pm_028 rdf:type rr:PredicateMap ;
-	rr:constant vocab:longitud .
+	rr:constant schema:longitude .
 
 map:pom_000 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_000 ;
@@ -363,10 +354,6 @@ map:pom_027 rdf:type rr:PredicateObjectMap ;
 	rr:objectMap map:om_027 ;
 	rr:predicateMap map:pm_027 .
 
-map:pom_028 rdf:type rr:PredicateObjectMap ;
-	rr:objectMap map:om_028 ;
-	rr:predicateMap map:pm_028 .
-
 map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_event_000, map:map_facility_000 ;
 	rdf:type <http://rdfs.org/ns/void#Dataset> .
 
@@ -376,8 +363,9 @@ map:s_000 rdf:type rr:SubjectMap ;
 map:s_001 rdf:type rr:SubjectMap ;
 	rr:template "http://madrid.encuentra.es/resource/Facility/{PK}" .
 
-map:source_000 rml:referenceFormulation ql:CSV ;
-	rml:source "datacsv.csv" ;
+map:source_000 rml:iterator "$.data[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data.json" ;
 	rdf:type rml:LogicalSource .
 
 map:source_001 rml:iterator "$.data[*]" ;
