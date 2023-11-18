@@ -1,0 +1,59 @@
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/xml/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .   
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://healthcentersmadrid.es/locations/ontology/ont> .
+
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+
+
+### http://healthcentersmadrid.es/locations/resource/HealthCentre{PK}
+:HealthCenter11864 a vocab:HealthCentre;
+	vocab:pk 11864^^xsd:int;
+	vocab:name "Centro de Atención a las Adicciones (CAD) de Vallecas"^^xsd:string;
+	vocab:typeCentre “Centros Asistencia Drogodependientes”^^xsd:string;
+	vocab:isLocated :Location11864;
+	vocab:hasOtherInformation :Information11864.
+
+
+### http://healthcentersmadrid.es/locations/resource/Location{PK}
+:Location11864 a vocab:Location;
+	vocab:latitude 4039501488341380^^xsd:float;
+	vocab:longitude -3665565995938500^^xsd:float;
+	vocab:coordinatex 404163721753529^^xsd:int;
+	vocab:coordinatey 404163721753529^^xsd:int;
+	vocab:hasAddress: Address11864.
+
+
+### http://healthcentersmadrid.es/locations/resource/Address{PK}
+:Address11864 a vocab:Address;
+	vocab:street “Calle Concordia”^^xsd:string;
+	vocab:neighbourhood “San Diego”^^xsd:string;
+	vocab:district “Puente de Vallecas”^^xsd:string;
+	vocab:number 17^^xsd:int;
+	vocab:postalCode 28053^^xsd:int;
+	vocab:city “Madrid”^^xsd:string.
+
+### http://healthcentersmadrid.es/locations/resource/Information{PK}
+:Information11864 a vocab:Information;
+	vocab:openingHours “L-J: 8:30-19:30, V: 8:30-14:30”^^xsd:string;
+	vocab:accesibility “1”^^xsd:int;
+	vocab:transport “Bus: 10, 24, 54, 57, 58, 111, 136, 140, 310 Metro: Nueva Numancia (L1)”^^xsd:string;
+	vocab:hasContact: Contact11864.
+
+
+### http://healthcentersmadrid.es/locations/resource/Contact{PK}
+:Contact11864 a vocab:Contact;
+	vocab:web “http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e35d4985261c010VgnVCM1000000b205a0aRCRD”^^xsd:string;
+	vocab:phoneNumber “914 801 486”^^xsd:string;
+	vocab:mail “cadvallecas@madrid.es”^^xsd:string;
+
+

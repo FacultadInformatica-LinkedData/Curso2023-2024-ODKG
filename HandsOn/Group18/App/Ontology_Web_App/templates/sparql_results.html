@@ -1,0 +1,61 @@
+{% load custom_filters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparql Results</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ontology/style.css' %}">
+</head>
+
+<body>
+    <a href="{% url 'redirect_to_sparql_query' %}" class="back-button">New Search</a>
+    <div class="container">
+        <div class="header">
+            <h1>District: {{ District }}</h1>
+        </div>
+        <br>
+        <br>
+
+        {% if image_path %}
+            <img src="{{ image_path }}" alt="Query Type Image">
+        {% endif %}
+
+        <br>
+        <div class="header">
+            <h1>Accidents: {{ query_results.0 }}</h1>
+        </div>
+        <br>
+        <div class="header">
+            <h1>    </h1>
+        </div>
+        <div class="header">
+            <h1>Population: {{ query_results.1 }}</h1>
+        </div>
+        <br>
+        <div class="header">
+            <h1>Area[km2]: {{ query_results.2 }}</h1>
+        </div>
+
+        <div class="header">
+            <h1> Per capita: {{ query_results.4 }}</h1>
+        </div>
+
+        <div class="header">
+            <h1>Density: {{ query_results.5 }}</h1>
+        </div>
+
+        <div class="header">
+            <h1>Proportion: {{ query_results.6 }} %</h1>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <p>© 2023 Grupo 18 Graph Knowledge </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+PREFIX nso: <http://madridwastemanagement.org/group01/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Qurey 1:  Give all districts and their waste amount yearly
+SELECT ?districtInstance ?year (SUM(?total) as ?yearlyWasteAmount)
+WHERE {
+  ?totalInstance a nso:Total ;
+                 nso:referedTo ?districtInstance ;
+                 nso:year ?year ;
+                 nso:value ?total .
+
+}
+GROUP BY ?districtInstance ?year
+ORDER BY ?districtInstance ?year
+
+
+
+# Query 2: Give all districts and their waste amount monthly
+SELECT ?district ?year ?month (SUM(?totalValue) AS ?totalAmount)
+WHERE {
+      ?totalInstance a nso:Total ;
+                 nso:referedTo ?district ;
+                 nso:year ?year ;
+                 nso:month ?month;
+                 nso:value ?totalValue .
+}
+GROUP BY ?district ?year ?month
+ORDER BY ?district ?year 
+
+# Query 3: Give all the waste type name
+SELECT DISTINCT ?wasteTypeName
+WHERE {
+  ?wasteTypeInstance a nso:WasteType ;
+                     rdfs:label ?wasteTypeName .
+}
+ORDER BY ?wasteTypeName
+
+# Query 4: Give the total amount by the waste type
+SELECT ?wasteName (SUM(?totalValue) AS ?totalAmount)
+WHERE {
+    ?district nso:hasResidue ?wasteType .
+    ?wasteType rdfs:label ?wasteName .
+    ?wasteType nso:hasTotal ?total .
+    ?total nso:value ?totalValue .
+}
+GROUP BY ?wasteName
+ORDER BY ?wasteName
+
+
+# Query 5: Give details of the waste type in 2023
+SELECT ?wasteTypeName (SUM(?totalValue) AS ?totalAmount)
+WHERE {
+  ?wasteTypeInstance a nso:WasteType ;
+                     rdfs:label ?wasteTypeName ;
+                     nso:hasTotal ?totalInstance.
+  ?totalInstance nso:value ?totalValue ;
+                 nso:year 2023.
+}
+GROUP BY ?wasteTypeName
+
+
+
