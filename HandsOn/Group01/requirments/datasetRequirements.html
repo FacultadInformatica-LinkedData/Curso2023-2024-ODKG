@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Requirements Assessment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .checklist {
+            padding: 20px;
+            border: 1px dashed gray;
+            margin: 0 auto;
+            list-style-type: none;
+        }
+
+        .checklist li:before {
+            content: '\2713';
+            /* This is a checkmark */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="description">
+        <h1>Madrid Waste Management Analytics: Dataset Requirements</h1>
+        <p>This document aims to assess if our dataset meets the specific requirements needed for our project. The following checklist provides a summary of each requirement, and a brief description of how our dataset satisfies them.</p>
+    </div>
+
+    <div class="checklist">
+        <li><b>R1. Data are in the smart cities domain:</b> Monitoring and managing waste production is crucial for urban sustainability. Collecting data on waste production, especially when classified by type, can help city planners make informed decisions about recycling programs, waste collection schedules, and other sustainability initiatives.</li><br>
+        <li><b>R2. Data are available as a CSV file:</b> The data has been downloaded in a CSV format from <a href="https://data.europa.eu/data/datasets/https-datos-madrid-es-egob-catalogo-300143-0-recogida-residuos?locale=en">The Official Portal for European Data.</a></li><br>
+        <li><b>R3. Data have an open license so it can be published:</b> Their license can be found <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">here</a>.</li><br>
+        <li><b>R4. Data can be easily linked with generic real-world entities (e.g., locations):</b> The waste collection data includes location-specific details (neighborhoods, districts) that can be linked with real-world entities.</li><br>
+        <li><b>R5. Documentation exists for the data (optional):</b> The official documentation can be found <a href="https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/LimpiezaResiduos/Ficheros/Estructura_DS_Datos_Residuos.pdf">here</a>.</li><br>
+        <li><b>R6. Data can come from multiple data sources (optional):</b> There are three datasets for three different years (2020, 2021, 2022) that will be used to provide deeper insights and analyses of waste collection and consumption.</li>
+    </div>
+</body>
+
+</html>

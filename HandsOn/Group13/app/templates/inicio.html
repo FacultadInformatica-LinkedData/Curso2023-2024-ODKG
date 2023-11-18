@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Madrid Encuentra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .main-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .flag-image {
+        transform: scale(0.5); /* Reduce el tamaño al 50% */
+        display: block; /* Hace que la imagen sea un bloque, lo cual es necesario para centrar con margen automático */
+        margin: auto; /* Centra el elemento horizontalmente */
+        position: absolute; /* Posicionamiento absoluto respecto a su contenedor relativo más cercano */
+        left: 11%; /* Centra la imagen en el eje horizontal */
+        top: 8%; /* Centra la imagen en el eje vertical */
+        z-index: -1; /* Establece que este elemento esté por debajo de todos los demás elementos */
+        opacity: 0.9; /* Establece una opacidad del 90% para mostrarlo un poco transparente
+        top: 0; /* Coloca la imagen en la parte superior del contenedor */
+    }
+    .introduction {
+            text-align:end;
+            margin: 20px;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Madrid Encuentra</h1>
+    </div>
+
+    <div>
+        <h2>Welcome to the Application</h2>
+        <a href="/mapa" class="main-button">View Map</a>
+        <br>
+        <p>Welcome to <strong>Madrid Encuentra</strong>, your gateway to explore centers and their upcoming events within the next 100 days in the Madrid Community. Discover what's happening around you and join the vibrant local scene.</p>
+
+    </div>
+
+
+    <div>
+        <img src="{{ url_for('static', filename='Flag_of_the_Community_of_Madrid.svg.png') }}" alt="Bandera de la Comunidad de Madrid" class="flag-image">
+    </div>
+
+
+
+    <div class="footer">
+        <p>© 2023 Madrid Encuentra. All Rights Reserved.</p>
+    </div>
+</body>
+</html>

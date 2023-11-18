@@ -1,0 +1,277 @@
+@prefix mod:   <https://w3id.org/mod#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://astrea.linkeddata.es/shapes#3a3477c9e8290f5ddffeb265582605c0>
+        a                sh:PropertyShape ;
+        rdfs:label       "coordinatey" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "coordinatey" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:coordinatey ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/report/01575487559>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#source>
+                "https://raw.githubusercontent.com/LauraRamirezM/Curso2023-2024-ODKG/handsOn-fixed/HandsOn/Group05/ontology/ontology.ttl" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#7414ee3c3d4492c4abd56a21ce815dbc>
+        a            sh:PropertyShape ;
+        rdfs:label   "has other information" ;
+        sh:class     vocab:Information ;
+        sh:name      "has other information" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      vocab:hasOtherInformation .
+
+<https://astrea.linkeddata.es/shapes#b73a1ad947f4b29273c88bd07345c53e>
+        a                sh:PropertyShape ;
+        rdfs:label       "coordinatex" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "coordinatex" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:coordinatex ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#0f708c01030e45c082d061ffca81072b>
+        a            sh:PropertyShape ;
+        rdfs:label   "phone number" ;
+        sh:datatype  xsd:string ;
+        sh:name      "phone number" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:phoneNumber ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#fc0743fbd2ba3c098564167a901daeeb>
+        a            sh:PropertyShape ;
+        rdfs:label   "name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:name ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#28a41df66a9ebe1a6e1d3857122c2fc7>
+        a                sh:PropertyShape ;
+        rdfs:label       "postal code" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "postal code" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:postalCode ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#cde1aee42411ecb08381c383f364427d>
+        a            sh:PropertyShape ;
+        rdfs:label   "mail" ;
+        sh:datatype  xsd:string ;
+        sh:name      "mail" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:mail ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#306ae7bf1d43e617ba489f0bb17b6ec9>
+        a            sh:PropertyShape ;
+        rdfs:label   "latitude" ;
+        sh:datatype  xsd:float ;
+        sh:name      "latitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:latitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#0f708c01030e45c082d061ffca81072b> , <https://astrea.linkeddata.es/shapes#a6f2bb6c8e39d38bf6b0d0b15887fb2d> , <https://astrea.linkeddata.es/shapes#424769fd6a1e16d83e80341cd40cb3c3> , <https://astrea.linkeddata.es/shapes#d1d19265dbac3cba804e6f50bf811e35> , <https://astrea.linkeddata.es/shapes#6676c32e82cdc5baaa316aa55d6fab91> , <https://astrea.linkeddata.es/shapes#67166fd4a32479c56f0e5052a66c6282> , <https://astrea.linkeddata.es/shapes#b9220c7981f96213b3dd4dec690139ed> , <https://astrea.linkeddata.es/shapes#306ae7bf1d43e617ba489f0bb17b6ec9> , <https://astrea.linkeddata.es/shapes#97b8da86539a174466f90a7e37f1dcec> , <https://astrea.linkeddata.es/shapes#70756d287f9812a358d8178601e23331> , <https://astrea.linkeddata.es/shapes#3ce00078983dd2ce6dcb063b63b82913> , <https://astrea.linkeddata.es/shapes#1639af0c82a76ae0733e84c2a2eea9a9> , <https://astrea.linkeddata.es/shapes#b73a1ad947f4b29273c88bd07345c53e> , <https://astrea.linkeddata.es/shapes#b682fd2dd60ffc656c800d51bf4a617a> , <https://astrea.linkeddata.es/shapes#a7f5c7270d9473128cf3c92da671d1a3> , <https://astrea.linkeddata.es/shapes#a9b8063e630e9e4ced2bc5f4bc18a4c2> , <https://astrea.linkeddata.es/shapes#fc0743fbd2ba3c098564167a901daeeb> , <https://astrea.linkeddata.es/shapes#7d5ecfe49bca31479690aedb547d24d1> , <https://astrea.linkeddata.es/shapes#caf1906e54879dfb9ea5e6644e274687> , <https://astrea.linkeddata.es/shapes#7414ee3c3d4492c4abd56a21ce815dbc> , <https://astrea.linkeddata.es/shapes#decfd729e14a076cb6b3de58c0196240> , <https://astrea.linkeddata.es/shapes#32624244e7135616c2228952b30b9079> , <https://astrea.linkeddata.es/shapes#3a3477c9e8290f5ddffeb265582605c0> , <https://astrea.linkeddata.es/shapes#32f3075f356927aee1e0f8b71f7dc6ef> , <https://astrea.linkeddata.es/shapes#cde1aee42411ecb08381c383f364427d> , <https://astrea.linkeddata.es/shapes#2db2e6ee02eb2a17e86fab81d2c7a065> , <https://astrea.linkeddata.es/shapes#4284eac632f552bf3da69d2c28f5e36e> , <https://astrea.linkeddata.es/shapes#28a41df66a9ebe1a6e1d3857122c2fc7> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/01575487559> .
+
+<https://astrea.linkeddata.es/shapes#97b8da86539a174466f90a7e37f1dcec>
+        a            sh:PropertyShape ;
+        rdfs:label   "neighbourhood" ;
+        sh:datatype  xsd:string ;
+        sh:name      "neighbourhood" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:neighbourhood ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#70756d287f9812a358d8178601e23331>
+        a            sh:PropertyShape ;
+        rdfs:label   "longitude" ;
+        sh:datatype  xsd:float ;
+        sh:name      "longitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:longitude ;
+        sh:pattern   "(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|(\\+|-)?INF|NaN" .
+
+<https://astrea.linkeddata.es/shapes#2db2e6ee02eb2a17e86fab81d2c7a065>
+        a            sh:PropertyShape ;
+        rdfs:label   "type centre" ;
+        sh:name      "type centre" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:typeCentre .
+
+<https://astrea.linkeddata.es/shapes#7d5ecfe49bca31479690aedb547d24d1>
+        a            sh:PropertyShape ;
+        rdfs:label   "transport" ;
+        sh:datatype  xsd:string ;
+        sh:name      "transport" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:transport ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#6676c32e82cdc5baaa316aa55d6fab91>
+        a               sh:NodeShape ;
+        rdfs:label      "Health Centre" ;
+        sh:name         "Health Centre" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#424769fd6a1e16d83e80341cd40cb3c3> , <https://astrea.linkeddata.es/shapes#7414ee3c3d4492c4abd56a21ce815dbc> , <https://astrea.linkeddata.es/shapes#3ce00078983dd2ce6dcb063b63b82913> , <https://astrea.linkeddata.es/shapes#fc0743fbd2ba3c098564167a901daeeb> ;
+        sh:targetClass  vocab:HealthCentre .
+
+<https://astrea.linkeddata.es/shapes#b9220c7981f96213b3dd4dec690139ed>
+        a            sh:PropertyShape ;
+        rdfs:label   "city" ;
+        sh:datatype  xsd:string ;
+        sh:name      "city" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:city ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#d1d19265dbac3cba804e6f50bf811e35>
+        a            sh:PropertyShape ;
+        rdfs:label   "district" ;
+        sh:datatype  xsd:string ;
+        sh:name      "district" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:district ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#a7f5c7270d9473128cf3c92da671d1a3>
+        a            sh:PropertyShape ;
+        rdfs:label   "web" ;
+        sh:datatype  xsd:string ;
+        sh:name      "web" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:web ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#caf1906e54879dfb9ea5e6644e274687>
+        a            sh:PropertyShape ;
+        rdfs:label   "street" ;
+        sh:datatype  xsd:string ;
+        sh:name      "street" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:street ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#a6f2bb6c8e39d38bf6b0d0b15887fb2d>
+        a            sh:PropertyShape ;
+        rdfs:label   "opening hours" ;
+        sh:datatype  xsd:string ;
+        sh:name      "opening hours" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      vocab:openingHours ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#67166fd4a32479c56f0e5052a66c6282>
+        a            sh:PropertyShape ;
+        rdfs:label   "has address" ;
+        sh:class     vocab:Address ;
+        sh:name      "has address" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      vocab:hasAddress .
+
+<https://astrea.linkeddata.es/shapes#32f3075f356927aee1e0f8b71f7dc6ef>
+        a                sh:PropertyShape ;
+        rdfs:label       "accesibility" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "accesibility" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:accesibility ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#decfd729e14a076cb6b3de58c0196240>
+        a               sh:NodeShape ;
+        rdfs:label      "Location" ;
+        sh:name         "Location" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#70756d287f9812a358d8178601e23331> , <https://astrea.linkeddata.es/shapes#b73a1ad947f4b29273c88bd07345c53e> , <https://astrea.linkeddata.es/shapes#67166fd4a32479c56f0e5052a66c6282> , <https://astrea.linkeddata.es/shapes#306ae7bf1d43e617ba489f0bb17b6ec9> , <https://astrea.linkeddata.es/shapes#3a3477c9e8290f5ddffeb265582605c0> ;
+        sh:targetClass  vocab:Location .
+
+<https://astrea.linkeddata.es/shapes#1639af0c82a76ae0733e84c2a2eea9a9>
+        a            sh:PropertyShape ;
+        rdfs:label   "has contact" ;
+        sh:class     vocab:Contact ;
+        sh:name      "has contact" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      vocab:hasContact .
+
+<https://astrea.linkeddata.es/shapes#b682fd2dd60ffc656c800d51bf4a617a>
+        a               sh:NodeShape ;
+        rdfs:label      "Contact" ;
+        sh:name         "Contact" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#a7f5c7270d9473128cf3c92da671d1a3> , <https://astrea.linkeddata.es/shapes#0f708c01030e45c082d061ffca81072b> , <https://astrea.linkeddata.es/shapes#cde1aee42411ecb08381c383f364427d> ;
+        sh:targetClass  vocab:Contact .
+
+<https://astrea.linkeddata.es/shapes#32624244e7135616c2228952b30b9079>
+        a                sh:PropertyShape ;
+        rdfs:label       "number" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "number" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:number ;
+        sh:pattern       "[\\-+]?[0-9]+" .
+
+<https://astrea.linkeddata.es/shapes#4284eac632f552bf3da69d2c28f5e36e>
+        a               sh:NodeShape ;
+        rdfs:label      "Information" ;
+        sh:name         "Information" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#1639af0c82a76ae0733e84c2a2eea9a9> , <https://astrea.linkeddata.es/shapes#32f3075f356927aee1e0f8b71f7dc6ef> , <https://astrea.linkeddata.es/shapes#a6f2bb6c8e39d38bf6b0d0b15887fb2d> , <https://astrea.linkeddata.es/shapes#7d5ecfe49bca31479690aedb547d24d1> ;
+        sh:targetClass  vocab:Information .
+
+<https://astrea.linkeddata.es/shapes#424769fd6a1e16d83e80341cd40cb3c3>
+        a            sh:PropertyShape ;
+        rdfs:label   "is located" ;
+        sh:class     vocab:Location ;
+        sh:name      "is located" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      vocab:isLocated .
+
+<https://astrea.linkeddata.es/shapes#a9b8063e630e9e4ced2bc5f4bc18a4c2>
+        a               sh:NodeShape ;
+        rdfs:label      "Address" ;
+        sh:name         "Address" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#97b8da86539a174466f90a7e37f1dcec> , <https://astrea.linkeddata.es/shapes#28a41df66a9ebe1a6e1d3857122c2fc7> , <https://astrea.linkeddata.es/shapes#b9220c7981f96213b3dd4dec690139ed> , <https://astrea.linkeddata.es/shapes#32624244e7135616c2228952b30b9079> , <https://astrea.linkeddata.es/shapes#caf1906e54879dfb9ea5e6644e274687> , <https://astrea.linkeddata.es/shapes#d1d19265dbac3cba804e6f50bf811e35> ;
+        sh:targetClass  vocab:Address .
+
+<https://astrea.linkeddata.es/shapes#3ce00078983dd2ce6dcb063b63b82913>
+        a                sh:PropertyShape ;
+        rdfs:label       "pk" ;
+        sh:datatype      xsd:int ;
+        sh:maxInclusive  2147483647 ;
+        sh:minInclusive  -2147483648 ;
+        sh:name          "pk" ;
+        sh:nodeKind      sh:Literal ;
+        sh:path          vocab:pk ;
+        sh:pattern       "[\\-+]?[0-9]+" .

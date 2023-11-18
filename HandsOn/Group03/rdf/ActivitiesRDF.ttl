@@ -1,0 +1,795 @@
+@prefix ns1: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vidaactivamadrid.es/info/resource/Activity#12050463> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:id "12050463" ;
+    ns1:longEvent true ;
+    ns1:name "Abre el ojo" ;
+    ns1:startDate "2023-10-05"^^xsd:dateTime .
+
+<http://vidaactivamadrid.es/info/resource/Activity/10633173> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=beaf2f9cb66d1610VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "V" ;
+    ns1:description "Viernes  6, 13, 20 y 27 y  de octubre 16:30 h. a 19 h" ;
+    ns1:endDate "2024-06-30"^^xsd:dateTime ;
+    ns1:id "10633173" ;
+    ns1:longEvent true ;
+    ns1:name "Baile de Mayores en Centros Culturales Distrito Latina" ;
+    ns1:startDate "2022-10-07"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20Almirante%20Churruca%20%28Latina%29> ;
+    ns1:time "16:30" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/10634056> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=77922f9cb66d1610VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "J" ;
+    ns1:description "Jueves 5, 19 y 26 de octubre 18 a 20:30 h." ;
+    ns1:endDate "2023-10-31"^^xsd:dateTime ;
+    ns1:id "10634056" ;
+    ns1:longEvent true ;
+    ns1:name "Baile de Mayores en Centros Culturales Distrito Latina" ;
+    ns1:startDate "2022-10-06"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20El%20Greco%20%28Latina%29> ;
+    ns1:time "18:00" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12047108> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0a23b291dc109810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-10"^^xsd:dateTime ;
+    ns1:id "12047108" ;
+    ns1:longEvent true ;
+    ns1:name "Taller uso certificado digital en el móvil" ;
+    ns1:startDate "2023-10-03"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12047735> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=c7497513d1709810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "X,J,V" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-27"^^xsd:dateTime ;
+    ns1:id "12047735" ;
+    ns1:longEvent true ;
+    ns1:name "Taller uso de WhatsApp para mayores" ;
+    ns1:startDate "2023-10-18"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
+    ns1:time "10:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050463> ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=eeb9e6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-29"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050472> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a00ae6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-01-28"^^xsd:dateTime ;
+    ns1:id "12050472" ;
+    ns1:longEvent true ;
+    ns1:name "TÍO VANIA" ;
+    ns1:startDate "2024-01-18"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050485> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d47ae6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-06-02"^^xsd:dateTime ;
+    ns1:id "12050485" ;
+    ns1:longEvent true ;
+    ns1:name "Descarados" ;
+    ns1:startDate "2024-05-16"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050494> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=26bae6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-29"^^xsd:dateTime ;
+    ns1:id "12050494" ;
+    ns1:longEvent true ;
+    ns1:name "Isla" ;
+    ns1:startDate "2023-10-03"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050500> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=1deae6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-11-26"^^xsd:dateTime ;
+    ns1:id "12050500" ;
+    ns1:longEvent true ;
+    ns1:name "Lo único que verdaderamente quise toda la vida es ser delgada" ;
+    ns1:startDate "2023-11-16"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050516> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=938be6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-04-07"^^xsd:dateTime ;
+    ns1:id "12050516" ;
+    ns1:longEvent true ;
+    ns1:name "Paraíso" ;
+    ns1:startDate "2024-03-21"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050519> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6e9be6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-06-09"^^xsd:dateTime ;
+    ns1:id "12050519" ;
+    ns1:longEvent true ;
+    ns1:name "Paciencia debe morir" ;
+    ns1:startDate "2024-05-23"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Teatro Performance" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12050522> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=f9bbe6b609029810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-01-14"^^xsd:dateTime ;
+    ns1:id "12050522" ;
+    ns1:longEvent true ;
+    ns1:name "Amazônia" ;
+    ns1:startDate "2023-09-13"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12083260> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d6963d0dd564a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-11-19"^^xsd:dateTime ;
+    ns1:id "12083260" ;
+    ns1:longEvent true ;
+    ns1:name "Talleres dinámicos. L-ABE (2023-2024)" ;
+    ns1:startDate "2023-09-17"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12083748> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=91b120aa7564a810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-26"^^xsd:dateTime ;
+    ns1:id "12083748" ;
+    ns1:longEvent false ;
+    ns1:name "Visitas dialogadas. «Hecho en casa»" ;
+    ns1:startDate "2023-10-26"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12084406> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4ca74227bf4a810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "L" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-30"^^xsd:dateTime ;
+    ns1:id "12084406" ;
+    ns1:longEvent true ;
+    ns1:name "Moviendo el esqueleto al aire libre" ;
+    ns1:startDate "2023-10-02"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Dulce%20Chac%C3%B3n.%20Villaverde> ;
+    ns1:time "10:00" ;
+    ns1:typeOfActivity "Danza Baile" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12085076> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a0c31b1d5bd5a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "L" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-30"^^xsd:dateTime ;
+    ns1:id "12085076" ;
+    ns1:longEvent true ;
+    ns1:name "Marcha jubilosa: caminata para mujeres mayores" ;
+    ns1:startDate "2023-10-02"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Moliner.%20Villa%20de%20Vallecas> ;
+    ns1:time "10:00" ;
+    ns1:typeOfActivity "Excursiones Itinerarios Visitas" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12085097> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9c241b1d5bd5a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "J" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-26"^^xsd:dateTime ;
+    ns1:id "12085097" ;
+    ns1:longEvent true ;
+    ns1:name "Empoderamiento físico y movimiento" ;
+    ns1:startDate "2023-10-05"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Moliner.%20Villa%20de%20Vallecas> ;
+    ns1:time "10:00" ;
+    ns1:typeOfActivity "Actividades Deportivas" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12092330> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=ef0cbd7cb647a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "L,M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-04-22"^^xsd:dateTime ;
+    ns1:id "12092330" ;
+    ns1:longEvent true ;
+    ns1:name "Talleres dinámicos. L-ABE (2023-2024)" ;
+    ns1:startDate "2023-09-17"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12094320> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b360634bdf28a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-05"^^xsd:dateTime ;
+    ns1:id "12094320" ;
+    ns1:longEvent false ;
+    ns1:name "Activa tu mente. Grupo I" ;
+    ns1:startDate "2023-10-05"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
+    ns1:time "12:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12094321> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=db50634bdf28a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-26"^^xsd:dateTime ;
+    ns1:id "12094321" ;
+    ns1:longEvent false ;
+    ns1:name "Activa tu mente. Grupo II" ;
+    ns1:startDate "2023-10-26"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
+    ns1:time "12:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12096244> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=df961ee415d8a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-19"^^xsd:dateTime ;
+    ns1:id "12096244" ;
+    ns1:longEvent false ;
+    ns1:name "Paseos saludables, conociendo los recursos del distrito" ;
+    ns1:startDate "2023-10-19"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
+    ns1:time "11:00" ;
+    ns1:typeOfActivity "Excursiones Itinerarios Visitas" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12100987> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=2097e905dc89a810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M,X,J" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-11"^^xsd:dateTime ;
+    ns1:id "12100987" ;
+    ns1:longEvent true ;
+    ns1:name "Taller manejo básico de móviles" ;
+    ns1:startDate "2023-10-03"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> ;
+    ns1:time "10:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12102665> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=aacab8caf1caa810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "L,M,X,J,V,S,D" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2024-04-28"^^xsd:dateTime ;
+    ns1:id "12102665" ;
+    ns1:longEvent true ;
+    ns1:name "VISITAS DIALOGADAS. «HECHO EN CASA»" ;
+    ns1:startDate "2023-09-17"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> ;
+    ns1:typeOfActivity "Programacion Destacada Agenda Cultura" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12110246> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3a7331b1f65da810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "J" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-26"^^xsd:dateTime ;
+    ns1:id "12110246" ;
+    ns1:longEvent true ;
+    ns1:name "Trabajamos la memoria" ;
+    ns1:startDate "2023-10-05"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Gloria%20Fuertes.%20Vic%C3%A1lvaro> ;
+    ns1:time "10:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12112846> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=577180a639ada810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-06"^^xsd:dateTime ;
+    ns1:id "12112846" ;
+    ns1:longEvent false ;
+    ns1:name "Círculo de mujeres sabias. La menopausia y nosotras" ;
+    ns1:startDate "2023-10-06"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> ;
+    ns1:time "10:00" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12112982> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d0414d3febada810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "X" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-25"^^xsd:dateTime ;
+    ns1:id "12112982" ;
+    ns1:longEvent true ;
+    ns1:name "Tecnomayores. Soy ciudadana y participo en mi municipio II" ;
+    ns1:startDate "2023-10-04"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> ;
+    ns1:time "11:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12113267> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=10f8b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-12-19"^^xsd:dateTime ;
+    ns1:id "12113267" ;
+    ns1:longEvent true ;
+    ns1:name "Primeros pasos de informática con el ordenador" ;
+    ns1:startDate "2023-10-17"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Carme%20Chac%C3%B3n.%20Hortaleza> ;
+    ns1:time "18:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12113596> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=8530b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-31"^^xsd:dateTime ;
+    ns1:id "12113596" ;
+    ns1:longEvent true ;
+    ns1:name "Encuentros de sabias" ;
+    ns1:startDate "2023-10-03"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Dulce%20Chac%C3%B3n.%20Villaverde> ;
+    ns1:time "10:00" ;
+    ns1:typeOfActivity "Conferencias Coloquios" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114000> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7ef6b6eaeeada810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-23"^^xsd:dateTime ;
+    ns1:id "12114000" ;
+    ns1:longEvent false ;
+    ns1:name "¡Quiero saber usar mi móvil! Mujeres mayores de 60 años" ;
+    ns1:startDate "2023-10-23"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Elena%20Arnedo%20Soriano.%20Retiro> ;
+    ns1:time "16:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114192> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=9ad90fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-06"^^xsd:dateTime ;
+    ns1:id "12114192" ;
+    ns1:longEvent false ;
+    ns1:name "Relajación para mujeres mayores de 60 años" ;
+    ns1:startDate "2023-10-06"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Hermanas%20Mirabal.%20Tetu%C3%A1n> ;
+    ns1:time "10:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114219> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d69c0fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-31"^^xsd:dateTime ;
+    ns1:id "12114219" ;
+    ns1:longEvent true ;
+    ns1:name "Smartphone para mayores de 60. Conoce las funciones básicas" ;
+    ns1:startDate "2023-10-10"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Hermanas%20Mirabal.%20Tetu%C3%A1n> ;
+    ns1:time "13:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114363> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=0ce30fe4d5bda810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "L" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-30"^^xsd:dateTime ;
+    ns1:id "12114363" ;
+    ns1:longEvent true ;
+    ns1:name "El gimnasio de la memoria" ;
+    ns1:startDate "2023-10-02"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Zambrano.%20Chamber%C3%AD> ;
+    ns1:time "12:30" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114610> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6120d1b058bda810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-31"^^xsd:dateTime ;
+    ns1:id "12114610" ;
+    ns1:longEvent false ;
+    ns1:name "Consejo de Sabias. Teatralizando la vida" ;
+    ns1:startDate "2023-10-31"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Emilia%20Pardo%20Baz%C3%A1n.%20Ciudad%20Lineal> ;
+    ns1:time "17:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12114645> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=d381d1b058bda810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "M" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-31"^^xsd:dateTime ;
+    ns1:id "12114645" ;
+    ns1:longEvent true ;
+    ns1:name "Conéctate con el móvil. Manejo de whatsapp" ;
+    ns1:startDate "2023-10-03"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Emilia%20Pardo%20Baz%C3%A1n.%20Ciudad%20Lineal> ;
+    ns1:time "10:00" ;
+    ns1:typeOfActivity "Cursos Talleres" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12116349> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=6917c2c1b30ea810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "X" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-25"^^xsd:dateTime ;
+    ns1:id "12116349" ;
+    ns1:longEvent true ;
+    ns1:name "Yoga suave" ;
+    ns1:startDate "2023-10-04"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> ;
+    ns1:time "18:00" ;
+    ns1:typeOfActivity "Actividades Deportivas" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12117022> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=a305b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Compañía Operanova Producciones  En esta función, se aborda la obra original pensada por José Zorrilla abriendo todos los cortes que se le han hecho tradicionalmente para que el espectador tenga una experiencia lo más cercana posible a la que tuvieron sus paisanos del siglo XIX.     Duración: 3 horas y 30 minutos" ;
+    ns1:endDate "2023-10-07"^^xsd:dateTime ;
+    ns1:id "12117022" ;
+    ns1:longEvent false ;
+    ns1:name "Don Juan Tenorio" ;
+    ns1:startDate "2023-10-07"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
+    ns1:time "18:00" ;
+    ns1:typeOfActivity "Teatro Performance" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12117025> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b35b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Omar Acosta y Sergio Menem  Homenaje a sus raíces latinas e influencias iberoamericanas por parte de este dúo de cámara, que fue nominado al Mejor álbun instrumental en los Latin Grammy 2021.     Duración: 60 minutos" ;
+    ns1:endDate "2023-10-20"^^xsd:dateTime ;
+    ns1:id "12117025" ;
+    ns1:longEvent false ;
+    ns1:name "Entre tiempo y tiempo" ;
+    ns1:startDate "2023-10-20"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Musica" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12117026> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=de45b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Centro de Danza y Arte de Madrid  El Joven Ballet del Centro de Danza y Arte de Madrid busca acercar el ballet clásico y neoclásico al público general a la vez que procura una formación escénica de su alumnado.     Duración 60 minutos" ;
+    ns1:endDate "2023-10-21"^^xsd:dateTime ;
+    ns1:id "12117026" ;
+    ns1:longEvent false ;
+    ns1:name "Gala de ballet clásico" ;
+    ns1:startDate "2023-10-21"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Danza Baile" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12117027> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=1365b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Compañía Eagle's Dreams  Antonia, una mujer de clase obrera, comprueba haciendo la compra en el supermercado que los precios vuelven a subir y subir. Unida a otras muchas mujeres, deciden recibelarse y llevarse los alimentos sin pagar.     Duración: 120 minutos" ;
+    ns1:endDate "2023-10-27"^^xsd:dateTime ;
+    ns1:id "12117027" ;
+    ns1:longEvent false ;
+    ns1:name "Aquí no paga nadie" ;
+    ns1:startDate "2023-10-27"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Teatro Performance" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12117028> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=3875b3a00f0ea810VgnVCM2000001f4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "El Orfeón se forma en el año 2012 a raíz de un concurso de solfeo y canto coral organizado por la parroquia de San Gregorio Magno, en el barrio de Valdebernardo. Su objetivo principal es cantar y disfrutar de la música, la gran pasión para cada uno de sus integrantes.     Duración: 70 minutos" ;
+    ns1:endDate "2023-10-28"^^xsd:dateTime ;
+    ns1:id "12117028" ;
+    ns1:longEvent false ;
+    ns1:name "Orfeón de Vicálvaro San Gregorio Magno" ;
+    ns1:startDate "2023-10-28"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> ;
+    ns1:time "19:00" ;
+    ns1:typeOfActivity "Musica" .
+
+<http://vidaactivamadrid.es/info/resource/Activity/12121361> a <http://vidaactivamadrid.es/info/ontology/class#Activity> ;
+    ns1:contentURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=ca9671ee4a9eb410VgnVCM100000171f5a0aRCRD&vgnextoid=b4ead85faf9fa810VgnVCM1000001d4a900aRCRD" ;
+    ns1:dayOfWeek "-" ;
+    ns1:description "Sin descripción" ;
+    ns1:endDate "2023-10-15"^^xsd:dateTime ;
+    ns1:id "12121361" ;
+    ns1:longEvent false ;
+    ns1:name "Chocolatada con animación musical" ;
+    ns1:startDate "2023-10-15"^^xsd:dateTime ;
+    ns1:takesPlaceIn <http://vidaactivamadrid.es/info/resource/Facility/Auditorio%20al%20aire%20libre.%20Parque%20de%20la%20Vaguada> ;
+    ns1:time "18:30" ;
+    ns1:typeOfActivity "Fiestas" .
+
+<http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20BADAJOZ%2060> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20PASCUAL> ;
+    ns1:latitude 4.044231e+01 ;
+    ns1:longitude -3.653481e+00 ;
+    ns1:name "AVENIDA BADAJOZ 60" ;
+    ns1:zipCode "28027" .
+
+<http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20REAL%2014> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/CASCO%20H.VICALVARO> ;
+    ns1:latitude 4.040275e+01 ;
+    ns1:longitude -3.607226e+00 ;
+    ns1:name "AVENIDA REAL 14" ;
+    ns1:zipCode "28032" .
+
+<http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20SAN%20FERMIN%2010> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20FERMIN> ;
+    ns1:latitude 4.037116e+01 ;
+    ns1:longitude -3.692743e+00 ;
+    ns1:name "AVENIDA SAN FERMIN 10" ;
+    ns1:zipCode "28041" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20ANDRES%20MELLADO%2044> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/GAZTAMBIDE> ;
+    ns1:latitude 4.043396e+01 ;
+    ns1:longitude -3.714336e+00 ;
+    ns1:name "CALLE ANDRES MELLADO 44" ;
+    ns1:zipCode "28015" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20ARREGUI%20Y%20ARUEJ%2031> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/ADELFAS> ;
+    ns1:latitude 4.040255e+01 ;
+    ns1:longitude -3.668092e+00 ;
+    ns1:name "CALLE ARREGUI Y ARUEJ 31" ;
+    ns1:zipCode "28007" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20BRAVO%20MURILLO%20133> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/BELLAS%20VISTAS> ;
+    ns1:latitude 4.045012e+01 ;
+    ns1:longitude -3.703705e+00 ;
+    ns1:name "CALLE BRAVO MURILLO 133" ;
+    ns1:zipCode "28039" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20CONDE%20DUQUE%209> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/UNIVERSIDAD> ;
+    ns1:latitude 4.04274e+01 ;
+    ns1:longitude -3.710589e+00 ;
+    ns1:name "CALLE CONDE DUQUE 9" ;
+    ns1:zipCode "28015" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20EL%20GRECO%2029> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/LUCERO> ;
+    ns1:latitude 4.040732e+01 ;
+    ns1:longitude -3.747465e+00 ;
+    ns1:name "CALLE EL GRECO 29" ;
+    ns1:zipCode "28011" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20FUENTE%20DEL%20TIRO%2072> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/LAS%20AGUILAS> ;
+    ns1:latitude 4.038298e+01 ;
+    ns1:longitude -3.780089e+00 ;
+    ns1:name "CALLE FUENTE DEL TIRO 72" ;
+    ns1:zipCode "28024" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20GRAN%20AVENIDA%2014> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/ORCASITAS> ;
+    ns1:latitude 4.036902e+01 ;
+    ns1:longitude -3.710213e+00 ;
+    ns1:name "CALLE GRAN AVENIDA 14" ;
+    ns1:zipCode "28041" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20HONRUBIA%204> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/ENSANCHE%20DE%20VALLECAS> ;
+    ns1:latitude 4.037128e+01 ;
+    ns1:longitude -3.629246e+00 ;
+    ns1:name "CALLE HONRUBIA 4" ;
+    ns1:zipCode "28031" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20MANRESA%201> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/VALVERDE> ;
+    ns1:latitude 4.049121e+01 ;
+    ns1:longitude -3.691638e+00 ;
+    ns1:name "CALLE MANRESA 1" ;
+    ns1:zipCode "28034" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20MAREAS%2034> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20ANDRES> ;
+    ns1:latitude 4.034971e+01 ;
+    ns1:longitude -3.714942e+00 ;
+    ns1:name "CALLE MAREAS 34" ;
+    ns1:zipCode "28021" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20MATAPOZUELOS%202> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/CANILLAS> ;
+    ns1:latitude 4.046156e+01 ;
+    ns1:longitude -3.650171e+00 ;
+    ns1:name "CALLE MATAPOZUELOS 2" ;
+    ns1:zipCode "28043" .
+
+<http://vidaactivamadrid.es/info/resource/Address/CALLE%20SAN%20NEMESIO%204> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20JUAN%20BAUTISTA> ;
+    ns1:latitude 4.045225e+01 ;
+    ns1:longitude -3.65804e+00 ;
+    ns1:name "CALLE SAN NEMESIO 4" ;
+    ns1:zipCode "28043" .
+
+<http://vidaactivamadrid.es/info/resource/Address/PASEO%20VAGUADA%2013> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/EL%20PILAR> ;
+    ns1:latitude 4.048017e+01 ;
+    ns1:longitude -3.711298e+00 ;
+    ns1:name "PASEO VAGUADA 13" ;
+    ns1:zipCode "28029" .
+
+<http://vidaactivamadrid.es/info/resource/Address/PLAZA%20COLON%204> a <http://vidaactivamadrid.es/info/ontology/class#Address> ;
+    ns1:isInNeighborhood <http://vidaactivamadrid.es/info/resource/Neighborhood/RECOLETOS> ;
+    ns1:latitude 4.042497e+01 ;
+    ns1:longitude -3.689948e+00 ;
+    ns1:name "PLAZA COLON 4" ;
+    ns1:zipCode "28001" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Auditorio%20al%20aire%20libre.%20Parque%20de%20la%20Vaguada> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "0" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e537b503a71c010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/PASEO%20VAGUADA%2013> ;
+    ns1:name "Auditorio al aire libre. Parque de la Vaguada" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20Almirante%20Churruca%20%28Latina%29> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20FUENTE%20DEL%20TIRO%2072> ;
+    ns1:name "Centro Sociocultural Almirante Churruca (Latina)" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Centro%20Sociocultural%20El%20Greco%20%28Latina%29> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cae2b3e42751c010VgnVCM2000000c205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20EL%20GRECO%2029> ;
+    ns1:name "Centro Sociocultural El Greco (Latina)" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Carme%20Chac%C3%B3n.%20Hortaleza> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a3ab855a64315610VgnVCM2000001f4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20MATAPOZUELOS%202> ;
+    ns1:name "Espacio de Igualdad Carme Chacón. Hortaleza" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Elena%20Arnedo%20Soriano.%20Retiro> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cb3655d1b6742610VgnVCM1000001d4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20ARREGUI%20Y%20ARUEJ%2031> ;
+    ns1:name "Espacio de Igualdad Elena Arnedo Soriano. Retiro" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Gloria%20Fuertes.%20Vic%C3%A1lvaro> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=5e46dfffe772a510VgnVCM1000001d4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20REAL%2014> ;
+    ns1:name "Espacio de Igualdad Gloria Fuertes. Vicálvaro" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Zambrano.%20Chamber%C3%AD> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=306b89e2c9e5d010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20ANDRES%20MELLADO%2044> ;
+    ns1:name "Espacio de Igualdad María Zambrano. Chamberí" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/ADELFAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "ADELFAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/BELLAS%20VISTAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "BELLAS VISTAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/CANILLAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "CANILLAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/CASCO%20H.VICALVARO> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "CASCO H.VICALVARO" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/EL%20PILAR> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "EL PILAR" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/ENSANCHE%20DE%20VALLECAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "ENSANCHE DE VALLECAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/GAZTAMBIDE> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "GAZTAMBIDE" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/LAS%20AGUILAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "LAS AGUILAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/LUCERO> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "LUCERO" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/ORCASITAS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "ORCASITAS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/RECOLETOS> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "RECOLETOS" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20ANDRES> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "SAN ANDRES" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20FERMIN> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "SAN FERMIN" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20JUAN%20BAUTISTA> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "SAN JUAN BAUTISTA" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/SAN%20PASCUAL> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "SAN PASCUAL" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/UNIVERSIDAD> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "UNIVERSIDAD" .
+
+<http://vidaactivamadrid.es/info/resource/Neighborhood/VALVERDE> a <http://vidaactivamadrid.es/info/ontology/class#Neighborhood2> ;
+    ns1:name "VALVERDE" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Berta%20C%C3%A1ceres.%20Usera> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6a38fb412e9a2610VgnVCM2000001f4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20GRAN%20AVENIDA%2014> ;
+    ns1:name "Espacio de Igualdad Berta Cáceres. Usera" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Dulce%20Chac%C3%B3n.%20Villaverde> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "0" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=82986a073fed0110VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20MAREAS%2034> ;
+    ns1:name "Espacio de Igualdad Dulce Chacón. Villaverde" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Emilia%20Pardo%20Baz%C3%A1n.%20Ciudad%20Lineal> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=048525eae8975710VgnVCM2000001f4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20BADAJOZ%2060> ;
+    ns1:name "Espacio de Igualdad Emilia Pardo Bazán. Ciudad Lineal" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Hermanas%20Mirabal.%20Tetu%C3%A1n> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=689c8c0000c9a310VgnVCM2000000c205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20BRAVO%20MURILLO%20133> ;
+    ns1:name "Espacio de Igualdad Hermanas Mirabal. Tetuán" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Mar%C3%ADa%20Moliner.%20Villa%20de%20Vallecas> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=67132bfd4f975710VgnVCM1000001d4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20HONRUBIA%204> ;
+    ns1:name "Espacio de Igualdad María Moliner. Villa de Vallecas" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Biblioteca%20P%C3%BAblica%20Municipal%20San%20Ferm%C3%ADn%20%28Usera%29> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1,5,6" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=83e748aaf535e710VgnVCM1000001d4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/AVENIDA%20SAN%20FERMIN%2010> ;
+    ns1:name "Biblioteca Pública Municipal San Fermín (Usera)" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Centro%20de%20Cultura%20Contempor%C3%A1nea%20Conde%20Duque> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20CONDE%20DUQUE%209> ;
+    ns1:name "Centro de Cultura Contemporánea Conde Duque" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Espacio%20de%20Igualdad%20Lucrecia%20P%C3%A9rez.%20Fuencarral-El%20Pardo> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7b6882025c4b2610VgnVCM2000001f4a900aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20MANRESA%201> ;
+    ns1:name "Espacio de Igualdad Lucrecia Pérez. Fuencarral-El Pardo" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Centro%20Cultural%20San%20Juan%20Bautista%20%28Ciudad%20Lineal%29> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/CALLE%20SAN%20NEMESIO%204> ;
+    ns1:name "Centro Cultural San Juan Bautista (Ciudad Lineal)" .
+
+<http://vidaactivamadrid.es/info/resource/Facility/Fern%C3%A1n%20G%C3%B3mez%20Centro%20Cultural%20de%20la%20Villa> a <http://vidaactivamadrid.es/info/ontology/class#Facility> ;
+    ns1:accessibility "1,6" ;
+    ns1:facilityURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=ba663d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+    ns1:hasAddress <http://vidaactivamadrid.es/info/resource/Address/PLAZA%20COLON%204> ;
+    ns1:name "Fernán Gómez Centro Cultural de la Villa" .
+

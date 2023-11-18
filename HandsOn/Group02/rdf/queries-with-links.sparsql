@@ -1,0 +1,54 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX madridonc: <http://madridalfresco.es/lcc/ontology/locales#>
+PREFIX madridrec: <http://madridalfresco.es/lcc/resource/>
+
+#Relationship between district and wikidata
+SELECT DISTINCT ?dist ?samedist 
+WHERE { 
+     ?dist madridonc:sameAsNombreDistrito ?samedist.
+} LIMIT 10
+
+#Result: (rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/SBC'), rdflib.term.Literal('https://wikidata.org/entity/Q2001937'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q1773521'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/VDV'), rdflib.term.Literal('https://wikidata.org/entity/Q1947988'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/V'), rdflib.term.Literal('https://wikidata.org/entity/Q919536'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/B'), rdflib.term.Literal('https://wikidata.org/entity/Q807230'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/A'), rdflib.term.Literal('https://wikidata.org/entity/Q2000929'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/U'), rdflib.term.Literal('https://wikidata.org/entity/Q953368'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/MA'), rdflib.term.Literal('https://wikidata.org/entity/Q2017682'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/C'), rdflib.term.Literal('https://wikidata.org/entity/Q1763376'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/M'), rdflib.term.Literal('https://wikidata.org/entity/Q2076109'))
+
+#Relationship between neighborhood and wikidata
+SELECT DISTINCT ?barrio ?samebarrio 
+WHERE { 
+    ?barrio madridonc:sameAsBarrio ?samebarrio.
+} LIMIT 10
+
+#Result:(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/SBC'), rdflib.term.Literal('https://wikidata.org/entity/Q18880469'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q3814559'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q3814551'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/VDV'), rdflib.term.Literal('https://wikidata.org/entity/Q10296'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q3814578'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/V'), rdflib.term.Literal('https://wikidata.org/entity/Q390457'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/V'), rdflib.term.Literal('https://wikidata.org/entity/Q10319807'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q3814564'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/SBC'), rdflib.term.Literal('https://wikidata.org/entity/Q10371626'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/SBC'), rdflib.term.Literal('https://wikidata.org/entity/Q10359029'))
+
+#Relationship between street type and wikidata
+SELECT DISTINCT ?tipoVia ?sametipoVia 
+WHERE { 
+    ?tipoVia madridonc:sameAsTipoVia ?sametipoVia.
+} LIMIT 10
+
+#Result: (rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/SBC'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/S'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/V'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/VDV'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/B'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/A'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/U'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/MA'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/M'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
+#(rdflib.term.URIRef('http://madridalfresco.es/lcc/resource/Distrito/PDV'), rdflib.term.Literal('https://wikidata.org/entity/Q79007'))
