@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 07 Dataset Analysis</title>
+    <style>
+      table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 5px;
+          text-align: left;
+      }
+  </style>
+</head>
+<body>
+    <h1>Group 07 Dataset Analysis</h1>
+
+    <h2>Overview of the Dataset</h2>
+    <p>High-level snapshot of the dataset, highlighting its size in terms of rows and columns and offering a quick understanding of the data contained in each column.</p>
+
+
+    <ul>
+      <li><strong>Size:</strong> 385 rows and 9 columns</li>
+    </ul>
+    <ul>
+      <li><strong>Station Name:</strong> The name of the charging station.</li>
+      <li><strong>Street Address:</strong> The street address of the charging station.</li>
+      <li><strong>City:</strong> The city in which the charging station is located.</li>
+      <li><strong>Access Days Time:</strong> The operating hours of the charging station.</li>
+      <li><strong>EV Level1 EVSE Num:</strong> The number of Level 1 Electric Vehicle Supply Equipment (EVSE) available at the station.</li>
+      <li><strong>EV Level2 EVSE Num:</strong> The number of Level 2 EVSE available at the station.</li>
+      <li><strong>EV DC Fast Count:</strong> The number of DC Fast chargers available at the station.</li>
+      <li><strong>EV Other Info:</strong> Additional information about other types of chargers or related info.</li>
+      <li><strong>New Georeferenced Column:</strong> The geographical coordinates of the charging station.</li>
+      <li><strong>Counties:</strong> It contains numerical values, representing codes for different counties.</li>
+      <li><strong>Zip Code:</strong> It contains postal zip codes (numerial values)</li>
+      <li><strong>Town Index:</strong> It is an unique identifier for different towns.</li>
+      <li><strong>Planning Regions:</strong> It is an unique identifier for different planning regions</li>
+    </ul>
+
+    <hr>
+
+    <h2>Quantitative Analysis</h2>
+<h3>Geographical Distribution</h3>
+<p>The dataset reveals a diverse geographical distribution of charging stations across various cities. Here are the most common cities:</p>
+<ul>
+    <li>Stamford has 21 charging stations.</li>
+    <li>Hartford has 20 charging stations.</li>
+    <li>Fairfield has 20 charging stations.</li>
+    <li>New Haven has 13 charging stations.</li>
+    <li>Danbury has 12 charging stations.</li>
+</ul>
+<img src="analysis_plots/city.png" alt="Number of Charging Stations by City" width="600">
+
+<hr>
+<h3>Operational Hours Analysis</h3>
+<p>The operating hours of the charging stations vary, with some patterns emerging as more common:</p>
+<ul>
+    <li>'24 Hours Daily': 301 stations.</li>
+    <li>'Facility Opening Hours': 51 stations.</li>
+    <li>'Not Specified': 9 stations.</li>
+    <li>'6am-12pm Daily': 5 stations.</li>
+    <li>'6am-12am Daily': 3 stations.</li>
+    <li>'8am-10pm Daily': 2 stations.</li>
+    <li>'9am-5pm M-f': 2 stations.</li>
+    <li>'Dawn To Dusk': 1 station.</li>
+    <li>'10am-8pm M-th, 10am-6pm F, 10am-5pm Sat, 1pm-5pm Sun (sunday Hours In Winter Only)': 1 station.</li>
+    <li>'7am-10pm M-f, 8am-5pm Sat': 1 station.</li>
+    <li>'11am-10pm Daily': 1 station.</li>
+    <li>'For Guest Use Only': 1 station.</li>
+    <li>'6am-6pm Daily': 1 station.</li>
+    <li>'After 5pm Daily': 1 station.</li>
+    <li>'8:30am-4:30pm M-f': 1 station.</li>
+    <li>'6am-12am': 1 station.</li>
+    <li>'7am-7pm M-f': 1 station.</li>
+    <li>'8am-3pm M-f': 1 station.</li>
+    <li>'8am-5pm M-f': 1 station.</li>
+</ul>
+
+<img src="analysis_plots/time.png" alt="Operational Hours Analysis" width="1000">
+
+<hr>
+<h3>Charger Type Dominance</h3>
+<p>Among the three types of chargers, <strong>Level2</strong> chargers are the most commonly available across the stations.</p>
+<img src="analysis_plots/type.png" alt="Charger Type Dominance" width="600">
+
+<hr>
+<h3>Stations with Multiple Charger Types</h3>
+<p>Out of the total stations, 19 stations offer more than one type of charger, showcasing the versatility of these stations.</p>
+<hr>
+<h3>Charger Statistics</h3>
+<p>The table provides statistical insights into the distribution of the three types of chargers: Level 1, Level 2, and DC Fast chargers.</p>
+
+    <ul>
+      <li><strong>Count:</strong> The total number of charging stations that were considered for the statistics.</li>
+      <li><strong>Mean:</strong> The average number of each type of charger across all charging stations.</li>
+      <li><strong>Std:</strong> The standard deviation, which gives an idea of the dispersion or spread of the number of chargers around the mean value.</li>
+      <li><strong>Max:</strong> The maximum number of chargers of each type found at any charging station.</li>
+    </ul>
+    <table>
+        <tr>
+            <th></th>
+            <th>Level 1 Chargers</th>
+            <th>Level 2 Chargers</th>
+            <th>DC Fast Chargers</th>
+        </tr>
+
+        <tr>
+            <td><strong>count</strong></td>
+            <td>385.00</td>
+            <td>385.00</td>
+            <td>385.00</td>
+        </tr>
+    
+        <tr>
+            <td><strong>mean</strong></td>
+            <td>0.05</td>
+            <td>2.04</td>
+            <td>0.60</td>
+        </tr>
+    
+        <tr>
+            <td><strong>std</strong></td>
+            <td>0.49</td>
+            <td>1.85</td>
+            <td>2.13</td>
+        </tr>
+    
+        <tr>
+            <td><strong>max</strong></td>
+            <td>8.00</td>
+            <td>17.00</td>
+            <td>16.00</td>
+        </tr>
+    </table>
+<hr>
+<h3>Chargers Count Per City</h3>
+<p>The table enumerates the total count of each type of charger (Level 1, Level 2, and DC Fast) available in each city.</p>
+
+    <table>
+        <tr>
+            <th>City</th>
+            <th>Level 1 Chargers</th>
+            <th>Level 2 Chargers</th>
+            <th>DC Fast Chargers</th>
+        </tr>
+
+        <tr>
+            <td><strong>Barkhamsted</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Beacon Falls</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Berlin</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Bethany</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Bethel</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Bloomfield</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Branford</strong></td>
+            <td>0</td>
+            <td>13</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Bridgeport</strong></td>
+            <td>0</td>
+            <td>11</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Bristol</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Brooklyn</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Burlington</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Canton</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Cheshire</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Clinton</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Colebrook</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Coventry</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Danbury</strong></td>
+            <td>0</td>
+            <td>20</td>
+            <td>12</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Darien</strong></td>
+            <td>4</td>
+            <td>4</td>
+            <td>20</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Deep River</strong></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Durham</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>East Granby</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>East Haddam</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>East Hampton</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>East Hartford</strong></td>
+            <td>0</td>
+            <td>10</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>East Haven</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Easton</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Ellington</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Enfield</strong></td>
+            <td>0</td>
+            <td>9</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Fairfield</strong></td>
+            <td>0</td>
+            <td>32</td>
+            <td>21</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Farmington</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Glastonbury</strong></td>
+            <td>0</td>
+            <td>5</td>
+            <td>2</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Greenwich</strong></td>
+            <td>0</td>
+            <td>16</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Groton</strong></td>
+            <td>0</td>
+            <td>14</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Guilford</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Hamden</strong></td>
+            <td>0</td>
+            <td>7</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Hartford</strong></td>
+            <td>1</td>
+            <td>66</td>
+            <td>9</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Harwinton</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Hebron</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Kent</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Killingly</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Lakeville</strong></td>
+            <td>0</td>
+            <td>11</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Ledyard</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Lyme</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>MIddletown</strong></td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Madison</strong></td>
+            <td>0</td>
+            <td>16</td>
+            <td>20</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Manchester</strong></td>
+            <td>0</td>
+            <td>5</td>
+            <td>18</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Mansfield</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Mashantucket</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Meriden</strong></td>
+            <td>0</td>
+            <td>13</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Middlebury</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Middletown</strong></td>
+            <td>1</td>
+            <td>31</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Milford</strong></td>
+            <td>0</td>
+            <td>12</td>
+            <td>22</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Morris</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Mystic</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New Britain</strong></td>
+            <td>0</td>
+            <td>19</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New Canaan</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New Fairfield</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New Haven</strong></td>
+            <td>2</td>
+            <td>37</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New London</strong></td>
+            <td>8</td>
+            <td>4</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>New Milford</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Newington</strong></td>
+            <td>0</td>
+            <td>9</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Newtown</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Niantic</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Norfolk</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>North Branford</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>North Canaan</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>North Haven</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+    
+        <tr>
+            <td><strong>North Stamford</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>North Windham</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Norwalk</strong></td>
+            <td>0</td>
+            <td>22</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Norwich</strong></td>
+            <td>0</td>
+            <td>11</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Old Lyme</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Old Saybrook</strong></td>
+            <td>0</td>
+            <td>10</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Orange</strong></td>
+            <td>0</td>
+            <td>10</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Oxford</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Plainville</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Plantsville</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Pomfret</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Putnam</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Ridgefield</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Rocky Hill</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Rockyhill</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Roxbury</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Rte 47, Washington</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Salisbury</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Seymour</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Shelton</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Simsbury</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Somersville</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>South Windsor</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Southbury</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Southington</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Stafford Springs</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Stamford</strong></td>
+            <td>0</td>
+            <td>63</td>
+            <td>13</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Stonington</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Storrs</strong></td>
+            <td>0</td>
+            <td>13</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Stratford</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>9</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Suffield</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Torrington</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Trumbull</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Uncasville</strong></td>
+            <td>0</td>
+            <td>9</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Vernon</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Wallingford</strong></td>
+            <td>0</td>
+            <td>11</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Washington</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Waterbury</strong></td>
+            <td>0</td>
+            <td>12</td>
+            <td>8</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Waterford</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>6</td>
+        </tr>
+    
+        <tr>
+            <td><strong>West Hartford</strong></td>
+            <td>0</td>
+            <td>11</td>
+            <td>9</td>
+        </tr>
+    
+        <tr>
+            <td><strong>West Haven</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+    
+        <tr>
+            <td><strong>West Simsbury</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Westbrook</strong></td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Westport</strong></td>
+            <td>1</td>
+            <td>22</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Wethersfield</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Willimantic</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Wilton</strong></td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Windham</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Windsor Locks</strong></td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Woodbridge</strong></td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Woodstock</strong></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td><strong>Yantic</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table>
+<hr>
+
+<h3>Public Domain Data Authorization</h3>
+<ul>
+    <li>Share - You are permitted to copy and redistribute the material from the Connecticut Geodata Portal in any medium or format.</li>
+    <li>Adapt - You are allowed to remix, transform, and build upon the data available on the Connecticut Geodata Portal.</li>
+</ul>
+<p>The data from the Connecticut Geodata Portal is in the public domain, meaning it is free from any copyright or ownership restrictions. It is available for any use, including both commercial and non-commercial purposes.</p>
+
+<h4>General Conditions for Reuse:</h4>
+<ol>
+    <li>Preservation of Meaning - While there are no legal restrictions, it’s a good practice not to distort the original meaning or context of the information.</li>
+    <li>Citation Recommendation - Though not required for public domain data, it’s recommended to acknowledge the source when reusing the data, e.g., “Data sourced from the Connecticut Geodata Portal”.</li>
+    <li>Update Information - If provided in the original dataset, indicating the date of the latest update is recommended.</li>
+    <li>Non-Endorsement - While using the data, avoid suggesting or implying that the State of Connecticut or its associated entities endorses, sponsors, or supports your work, unless you have explicit permission to do so.</li>
+    <li>Metadata Preservation - If metadata related to update dates or other details is provided, it’s good practice to keep it intact in your derivative works, even though it’s not a strict requirement for public domain data.</li>
+    <li>Protection of Personal Data - If any data has been anonymized for reasons such as personal data protection, avoid attempts to re-identify individuals using this data or by combining it with other data sources.</li>
+</ol>
+
+<h4>Exclusion of Liability:</h4>
+<p>All individuals or entities using the data from the Connecticut Geodata Portal do so at their own risk. Though the data is public domain, users should be responsible and ethical in their use, especially when third parties might be affected.</p>
+
+<h3>Custom Data License for our project</h3>
+<ol>
+    <li>Preservation of Meaning: Any reuse or redistribution of the data must preserve its original meaning. It is strictly forbidden to distort or misrepresent the information in any way.</li>
+    <li>Attribution: The source of the documents being reused must be prominently cited. The following format should be used:  “Original data source: Connecticut Geodata Portal”. Any changes made to the original data must also be indicated.</li>
+    <li>Update Information: If the original data document includes the date of its last update, this date must be clearly indicated when the data is reused.</li>
+    <li>Non-Endorsement: There must be no indication, whether explicit or implied, that the endorses, sponsors, or supports any derivative works or projects that use the data.</li>
+    <li>Preservation of Metadata: Metadata, especially concerning the date of the data’s last update and conditions of its reuse, must be retained in any redistribution. This metadata should neither be altered nor deleted.</li>
+    <li>Protection of Personal Data: Any data that has been anonymized, whether for personal data protection or other reasons, must remain so. It is strictly prohibited to attempt to re-identify individuals from this data, whether on its own or by combining it with other data sources, past, present, or future.</li>
+</ol>
+<hr>
+<h3> Resource Naming Strategy</h3>
+<img src="ontology/OntologyNaming.png"  width="600">
+
+  </body>
+  </html>

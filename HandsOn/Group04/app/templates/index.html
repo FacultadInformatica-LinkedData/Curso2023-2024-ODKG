@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <title>MadCulturalEvents</title>
+    <link rel="icon" type="image/jpg" href="./static/logo.jpeg"/>
+</head>
+<body>
+    <header>
+        <img src="./static/logo.jpeg" alt="Logo de MadCulturalEvents" class="logo" />
+        <div class="header-text">MadCulturalEvents</div>
+    </header>
+
+    <div class="container">
+        <button id="toggle-filters-btn" onclick="toggleFilters()" class="filter-btn">Mostrar/Ocultar Filtros</button>
+        <div class="actions">
+            <div class="action filters">
+                <div class="filters-list">
+                    <div class="filter-pair">
+                        <div class="action search">
+                            <form action="/search_filter" method="get">
+                                <div class="filter">
+                                    <div class="filter-name">Fecha</div>
+                                    <div class="datepicker">
+                                        <input type="text" id="start-date" placeholder="Fecha de inicio" name="StartDate" value="" />
+                                    </div>
+                                    <div class="date-separator"></div>
+                                    <div class="datepicker">
+                                        <input type="text" id="end-date" placeholder="Fecha de fin" name="EndDate" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="filter">
+                                    <div class="filter-name">Precio</div>
+                                    <div class="select">
+                                        <select name="price-select" >
+                                            <option value="?price">------</option>
+                                            {% if prices %}
+                                            {% for price in prices %}
+                                            <option value="{{ price }}">{{ price }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona un precio</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Distrito</div>
+                                    <div class="select">
+                                        <select name="district-select">
+                                            <option value="?districtName">------</option>
+                                            {% if district_names %}
+                                            {% for district in district_names %}
+                                            <option value="{{ district }}">{{ district }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona el distrito</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Transporte</div>
+                                    <div class="select">
+                                        <select name="transport-select">
+                                            <option value="?metro">------</option>
+                                            {% if metro_list %}
+                                            {% for metro in metro_list %}
+                                            <option value="{{ metro }}">{{ metro }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona el metro</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Nombre instalación</div>
+                                    <div class="select">
+                                        <select name="facility-select">
+                                            <option value="?eventPlaceName">------</option>
+                                            {% if facility_names %}
+                                            {% for facility in facility_names %}
+                                            <option value="{{ facility }}">{{ facility }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona el nombre de la instalación</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Accesibilidad</div>
+                                    <div class="select">
+                                        <select name="accessibility-select">
+                                            <option value="?eventAccessibility">------</option>
+                                            {% if accessibilities %}
+                                            {% for accessibility in accessibilities %}
+                                            <option value="{{ accessibility }}">{{ accessibility }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona la accesibilidad</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Tipo evento</div>
+                                    <div class="select">
+                                        <select name="event-type-select">
+                                            <option value="?EventType">------</option>
+                                            {% if event_types %}
+                                            {% for type in event_types %}
+                                            <option value="{{ type }}">{{ type }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona la accesibilidad</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="filter">
+                                    <div class="filter-name">Tipo audiencia</div>
+                                    <div class="select">
+                                        <select name="audience-type-select">
+                                            <option value="?AudienceType">------</option>
+                                            
+                                            {% if audience_types %}
+                                            {% for type in audience_types %}
+                                            <option value="{{ type }}">{{ type }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                            <option value="default">Selecciona el tipo de audiencia</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="search-bar">
+                                    <button class='boton-aplicar-filtros' type="submit">Aplicar Filtros</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="action search">
+                <form action="/search" method="get">
+                    <div class="search-bar">
+                        <input type="text" id="search" placeholder="Buscar eventos..." name="search_value" />
+                        <button type="submit"><img src="./static/search-icon.png" alt="Ícono de búsqueda" /></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <iframe style="width: 100%; height: 50vh; border: none;" src="{{ locations }}" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+        {% if result %} {% for event in result %}
+        <div class="item-container">
+            <div class="item-outer">
+                <div class="item-inner">
+                    <div class="toggle-icon">
+                        <img src="./static/Down.svg" loading="lazy" decoding="async" alt="Flecha hacia abajo" />
+                    </div>
+                    <div name="event_name">{{ event[1] }}</div>
+                </div>
+            </div>
+            <div class="item-details-outer">
+                <div class="item-details-inner">
+                    <div>Descripción: {{ event[2] }}</div>
+                    <div>Precio: {{ event[3] }}</div>
+                    <div>Accesibilidad: {{ event[4] }}</div>
+                    <div>Lugar: <a href="/get_facility_info?facility_id={{ event[6].split('/')[-1] }}">{{ event[5] }}</a></div>
+                    <div>Fecha Inicio: {{ event[7] }}</div>
+                    <div>Fecha Fin: {{ event[8] }}</div>
+                    <div>Tipo audiencia: {{ event[9] }}</div>
+                    <div>Tipo evento: {{ event[10] }}</div>
+                </div>
+            </div>
+        </div>
+        {% endfor %} {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="./static/index.js"></script>
+    <script>
+        $(function () {
+            $("#start-date").datepicker({
+                dateFormat: "yy-mm-dd", // Establece el formato deseado
+                showTime: true // Puedes agregar esto si también quieres incluir la hora en el datepicker
+            });
+            $("#end-date").datepicker({
+                dateFormat: "yy-mm-dd",
+                showTime: true
+            });
+    
+            // Ocultar los filtros por defecto al cargar la página
+            toggleFilters();
+        });
+    </script>
+</body>
+</html>

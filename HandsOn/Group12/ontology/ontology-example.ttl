@@ -1,0 +1,16 @@
+ @prefix : <http://grupo12_open_data.org#> .
+@prefix datex: <http://datex.org/> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gp: <http://grupo12_open_data.org#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org#> .
+
+
+:ParkingFacility/AGUILAR DE CAMPO a schema:ParkingFacility;
+	schema:identifier 912;
+	schema:name AGUILAR DE CAMPO; 
+	gp:average_price 7401,22;
+	dbpedia-owl:numberOfParkingSpaces 1;

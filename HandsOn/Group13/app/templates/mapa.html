@@ -1,0 +1,22 @@
+<!-- templates/mapa.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de Eventos</title>
+</head>
+<style>
+    html, body {
+        height: 100%; /* Establece la altura del html y del body al 100% */
+        margin: 0; /* Elimina los márgenes predeterminados */
+        padding: 0; /* Elimina el relleno predeterminado */
+    }
+    iframe {
+        display: block; /* Elimina cualquier espacio debajo del iframe */
+        border: none; /* Opcional: elimina el borde del iframe */
+    }
+</style>
+</head>
+<body>
+<iframe src="{{ url_for('static', filename='mapa2.html') }}" width="100%" height="100%"></iframe>
+</body>
+</html>

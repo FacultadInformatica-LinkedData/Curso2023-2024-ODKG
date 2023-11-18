@@ -1,0 +1,23 @@
+PREFIX art: <http://artwork.org/>
+
+# select artwork with accession number A00001
+SELECT ?artist ?title
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasAccessionNumber "A00001" .
+  ?artwork art:hasArtist ?artist .
+  ?artwork art:hasTitle ?title .
+}
+
+# count number of artworks
+SELECT (COUNT(DISTINCT ?id) as ?distinctIdCount)
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasId ?id .
+}
+
+# count number of artists
+SELECT (COUNT(DISTINCT ?artist) as ?distinctArtistCount)
+WHERE {
+  ?artwork a art:Artwork .
+  ?artwork art:hasArtist ?artist .

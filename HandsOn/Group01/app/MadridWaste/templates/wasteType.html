@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block title %}WasteType Details{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="/static/css/wasteType.css">
+    <h1 class="text-center mb-4">WasteType: {{ wasteType }}</h1>
+    {% if result %}
+        <div id="description">
+            <h3>Description</h3>
+            <p>{{ result }}</p>
+        </div>
+    {% else %}
+        <p class="text-center">No further details available for this waste type.</p>
+    {% endif %}
+
+    {% if distribution %}
+        <!-- Year Selector -->
+        <form id="yearForm" action="" method="post">
+            <label for="yearSelector">Select Year:</label>
+            <select id="yearSelector" name="year">
+                <option value="2021" {% if year == '2021' %} selected {% endif %}>2021</option>
+                <option value="2022" {% if year == '2022' %} selected {% endif %}>2022</option>
+                <option value="2023" {% if year == '2023' %} selected {% endif %}>2023</option>
+            </select>
+        </form>
+
+        <form id="monthForm" action="" method="post">
+            <label for="monthSelector">Select month:</label>
+            <select id="monthSelector" name="month">
+                <option value="1" {% if month == '1' %} selected {% endif %}>1</option>
+                <option value="2" {% if month == '2' %} selected {% endif %}>2</option>
+                <option value="3" {% if month == '3' %} selected {% endif %}>3</option>
+                <option value="4" {% if month == '4' %} selected {% endif %}>4</option>
+                <option value="5" {% if month == '5' %} selected {% endif %}>5</option>
+                <option value="6" {% if month == '6' %} selected {% endif %}>6</option>
+                <option value="7" {% if month == '7' %} selected {% elif year == '2023' %} disabled {% endif %}>7
+                </option>
+                <option value="8" {% if month == '8' %} selected {% elif year == '2023' %} disabled {% endif %}>8
+                </option>
+                <option value="9" {% if month == '9' %} selected {% elif year == '2023' %} disabled {% endif %}>9
+                </option>
+                <option value="10" {% if month == '10' %} selected {% elif year == '2023' %} disabled {% endif %}>10
+                </option>
+                <option value="11" {% if month == '11' %} selected {% elif year == '2023' %} disabled {% endif %}>11
+                </option>
+                <option value="12" {% if month == '12' %} selected {% elif year == '2023' %} disabled {% endif %}>12
+                </option>
+            </select>
+            </select>
+        </form>
+
+        <button id="redirectButton">Change period</button>
+
+
+        <!-- Render chart or data table if distribution data is available -->
+        <canvas id="myHistogram"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/he"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+
+            // Your data
+            var data =
+            {{ distribution|tojson|safe }}
+
+            var districtNames = data.map(item => item.districtName);
+            var amounts = data.map(item => item.amount);
+
+            var ctx = document.getElementById('myHistogram').getContext('2d');
+
+            // Create the histogram
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: districtNames,
+                    datasets: [{
+                        label: 'Amount',
+                        data: amounts,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)', // Adjust the color as needed
+                        borderColor: 'rgba(75, 192, 192, 1)',     // Adjust the color as needed
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('redirectButton').addEventListener('click', function () {
+                // Get selected year and month
+                var selectedYear = document.getElementById('yearSelector').value;
+                var selectedMonth = document.getElementById('monthSelector').value;
+
+                var existingParams = window.location.search
+
+                // Construct the URL with parameters
+                var redirectURL = '/updateWasteType?year=' + selectedYear + '&month=' + selectedMonth + "&" + existingParams;
+
+                // Redirect to the new URL
+                window.location.href = redirectURL;
+            });
+
+            document.getElementById('yearSelector').addEventListener('change', function () {
+                var selectedYear = this.value;
+                var monthSelector = document.getElementById('monthSelector');
+
+                // Enable all options
+                for (var i = 0; i < monthSelector.options.length; i++) {
+                    monthSelector.options[i].disabled = false;
+                }
+
+                // Disable months greater than 6 if 2023 is selected
+                if (selectedYear === '2023') {
+                    for (var i = 7; i <= 12; i++) {
+                        monthSelector.options[i - 1].disabled = true;
+                    }
+                }
+            });
+
+            document.getElementById('monthSelector').addEventListener('change', function () {
+                var selectedMonth = this.value;
+                var yearSelector = document.getElementById('yearSelector');
+
+                // Disable year 2022 if a month greater than 6 is selected
+                if (selectedMonth > 6) {
+                    for (var i = 0; i < yearSelector.options.length; i++) {
+                        if (yearSelector.options[i].value === '2023') {
+                            yearSelector.options[i].disabled = true;
+                        }
+                    }
+                } else {
+                    // Enable all options if a month less than or equal to 6 is selected
+                    for (var i = 0; i < yearSelector.options.length; i++) {
+                        yearSelector.options[i].disabled = false;
+                    }
+                }
+            });
+        </script>
+    {% else %}
+        <p class="text-center">Ops something went worng :(</p>
+    {% endif %}
+{% endblock %}
+
