@@ -1,0 +1,302 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix vcard: <http://www.owl-ontologies.com/vcard#> .
+@prefix ns: <http://www.RostockEVCharging.de/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+
+map:map_charging_station_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "charging_station" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016 ;
+	rr:subjectMap map:s_000 .
+
+map:map_municipality_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "municipality" ;
+	rr:predicateObjectMap map:pom_019, map:pom_020 ;
+	rr:subjectMap map:s_002 .
+
+map:map_operator_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "operator" ;
+	rr:predicateObjectMap map:pom_017, map:pom_018 ;
+	rr:subjectMap map:s_001 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant ns:ChargingStation ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "charging_station_name" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_002 rml:reference "latitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_003 rml:reference "longitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:float ;
+	rr:termType rr:Literal .
+
+map:om_004 rdf:type rr:ObjectMap ;
+	rr:template "http://www.RostockEVCharging.de/ontology/resource/municipality#{municipality_id}" ;
+	rr:termType rr:IRI .
+
+map:om_005 rml:reference "street_name" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "house_number" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "house_number_addition" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "postal_code" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
+	rr:termType rr:Literal .
+
+map:om_009 rdf:type rr:ObjectMap ;
+	rr:template "http://www.RostockEVCharging.de/ontology/resource/operator#{operator_id}" ;
+	rr:termType rr:IRI .
+
+map:om_010 rml:reference "operating_mode" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_011 rml:reference "num_charging_points" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:integer ;
+	rr:termType rr:Literal .
+
+map:om_012 rml:reference "types_charging_points" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_013 rml:reference "charging_cards" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_014 rml:reference "cost" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_015 rml:reference "opening_hours" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_016 rml:reference "website" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_017 rdf:type rr:ObjectMap ;
+	rr:constant ns:Operator ;
+	rr:termType rr:IRI .
+
+map:om_018 rml:reference "operator" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:om_019 rdf:type rr:ObjectMap ;
+	rr:constant ns:Municipality ;
+	rr:termType rr:IRI .
+
+map:om_020 rml:reference "municipality" ;
+	rdf:type rr:ObjectMap ;
+	rr:datatype xsd:string ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant geo:lat .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant geo:long .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant gn:locatedIn .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant ns:street_name .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant ns:house_number .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant ns:house_number_addition .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant ns:postal_code .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant ns:managed_by .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant ns:operating_mode .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant ns:num_charging_points .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant ns:types_charging_points .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant ns:accepted_cards .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant ns:cost .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant ns:opening_hours .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant vcard:hasURL .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant rdfs:label .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant gn:name .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:pom_020 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_020 ;
+	rr:predicateMap map:pm_020 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_charging_station_000, map:map_municipality_000, map:map_operator_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://www.RostockEVCharging.de/ontology/resource/charging_station#{charging_station_id}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "http://www.RostockEVCharging.de/ontology/resource/operator#{operator_id}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://www.RostockEVCharging.de/ontology/resource/municipality#{municipality_id}" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "./cs_evs_rostock_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_001 rml:referenceFormulation ql:CSV ;
+	rml:source "./cs_evs_rostock_updated.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_002 rml:referenceFormulation ql:CSV ;
+	rml:source "./cs_evs_rostock_updated.csv" ;
+	rdf:type rml:LogicalSource .
+

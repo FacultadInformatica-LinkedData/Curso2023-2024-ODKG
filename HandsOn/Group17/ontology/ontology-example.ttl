@@ -1,5 +1,5 @@
 @prefix ns: <http://www.RostockEVCharging.de/ontology/> .
-@prefix geo: <file:///home/schavez/chowlk/https//www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo: <https.//www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vcard: <http://www.owl-ontologies.com/vcard#> .

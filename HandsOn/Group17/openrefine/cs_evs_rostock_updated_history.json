@@ -1226,5 +1226,70 @@
     "newColumnName": "charging_station_id",
     "columnInsertIndex": 9,
     "description": "Create column charging_station_id at index 9 based on column charging_station_name using expression grel:value.toLowercase().replace(\" / \", \"_\").replace(\" \", \"_\").replace(\"-\", \"_\").replace(\"ä\", \"a\").replace(\"ö\", \"o\").replace(\"ü\", \"u\").replace(\"ß\", \"ss\").replace(\".\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "municipality_id",
+    "expression": "value.replace(\"&\",\"and\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column municipality_id using expression value.replace(\"&\",\"and\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator_id",
+    "expression": "value.replace(\"&\",\"and\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator_id using expression value.replace(\"&\",\"and\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "charging_station_id",
+    "expression": "value.replace(\"&\",\"and\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column charging_station_id using expression value.replace(\"&\",\"and\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "types_charging_points",
+    "expression": "grel:value.replace (\"2,3\", \"2.3\").replace (\"3,7\", \"3.7\").replace (\",\", \";\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column types_charging_points using expression grel:value.replace (\"2,3\", \"2.3\").replace (\"3,7\", \"3.7\").replace (\",\", \";\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "cost",
+    "expression": "grel:value.replace (\"0,\", \"0.\").replace (\",\", \";\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column cost using expression grel:value.replace (\"0,\", \"0.\").replace (\",\", \";\")"
   }
 ]
