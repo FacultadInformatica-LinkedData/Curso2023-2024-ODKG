@@ -1,309 +1,640 @@
 [
-    {
-      "op": "core/column-removal",
-      "columnName": "LARGA-DURACION",
-      "description": "Remove column LARGA-DURACION"
+  {
+    "op": "core/column-removal",
+    "columnName": "LARGA-DURACION",
+    "description": "Remove column LARGA-DURACION"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "GRATUITO",
-      "expression": "value.replace(\"0\",\"NO GRATUITO\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column GRATUITO using expression value.replace(\"0\",\"NO GRATUITO\")"
+    "columnName": "GRATUITO",
+    "expression": "value.replace(\"0\",\"NO GRATUITO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GRATUITO using expression value.replace(\"0\",\"NO GRATUITO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "GRATUITO",
-      "expression": "value.replace(\"1\",\"GRATUITO\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column GRATUITO using expression value.replace(\"1\",\"GRATUITO\")"
-    },
-    {
-      "op": "core/column-move",
-      "columnName": "GRATUITO",
-      "index": 2,
-      "description": "Move column GRATUITO to position 2"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "URL-ACTIVIDAD",
-      "description": "Remove column URL-ACTIVIDAD"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "BARRIO-INSTALACION",
-      "description": "Remove column BARRIO-INSTALACION"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "CODIGO-POSTAL-INSTALACION",
-      "description": "Remove column CODIGO-POSTAL-INSTALACION"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "COORDENADA-Y",
-      "description": "Remove column COORDENADA-Y"
-    },
-    {
-      "op": "core/column-removal",
-      "columnName": "COORDENADA-X",
-      "description": "Remove column COORDENADA-X"
-    },
-    {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "PRECIO",
-            "columnName": "PRECIO",
-            "query": "",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "baseColumnName": "CLASE-VIAL-INSTALACION",
-      "expression": "join ([cells['CLASE-VIAL-INSTALACION'].value,cells['NOMBRE-VIA-INSTALACION'].value],'_')",
-      "onError": "keep-original",
-      "newColumnName": "DIRECCION",
-      "columnInsertIndex": 16,
-      "description": "Create column DIRECCION at index 16 based on column CLASE-VIAL-INSTALACION using expression join ([cells['CLASE-VIAL-INSTALACION'].value,cells['NOMBRE-VIA-INSTALACION'].value],'_')"
-    },
-    {
-      "op": "core/column-reorder",
-      "columnNames": [
-        "ID-EVENTO",
-        "TITULO",
-        "GRATUITO",
-        "PRECIO",
-        "DIAS-SEMANA",
-        "DIAS-EXCLUIDOS",
-        "FECHA",
-        "FECHA-FIN",
-        "HORA",
-        "DESCRIPCION",
-        "CONTENT-URL",
-        "TITULO-ACTIVIDAD",
-        "URL-INSTALACION",
-        "NOMBRE-INSTALACION",
-        "ACCESIBILIDAD-INSTALACION",
-        "DIRECCION",
-        "NUM-INSTALACION",
-        "DISTRITO-INSTALACION",
-        "LATITUD",
-        "LONGITUD",
-        "TIPO",
-        "AUDIENCIA",
-        "Column"
+    "columnName": "GRATUITO",
+    "expression": "value.replace(\"1\",\"GRATUITO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column GRATUITO using expression value.replace(\"1\",\"GRATUITO\")"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "GRATUITO",
+    "index": 2,
+    "description": "Move column GRATUITO to position 2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "URL-ACTIVIDAD",
+    "description": "Remove column URL-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BARRIO-INSTALACION",
+    "description": "Remove column BARRIO-INSTALACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CODIGO-POSTAL-INSTALACION",
+    "description": "Remove column CODIGO-POSTAL-INSTALACION"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-Y",
+    "description": "Remove column COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "COORDENADA-X",
+    "description": "Remove column COORDENADA-X"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "PRECIO",
+          "columnName": "PRECIO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
       ],
-      "description": "Reorder columns"
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "PRECIO",
-            "columnName": "PRECIO",
-            "query": "",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "columnName": "DISTRITO-INSTALACION",
-      "expression": "value.replace(\" \",\"_\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column DISTRITO-INSTALACION using expression value.replace(\" \",\"_\")"
+    "baseColumnName": "CLASE-VIAL-INSTALACION",
+    "expression": "join ([cells['CLASE-VIAL-INSTALACION'].value,cells['NOMBRE-VIA-INSTALACION'].value],' ')",
+    "onError": "keep-original",
+    "newColumnName": "DIRECCION",
+    "columnInsertIndex": 16,
+    "description": "Create column DIRECCION at index 16 based on column CLASE-VIAL-INSTALACION using expression join ([cells['CLASE-VIAL-INSTALACION'].value,cells['NOMBRE-VIA-INSTALACION'].value],' ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "ID-EVENTO",
+      "TITULO",
+      "GRATUITO",
+      "PRECIO",
+      "DIAS-SEMANA",
+      "DIAS-EXCLUIDOS",
+      "FECHA",
+      "FECHA-FIN",
+      "HORA",
+      "DESCRIPCION",
+      "CONTENT-URL",
+      "TITULO-ACTIVIDAD",
+      "URL-INSTALACION",
+      "NOMBRE-INSTALACION",
+      "ACCESIBILIDAD-INSTALACION",
+      "DIRECCION",
+      "NUM-INSTALACION",
+      "DISTRITO-INSTALACION",
+      "LATITUD",
+      "LONGITUD",
+      "TIPO",
+      "AUDIENCIA",
+      "Column"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DIAS-EXCLUIDOS",
+    "description": "Remove column DIAS-EXCLUIDOS"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "TITULO-ACTIVIDAD",
+    "index": 9,
+    "description": "Move column TITULO-ACTIVIDAD to position 9"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "TITULO-ACTIVIDAD",
+    "index": 8,
+    "description": "Move column TITULO-ACTIVIDAD to position 8"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-removal",
-      "columnName": "Column",
-      "description": "Remove column Column"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"0\",\"NOT ACCESSIBLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"0\",\"NOT ACCESSIBLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-removal",
-      "columnName": "DIAS-EXCLUIDOS",
-      "description": "Remove column DIAS-EXCLUIDOS"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"1\",\"ACCESSIBLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"1\",\"ACCESSIBLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-move",
-      "columnName": "TITULO-ACTIVIDAD",
-      "index": 9,
-      "description": "Move column TITULO-ACTIVIDAD to position 9"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"2\",\"PARTIALLY ACCESSIBLE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"2\",\"PARTIALLY ACCESSIBLE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-move",
-      "columnName": "TITULO-ACTIVIDAD",
-      "index": 8,
-      "description": "Move column TITULO-ACTIVIDAD to position 8"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"3\",\"NO INFORMATION\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"3\",\"NO INFORMATION\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"0\",\"NOT_ACCESSIBLE\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"0\",\"NOT_ACCESSIBLE\")"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"4\",\"SIGN LANGUAGE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"4\",\"SIGN LANGUAGE\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"1\",\"ACCESSIBLE\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"1\",\"ACCESSIBLE\")"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"5\",\"TACTILE PAVING\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"5\",\"TACTILE PAVING\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"2\",\"PARTIALLY_ACCESSIBLE\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"2\",\"PARTIALLY_ACCESSIBLE\")"
+    "columnName": "ACCESIBILIDAD-INSTALACION",
+    "expression": "value.replace(\"6\",\"MAGNETIC LOOP\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"6\",\"MAGNETIC LOOP\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO",
+          "columnName": "TIPO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"3\",\"NO_INFORMATION\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"3\",\"NO_INFORMATION\")"
+    "columnName": "TIPO",
+    "expression": "value.replace(\"/contenido/actividades/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO using expression value.replace(\"/contenido/actividades/\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "TIPO",
+          "columnName": "TIPO",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"4\",\"SIGN_LANGUAGE\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"4\",\"SIGN_LANGUAGE\")"
+    "columnName": "AUDIENCIA",
+    "expression": "value.replace(\"/usuario/\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AUDIENCIA using expression value.replace(\"/usuario/\",\"\")"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "NOMBRE-INSTALACION",
+    "index": 11,
+    "description": "Move column NOMBRE-INSTALACION to position 11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TITULO-ACTIVIDAD",
+    "description": "Remove column TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"5\",\"TACTILE_PAVING\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"5\",\"TACTILE_PAVING\")"
+    "columnName": "DESCRIPCION",
+    "expression": "join ([coalesce(cells['DESCRIPCION'].value,''),coalesce(cells['PRECIO'].value,'')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression join ([coalesce(cells['DESCRIPCION'].value,''),coalesce(cells['PRECIO'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "ID-EVENTO",
+      "TITULO",
+      "GRATUITO",
+      "DIAS-SEMANA",
+      "FECHA",
+      "FECHA-FIN",
+      "HORA",
+      "DESCRIPCION",
+      "CONTENT-URL",
+      "NOMBRE-INSTALACION",
+      "URL-INSTALACION",
+      "ACCESIBILIDAD-INSTALACION",
+      "DIRECCION",
+      "NUM-INSTALACION",
+      "DISTRITO-INSTALACION",
+      "LATITUD",
+      "LONGITUD",
+      "TIPO",
+      "AUDIENCIA"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ID-EVENTO",
+          "expression": "value",
+          "columnName": "ID-EVENTO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "columnName": "ACCESIBILIDAD-INSTALACION",
-      "expression": "value.replace(\"6\",\"MAGNETIC_LOOP\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column ACCESIBILIDAD-INSTALACION using expression value.replace(\"6\",\"MAGNETIC_LOOP\")"
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NOMBRE-INSTALACION",
+          "expression": "value",
+          "columnName": "NOMBRE-INSTALACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO",
-            "columnName": "TIPO",
-            "query": "",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "columnName": "TIPO",
-      "expression": "value.replace(\"/contenido/actividades/\",\"\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column TIPO using expression value.replace(\"/contenido/actividades/\",\"\")"
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
     },
-    {
-      "op": "core/text-transform",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "text",
-            "name": "TIPO",
-            "columnName": "TIPO",
-            "query": "",
-            "mode": "text",
-            "caseSensitive": false,
-            "invert": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "columnName": "AUDIENCIA",
-      "expression": "value.replace(\"/usuario/\",\"\")",
-      "onError": "keep-original",
-      "repeat": false,
-      "repeatCount": 10,
-      "description": "Text transform on cells in column AUDIENCIA using expression value.replace(\"/usuario/\",\"\")"
+    "columnName": "DIRECCION",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DIRECCION",
+          "expression": "value",
+          "columnName": "DIRECCION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "AVENIDA LOGRO&AMP;NTILDE;O",
+                "l": "AVENIDA LOGRO&AMP;NTILDE;O"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-move",
-      "columnName": "NOMBRE-INSTALACION",
-      "index": 11,
-      "description": "Move column NOMBRE-INSTALACION to position 11"
+    "columnName": "DIRECCION",
+    "expression": "value.replace(\"AVENIDA LOGRO&AMP;NTILDE;O\",\"AVENIDA LOGROÑO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.replace(\"AVENIDA LOGRO&AMP;NTILDE;O\",\"AVENIDA LOGROÑO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DIRECCION",
+          "expression": "value",
+          "columnName": "DIRECCION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TRAVESIA CA&AMP;NTILDE;O",
+                "l": "TRAVESIA CA&AMP;NTILDE;O"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
     },
-    {
-      "op": "core/column-removal",
-      "columnName": "TITULO-ACTIVIDAD",
-      "description": "Remove column TITULO-ACTIVIDAD"
-    }
-  ]
+    "columnName": "DIRECCION",
+    "expression": "value.replace(\"TRAVESIA CA&AMP;NTILDE;O\",\"TRAVESIA CAÑO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression value.replace(\"TRAVESIA CA&AMP;NTILDE;O\",\"TRAVESIA CAÑO\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NUM-INSTALACION",
+          "expression": "value",
+          "columnName": "NUM-INSTALACION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NUM-INSTALACION",
+    "expression": "grel:if(isBlank(value.trim()), \"S/N\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUM-INSTALACION using expression grel:if(isBlank(value.trim()), \"S/N\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "TIPO",
+          "expression": "value",
+          "columnName": "TIPO",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "expression": "grel:if(isBlank(value.trim()), \"Cultural\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO using expression grel:if(isBlank(value.trim()), \"Cultural\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AUDIENCIA",
+    "expression": "grel:if(isBlank(value.trim()), \"Todos\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AUDIENCIA using expression grel:if(isBlank(value.trim()), \"Todos\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIAS-SEMANA",
+    "expression": "grel:if(isBlank(value.trim()), \"U\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIAS-SEMANA using expression grel:if(isBlank(value.trim()), \"U\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "DESCRIPCION",
+          "expression": "value",
+          "columnName": "DESCRIPCION",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:if(isBlank(value.trim()), \"Sin información\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:if(isBlank(value.trim()), \"Sin información\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "grel:value.replace(\" \", \"T\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA using expression grel:value.replace(\" \", \"T\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:value.replace(\" \", \"T\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:value.replace(\" \", \"T\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TITULO",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TITULO using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE-INSTALACION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE-INSTALACION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DIRECCION",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DIRECCION using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AUDIENCIA",
+    "expression": "grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AUDIENCIA using expression grel:value.replace(/[áÁ]/, 'a').replace(/[éÉ]/, 'e').replace(/[íÍ]/, 'i').replace(/[óÓ]/, 'o').replace(/[úÚüÜ]/, 'u').replace(/[ñÑ]/, 'n')"
+  }
+]

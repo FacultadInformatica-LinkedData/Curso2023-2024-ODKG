@@ -1,0 +1,89 @@
+from rdflib.plugins.sparql import prepareQuery
+#List thre name of 20 districts and their links.
+q1 = prepareQuery('''
+  SELECT ?entity ?name ?link
+  WHERE {
+    ?entity rdf:type vocab:HealthCenter.
+    ?entity vocab:name ?name.
+    ?entity vocab:Location ?Location.
+    ?Location vocab:Address ?Address.
+    ?Address vocab:district_wikidata ?link.
+  }
+  LIMIT 20
+  ''',
+  initNs = { "rdf": RDF, "vocab":vocab}
+)
+
+# Visualize the results
+for s in g.query(q1):
+  print(s.name, s.link)
+
+
+############################Answer########################################
+Hospital Doctor Rodríguez Lafora https://wikidata.org/entity/Q656196
+Centro de Salud Argüelles https://wikidata.org/entity/Q2017682
+Centro de Especialidades Periférico Vicente Soldevilla https://wikidata.org/entity/Q2003054
+MD Anderson Cancer Center Madrid https://wikidata.org/entity/Q1763694
+Centro de Salud Gandhi https://wikidata.org/entity/Q1763694
+Clínica Universidad de Navarra en Madrid https://wikidata.org/entity/Q2001937
+Centro de Salud Paseo Imperial https://wikidata.org/entity/Q2000929
+Centro de Salud Orcasur https://wikidata.org/entity/Q953368
+Centro de Salud Montesa https://wikidata.org/entity/Q1773521
+Centro de Salud Valdebernardo https://wikidata.org/entity/Q589403
+Clínica San Vicente https://wikidata.org/entity/Q1001991
+Fundación Vianorte-Laguna https://wikidata.org/entity/Q794954
+Centro de Salud Los Alpes https://wikidata.org/entity/Q2001937
+Hospital de Emergencias Enfermera Isabel Zendal https://wikidata.org/entity/Q807230
+Centro de Salud Joaquín Rodrigo https://wikidata.org/entity/Q953368
+Centro de Atención a las Adicciones (CAD) de Latina https://wikidata.org/entity/Q794954
+Centro de Atención a las Adicciones (CAD) de Villaverde https://wikidata.org/entity/Q919536
+Centro de Atención a las Adicciones (CAD) de Vallecas https://wikidata.org/entity/Q2003054
+Centro de Atención a las Adicciones (CAD) de San Blas https://wikidata.org/entity/Q2001937
+Centro de Atención a las Adicciones (CAD) de Tetuán https://wikidata.org/entity/Q1773540
+
+
+from rdflib.plugins.sparql import prepareQuery
+
+#List 20 entities and the link to the neighbourhood they are part of.
+q2 = prepareQuery('''
+  SELECT ?entity ?name ?link
+  WHERE {
+    ?entity rdf:type vocab:HealthCenter.
+    ?entity vocab:name ?name.
+    ?entity vocab:Location ?Location.
+    ?Location vocab:Address ?Address.
+    ?Address vocab:neighbourhood_wikidata ?link.
+  }
+  LIMIT 20
+  ''',
+  initNs = { "rdf": RDF, "vocab":vocab}
+)
+
+# Visualize the results
+for s in g.query(q2):
+  print(s.entity,s.link)
+
+
+############################Answer########################################
+https://sample.com/resource/HealthCenter10131886 https://wikidata.org/entity/Q31132
+https://sample.com/resource/HealthCenter10144881 https://wikidata.org/entity/Q64874
+https://sample.com/resource/HealthCenter10158869 https://wikidata.org/entity/Q11946851
+https://sample.com/resource/HealthCenter10168171 https://wikidata.org/entity/Q331385
+https://sample.com/resource/HealthCenter104705 https://wikidata.org/entity/Q71753
+https://sample.com/resource/HealthCenter10613510 https://wikidata.org/entity/Q10367095
+https://sample.com/resource/HealthCenter10759171 https://wikidata.org/entity/Q3773740
+https://sample.com/resource/HealthCenter10759192 https://wikidata.org/entity/Q10341270
+https://sample.com/resource/HealthCenter10759241 https://wikidata.org/entity/Q4779
+https://sample.com/resource/HealthCenter110788 https://wikidata.org/entity/Q43025212
+https://sample.com/resource/HealthCenter11174880 https://wikidata.org/entity/Q953929
+https://sample.com/resource/HealthCenter11174884 https://wikidata.org/entity/Q31162
+https://sample.com/resource/HealthCenter112335 https://wikidata.org/entity/Q18880469
+https://sample.com/resource/HealthCenter11298560 https://wikidata.org/entity/Q10382570
+https://sample.com/resource/HealthCenter117595 https://wikidata.org/entity/Q10352360
+https://sample.com/resource/HealthCenter11862 https://wikidata.org/entity/Q31140
+https://sample.com/resource/HealthCenter11863 https://wikidata.org/entity/Q390435
+https://sample.com/resource/HealthCenter11864 https://wikidata.org/entity/Q11946851
+https://sample.com/resource/HealthCenter11865 https://wikidata.org/entity/Q10367095
+https://sample.com/resource/HealthCenter11866 https://wikidata.org/entity/Q2265427
+
+

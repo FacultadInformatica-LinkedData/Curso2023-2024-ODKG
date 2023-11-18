@@ -7,12 +7,12 @@
 - [X] buttaciemanuel
     - [X] updated CSV dataset file
     - [X] exported OpenRefine operations in JSON
-- [ ] Shelvi96
-    - [ ] updated CSV dataset file
-    - [ ] exported OpenRefine operations in JSON
-- [ ] tutajewcia
-    - [ ] updated CSV dataset file
-    - [ ] exported OpenRefine operations in JSON
+- [X] Shelvi96
+    - [X] updated CSV dataset file
+    - [X] exported OpenRefine operations in JSON
+- [X] tutajewcia
+    - [X] updated CSV dataset file
+    - [X] exported OpenRefine operations in JSON
 - [ ] Soum2111
     - [ ] updated CSV dataset file
     - [ ] exported OpenRefine operations in JSON
