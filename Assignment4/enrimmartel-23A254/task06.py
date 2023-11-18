@@ -73,9 +73,10 @@ for s, p, o in g:
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 
 # TO DO
+ORG = Namespace("http://www.w3.org/ns/org#")
 
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, vcard.WorkFor, ns.UPM))
+g.add((ns.JohnSmith, ORG.hasPost, ns.UPM))
 
 # Visualize the results
 for s, p, o in g:
