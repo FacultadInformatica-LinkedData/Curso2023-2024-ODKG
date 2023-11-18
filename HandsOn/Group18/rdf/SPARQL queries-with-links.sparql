@@ -1,0 +1,53 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ns: <http://MadridTransit.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+SELECT DISTINCT ?Subject ?Name WHERE {
+  ?Subject a ns:District.
+  ?Subject owl:sameAs ?Name                       
+  }
+  
+SELECT DISTINCT ?xdistrict ?WeatherType WHERE {
+    ?Subject a ns:Accident;
+             ns:locatedAt ?xdistrict;
+             ns:weatherCondition ?WeatherType
+  }
+
+SELECT DISTINCT ?parts WHERE{
+  ?Subject a ns:Vehicle.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P527 ?parts.
+}
+
+#gets the name of every head of goverment of each district
+SELECT DISTINCT ?name WHERE{
+  ?Subject a ns:District.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P6 ?hog.
+  ?hog https://www.wikidata.org/wiki/Property:P735 ?name.
+  }
+
+SELECT DISTINCT ?upclass WHERE{
+  ?Subject a ns:Weather.
+  ?Subject owl:sameAs ?wksuj.
+  ?wksuj https://www.wikidata.org/wiki/Property:P279 ?upclass.
+}
+
+SELECT ?Label ?WikiLink  WHERE {
+      ?Subject a ns:Vehicle;
+        owl:sameAs ?WikiLink.
+      ?WikiLink rdf:label ?Label                    
+  }
+
+SELECT ?Label ?WikiLink  WHERE {
+      ?Subject a ns:Weather;
+        owl:sameAs ?WikiLink.
+        ?WikiLink rdf:label ?Label                     
+  }

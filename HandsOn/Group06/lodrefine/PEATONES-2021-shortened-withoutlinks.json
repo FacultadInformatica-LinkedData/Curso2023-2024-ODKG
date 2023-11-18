@@ -1,0 +1,962 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "fechaHora",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column fechaHora using expression value.toDate()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acera Pares "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acera Pares"
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "longitud",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitud using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "numPeatones",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column numPeatones using expression value.toNumber()"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column id_calle to type Q79007"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Plaza del Emperador Carlos V",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7203711",
+      "name": "Plaza del Emperador Carlos V",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Plaza del Emperador Carlos V (Q7203711) for cells containing \"Plaza del Emperador Carlos V\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Calle San Bernardo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740864",
+      "name": "San Bernardo street",
+      "types": [
+        "Q79007"
+      ],
+      "score": 92
+    },
+    "shareNewTopics": false,
+    "description": "Match item San Bernardo street (Q5740864) for cells containing \"Calle San Bernardo\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Alberto Aguilera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740796",
+      "name": "Calle de Alberto Aguilera",
+      "types": [
+        "Q79007"
+      ],
+      "score": 89
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle de Alberto Aguilera (Q5740796) for cells containing \"Alberto Aguilera\" in column id_calle"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calle Hortaleza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Calle de Hortaleza"
+      }
+    ],
+    "description": "Mass edit cells in column id_calle"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column id_calle to type Q79007"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Calle de Hortaleza",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740911",
+      "name": "calle de Hortaleza",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item calle de Hortaleza (Q5740911) for cells containing \"Calle de Hortaleza\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Calle Mayor",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1149052",
+      "name": "Calle Mayor",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle Mayor (Q1149052) for cells containing \"Calle Mayor\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Gran Vía",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1324163",
+      "name": "Gran Vía",
+      "types": [
+        "Q79007"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Gran Vía (Q1324163) for cells containing \"Gran Vía\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Calle Huertas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2364997",
+      "name": "Calle de las Huertas, Madrid",
+      "types": [
+        "Q83620",
+        "Q79007"
+      ],
+      "score": 90
+    },
+    "shareNewTopics": false,
+    "description": "Match item Calle de las Huertas, Madrid (Q2364997) for cells containing \"Calle Huertas\" in column id_calle"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "id_calle",
+    "similarValue": "Madrid Río. Puente de Segovia con Paseo Ermita del Santo Senda peatonal",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6062341",
+      "name": "Madrid Río",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid Río (Q6062341) for cells containing \"Madrid Río. Puente de Segovia con Paseo Ermita del Santo Senda peatonal\" in column id_calle"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "id_calle: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "id_calle",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "distrito",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column distrito to type Q3032114"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "id_aforoPeaton",
+    "expression": "grel:value+cells['fechaHora'].value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID_new",
+    "columnInsertIndex": 1,
+    "description": "Create column ID_new at index 1 based on column id_aforoPeaton using expression grel:value+cells['fechaHora'].value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_aforoPeaton",
+    "description": "Remove column id_aforoPeaton"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID_new",
+    "newColumnName": "id_aforoPeaton",
+    "description": "Rename column ID_new to id_aforoPeaton"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "id_calle",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "aaaa",
+    "columnInsertIndex": 2,
+    "description": "Create column aaaa at index 2 based on column id_calle using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "aaaa",
+    "expression": "grel:'https://www.wikidata.org/wiki/'+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column aaaa using expression grel:'https://www.wikidata.org/wiki/'+value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "aaaa",
+    "newColumnName": "id_calle_Wikidata",
+    "description": "Rename column aaaa to id_calle_Wikidata"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "distrito",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "distrito_Wikidata",
+    "columnInsertIndex": 6,
+    "description": "Create column distrito_Wikidata at index 6 based on column distrito using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "distrito_Wikidata",
+    "expression": "grel:'https://www.wikidata.org/wiki/'+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column distrito_Wikidata using expression grel:'https://www.wikidata.org/wiki/'+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "codigoPostal",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column codigoPostal using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_calle_Wikidata",
+    "newColumnName": "same_as_wikidata_calle",
+    "description": "Rename column id_calle_Wikidata to same_as_wikidata_calle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_calle",
+    "newColumnName": "calle",
+    "description": "Rename column id_calle to calle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "distrito_Wikidata",
+    "newColumnName": "same_as_wikidata_distrito",
+    "description": "Rename column distrito_Wikidata to same_as_wikidata_distrito"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(0[1-3])",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(0[5-7])",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(09)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(10)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(11)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(13)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(14)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(15)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(17)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(18)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(19)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(21)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(22)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fechaHora",
+          "columnName": "fechaHora",
+          "query": "2021-\\d{2}-\\d{2}T(23)",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acera Impares "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acera_Impares"
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Acera Pares"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Acera_Pares"
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "observacionesDireccion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calle peatonal "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Calle_Peatonal "
+      }
+    ],
+    "description": "Mass edit cells in column observacionesDireccion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_aforoPeaton",
+    "newColumnName": "id_registroPeatones",
+    "description": "Rename column id_aforoPeaton to id_registroPeatones"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_calle",
+    "description": "Remove column same_as_wikidata_calle"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_distrito",
+    "description": "Remove column same_as_wikidata_distrito"
+  }
+]

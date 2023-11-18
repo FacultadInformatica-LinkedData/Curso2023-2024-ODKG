@@ -1,0 +1,47 @@
+@base <http://www.semanticweb.org/upm/opendata/group08> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/State/Alabama> a ontology:State ;
+    rdf:label "Alabama"^^<http://www.w3.org/2001/XMLSchemastring>.
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/City/Tuscaloosa> a ontology:City ;
+    rdf:label "Tuscaloosa"^^<http://www.w3.org/2001/XMLSchemastring>.
+
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/Country/United%20States%20of%20America> a ontology:Country ;
+    rdf:label "United States of America"^^<http://www.w3.org/2001/XMLSchemastring>.
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/EnrollmentRate/100751> a ontology:EnrollmentRate ;
+    ontology:TotalApplications "30975"^^<http://www.w3.org/2001/XMLSchemainteger> ;
+    ontology:TotalEnrolled "6454"^^<http://www.w3.org/2001/XMLSchemainteger> ;
+    ontology:value "20"^^<http://www.w3.org/2001/XMLSchemanumber> .
+
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/100751-2004> a ontology:RankingUSNews ;
+    ontology:score ">150"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    ontology:yearPublished "2004"^^<http://www.w3.org/2001/XMLSchemanumber> .
+
+
+
+<http://www.semanticweb.org/upm/opendata/group08/resource/University/100751> a ontology:University ;
+    ontology:hasRanking <http://www.semanticweb.org/upm/opendata/group08/resource/USNewsRanking/100751-2004>,
+    ontology:hasRate <http://www.semanticweb.org/upm/opendata/group08/resource/EnrollmentRate/100751> ;
+    
+    ontology:website "ua.edu"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    rdf:label "The University Of Alabama"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    dbo:city <http://www.semanticweb.org/upm/opendata/group08/resource/City/Tuscaloosa> ;
+    dbo:country <http://www.semanticweb.org/upm/opendata/group08/resource/Country/United%20States%20of%20America> ;
+    dbo:state <http://www.semanticweb.org/upm/opendata/group08/resource/State/Alabama> ;
+    schema:latitude "33.21439965800005"^^<http://www.w3.org/2001/XMLSchemastring> ;
+    schema:longitude "-87.54576646699996"^^<http://www.w3.org/2001/XMLSchemastring> .

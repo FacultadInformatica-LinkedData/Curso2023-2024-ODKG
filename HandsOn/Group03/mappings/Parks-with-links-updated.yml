@@ -1,0 +1,50 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  nsc: http://vidaactivamadrid.es/info/ontology/class#
+  nsp: http://vidaactivamadrid.es/info/ontology/property#
+  sch: https://schema.org/
+  dbo: http://dbpedia.org/ontology/
+
+mappings:
+  Park:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Park/$(ID_PARQUE)
+    po:
+      - [a, nsc:Park]
+      - [nsp:id_park, $(ID_PARQUE)]
+      - [sch:name, $(PARQUE), xsd:string]
+      - p: nsp:isInNeighborhood
+        o:
+          - mapping: Neighborhood
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(BARRIO)]
+              - [str2, $(BARRIO)]
+
+  Neighborhood:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)
+    po:
+      - [a, nsc:Neighborhood]
+      - [nsp:name, $(BARRIO)]
+      - [owl:sameAs, $(same_as_wikidata_BARRIO)~iri]
+      - p: nsp:isInDistrict
+        o:
+          - mapping: District
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DISTRITO)]
+              - [str2, $(DISTRITO)]
+      
+  District:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-with-links.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/District/$(DISTRITO)
+    po:
+      - [a, nsc:District]
+      - [nsp:name, $(DISTRITO)]
+      - [owl:sameAs, $(same_as_wikidata_DISTRITO)~iri]

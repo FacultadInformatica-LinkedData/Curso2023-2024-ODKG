@@ -1,0 +1,1180 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "uuid",
+    "description": "Remove column uuid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "kreis_name",
+    "description": "Remove column kreis_name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "kreis_schluessel",
+    "description": "Remove column kreis_schluessel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "gemeindeverband_name",
+    "description": "Remove column gemeindeverband_name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "gemeindeverband_schluessel",
+    "description": "Remove column gemeindeverband_schluessel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "gemeinde_schluessel",
+    "description": "Remove column gemeinde_schluessel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "gemeindeteil_schluessel",
+    "description": "Remove column gemeindeteil_schluessel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "strasse_schluessel",
+    "description": "Remove column strasse_schluessel"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "verbund",
+    "description": "Remove column verbund"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "gemeinde_name",
+    "newColumnName": "community_name",
+    "description": "Rename column gemeinde_name to community_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "gemeindeteil_name",
+    "newColumnName": "community_part_name",
+    "description": "Rename column gemeindeteil_name to community_part_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "strasse_name",
+    "newColumnName": "street_name",
+    "description": "Rename column strasse_name to street_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hausnummer",
+    "newColumnName": "house_number",
+    "description": "Rename column hausnummer to house_number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hausnummer_zusatz",
+    "newColumnName": "house_number_addition",
+    "description": "Rename column hausnummer_zusatz to house_number_addition"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "postleitzahl",
+    "newColumnName": "postal_code",
+    "description": "Rename column postleitzahl to postal_code"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "bezeichnung",
+    "newColumnName": "designation",
+    "description": "Rename column bezeichnung to designation"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "betreiber",
+    "newColumnName": "operator",
+    "description": "Rename column betreiber to operator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "betriebsart",
+    "newColumnName": "operating_mode",
+    "description": "Rename column betriebsart to operating_mode"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "arten_ladepunkte",
+    "newColumnName": "number_charging_points",
+    "description": "Rename column arten_ladepunkte to number_charging_points"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ladekarten",
+    "newColumnName": "charging_cards",
+    "description": "Rename column ladekarten to charging_cards"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "kosten",
+    "newColumnName": "costs",
+    "description": "Rename column kosten to costs"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "oeffnungszeiten",
+    "newColumnName": "opening_hours",
+    "description": "Rename column oeffnungszeiten to opening_hours"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "community_part_name",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column community_part_name using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "community_name",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column community_name using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "designation",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column designation using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "postal_code",
+    "expression": "value.replace(/Ã¶/,\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column postal_code using expression value.replace(/Ã¶/,\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "designation",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column designation using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operating_mode",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operating_mode using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "number_charging_points",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column number_charging_points using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "charging_cards",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column charging_cards using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "charging_cards",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column charging_cards using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value.replace(\"Ã¶\",\"ö\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column costs using expression value.replace(\"Ã¶\",\"ö\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "community_name",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column community_name using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "community_part_name",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column community_part_name using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "designation",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column designation using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "charging_cards",
+    "expression": "value.replace(\"Ã¤\",\"ä\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column charging_cards using expression value.replace(\"Ã¤\",\"ä\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "community_part_name",
+    "expression": "value.replace(\"Ã¼\",\"ü\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column community_part_name using expression value.replace(\"Ã¼\",\"ü\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.replace(\"Ã¼\",\"ü\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.replace(\"Ã¼\",\"ü\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "designation",
+    "expression": "value.replace(\"Ã¼\",\"ü\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column designation using expression value.replace(\"Ã¼\",\"ü\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value.replace(\"Ã¼\",\"ü\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column costs using expression value.replace(\"Ã¼\",\"ü\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value.replace(\"â‚¬\",\"€\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column costs using expression value.replace(\"â‚¬\",\"€\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.replace(\"ÃŸ\",\"ß\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.replace(\"ÃŸ\",\"ß\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "street_name",
+    "expression": "value.replace(\"ß\",\"ss\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column street_name using expression value.replace(\"ß\",\"ss\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "designation",
+    "expression": "value.replace(\"ÃŸ\",\"ss\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column designation using expression value.replace(\"ÃŸ\",\"ss\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(\"ÃŸ\",\"ss\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator using expression value.replace(\"ÃŸ\",\"ss\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(\"Ã¼\",\"ü\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operator using expression value.replace(\"Ã¼\",\"ü\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "opening_hours",
+    "expression": "grel:if(value == \"24/7\", \"Yes\", \"No\")",
+    "onError": "keep-original",
+    "newColumnName": "all_day_open",
+    "columnInsertIndex": 16,
+    "description": "Create column all_day_open at index 16 based on column opening_hours using expression grel:if(value == \"24/7\", \"Yes\", \"No\")"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "flagged": true,
+    "description": "Flag rows"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "flagged": false,
+    "description": "Unflag rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Parkplatz Kuhstrasse",
+                "l": "Parkplatz Kuhstrasse"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Stadtperle-Rostock",
+                "l": "Stadtperle-Rostock"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Strand-Hotel Hübner",
+                "l": "Strand-Hotel Hübner"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Erich-Schlesinger-Str. 62a",
+                "l": "Erich-Schlesinger-Str. 62a"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trihotel",
+                "l": "Trihotel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Krüll",
+                "l": "Krüll"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Elbotel",
+                "l": "Elbotel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ZMVZ Warnemünde GmbH",
+                "l": "ZMVZ Warnemünde GmbH"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Jacob Cement Baustoffe",
+                "l": "Jacob Cement Baustoffe"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Campingplatz Baltic-Freizeit",
+                "l": "Campingplatz Baltic-Freizeit"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "rostock apartment LIVING HOTEL",
+                "l": "rostock apartment LIVING HOTEL"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "IKEA",
+                "l": "IKEA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "latitude",
+          "expression": "value",
+          "columnName": "latitude",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "54.107771",
+                "l": "54.107771"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trelleboger Str. 5",
+                "l": "Trelleboger Str. 5"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "designation",
+          "expression": "value",
+          "columnName": "designation",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Kurt-Dunkelmann-Str. 2",
+                "l": "Kurt-Dunkelmann-Str. 2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "opening_hours",
+          "expression": "value",
+          "columnName": "opening_hours",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "costs",
+          "expression": "value",
+          "columnName": "costs",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "community_name",
+    "description": "Remove column community_name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "number_charging_points",
+    "newColumnName": "a",
+    "description": "Rename column number_charging_points to a"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "anzahl_ladepunkte",
+    "newColumnName": "number_charging_points",
+    "description": "Rename column anzahl_ladepunkte to number_charging_points"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "a",
+    "newColumnName": "types_charging_points",
+    "description": "Rename column a to types_charging_points"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operating_mode",
+    "expression": "value.replace(\"öffentlich\",\"public\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operating_mode using expression value.replace(\"öffentlich\",\"public\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operating_mode",
+    "expression": "value.replace(\"halbpublic\",\"semipublic\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column operating_mode using expression value.replace(\"halbpublic\",\"semipublic\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operating_mode",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "privat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "private"
+      }
+    ],
+    "description": "Mass edit cells in column operating_mode"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value.replace(\"Grundgebühr\",\"Base\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column costs using expression value.replace(\"Grundgebühr\",\"Base\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "kostenlos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "free of charge"
+      }
+    ],
+    "description": "Mass edit cells in column costs"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "kostenpflichtig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "chargeable"
+      }
+    ],
+    "description": "Mass edit cells in column costs"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "costs",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Parkgebühren"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Parking charges"
+      }
+    ],
+    "description": "Mass edit cells in column costs"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "all_day_open",
+    "expression": "jython:if cell.value == \"Yes\":\n    return 1\nelif cell.value == \"No\":\n    return 0\nelse:\n    return None",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column all_day_open using expression jython:if cell.value == \"Yes\":\n    return 1\nelif cell.value == \"No\":\n    return 0\nelse:\n    return None"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "costs",
+    "newColumnName": "cost",
+    "description": "Rename column costs to cost"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "number_charging_points",
+    "newColumnName": "num_charging_points",
+    "description": "Rename column number_charging_points to num_charging_points"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "designation",
+    "newColumnName": "ChargingStation",
+    "description": "Rename column designation to ChargingStation"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "community_part_name",
+    "newColumnName": "Municipality",
+    "description": "Rename column community_part_name to Municipality"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Municipality",
+    "newColumnName": "municipality",
+    "description": "Rename column Municipality to municipality"
+  }
+]
