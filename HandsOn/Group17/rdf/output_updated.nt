@@ -1,0 +1,915 @@
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.0521365507219"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Kunsthalle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#team_energie_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#reutershagen> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.063779"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Combo Typ 2 360 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Lange Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Alte Dorfstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.132568"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#htl_haus_elektrotechnik_lehmkuhl> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.089818"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1262665"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Handwerkstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/cost> "0.39 €/kWh; Base 0.99 €"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q99302548"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Am-Voegenteich-Am-Voegenteich-30/40041/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#stadtmitte> <http://www.geonames.org/ontology#name> "Stadtmitte"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Paulstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#yachthafenresidenz_hohe_dune_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.087277"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Fr 07:00-20:00; Sa 07:00-18:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.124589"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164534"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#toitenwinkel> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> <http://www.w3.org/2000/01/rdf-schema#label> "E.ON SE"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#kropeliner_tor_vorstadt> .
+<http://dbpedia.org/ontology/Municipality#stadtmitte> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1124159"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbhandco_kg> <http://www.w3.org/2000/01/rdf-schema#label> "ICA Chipkartensysteme GmbH&Co KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#dierkow_west> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://dbpedia.org/ontology/Municipality#schmarl> <http://www.geonames.org/ontology#name> "Schmarl"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#toitenwinkel> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1309539"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Ostseeland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.0922324536467"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Kirchenplatz Warnemünde"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18055"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/access> "semipublic"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Satower Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#sudstadt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Shell-Tankstelle-Lorenzstrasse-Lorenzstrasse-75/69089/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164138"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.1645180731329"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Kolumbusring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#kropeliner_tor_vorstadt> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1790661"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q270223"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#hansaviertel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q39524051"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stadthalle-Suedring-90/53665/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "EnBW mobility+;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Restaurant-Ostseeland-Stolteraer-Weg-47/78415/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#parkhaus_gesellschaft_rostock_gmbh> .
+<http://dbpedia.org/ontology/Municipality#reutershagen> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1486513"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#parkhaus_gesellschaft_rostock_gmbh> .
+<http://dbpedia.org/ontology/Municipality#evershagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.120313"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "47"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Autohaus-Rostock-Roevershaeger-Chaussee-5/64588/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Typ 2 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.098715"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Henrik-Ibsen-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Avia Tankstelle An der Stadtautobahn"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.093244"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "An der Stadtautobahn"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Groenfingers-Roevershaeger-Chaussee-1/44152/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "88"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.07302"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18069"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Do 07:00-18:00; Fr 07:00-15:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IntercityHotel-Herweghstrasse-51/54128/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18119"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Messestraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165165"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q685967"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q56558520"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Am Vögenteich 30"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163663"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.100093"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/operating_mode> "public"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#lutten_klein> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.082496"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Kirchenplatz"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.0806004469112"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "BorderShop"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164620"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Parkstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#tanke_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "TankE GmbH"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Am Vögenteich 25"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kundenparkplatz-Stadtwerke-Schmarler-Damm-5/44665/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164957"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Fischerweg 408"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> <http://www.w3.org/2000/01/rdf-schema#label> "Radisson Hotel Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_ostseeland> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164333"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#brinckmansdorf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18109"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;Plugsurfing;Shell Recharge;SMATRICS NET"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Gertrudenplatz 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.088244"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Altkarlshof"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163760"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164239"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Herweghstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Handelshof-Timmermannsstrat-12/52245/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Slüterstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Allego"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#autohaus_rostock_ost_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Max-Planck-Strasse-Max-Planck-Strasse-16/52480/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.126408"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165155"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Typ 2 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#dierkow_west> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.126989"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#evershagen> .
+<http://dbpedia.org/ontology/Municipality#dierkow_neu> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15944730"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.109034"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18059"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Tessiner Str."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "IKEA Deutschland GmbH & Co. KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Stolteraer Weg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "75"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Henrik-Ibsen-Strasse-Henrik-Ibsen-Strasse-20/46673/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q2341682"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164875"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#schmarl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;MAINGAU Autostrom;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Am Kayenmühlengraben"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Röntgenstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#evershagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.107701"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Combo Typ 2 50kW; 1x Typ2 22 kW; 1x CHAdeMO 50kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Rövershäger Chaussee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#hansaviertel> <http://www.geonames.org/ontology#name> "Hansaviertel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Zur Hansemesse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Fischereihafen-Fischerweg-408/44664/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumberWithinBuilding> "a"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.102629"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18146"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_ostseeland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Fischerweg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.141234"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.134281"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.077543"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2x Typ 2 11 kW; 2x Schuko 2.3 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/City-Ladesaeule-Lange-Strasse-27/19579/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Combo Typ 2 50kW; 1x Typ2 43 kW; 1x CHAdeMO 50kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2 x Combo Typ 2 (CCS) EU 50 kW; 2 x CHAdeMO 50 kW; 2 x Typ 2 Dose 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.0894944961845"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Typ 2 11 kW; 1x CEE Rot 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104344650"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Küterbruch"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Alt Bartelsdorfer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#lutten_klein> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1880458"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Schuko 3 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Max-Planck-Str. 16"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/access> "public"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Lise-Meitner-Ring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hermannstrasse-Hermannstrasse-35/38864/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "EnBW mobility+;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.057319"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkhaus Hotel NEPTUN"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#peez> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2067247"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Pütterweg 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2x Typ 2 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.141436"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "EinfachStromLaden;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Satower-Strasse-Satower-Strasse-7/46657/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnungsgenossenschaft_warnow_rostock_warnemunde_eg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Ernst-Barlach-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;BEW Lokalstrom mobil;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#brinckmansdorf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Edeka"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Gertrudenplatz"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.169428"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#seebad_markgrafenheide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://dbpedia.org/ontology/Municipality#dierkow_neu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "51"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "47"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.08557"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;DKV Card+Charge;EnBW mobility+;TankE-Netzwerk"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.086512"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Neustrelitzer Str. 6"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Do 07:00-16:00; Fr 07:00-14:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> .
+<http://dbpedia.org/ontology/Municipality#seebad_hohe_dune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Lange Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "4 x Combo Typ 2 (CCS) EU 300 kW; 1 x CHAdeMO 100 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Alte Dorfstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.093514"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Kröpeliner Tor Center / Radisson Blu Hotel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Warnowufer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.099596"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "58"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> .
+<http://dbpedia.org/ontology/Municipality#seebad_warnemunde> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q311849"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Radisson-Blu-Hotel-Lange-Strasse-40/3072/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Handwerkstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Heinrich-Heine-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "88"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Paulstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#autohaus_rostock_ost_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Autohaus Rostock Ost GmbH"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Typ 2 22 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.090066"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.08915"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Fritz-Triddelfitz-Weg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "FSN Autohaus"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.087852"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "City-Ladesäule"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#tanke_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "71"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164679"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Typ 2 43 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Am Yachthafen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164279"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q59587711"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> <http://www.w3.org/2000/01/rdf-schema#label> "WIRO Wohnen in Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kirchenplatz-Warnemuende-Kirchenplatz-1/9523/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Godewind"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Lidl"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Combo Typ 2 300 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Kaufland Südstadt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.1077639361823"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.135569"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Gertrudenplatz-Gertrudenplatz-2/19328/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Joliot-Curie-Allee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18055"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163836"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Zum Zollamt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#lichtenhagen> <http://www.geonames.org/ontology#name> "Rostock-Lichtenhagen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.064278"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#peez> <http://www.geonames.org/ontology#name> "Peez"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q2294800"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.076764"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "4x Combo Typ 2 150 kW; 4x Combo Typ 2 300 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Ulmenstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q29000342"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163762"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/price> "free of charge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Schmarler Zentrum"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Bauhaus-An-den-Griebensoellen-1/69472/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "August-Bebel-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "38"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.115427"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#brinckmansdorf> <http://www.geonames.org/ontology#name> "Brinckmansdorf"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.117382"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "75"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock-Warnemuende/Yachthafenresidenz-Hohe-Duene-Am-Yachthafen-1/6284/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164011"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Combo Typ 2 360 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Am-Gericht-August-Bebel-Strasse-88/4657/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Lübecker Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#team_energie_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#parkhaus_gesellschaft_rostock_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.181877"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#seebad_markgrafenheide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "BMW Autohaus Wigger"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/cost> "chargeable"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Sa 07:00-21:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Messestrasse-Messestrasse-16/55554/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.086457"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q101194725"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#autohaus_rostock_ost_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "24/7"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Kirchenplatz"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Max-Planck-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164614"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/FSN-Autohaus-Altkarlshof-6/54937/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q1262508"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#lichtenhagen> .
+<http://dbpedia.org/ontology/Municipality#seebad_warnemunde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18069"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164997"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Grazer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;MAINGAU Autostrom;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#toitenwinkel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Typ 2 43 KW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 2x Combo Typ 2 320 kW; 2x Combo Typ 2 160 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Timmermannsstrat"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#sudstadt> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2381518"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Hermannstr. 32"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "61"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Slüterstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Schmarler-Centrum-Kolumbusring-61/63107/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Lübecker Str. 30"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkhaus am Gericht"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Citti-Park"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#tanke_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18109"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Sa 07:00-22:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.149139"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Shell"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kunsthalle-Grazer-Strasse-1/44414/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.132776"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "A.T.U."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#yachthafenresidenz_hohe_dune_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163636"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.08888"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BorderShop-Zum-Suedtor-5/42667/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Röntgenstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.192001"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Henrik-Ibsen-Str."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#peez> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "51"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Am Stolteraer Ring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18059"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "24/7"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Zur Hansemesse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Slüterstr."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163643"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.136002"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Joliot-Curie-Allee-Joliot-Curie-Allee-25/44004/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q62284363"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q2523363"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.076424"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#team_energie_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "58"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Grönfingers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#schmarl> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q681873"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.114106"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.176585"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Warnowufer-Warnowufer-58/28894/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;DKV Card+Charge;EnBW mobility+;TankE-Netzwerk"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/price> "Parking charges"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Warnemünder Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#seebad_markgrafenheide> <http://www.geonames.org/ontology#name> "Markgrafenheide"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Neustrelitzer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbhandco_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Schmarler Damm"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18146"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#team_energie_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "team energie GmbH & Co. KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> .
+<http://dbpedia.org/ontology/Municipality#lutten_klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2x Typ 2 22 kW; 2x CHAdeMO 20 kW; 2x Combo Typ 2 20 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_ostseeland> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.170536"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Yachthafenresidenz Hohe Düne"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "beliebige RFID-Ladekarten;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#seebad_warnemunde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.081326"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164427"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Typ 2 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "IKEA"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.1298330828148"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Typ 2 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.17606"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#yachthafenresidenz_hohe_dune_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://dbpedia.org/ontology/Municipality#lichtenhagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Roentgenstrasse-Roentgenstrasse-12/50437/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18106"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#reutershagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18147"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#kropeliner_tor_vorstadt> <http://www.geonames.org/ontology#name> "Kröpeliner-Tor-Vorstadt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.138336"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "Lidl"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164836"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#hansaviertel> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1336008"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_ostseeland> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Ostseeland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.089884"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.1109130056888"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163875"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Neuer Markt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number_addition> "d"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.118082"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.158064"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#toitenwinkel> <http://www.geonames.org/ontology#name> "Toitenwinkel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/ATU-Timmermannsstrat-3/29596/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-So 09:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.180061"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.084009"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163770"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://dbpedia.org/ontology/Municipality#hansaviertel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Do 07:00-18:00; Fr 07:00-15:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Vienna House Sonne"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165160"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q75560554"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "38"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Heinrich-Heine-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lange-Strasse-Lange-Strasse-4/61476/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.078194"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164903"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "HanseMesse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Typ 2 22kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbhandco_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.061053"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbhandco_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.096936"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Fritz-Triddelfitz-Weg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "An den Griebensöllen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Südring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "EinfachStromLaden;EnBW mobility+;GET CHARGE;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.074454"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.132101"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.084067"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.084743"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.098772"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Ladesäule am Hafen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Am Yachthafen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Lange Strasse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.063525"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164337"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.112387"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163681"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#dierkow_west> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164673"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Lorenzstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.073597"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.085195"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164716"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "96"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Warnowufer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IKEA-Messestrasse-25/41179/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18107"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Zum Zollamt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "TOTAL Deutschland GmbH"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnungsgenossenschaft_warnow_rostock_warnemunde_eg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://dbpedia.org/ontology/Municipality#stadtmitte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Tessiner Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "An der Stadtautobahn"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.114382"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "IntercityHotel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165030"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "August-Bebel-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q81804571"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#seebad_markgrafenheide> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q644304"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Combo Typ 2 22kW; 1x Typ2 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18057"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#lichtenhagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#htl_haus_elektrotechnik_lehmkuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://dbpedia.org/ontology/Municipality#seebad_diedrichshagen> <http://www.geonames.org/ontology#name> "Diedrichshagen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "EUROMASTER"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.194204"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.086254"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2x Typ 2 11 kW; 2x Schuko 2.3 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Seestraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Combo Typ 2 50kW; 1x Typ2 43 kW; 1x CHAdeMO 50kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#reutershagen> <http://www.geonames.org/ontology#name> "Reutershagen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#parkhaus_gesellschaft_rostock_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Parkhaus Gesellschaft Rostock GmbH"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> <http://www.w3.org/2000/01/rdf-schema#label> "Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "EnBW mobility+;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163715"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#dierkow_west> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q15944749"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Max-Planck-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Reuterpassage"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.099138"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/cost> "Parking charges"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel Neptun"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnungsgenossenschaft_warnow_rostock_warnemunde_eg> <http://www.w3.org/2000/01/rdf-schema#label> "Wohnungsgenossenschaft WARNOW Rostock-Warnemünde eG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163842"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Altkarlshof"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.106125"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Zum Südtor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Sa 10:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#tanke_gmbh> .
+<http://dbpedia.org/ontology/Municipality#seebad_markgrafenheide> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1900690"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Herweghstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.09255"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#industrie__und_handelskammer_zu_rostock> <http://www.w3.org/2000/01/rdf-schema#label> "Industrie- und Handelskammer zu Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2x Typ 2 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2 x Combo Typ 2 (CCS) EU 60 kW; 1 x Typ 2 Dose 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.1651722108809"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165087"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stephan-Jantzen-Park-Parkstrasse-7/70965/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "Mennekes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.1256"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Satower Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163730"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.094538"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Joliot-Curie-Allee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-P2-Seehafen-Ost-West-Strasse/76504/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Hinrichsdorfer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Vienna House"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#sudstadt> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.138796"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Stolteraer Weg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Neustrelitzer Str. 5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumberWithinBuilding> "d"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.064424"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Steinstrasse-Steinstrasse-3/64354/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Combo Typ 2 160 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "4 x Combo Typ 2 (CCS) EU 300 kW; 1 x CHAdeMO 100 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Tessiner-Strasse-Tessiner-Strasse-96/41175/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Pütterweg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;Plugsurfing;Shell Recharge;SMATRICS NET"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.124536"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Vienna-House-Sonne-Neuer-Markt-2/42605/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164284"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ohne Authentifizierung"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.106736"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Am Stolteraer Ring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Ulmenstrasse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "HEM Tankstelle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Fischerweg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Autohaus Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Euromaster-Hinrichsdorfer-Strasse-7K/28508/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Sa 07:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Hansastraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#vienna_house_hotelmanagement_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://dbpedia.org/ontology/Municipality#sudstadt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.1912887925953"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "Kaufland Stiftung GmbH & Co. KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.178761"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BMW-Autohaus-Wigger-Alte-Dorfstrasse-25/46610/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164583"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Messestraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1653977"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Schillingallee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Fr 07:00-20:00; Sa 07:00-18:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2x Typ 2 22 kW; 2x Schuko 3.7 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#seebad_warnemunde> <http://www.geonames.org/ontology#name> "Warnemünde"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ulmenstrasse-Ulmenstrasse-61/70966/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Simon-van-Utrecht-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Alt Bartelsdorfer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Bauhaus"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Neustrelitzer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#seebad_hohe_dune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "408"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#seebad_hohe_dune> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Schmarler Damm"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.150891"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz P2 Seehafen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.082962"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Seestrasse-Seestrasse-15/40637/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Hinrichsdorfer-Strasse-Hinrichsdorfer-Strasse-13a/47003/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "team Tankstelle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Molenfeuer-Zum-Zollamt-5/58987/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.157938"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Gertrudenplatz"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "4x Combo Typ 2 150 kW; 4x Combo Typ 2 300 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Typ 2 22 kW; 1x Combo Typ 2 75 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.134524"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Ulmenstr."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "EinfachStromLaden;EnBW mobility+;GET CHARGE;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "96"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Strandhafer Aparthotel"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q701755"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "IHK zu Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Conrad-Blenkle-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Messestr."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q874013"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#seebad_diedrichshagen> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Sa 07:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#htl_haus_elektrotechnik_lehmkuhl> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Am Vögenteich"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.07715"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#sudstadt> <http://www.geonames.org/ontology#name> "Südstadt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#yachthafenresidenz_hohe_dune_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-6-Neustrelitzer-Strasse-6/31628/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ohne Authentifizierung;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.15797"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18106"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.137885"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "EnBW mobility+;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18147"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.12169"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.118231"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#seebad_hohe_dune> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1484905"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.076812"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Sa 07:00-21:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ladesaeule-am-Hafen-Am-Strande-3a/19577/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q154950"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "EinfachStromLaden;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164327"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number_addition> "a"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#seebad_diedrichshagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;BEW Lokalstrom mobil;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Lidl Satower Str."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#htl_haus_elektrotechnik_lehmkuhl> <http://www.w3.org/2000/01/rdf-schema#label> "HTL Haus-Elektrotechnik Lehmkuhl"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkhaus Molenfeuer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#yachthafenresidenz_hohe_dune_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Yachthafenresidenz Hohe Düne GmbH"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "Lidl Vertriebs-GmbH & Co. KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.100504"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "An den Griebensöllen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Universitätsklinikum"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Godewind-Warnemuender-Strasse-5/45481/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#eon_se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#total_deutschland_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Steinstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#schmarl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.090974"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_ostseeland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.176192"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163857"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Lorenzstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Strand-Mitte-Parkstrasse-47/66527/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HanseMesse-Zur-HanseMesse-1-2/8541/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Joliot-Curie-Allee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> <http://www.w3.org/2000/01/rdf-schema#label> "EnBW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Universitaetsklinikum-Schillingallee-71/43307/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#parkhaus_gesellschaft_rostock_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "71"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "IKEA Deutschland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Ulmenstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Stephan-Jantzen-Park"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163806"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Shell Tankstelle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#toitenwinkel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Avia-Tankstelle-An-der-Stadtautobahn-An-der-Stadtautobahn-38/70086/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Tessiner Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Am Strande"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.074583"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#dierkow_neu> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.144678"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.036694"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Lübecker Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164625"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/cost> "free of charge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/CITTI-PARK-Handwerkstrasse-1/63480/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18107"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Heinrich-Heine-Strasse-Heinrich-Heine-Strasse-28/72164/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.178861"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Seestraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.085525"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#kropeliner_tor_vorstadt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.123294"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.140742"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Grazer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Typ 2 22kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/postal_code> "18057"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#mennekes_elektrotechnik_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "MENNEKES Elektrotechnik GmbH & Co. KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163687"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.136906"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2x Typ 2 22 kW; 2x CHAdeMO 20 kW; 2x Combo Typ 2 20 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-5-Neustrelitzer-Strasse-5/31627/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#seebad_diedrichshagen> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q638302"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ohne Authentifizierung"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Zum Südtor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#dierkow_neu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#shell_ev_charging_solutions_germany_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://dbpedia.org/ontology/Municipality#evershagen> <http://www.geonames.org/ontology#name> "Evershagen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.176441"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#seebad_diedrichshagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#autohaus_rostock_ost_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Typ 2 11 kW; 1x CEE Rot 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.071484"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Schuko 3 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/operating_mode> "private"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Kolumbusring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "408"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Hinrichsdorfer Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.142702"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Kundenparkplatz Stadtwerke Rostock AG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164918"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IHK-zu-Rostock-Ernst-Barlach-Strasse-1-3/61032/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164881"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.10256"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Röntgenstrasse 12"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.100077"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://dbpedia.org/ontology/postalCode> "18119"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#evershagen> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q1382123"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#team_energie_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "61"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.104551"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.107068"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnen_in_rostock_wohnungsgesellschaft_mbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Henrik-Ibsen-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#lutten_klein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Hotel-NEPTUN-Seestrasse-19/18059/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Pütterweg"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-So 09:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Do 07:00-16:00; Fr 07:00-14:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Combo Typ 2 50kW; 1x Typ2 22 kW; 1x CHAdeMO 50kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Combo Typ 2 22kW; 1x Typ2 11 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.114089"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Seestr."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.174821"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/price> "chargeable"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/accepted_cards> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Hansastraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#dierkow_west> <http://www.geonames.org/ontology#name> "Dierkow-West"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.108166"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/price> "0.39 €/kWh; Base 0.99 €"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#reutershagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "abc Bau â€“ Ausbildungscentrum"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Warnemünder Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q151954"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Schillingallee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> <http://www.w3.org/2000/01/rdf-schema#label> "Volkswagen Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Puetterweg-2/40016/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.088112"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Simon-van-Utrecht-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Heinrich-Heine-Str."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2 x Combo Typ 2 (CCS) EU 50 kW; 2 x CHAdeMO 50 kW; 2 x Typ 2 Dose 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Parkstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#stadtwerke_rostock_ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Typ 2 22 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.109952"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ohne Authentifizierung;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> .
+<http://dbpedia.org/ontology/Municipality#kropeliner_tor_vorstadt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#hotel_neptun_betriebsgesellschaft_mbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q1651266"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.083541"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#schmarl> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Slueterstrasse-Slueterstrasse-10/78572/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.05593"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.009361"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#dierkow_neu> <http://www.geonames.org/ontology#name> "Dierkow-Neu"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Timmermannsstrat"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.12136"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnungsgenossenschaft_warnow_rostock_warnemunde_eg> .
+<http://dbpedia.org/ontology/Municipality#peez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#autohaus_rostock_ost_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.180741"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.085439"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.059539"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.101316"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Boulderhalle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "Combo Typ 2 300 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Neuer Markt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Reuterpassage-Goerdelerstrasse-52/38470/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Suedstadt-Puetterweg-1/74456/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Conrad-Blenkle-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/access> "private"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.076364"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Rövershäger Chaussee 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.155151"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#stadtmitte> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Am Vögenteich"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Am Kayenmühlengraben"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkhaus Altstadt"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.080908"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.177052"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#edeka_foodservice_handelshof_management_gmbh> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104165019"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/Municipality#lichtenhagen> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q741012"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.e-stations.de/ladestationen/map"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Rövershäger Chaussee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#tanke_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "beliebige RFID-Ladekarten;Spontanladen"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#allego_gmbh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://dbpedia.org/ontology/Municipality#lutten_klein> <http://www.geonames.org/ontology#name> "Lütten Klein"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163849"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/operating_mode> "semipublic"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#stadtmitte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#radisson_hospitality_inc> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q19724671"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Südring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#ikea_deutschland_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "2x Typ 2 22 kW; 2x Schuko 3.7 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#volkswagen_group_charging_gmbh> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q156578"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <https://www.gleif.org/ontology/Base/hasAddressNumber> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#hansaviertel> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#brinckmansdorf> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.geonames.org/ontology#locatedIn> <http://dbpedia.org/ontology/Municipality#seebad_warnemunde> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbh_and_co_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#wohnungsgenossenschaft_warnow_rostock_warnemunde_eg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.05627"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "2 x Combo Typ 2 (CCS) EU 60 kW; 1 x Typ 2 Dose 22 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#enbw_energie_baden_wurttemberg_ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/chargerQuantity> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Küterbruch"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/opening_hours_specification> "Mo-Sa 10:00-20:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "1x Typ 2 43 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/team-Tankstelle-Lise-Meitner-Ring-1/74320/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Steinstraße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Lise-Meitner-Ring"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#htl_haus_elektrotechnik_lehmkuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/urban-iot/electric/ChargePointOperator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Typ 2 43 KW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 2x Combo Typ 2 320 kW; 2x Combo Typ 2 160 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/house_number> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Warnowufer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Altstadt-Kueterbruch-5/43311/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HEM-Tankstelle-Zum-Suedtor-8/33130/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Steinstrasse"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Strand Mitte"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_name> "Ernst-Barlach-Straße"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/types_charging_points> "1x Typ 2 22 kW; 1x Combo Typ 2 75 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.owl-ontologies.com/vcard#hasURL> "{website}"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Parkplatz Stadthalle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/plug_type> "Combo Typ 2 160 kW"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://schema.mobivoc.org/acceptedPaymentMethod> "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3id.org/urban-iot/electric/operatedBy> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> .
+<http://dbpedia.org/ontology/Municipality#seebad_hohe_dune> <http://www.geonames.org/ontology#name> "Hohe Düne"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104163721"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/managed_by> <http://www.w3id.org/urban-iot/electric/ChargePointOperator#lidl_vertriebs_gmbh_and_co_kg> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/opening_hours> "Mo-Sa 07:00-22:00"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.168471"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://sw-portal.deri.org/ontologies/swportal#hasStreetAddress> "Am Strande"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.149386"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/Municipality#brinckmansdorf> <http://www.w3.org/2002/07/owl#sameAs> "https://www.wikidata.org/wiki/Q917349"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "ICA Chipkartensysteme GmbH&Co KG"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#ica_chipkartensysteme_gmbhandco_kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.RostockEVCharging.de/ontology/Operator> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2000/01/rdf-schema#label> "Handelshof"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/street_uri> "https://www.wikidata.org/wiki/Q104164108"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.191851"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.w3id.org/urban-iot/electric/ChargePointOperator#kaufland_stiftung_gmbh_and_co_kg> <http://www.w3.org/2000/01/rdf-schema#label> "Kaufland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/urban-iot/electric/ChargingStation> <http://www.RostockEVCharging.de/ontology/num_charging_points> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/Municipality#peez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Municipality> .

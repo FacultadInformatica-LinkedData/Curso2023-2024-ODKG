@@ -1,0 +1,2789 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix vcard: <http://www.owl-ontologies.com/vcard#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix ns: <http://www.RostockEVCharging.de/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix uiote: <http://www.w3id.org/urban-iot/electric/> .
+@prefix uiote-op: <http://www.w3id.org/urban-iot/electric/ChargePointOperator#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix swpo: <http://sw-portal.deri.org/ontologies/swportal#> .
+@prefix gleif-base: <https://www.gleif.org/ontology/Base/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpedia-owl-m: <http://dbpedia.org/ontology/Municipality#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+
+uiote:ChargingStation#parkplatz_p2_seehafen a uiote:ChargingStation ;
+        rdfs:label "Parkplatz P2 Seehafen"^^xsd:string ;
+        dbpedia-owl:postalCode 18147 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;DKV Card+Charge;EnBW mobility+;TankE-Netzwerk"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 6 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "2 x Combo Typ 2 (CCS) EU 50 kW; 2 x CHAdeMO 50 kW; 2 x Typ 2 Dose 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Simon-van-Utrecht-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164957"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-P2-Seehafen-Ost-West-Strasse/76504/"^^xsd:string ;
+        geo:lat "54.142702"^^xsd:float ;
+        geo:long "12.10256"^^xsd:float ;
+        uiote:operatedBy uiote-op:tanke_gmbh ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote-op:ikea_deutschland_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "IKEA Deutschland GmbH & Co. KG"^^xsd:string .
+
+dbpedia-owl-m:dierkow_neu a ns:Municipality ;
+        gn:name "Dierkow-Neu"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q15944730"^^xsd:string .
+
+uiote-op:volkswagen_group_charging_gmbh a ns:Operator ;
+        rdfs:label "Volkswagen Group"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q156578"^^xsd:string .
+
+uiote:ChargingStation#intercityhotel a uiote:ChargingStation ;
+        rdfs:label "IntercityHotel"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Herweghstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164333"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IntercityHotel-Herweghstrasse-51/54128/"^^xsd:string ;
+        geo:lat "54.078194"^^xsd:float ;
+        geo:long "12.132776"^^xsd:float ;
+        uiote:operatedBy uiote-op:total_deutschland_gmbh ;
+        gleif-base:hasAddressNumber 51 .
+
+uiote:ChargingStation#handelshof a uiote:ChargingStation ;
+        rdfs:label "Handelshof"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 10 ;
+        mv:opening_hours_specification "Mo-Fr 07:00-20:00; Sa 07:00-18:00"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Timmermannsstrat"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165030"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Handelshof-Timmermannsstrat-12/52245/"^^xsd:string ;
+        geo:lat "54.082496"^^xsd:float ;
+        geo:long "12.194204"^^xsd:float ;
+        uiote:operatedBy uiote-op:edeka_foodservice_handelshof_management_gmbh ;
+        gleif-base:hasAddressNumber 12 .
+
+dbpedia-owl-m:dierkow_west a dbpedia-owl:Municipality ;
+        gn:name "Dierkow-West"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q15944749"^^xsd:string .
+
+uiote-op:wohnen_in_rostock_wohnungsgesellschaft_mbh a uiote:ChargePointOperator ;
+        rdfs:label "WIRO Wohnen in Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q59587711"^^xsd:string .
+
+uiote:ChargingStation#rovershager_chaussee_1 a uiote:ChargingStation ;
+        rdfs:label "Rövershäger Chaussee 1"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 7 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Typ 2 43 KW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 2x Combo Typ 2 320 kW; 2x Combo Typ 2 160 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Rövershäger Chaussee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164881"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "{website}"^^xsd:string ;
+        geo:lat "54.0922324536467"^^xsd:float ;
+        geo:long "12.1651722108809"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 1 .
+
+dbpedia-owl-m:brinckmansdorf a ns:Municipality ;
+        gn:name "Brinckmansdorf"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q917349"^^xsd:string .
+
+dbpedia-owl-m:lichtenhagen a dbpedia-owl:Municipality ;
+        gn:name "Rostock-Lichtenhagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q741012"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_altstadt a ns:ChargingStation ;
+        rdfs:label "Parkhaus Altstadt"^^xsd:string ;
+        ns:accepted_cards "beliebige RFID-Ladekarten;Spontanladen"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:parkhaus_gesellschaft_rostock_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Küterbruch"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164583"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Altstadt-Kueterbruch-5/43311/"^^xsd:string ;
+        geo:lat "54.08915"^^xsd:float ;
+        geo:long "12.149386"^^xsd:float .
+
+uiote-op:team_energie_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "team energie GmbH & Co. KG"^^xsd:string .
+
+uiote-op:radisson_hospitality_inc a ns:Operator ;
+        rdfs:label "Radisson Hotel Group"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q19724671"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_bauhaus a ns:ChargingStation ;
+        rdfs:label "Parkplatz Bauhaus"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:managed_by uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "Mo-Sa 07:00-20:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "An den Griebensöllen"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163857"^^xsd:string ;
+        ns:types_charging_points "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Bauhaus-An-den-Griebensoellen-1/69472/"^^xsd:string ;
+        geo:lat "54.107068"^^xsd:float ;
+        geo:long "12.057319"^^xsd:float .
+
+dbpedia-owl-m:kropeliner_tor_vorstadt a ns:Municipality ;
+        gn:name "Kröpeliner-Tor-Vorstadt"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1790661"^^xsd:string .
+
+uiote-op:total_deutschland_gmbh a ns:Operator ;
+        rdfs:label "TOTAL Deutschland GmbH"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q29000342"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_schmarler_zentrum a ns:ChargingStation ;
+        rdfs:label "Parkplatz Schmarler Zentrum"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 61 ;
+        ns:managed_by uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18106 ;
+        ns:street_name "Kolumbusring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164534"^^xsd:string ;
+        ns:types_charging_points "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Schmarler-Centrum-Kolumbusring-61/63107/"^^xsd:string ;
+        geo:lat "54.134281"^^xsd:float ;
+        geo:long "12.071484"^^xsd:float .
+
+uiote:ChargingStation#avia_tankstelle_an_der_stadtautobahn a ns:ChargingStation ;
+        rdfs:label "Avia Tankstelle An der Stadtautobahn"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 38 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18107 ;
+        ns:street_name "An der Stadtautobahn"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163875"^^xsd:string ;
+        ns:types_charging_points "Combo Typ 2 160 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lutten_klein ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Avia-Tankstelle-An-der-Stadtautobahn-An-der-Stadtautobahn-38/70086/"^^xsd:string ;
+        geo:lat "54.132568"^^xsd:float ;
+        geo:long "12.063779"^^xsd:float .
+
+uiote:ChargingStation#parkplatz_henrik_ibsen_str a ns:ChargingStation ;
+        rdfs:label "Parkplatz Henrik-Ibsen-Str."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 27 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18106 ;
+        ns:street_name "Henrik-Ibsen-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164327"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Henrik-Ibsen-Strasse-Henrik-Ibsen-Strasse-20/46673/"^^xsd:string ;
+        geo:lat "54.12169"^^xsd:float ;
+        geo:long "12.061053"^^xsd:float .
+
+uiote:ChargingStation#parkplatz_stadthalle a ns:ChargingStation ;
+        rdfs:label "Parkplatz Stadthalle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;BEW Lokalstrom mobil;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 90 ;
+        ns:managed_by uiote-op:ica_chipkartensysteme_gmbhandco_kg ;
+        ns:num_charging_points 6 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Südring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q62284363"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stadthalle-Suedring-90/53665/"^^xsd:string ;
+        geo:lat "54.07715"^^xsd:float ;
+        geo:long "12.124589"^^xsd:float .
+
+uiote:ChargingStation#neustrelitzer_str_5 a uiote:ChargingStation ;
+        rdfs:label "Neustrelitzer Str. 5"^^xsd:string ;
+        dbpedia-owl:postalCode 18109 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Neustrelitzer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164716"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lichtenhagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-5-Neustrelitzer-Strasse-5/31627/"^^xsd:string ;
+        geo:lat "54.15797"^^xsd:float ;
+        geo:long "12.063525"^^xsd:float ;
+        uiote:operatedBy uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote:ChargingStation#team_tankstelle a ns:ChargingStation ;
+        rdfs:label "team Tankstelle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:team_energie_gmbh_and_co_kg ;
+        ns:num_charging_points 5 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Lise-Meitner-Ring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164614"^^xsd:string ;
+        ns:types_charging_points "4 x Combo Typ 2 (CCS) EU 300 kW; 1 x CHAdeMO 100 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/team-Tankstelle-Lise-Meitner-Ring-1/74320/"^^xsd:string ;
+        geo:lat "54.059539"^^xsd:float ;
+        geo:long "12.118082"^^xsd:float .
+
+uiote-op:autohaus_rostock_ost_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Autohaus Rostock Ost GmbH"^^xsd:string .
+
+dbpedia-owl-m:dierkow_west a ns:Municipality ;
+        gn:name "Dierkow-West"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q15944749"^^xsd:string .
+
+uiote:ChargingStation#strandhafer_aparthotel a ns:ChargingStation ;
+        rdfs:label "Strandhafer Aparthotel"^^xsd:string ;
+        ns:accepted_cards "EnBW mobility+;Shell Recharge"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:managed_by uiote-op:mennekes_elektrotechnik_gmbh_and_co_kg ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Am Stolteraer Ring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163836"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_diedrichshagen ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.169428"^^xsd:float ;
+        geo:long "12.036694"^^xsd:float .
+
+uiote-op:lidl_vertriebs_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "Lidl Vertriebs-GmbH & Co. KG"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_molenfeuer a ns:ChargingStation ;
+        rdfs:label "Parkhaus Molenfeuer"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Zum Zollamt"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165160"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Molenfeuer-Zum-Zollamt-5/58987/"^^xsd:string ;
+        geo:lat "54.170536"^^xsd:float ;
+        geo:long "12.087852"^^xsd:float .
+
+dbpedia-owl-m:peez a dbpedia-owl:Municipality ;
+        gn:name "Peez"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2067247"^^xsd:string .
+
+uiote-op:mennekes_elektrotechnik_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "Mennekes"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1262665"^^xsd:string .
+
+uiote:ChargingStation#autohaus_rostock a ns:ChargingStation ;
+        rdfs:label "Autohaus Rostock"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:autohaus_rostock_ost_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Rövershäger Chaussee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164881"^^xsd:string ;
+        ns:types_charging_points "1x Typ 2 22 kW; 1x Combo Typ 2 75 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Autohaus-Rostock-Roevershaeger-Chaussee-5/64588/"^^xsd:string ;
+        geo:lat "54.101316"^^xsd:float ;
+        geo:long "12.180741"^^xsd:float .
+
+dbpedia-owl-m:lutten_klein a dbpedia-owl:Municipality ;
+        gn:name "Lütten Klein"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1880458"^^xsd:string .
+
+uiote:ChargingStation#abc_bau_%C3%A2%E2%82%AC%E2%80%9C_ausbildungscentrum a ns:ChargingStation ;
+        rdfs:label "abc Bau â€“ Ausbildungscentrum"^^xsd:string ;
+        ns:accepted_cards "EnBW mobility+;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "Mo-Do 07:00-16:00; Fr 07:00-14:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Fritz-Triddelfitz-Weg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164138"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.106125"^^xsd:float ;
+        geo:long "12.084743"^^xsd:float .
+
+uiote:ChargingStation#parkplatz_henrik_ibsen_str a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Henrik-Ibsen-Str."^^xsd:string ;
+        dbpedia-owl:postalCode 18106 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Henrik-Ibsen-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164327"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Henrik-Ibsen-Strasse-Henrik-Ibsen-Strasse-20/46673/"^^xsd:string ;
+        geo:lat "54.12169"^^xsd:float ;
+        geo:long "12.061053"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 27 .
+
+uiote:ChargingStation#seestr a uiote:ChargingStation ;
+        rdfs:label "Seestr."^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "EinfachStromLaden;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Seestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163721"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Seestrasse-Seestrasse-15/40637/"^^xsd:string ;
+        geo:lat "54.180061"^^xsd:float ;
+        geo:long "12.080908"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 15 ;
+        gleif-base:hasAddressNumberWithinBuilding "a"^^xsd:string .
+
+uiote:ChargingStation#hansemesse a uiote:ChargingStation ;
+        rdfs:label "HanseMesse"^^xsd:string ;
+        dbpedia-owl:postalCode 18106 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung;Spontanladen"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "2x Typ 2 11 kW; 2x Schuko 2.3 kW"^^xsd:string ;
+        mv:price "free of charge"^^xsd:string ;
+        swpo:hasStreetAddress "Zur Hansemesse"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165165"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HanseMesse-Zur-HanseMesse-1-2/8541/"^^xsd:string ;
+        geo:lat "54.138796"^^xsd:float ;
+        geo:long "12.074583"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote-op:vienna_house_hotelmanagement_gmbh a ns:Operator ;
+        rdfs:label "Vienna House"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2523363"^^xsd:string .
+
+uiote:ChargingStation#universitatsklinikum a uiote:ChargingStation ;
+        rdfs:label "Universitätsklinikum"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Schillingallee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163715"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:hansaviertel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Universitaetsklinikum-Schillingallee-71/43307/"^^xsd:string ;
+        geo:lat "54.085525"^^xsd:float ;
+        geo:long "12.100093"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 71 .
+
+uiote:ChargingStation#team_tankstelle a uiote:ChargingStation ;
+        rdfs:label "team Tankstelle"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 5 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "4 x Combo Typ 2 (CCS) EU 300 kW; 1 x CHAdeMO 100 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Lise-Meitner-Ring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164614"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/team-Tankstelle-Lise-Meitner-Ring-1/74320/"^^xsd:string ;
+        geo:lat "54.059539"^^xsd:float ;
+        geo:long "12.118082"^^xsd:float ;
+        uiote:operatedBy uiote-op:team_energie_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote-op:ica_chipkartensysteme_gmbhandco_kg a uiote:ChargePointOperator ;
+        rdfs:label "ICA Chipkartensysteme GmbH&Co KG"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_strand_mitte a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Strand Mitte"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Parkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q101194725"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Strand-Mitte-Parkstrasse-47/66527/"^^xsd:string ;
+        geo:lat "54.17606"^^xsd:float ;
+        geo:long "12.05627"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 47 .
+
+uiote:ChargingStation#yachthafenresidenz_hohe_dune a ns:ChargingStation ;
+        rdfs:label "Yachthafenresidenz Hohe Düne"^^xsd:string ;
+        ns:accepted_cards "Spontanladen"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:yachthafenresidenz_hohe_dune_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Am Yachthafen"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163849"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_hohe_dune ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock-Warnemuende/Yachthafenresidenz-Hohe-Duene-Am-Yachthafen-1/6284/"^^xsd:string ;
+        geo:lat "54.177052"^^xsd:float ;
+        geo:long "12.098772"^^xsd:float .
+
+uiote:ChargingStation#boulderhalle a uiote:ChargingStation ;
+        rdfs:label "Boulderhalle"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;Plugsurfing;Shell Recharge;SMATRICS NET"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 1 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Am Kayenmühlengraben"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163806"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.096936"^^xsd:float ;
+        geo:long "12.102629"^^xsd:float ;
+        uiote:operatedBy uiote-op:shell_ev_charging_solutions_germany_gmbh ;
+        gleif-base:hasAddressNumber 2 .
+
+uiote:ChargingStation#hotel_ostseeland a ns:ChargingStation ;
+        rdfs:label "Hotel Ostseeland"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 47 ;
+        ns:managed_by uiote-op:hotel_ostseeland ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Stolteraer Weg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164997"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_diedrichshagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Restaurant-Ostseeland-Stolteraer-Weg-47/78415/"^^xsd:string ;
+        geo:lat "54.174821"^^xsd:float ;
+        geo:long "12.009361"^^xsd:float .
+
+uiote:ChargingStation#reuterpassage a uiote:ChargingStation ;
+        rdfs:label "Reuterpassage"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Conrad-Blenkle-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164011"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Reuterpassage-Goerdelerstrasse-52/38470/"^^xsd:string ;
+        geo:lat "54.099596"^^xsd:float ;
+        geo:long "12.07302"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 22 .
+
+uiote:ChargingStation#am_vogenteich_30 a uiote:ChargingStation ;
+        rdfs:label "Am Vögenteich 30"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Am Vögenteich"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163842"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Am-Voegenteich-Am-Voegenteich-30/40041/"^^xsd:string ;
+        geo:lat "54.084009"^^xsd:float ;
+        geo:long "12.126989"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 30 .
+
+dbpedia-owl-m:seebad_warnemunde a ns:Municipality ;
+        gn:name "Warnemünde"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q311849"^^xsd:string .
+
+uiote-op:ikea_deutschland_gmbh_and_co_kg a uiote:ChargePointOperator ;
+        rdfs:label "IKEA Deutschland"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1653977"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_sluterstr a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Slüterstr."^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Slüterstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q2294800"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Slueterstrasse-Slueterstrasse-10/78572/"^^xsd:string ;
+        geo:lat "54.090974"^^xsd:float ;
+        geo:long "12.149139"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 10 .
+
+dbpedia-owl-m:seebad_diedrichshagen a dbpedia-owl:Municipality ;
+        gn:name "Diedrichshagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q638302"^^xsd:string .
+
+uiote:ChargingStation#boulderhalle a ns:ChargingStation ;
+        rdfs:label "Boulderhalle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;Plugsurfing;Shell Recharge;SMATRICS NET"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:managed_by uiote-op:shell_ev_charging_solutions_germany_gmbh ;
+        ns:num_charging_points 1 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Am Kayenmühlengraben"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163806"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.096936"^^xsd:float ;
+        geo:long "12.102629"^^xsd:float .
+
+uiote:ChargingStation#city_ladesaule a ns:ChargingStation ;
+        rdfs:label "City-Ladesäule"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 27 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/City-Ladesaeule-Lange-Strasse-27/19579/"^^xsd:string ;
+        geo:lat "54.089818"^^xsd:float ;
+        geo:long "12.135569"^^xsd:float .
+
+uiote-op:autohaus_rostock_ost_gmbh a ns:Operator ;
+        rdfs:label "Autohaus Rostock Ost GmbH"^^xsd:string .
+
+uiote:ChargingStation#putterweg_1 a ns:ChargingStation ;
+        rdfs:label "Pütterweg 1"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Pütterweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164836"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Puetterweg-2/40016/"^^xsd:string ;
+        geo:lat "54.076764"^^xsd:float ;
+        geo:long "12.120313"^^xsd:float .
+
+uiote-op:total_deutschland_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "TOTAL Deutschland GmbH"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q29000342"^^xsd:string .
+
+dbpedia-owl-m:peez a ns:Municipality ;
+        gn:name "Peez"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2067247"^^xsd:string .
+
+uiote:ChargingStation#euromaster a ns:ChargingStation ;
+        rdfs:label "EUROMASTER"^^xsd:string ;
+        ns:accepted_cards "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 7 ;
+        ns:house_number_addition "d"^^xsd:string ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Hinrichsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164337"^^xsd:string ;
+        ns:types_charging_points "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:toitenwinkel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Euromaster-Hinrichsdorfer-Strasse-7K/28508/"^^xsd:string ;
+        geo:lat "54.1109130056888"^^xsd:float ;
+        geo:long "12.1645180731329"^^xsd:float .
+
+dbpedia-owl-m:toitenwinkel a ns:Municipality ;
+        gn:name "Toitenwinkel"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1309539"^^xsd:string .
+
+uiote:ChargingStation#reuterpassage a ns:ChargingStation ;
+        rdfs:label "Reuterpassage"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 22 ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Conrad-Blenkle-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164011"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Reuterpassage-Goerdelerstrasse-52/38470/"^^xsd:string ;
+        geo:lat "54.099596"^^xsd:float ;
+        geo:long "12.07302"^^xsd:float .
+
+uiote:ChargingStation#euromaster a uiote:ChargingStation ;
+        rdfs:label "EUROMASTER"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Hinrichsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164337"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:toitenwinkel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Euromaster-Hinrichsdorfer-Strasse-7K/28508/"^^xsd:string ;
+        geo:lat "54.1109130056888"^^xsd:float ;
+        geo:long "12.1645180731329"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 7 ;
+        gleif-base:hasAddressNumberWithinBuilding "d"^^xsd:string .
+
+dbpedia-owl-m:seebad_markgrafenheide a ns:Municipality ;
+        gn:name "Markgrafenheide"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1900690"^^xsd:string .
+
+uiote-op:eon_se a ns:Operator ;
+        rdfs:label "E.ON SE"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q270223"^^xsd:string .
+
+uiote:ChargingStation#seestr a ns:ChargingStation ;
+        rdfs:label "Seestr."^^xsd:string ;
+        ns:accepted_cards "EinfachStromLaden;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 15 ;
+        ns:house_number_addition "a"^^xsd:string ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Seestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163721"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Seestrasse-Seestrasse-15/40637/"^^xsd:string ;
+        geo:lat "54.180061"^^xsd:float ;
+        geo:long "12.080908"^^xsd:float .
+
+uiote:ChargingStation#gertrudenplatz_2 a uiote:ChargingStation ;
+        rdfs:label "Gertrudenplatz 2"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Gertrudenplatz"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104344650"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Gertrudenplatz-Gertrudenplatz-2/19328/"^^xsd:string ;
+        geo:lat "54.088244"^^xsd:float ;
+        geo:long "12.124536"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 2 .
+
+dbpedia-owl-m:brinckmansdorf a dbpedia-owl:Municipality ;
+        gn:name "Brinckmansdorf"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q917349"^^xsd:string .
+
+uiote:ChargingStation#fischerweg_408 a uiote:ChargingStation ;
+        rdfs:label "Fischerweg 408"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Fischerweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164108"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Fischereihafen-Fischerweg-408/44664/"^^xsd:string ;
+        geo:lat "54.117382"^^xsd:float ;
+        geo:long "12.085195"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 408 .
+
+dbpedia-owl-m:sudstadt a ns:Municipality ;
+        gn:name "Südstadt"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2381518"^^xsd:string .
+
+dbpedia-owl-m:evershagen a dbpedia-owl:Municipality ;
+        gn:name "Evershagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1382123"^^xsd:string .
+
+uiote:ChargingStation#lubecker_str_30 a ns:ChargingStation ;
+        rdfs:label "Lübecker Str. 30"^^xsd:string ;
+        ns:accepted_cards "Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 30 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Lübecker Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164625"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.093244"^^xsd:float ;
+        geo:long "12.109034"^^xsd:float .
+
+uiote:ChargingStation#am_vogenteich_25 a uiote:ChargingStation ;
+        rdfs:label "Am Vögenteich 25"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Am Vögenteich"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163842"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.086457"^^xsd:float ;
+        geo:long "12.126408"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 25 .
+
+uiote:ChargingStation#parkhaus_altstadt a uiote:ChargingStation ;
+        rdfs:label "Parkhaus Altstadt"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "beliebige RFID-Ladekarten;Spontanladen"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "Küterbruch"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164583"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Altstadt-Kueterbruch-5/43311/"^^xsd:string ;
+        geo:lat "54.08915"^^xsd:float ;
+        geo:long "12.149386"^^xsd:float ;
+        uiote:operatedBy uiote-op:parkhaus_gesellschaft_rostock_gmbh ;
+        gleif-base:hasAddressNumber 5 .
+
+dbpedia-owl-m:reutershagen a dbpedia-owl:Municipality ;
+        gn:name "Reutershagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1486513"^^xsd:string .
+
+uiote:ChargingStation#joliot_curie_allee a uiote:ChargingStation ;
+        rdfs:label "Joliot-Curie-Allee"^^xsd:string ;
+        dbpedia-owl:postalCode 18147 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Joliot-Curie-Allee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164427"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:toitenwinkel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Joliot-Curie-Allee-Joliot-Curie-Allee-25/44004/"^^xsd:string ;
+        geo:lat "54.112387"^^xsd:float ;
+        geo:long "12.136906"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 25 .
+
+uiote:ChargingStation#putterweg_1 a uiote:ChargingStation ;
+        rdfs:label "Pütterweg 1"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Pütterweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164836"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Puetterweg-2/40016/"^^xsd:string ;
+        geo:lat "54.076764"^^xsd:float ;
+        geo:long "12.120313"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote:ChargingStation#parkplatz_bauhaus a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Bauhaus"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "Mo-Sa 07:00-20:00"^^xsd:string ;
+        mv:plug_type "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^xsd:string ;
+        swpo:hasStreetAddress "An den Griebensöllen"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163857"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Bauhaus-An-den-Griebensoellen-1/69472/"^^xsd:string ;
+        geo:lat "54.107068"^^xsd:float ;
+        geo:long "12.057319"^^xsd:float ;
+        uiote:operatedBy uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        gleif-base:hasAddressNumber 2 .
+
+uiote-op:mennekes_elektrotechnik_gmbh_and_co_kg a uiote:ChargePointOperator ;
+        rdfs:label "Mennekes"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1262665"^^xsd:string .
+
+uiote-op:parkhaus_gesellschaft_rostock_gmbh a ns:Operator ;
+        rdfs:label "Parkhaus Gesellschaft Rostock GmbH"^^xsd:string .
+
+uiote:ChargingStation#rontgenstrasse_12 a ns:ChargingStation ;
+        rdfs:label "Röntgenstrasse 12"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 12 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Röntgenstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164875"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Roentgenstrasse-Roentgenstrasse-12/50437/"^^xsd:string ;
+        geo:lat "54.064278"^^xsd:float ;
+        geo:long "12.115427"^^xsd:float .
+
+uiote:ChargingStation#city_ladesaule a uiote:ChargingStation ;
+        rdfs:label "City-Ladesäule"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/City-Ladesaeule-Lange-Strasse-27/19579/"^^xsd:string ;
+        geo:lat "54.089818"^^xsd:float ;
+        geo:long "12.135569"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 27 .
+
+uiote-op:edeka_foodservice_handelshof_management_gmbh a ns:Operator ;
+        rdfs:label "Edeka"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q701755"^^xsd:string .
+
+uiote:ChargingStation#bmw_autohaus_wigger a uiote:ChargingStation ;
+        rdfs:label "BMW Autohaus Wigger"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Alte Dorfstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163762"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BMW-Autohaus-Wigger-Alte-Dorfstrasse-25/46610/"^^xsd:string ;
+        geo:lat "54.100504"^^xsd:float ;
+        geo:long "12.181877"^^xsd:float ;
+        uiote:operatedBy uiote-op:total_deutschland_gmbh ;
+        gleif-base:hasAddressNumber 25 .
+
+uiote:ChargingStation#kirchenplatz_warnemunde a uiote:ChargingStation ;
+        rdfs:label "Kirchenplatz Warnemünde"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "2x Typ 2 22 kW; 2x Schuko 3.7 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Kirchenplatz"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163687"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kirchenplatz-Warnemuende-Kirchenplatz-1/9523/"^^xsd:string ;
+        geo:lat "54.176585"^^xsd:float ;
+        geo:long "12.085439"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote:ChargingStation#vienna_house_sonne a uiote:ChargingStation ;
+        rdfs:label "Vienna House Sonne"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 1 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Schuko 3 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "Neuer Markt"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1262508"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Vienna-House-Sonne-Neuer-Markt-2/42605/"^^xsd:string ;
+        geo:lat "54.088112"^^xsd:float ;
+        geo:long "12.141234"^^xsd:float ;
+        uiote:operatedBy uiote-op:vienna_house_hotelmanagement_gmbh ;
+        gleif-base:hasAddressNumber 2 .
+
+uiote:ChargingStation#hem_tankstelle a ns:ChargingStation ;
+        rdfs:label "HEM Tankstelle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 6 ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18147 ;
+        ns:street_name "Zum Südtor"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165155"^^xsd:string ;
+        ns:types_charging_points "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HEM-Tankstelle-Zum-Suedtor-8/33130/"^^xsd:string ;
+        geo:lat "54.137885"^^xsd:float ;
+        geo:long "12.114089"^^xsd:float .
+
+uiote-op:hotel_neptun_betriebsgesellschaft_mbh a ns:Operator ;
+        rdfs:label "Hotel Neptun"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q874013"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_am_gericht a uiote:ChargingStation ;
+        rdfs:label "Parkhaus am Gericht"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung;Spontanladen"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "August-Bebel-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163643"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Am-Gericht-August-Bebel-Strasse-88/4657/"^^xsd:string ;
+        geo:lat "54.08557"^^xsd:float ;
+        geo:long "12.134524"^^xsd:float ;
+        uiote:operatedBy uiote-op:wohnen_in_rostock_wohnungsgesellschaft_mbh ;
+        gleif-base:hasAddressNumber 88 .
+
+uiote:ChargingStation#parkplatz_stadthalle a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Stadthalle"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;BEW Lokalstrom mobil;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 6 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Südring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q62284363"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stadthalle-Suedring-90/53665/"^^xsd:string ;
+        geo:lat "54.07715"^^xsd:float ;
+        geo:long "12.124589"^^xsd:float ;
+        uiote:operatedBy uiote-op:ica_chipkartensysteme_gmbhandco_kg ;
+        gleif-base:hasAddressNumber 90 .
+
+uiote:ChargingStation#kundenparkplatz_stadtwerke_rostock_ag a uiote:ChargingStation ;
+        rdfs:label "Kundenparkplatz Stadtwerke Rostock AG"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Schmarler Damm"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164918"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kundenparkplatz-Stadtwerke-Schmarler-Damm-5/44665/"^^xsd:string ;
+        geo:lat "54.1256"^^xsd:float ;
+        geo:long "12.083541"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote-op:kaufland_stiftung_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "Kaufland Stiftung GmbH & Co. KG"^^xsd:string .
+
+uiote:ChargingStation#avia_tankstelle_an_der_stadtautobahn a uiote:ChargingStation ;
+        rdfs:label "Avia Tankstelle An der Stadtautobahn"^^xsd:string ;
+        dbpedia-owl:postalCode 18107 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Combo Typ 2 160 kW"^^xsd:string ;
+        swpo:hasStreetAddress "An der Stadtautobahn"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163875"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lutten_klein ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Avia-Tankstelle-An-der-Stadtautobahn-An-der-Stadtautobahn-38/70086/"^^xsd:string ;
+        geo:lat "54.132568"^^xsd:float ;
+        geo:long "12.063779"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 38 .
+
+uiote:ChargingStation#parkplatz_messestr a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Messestr."^^xsd:string ;
+        dbpedia-owl:postalCode 18106 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Messestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164679"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Messestrasse-Messestrasse-16/55554/"^^xsd:string ;
+        geo:lat "54.114382"^^xsd:float ;
+        geo:long "12.05593"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 16 .
+
+uiote:ChargingStation#heinrich_heine_str a uiote:ChargingStation ;
+        rdfs:label "Heinrich-Heine-Str."^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Heinrich-Heine-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163681"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Heinrich-Heine-Strasse-Heinrich-Heine-Strasse-28/72164/"^^xsd:string ;
+        geo:lat "54.178761"^^xsd:float ;
+        geo:long "12.082962"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 28 .
+
+uiote:ChargingStation#parkplatz_schmarler_zentrum a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Schmarler Zentrum"^^xsd:string ;
+        dbpedia-owl:postalCode 18106 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "2x Combo Typ 2 300 kW; 2x Combo Typ 2 150 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Kolumbusring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164534"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Schmarler-Centrum-Kolumbusring-61/63107/"^^xsd:string ;
+        geo:lat "54.134281"^^xsd:float ;
+        geo:long "12.071484"^^xsd:float ;
+        uiote:operatedBy uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        gleif-base:hasAddressNumber 61 .
+
+uiote:ChargingStation#ladesaule_am_hafen a uiote:ChargingStation ;
+        rdfs:label "Ladesäule am Hafen"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Am Strande"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163636"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ladesaeule-am-Hafen-Am-Strande-3a/19577/"^^xsd:string ;
+        geo:lat "54.09255"^^xsd:float ;
+        geo:long "12.144678"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 3 ;
+        gleif-base:hasAddressNumberWithinBuilding "a"^^xsd:string .
+
+dbpedia-owl-m:hansaviertel a ns:Municipality ;
+        gn:name "Hansaviertel"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1336008"^^xsd:string .
+
+uiote:ChargingStation#hotel_godewind a ns:ChargingStation ;
+        rdfs:label "Hotel Godewind"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:htl_haus_elektrotechnik_lehmkuhl ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "Mo-So 09:00-20:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Warnemünder Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165087"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_markgrafenheide ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Godewind-Warnemuender-Strasse-5/45481/"^^xsd:string ;
+        geo:lat "54.191851"^^xsd:float ;
+        geo:long "12.150891"^^xsd:float .
+
+uiote:ChargingStation#neustrelitzer_str_6 a uiote:ChargingStation ;
+        rdfs:label "Neustrelitzer Str. 6"^^xsd:string ;
+        dbpedia-owl:postalCode 18109 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Neustrelitzer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164716"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lichtenhagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-6-Neustrelitzer-Strasse-6/31628/"^^xsd:string ;
+        geo:lat "54.157938"^^xsd:float ;
+        geo:long "12.064424"^^xsd:float ;
+        uiote:operatedBy uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg ;
+        gleif-base:hasAddressNumber 6 .
+
+uiote:ChargingStation#kaufland_sudstadt a ns:ChargingStation ;
+        rdfs:label "Kaufland Südstadt"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:house_number_addition "a"^^xsd:string ;
+        ns:managed_by uiote-op:kaufland_stiftung_gmbh_and_co_kg ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "Mo-Sa 07:00-22:00"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Pütterweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164836"^^xsd:string ;
+        ns:types_charging_points "2 x Combo Typ 2 (CCS) EU 60 kW; 1 x Typ 2 Dose 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Suedstadt-Puetterweg-1/74456/"^^xsd:string ;
+        geo:lat "54.076812"^^xsd:float ;
+        geo:long "12.12136"^^xsd:float .
+
+uiote:ChargingStation#am_vogenteich_30 a ns:ChargingStation ;
+        rdfs:label "Am Vögenteich 30"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 30 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Am Vögenteich"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163842"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Am-Voegenteich-Am-Voegenteich-30/40041/"^^xsd:string ;
+        geo:lat "54.084009"^^xsd:float ;
+        geo:long "12.126989"^^xsd:float .
+
+uiote:ChargingStation#neustrelitzer_str_5 a ns:ChargingStation ;
+        rdfs:label "Neustrelitzer Str. 5"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18109 ;
+        ns:street_name "Neustrelitzer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164716"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lichtenhagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-5-Neustrelitzer-Strasse-5/31627/"^^xsd:string ;
+        geo:lat "54.15797"^^xsd:float ;
+        geo:long "12.063525"^^xsd:float .
+
+uiote-op:wohnen_in_rostock_wohnungsgesellschaft_mbh a ns:Operator ;
+        rdfs:label "WIRO Wohnen in Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q59587711"^^xsd:string .
+
+uiote-op:stadtwerke_rostock_ag a ns:Operator ;
+        rdfs:label "Stadtwerke Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q39524051"^^xsd:string .
+
+uiote:ChargingStation#shell_tankstelle a uiote:ChargingStation ;
+        rdfs:label "Shell Tankstelle"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Combo Typ 2 360 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Lorenzstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164620"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:dierkow_neu ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Shell-Tankstelle-Lorenzstrasse-Lorenzstrasse-75/69089/"^^xsd:string ;
+        geo:lat "54.109952"^^xsd:float ;
+        geo:long "12.168471"^^xsd:float ;
+        uiote:operatedBy uiote-op:shell_ev_charging_solutions_germany_gmbh ;
+        gleif-base:hasAddressNumber 75 .
+
+uiote:ChargingStation#hem_tankstelle a uiote:ChargingStation ;
+        rdfs:label "HEM Tankstelle"^^xsd:string ;
+        dbpedia-owl:postalCode 18147 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 1x Typ 2 43 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Zum Südtor"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165155"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HEM-Tankstelle-Zum-Suedtor-8/33130/"^^xsd:string ;
+        geo:lat "54.137885"^^xsd:float ;
+        geo:long "12.114089"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 6 .
+
+uiote:ChargingStation#kirchenplatz_warnemunde a ns:ChargingStation ;
+        rdfs:label "Kirchenplatz Warnemünde"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Kirchenplatz"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163687"^^xsd:string ;
+        ns:types_charging_points "2x Typ 2 22 kW; 2x Schuko 3.7 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kirchenplatz-Warnemuende-Kirchenplatz-1/9523/"^^xsd:string ;
+        geo:lat "54.176585"^^xsd:float ;
+        geo:long "12.085439"^^xsd:float .
+
+dbpedia-owl-m:kropeliner_tor_vorstadt a dbpedia-owl:Municipality ;
+        gn:name "Kröpeliner-Tor-Vorstadt"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1790661"^^xsd:string .
+
+uiote:ChargingStation#hermannstr_32 a ns:ChargingStation ;
+        rdfs:label "Hermannstr. 32"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 33 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Paulstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q99302548"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hermannstrasse-Hermannstrasse-35/38864/"^^xsd:string ;
+        geo:lat "54.084067"^^xsd:float ;
+        geo:long "12.136002"^^xsd:float .
+
+uiote:ChargingStation#handelshof a ns:ChargingStation ;
+        rdfs:label "Handelshof"^^xsd:string ;
+        ns:house_number 12 ;
+        ns:managed_by uiote-op:edeka_foodservice_handelshof_management_gmbh ;
+        ns:num_charging_points 10 ;
+        ns:opening_hours "Mo-Fr 07:00-20:00; Sa 07:00-18:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Timmermannsstrat"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165030"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Handelshof-Timmermannsstrat-12/52245/"^^xsd:string ;
+        geo:lat "54.082496"^^xsd:float ;
+        geo:long "12.194204"^^xsd:float .
+
+dbpedia-owl-m:schmarl a ns:Municipality ;
+        gn:name "Schmarl"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q681873"^^xsd:string .
+
+uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg a uiote:ChargePointOperator ;
+        rdfs:label "Wohnungsgenossenschaft WARNOW Rostock-Warnemünde eG"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_kunsthalle a ns:ChargingStation ;
+        rdfs:label "Parkplatz Kunsthalle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Grazer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164239"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kunsthalle-Grazer-Strasse-1/44414/"^^xsd:string ;
+        geo:lat "54.098715"^^xsd:float ;
+        geo:long "12.086254"^^xsd:float .
+
+uiote:ChargingStation#ikea a ns:ChargingStation ;
+        rdfs:label "IKEA"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung"^^xsd:string ;
+        ns:cost "free of charge"^^xsd:string ;
+        ns:house_number 25 ;
+        ns:managed_by uiote-op:ikea_deutschland_gmbh_and_co_kg ;
+        ns:num_charging_points 6 ;
+        ns:opening_hours "Mo-Sa 10:00-20:00"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Messestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164679"^^xsd:string ;
+        ns:types_charging_points "2x Typ 2 22 kW; 2x CHAdeMO 20 kW; 2x Combo Typ 2 20 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IKEA-Messestrasse-25/41179/"^^xsd:string ;
+        geo:lat "54.1077639361823"^^xsd:float ;
+        geo:long "12.0521365507219"^^xsd:float .
+
+uiote:ChargingStation#gertrudenplatz_2 a ns:ChargingStation ;
+        rdfs:label "Gertrudenplatz 2"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Gertrudenplatz"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104344650"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Gertrudenplatz-Gertrudenplatz-2/19328/"^^xsd:string ;
+        geo:lat "54.088244"^^xsd:float ;
+        geo:long "12.124536"^^xsd:float .
+
+uiote:ChargingStation#parkplatz_warnowufer a ns:ChargingStation ;
+        rdfs:label "Parkplatz Warnowufer"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 58 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Warnowufer"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163730"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Warnowufer-Warnowufer-58/28894/"^^xsd:string ;
+        geo:lat "54.093514"^^xsd:float ;
+        geo:long "12.118231"^^xsd:float .
+
+uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg a ns:Operator ;
+        rdfs:label "Wohnungsgenossenschaft WARNOW Rostock-Warnemünde eG"^^xsd:string .
+
+uiote:ChargingStation#joliot_curie_allee a ns:ChargingStation ;
+        rdfs:label "Joliot-Curie-Allee"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 25 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18147 ;
+        ns:street_name "Joliot-Curie-Allee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164427"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:toitenwinkel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Joliot-Curie-Allee-Joliot-Curie-Allee-25/44004/"^^xsd:string ;
+        geo:lat "54.112387"^^xsd:float ;
+        geo:long "12.136906"^^xsd:float .
+
+uiote-op:enbw_energie_baden_wurttemberg_ag a ns:Operator ;
+        rdfs:label "EnBW"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q644304"^^xsd:string .
+
+dbpedia-owl-m:stadtmitte a dbpedia-owl:Municipality ;
+        gn:name "Stadtmitte"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1124159"^^xsd:string .
+
+uiote:ChargingStation#am_vogenteich_25 a ns:ChargingStation ;
+        rdfs:label "Am Vögenteich 25"^^xsd:string ;
+        ns:accepted_cards "Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 25 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Am Vögenteich"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163842"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.086457"^^xsd:float ;
+        geo:long "12.126408"^^xsd:float .
+
+uiote:ChargingStation#ulmenstrasse a uiote:ChargingStation ;
+        rdfs:label "Ulmenstrasse"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Hansastraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164284"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ulmenstrasse-Ulmenstrasse-61/70966/"^^xsd:string ;
+        geo:lat "54.089884"^^xsd:float ;
+        geo:long "12.106736"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote:ChargingStation#hotel_godewind a uiote:ChargingStation ;
+        rdfs:label "Hotel Godewind"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "Mo-So 09:00-20:00"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Warnemünder Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165087"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_markgrafenheide ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Godewind-Warnemuender-Strasse-5/45481/"^^xsd:string ;
+        geo:lat "54.191851"^^xsd:float ;
+        geo:long "12.150891"^^xsd:float ;
+        uiote:operatedBy uiote-op:htl_haus_elektrotechnik_lehmkuhl ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote-op:htl_haus_elektrotechnik_lehmkuhl a uiote:ChargePointOperator ;
+        rdfs:label "HTL Haus-Elektrotechnik Lehmkuhl"^^xsd:string .
+
+uiote:ChargingStation#lidl_satower_str a uiote:ChargingStation ;
+        rdfs:label "Lidl Satower Str."^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "Mo-Sa 07:00-21:00"^^xsd:string ;
+        mv:plug_type "1x Combo Typ 2 50kW; 1x Typ2 22 kW; 1x CHAdeMO 50kW"^^xsd:string ;
+        swpo:hasStreetAddress "Satower Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164903"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Satower-Strasse-Satower-Strasse-7/46657/"^^xsd:string ;
+        geo:lat "54.076424"^^xsd:float ;
+        geo:long "12.100077"^^xsd:float ;
+        uiote:operatedBy uiote-op:lidl_vertriebs_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 7 .
+
+uiote-op:eon_se a uiote:ChargePointOperator ;
+        rdfs:label "E.ON SE"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q270223"^^xsd:string .
+
+uiote-op:radisson_hospitality_inc a uiote:ChargePointOperator ;
+        rdfs:label "Radisson Hotel Group"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q19724671"^^xsd:string .
+
+uiote:ChargingStation#abc_bau_%C3%A2%E2%82%AC%E2%80%9C_ausbildungscentrum a uiote:ChargingStation ;
+        rdfs:label "abc Bau â€“ Ausbildungscentrum"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "EnBW mobility+;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "Mo-Do 07:00-16:00; Fr 07:00-14:00"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Fritz-Triddelfitz-Weg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164138"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.106125"^^xsd:float ;
+        geo:long "12.084743"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote-op:mennekes_elektrotechnik_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "MENNEKES Elektrotechnik GmbH & Co. KG"^^xsd:string .
+
+dbpedia-owl-m:toitenwinkel a dbpedia-owl:Municipality ;
+        gn:name "Toitenwinkel"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1309539"^^xsd:string .
+
+dbpedia-owl-m:seebad_warnemunde a dbpedia-owl:Municipality ;
+        gn:name "Warnemünde"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q311849"^^xsd:string .
+
+uiote:ChargingStation#stephan_jantzen_park a ns:ChargingStation ;
+        rdfs:label "Stephan-Jantzen-Park"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        ns:house_number 7 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Parkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q101194725"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stephan-Jantzen-Park-Parkstrasse-7/70965/"^^xsd:string ;
+        geo:lat "54.176192"^^xsd:float ;
+        geo:long "12.076364"^^xsd:float .
+
+uiote:ChargingStation#rontgenstrasse_12 a uiote:ChargingStation ;
+        rdfs:label "Röntgenstrasse 12"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Röntgenstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164875"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Roentgenstrasse-Roentgenstrasse-12/50437/"^^xsd:string ;
+        geo:lat "54.064278"^^xsd:float ;
+        geo:long "12.115427"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 12 .
+
+uiote:ChargingStation#parkplatz_sluterstr a ns:ChargingStation ;
+        rdfs:label "Parkplatz Slüterstr."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 10 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Slüterstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q2294800"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Slueterstrasse-Slueterstrasse-10/78572/"^^xsd:string ;
+        geo:lat "54.090974"^^xsd:float ;
+        geo:long "12.149139"^^xsd:float .
+
+uiote-op:enbw_energie_baden_wurttemberg_ag a uiote:ChargePointOperator ;
+        rdfs:label "EnBW"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q644304"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_hotel_neptun a ns:ChargingStation ;
+        rdfs:label "Parkhaus Hotel NEPTUN"^^xsd:string ;
+        ns:accepted_cards "Spontanladen"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 19 ;
+        ns:managed_by uiote-op:hotel_neptun_betriebsgesellschaft_mbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Seestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163721"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Hotel-NEPTUN-Seestrasse-19/18059/"^^xsd:string ;
+        geo:lat "54.178861"^^xsd:float ;
+        geo:long "12.077543"^^xsd:float .
+
+uiote:ChargingStation#atu a uiote:ChargingStation ;
+        rdfs:label "A.T.U."^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Combo Typ 2 50kW; 1x Typ2 43 kW; 1x CHAdeMO 50kW"^^xsd:string ;
+        swpo:hasStreetAddress "Timmermannsstrat"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165030"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/ATU-Timmermannsstrat-3/29596/"^^xsd:string ;
+        geo:lat "54.081326"^^xsd:float ;
+        geo:long "12.192001"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 3 .
+
+uiote:ChargingStation#ikea a uiote:ChargingStation ;
+        rdfs:label "IKEA"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 6 ;
+        mv:opening_hours_specification "Mo-Sa 10:00-20:00"^^xsd:string ;
+        mv:plug_type "2x Typ 2 22 kW; 2x CHAdeMO 20 kW; 2x Combo Typ 2 20 kW"^^xsd:string ;
+        mv:price "free of charge"^^xsd:string ;
+        swpo:hasStreetAddress "Messestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164679"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IKEA-Messestrasse-25/41179/"^^xsd:string ;
+        geo:lat "54.1077639361823"^^xsd:float ;
+        geo:long "12.0521365507219"^^xsd:float ;
+        uiote:operatedBy uiote-op:ikea_deutschland_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 25 .
+
+dbpedia-owl-m:seebad_hohe_dune a ns:Municipality ;
+        gn:name "Hohe Düne"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1484905"^^xsd:string .
+
+uiote:ChargingStation#fischerweg_408 a ns:ChargingStation ;
+        rdfs:label "Fischerweg 408"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 408 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Fischerweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164108"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Fischereihafen-Fischerweg-408/44664/"^^xsd:string ;
+        geo:lat "54.117382"^^xsd:float ;
+        geo:long "12.085195"^^xsd:float .
+
+uiote:ChargingStation#max_planck_str_16 a ns:ChargingStation ;
+        rdfs:label "Max-Planck-Str. 16"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 16 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Max-Planck-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164673"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Max-Planck-Strasse-Max-Planck-Strasse-16/52480/"^^xsd:string ;
+        geo:lat "54.073597"^^xsd:float ;
+        geo:long "12.108166"^^xsd:float .
+
+uiote-op:team_energie_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "team energie GmbH & Co. KG"^^xsd:string .
+
+dbpedia-owl-m:dierkow_neu a dbpedia-owl:Municipality ;
+        gn:name "Dierkow-Neu"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q15944730"^^xsd:string .
+
+uiote-op:allego_gmbh a ns:Operator ;
+        rdfs:label "Allego"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q75560554"^^xsd:string .
+
+uiote:ChargingStation#yachthafenresidenz_hohe_dune a uiote:ChargingStation ;
+        rdfs:label "Yachthafenresidenz Hohe Düne"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "Spontanladen"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "Am Yachthafen"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163849"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_hohe_dune ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock-Warnemuende/Yachthafenresidenz-Hohe-Duene-Am-Yachthafen-1/6284/"^^xsd:string ;
+        geo:lat "54.177052"^^xsd:float ;
+        geo:long "12.098772"^^xsd:float ;
+        uiote:operatedBy uiote-op:yachthafenresidenz_hohe_dune_gmbh ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote-op:stadtwerke_rostock_ag a uiote:ChargePointOperator ;
+        rdfs:label "Stadtwerke Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q39524051"^^xsd:string .
+
+uiote-op:htl_haus_elektrotechnik_lehmkuhl a ns:Operator ;
+        rdfs:label "HTL Haus-Elektrotechnik Lehmkuhl"^^xsd:string .
+
+uiote:ChargingStation#vienna_house_sonne a ns:ChargingStation ;
+        rdfs:label "Vienna House Sonne"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 2 ;
+        ns:managed_by uiote-op:vienna_house_hotelmanagement_gmbh ;
+        ns:num_charging_points 1 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Neuer Markt"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1262508"^^xsd:string ;
+        ns:types_charging_points "1x Schuko 3 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Vienna-House-Sonne-Neuer-Markt-2/42605/"^^xsd:string ;
+        geo:lat "54.088112"^^xsd:float ;
+        geo:long "12.141234"^^xsd:float .
+
+uiote:ChargingStation#ulmenstrasse a ns:ChargingStation ;
+        rdfs:label "Ulmenstrasse"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Hansastraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164284"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ulmenstrasse-Ulmenstrasse-61/70966/"^^xsd:string ;
+        geo:lat "54.089884"^^xsd:float ;
+        geo:long "12.106736"^^xsd:float .
+
+uiote:ChargingStation#citti_park a ns:ChargingStation ;
+        rdfs:label "Citti-Park"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        ns:num_charging_points 8 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Handwerkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164279"^^xsd:string ;
+        ns:types_charging_points "4x Combo Typ 2 150 kW; 4x Combo Typ 2 300 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/CITTI-PARK-Handwerkstrasse-1/63480/"^^xsd:string ;
+        geo:lat "54.123294"^^xsd:float ;
+        geo:long "12.074454"^^xsd:float .
+
+uiote-op:vienna_house_hotelmanagement_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Vienna House"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2523363"^^xsd:string .
+
+dbpedia-owl-m:evershagen a ns:Municipality ;
+        gn:name "Evershagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1382123"^^xsd:string .
+
+uiote-op:yachthafenresidenz_hohe_dune_gmbh a ns:Operator ;
+        rdfs:label "Yachthafenresidenz Hohe Düne GmbH"^^xsd:string .
+
+uiote-op:team_energie_gmbh_and_co_kg a uiote:ChargePointOperator ;
+        rdfs:label "team energie GmbH & Co. KG"^^xsd:string .
+
+dbpedia-owl-m:seebad_diedrichshagen a ns:Municipality ;
+        gn:name "Diedrichshagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q638302"^^xsd:string .
+
+uiote-op:hotel_ostseeland a uiote:ChargePointOperator ;
+        rdfs:label "Hotel Ostseeland"^^xsd:string .
+
+uiote:ChargingStation#citti_park a uiote:ChargingStation ;
+        rdfs:label "Citti-Park"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 8 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "4x Combo Typ 2 150 kW; 4x Combo Typ 2 300 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Handwerkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164279"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/CITTI-PARK-Handwerkstrasse-1/63480/"^^xsd:string ;
+        geo:lat "54.123294"^^xsd:float ;
+        geo:long "12.074454"^^xsd:float ;
+        uiote:operatedBy uiote-op:enbw_energie_baden_wurttemberg_ag ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote-op:ica_chipkartensysteme_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "ICA Chipkartensysteme GmbH&Co KG"^^xsd:string .
+
+uiote:ChargingStation#fsn_autohaus a uiote:ChargingStation ;
+        rdfs:label "FSN Autohaus"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;MAINGAU Autostrom;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Combo Typ 2 22kW; 1x Typ2 11 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Altkarlshof"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163770"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/FSN-Autohaus-Altkarlshof-6/54937/"^^xsd:string ;
+        geo:lat "54.094538"^^xsd:float ;
+        geo:long "12.155151"^^xsd:float ;
+        uiote:operatedBy uiote-op:volkswagen_group_charging_gmbh ;
+        gleif-base:hasAddressNumber 6 .
+
+uiote-op:hotel_neptun_betriebsgesellschaft_mbh a uiote:ChargePointOperator ;
+        rdfs:label "Hotel Neptun"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q874013"^^xsd:string .
+
+dbpedia-owl-m:sudstadt a dbpedia-owl:Municipality ;
+        gn:name "Südstadt"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q2381518"^^xsd:string .
+
+uiote-op:yachthafenresidenz_hohe_dune_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Yachthafenresidenz Hohe Düne GmbH"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_p2_seehafen a ns:ChargingStation ;
+        rdfs:label "Parkplatz P2 Seehafen"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;DKV Card+Charge;EnBW mobility+;TankE-Netzwerk"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:tanke_gmbh ;
+        ns:num_charging_points 6 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18147 ;
+        ns:street_name "Simon-van-Utrecht-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164957"^^xsd:string ;
+        ns:types_charging_points "2 x Combo Typ 2 (CCS) EU 50 kW; 2 x CHAdeMO 50 kW; 2 x Typ 2 Dose 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-P2-Seehafen-Ost-West-Strasse/76504/"^^xsd:string ;
+        geo:lat "54.142702"^^xsd:float ;
+        geo:long "12.10256"^^xsd:float .
+
+dbpedia-owl-m:lichtenhagen a ns:Municipality ;
+        gn:name "Rostock-Lichtenhagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q741012"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_messestr a ns:ChargingStation ;
+        rdfs:label "Parkplatz Messestr."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 16 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18106 ;
+        ns:street_name "Messestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164679"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:evershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Messestrasse-Messestrasse-16/55554/"^^xsd:string ;
+        geo:lat "54.114382"^^xsd:float ;
+        geo:long "12.05593"^^xsd:float .
+
+uiote:ChargingStation#hansemesse a ns:ChargingStation ;
+        rdfs:label "HanseMesse"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung;Spontanladen"^^xsd:string ;
+        ns:cost "free of charge"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18106 ;
+        ns:street_name "Zur Hansemesse"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165165"^^xsd:string ;
+        ns:types_charging_points "2x Typ 2 11 kW; 2x Schuko 2.3 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/HanseMesse-Zur-HanseMesse-1-2/8541/"^^xsd:string ;
+        geo:lat "54.138796"^^xsd:float ;
+        geo:long "12.074583"^^xsd:float .
+
+uiote:ChargingStation#heinrich_heine_str a ns:ChargingStation ;
+        rdfs:label "Heinrich-Heine-Str."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^xsd:string ;
+        ns:house_number 28 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Heinrich-Heine-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163681"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Heinrich-Heine-Strasse-Heinrich-Heine-Strasse-28/72164/"^^xsd:string ;
+        geo:lat "54.178761"^^xsd:float ;
+        geo:long "12.082962"^^xsd:float .
+
+uiote:ChargingStation#steinstrasse a uiote:ChargingStation ;
+        rdfs:label "Steinstrasse"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Steinstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q2341682"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Steinstrasse-Steinstrasse-3/64354/"^^xsd:string ;
+        geo:lat "54.087277"^^xsd:float ;
+        geo:long "12.140742"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 3 .
+
+uiote:ChargingStation#fsn_autohaus a ns:ChargingStation ;
+        rdfs:label "FSN Autohaus"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;MAINGAU Autostrom;Shell Recharge"^^xsd:string ;
+        ns:house_number 6 ;
+        ns:managed_by uiote-op:volkswagen_group_charging_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Altkarlshof"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163770"^^xsd:string ;
+        ns:types_charging_points "1x Combo Typ 2 22kW; 1x Typ2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/FSN-Autohaus-Altkarlshof-6/54937/"^^xsd:string ;
+        geo:lat "54.094538"^^xsd:float ;
+        geo:long "12.155151"^^xsd:float .
+
+uiote:ChargingStation#ladesaule_am_hafen a ns:ChargingStation ;
+        rdfs:label "Ladesäule am Hafen"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 3 ;
+        ns:house_number_addition "a"^^xsd:string ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Am Strande"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163636"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ladesaeule-am-Hafen-Am-Strande-3a/19577/"^^xsd:string ;
+        geo:lat "54.09255"^^xsd:float ;
+        geo:long "12.144678"^^xsd:float .
+
+uiote-op:ica_chipkartensysteme_gmbhandco_kg a ns:Operator ;
+        rdfs:label "ICA Chipkartensysteme GmbH&Co KG"^^xsd:string .
+
+uiote:ChargingStation#kundenparkplatz_stadtwerke_rostock_ag a ns:ChargingStation ;
+        rdfs:label "Kundenparkplatz Stadtwerke Rostock AG"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18069 ;
+        ns:street_name "Schmarler Damm"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164918"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:schmarl ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kundenparkplatz-Stadtwerke-Schmarler-Damm-5/44665/"^^xsd:string ;
+        geo:lat "54.1256"^^xsd:float ;
+        geo:long "12.083541"^^xsd:float .
+
+uiote:ChargingStation#kropeliner_tor_center_radisson_blu_hotel a ns:ChargingStation ;
+        rdfs:label "Kröpeliner Tor Center / Radisson Blu Hotel"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 40 ;
+        ns:managed_by uiote-op:radisson_hospitality_inc ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        ns:types_charging_points "1x Typ 2 11 kW; 1x CEE Rot 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Radisson-Blu-Hotel-Lange-Strasse-40/3072/"^^xsd:string ;
+        geo:lat "54.0894944961845"^^xsd:float ;
+        geo:long "12.1298330828148"^^xsd:float .
+
+uiote:ChargingStation#lange_strasse a uiote:ChargingStation ;
+        rdfs:label "Lange Strasse"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lange-Strasse-Lange-Strasse-4/61476/"^^xsd:string ;
+        geo:lat "54.090066"^^xsd:float ;
+        geo:long "12.132101"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 4 .
+
+uiote-op:tanke_gmbh a ns:Operator ;
+        rdfs:label "TankE GmbH"^^xsd:string .
+
+uiote:ChargingStation#kaufland_sudstadt a uiote:ChargingStation ;
+        rdfs:label "Kaufland Südstadt"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "Mo-Sa 07:00-22:00"^^xsd:string ;
+        mv:plug_type "2 x Combo Typ 2 (CCS) EU 60 kW; 1 x Typ 2 Dose 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Pütterweg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164836"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kaufland-Suedstadt-Puetterweg-1/74456/"^^xsd:string ;
+        geo:lat "54.076812"^^xsd:float ;
+        geo:long "12.12136"^^xsd:float ;
+        uiote:operatedBy uiote-op:kaufland_stiftung_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 2 ;
+        gleif-base:hasAddressNumberWithinBuilding "a"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_molenfeuer a uiote:ChargingStation ;
+        rdfs:label "Parkhaus Molenfeuer"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Zum Zollamt"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165160"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Molenfeuer-Zum-Zollamt-5/58987/"^^xsd:string ;
+        geo:lat "54.170536"^^xsd:float ;
+        geo:long "12.087852"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote-op:lidl_vertriebs_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "Lidl"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q151954"^^xsd:string .
+
+uiote:ChargingStation#steinstrasse a ns:ChargingStation ;
+        rdfs:label "Steinstrasse"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 3 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Steinstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q2341682"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Steinstrasse-Steinstrasse-3/64354/"^^xsd:string ;
+        geo:lat "54.087277"^^xsd:float ;
+        geo:long "12.140742"^^xsd:float .
+
+uiote:ChargingStation#bmw_autohaus_wigger a ns:ChargingStation ;
+        rdfs:label "BMW Autohaus Wigger"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 25 ;
+        ns:managed_by uiote-op:total_deutschland_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Alte Dorfstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163762"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BMW-Autohaus-Wigger-Alte-Dorfstrasse-25/46610/"^^xsd:string ;
+        geo:lat "54.100504"^^xsd:float ;
+        geo:long "12.181877"^^xsd:float .
+
+uiote:ChargingStation#ihk_zu_rostock a ns:ChargingStation ;
+        rdfs:label "IHK zu Rostock"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:industrie__und_handelskammer_zu_rostock ;
+        ns:num_charging_points 1 ;
+        ns:opening_hours "Mo-Do 07:00-18:00; Fr 07:00-15:00"^^xsd:string ;
+        ns:operating_mode "private"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Ernst-Barlach-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163663"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IHK-zu-Rostock-Ernst-Barlach-Strasse-1-3/61032/"^^xsd:string ;
+        geo:lat "54.086512"^^xsd:float ;
+        geo:long "12.141436"^^xsd:float .
+
+uiote-op:shell_ev_charging_solutions_germany_gmbh a ns:Operator ;
+        rdfs:label "Shell"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q154950"^^xsd:string .
+
+uiote:ChargingStation#gronfingers a ns:ChargingStation ;
+        rdfs:label "Grönfingers"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 18 ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 6 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Alt Bartelsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163760"^^xsd:string ;
+        ns:types_charging_points "Combo Typ 2 300 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Groenfingers-Roevershaeger-Chaussee-1/44152/"^^xsd:string ;
+        geo:lat "54.099138"^^xsd:float ;
+        geo:long "12.176441"^^xsd:float .
+
+uiote-op:industrie__und_handelskammer_zu_rostock a ns:Operator ;
+        rdfs:label "Industrie- und Handelskammer zu Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q81804571"^^xsd:string .
+
+dbpedia-owl-m:schmarl a dbpedia-owl:Municipality ;
+        gn:name "Schmarl"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q681873"^^xsd:string .
+
+uiote:ChargingStation#rovershager_chaussee_1 a ns:ChargingStation ;
+        rdfs:label "Rövershäger Chaussee 1"^^xsd:string ;
+        ns:accepted_cards "EinfachStromLaden;EWE;GET CHARGE;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 1 ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 7 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Rövershäger Chaussee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164881"^^xsd:string ;
+        ns:types_charging_points "1x Typ 2 43 KW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW; 2x Combo Typ 2 320 kW; 2x Combo Typ 2 160 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "{website}"^^xsd:string ;
+        geo:lat "54.0922324536467"^^xsd:float ;
+        geo:long "12.1651722108809"^^xsd:float .
+
+uiote:ChargingStation#ulmenstr a ns:ChargingStation ;
+        rdfs:label "Ulmenstr."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:house_number 54 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Ulmenstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q56558520"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ulmenstrasse-Ulmenstrasse-61/70966/"^^xsd:string ;
+        geo:lat "54.08888"^^xsd:float ;
+        geo:long "12.104551"^^xsd:float .
+
+uiote:ChargingStation#shell_tankstelle a ns:ChargingStation ;
+        rdfs:label "Shell Tankstelle"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;LogPay Charge&Fuel Card und App;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 75 ;
+        ns:managed_by uiote-op:shell_ev_charging_solutions_germany_gmbh ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Lorenzstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164620"^^xsd:string ;
+        ns:types_charging_points "Combo Typ 2 360 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:dierkow_neu ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Shell-Tankstelle-Lorenzstrasse-Lorenzstrasse-75/69089/"^^xsd:string ;
+        geo:lat "54.109952"^^xsd:float ;
+        geo:long "12.168471"^^xsd:float .
+
+uiote-op:parkhaus_gesellschaft_rostock_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Parkhaus Gesellschaft Rostock GmbH"^^xsd:string .
+
+uiote:ChargingStation#parkhaus_am_gericht a ns:ChargingStation ;
+        rdfs:label "Parkhaus am Gericht"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung;Spontanladen"^^xsd:string ;
+        ns:cost "Parking charges"^^xsd:string ;
+        ns:house_number 88 ;
+        ns:managed_by uiote-op:wohnen_in_rostock_wohnungsgesellschaft_mbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "August-Bebel-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163643"^^xsd:string ;
+        ns:types_charging_points "Typ 2 11 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Am-Gericht-August-Bebel-Strasse-88/4657/"^^xsd:string ;
+        geo:lat "54.08557"^^xsd:float ;
+        geo:long "12.134524"^^xsd:float .
+
+uiote:ChargingStation#lange_strasse a ns:ChargingStation ;
+        rdfs:label "Lange Strasse"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 4 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lange-Strasse-Lange-Strasse-4/61476/"^^xsd:string ;
+        geo:lat "54.090066"^^xsd:float ;
+        geo:long "12.132101"^^xsd:float .
+
+uiote-op:industrie__und_handelskammer_zu_rostock a uiote:ChargePointOperator ;
+        rdfs:label "Industrie- und Handelskammer zu Rostock"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q81804571"^^xsd:string .
+
+dbpedia-owl-m:lutten_klein a ns:Municipality ;
+        gn:name "Lütten Klein"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1880458"^^xsd:string .
+
+uiote-op:volkswagen_group_charging_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Volkswagen Group"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q156578"^^xsd:string .
+
+dbpedia-owl-m:hansaviertel a dbpedia-owl:Municipality ;
+        gn:name "Hansaviertel"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1336008"^^xsd:string .
+
+uiote-op:kaufland_stiftung_gmbh_and_co_kg a uiote:ChargePointOperator ;
+        rdfs:label "Kaufland"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q685967"^^xsd:string .
+
+uiote-op:lidl_vertriebs_gmbh_and_co_kg a uiote:ChargePointOperator ;
+        rdfs:label "Lidl"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q151954"^^xsd:string .
+
+uiote-op:hotel_ostseeland a ns:Operator ;
+        rdfs:label "Hotel Ostseeland"^^xsd:string .
+
+uiote-op:allego_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Allego"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q75560554"^^xsd:string .
+
+uiote:ChargingStation#gronfingers a uiote:ChargingStation ;
+        rdfs:label "Grönfingers"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 6 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Combo Typ 2 300 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Alt Bartelsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163760"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Groenfingers-Roevershaeger-Chaussee-1/44152/"^^xsd:string ;
+        geo:lat "54.099138"^^xsd:float ;
+        geo:long "12.176441"^^xsd:float ;
+        uiote:operatedBy uiote-op:allego_gmbh ;
+        gleif-base:hasAddressNumber 18 .
+
+uiote:ChargingStation#atu a ns:ChargingStation ;
+        rdfs:label "A.T.U."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 3 ;
+        ns:managed_by uiote-op:allego_gmbh ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Timmermannsstrat"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165030"^^xsd:string ;
+        ns:types_charging_points "1x Combo Typ 2 50kW; 1x Typ2 43 kW; 1x CHAdeMO 50kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/ATU-Timmermannsstrat-3/29596/"^^xsd:string ;
+        geo:lat "54.081326"^^xsd:float ;
+        geo:long "12.192001"^^xsd:float .
+
+uiote:ChargingStation#parkplatz_kunsthalle a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Kunsthalle"^^xsd:string ;
+        dbpedia-owl:postalCode 18069 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;GET CHARGE;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Grazer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164239"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:reutershagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Kunsthalle-Grazer-Strasse-1/44414/"^^xsd:string ;
+        geo:lat "54.098715"^^xsd:float ;
+        geo:long "12.086254"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 1 .
+
+dbpedia-owl-m:seebad_markgrafenheide a dbpedia-owl:Municipality ;
+        gn:name "Markgrafenheide"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1900690"^^xsd:string .
+
+uiote:ChargingStation#autohaus_rostock a uiote:ChargingStation ;
+        rdfs:label "Autohaus Rostock"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Typ 2 22 kW; 1x Combo Typ 2 75 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Rövershäger Chaussee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164881"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Autohaus-Rostock-Roevershaeger-Chaussee-5/64588/"^^xsd:string ;
+        geo:lat "54.101316"^^xsd:float ;
+        geo:long "12.180741"^^xsd:float ;
+        uiote:operatedBy uiote-op:autohaus_rostock_ost_gmbh ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote:ChargingStation#lidl a ns:ChargingStation ;
+        rdfs:label "Lidl"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 13 ;
+        ns:house_number_addition "a"^^xsd:string ;
+        ns:managed_by uiote-op:lidl_vertriebs_gmbh_and_co_kg ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "Mo-Sa 07:00-21:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18146 ;
+        ns:street_name "Hinrichsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164337"^^xsd:string ;
+        ns:types_charging_points "1x Typ 2 22 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:dierkow_west ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Hinrichsdorfer-Strasse-Hinrichsdorfer-Strasse-13a/47003/"^^xsd:string ;
+        geo:lat "54.107701"^^xsd:float ;
+        geo:long "12.158064"^^xsd:float .
+
+uiote:ChargingStation#universitatsklinikum a ns:ChargingStation ;
+        rdfs:label "Universitätsklinikum"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 71 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18057 ;
+        ns:street_name "Schillingallee"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163715"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:hansaviertel ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Universitaetsklinikum-Schillingallee-71/43307/"^^xsd:string ;
+        geo:lat "54.085525"^^xsd:float ;
+        geo:long "12.100093"^^xsd:float .
+
+uiote:ChargingStation#neustrelitzer_str_6 a ns:ChargingStation ;
+        rdfs:label "Neustrelitzer Str. 6"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 6 ;
+        ns:managed_by uiote-op:wohnungsgenossenschaft_warnow_rostock_warnemunde_eg ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18109 ;
+        ns:street_name "Neustrelitzer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164716"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:lichtenhagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/E-Ladesaeule-Neustrelitzer-Strasse-6-Neustrelitzer-Strasse-6/31628/"^^xsd:string ;
+        geo:lat "54.157938"^^xsd:float ;
+        geo:long "12.064424"^^xsd:float .
+
+uiote:ChargingStation#max_planck_str_16 a uiote:ChargingStation ;
+        rdfs:label "Max-Planck-Str. 16"^^xsd:string ;
+        dbpedia-owl:postalCode 18059 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Max-Planck-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164673"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Max-Planck-Strasse-Max-Planck-Strasse-16/52480/"^^xsd:string ;
+        geo:lat "54.073597"^^xsd:float ;
+        geo:long "12.108166"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 16 .
+
+uiote:ChargingStation#intercityhotel a ns:ChargingStation ;
+        rdfs:label "IntercityHotel"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 51 ;
+        ns:managed_by uiote-op:total_deutschland_gmbh ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Herweghstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164333"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IntercityHotel-Herweghstrasse-51/54128/"^^xsd:string ;
+        geo:lat "54.078194"^^xsd:float ;
+        geo:long "12.132776"^^xsd:float .
+
+uiote:ChargingStation#lidl_satower_str a ns:ChargingStation ;
+        rdfs:label "Lidl Satower Str."^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        ns:house_number 7 ;
+        ns:managed_by uiote-op:lidl_vertriebs_gmbh_and_co_kg ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "Mo-Sa 07:00-21:00"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18059 ;
+        ns:street_name "Satower Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164903"^^xsd:string ;
+        ns:types_charging_points "1x Combo Typ 2 50kW; 1x Typ2 22 kW; 1x CHAdeMO 50kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:sudstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Satower-Strasse-Satower-Strasse-7/46657/"^^xsd:string ;
+        geo:lat "54.076424"^^xsd:float ;
+        geo:long "12.100077"^^xsd:float .
+
+uiote-op:kaufland_stiftung_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "Kaufland"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q685967"^^xsd:string .
+
+dbpedia-owl-m:seebad_hohe_dune a dbpedia-owl:Municipality ;
+        gn:name "Hohe Düne"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1484905"^^xsd:string .
+
+uiote:ChargingStation#parkplatz_warnowufer a uiote:ChargingStation ;
+        rdfs:label "Parkplatz Warnowufer"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Warnowufer"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163730"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Warnowufer-Warnowufer-58/28894/"^^xsd:string ;
+        geo:lat "54.093514"^^xsd:float ;
+        geo:long "12.118231"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 58 .
+
+uiote:ChargingStation#ihk_zu_rostock a uiote:ChargingStation ;
+        rdfs:label "IHK zu Rostock"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:access "private"^^xsd:string ;
+        mv:chargerQuantity 1 ;
+        mv:opening_hours_specification "Mo-Do 07:00-18:00; Fr 07:00-15:00"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Ernst-Barlach-Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163663"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/IHK-zu-Rostock-Ernst-Barlach-Strasse-1-3/61032/"^^xsd:string ;
+        geo:lat "54.086512"^^xsd:float ;
+        geo:long "12.141436"^^xsd:float ;
+        uiote:operatedBy uiote-op:industrie__und_handelskammer_zu_rostock ;
+        gleif-base:hasAddressNumber 1 .
+
+uiote:ChargingStation#ulmenstr a uiote:ChargingStation ;
+        rdfs:label "Ulmenstr."^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Ulmenstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q56558520"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Ulmenstrasse-Ulmenstrasse-61/70966/"^^xsd:string ;
+        geo:lat "54.08888"^^xsd:float ;
+        geo:long "12.104551"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 54 .
+
+uiote:ChargingStation#bordershop a ns:ChargingStation ;
+        rdfs:label "BorderShop"^^xsd:string ;
+        ns:accepted_cards "ohne Authentifizierung"^^xsd:string ;
+        ns:cost "chargeable"^^xsd:string ;
+        ns:house_number 5 ;
+        ns:managed_by uiote-op:eon_se ;
+        ns:num_charging_points 3 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "semipublic"^^xsd:string ;
+        ns:postal_code 18147 ;
+        ns:street_name "Zum Südtor"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165155"^^xsd:string ;
+        ns:types_charging_points "1x Typ 2 43 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BorderShop-Zum-Suedtor-5/42667/"^^xsd:string ;
+        geo:lat "54.138336"^^xsd:float ;
+        geo:long "12.114106"^^xsd:float .
+
+uiote:ChargingStation#parkhaus_hotel_neptun a uiote:ChargingStation ;
+        rdfs:label "Parkhaus Hotel NEPTUN"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "Spontanladen"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 11 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "Seestraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163721"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkhaus-Hotel-NEPTUN-Seestrasse-19/18059/"^^xsd:string ;
+        geo:lat "54.178861"^^xsd:float ;
+        geo:long "12.077543"^^xsd:float ;
+        uiote:operatedBy uiote-op:hotel_neptun_betriebsgesellschaft_mbh ;
+        gleif-base:hasAddressNumber 19 .
+
+uiote:ChargingStation#strandhafer_aparthotel a uiote:ChargingStation ;
+        rdfs:label "Strandhafer Aparthotel"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "EnBW mobility+;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Am Stolteraer Ring"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104163836"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_diedrichshagen ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.169428"^^xsd:float ;
+        geo:long "12.036694"^^xsd:float ;
+        uiote:operatedBy uiote-op:mennekes_elektrotechnik_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 2 .
+
+uiote:ChargingStation#stephan_jantzen_park a uiote:ChargingStation ;
+        rdfs:label "Stephan-Jantzen-Park"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22kW"^^xsd:string ;
+        swpo:hasStreetAddress "Parkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q101194725"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Stephan-Jantzen-Park-Parkstrasse-7/70965/"^^xsd:string ;
+        geo:lat "54.176192"^^xsd:float ;
+        geo:long "12.076364"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 7 .
+
+uiote:ChargingStation#lidl a uiote:ChargingStation ;
+        rdfs:label "Lidl"^^xsd:string ;
+        dbpedia-owl:postalCode 18146 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "Mo-Sa 07:00-21:00"^^xsd:string ;
+        mv:plug_type "1x Typ 2 22 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Hinrichsdorfer Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164337"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:dierkow_west ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Lidl-Hinrichsdorfer-Strasse-Hinrichsdorfer-Strasse-13a/47003/"^^xsd:string ;
+        geo:lat "54.107701"^^xsd:float ;
+        geo:long "12.158064"^^xsd:float ;
+        uiote:operatedBy uiote-op:lidl_vertriebs_gmbh_and_co_kg ;
+        gleif-base:hasAddressNumber 13 ;
+        gleif-base:hasAddressNumberWithinBuilding "a"^^xsd:string .
+
+uiote:ChargingStation#tessiner_str a uiote:ChargingStation ;
+        rdfs:label "Tessiner Str."^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "EinfachStromLaden;EnBW mobility+;GET CHARGE;Plugsurfing"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "2x Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Tessiner Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165019"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Tessiner-Strasse-Tessiner-Strasse-96/41175/"^^xsd:string ;
+        geo:lat "54.0806004469112"^^xsd:float ;
+        geo:long "12.1912887925953"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 96 .
+
+uiote-op:shell_ev_charging_solutions_germany_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Shell"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q154950"^^xsd:string .
+
+uiote:ChargingStation#hotel_ostseeland a uiote:ChargingStation ;
+        rdfs:label "Hotel Ostseeland"^^xsd:string ;
+        dbpedia-owl:postalCode 18119 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Shell Recharge"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 4 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Stolteraer Weg"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164997"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_diedrichshagen ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hotel-Restaurant-Ostseeland-Stolteraer-Weg-47/78415/"^^xsd:string ;
+        geo:lat "54.174821"^^xsd:float ;
+        geo:long "12.009361"^^xsd:float ;
+        uiote:operatedBy uiote-op:hotel_ostseeland ;
+        gleif-base:hasAddressNumber 47 .
+
+uiote:ChargingStation#bordershop a uiote:ChargingStation ;
+        rdfs:label "BorderShop"^^xsd:string ;
+        dbpedia-owl:postalCode 18147 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Typ 2 43 kW; 1x CHAdeMO 50 kW; 1x Combo Typ 2 50 kW"^^xsd:string ;
+        mv:price "chargeable"^^xsd:string ;
+        swpo:hasStreetAddress "Zum Südtor"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165155"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:peez ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/BorderShop-Zum-Suedtor-5/42667/"^^xsd:string ;
+        geo:lat "54.138336"^^xsd:float ;
+        geo:long "12.114106"^^xsd:float ;
+        uiote:operatedBy uiote-op:eon_se ;
+        gleif-base:hasAddressNumber 5 .
+
+uiote:ChargingStation#hermannstr_32 a uiote:ChargingStation ;
+        rdfs:label "Hermannstr. 32"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        mv:price "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        swpo:hasStreetAddress "Paulstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q99302548"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Hermannstrasse-Hermannstrasse-35/38864/"^^xsd:string ;
+        geo:lat "54.084067"^^xsd:float ;
+        geo:long "12.136002"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 33 .
+
+uiote:ChargingStation#lubecker_str_30 a uiote:ChargingStation ;
+        rdfs:label "Lübecker Str. 30"^^xsd:string ;
+        dbpedia-owl:postalCode 18057 ;
+        mv:acceptedPaymentMethod "Stadtwerke Rostock"^^xsd:string ;
+        mv:access "public"^^xsd:string ;
+        mv:chargerQuantity 3 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "Typ 2 22 kW"^^xsd:string ;
+        swpo:hasStreetAddress "Lübecker Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104164625"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:kropeliner_tor_vorstadt ;
+        vcard:hasURL "https://www.e-stations.de/ladestationen/map"^^xsd:string ;
+        geo:lat "54.093244"^^xsd:float ;
+        geo:long "12.109034"^^xsd:float ;
+        uiote:operatedBy uiote-op:stadtwerke_rostock_ag ;
+        gleif-base:hasAddressNumber 30 .
+
+uiote:ChargingStation#parkplatz_strand_mitte a ns:ChargingStation ;
+        rdfs:label "Parkplatz Strand Mitte"^^xsd:string ;
+        ns:accepted_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Spontanladen"^^xsd:string ;
+        ns:house_number 47 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 4 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18119 ;
+        ns:street_name "Parkstraße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q101194725"^^xsd:string ;
+        ns:types_charging_points "Typ 2 22kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:seebad_warnemunde ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Parkplatz-Strand-Mitte-Parkstrasse-47/66527/"^^xsd:string ;
+        geo:lat "54.17606"^^xsd:float ;
+        geo:long "12.05627"^^xsd:float .
+
+dbpedia-owl-m:stadtmitte a ns:Municipality ;
+        gn:name "Stadtmitte"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1124159"^^xsd:string .
+
+uiote-op:ikea_deutschland_gmbh_and_co_kg a ns:Operator ;
+        rdfs:label "IKEA Deutschland"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1653977"^^xsd:string .
+
+uiote:ChargingStation#kropeliner_tor_center_radisson_blu_hotel a uiote:ChargingStation ;
+        rdfs:label "Kröpeliner Tor Center / Radisson Blu Hotel"^^xsd:string ;
+        dbpedia-owl:postalCode 18055 ;
+        mv:acceptedPaymentMethod "ohne Authentifizierung"^^xsd:string ;
+        mv:access "semipublic"^^xsd:string ;
+        mv:chargerQuantity 2 ;
+        mv:opening_hours_specification "24/7"^^xsd:string ;
+        mv:plug_type "1x Typ 2 11 kW; 1x CEE Rot 11 kW"^^xsd:string ;
+        mv:price "Parking charges"^^xsd:string ;
+        swpo:hasStreetAddress "Lange Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q1651266"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:stadtmitte ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Radisson-Blu-Hotel-Lange-Strasse-40/3072/"^^xsd:string ;
+        geo:lat "54.0894944961845"^^xsd:float ;
+        geo:long "12.1298330828148"^^xsd:float ;
+        uiote:operatedBy uiote-op:radisson_hospitality_inc ;
+        gleif-base:hasAddressNumber 40 .
+
+uiote-op:edeka_foodservice_handelshof_management_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "Edeka"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q701755"^^xsd:string .
+
+uiote:ChargingStation#tessiner_str a ns:ChargingStation ;
+        rdfs:label "Tessiner Str."^^xsd:string ;
+        ns:accepted_cards "EinfachStromLaden;EnBW mobility+;GET CHARGE;Plugsurfing"^^xsd:string ;
+        ns:cost "0.39 €/kWh; Base 0.99 €"^^xsd:string ;
+        ns:house_number 96 ;
+        ns:managed_by uiote-op:stadtwerke_rostock_ag ;
+        ns:num_charging_points 2 ;
+        ns:opening_hours "24/7"^^xsd:string ;
+        ns:operating_mode "public"^^xsd:string ;
+        ns:postal_code 18055 ;
+        ns:street_name "Tessiner Straße"^^xsd:string ;
+        ns:street_uri "https://www.wikidata.org/wiki/Q104165019"^^xsd:string ;
+        ns:types_charging_points "2x Typ 2 22 kW"^^xsd:string ;
+        gn:locatedIn dbpedia-owl-m:brinckmansdorf ;
+        vcard:hasURL "https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Tessiner-Strasse-Tessiner-Strasse-96/41175/"^^xsd:string ;
+        geo:lat "54.0806004469112"^^xsd:float ;
+        geo:long "12.1912887925953"^^xsd:float .
+
+uiote-op:tanke_gmbh a uiote:ChargePointOperator ;
+        rdfs:label "TankE GmbH"^^xsd:string .
+
+dbpedia-owl-m:reutershagen a ns:Municipality ;
+        gn:name "Reutershagen"^^xsd:string ;
+        owl:sameAs "https://www.wikidata.org/wiki/Q1486513"^^xsd:string .
