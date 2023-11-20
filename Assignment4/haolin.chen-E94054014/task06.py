@@ -76,7 +76,7 @@ for s, p, o in g:
 
 # TO DO
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, vcard.WorkFor, ns.UPM))
+g.add((ns.JohnSmith, ns.WorkFor, ns.UPM))
 
 # Visualize the results
 for s, p, o in g:
