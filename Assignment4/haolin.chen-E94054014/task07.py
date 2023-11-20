@@ -29,15 +29,33 @@ from rdflib.plugins.sparql import prepareQuery
 # Using RDFLib
 print("Using RDFLib:")
 ns = Namespace("http://somewhere#")
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-    print(s)
+
+# recursive function
+def find_subclasses(graph, class_uri, namespace, subclasses=None):
+    if subclasses is None:
+        subclasses = set()
+
+    # Find direct subclasses
+    for subclass in graph.objects(None, RDFS.subClassOf):
+        if subclass not in subclasses:
+            subclasses.add(subclass)
+            find_subclasses(graph, subclass, namespace, subclasses)
+
+    return subclasses
+
+all_subclasses = find_subclasses(g, ns.LivingThing, ns)
+
+for subclass in all_subclasses:
+    print(subclass)
+
+
 
 # Using SPARQL
 print("Using SPARQL:")
 q1 = prepareQuery('''
-    SELECT ?subClass
+    SELECT ?subclass
     WHERE {
-        ?subClass rdfs:subClassOf ns:LivingThing .
+    ?subclass rdfs:subClassOf* ns:LivingThing .
     }
     ''',
     initNs={"rdfs": RDFS, "ns": ns}
@@ -52,24 +70,29 @@ for r in g.query(q1):
 # TO DO
 
 # Using RDFLib
+def find_individuals(graph, class_uri, namespace, individuals=None):
+    if individuals is None:
+        individuals = set()
+    for individual in graph.subjects(RDF.type, class_uri):
+        individuals.add(individual)
+    for subclass in graph.subjects(RDFS.subClassOf, class_uri):
+        find_individuals(graph, subclass, namespace, individuals)
+    return individuals
+
 print("Using RDFLib:")
 ns = Namespace("http://somewhere#")
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
-    print(s)
+all_individuals = find_individuals(g, ns.Person, ns)
+for individual in all_individuals:
+    print(individual)
 
-for sub_class, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
-    for s, p, o in g.triples((None, RDF.type, sub_class)):
-        print(s)
 
 # Using SPARQL
 print("Using SPARQL:")
 q2 = prepareQuery('''
-    SELECT DISTINCT ?individual
+    SELECT ?individual
     WHERE {
-        { ?individual rdf:type ns:Person . }
-        UNION
-        { ?subClass rdfs:subClassOf ns:Person .
-          ?individual rdf:type ?subClass . }
+    ?individual rdf:type ?type .
+    ?type rdfs:subClassOf* ns:Person .
     }
     ''',
     initNs={"rdf": RDF, "rdfs": RDFS, "ns": ns}
@@ -112,7 +135,14 @@ for r in g.query(q3):
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
+
 # TO DO
+# Using RDFLib
+for s, p, o in g.triples((None, FOAF.knows, ns.RockySmith)):
+    for x, z, name in g.triples((s, VCARD.FN, None)):
+        print(name)
+        
+# Using SPARQL
 from rdflib.namespace import FOAF
 q4 = prepareQuery('''
     SELECT ?name
@@ -132,6 +162,15 @@ for r in g.query(q4):
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
+# Using RDFLib
+known_entities = defaultdict(set)
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    known_entities[s].add(o)
+for individual, entities in known_entities.items():
+    if len(entities) >= 2:
+        print(individual)
+
+# Using SPARQL
 q5 = prepareQuery('''
     SELECT ?individual
     WHERE {
