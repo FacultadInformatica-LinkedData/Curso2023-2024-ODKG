@@ -21,6 +21,17 @@ g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
 g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
+#Funcion auxiliar para las operaciones recursivas:
+def get_subclasses(clase,n_iter):
+  if  n_iter!=0:
+    for s, p, o in g.triples((None,RDFS.subClassOf,clase)):
+      print(s)
+      get_subclasses(s,n_iter)
+  else:
+    print(clase)
+    n_iter+=1
+    get_subclasses(clase,n_iter)
+
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
 
 # TO DO
@@ -29,20 +40,21 @@ vcard=Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 ns=Namespace("http://somewhere#")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject RDFS:subClassOf ns:LivingThing.
+    ?Subject RDFS:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = { "RDFS": RDFS, "vcard": vcard,"ns":ns}
                   #Para añadir los prefijos a la query
 )
+print("Usando rdflib:")
+n_iter=0
+get_subclasses(ns.LivingThing,n_iter)
 
-for s, p, o in g.triples((None,RDFS.subClassOf,ns.LivingThing)):
-  print(s,p,o)
-
+print("Usando Sparql:")
 # Visualize the results
 
 for r in g.query(q1):
-  print(r)
+  print(r.Subject)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -55,7 +67,7 @@ q2 = prepareQuery('''
     {?Subject a ns:Person.}
   UNION
   {
-    ?subPerson RDFS:subClassOf ns:Person.
+    ?subPerson RDFS:subClassOf* ns:Person.
     ?Subject a ?subPerson.
 }
 }
@@ -63,16 +75,35 @@ q2 = prepareQuery('''
   initNs = { "RDFS": RDFS, "vcard": vcard,"ns":ns}
                   #Para añadir los prefijos a la query
 )
+print("Usando rdflib:")
+subclases=[]
+n_iter=0
+#Añade las subclases de una clase a una lista
+def recorrer_subclases(clase,subclases,n_iter):
+  if n_iter==0:
+    subclases.append(ns.Person)
+    n_iter=1
+    recorrer_subclases(clase,subclases,n_iter)
+  else:
+    for s,p,o in g.triples((None,RDFS.subClassOf,clase)):
+      subclases.append(s)
+      recorrer_subclases(s,subclases,n_iter)
 
-for s, p, o in g.triples((None,RDF.type,ns.Person)):
-  print(s)
-for s1,p1,o1 in g.triples((None, RDFS.subClassOf, ns.Person)):
-  for s, p, o in g.triples((None,RDF.type,s1)):
-    print(s)
+recorrer_subclases(ns.Person,subclases,n_iter)
+#Se imprimen los individuos de las listas
+for object in subclases:
+    for s,p,o in g.triples((None, RDF.type, object)):
+      print(s)
+#print("Subclases: ",subclases)
+#for s, p, o in g.triples((None,RDF.type,ns.Person)):
+#  print(s)
+#for s1,p1,o1 in g.triples((None, RDFS.subClassOf, ns.Person)):
+# for s, p, o in g.triples((None,RDF.type,s1)):
+ #   print(s)
 # Visualize the results
-
+print("Usando sparql")
 for r in g.query(q2):
-  print(r)
+  print(r.Subject)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
@@ -96,6 +127,7 @@ q3 = prepareQuery('''
 )
 
 #Con RDFlib
+print("Usando RDFlib:")
 for s, p, o in g.triples((None,RDF.type,ns.Person)):
   aux=None
   for s1,p1,o1 in g.triples ((s,None,None)):
@@ -109,6 +141,7 @@ for s,p,o in g.triples((None, RDF.type,ns.Animal)):
       print(s1,p1)
     aux=p1
 # Visualize the results
+print("Usando Sparql:")
 for r in g.query(q3):
   print(r)
 
@@ -138,6 +171,7 @@ q4 = prepareQuery('''
   initNs = { "RDFS": RDFS, "vcard": vcard,"ns":ns, "foaf":FOAF,"xsd":xsd}
                   #Para añadir los prefijos a la query
 )
+print("Usando RDFlib:")
 #Con RDFlib
 for s, p, o in g.triples((None,RDF.type,ns.Person)):
   for s1,p1,o1 in g.triples((s,FOAF.knows,None)):
@@ -151,6 +185,7 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
 
 
 # Visualize the results
+print("Usando Sparql:")
 for r in g.query(q4):
   print(r)
 
@@ -170,6 +205,7 @@ q5 = prepareQuery('''
                   #Para añadir los prefijos a la query
 )
 #Con solo RDFlib
+print("Usando RDFlib:")
 aux=[]
 for s,p,o in g.triples((None,FOAF.knows,None)):
   for s1,p1,o1 in g.triples ((s,FOAF.knows,None)):
@@ -178,5 +214,7 @@ for s,p,o in g.triples((None,FOAF.knows,None)):
         aux.append(s)
 print(aux)
 # Visualize the results
+print("Usando Sparql:")
 for r in g.query(q5):
   print(r)
+

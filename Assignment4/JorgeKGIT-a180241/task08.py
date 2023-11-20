@@ -28,17 +28,14 @@ print(vcard.Given)
 
 """Tarea: lista todos los elementos de la clase Person en el primer grafo (data01.rdf) y completa los campos (given name, family name y email) que puedan faltar con los datos del segundo grafo (data02.rdf). Puedes usar consultas SPARQL o iterar el grafo, o ambas cosas."""
 
-for s,p,o in g1.triples((None,RDF.type,data.Person)):
-  for s1,p1,o1 in g1.triples((s,None,None)):
-    print(s1,p1,o1)
+for s,p,o in g1.triples((None, RDF.type, data.Person)):
+  print(s) # elementos de Person en g1
+  #[vcard.Given, vcard.Family, vcard.EMAIL]
+  if not (s, vcard.Given, None) in g1:
+        g1.add((s, vcard.Given, g2.value(s, vcard.Given)))
+  if not (s,vcard.Family, None) in g1:
+         g1.add((s, vcard.Family,  g2.value(s, vcard.Family )))
+  if not (s,vcard.email, None) in g1:
+         g1.add((s, vcard.EMAIL,  g2.value(s, vcard.EMAIL)))
+print(g1.serialize(format="ttl"))
 
-for s,p,o in g2.triples((None,RDF.type,data.Person)):
-  for s1,p1,o1 in g2.triples((s,None,None)):
-
-    if p1 ==vcard.Given or p1==vcard.EMAIL or p1==vcard.Family:
-      print(s1,p1,o1)
-      g1.add((s1, p1, o1))
-
-for s,p,o in g1.triples((None,RDF.type,data.Person)):
-  for s1,p1,o1 in g1.triples((s,None,None)):
-    print(s1,p1,o1)
