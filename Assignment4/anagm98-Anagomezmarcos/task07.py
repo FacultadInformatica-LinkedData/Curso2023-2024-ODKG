@@ -9,6 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
+
 !pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
 
