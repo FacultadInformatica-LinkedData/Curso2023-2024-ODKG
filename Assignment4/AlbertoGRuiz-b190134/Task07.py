@@ -188,7 +188,7 @@ q5= prepareQuery('''
     ?entities foaf:knows ?otherEntities.
     FILTER(?entities != ?otherEntities).
   } GROUP BY ?entities
-    HAVING (COUNT(?otherEntities) = 2 || COUNT(?otherEntities)>2)
+    HAVING (COUNT(?otherEntities) >= 2)
   ''',
   initNs = {"foaf":FOAF}
 )
