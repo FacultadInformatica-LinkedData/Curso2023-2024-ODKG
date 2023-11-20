@@ -27,15 +27,23 @@ ns = Namespace("http://somewhere#")
 from rdflib.plugins.sparql import prepareQuery
 
 print("RDFLib:")
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(s)
+def get_all_subclasses(class_uri):
+  subclasses = set([class_uri])
+  for s in g.subjects(RDFS.subClassOf, class_uri):
+    subclasses.add(s)
+    subclasses.update(get_all_subclasses(s))
+  return subclasses
+
+all_subclasses = get_all_subclasses(ns.LivingThing)
+for subclass in all_subclasses:
+  print(subclass)
 
 print("\nSPARQL:")
 q1 = prepareQuery('''
   SELECT
     ?Subject
   WHERE {
-    ?Subject rdfs:subClassOf ns:LivingThing
+    ?Subject rdfs:subClassOf* ns:LivingThing
   }
   ''',
   initNs = {"rdfs": RDFS, "ns": ns}
@@ -57,7 +65,7 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
 
 print("\nSPARQL:")
 q2 = prepareQuery('''
-  SELECT
+  SELECT DISTINCT
     ?Subject
   WHERE {
     {
@@ -65,7 +73,7 @@ q2 = prepareQuery('''
     }
     UNION
     {
-     ?Person rdfs:subClassOf ns:Person.
+     ?Person rdfs:subClassOf* ns:Person.
      ?Subject rdf:type ?Person
     }
   }
@@ -127,36 +135,41 @@ for subject, properties in results.items():
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 print("RDFLib:")
 for s,p,o in g.triples((None, RDF.type, ns.Person)):
-  print(s)
+  for sss,ppp,ooo in g.triples((s, foaf.knows, ns.RockySmith)):
+    for ssss,pppp,oooo in g.triples((s, vcard.FN, None)):
+      print(oooo)
 for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
   for ss,pp,oo in g.triples((None, RDF.type, s)):
-    for sss,ppp,ooo in g.triples((s, foaf.knows, ns.RockySmith)):
-      print(sss)
+    for sss,ppp,ooo in g.triples((ss, foaf.knows, ns.RockySmith)):
+      for ssss,pppp,oooo in g.triples((ss, vcard.FN, None)):
+        print(oooo)
 
 print("\nSPARQL:")
 q4 = prepareQuery('''
   SELECT
-    ?Subject
+    ?name
   WHERE {
     {
       ?Subject rdf:type ns:Person
     }
     UNION
     {
-     ?Person rdfs:subClassOf ns:Person.
+     ?Person rdfs:subClassOf ns:Person .
      ?Subject rdf:type ?Person
     }
-    ?Subject foaf:knows ns:RockySmith.
+    ?Subject vcard:FN ?name .
+    ?Subject foaf:knows ns:RockySmith
   }
   ''',
-  initNs = {"rdf": RDF, "ns": ns, "foaf": foaf}
+  initNs = {"rdf": RDF, "ns": ns, "foaf": foaf, "vcard": vcard}
 )
 # Visualize the results
 for r in g.query(q4):
-  print(r.Subject)
+  print(r.name)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
