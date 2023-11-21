@@ -1,0 +1,43 @@
+Question 1: Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+Query 1: 
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT ?property WHERE{  
+?politician rdf:type dbo:Politician .
+?politician ?property ?value
+}
+
+Question 2: Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+Query 2: 
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT ?property WHERE{  
+?politician rdf:type dbo:Politician .
+?politician ?property ?value.
+filter(?property !=rdf:type)
+}
+
+Question 3: Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+Query 3: 
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT (?value) WHERE{  
+?politician rdf:type dbo:Politician .
+?politician ?property ?value.
+filter(?property !=rdf:type)
+}
+
+Question 4: For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+Query 4: 
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?property ?value WHERE {
+  ?politician rdf:type dbo:Politician .
+  ?politician ?property ?value .
+  FILTER (?property != rdf:type)
+}
+
+Question 5: For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
+Query 5:
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT ?property count(DISTINCT ?value) WHERE {
+  ?politician rdf:type dbo:Politician .
+  ?politician ?property ?value .
+  FILTER (?property != rdf:type)
+}
