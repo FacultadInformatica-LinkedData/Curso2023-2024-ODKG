@@ -25,10 +25,26 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 # TO DO
 from rdflib.plugins.sparql import prepareQuery
+#RDFLib
+def get_subclasses(graph, class_uri):
+    subclasses = set()
+    for s, p, o in graph.triples((None, RDFS.subClassOf, class_uri)):
+        subclasses.add(s)
+        subclasses |= get_subclasses(graph, s)
+    return subclasses
+
 ns = Namespace("http://somewhere#")
+living_thing_subclasses = get_subclasses(g, ns.LivingThing)
+
+for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
+    print(s)
+for subclass in living_thing_subclasses:
+    print(subclass)
+    
+#SPARQL
 q1 = prepareQuery(
     '''SELECT ?subClass
-    WHERE { ?subClass rdfs:subClassOf ns:LivingThing. }''',
+    WHERE { ?subClass rdfs:subClassOf* ns:LivingThing. }''',
     initNs={"rdfs": RDFS, "ns": ns}
 )
 # Visualize the results
@@ -40,6 +56,22 @@ for r in g.query(q1):
 """
 
 # TO DO
+#RDFLib
+#Person & Person subclasses
+for s, p, o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+#Go through Person subclasses
+for sub_class, _, _ in g.triples((None, RDFS.subClassOf, ns.Person)):
+    #Go through individuals
+    for s, _, _ in g.triples((None, RDF.type, sub_class)):
+        print(s)
+    #Go through subclasses
+    for sub_sub_class, _, _ in g.triples((None, RDFS.subClassOf, sub_class)):
+        #Go through individuals of each subclass of the subclass
+        for s, _, _ in g.triples((None, RDF.type, sub_sub_class)):
+            print(s)
+            
+#SPARQL
 q2 = prepareQuery(
     '''SELECT ?person ?type
     WHERE {
@@ -57,6 +89,19 @@ for r in g.query(q2):
 """
 
 # TO DO
+#RDFLIB
+#PERSON
+for s, p, o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+    for s1, p1, o1 in g.triples((s, None, None)):
+        print(f"  {p1}: {o1}")
+#ANIMAL
+for s, p, o in g.triples((None, RDF.type, ns.Animal)):
+    print(s)
+    for s1, p1, o1 in g.triples((s, None, None)):
+        print(f"  {p1}: {o1}")
+        
+#SPARQL
 q3 = prepareQuery(
     ''' SELECT ?person ?class ?property ?value
     WHERE {
@@ -77,12 +122,18 @@ from rdflib import FOAF
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0")
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 
+#RDFLiB
+for person, _, _ in g.triples((None, FOAF.knows, ns.RockySmith)):
+    print(g.value(person, vcard.Given))
+
+#SPARQL
 q4 = prepareQuery(
-    '''SELECT DISTINCT ?person
+    '''SELECT DISTINCT ?person ?name
     WHERE {
         ?person foaf:knows ns:RockySmith .
+        ?person vcard:Given ?name .
     }''',
-    initNs={"rdf": RDF, "rdfs": RDFS, "ns": ns, "foaf":FOAF}
+    initNs={"rdf": RDF, "rdfs": RDFS, "ns": ns, "foaf":FOAF, "vcard":vcard}
 )
 # Visualize the results
 for r in g.query(q4):
@@ -91,7 +142,18 @@ for r in g.query(q4):
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
-# Visualize the results
+#RDFLib
+entities = {}
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    if s in entities:
+        entities[s].add(o)
+    else:
+        entities[s] = {o}
+for entity, persons in entities.items():
+    if len(persons) >= 2:
+        print(entity)
+        
+#SPARQL
 q5 = prepareQuery(
     '''SELECT ?entity
     WHERE {
