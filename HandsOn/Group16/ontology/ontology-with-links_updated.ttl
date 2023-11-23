@@ -1,0 +1,146 @@
+@prefix : <http://ext.defibrilator/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix w3: <httpw3:#> .
+@prefix wd: <https://www.wikidata.org/> .
+@prefix def: <http://ext.defibrilator/ontology#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sch: <https://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ext.defibrilator/ontology#> .
+
+<http://ext.defibrilator/ontology#> rdf:type owl:Ontology ;
+                                     dc:creator "Group16" ;
+                                     dc:title "DefibrilatorOntology" ;
+                                     owl:versionInfo "0.0.1" ;
+                                     mod:createdWith <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/mod#createdWith
+mod:createdWith rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://ext.defibrilator/ontology#belongsToMunicipality
+def:belongsToMunicipality rdf:type owl:ObjectProperty ;
+                          rdfs:domain def:DefBuilding ;
+                          rdfs:range def:Municipality ;
+                          rdfs:label "belongsToMunicipality" .
+
+
+###  https://www.wikidata.org/instanceOf
+wd:instanceOf rdf:type owl:ObjectProperty ,
+                       owl:SymmetricProperty ;
+              rdfs:domain def:Municipality ;
+              rdfs:range wd:municipalityOfSpain ;
+              rdfs:label "instanceOf" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ext.defibrilator/ontology#code
+def:code rdf:type owl:DatatypeProperty ;
+         rdfs:domain def:Municipality ;
+         rdfs:range xsd:string ;
+         rdfs:label "code" .
+
+
+###  http://ext.defibrilator/ontology#hasBuildingName
+def:hasBuildingName rdf:type owl:DatatypeProperty ;
+                    rdfs:domain def:DefBuilding ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "hasBuildingName" .
+
+
+###  http://ext.defibrilator/ontology#hasMunicipalityName
+def:hasMunicipalityName rdf:type owl:DatatypeProperty ;
+                        rdfs:domain def:Municipality ;
+                        rdfs:range xsd:string ;
+                        rdfs:label "hasMunicipalityName" .
+
+
+###  http://ext.defibrilator/ontology#placeType
+def:placeType rdf:type owl:DatatypeProperty ;
+              rdfs:domain def:DefBuilding ;
+              rdfs:range xsd:string ;
+              rdfs:label "place type" .
+
+
+###  https://schema.org/address
+sch:address rdf:type owl:DatatypeProperty ;
+            rdfs:domain def:DefBuilding ;
+            rdfs:range xsd:string ;
+            rdfs:label "address" .
+
+
+###  https://schema.org/openingHours
+sch:openingHours rdf:type owl:DatatypeProperty ;
+                 rdfs:domain def:DefBuilding ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "openingHours" .
+
+
+###  https://schema.org/publicAccess
+sch:publicAccess rdf:type owl:DatatypeProperty ;
+                 rdfs:domain def:DefBuilding ;
+                 rdfs:range xsd:boolean ;
+                 rdfs:label "publicAccess" .
+
+
+###  httpw3:#easting
+w3:easting rdf:type owl:DatatypeProperty ;
+           rdfs:domain def:DefBuilding ;
+           rdfs:range xsd:float ;
+           rdfs:label "easting" .
+
+
+###  httpw3:#northing
+w3:northing rdf:type owl:DatatypeProperty ;
+            rdfs:domain def:DefBuilding ;
+            rdfs:range xsd:float ;
+            rdfs:label "northing" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://ext.defibrilator/ontology#DefBuilding
+def:DefBuilding rdf:type owl:Class ;
+                rdfs:label "Def Building" .
+
+
+###  http://ext.defibrilator/ontology#Municipality
+def:Municipality rdf:type owl:Class ;
+                 rdfs:label "Municipality" .
+
+
+###  https://www.wikidata.org/municipalityOfSpain
+wd:municipalityOfSpain rdf:type owl:Class ;
+                       rdfs:label "municipality Of Spain" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

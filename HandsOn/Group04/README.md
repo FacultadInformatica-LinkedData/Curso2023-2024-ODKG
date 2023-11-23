@@ -1,0 +1,5 @@
+- Jorge Kessler Martín - JorgeKGIT
+- Guillermo López García - glopez42
+- Eduardo Ariño Pelegrín - Any-Winter-4079
+- Jorge Cordobés Delgado - jdlgc
+- George Alexandru Stan - aelxfun200

@@ -1,0 +1,27 @@
+PREFIX art: <http://artwork.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX own: <https://soum2111.github.io/>
+
+# select artwork with accession number A00001
+SELECT ?artist ?title ?link
+WHERE {
+  ?artwork a sch:VisualArtwork .
+  ?artwork own:hasAccessionNumber "A00001" .
+  ?artwork sch:artist ?artist .
+  ?artwork sch:name ?title .
+  ?artist owl:sameAs ?link .
+}
+
+# count number of artworks
+SELECT (COUNT(DISTINCT ?id) as ?distinctIdCount)
+WHERE {
+  ?artwork a sch:VisualArtwork .
+  ?artwork sch:identifier ?id .
+}
+
+# count number of artists
+SELECT (COUNT(DISTINCT ?artist) as ?distinctArtistCount)
+WHERE {
+  ?artwork a sch:VisualArtwork .
+  ?artwork sch:artist ?artist .
+}

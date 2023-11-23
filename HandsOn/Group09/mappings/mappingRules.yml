@@ -1,0 +1,45 @@
+# Mapping Rules for RML
+- predicate: season
+  objectMap:
+    reference: season
+    datatype: xsd:integer
+
+- predicate: holiday
+  objectMap:
+    reference: holiday
+    datatype: xsd:boolean
+
+- predicate: workingday
+  objectMap:
+    reference: workingday
+    datatype: xsd:boolean
+
+- predicate: weather
+  objectMap:
+    reference: weather
+    datatype: xsd:integer
+
+- predicate: temp
+  objectMap:
+    reference: temp
+    datatype: xsd:float
+
+- predicate: atemp
+  objectMap:
+    reference: atemp
+    datatype: xsd:float
+
+- predicate: humidity
+  objectMap:
+    reference: humidity
+    datatype: xsd:float
+
+- predicate: windspeed
+  objectMap:
+    reference: windspeed
+    datatype: xsd:float
+
+- predicate: count
+  objectMap:
+    reference: count
+    datatype: xsd:integer

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}District Details{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="/static/css/district.css">
+    <h1 class="text-center mb-4">District Waste Details</h1>
+
+    {% if district_details %}
+        <!-- Details part -->
+        <div class="district-details">
+            <div class="flex-container">
+                {% for result in district_details %}
+                    <div class="text-container">
+                        <h3>Population</h3>
+                        <p>{{ result.population }} inhabitants</p>
+                        <h3>Description</h3>
+                        <p>{{ result.description }}</p>
+                        <h3>Area</h3>
+                        <p>{{ result.area }} km²</p>
+                        <h3>Coordinates</h3>
+                        <p class="formatted-coordinates" data-coordinates="{{ result.coordinates }}"></p>
+                    </div>
+                    <div class="image-container">
+                        <img src="/static/data/Districts/Images/{{ result.name }}.jpg" height="90%" width="90%">
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <p class="text-center">No further details available for this district.</p>
+    {% endif %}
+
+    <!-- Year Selector -->
+    <div class="year-selector-container">
+        <label for="yearSelector">Select Year:</label>
+        <select id="yearSelector">
+            <option value="2021" {% if selected_year == '2021' %} selected {% endif %}>2021</option>
+            <option value="2022" {% if selected_year == '2022' %} selected {% endif %}>2022</option>
+            <option value="2023" {% if selected_year == '2023' %} selected {% endif %}>2023</option>
+        </select>
+    </div>
+
+    {% if waste_results %}
+        <!-- Chart Card -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="card-header">
+                        Waste Chart
+                    </div>
+                    <div class="card-body">
+                        <canvas id="wasteChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- DataTable Section -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-10">
+                <table id="wasteDataTable" class="table table-striped table-hover table-bordered">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>Waste Name</th>
+                        <th>Wikidata Link</th>
+                        <th>Month</th>
+                        <th>Year</th>
+                        <th>Total Amount (Kg)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for result in waste_results %}
+                        <tr>
+                            <td>
+                                <a href="/wasteType?wikidata_id={{ result.wikidataLink.split('/')[-1] }}&name={{ result.wasteName|format_waste }}"
+                                   class="waste-type-link" data-wikidata-id="{{ result.wikidataLink.split('/')[-1] }}">
+                                    {{ result.wasteName|format_waste }}
+                                </a>
+                            </td>
+                            <td>
+                                {% if result.wikidataLink != "" %}
+                                    <a href="{{ result.wikidataLink }}" target="_blank">Wikidata</a>
+                                {% endif %}
+                            </td>
+                            <td>{{ result.month }}</td>
+                            <td>{{ selected_year }}</td>
+                            <td>{{ "%.2f"|format(result.totalAmount|float) }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    {% else %}
+        <p class="text-center">No data available for this district.</p>
+    {% endif %}
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        window.wasteResults = {{ waste_results | tojson | safe }};
+    </script>
+    <script src="/static/js/districtDetails.js"></script>
+
+{% endblock %}

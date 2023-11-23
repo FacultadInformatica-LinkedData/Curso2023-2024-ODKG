@@ -1,0 +1,139 @@
+@prefix adsh:    <http://www.w3.org/ns/advanced-shacl#> .
+@prefix afn:     <http://jena.apache.org/ARQ/function#> .
+@prefix bpsh:    <http://itb.ec.europa.eu/ns/shacl-shacl-bp#> .
+@prefix dash:    <http://datashapes.org/dash#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix graphql: <http://datashapes.org/graphql#> .
+@prefix ont:     <https://www.chargeup.io/group07/ontology#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix shsh:    <http://www.w3.org/ns/shacl-shacl#> .
+@prefix swa:     <http://topbraid.org/swa#> .
+@prefix tosh:    <http://topbraid.org/tosh#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type     sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#1fc8eaea369dc8337a77a1df12b74344> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#bd60c32c16fe54e0733ca6b209317630> ;
+                 sh:resultMessage              "Every NodeShape SHOULD contain rdfs:label and rdfs:comment, and they SHOULD only have one value per language tag."@en ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:AndConstraintComponent ;
+                 sh:sourceShape                bpsh:NodeShapeShape ;
+                 sh:value                      <https://astrea.linkeddata.es/shapes#bd60c32c16fe54e0733ca6b209317630>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#cb9ae02fa04b2010fa43b14c1ef88a10> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#d2247dcaa6f16da35919db9df38b2b2c> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#e81cbd54dcc02616e9ec2d1b288ddb52> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#0160e18e3a1a081cb982040b6fa2f0dd> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#732843a20cc8a0d9fab647e63162c137> ;
+                 sh:resultMessage              "Every NodeShape SHOULD contain rdfs:label and rdfs:comment, and they SHOULD only have one value per language tag."@en ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:AndConstraintComponent ;
+                 sh:sourceShape                bpsh:NodeShapeShape ;
+                 sh:value                      <https://astrea.linkeddata.es/shapes#732843a20cc8a0d9fab647e63162c137>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#d678ad2d5ade3897774b200a3a885dd1> ;
+                 sh:resultMessage              "Every NodeShape SHOULD contain rdfs:label and rdfs:comment, and they SHOULD only have one value per language tag."@en ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:AndConstraintComponent ;
+                 sh:sourceShape                bpsh:NodeShapeShape ;
+                 sh:value                      <https://astrea.linkeddata.es/shapes#d678ad2d5ade3897774b200a3a885dd1>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#b7c2d1d777493a0fe45fbbedb85de181> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#3dbc4c90de8452399ec18aa9bc33b529> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#86fa0a933856ccb34ce3df092a76cc3a> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#6c66cbc184184001e75d7acdb28168ed> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#f816e0bd4ed115b0918b811d381edb2f> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#907b45506a826d72532a29c07a966ea2> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://astrea.linkeddata.es/shapes#305df45db28f5cc156a9b5b82307e956> ;
+                 sh:resultMessage              "Each property SHOULD have sh:description (in the context of the target where it appears) to provide further human-oriented details. This is the preferred solution over adding additional usage notes to fit the context."@en ;
+                 sh:resultPath                 sh:description ;
+                 sh:resultSeverity             sh:Warning ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                bpsh:CountDescriptionProperty
+               ]
+] .

@@ -1,0 +1,130 @@
+ @prefix data: <http://vidaactivamadrid.es/info/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix nsc: <http://vidaactivamadrid.es/info/ontology/class#> .
+@prefix nsp: <http://vidaactivamadrid.es/info/ontology/property#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+nsp:TakesPlaceIn a owl:ObjectProperty ;
+    rdfs:label "takes place in" ;
+    rdfs:domain nsc:Activity ;
+    rdfs:range nsc:Facility .
+
+nsp:accessibility a owl:DatatypeProperty ;
+    rdfs:label "accessibility" ;
+    rdfs:range xsd:string .
+
+nsp:addressIsInNeighborhood a owl:ObjectProperty ;
+    rdfs:label "address is in neighborhood" ;
+    rdfs:domain nsc:Address ;
+    rdfs:range nsc:Neighborhood .
+
+nsp:contentURL a owl:DatatypeProperty ;
+    rdfs:label "content u r l" ;
+    rdfs:range xsd:anyURI .
+
+nsp:dayOfWeek a owl:DatatypeProperty ;
+    rdfs:label "day of week" ;
+    rdfs:range xsd:string .
+
+nsp:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:range xsd:string .
+
+nsp:endDate a owl:DatatypeProperty ;
+    rdfs:label "end date" ;
+    rdfs:range xsd:dateTime .
+
+nsp:facilityURL a owl:DatatypeProperty ;
+    rdfs:label "facility u r l" ;
+    rdfs:range xsd:anyURI .
+
+nsp:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain nsc:Facility ;
+    rdfs:range nsc:Address .
+
+nsp:isInDistrict a owl:ObjectProperty ;
+    rdfs:label "is in district" ;
+    rdfs:domain nsc:Neighborhood ;
+    rdfs:range nsc:District .
+
+nsp:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:range xsd:double .
+
+nsp:longEvent a owl:DatatypeProperty ;
+    rdfs:label "long event" ;
+    rdfs:range xsd:boolean .
+
+nsp:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:range xsd:double .
+
+nsp:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+
+nsp:parkIsInNeighborhood a owl:ObjectProperty ;
+    rdfs:label "park is in neighborhood" ;
+    rdfs:domain nsc:Park ;
+    rdfs:range nsc:Neighborhood .
+
+nsp:startDate a owl:DatatypeProperty ;
+    rdfs:label "start date" ;
+    rdfs:range xsd:dateTime .
+
+nsp:time a owl:DatatypeProperty ;
+    rdfs:label "time" ;
+    rdfs:range xsd:string .
+
+nsp:typeOfActivity a owl:DatatypeProperty ;
+    rdfs:label "type of activity" ;
+    rdfs:range xsd:string .
+
+data: a owl:Ontology ;
+    dc:creator "Vida Activa en Madrid" ;
+    dc:title "Template Ontology" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+sch:postalCode a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:range xsd:string .
+
+dbo:CityDistrict a owl:Class ;
+    rdfs:label "City District" .
+
+nsc:Activity a owl:Class ;
+    rdfs:label "Activity" .
+
+nsc:District a owl:Class ;
+    rdfs:label "District" ;
+    rdfs:subClassOf dbo:CityDistrict .
+
+nsc:Park a owl:Class ;
+    rdfs:label "Park" ;
+    rdfs:subClassOf sch:CivicStructure .
+
+sch:CivicStructure a owl:Class ;
+    rdfs:label "Civic Structure" .
+
+nsc:Address a owl:Class ;
+    rdfs:label "Address" .
+
+nsc:Facility a owl:Class ;
+    rdfs:label "Facility" .
+
+nsc:Neighborhood a owl:Class ;
+    rdfs:label "Neighborhood" .
+
