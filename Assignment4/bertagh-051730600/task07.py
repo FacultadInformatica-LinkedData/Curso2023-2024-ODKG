@@ -37,7 +37,7 @@ from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject RDFS:subClassOf ns:LivingThing.
+    ?Subject RDFS:subClassOf/RDFS:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = { "RDFS": RDFS, "ns":ns }
@@ -50,8 +50,17 @@ for r in g.query(q1):
 
 #RDFLib
 print('RDFLib')
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
+subclasses = []
+def find_subclasses(class_x):
+    for s, p, o in g.triples((None, RDFS.subClassOf, class_x)):
+        subclasses.append(s)
+        find_subclasses(s)
+
+find_subclasses(ns.LivingThing)
+# Visualize the results
+for s in subclasses:
   print(s)
+
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -151,13 +160,11 @@ for s,p,o in g.triples((None, FOAF.knows, ns.RockySmith)):
 print("SPARQL")
 
 q5 = prepareQuery('''
-SELECT ?Entity WHERE {
-  ?Entity foaf:knows ?Entity1.
-  OPTIONAL { ?Entity foaf:knows ?Entity2. FILTER (?Entity1 != ?Entity2) }
-}
-GROUP BY ?Entity
-HAVING (COUNT(?Entity1) >= 2)
-''',
+ SELECT DISTINCT ?entity WHERE {
+        ?entity foaf:knows ?other1 .
+        ?entity foaf:knows ?other2 .
+        FILTER(?other1 != ?other2)
+    }''',
   initNs = { "foaf": FOAF}
 )
 
@@ -170,10 +177,16 @@ for r in g.query(q5):
 #RDFLib
 print('RDFLib')
 
-entities = set()
+known_entities = {}
 
-for s,p,o in g.triples((None, FOAF.knows, None)):
-  for s1,p1,o1 in g.triples((s, FOAF.knows, None)):
-    if o1 != o and s1 not in entities:
-      print(s)
-      entities.add(s1)
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    if s in known_entities:
+        if o not in known_entities[s]:
+            known_entities[s].append(o)
+    else:
+        known_entities[s] = [o]
+
+# Print entities that know at least two different entities
+for s, known_list in known_entities.items():
+    if len(known_list) >= 2:
+        print(s)
