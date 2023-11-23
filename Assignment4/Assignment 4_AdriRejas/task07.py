@@ -43,7 +43,7 @@ print("SPARQL queries")
 q1 = prepareQuery('''
     SELECT ?subclass
     WHERE {
-        ?subclass rdfs:subClassOf ns:LivingThing .
+        ?subclass rdfs:subClassOf+ ns:LivingThing .
     }
 ''', initNs={"rdfs": RDFS, "ns": ns})
 
@@ -100,31 +100,26 @@ for class_uri in classes:
         print("\n")
 
 #SparQL
-print("SparQL queries of Person")
+print("SparQL queries of Person and Animal")
 
-q3 = prepareQuery('''
-    SELECT  ?individual ?property ?value ?class
-    WHERE {
-        ?individual rdf:type ns:Person .
-        ?individual ?property ?value .
-    }
-''', initNs={"rdf": RDF, "ns": ns})
-
-for r in g.query(q3):
- print(r.individual, r.property, r.value)
-
-print("SparQL queries of Animal")
-
-q4 = prepareQuery('''
+q_combined = prepareQuery('''
     SELECT ?individual ?property ?value ?class
     WHERE {
-        ?individual rdf:type ns:Animal .
-        ?individual ?property ?value .
+        { 
+            ?individual rdf:type ns:Person .
+            ?individual ?property ?value .
+        }
+        UNION
+        {
+            ?individual rdf:type ns:Animal .
+            ?individual ?property ?value .
+        }
     }
 ''', initNs={"rdf": RDF, "ns": ns})
 
-for r in g.query(q4):
- print(r.individual, r.property, r.value)
+
+for r in g.query(q_combined):
+    print(r)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
@@ -155,12 +150,12 @@ for r in g.query(q5, initBindings = {'?RockySmithFullName' : Literal('Rocky Smit
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
+#SparQL
 q6 = prepareQuery('''
     SELECT ?entity  WHERE {
         ?entity foaf:knows ?person1 .
         ?entity foaf:knows ?person2 .
         ?entity vcard:Given ?Name.
-        FILTER (?person1 != ?person2)
     }
     GROUP BY ?entity
     HAVING (COUNT(?person1) >= 2)
@@ -168,3 +163,26 @@ q6 = prepareQuery('''
 
 for r in g.query(q6):
    print(r.entity)
+	
+#RDFlib
+from rdflib import Graph, Namespace, URIRef
+
+print("RDFLib")
+sujetos=[] #Todos los sujetos que conocen a alguien
+sujetos_validos=[] #Los sujetos que conocen a al menos dos personas
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    sujetos.append(s)
+    print(f"{s} knows {o}")
+
+sujetos_unicos=list(dict.fromkeys(sujetos))#Sujetos que conocen a alguien sin repetirse
+
+for i in range(0, len(sujetos_unicos)):   
+    x = sujetos.count(sujetos_unicos[i])
+    if x>= 2:
+        sujetos_validos.append(sujetos_unicos[i])
+  
+
+for sujeto in sujetos_validos:
+    # Iterar sobre las tripletas donde el sujeto es el sujeto válido
+    for s, p, o in g.triples((sujeto, VCARD.FN, None)):
+        print(s,p,o)
