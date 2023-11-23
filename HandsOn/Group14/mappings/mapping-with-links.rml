@@ -1,0 +1,221 @@
+@base <http://www.divvybikesharing.com/group14/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix mv: <http://schema.mobivoc.org/> .  # Ajout du préfixe pour MobiVoc
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+
+<#Bike>
+    rml:logicalSource [
+        rml:source "Divvy_Trips_2018_Q4.csv"; 
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.divvybikesharing.com/group14/about/Bike/{bikeid}";
+        rr:class mv:Bicycle
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:bikeID;
+        rr:objectMap [ 
+            rml:reference "bikeid";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:integer
+        ]
+    ];
+
+    rr:predicateObjectMap [
+            rr:predicate ns:hasTripInformation;
+            rr:objectMap [
+                rr:parentTriplesMap <#TripTime>;
+        ];
+    ].
+
+<#TripTime>
+    rml:logicalSource [
+        rml:source "Divvy_Trips_2018_Q4.csv"; 
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.divvybikesharing.com/group14/about/TripTime/TripID {trip_id}";
+        rr:class time:Interval
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:tripID;
+        rr:objectMap [ 
+            rml:reference "trip_id";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:integer
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:fromStation;
+        rr:objectMap [ 
+            rml:reference "from_Streetation_name";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:toStation;
+        rr:objectMap [ 
+            rml:reference "to_Streetation_name";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate time:hasBeginning;
+        rr:objectMap [ 
+            rml:reference "start_time";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:dateTime
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate time:hasEnd;
+        rr:objectMap [ 
+            rml:reference "end_time";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:dateTime
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate time:duration;
+        rr:objectMap [ 
+            rml:reference "tripduration";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:integer
+        ]
+    ];
+
+    rr:predicateObjectMap [
+            rr:predicate ns:hasUser;
+            rr:objectMap [
+                rr:parentTriplesMap <#Users>;
+        ];
+    ];
+
+    rr:predicateObjectMap [
+            rr:predicate ns:toStation;
+            rr:objectMap [
+                rr:parentTriplesMap <#Location>;
+        ];
+    ];
+
+    rr:predicateObjectMap [
+            rr:predicate ns:fromStation;
+            rr:objectMap [
+                rr:parentTriplesMap <#Location>;
+        ];
+    ].
+
+<#Location>
+    rml:logicalSource [
+        rml:source "Divvy_Trips_2018_Q4.csv"; 
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.divvybikesharing.com/group14/about/LocationInfo/{from_Streetation_name},{to_Streetation_name}";
+        rr:class schema:Place
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:toStation;
+        rr:objectMap [
+            rr:column "to_Streetation_name";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+            ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:fromStation;
+        rr:objectMap [
+            rr:column "from_Streetation_name";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate owl:sameAs;
+        rr:objectMap [
+                rr:parentTriplesMap <#Wikidata>;
+        ];
+    ].
+
+<#Wikidata>
+    rml:logicalSource [
+        rml:source "Divvy_Trips_2018_Q4.csv"; 
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.divvybikesharing.com/group14/about/LinkedInfo/{same_as_wikidata}";
+        rr:class ns:Wikidata
+    ];
+
+    rr:predicateObjectMap [
+	rr:predicate owl:sameAs;
+        rr:objectMap [
+            rml:reference "same_as_wikidata";
+            rr:termType rr:IRI ]
+    ].
+
+<#Users>
+    rml:logicalSource [
+        rml:source "Divvy_Trips_2018_Q4.csv"; 
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://www.divvybikesharing.com/group14/about/UsersInfo/{usertype}";
+        rr:class foaf:Person
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ns:userType;
+        rr:objectMap [ 
+            rml:reference "usertype";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate schema:gender;
+        rr:objectMap [ 
+            rml:reference "gender";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate foaf:birthday;
+        rr:objectMap [ 
+            rml:reference "birthyear";
+            rr:termType rr:Literal ;
+            rr:datatype xsd:integer
+        ]
+    ].
+

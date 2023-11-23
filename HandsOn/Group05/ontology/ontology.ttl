@@ -1,0 +1,138 @@
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vocab: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+vocab:accesibility a owl:DatatypeProperty ;
+    rdfs:label "accesibility" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:int .
+
+vocab:city a owl:DatatypeProperty ;
+    rdfs:label "city" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vocab:coordinatex a owl:DatatypeProperty ;
+    rdfs:label "coordinatex" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:int .
+
+vocab:coordinatey a owl:DatatypeProperty ;
+    rdfs:label "coordinatey" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:int .
+
+vocab:district a owl:DatatypeProperty ;
+    rdfs:label "district" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vocab:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range vocab:Address .
+
+vocab:hasContact a owl:ObjectProperty ;
+    rdfs:label "has contact" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range vocab:Contact .
+
+vocab:hasOtherInformation a owl:ObjectProperty ;
+    rdfs:label "has other information" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range vocab:Information .
+
+vocab:isLocated a owl:ObjectProperty ;
+    rdfs:label "is located" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range vocab:Location .
+
+vocab:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:float .
+
+vocab:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:float .
+
+vocab:mail a owl:DatatypeProperty ;
+    rdfs:label "mail" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vocab:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range xsd:string .
+
+vocab:neighbourhood a owl:DatatypeProperty ;
+    rdfs:label "neighbourhood" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vocab:number a owl:DatatypeProperty ;
+    rdfs:label "number" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:int .
+
+vocab:openingHours a owl:DatatypeProperty ;
+    rdfs:label "opening hours" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:string .
+
+vocab:phoneNumber a owl:DatatypeProperty ;
+    rdfs:label "phone number" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vocab:pk a owl:DatatypeProperty ;
+    rdfs:label "pk" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range xsd:int .
+
+vocab:postalCode a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:int .
+
+vocab:street a owl:DatatypeProperty ;
+    rdfs:label "street" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vocab:transport a owl:DatatypeProperty ;
+    rdfs:label "transport" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:string .
+
+vocab:typeCentre a owl:DatatypeProperty ;
+    rdfs:label "type centre" ;
+    rdfs:domain vocab:HealthCentre .
+
+vocab:web a owl:DatatypeProperty ;
+    rdfs:label "web" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vocab:Contact a owl:Class ;
+    rdfs:label "Contact" .
+
+vocab:HealthCentre a owl:Class ;
+    rdfs:label "Health Centre" .
+
+vocab:Information a owl:Class ;
+    rdfs:label "Information" .
+
+vocab:Location a owl:Class ;
+    rdfs:label "Location" .
+
+vocab:Address a owl:Class ;
+    rdfs:label "Address" .
+

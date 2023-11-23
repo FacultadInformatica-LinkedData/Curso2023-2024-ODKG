@@ -1,0 +1,11 @@
+version: "1.0"
+
+services:
+    museum_api:
+        container_name: museum_api
+        build:
+            context: .
+        command: bash -c 'gunicorn --config ./gunicorn.conf.py --workers 2 --timeout 300'
+        ports:
+          - ${PORT}:8080
+        restart: on-failure

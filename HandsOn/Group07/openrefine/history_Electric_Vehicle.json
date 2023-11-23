@@ -1,0 +1,1908 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Planning Regions",
+    "description": "Remove column Planning Regions"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "EV Other Info",
+    "description": "Remove column EV Other Info"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EV DC Fast Count",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NONE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column EV DC Fast Count"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "EV DC Fast Count",
+          "expression": "value",
+          "columnName": "EV DC Fast Count",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "0",
+                "l": "0"
+              }
+            },
+            {
+              "v": {
+                "v": "1",
+                "l": "1"
+              }
+            },
+            {
+              "v": {
+                "v": "12",
+                "l": "12"
+              }
+            },
+            {
+              "v": {
+                "v": "2",
+                "l": "2"
+              }
+            },
+            {
+              "v": {
+                "v": "14",
+                "l": "14"
+              }
+            },
+            {
+              "v": {
+                "v": "4",
+                "l": "4"
+              }
+            },
+            {
+              "v": {
+                "v": "16",
+                "l": "16"
+              }
+            },
+            {
+              "v": {
+                "v": "6",
+                "l": "6"
+              }
+            },
+            {
+              "v": {
+                "v": "8",
+                "l": "8"
+              }
+            },
+            {
+              "v": {
+                "v": "10",
+                "l": "10"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "EV DC Fast Count",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column EV DC Fast Count using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EV Level2 EVSE Num",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NONE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column EV Level2 EVSE Num"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EV Level2 EVSE Num",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column EV Level2 EVSE Num using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "39"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1039"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "38"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1038"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip Code",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip Code using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EV Level1 EVSE Num",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NONE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column EV Level1 EVSE Num"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EV Level1 EVSE Num",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column EV Level1 EVSE Num using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "New Georeferenced Column",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column New Georeferenced Column by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "New Georeferenced Column 1",
+    "description": "Remove column New Georeferenced Column 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "New Georeferenced Column 2",
+    "expression": "grel:value.replace(\"(\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column New Georeferenced Column 2 using expression grel:value.replace(\"(\", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "New Georeferenced Column 3",
+    "expression": "grel:value.replace(\")\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column New Georeferenced Column 3 using expression grel:value.replace(\")\", \"\")"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "New Georeferenced Column 2",
+    "newColumnName": "Longitude",
+    "description": "Rename column New Georeferenced Column 2 to Longitude"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "New Georeferenced Column 3",
+    "newColumnName": "Latitude",
+    "description": "Rename column New Georeferenced Column 3 to Latitude"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Town Index",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "14"
+      }
+    ],
+    "description": "Mass edit cells in column Town Index"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Town Index",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Town Index using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1038"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tolland"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1039"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Windham"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1040"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fairfield"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1041"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hartford"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1042"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Litchfield"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1043"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middlesex"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1044"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New Haven"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1045"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New London"
+      }
+    ],
+    "description": "Mass edit cells in column Counties"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "24 hours daily"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "24 hours daily"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Access Days Time",
+          "expression": "value",
+          "columnName": "Access Days Time",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Parking lot business hours",
+                "l": "Parking lot business hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Restaurant business hours; for guest use only",
+                "l": "Restaurant business hours; for guest use only"
+              }
+            },
+            {
+              "v": {
+                "v": "Dealership business hours; for customer use only",
+                "l": "Dealership business hours; for customer use only"
+              }
+            },
+            {
+              "v": {
+                "v": "Park business hours",
+                "l": "Park business hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Parking lot hours",
+                "l": "Parking lot hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Restricted to garage hours; pay lot",
+                "l": "Restricted to garage hours; pay lot"
+              }
+            },
+            {
+              "v": {
+                "v": "Dealership business hours; contact 860-892-6000 for more information",
+                "l": "Dealership business hours; contact 860-892-6000 for more information"
+              }
+            },
+            {
+              "v": {
+                "v": "Dealership business hours; customer use only",
+                "l": "Dealership business hours; customer use only"
+              }
+            },
+            {
+              "v": {
+                "v": "Store business hours; see inside for access",
+                "l": "Store business hours; see inside for access"
+              }
+            },
+            {
+              "v": {
+                "v": "Dealership business hours; Ford use only",
+                "l": "Dealership business hours; Ford use only"
+              }
+            },
+            {
+              "v": {
+                "v": "School hours",
+                "l": "School hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Dealership business hours",
+                "l": "Dealership business hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Garage business hours",
+                "l": "Garage business hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Lot business hours",
+                "l": "Lot business hours"
+              }
+            },
+            {
+              "v": {
+                "v": "Garage business hours; pay lot",
+                "l": "Garage business hours; pay lot"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "expression": "grel:value.replace(value,\"Facility opening hours\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Access Days Time using expression grel:value.replace(value,\"Facility opening hours\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8am-10pm daily; for customer use only; see inside for access"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "8am-10pm daily; for customer use only"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Not Specified"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Access Days Time by separator"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "join ([coalesce(cells['Access Days Time 2'].value,''),coalesce(cells['Access Days Time 3'].value,'')],', ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Access Days Time 2 using expression join ([coalesce(cells['Access Days Time 2'].value,''),coalesce(cells['Access Days Time 3'].value,'')],', ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Access Days Time 3",
+    "description": "Remove column Access Days Time 3"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " for customer use only, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " for customer use only"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " 2 hour limit, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " 2 hour limit"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " overnight valet fee, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " overnight valet fee"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " pay lot, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " pay lot"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " permit lot, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " permit lot"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " priority for Connecticut Green Bank employees, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " priority for Connecticut Green Bank employees"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " priority for customer use, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " priority for customer use"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " see code on the face of charger or ask librarian to initiate charge, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " see code on the face of charger or ask librarian to initiate charge"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " see front desk for access, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " see front desk for access"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " see valet for access, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " see valet for access"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " Tesla users only, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " Tesla users only"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          " for Tesla use only, "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " for Tesla use only"
+      }
+    ],
+    "description": "Mass edit cells in column Access Days Time 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Access Days Time 2",
+    "newColumnName": "Additional Info",
+    "description": "Rename column Access Days Time 2 to Additional Info"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Additional Info",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Additional Info using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Additional Info",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Additional Info using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 1",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Access Days Time 1 using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Additional Info",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "Not Provided"
+      }
+    ],
+    "description": "Mass edit cells in column Additional Info"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Middletown",
+          "MIddletown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middletown"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rockyhill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rocky Hill"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rte 47, Washington"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Washington"
+      }
+    ],
+    "description": "Mass edit cells in column City"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BMW RIDGEFIELD",
+          "Ridgefield BMW"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BMW RIDGEFIELD"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "beacon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"Town Of Beacon Falls - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"Town Of Beacon Falls - \", \"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Westport - Westport Metro North"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Westport Metro North"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Stafford - Public Works Garage"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Public Works Garage"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Glastonbury - Town Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Hall"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "Groton",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"Town Of Groton - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"Town Of Groton - \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "stafford",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"Town Of Stafford - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"Town Of Stafford - \", \"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "newington",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Newington - Market Square"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Market Square"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "newington",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Newington Town Center - Municipal Parking Lot"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Municipal Parking Lot"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Mansfield - Community Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Center"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of New Fairfield - Town Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Hall"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Norfolk - Town Clerk"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Clerk"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Town Of Simsbury - Town Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Hall"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Woodbridge Town Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Hall"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Woodbridge Town Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Library"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Torrington Town Hall"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Town Hall"
+      }
+    ],
+    "description": "Mass edit cells in column Station Name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "Station Name",
+          "columnName": "Station Name",
+          "query": "Town Hall",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:if(value.contains(\"Town Hall\"), \"Town Hall\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:if(value.contains(\"Town Hall\"), \"Town Hall\", value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "Station Name",
+          "columnName": "Station Name",
+          "query": "City of new",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"City Of New Haven - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"City Of New Haven - \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "Station Name",
+          "columnName": "Station Name",
+          "query": "City of ha",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"City Of Hartford - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"City Of Hartford - \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "City",
+          "columnName": "City",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        },
+        {
+          "type": "text",
+          "name": "Station Name",
+          "columnName": "Station Name",
+          "query": "City of mil",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "grel:value.replace(\"City Of Milford - \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression grel:value.replace(\"City Of Milford - \", \"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip Code",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip Code using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip Code",
+    "expression": "grel:substring(\"00000\" + value, length(\"00000\" + value) - 5, length(\"00000\" + value))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip Code using expression grel:substring(\"00000\" + value, length(\"00000\" + value) - 5, length(\"00000\" + value))"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Station Name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Station Name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Street Address",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Street Address using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Access Days Time 1",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Access Days Time 1 using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Additional Info",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Additional Info using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Counties using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip Code",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip Code using expression value.trim()"
+  }
+
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ChargingStation",
+    "expression": "grel:value.replace(\" \", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ChargingStation using expression grel:value.replace(\" \", \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "StreetAddress",
+    "expression": "grel:value.replace(\" \", \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column StreetAddress using expression grel:value.replace(\" \", \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ChargingStation",
+    "expression": "grel:value.replace(\"---\",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ChargingStation using expression grel:value.replace(\"---\",\"-\")"
+  }
+
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AccessDaysTime",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AccessDaysTime using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AdditionalInfo",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AdditionalInfo using expression grel:value.replace(\" \",\"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Counties",
+    "expression": "grel:value.replace(\" \",\"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Counties using expression grel:value.replace(\" \",\"-\")"
+  }
+]

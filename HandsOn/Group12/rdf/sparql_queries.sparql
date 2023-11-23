@@ -1,0 +1,26 @@
+from rdflib.plugins.sparql import prepareQuery
+
+q1 = prepareQuery("""
+         PREFIX ns1: <http://grupo12_open_data.es/lcc/resource#>
+         PREFIX ns2: <http://grupo12_open_data.org#>
+         PREFIX ns3: <http://schema.org#>
+         PREFIX ns4: <http://schema.mobivoc.org/>
+         PREFIX ns5: <https://dbpedia.org/ontology/>
+         PREFIX owl: <http://www.w3.org/2002/07/owl#>
+         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+         SELECT ?name_parking ?average_price
+         WHERE {
+          ?parking rdf:type ns1:ParkingFacility .
+          ?parking ns3:name ?name_parking.
+          ?parking ns2:average_price ?average_price .
+          ?parking ns3:additionalType ?additionalType .
+          FILTER(?additionalType="PAR"^^xsd:string)
+          }
+      """
+)
+
+q1_res = g.query(q1)
+
+for row in q1_res:
+    print(row.name_parking, row.average_price, "€")
