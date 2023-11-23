@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix def: <http://ext.defibrilator/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <https://schema.org/> .
+@prefix w3: <httpw3:#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ext.defibrilator/resource/Defibrillator/12345> a def:Defibrillator ;
+    def:belongsToMunicipality <http://ext.defibrilator/resource/Municipality/14> ;
+    def:placeType "Desfibrilador" ;
+    sch:address "CALLE EJEMPLO, 123, 28030 MADRID" ;
+    sch:description "Este es un desfibrilador de ejemplo." ;
+    w3:easting "40.398886698528045"^^xsd:float ;
+    w3:northing "-3.6420364042780338"^^xsd:float ;
+    sch:name "Defibrilador de Ejemplo" ;
+    sch:openingHours "Disponible las 24 horas" ;
+    sch:publicAccess true ;
+    sch:url <http://www.ejemplo.com/defibrillator12345> .
+
+<http://ext.defibrilator/resource/Municipality/14> a def:Municipality ;
+    def:code "14"^^xsd:string ;
+    sch:name "MORATALAZ" .

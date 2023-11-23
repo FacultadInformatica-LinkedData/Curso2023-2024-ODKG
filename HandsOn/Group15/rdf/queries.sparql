@@ -1,0 +1,41 @@
+# ns should be set to https://barca_environmental_monitoring.es/
+
+# Get the names of neighbourhoods in the Gracia district
+SELECT ?neighborhoodName
+WHERE 
+{
+ ?district a ns:District .
+ ?district ns:districtName "Gracia" .
+ ?district ns:hasNeighbourhood ?neighbourhood .
+ ?neighbourhood ns:neighbourhoodName ?neighborhoodName .
+}
+
+# Get addresses where Yucca gigantea trees are planted
+SELECT ?address
+WHERE
+{
+  ?tree a ns:Tree .
+  ?tree ns:treeSpecies "Yucca gigantea" .
+  ?tree ns:plantedAt ?address .
+}
+
+# Get cabins which measure NO2
+SELECT ?cabin
+WHERE 
+{
+  ?cabin a ns:AirQualityCabin .
+  ?cabin ns:hasMeasured ?contaminant .
+  ?contaminant ns:contaminantName "NO2" .
+}
+
+# Average temperature of Barcelona in 2022
+SELECT (AVG(?temperatureValue) AS ?averageTemperature)
+WHERE 
+{
+    ?city a ns:City .
+    ?city ns:cityName "Barcelona" .
+    ?temperature ns:year 2022 .
+    ?temperature ns:temperature ?temperatureValue .
+}
+
+

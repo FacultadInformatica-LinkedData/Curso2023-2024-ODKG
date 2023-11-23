@@ -1,0 +1,448 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CÓDIDO\nPAR",
+    "expression": "join ([coalesce(cells['CÓDIDO\nPAR'].value,''),coalesce(cells['CÓDIGO\nAPAR'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column CÓDIDO\nPAR using expression join ([coalesce(cells['CÓDIDO\nPAR'].value,''),coalesce(cells['CÓDIGO\nAPAR'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "CÓDIGO\nAPAR",
+    "description": "Remove column CÓDIGO\nAPAR"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE DEL\nAPARCAMIENTO",
+    "expression": "join ([coalesce(cells['NOMBRE DEL\nAPARCAMIENTO'].value,''),coalesce(cells['APARCAMIENTO'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NOMBRE DEL\nAPARCAMIENTO using expression join ([coalesce(cells['NOMBRE DEL\nAPARCAMIENTO'].value,''),coalesce(cells['APARCAMIENTO'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "APARCAMIENTO",
+    "description": "Remove column APARCAMIENTO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIPO",
+    "expression": "grel:if(value==null, \"PAR\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TIPO using expression grel:if(value==null, \"PAR\", value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "File",
+    "description": "Remove column File"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NÚMERO\nPLAZA",
+    "expression": "join ([coalesce(cells['NÚMERO\nPLAZA'].value,''),coalesce(cells['EXTENSIÓN\nPLAZA'].value,'')],' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NÚMERO\nPLAZA using expression join ([coalesce(cells['NÚMERO\nPLAZA'].value,''),coalesce(cells['EXTENSIÓN\nPLAZA'].value,'')],' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "EXTENSIÓN\nPLAZA",
+    "description": "Remove column EXTENSIÓN\nPLAZA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MES",
+    "expression": "join ([coalesce(cells['MES'].value,''),coalesce(cells['﻿AÑO'].value,'')],'/')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MES using expression join ([coalesce(cells['MES'].value,''),coalesce(cells['﻿AÑO'].value,'')],'/')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "﻿AÑO",
+    "description": "Remove column ﻿AÑO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "MES",
+    "newColumnName": "FECHA",
+    "description": "Rename column MES to FECHA"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FECHA",
+    "expression": "join ([coalesce(cells['FECHA'].value,''),coalesce(cells['FECHA\nCÁLCULO'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FECHA using expression join ([coalesce(cells['FECHA'].value,''),coalesce(cells['FECHA\nCÁLCULO'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FECHA\nCÁLCULO",
+    "description": "Remove column FECHA\nCÁLCULO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Días\nCálculo",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Días\nCálculo using expression value.toNumber()"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Días\nCálculo",
+          "expression": "value",
+          "columnName": "Días\nCálculo",
+          "from": 4,
+          "to": 27,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CENTRO              ",
+          "CENTRO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CENTRO              "
+      }
+    ],
+    "description": "Mass edit cells in column DISTRITO"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q3032114",
+        "name": "district of Madrid"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column DISTRITO to type Q3032114"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NUM\nPLAZAS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NUM\nPLAZAS using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Vehículos\ndía (media)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Vehículos\ndía (media) using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación (%)",
+    "expression": "value.replace(\"%\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación (%) using expression value.replace(\"%\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación (%)",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación (%) using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación (%)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación (%) using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación\n9h-21h (%)",
+    "expression": "value.replace(\"%\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación\n9h-21h (%) using expression value.replace(\"%\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación\n9h-21h (%)",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación\n9h-21h (%) using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ocupación\n9h-21h (%)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ocupación\n9h-21h (%) using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "FIN\nCONCESIÓN",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column FIN\nCONCESIÓN using expression value.toDate()"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "NOMBRE DEL\nAPARCAMIENTO",
+      "CÓDIDO\nPAR",
+      "TIPO",
+      "DISTRITO",
+      "CÓDIGO\nDISTRITO",
+      "NUM\nPLAZAS",
+      "NÚMERO\nPLAZA",
+      "NÚMERO\nPLANTA",
+      "FECHA",
+      "FIN\nCONCESIÓN",
+      "Días\nCálculo",
+      "Vehículos\ndía (media)",
+      "Ocupación (%)",
+      "Ocupación\n9h-21h (%)",
+      "VALOR ESTIMADO",
+      "Valor medio de una plaza en este aparcamiento"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "VALOR ESTIMADO",
+    "newColumnName": "VALOR ESTIMADO €",
+    "description": "Rename column VALOR ESTIMADO to VALOR ESTIMADO €"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VALOR ESTIMADO €",
+    "expression": "value.replace(\"€\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VALOR ESTIMADO € using expression value.replace(\"€\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VALOR ESTIMADO €",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VALOR ESTIMADO € using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VALOR ESTIMADO €",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VALOR ESTIMADO € using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "VALOR ESTIMADO €",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column VALOR ESTIMADO € using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Valor medio de una plaza en este aparcamiento",
+    "newColumnName": "Valor medio de una plaza en este aparcamiento €",
+    "description": "Rename column Valor medio de una plaza en este aparcamiento to Valor medio de una plaza en este aparcamiento €"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Valor medio de una plaza en este aparcamiento €",
+    "expression": "value.replace(\"€\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Valor medio de una plaza en este aparcamiento € using expression value.replace(\"€\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Valor medio de una plaza en este aparcamiento €",
+    "expression": "value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Valor medio de una plaza en este aparcamiento € using expression value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Valor medio de una plaza en este aparcamiento €",
+    "expression": "value.replace(\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Valor medio de una plaza en este aparcamiento € using expression value.replace(\",\",\".\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Valor medio de una plaza en este aparcamiento €",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Valor medio de una plaza en este aparcamiento € using expression value.toNumber()"
+  }
+]

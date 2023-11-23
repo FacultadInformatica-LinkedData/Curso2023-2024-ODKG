@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            margin: 3%;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Datasets analysis</h1>
+        <div>
+            <h3>US Colleges and Universities</h3>
+            <p>The path to the dataset can be found <a
+                    href=https://public.opendatasoft.com/explore/dataset/us-colleges-and-universities/table/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InVzLWNvbGxlZ2VzLWFuZC11bml2ZXJzaXRpZXMiLCJvcHRpb25zIjp7fX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6ImNvbHVtbiIsImZ1bmMiOiJDT1VOVCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNGRjUxNUEifV0sInhBeGlzIjoiY2l0eSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9>HERE</a>
+            </p>
+            <p> This dataset provides all Post Secondary Education facilities such as Doctoral/Research Universities,
+                Masters Colleges and Universities, Baccalaureate Colleges and more.</p>
+            <p> This dataset contains 6559 instances with the variables chosen for our dataset being:</p>
+
+            <ul>
+                <li><strong>IPEDSID (PK):</strong> The dataset includes the Integrated Postsecondary Education Data
+                    System's
+                    ID number making it possible to easily merge them with our other datasets.
+                    As key, there are no missing values and 6474 unique values. </li>
+                <li><strong>Name (String):</strong> This column provides the names of the universities. There are 6349
+                    different universities or colleges and there are no missing values.</li>
+                <li><strong>Description (String):</strong> This column gives the North American Industry Classification
+                    System description for the institution. There are 9 possible
+                    descriptions applicable and every institution has one."COLLEGES,UNIVERSITIES,AND PROFESSIONAL
+                    SCHOOLS"
+                    makes up to 39% of the descriptions followed by "JUNIOR COLLEGES" with 24%.</li>
+                <li><strong>Website (String):</strong> This column provides the url of the institution. There are 118
+                    missing values.</li>
+                <li><strong>Address (String):</strong> This column provides the street where the institution is located.
+                    There are 12 missing values and 6394 unique values since some adresses have the name
+                    of the campus where more than one institution can be located.</li>
+                <li><strong>Latitude (Float) :</strong> This column provides the latitude coordinate of the location of
+                    the
+                    institution.Since this dataset contains primarly north american institutions,
+                    the most common values are found in the interval [24,49] having a 97% of apperance in the dataset.
+                </li>
+                <li><strong>Longitud (Float) :</strong> This column provides the longitud coordinate of the location of
+                    the
+                    institution. As well as the latitide, in the [-130,-60] interval you can find
+                    99% of the values. </li>
+                <li><strong>City (String) :</strong> This column provides the name of the city where the institution is
+                    located. There are 2351 unique cities where these institutions are located. </li>
+                <li><strong>State (String) :</strong> This column provides the name of the state where the institution
+                    is
+                    located. There are 59 unique states where these institutions are located.
+                    The state with the majority of institutions in this dataset is "California" with 11% followed by
+                    "New
+                    York" and "Texas" with 6%. </li>
+                <li><strong>County (String) :</strong> This column provides the name of the counties where the
+                    institutions
+                    are located. There are 1409 unique counties where these institutions are located being
+                    "Los Angeles" with the most institutions having 3% of them followed by "COOK" and "ORANGE" with 2%.
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>US University & College Rankings</h3>
+            <p>The path to the dataset can be found <a
+                    href=https://www.kaggle.com/datasets/joebeachcapital/university-and-college-rankings-us-news>HERE</a>
+            </p>
+            <p> This dataset provides the rankings for the top 150 US universities and top 250 colleges since 1983.</p>
+            <p> This dataset contains 528 instances with some of the data being incomplete, specially in the earlier
+                years.
+                The variables chosen for our dataset are:</p>
+            <ul>
+                <li><strong>IPEDSID (PK):</strong> As mentioned before, this column contains the ID Number to merge with
+                    the
+                    other datasets. There are no missing values and each value is unique.</li>
+                <li><strong>Years(String):</strong> There are 38 different columns, with their name being the year in
+                    which
+                    the ranking was made, containing the positions in which the university or
+                    college ended up. This column is a string instead of an integer because for the college rankings,
+                    the
+                    colleges ranked below 100, depending of the year, are ranked in intervals such as
+                    "T3 (81-120)" or "T4 (121-160)". The most recent years don't have almost any missing values but, for
+                    example, in the universities ranking, before 1996, there are a 85% of missing values.</li>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>American University Data</h3>
+            <p>The path to the dataset can be found <a
+                    href=https://www.kaggle.com/datasets/sumithbhongale/american-university-data-ipeds-dataset?select=IPEDS_data.xlsx>HERE</a>
+            </p>
+            <p> This dataset provides the enrollment and graduation rate for most american institutions.</p>
+            <p> This dataset contains 1534 instances and the variables we have chosen for our dataset are:</p>
+            <ul>
+                <li><strong>ID Number (PK):</strong> As every dataset we have chosen, this column contains the IPEDSID
+                    number to merge with the other datasets. There are no missing values
+                    with each value being unique.</li>
+                <li><strong>Applicants total (Integer):</strong> This column provides the number of applicants in a
+                    university per year. The dataset is missing 10% of the values and the mean
+                    of applicants is 6391 while the values range from 0 to 72676.</li>
+                <li><strong>Enrolled total (Integer):</strong> This column provides the number of enrolled students in a
+                    university per year. The dataset is missing 10% of the values and the mean
+                    of enrolled students is 1043 while the values range from 0 to 10241.</li>
+                <li><strong>Admissions total (Integer):</strong> This column provides the number of admited students in
+                    a
+                    university per year. The dataset is missing 10% of the values and the mean
+                    of enrolled students is 3554 while the values range from 0 to 35815.</li>
+                <li><strong>Graduation rate (Integer):</strong> There are 3 different columns, where each one refers to
+                    the
+                    graduation rate depending on the years of completion of the degree (4,5 or 6).
+                    These columns have the same number of missing values which is 4% and their values range from 0 to
+                    100
+                    having an average of 47 graduates per university per year.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h1>License Analysis</h1>
+
+        Our dataset its compound from 3 diferents datasets, this license are described in th efollowing table:
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>License</th>
+                <th>Publisher</th>
+                <th>Rights Holder</th>
+                <th>Summary</th>
+            </tr>
+            <tr>
+                <td>US Colleges and Universities</td>
+                <td><a href="https://en.wikipedia.org/wiki/Public_domain">Public Domain(PD)</a></td>
+                <td>Opendatasoft</td>
+                <td>No</td>
+                <td>Public domain datasets offer unrestricted rights for use, modification, and distribution without
+                    copyright
+                    limitations. While attribution to the data source is not legally required, it is encouraged as a
+                    sign of
+                    respect and transparency. These datasets can be employed in diverse projects, including research,
+                    analysis,
+                    development, journalism, policy advocacy, education, and historical preservation, allowing
+                    individuals and
+                    organizations to leverage valuable data resources for various purposes while adhering to ethical
+                    norms
+                    and community practices.</td>
+            </tr>
+            <tr>
+                <td>US University & College Rankings</td>
+                <td><a href="https://opendatacommons.org/licenses/dbcl/1-0/"> DBCL 1.0</a></td>
+                <td>Kaggle</td>
+                <td>No</td>
+                <td>Database Contents License (DBCL) 1.0 is a licensing agreement between the Licensor and You.
+                    It grants You a worldwide, royalty-free, non-exclusive, perpetual, irrevocable copyright license
+                    to use the contents within the database, including for commercial purposes and sublicensing.
+                    However, You must also comply with the Open Database License (ODbL) 1.0, and this license does not
+                    coverDatabase Rights, Database copyright, or contractual aspects of the database. 
+                    The Licensor asserts that factual information is not covered by copyright and permits the use of information
+                    with copyright contained in the contents. The contents are provided "as is" without warranties, and 
+                    the Licensor excludes liability for any loss or damage arising from the use of the contents, 
+                    except to the extent caused by proved negligence on the part of the Licensor where liability may 
+                    not be excluded by law.</td>
+            </tr>
+            <tr>
+                <td>American University Data</td>
+                <td><a href="https://creativecommons.org/publicdomain/zero/1.0/"> CC0 1.0</a></td>
+                <td>Kaggle</td>
+                <td>No</td>
+                <td>The CC0 (Creative Commons Zero) license is a dedication by the copyright holder to place
+                    their work into the public domain, effectively relinquishing all copyright and related rights.
+                    This means that anyone can use, modify, distribute, and build upon the work for any purpose,
+                    without restrictions or the need for attribution. CC0 is a powerful tool for making creative works,
+                    datasets, and other content freely available for the widest possible use,
+                    fostering collaboration, innovation, and accessibility without legal barriers.</td>
+            </tr>
+        </table>
+
+        The DBCL 1.0 is a license designed specifically for databases, focusing on the protection of the 
+        contents within a database rather than the structure of the database itself. It permits users to freely use, modify, and distribute 
+        the database contents while imposing certain conditions, such as attributing the source of the data. Unlike the CC0 license, which places a work 
+        in the public domain, the DBCL 1.0 maintains some restrictions to ensure proper attribution and integrity of the database contents. It strikes a balance 
+        between openness and the requirement to acknowledge the source of the data when used in derivative works. Because of DBCL 1.0 is th emore restrictive, 
+        we select it for our dataset.
+
+    </div>
+
+    <div>
+        <h1>Resource Naming Strategy</h1>
+
+        <p>
+            In our ontology we have defined the base URI as <span
+                style="font-family: monospace;">http://www.semanticweb.org/upm/opendata/group08/</span>.
+            We use hash for the classes properties and slash for the instances.
+            <ul>
+            <li>The uri for classes and properties is <span style="font-family: monospace;">http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#</span></li>
+            <li>The uri for resources(instances) is <span style="font-family: monospace;">http://www.semanticweb.org/upm/opendata/group08/resource/</span></li>
+            </ul>
+            Also, we use different prefixes such as <span style="font-family: monospace;">dbo</span> or <span
+                style="font-family: monospace;">schema</span>. This allows us
+            to have a clearer overview of the ontology resources.
+        </p>
+
+        <p>
+            In addition, we have used labels and named the properties in a descriptive way to increase the ontology
+            readability.
+        </p>
+    </div>
+
+</body>
+
+</html>

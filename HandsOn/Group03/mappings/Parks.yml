@@ -1,0 +1,46 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  vama: http://vidaactivamadrid.es/info/ontology/class#
+  property: http://vidaactivamadrid.es/info/ontology/property#
+
+mappings:
+  Park:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-updated.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Park/$(ID_PARQUE)
+    po:
+      - [a, vama:Park]
+      - [property:id_park, $(ID_PARQUE)]
+      - [property:name, $(PARQUE)]
+      - p: property:isInNeighborhood
+        o:
+          - mapping: Neighborhood1
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(BARRIO)]
+              - [str2, $(BARRIO)]
+
+  Neighborhood1:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-updated.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)
+    po:
+      - [a, vama:Neighborhood1]
+      - [property:name, $(BARRIO)]
+      - p: property:isInDistrict
+        o:
+          - mapping: District
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DISTRITO)]
+              - [str2, $(DISTRITO)]
+      
+  District:
+    sources: 
+      - ["../csv/AREAS-MAYORES-2023-updated.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/District/$(DISTRITO)
+    po:
+      - [a, vama:District]
+      - [property:name, $(DISTRITO)]

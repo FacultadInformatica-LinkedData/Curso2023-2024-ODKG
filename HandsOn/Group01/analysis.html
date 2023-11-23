@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Waste Collection Data Analysis</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>Waste Collection Dataset Analysis</h1>
+<h3>Residuos_2021_2023.csv</h3>
+<p><i>The dataset contains 4804 rows and 7 columns, with 0 missing values.</i></p>
+<p>We merged the three datasets of waste collection from 2021 to 2023 in a single csv file. We also translated each feature and each value in English. We could see that there were problems in visualizing the district names correctly due to the encoding
+        of the accents. To solve this, we changed each unique district name using Python.</p>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Data Type</th>
+<th>Range/Unique Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Year</td>
+<td>int64</td>
+<td>2021 to 2023</td>
+</tr>
+<tr>
+<td>Month</td>
+<td>object</td>
+<td>January, February, March, April, May, ... (12 unique values)</td>
+</tr>
+<tr>
+<td>Zone</td>
+<td>int64</td>
+<td>1 to 3</td>
+</tr>
+<tr>
+<td>WasteType</td>
+<td>object</td>
+<td>Rest, Packaging, Glass, Commercial Glass, Clinicians, ... (15 unique values)</td>
+</tr>
+<tr>
+<td>District</td>
+<td>int64</td>
+<td>1 to 21</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>object</td>
+<td>Centro, Tetuán, Chamberí, Fuencarral - El Pardo, Moncloa - Aravaca, ... (22 unique values)</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>float64</td>
+<td>0.14 to 5138.92</td>
+</tr>
+</tbody>
+</table>
+<p><b>Total waste statistics</b></p>
+<ul>
+<li>Mean: 518.44 tons</li>
+<li>Standard Deviation: 830.25 tons</li>
+<li>Minimum: 0.14 tons</li>
+<li>Median (50th Percentile): 182.74 tons</li>
+<li>Maximum: 5138.92 tons</li>
+</ul>
+<hr style="border-top: 1px dashed #8c8b8b;"/>
+<h2>Exploratory Data Analyisis</h2>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Average Waste Collection by District</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+<p><b>Average Waste Collection by District</b></p>
+<p>The bar chart below displays the average waste collection by district.</p>
+<img alt="Bar chart showing average waste collection by district" src="https://drive.google.com/uc?export=view&id=1q-zlUheFTvpEYoucrYBboNS6fLl_qaWf" style="width: 50%;"/> 
+<p><b>Distribution of Waste Types</b></p>
+<p>The bar chart below shows the distribution of waste types.</p>
+<img alt="Bar chart showing average waste collection by district" src="https://drive.google.com/uc?export=view&id=1nDVizl16AeAOoPMtt2JAhKy2mZ6mFHXu" style="width: 50%;"/>
+<html lang="en">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Licensing of The Data Source</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+    </style>
+<hr style="border-top: 1px dashed #8c8b8b;"/>
+<h1>Licensing of The Data Source</h1>
+<p>
+        Ayuntamiento de Madrid as the publisher and the rightsholder. Their licensing terms are relatively open, encouraging both commercial and non-commercial reuse of their datasets. However, they place a strong emphasis on maintaining the integrity of the
+        data, respecting anonymity, and correctly attributing the source. Re-users must ensure that they understand their responsibilities and potential liabilities while using the data.
+    </p>
+<h2>What can be done with the data:</h2>
+<ul>
+<li>Reutilization: The license allows the reuse of the documents for both commercial and non-commercial purposes. This reuse can be done by individuals or legal entities as long as it doesn't represent a public administrative activity.</li>
+<li>Modifications: Authorized reuse activities include copying, dissemination, modification, adaptation, extraction, reordering, and combining of the information. Therefore, any transformation, modification, or creation of derivative works is permitted.</li>
+<li>Cession of Intellectual Property Rights: The rights to the intellectual property of the data (if any exist) are granted in a free and non-exclusive manner. This means the data can be freely distributed, publicly communicated, or transformed, globally,
+            and for the maximum period allowed by the law.</li>
+<li>Source Citation: Users are required to cite the data's source, which is the "Ayuntamiento de Madrid" or the respective administrative body. They should also mention the last update date if it's included in the original document.</li>
+</ul>
+<h2>What cannot be done with the data:</h2>
+<ul>
+<li>Misrepresentation: One cannot alter the sense or meaning of the information, i.e., the data's integrity should be maintained to ensure it doesn't mislead users.</li>
+<li>Implying Endorsement: It's forbidden to suggest or state that the Ayuntamiento de Madrid endorses, sponsors, or supports any reuse of the data.</li>
+<li>Altering Metadata: Metadata about the update date and applicable reuse conditions, if included in the data, should remain intact and not be altered or removed.</li>
+<li>Re-identification: If the information is anonymized, for data protection or other reasons, re-users are strictly prohibited from trying to re-identify individuals using this or any other data source.</li>
+</ul>
+
+<h2>Exclusions &amp; Responsibilities:</h2>
+<ul>
+<li>Exclusion of Liability: The Ayuntamiento de Madrid is not responsible for any harm, economic losses, or damages that may arise from the reuse of the data. It doesn't guarantee the continuous availability of the datasets or their accuracy, and
+            it won't be held responsible for any errors or omissions in the data.</li>
+<li>User's Responsibility: Users of the data, or "reutilizadores", must adhere to the applicable laws regarding the reuse of public sector information. They are also subjected to potential penalties as stipulated in the mentioned law for any misuse.</li>
+</ul>
+
+
+<h2>The License of Derived Dataset:</h2>
+<ul>
+<li>Reuse of Documents: The derived dataset can be reused for both commercial and non-commercial purposes, as long as the reuse does not constitute a public administrative activity.</li>
+<li>Intellectual Property Rights: The reuse includes a non-exclusive transfer of any applicable intellectual property rights, which means the reuser of the derived dataset can perform reproduction, distribution, public communication, or transformation activities necessary for authorized reuse.</li>
+<li>Mandatory Attribution: The source of the documents must be cited, including the origin of the data (Madrid City Council or the respective body) and the date of the last update if it was included in the original document.</li>
+<li>No Endorsement: It cannot be indicated or implied that Madrid City Council sponsors or supports the reuse.</li>
+<li>Preservation of Metadata: Metadata concerning the update date and reuse conditions must be preserved and not altered.
+</li>
+<li>
+    No Distortion: The meaning of the information should not be distorted.
+</li>
+<li>
+    Exclusion of Liability: The reuser of the derived dataset assumes responsibility for its use and any potential damages that may result from it. Madrid City Council is not responsible for any use of the information by the reuser.
+</li>
+<li>
+    Compliance with Regulations: The reusing agent must comply with the applicable regulations regarding the reuse of public sector information, including any sanctioning regime.
+</li>
+</ul>
+
+
+<hr style="border-top: 1px dashed #8c8b8b;"/>
+<h1><b>Resource Naming Strategy</b></h1>
+<img alt="Bar chart showing average waste collection by district" src="https://drive.google.com/uc?export=view&id=138jNomBgCQHFWaYZpVh4fewJCltkKpB4" style="width: 50%;"/>
+</html></body>
+</html>

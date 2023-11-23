@@ -1,0 +1,183 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix obo: <http://purl.obolibrary.org/obo/NCIT_C94729>.
+@prefix vocab: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>.
+@prefix clase: <http://bikesharingsystem.linkeddata.org/bsh/resource/>.
+@base <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing/ns#>.
+
+clase:Register 
+  rml:logicalSource [
+    rml:source "../csv/train-bikes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+
+  rr:subjectMap [
+    rr:template "http://http://bikesharingsystem.linkeddata.org/bsh/Register/{date}_{hour}";
+    rr:class vocab:Register
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:date;
+    rr:objectMap [
+      rml:reference "date";
+      rr:datatype xsd:string
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:hour;
+    rr:objectMap [
+      rml:reference "hour";
+      rr:datatype xsd:string
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:workingday;
+    rr:objectMap [
+      rml:reference "workingday";
+      rr:datatype xsd:boolean
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:holiday;
+    rr:objectMap [
+      rml:reference "holiday";
+      rr:datatype xsd:boolean
+    ]
+  ];
+
+   rr:predicateObjectMap [
+    rr:predicate vocab:nCausals;
+    rr:objectMap [
+      rml:reference "nCausals";
+      rr:datatype xsd:integer
+    ]
+  ];
+  
+   rr:predicateObjectMap [
+    rr:predicate vocab:nRegistered;
+    rr:objectMap [
+      rml:reference "nRegistered";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:count;
+    rr:objectMap [
+      rml:reference "count";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+ rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
+    rr:objectMap [
+      rr:reference "hour_wikidata_link"; 
+      rr:datatype xsd:string
+    ]
+  ];
+
+ rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
+    rr:objectMap [
+      rr:reference "date_wikidata_link"; 
+      rr:datatype xsd:string
+    ]
+  ];
+
+   rr:predicateObjectMap [
+    rr:predicate vocab:hasSeason;
+    rr:objectMap [
+          rr:template "http://http://bikesharingsystem.linkeddata.org/bsh/Season/{season}";
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:hasWeather;
+    rr:objectMap [
+      rr:template "http://http://bikesharingsystem.linkeddata.org/bsh/Weather/{weather}";
+    ]
+  ];
+clase:Season
+  rml:logicalSource [
+    rml:source "../csv/train-bikes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+
+  rr:subjectMap [
+    rr:template "http://http://bikesharingsystem.linkeddata.org/bsh/Season/{season}";
+    rr:class vocab:Season
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:season;
+    rr:objectMap [
+      rml:reference "season";
+      rr:datatype xsd:string
+    ]
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicateMap [rr:constant owl:sameAs; rr:dataType xsd:string];
+    rr:objectMap [
+      rr:reference "season_wikidata_link"; 
+      rr:datatype xsd:string
+    ]
+  ];
+clase:Weather
+  rml:logicalSource [
+    rml:source "../csv/train-bikes-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+
+  rr:subjectMap [
+    rr:template "http://http://bikesharingsystem.linkeddata.org/bsh/Weather/{weather}";
+    rr:class vocab:Weather
+  ];
+  
+  rr:predicateObjectMap [
+    rr:predicate vocab:weather;
+    rr:objectMap [
+      rml:reference "weather";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:temp;
+    rr:objectMap [
+      rml:reference "temp";
+      rr:datatype xsd:float
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:atemp;
+    rr:objectMap [
+      rml:reference "atemp";
+      rr:datatype xsd:float
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:humidity;
+    rr:objectMap [
+      rml:reference "humidity";
+      rr:datatype xsd:float
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:windspeed;
+    rr:objectMap [
+      rml:reference "windspeed";
+      rr:datatype xsd:float
+    ]
+  ].
+
+  
