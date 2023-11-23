@@ -31,6 +31,7 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 # TO DO
 
+#### With SPARQL ####
 # Define the query
 q1 = prepareQuery("""
     SELECT ?subClass
@@ -38,13 +39,20 @@ q1 = prepareQuery("""
         ?subClass rdfs:subClassOf* ns:LivingThing .
     }
 """,
-
 # Define namespaces
 initNs={"rdf": RDF, "rdfs": RDFS, "ns": Namespace("http://somewhere#")})
 
 # Execute the query and visualize the results
+print("### With SPARQL ### ")
 for r in g.query(q1):
   print(r.subClass)
+
+
+#### With RDFLib ####
+ns = Namespace("http://somewhere#")
+print("\n\n### With RDFLib ### ")
+for subClass2, _, _ in g.triples((None, RDFS.subClassOf*"*", ns.LivingThing)):
+    print(subClass2)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -52,6 +60,7 @@ for r in g.query(q1):
 
 # TO DO
 
+#### With SPARQL ####
 # Define the query
 q2 = prepareQuery('''
     SELECT ?individuals
@@ -59,13 +68,21 @@ q2 = prepareQuery('''
         ?individuals rdf:type/rdfs:subClassOf* ns:Person .
     }
 ''',
-
 # Define namespaces
 initNs={"rdf": RDF, "rdfs": RDFS, "ns": Namespace("http://somewhere#")})
 
 # Execute the query and visualize the results
+print("### With SPARQL ### ")
 for r in g.query(q2):
   print(r.individuals)
+
+
+#### With RDFLib ####
+ns = Namespace("http://somewhere#")
+print("\n\n### With RDFLib ### ")
+for subClass2Type, _, _ in g.triples((None, RDFS.subClassOf*"*", ns.Person)):
+    for subClass2, _, _ in g.triples((None, RDF.type, subClass2Type)):
+        print(subClass2)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
@@ -73,16 +90,21 @@ for r in g.query(q2):
 
 # TO DO
 
+#### With SPARQL ####
 # Define the query
 q3 = prepareQuery('''
-    SELECT ?individuals ?property ?value ?className
-    WHERE {
-        ?individuals rdf:type ?className .
-        ?individuals ?property ?value .
-        FILTER (?className = ns:Person || ?className = ns:Animal) .
+    SELECT ?individuals ?property ?value
+    WHERE  {
+      {
+        ?individuals rdf:type ns:Person .
+      }
+      UNION
+      {
+        ?individuals rdf:type ns:Animal .
+      }
+      ?individuals ?property ?value .
     }
 ''',
-
 # Define namespaces
 initNs={"rdf": RDF, "rdfs": RDFS, "ns": Namespace("http://somewhere#")})
 
@@ -90,16 +112,28 @@ initNs={"rdf": RDF, "rdfs": RDFS, "ns": Namespace("http://somewhere#")})
 results = g.query(q3)
 
 # Iterate through visualize and the results
+print("### With SPARQL ### ")
 for r in results:
     print("Individual:", r.individuals)
     print("Property:", r.property)
-    print("Value:", r.value)
-    print("ClassName:", r.className, "\n\n")
+    print("Value:", r.value, "\n\n")
+
+
+#### With RDFLib ####
+from itertools import chain
+ns = Namespace("http://somewhere#")
+print("\n\n### With RDFLib ### ")
+for individual, _, _ in chain(g.triples((None, RDF.type, ns.Person)), g.triples((None, RDF.type, ns.Animal))):
+    for subClass2, predicate, object in g.triples((individual, None, None)):
+         print("Individual:", individual)
+         print("Property:", property)
+         print("Value:", object, "\n\n")
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 # TO DO
 
+#### With SPARQL ####
 # Define the query
 q4 = prepareQuery("""
     SELECT ?personName
@@ -108,11 +142,11 @@ q4 = prepareQuery("""
         ?Rocky vcard:FN ?RockySmithFN .
     }
 """,
-
 # Define namespaces
 initNs={"foaf": FOAF,"vcard": VCARD, "xsd":XSD})
 
 # Visualize the results
+print("### With SPARQL ### ")
 for r in g.query(q4, initBindings = {'?RockySmithFN' : Literal('Rocky Smith', datatype = XSD.string)}):
   print(r.personName)
 
@@ -120,6 +154,7 @@ for r in g.query(q4, initBindings = {'?RockySmithFN' : Literal('Rocky Smith', da
 
 # TO DO
 
+#### With SPARQL ####
 # Define the query
 q5 = prepareQuery('''
     SELECT ?entity
@@ -130,10 +165,10 @@ q5 = prepareQuery('''
     }
     GROUP BY ?entity
 ''',
-
 # Define namespaces
 initNs={"foaf": FOAF})
 
 # Execute the query and visualize the results
+print("### With SPARQL ### ")
 for r in g.query(q5):
   print(r.entity)

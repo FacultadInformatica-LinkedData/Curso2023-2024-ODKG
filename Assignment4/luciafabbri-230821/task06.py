@@ -59,7 +59,7 @@ for s, p, o in g:
 
 # TO DO
 
-g.add((ns.JaneSmith, ns.Researcher, Literal("Jane Smith")))
+g.add((ns.JaneSmith, RDF.type, ns.Researcher))
 
 # Visualize the results
 for s, p, o in g:
