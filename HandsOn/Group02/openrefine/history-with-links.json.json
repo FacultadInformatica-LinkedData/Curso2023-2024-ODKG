@@ -588,5 +588,31 @@
     "newColumnName": "same_as_wikidata_tipoVia",
     "columnInsertIndex": 8,
     "description": "Create column same_as_wikidata_tipoVia at index 8 based on column tipoVia using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")"
   }
 ]

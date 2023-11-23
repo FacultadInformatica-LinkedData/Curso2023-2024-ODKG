@@ -1,0 +1,15 @@
+REQUIREMENTS TO RUN THE APP
+
+1) Python programming
+
+2) Install streamlit library: go to command window and execute "pip install streamlit"
+
+3) Install rdflib library (cmd: "pip install rdflib")
+
+4) Install pandas library (cmd: "pip install pandas")
+
+5) Install folium library (cmd: "pip install folium")
+
+6) Install streamlit_folium library (cmd: "pip install streamlit_folium")
+
+7) In order to run the app.py, execute on cmd the following command: "streamlit run app.py"

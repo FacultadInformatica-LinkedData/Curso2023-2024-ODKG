@@ -1,0 +1,148 @@
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#extra ontologies
+@prefix dbp: <https://dbpedia.org/ontology/> .
+@prefix disit: <http://www.disit.org/km4city/schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/#> .
+@prefix sd: <https://www.semanticdesktop.org/ontologies/2007/04/02/ncal/#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix coord: <http://purl.org/net/cartCoord#> .
+
+
+
+vocab: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+vocab:accesibility a owl:DatatypeProperty ;
+    rdfs:label "accesibility" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:int .
+
+dbp:city a owl:DatatypeProperty ;
+    rdfs:label "city" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+coord:xcoord a owl:DatatypeProperty ;
+    rdfs:label "coordinatex" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:int .
+
+coord:ycoord a owl:DatatypeProperty ;
+    rdfs:label "coordinatey" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:int .
+
+disit:hasDistrict a owl:DatatypeProperty ;
+    rdfs:label "district" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vcard:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range vocab:Address .
+
+sd:contact a owl:ObjectProperty ;
+    rdfs:label "has contact" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range vocab:Contact .
+
+vocab:hasOtherInformation a owl:ObjectProperty ;
+    rdfs:label "has other information" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range vocab:Information .
+
+dbp:location a owl:ObjectProperty ;
+    rdfs:label "is located" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range vocab:Location .
+
+vcard:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:float .
+
+vcard:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain vocab:Location ;
+    rdfs:range xsd:float .
+
+vcard:email a owl:DatatypeProperty ;
+    rdfs:label "mail" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vocab:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range xsd:string .
+
+vocab:neighbourhood a owl:DatatypeProperty ;
+    rdfs:label "neighbourhood" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+disit:hasStreetNumber a owl:DatatypeProperty ;
+    rdfs:label "number" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:int .
+
+vocab:openingHours a owl:DatatypeProperty ;
+    rdfs:label "opening hours" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:string .
+
+foaf:term_phone a owl:DatatypeProperty ;
+    rdfs:label "phone number" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vocab:pk a owl:DatatypeProperty ;
+    rdfs:label "pk" ;
+    rdfs:domain vocab:HealthCentre ;
+    rdfs:range xsd:int .
+
+vcard:postal-code a owl:DatatypeProperty ;
+    rdfs:label "postal code" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:int .
+
+vcard:street-address a owl:DatatypeProperty ;
+    rdfs:label "street" ;
+    rdfs:domain vocab:Address ;
+    rdfs:range xsd:string .
+
+vocab:transport a owl:DatatypeProperty ;
+    rdfs:label "transport" ;
+    rdfs:domain vocab:Information ;
+    rdfs:range xsd:string .
+
+vocab:typeCentre a owl:DatatypeProperty ;
+    rdfs:label "type centre" ;
+    rdfs:domain vocab:HealthCentre .
+
+vocab:web a owl:DatatypeProperty ;
+    rdfs:label "web" ;
+    rdfs:domain vocab:Contact ;
+    rdfs:range xsd:string .
+
+vcard:Contact a owl:Class ;
+    rdfs:label "Contact" .
+
+vocab:HealthCentre a owl:Class ;
+    rdfs:label "Health Centre" .
+
+vocab:Information a owl:Class ;
+    rdfs:label "Information" .
+
+vcard:Location a owl:Class ;
+    rdfs:label "Location" .
+
+vcard:Address a owl:Class ;
+    rdfs:label "Address" .
+

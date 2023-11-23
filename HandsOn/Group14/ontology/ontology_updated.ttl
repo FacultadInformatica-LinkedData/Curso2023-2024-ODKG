@@ -1,0 +1,51 @@
+@prefix base: <http://www.divvybikesharing.com/group14/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+
+dc:creator a owl:AnnotationProperty .
+dc:title a owl:AnnotationProperty .
+owl:versionInfo a owl:AnnotationProperty .
+
+base: a owl:Ontology ;
+    dc:creator "Group14" ;
+    dc:title "Bike Sharing Chicago" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+# Classes
+mv:Bicycle a owl:Class ; rdfs:subClassOf mv:Vehicle ; rdfs:label "Bicycle" .
+foaf:Person a owl:Class ; rdfs:label "Person" .
+ns:Wikidata a owl:Class ; rdfs:label "Wikidata" .
+schema:Place a owl:Class ; rdfs:label "Place" .
+time:Interval a owl:Class ; rdfs:label "Time Interval" .
+
+# Datatype properties
+schema:address a owl:DatatypeProperty ; rdfs:label "address" ; rdfs:range xsd:string .
+ns:bikeID a owl:DatatypeProperty ; rdfs:label "bike ID" ; rdfs:range xsd:integer .
+foaf:birthday a owl:DatatypeProperty ; rdfs:label "birth year" ; rdfs:range xsd:date .
+time:hasBeginning a owl:DatatypeProperty ; rdfs:label "start time" ; rdfs:range time:Instant .
+time:hasEnd a owl:DatatypeProperty ; rdfs:label "end time" ; rdfs:range time:Instant .
+time:duration a owl:DatatypeProperty ; rdfs:label "duration" ; rdfs:range time:DurationDescription .
+schema:gender a owl:DatatypeProperty ; rdfs:label "gender" .
+ns:tripID a owl:DatatypeProperty ; rdfs:label "trip ID" ; rdfs:range xsd:integer .
+
+# Object properties
+ns:fromStation a owl:ObjectProperty ; rdfs:label "from station" ; rdfs:domain time:Interval ; rdfs:range schema:Place .
+ns:hasTripInformation a owl:ObjectProperty ; rdfs:label "has trip information" ; rdfs:domain mv:Bicycle ; rdfs:range time:Interval .
+ns:hasUser a owl:ObjectProperty ; rdfs:label "has user" ; rdfs:domain time:Interval ; rdfs:range foaf:Person .
+ns:toStation a owl:ObjectProperty ; rdfs:label "to station" ; rdfs:domain time:Interval ; rdfs:range schema:Place .
+owl:sameAs a owl:ObjectProperty ; rdfs:label "same as" ; rdfs:domain schema:Place ; rdfs:range ns:Wikidata .
+
+# SKOS Concepts for User Types
+ns:Customer a skos:Concept ; skos:prefLabel "Customer"@en .
+ns:Subscriber a skos:Concept ; skos:prefLabel "Subscriber"@en .
+

@@ -163,7 +163,7 @@ clase2:Distrito
     rr:predicate clase:portal;
     rr:objectMap [
       rml:reference "portal";
-      rr:datatype xsd:int
+      rr:datatype xsd:integer
     ]
   ];
   rr:predicateObjectMap [

@@ -1,0 +1,89 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sch: <https://schema.org/> .
+@prefix dnb: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix own: <https://soum2111.github.io/> .
+@prefix vcard: <https://www.w3.org/TR/vcard-rdf/> .
+
+# Artist Class
+
+sch:Person rdf:type owl:Class .
+
+# Artist properties
+
+sch:identifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+vcard:FN rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range xsd:string .
+
+
+# sch:VisualArtwork class
+
+sch:VisualArtwork rdf:type owl:Class .
+
+# sch:VisualArtwork properties
+
+sch:identifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:artist rdf:type owl:ObjectProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Person.
+
+sch:hasArtistRole rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range xsd:string .
+
+sch:name rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:artMedium rdf:type owl:ObjectProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text.
+
+sch:creditText rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:dateCreated rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Date .
+
+sch:text rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:copyrightNotice rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:thumbnailUrl rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:URL .
+
+sch:url rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:URL .
+
+sch:width rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+sch:height rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range sch:Text .
+
+own:hasAccessionNumber rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range xsd:string .
+
+own:acquiredInYear rdf:type owl:DatatypeProperty ;
+    rdfs:domain sch:Thing ;
+    rdfs:range xsd:integer .
