@@ -1,0 +1,246 @@
+@prefix schema: <https://schema.org/> .
+@prefix rr:    <http://www.w3.org/ns/r2rml#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml:   <http://semweb.mmlab.be/ns/rml#> .
+@prefix dbo:   <https://dbpedia.org/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix ql:    <http://semweb.mmlab.be/ns/ql#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://astrea.linkeddata.es/shapes#1075823010d93415300e902dbaa6d822>
+        a            sh:PropertyShape ;
+        rdfs:label   "score" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "score" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:score .
+
+<https://astrea.linkeddata.es/shapes#b296c9573eff8c7766815c4f3ae19317>
+        a            sh:PropertyShape ;
+        rdfs:label   "total applicants" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemainteger> ;
+        sh:name      "total applicants" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:TotalApplications .
+
+<https://astrea.linkeddata.es/shapes#39b195450e1be88c07d7e9f0bef54198>
+        a            sh:PropertyShape ;
+        rdfs:label   "location country" ;
+        sh:class     ontology:Country ;
+        sh:name      "location country" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      dbo:country .
+
+<https://astrea.linkeddata.es/shapes#6c7c37e065862d6b7e532ea7b8cd272f>
+        a            sh:PropertyShape ;
+        rdfs:label   "year published" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemanumber> ;
+        sh:name      "year published" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:yearPublished .
+
+<https://astrea.linkeddata.es/shapes#9f71f17a18f092b5531e2ccdbd9376ba>
+        a            sh:PropertyShape ;
+        rdfs:label   "website" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "website" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:website .
+
+<https://astrea.linkeddata.es/shapes#aea0d086befcf2e1814eadaa9174be69>
+        a            sh:PropertyShape ;
+        rdfs:label   "latitude" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "latitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      schema:latitude .
+
+<https://astrea.linkeddata.es/shapes#ef2477dc9d43e04818093f2020b1ad01>
+        a               sh:NodeShape ;
+        rdfs:label      "College OR University" ;
+        sh:name         "College OR University" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  schema:CollegeORUniversity .
+
+<https://astrea.linkeddata.es/shapes#6efa0879349a34ad5b444452b0f8d989>
+        a               sh:NodeShape ;
+        rdfs:label      "University" ;
+        sh:name         "University" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#9f71f17a18f092b5531e2ccdbd9376ba> , <https://astrea.linkeddata.es/shapes#235aef6c1f04f957e9353047d9390765> , <https://astrea.linkeddata.es/shapes#39b195450e1be88c07d7e9f0bef54198> , <https://astrea.linkeddata.es/shapes#73d49c6166ff050fe10a487d88d40fd2> , <https://astrea.linkeddata.es/shapes#aea0d086befcf2e1814eadaa9174be69> , <https://astrea.linkeddata.es/shapes#3a4d6f030a377b83d3e05576e356e8fc> , <https://astrea.linkeddata.es/shapes#2b607e2597e37499bb2451469b8ef4d0> , <https://astrea.linkeddata.es/shapes#4a9ef772374131fcf3561884e88910c3> , <https://astrea.linkeddata.es/shapes#fbd6176ab5781ce95f6d040f3ae0f5c9> , <https://astrea.linkeddata.es/shapes#b0173bd59590f947ce44b7a6b63512a7> ;
+        sh:targetClass  ontology:University .
+
+<https://astrea.linkeddata.es/shapes#6b2d57e3d98c3fd9e5a024dc94d778cd>
+        a               sh:NodeShape ;
+        rdfs:label      "Admission Rate" ;
+        sh:name         "Admission Rate" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#5984e732c190bc53021abc7e327a5d73> ;
+        sh:targetClass  ontology:AdmissionRate .
+
+<https://astrea.linkeddata.es/shapes#4a9ef772374131fcf3561884e88910c3>
+        a            sh:PropertyShape ;
+        rdfs:label   "longitude" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "longitude" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      schema:longitude .
+
+<https://astrea.linkeddata.es/shapes#2d6cc0b30f7b3cf33ee54b8822c22468>
+        a               sh:NodeShape ;
+        rdfs:label      "USNewsRanking" ;
+        sh:name         "USNewsRanking" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:RankingUSNews .
+
+<https://astrea.linkeddata.es/shapes#73d49c6166ff050fe10a487d88d40fd2>
+        a            sh:PropertyShape ;
+        rdfs:label   "ipeds id" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "ipeds id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:ipedsId .
+
+<http://astrea.linkeddata.es/report>
+        a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#2d18f4594ca3bbd6f86ca11bb70d4cf4> , <https://astrea.linkeddata.es/shapes#aea0d086befcf2e1814eadaa9174be69> , <https://astrea.linkeddata.es/shapes#6efa0879349a34ad5b444452b0f8d989> , <https://astrea.linkeddata.es/shapes#6c7c37e065862d6b7e532ea7b8cd272f> , <https://astrea.linkeddata.es/shapes#73d49c6166ff050fe10a487d88d40fd2> , <https://astrea.linkeddata.es/shapes#235aef6c1f04f957e9353047d9390765> , <https://astrea.linkeddata.es/shapes#2b607e2597e37499bb2451469b8ef4d0> , <https://astrea.linkeddata.es/shapes#b296c9573eff8c7766815c4f3ae19317> , <https://astrea.linkeddata.es/shapes#9ac978fc8e76ce1f89159ef364ebdb38> , <https://astrea.linkeddata.es/shapes#9f71f17a18f092b5531e2ccdbd9376ba> , <https://astrea.linkeddata.es/shapes#1075823010d93415300e902dbaa6d822> , <https://astrea.linkeddata.es/shapes#d654edc177db489b3c6c6551e4105191> , <https://astrea.linkeddata.es/shapes#4a9ef772374131fcf3561884e88910c3> , <https://astrea.linkeddata.es/shapes#25b0f6b4b1e2a60bb8b12bc63315d2bd> , <https://astrea.linkeddata.es/shapes#3562ea0bfb154aece568dfda4b87a0af> , <https://astrea.linkeddata.es/shapes#3a4d6f030a377b83d3e05576e356e8fc> , <https://astrea.linkeddata.es/shapes#47da669bb3cf98b646f720cfb07b12e5> , <https://astrea.linkeddata.es/shapes#cc2c82b740e1ca40e56a174355b740f0> , <https://astrea.linkeddata.es/shapes#ef2477dc9d43e04818093f2020b1ad01> , <https://astrea.linkeddata.es/shapes#2d6cc0b30f7b3cf33ee54b8822c22468> , <https://astrea.linkeddata.es/shapes#d6365be6c46611252724aa5d5fa28af9> , <https://astrea.linkeddata.es/shapes#b0173bd59590f947ce44b7a6b63512a7> , <https://astrea.linkeddata.es/shapes#fbd6176ab5781ce95f6d040f3ae0f5c9> , <https://astrea.linkeddata.es/shapes#eae34dc7d63393627ea2aeb7290845db> , <https://astrea.linkeddata.es/shapes#6b2d57e3d98c3fd9e5a024dc94d778cd> , <https://astrea.linkeddata.es/shapes#6c78df697cad25cf3df692f66f4deefd> , <https://astrea.linkeddata.es/shapes#5984e732c190bc53021abc7e327a5d73> , <https://astrea.linkeddata.es/shapes#39b195450e1be88c07d7e9f0bef54198> ;
+        <https://w3id.org/def/astrea#generatedShapesFrom>
+                <https://astrea.linkeddata.es/report/0620946147> .
+
+<https://astrea.linkeddata.es/shapes#6c78df697cad25cf3df692f66f4deefd>
+        a               sh:NodeShape ;
+        rdfs:label      "Country" ;
+        sh:name         "Country" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:Country .
+
+<https://astrea.linkeddata.es/shapes#47da669bb3cf98b646f720cfb07b12e5>
+        a            sh:PropertyShape ;
+        rdfs:label   "value" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemanumber> ;
+        sh:name      "value" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:value .
+
+<https://astrea.linkeddata.es/shapes#25b0f6b4b1e2a60bb8b12bc63315d2bd>
+        a               sh:NodeShape ;
+        rdfs:label      "Rate" ;
+        sh:name         "Rate" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#47da669bb3cf98b646f720cfb07b12e5> , <https://astrea.linkeddata.es/shapes#b296c9573eff8c7766815c4f3ae19317> ;
+        sh:targetClass  ontology:Rate .
+
+<https://astrea.linkeddata.es/shapes#fbd6176ab5781ce95f6d040f3ae0f5c9>
+        a            sh:PropertyShape ;
+        rdfs:label   "name" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemastring> ;
+        sh:name      "name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:name .
+
+<https://astrea.linkeddata.es/shapes#cc2c82b740e1ca40e56a174355b740f0>
+        a               sh:NodeShape ;
+        rdfs:label      "City" ;
+        sh:name         "City" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:City .
+
+<https://astrea.linkeddata.es/shapes#9ac978fc8e76ce1f89159ef364ebdb38>
+        a               sh:NodeShape ;
+        rdfs:label      "Enrollment Rate" ;
+        sh:name         "Enrollment Rate" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#d6365be6c46611252724aa5d5fa28af9> ;
+        sh:targetClass  ontology:EnrollmentRate .
+
+<https://astrea.linkeddata.es/shapes#2b607e2597e37499bb2451469b8ef4d0>
+        a            sh:PropertyShape ;
+        rdfs:label   "location city" ;
+        sh:class     ontology:City ;
+        sh:name      "location city" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      dbo:city .
+
+<https://astrea.linkeddata.es/shapes#d6365be6c46611252724aa5d5fa28af9>
+        a            sh:PropertyShape ;
+        rdfs:label   "total enrolled" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemainteger> ;
+        sh:name      "total enrolled" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:TotalEnrolled .
+
+<https://astrea.linkeddata.es/shapes#d654edc177db489b3c6c6551e4105191>
+        a               sh:NodeShape ;
+        rdfs:label      "Ranking" ;
+        sh:name         "Ranking" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#1075823010d93415300e902dbaa6d822> , <https://astrea.linkeddata.es/shapes#6c7c37e065862d6b7e532ea7b8cd272f> ;
+        sh:targetClass  ontology:Ranking .
+
+<https://astrea.linkeddata.es/report/0620946147>
+        a       <https://w3id.org/def/astrea#ReportEntry> ;
+        <https://w3id.org/def/astrea#message>
+                "Shapes generated with no errors" ;
+        <https://w3id.org/def/astrea#statusCode>
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#5984e732c190bc53021abc7e327a5d73>
+        a            sh:PropertyShape ;
+        rdfs:label   "total admitted" ;
+        sh:datatype  <http://www.w3.org/2001/XMLSchemainteger> ;
+        sh:name      "total admitted" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      ontology:TotalAdmissions .
+
+<https://astrea.linkeddata.es/shapes#235aef6c1f04f957e9353047d9390765>
+        a            sh:PropertyShape ;
+        rdfs:label   "location state" ;
+        sh:class     ontology:State ;
+        sh:name      "location state" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      dbo:state .
+
+<https://astrea.linkeddata.es/shapes#3a4d6f030a377b83d3e05576e356e8fc>
+        a            sh:PropertyShape ;
+        rdfs:label   "has rate" ;
+        sh:class     ontology:Rate ;
+        sh:name      "has rate" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ontology:hasRate .
+
+<https://astrea.linkeddata.es/shapes#3562ea0bfb154aece568dfda4b87a0af>
+        a               sh:NodeShape ;
+        rdfs:label      "State" ;
+        sh:name         "State" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:State .
+
+<https://astrea.linkeddata.es/shapes#b0173bd59590f947ce44b7a6b63512a7>
+        a            sh:PropertyShape ;
+        rdfs:label   "has ranking" ;
+        sh:class     ontology:Ranking ;
+        sh:name      "has ranking" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      ontology:hasRanking .
+
+<https://astrea.linkeddata.es/shapes#2d18f4594ca3bbd6f86ca11bb70d4cf4>
+        a               sh:NodeShape ;
+        rdfs:label      "LiberalArtsRanking" ;
+        sh:name         "LiberalArtsRanking" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:UniversityRankingLiberalArts .
+
+<https://astrea.linkeddata.es/shapes#eae34dc7d63393627ea2aeb7290845db>
+        a               sh:NodeShape ;
+        rdfs:label      "Average Graduation Rate" ;
+        sh:name         "Average Graduation Rate" ;
+        sh:nodeKind     sh:IRI ;
+        sh:targetClass  ontology:AverageGraduationRate .

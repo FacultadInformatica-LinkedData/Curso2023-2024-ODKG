@@ -1,0 +1,25 @@
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT DISTINCT ?subject ?temp
+WHERE {
+  ?subject a ex:Weather;
+           ex:temp ?temp.
+}
+
+
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT DISTINCT ?subject ?season
+WHERE {
+  ?subject a ex:Season;
+           ex:season ?season.
+}
+
+
+PREFIX ex: <http://bikesharingsystem.linkeddata.org/bsh/ontology/BikeSharing#>
+
+SELECT DISTINCT ?subject ?count
+WHERE {
+  ?subject a ex:Register;
+           ex:count ?count.
+}

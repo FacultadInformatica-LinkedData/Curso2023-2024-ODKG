@@ -1,0 +1,67 @@
+@prefix clase: <http://opendataandkg.org/group06/ontology/registroPeatones#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+clase: a owl:Ontology ;
+    dc:creator "Group06" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Madrid city heatmap Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+clase:id_calle a owl:DatatypeProperty ;
+    rdfs:label "id calle" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:string .
+
+clase:codigoPostal a owl:DatatypeProperty ;
+    rdfs:label "codigo postal" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:integer .
+
+clase:latitud a owl:DatatypeProperty ;
+    rdfs:label "latitud" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:float .
+
+clase:longitud a owl:DatatypeProperty ;
+    rdfs:label "longitud" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:float .
+
+clase:fechaHora a owl:DatatypeProperty ;
+    rdfs:label "fecha hora" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:dateTime .
+
+clase:distrito a owl:DatatypeProperty ;
+    rdfs:label "distrito" ;
+    rdfs:domain clase:Calle ;
+    rdfs:range xsd:string .
+
+clase:perteneceACalle a owl:ObjectProperty ;
+    rdfs:label "pertenece a calle" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range clase:Calle .
+
+clase:numPeatones a owl:DatatypeProperty ;
+    rdfs:label "numero de peatones" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:float .
+
+clase:id_registroPeatones a owl:DatatypeProperty ;
+    rdfs:label "id registroPeatones" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:string .
+
+clase:observacionesDireccion a owl:DatatypeProperty ;
+    rdfs:label "observaciones direccion" ;
+    rdfs:domain clase:registroPeatones ;
+    rdfs:range xsd:string .
+
+clase:Calle a owl:Class ;
+    rdfs:label "Calle" .
+
+clase:registroPeatones a owl:Class ;
+    rdfs:label "registroPeatones" .

@@ -1,0 +1,96 @@
+ @prefix base: <http://www.divvybikesharing.com/group14/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+base: a owl:Ontology ;
+    dc:creator "Group14" ;
+    dc:title "Bike Sharing Chicago" ;
+    owl:versionInfo "0.0.1" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+ns:address a owl:DatatypeProperty ;
+    rdfs:label "address" ;
+    rdfs:range xsd:String .
+
+ns:bikeID a owl:DatatypeProperty ;
+    rdfs:label "bike i d" ;
+    rdfs:range xsd:Integer .
+
+ns:birthYear a owl:DatatypeProperty ;
+    rdfs:label "birth year" ;
+    rdfs:range xsd:Integer .
+
+ns:endTime a owl:DatatypeProperty ;
+    rdfs:label "end time" ;
+    rdfs:range xsd:DateTime .
+
+ns:fromStation a owl:ObjectProperty ;
+    rdfs:label "from station" ;
+    rdfs:domain ns:TripTime ;
+    rdfs:range ns:Location .
+
+ns:gender a owl:DatatypeProperty ;
+    rdfs:label "gender" ;
+    rdfs:range xsd:String .
+
+ns:hasTripInformation a owl:ObjectProperty ;
+    rdfs:label "has trip information" ;
+    rdfs:domain ns:Bike ;
+    rdfs:range ns:TripTime .
+
+ns:hasUser a owl:ObjectProperty ;
+    rdfs:label "has user" ;
+    rdfs:domain ns:TripTime ;
+    rdfs:range ns:Users .
+
+ns:startTime a owl:DatatypeProperty ;
+    rdfs:label "start time" ;
+    rdfs:range xsd:DateTime .
+
+ns:toStation a owl:ObjectProperty ;
+    rdfs:label "to station" ;
+    rdfs:domain ns:TripTime ;
+    rdfs:range ns:Location .
+
+ns:tripDuration a owl:DatatypeProperty ;
+    rdfs:label "trip duration" ;
+    rdfs:range xsd:Integer .
+
+ns:tripID a owl:DatatypeProperty ;
+    rdfs:label "trip i d" ;
+    rdfs:range xsd:Integer .
+
+ns:userType a owl:DatatypeProperty ;
+    rdfs:label "user type" ;
+    rdfs:range xsd:String .
+
+owl:sameAs a owl:ObjectProperty ;
+    rdfs:label "same as" ;
+    rdfs:domain ns:Location ;
+    rdfs:range ns:Wikidata .
+
+owl:versionInfo a owl:AnnotationProperty .
+
+ns:Bike a owl:Class ;
+    rdfs:label "Bike" .
+
+ns:Users a owl:Class ;
+    rdfs:label "Users" .
+
+ns:Wikidata a owl:Class ;
+    rdfs:label "Wikidata" .
+
+ns:Location a owl:Class ;
+    rdfs:label "Location" .
+
+ns:TripTime a owl:Class ;
+    rdfs:label "Trip Time" .
+

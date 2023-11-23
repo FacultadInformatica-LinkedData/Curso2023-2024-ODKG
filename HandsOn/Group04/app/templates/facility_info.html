@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <title>MadCulturalEvents</title>
+</head>
+<body>
+    <header>
+        <img src="./static/logo.jpeg" alt="Logo de MadCulturalEvents" class="logo" onclick="window.history.back();"/>
+        <div class="header-text">MadCulturalEvents</div>
+    </header>
+    
+    <div class="container">
+        <div class="button">
+            <button id="go-back-button" onclick="window.history.back();" class="back-btn">Atrás</button>
+        </div>
+        <div class="container-info">
+            <h1>{{ result[0] }}</h1>
+            <div class="content">
+                <br><br>
+                <ul><a href="{{ result[4] }}">Página web del sitio</a></ul>
+                <ul><b>Metro:</b> {{ result[1] }}</ul>
+                <ul><b>Bus:</b> {{ result[2] }}</ul>
+                <ul><b>Renfe:</b> {{ result[3] }}</ul>
+                <ul><b>Dirección:</b> {{ result[7] }}, {{ result[8] }}</ul>
+                <ul><b>Distrito:</b> {{ result[9] }}</ul>
+            </div>
+            
+            {%if image_url%}
+            <div class="image">
+                <img src="{{image_url}}" width="350" height="350">
+            </div>
+            {%endif%}
+        </div>
+
+        <br><br>
+
+        <div class="map"> 
+            Mapa del sitio <br><br>           
+            <iframe
+            width="80%"
+            height="400"
+            frameborder="0" style="border:0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox={{ result[6] }},{{ result[5] }},{{ result[6] }},{{ result[5] }}&amp;layer=mapnik&marker={{ result[5] }},{{ result[6] }}" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        
+        <br>
+        <h3>Otros eventos del sitio: </h3>
+        {% if events %} {% for event in events %}
+        <div class="item-container">
+            <div class="item-outer">
+                <div class="item-inner">
+                    <div class="toggle-icon">
+                        <img src="./static/Down.svg" loading="lazy" decoding="async" alt="Flecha hacia abajo" />
+                    </div>
+                    <div name="event_name">{{ event[1] }}</div>
+                </div>
+            </div>
+            <div class="item-details-outer">
+                <div class="item-details-inner">
+                    <div>Descripción: {{ event[2] }}</div>
+                    <div>Precio: {{ event[3] }}</div>
+                    <div>Accesibilidad: {{ event[4] }}</div>
+                    <div>Fecha Inicio: {{ event[7] }}</div>
+                    <div>Fecha Fin: {{ event[8] }}</div>
+                    <div>Tipo audiencia: {{ event[9] }}</div>
+                    <div>Tipo evento: {{ event[10] }}</div>
+                </div>
+            </div>
+        </div>
+        {% endfor %} {% endif %}
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./static/index.js"></script>
+    <script>
+        // Agregar la inicialización de datepicker en tu script
+        $(function () {
+            $("#start-date").datepicker();
+            $("#end-date").datepicker();
+        });
+    </script>
+</body>
+</html>
