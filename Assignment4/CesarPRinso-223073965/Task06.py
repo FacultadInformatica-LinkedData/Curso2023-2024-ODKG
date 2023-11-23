@@ -6,11 +6,9 @@
 # URL del almacenamiento en GitHub
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
 
-# Leer el archivo RDF como se muestra en clase
 from rdflib import Graph, Namespace, Literal
 from rdflib.namespace import RDF, RDFS
 
-# Crear el grafo RDF
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
@@ -27,7 +25,6 @@ for s, p, o in g:
 ns = Namespace("http://somewhere#")
 g.add((ns.University, RDF.type, RDFS.Class))
 
-# Visualize the results
 for s, p, o in g:
     print(s, p, o)
 
@@ -35,14 +32,12 @@ for s, p, o in g:
 g.add((ns.Researcher, RDF.type, RDFS.Class))
 g.add((ns.Researcher, RDFS.subClassOf, ns.Person))
 
-# Visualize the results
 for s, p, o in g:
     print(s, p, o)
 
 # **TASK 6.3: Create a new individual of Researcher named "Jane Smith"**
 g.add((ns.JaneSmith, RDF.type, ns.Researcher))
 
-# Visualizar los resultados
 for s, p, o in g:
     print(s, p, o)
 
@@ -53,7 +48,6 @@ g.add((ns.JaneSmith, VCARD.FN, Literal('Jane Smith', datatype=RDF.XMLLiteral)))
 g.add((ns.JaneSmith, VCARD.Given, Literal('Jane', datatype=RDF.XMLLiteral)))
 g.add((ns.JaneSmith, VCARD.Family, Literal('Smith', datatype=RDF.XMLLiteral)))
 
-# Visualize the results
 for s, p, o in g.triples((ns.JaneSmith, None, None)):
     print(s, p, o)
 
@@ -61,7 +55,6 @@ for s, p, o in g.triples((ns.JaneSmith, None, None)):
 g.add((ns.UPM, RDF.type, ns.University))
 g.add((ns.JohnSmith, ns.Work, ns.UPM))
 
-# Visualize the results
 for s, p, o in g.triples((None, None, ns.UPM)):
     print(s, p, o)
 
@@ -69,6 +62,5 @@ for s, p, o in g.triples((None, None, ns.UPM)):
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 g.add((ns.JohnSmith, FOAF.knows, ns.JaneSmith))
 
-# Visualize the results
 for s, p, o in g.triples((ns.JohnSmith, FOAF.knows, None)):
     print(s, p, o)
