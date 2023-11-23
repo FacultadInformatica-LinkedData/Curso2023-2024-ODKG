@@ -31,14 +31,30 @@ vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 q1 = prepareQuery(
     """
     SELECT ?subclass WHERE {
-        ?subclass rdfs:subClassOf ns:LivingThing
+        ?subclass rdfs:subClassOf+ ns:LivingThing
     }
     """, initNs={"rdfs": RDFS, "ns": ns}
 )
 
-# Visualize the results
+# Visualize the results of the query
 for r in g.query(q1):
-  print(r)
+    print(r)
+
+
+# Visualize the results with RDFLib
+def recursive1(g, name, list):
+    for s, p, o in g.triples((None, RDFS.subClassOf, name)):
+        list.append(s)
+        list = recursive1(g, s, list)
+    return list
+
+
+listaq1 = []
+listaq1 = recursive1(g, ns.LivingThing, listaq1)
+
+# Check the results
+for item in listaq1:
+    print(item)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**"""
 
@@ -49,11 +65,28 @@ q2 = prepareQuery("""
         {?individual rdf:type ?type.
         ?type rdf:type ns:person.}
     }
-    """, initNs={"rdfs": RDFS, "ns": ns,"rdf": RDF}
-)
+    """, initNs={"rdfs": RDFS, "ns": ns, "rdf": RDF}
+                  )
 # Visualize the results
 for r in g.query(q2):
-  print(r)
+    print(r)
+
+
+# Visualize the results with RDFLib
+def recursive2(g, name, list):
+    for s, p, o in g.triples((None, RDF.type, name)):
+        list.append(s)
+    for s, p, o in g.triples((None, RDFS.subClassOf, name)):
+        list = recursive2(g, s, list)
+    return list
+
+
+listaq2 = []
+# Eliminate duplicates
+listaq2 = recursive2(g, ns.Person, listaq2)
+
+for item in listaq2:
+    print(item)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**"""
 
@@ -66,10 +99,27 @@ q3 = prepareQuery("""
         ?individual rdf:type ?clase
     }
     """, initNs={"rdf": RDF, "ns": ns}
-)
+                  )
 # Visualize the results
 for r in g.query(q3):
     print(r)
+
+# Visualize the results with RDFLib
+def recursive3(g, name, list):
+    for s, p, o in g.triples((None, RDF.type, name)):
+        for s1, p1, o1 in g.triples((s, None, None)):
+            res = s1, p1, o
+            list.append(res)
+    return list
+
+
+listaq3 = []
+# Eliminate duplicates
+listaq3 = recursive3(g, ns.Person, listaq3)
+listaq3 = recursive3(g, ns.Animal, listaq3)
+
+for item in listaq3:
+    print(item)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
@@ -85,24 +135,52 @@ q4 = prepareQuery(
         FILTER(contains(?nombreRocky, "Rocky"))
         ?individual vcard:Given ?nombre.
     }
-    """, initNs={"rdfs": RDFS, "ns": ns,"rdf": RDF, "vcard":vcard, "foaf":FOAF}
+    """, initNs={"rdfs": RDFS, "ns": ns, "rdf": RDF, "vcard": vcard, "foaf": FOAF}
 )
 # Visualize the results
 for r in g.query(q4):
     print(r.nombre)
 
+# Visualize the results with RDFLib
+def recursive4(g, name, list):
+    for s, p, o in g.triples((None, RDF.type, name)):
+        for s1, p1, o1 in g.triples((s, FOAF.knows, ns.RockySmith)):
+            list.append(s1)
+    for s, p, o in g.triples((None, RDFS.subClassOf, name)):
+            list = recursive4(g, s, list)
+    return list
+
+listaq4 = []
+# Eliminate duplicates
+listaq4 = recursive4(g, ns.Person, listaq4)
+
+for item in listaq4:
+    print(item)
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 q5 = prepareQuery("""
-    SELECT ?entity
+    SELECT DISTINCT ?entity
     WHERE {
         ?entity foaf:knows ?p1.
-        ?entity foaf:knows ?2.
-        FILTER (?p1 != ?2)
-    }
-    GROUP BY ?entity
-    HAVING (COUNT(?p1) > 1)""", initNs={"foaf":FOAF}
-)
+        ?entity foaf:knows ?p2.
+        FILTER (?p1 != ?p2)
+    }""", initNs={"foaf": FOAF})
 # Visualize the results
 for r in g.query(q5):
     print(r)
+
+# Visualize the results with RDFLib
+def recursive5(g, name, list):
+    for s, p, o in g.triples((None, name, None)):
+        for s1, p1, o1 in g.triples((s, FOAF.knows, None)):
+            if o!=o1 and (s not in list):
+                list.append(s)
+    return list
+
+listaq5 = []
+# Eliminate duplicates
+listaq5 = recursive5(g, FOAF.knows, listaq5)
+
+for item in listaq5:
+    print(item)
