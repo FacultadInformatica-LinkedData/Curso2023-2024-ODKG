@@ -29,14 +29,21 @@ ns = Namespace("http://somewhere#")
 
 # TO DO in RDFLib
 print("RDFLib")
-for s,p,o in g.triples((None,RDFS.subClassOf,ns.LivingThing)):
+subclasses_rdflib = []
+def find_subclasses(target_class):
+    for s, p, o in g.triples((None, RDFS.subClassOf, target_class)):
+        subclasses_rdflib.append(s)
+        find_subclasses(s)
+find_subclasses(ns.LivingThing)
+# Visualize the results
+for s in subclasses_rdflib:
   print(s)
-
+    
 # TO DO in SPARQL
 print("SPARQL")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject RDFS:subClassOf ns:LivingThing.
+    ?Subject RDFS:subClassOf/RDFS:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = {"RDFS": RDFS, "ns": ns}
@@ -54,19 +61,18 @@ for r in g.query(q1):
 
 # TO DO in RDFLib
 print("RDFLib")
-for s,p,o in g.triples((None,RDFS.subClassOf,ns.Person)):
-  for s1,p1,o1 in g.triples((None,RDF.type,s)):
-    print(s1)
-
-for s2,p2,o2 in g.triples((None,RDF.type,ns.Person)):
-  print(s2)
-
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    print(s)
+for subclass in g.triples((None, RDFS.subClassOf, ns.Person)):
+    for individual in g.triples((None, RDF.type, subclass[0])):
+        print(individual[0])
+    
 # TO DO in SPARQL
 print("SPARQL")
 q2 = prepareQuery('''
    SELECT  ?Subject ?Individual  WHERE {
     ?Subject RDFS:subClassOf* ns:Person.
-  ?Individual RDF:type ?Subject.
+    ?Individual RDF:type ?Subject.
   }
   ''',
   initNs = { "RDFS": RDFS,
@@ -143,14 +149,12 @@ for r in g.query(q4, initBindings = {'?RockySmithFullName' : Literal('Rocky Smit
 
 # TO DO
 q5 = prepareQuery('''
-  SELECT  ?Subject ?Given  WHERE {
+  SELECT DISTINCT ?Subject ?Given  WHERE {
     ?Subject foaf:knows ?entity1.
     ?Subject foaf:knows ?entity2.
     ?Subject vcard:Given ?Name.
     FILTER (?entity1 != ?entity2)
   }
-  GROUP BY ?Subject
-  HAVING (COUNT(?entity1) >= 2)
   ''',
   initNs = { "foaf": FOAF, "vcard": VCARD}
 )
