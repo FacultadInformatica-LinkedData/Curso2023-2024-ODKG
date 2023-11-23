@@ -36,15 +36,27 @@ ns = Namespace("http://somewhere#")
 LivingThing = ns.LivingThing
 
 print("QUERY RDFLib")
-for s, o, p in g.triples((None, RDFS.subClassOf, LivingThing)):
-    print(s)
+subclasses_of_lt = set()
+def find_subclasses(subclass, graph, subclasses):
+    for s, _, _ in graph.triples((None, RDFS.subClassOf, subclass)):
+        if s not in subclasses:
+            subclasses.add(s)
+            find_subclasses(s, graph, subclasses)
+
+
+find_subclasses(LivingThing, g, subclasses_of_lt)
+
+# Print the subclasses results
+for subclass in subclasses_of_lt:
+    print(subclass)
+
 
 print("QUERY SPARQL")
 # Visualize the results
 q1 = prepareQuery('''
     SELECT ?s
     WHERE {
-        ?s RDFS:subClassOf ns:LivingThing .
+        ?s RDFS:subClassOf+ ns:LivingThing .
     }
     ''',
     initNs = {
@@ -170,29 +182,61 @@ for r in g.query(q3):
 
 
 # DONE
-VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 print("QUERY RDFLib")
-for s, _, _ in g.triples((None, FOAF.knows, ns.RockySmith)):
-  print(s)
+
+def is_subcperson(class_uri):
+  for s, p, o in g.triples((class_uri, RDFS.subClassOf, None)):
+    if o == ns.Person or is_subcperson(o):
+      return True
+  return False
+
+rockyUri = None
+for s, _, _ in g.triples((None, VCARD.Given, Literal("Rocky"))):
+  rockyUri = s
+
+names_knows_rocky = set()
+for s, _, _ in g.triples((None, FOAF.knows, rockyUri)):
+  for _, _, t in g.triples((s, RDF.type, None)):
+    if t == ns.Person or is_subcperson(t):
+      for _, _, name in g.triples((s, VCARD.Given, None)):
+        names_knows_rocky.add(name)
+
 # Visualize the results
+for name in names_knows_rocky:
+  print(name)
+
 
 print("QUERY SPARQL")
 
 q4 = prepareQuery('''
-  SELECT ?s
-  WHERE {
-    ?s FOAF:knows ns:RockySmith .
-  }
+  SELECT DISTINCT ?nameKnowsRocky 
+   WHERE {
+      ?s vcard:Given ?o.
+      ?knowsSubject FOAF:knows ?s.
+      ?knowsSubject vcard:Given ?nameKnowsRocky.
+      { 
+        ?knowsSubject rdf:type ns:Person .
+      }
+      UNION
+      { 
+        ?knowsSubject rdf:type ?type .
+        ?type rdfs:subClassOf* ns:Person . 
+      }
+   }
   ''',
   initNs={
-    'FOAF': FOAF,
-    'ns': ns
+      "rdfs":RDFS, 
+      "ns":ns, 
+      "FOAF":FOAF, 
+      "rdf":RDF,
+      "vcard": VCARD, 
   }
 )
 
 for r in g.query(q4):
-  print(r.s)
+  print(r.nameKnowsRocky)
 
 
 # **Task 7.5: List the entities who know at least two other entities in the graph**
@@ -209,21 +253,20 @@ for s, p, o in g.triples((None, FOAF.knows, None)):
         entities[s] = entities[s] + 1
     else:
         entities[s] = 1
-
 for entity in entities:
     if entities[entity] > 1:
-        print(entity)
+        print(f"Entity: {entity}, Total knows: {entities[entity]}")
 
 print("QUERY SPARQL")
 q5 = prepareQuery('''
-        SELECT ?s
-        WHERE {
-            ?s FOAF:knows ?o1 .
-            ?s FOAF:knows ?o2 .
-            FILTER (?o1 != ?o2)
-        }
-        GROUP BY ?s
-        HAVING (COUNT(?o1) > 1)
+    SELECT DISTINCT ?s (COUNT(?o) as ?total_knows) 
+    WHERE 
+    {
+        ?s FOAF:knows ?o.
+        FILTER(?s != ?o).
+    } 
+    GROUP BY ?s
+    HAVING (COUNT(?o) >= 2)
     ''',
     initNs={
         'FOAF': FOAF
@@ -231,5 +274,6 @@ q5 = prepareQuery('''
 )
 
 for r in g.query(q5):
-    print(r.s)
+    print(f"Entity: {r.s}, Total knows: {r.total_knows}")
+
 
