@@ -21,6 +21,7 @@ g2.parse(github_storage+"/rdf/data02.rdf", format="xml")
 """Tarea: lista todos los elementos de la clase Person en el primer grafo (data01.rdf) y completa los campos (given name, family name y email) que puedan faltar con los datos del segundo grafo (data02.rdf). Puedes usar consultas SPARQL o iterar el grafo, o ambas cosas."""
 
 ns = Namespace("http://data.org#")
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
 from rdflib.plugins.sparql import prepareQuery
 from rdflib.namespace import RDF, RDFS
@@ -41,27 +42,30 @@ q1 = prepareQuery('''
 for r in g1.query(q1):
   print(r.Subject, r.Property)
 
-#By listing everything in g2 we're able to see the values of the missing data in g1
-for s, p, o in g2:
-  print(s,p,o)
 
-VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
+#Fill missing values in g1 with the values in g2
 
-#We add the missing values to g1
-g1.add((ns.JohnDoe, VCARD.Given, Literal("John")))
-g1.add((ns.SaraJones, VCARD.Given, Literal("Sara")))
-g1.add((ns.SaraJones, VCARD.Family, Literal("Jones")))
-g1.add((ns.SaraJones, VCARD.EMAIL, Literal("sara.jones@data.org")))
-g1.add((ns.JohnSmith, VCARD.Family, Literal("Smith")))
-g1.add((ns.HarryPotter, VCARD.EMAIL, Literal("hpotter@hogwarts.org")))
+properties=['Given','Family','EMAIL']
+
+for person in g1.subjects(RDF.type, ns.Person):
+    for p in properties:
+        # Check if property is already in g1
+        if not (person, VCARD[p], None) in g1:
+            # If it isn't, get it from g2
+            value_from_g2 = g2.value(person, VCARD[p], None)
+            
+            # Add the value from g2 to g1
+            if value_from_g2 is not None:
+                g1.add((person, VCARD[p], value_from_g2))
+
 
 from rdflib.plugins.sparql import prepareQuery
 from rdflib.namespace import RDF, RDFS
 
-#We check g1 again to see that now we have every property we needed.
+#We check g1 again to see that now we have every property we needed, and that the values are correct.
 
 q1 = prepareQuery('''
-   SELECT ?Subject ?Property WHERE {
+   SELECT ?Subject ?Property ?value WHERE {
     ?Subject ?Property ?value.
     ?Subject RDF:type ns:Person.
     }
@@ -72,4 +76,4 @@ q1 = prepareQuery('''
 #Visualize the results
 
 for r in g1.query(q1):
-  print(r.Subject, r.Property)
+  print(r.Subject, r.Property, r.value)
