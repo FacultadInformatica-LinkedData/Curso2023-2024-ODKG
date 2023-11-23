@@ -19,6 +19,7 @@ from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+
 g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 """**TASK 7.1: List all subclasses of "LivingThing" with RDFLib and SPARQL**"""
@@ -32,7 +33,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?subClass
 WHERE {
-  ?subClass rdfs:subClassOf <http://somewhere#LivingThing>.
+  ?subClass rdfs:subClassOf* <http://somewhere#LivingThing>.
 }
 """
 q1 = prepareQuery(query_str)
@@ -40,6 +41,24 @@ q1 = prepareQuery(query_str)
 
 for r in g.query(q1):
   print(r)
+
+#now with rdflib
+ns=Namespace("http://somewhere#")
+
+def get_subclasses_recursive(class_uri, subclasses=None):
+    if subclasses is None:
+        subclasses = set()
+
+    for s, p, o in g.triples((None, RDFS.subClassOf, class_uri)):
+        subclasses.add(s)
+        get_subclasses_recursive(s, subclasses)
+
+    return subclasses
+
+result_subclasses = get_subclasses_recursive(ns.LivingThing)
+
+for subclass in result_subclasses:
+    print(subclass)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -59,6 +78,18 @@ q2 = prepareQuery(query_str)
 
 for r in g.query(q2):
   print(r)
+
+#now with rdflib
+def check_for_person_or_subclass(classid):
+    for x, y, z in g.triples((classid, RDFS.subClassOf, None)):
+        if z == ns.Person or check_for_person_or_subclass(z):
+            return True
+    return False
+
+individuals_set = {x for x, y, z in g.triples((None, RDF.type, None)) if check_for_person_or_subclass(z)}
+
+for ind in individuals_set:
+    print(ind)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
@@ -81,6 +112,19 @@ q3 = prepareQuery(query_str)
 for r in g.query(q3):
   print(r)
 
+#now with rdflib
+def check_for_person_or_subclass(classid):
+    for x, y, z in g.triples((classid, RDFS.subClassOf, None)):
+        if z == ns.Person or z == ns.Animal or check_for_person_or_subclass(z):
+            return True
+    return False
+
+individuals_set = {x for x, y, z in g.triples((None, RDF.type, None)) if check_for_person_or_subclass(z)}
+
+for ind in individuals_set:
+  for t in g.triples((ind,None,None)):
+    print(t)
+
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 query_str = """
@@ -98,6 +142,19 @@ q4 = prepareQuery(query_str)
 # Visualize the results
 for r in g.query(q4):
   print(r)
+
+foaf=Namespace("http://xmlns.com/foaf/0.1/")
+def retrieve_persons_knowing(target_individual):
+    knowers = []
+    for person in g.subjects(predicate=foaf.knows, object=target_individual):
+        knowers.append(person)
+    return knowers
+
+target_individual = ns.RockySmith
+knowers_list = retrieve_persons_knowing(target_individual)
+
+for knower in knowers_list:
+    print(knower)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
@@ -118,3 +175,18 @@ q5 = prepareQuery(query_str, initNs={'foaf': Namespace("http://xmlns.com/foaf/0.
 # Visualize the results
 for r in g.query(q5):
   print(r)
+
+#with just rdflib
+entities_with_multiple_knows = []
+checked_entities = set()
+
+for person, _, known_entity in g.triples((None, foaf.knows, None)):
+    if person not in checked_entities:
+        count_knows = sum(1 for _, _, _ in g.triples((person, foaf.knows, None)))
+        if count_knows >= 2:
+            entities_with_multiple_knows.append(person)
+            checked_entities.add(person)
+
+# Visualize the results
+for entity in entities_with_multiple_knows:
+    print(entity)
