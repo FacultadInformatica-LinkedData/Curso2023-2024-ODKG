@@ -31,13 +31,19 @@ from rdflib.plugins.sparql import prepareQuery
 q1 = prepareQuery('''
     select ?subclass
     where {
-        ?subclass rdfs:subClassOf ns:LivingThing.
+        ?subclass rdfs:subClassOf* ns:LivingThing.
     }
     ''',
-     initNs={"rdfs": RDFS, "ns": ns}             )
+     initNs={"rdfs": RDFS, "ns": ns}
+                  )
 
 for r in g.query(q1):
  print(r)
+
+print(g.serialize(format="ttl"))
+
+for subject, _, _ in g.triples((None, RDFS.subClassOf*"*", ns.LivingThing)):
+    print(subject)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -60,6 +66,10 @@ q1 = prepareQuery('''
 for r in g.query(q1):
  print(r)
 
+for subjectType, _, _ in g.triples((None, RDFS.subClassOf*"*", ns.Person)):
+   for subject, _, _ in g.triples((None, RDF.type, subjectType)):
+      print(subject)
+
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
 """
@@ -71,11 +81,16 @@ from rdflib.plugins.sparql import prepareQuery
 
 q1 = prepareQuery(
     '''
-    SELECT ?individual ?property ?value ?class
+    SELECT ?individual ?property ?class
     WHERE {
-        ?individual rdf:type ?class .
-        ?individual ?property ?value
-        FILTER(?class = ns:Person || ?class = ns:Animal)
+        {
+        ?individual rdf:type ns:Person .
+        }
+        UNION
+        {
+        ?individual rdf:type ns:Animal.
+        }
+        ?individual ?property ?class
     }
     ''',
     initNs={"rdf": RDF, "ns": ns}
@@ -83,6 +98,11 @@ q1 = prepareQuery(
 
 for r in g.query(q1):
  print(r)
+
+for individual, _, _ in g.triples((None, RDF.type, ns.Person)):
+    print(individual)
+for individual, property, _ in g.triples((None, None, ns.Animal)):
+    print(individual)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
@@ -108,6 +128,10 @@ q1 = prepareQuery(
 for r in g.query(q1):
  print(r)
 
+for individual, _, _ in g.triples((None, FOAF.knows, ns.RockySmith)):
+  for _, _, name in g.triples((individual, vcard.FN, None)):
+    print(name)
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
@@ -129,3 +153,15 @@ q1 = prepareQuery(
 
 for r in g.query(q1):
  print(r)
+
+entity_counts = {}
+
+for subject, _, _ in g.triples((None, FOAF.knows, None)):
+    if subject in entity_counts:
+        entity_counts[subject] += 1
+    else:
+        entity_counts[subject] = 1
+
+entities_with_at_least_two_knows = [entity for entity, count in entity_counts.items() if count >= 2]
+for entity in entities_with_at_least_two_knows:
+    print(entity)
