@@ -28,8 +28,22 @@ ns = Namespace("http://somewhere#")
 
 print("RDFLib: ")
 
-for subClass, _, _ in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-    print(subClass)
+def get_subclasses(graph, class_p):
+    subclasses = set()
+
+    for subClass, _, _ in graph.triples((None, RDFS.subClassOf, class_p)):
+        subclasses.add(subClass)
+        # Recursively get subclasses of the current subclass
+        subclasses |= get_subclasses(graph, subClass)
+
+    return subclasses
+
+# Get subclasses of "LivingThing"
+living_thing_subclasses = get_subclasses(g, ns.LivingThing)
+
+# Print the result
+for subclass in living_thing_subclasses:
+    print(subclass)
 
 print("SPARQL: ")
 
@@ -37,7 +51,7 @@ q1 = prepareQuery(
         """
             SELECT ?subClass
             WHERE{
-                ?subClass rdfs:subClassOf ns:LivingThing .
+                ?subClass rdfs:subClassOf* ns:LivingThing .
             }
         """,
         initNs = {"rdfs":RDFS, "ns":ns})
@@ -118,9 +132,17 @@ for r in g.query(q3):
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 from rdflib.namespace import FOAF
+from rdflib import Graph, Namespace, Literal, XSD
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 ns = Namespace("http://somewhere#")
 
+print("RDFLib: ")
+for r, _, _ in g.triples((None, vcard.Given, Literal('Rocky', datatype = XSD.string))):
+    for person, _, _ in g.triples((None, FOAF.knows, r)):
+        print(person)
+
+
+print("SPARQL: ")
 
 q4= prepareQuery("""
   SELECT ?name
@@ -150,9 +172,21 @@ for r in g.query(q4):
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 from rdflib.namespace import FOAF
-vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-ns = Namespace("http://somewhere#")
+from collections import defaultdict
 
+print("RDFLib: ")
+
+knows_count= defaultdict(set)
+
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    knows_count[s].add(o)
+
+at_least_two_entities = [entity for entity, knowns in knows_count.items() if len(knowns) >= 2]
+
+for entity in at_least_two_entities:
+    print(entity)
+#SPARQL
+print("SPARSQL: ")
 
 q5= prepareQuery("""
   SELECT ?entity
