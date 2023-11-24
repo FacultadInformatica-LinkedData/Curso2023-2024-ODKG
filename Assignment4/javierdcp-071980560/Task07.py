@@ -38,7 +38,7 @@ from rdflib.plugins.sparql import prepareQuery
 q1 = prepareQuery('''
   SELECT  ?sub  
   WHERE {
-    ?sub rdfs:subClassOf ns:LivingThing.
+    ?sub rdfs:subClassOf* ns:LivingThing.
   }  
   ''', initNs={"ns": ns}
                   )
@@ -95,15 +95,19 @@ print("SPARQL")
 q3 = prepareQuery('''
     SELECT DISTINCT ?individual ?property ?value 
     WHERE {
-        ?individual rdf:type ns:Person.
+        {
+            ?individual rdf:type ns:Person.
+        }
+        UNION
+        {
+            ?individual rdf:type ns:Animal.
+        }
         
         ?individual ?property ?value.
-        
     }
-    ''', initNs={"ns": ns}
-                 )
-# Visualize the results
+''', initNs={"ns": ns})
 
+# Visualize the results
 for r in g.query(q3):
     print(r.individual, r.property, r.value)
     
@@ -116,23 +120,6 @@ for s, p, o in g.triples((None, RDF.type, ns.Person)):
 
 
 # In[51]:
-
-
-# TO DO
-q3 = prepareQuery('''
-    SELECT DISTINCT ?individual ?property ?value 
-    WHERE {
-        ?individual rdf:type ns:Animal.
-        
-        ?individual ?property ?value.
-        
-    }
-    ''', initNs={"ns": ns}
-                 )
-# Visualize the results
-
-for r in g.query(q3):
-    print(r.individual, r.property, r.value)
     
     
 print("with RDFLib")
