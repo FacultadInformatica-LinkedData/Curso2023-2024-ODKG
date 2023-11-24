@@ -27,14 +27,41 @@ for s, p, o in g2:
   print(s,p,o)
 
 from rdflib.namespace import RDF, RDFS
+from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://somewhere#")
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
-g1.add((ns.HarryPotter, vcard.EMAIL, Literal("hpotter@hogwarts.org")))
-g1.add((ns.JohnDoe, vcard.GIVE, Literal("John")))
-g1.add((ns.JohnSmith, vcard.FAMILY, Literal("Smith")))
-g1.add((ns.SaraJones, vcard.GIVEN, Literal("Sara")))
-g1.add((ns.SaraJones, vcard.FAMILY, Literal("Jones")))
-g1.add((ns.SaraJones, vcard.EMAIL, Literal("sara.jones@data.org")))
-for s, p, o in g1:
+
+q1 = prepareQuery('''
+  SELECT ?Subject ?Element ?WHERE {
+    ?Subject RDFS:subClassOf* ns:Person.
+    ?Element RDF:type ?Subject.
+  }
+  ''',
+  initNs = { "RDFS": RDFS, "RDF": RDF, "ns":ns}
+)
+for r in g1.query(q1):
+  print(r.Element)
+
+
+q2 = prepareQuery('''
+  SELECT ?val WHERE {
+   ?Person ?vcard ?val
+  }
+  '''
+)
+for r in g1.query(q2):
+    print(r.val)
+
+"""Lista con los campos a completar"""
+
+values=['Given','Family','EMAIL']
+
+for person in g1.subjects(RDF.type, ns.Person):
+    for val in values:
+        if not (person, VCARD[val], None) in g1:
+            for value in g2.objects(person, VCARD[val]):
+                g1.add((person, VCARD[val], value))
+print('Grafo 1')
+for s,p,o in g1:
   print(s,p,o)
