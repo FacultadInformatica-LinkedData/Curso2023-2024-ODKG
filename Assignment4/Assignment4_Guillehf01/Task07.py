@@ -35,17 +35,24 @@ contRDFLib = 0
 contSPARQL = 0
 
 #RDFLib
+print("\n")
 print("RDFLib Query:")
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-    contRDFLib+=1
-    print(f'Subclass {contRDFLib}: {s}')
+subclasses_rdflib = set()
+def get_subclasses_rdflib(class_uri):
+    for s, p, o in g.triples((None, RDFS.subClassOf, class_uri)):
+        subclasses_rdflib.add(s)
+        get_subclasses_rdflib(s)
+get_subclasses_rdflib(ns.LivingThing)
+for subclass in subclasses_rdflib:
+    contRDFLib += 1
+    print(f'Subclass {contRDFLib}: {subclass}')
 
 print("\n")
 print("SPARQL Query:")
 #SPARQL
 q1 = prepareQuery('''
   SELECT ?Subclass WHERE { 
-    ?Subclass rdfs:subClassOf ns:LivingThing.
+    ?Subclass rdfs:subClassOf+ ns:LivingThing.
   }
   ''',
   initNs = {"ns":ns, "rdfs":RDFS}
@@ -57,27 +64,30 @@ for r in g.query(q1):
 
 
 # **TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
-# 
 
 # In[4]:
 
-
 contRDFLib1 = 0
-contRDFLib2 = 0
 contSPARQL = 0
 
 #RDFLib
-print("RDFLib Query for the class Person:")
-for s, p, o in g.triples((None, RDF.type, ns.Person)):
-    contRDFLib1+=1
-    print(f'Individual {contRDFLib1}: {s}')
+print("\n")
+print("RDFLib Query for class and subclass Person:")
+individuals = set()
+def is_subclass_of_person(class_uri):
+    for s, p, o in g.triples((class_uri, RDFS.subClassOf, None)):
+        if o == ns.Person or is_subclass_of_person(o):
+            return True
+    return False
 
-print("\n")    
-print("RDFLib Query for the subclass Person:")
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
-    for ss, ps, os in g.triples((None, RDF.type, s)):
-        contRDFLib2+=1
-        print(f'Individual {contRDFLib2}: {ss}')
+for s, p, o in g.triples((None, RDF.type, None)):
+    if o == ns.Person or is_subclass_of_person(o):
+        individuals.add(s)
+        
+# Visualize the results
+for individual in individuals:
+    contRDFLib1+=1
+    print(f'Sub/class {contRDFLib1}: {individual}')
 
 print("\n")
 print("SPARQL Query:")
@@ -95,7 +105,6 @@ for r in g.query(q2):
     contSPARQL+=1
     print(f'Sub/class {contSPARQL}: {r.Individuals}')
 
-
 # **TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 # 
 
@@ -108,6 +117,7 @@ contRDFLibInst = 0
 contSPARQL = 0
 
 #RDFLib
+print("\n")
 print("RDFLib Query:")
 individuals = set()
 
@@ -124,17 +134,22 @@ for individual in individuals:
 print("\n")
 print("SPARQL Query:")
 #SPARQL
-q4 = prepareQuery('''
+q3 = prepareQuery('''
   SELECT ?individual ?property ?value WHERE {
-    ?individual rdf:type ?class .
+    {
+      ?individual rdf:type ns:Person .
+    }
+    UNION
+    {
+      ?individual rdf:type ns:Animal .
+    }
     ?individual ?property ?value .
-    FILTER (?class = ns:Person || ?class = ns:Animal)
   }
   ''', initNs={"rdf": RDF, "ns": ns})
 
 result_dict = defaultdict(lambda: defaultdict(list))
 
-for row in g.query(q4):
+for row in g.query(q3):
     result_dict[row.individual][row.property].append(row.value)
 
 for individual, properties in result_dict.items():
@@ -158,6 +173,7 @@ FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 #RDFLib
+print("\n")
 print("RDFLib Query:")
 for s, p, o in g.triples((None, FOAF.knows, ns.RockySmith)):
     for ss, ps, os in g.triples((s, VCARD.Given, None)):
@@ -191,6 +207,7 @@ contRDFLib = 0
 contSPARQL = 0
 
 #RDFLib
+print("\n")
 print("RDFLib Query:")
 entity_count = {}
 
@@ -223,10 +240,3 @@ q5 = prepareQuery('''
 for r in g.query(q5):
     contSPARQL+=1
     print(f'Entity {contSPARQL}: {r.entity}')
-
-
-# In[ ]:
-
-
-
-
