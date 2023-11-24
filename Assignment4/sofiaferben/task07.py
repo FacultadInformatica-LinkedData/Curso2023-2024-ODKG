@@ -26,20 +26,31 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 # TO DO
 ns = Namespace("http://somewhere#")
 ##1) RDFLib
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print("Subclass of LivingThing:", s)
+
+subclasses = set()
+def get_subclasses(class_uri):
+  for s, p, o in g.triples((None, RDFS.subClassOf, class_uri)):
+    subclasses.add(s)
+    get_subclasses(s)
+get_subclasses(ns.LivingThing)
+# Visualize the results
+print("\nSubclass of  LivingThing RDFLib")
+
+for subclass in subclasses:
+  print(subclass)
+
 
 ##2) SPARQL
 from rdflib.plugins.sparql import prepareQuery
 q1 = prepareQuery('''
 SELECT ?sub
 WHERE {
-  ?sub rdfs:subClassOf ns:LivingThing.
+  ?sub rdfs:subClassOf* ns:LivingThing.
       }
       ''',
       initNs={"rdfs":RDFS, "ns":ns})
 # Visualize the results
-print("\nSubclass of  LivingThing")
+print("\nSubclass of  LivingThing SPARQL")
 for r in g.query(q1):
   print(r.sub)
 
@@ -48,32 +59,33 @@ for r in g.query(q1):
 """
 
 ##1) RDFLib
-print("List of all individuals of Person (with subclasses)")
-for s,p,o in g.triples((None, RDF.type, ns.Person)):
-    print(s)
-
-for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
-    for s1,p2,o2 in g.triples((None, RDF.type, s)):
-        print(s1)
+print("List of all individuals of Person (with subclasses) RDFLib")
+individuals = set()
+def is_subclass_of_person(class_uri):
+  for s, p, o in g.triples((class_uri, RDFS.subClassOf, None)):
+    if o == ns.Person or is_subclass_of_person(o):
+      return True
+  return False
+for s, p, o in g.triples((None, RDF.type, None)):
+  if o == ns.Person or is_subclass_of_person(o):
+    individuals.add(s)
+# Visualize the results
+for individual in individuals:
+  print(individual)
 
 
 
 ##2) SPARQL
 q2 = prepareQuery('''
-  SELECT DISTINCT ?s
-  WHERE {
-    {?s rdf:type ns:Person}
-    UNION
-    {
-     ?sub rdfs:subClassOf* ns:Person .
-     ?s  rdf:type ?sub
-    }
+  SELECT DISTINCT ?s WHERE {
+    ?s rdf:type ?subClass.
+    ?subClass rdfs:subClassOf* ns:Person.
   }
   ''',
-  initNs = { "ns": ns, "rdf": RDF}
-  )
+  initNs = {"rdfs":RDFS, "ns":ns}
+)
 
-print("\nList of all individuals of Person (with subclasses)")
+print("\nList of all individuals of Person (with subclasses) SPARQL")
 for r in g.query(q2):
   print(r.s)
 
@@ -82,19 +94,20 @@ for r in g.query(q2):
 """
 
 ##1) RDFLib
-print("List of invidividuals of Person and their properties:")
-for s, p, o in g.triples((None, RDF.type, ns.Person)):
-  for sub, pre, obj in g.triples((s, None, None)):
-    print(sub, obj)
+print("List of invidividuals of Person and ANIMAL and their properties RDFlib:")
+results = []
+for s1, p1, o1 in g:
+  for s2, p2, o2 in g.triples((s1, RDF.type, None)):
+    if o2 == ns.Person or o2 == ns.Animal:
+      results.append((str(s1), str(p1), str(o1)))
+# Visualize the results
+for (s,p,o) in results:
+  print(s,p,o)
 
-print("\nList of invidividuals of Animal and their properties:")
-for s, p, o in g.triples((None, RDF.type, ns.Animal)):
-  for sub, pre, obj in g.triples((s, None, None)):
-    print(sub, obj)
 
 ##2) SPARQL
 q3 = prepareQuery('''
-  SELECT DISTINCT ?s ?y
+  SELECT DISTINCT ?s ?p ?y
   WHERE {
     {?s  rdf:type ns:Person.
     ?s ?p ?y
@@ -110,9 +123,9 @@ q3 = prepareQuery('''
   initNs = { "ns": ns, "rdf": RDF}
   )
 
-print("\nList of all individuals and properties of Person and Animal ")
+print("\nList of all individuals and properties of Person and Animal SPARQL")
 for r in g.query(q3):
-  print(r.s,r.y)
+  print(r.s,r.p,r.y)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
