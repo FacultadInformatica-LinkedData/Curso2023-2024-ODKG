@@ -30,19 +30,26 @@ ns = Namespace("http://somewhere#")
 print("sparql query")
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject RDFS:subClassOf ns:LivingThing.
+    ?Subject RDFS:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = { "RDFS": RDFS, "ns":ns}
 )
 
-# Visualize the results
 for r in g.query(q1):
   print(r.Subject)
 
 print("RDFLIB")
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(s)
+subclasses = set()
+
+def find_subclasses(class_uri):
+    for subclass in g.subjects(RDFS.subClassOf, class_uri):
+        subclasses.add(subclass)
+        find_subclasses(subclass)
+find_subclasses(ns.LivingThing)
+
+for subclass in subclasses:
+    print(subclass)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -54,45 +61,42 @@ ns = Namespace("http://somewhere#")
 
 print("sparql query")
 q2 = prepareQuery('''
-   SELECT  ?Subject ?Individual  WHERE {
-    ?Subject RDFS:subClassOf* ns:Person.
-  ?Individual RDF:type ?Subject.
+  SELECT ?Individual WHERE {
+    ?Individual rdf:type/rdfs:subClassOf* ns:Person.
   }
   ''',
-  initNs = { "RDFS": RDFS,
-            "RDF": RDF,
-             "ns":ns}
+  initNs = { "rdf": RDF, "rdfs":RDFS, "ns": ns}
 )
-#Visualize the results
 
 for r in g.query(q2):
   print(r.Individual)
 
 print("RDFLIB")
-for s, p, o in g.triples((None, RDF.type, ns.Person)):
+for s,p,o in g.triples((None, RDF.type , ns.Person)):
   print(s)
-
-for s1, p1, o1 in g.triples((None, RDFS.subClassOf, ns.Person)):
-  for s2, p2, o2 in g.triples((None, RDF.type, s1)):
-    print(s2)
+for s,p,o in g.triples((None, RDFS.subClassOf , ns.Person)):
+  for s1, p1, o1 in g.triples((None, RDF.type, s)):
+    print(s1)
 
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
 """
 
 # TO DO
+from rdflib.plugins.sparql import prepareQuery
 print("Sparql query")
 q3 = prepareQuery('''
-  SELECT  ?Individual ?Property WHERE {
-    ?Individual ?Property ?value
+  SELECT ?Subject ?Property WHERE {
     {
-    ?Subject RDFS:subClassOf ns:Person.
-  ?Individual RDF:type ?Subject.
-  }  UNION
+    ?Subject RDF:type ns:Person.
+    ?Subject ?Property ?Value
+    }
+  UNION
   {
-    ?Subject RDFS:subClassOf* ns:Animal.
-  ?Individual RDF:type ?Subject.
-  }}
+    ?Subject RDF:type/RDFS:subClassOf* ns:Animal.
+    ?Subject ?Property ?Value
+  }
+  }
   ''',
   initNs = { "RDFS": RDFS,
             "RDF": RDF,
@@ -101,7 +105,7 @@ q3 = prepareQuery('''
 
 #Visualize the results
 for r in g.query(q3):
-  print(r.Individual, r.Property)
+  print(r.Subject, r.Property)
 
 print("RDFLIB")
 for s, p, o in g.triples((None, RDF.type, ns.Person)):
@@ -114,13 +118,14 @@ for s2, p2, o2 in g.triples((None, RDF.type, ns.Animal)):
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
 # TO DO
+print("Sparql query")
 from rdflib.plugins.sparql import prepareQuery
 
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 q4 = prepareQuery('''
-  SELECT ?Subject ?Name WHERE {
+   SELECT ?Subject ?Name WHERE {
     ?Subject FOAF:knows ?RockySmith.
     ?Subject vcard:Given ?Name.
   }
@@ -131,15 +136,37 @@ q4 = prepareQuery('''
 for r in g.query(q4):
   print(r.Name)
 
-for s, p, o in g.triples((None, FOAF.knows, ns.RockySmith)):
-  for s1, p1, o1 in g.triples((None, vcard.Given, s)):
-    print(s1)
+
+print("RDFLIB")
+from rdflib import Namespace, RDF, RDFS
+from rdflib.namespace import FOAF
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
+
+persons = []
+def find_persons(tclass):
+    for s, p, o in g.triples((None, RDF.type, tclass)):
+        persons.append(s)
+    for s, p, o in g.triples((None, RDFS.subClassOf, tclass)):
+        find_persons(s)
+find_persons(ns.Person)
+
+knows = []
+for pe in persons:
+    for s, p, o in g.triples((pe, FOAF.knows, ns.RockySmith)):
+        knows.append(pe)
+for k in knows:
+    for s, p, o in g.triples((k, VCARD.FN, None)):
+      knows[knows.index(k)] = o
+
+for k in knows:
+  print(k)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
 from rdflib.plugins.sparql import prepareQuery
 
+print("Sparql query")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 ns = Namespace("http://somewhere#")
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
@@ -155,7 +182,15 @@ q5 = prepareQuery('''
   ''',
   initNs = {"foaf":FOAF}
 )
-
-#Visualize the results
 for r in g.query(q5):
   print(r.Subject)
+
+print("RDFLIB")
+from collections import defaultdict
+
+knows_count = defaultdict(int)
+for s, p, o in g.triples((None, FOAF.knows, None)):
+    knows_count[s] += 1
+for entity, count in knows_count.items():
+    if count >= 2:
+        print(entity)
