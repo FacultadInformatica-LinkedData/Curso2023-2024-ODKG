@@ -82,10 +82,10 @@ for s, p, o in g:
 
 vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
-g.add((jane_smith, vcard.fullName, Literal("Jane Smith")))
-g.add((jane_smith, vcard.givenName, Literal("Jane")))
-g.add((jane_smith, vcard.familyName, Literal("Smith")))
-g.add((jane_smith, vcard.email, Literal("jane.smith@example.com")))
+g.add((jane_smith, vcard.FN, Literal("Jane Smith")))
+g.add((jane_smith, vcard.Given, Literal("Jane")))
+g.add((jane_smith, vcard.Family, Literal("Smith")))
+g.add((jane_smith, vcard.EMAIL, Literal("jane.smith@example.com")))
 # Visualize the results
 for s, p, o in g:
   print(s, p, o)
