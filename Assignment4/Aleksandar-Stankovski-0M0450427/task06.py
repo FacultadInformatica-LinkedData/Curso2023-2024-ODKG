@@ -52,9 +52,9 @@ for s, p, o in g:
 # TO DO
 # Visualize the results
 VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-resource = (janeURI, VCARD.email, Literal("smith.jane@gmail.com"))
+resource = (janeURI, VCARD.Email, Literal("smith.jane@gmail.com"))
 g.add(resource)
-resource = (janeURI, VCARD.fn, Literal("Jane Smith"))
+resource = (janeURI, VCARD.FN, Literal("Jane Smith"))
 g.add(resource)
 resource = (janeURI, VCARD.Given, Literal("Sanchez"))
 g.add(resource)
