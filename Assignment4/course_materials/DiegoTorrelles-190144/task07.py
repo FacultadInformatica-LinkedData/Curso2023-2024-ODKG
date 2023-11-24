@@ -9,67 +9,102 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
+
+
 !pip install rdflib
-github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
+github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
 from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS,FOAF,XSD
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
-g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
+g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0/"), override=False)
 g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 
 """**TASK 7.1: List all subclasses of "Person" with RDFLib and SPARQL**"""
 
-# TO DO
+#Sparql
 from rdflib.plugins.sparql import prepareQuery
 
-
-VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
-NS = Namespace("http://somewhere#")
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
+ns = Namespace("http://somewhere#")
 
 q1 = prepareQuery('''
   SELECT ?subClass WHERE {
-    ?subClass rdfs:subClassOf ns:LivingThing.
+    ?subClass rdfs:subClassOf+ ns:LivingThing.
   }
   ''',
-  initNs = { "vcard": VCARD, "rdfs":RDFS, "ns":NS}
+  initNs = {"rdfs":RDFS, "ns":ns}
 )
 
 for r in g.query(q1):
-  print(r)
+  print(r.subClass)
+
+#RDFLib
+
+res = set()
+def func1(name):
+
+  for s,p,o in g.triples((None,RDFS.subClassOf,name)):
+    res.add(s)
+    func1(s)
+
+  return
+
+
+func1(ns.LivingThing)
+
+for item in res:
+    print(item)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
 """
 
-# TO DO
+#Sparql
 q2 = prepareQuery('''
-  SELECT
+  SELECT Distinct
     ?Subject
   WHERE {
     {
       ?Subject rdf:type ns:Person.
     } UNION{
-      ?subClass rdfs:subClassOf ns:Person.
+      ?subClass rdfs:subClassOf+ ns:Person.
       ?Subject rdf:type ?subClass
     }
   }
   ''',
-  initNs = { "rdfs":RDFS, "ns":NS, "rdf":RDF}
+  initNs = { "rdfs":RDFS, "ns":ns, "rdf":RDF}
 )
-
-
 for r in g.query(q2):
   print(r)
+
+#RDFLib
+
+personsType = set()
+def func2(name):
+
+
+  for s,p,o in g.triples((None,RDFS.subClassOf,name)):
+    personsType.add(s)
+    func2(s)
+
+  return
+
+personsType.add(ns.Person)
+func2(ns.Person)
+
+for item in personsType:
+  for s,p,o in g.triples((None,RDF.type,item)):
+    print(s)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 
 """
 
-# TO DO
+#Sparql
 q3 = prepareQuery('''
   SELECT
     ?Subject ?Properties ?Class
@@ -84,9 +119,115 @@ q3 = prepareQuery('''
     }
   }
   ''',
-  initNs = { "rdfs":RDFS, "ns":NS, "rdf":RDF}
+  initNs = { "rdfs":RDFS, "ns":ns, "rdf":RDF}
 )
 
 
 for r in g.query(q3):
   print(r)
+
+#RDFlib
+
+personsType = set()
+def func2(name):
+
+
+  for s,p,o in g.triples((None,RDFS.subClassOf,name)):
+    personsType.add(s)
+    func2(s)
+
+  return
+
+personsType.add(ns.Person)
+func2(ns.Person)
+
+persons = set()
+
+for item in personsType:
+  for s,p,o in g.triples((None,RDF.type,item)):
+    persons.add(s)
+
+for item in persons:
+  for s,p,o in g.triples((s,None,None)):
+    print(s,p, o)
+
+"""**TASK 7.4:  List the name of the persons who know Rocky**"""
+
+#Sparql
+
+q4 = prepareQuery('''
+    SELECT DISTINCT ?person
+    WHERE {
+
+        ?person foaf:knows ?rocks.
+
+        ?rocks vcard:FN ?name
+    }
+    ''',
+    initNs={"rdf": RDF, "rdfs": RDFS, "ns": ns, "foaf": FOAF, "vcard": VCARD}
+)
+# See Results
+for r in g.query(q4,initBindings={'?name':Literal("Rocky Smith",datatype=XSD.string)}):
+    print(r)
+
+#RDFLIB
+
+
+personsRocky = set()
+def func4():
+  uri = "hola"
+
+  for s,p,o in g.triples((None,VCARD.FN,Literal("Rocky Smith",datatype=XSD.string))):
+    uri = s
+
+
+  for s,p,o in g.triples((None,FOAF.knows,s)):
+    personsRocky.add(s)
+  return
+
+func4()
+
+for item in personsRocky:
+  print(item)
+
+"""Task 7.5: List the entities who know at least two other entities in the graph"""
+
+#Sparql
+
+q5 = prepareQuery('''
+    SELECT DISTINCT  ?entity
+    WHERE {
+      ?entity foaf:knows ?ent1 .
+      ?entity foaf:knows ?ent2 .
+      FILTER (?ent1 != ?ent2)
+    }
+    ''',
+    initNs={"rdf": RDF, "rdfs": RDFS, "ns": ns, "foaf":FOAF}
+)
+for res in g.query(q5):
+  print(res.entity)
+
+#RDFlib
+
+prueba = {}
+
+
+lista = []
+def func5():
+
+  for s,p,o in g.triples((None,FOAF.knows,None)):
+    if s in prueba:
+      prueba[s].add(o)
+
+    else:
+      prueba[s] = set()
+      prueba[s].add(o)
+
+  for key,value in prueba.items():
+    if len(value) >=2:
+      lista.append(key)
+
+func5()
+
+for res in lista:
+  print(res)

@@ -15,7 +15,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
 
 from rdflib import Graph, Namespace, Literal
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS,FOAF
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
 g.namespace_manager.bind('vcard', Namespace("http://www.w3.org/2001/vcard-rdf/3.0#"), override=False)
@@ -69,11 +69,24 @@ g.add((ns.Smith, vcard.Family, Literal("Smith")))
 for s, p, o in g:
   print(s,p,o)
 
-"""**TASK 6.5: Add UPM as the university where John Smith works**"""
+"""**TASK 6.5: Add UPM as the university where John Smith works**
+
+
+
+"""
 
 # TO DO
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, vcard.Works, ns.UPM))
+g.add((ns.JohnSmith, FOAF.workplaceHomepage, ns.UPM))
+# Visualize the results
+for s, p, o in g:
+  print(s,p,o)
+
+"""**Task 6.6: Add that Jown knows Jane using the FOAF vocabulary**
+
+"""
+
+g.add((ns.JohnSmith,FOAF.knows,ns.JaneSmith))
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
