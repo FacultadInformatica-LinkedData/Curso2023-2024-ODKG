@@ -30,22 +30,29 @@ for s, p, o in g2:
 from rdflib import Graph, Namespace, RDF
 from rdflib.namespace import OWL
 from rdflib import URIRef
+from rdflib.plugins.sparql import prepareQuery
 
+VCARD = Namespace('http://www.w3.org/2001/vcard-rdf/3.0#')
 
-uri1 = "http://data.four.org/#0005"
-uri2 = "http://data.four.org/#0003"
-uri3 = "http://data.four.org/#0001"
+q1 = prepareQuery('''
+SELECT ?person ?given ?family WHERE{
+  ?person VCARD:Given ?given.
+  ?person VCARD:Family ?family
+}
+''',
+    initNs={'VCARD': VCARD}
+)
 
-# Convierte la URI en un término URIRef
-ns1 = URIRef(uri1)
-ns2 = URIRef(uri2)
-ns3 = URIRef(uri3)
+graph1 = g1.query(q1)
+graph2 = g2.query(q1)
+for i in graph1:
+  for j in graph2:
+    if i[1] == j[1] and i[2] == j[2]:
+      g3.add((i[0],OWL.sameAs,j[0]))
+      break
 
-ns = Namespace("http://somewhere#")
-
-g3.add((ns.JohnDoe, OWL.sameAs, ns1))
-g3.add((ns.HarryPotter, OWL.sameAs, ns2))
-g3.add((ns.SaraJones, OWL.sameAs, ns3))
+for s,p,o in g3:
+  print(s,p,o)
 
 
 for s, p, o in g3:
