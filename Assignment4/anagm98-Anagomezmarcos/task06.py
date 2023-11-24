@@ -68,6 +68,7 @@ family = Literal("Jane")
 g.add((idPersona, vcard.FN, fullName))
 g.add((idPersona, vcard.Given, given))
 g.add((idPersona, vcard.Family, family))
+g.add((ns.JaneSmith, vcard.EMAIL, Literal("janesmith@google.com", datatype=XSD.string)))
 
 # Visualize the results
 for s, p, o in g.triples((ns.JaneSmith, None, None)):
@@ -76,12 +77,9 @@ for s, p, o in g.triples((ns.JaneSmith, None, None)):
 """**TASK 6.5: Add UPM as the university where John Smith works**"""
 
 # TO DO
-idUniversidad = URIRef(ns["UPM"])
-idPersona2 = URIRef(ns["JohnSmith"])
+g.add((ns.UPM, RDF.type, ns.University))
+g.add((ns.JohnSmith, ns.worksAt, ns.UPM))
 
-g.add((idUniversidad, RDF.type, ns.University))
-g.add((idUniversidad, vcard.FN, Literal("UPM")))
-g.add((idPersona2, vcard.Work, idUniversidad))
 # Visualize the results
 for s, p, o in g.triples((ns.JohnSmith, None, None)):
   print(s,p,o)

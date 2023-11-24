@@ -28,8 +28,12 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 from rdflib.plugins.sparql import prepareQuery
 ns = NameSpace("http://somewhere#")
 
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
-  print(s, p, o)
+subclases[]
+def list_subclasses(x):
+  for s, p, o in g.triples((None, RDFS.subClassOf, x)):
+    subclasses.append(s)
+    list_subclasses(s)
+    print(s, p, o)
 
 q1 = prepareQuery('''
 SELECT ?subclass
@@ -52,9 +56,9 @@ for r in g.query(q1):
 for s, p, o in g.triples((None, RDF.type, ns.Person))
 print(s)
 
-for s, p, o in g.triples((None, RDFS.subClassOf, ns.Person)):
-  for x, y, z in g.triples((None, RDF.type, s)):
-    print(x)
+for s in g.triples((None, RDFS.subClassOf, ns.Person)):
+  for y in g.triples((None, RDF.type, s[0])):
+    print(y[0])
 
 q2 = prepareQuery('''
     SELECT ?Person
@@ -77,10 +81,13 @@ print(r)
 """
 
 # TO DO
-for s, p, o in g:
-    if (s, RDF.type, ns.Person) in g or (s, RDF.type, ns.Animal) in g:
-        print(s, p, o)
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+    for x,y,z in g.triples((s, None, None)):
+        print(x, y)
 
+for s,p,o in g.triples((None, RDF.type, ns.Animal)):
+    for x,y,z in g.triples((s, None, None)):
+        print(x, y)
 
 q3 = prepareQuery('''
   SELECT ?individual ?property ?value
@@ -104,6 +111,14 @@ for s, p, o in g.triples((None, ns.knows, ns.Rocky)):
     name = next(g.objects(s, FOAF.name), None)
     print(name)
 
+q4 = prepareQuery('''
+  SELECT ?s WHERE { 
+    ?s FOAF:knows ns:RockySmith . 
+  }
+  ''',
+  initNs = {"FOAF":FOAF, "ns": ns}
+)
+
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
 # TO DO
@@ -120,3 +135,17 @@ for s, p, o in g.triples((None, ns.knows, None)):
 for entity, countF in count.items():
     if countF >= 2:
         print(entity)
+
+q5 = prepareQuery(
+    """
+    SELECT ?person
+    WHERE {
+        ?person foaf:knows ?p1 .
+        ?person foaf:knows ?p2 .
+        FILTER (?p1 != ?p2)
+    }
+    GROUP BY ?person
+    HAVING (COUNT(?p1) >= 2)
+    """,
+    initNs={"foaf": FOAF}
+)
