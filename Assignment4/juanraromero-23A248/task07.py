@@ -40,7 +40,7 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
 print("SPARQL:")
 q1 = prepareQuery('''
   SELECT ?subClass WHERE {
-    ?subClass rdfs:subClassOf ns:LivingThing.
+    ?subClass rdfs:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = { "rdfs": RDFS, "ns": ns}
@@ -75,7 +75,7 @@ q2 = prepareQuery('''
     }
     UNION
     { ?individual rdf:type ?Class.
-    ?Class rdfs:subClassOf ns:Person.
+    ?Class rdfs:subClassOf* ns:Person.
     }
   }
   ''',
@@ -129,6 +129,7 @@ for r in g.query(q3):
 # Visualize the results
 from rdflib import FOAF
 ns = Namespace("http://somewhere#")
+VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0#")
 
 ################################################################
 print("RDF")
@@ -138,11 +139,13 @@ for s,p,o in g.triples((None, FOAF.knows, ns.RockySmith)):
 ################################################################
 print("SPARQL")
 q4 = prepareQuery('''
-  SELECT ?person{
-    ?person foaf:knows ns:RockySmith.
-  }
+  SELECT DISTINCT ?person ?name
+    WHERE {
+        ?person foaf:knows ns:RockySmith.
+        ?person vcard:Given ?name
+    }
   ''',
-  initNs = { "rdfs": RDFS, "rdf":RDF, "ns": ns, "foaf":FOAF}
+  initNs = { "rdfs": RDFS, "rdf":RDF, "ns": ns, "foaf":FOAF, "vcard": VCARD}
 )
 
 for r in g.query(q4):
