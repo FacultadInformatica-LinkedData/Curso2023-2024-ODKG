@@ -71,7 +71,7 @@ for s, p, o in g.triples((ns.JaneSmith,None,None)):
 
 # TO DO
 g.add((ns.UPM, RDF.type, ns.University))
-g.add((ns.JohnSmith, VCARD.WorkPlace, ns.UPM))
+g.add((ns.JohnSmith, VCARD.Work, ns.UPM))
 # Visualize the results
 for s, p, o in g.triples((ns.JohnSmith,None,None)):
   print(s,p,o)

@@ -29,7 +29,7 @@ NS = Namespace("http://somewhere#")
 
 q1 = prepareQuery('''
   SELECT ?subclass WHERE {
-    ?subclass rdfs:subClassOf ns:LivingThing.
+    ?subclass rdfs:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = {"rdfs":RDFS, "ns":NS}
@@ -38,6 +38,11 @@ q1 = prepareQuery('''
 # Visualize the results
 for r in g.query(q1):
   print(r.subclass)
+
+print(g.serialize(format="ttl"))
+
+for subject, _, _ in g.triples((None, RDFS.subClassOf*"*", NS.LivingThing)):
+    print(subject)
 
 """**TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 
@@ -56,17 +61,27 @@ q2 = prepareQuery('''
 for r in g.query(q2):
   print(r.individual)
 
+for subjectType, _, _ in g.triples((None, RDFS.subClassOf*"*", NS.Person)):
+   for subject, _, _ in g.triples((None, RDF.type, subjectType)):
+      print(subject)
+
 """**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
 
 """
 
 # TO DO
 q3 = prepareQuery('''
-  SELECT ?individual ?thing ?prop ?clas WHERE {
-      ?individual rdf:type ?thing.
-      ?individual ?prop ?clas
-      FILTER(?thing = ns:Person || ?thing = ns:Animal)
-  }
+  SELECT ?individual ?prop ?clas
+    WHERE {
+        {
+        ?individual rdf:type ns:Person .
+        }
+        UNION
+        {
+        ?individual rdf:type ns:Animal.
+        }
+        ?individual ?prop ?clas
+    }
   ''',
   initNs = {"ns": NS , "rdf": RDF}
 
@@ -74,7 +89,12 @@ q3 = prepareQuery('''
 
 # Visualize the results
 for r in g.query(q3):
-  print(r.individual, r.thing, r.prop, r.clas)
+  print(r.individual, r.prop, r.clas)
+
+for individual, _, _ in g.triples((None, RDF.type, NS.Person)):
+    print(individual)
+for individual, property, _ in g.triples((None, None, NS.Animal)):
+    print(individual)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
 
@@ -83,17 +103,23 @@ VCARD = Namespace("http://www.w3.org/2001/vcard-rdf/3.0")
 from rdflib.namespace import FOAF
 
 q4 = prepareQuery('''
-    SELECT DISTINCT ?person
+    SELECT ?value
     WHERE {
-       ?person foaf:knows ns:RockySmith .
+        ?individual rdf:type/rdfs:subClassOf* ns:Person.
+        ?individual foaf:knows ns:RockySmith .
+        ?individual vcard:FN ?value.
     }
     ''',
-    initNs = {'ns': NS, 'foaf': FOAF}
+    initNs = {"rdf": RDF,"rdfs": RDFS, 'ns': NS, 'foaf': FOAF, 'vcard': VCARD}
 )
 
 # Visualize the results
 for r in g.query(q4):
-    print(r.person)
+     print(r.value)
+
+for individual, _, _ in g.triples((None, FOAF.knows, NS.RockySmith)):
+  for _, _, name in g.triples((individual, VCARD.FN, None)):
+    print(name)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
@@ -113,3 +139,15 @@ q5 = prepareQuery('''
 # Visualize the results
 for r in g.query(q5):
   print(r.entity)
+
+entity_counts = {}
+
+for subject, _, _ in g.triples((None, FOAF.knows, None)):
+    if subject in entity_counts:
+        entity_counts[subject] += 1
+    else:
+        entity_counts[subject] = 1
+
+entities_with_at_least_two_knows = [entity for entity, count in entity_counts.items() if count >= 2]
+for entity in entities_with_at_least_two_knows:
+    print(entity)
