@@ -75,8 +75,10 @@ for individual in individuals:
 
 
 
+
 ##2) SPARQL
 q2 = prepareQuery('''
+
   SELECT DISTINCT ?s WHERE {
     ?s rdf:type ?subClass.
     ?subClass rdfs:subClassOf* ns:Person.
@@ -94,6 +96,7 @@ for r in g.query(q2):
 """
 
 ##1) RDFLib
+
 print("List of invidividuals of Person and ANIMAL and their properties RDFlib:")
 results = []
 for s1, p1, o1 in g:
@@ -122,6 +125,7 @@ q3 = prepareQuery('''
   ''',
   initNs = { "ns": ns, "rdf": RDF}
   )
+
 
 print("\nList of all individuals and properties of Person and Animal SPARQL")
 for r in g.query(q3):
