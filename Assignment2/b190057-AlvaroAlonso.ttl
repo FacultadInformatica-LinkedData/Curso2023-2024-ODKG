@@ -1,0 +1,12 @@
+@prefix : <http://example.org#> .
+
+:Class01 :includes :Sensor029, :Computer101 .
+
+:Sensor029 :hasMeasurement :Measurement8401 .
+
+:Measurement8401 :hasTemperature 29 ;
+                 :atTime "2010-06-12T12:00:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+:Computer101 :hasOwner :User10A .
+
+:User10A :hasName "Pedro" .
