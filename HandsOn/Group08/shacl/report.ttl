@@ -1,0 +1,23 @@
+@prefix schema: <https://schema.org/> .
+@prefix rr:    <http://www.w3.org/ns/r2rml#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix resource: <http://www.semanticweb.org/upm/opendata/group08/resource/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix afn:   <http://jena.apache.org/ARQ/function#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns2:   <https://dbpedia.org/ontology/> .
+@prefix ns1:   <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix dbo:   <https://dbpedia.org/ontology/> .
+@prefix rml:   <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix ql:    <http://semweb.mmlab.be/ns/ql#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix ontology: <http://www.semanticweb.org/upm/opendata/group08/ontology/UniversityInformation#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+[ a            sh:ValidationReport ;
+  <http://shacl-play.sparna.fr/ontology#hasMatched>
+          true ;
+  sh:conforms  true
+] .

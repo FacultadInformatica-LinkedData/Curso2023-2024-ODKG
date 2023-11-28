@@ -1,0 +1,1360 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "id_barrio_local",
+    "description": "Remove column id_barrio_local"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_ndp_edificio",
+    "description": "Remove column id_ndp_edificio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_clase_ndp_edificio",
+    "description": "Remove column id_clase_ndp_edificio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_vial_edificio",
+    "description": "Remove column id_vial_edificio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_edificio",
+    "description": "Remove column nom_edificio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_tipo_acceso_local",
+    "description": "Remove column id_tipo_acceso_local"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "mesas_ra",
+    "description": "Remove column mesas_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "sillas_ra",
+    "description": "Remove column sillas_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "mesas_aux_es",
+    "description": "Remove column mesas_aux_es"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "mesas_aux_ra",
+    "description": "Remove column mesas_aux_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_fin_VS_ra",
+    "description": "Remove column hora_fin_VS_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_ini_VS_ra",
+    "description": "Remove column hora_ini_VS_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_fin_LJ_ra",
+    "description": "Remove column hora_fin_LJ_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_ini_LJ_ra",
+    "description": "Remove column hora_ini_LJ_ra"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_fin_LJ_es",
+    "description": "Remove column hora_fin_LJ_es"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "hora_ini_LJ_es",
+    "description": "Remove column hora_ini_LJ_es"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cal_terraza",
+    "description": "Remove column cal_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Superficie_RA",
+    "description": "Remove column Superficie_RA"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_local_agrupado",
+    "description": "Remove column id_local_agrupado"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "coordenada_x_agrupacion",
+    "description": "Remove column coordenada_x_agrupacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "coordenada_y_agrupacion",
+    "description": "Remove column coordenada_y_agrupacion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Escalera",
+    "description": "Remove column Escalera"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_situacion_local",
+    "description": "Remove column id_situacion_local"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "desc_tipo_acceso_local",
+    "description": "Remove column desc_tipo_acceso_local"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "secuencial_local_PC",
+    "description": "Remove column secuencial_local_PC"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_planta_agrupado",
+    "description": "Remove column id_planta_agrupado"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_periodo_terraza",
+    "description": "Remove column id_periodo_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "desc_periodo_terraza",
+    "description": "Remove column desc_periodo_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_situacion_terraza",
+    "description": "Remove column id_situacion_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "desc_situacion_terraza",
+    "description": "Remove column desc_situacion_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Fecha_confir_ult_decreto_resol",
+    "description": "Remove column Fecha_confir_ult_decreto_resol"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_clase_ndp_terraza",
+    "description": "Remove column id_clase_ndp_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "id_ndp_terraza",
+    "description": "Remove column id_ndp_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ID_VIAL",
+    "description": "Remove column ID_VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESC_CLASE",
+    "description": "Remove column DESC_CLASE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESC_NOMBRE",
+    "description": "Remove column DESC_NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "nom_terraza",
+    "description": "Remove column nom_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "num_terraza",
+    "description": "Remove column num_terraza"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "desc_ubicacion_terraza",
+    "description": "Remove column desc_ubicacion_terraza"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "id_distrito_local",
+    "newColumnName": "id_distrito",
+    "description": "Rename column id_distrito_local to id_distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "desc_distrito_local",
+    "newColumnName": "Distrito",
+    "description": "Rename column desc_distrito_local to Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "desc_barrio_local",
+    "newColumnName": "Barrio",
+    "description": "Rename column desc_barrio_local to Barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "clase_vial_edificio",
+    "newColumnName": "TipoVia",
+    "description": "Rename column clase_vial_edificio to TipoVia"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "desc_vial_edificio",
+    "newColumnName": "nombreCalle",
+    "description": "Rename column desc_vial_edificio to nombreCalle"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TipoVia",
+    "newColumnName": "tipoVia",
+    "description": "Rename column TipoVia to tipoVia"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Barrio",
+    "newColumnName": "barrio",
+    "description": "Rename column Barrio to barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Distrito",
+    "newColumnName": "distrito",
+    "description": "Rename column Distrito to distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "num_edificio",
+    "newColumnName": "portal",
+    "description": "Rename column num_edificio to portal"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordenada_x_local",
+    "newColumnName": "coordenadaX",
+    "description": "Rename column coordenada_x_local to coordenadaX"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordenada_y_local",
+    "newColumnName": "coordenadaY",
+    "description": "Rename column coordenada_y_local to coordenadaY"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "desc_situacion_local",
+    "newColumnName": "situacion",
+    "description": "Rename column desc_situacion_local to situacion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Superficie_ES",
+    "newColumnName": "superficie",
+    "description": "Rename column Superficie_ES to superficie"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hora_ini_VS_es",
+    "newColumnName": "horaApertura",
+    "description": "Rename column hora_ini_VS_es to horaApertura"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hora_fin_VS_es",
+    "newColumnName": "horaCierre",
+    "description": "Rename column hora_fin_VS_es to horaCierre"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "mesas_es",
+    "newColumnName": "mesas",
+    "description": "Rename column mesas_es to mesas"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "sillas_es",
+    "newColumnName": "sillas",
+    "description": "Rename column sillas_es to sillas"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Cod_Postal",
+    "newColumnName": "CodPostal",
+    "description": "Rename column Cod_Postal to CodPostal"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "CodPostal",
+    "newColumnName": "codPostal",
+    "description": "Rename column CodPostal to codPostal"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "value.replace(\"`\",\"'\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rotulo using expression value.replace(\"`\",\"'\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TAO 3.6.9",
+          "TAO 369",
+          "TAO 3·6·9"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TAO 3.6.9"
+      },
+      {
+        "from": [
+          "BAR RESTAURANTE",
+          "BAR - RESTAURANTE",
+          "BAR- RESTAURANTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR RESTAURANTE"
+      },
+      {
+        "from": [
+          "100 MONTADITOS",
+          "100 MONTADITOS                                    "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "100 MONTADITOS"
+      },
+      {
+        "from": [
+          "RESTAURANTE CAZORLA",
+          "CAZORLA RESTAURANTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RESTAURANTE CAZORLA"
+      },
+      {
+        "from": [
+          "CAFETERIA CALERO CERVECERIA",
+          "CERVECERIA CALERO CAFETERIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA CALERO CERVECERIA"
+      },
+      {
+        "from": [
+          "LA TABERNITA DE DOMINGUEZ",
+          "LA TABERNITA DE DOMÍNGUEZ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA TABERNITA DE DOMINGUEZ"
+      },
+      {
+        "from": [
+          "MAS Q MENOS",
+          "MAS Q. MENOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MAS Q MENOS"
+      },
+      {
+        "from": [
+          "HELADERIA",
+          "HELADERÍA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HELADERIA"
+      },
+      {
+        "from": [
+          "KILOMETROS DE PIZZA",
+          "KILÓMETROS DE PIZZA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KILOMETROS DE PIZZA"
+      },
+      {
+        "from": [
+          "CHACIN",
+          "CHACÍN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHACIN"
+      },
+      {
+        "from": [
+          "BAR  LOS ARCOS",
+          "BAR LOS ARCOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR LOS ARCOS"
+      },
+      {
+        "from": [
+          "RESTAURANTE LIZARRAN",
+          "RESTAURANTE LIZARRÁN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RESTAURANTE LIZARRAN"
+      },
+      {
+        "from": [
+          "OLE TÚ",
+          "OLÉ TÚ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OLE TÚ"
+      },
+      {
+        "from": [
+          "BAR  AGUILERA",
+          "BAR AGUILERA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR AGUILERA"
+      },
+      {
+        "from": [
+          "BAR CAFETERIA",
+          "CAFETERÍA BAR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR CAFETERIA"
+      },
+      {
+        "from": [
+          "GINOS RISTORANTE",
+          "RISTORANTE GINOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GINOS RISTORANTE"
+      },
+      {
+        "from": [
+          "FOSTERS HOLLYWOOD",
+          "FOSTER'S HOLLYWOOD                                  "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOSTERS HOLLYWOOD"
+      },
+      {
+        "from": [
+          "BAR AVENIDA",
+          "BAR AVENIDA                                       "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR AVENIDA"
+      },
+      {
+        "from": [
+          "CERVECERIA RESTAURANTE",
+          "RESTAURANTE CERVECERIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CERVECERIA RESTAURANTE"
+      },
+      {
+        "from": [
+          "RESTAURANTE",
+          "RESTAURANTE                            "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RESTAURANTE"
+      },
+      {
+        "from": [
+          "QUEEN - FOOD AND MUSIC",
+          "QUEEN FOOD AND MUSIC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOOD AND MUSIC QUEEN "
+      },
+      {
+        "from": [
+          "LA TABERNA",
+          "LA  TABERNA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA TABERNA"
+      },
+      {
+        "from": [
+          "LAS  BRAVAS",
+          "LAS BRAVAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LAS BRAVAS"
+      },
+      {
+        "from": [
+          "STARBUCKS COFFEE",
+          "STARBUCKS  COFFEE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "STARBUCKS COFFEE"
+      },
+      {
+        "from": [
+          "BAR EL  ROCIO",
+          "BAR EL ROCIO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR EL ROCIO"
+      },
+      {
+        "from": [
+          "EL RINCÓN",
+          "EL RINCON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EL RINCON"
+      },
+      {
+        "from": [
+          "CERVECERIA BURGOS",
+          "BURGOS CERVECERIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CERVECERIA BURGOS"
+      },
+      {
+        "from": [
+          "JOSE LUIS",
+          "JOSE LUIS                                         "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "JOSE LUIS"
+      },
+      {
+        "from": [
+          "DONER KEBAP ANTEP",
+          "ANTEP DONER KEBAP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DONER KEBAP ANTEP"
+      },
+      {
+        "from": [
+          "RÓTULO NO INFORMADO",
+          "ROTULO NO INFORMADO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ROTULO NO INFORMADO"
+      },
+      {
+        "from": [
+          "SUBWAY",
+          "SUBWAY "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUBWAY"
+      },
+      {
+        "from": [
+          "DOMINO'S PIZZA",
+          "DOMINOS PIZZA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DOMINO'S PIZZA"
+      },
+      {
+        "from": [
+          "ROTULO",
+          "RÓTULO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ROTULO"
+      },
+      {
+        "from": [
+          "BAR MADRILES",
+          "MADRILES BAR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR MADRILES"
+      },
+      {
+        "from": [
+          "CAFETERIA",
+          "CAFETERÍA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA"
+      },
+      {
+        "from": [
+          "CAFETERIA BLANCO Y NEGRO CERVECERIA",
+          "CAFETERIA CERVECERÍA BLANCO Y NEGRO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA BLANCO Y NEGRO CERVECERIA"
+      },
+      {
+        "from": [
+          "VIENA CAPELLANES",
+          "VIENA CAPELLANES."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VIENA CAPELLANES"
+      },
+      {
+        "from": [
+          "TABERNA  LA MINA",
+          "TABERNA LA MINA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABERNA LA MINA"
+      },
+      {
+        "from": [
+          "LA MAQUINA",
+          "LA MÁQUINA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA MAQUINA"
+      },
+      {
+        "from": [
+          "ENSALADAS Y MAS",
+          "ENSALADAS Y MÁS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ENSALADAS Y MAS"
+      },
+      {
+        "from": [
+          "CAFETERIA CERVECERIA TORMES",
+          "CAFETERIA TORMES CERVECERIA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA CERVECERIA TORMES"
+      },
+      {
+        "from": [
+          "CERVECERIA 100 MONTADITOS",
+          "CERVECERÍA 100 MONTADITOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CERVECERIA 100 MONTADITOS"
+      },
+      {
+        "from": [
+          "LIZARRAN",
+          "LIZARRÁN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LIZARRAN"
+      },
+      {
+        "from": [
+          "VOLAPIE",
+          "VOLAPIÉ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VOLAPIE"
+      },
+      {
+        "from": [
+          "CAFETERIA NUMAR",
+          "CAFETERÍA NUMAR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA NUMAR"
+      },
+      {
+        "from": [
+          "POPEYES",
+          "POPEYES "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POPEYES"
+      },
+      {
+        "from": [
+          "CERVECERIA ALTO TAJO",
+          "CERVECERÍA ALTO TAJO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CERVECERIA ALTO TAJO"
+      },
+      {
+        "from": [
+          "DELINAS",
+          "DELINA'S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DELINAS"
+      },
+      {
+        "from": [
+          "SIN ROTULO",
+          "SIN RÓTULO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SIN ROTULO"
+      },
+      {
+        "from": [
+          "TATE'S",
+          "TATES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TATE'S"
+      },
+      {
+        "from": [
+          "HELADOS ITALIANOS PALAZZO",
+          "HELADOS PALAZZO ITALIANOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HELADOS ITALIANOS PALAZZO"
+      },
+      {
+        "from": [
+          "PANARIA",
+          "PANARIA "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PANARIA"
+      },
+      {
+        "from": [
+          "PIZZERIA DI CARLO",
+          "PIZZERÍA DI CARLO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PIZZERIA DI CARLO"
+      },
+      {
+        "from": [
+          "BAR EVA",
+          "BAR EVA                                           "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR EVA"
+      },
+      {
+        "from": [
+          "CAFETERIA-PASTELERIA-PANADERIA",
+          "CAFETERÍA-PASTELERÍA/PANADERÍA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFETERIA-PASTELERIA-PANADERIA"
+      },
+      {
+        "from": [
+          "BAR",
+          "BAR "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR"
+      },
+      {
+        "from": [
+          "DOMINO´S PIZZA",
+          "DOMINO S PIZZA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DOMINO'S PIZZA"
+      },
+      {
+        "from": [
+          "OVEN",
+          "ÔVEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OVEN"
+      },
+      {
+        "from": [
+          "PIZZERIA",
+          "PIZZERÍA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PIZZERIA"
+      },
+      {
+        "from": [
+          "LA MUCCA",
+          "LA MUCCA "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA MUCCA"
+      },
+      {
+        "from": [
+          "BAR-RESTAURANTE",
+          "BAR-RESTAURANTE                                   "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR-RESTAURANTE"
+      },
+      {
+        "from": [
+          "ALIMENTACION",
+          "ALIMENTACIÓN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ALIMENTACION"
+      },
+      {
+        "from": [
+          "LA CAÑERIA",
+          "LA CAÑERÍA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA CAÑERIA"
+      },
+      {
+        "from": [
+          "BAR LA TERRAZA",
+          "BAR LA TERRAZA "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BAR LA TERRAZA"
+      },
+      {
+        "from": [
+          "CAFE Y TE",
+          "CAFÉ Y TÉ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAFE Y TE"
+      }
+    ],
+    "description": "Mass edit cells in column rotulo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MCDONALD´S",
+          "MC DONALDS",
+          "MCDONALDS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MCDONALD'S"
+      },
+      {
+        "from": [
+          "FOSTER S HOLLYWOOD",
+          "FOSTERS HOLLYWOOD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOSTER'S HOLLYWOOD"
+      },
+      {
+        "from": [
+          "TGB THE GOOD BURGER",
+          "TGB-THE GOOD BURGER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TGB THE GOOD BURGER"
+      },
+      {
+        "from": [
+          "A GAIVOTIÑA II",
+          "A'GAIVOTIÑA II"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A GAIVOTIÑA II"
+      },
+      {
+        "from": [
+          "TONY ROMA'S",
+          "TONY ROMA´S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TONY ROMA'S"
+      }
+    ],
+    "description": "Mass edit cells in column rotulo"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rotulo using expression grel:value.replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rotulo using expression grel:value.replace('Á', 'A').replace('É', 'E').replace('Í', 'I').replace('Ó', 'O').replace('Ú', 'U')"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "rotulo",
+          "expression": "grel:value.contains(\"ROTULO\")",
+          "columnName": "rotulo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "rotulo",
+    "expression": "grel:if(value.contains(\"ROTULO\"), \"SIN ROTULO\", value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rotulo using expression grel:if(value.contains(\"ROTULO\"), \"SIN ROTULO\", value)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "distrito",
+    "newColumnName": "nombreDistrito",
+    "description": "Rename column distrito to nombreDistrito"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordenadaX",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column coordenadaX using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "coordenadaY",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column coordenadaY using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "portal",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column portal using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "codPostal",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column codPostal using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "superficie",
+    "expression": "grel:value.replace(\",\", \".\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column superficie using expression grel:value.replace(\",\", \".\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "mesas",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column mesas using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sillas",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sillas using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_terraza",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_terraza using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:cells[\"rotulo\"].value + \"-X\" + round(cells[\"coordenadaX\"].value) + \"Y-\" + round(cells[\"coordenadaY\"].value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:cells[\"rotulo\"].value + \"-X\" + round(cells[\"coordenadaX\"].value) + \"Y-\" + round(cells[\"coordenadaY\"].value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nombreDistrito",
+    "expression": "grel:value.replace(\"-\", \" - \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column nombreDistrito using expression grel:value.replace(\"-\", \" - \")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_terraza",
+    "expression": "grel:\"A\"+cells[\"superficie\"].value+\"_S\"+cells[\"sillas\"].value+\"_M\"+cells[\"mesas\"].value+\"_I\"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_terraza using expression grel:\"A\"+cells[\"superficie\"].value+\"_S\"+cells[\"sillas\"].value+\"_M\"+cells[\"mesas\"].value+\"_I\"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:forEach(cells[\"rotulo\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('') + \"-X\" + cells[\"coordenadaX\"].value.replace(\",\", \".\").toNumber().round().toString() + \"-Y\" + cells[\"coordenadaY\"].value.replace(\",\", \".\").toNumber().round().toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:forEach(cells[\"rotulo\"].value.split(/\\s|-/).join(' ').split(' '),v,v[0]).join('') + \"-X\" + cells[\"coordenadaX\"].value.replace(\",\", \".\").toNumber().round().toString() + \"-Y\" + cells[\"coordenadaY\"].value.replace(\",\", \".\").toNumber().round().toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_local",
+    "expression": "grel:value.replace(\"-\",\"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_local using expression grel:value.replace(\"-\",\"_\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nombreDistrito",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column nombreDistrito using expression grel:value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barrio",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column barrio using expression grel:value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tipoVia",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column tipoVia using expression grel:value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "nombreCalle",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column nombreCalle using expression grel:value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,3)).join(\"-\").replace(/-{2,}/, \"-\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id_distrito",
+    "expression": "grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id_distrito using expression grel:forEach(cells[\"nombreDistrito\"].value.split(\" \"),v,v.substring(0,5)).join(\"-\").replace(/-{2,}/, \"-\")"
+  }
+]

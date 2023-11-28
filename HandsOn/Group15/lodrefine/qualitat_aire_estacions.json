@@ -1,0 +1,136 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "District_Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q790344",
+        "name": "district of Barcelona"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column District_Name to type Q790344"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District_Name",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P1082",
+          "name": "population"
+        }
+      ]
+    },
+    "columnInsertIndex": 6,
+    "description": "Extend data at index 6 based on column District_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "population",
+    "newColumnName": "District_Population",
+    "description": "Rename column population to District_Population"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Neighbourhood_Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q75135432",
+        "name": "administrative quarter in Barcelona"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Neighbourhood_Name to type Q75135432"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Neighbourhood_Name",
+    "endpoint": "https://wikidata.reconci.link/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P2046",
+          "name": "area"
+        },
+        {
+          "id": "P1082",
+          "name": "population"
+        }
+      ]
+    },
+    "columnInsertIndex": 9,
+    "description": "Extend data at index 9 based on column Neighbourhood_Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "area",
+    "newColumnName": "Neighbourhood_Area",
+    "description": "Rename column area to Neighbourhood_Area"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "population",
+    "newColumnName": "Neighbourhood_Population",
+    "description": "Rename column population to Neighbourhood_Population"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "District_Name",
+    "expression": "grel:\"https://wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata_District",
+    "columnInsertIndex": 6,
+    "description": "Create column Wikidata_District at index 6 based on column District_Name using expression grel:\"https://wikidata.org/wiki/\" + cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Neighbourhood_Name",
+    "expression": "grel:\"https://wikidata.org/wiki/\" + cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata_Neighbourhood",
+    "columnInsertIndex": 10,
+    "description": "Create column Wikidata_Neighbourhood at index 10 based on column Neighbourhood_Name using expression grel:\"https://wikidata.org/wiki/\" + cell.recon.match.id"
+  }
+]

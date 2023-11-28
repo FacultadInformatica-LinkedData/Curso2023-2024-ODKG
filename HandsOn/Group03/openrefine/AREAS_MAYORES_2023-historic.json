@@ -1,0 +1,146 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "TOTAL_ELEM,N,10,0",
+    "description": "Remove column TOTAL_ELEM,N,10,0"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ESTADO,C,50",
+    "description": "Remove column ESTADO,C,50"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "INSTALLDAT,D",
+    "description": "Remove column INSTALLDAT,D"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTZONA,C,20",
+    "description": "Remove column MINTZONA,C,20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "TIPO,C,254",
+    "description": "Remove column TIPO,C,254"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTDISTRI,C,20",
+    "description": "Remove column MINTDISTRI,C,20"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTBARRIO,C,10",
+    "description": "Remove column MINTBARRIO,C,10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTTIPOVI,C,15",
+    "description": "Remove column MINTTIPOVI,C,15"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNOMBRE,C,254",
+    "description": "Remove column MINTNOMBRE,C,254"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNUMERO,C,25",
+    "description": "Remove column MINTNUMERO,C,25"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "MINTNDP,C,20",
+    "description": "Remove column MINTNDP,C,20"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "﻿MXASSETNUM,C,12",
+    "newColumnName": "ID_PARQUE",
+    "description": "Rename column ﻿MXASSETNUM,C,12 to ID_PARQUE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPTIO,C,105",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPTIO,C,105 using expression value.toUppercase()"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPTIO,C,105",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "MAYORES",
+    "regex": true,
+    "maxColumns": 0,
+    "description": "Split column DESCRIPTIO,C,105 by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "DESCRIPTIO,C,105 1",
+    "description": "Remove column DESCRIPTIO,C,105 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPTIO,C,105 2",
+    "expression": "grel:value.replace(/-/, '')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPTIO,C,105 2 using expression grel:value.replace(/-/, '')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DESCRIPTIO,C,105 2",
+    "expression": "grel:value.replace(/^\\s+/, '')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DESCRIPTIO,C,105 2 using expression grel:value.replace(/^\\s+/, '')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "DESCRIPTIO,C,105 2",
+    "newColumnName": "NOMBRE_PARQUE",
+    "description": "Rename column DESCRIPTIO,C,105 2 to NOMBRE_PARQUE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_PARQUE",
+    "newColumnName": "PARQUE",
+    "description": "Rename column NOMBRE_PARQUE to PARQUE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_DIS,C,25",
+    "newColumnName": "DISTRITO",
+    "description": "Rename column NOMBRE_DIS,C,25 to DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE_BAR,C,50",
+    "newColumnName": "BARRIO",
+    "description": "Rename column NOMBRE_BAR,C,50 to BARRIO"
+  }
+]
