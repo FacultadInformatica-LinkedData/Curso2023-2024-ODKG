@@ -1,0 +1,264 @@
+@prefix : <http://grupo12_open_data.org#> .
+@prefix datex: <http://datex.org/> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gp: <http://grupo12_open_data.org#> .
+@prefix mv: <http://schema.mobivoc.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org#> .
+
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>. 
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+@prefix clase2: <http://grupo12_open_data.es/lcc/ontology/parking#> .
+@prefix clase: <http://grupo12_open_data.es/lcc/resource#> .
+
+
+############################################# Parking Facility Resource#############################################
+
+clase2:ParkingFacility a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/parkingslot_updated_withlinks_final.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://grupo12_open_data.org#/resource/ParkingFacility/{id_parking}";
+    rr:class clase:ParkingFacility
+  ];
+
+#####datatype properties
+
+  rr:predicateObjectMap [
+    rr:predicate schema:identifier;
+    rr:objectMap [
+      rml:reference "id_parking";
+      rr:datatype xsd:string
+    ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate schema:name;
+    rr:objectMap [
+      rml:reference "name_parking";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:coordinate_location;
+    rr:objectMap [
+      rml:reference "coordinate_location";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:same_as_wikidata_Street;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_Street";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:additionalType;
+    rr:objectMap [
+      rml:reference "type_parking";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gp:average_price;
+    rr:objectMap [
+      rml:reference "average_price_parking";
+      rr:datatype xsd:decimal
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:numberOfParkingSpaces;
+    rr:objectMap [
+      rml:reference "number_spaces";
+      rr:datatype xsd:integer
+    ]
+  ];
+
+#####object properties
+
+  rr:predicateObjectMap [
+    rr:predicate clase:hasParkingSpace;
+    rr:objectMap [
+       rr:template "http://grupo12_open_data.org#/resource/ParkingSpace/{id_parking_space}";
+    ]
+  ];
+ rr:predicateObjectMap [
+    rr:predicate clase:hasOccupancy;
+    rr:objectMap [
+       rr:template "http://grupo12_open_data.org#/resource/ParkingOccupancy/{id_occupancy}";
+    ]
+  ];
+ rr:predicateObjectMap [
+    rr:predicate clase:hasDistrict;
+    rr:objectMap [
+       rr:template "http://grupo12_open_data.org#/resource/District/{district_code}";
+    ]
+  ].
+
+
+#############################################Parking Space resource#############################################
+
+clase2:ParkingSpace a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/parkingslot_updated_withlinks_final.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://grupo12_open_data.org#/resource/ParkingSpace/{id_parking_space}";
+    rr:class clase:ParkingSpace
+  ];
+
+#####datatype properties
+rr:predicateObjectMap [
+    rr:predicate clase:id_parking_space;
+    rr:objectMap [
+      rml:reference "id_parking_space";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gp:level;
+    rr:objectMap [
+      rml:reference "level";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate clase:end_concession;
+    rr:objectMap [
+      rml:reference "end_concession";
+      rr:datatype xsd:date
+    ]
+  ];
+
+
+#####object properties
+
+  rr:predicateObjectMap [
+    rr:predicate clase:hasPriceSpecification;
+    rr:objectMap [
+       rr:template "http://grupo12_open_data.org#/resource/PriceSpecification/{id_price}";
+    ]
+  ].
+
+
+#############################################Price Specification resource#############################################
+
+clase2:PriceSpecification a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/parkingslot_updated_withlinks_final.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://grupo12_open_data.org#/resource/PriceSpecification/{id_price}";
+    rr:class clase:PriceSpecification
+  ];
+
+#####datatype properties
+rr:predicateObjectMap [
+    rr:predicate clase:id_price;
+    rr:objectMap [
+      rml:reference "id_price";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gp:estimationDate;
+    rr:objectMap [
+      rml:reference "estimation_date";
+      rr:datatype xsd:date
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gp:estimated_price;
+    rr:objectMap [
+      rml:reference "estimated_price";
+      rr:datatype xsd:decimal
+    ]
+  ].
+
+#############################################District resource#############################################
+
+clase2:District a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/parkingslot_updated_withlinks_final.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://grupo12_open_data.org#/resource/District/{district_code}";
+    rr:class clase:District
+  ];
+
+#####datatype properties
+  rr:predicateObjectMap [
+    rr:predicate clase:district_code;
+    rr:objectMap [
+      rml:reference "district_code";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate gp:districtName;
+    rr:objectMap [
+      rml:reference "district_name";
+      rr:datatype xsd:string
+    ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate clase:same_as_wikidata_District;
+    rr:objectMap [
+      rml:reference "same_as_wikidata_District";
+      rr:datatype xsd:string
+    ]
+  ].
+
+#############################################Parking Occupancy resource#############################################
+
+clase2:ParkingOccupancy a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./csv/parkingslot_updated_withlinks_final.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://grupo12_open_data.org#/resource/ParkingOccupancy/{id_occupancy}";
+    rr:class clase:ParkingOccupancy
+  ];
+
+#####datatype properties
+rr:predicateObjectMap [
+    rr:predicate clase:id_occupancy;
+    rr:objectMap [
+      rml:reference "id_occupancy";
+      rr:datatype xsd:string
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate mv:rateOfOccupancy;
+    rr:objectMap [
+      rml:reference "rateOfOccupancy";
+      rr:datatype xsd:decimal
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:year;
+    rr:objectMap [
+      rml:reference "year";
+      rr:datatype xsd:integer
+    ]
+  ];
+rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:month;
+    rr:objectMap [
+      rml:reference "month";
+      rr:datatype xsd:integer
+    ]
+  ].

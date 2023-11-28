@@ -1,0 +1,49 @@
+@prefix ns: <http://RostockEVCharging.de/ontology/> .
+@prefix geo: <file:///home/schavez/chowlk/https//www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vcard: <http://www.owl-ontologies.com/vcard#> .
+
+
+ns:gertrudenplatz_2 a ns:ChargingStation ;
+    rdfs:label "Gertrudenplatz 2";
+    geo:lat "54.088244"^^xsd:float ;
+    geo:long "12.124536"^^xsd:float ;
+    ns:operating_mode "öffentlich" ;
+    ns:num_charging_points 2 ;
+    ns:type_charging_points "Typ 2 22 kW" ;
+    ns:cost "0,39 €/kWh, Grundgebühr 0,99 €" ;
+    ns:opening_hours "24/7" ;
+    vcard:hasURL <https://www.goingelectric.de/stromtankstellen/Deutschland/Rostock/Gertrudenplatz-Gertrudenplatz-2/19328/> ;
+    ns:house_number "2" ;
+    ns:street_name "Gertrudenplatz" ;
+    ns:postal_code "18057" ;
+    ns:accepted_cards 
+        ns:adac ,
+        ns:maingau ,
+        ns:plugsurfing ,
+        ns:stadtwerke ;
+    ns:locatedIn ns:kropeliner_tor_vorstadt;
+    ns:managed_by ns:stadtwerke_rostock_ag
+    .
+
+ns:stadtwerke_rostock_ag a ns:Operator;
+    rdfs:label "Stadtwerke Rostock AG".
+
+ns:adac a ns:ChargingCard;
+    rdfs:label "ADAC e-Charge".
+
+ns:maingau a ns:ChargingCard;
+    rdfs:label "EnBW mobility+".
+
+ns:plugsurfing a ns:ChargingCard;
+    rdfs:label "Plugsurfing".
+
+ns:stadtwerke a ns:ChargingCard;
+    rdfs:label "Stadtwerke Rostock".
+
+ns:kropeliner_tor_vorstadt a ns:Municipality;
+    rdfs:label "Kröpeliner-Tor-Vorstadt" .
+
+
+   

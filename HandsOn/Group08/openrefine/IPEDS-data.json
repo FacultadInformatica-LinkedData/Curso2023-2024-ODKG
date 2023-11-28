@@ -1,0 +1,946 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "Highest degree offered",
+    "description": "Remove column Highest degree offered"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ZIP code",
+    "description": "Remove column ZIP code"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "County name",
+    "description": "Remove column County name"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "year",
+    "description": "Remove column year"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Religious affiliation",
+    "description": "Remove column Religious affiliation"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Less than one year certificate",
+    "description": "Remove column Offers Less than one year certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers One but less than two years certificate",
+    "description": "Remove column Offers One but less than two years certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Associate's degree",
+    "description": "Remove column Offers Associate's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Two but less than 4 years certificate",
+    "description": "Remove column Offers Two but less than 4 years certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Bachelor's degree",
+    "description": "Remove column Offers Bachelor's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Postbaccalaureate certificate",
+    "description": "Remove column Offers Postbaccalaureate certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Master's degree",
+    "description": "Remove column Offers Master's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Post-master's certificate",
+    "description": "Remove column Offers Post-master's certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Doctor's degree - research/scholarship",
+    "description": "Remove column Offers Doctor's degree - research/scholarship"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Doctor's degree - professional practice",
+    "description": "Remove column Offers Doctor's degree - professional practice"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Doctor's degree - other",
+    "description": "Remove column Offers Doctor's degree - other"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Offers Other degree",
+    "description": "Remove column Offers Other degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Longitude location of institution",
+    "description": "Remove column Longitude location of institution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Latitude location of institution",
+    "description": "Remove column Latitude location of institution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen submitting SAT scores",
+    "description": "Remove column Percent of freshmen submitting SAT scores"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen submitting ACT scores",
+    "description": "Remove column Percent of freshmen submitting ACT scores"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Critical Reading 25th percentile score",
+    "description": "Remove column SAT Critical Reading 25th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Critical Reading 75th percentile score",
+    "description": "Remove column SAT Critical Reading 75th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Math 25th percentile score",
+    "description": "Remove column SAT Math 25th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Math 75th percentile score",
+    "description": "Remove column SAT Math 75th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Writing 25th percentile score",
+    "description": "Remove column SAT Writing 25th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "SAT Writing 75th percentile score",
+    "description": "Remove column SAT Writing 75th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACT Composite 25th percentile score",
+    "description": "Remove column ACT Composite 25th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ACT Composite 75th percentile score",
+    "description": "Remove column ACT Composite 75th percentile score"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated enrollment, total",
+    "description": "Remove column Estimated enrollment, total"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated enrollment, full time",
+    "description": "Remove column Estimated enrollment, full time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated enrollment, part time",
+    "description": "Remove column Estimated enrollment, part time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated undergraduate enrollment, total",
+    "description": "Remove column Estimated undergraduate enrollment, total"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated undergraduate enrollment, full time",
+    "description": "Remove column Estimated undergraduate enrollment, full time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated undergraduate enrollment, part time",
+    "description": "Remove column Estimated undergraduate enrollment, part time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated freshman undergraduate enrollment, total",
+    "description": "Remove column Estimated freshman undergraduate enrollment, total"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated freshman enrollment, full time",
+    "description": "Remove column Estimated freshman enrollment, full time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated freshman enrollment, part time",
+    "description": "Remove column Estimated freshman enrollment, part time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated graduate enrollment, total",
+    "description": "Remove column Estimated graduate enrollment, total"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated graduate enrollment, full time",
+    "description": "Remove column Estimated graduate enrollment, full time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Estimated graduate enrollment, part time",
+    "description": "Remove column Estimated graduate enrollment, part time"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Associate's degrees awarded",
+    "description": "Remove column Associate's degrees awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Bachelor's degrees awarded",
+    "description": "Remove column Bachelor's degrees awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Master's degrees awarded",
+    "description": "Remove column Master's degrees awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Doctor's degrese - research/scholarship awarded",
+    "description": "Remove column Doctor's degrese - research/scholarship awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Doctor's degrees - professional practice awarded",
+    "description": "Remove column Doctor's degrees - professional practice awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Doctor's degrees - other awarded",
+    "description": "Remove column Doctor's degrees - other awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Certificates of less than 1-year awarded",
+    "description": "Remove column Certificates of less than 1-year awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Certificates of 1 but less than 2-years awarded",
+    "description": "Remove column Certificates of 1 but less than 2-years awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Certificates of 2 but less than 4-years awarded",
+    "description": "Remove column Certificates of 2 but less than 4-years awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Postbaccalaureate certificates awarded",
+    "description": "Remove column Postbaccalaureate certificates awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Post-master's certificates awarded",
+    "description": "Remove column Post-master's certificates awarded"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving an Associate's degree",
+    "description": "Remove column Number of students receiving an Associate's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a Bachelor's degree",
+    "description": "Remove column Number of students receiving a Bachelor's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a Master's degree",
+    "description": "Remove column Number of students receiving a Master's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a Doctor's degree",
+    "description": "Remove column Number of students receiving a Doctor's degree"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a certificate of less than 1-year",
+    "description": "Remove column Number of students receiving a certificate of less than 1-year"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a certificate of 1 but less than 4-years",
+    "description": "Remove column Number of students receiving a certificate of 1 but less than 4-years"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of students receiving a Postbaccalaureate or Post-master's certificate",
+    "description": "Remove column Number of students receiving a Postbaccalaureate or Post-master's certificate"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tuition and fees, 2010-11",
+    "description": "Remove column Tuition and fees, 2010-11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tuition and fees, 2011-12",
+    "description": "Remove column Tuition and fees, 2011-12"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tuition and fees, 2012-13",
+    "description": "Remove column Tuition and fees, 2012-13"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tuition and fees, 2013-14",
+    "description": "Remove column Tuition and fees, 2013-14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Total price for in-state students living on campus 2013-14",
+    "description": "Remove column Total price for in-state students living on campus 2013-14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Total price for out-of-state students living on campus 2013-14",
+    "description": "Remove column Total price for out-of-state students living on campus 2013-14"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "State abbreviation",
+    "description": "Remove column State abbreviation"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "FIPS state code",
+    "description": "Remove column FIPS state code"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Geographic region",
+    "description": "Remove column Geographic region"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Sector of institution",
+    "description": "Remove column Sector of institution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Level of institution",
+    "description": "Remove column Level of institution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Control of institution",
+    "description": "Remove column Control of institution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Historically Black College or University",
+    "description": "Remove column Historically Black College or University"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tribal college",
+    "description": "Remove column Tribal college"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Degree of urbanization (Urban-centric locale)",
+    "description": "Remove column Degree of urbanization (Urban-centric locale)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Carnegie Classification 2010: Basic",
+    "description": "Remove column Carnegie Classification 2010: Basic"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Total  enrollment",
+    "description": "Remove column Total  enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Full-time enrollment",
+    "description": "Remove column Full-time enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Part-time enrollment",
+    "description": "Remove column Part-time enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Undergraduate enrollment",
+    "description": "Remove column Undergraduate enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Graduate enrollment",
+    "description": "Remove column Graduate enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Full-time undergraduate enrollment",
+    "description": "Remove column Full-time undergraduate enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Part-time undergraduate enrollment",
+    "description": "Remove column Part-time undergraduate enrollment"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are American Indian or Alaska Native",
+    "description": "Remove column Percent of total enrollment that are American Indian or Alaska Native"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Asian",
+    "description": "Remove column Percent of total enrollment that are Asian"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Black or African American",
+    "description": "Remove column Percent of total enrollment that are Black or African American"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Hispanic/Latino",
+    "description": "Remove column Percent of total enrollment that are Hispanic/Latino"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Native Hawaiian or Other Pacific Islander",
+    "description": "Remove column Percent of total enrollment that are Native Hawaiian or Other Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are White",
+    "description": "Remove column Percent of total enrollment that are White"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are two or more races",
+    "description": "Remove column Percent of total enrollment that are two or more races"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Race/ethnicity unknown",
+    "description": "Remove column Percent of total enrollment that are Race/ethnicity unknown"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Nonresident Alien",
+    "description": "Remove column Percent of total enrollment that are Nonresident Alien"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are Asian/Native Hawaiian/Pacific Islander",
+    "description": "Remove column Percent of total enrollment that are Asian/Native Hawaiian/Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of total enrollment that are women",
+    "description": "Remove column Percent of total enrollment that are women"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are American Indian or Alaska Native",
+    "description": "Remove column Percent of undergraduate enrollment that are American Indian or Alaska Native"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Asian",
+    "description": "Remove column Percent of undergraduate enrollment that are Asian"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Black or African American",
+    "description": "Remove column Percent of undergraduate enrollment that are Black or African American"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Hispanic/Latino",
+    "description": "Remove column Percent of undergraduate enrollment that are Hispanic/Latino"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Native Hawaiian or Other Pacific Islander",
+    "description": "Remove column Percent of undergraduate enrollment that are Native Hawaiian or Other Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are White",
+    "description": "Remove column Percent of undergraduate enrollment that are White"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are two or more races",
+    "description": "Remove column Percent of undergraduate enrollment that are two or more races"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Race/ethnicity unknown",
+    "description": "Remove column Percent of undergraduate enrollment that are Race/ethnicity unknown"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Nonresident Alien",
+    "description": "Remove column Percent of undergraduate enrollment that are Nonresident Alien"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are Asian/Native Hawaiian/Pacific Islander",
+    "description": "Remove column Percent of undergraduate enrollment that are Asian/Native Hawaiian/Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of undergraduate enrollment that are women",
+    "description": "Remove column Percent of undergraduate enrollment that are women"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are American Indian or Alaska Native",
+    "description": "Remove column Percent of graduate enrollment that are American Indian or Alaska Native"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Asian",
+    "description": "Remove column Percent of graduate enrollment that are Asian"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Black or African American",
+    "description": "Remove column Percent of graduate enrollment that are Black or African American"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Hispanic/Latino",
+    "description": "Remove column Percent of graduate enrollment that are Hispanic/Latino"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Native Hawaiian or Other Pacific Islander",
+    "description": "Remove column Percent of graduate enrollment that are Native Hawaiian or Other Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are White",
+    "description": "Remove column Percent of graduate enrollment that are White"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are two or more races",
+    "description": "Remove column Percent of graduate enrollment that are two or more races"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Race/ethnicity unknown",
+    "description": "Remove column Percent of graduate enrollment that are Race/ethnicity unknown"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Nonresident Alien",
+    "description": "Remove column Percent of graduate enrollment that are Nonresident Alien"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are Asian/Native Hawaiian/Pacific Islander",
+    "description": "Remove column Percent of graduate enrollment that are Asian/Native Hawaiian/Pacific Islander"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of graduate enrollment that are women",
+    "description": "Remove column Percent of graduate enrollment that are women"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of first-time undergraduates - in-state",
+    "description": "Remove column Number of first-time undergraduates - in-state"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of first-time undergraduates - in-state",
+    "description": "Remove column Percent of first-time undergraduates - in-state"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of first-time undergraduates - out-of-state",
+    "description": "Remove column Number of first-time undergraduates - out-of-state"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of first-time undergraduates - out-of-state",
+    "description": "Remove column Percent of first-time undergraduates - out-of-state"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of first-time undergraduates - foreign countries",
+    "description": "Remove column Number of first-time undergraduates - foreign countries"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of first-time undergraduates - foreign countries",
+    "description": "Remove column Percent of first-time undergraduates - foreign countries"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Number of first-time undergraduates - residence unknown",
+    "description": "Remove column Number of first-time undergraduates - residence unknown"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of first-time undergraduates - residence unknown",
+    "description": "Remove column Percent of first-time undergraduates - residence unknown"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving any financial aid",
+    "description": "Remove column Percent of freshmen receiving any financial aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving federal, state, local or institutional grant aid",
+    "description": "Remove column Percent of freshmen receiving federal, state, local or institutional grant aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen  receiving federal grant aid",
+    "description": "Remove column Percent of freshmen  receiving federal grant aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving Pell grants",
+    "description": "Remove column Percent of freshmen receiving Pell grants"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving other federal grant aid",
+    "description": "Remove column Percent of freshmen receiving other federal grant aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving state/local grant aid",
+    "description": "Remove column Percent of freshmen receiving state/local grant aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving institutional grant aid",
+    "description": "Remove column Percent of freshmen receiving institutional grant aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving student loan aid",
+    "description": "Remove column Percent of freshmen receiving student loan aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving federal student loans",
+    "description": "Remove column Percent of freshmen receiving federal student loans"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent of freshmen receiving other loan aid",
+    "description": "Remove column Percent of freshmen receiving other loan aid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Endowment assets (year end) per FTE enrollment (GASB)",
+    "description": "Remove column Endowment assets (year end) per FTE enrollment (GASB)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID number",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID number using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Applicants total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Applicants total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Admissions total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Admissions total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Enrolled total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Enrolled total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Percent admitted - total",
+    "description": "Remove column Percent admitted - total"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Admissions yield - total",
+    "description": "Remove column Admissions yield - total"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Graduation rate - Bachelor degree within 4 years, total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Graduation rate - Bachelor degree within 4 years, total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Graduation rate - Bachelor degree within 5 years, total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Graduation rate - Bachelor degree within 5 years, total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Graduation rate - Bachelor degree within 6 years, total",
+    "expression": "grel:toNumber(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Graduation rate - Bachelor degree within 6 years, total using expression grel:toNumber(value)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Endowment assets (year end) per FTE enrollment (FASB)",
+    "description": "Remove column Endowment assets (year end) per FTE enrollment (FASB)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Graduation rate - Bachelor degree within 4 years, total",
+    "expression": "grel:(value['Graduation rate - Bachelor degree within 4 years, total'] + value['Graduation rate - Bachelor degree within 5 years, total'] + value['Graduation rate - Bachelor degree within 6 years, total'])/3",
+    "onError": "store-error",
+    "newColumnName": "Sum",
+    "columnInsertIndex": 6,
+    "description": "Create column Sum at index 6 based on column Graduation rate - Bachelor degree within 4 years, total using expression grel:(value['Graduation rate - Bachelor degree within 4 years, total'] + value['Graduation rate - Bachelor degree within 5 years, total'] + value['Graduation rate - Bachelor degree within 6 years, total'])/3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Sum",
+    "description": "Remove column Sum"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Graduation rate - Bachelor degree within 4 years, total",
+    "newColumnName": "grad a",
+    "description": "Rename column Graduation rate - Bachelor degree within 4 years, total to grad a"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Graduation rate - Bachelor degree within 5 years, total",
+    "newColumnName": "grad b",
+    "description": "Rename column Graduation rate - Bachelor degree within 5 years, total to grad b"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Graduation rate - Bachelor degree within 6 years, total",
+    "newColumnName": "grad c",
+    "description": "Rename column Graduation rate - Bachelor degree within 6 years, total to grad c"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "grad a",
+    "expression": "grel:(cells['grad a'].value + cells['grad b'].value + cells['grad c'].value) / 3",
+    "onError": "set-to-blank",
+    "newColumnName": "Average graduation rate",
+    "columnInsertIndex": 6,
+    "description": "Create column Average graduation rate at index 6 based on column grad a using expression grel:(cells['grad a'].value + cells['grad b'].value + cells['grad c'].value) / 3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "grad a",
+    "description": "Remove column grad a"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "grad b",
+    "description": "Remove column grad b"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "grad c",
+    "description": "Remove column grad c"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Applicants total",
+    "expression": "grel:(cells['Admissions total'].value*100/cells['Applicants total'].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "Admission rate",
+    "columnInsertIndex": 3,
+    "description": "Create column Admission rate at index 3 based on column Applicants total using expression grel:(cells['Admissions total'].value*100/cells['Applicants total'].value)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Applicants total",
+    "expression": "grel:(cells['Enrolled total'].value*100/cells['Applicants total'].value)",
+    "onError": "set-to-blank",
+    "newColumnName": "Enrollment rate",
+    "columnInsertIndex": 3,
+    "description": "Create column Enrollment rate at index 3 based on column Applicants total using expression grel:(cells['Enrolled total'].value*100/cells['Applicants total'].value)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Average graduation rate",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column Average graduation rate"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Enrollment rate",
+          "expression": "isBlank(value)",
+          "columnName": "Enrollment rate",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Average graduation rate",
+          "expression": "value",
+          "columnName": "Average graduation rate",
+          "from": 0,
+          "to": 101,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Name",
+    "description": "Remove column Name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID number",
+    "newColumnName": "IPEDSID",
+    "description": "Rename column ID number to IPEDSID"
+  }
+]

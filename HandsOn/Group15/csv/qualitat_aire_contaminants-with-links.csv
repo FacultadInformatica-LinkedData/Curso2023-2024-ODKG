@@ -1,0 +1,26 @@
+Contam_Code,Contam_Name,Wikidata_Contam,Effect,Mass,Units
+1,sulfur dioxide,https://wikidata.org/entity/Q5282,sulfur dioxide exposure,63.962,µg/m³
+,,,acid rain,,
+6,carbon monoxide,https://wikidata.org/entity/Q2025,carbon monoxide poisoning,27.995,mg/m³
+,,,air pollution,,
+7,nitric oxide,https://wikidata.org/entity/Q207843,nitric oxide exposure,29.998,µg/m³
+8,nitrogen dioxide,https://wikidata.org/entity/Q207895,nitrogen dioxide exposure,45.993,µg/m³
+9,PM 2.5,https://wikidata.org/entity/Q48035814,,,µg/m³
+10,PM 10 (excluding PM 2.5),https://wikidata.org/entity/Q48035980,,,µg/m³
+12,NOx,https://wikidata.org/entity/Q20962970,,,µg/m³
+14,ozone,https://wikidata.org/entity/Q36933,ozone exposure,47.985,µg/m³
+22,black carbon,https://wikidata.org/entity/Q3233590,,,µg/m³
+101,sulfur dioxide,https://wikidata.org/entity/Q5282,sulfur dioxide exposure,63.962,µg/m³
+,,,acid rain,,
+106,carbon monoxide,https://wikidata.org/entity/Q2025,carbon monoxide poisoning,27.995,mg/m³
+,,,air pollution,,
+107,nitric oxide,https://wikidata.org/entity/Q207843,nitric oxide exposure,29.998,µg/m³
+108,nitrogen dioxide,https://wikidata.org/entity/Q207895,nitrogen dioxide exposure,45.993,µg/m³
+109,PM 2.5,https://wikidata.org/entity/Q48035814,,,µg/m³
+110,PM 10 (excluding PM 2.5),https://wikidata.org/entity/Q48035980,,,µg/m³
+112,nitrogen oxide,https://wikidata.org/entity/Q424418,acid rain,,µg/m³
+114,ozone,https://wikidata.org/entity/Q36933,ozone exposure,47.985,µg/m³
+996,Flow 2 (Mesura interna equip),,,,
+997,Flow 1 (Mesura interna equip),,,,
+998,Flow C (Mesura interna equip) ,,,, 
+999,black carbon,https://wikidata.org/entity/Q3233590,,,%

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Ontologies</title>
+</head>
+<body>
+    <h1>List of Ontologies</h1>
+    <ul>
+        {% for ontology in ontologies %}
+            <li>
+                {{ ontology.name }} - <a href="{% url 'sparql-query' ontology.id %}">View SPARQL Results</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

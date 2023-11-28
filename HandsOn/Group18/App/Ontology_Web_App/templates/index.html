@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid Accidents</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ontology/style.css' %}">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="searchForm" action="{% url 'redirect_to_sparql_query' %}" method="post" class="search-bar">
+            {% csrf_token %}
+            <input type="text" id="searchInput" placeholder="Accidents Searcher Madrid" name="q">
+            <button type="submit"><img src="{% static 'ontology/search.png' %}" alt=""></button>
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2023 Grupo 18 Graph Knowledge </p>
+    </footer>
+
+</body>
+</html>
+
+

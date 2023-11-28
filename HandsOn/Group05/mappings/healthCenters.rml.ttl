@@ -1,0 +1,234 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix transit: <http://vocab.org/transit/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix vocab: <http://healthcentersmadrid.es/locations/ontology/ont#> .
+@base <http://healthcentersmadrid.es/locations/ontology/ns#> .
+
+############################################# Health Center #############################################################33
+
+<#HealthCenter>
+  rml:logicalSource [
+    rml:source "centros_atencion_medica-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "https://sample.com/resource/HealthCenter{PK}";
+    rr:termType rr:IRI; rr:class vocab:HealthCenter
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:name;
+    rr:objectMap [
+      rml:reference "NOMBRE";
+      rr:termType rr:Literal ;
+      rr:datatype xsd:string
+      ]
+  ];
+    rr:predicateObjectMap [
+    rr:predicate vocab:hasType;
+    rr:objectMap [
+      rml:reference "TIPO";
+      rr:datatype xsd:string
+      ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate vocab:Information;
+    rr:objectMap [
+      rr:template "https://sample.com/resource/Information{PK}";
+      ]
+  ];
+
+
+  rr:predicateObjectMap [
+    rr:predicate vocab:Location;
+    rr:objectMap [
+      rr:template "https://sample.com/resource/Location{PK}";
+    ]
+  ].
+
+
+  ############################################# Location #############################################################33
+
+
+  <#Location>  
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Location{PK}";
+        rr:termType rr:IRI; rr:class vocab:Location
+    ];
+   
+    rr:predicateObjectMap [
+        rr:predicate vocab:longitude;
+        rr:objectMap [
+        rml:reference "LONGITUD";
+        rr:datatype xsd:real
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:latitude;
+        rr:objectMap [
+        rml:reference "LATITUD";
+        rr:datatype xsd:real
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:coordinatex;
+        rr:objectMap [
+        rml:reference "COORDENADA-X";
+        rr:datatype xsd:int
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:coordenatey;
+        rr:objectMap [
+        rml:reference "COORDENADA-Y";
+        rr:datatype xsd:int
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:Address;
+        rr:objectMap [
+        rr:template "https://sample.com/resource/Address{PK}";
+        ]
+  ].
+
+
+  ############################################# Information #############################################################33
+<#Information> 
+  rml:logicalSource [
+    rml:source "centros_atencion_medica-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+   rr:subjectMap [
+    rr:template "https://sample.com/resource/Information{PK}";
+    rr:termType rr:IRI; rr:class vocab:Information
+ ];
+  rr:predicateObjectMap [
+    rr:predicate vocab:openingHours;
+    rr:objectMap [
+      rml:reference "HORARIO";
+      rr:datatype xsd:string
+      ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate vocab:accesibility;
+    rr:objectMap [
+      rml:reference "ACCESIBILIDAD";
+      rr:datatype xsd:int
+      ]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate vocab:transport;
+    rr:objectMap [
+      rml:reference "TRANSPORTE";
+      rr:datatype xsd:string
+      ]
+  ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:Contact;
+        rr:objectMap [
+        rr:template "https://sample.com/resource/Contact{PK}";
+        ]
+  ].
+
+
+############################################# Address #############################################################
+
+  <#Address> 
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Address{PK}";
+        rr:termType rr:IRI; rr:class vocab:Address
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:street;
+        rr:objectMap [
+            rml:reference "NOMBRE-VIA";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:neighbourhood;
+        rr:objectMap [
+            rml:reference "BARRIO";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:district;
+        rr:objectMap [
+            rml:reference "DISTRITO";
+            rr:datatype xsd:string
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:number;
+        rr:objectMap [
+            rml:reference "NUM";
+            rr:datatype xsd:int
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:postalCode;
+        rr:objectMap [
+            rml:reference "CODIGO-POSTAL";
+            rr:datatype xsd:int
+            ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:city;
+        rr:objectMap [
+            rml:reference "LOCALIDAD";
+            rr:datatype xsd:string
+            ]
+    ].
+
+
+############################################# Contact #############################################################
+
+
+  <#Contact>
+    rml:logicalSource [
+        rml:source "centros_atencion_medica-updated.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ];
+    rr:subjectMap [
+        rr:template "https://sample.com/resource/Contact{PK}";
+        rr:termType rr:IRI; rr:class vocab:Contact
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vocab:web;
+        rr:objectMap [
+        rml:reference "CONTENT-URL";
+        rr:datatype xsd:string
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:phoneNumber;
+        rr:objectMap [
+        rml:reference "TELEFONO";
+        rr:datatype xsd:string
+        ]
+    ];
+    rr:predicateObjectMap [
+        rr:predicate vocab:mail;
+        rr:objectMap [
+        rml:reference "EMAIL";
+        rr:datatype xsd:string
+        ]
+    ].

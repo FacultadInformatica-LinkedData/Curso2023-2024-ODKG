@@ -1,0 +1,68 @@
+# Query to retrieve all Bikes and their ID
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?bike ?bikeID
+WHERE {
+  ?bike a ns:Bike;
+        ns:BikeID ?bikeID.
+}
+
+
+# Query to retrieve all TripTime with start and end stations
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?trip ?fromStation ?toStation
+WHERE {
+  ?trip a ns:TripTime;
+        ns:fromStation ?fromStation;
+        ns:toStation ?toStation.
+}
+
+# Query to retrieve all Users who are Subscribers
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?user ?userType
+WHERE {
+  ?user a ns:Users;
+        ns:userType ?userType.
+  FILTER (LCASE(?userType) = "Subscriber")
+}
+
+# Query to retrieve the total of TripTime
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT (COUNT(?trip) AS ?tripCount)
+WHERE {
+  ?trip a ns:TripTime.
+}
+
+# Query to retrieve all the data of one triptime (here 56)
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?trip ?fromStation ?toStation ?startTime ?endTime ?tripDuration
+WHERE {
+  ?trip a ns:TripTime;
+        ns:tripID <http://www.divvybikesharing.com/group14/about/TripTime/56>;
+        ns:fromStation ?fromStation;
+        ns:toStation ?toStation;
+        ns:startTime ?startTime;
+        ns:endTime ?endTime;
+        ns:tripDuration ?tripDuration.
+}
+
+# Query to retrieve all Bikes with their ID and the total of triptime of each bike
+
+PREFIX ns: <http://www.divvybikesharing.com/group14/ontology/BikeInfo#>
+SELECT ?bike ?bikeID (COUNT(?trip) AS ?tripCount)
+WHERE {
+  ?bike a ns:Bike;
+        ns:BikeID ?bikeID.
+  OPTIONAL {
+    ?trip a ns:TripTime;
+          ns:hasUser ?user.
+    FILTER (?user = ?bike)
+  }
+}
+GROUP BY ?bike ?bikeID
+
+

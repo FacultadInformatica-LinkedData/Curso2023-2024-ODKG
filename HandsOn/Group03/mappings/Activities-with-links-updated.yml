@@ -1,0 +1,97 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#
+  nsc: http://vidaactivamadrid.es/info/ontology/class#
+  nsp: http://vidaactivamadrid.es/info/ontology/property#
+  sch: https://schema.org/
+
+mappings:
+
+  Activity:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+    s: http://vidaactivamadrid.es/info/resource/Activity/$(ID)
+    po:
+      - [a, nsc:Activity]
+      - [nsp:id, $(ID)]
+      - [nsp:name, $(NOMBRE)]
+      - [nsp:longEvent, $(EVENTO_LARGO), xsd:boolean]
+      - [nsp:dayOfWeek, $(DIAS_DE_SEMANA)]
+      - [nsp:startDate, $(FECHA_INICIO), xsd:dateTime]
+      - [nsp:endDate, $(FECHA_FIN), xsd:dateTime]
+      - [nsp:time, $(HORA)]
+      - [nsp:description, $(DESCRIPCION)]
+      - [nsp:contentURL, $(URL_CONTENIDO)]
+      - [nsp:typeOfActivity, $(TIPO_DE_ACTIVIDAD)]
+      - p: nsp:takesPlaceIn
+        o:
+          - mapping: Facility
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(NOMBRE_INSTALACION)]
+              - [str2, $(NOMBRE_INSTALACION)]
+
+  Facility:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Facility/$(NOMBRE_INSTALACION)"
+    po:
+      - [a, nsc:Facility]
+      - [nsp:name, $(NOMBRE_INSTALACION)]
+      - [nsp:accessibility, $(ACCESIBILIDAD_INSTALACION)]
+      - [nsp:facilityURL, $(INSTALACION_URL)]
+      - [owl:sameAs, $(same_as_wikidata_nombre_instalacion)~iri]
+      - p: nsp:hasAddress
+        o:
+          - mapping: Address
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DIRECCION)]
+              - [str2, $(DIRECCION)]
+
+  Address:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Address/$(DIRECCION)"
+    po:
+      - [a, nsc:Address]
+      - [nsp:name, $(DIRECCION)]
+      - [sch:postalCode, $(CODIGO_POSTAL)]
+      - [nsp:latitude, $(LATITUD), xsd:double]
+      - [nsp:longitude, $(LONGITUD), xsd:double]
+      - p: nsp:isInNeighborhood
+        o:
+          - mapping: Neighborhood
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(BARRIO)]
+              - [str2, $(BARRIO)]
+
+  Neighborhood:
+    sources: 
+      - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+    s: "http://vidaactivamadrid.es/info/resource/Neighborhood/$(BARRIO)"
+    po:
+      - [a, nsc:Neighborhood]
+      - [nsp:name, $(BARRIO)]
+      - [owl:sameAs, $(same_as_wikidata_barrio)~iri]
+      - p: nsp:isInDistrict
+        o:
+          - mapping: District
+            condition:
+              function: equal
+              parameters:
+              - [str1, $(DISTRITO)]
+              - [str2, $(DISTRITO)]
+
+  District:
+      sources: 
+        - ["../csv/300107-0-agenda-actividades-eventos-with-links.csv~csv"]
+      s: http://vidaactivamadrid.es/info/resource/District/$(DISTRITO)
+      po:
+        - [a, nsc:District]
+        - [nsp:name, $(DISTRITO)]
+        - [owl:sameAs, $(same_as_wikidata_distrito)~iri]
