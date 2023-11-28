@@ -14,6 +14,7 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 
 """First let's read the RDF file"""
 
+
 from rdflib import Graph, Namespace, Literal, XSD
 from rdflib.namespace import RDF, RDFS
 g = Graph()
@@ -98,6 +99,7 @@ for s,p,o in g.triples((None,RDF.type,ns.Animal)) :
   for s2,p2,o2 in g.triples((s,None,None)):
       print(s2,p2,o2)
 
+print("RDFLib results (Person): ")
 for s,p,o in g.triples((None,RDF.type,ns.Person)) :
   for s2,p2,o2 in g.triples((s,None,None)):
       print(s2,p2,o2)
