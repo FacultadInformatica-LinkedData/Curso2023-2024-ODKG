@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "names": "http://www.namespace.es/names/",
+        "person": "names:person",
+        "fullName": "names:fullName",
+        "age": "names:age",
+        "homeTown": "names:homeTown",
+        "almaMater": "names:almaMater",
+        "parents": "names:parents",
+        "subjectName": "names:subjects",
+        "subjects": "names:subjects",
+        "teacher": "names:subjects",
+        "description": "names:description"
+    },
+    "@id": "names:AlbertoGRuiz",
+    "@type": "person",
+    "fullName": "Alberto González Ruiz",
+    "hometown": "Alcorcón",
+    "age": 22,
+    "almaMater": [
+        "Universidad Politecnica de Madrid"
+    ],
+    "parents": [
+        "Ignacio",
+        "Marta"
+    ],
+    "subjects": [
+        {
+            "@id": "names:OpenDataandKnowledgeGraphs",
+            "@type": "subject",
+            "subjectName": "Open Data and Knowledge Graphs",
+            "teacher": [
+                "Daniel Garijo",
+                "Oscar Corcho",
+                "Raul Garcia"
+            ],
+            "description": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3C recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies. You will also learn about how to create shared agreed vocabularies and ontologies that can give support to Knowledge Graph generation and publication, and will understand how these principles and approaches have been applied to several domains. You will work on a practical hands-on exercise that will be the basis for your participation in hackatons and other similar events."
+        },
+        {
+            "@id": "names:MachineLearning",
+            "@type": "subject",
+            "subjectName": "Machine Learning",
+            "teacher": [
+                "Pedro Larranaga",
+                "Concha Bielza"
+            ],
+            "description": "Machine Learning transforms data into knowledge and provides general-purpose systems that adapt to circumstances. This subject exposes several methods to solve problems of supervised and unsupervised classification, and relationships between system variables."
+        },
+        {
+            "@id": "names:IntelligentSystems",
+            "@type": "subject",
+            "subjectName": "Intelligent Systems",
+            "teacher": [
+                "Martín Molina",
+                "Daniel Manrique Gamo"
+            ],
+            "description": "In a broad sense, intelligent systems can be considered as a type of computer system that integrates artificial intelligence algorithms to solve problems in complex environments using limited resources. Intelligent systems are capable of acquiring and using knowledge by integrating methods based on machine learning, knowledge representation and reasoning."
+        },
+        {
+            "@id": "names:DataVisualization",
+            "@type": "subject",
+            "subjectName": "Data Visualization",
+            "teacher": [
+                "Pablo Toharia",
+                "Antonio Latorre"
+            ],
+            "description": "Data Visualization is a crucial skill in the field of data science and analytics. This course provides a comprehensive introduction to the principles, techniques, and tools used to effectively communicate insights and patterns from data through visual representations."
+        },
+        {
+            "@id": "names:DataProcesses",
+            "@type": "subject",
+            "subjectName": "Data Processes",
+            "teacher": [
+                "Ernestina Menasalvas Ruiz",
+                "Antonio Jesus Diaz Honrubia"
+            ],
+            "description": "In this course we will deepen on the importance of data for an organization. In fact, the course is centered on the process of extraction of knowledge from databases as a support for decision making."
+        }
+    ]
+}
