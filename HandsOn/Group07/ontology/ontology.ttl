@@ -1,4 +1,4 @@
- @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix ont: <https://www.chargeup.io/group07/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -49,15 +49,6 @@ ont:evLevel2EVSENum a owl:DatatypeProperty ;
     rdfs:domain ont:ChargingStation ;
     rdfs:range xsd:integer .
 
-ont:hasAddress a owl:ObjectProperty ;
-    rdfs:label "has address" ;
-    rdfs:domain ont:ChargingStation ;
-    rdfs:range ont:Address .
-
-ont:hasCity a owl:ObjectProperty ;
-    rdfs:label "has city" ;
-    rdfs:domain ont:Address ;
-    rdfs:range ont:City .
 
 ont:townIndex a owl:DatatypeProperty ;
     rdfs:label "town index" ;
@@ -68,6 +59,16 @@ ont:zipCode a owl:DatatypeProperty ;
     rdfs:label "zip code" ;
     rdfs:domain ont:Address ;
     rdfs:range xsd:string .
+
+ont:hasAddress a owl:ObjectProperty ;
+    rdfs:label "has address" ;
+    rdfs:domain ont:ChargingStation ;
+    rdfs:range ont:Address .
+
+ont:hasCity a owl:ObjectProperty ;
+    rdfs:label "has city" ;
+    rdfs:domain ont:Address ;
+    rdfs:range ont:City .
 
 ont:Address a owl:Class ;
     rdfs:label "Address" .

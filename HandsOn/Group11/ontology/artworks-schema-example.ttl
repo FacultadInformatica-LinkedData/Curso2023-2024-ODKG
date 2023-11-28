@@ -1,49 +1,63 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-@prefix owl: <http://www.w3.org/2002/07/owl#>
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix art: <http://artwork.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# example of artwork 1054 from William Blake
+# artists
 
-art:dimension1054 rdf:type art:ArtworkDimension ;
-    art:hasWidth 198^^xsd:integer ;
-    art:hasHeight 152^^xsd:integer ;
+<http://artwork.org/artwork/artist/0>
+  art:hasArtistName "Stokes, Adrian";
+  art:hasArtistId "2002"^^xsd:interger;
+  owl:sameAs "http://dbpedia.org/resource/Stokes%2C_Adrian"^^xsd:anyURI .
 
-art:artwork1054 rdf:type owl:Class :Artwork ;
-    art:hasId 1054^^xsd:integer ;
-    art:hasAccessionNumber "A00020"^^xsd:string ;
-    art:hasArtist <http://dbpedia.org/resource/William_Blake> ;
-    art:hasArtistRole "artist"^^xsd:string ;
-    art:hasArtistId 39^^xsd:integer ;
-    art:hasTitle "The Vision of Eliphaz"^^xsd:string ;
-    art:hasMedium "Wood engraving on paper"^^xsd:string ;
-    art:hasCreditLine "Purchased with the assistance of a special grant from the National Gallery and donations from the Art Fund, Lord Duveen and others, and presented through the the Art Fund 1919"^^xsd:string ;
-    art:madeInYear 1825^^xsd:integer ;
-    art:acquiredInYear 1919^^xsd:integer ;
-    art:hasDimension art:dimension1054 ;
-    art:hasThumbnailCopyright ""^^xsd:string ;
-    art:hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00020_8.jpg> ;
-    art:hasUrl <http://www.tate.org.uk/art/artworks/blake-the-vision-of-eliphaz-a00020> .
+<http://artwork.org/artwork/artist/1>
+  art:hasArtistName "Blake, John";
+  art:hasArtistId "762"^^xsd:interger;
+  owl:sameAs "http://dbpedia.org/resource/Blake%2C_John"^^xsd:anyURI .
 
+# arworks and relative dimensions
 
+<http://artwork.org/artwork/10> a art:Artwork;
+  art:acquiredInYear 2001;
+  art:hasAccessionNumber "T07804";
+  art:hasArtist <http://artwork.org/artwork/artist/0>;
+  art:hasArtistRole "artist";
+  art:hasCreditLine "Bequeathed by David Sylvester in honour of Sir Nicholas Serota 2001";
+  art:hasDimension <http://artwork.org/artwork/10/dimensions>;
+  art:hasId 10;
+  art:hasMedium "Oil paint on canvas";
+  art:hasThumbnailCopyright "© The estate of Adrian Stokes";
+  art:hasThumbnailUrl "http://www.tate.org.uk/art/images/work/T/T07/T07804_8.jpg"^^xsd:anyURI;
+  art:hasTitle "Still Life";
+  art:hasUrl "http://www.tate.org.uk/art/artworks/stokes-still-life-t07804"^^xsd:anyURI;
+  art:madeInYear 1959 .
 
-art:dimension9484 rdf:type art:ArtworkDimension ;
-    art:hasWidth 140^^xsd:integer ;
-    art:hasHeight 108^^xsd:integer ;
+<http://artwork.org/artwork/10/dimensions> a art:ArtworkDimension;
+  art:hasHeight 612.0;
+  art:hasWidth 512.0 .
 
-art:artwork9484 rdf:type art:Artwork ;
-    art:hasId 9484^^xsd:integer ;
-    art:hasAccessionNumber "A00792"^^xsd:string ;
-    art:hasArtist <http://dbpedia.org/resource/John_Everett_Millais> ;
-    art:hasArtistRole "artist"^^xsd:string ;
-    art:hasArtistId 379^^xsd:integer ;
-    art:hasTitle "The Lost Sheep"^^xsd:string ;
-    art:hasMedium "Wood engraving on paper"^^xsd:string ;
-    art:hasCreditLine "Presented by Gilbert Dalziel 1924"^^xsd:string ;
-    art:madeInYear 1864^^xsd:integer ;
-    art:acquiredInYear 1924^^xsd:integer ;
-    art:hasDimension art:dimension9484 ;
-    art:hasThumbnailCopyright ""^^xsd:string ;
-    art:hasThumbnailUrl <http://www.tate.org.uk/art/images/work/A/A00/A00792_8.jpg> ;
-    art:hasUrl <http://www.tate.org.uk/art/artworks/millais-the-lost-sheep-a00792> .
+<http://artwork.org/artwork/1000> a art:Artwork;
+  art:acquiredInYear 1977;
+  art:hasAccessionNumber "P08007";
+  art:hasArtist <http://artwork.org/artwork/artist/1>;
+  art:hasArtistRole "artist";
+  art:hasCreditLine "Transferred from the Library 1977";
+  art:hasDimension <http://artwork.org/artwork/1000/dimensions>;
+  art:hasId 1000;
+  art:hasMedium "Lithograph on paper";
+  art:hasThumbnailCopyright "© Art & Language";
+  art:hasThumbnailUrl "http://example.com/missing-uri"^^xsd:anyURI;
+  art:hasTitle "1. 2 & 1. 3";
+  art:hasUrl "http://www.tate.org.uk/art/artworks/blake-1-2-1-3-p08007"^^xsd:anyURI;
+  art:madeInYear 1973 .
+
+<http://artwork.org/artwork/1000/dimensions> a art:ArtworkDimension;
+  art:hasHeight 441.0;
+  art:hasWidth 559.0 .

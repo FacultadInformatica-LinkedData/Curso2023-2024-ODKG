@@ -33,7 +33,6 @@ nso:hasTotal a owl:ObjectProperty ;
     rdfs:domain wst:WasteType ;
     rdfs:range nso:Total .
 
-
 nso:referedTo a owl:ObjectProperty ;
     rdfs:label "refered to" ;
     rdfs:domain nso:Total ;
@@ -52,7 +51,7 @@ time:year a owl:DatatypeProperty ;
 time:month a owl:DatatypeProperty ;
     rdfs:label "month" ;
     rdfs:domain nso:Total ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:gMonth .
 
 nso:zoneID a owl:DatatypeProperty ;
     rdfs:label "zoneId" ;
@@ -61,16 +60,8 @@ nso:zoneID a owl:DatatypeProperty ;
 
 dbo:districtID a owl:DatatypeProperty ;
     rdfs:label "districtID" ;
-    rdfs:domain dbp:District ;
-    rdfs:range xsd:integer .
-
-dbo:districtName a owl:DatatypeProperty ;
-    rdfs:label "districtName" ;
     rdfs:domain dbo:District ;
-    rdfs:range xsd:string .
-
-rdfs:label a owl:DatatypeProperty ;
-    rdfs:label "label" .
+    rdfs:range xsd:integer .
 
 #Class
 geof:Zone a owl:Class ;

@@ -1,33 +1,22 @@
 @prefix : <http://MadridTransit.com/ontology/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns: <http://MadridTransit.com/ontology/> .
+@prefix dbp: <https://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dnb: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sch: <https://schema.org/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prot: <http://www.ontotext.com/proton/protonext#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dct: <http://purl.org/dc/terms/>.
-@prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix prot: <http://www.ontotext.com/proton/protonext#>.
-@prefix dnb: <https://d-nb.info/standards/elementset/gnd#>.
-@prefix dbp: <https://dbpedia.org/ontology/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix sch: <https://schema.org/>.
 @base <http://MadridTransit.com/ontology/> .
 
 <http://MadridTransit.com/ontology/> rdf:type owl:Ontology ;
-                             dc:description "Ontology code created by Chowlk" .
-
-#################################################################
-#   Metadata
-#################################################################
-dcat:catalog a dcat:Catalog;
-    dct:title "RDF of Madrid car accidents";
-    rdfs:label "Madrid car accidents RDF";
-    dct:description "";
-    dct:creator "Grupo 18";
-    dct:created "09/10/2023"^^xsd:date.
-
+                                      dc:description "Ontology code created by Chowlk" .
 
 #################################################################
 #    Annotation properties
@@ -37,17 +26,39 @@ dcat:catalog a dcat:Catalog;
 dc:description rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/created
+dct:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
 #################################################################
 #    Object Properties
 #################################################################
 
-
-###  http://MadridTransit.com/ontology/coordinates
-dnb:coordinates rdf:type owl:ObjectProperty ;
-               rdfs:domain prot:Accident ;
-               rdfs:range dnb:coordinates ;
-               rdfs:label "coordinates" .
-
+###  http://MadridTransit.com/ontology/belongsDistrict
+ns:belongsDistrict rdf:type owl:ObjectProperty ;
+                rdfs:domain ns:Address ;
+                rdfs:range dbp:District ;
+                rdfs:label "belongsDistrict" .
 
 
 ###  http://MadridTransit.com/ontology/locatedAt
@@ -85,11 +96,10 @@ ns:weatherCondition rdf:type owl:ObjectProperty ;
                     rdfs:label "weather condition" .
 
 
-###  http://MadridTransit.com/ontology/districtCode
-ns:districtCode rdf:type owl:ObjectProperty ;
-                rdfs:domain ns:Address ;
-                rdfs:range dbp:District ;
-                rdfs:label "district code" .
+###  https://d-nb.info/standards/elementset/gnd#coordinates
+dnb:coordinates rdf:type owl:ObjectProperty ;
+                rdfs:domain prot:Accident ;
+                rdfs:range dnb:coordinates .
 
 
 #################################################################
@@ -98,7 +108,7 @@ ns:districtCode rdf:type owl:ObjectProperty ;
 
 ###  http://MadridTransit.com/ontology/alcoholInfluence
 ns:alcoholInfluence rdf:type owl:DatatypeProperty ;
-                    rdfs:domain prot:Accident ;
+                    rdfs:domain foaf:Person ;
                     rdfs:range xsd:boolean ;
                     rdfs:label "alcohol influence" .
 
@@ -110,6 +120,13 @@ ns:code rdf:type owl:DatatypeProperty ;
         rdfs:label "code" .
 
 
+###  http://MadridTransit.com/ontology/districtCode
+ns:districtCode rdf:type owl:DatatypeProperty ;
+        rdfs:domain dbp:District ;
+        rdfs:range xsd:integer ;
+        rdfs:label "districtCode" .
+
+
 ###  http://MadridTransit.com/ontology/description
 ns:description rdf:type owl:DatatypeProperty ;
                rdfs:domain ns:InjuryType ;
@@ -117,12 +134,9 @@ ns:description rdf:type owl:DatatypeProperty ;
                rdfs:label "description" .
 
 
-
-
-
 ###  http://MadridTransit.com/ontology/drugInfluence
 ns:drugInfluence rdf:type owl:DatatypeProperty ;
-                 rdfs:domain prot:Accident ;
+                 rdfs:domain foaf:Person ;
                  rdfs:range xsd:boolean ;
                  rdfs:label "drug influence" .
 
@@ -134,21 +148,14 @@ ns:gender rdf:type owl:DatatypeProperty ;
           rdfs:label "gender" .
 
 
-###  https://d-nb.info/standards/elementset/gnd#northernmostLatitude
-dnb:northernmostLatitude rdf:type owl:DatatypeProperty ;
-            rdfs:domain dnb:coordinates ;
-            rdfs:range xsd:float ;
-            rdfs:label "latitude" .
+###  http://MadridTransit.com/ontology/hasRoad
+ns:hasRoad rdf:type owl:DatatypeProperty ;
+           rdfs:domain ns:Address ;
+           rdfs:range xsd:string ;
+           rdfs:label "has road" .
 
 
-###  https://d-nb.info/standards/elementset/gnd#easternmostLongitude
-dnb:easternmostLongitude rdf:type owl:DatatypeProperty ;
-             rdfs:domain dnb:coordinates ;
-             rdfs:range xsd:float ;
-             rdfs:label "longitude" .
-
-
-###  https://dbpedia.org/ontology/District
+###  http://MadridTransit.com/ontology/name
 ns:name rdf:type owl:DatatypeProperty ;
         rdfs:domain dbp:District ;
         rdfs:range xsd:string ;
@@ -183,7 +190,6 @@ ns:rangeOfAge rdf:type owl:DatatypeProperty ;
               rdfs:label "range of age" .
 
 
-
 ###  http://MadridTransit.com/ontology/typeOfAccident
 ns:typeOfAccident rdf:type owl:DatatypeProperty ;
                   rdfs:domain prot:Accident ;
@@ -212,34 +218,27 @@ ns:weatherType rdf:type owl:DatatypeProperty ;
                rdfs:label "weather type" .
 
 
-###  http://MadridTransit.com/ontology/hasRoad
-ns:hasRoad rdf:type owl:DatatypeProperty ;
-           rdfs:domain ns:Address ;
-           rdfs:range xsd:string ;
-           rdfs:label "has road" .
+###  https://d-nb.info/standards/elementset/gnd#easternmostLongitude
+dnb:easternmostLongitude rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dnb:coordinates ;
+                         rdfs:range xsd:float ;
+                         rdfs:label "longitude" .
+
+
+###  https://d-nb.info/standards/elementset/gnd#northernmostLatitude
+dnb:northernmostLatitude rdf:type owl:DatatypeProperty ;
+                         rdfs:domain dnb:coordinates ;
+                         rdfs:range xsd:float ;
+                         rdfs:label "latitude" .
+
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.ontotext.com/proton/protonext#Accident
-prot:Accident rdf:type owl:Class ;
-            rdfs:label "Accident" .
-
-
 ###  http://MadridTransit.com/ontology/Address
 ns:Address rdf:type owl:Class ;
            rdfs:label "Address" .
-
-
-###  https://d-nb.info/standards/elementset/gnd#coordinates
-dnb:coordinates rdf:type owl:Class ;
-               rdfs:label "Coordinates" .
-
-
-###  http://MadridTransit.com/ontology/District
-dbp:District rdf:type owl:Class ;
-            rdfs:label "District" .
 
 
 ###  http://MadridTransit.com/ontology/InjuryType
@@ -247,20 +246,59 @@ ns:InjuryType rdf:type owl:Class ;
               rdfs:label "Injury Type" .
 
 
-###  http://xmlns.com/foaf/0.1/#term_Person
-foaf:Person rdf:type owl:Class ;
-          rdfs:label "Person" .
-
-
-###  https://schema.org/Vehicle
-sch:Vehicle rdf:type owl:Class ;
-           rdfs:label "Vehicle" .
-
-
 ###  http://MadridTransit.com/ontology/Weather
 ns:Weather rdf:type owl:Class ;
            rdfs:label "Weather" .
 
+
+###  http://www.ontotext.com/proton/protonext#Accident
+prot:Accident rdf:type owl:Class ;
+              rdfs:label "Accident" .
+
+
+###  http://www.w3.org/ns/dcat#Catalog
+dcat:Catalog rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class ;
+            rdfs:label "Person" .
+
+
+###  https://d-nb.info/standards/elementset/gnd#coordinates
+dnb:coordinates rdf:type owl:Class .
+
+
+###  https://dbpedia.org/ontology/District
+dbp:District rdf:type owl:Class ;
+             rdfs:label "District" .
+
+
+###  https://schema.org/Vehicle
+sch:Vehicle rdf:type owl:Class ;
+            rdfs:label "Vehicle" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.w3.org/ns/dcat#catalog
+dcat:catalog rdf:type owl:NamedIndividual ,
+                      dcat:Catalog ;
+             dct:created "09/10/2023"^^xsd:date ;
+             dct:creator "Grupo 18" ;
+             dct:description "" ;
+             dct:title "RDF of Madrid car accidents" ;
+             rdfs:label "Madrid car accidents RDF" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+dnb:coordinates rdfs:label "Coordinates" ,
+                           "coordinates" .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

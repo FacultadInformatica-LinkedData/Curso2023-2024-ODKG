@@ -1,0 +1,317 @@
+:root {
+  --primary-color: #3498db;
+  --border-color: #ccc;
+  --background-color: #f0f8ff;
+  /* Nuevo color de fondo para la sección de actions */
+  --header-background: #3498db;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 28px;
+  background-color: var(--header-background);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    
+}
+
+.content {
+    flex: 1 1 30%;
+    padding: 10px;
+    padding-left: 10%;
+}
+
+.image {
+    flex: 1 1 40%;
+    padding: 10px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 6%;
+}
+
+
+.container-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map {
+    padding: 10px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.image iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h3 {
+    display: flex;
+    margin-left: 1%;
+}
+
+.header-text {
+  color: #fff
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 40px 60px;
+  border: 3px solid #232323;
+}
+
+.actions {
+  background-color: var(--background-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.actions .action {
+  margin-bottom: 15px;
+}
+
+.item-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  transition: background-color 0.3s ease-out;
+}
+
+.item-container:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boton-aplicar-filtros {
+  padding: 30px 40px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+}
+
+.filter {
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.filter-name {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.date-separator {
+  margin-top: 10px;
+}
+
+.select option {
+  margin-bottom: 5px;
+}
+
+.search {
+  flex: 0 0 100%;
+  order: 2;
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 15px 10px 15px;
+  margin-bottom: 10px;
+}
+
+#search {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  /* Se ajustó el padding */
+  border-radius: 50%;
+  /* Ajustado a 50% para hacer el botón circular */
+  cursor: pointer;
+  width: 40px;
+  /* Ajusta el ancho del botón según sea necesario */
+  height: 40px;
+  /* Ajusta la altura del botón según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* Añadido para ocultar cualquier desbordamiento de la imagen */
+}
+
+button img {
+  width: 100%;
+  /* Ajusta el tamaño de la imagen al 100% del contenedor */
+  height: auto;
+  /* Permite que la altura se ajuste proporcionalmente */
+}
+
+/* Contenedor principal */
+.container {
+  margin: 40px 60px;
+  border: 3px solid #232323;
+}
+
+/* Elemento exterior */
+.item-outer,
+.item-details-outer {
+  cursor: pointer;
+  padding: 20px;
+  border: 0.75px solid gray;
+  transition: background-color 0.3s ease-out;
+}
+
+/* Resaltar el elemento que actúa como toggle cuando está activo */
+.item-container.active {
+  background-color: #f0f0f0;
+  /* Color de fondo diferente para resaltar */
+}
+
+/* Detalles del elemento exterior */
+.item-details-outer {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+  line-height: 30px;
+  background-color: var(--background-color);
+}
+
+/* Estilo para los elementos desplegados */
+.item-container.active .item-details-outer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Agrega una sombra suave */
+}
+
+/* Contenedor interno */
+.item-inner {
+  display: flex;
+  flex-direction: row;
+  /* Cambiado a fila para alinear horizontalmente */
+  align-items: center;
+  /* Alinea los elementos verticalmente al centro */
+  word-break: break-all;
+}
+
+.item-details-inner {
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+}
+
+/* Espaciado del contenedor interno */
+.item-inner div {
+  padding: 10px;
+}
+
+/* Añadir bordes y espacio entre elementos */
+.item-container {
+  border: 1px solid #ddd;
+  /* Borde en todos los lados para diferenciar elementos padres del toggle */
+}
+
+.item-container.active {
+  border: 1px solid black;
+  /* Cambia el color del borde en todos los lados cuando está activo */
+}
+
+.item-container:last-child {
+  border-bottom: none;
+  /* Elimina el borde inferior del último elemento */
+}
+
+.toggle-icon img.rotate {
+  transform: rotate(180deg);
+  /* Rota el ícono 180 grados cuando está activo */
+}
+
+
+
+.filters.hidden,
+.filters-list.hidden {
+  display: none;
+}
+
+/* Estilos específicos para el formulario de búsqueda */
+.action.search {
+  width: 100%;
+  /* Asegura que ocupa el ancho completo del contenedor */
+}
+
+.back-btn {
+  margin-top: 10px; /* Ajusta el valor según sea necesario */
+  margin-left: 10px; /* Ajusta el valor según sea necesario */
+}
