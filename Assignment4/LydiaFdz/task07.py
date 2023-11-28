@@ -14,7 +14,8 @@ github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedDa
 
 """First let's read the RDF file"""
 
-from rdflib import Graph, Namespace, Literal
+
+from rdflib import Graph, Namespace, Literal, XSD
 from rdflib.namespace import RDF, RDFS
 g = Graph()
 g.namespace_manager.bind('ns', Namespace("http://somewhere#"), override=False)
@@ -38,7 +39,7 @@ for s, p, o in g.triples((None, RDFS.subClassOf, ns.LivingThing)):
 
 q1 = prepareQuery('''
   SELECT ?Subject WHERE {
-    ?Subject rdfs:subClassOf ns:LivingThing.
+    ?Subject rdfs:subClassOf* ns:LivingThing.
   }
   ''',
   initNs = { "rdfs": RDFS,"ns": ns}
@@ -93,7 +94,7 @@ ns = Namespace("http://somewhere#")
 
 #RDFLib
 
-print("RDFLib results (Animal): ")
+print("RDFLib results: ")
 for s,p,o in g.triples((None,RDF.type,ns.Animal)) :
   for s2,p2,o2 in g.triples((s,None,None)):
       print(s2,p2,o2)
@@ -105,29 +106,22 @@ for s,p,o in g.triples((None,RDF.type,ns.Person)) :
 
 #SPARQL
 
-print("SPARQL results (Animal): ")
+print("SPARQL results: ")
+
 q3 = prepareQuery('''
   SELECT ?Subject ?p ?o WHERE {
+    {
     ?Subject rdf:type ns:Animal.
     ?Subject ?p ?o
+    } UNION {
+      ?Subject rdf:type ns:Person.
+      ?Subject ?p ?o
+      }
   }
   ''',
   initNs = { "rdfs": RDFS,"ns": ns,"rdf": RDF}
 )
 for ns in g.query(q3):
-  print(ns.Subject,ns.p,ns.o)
-
-
-print("SPARQL results (Person): ")
-q7 = prepareQuery('''
-  SELECT ?Subject ?p ?o WHERE {
-    ?Subject rdf:type ns:Person.
-    ?Subject ?p ?o
-  }
-  ''',
-  initNs = { "rdfs": RDFS,"ns": ns,"rdf": RDF}
-)
-for ns in g.query(q7):
   print(ns.Subject,ns.p,ns.o)
 
 """**TASK 7.4:  List the name of the persons who know Rocky**"""
@@ -137,26 +131,29 @@ for ns in g.query(q7):
 from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://somewhere#")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
+vcard = Namespace("http://www.w3.org/2001/vcard-rdf/3.0/")
 
 #RDFLib
-print("RDFLib results: ")
-for s,p,o in g.triples((None,RDF.type,ns.Person)) :
-  for s2,p2,o2 in g.triples((s,FOAF.knows,ns.RockySmith)):
-      print(s2)
 
+print("RDFLib results: ")
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  for s2,p2,o2 in g.triples((s, FOAF.knows, ns.RockySmith)):
+    for s3,p3,o3 in g.triples((s, vcard.FN, None)):
+      print(o3)
 #SPARQL
 
 print("SPARQL results: ")
 q4 = prepareQuery('''
-  SELECT ?Subject ?p ?o WHERE {
+  SELECT ?name WHERE {
     ?Subject rdf:type ns:Person.
-    ?Subject foaf:knows ns:RockySmith
+    ?Subject foaf:knows ns:RockySmith .
+    ?Subject vcard:FN ?name .
   }
   ''',
-  initNs = { "foaf": FOAF,"ns": ns,"rdf": RDF}
+  initNs = { "foaf": FOAF,"ns": ns,"rdf": RDF, "vcard":vcard}
 )
 for ns in g.query(q4):
-  print(ns.Subject)
+  print(ns.name)
 
 """**Task 7.5: List the entities who know at least two other entities in the graph**"""
 
