@@ -1,0 +1,98 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+
+<title>Home</title>
+{% endblock %} 
+
+{% block body %}
+
+<h1>
+  Find nearby EV charging points
+</h1>
+<br><br>
+
+<form action="/get_stations" method="post">
+  <div class="centered">
+    <div>
+      <label for="latitude" style="padding-right: 10px;">Latitude:</label>
+      <input type="text" id="latitude" name="latitude" value="54.089863" style="padding-left: 10px; font-size: medium; padding-block: 4px;">
+    </div>
+
+    <div style="margin-left: 50px; margin-right: 20px;"> <!-- Adjust the margin as needed -->
+        <label for="longitude" style="padding-right: 10px;">Longitude: </label>
+        <input type="text" id="longitude" name="longitude" value="12.139792" style="padding-left: 10px; font-size: medium; padding-block: 4px;">
+    </div>    
+  </div>
+  <br><br>
+
+  <div class="centered">
+    <div><label for="operating_mode" style="padding-right: 80px;"><strong>Filters:</strong></label></div>
+
+    <div>
+    <label for="operating_mode" style="padding-right: 10px;">Operating mode: </label>
+      <select name="operating_mode" style="padding-left: 10px; font-size: medium; padding-block: 4px; padding-right: 20px;">
+        <option value="none">-</option>
+        <option value="private">Private</option>
+        <option value="public">Public</option>
+        <option value="semipublic">Semipublic</option>
+      </select>
+    </div>
+    
+    <div style="margin-left: 100px; margin-right: 20px;">
+      <input type="checkbox" id="all_day_open" name="all_day_open" style="transform: scale(1.5);">
+      <label for="all_day_open">Open 24/7</label>
+    </div>
+  </div>
+ 
+  
+
+  <br><br><br>
+
+
+    <!-- Map container -->
+    <div id="map" style="height: 400px;"></div>
+
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Your custom script -->
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([54.089863, 12.139792], 13);
+
+        // Add a tile layer (OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add a marker at the specified location
+        var marker = L.marker([54.089863, 12.139792]).addTo(map);
+
+        // Handle map click event
+        map.on('click', function (e) {
+            // Update marker position
+            marker.setLatLng(e.latlng);
+
+            // Log latitude and longitude to the console
+            console.log('Latitude:', e.latlng.lat);
+            console.log('Longitude:', e.latlng.lng);
+
+            // Update input fields with the selected coordinates (optional)
+            document.getElementById('latitude').value = e.latlng.lat;
+            document.getElementById('longitude').value = e.latlng.lng;
+        });
+    </script>
+
+  <br><br>
+  
+  <input type="submit" value="Search">
+</form>
+
+
+
+
+
+
+{% endblock %}
