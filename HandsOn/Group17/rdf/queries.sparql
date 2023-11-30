@@ -1,0 +1,61 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX vcard: <http://www.owl-ontologies.com/vcard#> .
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+PREFIX gn: <http://www.geonames.org/ontology#> .
+PREFIX ns: <http://www.RostockEVCharging.de/ontology/> .
+PREFIX nscs: <http://www.RostockEVCharging.de/ontology/resource/charging_station#> .
+PREFIX nsm: <http://www.RostockEVCharging.de/ontology/resource/municipality#> .
+PREFIX nso: <http://www.RostockEVCharging.de/ontology/resource/operator#> .
+
+# Get all the charging stations with their link
+select distinct ?cs_name ?url where {
+        ?cs a ns:ChargingStation .
+        ?cs rdfs:label ?cs_name .
+        ?cs vcard:hasURL ?url 
+    }
+    order by ?cs_name
+
+# Get all the charging stations with their direction
+select dinstinct ?cs_name ?street ?number ?add ?pc WHERE {
+        ?cs a ns:ChargingStation .
+        ?cs rdfs:label ?cs_name .
+        ?cs ns:street_name ?street .
+        ?cs ns:house_number ?number .
+        ?cs ns:postal_code ?pc
+        optional { ?cs ns:house_number_addition ?add }
+    }
+    order by ?cs_name
+
+
+# Get all the operators
+select distinct ?op_name where {
+        ?op a ns:Operator .
+        ?op rdfs:label ?op_name
+    }
+    order by ?op_name
+
+
+# Get all the charging stations opening 24/7
+select distinct ?cs_name ?h where {
+        ?cs a ns:ChargingStation .
+        ?cs rdfs:label ?cs_name .
+        ?cs ns:opening_hours "24/7"^^xsd:string .
+        ?cs ns:opening_hours ?h
+    }
+    order by ?cs_name
+
+
+# Get all the charging stations that are public and the Municipality and Operator
+select distinct ?cs_name ?m_name ?op_name where {
+        ?cs a ns:ChargingStation .
+        ?cs rdfs:label ?cs_name .
+        ?cs gn:locatedIn ?m .
+        ?m a ns:Municipality . 
+        ?m gn:name ?m_name .
+        ?cs ns:managed_by ?op .
+        ?op a ns:Operator .
+        ?op rdfs:label ?op_name.
+        ?cs ns:operating_mode "public"^^xsd:string
+    }
+    order by ?m_name ?cs_name

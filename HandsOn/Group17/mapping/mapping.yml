@@ -1,0 +1,47 @@
+prefixes:
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  ns: http://www.RostockEVCharging.de/ontology/
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  vcard: http://www.owl-ontologies.com/vcard#
+  gn: http://www.geonames.org/ontology#
+
+mappings:
+  charging_station:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv] 
+    s: ns:resource/charging_station#$(charging_station_id)
+    po:
+      - [a, ns:ChargingStation]
+      - [rdfs:label, $(charging_station_name), xsd:string]
+      - [geo:lat, $(latitude), xsd:float]
+      - [geo:long, $(longitude), xsd:float]
+      - [gn:locatedIn, ns:resource/municipality#$(municipality_id)~iri]
+      - [ns:street_name, $(street_name), xsd:string]
+      - [ns:house_number, $(house_number), xsd:integer]
+      - [ns:house_number_addition, $(house_number_addition), xsd:string]
+      - [ns:postal_code, $(postal_code), xsd:integer]
+      - [ns:managed_by, ns:resource/operator#$(operator_id)~iri]
+      - [ns:operating_mode, $(operating_mode), xsd:string]
+      - [ns:num_charging_points, $(num_charging_points), xsd:integer]
+      - [ns:types_charging_points, $(types_charging_points), xsd:string]
+      - [ns:accepted_cards, $(charging_cards), xsd:string]
+      - [ns:cost, $(cost), xsd:string]
+      - [ns:opening_hours, $(opening_hours), xsd:string]
+      - [vcard:hasURL, $(website), xsd:string]
+
+  operator:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv]
+    s: ns:resource/operator#$(operator_id)
+    po:
+      - [a, ns:Operator]
+      - [rdfs:label, $(operator), xsd:string]
+
+  municipality:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv] 
+    s: ns:resource/municipality#$(municipality_id)
+    po:
+      - [a, ns:Municipality]
+      - [gn:name, $(municipality), xsd:string]

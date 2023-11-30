@@ -1,5 +1,5 @@
-@prefix ns: <http://RostockEVCharging.de/ontology/> .
-@prefix geo: <file:///home/schavez/chowlk/https//www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns: <http://www.RostockEVCharging.de/ontology/> .
+@prefix geo: <https.//www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vcard: <http://www.owl-ontologies.com/vcard#> .
@@ -18,11 +18,7 @@ ns:gertrudenplatz_2 a ns:ChargingStation ;
     ns:house_number "2" ;
     ns:street_name "Gertrudenplatz" ;
     ns:postal_code "18057" ;
-    ns:accepted_cards 
-        ns:adac ,
-        ns:maingau ,
-        ns:plugsurfing ,
-        ns:stadtwerke ;
+    ns:charging_cards "ADAC e-Charge;EnBW mobility+;MAINGAU Autostrom;Plugsurfing;Stadtwerke Rostock";
     ns:locatedIn ns:kropeliner_tor_vorstadt;
     ns:managed_by ns:stadtwerke_rostock_ag
     .
@@ -30,20 +26,5 @@ ns:gertrudenplatz_2 a ns:ChargingStation ;
 ns:stadtwerke_rostock_ag a ns:Operator;
     rdfs:label "Stadtwerke Rostock AG".
 
-ns:adac a ns:ChargingCard;
-    rdfs:label "ADAC e-Charge".
-
-ns:maingau a ns:ChargingCard;
-    rdfs:label "EnBW mobility+".
-
-ns:plugsurfing a ns:ChargingCard;
-    rdfs:label "Plugsurfing".
-
-ns:stadtwerke a ns:ChargingCard;
-    rdfs:label "Stadtwerke Rostock".
-
 ns:kropeliner_tor_vorstadt a ns:Municipality;
     rdfs:label "Kröpeliner-Tor-Vorstadt" .
-
-
-   

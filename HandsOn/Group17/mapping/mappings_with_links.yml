@@ -1,0 +1,54 @@
+prefixes:
+  owl: http://www.w3.org/2002/07/owl#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+  vcard: http://www.owl-ontologies.com/vcard#
+  gn: http://www.geonames.org/ontology#
+  ns: http://www.RostockEVCharging.de/ontology/
+  nscs: http://www.RostockEVCharging.de/ontology/resource/charging_station#
+  nsm: http://www.RostockEVCharging.de/ontology/resource/municipality#
+  nso: http://www.RostockEVCharging.de/ontology/resource/operator#
+
+mappings:
+  charging_station:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv] 
+    s: nscs:$(charging_station_id)
+    po:
+      - [a, ns:ChargingStation]
+      - [rdfs:label, $(charging_station_name), xsd:string]
+      - [geo:lat, $(latitude), xsd:float]
+      - [geo:long, $(longitude), xsd:float]
+      - [gn:locatedIn, nsm:$(municipality_id)~iri]
+      - [ns:street_name, $(street_name), xsd:string]
+      - [ns:street_uri, $(street_name_uri)~iri]
+      - [ns:house_number, $(house_number), xsd:integer]
+      - [ns:house_number_addition, $(house_number_addition), xsd:string]
+      - [ns:postal_code, $(postal_code), xsd:integer]
+      - [ns:managed_by, nso:$(operator_id)~iri]
+      - [ns:operating_mode, $(operating_mode), xsd:string]
+      - [ns:num_charging_points, $(num_charging_points), xsd:integer]
+      - [ns:types_charging_points, $(types_charging_points), xsd:string]
+      - [ns:accepted_cards, $(charging_cards), xsd:string]
+      - [ns:cost, $(cost), xsd:string]
+      - [ns:opening_hours, $(opening_hours), xsd:string]
+      - [vcard:hasURL, $(website), xsd:string]
+
+  operator:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv]
+    s: nso:$(operator_id)
+    po:
+      - [a, ns:Operator]
+      - [rdfs:label, $(operator), xsd:string]
+      - [owl:sameAs, $(operator_uri)~iri]
+
+  municipality:
+    sources:
+      - [./cs_evs_rostock_updated.csv~csv] 
+    s: nsm:$(municipality_id)
+    po:
+      - [a, ns:Municipality]
+      - [gn:name, $(municipality), xsd:string]
+      - [owl:sameAs, $(municipality_uri)~iri]
