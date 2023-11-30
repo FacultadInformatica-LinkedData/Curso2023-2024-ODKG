@@ -1,0 +1,80 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+<script src="static/go_back.js"></script>
+
+
+{% endblock %} 
+
+{% block body %}
+
+
+{% if station != "No results found" %}
+    <h1>{{ station['name'] }}</h1>
+    <ul>
+        {% if station['municipality_wd'] %}
+            <li><strong>Municipality:</strong> <a href="{{ station['municipality_wd'] }}" target="_blank">{{ station['municipality'] }}</a></li>
+        {%else%}
+            <li><strong>Municipality:</strong> {{ station['municipality'] }}</li>
+        {% endif %}
+
+        
+        {% if station['operator_wd'] %}
+            <li><strong>Operator:</strong> <a href="{{ station['operator_wd'] }}" target="_blank">{{ station['operator'] }}</a></li>
+        {%else%}
+            <li><strong>Operator:</strong> {{ station['operator'] }}</li>
+        {% endif %}
+
+        <br>
+
+        <li><strong>Address:</strong> {{ station['street'] }} {{station['house_number']}} {{station['house_number_add']}}, {{station['postal_code']}}</li>
+        
+        {% if station['operating_mode'] %}
+            <li><strong>Operating mode:</strong> {{ station['operating_mode'] }}</li>
+        {% endif %}
+
+        {% if station['opening_hours'] %}
+            <li><strong>Opening hours:</strong> {{ station['opening_hours'] }}</li>
+        {% endif %}
+
+        
+        <li><strong>Number of charging points:</strong> {{ station['num_charging_points'] }}</li>
+        
+        <li><strong>Types of charging points:</strong>
+            <ul>
+                {% for charging_point in station['types_charging_points'] %}
+                    <li>{{ charging_point }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        
+        {% if station['accepted_cards'] %}
+            <li><strong>Accepted cards:</strong>
+                <ul>
+                    {% for card in station['accepted_cards'] %}
+                        <li>{{ card }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endif %}
+        
+        
+        {% if station['cost'] %}
+            <li><strong>Cost:</strong> {{ station['cost'] }}</li>
+        {% endif %}
+        
+        {% if station['url'] %}
+            <li><strong>Link to site:</strong> <a href="{{ station['url'] }}" target="_blank">{{ station['url'] }}</a></li>
+        {% endif %}
+
+    </ul>
+{% else %}
+    <p>No results found</p>
+{% endif %}
+
+<button onclick="goBack()">Back</button>
+
+
+
+{% endblock %}

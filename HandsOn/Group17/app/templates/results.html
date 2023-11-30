@@ -1,0 +1,86 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+<script src="static/go_back.js"></script>
+
+<title>results</title>
+{% endblock %} 
+
+{% block body %}
+
+<h1>
+    Results
+</h1>
+<br>
+
+<div style="text-align: center;">
+    <p><strong>Latitude:</strong> {{ latitude }}</p>
+    <p><strong>Longitude:</strong> {{ longitude }}</p>
+</div>
+<br><br>
+
+{% if all_stations == [] %}
+    <div style="text-align: center;">
+        <p><strong>No stations found</strong></p>
+    </div>
+{% endif %}
+<!-- Map container -->
+<div id="map" style="height: 400px;"></div>
+
+<!-- Include Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!-- Your custom script -->
+<script>
+    // Initialize the map
+    
+    var map = L.map('map').setView([{{ latitude }}, {{ longitude }}], 13);
+
+    // Add a tile layer (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add markers for each station
+    var allStations = [
+        {% for station in all_stations %}
+            {
+                id: "{{ station['id'] }}",
+                name: "{{ station['name'] }}",
+                latitude: {{ station['latitude'] }},
+                longitude: {{ station['longitude'] }}
+            },
+        {% endfor %}
+    ];
+
+    L.marker([{{ latitude }}, {{ longitude }}], 
+        {icon: L.icon({iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png', iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]})})
+        .addTo(map)
+        .bindPopup("Location selected");
+
+
+
+    allStations.forEach(function(station) {
+        // Create a link to another HTML site with a click event
+        var popupContent = document.createElement('div');
+        popupContent.innerHTML = `
+            <strong>${station.name}</strong>
+            <br>
+            <a href="/get_station?id=${station.id}" id="link_${station.id}">Link</a>
+        `;
+
+        // Add a marker with the popup
+        L.marker([station.latitude, station.longitude])
+            .addTo(map)
+            .bindPopup(popupContent);
+
+    });
+
+
+
+</script>
+
+<br>
+<button onclick="goBack()">Back</button>
+
+{% endblock %} 
