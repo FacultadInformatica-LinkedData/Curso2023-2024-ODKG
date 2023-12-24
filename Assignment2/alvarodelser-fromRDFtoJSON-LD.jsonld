@@ -1,0 +1,53 @@
+[
+  {
+    "@id": "sn:Class01",
+    "sn:includes": [
+      {
+        "@id": "sn:Sensor029"
+      },
+      {
+        "@id": "sn:Computer101"
+      }
+    ]
+  },
+  {
+    "@id": "sn:Sensor029",
+    "sn:hasMeasurement": [
+      {
+        "@id": "sn:Measurement8401"
+      }
+    ]
+  },
+  {
+    "@id": "sn:Measurement8401",
+    "sn:atTime": [
+      {
+        "@type": "xsd:dateTime",
+        "@value": "2010-06-12T12:00:12"
+      }
+    ],
+    "sn:hasTemperature": [
+      {
+        "@type": "xsd:float",
+        "@value": "29"
+      }
+    ]
+  },
+  {
+    "@id": "sn:Computer101",
+    "sn:hasOwner": [
+      {
+        "@id": "sn:User10A"
+      }
+    ]
+  },
+  {
+    "@id": "User10A",
+    "sn:hasName": [
+      {
+        "@type": "xsd:string",
+        "@value": "Pedro"
+      }
+    ]
+  }
+]

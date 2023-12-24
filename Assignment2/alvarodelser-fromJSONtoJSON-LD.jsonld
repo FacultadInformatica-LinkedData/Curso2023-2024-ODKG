@@ -1,0 +1,77 @@
+{
+	"@context":{
+		"ex":"http://www.example.org/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"vcard":"http://www.w3.org/TR/vcard-rdf/",
+		"fullName":"foaf:name",
+		"firstName":"foaf:first_name",
+		"familyName":"foaf:family_name",
+		"hometown":"ex:hometown",
+		"age":"ex:age",
+		"almaMater":"ex:almaMater",
+		"parents":"ex:parents",
+		"mother":"ex:mother",
+		"father":"ex:father",
+		"subjects":"ex:subjects",
+		"name":"rdfs:label",
+		"description":"rdfs:description",
+		"teachers":"ex:teachers"
+	},
+	"@id":"ex:Alvaro",
+	"@type":"foaf:Person",
+	"fullName":{
+		"firstName":"Alvaro",
+		"familyName":"Fontecha"
+	},
+	"hometown":"Leon",
+	"age":24,
+	"almaMater":"UAM",
+	"parents":{
+		"mother":"Ana",
+		"father":"Seve"
+	},
+	"subjects":[
+		{
+			"@id":"ex:ODKG",
+			"@type":"ex:Course",
+			"name":"Open Data and Knowledge Graphs",
+			"description":"Course on open data, ontologies and knowledge graph serializations based on RDF.",
+			"teachers":[
+				{
+                  			"@id":"OscarCorcho",
+                  			"@type":"ex:professor",
+                  			"name":"Oscar Corcho"
+				},
+				{
+                 			 "@id":"RaulGarcia",
+                  			"@type":"ex:professor",
+                 			 "name":"Raul Garcia"
+				},
+				{
+					"@id":"DanielGarijo",
+                 			 "@type":"ex:professor",
+                  			"name":"Daniel Garijo"
+				}
+			]
+		},
+{
+			"@id":"ex:ML",
+			"@type":"ex:Course",
+			"name":"Machine Learning",
+			"description":"Course on the main machine learning models, theoretical foundations and practical assignemnts.",
+			"teachers":[
+				{
+				  "@id":"PedroLarranaga",
+                 		 "@type":"ex:professor",
+                  		"name":"Pedro Larrañaga"
+				},
+				{
+				  "@id":"ConchaBielza",
+                  		"@type":"ex:professor",
+                 		 "name":"Concha Bielza"
+				}
+			]
+		}
+	]
+}
