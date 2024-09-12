@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "Person": "http://schema.org/person",
+    "full_name": "http://schema.org/fullName",
+    "age": "http://schema.org/age",
+    "hometown": "http://schema.org/homeTown",
+    "alma_mater": "http://schema.org/almaMater",
+    "parents": "http://schema.org/parents",
+    "subjects_this_year": "http://schema.org/subjects_this_year",
+    "name": "http://schema.org/subject_name",
+    "teacher": "http://schema.org/teachers",
+    "description": "http://schema.org/description"
+  },
+  "@type": "Person",
+  "full_name": "Adrian Retes Corada",
+  "hometown": "Miami",
+  "age": 22,
+  "alma_mater": "Universidad Politecnica de Madrid",
+  "parents": {
+    "@type": "Person",
+    "father": "Aitor",
+    "mother": "Amelia"
+  },
+  "subjects_this_year": [
+    {
+      "@type": "Course",
+      "name": "Data Processes",
+      "teacher": ["Alejandro Rodriguez", "Ernestina Menasalvas", "Antonio Jesus Diaz Honrubia"],
+      "description": "This course introduces fundamental tools and technologies necessary to transform raw data into information."
+    },
+    {
+      "@type": "Course",
+      "name": "Big Data",
+      "teacher": ["Antonio LaTorre", "Julian Arenas", "Jorge Acosta"],
+      "description": "This course will allow the student to gain the fundamentals for the analysis of large volumes of data."
+    },
+    {
+      "@type": "Course",
+      "name": "Cloud computing and big data ecosystems design",
+      "teacher": "Marta Patiño Martínez",
+      "description": "This course presents architectures for scalable distributed systems and data management systems: map reduce, bigtable, data streaming, persistent queues."
+    },
+    {
+      "@type": "Course",
+      "name": "Data Visualization",
+      "teacher": ["Pablo Toharia Rabasco", "Antonio Latorre De LaFuente"],
+      "description": "This course will allow the student to gain the fundamentals for the visualization of all kinds of information."
+    },
+    {
+      "@type": "Course",
+      "name": "Introduction to Research Methodology",
+      "teacher": "Oscar Corcho Garcia",
+      "description": "This seminar aims at informing and guiding students about techniques, most common standards and systems for the practice of scientific research and its methodological bases."
+    },
+    {
+      "@type": "Course",
+      "name": "Machine Learning",
+      "teacher": ["D. Pedro Larrañaga Mugica", "Dña. Concha Bielza Lozoya"],
+      "description": "This course covers various methods for solving problems of supervised and unsupervised classification, as well as relationships between the variables in the system."
+    },
+    {
+      "@type": "Course",
+      "name": "Open Data and Knowledge Graphs",
+      "teacher": ["Oscar Corcho Garcia", "Raul Garcia Castro"],
+      "description": "During this course, you will learn about the main foundations for Knowledge Graphs, including the W3C recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+    },
+    {
+      "@type": "Course",
+      "name": "Statistical Data Analysis",
+      "teacher": "Arminda Moreno Díaz",
+      "description": "The course is intended to be a non-exhaustive survey of techniques to convert multivariate data into useful information so that good decisions can be made. The perspective is twofold, theoretical and applied, covering topics such as exploratory data analysis, statistical summaries and graphical representations, dimensionality reduction, regression techniques and time series analysis."
+    }
+  ]
+}
