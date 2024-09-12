@@ -1,0 +1,51 @@
+{
+  "fullName": "Juan Ramón Romero García",
+  "hometown": "Albacete",
+  "age": "21",
+  "alma_mater": "Universidad de Castilla-La Mancha",
+  "parents": {
+    "father": "Maria del Mar García Solera",
+    "mother": "Juan Ramón Romero García"
+  },
+  {
+  "subjects": [
+    {
+      "name": "Data Processes",
+      "professor": "Ernestina Menasalvas",
+      "description": "Introduction to the principles and techniques behind data processing."
+    },
+    {
+      "name": "Data Visualization / Big Data",
+      "professor": "Pablo Toharia",
+      "description": "Exploration of data representation techniques and understanding big data concepts."
+    },
+    {
+      "name": "Statistical Data Analysis",
+      "professor": "MORENO DIAZ ARMINDA",
+      "description": "Dive deep into statistical methods and techniques for data analysis."
+    },
+    {
+      "name": "Intelligent Systems",
+      "professor": "professor",
+      "description": "A study of algorithms and architectures of artificial intelligence applications."
+    },
+    {
+      "name": "Open Data and Knowledge Graphs",
+      "professor": "Oscar Corcho",
+      "description": "Understanding the principles behind open data and the creation and usage of knowledge graphs."
+    },
+    {
+      "name": "Cloud Computing and Big Data Ecosystems",
+      "professor": "AZQUETA ALZUAZ AINHOA",
+      "description": "An introduction to cloud platforms and services and their role in supporting big data ecosystems."
+    },
+    {
+      "name": "Machine Learning",
+      "professor": "Pedro Larrañaga Múgica",
+      "description": "Fundamentals of machine learning algorithms and techniques."
+    },
+
+  ]
+}
+
+}

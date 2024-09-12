@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "ex1": "http://ex1.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+  },
+  "@id": "ex1:Class01",
+  "includes": [
+    {
+      "@id": "ex1:Sensor029",
+      "hasMeasurement": {
+        "@id": "ex1:Measurement84",
+        "hasTemperature": {
+          "@value": "29",
+          "@type": "xsd:int"
+        },
+        "atTime": {
+          "@value": "2010-06-12T12:00:12",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+    {
+      "@id": "ex1:Computer101",
+      "hasOwner": {
+        "@id": "ex1:User10A",
+        "hasName": {
+          "@value": "Pedro",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  ]
+}
