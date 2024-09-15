@@ -1,0 +1,1 @@
+https://dbpedia.org/snorql/?query=PREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fprop+COUNT%28%3Fy%29+WHERE+%7B%0D%0A++%3Fvalue+rdf%3Atype+dbo%3APolitician+.%0D%0A++%3Fvalue+%3Fprop+%3Fy+.%0D%0A++FILTER%28%3Fprop+%21%3D+rdf%3Atype%29%0D%0A%7D
