@@ -1,0 +1,46 @@
+{ 
+    "@context":{ 
+    "xsd":"http://www.w3.org/2001/XMLSchema#", 
+    "ns": "http://www.examples.org#" 
+}, 
+
+"ns:name": "Guillermo López García", 
+"ns:homeTown": "Valdemoro", 
+"ns:age": 23, 
+"ns:almaMater": "UPM", 
+"parents": [ 
+    "Manuel", 
+    "Paloma" 
+], 
+
+"ns:subjects":[ 
+    { 
+        "ns:subjectName": "Infraestructuras de datos espaciales", 
+        "ns:teachers": "Marina", 
+        "ns:description": "planning, design, and management of geospatial information systems"
+    }, 
+    { 
+        "ns:subjectName": "Cloud computing and big data ecosystems design",
+        "ns:teachers": "Marta Patiño",
+        "ns:description": "course that explores the principles and techniques for designing and implementing cloud-based system"
+    }, 
+    { 
+        "ns:subjectName": "Minería de modelos parala toma de decisiones", 
+        "ns:teachers": "Juan Antonio", 
+        "ns:description":  "course that focuses on the extraction and analysis of models from data to support decision-making processes"
+    }, 
+    { 
+        "ns:subjectName": "Open Data and Knowledge Graphs", 
+        "ns:teachers":[ 
+            "Oscar Corcho Garcia", 
+            "Raul Garcia Casto",
+            "Daniel Garijo"
+        ], 
+        "ns:description":"course that teaches students how to utilize open information sources and construct structured knowledge graphs, enabling effective data integration and enhanced information retrieval"
+    }, 
+    { 
+        "ns:subjectName": "Robótica", 
+        "ns:teachers": "Javier de Lope",
+        "ns:description":  "course that explores the field of designing, building, and programming robots for various applications"
+    } 
+]}
