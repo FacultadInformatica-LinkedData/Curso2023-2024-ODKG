@@ -1,0 +1,62 @@
+TASK 1) Create the JSON-LD file for the GRAPH using your serializations of RDF or Turtle and validate it.
+
+
+@prefix base: <http://dataexample.org> .
+@prefix vocab: <http://dataexample.org/features> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:class01 
+	vocab:includes base:Sensor029;
+	vocab:includes base:Computer101 .
+
+base:Sensor029 vocab:hasMeasurement base:Measurement8401 .
+
+base:Measurement8401
+	vocab:hasTemperature "29"^^xsd:integer;
+	vocab:atTime "2010-06-12T 12:00:12"^^xsd:dateTime .
+
+base:Computer101 vocab:hasOwner base:Use10A .
+
+base:Use10A vocab:hasName "Pedro" .
+
+
+
+{
+	"@context":{
+		"base": "http://dataexample.org",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+	},
+	"@graph":[
+		{
+			"@id":"base:Class01",
+			"base:includes":{
+				"@id":"base:Sensor029",
+				"base:hasMeasurement":{
+					"@id":"base:Measurement8401",
+					"base:hasTemperature":{
+						"@type": "xsd:int",
+						"@value":29,
+					},
+					"base:atTime":{
+					    "@type":"xsd:dateTime",
+						"@value": "2010-06-12T12:00:12",
+					}
+				},
+				"@id":"base:Computer101",
+				"base:hasOwner":{
+					"@id":"base:User10A",
+					"base:hasName":{
+						"@value": "Pedro",
+						"@type": "xsd:string",
+					}
+				}
+			}
+		}
+	]
+}
+
+
+
+
+
+
