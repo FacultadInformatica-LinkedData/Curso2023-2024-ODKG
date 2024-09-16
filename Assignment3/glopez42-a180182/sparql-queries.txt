@@ -1,0 +1,69 @@
+Guillermo López García
+
+
+1 - Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+SELECT DISTINCT ?p
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z
+} 
+
+
+2 -  Get all the properties, except rdf:type, that can be applied to instances of the Politician class
+
+
+SELECT DISTINCT ?p
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z .
+FILTER (?p != rdf:type)
+} 
+
+
+3 - Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+
+SELECT DISTINCT ?z
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z .
+FILTER (?p != rdf:type)
+} 
+
+
+4 - For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+
+// Comentario: En un primer lugar quise agrupar por cada propiedad todos los valores en una entrada de la tabla, por lo que encontré que se podría hacer así:
+
+SELECT ?p (GROUP_CONCAT(?z; separator="|") AS ?values)
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z .
+FILTER (?p != rdf:type)
+} 
+GROUP BY ?p
+
+// No obstante desde el editor de queries salta un timeout así que no sé si está bien usada. He hecho esta por otro lado, que hace lo mismo pero muestra una entrada en la tabla por cada valor encontrado de una propiedad:
+
+SELECT DISTINCT ?p ?z
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z .
+FILTER (?p != rdf:type)
+} ORDER BY ?p
+
+
+5 - For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
+
+SELECT ?p COUNT(DISTINCT?z)
+WHERE
+{
+?x a <http://dbpedia.org/ontology/Politician> .
+?x ?p ?z .
+FILTER (?p != rdf:type)
+} ORDER BY ?p
