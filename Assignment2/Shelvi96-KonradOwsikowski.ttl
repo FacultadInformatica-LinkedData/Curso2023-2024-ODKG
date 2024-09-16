@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://example.org/#> .
+
+:Measurement8401
+    rdf:hasTemperature 29 ;
+    rdf:atTime "2010-06-12T12:00:12"
+.
+
+:Sensor029
+    rdf:hasMeasurement :Measurement8401
+.
+
+:User10A
+    rdf:hasName "Pedro"
+.
+
+:Computer101
+    rdf:hasOwner :User10A
+.
+
+:Class01
+    rdf:includes :Sensor029 ;
+    rdf:includes :Computer101
+.
