@@ -1,0 +1,63 @@
+[
+  {
+  	"@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ns": "http://example.org/#",
+      "includes": "rdf:Object"
+    },
+    "@id": "ns:Class01",
+    "@type": "rdf:Class",
+    "includes": [
+      {
+        "@id": "ns:Sensor029",
+        "@type": "rdf:Sensor"
+      },
+      {
+        "@id": "ns:Computer101",
+        "@type": "rdf:Computer"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ns": "http://example.org/#",
+      "hasMeasurement": "rdf:Measurement"
+    },
+    "@id": "ns:Sensor029",
+    "@type": "rdf:Sensor",
+    "hasMeasurement": "ns:Measurement8401"
+  },
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ns": "http://example.org/#",
+      "hasTemperature": "rdf:label",
+      "atTime": "rdf:label"
+    },
+    "@id": "ns:Measurement8401",
+    "@type": "rdf:Measurement",
+    "hasTemperature": 29,
+    "atTime": "2010-06-12T12:00:12"
+  },
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ns": "http://example.org/#",
+      "hasOwner": "rdf:Owner"
+    },
+    "@id": "ns:Computer101",
+    "@type": "rdf:Computer",
+    "hasOwner": "ns:User10A"
+  },
+  {
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "ns": "http://example.org/#",
+      "hasName": "rdf:label"
+    },
+    "@id": "ns:User10A",
+    "@type": "rdf:Owner",
+    "hasName": "Pedro"
+  }
+]

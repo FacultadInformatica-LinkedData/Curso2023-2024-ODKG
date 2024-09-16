@@ -1,0 +1,29 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "fullName": "Konrad Owsikowski",
+  "hometown": "Warsaw",
+  "age": 25,
+  "almaMater": "Warsaw University of Technology",
+  "parentsName": ["Ana", "Jakob"],
+  "subjects": [
+    {
+      "@type": "Subject",
+      "name": "Subject 1",
+      "teachers": ["Name 1.1", "Name 1.2"],
+      "briefDescription": "This is description of subject 1"
+    },
+    {
+      "@type": "Subject",
+      "name": "Subject 2",
+      "teachers": ["Name 2.1", "Name 2.2"],
+      "briefDescription": "This is description of subject 2"
+    },
+    {
+      "@type": "Subject",
+      "name": "Subject 3",
+      "teachers": ["Name 3.1", "Name 3.2"],
+      "briefDescription": "This is description of subject 3"
+    }
+  ]
+}
