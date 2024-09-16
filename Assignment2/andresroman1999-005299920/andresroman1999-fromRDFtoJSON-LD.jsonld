@@ -1,0 +1,37 @@
+{
+"@context": {
+	"names": "http://www.namespace.es/names#",
+	"xls": "http://www.w3.org/2001/XMLSchema#"
+	},
+"@graph": [
+	{
+	"@id": "names:Class01",
+	"names:includes": [
+		{
+		"@id": "names:Sensor029",
+		"names:hasMeasurement": {
+			"@id": "names:Measurement8401",
+			"names:hasTemperature": {
+				"@value": 29,
+				"@type": "xls:integer"
+			},
+			"names:atTime": {
+				"@value": "2010-06-12T12:00:12",
+				"@type": "xls:dateTime"
+			}
+		}
+	},
+		{
+		"@id": "names:Computer101",
+		"names:hasOwner": {
+			"@id": "names:User10A",
+			"names:hasName": {
+				"@value": "Pedro",
+				"@type": "xls:string"
+			}
+		}
+	}
+	]
+	}
+]
+}
