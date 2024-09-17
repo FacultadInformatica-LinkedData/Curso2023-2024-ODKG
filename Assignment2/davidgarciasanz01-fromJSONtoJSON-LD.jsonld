@@ -1,0 +1,48 @@
+{
+    "@context": {
+        "names": "http://www.namespace.es/names/",
+        "person": "names:person",
+        "fullName": "names:fullName",
+        "homeTown": "names:homeTown",
+        "age": "names:age",
+        "almaMater": "names:almaMater",
+        "parents": "names:parents",
+        "subjects": "names:subjects",
+        "subjectName": "names:subjects",
+        "teacher": "names:subjects",
+        "description": "names:description"
+    },
+    "@id": "names:DavidGarciaSanz",
+    "@type": "person",
+    "fullName": "David Garcia Sanz",
+    "hometown": "Guadalajara",
+    "age": 22,
+    "almaMater":
+        "Universidad Politecnica de Madrid",
+       
+    "parents": [
+        "Luis Miguel",
+        "Arrate"
+    ],
+    "subjects": [
+        {
+            "@id": "names:OpenDataKG",
+            "@type": "subject",
+            "subjectName": "Open Data and Knowledge Graphs",
+            "teacher":
+                "Oscar Corcho",
+           
+            "description": "Open Data and Knowledge Graphs are essential components of modern data-driven systems, enabling the sharing, integration, and analysis of structured and unstructured information. This course explores the concepts, techniques, and practical applications of open data and knowledge graph technologies."
+        },
+        {
+            "@id": "names:MachineLearning",
+            "@type": "subject",
+            "subjectName": "Machine Learning",
+            "teacher": 
+                "Pedro Larranaga",
+            
+            "description": "Machine Learning is a foundational field of artificial intelligence that empowers computers to learn and make predictions or decisions without being explicitly programmed. This course provides a comprehensive introduction to the principles, algorithms, and practical applications of machine learning."
+        }
+        
+    ]
+}
