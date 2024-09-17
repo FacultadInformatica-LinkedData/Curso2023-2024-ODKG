@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sns": "http://www.w3.org/namespaces/ontology/sensor#",
+    "pc": "http://www.w3.org/namespaces/ontology/computer#",
+    "msr": "http://www.w3.org/namespaces/ontology/measurement#",
+    "user": "http://www.w3.org/namespaces/ontology/user#"
+  },
+  "@id": "sns:Class01",
+  "sns:includes": ["sns:Sensor029", "pc:Computer101"],
+  "sns:Sensor029": {
+    "sns:hasMeasurement": "msr:Measurement8401"
+  },
+  "msr:Measurement8401": {
+    "sns:hasTemperature": {
+      "@value": "29",
+      "@type": "xsd:integer"
+    },
+    "sns:atTime": {
+      "@value": "2010-06-12T12:00:12",
+      "@type": "xsd:dateTime"
+    }
+  },
+  "pc:Computer101": {
+    "sns:hasOwner": "user:User10A"
+  },
+  "user:User10A": {
+    "sns:hasName": {
+      "@value": "Pedro",
+      "@type": "xsd:string"
+    }
+  }
+}
