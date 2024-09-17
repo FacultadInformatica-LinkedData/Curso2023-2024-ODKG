@@ -1,0 +1,18 @@
+{
+  "fullName": "Antonio Jodar Martin",
+  "hometown": "Motril",
+  "age": 29,
+  "almaMater": "Universidad de Almeria",
+  "parents": {
+    "father": "Antonio Jodar Gandara",
+    "mother": "Sonia Martin Feriche"
+  },
+  "subjectsThisYear": [
+    {
+      "name": "Open Data and knowledge Graphs",
+      "teachers": ["Oscar Corcho", "Raul Garcia", "Daniel Garijo" ],
+      "briefDescription": "World History, US History"
+    }
+  ]
+}
+
