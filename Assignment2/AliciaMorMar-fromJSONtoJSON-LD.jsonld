@@ -1,0 +1,43 @@
+{
+	"@context": {
+		"names": "http://www.namespace.es/names/",
+		"person": "names:person",
+		"fullName": "names:fullName",
+		"hometown": "names:hometown",
+		"age": "names:age",
+		"almaMater": "names:almaMater",
+		"parents": "names:parents",
+		"subjects": "names:subjects",
+		"subjectName": "names:subjects",
+		"teacher": "names:subjects",
+		"description": "names:description"
+	},
+	"@id": "names:AliciaMorales",
+	"@type": "person",
+	"fullName": "Alicia Morales Martinez",
+	"hometown": "Madrid, España",
+	"age": 24,
+	"almaMater": "Universidad Complutense de Madrid",
+	"parents": [
+		"Vidal", 
+		"Maria del Carmen"
+	],
+	"subjects": [
+		{
+			"subjectName": "Open Data and Knowledge Graphs",
+			"teacher": [
+				"Oscar Corcho Garcia", 
+				"Raul Garcia Castro"
+			],
+			"description": "During this course you will learn about the main foundations for Knowledge Graphs and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+		},
+		{
+			"subjectName": "Data Visualization",
+			"teacher":[
+                "Pablo Toharia",
+                "Antonio Latorre"
+            ],
+			"description": "Data Visualization is a crucial skill in the field of data science and analytics. This course provides a comprehensive introduction to the principles, techniques, and tools used to effectively communicate insights and patterns from data through visual representations."
+		}
+	]
+}
