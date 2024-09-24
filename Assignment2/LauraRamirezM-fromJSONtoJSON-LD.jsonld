@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "fullName": "Laura Ramírez",
+  "hometown": "Madrid",
+  "age": 25,
+  "almaMater": "Universidad Politecnica de Madrid",
+  "parentsName": ["Luismi", "Ana"],
+  "subjects": [
+    {
+      "@type": "Subject",
+      "name": "Open Data And Knowledge Graphs",
+      "teachers": ["Oscar Corcho","Raul Garcia","Daniel Garijo"],
+      "briefDescription": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3 recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+    },
+    {
+      "@type": "Subject",
+      "name": "Data Processes",
+      "teachers": ["Alejandro Rodriguez", "Ernestina Menasalvas", "Antonio Jesús Diaz Honrubia"],
+      "briefDescription": "This course introduces fundamental tools and technologies necessary to transform raw data into information."
+    }
+  ]
+}
