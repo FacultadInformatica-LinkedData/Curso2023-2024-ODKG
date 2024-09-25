@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org/",
+  "@id": "http://example.org#Sergio",
+  "@type": "Person",
+  "name": "Sergio Marín Sánchez",
+  "birthPlace": {
+    "@type": "City",
+    "name": "Caravaca de la Cruz",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Caravaca de la Cruz",
+      "addressRegion": "Murcia"
+    }
+  },
+  "age": 24,
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad de Murcia"
+  },
+  "parent": [
+    {
+      "@type": "Person",
+      "name": "Francisco"
+    },
+    {
+      "@type": "Person",
+      "name": "Antonia"
+    }
+  ],
+  "hasCourse": [
+    {
+      "@type": "Course",
+      "name": "Data Processes",
+      "description": "Introduction to the principles and techniques behind data processing.",
+      "professor": {
+        "@type": "Person",
+        "name": "Ernestina Menasalvas"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Data Visualization / Big Data",
+      "description": "Exploration of data representation techniques and understanding big data concepts.",
+      "professor": {
+        "@type": ["Person", "Professor"],
+        "name": "Pablo Toharia"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Statistical Data Analysis",
+      "description":"Dive deep into statistical methods and techniques for data analysis.",
+      "professor": {
+        "@type": ["Person","Professor"],
+        "name": "Arminda Moreno Diaz"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Open Data and Knowledge Graphs",
+      "description": "Understanding the principles behind open data and the creation and usage of knowledge graphs.",
+      "professor": {
+        "@type": ["Person", "Professor"],
+        "name": "Oscar Corcho"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Cloud Computing and Big Data Ecosystems",
+      "description": "An introduction to cloud platforms and services and their role in supporting big data ecosystems.",
+      "professor": {
+        "@type": ["Person", "Professor"],
+        "name": "Marta Patiño Martinez"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Machine Learning",
+      "description":"Fundamentals of machine learning algorithms and techniques.",
+      "professor": {
+        "@type": ["Person","Professor"],
+        "name": "Pedro Larrañaga Mugica"
+      }
+    }
+  ]
+}
