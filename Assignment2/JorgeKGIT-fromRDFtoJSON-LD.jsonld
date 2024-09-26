@@ -1,0 +1,35 @@
+{
+"@context": {
+"properties": "http://oeg/Assignment2_Properties#",
+"classes": "http://oeg/Assignment2_Classes/",
+"xsd": "http://www.w3.org/2001/XMLSchema#"
+},
+"@id": "classes:Class01",
+"properties:includes": [
+"classes:Sensor029",
+"classes:Computer101"
+],
+"classes:Sensor029": {
+"@id": "classes:Sensor029",
+"properties:hasMeasurement": "classes:Measurement8401"
+},
+"classes:Measurement8401": {
+"@id": "classes:Measurement8401",
+"properties:hasTemperature": {
+"@value": 29,
+"@type": "xsd:integer"
+},
+"properties:atTime": {
+"@value": "2010-06-12T12:00:12",
+"@type": "xsd:dateTime"
+}
+},
+"classes:Computer101": {
+"@id": "classes:Computer101",
+"properties:hasOwner": "classes:User10A"
+},
+"classes:User10A": {
+"@id": "classes:User10A",
+"properties:hasName": "Pedro"
+}
+}

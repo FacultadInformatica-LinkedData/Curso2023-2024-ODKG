@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+	"xsd":"http://extraSchema.org/#",
+    "FullName": "schema:name",
+    "Hometown": "xsd:hometown",
+    "Age": "xsd:age",
+    "Alma mater": "schema:alumniOf",
+    "Parents Names": "schema:parents",
+    "Subjects":"xsd:partOfCourse",
+    "SubjectName": "schema:name",
+    "Teachers": "xsd:teacher",
+    "Description": "schema:description"
+  },
+  "@type": "schema:Person",
+  "FullName": "Jorge Kessler Martín",
+  "Hometown": "Madrid",
+  "Age": "22",
+  "Alma mater": {
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Universidad Politécnica de Madrid"
+  },
+  "Parents Names": [
+    "Pablo",
+    "Adoración"
+  ],
+  "Subjects": [
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Design of Cloud Computing and Big Data Ecosystem",
+      "Teachers": [
+        "Tonghong Li",
+        "Marta Patiño Martinez",
+        "Ainhoa Azqueta Alzuaz"
+      ],
+      "Description": "This course presents traditional data management systems and architectures for scalable distributed systems and data management systems: bigtable, data streaming, persistent queues"
+    },
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Minería de Modelos para la Toma de Decisiones",
+      "Teachers": [
+        "Juan Antonio Fdez Del Pozo De Salamanca",
+        "Alfonso Mateos Caballero",
+        "Arminda Moreno Diaz"
+      ],
+      "Description": "Los modelos de toma de decisiones implican la gestión y análisis de datos y conocimiento experto, la construcción de estructuras de datos complejas para representar modelos probabilísticos y de preferencias y la obtención de resultados de gran tamaño relativos la evaluación del modelo y su sensibilidad"
+    },
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Robótica",
+      "Teachers": [
+        "Javier De Lope Asiain",
+        "Nikolaus Guyon Swoboda"
+      ],
+      "Description": "Se estudian los fundamentos de la Robótica, así como su relación con la Ingeniería Informática. Se profundizan en diversos aspectos de la Robótica como disciplina, desarrollando soluciones mediante técnicas disponibles en el estado del arte que pueden estar orientadas tanto a robots industriales como a robots autónomos en las que Se priman técnicas avanzadas de Inteligencia Artificial."
+    },
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Infraestructura de Datos Espaciales",
+      "Teachers": [
+        "Guillermo Roman Diez",
+        "Marina A. Alvarez Alonso"
+      ],
+      "Description": "Esta asignatura trata de los WebGIS, sistemas de SIG en la Web que se desarrollan con la filosofia de las Infraestructuras de Datos Espaciales,. Son sistemas muy potentes de captura, tratamiento, análisis, visualización y publicación en la Web de datos geoespaciales distribuidos por todo el mundo, que son el 80% de los datos que se manejan en la actualidad."
+    },
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Open Data and Knowledge Graphs",
+      "Teachers": [
+        "Oscar Corcho Garcia",
+        "Raul Garcia Castro"
+      ],
+      "Description": "During this course you will learn about the main foundations for Knowledge Graphs, including the W3C recommendations that are applicable in this area (RDF, RDF Schema, SPARQL, OWL, CSV on the Web) and methodologies for the generation and publication of Knowledge Graphs from multiple heterogeneous data sources and formats, using Linked Data technologies."
+    },
+    {
+      "@type": "schema:Course",
+      "SubjectName": "Big Data",
+      "Teachers": [
+        "Antonio Latorre De La Fuente",
+        "Julian Arenas Guerrero",
+        "Jorge Acosta Hernandez"
+      ],
+      "Description": "This course will allow the student to gain the fundamentals for the analysis of large volumes of data. With an eminently practical approach, the technologies and fundamentals necessary to successfully accomplish the whole data analysis process will be presented in the context of Big Data, from the raw data to the models derived from them."
+    }
+  ]
+}

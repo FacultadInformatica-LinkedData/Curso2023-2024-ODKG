@@ -1,0 +1,13 @@
+@prefix properties: <http://oeg/Assignment2_Properties#>.
+@prefix classes: <http://oeg/Assignment2_Classes/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+classes:Class01 properties:includes classes:Sensor029;
+properties:includes classes:Computer101.
+
+classes:Sensor029 properties:hasMeasurement classes:Measurement8401.
+classes:Measurement8401 properties:hasTemperature "29"^^xsd:integer;
+properties:atTime "2010-06-12T12:00:12"^^xsd:DateTime.
+
+classes:Computer101 properties:hasOwner classes:User10A.
+classes:User10A properties:hasName "Pedro".
