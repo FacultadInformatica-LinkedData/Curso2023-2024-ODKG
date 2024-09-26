@@ -1,0 +1,69 @@
+# Exercise to obtain information about politicians in a database
+
+# 1 ------------------------------
+# List of things that can be said about people who are politicians
+
+
+SELECT DISTINCT ?property   
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician> .
+  ?s ?property ?o .
+}
+LIMIT 100
+
+
+# 2 ------------------------------
+# Same as the previous one except without indicating that they are politicians
+
+
+SELECT DISTINCT ?property
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician> .
+  ?s ?property ?o .
+  FILTER (?property != rdf:type) 
+}
+LIMIT 100
+
+
+# 3 ------------------------------
+# Diferent data for politicians'characteristics, without mentioning that they
+# are politicians
+
+
+SELECT DISTINCT ?property ?value
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician> .
+  ?s ?property ?value .
+  FILTER (?property != rdf:type)
+}
+LIMIT 100
+
+
+# 4 ------------------------------
+# For each politician's characteristic, display the different data, 
+# all without mentioning that they are politicians
+
+
+SELECT ?property 
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician> .
+  ?s ?property ?value .
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+LIMIT 100
+
+
+# 5 ------------------------------
+# For each politician's characteristic, count how many different data exist 
+#across al politicians, without mentioning that they are politicians
+
+
+SELECT ?property (COUNT(DISTINCT ?value) AS ?distinctValueCount)
+WHERE {
+  ?s a <http://dbpedia.org/ontology/Politician> .
+  ?s ?property ?value .
+  FILTER (?property != rdf:type)
+}
+GROUP BY ?property
+LIMIT 100
