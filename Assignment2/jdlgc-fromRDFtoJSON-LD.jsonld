@@ -1,0 +1,44 @@
+{
+    "@context":{
+        "base": "http://www.jorge.net/ontologies/Ejercico2b/",
+        "vocab": "http://www.jorge.net/ontologies/Ejercico2b#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "Class1",
+    "vocab:includes":[
+        {
+            "@id": "Sensor029",
+            "vocab:hasMeasurement": [
+                {
+                    "@id": "Measurement8401",
+                    "vocab:hasTemperature": [
+                        {
+                            "@value": "29",
+                            "@type": "xsd:integer"
+                        }
+                    ],
+                    "vocab:atTime": [
+                        {
+                            "@value": "2010-06-12T12:00:12",
+                            "@type": "xsd:dateTime"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Computer101",
+            "vocab:hasOwner": [
+                {
+                    "@id": "User10A",
+                    "vocab:hasName": [
+                        {
+                            "@value": "Pedro",
+                            "@type": "xsd:string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

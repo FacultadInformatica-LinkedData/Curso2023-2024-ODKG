@@ -1,0 +1,61 @@
+{
+    "@context":{
+        "base": "http://www.jorge.net/ontologies/Ejercico2b/",
+        "vocab": "http://www.jorge.net/ontologies/Ejercico2b#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": "Person",
+    "vocab:fullName": "Jorge Cordobés Delgado",
+    "vocab:hometown": {
+      "@type": "Place",
+      "vocab:hometownname": "Talavera de la Reina, Toledo"
+    },
+    "vocab:age": 23,
+    "vocab:almaMater": {
+      "@type": "EducationalOrganization",
+      "vocab:almamatername": "Universidad Politécnica de Madrid"
+    },
+    "vocab:parents": [
+      {
+        "@type": "Person",
+        "vocab:fullName": "Juan Cordobés"
+      },
+      {
+        "@type": "Person",
+        "vocab:fullName": "Marina Delgado"
+      }
+    ],
+    "vocab:subjects": [
+      {
+        "@type": "Course",
+        "vocab:name": "Robótica",
+        "vocab:taughtBy": [
+          {
+            "@type": "Person",
+            "vocab:fullName": "Javier de Lope Asiaín"
+          }
+        ],
+        "vocab:description": "This course covers the fundamental concepts of robotics."
+      },
+      {
+        "@type": "Course",
+        "vocab:name": "ODKG",
+        "vocab:taughtBy": [
+          {
+            "@type": "Person",
+            "vocab:fullName": "Oscar Corcho Garcia"
+          },
+          {
+            "@type": "Person",
+            "vocab:fullName": "Daniel Garijo"
+          },
+          {
+            "@type": "Person",
+            "vocab:fullName": "Raúl Garcia Casto"
+          }
+        ],
+        "vocab:description": "This subject covers the main foundations of Open Data and Knowledge Graphs, and how these principles are being applied in numerous areas, such as digital publishing companies, open data portals around the world, etc."
+      }
+    ]
+  }
+  
