@@ -1,0 +1,70 @@
+#NOMBRE: ALISSON VANEZA GUTIERREZ GARCIA
+
+# 1 Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician>)
+
+SELECT DISTINCT ?pred_pol
+WHERE {
+   ?var_politician a <http://dbpedia.org/ontology/Politician> .
+   ?var_politician ?pred_pol ?obj_pol
+}
+# FILE RESULT: query-result-1.html 
+# LINK RESULT: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fpred_pol%0D%0AWHERE+%7B%0D%0A+++%3Fvar_politician+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fvar_politician+%3Fpred_pol+%3Fobj_pol%0D%0A%7D%0D%0A&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+# 2 Get all the properties, except rdf:type, that can be applied to instances of the Politician
+SELECT DISTINCT ?pred_pol
+WHERE {
+   ?var_politician a <http://dbpedia.org/ontology/Politician> .
+   ?var_politician ?pred_pol ?obj_pol .
+   FILTER (
+      ?pred_pol != rdf:type
+   )
+}
+# FILE RESULT: query-result-2.html 
+# LINK RESULT: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fpred_pol%0D%0AWHERE+%7B%0D%0A+++%3Fvar_politician+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fvar_politician+%3Fpred_pol+%3Fobj_pol+.%0D%0A+++FILTER+%28%0D%0A++++++%3Fpred_pol+%21%3D+rdf%3Atype%0D%0A+++%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+#3 Which different values exist for the properties, except for rdf:type, applicable to the instances of Politician?
+
+SELECT ?pred_pol ?obj_pol
+WHERE {
+   ?var_politician a <http://dbpedia.org/ontology/Politician> .
+   ?var_politician ?pred_pol ?obj_pol .
+   FILTER (
+      ?pred_pol != rdf:type
+   )
+}
+# FILE RESULT: query-result-3.html 
+# LINK RESULT: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT+%3Fpred_pol+%3Fobj_pol%0D%0AWHERE+%7B%0D%0A+++%3Fvar_politician+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fvar_politician+%3Fpred_pol+%3Fobj_pol+.%0D%0A+++FILTER+%28%0D%0A++++++%3Fpred_pol+%21%3D+rdf%3Atype%0D%0A+++%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+# 4 For each of these applicable properties, except for rdf:type, which different values do they take globally for all those instances?
+
+SELECT
+   ?pred_pol (GROUP_CONCAT(DISTINCT ?obj_pol; separator=" , ") AS ?distinctValues)
+WHERE {
+   ?var_politician a <http://dbpedia.org/ontology/Politician> .
+   ?var_politician ?pred_pol ?obj_pol .
+   FILTER (
+      ?pred_pol != rdf:type
+   )
+}
+GROUP BY ?pred_pol
+# FILE RESULT: query-result-4.html 
+# LINK RESULT: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT%0D%0A+++%3Fpred_pol+%28GROUP_CONCAT%28DISTINCT+%3Fobj_pol%3B+separator%3D%22+%2C+%22%29+AS+%3FdistinctValues%29%0D%0AWHERE+%7B%0D%0A+++%3Fvar_politician+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fvar_politician+%3Fpred_pol+%3Fobj_pol+.%0D%0A+++FILTER+%28%0D%0A++++++%3Fpred_pol+%21%3D+rdf%3Atype%0D%0A+++%29%0D%0A%7D%0D%0AGROUP+BY+%3Fpred_pol&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
+
+
+# 5 For each of these applicable properties, except for rdf:type, how many distinct values do they take globally for all those instances?
+
+SELECT
+   ?pred_pol (COUNT(DISTINCT ?obj_pol) AS ?distinctValuesCount)
+WHERE {
+   ?var_politician a <http://dbpedia.org/ontology/Politician> .
+   ?var_politician ?pred_pol ?obj_pol .
+   FILTER (
+      ?pred_pol != rdf:type
+   )
+}
+GROUP BY ?pred_pol
+# FILE RESULT: query-result-5.html 
+# LINK RESULT: https://es.dbpedia.org/sparql?default-graph-uri=&query=SELECT%0D%0A+++%3Fpred_pol+%28COUNT%28DISTINCT+%3Fobj_pol%29+AS+%3FdistinctValuesCount%29%0D%0AWHERE+%7B%0D%0A+++%3Fvar_politician+a+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FPolitician%3E+.%0D%0A+++%3Fvar_politician+%3Fpred_pol+%3Fobj_pol+.%0D%0A+++FILTER+%28%0D%0A++++++%3Fpred_pol+%21%3D+rdf%3Atype%0D%0A+++%29%0D%0A%7D%0D%0AGROUP+BY+%3Fpred_pol&should-sponge=&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+
